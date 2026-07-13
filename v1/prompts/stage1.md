@@ -308,22 +308,28 @@ Total accepted branches become the lexical seed count, but controlled synthesis 
 
 ## Required sweep procedure
 
-Perform an auditable exhaustive cross-branch sweep per seed. Visit all roots exhaustively and treat each other root as a continuous root dossier:
+Perform an auditable cross-root sweep per seed. For each other passage root, read its returned branches as one continuous root dossier, preserving branch IDs and the exact `branch_image_ar` + `what_is_ar` content:
 
 ```text
-B001 branch_image_ar + what_is_ar → B002 ... → B00n ...
+root dossier =
+  B001 branch_image_ar + what_is_ar
+  B002 branch_image_ar + what_is_ar
+  ...
+  B00n branch_image_ar + what_is_ar
 ```
+
+The purpose of this sweep is not to exploit the number of branch visits as evidence. Exhaustive reading is only the control condition that prevents missed material. Construction may continue only through branches that specifically complete an open passage-local role created by the seed.
 
 For each seed:
 
 1. Form the seed’s open roles and initial predictions.
-2. Read every other Stage 1 root dossier as continuous prose while preserving branch IDs.
+2. Read each other root dossier as continuous prose while preserving branch IDs.
 3. Select zero, one, or several branches that specifically complete a passage-local role.
-4. Fork when multiple branches support genuinely different models.
+4. Fork when multiple selected branches support genuinely different models.
 5. Continue constructive traversal only through selected branches.
 6. Never blend unselected branches into a generalized root meaning.
 7. Freeze the model before testing unused words, morphology, attachments, sequence, and later occurrences.
-8. Grade by specificity and independent corroboration, not by branch-visit count.
+8. Grade by specificity, role completion, and independent corroboration, not by branch-visit count.
 
 ## Resources
 
@@ -422,7 +428,7 @@ sqlite3 -header -column resources/furuq_v4.sqlite \
    order by b.root_norm, b.branch_id;"
 ```
 
-Treat each root’s returned branches as a continuous dossier:
+Treat each root’s returned branches as one continuous dossier, not as separate opportunities to accumulate evidence:
 
 ```text
 root_norm

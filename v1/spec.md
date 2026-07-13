@@ -14,10 +14,18 @@ The workflow must preserve auditability: every candidate must identify the seed,
 - Passes: two.
 - Pass 1 input: `v1/prompts/stage1.md`.
 - Pass 1 purpose: exhaustive discovery of candidate synthesis units by seed.
-- Pass 2 input: prose distilled from Pass 1 results, sent back to the same Stage 1 agent.
+- Pass 2 input: the verbatim follow-up prose below, sent back to the same Stage 1 agent after Pass 1 is complete.
 - Pass 2 purpose: consolidate, prune, and clarify Stage 1 candidates while preserving seed-level audit trails.
 
 Stage 1 must prioritize temporal exposure, constructive traversal, reactivation, prediction, freeze-points, and independent corroboration.
+
+#### Stage 1 Pass 2 follow-up prose
+
+The orchestration agent must send the following text verbatim as the follow-up pass after Stage 1 Pass 1 has completed:
+
+```text
+I see that you visited only a limited number of words per finding. Identify the root cause for that limitation. Then restart from the very first word and perform exhaustive work, applying the same deep lexical standard to every word.
+```
 
 ### Stage 2: Deep lexical synthesis
 
