@@ -365,6 +365,12 @@ Do not use āmanū as the main reason the spear image cannot become literal viol
 
 No branch should be counted twice for the same feature. A branch that expanded the image before freeze is not also corroboration unless a distinct unused dimension of that same root is being tested after freeze. For example, ṣabr B001 remains `E` if it built steadiness into the image before freeze; it can become `C` only in another seed pass where it was unused at freeze, or where a distinct unused dimension is tested after freeze. The goal is not to make every seed succeed. The goal is to let each seed generate whatever image it can, expand only through branches that actually transform or complete the developing image, freeze the result, and then test whether later or unused passage evidence corroborates, constrains, narrows, or defeats it.
 
+### Method reminder for every seed pass
+
+For every eligible word or construction, initiate its own seed pass: form its initial image, read the other passage-root dossiers, expand only through branches that activate, transform, complete, or meaningfully fork the developing image, freeze the model, and then test unused passage features for corroboration or constraint. Within each seed pass, read every other passage-root dossier as continuous branch-preserving prose before selecting only the branches that transform, complete, or fork the developing image in a passage-local way. Describe each resulting image vividly and cite the exact branches that entered it. Preserve incomplete and uncertain images.
+
+After each image is formed, keep construction and corroboration/constraint separate: identify which branches generated or expanded the image, then note which unused roots, unused words, morphology, attachments, sequence, repetition, ayah boundaries, or additional dimensions of already-used roots corroborate, constrain, narrow, defeat, or fail to affect that image. Apply the same deep lexical standard to every word, not only to the words that appear promising early. Do not grade prematurely, over-audit, validate conclusively, or force any individual image-branch into passage-wide coverage.
+
 ## Multi-seed convergence
 
 Every branch taking a turn as seed lets us ask whether distinct starting points converge:
