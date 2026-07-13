@@ -89,7 +89,7 @@ C2: intervention into an internally degrading pressure-state
 C3: a complete prevention/counter-degradation system
 ```
 
-At each stage, the newly formed composite becomes the next search key. You are no longer searching for things merely “similar to ḥaqq.” You are searching for open roles created by the growing image:
+At each stage, the newly formed composite becomes the next search key. You are no longer searching for things merely “similar to ḥaqq.” You are following roles and pressures that emerge from the growing image:
 
 - instrument;
 - operation;
@@ -280,11 +280,13 @@ The image is then frozen with predictions such as:
 - expected: repair;
 - expected: persistence under pressure.
 
-If previously unused āmanū, fī, ṣāliḥāt, ṣabr, and ʿaṣr subsequently satisfy those roles, they genuinely strengthen it.
+If previously unused āmanū, fī, ṣāliḥāt, ṣabr, and ʿaṣr subsequently satisfy those roles, they genuinely strengthen it. In any run where ṣabr has already expanded the image before freeze, the same ṣabr branch must remain `E`, not `C`. Ṣabr may count as `C` only in a different seed pass where it was unused at freeze, or when a distinct unused dimension of the root is tested after freeze.
 
 ## Seed image-branch lifecycle
 
-Basmala may appear in the sacred Arabic text as recitational opening context. Include its words, roots, morphology, and sequence position for support, constraint, and reactivation, but never initiate a seed from basmala itself. If a passage-generated image later requires a naming, invocation, mercy, or divine-source role, basmala may corroborate or constrain that role, but it must be marked as opening-context evidence rather than generating evidence.
+Basmala may appear in the sacred Arabic text as recitational opening context. Include its words, roots, morphology, and sequence position for corroboration, constraint, and reactivation, but never initiate a seed from basmala itself. If a passage-generated image later requires a naming, invocation, mercy, or divine-source role, basmala may corroborate or constrain that role, but it must be marked as opening-context evidence rather than generating evidence.
+
+If the orchestration prompt includes basmala as opening context, it is permitted to inspect its QAC words/morphemes and, only when needed for opening-context corroboration or resistance, uncontaminated furuq branches for its roots. These may never initiate seeds and must be labeled `opening-context`; they are outside the lexical seed count for the assigned interval.
 
 For each focus branch or seed:
 
@@ -295,14 +297,14 @@ Start from one focused branch of one rooted word or eligible construction.
 Example structure:
 
 ```text
-focus branch → initial image → open roles / predictions
+focus branch → initial image → developing image-branch
 ```
 
 ### 2. Expansion phase
 
 Read other passage roots as continuous dossiers.
 
-Select branches only if they can expand the seed image by filling an open role, adding a necessary mechanism, introducing a missing participant, specifying medium, direction, force, or constraint, or creating a meaningful fork.
+Select branches only if they can expand the seed image by transforming it, completing something already suggested by it, adding a necessary mechanism, introducing a missing participant, specifying medium, direction, force, or constraint, or creating a meaningful fork.
 
 This can create multiple image-branches:
 
@@ -314,7 +316,7 @@ seed image
 └── ... all other expansion root branches
 ```
 
-These are not yet “supported” just because they are possible expansions. They are candidate image-branches.
+These are not yet corroborated just because they are possible expansions. They are candidate image-branches.
 
 ### 3. Freeze point
 
@@ -328,11 +330,11 @@ Record:
 - predictions created by that model;
 - which passage features have not yet been used.
 
-### 4. Support / corroboration phase
+### 4. Corroboration / constraint phase
 
 Now test each frozen image-branch.
 
-Support can come from:
+Corroboration or constraint can come from:
 
 - unused roots or words;
 - morphology;
@@ -343,13 +345,19 @@ Support can come from:
 - later occurrences;
 - other dimensions of roots already used.
 
-The important nuance: a root or branch used for expansion may still have another dimension that later supports the image, but that support must be named separately. Do not double-count the same fact as both construction and corroboration.
+The important nuance: a root or branch used for expansion may still have another dimension that later corroborates or constrains the image, but that corroboration or constraint must be named separately. Do not double-count the same fact as both construction and corroboration.
 
 ### 5. Constraint / rejection phase
 
 If unused information resists the image, narrows it, or fails to fit, mark that too. Some image-branches should terminate.
 
-Expansion builds candidate images; support tests them after construction.
+Expansion builds candidate images; corroboration and resistance test them after construction.
+
+### Example prose walkthrough
+
+Begin with one occurrence and one branch. Suppose the focus seed is the ḥaqq branch that gives an image of inward penetration. At first this is only a small image: something directed inward, entering or piercing toward an interior. Do not decide in advance what the whole image must become. Let the next branches show whether the seed can move, thicken, transform, or die. If a relevant ʿamal branch supplies operating or handling a spear, it turns the bare penetration image into an enacted operation, so it is expansion rather than corroboration `(E: عمل B002)`. If a ṣabr branch supplies steadiness, restraint, or maintained holding, it expands the developing image into controlled and sustained penetration rather than a momentary strike `(E: صبر B00x)`. These branches are not yet corroboration; they are part of the construction of a candidate image. If another branch creates a meaningfully different way for the image to develop, keep it as a separate image-branch rather than blending it into the first.
+
+Once the candidate image has enough structure, freeze it. For example, the frozen image might now be “a controlled, steady intervention directed into an interior.” At freeze, record only what the constructed image itself now appears to require or imply. Do not import known passage roles as predictions merely because they occur later in the passage. In the S103 example, if the controlled inward-intervention image itself has generated questions such as “into what?”, “under what pressure?”, or “what prevents deterioration?”, those may be written as predictions; otherwise leave them unpredicted and test them only as later observations. Only after this freeze should unused material be tested as corroboration or resistance. If the āmanū root dossier, or a specific branch within it, was not used to build the image, that unused material may corroborate the predicted inner locus if it independently supplies inward assent or security `(C: ءمن B002)`. The same material may also constrain the simulation by preventing it from becoming literal violence, bodily piercing, or a replacement meaning for ḥaqq `(R: ءمن B002)`. No branch should be counted twice for the same feature: a branch that expanded the image before freeze is not also corroboration unless a distinct unused dimension of that same root is being tested after freeze. If an unused word, morphology, attachment, sequence position, or branch resists the candidate image, mark that resistance explicitly `(R: root B###)` and narrow or terminate the image-branch. The goal is not to make every seed succeed. The goal is to let each seed generate whatever image it can, expand only through branches that actually transform or complete the developing image, freeze the result, and then test whether later or unused passage evidence actually corroborates, narrows, or defeats it.
 
 ## Multi-seed convergence
 
@@ -387,14 +395,14 @@ root dossier =
   B00n branch_image_ar + what_is_ar
 ```
 
-The purpose of this sweep is not to exploit the number of branch visits as evidence. Exhaustive reading is only the control condition that prevents missed material. Construction may continue only through branches that specifically complete an open passage-local role created by the seed.
+The purpose of this sweep is not to exploit the number of branch visits as evidence. Exhaustive reading is only the control condition that prevents missed material. Construction may continue only through branches that specifically transform, complete, or fork the developing image in a passage-local way.
 
 For each seed:
 
-1. Form the seed’s open roles and initial predictions.
+1. Form the seed’s initial image and let subsequent branch dossiers show whether it can move, thicken, transform, fork, or die.
 2. Read each other root dossier as continuous prose while preserving branch IDs.
-3. Select zero, one, or several branches that specifically complete a passage-local role.
-4. Fork when multiple selected branches support genuinely different models.
+3. Select zero, one, or several branches that specifically transform, complete, or fork the developing image in a passage-local way.
+4. Fork when multiple selected branches produce genuinely different models.
 5. Continue constructive traversal only through selected branches.
 6. Never blend unselected branches into a generalized root meaning.
 7. Freeze the model before testing unused words, morphology, attachments, sequence, and later occurrences.
@@ -514,12 +522,15 @@ For each seed, output:
 
 - seed occurrence and branch ID, or constructional/morphosyntactic/temporal seed description;
 - short title for the finding or image-branch;
-- open roles and initial predictions;
+- initial image and any predictions or implications that emerged during construction;
 - roots visited and selected branches;
 - short prose image description with every used root + branch ID marked by role:
   - `E` = expanding / generating branch used before freeze;
-  - `S` = supporting / corroborating branch or root-dimension used after freeze;
-  - format example: `(E: ع ط و B002)`, `(S: ر ح م B001 opening-context)`;
+  - `C` = corroborating branch or root-dimension used after freeze;
+  - `R` = resisting, narrowing, or constraining branch or root-dimension used after freeze;
+  - format example: `(E: ع ط و B002)`, `(C: ر ح م B001 opening-context)`, `(R: ء م ن B002)`;
+- for non-branch evidence, use the same labels without a branch ID, for example `(C: morphology Form VIII)`, `(C: sequence 103:2→103:3)`, `(R: attachment row ...)`, or `(C: basmala opening-context)`;
+- when the same root contributes more than one role, name the distinct feature, for example `(E: صبر B00x steadiness-before-freeze)` versus `(C: صبر B00x endurance-after-freeze)`;
 - branches rejected or terminated when relevant;
 - generating set;
 - frozen model;
@@ -531,6 +542,6 @@ For each seed, output:
 - final grade: strong, medium-strong, medium, weak, or unlikely;
 - short grade rationale.
 
-Only add a very short interpretation at the end if the image-generation process produced a coherent image. An image may begin with weak expansion or support links and still become coherent through later role completion and corroboration. Do not upgrade weak lexical evidence into primary contextual meaning; describe its subordinate role.
+Only add a very short interpretation at the end if the image-generation process produced a coherent image. An image may begin with weak expansion or corroborating links and still become coherent through later role completion and corroboration. Do not upgrade weak lexical evidence into primary contextual meaning; describe its subordinate role.
 
 Failed seeds are part of the audit trail. Mark them explicitly rather than omitting them.
