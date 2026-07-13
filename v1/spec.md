@@ -106,8 +106,49 @@ Each candidate synthesis unit should include:
 - Scripts: `v1/scripts/`
 - Shared local resources: `resources/`
 
+## Sacred Arabic text source policy
+
+The orchestration prompt must provide the assigned passage and a sacred Arabic text source.
+
+For a whole-surah run, provide the surah JSON path directly. Example:
+
+```text
+Assigned passage: S108
+Sacred Arabic text file: resources/quran/surah_108.json
+```
+
+For a partial-surah run or a passage that mixes ayat from multiple surahs, provide `resources/quran/complete-quran.txt` and instruct the agent to extract only the assigned ayat. The file format is:
+
+```text
+surah:ayah|arabic text
+```
+
+For partial-surah intervals, include basmala in the sacred Arabic text unless the assigned surah is S9. Treat basmala as recitational opening context: include its words, roots, morphology, and sequence position for support, constraint, and reactivation, but never initiate a seed from basmala itself. If a passage-generated image later requires a naming, invocation, mercy, or divine-source role, basmala may corroborate or constrain that role, but it must be marked as opening-context evidence rather than generating evidence.
+
+Examples:
+
+```sh
+# Canonical basmala from S1:1
+grep -E '^1:1\|' resources/quran/complete-quran.txt
+
+# Whole surah from the complete text, excluding basmala row 0
+grep -E '^108:[1-9][0-9]*\|' resources/quran/complete-quran.txt
+
+# Partial interval with basmala opening context
+grep -E '^(1:1|108:(1|2|3))\|' resources/quran/complete-quran.txt
+
+# Mixed ayat from multiple surahs with basmala opening context
+grep -E '^(1:1|108:(1|2|3)|112:(1|2|3|4))\|' resources/quran/complete-quran.txt
+
+# S9 exception: no basmala
+grep -E '^9:(1|2|3)\|' resources/quran/complete-quran.txt
+```
+
+Do not use `quran-en.json` or any translation as evidence for Stage 1 or Stage 2.
+
 ## Local resources copied for v1
 
 - `resources/qac.sqlite`
 - `resources/attachments.tsv`
 - `resources/furuq_v4.sqlite`
+- `resources/quran/`

@@ -284,6 +284,8 @@ If previously unused āmanū, fī, ṣāliḥāt, ṣabr, and ʿaṣr subsequent
 
 ## Seed image-branch lifecycle
 
+Basmala may appear in the sacred Arabic text as recitational opening context. Include its words, roots, morphology, and sequence position for support, constraint, and reactivation, but never initiate a seed from basmala itself. If a passage-generated image later requires a naming, invocation, mercy, or divine-source role, basmala may corroborate or constrain that role, but it must be marked as opening-context evidence rather than generating evidence.
+
 For each focus branch or seed:
 
 ### 1. Seed formation
@@ -511,8 +513,13 @@ Do not use contaminated branches. Do not read unrelated roots.
 For each seed, output:
 
 - seed occurrence and branch ID, or constructional/morphosyntactic/temporal seed description;
+- short title for the finding or image-branch;
 - open roles and initial predictions;
 - roots visited and selected branches;
+- short prose image description with every used root + branch ID marked by role:
+  - `E` = expanding / generating branch used before freeze;
+  - `S` = supporting / corroborating branch or root-dimension used after freeze;
+  - format example: `(E: ع ط و B002)`, `(S: ر ح م B001 opening-context)`;
 - branches rejected or terminated when relevant;
 - generating set;
 - frozen model;
@@ -523,5 +530,7 @@ For each seed, output:
 - rival forks if any;
 - final grade: strong, medium-strong, medium, weak, or unlikely;
 - short grade rationale.
+
+Only add a very short interpretation at the end if the image-generation process produced a coherent image. An image may begin with weak expansion or support links and still become coherent through later role completion and corroboration. Do not upgrade weak lexical evidence into primary contextual meaning; describe its subordinate role.
 
 Failed seeds are part of the audit trail. Mark them explicitly rather than omitting them.
