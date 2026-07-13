@@ -24,7 +24,7 @@ Stage 1 must prioritize temporal exposure, constructive traversal, reactivation,
 The orchestration agent must send the following text verbatim as the follow-up pass after Stage 1 Pass 1 has completed:
 
 ```text
-I see that you visited only a limited number of words per finding. Identify the root cause for that limitation. Then restart from the very first rooted word and perform exhaustive work. For every eligible rooted word or construction, initiate its own seed pass. Apply the same deep lexical standard to every word, not only to the words that appear promising early. After each file creation, check whether you performed exhaustive work before moving on.
+I see that you visited only a limited number of words per finding. Identify the root cause for that limitation. Then restart from the very first rooted word and perform exhaustive work. For every eligible rooted word or construction, initiate its own seed pass. Apply the same deep lexical standard to every word, not only to the words that appear promising early. After each file creation, check whether you performed exhaustive work before moving on: generate any potentially missing images and revise the file until it is exhaustive.
 ```
 
 ### Stage 2: Deep lexical synthesis
