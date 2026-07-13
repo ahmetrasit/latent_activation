@@ -24,7 +24,9 @@ Stage 1 must prioritize temporal exposure, constructive traversal, reactivation,
 The orchestration agent must send the following text verbatim as the follow-up pass after Stage 1 Pass 1 has completed:
 
 ```text
-I see that you visited only a limited number of words per finding. Identify the root cause for that limitation. Then restart from the very first word and perform exhaustive work, applying the same deep lexical standard to every word.
+I see that you visited only a limited number of words per finding. Identify the root cause for that limitation. Then restart from the very first rooted word. For every eligible word or construction, initiate its own seed pass: form its initial image, derive open roles and predictions, expand only through selected role-completing branches, freeze the model, and then test unused passage features for corroboration or constraint. Within each seed pass, read every other passage-root dossier as continuous branch-preserving prose before selecting only the branches that complete a passage-local role. Follow any branch that activates, transforms, completes, or meaningfully forks the developing image. Describe each resulting image vividly and cite the exact branches that entered it. Preserve incomplete and uncertain images.
+
+After each image is formed, keep construction and support separate: identify which branches generated or expanded the image, then note which unused roots, unused words, morphology, attachments, sequence, repetition, ayah boundaries, or additional dimensions of already-used roots support, resist, narrow, or fail to affect that image. Apply the same deep lexical standard to every word, not only to the words that appear promising early. Do not grade, over-audit, validate conclusively, or force any individual image-branch into passage-wide coverage.
 ```
 
 ### Stage 2: Deep lexical synthesis

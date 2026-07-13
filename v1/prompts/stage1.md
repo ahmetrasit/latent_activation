@@ -282,6 +282,73 @@ The image is then frozen with predictions such as:
 
 If previously unused āmanū, fī, ṣāliḥāt, ṣabr, and ʿaṣr subsequently satisfy those roles, they genuinely strengthen it.
 
+## Seed image-branch lifecycle
+
+For each focus branch or seed:
+
+### 1. Seed formation
+
+Start from one focused branch of one rooted word or eligible construction.
+
+Example structure:
+
+```text
+focus branch → initial image → open roles / predictions
+```
+
+### 2. Expansion phase
+
+Read other passage roots as continuous dossiers.
+
+Select branches only if they can expand the seed image by filling an open role, adding a necessary mechanism, introducing a missing participant, specifying medium, direction, force, or constraint, or creating a meaningful fork.
+
+This can create multiple image-branches:
+
+```text
+seed image
+├── expansion A using root X branch B002
+├── expansion B using root Y branch B004
+├── expansion C using root X + root Z
+└── ... all other expansion root branches
+```
+
+These are not yet “supported” just because they are possible expansions. They are candidate image-branches.
+
+### 3. Freeze point
+
+Once an image-branch has been constructed from selected expansion material, freeze it.
+
+Record:
+
+- generating seed;
+- expansion roots/branches used;
+- model/image created;
+- predictions created by that model;
+- which passage features have not yet been used.
+
+### 4. Support / corroboration phase
+
+Now test each frozen image-branch.
+
+Support can come from:
+
+- unused roots or words;
+- morphology;
+- attachments;
+- word order;
+- repetition;
+- ayah boundaries;
+- later occurrences;
+- other dimensions of roots already used.
+
+The important nuance: a root or branch used for expansion may still have another dimension that later supports the image, but that support must be named separately. Do not double-count the same fact as both construction and corroboration.
+
+### 5. Constraint / rejection phase
+
+If unused information resists the image, narrows it, or fails to fit, mark that too. Some image-branches should terminate.
+
+Expansion builds candidate images; support tests them after construction.
+
 ## Multi-seed convergence
 
 Every branch taking a turn as seed lets us ask whether distinct starting points converge:
