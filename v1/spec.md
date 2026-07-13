@@ -31,6 +31,27 @@ The orchestration agent must send the following text verbatim as the follow-up p
 I see that you visited only a limited number of words per finding. Identify the root cause for that limitation. Then restart from the very first rooted word and perform exhaustive work. For every eligible rooted word or construction, initiate its own seed pass. Apply the same deep lexical standard to every word, not only to the words that appear promising early. After each file creation, check whether you performed exhaustive work before moving on: generate any potentially missing images and revise the file until it is exhaustive.
 ```
 
+#### Optional Stage 1 Pass 2 recordkeeping suggestion
+
+This is not currently required, but may be useful for future Stage 1 Pass 2 output normalization. Pass 2 may end with a standalone Image Packet Catalog, one packet per distinct image-fork:
+
+```text
+IMAGE_ID
+Starting seed
+Complete image
+Passage-order assembly
+Participants and roles
+Operation / mechanism
+Direction / force / medium
+Temporal development
+Outcome / closure
+Exact branch constituents
+Unfilled roles, if any
+Status: COMPLETE or FRAGMENT
+```
+
+A `COMPLETE` image need not explain the whole surah. It means every role opened by that particular image has been filled. Distinct simulations must remain separate: body and childbirth, water and pastoral ecology, direction and covenant, praise and hostile labeling should each receive their own packet.
+
 ### Stage 2: Deep lexical synthesis
 
 - Agent: fresh `sol 5.6-max` agent.
