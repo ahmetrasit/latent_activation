@@ -24,9 +24,7 @@ Stage 1 must prioritize temporal exposure, constructive traversal, reactivation,
 The orchestration agent must send the following text verbatim as the follow-up pass after Stage 1 Pass 1 has completed:
 
 ```text
-I see that you visited only a limited number of words per finding. Identify the root cause for that limitation. Then restart from the very first rooted word. For every eligible word or construction, initiate its own seed pass: form its initial image, read the other passage-root dossiers, expand only through branches that activate, transform, complete, or meaningfully fork the developing image, freeze the model, and then test unused passage features for corroboration or constraint. Within each seed pass, read every other passage-root dossier as continuous branch-preserving prose before selecting only the branches that complete a passage-local role. Describe each resulting image vividly and cite the exact branches that entered it. Preserve incomplete and uncertain images.
-
-After each image is formed, keep construction and corroboration/constraint separate: identify which branches generated or expanded the image, then note which unused roots, unused words, morphology, attachments, sequence, repetition, ayah boundaries, or additional dimensions of already-used roots corroborate, resist, narrow, or fail to affect that image. Apply the same deep lexical standard to every word, not only to the words that appear promising early. Do not grade, over-audit, validate conclusively, or force any individual image-branch into passage-wide coverage.
+I see that you visited only a limited number of words per finding. Identify the root cause for that limitation. Then restart from the very first rooted word and perform exhaustive work. For every eligible rooted word or construction, initiate its own seed pass. Apply the same deep lexical standard to every word, not only to the words that appear promising early.
 ```
 
 ### Stage 2: Deep lexical synthesis
@@ -91,7 +89,7 @@ Each candidate synthesis unit should include:
 - `predictions_at_freeze`
 - `unused_features_tested`
 - `corroborators`
-- `constraints_or_resistance`
+- `constraints`
 - `temporal_reactivation_notes`
 - `rival_models`
 - `grade`: strong, medium-strong, medium, weak, or unlikely

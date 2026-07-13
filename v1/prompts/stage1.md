@@ -286,7 +286,7 @@ If previously unused āmanū, fī, ṣāliḥāt, ṣabr, and ʿaṣr subsequent
 
 Basmala may appear in the sacred Arabic text as recitational opening context. Include its words, roots, morphology, and sequence position for corroboration, constraint, and reactivation, but never initiate a seed from basmala itself. If a passage-generated image later requires a naming, invocation, mercy, or divine-source role, basmala may corroborate or constrain that role, but it must be marked as opening-context evidence rather than generating evidence.
 
-If the orchestration prompt includes basmala as opening context, it is permitted to inspect its QAC words/morphemes and, only when needed for opening-context corroboration or resistance, uncontaminated furuq branches for its roots. These may never initiate seeds and must be labeled `opening-context`; they are outside the lexical seed count for the assigned interval.
+If the orchestration prompt includes basmala as opening context, it is permitted to inspect its QAC words/morphemes and, only when needed for opening-context corroboration or constraint, uncontaminated furuq branches for its roots. These may never initiate seeds and must be labeled `opening-context`; they are outside the lexical seed count for the assigned interval.
 
 For each focus branch or seed:
 
@@ -349,15 +349,21 @@ The important nuance: a root or branch used for expansion may still have another
 
 ### 5. Constraint / rejection phase
 
-If unused information resists the image, narrows it, or fails to fit, mark that too. Some image-branches should terminate.
+If unused information constrains the image, narrows it, or fails to fit, mark that too. Some image-branches should terminate.
 
-Expansion builds candidate images; corroboration and resistance test them after construction.
+Expansion builds candidate images; corroboration and constraint test them after construction.
 
 ### Example prose walkthrough
 
-Begin with one occurrence and one branch. Suppose the focus seed is the ḥaqq branch that gives an image of inward penetration. At first this is only a small image: something directed inward, entering or piercing toward an interior. Do not decide in advance what the whole image must become. Let the next branches show whether the seed can move, thicken, transform, or die. If a relevant ʿamal branch supplies operating or handling a spear, it turns the bare penetration image into an enacted operation, so it is expansion rather than corroboration `(E: عمل B002)`. If a ṣabr branch supplies steadiness, restraint, or maintained holding, it expands the developing image into controlled and sustained penetration rather than a momentary strike `(E: صبر B00x)`. These branches are not yet corroboration; they are part of the construction of a candidate image. If another branch creates a meaningfully different way for the image to develop, keep it as a separate image-branch rather than blending it into the first.
+Begin with one occurrence and one branch. Suppose the focus seed is the ḥaqq branch that gives an image of a penetrating stab reaching inward `(Seed: ح ق ق B009)`. At first this is only a small image: something directed inward, entering or piercing toward an interior. Do not decide in advance what the whole image must become. Let the next branches show whether the seed can move, thicken, transform, or die. If a relevant ʿamal branch supplies operating or employing something, including the spear, it turns the bare penetration image into an enacted operation, so it is expansion rather than corroboration `(E: ع م ل B002)`. If ṣabr supplies self-restraint and steadiness, it expands the developing image into controlled and sustained penetration rather than a momentary strike `(E: ص ب ر B001)`. These branches are not yet corroboration; they are part of the construction of a candidate image. If fī plus the khusr branch gives the operation a containing field of loss or degradation, the image becomes an intervention directed into an enclosed degrading state `(E: خ س ر B001 + فِي attachment)`. If ʿaṣr supplies pressure and extraction by squeezing, it thickens the enclosure into a pressure-state `(E: ع ص ر B002)`, while its separate temporal dimension may remain distinct as duration or succession `(E: ع ص ر B001)`. If another branch creates a meaningfully different way for the image to develop, keep it as a separate image-branch rather than blending it into the first. At this point the candidate image can be frozen.
 
-Once the candidate image has enough structure, freeze it. For example, the frozen image might now be “a controlled, steady intervention directed into an interior.” At freeze, record only what the constructed image itself now appears to require or imply. Do not import known passage roles as predictions merely because they occur later in the passage. In the S103 example, if the controlled inward-intervention image itself has generated questions such as “into what?”, “under what pressure?”, or “what prevents deterioration?”, those may be written as predictions; otherwise leave them unpredicted and test them only as later observations. Only after this freeze should unused material be tested as corroboration or resistance. If the āmanū root dossier, or a specific branch within it, was not used to build the image, that unused material may corroborate the predicted inner locus if it independently supplies inward assent or security `(C: ءمن B002)`. The same material may also constrain the simulation by preventing it from becoming literal violence, bodily piercing, or a replacement meaning for ḥaqq `(R: ءمن B002)`. No branch should be counted twice for the same feature: a branch that expanded the image before freeze is not also corroboration unless a distinct unused dimension of that same root is being tested after freeze. If an unused word, morphology, attachment, sequence position, or branch resists the candidate image, mark that resistance explicitly `(R: root B###)` and narrow or terminate the image-branch. The goal is not to make every seed succeed. The goal is to let each seed generate whatever image it can, expand only through branches that actually transform or complete the developing image, freeze the result, and then test whether later or unused passage evidence actually corroborates, narrows, or defeats it.
+This example teaches evidence timing, not a preferred image template; other seeds may produce entirely different scenes or terminate without synthesis.
+
+Only after freeze should unused material be tested as corroboration or constraint. If the āmanū root dossier, or a specific branch within it, was not used to build the image, that unused material may corroborate the predicted inward human locus if it independently supplies inward assent or security `(C: ء م ن B002)`. If ṣāliḥāt was unused at freeze, it may corroborate the repair or counter-degradation role `(C: ص ل ح B001)`. If tawāṣaw was unused at freeze, it may corroborate the social and reciprocal maintenance of the image `(C: و ص ي B003)`.
+
+Do not use āmanū as the main reason the spear image cannot become literal violence. The decisive constraint is local form and syntax: `بِالْحَقِّ` is a noun governed by `بـ`; it is the content complement of reciprocal counsel in `تواصوا بالحق`; and the passage supplies no weapon, wielder, target, strike, or wound construction. Record this as a constraint, not as corroboration: `(K: بِالْحَقِّ is counsel-content, not a weapon event; no literal combat roles are supplied)`.
+
+No branch should be counted twice for the same feature. A branch that expanded the image before freeze is not also corroboration unless a distinct unused dimension of that same root is being tested after freeze. For example, ṣabr B001 remains `E` if it built steadiness into the image before freeze; it can become `C` only in another seed pass where it was unused at freeze, or where a distinct unused dimension is tested after freeze. The goal is not to make every seed succeed. The goal is to let each seed generate whatever image it can, expand only through branches that actually transform or complete the developing image, freeze the result, and then test whether later or unused passage evidence corroborates, constrains, narrows, or defeats it.
 
 ## Multi-seed convergence
 
@@ -527,9 +533,9 @@ For each seed, output:
 - short prose image description with every used root + branch ID marked by role:
   - `E` = expanding / generating branch used before freeze;
   - `C` = corroborating branch or root-dimension used after freeze;
-  - `R` = resisting, narrowing, or constraining branch or root-dimension used after freeze;
-  - format example: `(E: ع ط و B002)`, `(C: ر ح م B001 opening-context)`, `(R: ء م ن B002)`;
-- for non-branch evidence, use the same labels without a branch ID, for example `(C: morphology Form VIII)`, `(C: sequence 103:2→103:3)`, `(R: attachment row ...)`, or `(C: basmala opening-context)`;
+  - `K` = constraining, narrowing, or defeating evidence used after freeze;
+  - format example: `(E: ع ط و B002)`, `(C: ر ح م B001 opening-context)`, `(K: بِالْحَقِّ counsel-content, not weapon event)`;
+- for non-branch evidence, use the same labels without a branch ID, for example `(C: morphology Form VIII)`, `(C: sequence 103:2→103:3)`, `(K: attachment row ...)`, or `(C: basmala opening-context)`;
 - when the same root contributes more than one role, name the distinct feature, for example `(E: صبر B00x steadiness-before-freeze)` versus `(C: صبر B00x endurance-after-freeze)`;
 - branches rejected or terminated when relevant;
 - generating set;
@@ -537,7 +543,7 @@ For each seed, output:
 - predictions at freeze;
 - unused features tested after freeze;
 - corroborators;
-- constraints or resistance;
+- constraints;
 - rival forks if any;
 - final grade: strong, medium-strong, medium, weak, or unlikely;
 - short grade rationale.
