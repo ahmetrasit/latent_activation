@@ -65,7 +65,7 @@ Stage 2 must not erase Stage 1 provenance. It may revise grades, merge duplicate
 
 #### Stage 2 Pass 1 orchestration boundary
 
-The orchestration prompt for Stage 2 Pass 1 must be minimal. It should provide only the assigned passage, the sacred Arabic text source, the permitted finding files, the target language, the prompt file path, and the output location. Do not mention Stage 2 Pass 2, Stage 3, later workflow steps, revision follow-ups, or any hidden orchestration plan in the Pass 1 prompt. The Pass 1 agent should read `v1/prompts/stage2.md` in full and strictly follow only that prompt plus the minimal routing metadata.
+The orchestration prompt for Stage 2 Pass 1 must be minimal. It should provide only the assigned passage, the sacred Arabic text source, the authorized primary scaffold if any, the permitted finding files, the supplied annotations if any, the target language, the prompt file path, and the output location. Do not mention Stage 2 Pass 2, Stage 3, later workflow steps, revision follow-ups, or any hidden orchestration plan in the Pass 1 prompt. The Pass 1 agent should read `v1/prompts/stage2.md` in full and strictly follow only that prompt plus the minimal routing metadata.
 
 #### Stage 2 Pass 2 follow-up prose
 
