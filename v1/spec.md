@@ -19,6 +19,10 @@ The workflow must preserve auditability: every candidate must identify the seed,
 
 Stage 1 must prioritize temporal exposure, constructive traversal, reactivation, prediction, freeze-points, and independent corroboration.
 
+#### Stage 1 Pass 1 orchestration boundary
+
+The orchestration prompt for Stage 1 Pass 1 must be minimal. It should provide only the assigned passage, the sacred Arabic text source, the prompt file path, and the output location. Do not mention Stage 1 Pass 2, Stage 2, later workflow steps, grading follow-ups, or any hidden orchestration plan in the Pass 1 prompt. The Pass 1 agent should read `v1/prompts/stage1.md` in full and strictly follow only that prompt plus the minimal routing metadata.
+
 #### Stage 1 Pass 2 follow-up prose
 
 The orchestration agent must send the following text verbatim as the follow-up pass after Stage 1 Pass 1 has completed:
@@ -38,12 +42,16 @@ I see that you visited only a limited number of words per finding. Identify the 
 
 Stage 2 must not erase Stage 1 provenance. It may revise grades, merge duplicates, split over-broad models, and mark unstable candidates for verification.
 
+#### Stage 2 Pass 1 orchestration boundary
+
+The orchestration prompt for Stage 2 Pass 1 must be minimal. It should provide only the assigned passage, the sacred Arabic text source, the permitted finding files, the target language, the prompt file path, and the output location. Do not mention Stage 2 Pass 2, Stage 3, later workflow steps, revision follow-ups, or any hidden orchestration plan in the Pass 1 prompt. The Pass 1 agent should read `v1/prompts/stage2.md` in full and strictly follow only that prompt plus the minimal routing metadata.
+
 #### Stage 2 Pass 2 follow-up prose
 
 The orchestration agent must send the following text verbatim as the follow-up pass after Stage 2 Pass 1 has completed:
 
 ```text
-Re-read the permitted source findings and compare them carefully with your previous synthesis, looking not only for findings that were omitted but also for distinctive lexical images that were technically mentioned yet hidden beneath generic wording; restore every strong or medium finding whose specific mechanism has been underemphasized, and retain weak findings whenever they meaningfully complete a larger image, while preserving their evidential limits. Then rewrite the entire synthesis in fluent, beautiful Turkish prose—not as corrections, annotations, or a branch catalog—so that each recovered image arises naturally at its point in the Quranic sequence, performs a clear role, receives later corroboration, and remains distinct from the word’s primary contextual meaning. Use no evidence beyond the sacred Arabic text and the supplied finding files, and make the revised prose stand entirely on its own.
+Use your previous synthesis and coverage appendix as the main basis, but check the permitted source findings selectively for any finding that is omitted, generic, under-specified, or not clearly assigned a role. Look not only for findings that were omitted, but also for distinctive lexical images that were technically mentioned yet hidden beneath generic wording. Restore every strong or medium-grade finding whose specific mechanism has been underemphasized, giving it an audible function inside a larger coherent image rather than necessarily its own sentence or paragraph; retain weak findings whenever they meaningfully complete that image, while preserving their evidential limits. Merge near-findings that perform parts of the same mechanism, and split a scene only when clarity requires it—never in a way that fragments the underlying image. Then rewrite the entire synthesis in fluent, beautiful Turkish prose, not as corrections, annotations, or a branch catalog, so that each recovered element arises naturally at its point in the Quranic sequence, performs a clear role, uses the later corroboration already recorded in the sources, and remains distinct from the word’s primary contextual meaning. Keep the reader oriented in the passage while the images progressively deepen, use no evidence beyond the sacred Arabic text and the supplied finding files, and make the revised prose stand entirely on its own.
 ```
 
 ### Stage 3: Truth verification
