@@ -2,7 +2,7 @@
 
 ## Objective
 
-Run a three-stage synthesis workflow over assigned Qurʾanic ayah intervals. The workflow is designed to discover, refine, and verify candidate synthesis units generated from temporally conditioned lexical, morphological, syntactic, and recitational activation.
+Run a two-stage synthesis workflow over assigned Qurʾanic ayah intervals. The workflow is designed to discover and refine candidate synthesis units generated from temporally conditioned lexical, morphological, syntactic, and recitational activation.
 
 The workflow must preserve auditability: every candidate must identify the seed, selected branches, unused corroborating features, constraints, grade, and evidence trail.
 
@@ -10,11 +10,12 @@ The workflow must preserve auditability: every candidate must identify the seed,
 
 ### Stage 1: Temporally conditioned reactivation
 
-- Agent: fresh `sol 5.6-max` agent.
+- Agent: fresh `gpt 5.5 high` agent.
 - Passes: two.
 - Pass 1 input: `v1/prompts/stage1.md`.
 - Pass 1 purpose: exhaustive discovery of candidate synthesis units by seed.
 - Pass 2 input: the verbatim follow-up prose below, sent back to the same Stage 1 agent after Pass 1 is complete.
+- Pass 2 output: `v1/outputs/{surah}-stage1-pass-2.md`.
 - Pass 2 purpose: consolidate, prune, and clarify Stage 1 candidates while preserving seed-level audit trails.
 
 Stage 1 must prioritize temporal exposure, constructive traversal, reactivation, prediction, freeze-points, and independent corroboration.
@@ -30,6 +31,8 @@ The orchestration agent must send the following text verbatim as the follow-up p
 ```text
 I see that you visited only a limited number of words per finding. Identify the root cause for that limitation. Then restart from the very first rooted word and perform exhaustive work. For every eligible rooted word or construction, initiate its own seed pass. Apply the same deep lexical standard to every word, not only to the words that appear promising early. After each file creation, check whether you performed exhaustive work before moving on: generate any potentially missing images and revise the file until it is exhaustive.
 ```
+
+The Stage 1 Pass 2 orchestration must provide the output location `v1/outputs/{surah}-stage1-pass-2.md`. This file is the final Stage 1 artifact and the source input for both Stage 2 runs.
 
 #### Optional Stage 1 Pass 2 recordkeeping suggestion
 
@@ -54,48 +57,36 @@ A `COMPLETE` image need not explain the whole surah. It means every role opened 
 
 ### Stage 2: Deep lexical synthesis
 
-- Agent: fresh `sol 5.6-max` agent.
-- Passes: two.
-- Pass 1 input: `v1/prompts/stage2.md`.
-- Pass 1 purpose: perform deeper lexical synthesis over the Stage 1 candidate set.
-- Pass 2 input: the verbatim follow-up prose below, sent back to the same Stage 2 agent after Pass 1 is complete.
-- Pass 2 purpose: refine lexical models, distinguish primary meaning from secondary simulation, and preserve only synthesis units with defensible lexical support.
+- Agent: fresh `gpt 5.5 high` agent for each Stage 2 run, different from the Stage 1 agent.
+- Runs: two independent sibling runs.
+- Run A input: `v1/prompts/stage2_questions_prompt_v1.txt`.
+- Run A source input: `v1/outputs/{surah}-stage1-pass-2.md`.
+- Run A output: `v1/outputs/{surah}-stage2-big-picture.md`.
+- Run A purpose: identify the surah's governing axes and big-picture structure from the Stage 1 candidate set.
+- Run B input: `v1/prompts/stage2_test.md`.
+- Run B source input: `v1/outputs/{surah}-stage1-pass-2.md`.
+- Run B output: `v1/outputs/{surah}-stage2-pass-1.md`.
+- Run B purpose: perform lexical synthesis, distinguish primary meaning from secondary simulation, and preserve only synthesis units with defensible lexical support.
+
+The two Stage 2 files are generated independently from `v1/outputs/{surah}-stage1-pass-2.md`. `v1/prompts/stage2_test.md` does not take `v1/outputs/{surah}-stage2-big-picture.md` as input.
 
 Stage 2 must not erase Stage 1 provenance. It may revise grades, merge duplicates, split over-broad models, and mark unstable candidates for verification.
 
-#### Stage 2 Pass 1 orchestration boundary
+#### Stage 2 Run A orchestration boundary
 
-The orchestration prompt for Stage 2 Pass 1 must be minimal. It should provide only the assigned passage, the sacred Arabic text source, the authorized primary scaffold if any, the permitted finding files, the supplied annotations if any, the target language, the prompt file path, and the output location. Do not mention Stage 2 Pass 2, Stage 3, later workflow steps, revision follow-ups, or any hidden orchestration plan in the Pass 1 prompt. The Pass 1 agent should read `v1/prompts/stage2.md` in full and strictly follow only that prompt plus the minimal routing metadata.
+The orchestration prompt for Stage 2 Run A must be minimal. It should provide only the assigned passage, the sacred Arabic text source, the Stage 1 Pass 2 output at `v1/outputs/{surah}-stage1-pass-2.md`, the authorized primary scaffold if any, the permitted finding files, the supplied annotations if any, the target language, the prompt file path, and the output location `v1/outputs/{surah}-stage2-big-picture.md`. Do not mention Stage 2 Run B, later workflow steps, revision follow-ups, or any hidden orchestration plan in the Run A prompt. The Run A agent should read `v1/prompts/stage2_questions_prompt_v1.txt` in full and strictly follow only that prompt plus the minimal routing metadata.
 
-#### Stage 2 Pass 2 follow-up prose
+#### Stage 2 Run B orchestration boundary
 
-The orchestration agent must send the following text verbatim as the follow-up pass after Stage 2 Pass 1 has completed:
+The orchestration prompt for Stage 2 Run B must provide only the assigned passage, the sacred Arabic text source, the Stage 1 Pass 2 output at `v1/outputs/{surah}-stage1-pass-2.md`, the authorized primary scaffold if any, the permitted finding files, the supplied annotations if any, the target language, the prompt file path, and the output location `v1/outputs/{surah}-stage2-pass-1.md`. The Run B agent should read `v1/prompts/stage2_test.md` in full and strictly follow only that prompt plus the Stage 1 Pass 2 output and minimal routing metadata.
 
-```text
-Use your previous synthesis and any coverage appendix or source notes as the main basis, checking the permitted findings selectively for strong or medium-grade mechanisms that remain omitted, generic, under-specified, or without a clear role. Restore every genuinely distinct mechanism that is not yet audible, but recover it by rewriting and deepening its existing parent scene—not by appending finding-shaped material. When several findings perform the same transformation, let their shared work be expressed once through multiple textual anchors; coverage does not require naming every concrete variant separately, provided the distinct mechanism each accepted finding contributes remains audible. Admit a weak finding only when it fills a precise open role in the active synthesis, preserving its evidential limits. Keep each recovered element grounded in the word’s primary contextual meaning while allowing its secondary geometry to deepen an already unfolding passage-scale relation. Then perform a synthesis-compression pass: fuse repeated relations, absorb grammatical qualifications and epistemic limits into the scenes they serve, and retain only secondary projections that materially change the dominant architecture. Split a scene only for clarity while carrying the active image continuously forward. Preserve or repair a brief natural Turkish primary gloss when each load-bearing Arabic span first appears, keep the unfamiliar reader periodically oriented in the Quranic sequence, and reserve the final backward replay for the passage’s transformed relations rather than an inventory of recovered findings. Rewrite the entire synthesis as fluent, beautiful, self-standing Turkish prose—not as corrections, annotations, or a branch catalog—and make the ending enact the insight without naming it. Use only the sacred Arabic text and supplied finding files.
-```
-
-### Stage 3: Truth verification
-
-- Agent: fresh `gpt 5.5 high` agent.
-- Passes: one unless later expanded.
-- Input: consolidated Stage 2 output plus source/resource references.
-- Purpose: verify truth claims, source use, evidence independence, contamination status, and grading consistency.
-
-Stage 3 must separate:
-
-- lexical fact;
-- grammatical fact;
-- attachment claim;
-- temporal/sequence claim;
-- interpretive synthesis;
-- speculative secondary simulation.
+No v1 stage uses a 5.6-series model.
 
 ## Shared constraints
 
 Agents must:
 
-1. Use only the resources explicitly named in the prompt for the relevant pass.
+1. Use only the resources explicitly named in the prompt for the relevant pass or run.
 2. Preserve branch IDs whenever branch material is used.
 3. Keep generated, constituent, corroborative, and constraining evidence separate.
 4. Freeze candidate models before testing unused words, morphology, attachments, sequence, or later occurrences.
@@ -130,6 +121,9 @@ Each candidate synthesis unit should include:
 - Prompts: `v1/prompts/`
 - Inputs or assigned ayah ranges: `v1/inputs/`
 - Outputs: `v1/outputs/`
+- Stage 1 final output: `v1/outputs/{surah}-stage1-pass-2.md`
+- Stage 2 big-picture output: `v1/outputs/{surah}-stage2-big-picture.md`
+- Stage 2 Run B output: `v1/outputs/{surah}-stage2-pass-1.md`
 - Scripts: `v1/scripts/`
 - Shared local resources: `resources/`
 
