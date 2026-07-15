@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lexical-branch.schema.json",
+  "title": "GSLS V3 Prepared Lexical Branch",
+  "type": "object",
+  "required": [
+    "root_id",
+    "root_norm",
+    "branch_id",
+    "what_is_ar",
+    "branch_image_ar",
+    "source_phrase_ar"
+  ],
+  "properties": {
+    "root_id": {"type": "string", "minLength": 1},
+    "root_norm": {"type": "string", "minLength": 1},
+    "branch_id": {"type": "string", "minLength": 1},
+    "what_is_ar": {"type": "string", "minLength": 1},
+    "branch_image_ar": {"type": "string", "minLength": 1},
+    "source_phrase_ar": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}
