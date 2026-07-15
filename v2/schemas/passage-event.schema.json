@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "passage-event.schema.json",
+  "title": "GSLS Passage Event",
+  "type": "object",
+  "required": [
+    "workflow_id",
+    "run_id",
+    "agent_id",
+    "schema_version",
+    "event_id",
+    "position",
+    "recitation_index",
+    "surface_ar",
+    "root_norm",
+    "lemma_ar",
+    "morphology",
+    "syntax_edges",
+    "discourse_edges",
+    "primary_proposition_ids",
+    "participants",
+    "primary_contextual_sense",
+    "opening_hinge_closure_role",
+    "source_refs"
+  ],
+  "properties": {
+    "workflow_id": {
+      "const": "GSLS-3A-2.0"
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agent_id": {
+      "const": "A"
+    },
+    "schema_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "position": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recitation_index": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "surface_ar": {
+      "type": "string",
+      "minLength": 1
+    },
+    "root_norm": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lemma_ar": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "morphology": {
+      "type": "object"
+    },
+    "syntax_edges": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "discourse_edges": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "primary_proposition_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "primary_contextual_sense": {
+      "type": "string",
+      "minLength": 1
+    },
+    "opening_hinge_closure_role": {
+      "enum": [
+        "opening",
+        "development",
+        "hinge",
+        "closure",
+        "multiple",
+        "none"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

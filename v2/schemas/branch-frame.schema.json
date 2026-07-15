@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "branch-frame.schema.json",
+  "title": "GSLS Branch Frame",
+  "type": "object",
+  "required": [
+    "workflow_id",
+    "run_id",
+    "agent_id",
+    "schema_version",
+    "frame_id",
+    "root_norm",
+    "branch_id",
+    "source_id",
+    "source_name",
+    "source_quote_ar",
+    "frame_status",
+    "predicate",
+    "roles",
+    "direction",
+    "medium",
+    "force",
+    "state_before",
+    "state_after",
+    "result",
+    "polarity",
+    "derivation_distance",
+    "source_refs"
+  ],
+  "properties": {
+    "workflow_id": {
+      "const": "GSLS-3A-2.0"
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agent_id": {
+      "const": "A"
+    },
+    "schema_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "frame_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "root_norm": {
+      "type": "string",
+      "minLength": 1
+    },
+    "branch_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_quote_ar": {
+      "type": "string",
+      "minLength": 1
+    },
+    "frame_status": {
+      "enum": [
+        "framed",
+        "reviewed-no-frame",
+        "source-blocked"
+      ]
+    },
+    "predicate": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "role"
+        ],
+        "properties": {
+          "role": {
+            "type": "string"
+          },
+          "filler": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "direction": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "medium": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "force": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "state_before": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "state_after": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "result": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "polarity": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "derivation_distance": {
+      "enum": [
+        "near",
+        "moderate",
+        "remote",
+        "unknown"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

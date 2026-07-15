@@ -1,0 +1,294 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "candidate-card.schema.json",
+  "title": "GSLS Candidate Card",
+  "type": "object",
+  "required": [
+    "workflow_id",
+    "run_id",
+    "agent_id",
+    "schema_version",
+    "candidate_id",
+    "version",
+    "source_lanes",
+    "primary_proposition",
+    "primary_anchors",
+    "secondary_carriers",
+    "local_trigger",
+    "relation_edges",
+    "relational_bridge",
+    "primary_effect",
+    "counterfactual",
+    "linguistic_boundary",
+    "generating_set",
+    "unused_at_freeze",
+    "corroborators",
+    "constraints",
+    "rivals",
+    "open_roles",
+    "temporal_trajectory",
+    "local_sense_status",
+    "activation_status",
+    "narrative_role",
+    "epistemic_status",
+    "lexical_evidence_strength",
+    "activation_confidence",
+    "validation_tests",
+    "source_refs",
+    "status"
+  ],
+  "properties": {
+    "workflow_id": {
+      "const": "GSLS-3A-2.0"
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agent_id": {
+      "enum": [
+        "A",
+        "B"
+      ]
+    },
+    "schema_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source_lanes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "primary_proposition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "primary_anchors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "secondary_carriers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "local_trigger": {
+      "type": "string",
+      "minLength": 1
+    },
+    "relation_edges": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "edge_type",
+          "source",
+          "target",
+          "basis",
+          "evidence_refs"
+        ],
+        "properties": {
+          "edge_type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "target": {
+            "type": "string",
+            "minLength": 1
+          },
+          "direction": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "basis": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "enum": [
+                "explicit-definition",
+                "documented-derivation-or-variant",
+                "shared-narrow-concrete-operation",
+                "same-dimension-opposition",
+                "verified-passage-contact",
+                "verified-form",
+                "verified-order-or-repetition",
+                "verified-backward-reactivation"
+              ]
+            }
+          },
+          "evidence_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "relational_bridge": {
+      "type": "string",
+      "minLength": 1
+    },
+    "primary_effect": {
+      "type": "string",
+      "minLength": 1
+    },
+    "counterfactual": {
+      "type": "string",
+      "minLength": 1
+    },
+    "linguistic_boundary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generating_set": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unused_at_freeze": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "corroborators": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rivals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "open_roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "temporal_trajectory": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object"
+      }
+    },
+    "local_sense_status": {
+      "type": "object",
+      "additionalProperties": {
+        "enum": [
+          "sense-established",
+          "sense-compatible",
+          "sense-underdetermined",
+          "sense-disfavored",
+          "sense-incompatible"
+        ]
+      }
+    },
+    "activation_status": {
+      "enum": [
+        "untriggered",
+        "locally-triggered",
+        "coalition-triggered",
+        "retrospectively-triggered",
+        "conditional",
+        "defeated",
+        "pending-evidence"
+      ]
+    },
+    "narrative_role": {
+      "enum": [
+        "governing",
+        "connective",
+        "supporting",
+        "incidental",
+        "none"
+      ]
+    },
+    "epistemic_status": {
+      "enum": [
+        "accepted",
+        "pattern-candidate",
+        "pending-control",
+        "defeated",
+        "human-adjudication"
+      ]
+    },
+    "lexical_evidence_strength": {
+      "enum": [
+        "very-high",
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "activation_confidence": {
+      "enum": [
+        "very-high",
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "validation_tests": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "enum": [
+        "live",
+        "accepted",
+        "conditional",
+        "pending",
+        "defeated",
+        "human-adjudication"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

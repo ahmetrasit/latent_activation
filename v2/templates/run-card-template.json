@@ -1,0 +1,27 @@
+{
+  "workflow_id": "GSLS-3A-2.0",
+  "run_id": "RUN_ID_HERE",
+  "passage_id": "PASSAGE_ID_HERE",
+  "scope": {
+    "surah": 0,
+    "ayah_start": 0,
+    "ayah_end": 0
+  },
+  "basmala_policy": "DECLARE_POLICY_HERE",
+  "output_language": "Turkish",
+  "agent_limit": 3,
+  "agent_a_session_policy": "continuous",
+  "production_mode": "full-context",
+  "network_use_policy": "unavailable",
+  "external_evidence_policy": "authorized-inputs-only",
+  "gold_quarantine": true,
+  "primary_product": "final-gold-notebook",
+  "optional_product": "none",
+  "output_paths": {
+    "agent_a_state": "/ABSOLUTE/OUTPUT/PATH/HERE",
+    "agent_a_draft": "/ABSOLUTE/OUTPUT/PATH/HERE",
+    "agent_b_audit": "/ABSOLUTE/OUTPUT/PATH/HERE",
+    "agent_a_final": "/ABSOLUTE/OUTPUT/PATH/HERE",
+    "agent_c_optional": "/ABSOLUTE/OUTPUT/PATH/HERE"
+  }
+}

@@ -1,0 +1,79 @@
+workflow_id: GSLS-3A-2.0
+max_logical_agents: 3
+agents:
+  A:
+    role: integrated_synthesis_and_gold_author
+    persistent: true
+  B:
+    role: adversarial_audit
+    persistent: false
+  C:
+    role: optional_publication
+    persistent: false
+
+states:
+  PRECHECK:
+    agent: null
+    next:
+      pass: A_INITIALIZE
+      fail: BLOCKED_INPUT
+
+  A_INITIALIZE:
+    agent: A
+    next:
+      complete: A_DISCOVERY
+      blocked: BLOCKED_EVIDENCE
+
+  A_DISCOVERY:
+    agent: A
+    loop:
+      condition: active_queries_or_uncovered_units
+      target: A_DISCOVERY
+    next:
+      closure_passed: A_DRAFT
+      human_needed: HUMAN_ADJUDICATION_REQUIRED
+
+  A_DRAFT:
+    agent: A
+    next:
+      complete: B_AUDIT
+
+  B_AUDIT:
+    agent: B
+    next:
+      complete: A_ADJUDICATE
+      evidence_blocked: BLOCKED_EVIDENCE
+
+  A_ADJUDICATE:
+    agent: A
+    next:
+      reopens_discovery: A_DISCOVERY
+      complete_gold_only: VALIDATE_GOLD
+      complete_with_publication: C_RENDER
+      human_needed: HUMAN_ADJUDICATION_REQUIRED
+
+  C_RENDER:
+    agent: C
+    optional: true
+    next:
+      complete: VALIDATE_PUBLICATION
+      revision_required: C_RENDER
+
+  VALIDATE_GOLD:
+    agent: null
+    next:
+      pass: DONE_GOLD
+      fail: A_ADJUDICATE
+
+  VALIDATE_PUBLICATION:
+    agent: null
+    next:
+      pass: DONE_GOLD_AND_PUBLICATION
+      fail: C_RENDER
+
+terminal:
+  - DONE_GOLD
+  - DONE_GOLD_AND_PUBLICATION
+  - BLOCKED_INPUT
+  - BLOCKED_EVIDENCE
+  - HUMAN_ADJUDICATION_REQUIRED

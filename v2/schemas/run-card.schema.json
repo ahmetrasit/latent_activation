@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "run-card.schema.json",
+  "title": "GSLS Run Card",
+  "type": "object",
+  "required": [
+    "workflow_id",
+    "run_id",
+    "passage_id",
+    "scope",
+    "basmala_policy",
+    "output_language",
+    "agent_limit",
+    "agent_a_session_policy",
+    "production_mode",
+    "network_use_policy",
+    "external_evidence_policy",
+    "gold_quarantine",
+    "output_paths"
+  ],
+  "properties": {
+    "workflow_id": {
+      "const": "GSLS-3A-2.0"
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "passage_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "object",
+      "required": [
+        "surah",
+        "ayah_start",
+        "ayah_end"
+      ],
+      "properties": {
+        "surah": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "ayah_start": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ayah_end": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "basmala_policy": {
+      "type": "string",
+      "minLength": 1
+    },
+    "output_language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agent_limit": {
+      "const": 3
+    },
+    "agent_a_session_policy": {
+      "enum": [
+        "continuous",
+        "resumable-same-role"
+      ]
+    },
+    "production_mode": {
+      "enum": [
+        "full-context",
+        "persistent-cycle"
+      ]
+    },
+    "network_use_policy": {
+      "enum": [
+        "retrieval-only",
+        "unavailable"
+      ]
+    },
+    "external_evidence_policy": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gold_quarantine": {
+      "const": true
+    },
+    "primary_product": {
+      "const": "final-gold-notebook"
+    },
+    "optional_product": {
+      "enum": [
+        "none",
+        "publication-essay"
+      ]
+    },
+    "output_paths": {
+      "type": "object",
+      "minProperties": 1
+    }
+  },
+  "additionalProperties": true
+}

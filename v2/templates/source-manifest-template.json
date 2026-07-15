@@ -1,0 +1,44 @@
+{
+  "workflow_id": "GSLS-3A-2.0",
+  "run_id": "RUN_ID_HERE",
+  "created_at": "YYYY-MM-DDTHH:MM:SSZ",
+  "gold_quarantine": true,
+  "prohibited_paths": [
+    "/PATH/TO/GOLD_OR_EVALUATION"
+  ],
+  "sources": [
+    {
+      "source_id": "passage-arabic",
+      "path": "/ABSOLUTE/PATH/HERE",
+      "source_type": "sacred-text",
+      "required": true,
+      "evidence_class": "exact-text-and-position",
+      "version": "VERSION_HERE",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "access": "read-only",
+      "permitted_agents": [
+        "A",
+        "B",
+        "C"
+      ],
+      "query_contract": null,
+      "contamination_status": "clean"
+    },
+    {
+      "source_id": "lexical-branches",
+      "path": "/ABSOLUTE/PATH/HERE",
+      "source_type": "lexical-branch-inventory",
+      "required": true,
+      "evidence_class": "exact-dictionary-prose",
+      "version": "VERSION_HERE",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "access": "read-only",
+      "permitted_agents": [
+        "A",
+        "B"
+      ],
+      "query_contract": null,
+      "contamination_status": "clean"
+    }
+  ]
+}

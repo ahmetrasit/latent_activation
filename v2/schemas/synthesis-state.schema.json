@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "synthesis-state.schema.json",
+  "title": "GSLS Synthesis State",
+  "type": "object",
+  "required": [
+    "workflow_id",
+    "run_id",
+    "agent_id",
+    "schema_version",
+    "phase",
+    "cycle_id",
+    "no_novelty_cycles",
+    "coverage",
+    "active_queries",
+    "candidate_ids",
+    "open_roles",
+    "human_adjudications",
+    "input_hashes",
+    "state_hash_parent",
+    "source_refs"
+  ],
+  "properties": {
+    "workflow_id": {
+      "const": "GSLS-3A-2.0"
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agent_id": {
+      "const": "A"
+    },
+    "schema_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "phase": {
+      "enum": [
+        "A_INITIALIZE",
+        "A_DISCOVERY",
+        "A_DRAFT",
+        "A_ADJUDICATE",
+        "A_FINAL"
+      ]
+    },
+    "cycle_id": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "no_novelty_cycles": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "last_passage_position": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "coverage": {
+      "type": "object"
+    },
+    "active_queries": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "candidate_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "open_roles": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "human_adjudications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "input_hashes": {
+      "type": "object"
+    },
+    "state_hash_parent": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}
