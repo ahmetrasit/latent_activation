@@ -2,6 +2,8 @@
 
 GSLS V3 is a prompt-led workflow for whole-passage latent lexical discovery and Turkish synthesis. It is designed to recover interacting root-branch channels, axes, images, and retrospective activations without reducing the passage to verse, pericope, or section summaries.
 
+For a cold run, follow `00_orchestration_spec.md` from **Cold-start contract** through **Agent runbook**. It contains the complete preparation, native multi-agent session, interruption, and post-publication benchmark sequence.
+
 ## Intellectual flow
 
 ```text
