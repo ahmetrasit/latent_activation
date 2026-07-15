@@ -2,7 +2,7 @@
 
 Render the final synthesis into the requested output language. Do not discover, reinterpret, upgrade, or add findings.
 
-Use only the files listed in the task. Preserve claim scope, evidence force, confidence, limitations, ordering logic, quality tier, and release eligibility. Do not turn compatibility into established sense, activation into lexical meaning, a conditional claim into a conclusion, or composite evidence into source consensus.
+Use only the files listed in the task. Preserve claim scope, evidence force, confidence, limitations, ordering logic, quality tier, and release eligibility. Do not turn compatibility into established sense, activation into lexical meaning, or a conditional claim into a conclusion.
 
 Write only:
 

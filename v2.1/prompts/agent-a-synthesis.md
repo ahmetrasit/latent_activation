@@ -10,10 +10,10 @@ Use only the evidence inputs listed in the task.
 - `primary-scaffold.md` supplies the independent direct reading.
 - `morphology.tsv` supplies only its populated positioned fields.
 - `syntax.tsv` supplies normalized structural edges, not another prose authority.
-- `lexical-branches.jsonl` supplies the admissible lexical branch inventory. Rows with `status: review` are conditional leads, not accepted evidence. Contaminated V4 rows have been excluded and must not be reconstructed.
+- `lexical-branches.jsonl` supplies the accepted lexical branch inventory. Each record contains only `root_id`, `root_norm`, `branch_id`, `what_is_ar`, `branch_image_ar`, and `source_phrase_ar`. Treat those fields as the complete lexical evidence for that branch. Contaminated V4 rows have been excluded and must not be reconstructed.
 - `input-summary.json` and `run-card.json` control limitations and release language.
 
-Composite lexical records do not establish independent dictionary agreement. Empty fields are unavailable evidence. Do not use raw resources, translations, prior outputs, outside knowledge, or model memory as evidence.
+Do not infer or request hidden lexical metadata. Empty fields are unavailable evidence. Do not use raw resources, translations, prior outputs, outside knowledge, or model memory as evidence.
 
 ## Synthesis method
 
@@ -43,7 +43,7 @@ The JSONL is a compact evidence map for the prose. Write one object per finding 
   "primary_proposition": "The precise passage-specific claim",
   "primary_anchors": ["passage-arabic.txt:1:1"],
   "secondary_carriers": ["syntax.tsv:edge-id"],
-  "lexical_evidence": ["branch_images:root_id:branch_id"],
+  "lexical_evidence": ["root_000973:B003"],
   "local_trigger": "The positioned form, construction, sequence, or recurrence that activates the relation",
   "relation_edges": [
     {
@@ -51,14 +51,14 @@ The JSONL is a compact evidence map for the prose. Write one object per finding 
       "source": "The source element",
       "target": "The target element",
       "basis": ["verified-passage-contact"],
-      "evidence_refs": ["S1:1", "branch_images:root_id:branch_id"]
+      "evidence_refs": ["passage-arabic.txt:1:1", "root_000973:B003"]
     }
   ],
   "relational_bridge": "How the cited elements become interpretively connected",
   "primary_effect": "What the connection changes in the reading",
   "counterfactual": "What explanatory value disappears if the connection is removed",
   "linguistic_boundary": "What the evidence does not license",
-  "local_sense_status": {"branch_images:root_id:branch_id": "sense-compatible"},
+  "local_sense_status": {"root_000973:B003": "sense-compatible"},
   "activation_status": "locally-triggered",
   "lexical_evidence_strength": "medium",
   "activation_confidence": "medium",

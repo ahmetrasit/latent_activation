@@ -24,11 +24,10 @@ python3 v2.1/scripts/prepare_run.py \
   --surah 1 \
   --ayah-start 1 \
   --ayah-end 7 \
-  --primary-scaffold /absolute/path/to/primary-scaffold.md \
-  --allow-source-limited
+  --primary-scaffold /absolute/path/to/primary-scaffold.md
 ```
 
-The builder reads the configured files under `resources/`, creates the frozen prepared inputs, and excludes every V4 branch whose `branch_images.contaminated` value is not `no`.
+The builder reads the configured files under `resources/`, creates the frozen prepared inputs, and excludes every V4 branch whose `branch_images.contaminated` value is not `no`. With the restored QAC and V4 databases, the run is `gold-ready`.
 
 ## Orchestrate
 

@@ -4,30 +4,20 @@
   "title": "GSLS 2.1 Prepared Lexical Branch",
   "type": "object",
   "required": [
-    "root_norm", "root_key", "passage_root_norms",
-    "branch_id", "source_id", "source_name", "source_entry_id", "source_ar_exact",
-    "branch_image_ar", "what_is_ar", "lexical_unit_or_form", "derivation_or_pattern", "status",
-    "contaminated", "editorial_notes", "provenance_granularity", "source_families", "source_refs"
+    "root_id",
+    "root_norm",
+    "branch_id",
+    "what_is_ar",
+    "branch_image_ar",
+    "source_phrase_ar"
   ],
   "properties": {
+    "root_id": {"type": "string", "minLength": 1},
     "root_norm": {"type": "string", "minLength": 1},
-    "root_key": {"type": "string", "minLength": 1},
-    "passage_root_norms": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
     "branch_id": {"type": "string", "minLength": 1},
-    "source_id": {"type": "string", "minLength": 1},
-    "source_name": {"type": "string", "minLength": 1},
-    "source_entry_id": {"type": "string", "minLength": 1},
-    "source_ar_exact": {"type": "string", "minLength": 1},
-    "branch_image_ar": {"type": "string"},
-    "what_is_ar": {"type": "string"},
-    "lexical_unit_or_form": {"type": ["string", "null"]},
-    "derivation_or_pattern": {"type": ["string", "null"]},
-    "status": {"enum": ["accepted", "review"]},
-    "contaminated": {"const": false},
-    "editorial_notes": {"type": "string", "minLength": 1},
-    "provenance_granularity": {"enum": ["composite-tagged", "composite-untagged", "source-attestation"]},
-    "source_families": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
-    "source_refs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+    "what_is_ar": {"type": "string", "minLength": 1},
+    "branch_image_ar": {"type": "string", "minLength": 1},
+    "source_phrase_ar": {"type": "string", "minLength": 1}
   },
   "additionalProperties": false
 }

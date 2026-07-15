@@ -66,26 +66,14 @@ def valid_finding() -> dict[str, Any]:
     }
 
 
-def valid_lexical_record(contaminated: bool = False) -> dict[str, Any]:
+def valid_lexical_record() -> dict[str, Any]:
     return {
+        "root_id": "root_fixture",
         "root_norm": "ك ت ب",
-        "root_key": "كتب",
-        "passage_root_norms": ["ك ت ب"],
         "branch_id": "B001",
-        "source_id": "fixture",
-        "source_name": "fixture lexical inventory",
-        "source_entry_id": "entry-1",
-        "source_ar_exact": "الكتابة",
-        "branch_image_ar": "ضم الحروف",
         "what_is_ar": "أثر مكتوب",
-        "lexical_unit_or_form": None,
-        "derivation_or_pattern": None,
-        "status": "accepted",
-        "contaminated": contaminated,
-        "editorial_notes": "Fixture composite record.",
-        "provenance_granularity": "composite-untagged",
-        "source_families": [],
-        "source_refs": ["fixture:1"],
+        "branch_image_ar": "ضم الحروف",
+        "source_phrase_ar": "الكتابة",
     }
 
 
@@ -112,7 +100,7 @@ def make_run(root: Path, optional_product: str = "none") -> None:
             "source_profile": "fixture",
             "quality_tier": "source-limited",
             "gold_release_eligible": False,
-            "lexicon_policy": "accepted-clean-composite-editorial",
+            "lexicon_policy": "accepted-clean-v4-branch-records",
             "evidence_policy": "prepared-inputs-only",
             "optional_product": optional_product,
         },
@@ -136,11 +124,10 @@ def make_run(root: Path, optional_product: str = "none") -> None:
             "lexical": {
                 "mode": "fallback",
                 "rows": 1,
-                "review_rows_included": False,
-                "contamination_filter": "fallback-reviewed-clean-export",
+                "contamination_filter": "fallback-accepted-clean-export",
                 "excluded_contaminated_rows": 0,
             },
-            "limitations": ["Fixture composite evidence."],
+            "limitations": ["Fixture uses fallback QAC aggregate evidence."],
         },
     )
     (root / "inputs" / "passage-arabic.txt").write_text("1:1\tin-scope\tكتب\n", encoding="utf-8")
@@ -307,14 +294,13 @@ class LeanRuntimeTests(unittest.TestCase):
         state = orchestrate.transition(self.run_root, "complete")
         self.assertEqual("DONE_WITH_PUBLICATION", state["state"])
 
-    def test_preflight_rejects_contaminated_prepared_branch(self) -> None:
-        common.write_jsonl(
-            self.run_root / "inputs" / "lexical-branches.jsonl",
-            [valid_lexical_record(contaminated=True)],
-        )
+    def test_lexical_contract_rejects_preparation_metadata(self) -> None:
+        record = valid_lexical_record()
+        record["contaminated"] = False
+        common.write_jsonl(self.run_root / "inputs" / "lexical-branches.jsonl", [record])
         report = validate_run.validate_inputs(self.run_root)
         self.assertFalse(report.passed)
-        self.assertTrue(any("contaminated" in error for error in report.errors))
+        self.assertTrue(any("contaminated" in error and "unexpected property" in error for error in report.errors))
 
 
 class RestoredDatabaseIntegrationTests(unittest.TestCase):
@@ -337,8 +323,6 @@ class RestoredDatabaseIntegrationTests(unittest.TestCase):
                 output_language="Turkish",
                 basmala_policy="canonical-only",
                 optional_product="none",
-                include_review_branches=False,
-                allow_source_limited=True,
             )
         )
 
@@ -349,11 +333,32 @@ class RestoredDatabaseIntegrationTests(unittest.TestCase):
     def test_restored_sqlite_sources_are_used_and_contamination_is_excluded(self) -> None:
         self.assertEqual("database", self.result["morphology_mode"])
         self.assertEqual("database", self.result["lexical_mode"])
+        self.assertEqual("gold-ready", self.result["quality_tier"])
         self.assertGreater(self.result["excluded_contaminated_branches"], 0)
         records = [record for _, record in common.iter_jsonl(self.run_root / "inputs" / "lexical-branches.jsonl")]
-        entry_ids = {record["source_entry_id"] for record in records}
-        self.assertNotIn("branch_images:root_000973:B002", entry_ids)
-        self.assertTrue(all(record["contaminated"] is False for record in records))
+        expected_fields = {
+            "root_id",
+            "root_norm",
+            "branch_id",
+            "what_is_ar",
+            "branch_image_ar",
+            "source_phrase_ar",
+        }
+        self.assertTrue(all(set(record) == expected_fields for record in records))
+        branch_ids = {f'{record["root_id"]}:{record["branch_id"]}' for record in records}
+        contaminated_branch_ids = {
+            "root_000355:B006",
+            "root_000973:B002",
+            "root_001040:B003",
+            "root_001273:B005",
+            "root_001700:B004",
+            "root_001700:B005",
+        }
+        self.assertTrue(contaminated_branch_ids.isdisjoint(branch_ids))
+
+        run_card = common.load_json(self.run_root / "inputs" / "run-card.json")
+        self.assertEqual("gold-ready", run_card["quality_tier"])
+        self.assertTrue(run_card["gold_release_eligible"])
 
     def test_prepared_database_run_passes_lean_preflight_without_ledgers(self) -> None:
         report = validate_run.validate_inputs(self.run_root)

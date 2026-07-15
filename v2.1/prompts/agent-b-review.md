@@ -4,7 +4,7 @@ You are the independent critic of Agent A's synthesis. Review the quality of the
 
 ## Evidence boundary
 
-Use only the evidence inputs and draft work products listed in the task. Composite lexical records are not source-separated agreement. Review-status branches remain conditional. Empty morphology fields and excluded contaminated branches are unavailable evidence.
+Use only the evidence inputs and draft work products listed in the task. The six supplied fields in each lexical record are the complete branch evidence. Empty morphology fields and excluded contaminated branches are unavailable evidence.
 
 ## Review method
 

@@ -76,16 +76,6 @@ SYNTAX_FIELDS = (
     "source_ref",
 )
 
-SOURCE_FAMILIES = {
-    "maqayis": "Maqayis",
-    "tahdhib": "Tahdhib",
-    "sihah": "Sihah",
-    "ayn": "Ayn",
-    "mufradat": "Mufradat",
-    "jamhara": "Jamhara",
-}
-
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run-root", type=Path, required=True)
@@ -105,12 +95,6 @@ def parse_args() -> argparse.Namespace:
         "--optional-product",
         choices=("none", "publication-essay"),
         default="none",
-    )
-    parser.add_argument("--include-review-branches", action="store_true")
-    parser.add_argument(
-        "--allow-source-limited",
-        action="store_true",
-        help="Permit composite lexical evidence or aggregate TSV fallbacks. The run will not be gold-release eligible.",
     )
     return parser.parse_args()
 
@@ -332,84 +316,43 @@ def filter_attachments(
     return raw_count, syntax_rows
 
 
-def source_families(source_phrase: str) -> list[str]:
-    families: set[str] = set()
-    for tag in re.findall(r"\(([^)]+)\)", source_phrase.lower()):
-        for prefix, display in SOURCE_FAMILIES.items():
-            if tag == prefix or tag.startswith(prefix + "-") or tag.startswith(prefix + "_"):
-                families.add(display)
-    return sorted(families)
-
-
-def source_families_from_refs(source_refs: str) -> list[str]:
-    families: set[str] = set()
-    for source_ref in source_refs.split(";"):
-        prefix = source_ref.strip().split(":", 1)[0].lower()
-        display = SOURCE_FAMILIES.get(prefix)
-        if display:
-            families.add(display)
-    return sorted(families)
-
-
-def lexical_record(
-    source: dict[str, str],
-    line_number: int,
-    passage_roots: dict[str, set[str]],
-) -> dict[str, Any]:
-    root_key = canonical_root(source["root_norm"])
-    root_id = source["root_id"]
-    families = source_families(source["source_phrase_ar"])
+def lexical_record(source: dict[str, str]) -> dict[str, str]:
     return {
+        "root_id": source["root_id"],
         "root_norm": source["root_norm"],
-        "root_key": root_key,
-        "passage_root_norms": sorted(passage_roots[root_key]),
         "branch_id": source["branch_id"],
-        "source_id": f"furuq-v4-composite:{root_id}",
-        "source_name": "furuq-v4 composite editorial inventory",
-        "source_entry_id": f"{root_id}:{source['branch_id']}:line-{line_number}",
-        "source_ar_exact": source["source_phrase_ar"],
-        "branch_image_ar": source["branch_image_ar"],
         "what_is_ar": source["what_is_ar"],
-        "lexical_unit_or_form": None,
-        "derivation_or_pattern": None,
-        "status": source["status"],
-        "contaminated": False,
-        "editorial_notes": "Composite V1 record; source-family agreement must not be inferred.",
-        "provenance_granularity": "composite-tagged" if families else "composite-untagged",
-        "source_families": families,
-        "source_refs": [f"raw-lexical:line:{line_number}"],
+        "branch_image_ar": source["branch_image_ar"],
+        "source_phrase_ar": source["source_phrase_ar"],
     }
 
 
 def load_lexical_fallback(
     path: Path,
     passage_root_rows: Iterable[dict[str, Any]],
-    include_review: bool,
 ) -> list[dict[str, Any]]:
     passage_roots: dict[str, set[str]] = defaultdict(set)
     for row in passage_root_rows:
         if row["root_key"]:
             passage_roots[row["root_key"]].add(row["root_norm"])
-    allowed_statuses = {"accepted", "review"} if include_review else {"accepted"}
     records: list[dict[str, Any]] = []
     with path.open(encoding="utf-8", newline="") as handle:
         reader = csv.DictReader(handle, delimiter="\t")
-        for line_number, source in enumerate(reader, 2):
+        for source in reader:
             root_keys = {canonical_root(source["root_norm"]), canonical_root(source["source_root_norm"])}
             matched = sorted(root_keys.intersection(passage_roots))
-            if not matched or source["status"] not in allowed_statuses:
+            if not matched or source["status"] != "accepted":
                 continue
             normalized = dict(source)
             normalized["root_norm"] = next(key for key in (source["root_norm"], source["source_root_norm"]) if canonical_root(key) in matched)
-            records.append(lexical_record(normalized, line_number, passage_roots))
-    records.sort(key=lambda row: (row["root_key"], row["source_entry_id"], row["source_id"]))
+            records.append(lexical_record(normalized))
+    records.sort(key=lambda row: (row["root_id"], row["branch_id"]))
     return records
 
 
 def load_lexical_database(
     path: Path,
     passage_root_rows: Iterable[dict[str, Any]],
-    include_review: bool,
 ) -> tuple[list[dict[str, Any]], int]:
     passage_roots: dict[str, set[str]] = defaultdict(set)
     for row in passage_root_rows:
@@ -420,17 +363,14 @@ def load_lexical_database(
     if not passage_roots:
         raise ContractError("No passage roots are available for V4 branch selection")
 
-    allowed_statuses = ("accepted", "review") if include_review else ("accepted",)
     with closing(connect_readonly(path)) as connection:
         connection.row_factory = sqlite3.Row
         branch_required = {
-            "id",
             "root_id",
             "root_norm",
             "branch_id",
             "branch_image_ar",
             "what_is_ar",
-            "source_refs",
             "source_phrase_ar",
             "status",
             "contaminated",
@@ -464,19 +404,17 @@ def load_lexical_database(
         for start in range(0, len(root_ids), 800):
             chunk = root_ids[start : start + 800]
             root_placeholders = ",".join("?" for _ in chunk)
-            status_placeholders = ",".join("?" for _ in allowed_statuses)
-            parameters = [*chunk, *allowed_statuses]
+            parameters = [*chunk]
             branch_rows.extend(
                 connection.execute(
                     f"""
                     SELECT
-                        b.id, b.root_id, b.root_norm, r.source_root_norm, b.branch_id,
-                        b.branch_image_ar, b.what_is_ar, b.source_refs, b.source_phrase_ar,
+                        b.root_id, b.root_norm, b.branch_id,
+                        b.branch_image_ar, b.what_is_ar, b.source_phrase_ar,
                         b.status, b.contaminated
                     FROM branch_images AS b
-                    JOIN roots AS r ON r.root_id = b.root_id
                     WHERE b.root_id IN ({root_placeholders})
-                      AND b.status IN ({status_placeholders})
+                      AND b.status = 'accepted'
                       AND b.contaminated = 'no'
                     """,
                     parameters,
@@ -488,7 +426,7 @@ def load_lexical_database(
                     SELECT COUNT(*)
                     FROM branch_images AS b
                     WHERE b.root_id IN ({root_placeholders})
-                      AND b.status IN ({status_placeholders})
+                      AND b.status = 'accepted'
                       AND COALESCE(b.contaminated, '') <> 'no'
                     """,
                     parameters,
@@ -502,45 +440,17 @@ def load_lexical_database(
                 f"Contaminated V4 branch escaped the SQL filter: {source['root_id']}:{source['branch_id']}"
             )
         root_id = str(source["root_id"])
-        root_key = root_key_by_id[root_id]
-        raw_refs = [
-            value.strip()
-            for value in str(source["source_refs"]).split(";")
-            if value.strip()
-        ]
-        families = sorted(
-            set(source_families(str(source["source_phrase_ar"])))
-            | set(source_families_from_refs(str(source["source_refs"])))
-        )
         records.append(
             {
-                "root_norm": sorted(passage_roots[root_key])[0],
-                "root_key": root_key,
-                "passage_root_norms": sorted(passage_roots[root_key]),
+                "root_id": root_id,
+                "root_norm": str(source["root_norm"]),
                 "branch_id": str(source["branch_id"]),
-                "source_id": "furuq-v4-sqlite",
-                "source_name": "furuq-v4 SQLite composite branch inventory",
-                "source_entry_id": f"branch_images:{root_id}:{source['branch_id']}",
-                "source_ar_exact": str(source["source_phrase_ar"]),
-                "branch_image_ar": str(source["branch_image_ar"]),
                 "what_is_ar": str(source["what_is_ar"]),
-                "lexical_unit_or_form": None,
-                "derivation_or_pattern": None,
-                "status": str(source["status"]),
-                "contaminated": False,
-                "editorial_notes": (
-                    "Selected directly from branch_images with contaminated='no'; "
-                    "branch prose remains a composite editorial record."
-                ),
-                "provenance_granularity": "composite-tagged" if families else "composite-untagged",
-                "source_families": families,
-                "source_refs": [
-                    f"raw-lexical:branch_images:id:{source['id']}",
-                    *raw_refs,
-                ],
+                "branch_image_ar": str(source["branch_image_ar"]),
+                "source_phrase_ar": str(source["source_phrase_ar"]),
             }
         )
-    records.sort(key=lambda row: (row["root_key"], row["source_entry_id"]))
+    records.sort(key=lambda row: (row["root_id"], row["branch_id"]))
     return records, excluded_contaminated
 
 
@@ -616,11 +526,6 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         require_regular_file(qac_fallback_path, "QAC fallback")
     if lexical_mode == "fallback":
         require_regular_file(lexical_fallback_path, "lexical fallback")
-    if not args.allow_source_limited:
-        raise ContractError(
-            "The current lexical adapter supplies composite branch evidence. "
-            "Re-run with --allow-source-limited for a non-release pilot."
-        )
     passage_rows, passage_metadata = extract_passage(
         quran_path, args.surah, args.ayah_start, args.ayah_end, args.basmala_policy
     )
@@ -637,17 +542,15 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         lexical_rows, excluded_contaminated = load_lexical_database(
             lexical_db_path,
             morphology_rows,
-            args.include_review_branches,
         )
         contamination_filter = "database-contaminated-equals-no"
     else:
         lexical_rows = load_lexical_fallback(
             lexical_fallback_path,
             morphology_rows,
-            args.include_review_branches,
         )
         excluded_contaminated = 0
-        contamination_filter = "fallback-reviewed-clean-export"
+        contamination_filter = "fallback-accepted-clean-export"
     if not lexical_rows:
         raise ContractError("No lexical branches matched the passage roots")
 
@@ -691,7 +594,12 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
     lexical_target = inputs / "lexical-branches.jsonl"
     write_jsonl(lexical_target, lexical_rows)
 
-    quality_tier = "source-limited"
+    quality_tier = (
+        "gold-ready"
+        if qac_mode == "database" and lexical_mode == "database"
+        else "source-limited"
+    )
+    gold_release_eligible = quality_tier == "gold-ready"
     summary = {
         "workflow_id": WORKFLOW_ID,
         "run_id": args.run_id,
@@ -713,7 +621,6 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         "lexical": {
             "mode": lexical_mode,
             "rows": len(lexical_rows),
-            "review_rows_included": args.include_review_branches,
             "contamination_filter": contamination_filter,
             "excluded_contaminated_rows": excluded_contaminated,
         },
@@ -721,7 +628,6 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             "QAC fallback contains rooted aggregate rows rather than the complete morpheme stream."
             if qac_mode == "fallback"
             else "",
-            "Lexical records combine source-family prose and cannot establish dictionary-level agreement.",
         ],
     }
     summary["limitations"] = [item for item in summary["limitations"] if item]
@@ -737,12 +643,8 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         "output_language": args.output_language,
         "source_profile": profile["profile_id"],
         "quality_tier": quality_tier,
-        "gold_release_eligible": False,
-        "lexicon_policy": (
-            "accepted-evidence-with-review-candidates-composite-editorial"
-            if args.include_review_branches
-            else "accepted-clean-composite-editorial"
-        ),
+        "gold_release_eligible": gold_release_eligible,
+        "lexicon_policy": "accepted-clean-v4-branch-records",
         "evidence_policy": "prepared-inputs-only",
         "optional_product": args.optional_product,
     }

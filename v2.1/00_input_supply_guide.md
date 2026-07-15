@@ -41,10 +41,21 @@ When `resources/furuq_v4.sqlite` is present, passage roots are matched against t
 AND b.contaminated = 'no'
 ```
 
-The adapter then rejects any returned row whose contamination value is not exactly `no` before writing `lexical-branches.jsonl`. Every prepared lexical record also carries `"contaminated": false`, and input preflight rejects any other value.
+The adapter then rejects any returned row whose contamination value is not exactly `no` before writing `lexical-branches.jsonl`. Contamination and status are preparation controls; they are not exposed to agents.
 
 The workflow does not reopen and rescan the complete V4 database during every later state. Preparation owns source selection; downstream roles use the frozen prepared inventory.
 
-## Source limitations
+## Agent-facing lexical record
 
-Current V4 branch prose is composite editorial evidence. Source-family labels are routing metadata, not independent attestations. Runs using this adapter remain `source-limited` and are not gold-release eligible.
+Every emitted record contains exactly:
+
+```text
+root_id
+root_norm
+branch_id
+what_is_ar
+branch_image_ar
+source_phrase_ar
+```
+
+These six fields are the complete lexical evidence contract. No dictionary-entry join, source-family expansion, source-reference ledger, or additional provenance field is required. A run using both restored SQLite databases is `gold-ready`; fallback mode remains `source-limited` because the QAC fallback is rooted aggregate data.

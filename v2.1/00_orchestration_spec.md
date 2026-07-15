@@ -15,7 +15,7 @@ Produce a source-bounded lexical synthesis that explains how passage structure, 
 
 Agents may use only the prepared files listed in their task. Raw `resources/`, the `v1/` tree, translations, prior target prose, evaluation documents, network retrieval, and model memory are not production evidence.
 
-Prepared lexical records are composite editorial records. Source-family tags do not prove independent dictionary agreement. Empty fields are unavailable evidence. Review-status branches are conditional leads. Contaminated V4 branches are excluded during preparation.
+Each prepared lexical record has exactly six authoritative fields: `root_id`, `root_norm`, `branch_id`, `what_is_ar`, `branch_image_ar`, and `source_phrase_ar`. Agents use no other lexical metadata. Contaminated V4 branches are excluded during preparation.
 
 ## Flow
 
@@ -69,7 +69,7 @@ agent-c/publication.md
 ## Minimal gates
 
 - Prepared inputs exist, parse, and agree on passage scope.
-- Prepared lexical branches are explicitly uncontaminated and accepted branches cover the passage roots.
+- Prepared lexical records have exactly the six authorized fields, and accepted branches cover the passage roots.
 - Each synthesis finding contains anchors, lexical evidence, trigger, relation, bridge, effect, counterfactual, boundary, sense status, activation, confidence, role, and limitations.
 - Agent B's first line states a usable verdict; revision-required reviews identify a target and required change.
 - Required synthesis and prose files are non-empty.

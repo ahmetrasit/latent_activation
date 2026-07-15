@@ -55,16 +55,14 @@
       "required": [
         "mode",
         "rows",
-        "review_rows_included",
         "contamination_filter",
         "excluded_contaminated_rows"
       ],
       "properties": {
         "mode": {"enum": ["database", "fallback"]},
         "rows": {"type": "integer", "minimum": 1},
-        "review_rows_included": {"type": "boolean"},
         "contamination_filter": {
-          "enum": ["database-contaminated-equals-no", "fallback-reviewed-clean-export"]
+          "enum": ["database-contaminated-equals-no", "fallback-accepted-clean-export"]
         },
         "excluded_contaminated_rows": {"type": "integer", "minimum": 0}
       },

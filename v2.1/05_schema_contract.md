@@ -10,7 +10,7 @@ Schemas describe evidence records and the epistemic shape of synthesis findings.
 | `input-summary.schema.json` | `inputs/input-summary.json` |
 | `morphology-row.schema.json` | morphology row shape produced by the adapter |
 | `syntax-edge.schema.json` | normalized syntax edge shape |
-| `lexical-branch.schema.json` | each prepared lexical branch |
+| `lexical-branch.schema.json` | the six authoritative fields of each accepted lexical branch |
 | `source-profile.schema.json` | resource profile |
 
 ## Synthesis finding

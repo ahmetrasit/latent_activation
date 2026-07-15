@@ -211,21 +211,22 @@ def validate_inputs(run_root: Path) -> Report:
     report.check(f"Read {len(syntax_rows)} syntax edges")
 
     lexical_records: list[dict[str, Any]] = []
-    lexical_ids: set[str] = set()
+    lexical_ids: set[tuple[str, str]] = set()
     accepted_roots: set[str] = set()
     try:
         for line_number, record in iter_jsonl(inputs / "lexical-branches.jsonl"):
             lexical_records.append(record)
             _schema(report, inputs / "lexical-branches.jsonl", line_number, record, "lexical-branch")
-            entry_id = record.get("source_entry_id")
-            if not isinstance(entry_id, str) or not entry_id or entry_id in lexical_ids:
-                report.error(f"lexical-branches.jsonl:{line_number}: missing or duplicate source_entry_id")
+            root_id = record.get("root_id")
+            branch_id = record.get("branch_id")
+            lexical_id = (str(root_id or ""), str(branch_id or ""))
+            if not all(lexical_id) or lexical_id in lexical_ids:
+                report.error(f"lexical-branches.jsonl:{line_number}: missing or duplicate root_id/branch_id")
             else:
-                lexical_ids.add(entry_id)
-            if record.get("contaminated") is not False:
-                report.error(f"lexical-branches.jsonl:{line_number}: contaminated branch is prohibited")
-            if record.get("status") == "accepted" and isinstance(record.get("root_key"), str):
-                accepted_roots.add(record["root_key"])
+                lexical_ids.add(lexical_id)
+            root_norm = record.get("root_norm")
+            if isinstance(root_norm, str):
+                accepted_roots.add(canonical_root(root_norm))
     except (OSError, json.JSONDecodeError, ContractError) as error:
         report.error(str(error))
     missing_roots = passage_roots - accepted_roots
@@ -238,16 +239,16 @@ def validate_inputs(run_root: Path) -> Report:
         expected_filter = (
             "database-contaminated-equals-no"
             if lexical_summary.get("mode") == "database"
-            else "fallback-reviewed-clean-export"
+            else "fallback-accepted-clean-export"
         )
         if lexical_summary.get("contamination_filter") != expected_filter:
             report.error("Input summary has the wrong lexical contamination filter")
         if lexical_summary.get("rows") != len(lexical_records):
             report.error("Input summary lexical count differs from lexical-branches.jsonl")
-    report.check(f"Read {len(lexical_records)} clean lexical branches")
+    report.check(f"Read {len(lexical_records)} accepted lexical branches")
 
     if card.get("quality_tier") == "source-limited":
-        report.warn("Composite lexical evidence remains source-limited")
+        report.warn("A fallback source is active; this run remains source-limited")
     return report
 
 
