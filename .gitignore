@@ -1,5 +1,10 @@
 .DS_Store
+__pycache__/
+*.py[cod]
 
 # These local resource databases exceed GitHub's normal 100 MB file limit.
 # Use Git LFS or an external artifact store if they need to be published.
 resources/*.sqlite
+
+# Local workflow runs are disposable and may contain model-generated artifacts.
+v2.1/run/

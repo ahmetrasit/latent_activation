@@ -1,0 +1,49 @@
+{
+  "workflow_id": "GSLS-3A-2.1",
+  "states": {
+    "A_SYNTHESIZE": {
+      "agent": "A",
+      "prompt": "prompts/agent-a-synthesis.md",
+      "transitions": {
+        "complete": "B_REVIEW",
+        "evidence_blocked": "BLOCKED_EVIDENCE"
+      }
+    },
+    "B_REVIEW": {
+      "agent": "B",
+      "prompt": "prompts/agent-b-review.md",
+      "transitions": {
+        "clean": "FINALIZE",
+        "revision_required": "A_REVISE",
+        "human_needed": "HUMAN_NEEDED",
+        "evidence_blocked": "BLOCKED_EVIDENCE"
+      }
+    },
+    "A_REVISE": {
+      "agent": "A",
+      "prompt": "prompts/agent-a-revision.md",
+      "transitions": {
+        "complete": "FINALIZE",
+        "human_needed": "HUMAN_NEEDED",
+        "evidence_blocked": "BLOCKED_EVIDENCE"
+      }
+    },
+    "FINALIZE": {
+      "agent": null
+    },
+    "C_RENDER": {
+      "agent": "C",
+      "prompt": "prompts/agent-c-publication.md",
+      "transitions": {
+        "complete": "DONE_WITH_PUBLICATION"
+      }
+    }
+  },
+  "terminal": [
+    "DONE",
+    "DONE_WITH_PUBLICATION",
+    "BLOCKED_INPUT",
+    "BLOCKED_EVIDENCE",
+    "HUMAN_NEEDED"
+  ]
+}

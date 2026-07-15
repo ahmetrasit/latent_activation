@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "run-card.schema.json",
+  "title": "GSLS 2.1 Run Card",
+  "type": "object",
+  "required": [
+    "workflow_id",
+    "run_id",
+    "passage_id",
+    "scope",
+    "basmala_policy",
+    "output_language",
+    "source_profile",
+    "quality_tier",
+    "gold_release_eligible",
+    "lexicon_policy",
+    "evidence_policy",
+    "optional_product"
+  ],
+  "properties": {
+    "$schema": {"type": "string"},
+    "workflow_id": {"const": "GSLS-3A-2.1"},
+    "run_id": {"type": "string", "minLength": 1},
+    "passage_id": {"type": "string", "pattern": "^S[1-9][0-9]{0,2}:[0-9]+-[0-9]+$"},
+    "scope": {
+      "type": "object",
+      "required": ["surah", "ayah_start", "ayah_end"],
+      "properties": {
+        "surah": {"type": "integer", "minimum": 1, "maximum": 114},
+        "ayah_start": {"type": "integer", "minimum": 1},
+        "ayah_end": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    },
+    "basmala_policy": {"enum": ["canonical-only", "include-opening-context"]},
+    "output_language": {"type": "string", "minLength": 1},
+    "source_profile": {"type": "string", "minLength": 1},
+    "quality_tier": {"enum": ["source-limited", "gold-ready"]},
+    "gold_release_eligible": {"type": "boolean"},
+    "lexicon_policy": {"type": "string", "minLength": 1},
+    "evidence_policy": {"const": "prepared-inputs-only"},
+    "optional_product": {"enum": ["none", "publication-essay"]}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"quality_tier": {"const": "source-limited"}}, "required": ["quality_tier"]},
+      "then": {"properties": {"gold_release_eligible": {"const": false}}}
+    }
+  ],
+  "additionalProperties": false
+}

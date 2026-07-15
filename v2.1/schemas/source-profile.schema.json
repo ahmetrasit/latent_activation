@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source-profile.schema.json",
+  "title": "GSLS 2.1 Local Source Profile",
+  "type": "object",
+  "required": [
+    "workflow_id", "profile_id", "description", "repository_root", "resources", "inactive_resources",
+    "prohibited_paths", "policies"
+  ],
+  "properties": {
+    "$schema": {"type": "string"},
+    "workflow_id": {"const": "GSLS-3A-2.1"},
+    "profile_id": {"type": "string", "minLength": 1},
+    "description": {"type": "string", "minLength": 1},
+    "repository_root": {"const": "."},
+    "resources": {
+      "type": "object",
+      "required": [
+        "quran_surah_pattern",
+        "qac_database", "qac_fallback_tsv", "attachments_tsv", "lexical_database", "lexical_fallback_tsv"
+      ],
+      "additionalProperties": {"type": "string", "pattern": "^resources/"}
+    },
+    "inactive_resources": {
+      "type": "object",
+      "required": ["quran_complete_text", "quran_english_translation"],
+      "additionalProperties": {"type": "string", "pattern": "^resources/"}
+    },
+    "prohibited_paths": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "policies": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string", "minLength": 1}}
+  },
+  "additionalProperties": false
+}

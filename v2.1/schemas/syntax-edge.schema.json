@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "syntax-edge.schema.json",
+  "title": "GSLS 2.1 Normalized Syntax Edge",
+  "type": "object",
+  "required": [
+    "edge_id", "source_position", "target_position", "edge_type", "direction", "confidence",
+    "annotation_source", "exact_surface_span", "evidence", "reason", "source_ref"
+  ],
+  "properties": {
+    "edge_id": {"type": "string", "minLength": 1},
+    "source_position": {"type": "string", "minLength": 1},
+    "target_position": {"type": "string", "minLength": 1},
+    "edge_type": {"type": "string", "minLength": 1},
+    "direction": {"const": "head-to-dependent"},
+    "confidence": {"type": "string"},
+    "annotation_source": {"type": "string", "minLength": 1},
+    "exact_surface_span": {"type": "string"},
+    "evidence": {"type": "string"},
+    "reason": {"type": "string"},
+    "source_ref": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

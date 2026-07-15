@@ -1,0 +1,33 @@
+{
+  "$schema": "../schemas/source-profile.schema.json",
+  "workflow_id": "GSLS-3A-2.1",
+  "profile_id": "v1-local-resources-1.0",
+  "description": "Compatibility profile using restored SQLite sources with reviewed TSV fallbacks.",
+  "repository_root": ".",
+  "resources": {
+    "quran_surah_pattern": "resources/quran/surah_{surah}.json",
+    "qac_database": "resources/qac.sqlite",
+    "qac_fallback_tsv": "resources/qac_root_ayah.tsv",
+    "attachments_tsv": "resources/attachments.tsv",
+    "lexical_database": "resources/furuq_v4.sqlite",
+    "lexical_fallback_tsv": "resources/v4_branches.tsv"
+  },
+  "inactive_resources": {
+    "quran_complete_text": "resources/quran/complete-quran.txt",
+    "quran_english_translation": "resources/quran/quran-en.json"
+  },
+  "prohibited_paths": [
+    "s1-bulgular-tr.md",
+    "v1",
+    "resources/quran/quran-en.json"
+  ],
+  "policies": {
+    "translation_evidence": "prohibited",
+    "prior_target_outputs": "prohibited",
+    "model_memory_as_evidence": "prohibited",
+    "lexical_fallback_provenance": "composite-editorial",
+    "lexical_database_contamination": "branch_images.contaminated must equal no",
+    "semantic_network": "unavailable",
+    "acoustic_evidence": "unavailable"
+  }
+}

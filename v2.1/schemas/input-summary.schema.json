@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "input-summary.schema.json",
+  "title": "GSLS 2.1 Input Summary",
+  "type": "object",
+  "required": [
+    "workflow_id",
+    "run_id",
+    "quality_tier",
+    "source_profile",
+    "passage",
+    "morphology",
+    "syntax",
+    "lexical",
+    "limitations"
+  ],
+  "properties": {
+    "workflow_id": {"const": "GSLS-3A-2.1"},
+    "run_id": {"type": "string", "minLength": 1},
+    "quality_tier": {"enum": ["source-limited", "gold-ready"]},
+    "source_profile": {"type": "string", "minLength": 1},
+    "passage": {
+      "type": "object",
+      "required": ["surah", "ayah_start", "ayah_end", "positions", "opening_context_included"],
+      "properties": {
+        "surah": {"type": "integer", "minimum": 1, "maximum": 114},
+        "ayah_start": {"type": "integer", "minimum": 1},
+        "ayah_end": {"type": "integer", "minimum": 1},
+        "positions": {"type": "integer", "minimum": 1},
+        "opening_context_included": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "morphology": {
+      "type": "object",
+      "required": ["mode", "rows", "rooted_only"],
+      "properties": {
+        "mode": {"enum": ["database", "fallback"]},
+        "rows": {"type": "integer", "minimum": 1},
+        "rooted_only": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "syntax": {
+      "type": "object",
+      "required": ["source_rows", "edges"],
+      "properties": {
+        "source_rows": {"type": "integer", "minimum": 0},
+        "edges": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "lexical": {
+      "type": "object",
+      "required": [
+        "mode",
+        "rows",
+        "review_rows_included",
+        "contamination_filter",
+        "excluded_contaminated_rows"
+      ],
+      "properties": {
+        "mode": {"enum": ["database", "fallback"]},
+        "rows": {"type": "integer", "minimum": 1},
+        "review_rows_included": {"type": "boolean"},
+        "contamination_filter": {
+          "enum": ["database-contaminated-equals-no", "fallback-reviewed-clean-export"]
+        },
+        "excluded_contaminated_rows": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "limitations": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    }
+  },
+  "additionalProperties": false
+}

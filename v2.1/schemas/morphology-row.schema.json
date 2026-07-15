@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "morphology-row.schema.json",
+  "title": "GSLS 2.1 Positioned Morphology Row",
+  "type": "object",
+  "required": [
+    "surah", "ayah", "word_index", "morpheme_index", "qac_ref", "surface_ar", "lemma_ar",
+    "root_ar", "root_norm", "root_key", "pos", "morpheme_role", "morph_features", "aspect",
+    "mood", "voice", "measure", "person", "number", "gender", "context_role", "source_ref", "data_quality"
+  ],
+  "properties": {
+    "surah": {"type": ["integer", "string"]},
+    "ayah": {"type": ["integer", "string"]},
+    "word_index": {"type": ["integer", "string"]},
+    "morpheme_index": {"type": ["integer", "string"]},
+    "qac_ref": {"type": "string", "minLength": 1},
+    "surface_ar": {"type": "string", "minLength": 1},
+    "lemma_ar": {"type": "string"},
+    "root_ar": {"type": "string"},
+    "root_norm": {"type": "string"},
+    "root_key": {"type": "string"},
+    "pos": {"type": "string"},
+    "morpheme_role": {"type": "string"},
+    "morph_features": {"type": "string"},
+    "aspect": {"type": "string"},
+    "mood": {"type": "string"},
+    "voice": {"type": "string"},
+    "measure": {"type": "string"},
+    "person": {"type": "string"},
+    "number": {"type": "string"},
+    "gender": {"type": "string"},
+    "context_role": {"enum": ["in-scope", "opening-context"]},
+    "source_ref": {"type": "string", "minLength": 1},
+    "data_quality": {"enum": ["full-morpheme-database", "rooted-aggregate-fallback"]}
+  },
+  "additionalProperties": false
+}
