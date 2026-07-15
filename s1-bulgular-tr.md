@@ -1,0 +1,76 @@
+# Fâtiha Suresi (1) — Bulgular
+### Türkçe okuma metni — etiketli bulgu paragrafları
+
+*Kısa arka plan: Fâtiha ("Açılış"), Kuran'ın ilk suresidir; yedi kısa ayettir ve her namazın her rekâtında okunur. Türkçesiyle akışı şudur: "Rahmân ve Rahîm olan Allah'ın adıyla. Hamd, âlemlerin Rabbi Allah'adır. O Rahmân'dır, Rahîm'dir. Din (hesap) gününün sahibidir. Yalnız Sana kulluk eder, yalnız Senden yardım dileriz. Bizi dosdoğru yola ilet — nimet verdiklerinin yoluna; gazaba uğramışların ve sapmışların yoluna değil." Aşağıdaki paragraflar, bu yirmi beş kelimelik metnin altında eski sözlüklerin kaydettiği anlam dallarının nasıl aynı anda birkaç kanalda birden konuştuğunu gösterir.*
+
+*Etiketler: GÜÇLÜ / ORTA / ZAYIF sözlük tanıklığının gücünü; A / B / C bulgunun bu metindeki aktivasyon güvenini gösterir.*
+
+---
+
+**[GÜÇLÜ / A — yedi kök, tek eksen; dördü beklenmedik köklerde gizli yol dalları]**
+Fâtiha'nın yüzeyinde dört yol kelimesi görünür: *sırât* (yol), *müstakîm* (dosdoğru), *ihdinâ* (bizi ilet), *dâllîn* (yolu kaybedenler). Ama eski sözlükler yolun surenin altından da aktığını gösterir. "Âlemler" kelimesinin kökünde bir dal, *yol işaretleri*dir — sınır taşları, yolcuya yön gösteren nişanlar. "Mâlik" (sahip) kelimesinin kökünde bir dal, *yolun ortası*dır — yolun ya da vadinin ana güzergâhı. Ve "kulluk ederiz" fiilinin kökünde bir dal, *düzlenmiş, çiğnene çiğnene geçit olmuş yol*dur. Yüzeydeki dört kelimeye bu üç gizli dal ve "iletme" kökü eklenince yedi kök tek eksende buluşur: Fâtiha, kelime kökleri düzeyinde baştan sona bir yolcu duasıdır.
+
+**[GÜÇLÜ / A — ibadet kökünün içinde yol; ipucu bitişik ayette]**
+Bu gizli yolların en çarpıcısı şudur: "Yalnız Sana *kulluk ederiz*" fiilinin kökünde, sözlüklerin kaydettiği bir dal *muʿabbed yol*dur — çiğnenmiş, yumuşatılmış, geçilir kılınmış yol. Ve bu fiilin hemen ardından dua gelir: "bizi dosdoğru *yola* ilet." Yani yol istenmeden bir kelime önce, yol zaten ibadet kelimesinin içindedir. İncelik şurada: yol, tek kişinin geçmesiyle muʿabbed olmaz — çok ayağın çiğnemesiyle olur. Fiil de çoğuldur: kulluk *ederiz*. Topluluğun kulluğu, kelime düzeyinde, yolun düzlenmesidir; istenen dosdoğru yol, kulluğun ayaklarıyla açılmış bir muʿabbed yoldur.
+
+**[GÜÇLÜ / A — çoban çekirdeği; sürü dalı iki kökte iki yönlü; sahip kökünde sürünün öncüsü]**
+Fâtiha'nın ikinci kanalı sürüdür. *Rab* kelimesinin sözlük çekirdeği "sahiplenen, büyüten, düzelten bakım"dır — çobanın işi. "Nimet verdiklerin" derkenki kökün bir dalı doğrudan *enʿâm*dır: otlayan sürü, özellikle develer. "İlet" fiilinin kökünde ise iki sürü dalı vardır: *hâdî* — sürünün önünden giden kılavuz — ve *hedy* — kutsal bölgeye güdülüp götürülen kurbanlık hayvanlar. Sözlüklerin sürprizi "Mâlik"tedir: aynı kökün bir dalı, "develerin ve koyunların *önünden giden* ve gerisinin onu izlediği hayvan"dır — sürünün öncüsü. Yani "Din gününün Mâliki" unvanı iki kayıtta birden tınlar: hesabın Sahibi, ve ardından yüründüğü O.
+
+**[GÜÇLÜ / B — sözlük, yitik hayvanı "rabbi bilinmeyen" diye tanımlıyor; sure rab ile açılıp dâllîn ile kapanıyor]**
+Sürü kanalının kapanışı surenin son kelimesindedir. Eski sözlükler *dâlle* (yitik hayvan) kelimesini şöyle tanımlar: ıssız yerde kalmış, "*rabbi* bilinmeyen" hayvan. Kaybolmuşluk, sözlükte, sahipsizlik üzerinden tarif edilir. Fâtiha da tam bu çerçeveyi çizer: ikinci kelimesinde Rabbini adlandırır, son kelimesinde rabbini yitirmişlerin durumundan Allah'a sığınır. "Nimet verdiklerin" Rabbinin gözetimindeki sürüdür; "sapmışlar" ise çobansız kalmış başıboşlar.
+
+**[GÜÇLÜ / B — sapma kökünde belgeli bir unutma dalı; Kuran'ın başka yerdeki teşhisi çerçeveyi kuruyor]**
+Aynı "sapma" kökünün sözlüklerdeki bir başka dalı *unutma*dır: emanetin hafızadan kayıp gitmesi. Yani *dâllîn* kelimesi kök düzeyinde "unutanlar" diye de duyulur — ve Kuran, önceki kitap topluluklarını başka bir surede tam bu dille anar: "kendilerine hatırlatılanın bir bölümünü *unuttular*." Fâtiha'nın kapanışındaki sığınma, bu kulakta, yalnız yol kaybına değil emanet kaybına da sığınmadır: bize verileni düşürenlerden eyleme bizi.
+
+**[GÜÇLÜ / A (çekirdek) + B (tartı katmanı) — sahiplik ve kulluk kökleri sözlükte birbirini tanımlıyor; din kökünde borç dalı; doğruluk kökünde denk tartılan sikke]**
+Dördüncü ve beşinci ayetler bir hesap sahnesi kurar. Sözlükler "Mâlik" kökünün sahiplik dalını tarif ederken *memlûk ve abd* — köle ve kul — kelimelerini kullanır; "kulluk" kökü de kendini sahiplik üzerinden tanımlar. Yani "Din gününün Mâliki" ile "yalnız Sana kulluk ederiz" bir çağrı-cevaptır: Sahiplik ilan edilir, kulluk karşılık verir; iki kök birbirini sözlükte tanımlar. "Din" kelimesinin dalları da sahneyi tamamlar: hesap ve karşılık dalının yanında *borç* dalı durur — vadeli alacağın gününün gelmesi. Ve "dosdoğru" kelimesinin kökünde iki tartı dalı vardır: *takvîm* (değer biçme, doğrultarak kıymetlendirme) ve *kâim dinar* — terazide hiç ağmayan, tam denk sikke. O zaman hesap gününün iki ayet ardından istenen "dosdoğru yol", bu kulakta, terazide denk çıkan yoldur: eğrisi olmayan, günü geldiğinde tam tartılan.
+
+**[GÜÇLÜ / A — surenin çerçeve kelimeleri sözlükte birbirini tanımlıyor: halka yapısı]**
+Fâtiha'nın mimarisi sözlükte de örülüdür. Eski dilciler "ilah/Allah" kökünü *ibadet* fiiliyle tanımlar: "elehe ve teellehe, *abede* demektir." Yani 1–2. ayetlerdeki Ad ile 5. ayetteki fiil sözlükçe bağlıdır: "Kulluk-Edilen'sin — Sana kulluk ederiz," adın gramerce cevabıdır. Simetrisi de vardır: sözlükler *hamd*i "nimete şükür" diye tanımlar — surenin ilk ismi (hamd, 2. ayet) ile son olumlu fiili (*nimet verdin*, 7. ayet) sözlüğün çizdiği bir halkayı kapatır: sure, açtığı övgünün gerekçesini son ayetinde adlandırır. Buna bir de gramer yankısı eklenir: "nimet verdiklerin *üzerlerine*" ile "gazaba uğramışlar *üzerlerine*" aynı edat kalıbıyla iner — aynı yukarıdan-iniş, bir kez rızık, bir kez ağırlık olarak.
+
+**[GÜÇLÜ / A — dikey eksen: dimdik olan ile yere gömülen; gömülme dalı sözlükte onaylı]**
+"Dosdoğru" kelimesinin kökü *ayakta durmak, dimdik olmak*tır. "Sapmışlar" kökünün sözlüklerdeki bir dalı ise tam karşı yöndedir: *kaybolup gözden yitme — ölünün gömülüp yerde yok olması* dahil. Yani surenin kapanış karşıtlığı bir yükseklik karşıtlığıdır: dimdik yol yukarı-doğrudur; sapış, yere batıp görünmez olmaktır. Kuran başka bir yerde inkârcılara tam bu dili söyletir: "biz yerin içinde *kaybolup gittiğimizde* mi…?" Dikey eksen, iki kökün onaylı dallarıyla, surenin son cümlesine kazılıdır.
+
+**[GÜÇLÜ / A — doku ekseni: rahim yumuşaklığı ile kaya sertliği; iki dal da sözlükte onaylı]**
+İkinci eksen dokudur. *Rahmân–Rahîm* adlarının kökü sözlükte *rahim*dir — anne karnındaki o saran, koruyan ve amacı geçirip sağ çıkarmak olan kuşatma. *Gazab* kökünün dallarından biri ise *ğadbe*dir: sert, yığılmış, som kaya — hatta aynı kök kaplumbağa kabuğunu ve kalkan gibi katlanmış sert deriyi de adlandırır. Surenin iki kutbu böylece iki dokudur: rahmet, canlı ve geçirgen kuşatmadır; gazab, üzerine bindiğinde taşlaştıran ağırlık. Nimet verilenler yumuşak-ve-dimdik konumdadır; dışarıda kalan iki grup, kuşatmanın iki bozuluş biçimini yaşar: taş kesilmek ve toprağa dağılmak.
+
+**[ORTA / B — yutma dalı en eski sözlüklerde; kelimenin söyleniş çeşitliliği bizzat sözlük kaydında]**
+*Sırât* kelimesinin hikâyesi ayrıdır. En eski sözlükler, sin harfiyle yazılan kökün altında "yutmak" fiilini kaydeder ve klasik açıklama şudur: yola sırât denir, çünkü yol, yolcularını *yutar* — içine alıp taşır. Sapmanın "toprağa dağılma"sıyla yan yana konunca karşıtlık incelir: ikisi de yutulmaktır; ama yol, seni koruyarak taşıyan güdümlü bir yutuştur, sapış ise biçimini yitirerek dağılmak. Kelimenin s/ṣ/z ile üç türlü okunagelmiş olması da — ki bu çeşitlilik bizzat sözlük kaydındadır — o çağın kulağının kelimeyi kendi kök duygusuna çekip durduğunun belgesidir.
+
+**[GÜÇLÜ / B — doğruluk kökünün içinde Kıyamet; ve sure ayakta okunur]**
+"Dosdoğru" kelimesinin kökünde bir dal daha vardır: *kıyâmet* — kalkış, Saatin doğrulması, yaratılmışların Allah'ın huzurunda *ayağa durması*. Yani dimdik yol isteği, Son Duruş'u da adlandıran kökün içinden yapılır — ve hemen bir önceki ayetler zaten hesap gününü anmıştır: Din gününün Mâliki (4) ile kıyâmeti taşıyan kök (6), "yalnız Sana kulluk ederiz"i iki yandan kuşatır. Bir de bedensel katman: aynı kökün bir dalı *namazda kıyam*dır — ve Fâtiha, namazın ayakta okunan suresidir. Dil dimdik yolu isterken beden aynı kökün fiilini yapmaktadır: ayakta durmak, dimdik yolu istemek, ve o kökün ucundaki Son Ayağa-Kalkış.
+
+**[GÜÇLÜ / B — hamdin bir dalı: yolcunun konakladığı yeri denenmişlikten sonra övmesi]**
+Taramanın ortaya çıkardığı ince bulgulardan biri surenin ilk kelimesindedir. Sözlükler *hamd* kökünde şu dalı kaydeder: bir yeri ya da kişiyi *deneyip beğenmek* — yolcunun, konakladığı menzili "hamdettim" diye övmesi; Arapların ünlü atasözü de buradandır: "sabah olunca, topluluk gece yürüyüşünü *hamdeder*." Yani sure, yolcunun varış-övgüsü kelimesiyle açılır ve yol isteğiyle kapanır: baştaki hamd ile sondaki "bizi yola ilet", aynı yolculuğun iki ucudur — varılmışın övgüsü ve varılacağın duası.
+
+**[GÜÇLÜ / B-C — nimet kökünde iki yolculuk dalı: insana yarayan konak ve yaya gidiş]**
+"Nimet verdiklerin" kökünün taramada görünen iki ince dalı daha yolculuğa aittir. Biri: *insana yarayan yer* — eski deyişle, bir toprağa varıp da oranın kişiye iyi gelmesi, konaklamanın tatlı düşmesi. Öteki: *yaya gidiş* — birine binitsiz, kendi ayağıyla varmak. Yol suresinin içinde "nimet"in bu iki dalı da yol kokar: nimet verilenlerin yolu, bu kulakta, konağı iyi düşenlerin yoludur.
+
+**[GÜÇLÜ / B — iletme kökünün hediye dalı, "nimet verdin" fiilinin hemen yanında]**
+"İlet" fiilinin kökünde herkesin bildiği bir dal daha yaşar: *hediye* — sevilene gönderilen armağan, hediyeleşme. Dua bu dalla da duyulabilir: "bize yolu *hediye et*" — ve verenin adı bir kelime sonra fiille gelir: "*nimet verdiklerinin* yoluna." İstek ile ikram, iki komşu kelimede, iki kökün birbirine bakan dallarıyla el sıkışır.
+
+**[GÜÇLÜ / B — rab kökünde büyütme-akrabalığı, rahmet kökünde akrabalık: iki kök çocuk odasında buluşuyor]**
+*Rab* kökünün dallarından biri *büyütme akrabalığı*dır: rabîb — evlat edinilip büyütülen çocuk — ve bakıp yetiştiren. *Rahmet* kökünün dalları da akrabalıktır: yakın hısımlık ve rahmin kendisi. "Âlemlerin Rabbi" ile "Rahmân–Rahîm" art arda okununca, iki kök çocuk odasında buluşur: biri büyüten bakımı, öteki doğuran kuşatmayı adlandırır. Surenin açılışındaki Rab-Rahmet ikilisi, sözlük düzeyinde, terbiye ile rahmin — yetiştirmenin ve doğurmanın — yan yana gelişidir.
+
+**[GÜÇLÜ / B — âlemler: kendisi işaret olan yaratılmışlar]**
+Sözlükler *âlem* kelimesini şöyle açıklar: yaratılmış her sınıf varlığa âlem denir, çünkü her biri "kendinde *işaretli*dir ve yapıcısına *delâlet eder*" — âlem, Yapan'ını gösteren nişandır. O zaman "hamd, âlemlerin Rabbinedir" cümlesi kendi gerekçesini içinde taşır: övgü, övülen âlemlerin zaten işaret edip durduğu Kişi'yedir. Yol-işaretleri dalıyla birleşince tablo bütünlenir: âlemler hem delil hem yol nişanıdır — evren, üzerinde yürünen işaretli bir güzergâh.
+
+**[ORTA / C-koşullu — altı kökte su dalı; ama bu, sınama gerektiren türden bir desen]**
+Dürüst bir kayıt: taramada, surenin on sekiz kökünden altısında *su* dalları göründü — Rab kökünde "çok su", âlem kökünde "bol sulu kuyu/deniz" anlamına gelen bir kelime, Mâlik kökünde "yolcuların işini gördüren su", doğruluk kökünde kuyu makarası, gökyüzü kökünde yağmur, ve "gayri" kelimesinin kökünde yağmurla azık verme. Yol, sürü, su: çöl yolculuğunun üç zorunluluğu — ve üçüncüsü yüzeyde tek kelimeyle bile anılmadan, tamamen dallarda. Tam da bu yüzden ihtiyatlıyız: su dalları Arap köklerinde genel olarak yaygındır; altı-bölü-on-sekiz belki desendir, belki taban oranı. Bu bulgu, yöntemimizin sınama aşamasına (rastgele karıştırma testine) gönderilmiştir; test geçerse çöl-yolculuğu okuması üçüncü ayağına kavuşur, geçmezse güzel bir yanılsama olarak arşive kalkar. Şimdilik: iddia değil, sınanmayı bekleyen aday.
+
+**[ORTA / B — "isim" kelimesinin çoğunluk türetimi: yükseklik]**
+Sure "Allah'ın *adıyla*" açılır. Eski dilcilerin çoğunluk görüşünde *isim* kelimesinin kökü yüksekliktir; sözlükler adı "yükseltilmiş anış" diye tanımlar. Bu okumada besmele, söze Adı *kaldırarak* başlamaktır — ve Aʿlâ Suresi'nin "Rabbinin en yüce adını yücelt" açılışıyla aynı jesttir. Azınlık görüşü kelimeyi "damga" kökünden türetir; bulgu, çoğunluk çizgisine yaslandığı için orta güvenle kayıtlıdır.
+
+**[GÜÇLÜ / C — gün kökünde nimet-günleri dalı]**
+Bir kayıt düşülesi merak: *yevm* (gün) kökünün sözlük dallarından biri "*nimet* günleri ve ilahi vakalar"dır — bir topluluğa inen af, nimet ya da azabın anıldığı günler. "Din gününün Mâliki"ndeki gün, üç ayet sonra gelen "nimet verdin" fiiliyle bu dal üzerinden de tınlar. Tek ipucu olduğu için yalnızca kayıttır.
+
+**[GÜÇLÜ / C — kulluk kökünün içinde öfke dalı: reddedilenin gölgesi]**
+Bir başka merak: "kulluk ederiz" kökünün sözlük envanterinde bir dal da *öfke ve kibirli reddediş*tir — kaçırılana yanma, ar damarıyla köpürme. Gazaba uğramışlardan sığınılan bir surede, kulluk fiilinin kendi kökü, reddettiği tutkunun adını da taşır: kelimenin içinde, uzak durulanın gölgesi durur. İpucusuz; yalnızca işaretli bir gözlem.
+
+**[GÜÇLÜ / C — "gayri"nin kökünde azık dalı; işlev kelimesinde bile yankı]**
+Ve en incesi: "gazaba uğramışların *gayri*" derkenki "gayri" (değil/başka) kelimesinin kökünde bile sözlükler bir dal kaydeder: *mîre* — aileye azık taşımak, yağmurla beslemek, hali düzeltmek. İşlev kelimeleri en zayıf aktivasyon sınıfıdır ve bu kayıt bir iddia değildir; ama "nimet verdin"in hemen ardından gelen kelimenin kökünde azık dalının durması, surenin sözlük dokusunun ne kadar sık örüldüğünün küçük bir örneği olarak defterdedir. (Aynı defterde bir eş kayıt: "yardım dileriz" kökünde yaban eşeği *sürüsü* anlamına gelen bir kelime — sürü kanalının işlev-kelimesi ucu.)
+
+---
+
+**[ÖZET]**
+Yirmi beş kelimelik açılış suresi, sözlük dalları düzeyinde en az beş kanalda aynı anda konuşur. Yol kanalı en genişidir: dört açık yol kelimesine, "âlemler"deki yol işaretleri, "Mâlik"teki yol ortası ve "kulluk ederiz"deki çiğnenmiş-yol dalları eklenir — topluluğun kulluğu, kelime düzeyinde, yolun düzlenmesidir. Sürü kanalı Rab'le açılır, nimet ve iletme köklerinin karşılıklı sürü dallarından geçer, "Mâlik"in öncü-hayvan dalına uğrar ve "rabbi bilinmeyen yitik" tanımıyla kapanır. Hesap kanalı dördüncü-beşinci ayettedir: sahip ile kul sözlükte birbirini tanımlar, din kökünde borç, doğruluk kökünde denk tartılan sikke durur. Halka kanalı surenin mimarisidir: Ad ile kulluk, hamd ile nimet, sözlüğün kendi çizdiği çemberlerle kapanır. Ve eksen kanalı sondadır: dimdik olanla yere gömülen, rahim yumuşaklığıyla kaya sertliği. Taramanın ince bulguları — yolcunun konak övgüsü, hediye dalı, çocuk odasında buluşan Rab ve Rahmet — ilk bakışların hep aynı dersini tekrarlar: bir kökü "bilmek", dallarını duymak değildir. Altı kökte birden görünen su dalları ise dürüstlüğün ölçüsü olarak kayıttadır: güzel diye değil, sınavı geçerse yazılacak. Fâtiha'yı her gün kırk kez okuyan kulak için sonuç şudur: bu sure, kelimelerinin her dokunuşunda birden fazla telin titreştiği, baştan sona akortlu bir metindir.
