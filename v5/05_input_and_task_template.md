@@ -15,6 +15,14 @@ BASMALA_POLICY:
 
 ## Required evidence
 
+Use the validated prepared input package as the source of truth. The required
+semantic evidence consists of the exact passage, primary scaffold, positioned
+morphology, available verified syntax/discourse, and lexical branch inventory.
+Run metadata files such as `run-card.json`, `input-summary.json`, and legacy
+`source-manifest.*` files may be included when present, but they are optional
+metadata rather than required evidence. If the prepared package validates and a
+manifest file is absent, do not treat the absence as a blocker.
+
 ### Exact passage
 
 Supply sacred Arabic with stable positions and ayah boundaries, preferably:
@@ -94,6 +102,7 @@ Authorized inputs:
 - verified syntax: [PATH or UNAVAILABLE]
 - verified discourse: [PATH or UNAVAILABLE]
 - lexical branch inventory: [PATH or FIRST COMPLETE ROOT-DOSSIER BATCH]
+- run metadata: [PATH or omitted]
 
 Task variables:
 - TARGET_PASSAGE: [VALUE]

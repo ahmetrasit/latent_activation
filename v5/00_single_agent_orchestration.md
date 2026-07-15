@@ -49,7 +49,7 @@ Do not expose themes, keywords, networks, hidden labels, edge weights, English g
 
 ## 4. Authorized initial evidence
 
-Supply:
+Supply the validated core evidence packet:
 
 1. exact sacred Arabic with stable word positions and ayah boundaries;
 2. recitational opening context and basmala policy, when applicable;
@@ -57,6 +57,12 @@ Supply:
 4. positioned morphology;
 5. verified syntax and discourse edges, when available;
 6. complete V4 branch dossiers under the four-field boundary.
+
+Run metadata such as `run-card.json`, `input-summary.json`, or legacy
+`source-manifest.*` files may be supplied when present, but they are not
+semantic evidence and are not required by this workflow. Absence of manifest
+files is not a blocker when the prepared input package validates and the core
+evidence files above are present.
 
 Do not supply a gold answer, exemplar, evaluation, prior synthesis, thematic network, semantic hierarchy, proposed axis, or preselected local-sense labels.
 
