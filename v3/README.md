@@ -57,6 +57,83 @@ The resulting `1-publication.md` is deterministic. Each finding remains a separa
 
 For an existing run that already has `a1/discovery-integrated.md` and `a2/mechanism-map.md`, rerun `make_tasks.py` and execute only task 04 with a fresh renderer. The new task writes `<surah>-publication.jsonl`; render it only after validation succeeds. The earlier agents do not need to run again unless their artifacts change.
 
+## S1 audio-renderer pilots
+
+The run `v3/run/s001-full-20260716/` contains an isolated comparison of two
+audio-first Stage 4 designs. These files are evaluation artifacts, not a change
+to the canonical orchestration described above.
+
+### Archived pilot v1
+
+The first audio-oriented result is preserved as:
+
+```text
+1-publication-pilot-v1.jsonl
+1-publication-pilot-v1.md
+```
+
+It produced 16 synthesized findings. It restored the compact renderer's
+hierarchy after an earlier atomized 47-finding attempt, but recurring lexical
+carrier language remained too audible for sustained TTS listening.
+
+### Revised single-pass renderer
+
+The current single-pass prompt, `prompts/a2-publication-tr-audio-first.md`,
+produced:
+
+```text
+1-publication.jsonl
+1-publication.md
+```
+
+The result contains 15 findings. It passed the deterministic contract check,
+used only exact Arabic surface substrings from the supplied passage, and spoke
+no bare roots. It substantially reduced lexical bookkeeping in the prose, but
+still compressed some synthesis details and developed a repeated explanatory
+carrier of its own.
+
+### Frozen-synthesis two-pass pilot
+
+The alternative pilot separates synthesis from rendering while keeping both
+turns in the same third-agent session:
+
+```text
+prompts/a2-publication-tr-compact-v2.md
+  -> 1-synthesis-master-pilot-v2.md
+  -> prompts/a2-publication-tr-audio-followup.md
+  -> 1-publication-two-pass-pilot-v2.jsonl
+  -> 1-publication-two-pass-pilot-v2.md
+```
+
+The pilot tasks are:
+
+```text
+tasks/04a-a2-synthesis-master-pilot-v2.md
+tasks/04b-a2-audio-followup-pilot-v2.md
+```
+
+The unchanged compact production prompt first wrote a frozen synthesis master.
+The renderer-only follow-up then treated every grade-bearing master unit as
+exactly one JSONL finding, without merging, splitting, reordering, or
+rescoring. It produced 19 findings, matching the master's nine governing and
+ten complementary units, and passed the deterministic contract check.
+
+This experiment supports the two-pass architecture for synthesis preservation.
+The written master, rather than conversational memory, must remain the
+auditable source of truth for the follow-up. The follow-up prose still needs a
+further canary for repeated Arabic-gloss phrasing and strict use of the primary
+scaffold's Quranic names and titles.
+
+Neither pilot can restore discoveries already absent from
+`a2/mechanism-map.md`. Comparison with `s1-bulgular-tr.md` found that the
+governing synthesis was retained, while several reference details had been
+lost upstream or reduced before publication rendering.
+
+The canonical task generator and orchestration specification remain
+single-pass. Promote the two-pass design only after the follow-up prompt passes
+fresh S1 and S112 canaries and the production task generator, runbook, and
+batch-production gate are updated together.
+
 ## Deliberate omissions
 
 V3 has no state machine, review agent, hashes, provenance ledger, branch-coverage report, or failed-seed record. Its small publication schema validates presentation shape only; it does not adjudicate findings. Its final renderer is a production writing turn, not a control layer. Preparation, task emission, validation, and Markdown rendering do not call a model provider.
