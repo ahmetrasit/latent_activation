@@ -1,0 +1,49 @@
+{
+  "attachments": {
+    "raw_rows": 11,
+    "syntax_edges": 11
+  },
+  "created_at": "2026-07-15T17:40:25Z",
+  "gold_release_eligible": false,
+  "lexical": {
+    "contamination_filter": "database-contaminated-equals-no",
+    "excluded_contaminated_rows": 5,
+    "mode": "database",
+    "payload_bytes": 47368,
+    "payload_fields": [
+      "root_id",
+      "root_norm",
+      "branch_id",
+      "branch_image_ar",
+      "what_is_ar",
+      "source_phrase_ar"
+    ],
+    "payload_note": "Filtered manually for Agent A payload comparison; all rows are accepted, uncontaminated branches from the prepared database export.",
+    "provenance_granularity": "composite-editorial",
+    "review_rows_included": false,
+    "rows": 77
+  },
+  "limitations": [
+    "Lexical records combine source-family prose and cannot establish dictionary-level agreement."
+  ],
+  "morphology": {
+    "missing_feature_policy": "explicit-empty-fields",
+    "mode": "database",
+    "rooted_only": false,
+    "rows": 30
+  },
+  "passage": {
+    "ayah_end": 3,
+    "ayah_start": 1,
+    "encoding_transform": "removed-leading-U+FEFF-only",
+    "opening_context_included": false,
+    "positions": 3,
+    "source_id": "raw-quran",
+    "source_sha256": "754d13b29d7fc022ba0c849e0acf8313c21285f4ddb168e2c80b52b590e02881",
+    "surah": 103
+  },
+  "quality_tier": "source-limited",
+  "run_id": "s103-with-source-phrase",
+  "source_profile": "v1-local-resources-1.0",
+  "workflow_id": "GSLS-3A-2.1"
+}

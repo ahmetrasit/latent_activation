@@ -1,0 +1,217 @@
+{
+  "created_at": "2026-07-15T17:40:25Z",
+  "gold_quarantine": true,
+  "prohibited_paths": [
+    "/Users/ahmetrasit/projects/latent_activation/s1-bulgular-tr.md",
+    "/Users/ahmetrasit/projects/latent_activation/v1",
+    "/Users/ahmetrasit/projects/latent_activation/resources/quran/quran-en.json"
+  ],
+  "provenance_note": "The selected V4 lexical branches are composite editorial records. Source-family tags are routing metadata, not proof of independent dictionary agreement.",
+  "quality_tier": "source-limited",
+  "raw_sources": [
+    {
+      "access": "orchestrator-only",
+      "bytes": 699,
+      "path": "/Users/ahmetrasit/projects/latent_activation/resources/quran/surah_103.json",
+      "role": "exact-sacred-text",
+      "sha256": "754d13b29d7fc022ba0c849e0acf8313c21285f4ddb168e2c80b52b590e02881",
+      "source_id": "raw-quran",
+      "version": "local-copy-version-undocumented"
+    },
+    {
+      "access": "orchestrator-only",
+      "bytes": 22,
+      "path": "/Users/ahmetrasit/projects/latent_activation/resources/quran/.sources",
+      "role": "provenance",
+      "sha256": "5590121cd39b5ecad4cfc9a23327de5a2147b80bc8d39b73354ff70dd1439ac7",
+      "source_id": "raw-quran-provenance",
+      "version": "local-copy-version-undocumented"
+    },
+    {
+      "access": "orchestrator-only",
+      "bytes": 118022144,
+      "path": "/Users/ahmetrasit/projects/latent_activation/resources/qac.sqlite",
+      "role": "morphology",
+      "sha256": "5935cebc46d6458f901a066fba999f926064b75c9ca615c94fd815949b1e6bea",
+      "source_id": "raw-qac",
+      "version": "qac.sqlite.v0;qac-build.v0.1;2026-06-27T15:12:39.593180+00:00"
+    },
+    {
+      "access": "orchestrator-only",
+      "bytes": 17924385,
+      "path": "/Users/ahmetrasit/projects/latent_activation/resources/attachments.tsv",
+      "role": "syntax-annotations",
+      "sha256": "a41c47b22e80293d055d797b8654e9e025fbe1d02f8ddac8f6abc7ea10070292",
+      "source_id": "raw-attachments",
+      "version": "pass1-local-annotation"
+    },
+    {
+      "access": "orchestrator-only",
+      "bytes": 171462656,
+      "path": "/Users/ahmetrasit/projects/latent_activation/resources/furuq_v4.sqlite",
+      "role": "lexical-branches",
+      "sha256": "318d7128a3b434d815eed0f0f926b7b79cd0c64a34566255c22288c5af87fca2",
+      "source_id": "raw-lexical",
+      "version": "lexicon-build.furuq.sqlite.v1;lexicon-build.v4.sqlite.v2;2026-07-07T14:45:56.312687+00:00"
+    },
+    {
+      "access": "orchestrator-only",
+      "bytes": 882,
+      "path": "/private/tmp/gsls-s103-check.K2KzuF/primary-scaffold.md",
+      "role": "primary-scaffold",
+      "sha256": "b54ebc7e9a4cefdc3c14001b618ad779deb7b046ad842f1f46973c5c73ec743a",
+      "source_id": "operator-primary-scaffold",
+      "version": "operator-supplied"
+    }
+  ],
+  "run_id": "s103-with-source-phrase",
+  "schema_version": "2.1.0",
+  "sources": [
+    {
+      "access": "read-only",
+      "contamination_status": "clean",
+      "derived_from": [],
+      "evidence_class": "quality-language-and-product-policy",
+      "path": "/Users/ahmetrasit/projects/latent_activation/v2.1/run/103/with-source-phrase/inputs/run-card.json",
+      "permitted_agents": [
+        "A",
+        "B",
+        "C"
+      ],
+      "quality_tier": "source-limited",
+      "query_contract": null,
+      "required": true,
+      "sha256": "80e076da8a52dabe0429c5ceb1b8077079fa40b5b4f0a32a0a1e937aad2466ad",
+      "source_id": "run-card",
+      "source_type": "run-configuration",
+      "version": "2.1.0"
+    },
+    {
+      "access": "read-only",
+      "contamination_status": "clean",
+      "derived_from": [
+        "raw-quran"
+      ],
+      "evidence_class": "exact-text-order-and-position",
+      "path": "/Users/ahmetrasit/projects/latent_activation/v2.1/run/103/with-source-phrase/inputs/passage-arabic.txt",
+      "permitted_agents": [
+        "A",
+        "B",
+        "C"
+      ],
+      "quality_tier": "source-limited",
+      "query_contract": null,
+      "required": true,
+      "sha256": "d2395f3d5d9528aa2606d11926308401e97518116e98ac94c2000d84ace6ad80",
+      "source_id": "passage-arabic",
+      "source_type": "sacred-text",
+      "version": "local-copy-version-undocumented"
+    },
+    {
+      "access": "read-only",
+      "contamination_status": "clean",
+      "derived_from": [
+        "operator-primary-scaffold"
+      ],
+      "evidence_class": "direct-context-only",
+      "path": "/Users/ahmetrasit/projects/latent_activation/v2.1/run/103/with-source-phrase/inputs/primary-scaffold.md",
+      "permitted_agents": [
+        "A",
+        "B"
+      ],
+      "quality_tier": "source-limited",
+      "query_contract": null,
+      "required": true,
+      "sha256": "b54ebc7e9a4cefdc3c14001b618ad779deb7b046ad842f1f46973c5c73ec743a",
+      "source_id": "primary-scaffold",
+      "source_type": "operator-primary-scaffold",
+      "version": "operator-supplied"
+    },
+    {
+      "access": "read-only",
+      "contamination_status": "clean",
+      "derived_from": [
+        "raw-qac"
+      ],
+      "evidence_class": "positioned-rooted-morphology",
+      "path": "/Users/ahmetrasit/projects/latent_activation/v2.1/run/103/with-source-phrase/inputs/morphology.tsv",
+      "permitted_agents": [
+        "A",
+        "B"
+      ],
+      "quality_tier": "source-limited",
+      "query_contract": null,
+      "required": true,
+      "sha256": "810d95b6e2844774b8ef83f95083c222ed7c1d708a64cf2bf8714deadf31546e",
+      "source_id": "positioned-morphology",
+      "source_type": "morphology",
+      "version": "qac.sqlite.v0;qac-build.v0.1;2026-06-27T15:12:39.593180+00:00"
+    },
+    {
+      "access": "read-only",
+      "contamination_status": "clean",
+      "derived_from": [
+        "raw-attachments"
+      ],
+      "evidence_class": "normalized-structural-edges",
+      "path": "/Users/ahmetrasit/projects/latent_activation/v2.1/run/103/with-source-phrase/inputs/syntax.tsv",
+      "permitted_agents": [
+        "A",
+        "B"
+      ],
+      "quality_tier": "source-limited",
+      "query_contract": null,
+      "required": true,
+      "sha256": "146e639a45a19640148ceb34d34ce3d03d761f93c4ae0b5f43ccdb83315ee519",
+      "source_id": "syntax-edges",
+      "source_type": "syntax",
+      "version": "pass1-local-annotation"
+    },
+    {
+      "access": "read-only",
+      "contamination_status": "clean",
+      "derived_from": [
+        "raw-lexical"
+      ],
+      "evidence_class": "composite-editorial-dictionary-prose",
+      "path": "/Users/ahmetrasit/projects/latent_activation/v2.1/run/103/with-source-phrase/inputs/lexical-branches.jsonl",
+      "permitted_agents": [
+        "A",
+        "B"
+      ],
+      "quality_tier": "source-limited",
+      "query_contract": null,
+      "required": true,
+      "sha256": "cb1a26b286ca2290bfeb7b0dbf455cb24bef0f1c1d6a1797adb919ad003098ff",
+      "source_id": "lexical-branches",
+      "source_type": "lexical-branch-inventory",
+      "version": "lexicon-build.furuq.sqlite.v1;lexicon-build.v4.sqlite.v2;2026-07-07T14:45:56.312687+00:00"
+    },
+    {
+      "access": "read-only",
+      "contamination_status": "clean",
+      "derived_from": [
+        "raw-quran",
+        "raw-quran-provenance",
+        "raw-qac",
+        "raw-attachments",
+        "raw-lexical",
+        "operator-primary-scaffold"
+      ],
+      "evidence_class": "source-limitations",
+      "path": "/Users/ahmetrasit/projects/latent_activation/v2.1/run/103/with-source-phrase/inputs/input-summary.json",
+      "permitted_agents": [
+        "A",
+        "B"
+      ],
+      "quality_tier": "source-limited",
+      "query_contract": null,
+      "required": true,
+      "sha256": "cf580585667e94a130dc73497651e80e97321aaa9c48d1b6695e11b80a88a2ec",
+      "source_id": "input-summary",
+      "source_type": "quality-report",
+      "version": "2.1.0"
+    }
+  ],
+  "workflow_id": "GSLS-3A-2.1"
+}

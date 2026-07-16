@@ -1,0 +1,29 @@
+{
+  "workflow_id": "GSLS-3A-2.1",
+  "run_id": "s100-with-source-phrase",
+  "quality_tier": "gold-ready",
+  "source_profile": "v1-local-resources-1.0",
+  "passage": {
+    "surah": 100,
+    "ayah_start": 1,
+    "ayah_end": 11,
+    "positions": 11,
+    "opening_context_included": false
+  },
+  "morphology": {
+    "mode": "database",
+    "rows": 72,
+    "rooted_only": false
+  },
+  "syntax": {
+    "source_rows": 29,
+    "edges": 29
+  },
+  "lexical": {
+    "mode": "database",
+    "rows": 169,
+    "contamination_filter": "database-contaminated-equals-no",
+    "excluded_contaminated_rows": 5
+  },
+  "limitations": []
+}

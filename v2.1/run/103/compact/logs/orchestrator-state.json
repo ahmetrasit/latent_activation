@@ -1,0 +1,77 @@
+{
+  "agent_sessions": {},
+  "created_at": "2026-07-15T17:40:36Z",
+  "frozen_artifacts": {},
+  "history": [
+    {
+      "actor": "manual-package",
+      "at": "2026-07-15T18:25:19Z",
+      "event": "pass",
+      "sequence": 1,
+      "source": "PRECHECK",
+      "target": "A_SYNTHESIZE"
+    }
+  ],
+  "optional_product": "none",
+  "prepared_inputs": {
+    "inputs/input-summary.json": {
+      "bytes": 1424,
+      "sha256": "f3532c8012607448472e9297fbc4837cebcc5f6ef8bb6f991c4ddb53cfcaef86"
+    },
+    "inputs/lexical-branches.jsonl": {
+      "bytes": 23778,
+      "sha256": "602a5c09587979e0bda92325fb6d34408129ad2edcce9883ce6cad89efef4580"
+    },
+    "inputs/morphology.tsv": {
+      "bytes": 4531,
+      "sha256": "810d95b6e2844774b8ef83f95083c222ed7c1d708a64cf2bf8714deadf31546e"
+    },
+    "inputs/passage-arabic.txt": {
+      "bytes": 327,
+      "sha256": "d2395f3d5d9528aa2606d11926308401e97518116e98ac94c2000d84ace6ad80"
+    },
+    "inputs/primary-scaffold.md": {
+      "bytes": 882,
+      "sha256": "b54ebc7e9a4cefdc3c14001b618ad779deb7b046ad842f1f46973c5c73ec743a"
+    },
+    "inputs/run-card.json": {
+      "bytes": 1258,
+      "sha256": "2b29b01333c764afa8d6148fe1ad9c258c44a241418c81fc58a628caf2282e08"
+    },
+    "inputs/run-card.md": {
+      "bytes": 435,
+      "sha256": "5bf90ee15e6f3b0a8e51071a2f573cb6858f417d64e435b498e2a446f5915780"
+    },
+    "inputs/source-manifest.json": {
+      "bytes": 7722,
+      "sha256": "125b4af43713431157707fba9bdc0aa6ef56ecfdea668fd209cbe1b1a9b52887"
+    },
+    "inputs/source-manifest.md": {
+      "bytes": 1650,
+      "sha256": "eb27da0fe94297f9aee5aad8be43e25e7a6695969da440b68e14fd3e2e27ee40"
+    },
+    "inputs/syntax.tsv": {
+      "bytes": 3362,
+      "sha256": "146e639a45a19640148ceb34d34ce3d03d761f93c4ae0b5f43ccdb83315ee519"
+    }
+  },
+  "quality_tier": "source-limited",
+  "run_id": "s103-compact",
+  "run_root": "/Users/ahmetrasit/projects/latent_activation/v2.1/run/103/compact",
+  "schema_version": "2.1.0",
+  "state": "A_SYNTHESIZE",
+  "task_sequence": 1,
+  "tasks": [
+    {
+      "agent_id": "A",
+      "created_at": "2026-07-15T18:25:19Z",
+      "path": "/Users/ahmetrasit/projects/latent_activation/v2.1/run/103/compact/tasks/001-a_synthesize.md",
+      "sequence": 1,
+      "sha256": "540185d4df0a5c189388435822a209f2f5ee209b4d52abc15586ac311972613b",
+      "state": "A_SYNTHESIZE",
+      "task_mode": "SYNTHESIZE"
+    }
+  ],
+  "updated_at": "2026-07-15T17:40:47Z",
+  "workflow_id": "GSLS-3A-2.1"
+}
