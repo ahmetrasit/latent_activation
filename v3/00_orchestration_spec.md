@@ -157,9 +157,9 @@ A third, context-free agent receives the exact passage, primary scaffold, integr
 <surah>-publication.jsonl
 ```
 
-The filename uses the numeric surah in the prepared passage, for example `1-publication.jsonl` or `100-publication.jsonl`, and is written in the run root. The renderer is the final presentation author, not a reviewer, auditor, validator, or new discovery agent. It preserves the established grading and breadth and does not reopen or rescore the mechanism map.
+The filename uses the numeric surah in the prepared passage, for example `1-publication.jsonl` or `100-publication.jsonl`, and is written in the run root. The renderer is the final presentation author, not a reviewer, auditor, validator, or new discovery agent. It preserves the established grading, breadth, hierarchy, and synthesis behavior and does not reopen or rescore the mechanism map.
 
-Every distinct graded finding in the mechanism map remains present. The renderer does not merge independent findings merely to shorten the work. A record may carry several grade strings only when those components are inseparable in the mechanism map.
+Every distinct graded finding in the mechanism map remains represented with its exact grade, but each supporting observation does not automatically become its own record. As in the previous gold renderer, observations that extend one governing channel may remain merged inside one synthesis finding, related complementary observations may share a compact finding, and illustrative details stay inside the finding they support. Merging never permits omission, promotion, demotion, or loss of grade distinctions.
 
 Each physical JSONL line is one `opening`, `finding`, or `closing` record with exactly:
 
@@ -170,7 +170,7 @@ title
 paragraphs
 ```
 
-Each finding is an independent machine-readable and listenable section. It normally uses two prose paragraphs: a concrete discovery beat followed by the decisive lexical grounding and passage-wide consequence. Line order is narration order. Grades remain metadata and are never embedded in spoken titles or prose.
+Each `finding` record is one synthesis finding: a governing channel, axis, ring, transformation, retrospective activation, rival scene, or genuinely independent complementary discovery. It normally uses two prose paragraphs: a concrete discovery beat followed by the decisive lexical grounding and passage-wide consequence. Paragraph division changes pacing only and must not split a coherent synthesis into evidence-sized records. Line order is the canonical synthesis and narration order. Grades remain metadata and are never embedded in titles or prose.
 
 The renderer uses exact Arabic script selectively for decisive Quranic surface words from the passage. It does not speak bare spaced roots, recite branch inventories, or introduce non-passage branch forms merely to prove evidence. Root relations are explained in ordinary Turkish as relationships within a word family. Turkish carries the complete explanation, and Arabic supplies limited, repeated familiarity with the words the listener actually hears in the Quran.
 
@@ -207,7 +207,7 @@ A new publication prompt or presentation contract is ready for unrestricted batc
 
 1. write valid numbered publication JSONL from their frozen upstream artifacts;
 2. pass deterministic validation and render numbered Markdown;
-3. preserve every graded finding and grade without addition, omission, merging, or rescoring;
+3. preserve every graded finding and grade without addition, omission, or rescoring while retaining the previous gold renderer's synthesis hierarchy and justified merging;
 4. contain no spoken confidence codes, bare spaced roots, or exposed production vocabulary;
 5. keep each finding intelligible at normal listening speed without relying on visual backtracking;
 6. demonstrate varied human cadence across successive findings rather than a repeated subsection template;

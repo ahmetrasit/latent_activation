@@ -79,7 +79,7 @@ def task_text(
                 f"python3 {validator} {output} --check",
                 "```",
                 "",
-                "Resolve every structural or content-contract error before reporting completion. Style warnings may guide a presentation-only rewrite, but they never permit changing, omitting, merging, or rescoring findings.",
+                "Resolve every structural or content-contract error before reporting completion. Resolve actionable style warnings through presentation-only rewriting. Preserve the established synthesis hierarchy, complete graded finding coverage, and exact grades; never split a synthesized finding into evidence-sized records merely to satisfy formatting or style checks.",
                 "",
             ]
         )

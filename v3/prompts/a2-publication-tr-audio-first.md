@@ -1,22 +1,52 @@
-# Fresh Renderer: Audio-First Turkish Publication
+# Fresh Renderer: Gold Synthesis in Audio-First Turkish
 
-The passage-scale mechanism map is complete. Render it as a faithful, human Turkish narration for a listener who will usually hear the work once and cannot scan backward.
+The passage-scale mechanism map is complete. Render it as a faithful, human
+Turkish publication for a listener who will usually hear the work once and
+cannot scan backward.
 
-This is a presentation turn, not a discovery turn. Use the supplied passage, scaffold, integrated discovery, and mechanism map. Do not rediscover, rescore, promote, demote, reject, or add findings.
+This is a presentation turn, not a discovery turn. Use the supplied passage,
+scaffold, integrated discovery, and mechanism map. Do not rediscover, re-audit,
+rescore, promote, demote, reject, or add findings.
 
-## Invariants
+## Frozen Synthesis Behavior
 
-Preserve:
+Preserve the synthesis behavior of the established gold renderer. The
+audio-first contract changes presentation, not intellectual organization.
 
-- the direct contextual proposition;
-- every distinct graded lexical or compositional finding in the mechanism map;
-- the exact two-dimensional grading;
-- the difference between governing, supporting, weak, rival, conditional, and incomplete material;
-- the passage-wide relations, ordered reactivations, and reason for closure.
+Compress exposition, not discovery.
 
-Compress neither the finding inventory nor its epistemic shape. Reduce cognitive load by pacing and explanation, not by deletion.
+Every distinct graded finding that contributes a lexical or compositional
+insight must remain visible with its exact two-dimensional grade. Its
+supporting observations may appear:
 
-Do not merge findings merely to shorten the publication. Keep one grade-bearing insight per finding record whenever it can stand independently. Use multiple grades in one record only when the mechanism map treats the components as one inseparable finding.
+- inside a governing synthesis finding whose force comes from several
+  converging observations;
+- as an extension within that same finding;
+- or as a compact complementary finding when it contributes independently.
+
+Do not equate one grade-bearing observation with one publication record. A
+record represents one synthesis finding: a governing channel, axis, ring,
+transformation, retrospective activation, rival scene, or genuinely
+independent complementary discovery.
+
+Density must come from hierarchy, synthesis-preserving merging, and sentence
+economy rather than deletion or atomization.
+
+When several graded observations are extensions of the same governing channel,
+merge them rather than giving each a separate record. Preserve their
+distinctions with separate strings in `grades`. Related complementary
+observations with the same function may also share one compact record. A detail
+that merely illustrates an already graded finding belongs inside that finding,
+not under another title.
+
+Merging must never silently upgrade, downgrade, omit, or blur an observation.
+Conversely, do not split a coherent synthesis merely because its evidence
+contains several grades, roots, positions, or images.
+
+The publication may contain multiple channels. Holism does not mean forcing
+one total metaphor over the passage. It means that governing findings connect
+distant positions, transform earlier wording retrospectively, interact with
+supporting or rival channels, and collectively explain sequence and closure.
 
 ## Listener
 
@@ -24,15 +54,19 @@ Assume one curious Turkish listener who:
 
 - knows no Arabic;
 - has no linguistic training and does not need terminology for its own sake;
-- wants genuine lexical recognition and memorable "aha" moments;
+- wants genuine lexical recognition and memorable moments of discovery;
 - hears the argument instead of studying it on a page;
-- must understand each movement without holding a long inventory in working memory.
+- must understand each movement without holding a long inventory in working
+  memory.
 
-Turkish must carry the complete explanation. Arabic should create familiarity with decisive Quranic surface words, not become a second code the listener must decode.
+Turkish must carry the complete explanation. Arabic should create familiarity
+with decisive Quranic surface words, not become a second code the listener must
+decode.
 
 ## Output Contract
 
-Write UTF-8 JSONL only. Write one JSON object per physical line, with no Markdown, code fence, preface, epilogue, or blank commentary.
+Write UTF-8 JSONL only. Write one JSON object per physical line, with no
+Markdown, code fence, preface, epilogue, or blank commentary.
 
 Every record has exactly these four keys in this order:
 
@@ -42,122 +76,217 @@ Every record has exactly these four keys in this order:
 {"kind":"closing","grades":[],"title":"...","paragraphs":["...","..."]}
 ```
 
-The examples show structure only. Do not reuse their wording as prose templates.
+The examples show structure only. Do not reuse their wording as prose
+templates.
 
 Rules:
 
 - The first record is exactly one `opening`.
-- Every middle record is a `finding`.
+- Every middle record is a synthesized `finding`.
 - The final record is exactly one `closing`.
 - `grades` is empty for `opening` and `closing`.
-- A finding normally has one grade string. Copy its grade without reinterpretation.
-- When one inseparable finding has several graded components, use separate strings such as `"GÜÇLÜ / A çekirdek"` and `"ORTA / B uzantı"`.
-- `title` is a short, memorable spoken title. Do not place grades in it.
-- A finding normally has two paragraphs. A genuinely atomic peripheral finding may use one; a complex governing finding may use three. Never pack several findings into one paragraph.
+- Copy every represented grade without reinterpretation.
+- When a synthesis finding contains differently graded components, use
+  separate descriptive strings such as `"GÜÇLÜ / A çekirdek"` and
+  `"ORTA / B uzantı"`.
+- Do not create duplicate grade strings. Add a short qualifier when several
+  components share the same grade but need separate traceability.
+- `title` is short, memorable navigation text. Do not place grades in it.
+- A synthesis finding normally has two paragraphs. A genuinely small
+  complementary finding may use one; a complex governing finding may use
+  three.
+- Paragraph division changes pacing only. Never split one synthesized finding
+  into several records merely to shorten its paragraphs.
+- Aim for roughly 25 to 55 spoken words per paragraph. Prefer a third paragraph
+  to a dense inventory, but do not create a new finding.
 - Keep every paragraph as one JSON string without embedded line breaks.
-- Line order is publication order. Do not add ids, sequence numbers, groups, hook types, evidence lists, Arabic lists, word counts, or formatting metadata.
+- Line order is the canonical synthesis and narration order.
+- Do not add ids, groups, tags, hook types, evidence lists, Arabic lists, word
+  counts, or formatting metadata. Category and tag indexes are downstream
+  views over the completed synthesis and must not influence this turn.
 
-## Whole-Publication Movement
+## Publication Hierarchy
 
-The publication should feel like one guided discovery rather than a report followed by appendices.
+The opening gives the direct movement of the passage once and establishes a
+question, tension, image, or unresolved relation that the findings can deepen.
+It should orient without previewing an inventory or announcing methodology.
 
-The opening gives the direct movement of the passage in natural Turkish and establishes a question, tension, image, or unresolved relation that the findings can deepen. It should orient without previewing an inventory or announcing methodology.
+Lead with the strongest non-obvious governing coalitions. A governing finding
+changes how distant parts of the passage are heard together, establishes a
+major channel or axis, performs a strong retrospective transformation, or
+materially explains sequence and closure.
 
-Order findings so that the strongest governing relations establish the listener's world first. Let later findings return to earlier images, change their scale, complete missing roles, or reveal why the passage had to close where it does. Peripheral and conditional findings remain present, but they should not receive the same dramatic weight as governing findings.
+Give governing findings enough room to become perceptible and memorable. State
+the surprising relation early, use only the decisive lexical joins, and return
+to its passage-scale consequence.
 
-The closing follows the passage forward once. It should feel like the established images and relations arriving at their consequence, not like a teacher summarizing a list of sections.
+After the governing synthesis is established, retain every remaining
+independent complementary, weak, rival, or conditional discovery in
+proportionate form. The grade already performs much of the general cautionary
+work. Add a prose boundary only when it names the particular missing link or
+rival interpretation.
+
+Do not organize by ayah, pericope, or local section. Do not produce local
+summaries and stitch them together. Use syntax, voice, tense, adjacency, and
+repetition inside the lexical coalitions they strengthen. Do not publish them
+as standalone findings unless they unlock a non-obvious lexical mechanism.
+
+The closing follows the passage forward once. Carry only transformations
+already established so that the interacting field assembles and closes. It
+must feel like consequence, not a teacher re-listing prior headings.
 
 ## Finding Movement
 
-Each finding is its own listenable section.
+Each finding is one synthesized, listenable movement.
 
 The first paragraph normally:
 
-- begins from a concrete word, action, object, bodily state, contrast, sound, place, or unresolved question;
-- lets the listener perceive the surprising relation before receiving a lexical inventory;
-- keeps one central image or transformation in focus.
+- locates the listener in a concrete word, action, object, setting, contrast,
+  or unresolved question;
+- makes the central convergence perceptible before presenting its evidence as
+  an inventory;
+- keeps the governing image or transformation in focus.
 
 The second paragraph normally:
 
-- supplies only the decisive word-family or structural evidence needed to trust the finding;
-- connects distant passage positions without listing every supporting branch;
-- returns to what the relation changes in the hearing of the whole passage.
+- supplies the decisive word-family or structural joins needed to trust the
+  synthesis;
+- connects distant passage positions without reciting every supporting branch;
+- returns to what the convergence changes in the hearing of the whole passage.
 
-A third paragraph is justified only when a governing finding contains an indispensable internal turn that would otherwise become difficult to follow.
+A third paragraph is justified when an indispensable turn inside the same
+synthesis would otherwise become dense. It must continue the same finding,
+not introduce an evidence-sized subsection.
 
-Move attention through the content itself. The prose may shift from a road to a body, from an opening word to a closing word, or from a distant view to one material detail, but it must never name the directing machinery. Do not write about a camera, frame, shot, zoom, lens, close-up, cinematic technique, or scene transition. Avoid repeatedly announcing focus with phrases such as "şimdi odak". Let the new object or action carry the transition.
+Move attention through the content itself. The prose may move from one image to
+another, from early wording to late wording, or from a broad relation to one
+material detail, but it must never name production machinery. Do not write
+about a camera, frame, shot, zoom, lens, close-up, cinematic technique, or
+scene transition. Avoid repeatedly announcing the shift of attention.
 
 ## Arabic Without Interruption
 
-Use exact Arabic script only for decisive Quranic surface words present in the supplied passage.
+Use exact Arabic script only for decisive Quranic surface words present in the
+supplied passage.
 
-- Give the plain Turkish meaning before or together with the Arabic surface word.
-- Normally introduce no more than one or two new Arabic surface forms in a paragraph.
-- Repeat an Arabic surface form only when the repetition itself creates recognition or payoff.
+- Give the plain Turkish meaning before or together with the Arabic surface
+  word.
+- Normally introduce no more than one or two new Arabic surface forms in a
+  paragraph.
+- Repeat an Arabic surface form only when repetition creates recognition or
+  payoff.
 - After a word is established, refer to its Turkish meaning naturally.
-- Explain a root relation in ordinary language, for example by saying that a Quranic word belongs to a word family that also carries a particular concrete image.
-- Vary that explanation naturally; do not turn "bu kelimenin ailesinde" into a repeated formula.
+- Explain a root relation in ordinary language by connecting the Quranic word
+  to its concrete word-family image.
+- Vary that explanation naturally. Do not replace one repeated
+  metalinguistic formula with another.
 
-Never write or speak a bare spaced root such as `ق و م`. The listener cannot connect three isolated letters to the Quranic surface word.
+Never write or speak isolated Arabic root letters separated by spaces. The
+listener cannot connect those letters to the Quranic surface word.
 
-Do not include non-passage branch forms merely to prove that a branch exists. Describe their concrete contribution in Turkish. A non-passage Arabic form may appear only when its own sound or form is indispensable to the finding and the mechanism map makes that indispensability explicit.
+Do not include non-passage branch forms merely to prove that a branch exists.
+Describe their contribution in Turkish. A non-passage Arabic form may appear
+only when its own sound or form is indispensable to the finding and the
+mechanism map makes that indispensability explicit.
 
-Established Arabic-origin Turkish words may be used as ordinary Turkish when they are the clearest natural explanation. Do not use scholarly Latin transliteration.
+Established Arabic-origin Turkish words may be used as ordinary Turkish when
+they are the clearest natural explanation. Do not use scholarly Latin
+transliteration.
 
-Every sentence must remain understandable if the listener misses the Arabic pronunciation.
+Every sentence must remain understandable if the listener misses the Arabic
+pronunciation.
 
 ## Human Turkish Voice
 
-Sound like one thoughtful person sharing a discovery with one curious person. The voice is warm, alert, and conversational without becoming casual, theatrical, preachy, or instructional.
+Sound like one thoughtful person sharing a discovery with one curious person.
+The voice is warm, alert, and conversational without becoming casual,
+theatrical, preachy, or instructional.
 
-Do not imitate a sermon, classroom lecture, academic abstract, documentary announcer, or motivational speech. Do not address the listener with repeated commands such as "bakın", "dikkat edin", or "şimdi düşünün".
+Do not imitate a sermon, classroom lecture, academic abstract, documentary
+announcer, or motivational speech. Do not address the listener with repeated
+commands such as `bakın`, `dikkat edin`, or `şimdi düşünün`.
 
-Vary openings, sentence lengths, transitions, and endings across successive findings:
+Vary openings, sentence lengths, transitions, and endings across successive
+findings:
 
-- A finding may open with an image, action, question, contrast, return, reversal, or compact surprising claim.
+- A finding may open with an image, action, question, contrast, return,
+  reversal, or compact surprising claim.
 - Rhetorical questions are occasional tools, not a subsection template.
 - Let a short reveal sentence land when useful, then slow down for explanation.
-- Use concrete nouns and active verbs. Prefer people, objects, movement, pressure, texture, direction, and consequence to analytical labels.
-- Use natural callbacks so the listener feels continuity instead of hearing independent entries.
+- Use concrete nouns and active verbs. Prefer people, objects, movement,
+  pressure, texture, direction, and consequence to analytical labels.
+- Use natural callbacks so the listener feels continuity rather than hearing
+  independent entries.
 
 Do not let findings repeatedly begin with:
 
-- `Metin...`
-- `Bu bulgu...`
-- a lexical formula shaped like "`...` anlamındaki kök..."
+- `Metin...`;
+- `Bu bulgu...`;
+- a lexical inventory shaped like `... anlamındaki kök...`;
 - what the passage does not say, does not do, or does not literally contain.
 
-Do not let findings repeatedly end with `Böylece`, `Bu yüzden`, `Sonuç olarak`, `yerine geçmez`, `söylemez`, or another standardized disclaimer.
+Do not let findings repeatedly end with `Böylece`, `Bu yüzden`,
+`Sonuç olarak`, `yerine geçmez`, `söylemez`, or another standardized
+disclaimer.
 
-Negative evidence remains important when a finding depends on exclusion. Establish the positive image or relation first whenever possible, then state the particular boundary in natural, finding-specific language. Let the grade carry general caution; prose should name only the limitation that materially helps the listener.
+Negative evidence remains important when a finding depends on exclusion.
+Establish the positive image or relation first whenever possible, then state
+the particular boundary in natural, finding-specific language. Do not repeat a
+generic disclaimer when the grade already carries the necessary caution.
 
-Do not solve repetition by cycling through a visible set of stock phrases. The prose should sound composed from the finding at hand.
+Do not solve repetition by cycling through a visible set of synonyms. Read the
+whole publication for recurring explanatory scaffolds and repeated negative
+constructions, then rewrite them from the concrete finding.
+
+Use context-appropriate referents. Do not apply a generic human category noun
+to a divine referent when the name, title, grammatical role, or a noun-free
+sentence is more natural.
 
 ## Pedagogical Completeness
 
-Without adopting a teacher persona, give the listener what is needed to understand each finding:
+Without adopting a teacher persona, give the listener what is needed to
+understand each synthesis finding:
 
-- enough direct context to know what word or movement is under discussion;
-- the plain Turkish meaning of a decisive Quranic word;
-- the concrete lexical image that becomes active;
-- how another word, position, repetition, or construction completes or changes it;
-- why the connection matters to the whole passage;
-- the specific boundary of a weak or conditional finding when that boundary is necessary.
+- enough direct context to know what passage movement is under discussion;
+- the plain Turkish meaning of decisive Quranic words;
+- the concrete lexical images that converge;
+- how position, order, repetition, construction, or another word completes the
+  relation;
+- why the synthesis matters to the whole passage;
+- the specific boundary of a weak or conditional component when that boundary
+  materially changes the claim.
 
-Do not publish morphology, syntax, branch inventories, or terminology for their own sake. Use them only where they make the discovery intelligible.
+Do not publish morphology, syntax, branch inventories, or terminology for
+their own sake. Use them only where they make the discovery intelligible.
 
 ## Silent Final Pass
 
 Before writing the final JSONL, silently review:
 
-1. Every distinct graded finding in the mechanism map is present with its original grade.
-2. The direct contextual proposition remains intact.
-3. Each finding is understandable as audio and normally divided into two clear beats.
-4. No paragraph asks the listener to retain a long list before learning the point.
-5. Arabic consists mainly of decisive Quranic surface words; no bare spaced roots appear.
-6. No grades or confidence codes appear inside titles or prose.
-7. No cinematic production vocabulary appears in the Turkish prose.
-8. Read only all titles, first sentences, and final sentences in sequence. If adjacent findings share the same grammatical frame, cadence, transition, or disclaimer shape, rewrite the presentation without changing the claim.
-9. The output is valid one-record-per-line JSONL with exactly the four required keys.
+1. The governing and complementary hierarchy follows the mechanism map and the
+   established gold synthesis behavior.
+2. Every distinct graded finding remains represented with its original grade,
+   either as a governing synthesis finding or a complementary finding.
+3. Observations serving one governing channel have not been atomized into
+   separate records merely because they carry separate grades.
+4. No synthesis finding has been split to satisfy paragraph length or JSONL
+   formatting.
+5. The direct contextual proposition remains intact.
+6. Each finding is understandable as audio and normally divided into two clear
+   beats.
+7. No paragraph asks the listener to retain a long inventory before learning
+   the point.
+8. Arabic consists mainly of decisive Quranic surface words; no bare spaced
+   roots appear.
+9. No grades or confidence codes appear inside titles or prose.
+10. No production vocabulary appears in the Turkish prose.
+11. Divine referents are expressed with context-appropriate wording rather
+    than generic human category nouns.
+12. Read all first and final sentences in sequence. Rewrite repeated
+    grammatical frames, lexical scaffolds, cadences, transitions, and
+    disclaimers without changing the synthesis.
+13. The closing is a forward consequence, not a compressed inventory.
+14. The output is valid one-record-per-line JSONL with exactly the four
+    required keys.
 
 Write only the complete publication JSONL to the output path named in the task.
