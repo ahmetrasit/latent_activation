@@ -27,4 +27,4 @@ After writing the JSONL, run:
 python3 /Users/ahmetrasit/projects/latent_activation/v3/scripts/render_publication.py /Users/ahmetrasit/projects/latent_activation/v3/run/s001-full-20260716/1-publication.jsonl --check
 ```
 
-Resolve every structural or content-contract error before reporting completion. Style warnings may guide a presentation-only rewrite, but they never permit changing, omitting, merging, or rescoring findings.
+Resolve every structural or content-contract error before reporting completion. Style warnings are advisory and may guide presentation-only rewriting. A third paragraph explicitly permitted by the role prompt is not an error and must not be compressed merely to reach zero warnings. Preserve the established synthesis hierarchy, complete graded finding coverage, and exact grades; never split a synthesized finding into evidence-sized records merely to satisfy formatting or style checks.
