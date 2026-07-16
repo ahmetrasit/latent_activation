@@ -77,10 +77,18 @@ The final replay must move through the passage once. Carry forward only transfor
 
 Write idiomatic, reader-facing Turkish with concrete nouns and active verbs. Prefer the discovered scene to abstract analytical narration.
 
+Preserve Arabic lexical material in Arabic script. Whenever you name a passage token, root, lemma, branch form, or quoted lexical expression, copy its Arabic form from the listed inputs; do not transliterate or Turkishize it. This applies in headings, labels, and prose alike.
+
+Assume the reader knows no Arabic. Arabic script is only an orthographic anchor that guarantees the source form is spelled correctly; it must never carry meaning by itself. Every sentence must remain fully understandable if the reader skips all Arabic characters. Give every Arabic form a clear Turkish meaning or function in the same sentence, using an immediate gloss at first mention. On later mentions, repeat the gloss when needed or use the Turkish explanation alone rather than leaving an unglossed Arabic form.
+
+For example, write `ٱلصِّرَٰطَ` (yol), `ق و م` (dosdoğru) kökü, `القامة` (makara), and `النعامة` (kiriş), not `sırat`, `müstakîm kökü`, `kāme`, or `naʿāme`. Use `ه د ي` (iletme/yön gösterme) kökü, not `hidayet kökü`, when the root itself is the subject.
+
+Established Arabic-origin words may remain in Turkish when they function as ordinary Turkish explanation rather than as names for Arabic source forms. Thus “rahmetin koruyucu hareketi” is normal Turkish prose, but a lexical claim about the root must say `ر ح م kökü`. If an Arabic form is not present in the listed inputs, use its Turkish gloss without inventing either a Latin transliteration or an Arabic spelling.
+
 Prefer:
 
 ```text
-“Nimet” kökündeki kiriş, “dosdoğru” kökündeki makarayı taşır.
+`ن ع م` (nimet) kökündeki `النعامة` adlı kiriş, `ق و م` (dosdoğru) kökündeki `القامة` adlı makarayı taşır.
 ```
 
 over:
@@ -91,6 +99,6 @@ over:
 
 Avoid letting phrases such as `söz alanı`, `rol tamamlamak`, `mekanizma`, `işleyiş alanı`, `karşı alan`, `yerel fail`, or `koşullu uzmanlaşma` dominate the prose. Avoid translated English syntax, unnecessary nominalization, and repeated methodological caveats.
 
-Do not expose prompts, agents, file paths, branch IDs, evidence codes, or English confidence labels. Arabic expressions and transliteration may appear sparingly when they let the reader hear a decisive lexical relation.
+Do not expose prompts, agents, file paths, branch IDs, evidence codes, or English confidence labels. Arabic expressions may appear whenever needed to identify the exact lexical material, but only with sufficient Turkish explanation for a reader who knows no Arabic. Latin-script transliteration must not appear.
 
 Write only the complete publication to the output path named in the task.
