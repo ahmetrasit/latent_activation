@@ -203,17 +203,14 @@ def parse_publication(source):
         current["paragraphs"].append({"kind": "section_title", "text": title})
         sections.append(current)
 
-    def flush_into_current(force_pending=False):
+    def flush_into_current():
         nonlocal paragraph_lines, pending_subsection_title
         texts = flush_paragraph(paragraph_lines) if paragraph_lines else []
         paragraph_lines = []
         if pending_subsection_title:
             if texts:
                 texts[0] = f"{pending_subsection_title} {texts[0]}".strip()
-                pending_subsection_title = None
-            elif force_pending:
-                texts = [pending_subsection_title]
-                pending_subsection_title = None
+            pending_subsection_title = None
         for text in texts:
             if current is None:
                 ensure_section("Anlatım")
@@ -221,7 +218,7 @@ def parse_publication(source):
 
     def start_subsection(title):
         nonlocal pending_subsection_title
-        flush_into_current(force_pending=True)
+        flush_into_current()
         pending_subsection_title = title
 
     for line in raw_lines:
@@ -258,11 +255,12 @@ def parse_publication(source):
         if skip_fenced:
             continue
         if not stripped:
-            flush_into_current()
+            if not pending_subsection_title:
+                flush_into_current()
             continue
         h_match = re.match(r"^(#{1,6})\s+(.+)$", stripped)
         if h_match:
-            flush_into_current(force_pending=True)
+            flush_into_current()
             title = heading_text(stripped)
             if title.casefold() in {"bulgular", "ana bulgular"}:
                 continue
@@ -273,21 +271,22 @@ def parse_publication(source):
             continue
 
         bold_match = re.match(r"^\*\*(.+?)\*\*\s*(.*)$", stripped)
-        if bold_match and re.match(
-            r"^\[[^\]\n]*\b(GÜÇLÜ|ORTA|ZAYIF)\b[^\]\n]*\]$",
-            bold_match.group(1).strip(),
-        ):
-            start_subsection(bracket_tts_prefix(bold_match.group(1).strip()))
-            rest = bold_match.group(2).strip()
+        bold_prefixed_label_match = re.match(
+            r"^\*\*.+?\*\*\s*(\[[^\]\n]*\b(?:GÜÇLÜ|ORTA|ZAYIF)\b[^\]\n]*\])\s*(.*)$",
+            stripped,
+        )
+        if bold_prefixed_label_match:
+            start_subsection(bracket_tts_prefix(bold_prefixed_label_match.group(1)))
+            rest = bold_prefixed_label_match.group(2).strip()
             if rest:
                 paragraph_lines.append(rest)
             continue
 
         if bold_match and re.match(
-            r"^\[[^\]\n]*\b(GÜÇLÜ|ORTA|ZAYIF)\b[^\]\n]*\]", bold_match.group(2).strip()
+            r"^\[[^\]\n]*\b(GÜÇLÜ|ORTA|ZAYIF)\b[^\]\n]*\]$",
+            bold_match.group(1).strip(),
         ):
-            flush_into_current(force_pending=True)
-            ensure_section(bold_match.group(1))
+            start_subsection(bracket_tts_prefix(bold_match.group(1).strip()))
             rest = bold_match.group(2).strip()
             if rest:
                 paragraph_lines.append(rest)
@@ -299,7 +298,7 @@ def parse_publication(source):
 
         paragraph_lines.append(line)
 
-    flush_into_current(force_pending=True)
+    flush_into_current()
     return sections
 
 
