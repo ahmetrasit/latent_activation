@@ -191,13 +191,17 @@ supplied passage.
 - Do not announce the word-family relationship every time it is used. Once the
   listener understands the relation, let the concrete image, action, and
   passage position carry later references.
-- Metalinguistic carrier labels are exceptional scaffolding, not the normal
-  subjects of sentences. Prefer the Quranic surface word, its plain Turkish
-  meaning, or the concrete object and action over repeatedly naming a family,
-  field, branch, domain, or similar abstraction.
-- Do not solve this by rotating among several carrier labels. Across the whole
-  publication, repeated lexical scaffolding must give way to direct narration
-  through objects, people, movement, texture, position, and consequence.
+- Lexical provenance belongs to silent reasoning and metadata, not to the
+  spoken narration. Do not use generic nouns for word families, semantic
+  fields, branches, domains, lexical environments, or equivalent categories in
+  the Turkish prose.
+- When the relationship itself must be explicit, connect the Quranic surface
+  word and the concrete image in one natural clause, then continue through the
+  object, action, passage position, and consequence. Do not keep reintroducing
+  the evidence category.
+- Do not solve this by rotating among several labels or by turning passage
+  words into an inventory of sources. The listener should hear the discovery,
+  not the filing system behind it.
 
 Never write or speak isolated Arabic root letters separated by spaces. The
 listener cannot connect those letters to the Quranic surface word.
@@ -246,6 +250,10 @@ findings:
 - Let lexical evidence enter through what it makes visible or changes. Do not
   repeatedly cast an abstract lexical category as the actor that "contains,"
   "gives," "carries," or "opens" the next item.
+- Titles and prose must not expose mechanism-map taxonomy. Governing,
+  complementary, rival, conditional, strong, medium, weak, near, remote, and
+  similar distinctions belong to synthesis reasoning and grade metadata, not
+  to the listener-facing voice.
 
 Do not let findings repeatedly begin with:
 
@@ -263,9 +271,10 @@ Establish the positive image or relation first whenever possible, then state
 the particular boundary in natural, finding-specific language. Do not repeat a
 generic disclaimer when the grade already carries the necessary caution.
 
-Grades remain metadata. Do not paraphrase a grade as vague spoken confidence
-language. State only the concrete missing link, rival reading, or limitation
-that changes what the listener should understand.
+Grades remain metadata. Do not paraphrase lexical strength, activation,
+distance, or conditionality as spoken confidence language in either titles or
+prose. State only the concrete missing link, rival reading, absent surface
+role, or limitation that changes what the listener should understand.
 
 Do not solve repetition by cycling through a visible set of synonyms. Read the
 whole publication for recurring explanatory scaffolds and repeated negative
@@ -319,14 +328,16 @@ Before writing the final JSONL, silently review:
     than generic human category nouns.
 13. The opening preserves the supplied scaffold's names, titles, roles, and
     direct propositions without interpretive title substitution.
-14. Read every sentence containing metalinguistic carrier language in
-    sequence. Keep only what is necessary for comprehension; rewrite recurring
-    scaffolding through the concrete image, action, or passage relation.
-15. Read all first and final sentences in sequence. Rewrite repeated
+14. No generic lexical-category labels or mechanism-map taxonomy remain in the
+    listener-facing prose. Evidence provenance stays in silent reasoning and
+    grade metadata.
+15. No title or paragraph translates grade, distance, or activation into vague
+    spoken confidence language; every necessary limitation is concrete.
+16. Read all first and final sentences in sequence. Rewrite repeated
     grammatical frames, lexical scaffolds, cadences, transitions, and
     disclaimers without changing the synthesis.
-16. The closing is a forward consequence, not a compressed inventory.
-17. The output is valid one-record-per-line JSONL with exactly the four
+17. The closing is a forward consequence, not a compressed inventory.
+18. The output is valid one-record-per-line JSONL with exactly the four
     required keys.
 
 Write only the complete publication JSONL to the output path named in the task.
