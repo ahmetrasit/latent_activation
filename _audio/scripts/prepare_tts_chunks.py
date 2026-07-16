@@ -66,6 +66,7 @@ def clean_inline(text):
     text = re.sub(r"`([^`]+)`", r"\1", text)
     text = remove_inline_rank_strength(text)
     text = re.sub(r"\s+", " ", text)
+    text = re.sub(r"\s+([,.;:!?])", r"\1", text)
     return text.strip()
 
 
@@ -102,9 +103,14 @@ def replace_rank_labels(text):
 
 
 def remove_inline_rank_strength(text):
+    def repl(match):
+        level = match.group(1)
+        suffix = match.group(2) or " düzeyinde"
+        return f"{level}{suffix}"
+
     return re.sub(
-        r"\b(?:GÜÇLÜ|ORTA|ZAYIF)\s*/\s*[A-Z](?:-[\wçğıöşüÇĞİÖŞÜ]+)?\b",
-        "",
+        r"\b(?:GÜÇLÜ|ORTA|ZAYIF)\s*/\s*([A-Z](?:-[\wçğıöşüÇĞİÖŞÜ]+)?)(\s+düzeyinde(?:dir)?)?\b",
+        repl,
         text,
     )
 
