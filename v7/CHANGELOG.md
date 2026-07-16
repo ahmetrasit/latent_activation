@@ -1,5 +1,23 @@
 # V7 Prompt Changelog
 
+## V7.2.0
+
+- Removes the primary-change admission gate for role-complete formations.
+- Preserves unusual, small-scale, alternative, and independent operations
+  through semantic master and publication.
+- Makes each decisive word-to-role bridge indivisible from its formation.
+- Protects coalition integrity during publication and auditory revision.
+- Requires a new passage-level consequence produced by interaction between at
+  least two mature formations.
+- Makes the opening tension govern every major movement and precede the direct
+  summary.
+- Replaces abstract analytical carriers with named actors, concrete objects,
+  and finite verbs.
+- Uses one principal relation per spoken sentence and explicit referents.
+- Establishes a Turkish spoken label before each Arabic surface form.
+- Revises for auditory clarity before shortening and forbids a second semantic
+  compression in the final turn.
+
 ## V7.1.0
 
 - Carries mature configurations forward as named, role-complete operations.
