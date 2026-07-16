@@ -54,10 +54,10 @@ session. Never replace conversational continuity with a fresh semantic agent.
 6. `06_canonical_publication_tr.md`
 7. `07_dual_medium_revision.md`
 
-Agent 2 receives the exact passage, primary scaffold, reciprocal field, and
-semantic master. It does not receive the raw branch inventory because its task
-is authorship, not semantic reconsideration. Turns 6 and 7 continue the same
-session as Turn 5.
+Agent 2 receives the exact passage, primary scaffold, and semantic master. The
+master is its sole semantic authority. It does not receive the reciprocal
+working field or raw branch inventory because its task is authorship, not a
+return to discovery. Turns 6 and 7 continue the same session as Turn 5.
 
 ## Production artifacts
 
