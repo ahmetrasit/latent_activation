@@ -4,6 +4,15 @@
 
 Use one persistent semantic agent as the sole interpreter and author.
 
+The agent must run on `gpt-5.6-sol` with reasoning effort `max` for the
+entire orchestration. This requirement applies to every continuation phase,
+including resumed or retried passes. Do not downgrade, switch models, or split
+the run across agents with different model or reasoning settings.
+
+When spawning or resuming the agent, do not set a service tier or priority tier.
+Leave service-tier selection unset/default. The required runtime constraint is
+the model and reasoning effort, not a priority override.
+
 The four prompts are continuation phases inside the same conversation or preserved logical state:
 
 ```text

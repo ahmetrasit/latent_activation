@@ -11,7 +11,15 @@ DISCOVERY_NOTEBOOK_PATH:
 GOLD_SYNTHESIS_PATH:
 PUBLICATION_PATH:
 BASMALA_POLICY:
+MODEL: gpt-5.6-sol
+REASONING_EFFORT: max
+SERVICE_TIER: unset
 ```
+
+Run the same semantic author on `gpt-5.6-sol` with reasoning effort `max` for
+the whole workflow. The model and reasoning setting must remain unchanged
+across Pass 1A, Pass 1B, Pass 2, Pass 3, and any retry or resume.
+Do not set a service tier or priority tier when spawning or resuming the agent.
 
 ## Required evidence
 
@@ -94,6 +102,8 @@ Read and execute:
 [ABSOLUTE PATH]/01_activation_discovery_prompt.md
 
 Remain the same synthesis author for the entire run.
+Use `gpt-5.6-sol` with reasoning effort `max` for every pass.
+Leave service tier unset/default; do not request priority tier.
 
 Authorized inputs:
 - exact passage: [PATH]

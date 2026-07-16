@@ -2,6 +2,10 @@
 
 This is a single-agent workflow: one persistent semantic author remains in the same logical session through four continuation phases.
 
+All four phases must be run by the same `gpt-5.6-sol` agent with reasoning
+effort `max`, including retries and resumed passes. Do not set a service tier
+or priority tier when spawning the agent; leave service-tier selection unset.
+
 1. `01_activation_discovery_prompt.md` — progressive branch-conditioned discovery and backward reactivation.
 2. `02_coalition_resurrection_continuation.md` — mandatory recovery of channels whose branches are weak individually but strong as a coalition.
 3. `03_gold_synthesis_continuation.md` — channel-complete gold research synthesis organized by activation mechanisms, never by pericope summaries.
