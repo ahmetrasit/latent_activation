@@ -15,6 +15,6 @@ Use only the evidence and work products listed below. Do not read the gold refer
 
 ## Output
 
-- /Users/ahmetrasit/projects/latent_activation/v3/run/s001-full-20260716/publication.md
+- /Users/ahmetrasit/projects/latent_activation/v3/run/s001-full-20260716/1-publication.md
 
 Write the complete artifact directly to the output path.
