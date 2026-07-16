@@ -8,13 +8,13 @@ Use only the evidence and work products listed below. Do not read the gold refer
 
 ## Inputs
 
-- /Users/ahmetrasit/projects/latent_activation/v3/run/s105-full-20260716/inputs/passage-arabic.txt
-- /Users/ahmetrasit/projects/latent_activation/v3/run/s105-full-20260716/inputs/primary-scaffold.md
-- /Users/ahmetrasit/projects/latent_activation/v3/run/s105-full-20260716/a1/discovery-integrated.md
-- /Users/ahmetrasit/projects/latent_activation/v3/run/s105-full-20260716/a2/mechanism-map.md
+- /Users/ahmetrasit/projects/latent_activation/v3/run/s018-083-110-ctx-20260716/inputs/passage-arabic.txt
+- /Users/ahmetrasit/projects/latent_activation/v3/run/s018-083-110-ctx-20260716/inputs/primary-scaffold.md
+- /Users/ahmetrasit/projects/latent_activation/v3/run/s018-083-110-ctx-20260716/a1/discovery-integrated.md
+- /Users/ahmetrasit/projects/latent_activation/v3/run/s018-083-110-ctx-20260716/a2/mechanism-map.md
 
 ## Output
 
-- /Users/ahmetrasit/projects/latent_activation/v3/run/s105-full-20260716/105-publication.md
+- /Users/ahmetrasit/projects/latent_activation/v3/run/s018-083-110-ctx-20260716/18-publication.md
 
 Write the complete artifact directly to the output path.
