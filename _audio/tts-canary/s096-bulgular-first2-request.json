@@ -1,0 +1,19 @@
+{
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "pitch": 0,
+    "speakingRate": 1
+  },
+  "input": {
+    "prompt": "Use Rasalgethi as a warm, low-mid Turkish narrator for long-form theological-linguistic commentary. Keep the voice reflective and easy on the ears, but add gentle forward momentum so the listener feels carried through the argument. Use clear Istanbul Turkish diction, natural pauses, and subtle emphasis on insight sentences. The tone should feel like a thoughtful teacher revealing hidden structure step by step: calm, dignified, engaged, and quietly compelling. \nDo not read arabic words like Turkish; they should be phonetically arabic.",
+    "ssml": "<speak><mark name=\"p001_s001\"/>لَنَسْفَعًا بِالنَّاصِيَةِ tehdidinde iki kök birbirinin eksik rolünü tam olarak doldurur. <mark name=\"p001_s002\"/>سفع, başın önünden ya da perçemden zorla tutmayı, bununla birlikte gelen hâkimiyet ve aşağılamayı taşır; ناصية ise hem perçemi hem de ondan tutup çekmeyi adlandırır. <mark name=\"p001_s003\"/>Kuvvet, hedef, beden bölgesi ve sonuç tek bir sahnede kilitlenir. <mark name=\"p001_s004\"/>Ardından perçemin “yalancı, hatalı” diye nitelenmesi, yanlışı soyut bir hüküm olmaktan çıkarıp bedenin önünde okunur hale getirir.\n\n<mark name=\"p002_s001\"/>Fakat bir sonraki فَلْيَدْعُ نَادِيَهُ ifadesi bu bedensel önü toplumsal bir öne genişletir. <mark name=\"p002_s002\"/>ناصية alanı bir topluluğun seçkini, önde geleni ve başı için de kullanılır; نادي ise çevresinde insanların toplandığı meclis ve topluluğu taşır. <mark name=\"p002_s003\"/>Böylece tehdit edilen perçem, engelleyicinin meclisinin bozulmuş “önü” olarak da duyulur. <mark name=\"p002_s004\"/>طغى alanındaki doğru yoldan saptıran sapkınlık başı ile هدى alanındaki önden gidip yol gösteren unsur bu karşıtlığı keskinleştirir: sure yalnız iki davranışı değil, iki öncülük biçimini karşı karşıya getirir.</speak>"
+  },
+  "voice": {
+    "languageCode": "tr-TR",
+    "modelName": "gemini-3.1-flash-tts-preview",
+    "name": "Rasalgethi"
+  },
+  "enableTimePointing": [
+    "SSML_MARK"
+  ]
+}
