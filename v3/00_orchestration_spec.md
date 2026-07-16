@@ -10,7 +10,7 @@ This is open-ended linguistic discovery. The prompts guide attention and composi
 
 Run from the repository root with a unique run directory under `v3/run/`. Before starting, supply an independent primary scaffold for the exact passage scope. The scaffold states the passage's direct contextual proposition; it must not be copied from a gold reference or prior synthesis.
 
-Production uses two native multi-agent sessions with `gpt-5.6-sol` at maximum reasoning depth. Use the environment's native spawn, send, wait, and close operations, and set `fork_context: false` for both spawns so neither agent inherits conversation history. Do not use `codex exec` to emulate an agent, and do not let either production agent spawn further agents.
+Production uses two native multi-agent sessions with `gpt-5.6-sol` at maximum reasoning depth. Use the environment's native spawn, send, wait, and close operations, and set `fork_context: false` for both spawns so neither agent inherits conversation history. Leave `service_tier` unset; do not request or override a priority tier when spawning either agent. Do not use `codex exec` to emulate an agent, and do not let either production agent spawn further agents.
 
 The local source files are:
 
