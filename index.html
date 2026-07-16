@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="tr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0f172a">
-  <meta name="description" content="Audio companion to the Latent Activation research project.">
-  <title>Latent Activation Audio</title>
+  <meta name="description" content="Latent Activation araştırma projesinin Türkçe ses kütüphanesi.">
+  <title>Latent Activation Ses Kütüphanesi</title>
   <style>
     :root {
       color-scheme: light dark;
@@ -322,14 +322,21 @@
       border-radius: 17px;
       background: var(--surface);
       color: var(--text);
+      text-align: left;
+      font: inherit;
+      cursor: pointer;
+      -webkit-appearance: none;
+      appearance: none;
     }
+
+    .track-row:active { transform: scale(.993); }
+    .track-row:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); }
 
     .play-track {
       display: grid;
       place-items: center;
       width: 42px;
       height: 42px;
-      border: 0;
       border-radius: 50%;
       background: var(--accent-soft);
       color: var(--accent-strong);
@@ -356,11 +363,11 @@
       font-weight: 500;
     }
 
-    .download-track {
+    .track-action {
       color: var(--accent);
-      text-decoration: none;
       font-size: .86rem;
-      font-weight: 800;
+      font-weight: 850;
+      white-space: nowrap;
       padding: 10px 7px;
     }
 
@@ -493,8 +500,8 @@
       .surah-grid { grid-template-columns: 1fr; }
       .detail-actions { width: 100%; }
       .detail-actions > * { flex: 1 1 140px; }
-      .track-row { grid-template-columns: 43px minmax(0,1fr); }
-      .download-track { grid-column: 2; justify-self: start; padding: 2px 0 7px; }
+      .track-row { grid-template-columns: 43px minmax(0,1fr) auto; }
+      .track-action { padding-right: 2px; }
       .resume-banner { align-items: flex-start; flex-direction: column; }
       .player-controls { align-items: stretch; }
       .player-group { justify-content: space-between; flex: 1 1 100%; }
@@ -508,29 +515,29 @@
     <section id="libraryView" class="library-view">
       <header>
         <p class="eyebrow">Latent Activation</p>
-        <h1>Audio Library</h1>
-        <p class="subtitle">Listen to the audio companion for the Latent Activation research project. New surahs appear automatically when their MP3 folders are added to the repository.</p>
+        <h1>Ses Kütüphanesi</h1>
+        <p class="subtitle">Latent Activation araştırma projesinin sesli yayınlarını dinleyin. Yeni sûrelerin MP3 klasörleri depoya eklendiğinde burada otomatik olarak görünür.</p>
       </header>
 
       <div class="toolbar">
         <label class="search-wrap">
           <span aria-hidden="true">⌕</span>
-          <span class="sr-only">Search surahs</span>
-          <input id="searchInput" type="search" placeholder="Search by number or name" autocomplete="off">
+          <span class="sr-only">Sûrelerde ara</span>
+          <input id="searchInput" type="search" placeholder="Numara veya sûre adına göre ara" autocomplete="off">
         </label>
-        <button id="availableToggle" class="filter-button" type="button" aria-pressed="false">Available only</button>
+        <button id="availableToggle" class="filter-button" type="button" aria-pressed="false">Yalnızca hazır olanlar</button>
       </div>
 
       <div id="resumeBanner" class="resume-banner">
         <div>
-          <strong id="resumeTitle">Continue listening</strong>
+          <strong id="resumeTitle">Dinlemeye devam et</strong>
           <small id="resumeSubtitle"></small>
         </div>
-        <button id="resumeButton" class="primary-button" type="button">Resume</button>
+        <button id="resumeButton" class="primary-button" type="button">Devam et</button>
       </div>
 
       <div class="status-row">
-        <span id="statusText">Checking the repository for audio…</span>
+        <span id="statusText">Ses dosyaları kontrol ediliyor…</span>
         <span id="apiNote"></span>
       </div>
 
@@ -539,16 +546,16 @@
 
     <section id="detailView" class="detail-view">
       <div class="detail-top">
-        <button id="backButton" class="back-button" type="button">← All surahs</button>
+        <button id="backButton" class="back-button" type="button">← Tüm sûreler</button>
         <div class="detail-heading">
           <div>
-            <p id="detailEyebrow" class="eyebrow">Surah</p>
+            <p id="detailEyebrow" class="eyebrow">Sûre</p>
             <h2 id="detailTitle"></h2>
             <p id="detailMeta"></p>
           </div>
           <div class="detail-actions">
-            <a id="githubFolderLink" class="soft-button" target="_blank" rel="noopener">Open folder</a>
-            <button id="zipButton" class="primary-button" type="button">Download all as ZIP</button>
+            <a id="githubFolderLink" class="soft-button" target="_blank" rel="noopener">GitHub klasörünü aç</a>
+            <button id="zipButton" class="primary-button" type="button">Tümünü ZIP olarak indir</button>
           </div>
         </div>
         <div id="zipStatus" class="zip-status" aria-live="polite"></div>
@@ -557,23 +564,23 @@
     </section>
   </main>
 
-  <aside id="player" class="player" aria-label="Audio player">
+  <aside id="player" class="player" aria-label="Ses oynatıcı">
     <div class="now-playing">
       <div class="now-playing-text">
-        <strong id="nowPlayingTitle">Nothing playing</strong>
+        <strong id="nowPlayingTitle">Bir bölüm seçin</strong>
         <small id="nowPlayingSurah"></small>
       </div>
     </div>
-    <audio id="audio" controls preload="metadata"></audio>
+    <audio id="audio" controls preload="metadata" playsinline controlslist="nodownload"></audio>
     <div class="player-controls">
       <div class="player-group">
-        <button id="prevButton" class="icon-button" type="button">Previous</button>
-        <button id="nextButton" class="icon-button" type="button">Next</button>
+        <button id="prevButton" class="icon-button" type="button">Önceki</button>
+        <button id="nextButton" class="icon-button" type="button">Sonraki</button>
       </div>
       <div class="player-group">
         <label class="toggle-label">
-          Speed
-          <select id="speedSelect" aria-label="Playback speed">
+          Hız
+          <select id="speedSelect" aria-label="Oynatma hızı">
             <option value="0.75">0.75×</option>
             <option value="1">1×</option>
             <option value="1.25">1.25×</option>
@@ -584,7 +591,7 @@
         </label>
         <label class="toggle-label">
           <input id="autoNext" type="checkbox" checked>
-          Auto-next
+          Otomatik devam
         </label>
       </div>
     </div>
@@ -602,18 +609,18 @@
     };
 
     const SURAH_NAMES = [
-      "Al-Fatihah","Al-Baqarah","Ali 'Imran","An-Nisa","Al-Ma'idah","Al-An'am","Al-A'raf","Al-Anfal","At-Tawbah","Yunus",
-      "Hud","Yusuf","Ar-Ra'd","Ibrahim","Al-Hijr","An-Nahl","Al-Isra","Al-Kahf","Maryam","Ta-Ha",
-      "Al-Anbiya","Al-Hajj","Al-Mu'minun","An-Nur","Al-Furqan","Ash-Shu'ara","An-Naml","Al-Qasas","Al-'Ankabut","Ar-Rum",
-      "Luqman","As-Sajdah","Al-Ahzab","Saba","Fatir","Ya-Sin","As-Saffat","Sad","Az-Zumar","Ghafir",
-      "Fussilat","Ash-Shura","Az-Zukhruf","Ad-Dukhan","Al-Jathiyah","Al-Ahqaf","Muhammad","Al-Fath","Al-Hujurat","Qaf",
-      "Adh-Dhariyat","At-Tur","An-Najm","Al-Qamar","Ar-Rahman","Al-Waqi'ah","Al-Hadid","Al-Mujadilah","Al-Hashr","Al-Mumtahanah",
-      "As-Saff","Al-Jumu'ah","Al-Munafiqun","At-Taghabun","At-Talaq","At-Tahrim","Al-Mulk","Al-Qalam","Al-Haqqah","Al-Ma'arij",
-      "Nuh","Al-Jinn","Al-Muzzammil","Al-Muddaththir","Al-Qiyamah","Al-Insan","Al-Mursalat","An-Naba","An-Nazi'at","'Abasa",
-      "At-Takwir","Al-Infitar","Al-Mutaffifin","Al-Inshiqaq","Al-Buruj","At-Tariq","Al-A'la","Al-Ghashiyah","Al-Fajr","Al-Balad",
-      "Ash-Shams","Al-Layl","Ad-Duha","Ash-Sharh","At-Tin","Al-'Alaq","Al-Qadr","Al-Bayyinah","Az-Zalzalah","Al-'Adiyat",
-      "Al-Qari'ah","At-Takathur","Al-'Asr","Al-Humazah","Al-Fil","Quraysh","Al-Ma'un","Al-Kawthar","Al-Kafirun","An-Nasr",
-      "Al-Masad","Al-Ikhlas","Al-Falaq","An-Nas"
+      "Fâtiha","Bakara","Âl-i İmrân","Nisâ","Mâide","En'âm","A'râf","Enfâl","Tevbe","Yûnus",
+      "Hûd","Yûsuf","Ra'd","İbrâhim","Hicr","Nahl","İsrâ","Kehf","Meryem","Tâhâ",
+      "Enbiyâ","Hac","Mü'minûn","Nûr","Furkân","Şuarâ","Neml","Kasas","Ankebût","Rûm",
+      "Lokmân","Secde","Ahzâb","Sebe","Fâtır","Yâsîn","Sâffât","Sâd","Zümer","Gâfir",
+      "Fussilet","Şûrâ","Zuhruf","Duhân","Câsiye","Ahkâf","Muhammed","Fetih","Hucurât","Kâf",
+      "Zâriyât","Tûr","Necm","Kamer","Rahmân","Vâkıa","Hadîd","Mücâdele","Haşr","Mümtehine",
+      "Saff","Cuma","Münâfikûn","Tegâbün","Talâk","Tahrîm","Mülk","Kalem","Hâkka","Meâric",
+      "Nûh","Cin","Müzzemmil","Müddessir","Kıyâmet","İnsan","Mürselât","Nebe","Nâziât","Abese",
+      "Tekvîr","İnfitâr","Mutaffifîn","İnşikâk","Bürûc","Târık","A'lâ","Gâşiye","Fecr","Beled",
+      "Şems","Leyl","Duhâ","İnşirâh","Tîn","Alak","Kadr","Beyyine","Zilzâl","Âdiyât",
+      "Kâria","Tekâsür","Asr","Hümeze","Fîl","Kureyş","Mâûn","Kevser","Kâfirûn","Nasr",
+      "Tebbet (Mesed)","İhlâs","Felak","Nâs"
     ];
 
     const surahs = SURAH_NAMES.map((name, index) => ({
@@ -702,12 +709,12 @@
       if (!response.ok) {
         const rateRemaining = response.headers.get("x-ratelimit-remaining");
         if (response.status === 403 && rateRemaining === "0") {
-          throw new Error("GitHub's public API limit was reached. Try again later or use the cached library.");
+          throw new Error("GitHub’ın herkese açık API sınırına ulaşıldı. Daha sonra yeniden deneyin; mevcut önbellek kullanılmaya devam edebilir.");
         }
         if (response.status === 404) {
-          throw new Error("The expected audio folder was not found.");
+          throw new Error("Beklenen ses klasörü bulunamadı.");
         }
-        throw new Error(`GitHub returned ${response.status}.`);
+        throw new Error(`GitHub ${response.status} durum kodunu döndürdü.`);
       }
       return response.json();
     }
@@ -733,10 +740,10 @@
         });
 
         const count = surahs.filter(surah => surah.available).length;
-        els.statusText.textContent = `${count} of 114 surahs currently have an audio folder.`;
-        els.apiNote.textContent = "The list refreshes automatically.";
+        els.statusText.textContent = `114 sûreden ${count} tanesinin ses klasörü hazır.`;
+        els.apiNote.textContent = "Liste otomatik olarak yenilenir.";
       } catch (error) {
-        els.statusText.textContent = "The library could not refresh.";
+        els.statusText.textContent = "Ses kütüphanesi yenilenemedi.";
         els.apiNote.textContent = error.message;
       }
 
@@ -761,7 +768,7 @@
       if (!filtered.length) {
         const empty = document.createElement("div");
         empty.className = "empty";
-        empty.textContent = "No surahs match this search.";
+        empty.textContent = "Bu aramayla eşleşen sûre bulunamadı.";
         els.surahGrid.append(empty);
         return;
       }
@@ -772,8 +779,8 @@
         button.className = `surah-card ${surah.available ? "available" : "unavailable"}`;
         button.disabled = !surah.available;
         button.setAttribute("aria-label", surah.available
-          ? `Open Surah ${surah.number}, ${surah.name}`
-          : `Surah ${surah.number}, ${surah.name}, coming soon`
+          ? `${surah.number}. sûreyi aç: ${surah.name}`
+          : `${surah.number}. sûre, ${surah.name}; yakında`
         );
 
         const number = document.createElement("span");
@@ -785,7 +792,7 @@
         title.textContent = surah.name;
         const availability = document.createElement("span");
         availability.className = "availability";
-        availability.textContent = surah.available ? "Audio available · Listen" : "Coming soon";
+        availability.textContent = surah.available ? "Ses hazır · Dinle" : "Yakında";
         copy.append(title, availability);
 
         button.append(number, copy);
@@ -803,11 +810,11 @@
 
       els.libraryView.classList.add("hidden");
       els.detailView.classList.add("visible");
-      els.detailEyebrow.textContent = `Surah ${String(surah.number).padStart(3, "0")}`;
+      els.detailEyebrow.textContent = `Sûre ${String(surah.number).padStart(3, "0")}`;
       els.detailTitle.textContent = surah.name;
-      els.detailMeta.textContent = "Loading MP3 sections…";
+      els.detailMeta.textContent = "MP3 bölümleri yükleniyor…";
       els.githubFolderLink.href = githubFolderUrl(`${CONFIG.audioRoot}/${surah.code}/sections/mp3`);
-      els.trackList.innerHTML = '<div class="empty">Loading audio files…</div>';
+      els.trackList.innerHTML = '<div class="empty">Ses dosyaları yükleniyor…</div>';
       els.zipStatus.textContent = "";
       window.scrollTo({ top: 0, behavior: "auto" });
 
@@ -830,7 +837,7 @@
             size: item.size
           }));
 
-        els.detailMeta.textContent = `${state.tracks.length} MP3 section${state.tracks.length === 1 ? "" : "s"}`;
+        els.detailMeta.textContent = `${state.tracks.length} MP3 bölümü`;
         renderTracks();
 
         if (requestedTrackName) {
@@ -840,7 +847,7 @@
           }
         }
       } catch (error) {
-        els.detailMeta.textContent = "Audio unavailable";
+        els.detailMeta.textContent = "Ses kullanılamıyor";
         els.trackList.innerHTML = "";
         const box = document.createElement("div");
         box.className = "error-box";
@@ -868,25 +875,26 @@
       if (!state.tracks.length) {
         const empty = document.createElement("div");
         empty.className = "empty";
-        empty.textContent = "No MP3 files were found in this folder.";
+        empty.textContent = "Bu klasörde MP3 dosyası bulunamadı.";
         els.trackList.append(empty);
         return;
       }
 
       state.tracks.forEach((track, index) => {
-        const row = document.createElement("div");
+        const row = document.createElement("button");
+        row.type = "button";
         row.className = "track-row";
         row.dataset.trackIndex = String(index);
+        row.setAttribute("aria-label", `Oynat: ${cleanTrackTitle(track.name)}`);
+        row.addEventListener("click", () => playTrack(index));
 
-        const play = document.createElement("button");
-        play.type = "button";
+        const play = document.createElement("span");
         play.className = "play-track";
+        play.setAttribute("aria-hidden", "true");
         play.textContent = "▶";
-        play.setAttribute("aria-label", `Play ${cleanTrackTitle(track.name)}`);
-        play.addEventListener("click", () => playTrack(index));
 
-        const copy = document.createElement("div");
-        const title = document.createElement("div");
+        const copy = document.createElement("span");
+        const title = document.createElement("span");
         title.className = "track-title";
         title.textContent = cleanTrackTitle(track.name);
         const file = document.createElement("span");
@@ -894,15 +902,11 @@
         file.textContent = [track.name, formatBytes(track.size)].filter(Boolean).join(" · ");
         copy.append(title, file);
 
-        const download = document.createElement("a");
-        download.className = "download-track";
-        download.href = track.url;
-        download.target = "_blank";
-        download.rel = "noopener";
-        download.textContent = "Open MP3";
-        download.setAttribute("aria-label", `Open or download ${track.name}`);
+        const action = document.createElement("span");
+        action.className = "track-action";
+        action.textContent = "Oynat";
 
-        row.append(play, copy, download);
+        row.append(play, copy, action);
         els.trackList.append(row);
       });
 
@@ -927,7 +931,7 @@
       }
 
       els.nowPlayingTitle.textContent = cleanTrackTitle(track.name);
-      els.nowPlayingSurah.textContent = `Surah ${state.currentSurah.number} · ${state.currentSurah.name}`;
+      els.nowPlayingSurah.textContent = `${state.currentSurah.number}. sûre · ${state.currentSurah.name}`;
       els.player.classList.add("visible");
       document.body.classList.add("has-player");
       updatePlayingRow();
@@ -946,8 +950,10 @@
 
       try {
         await els.audio.play();
-      } catch {
-        // Safari may require a second tap after restoring a saved position.
+      } catch (error) {
+        els.nowPlayingTitle.textContent = "Oynatma başlatılamadı";
+        els.nowPlayingSurah.textContent = "Oynat düğmesine yeniden dokunun.";
+        console.error(error);
       }
       saveProgress();
     }
@@ -956,8 +962,13 @@
       document.querySelectorAll(".track-row").forEach(row => {
         const active = Number(row.dataset.trackIndex) === state.currentTrackIndex;
         row.classList.toggle("playing", active);
-        const button = row.querySelector(".play-track");
-        if (button) button.textContent = active && !els.audio.paused ? "❚❚" : "▶";
+        const icon = row.querySelector(".play-track");
+        const action = row.querySelector(".track-action");
+        const isPlaying = active && !els.audio.paused;
+        if (icon) icon.textContent = isPlaying ? "❚❚" : "▶";
+        if (action) action.textContent = isPlaying ? "Duraklat" : "Oynat";
+        row.setAttribute("aria-label", `${isPlaying ? "Duraklat" : "Oynat"}: ${row.querySelector(".track-title")?.textContent || "MP3"}`);
+        row.setAttribute("aria-pressed", String(isPlaying));
       });
     }
 
@@ -1001,7 +1012,7 @@
       const surah = surahs.find(item => item.code === progress.surahCode);
       if (!surah) return;
 
-      els.resumeTitle.textContent = `Continue ${surah.name}`;
+      els.resumeTitle.textContent = `${surah.name} sûresine devam et`;
       els.resumeSubtitle.textContent = `${cleanTrackTitle(progress.trackName)} · ${formatTime(progress.time)}`;
       els.resumeButton.onclick = () => {
         els.speedSelect.value = String(progress.rate || 1);
@@ -1030,7 +1041,7 @@
         const script = document.createElement("script");
         script.src = "https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js";
         script.onload = resolve;
-        script.onerror = () => reject(new Error("The ZIP helper could not be loaded."));
+        script.onerror = () => reject(new Error("ZIP oluşturma bileşeni yüklenemedi."));
         document.head.append(script);
       });
     }
@@ -1039,7 +1050,7 @@
       if (!state.currentSurah || !state.tracks.length) return;
 
       els.zipButton.disabled = true;
-      els.zipStatus.textContent = "Preparing the ZIP… Keep this page open.";
+      els.zipStatus.textContent = "ZIP hazırlanıyor… Bu sayfayı açık tutun.";
 
       try {
         await ensureJSZip();
@@ -1048,17 +1059,17 @@
 
         for (let index = 0; index < state.tracks.length; index += 1) {
           const track = state.tracks[index];
-          els.zipStatus.textContent = `Downloading ${index + 1} of ${state.tracks.length}: ${track.name}`;
+          els.zipStatus.textContent = `${state.tracks.length} dosyadan ${index + 1}. dosya alınıyor: ${track.name}`;
           const response = await fetch(track.url);
-          if (!response.ok) throw new Error(`Could not download ${track.name}.`);
+          if (!response.ok) throw new Error(`${track.name} alınamadı.`);
           folder.file(track.name, await response.blob());
         }
 
-        els.zipStatus.textContent = "Compressing files…";
+        els.zipStatus.textContent = "Dosyalar sıkıştırılıyor…";
         const blob = await zip.generateAsync(
           { type: "blob", compression: "STORE" },
           metadata => {
-            els.zipStatus.textContent = `Compressing files… ${Math.round(metadata.percent)}%`;
+            els.zipStatus.textContent = `Dosyalar sıkıştırılıyor… ${Math.round(metadata.percent)}%`;
           }
         );
 
@@ -1070,9 +1081,9 @@
         link.click();
         link.remove();
         setTimeout(() => URL.revokeObjectURL(objectUrl), 60_000);
-        els.zipStatus.textContent = "ZIP created. On iPhone, check Safari Downloads or the Files app.";
+        els.zipStatus.textContent = "ZIP oluşturuldu. iPhone’da Safari İndirilenler bölümünü veya Dosyalar uygulamasını kontrol edin.";
       } catch (error) {
-        els.zipStatus.textContent = `${error.message} Large audio sets may need to be downloaded on a computer.`;
+        els.zipStatus.textContent = `${error.message} Çok büyük ses kümelerinin bilgisayardan indirilmesi gerekebilir.`;
       } finally {
         els.zipButton.disabled = false;
       }
