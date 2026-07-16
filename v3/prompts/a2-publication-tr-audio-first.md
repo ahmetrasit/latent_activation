@@ -109,7 +109,10 @@ Rules:
 
 The opening gives the direct movement of the passage once and establishes a
 question, tension, image, or unresolved relation that the findings can deepen.
-It should orient without previewing an inventory or announcing methodology.
+Follow the supplied primary scaffold closely for names, titles, roles, and
+direct propositions. Do not collapse adjacent titles or replace them with a
+more interpretive doctrinal synonym merely to make the opening sound vivid. It
+should orient without previewing an inventory or announcing methodology.
 
 Lead with the strongest non-obvious governing coalitions. A governing finding
 changes how distant parts of the passage are heard together, establishes a
@@ -158,6 +161,11 @@ A third paragraph is justified when an indispensable turn inside the same
 synthesis would otherwise become dense. It must continue the same finding,
 not introduce an evidence-sized subsection.
 
+When several words contribute to one finding, stage their arrival. Establish
+the concrete image, action, or relation first; then let later contributors
+enter as parts of that movement. Do not make the listener hold a list of
+source words or abstract lexical labels before the synthesis becomes visible.
+
 Move attention through the content itself. The prose may move from one image to
 another, from early wording to late wording, or from a broad relation to one
 material detail, but it must never name production machinery. Do not write
@@ -183,8 +191,13 @@ supplied passage.
 - Do not announce the word-family relationship every time it is used. Once the
   listener understands the relation, let the concrete image, action, and
   passage position carry later references.
-- Across the whole publication, no single generic carrier noun for lexical
-  relationship should become the default bridge from one finding to the next.
+- Metalinguistic carrier labels are exceptional scaffolding, not the normal
+  subjects of sentences. Prefer the Quranic surface word, its plain Turkish
+  meaning, or the concrete object and action over repeatedly naming a family,
+  field, branch, domain, or similar abstraction.
+- Do not solve this by rotating among several carrier labels. Across the whole
+  publication, repeated lexical scaffolding must give way to direct narration
+  through objects, people, movement, texture, position, and consequence.
 
 Never write or speak isolated Arabic root letters separated by spaces. The
 listener cannot connect those letters to the Quranic surface word.
@@ -201,8 +214,10 @@ only when its own sound or form is indispensable to the finding and the
 mechanism map makes that indispensability explicit.
 
 Established Arabic-origin Turkish words may be used as ordinary Turkish when
-they are the clearest natural explanation. Do not use scholarly Latin
-transliteration.
+they are common and are the clearest natural explanation. Avoid rare,
+specialist, archaic, or theological loanwords when an ordinary Turkish phrase
+would be immediately clearer to a listener with no Arabic background. Do not
+use scholarly Latin transliteration.
 
 Every sentence must remain understandable if the listener misses the Arabic
 pronunciation.
@@ -228,6 +243,9 @@ findings:
   pressure, texture, direction, and consequence to analytical labels.
 - Use natural callbacks so the listener feels continuity rather than hearing
   independent entries.
+- Let lexical evidence enter through what it makes visible or changes. Do not
+  repeatedly cast an abstract lexical category as the actor that "contains,"
+  "gives," "carries," or "opens" the next item.
 
 Do not let findings repeatedly begin with:
 
@@ -299,11 +317,16 @@ Before writing the final JSONL, silently review:
 11. No production vocabulary appears in the Turkish prose.
 12. Divine referents are expressed with context-appropriate wording rather
     than generic human category nouns.
-13. Read all first and final sentences in sequence. Rewrite repeated
+13. The opening preserves the supplied scaffold's names, titles, roles, and
+    direct propositions without interpretive title substitution.
+14. Read every sentence containing metalinguistic carrier language in
+    sequence. Keep only what is necessary for comprehension; rewrite recurring
+    scaffolding through the concrete image, action, or passage relation.
+15. Read all first and final sentences in sequence. Rewrite repeated
     grammatical frames, lexical scaffolds, cadences, transitions, and
     disclaimers without changing the synthesis.
-14. The closing is a forward consequence, not a compressed inventory.
-15. The output is valid one-record-per-line JSONL with exactly the four
+16. The closing is a forward consequence, not a compressed inventory.
+17. The output is valid one-record-per-line JSONL with exactly the four
     required keys.
 
 Write only the complete publication JSONL to the output path named in the task.
