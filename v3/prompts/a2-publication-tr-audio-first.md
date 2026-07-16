@@ -180,9 +180,20 @@ supplied passage.
   to its concrete word-family image.
 - Vary that explanation naturally. Do not replace one repeated
   metalinguistic formula with another.
+- Do not announce the word-family relationship every time it is used. Once the
+  listener understands the relation, let the concrete image, action, and
+  passage position carry later references.
+- Across the whole publication, no single generic carrier noun for lexical
+  relationship should become the default bridge from one finding to the next.
 
 Never write or speak isolated Arabic root letters separated by spaces. The
 listener cannot connect those letters to the Quranic surface word.
+
+Before output, compare every Arabic span directly with the supplied passage
+text. Each span must be an exact contiguous substring of that text. Preserve
+articles, attached particles, case endings, diacritics, and token order. If an
+exact surface form is unnecessary, omit the Arabic rather than normalizing,
+shortening, or reconstructing it.
 
 Do not include non-passage branch forms merely to prove that a branch exists.
 Describe their contribution in Turkish. A non-passage Arabic form may appear
@@ -234,6 +245,10 @@ Establish the positive image or relation first whenever possible, then state
 the particular boundary in natural, finding-specific language. Do not repeat a
 generic disclaimer when the grade already carries the necessary caution.
 
+Grades remain metadata. Do not paraphrase a grade as vague spoken confidence
+language. State only the concrete missing link, rival reading, or limitation
+that changes what the listener should understand.
+
 Do not solve repetition by cycling through a visible set of synonyms. Read the
 whole publication for recurring explanatory scaffolds and repeated negative
 constructions, then rewrite them from the concrete finding.
@@ -278,15 +293,17 @@ Before writing the final JSONL, silently review:
    the point.
 8. Arabic consists mainly of decisive Quranic surface words; no bare spaced
    roots appear.
-9. No grades or confidence codes appear inside titles or prose.
-10. No production vocabulary appears in the Turkish prose.
-11. Divine referents are expressed with context-appropriate wording rather
+9. Every Arabic span is an exact contiguous substring of the supplied passage
+   text, with no normalized or shortened form.
+10. No grades or confidence codes appear inside titles or prose.
+11. No production vocabulary appears in the Turkish prose.
+12. Divine referents are expressed with context-appropriate wording rather
     than generic human category nouns.
-12. Read all first and final sentences in sequence. Rewrite repeated
+13. Read all first and final sentences in sequence. Rewrite repeated
     grammatical frames, lexical scaffolds, cadences, transitions, and
     disclaimers without changing the synthesis.
-13. The closing is a forward consequence, not a compressed inventory.
-14. The output is valid one-record-per-line JSONL with exactly the four
+14. The closing is a forward consequence, not a compressed inventory.
+15. The output is valid one-record-per-line JSONL with exactly the four
     required keys.
 
 Write only the complete publication JSONL to the output path named in the task.

@@ -79,7 +79,7 @@ def task_text(
                 f"python3 {validator} {output} --check",
                 "```",
                 "",
-                "Resolve every structural or content-contract error before reporting completion. Resolve actionable style warnings through presentation-only rewriting. Preserve the established synthesis hierarchy, complete graded finding coverage, and exact grades; never split a synthesized finding into evidence-sized records merely to satisfy formatting or style checks.",
+                "Resolve every structural or content-contract error before reporting completion. Style warnings are advisory and may guide presentation-only rewriting. A third paragraph explicitly permitted by the role prompt is not an error and must not be compressed merely to reach zero warnings. Preserve the established synthesis hierarchy, complete graded finding coverage, and exact grades; never split a synthesized finding into evidence-sized records merely to satisfy formatting or style checks.",
                 "",
             ]
         )
