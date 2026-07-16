@@ -1,89 +1,137 @@
-# Yerin İçinden İnsanın Gözüne
+# Sarsıntıdan Görüşe: Toprağın Açtığı Kayıt
 
-Yer son sarsıntısıyla sarsılır, yüklerini dışarı çıkarır; insan şaşkınlıkla “Ona ne oluyor?” diye sorar. Rabbi ona vahyettiği için yer haberlerini anlatır; ardından insanlar amelleri kendilerine gösterilmek üzere ayrı ayrı çıkar ve zerre ağırlığınca hayır da şer de sahibi tarafından görülür. İkincil çağrışımlar bu doğrudan akışın yerini almaz; onun saklı olanı zorunlu olarak açığa çıkaran düzenini derinleştirir.
+Yer son sarsıntısıyla sarsılır, yüklerini dışarı atar; insan ona ne olduğunu sorar. O gün yer, Rabbi kendisine bildirdiği için haberlerini anlatır; insanlar yaptıkları gösterilsin diye ayrı ayrı çıkar ve en küçük ağırlıktaki iyilik ya da kötülük bile sahibine görünür. İkincil çağrışımlar bu doğrudan akışın yerini almaz; onun gizliden görünürlüğe nasıl ilerlediğini açar.
 
 ## Ana Bulgular
 
-### Saklı hitaptan kişisel görüşe
+### İçeriden Görüşe Uzanan Hat
 
-[GÜÇLÜ / A — Gizli bilgi, değişen taşıyıcılar üzerinden görünür kanıta dönüşür.] **وحي** gizlice bilgi ulaştırır; **خرج** bir kapta ya da durumda saklı olanı dışarı taşır; **خبر** bir işin dış görünüşünden çok iç yüzünü bildirir; **حدث** alınan haberi yenileyerek anlatır ve görünür kılar; **رأي** ise önce başkasına gösterme, sonra gözle ya da idrakle görmedir. Böylece akış, gizli hitap → sarsılan madde → çıkarılan içerik → yerin haberi → gösterilen amel → sahibinin görüşü sırasını kurar. Üstelik sebep, “Rabbin ona vahyettiği için” sözüyle sonuçlardan sonra açıklanır: pasaj, yerin yaptığı şeyi kendi anlatımında da yapar ve önce görünen etkileri, sonra onların saklı nedenini açar.
+[GÜÇLÜ / A — Gizli bilgi, maddeye, habere, gösterilen işe ve kişisel görüşe dönüşür.]
 
-[GÜÇLÜ / A — “لَهَا” soruyu aynı ilişki içinde cevaba çevirir.] İnsanın **مَا لَهَا** sözü yerde ne bulunduğunu ya da ona ne olduğunu sorarken, **أَوْحَىٰ لَهَا** aynı yönelişi yerin hitap alması olarak yeniden kurar; şaşkınlığın nesnesi böylece muhatap, ardından haberci olur.
+Gizlice bilgi ulaştırma ve doğrudan bildirme anlamlarındaki `و ح ي` köküyle gelen “ona bildirdi” ifadesi `أَوْحَىٰ لَهَا`, yere yönelen görünmez hareketi kurar. Bir yerden ayrılma ve gizlilikten çıkarma anlamlarındaki `خ ر ج` kökü, bir işin iç yüzünü bilme anlamındaki `خ ب ر` kökü, yenilenen haber ve görünür kılma anlamlarındaki `ح د ث` kökü, ardından gösterme ve gözle ya da içgörüyle algılama anlamlarındaki `ر ء ي` kökü bu hareketi ters yöne çevirir: saklı bilgi etkilenmiş maddeye, dışarı atılan içeriğe, anlatılan habere, gösterilen işe ve sahibinin görüşüne geçer. Nedenin sonuçlardan sonra söylenmesi, pasajın da kendi gizli sebebini açmasını sağlar; “ona ne oldu?” sorusu `مَا لَهَا` ile “ona bildirdi” ifadesi `أَوْحَىٰ لَهَا` içindeki aynı yöneliş, şaşkınlığı görevlendirilmiş alıcılığa bağlar.
 
-### Sarsılan yerden yetkili haberciye
+### Sarsılan Yer, Bilen Anlatıcı
 
-[GÜÇLÜ / A çekirdek + B uzantı — Edilgin yer, hitapla birlikte taşıyan, çıkaran ve bilen bir özneye dönüşür.] **زُلْزِلَتِ ٱلْأَرْضُ** yeri önce etkilenen özne yapar; sonra yer **أَخْرَجَتِ** ile çıkarır, **تُحَدِّثُ** ile anlatır ve **أَوْحَىٰ لَهَا** ile kendisine seslenilmiş muhatap olarak belirir. “Yer” kökünün insan bedenindeki titremeyi de taşıması, gerçek sarsıntıya bedensel bir ürperti ekler. İnsanın açık sözü yalnızca soru üretirken, yerin haberi iç yüz bilgisine dayanır; bir şeyin hâliyle “söylemesi” ve olayın bizzat haber içeriğine dönüşmesi de çıkan yüklerle anlatılan haberin birlikte tanıklık etmesini sağlar.
+[GÜÇLÜ / A — Pasifçe sarsılan yer, yük çıkaran, hitap alan ve haber veren özneye dönüşür.]
 
-[GÜÇLÜ / A çekirdek + B uzantı — Etkili sözün gücü açıklığında değil, hükmündedir.] **رَبّ** sahiplik, yönetim ve efendilik bildirir; etkisi yürüyen söz ve hükümdarlık çağrışımları da gizli hitabın otoritesini genişletir. İnsan açıkça konuşur ama bilemez; Rabbin sözü **قول** diye alıntılanmaz, fakat yeri konuşturur.
+Sallanma ve bozulan denge anlamındaki `ز ل ز ل` köküyle kurulan “yer sarsıldı” ifadesi `زُلْزِلَتِ ٱلْأَرْضُ`, yeri önce etkilenen özne yapar; “yer çıkardı” ifadesi `أَخْرَجَتِ ٱلْأَرْضُ` ve “anlatır” fiili `تُحَدِّثُ` ise ona etkinlik verir. Yer anlamındaki `ء ر ض` kökünün bedensel titreme dalı, gerçek toprağa ikincil bir beden dokusu ekler. Sözü dışarı çıkarma anlamındaki `ق و ل` köküyle insan açıkça konuşur ama yalnızca sorar; yenilenen haber ve iç bilgi anlamlarındaki `ح د ث` ile `خ ب ر` kökleri sayesinde yer bilir ve bildirir. “Yerin sarsıntısı, yükleri, haberleri” anlamındaki `زِلْزَالَهَا، أَثْقَالَهَا، أَخْبَارَهَا` dizisi, ardından “onların işleri” anlamındaki `أَعْمَالَهُمْ` biçimine geçer: yerin haberi insanların işlerine açılır, fakat ikisi dilbilgisel olarak özdeşleştirilmez.
 
-### Yükten zerreye, yığından kesin ölçüye
+### Taşa İşlenmiş Hafıza
 
-[GÜÇLÜ / A çekirdek + B uzantı — Aynı ağırlık kökü, yerin çoğul yükünü tek tek ölçülen ahlaki nesneye böler.] **أَثْقَالَهَا** başlangıçta yere ait ağır bir yığındır; **أَعْمَالَهُمْ** çoğul amelleri insanlara bağlar; iki kez gelen **مِثْقَالَ ذَرَّةٍ** ise her işi bilinen bir ölçünün en küçük tanesine indirir ve tekil **هُ** ile sahibinin görüşüne verir. Ağırlığın kıymet, önem ve “sözün ağırlığı” anlamları, maddi yükü haberin ve amelin değerine bağlar. Yüklerle ameller özdeşleştirilmez; yerin **هَا** zincirinden insanların **هُمْ**’üne, oradan tek görülen **هُ**’ya geçiş, toplu içeriği sahiplerine göre ayırır.
+[GÜÇLÜ / A — Yer, gizli bilgiyi tutup sahibine özgü kanıt olarak açan maddi bir arşiv gibi işler.]
 
-[GÜÇLÜ / A çekirdek + B uzantı — Tutulma ile dışarı çıkma arasındaki direnç, zerreyi başlangıca bağlar.] Yer aşağı âlem ve tutan zemin; yere yapışma, gecikme ve bedensel ağırlık ise ikincil dirençtir. Sarsıntı bu yerleşik tutuşu bozar, çıkarma sınırı geçirir; zerredeki küçük karınca, çokluk ve saçılmış tanecik çağrışımları açığa çıkan yığını en küçük dağıtılabilir birime kadar izler.
+Yazma, haber ve sözü taşa kazıma; ayrıca taşta saklı sır ile görünür oyuk anlamlarındaki `و ح ي` kökü, gerçek yeri gizli bilginin maddi alıcısı gibi duyurur. İç bilgisi anlamındaki `خ ب ر`, gizlilikten çıkarma anlamındaki `خ ر ج`, belirginleştirme anlamındaki `ح د ث` ve başkasına gösterme anlamındaki `ر ء ي` kökleri farklı görevleri tamamlar: gizli hitap ya da iz, yerde tutulur; tutulan şey açılır, yerin haberi olur ve sahibinin işi olarak gösterilir. Metin bir defter veya yazıt söylemez; arşiv görüntüsünü güçlü kılan, verici, alıcı madde, saklama, çıkarma, haber, gösterim ve görenin ayrı köklerden pasaj sırasıyla gelmesidir.
 
-[GÜÇLÜ / A — Son iki cümle aynı terazinin iki kefesidir.] Sözdizimi ve **مِثْقَال ... يَرَهُ** bütünü değişmez, yalnız **خَيْرًا** ile **شَرًّا** yer değiştirir. Bu eşitlik hayırla şerri bir tutmaz; ikisini de aynı kesin ölçü ve aynı kaçınılmaz görüş altına alır.
+### Yükten En Küçük Ölçüye
 
-### Sarsıntıdan dağılmaya, dağılmadan dengeye
+[GÜÇLÜ / A çekirdek + GÜÇLÜ / B düşey uzantı — Tutulan ağır çoğulluk, sahibine ait tek tek ölçülmüş nesnelere ayrılır.]
 
-[GÜÇLÜ / A çekirdek + B uzantı — Yerin salınımı insan kalabalığına geçer, kapanışta ölçülü tekrara dönüşür.] **زُلْزِلَت ... زِلْزَالَهَا** hem sarsıntıyı söyler hem sesiyle yineler. **النَّاس** kökündeki sallanma, **أَشْتَاتًا** içindeki toplanmış bütünün dağılması ve aralarının açılması, tek zeminin hareketini çok sayıda insanın yürüyüşüne ve mesafesine dağıtır; **صدر** ise bir yerden çıkışı ve çıkan bölükleri belirginleştirir. Başlangıçtaki tekrar denetimsiz hareketi büyütürken son iki cümlenin tekrarı karşıt değerleri sabit bir kalıpta tartar: salınım ayrışmaya, ayrışma kesin dengeye varır.
+Ağırlık anlamındaki `ث ق ل` kökü, “yerin yükleri” ifadesi `أَثْقَالَهَا` ile “en küçük parçacığın ağırlığı” ifadesi `مِثْقَالَ ذَرَّةٍ` arasında doğrudan bir köprü kurar: toplu yük önce insanların çoğul işlerine, sonra standart bir ölçüye, ahlaki niteliğe ve tekil görülen nesneye kadar bölünür. Göğün karşısındaki aşağı alan anlamındaki `ء ر ض` kökü bu tutmanın güçlü çekirdeğini verir; yere yapışma ve orada ağırlaşma anlamındaki aynı kök ile bedensel hantallık anlamındaki `ث ق ل` kökü, aşağı yönlü direnci orta etkinlikle genişletir. Değerli veya sonuç doğuran şey ve ağırlıklı söz anlamındaki `ث ق ل` kökü de maddi yükü değere ve haberin ciddiyetine taşır. En küçük canlılar ve onların çokluğu anlamındaki `ذ ر ر` kökü güçlü biçimde küçüklüğü, saçılmış tane ve toz anlamındaki aynı kök ise orta biçimde bölünebilirliği duyurur; dışarı çıkışın mutlaka yukarı yönlü olması gerekmez, belirleyici olan saklı durumdan görünür dışarıya geçiştir.
 
-### Soruyu sorandan kendi amelini görene
+### Taşıyan Bedenin Boşalması
 
-[GÜÇLÜ / A çekirdek + B uzantı — Tek insan kalabalığa açılır, sonra her bir failde yeniden tekilleşir.] **ٱلْإِنسَانُ → ٱلنَّاسُ → مَن** dizisi, anlayamayan tek kişiden dağılan topluluğa, oradan şart cümlelerindeki tek tek yapanlara geçer. **الإنسان** kökündeki görme, işitme ve içten sezme yetisi ilk soruda yetersiz kalır; tanışıklık çağrışımı alışılmış yeri tekinsizleştirir, “kendi”ye uzanan çağrışım ise kapanışı kişisel kılar. Hareketle belirlenen **النَّاس**, sonunda açıkça gören tekillere dönüşür.
+[GÜÇLÜ / A taşıma-çıkarma çekirdeği + GÜÇLÜ / B olgunlaşma uzantısı — Dişil yerin yükü, gizli taşımadan görünür ve ölçülebilir çıkışa ilerler.]
 
-[GÜÇLÜ / A — İnsanlar bir kaynaktan çıkar, sonra kendilerinden çıkanla karşılaşır.] **صدر** eylemlerin çıktığı kaynağı da bildirir; **عمل** ise amaçlı, hayır ya da şer olabilen işi korur. Böylece kişi önce “çıkan” olur, ardından kendisinden çıkan amel gösterilir ve en sonunda o amelin görüşünü alan kişi yine kendisi olur.
+Karnındaki gebelikle ağırlaşmış kadın anlamındaki `ث ق ل` kökü, “yüklerini çıkardı” anlamındaki `أَخْرَجَتِ ... أَثْقَالَهَا` ifadesinde dişil yer, ağırlık ve dışarı atma rollerini birleştirir; gizlilikten çıkış anlamındaki `خ ر ج` kökü bu çekirdeği tamamlar. Gebeliğin dış belirtilerle görünmesi anlamındaki `ر ء ي`, yeni meydana gelme ve tazelik anlamlarındaki `ح د ث`, aşamalı biçimde tamamlama ve yeni doğum anlamlarındaki `ر ب ب` kökleri olgunlaşma süresini orta etkinlikle doldurur. Bu görüntü yükleri gerçek çocuklara çevirmez; en küçük parçacık anlamındaki `ذَرَّةٍ`, büyük bir doğum görüntüsünü sonuç olmaktan çıkarıp her parçanın ayrı görünmesine açılan başlangıca dönüştürür.
 
-[GÜÇLÜ / A çekirdek + B uzantı — Gösterişin yönü tersine çevrilerek öz-görüşe dönüşür.] **لِيُرَوْا** çoğul insanları başkasının yaptığı gösterimin edilgin alıcıları, **أَعْمَالَهُمْ**ü görünen nesne yapar; **يَرَهُ** ise her faili etkin ve tekil görene çevirir. Başkaları görsün diye yapılan iş çağrışımı burada ters döner: kişiler bakışı yönetmez, kendi işlerinin karşısına çıkarılır. Ayna ve göz bebeğindeki insan sureti, ameli gerçek bir yansıma saymadan bu bağı keskinleştirir; kişiden çıkan şey, sahibinin önünde onun failliğini gösteren bir görüntü gibi durur.
+### Sarsıntıdan Dengeli Tekrara
 
-### Yerin yazılı arşivi
+[GÜÇLÜ / A çekirdek + GÜÇLÜ / B mekânsal uzantı — Bir yerdeki salınım, dağılmış insanlara geçer ve iki eş ölçülü cümlede dengelenir.]
 
-[GÜÇLÜ / A — Yer, saklı bilgiyi tutan ve zamanı gelince sahibine göre açan maddi bir arşiv gibi duyulur.] **وحي** içindeki yazı, taş üzerine kazıma ve taşta saklanan sır; **خبر** iç yüz bilgisi; **خرج** saklıyı çıkarma; **حدث** görünür kılma; **رأي** gösterme görevlerini ayrı ayrı doldurur. Gizli hitap ya da iz yere ulaşır, yer onu tutar, içerik açılır, haber olur ve sahiplerinin amelleri olarak gösterilir; bu güçlü birleşme, metinde gerçek bir defter ya da kitabe bulunduğunu ileri sürmez.
+“Sarsıldı, kendi sarsıntısıyla” anlamındaki `زُلْزِلَت ... زِلْزَالَهَا` tekrarı önce denetimsiz hareketi büyütür. Sallanma anlamındaki `ن و س` kökü bu hareketi insan topluluğuna, toplanmış bir bütünü dağıtma anlamındaki `ش ت ت` kökü ayrı çıkışa taşır; uzaklık ve bağın çözülmesi anlamındaki ikinci dal bu dağılmayı orta etkinlikle derinleştirir. Bir yere varıştan sonra çıkma anlamındaki `ص د ر` kökü güçlü biçimde hareketi, pay veya grup anlamındaki aynı kök orta biçimde ayrılan kümeleri belirginleştirir; böylece “insanların ayrı ayrı çıkması” ifadesi `يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا`, açılıştaki tek zeminin hareketini çok sayıda bedene dağıtır. Sonda yalnızca “iyilik” `خَيْرًا` ile “kötülük” `شَرًّا` yer değiştirir; iyi ve kötü karşıtlığı anlamlarındaki `خ ي ر` ve `ش ر ر` kökleri aynı ölçü ve aynı görüş içinde tutulur. Başta sarsıntıyı büyüten tekrar, sonda iki değeri karıştırmadan eş kesinlikle tartan dengeye dönüşür.
 
-### Taşıyan beden ve doğum eşiği
+### Kaynaktan Çıkan, Sahibine Döner
 
-[GÜÇLÜ / A çekirdek + B uzantı — Dişil yerin yükü, gizli taşıma ve dışarı çıkarma sayesinde doğum biçimi kazanır.] **ثقل** hamilelikle ağırlaşmış dişiyi, **خرج** gizli yerden çıkışı doğrudan besler; hamileliğin dış belirtilerle görünmesi, yeni oluş, tazelik, aşamalı olgunlaşma ve yakın doğum çağrışımları ise bu yükün zamanını tamamlar. Yükler çocuklara dönüşmez; sahne, yerin taşıdığı çoğulluğun sarsıntıyla dış görünüş kazanmasını açıklar. Son **ذَرَّة**, tek büyük doğum görüntüsünü de kırar: dışarı çıkış son değil, içeriğin hesaba gelen en küçük parçalara ayrılmasının başlangıcıdır.
+[GÜÇLÜ / A çekirdek + GÜÇLÜ / B aşinalık ve benlik uzantısı — Tek insan, dağılmış topluluk ve tek tek gören sahipler arasında kaynak geri dönüşü kurulur.]
 
-### İşlenmiş yer ve ayrılmış ürün
+Görünen insanlık ile görme, işitme ve içten sezme anlamlarındaki `ء ن س` kökü, “soran insan” ifadesi `ٱلْإِنسَانُ` içinde güçlü bir algılama imkânı taşır; aşinalığın yabancılığı gidermesi ve kişinin kendisi anlamındaki dallar, tanıdık yerin yabancılaşmasını ve son görüşün benliğe dönmesini orta etkinlikle ekler. Buna karşılık “insanlar” ifadesi `ٱلنَّاسُ`, sallanma anlamındaki ayrı `ن و س` köküyle hareket eder; bu iki insan kökü birbirine karıştırılmaz. Örüntü bir soran kişiden hareketli çoğulluğa, oradan “kim yaparsa” anlamındaki her bir `مَن` sahibine daralır. Eylemlerin çıktığı kaynak anlamındaki `ص د ر` kökü ile amaçlı iyi ya da kötü iş anlamındaki `ع م ل` kökü dönüşü tamamlar: kişiler bir kaynaktan çıkar, sonra kendilerinden çıkmış işler önlerine gelir ve her kişi kendi işinin gösterimini alır.
 
-[GÜÇLÜ / A koalisyon + B uzantı — Haber kökü, arşiv ile tarla arasında bir menteşe kurar.] **خبر** bir yandan iç yüz bilgisini, öte yandan su ve ağaç toplayan yumuşak araziyi ve yerden çıkacak üründen belirli pay karşılığı ekimi taşır. Verimli yer ve iyiliğe yatkınlık, elle toprağı işleme, ince taneleri saçma, yerden filiz ve ışık çıkarma, bitkinin parça parça görünmesi birleşince şu sıra doğar: alıcı zemin → amaçlı emek → saçılmış küçük birimler → gizli oluşum → bölük bölük çıkış → paylaştırılmış ürün → görünürlük. Arşiv bilgiyi saklayıp haber olarak, tarla emeği alıp ürün olarak geri verir; ameller yine gerçek amel, haberler yine gerçek haberdir ve şer cümlesi bu hasadı yalnız iyiliğe ait kılmaz.
+### Gösterinin Tersine Dönüşü
 
-## İnce Kayıtlar
+[GÜÇLÜ / A rol ve ayna çekirdeği + GÜÇLÜ / B bedensel uzantı — Başkalarının bakışını yönetme, kişinin kendi işine bakmaya mecbur kalmasına çevrilir.]
 
-[GÜÇLÜ / B — Vahyin ikincil kipleri.] Açık söz olmadan işaret, gizli ya da uzayan ses ve hız çağrışımları, yere gelen doğrudan ilhamın taşıyıcısını ve temposunu çeşitlendirir.
+“İşleri kendilerine gösterilsin” anlamındaki `لِيُرَوْا أَعْمَالَهُمْ` ifadesinde insanlar edilgen gösterim alıcılarıdır; “onu görür” anlamındaki `يَرَهُ` içinde ise her kişi etkin ve tekil görene dönüşür. Başkaları görsün diye eylem yapma anlamındaki `ر ء ي` kökünün rolleri böylece ters çevrilir: işi yapan sergiyi yönetmez, kendi işi görünür konuma geçer. Ayna içinde beliren görüntü anlamındaki `ر ء ي` ile göz bebeğinde görünen insan sureti anlamındaki `ء ن س` kökleri, sahip, görüntü gibi karşısına gelen iş ve zorunlu gören arasında güçlü bir ayna düzeni kurar; işler gerçek yansımalara dönüşmez. Çalışan uzuvlar ve uzağı gören göz anlamındaki `ع م ل` kökü, eyleyen organla gören organ arasında orta etkinlikte bedensel bir köprü ekler. Başta yeri okuyamayan insan, sonda kendisinden çıkan işi okumaya mecbur olur.
 
-[GÜÇLÜ / B — Olay ile haber birbirine değer.] Sonradan meydana gelme, zamanın hadisesi ve musibeti çağrışımları sarsıntıyı hem yeni beliren olay, hem anlatılacak konu, hem de eski içeriği görünür yapan şart kılar.
+## Tamamlayıcı Bulgular
 
-[GÜÇLÜ / B — Soru dışarı çıkan ama bilgiye varmayan sözdür.] Soru biçimindeki söyleyişin zanna açılması ve sözün önce içte tutulması, **مَا لَهَا**yı yerin yükleri gibi içten dışa geçen, fakat yerin haberi gibi çözüme ulaşmayan bir insan sözü yapar.
+### Gizli Bildirimin Biçimi ve Gücü
 
-[GÜÇLÜ / C — İstemsiz beden yankısı.] “Yer” kökündeki, başı ve bedeni irade dışı hareket eden hasta görüntüsü sarsıntıya yalnızca zorlanmış bütün-beden dokusu ekler; ona bağlı ruhsal neden burada devreye girmez.
+[GÜÇLÜ / A yönetici sahiplik + GÜÇLÜ / B işaret, ses, hız ve etkili söz uzantısı — Gizli bildirim hem yetkisini hem ortamını kökler arasında tamamlar.]
 
-[GÜÇLÜ / B — Çıkışın dikey ayrıntısı.] Yere yapışma, ağırlaşarak gecikme ve sonradan yerden yükselen ince filiz ya da yayılan ışık, tutuluştan dışarı ve görünürlüğe geçişi genişletir; her yükün gerçekten yukarı çıktığını söylemez.
+“Senin Rabbin” anlamındaki `رَبَّكَ` sözünde sahiplik ve yönetme anlamındaki `ر ب ب` kökü güçlü biçimde doğrudan yetkiyi kurar. Sözsüz işaret, gizli ya da uzayan ses ve hız anlamlarındaki `و ح ي` kökü bildirimin biçim ve temposunu; etkili söz sahibi anlamındaki `ق و ل` ile hükümdarlık gücü anlamındaki `و ح ي` kökleri de orta etkinlikle bu yetkinin sonucunu genişletir: insanın sözü açık ama sonuçsuzdur, Rabbin sözü alıntılanmaz ama yeri konuşturur.
 
-[GÜÇLÜ / C + C-koşullu — Son kefedeki uzak ağırlık yankıları.] **شر** kökündeki asılı uzantı ve ağırlıklar kötü tarafı **أَثْقَال / مِثْقَال**e geri bağlar; iki yanlı heybe çağrışımı ise yalnızca dışarı atılan yükün sonunda iki karşıt yana ayrılmasına silik bir kap biçimi verir.
+### Soru, Durum ve Olay
 
-[GÜÇLÜ / B — Amel ile göz arasındaki bedensel köprü.] **عمل** kökündeki çalışan uzuvlar ve uzağı gören göz, gösterilen işle seyreden organı buluşturur; metin herhangi bir uzvu adlandırmadığı için bu ayrıntı ikincildir.
+[GÜÇLÜ / B — İnsanın varsayıma açık iç sözü dışarı çıkar; yerin durumuysa olay ile haberi aynı kanıt akışında buluşturur.]
 
-[GÜÇLÜ / C — Kalabalığın karşılıklı bakışı geri çekilir.] Yüz yüze gelip birbirini görme ihtimali çoğul toplulukta duyulsa da **أَشْتَاتًا**, edilgin gösterim ve tekil **يَرَهُ**, asıl bakışı insanların birbirine değil her sahibin kendi ameline yöneltir.
+Soru yoluyla tahmin ve söylenmeden önce içte tutulan söz anlamlarındaki `ق و ل` kökü insanın bilgisiz konuşmasını iç-dış hattına yerleştirir; bir şeyin durumuyla “söylemesi” anlamındaki aynı kök, yerin sarsıntısı ile çıkardığı yüklerin haberine maddi olarak katılmasını sağlar. Yeni meydana gelme ve zamanın felaketi anlamlarındaki `ح د ث` kökü ile zamanın sıkıntıları anlamındaki `ز ل ز ل` kökü de sarsıntıyı hem olay, hem haberin konusu, hem eski içeriği yeni görünür kılan şart olarak işittirir.
 
-[GÜÇLÜ / C-koşullu — Yaralı beden, doğumun zayıf rakibidir.] İrin toplayan yara, bedende çıkan şiş ya da çıban ve bedensel ürperti; sarsılıp bozulmuş birikimi boşaltan yer görüntüsü kurar, fakat yara için başka bir rol bulunmadığından taşıma-doğurma çizgisini yönetemez.
+### Bedenin Karanlık Rakibi
 
-[GÜÇLÜ / C — Tarlanın arka dokusu.] Yumuşak bitki, kalıcı yeşillik ve onu besleyen bulut, ekili yer sahnesine çevre verir; pasajdaki asıl eylemleri üstlenmez.
+[GÜÇLÜ / C — İstemsiz baş ve beden hareketi, pasif sarsıntıya sınırlı bir bedensel doku ekler.]
 
-[GÜÇLÜ / B — Ortak kaynaktan ayrılan yollar.] **صدر**de girilmiş yerden ayrılma, **عمل**de çiğnenmiş yol ve yaya yolcular, **أَشْتَاتًا** ile birleşerek insanlara ortak bir çıkıştan dağılan güzergâhlar verir.
+İradesizce başı ve bedeni hareket eden hastalıklı kişi anlamındaki `ء ر ض` kökünden yalnızca istemsiz bütün-beden hareketi etkinleşir; dalın ruhsal sebebi pasajda karşılık bulmaz.
 
-[GÜÇLÜ / C-koşullu — Sulak ve sürülü yol sahnesi.] Sudan dönüş, develerin sürülmesi, sahip ve sürü, su toplayan alçak yer, bol su, besleyici bulut, akıcı berrak su, açılan gök ve gün doğumu; kaynak, kalabalık, sevk, ayrılış ve yeni ışık görevlerini tamamlar, fakat insanları hayvana çevirecek su ya da sürü yüzeyde yoktur.
+[GÜÇLÜ / C-koşullu — Yara ve şişkinlik, doğum görüntüsüne bozulmuş bir boşalma rakibi getirir.]
 
-[GÜÇLÜ / B kesinlik + C-koşullu ödeme — Hesap kapanmadan görünür olur.] Standart ağırlık, ücret ya da hak, alışveriş, belirli çıkış, ortaklar arasında pay, mali yükümlülük ve üründen belirlenmiş pay; amelleri sahipli kayıtlara ve iki dengeli yana böler, ama son fiil ödeme ya da tahsil değil **يَرَهُ** olduğu için sahne denetim ve tahsiste durur.
+İrin biriktiren yara anlamındaki `ء ر ض` kökü ile bedende dışarı çıkan çıban veya şişlik anlamındaki `خ ر ج` kökü, titreyen yerin birikmiş bozuk maddeyi atması ihtimalini kurar; yara adı geçmediği için bu görüntü taşıma ve doğum hattını yönetmez.
 
-[GÜÇLÜ / B — Şöhret doğrudan delile çevrilir.] Kişinin üzerine çektiği iyi ya da kötü söz, insanlar arasında dolaşan ün ve hakkında konuşulan kişi görüntüsü; yerin haberinden sonra kalabalığın dağılmasıyla aşılır, çünkü herkes söylentiyi değil kendi amelini görür.
+### Ölçünün Uzak Yankıları
 
-[GÜÇLÜ / C — Yanlış isnadın alanı kapanır.] Birine söylemediğini yükleyen yalan söz ihtimali, zorunlu gösterim ve sahibinin bizzat görüşü karşısında belirleyici olamaz.
+[GÜÇLÜ / C — Son kötülük kelimesi, asılı ağırlıklar üzerinden açılıştaki yükü uzaktan yankılar.]
 
-[GÜÇLÜ / C-koşullu + C — Son değerlerin fiziksel açılma yankıları.] **خير** kökündeki, yuvasının bir ağzından sıkıştırılıp öbüründen çıkarılan hayvan saklılık, basınç ve zorunlu çıkışı; **شر** kökündeki güneşe serilen madde açığa yatırılmayı, uçan kıvılcım ise zerre yanındaki görünür parçacığı geri çağırır; bunların hiçbiri hayır ve şerrin doğrudan anlamını değiştirmez.
+Kötülük anlamını doğrudan koruyan `ش ر ر` kökünün asılı uzantılar ve ağırlıklar anlamındaki `شراشر` dalı, son kötü işi yeniden yük ve ölçü alanına dokundurur.
 
-[GÜÇLÜ / C-koşullu — Yer bir sergileme yüzeyi gibi titreşir.] Kalın yaygı, güneşte bir örtü üstüne serilen madde, saçılmış taneler, ışık ve gösterme birleşince içeriden boşaltılan şeylerin yere yayılıp aydınlıkta incelendiği silik bir yüzey oluşur; metin böyle bir yaygı adlandırmaz.
+[GÜÇLÜ / C-koşullu — İki yanlı torba, son iki karşıt cümleye yalnızca bir kap biçimi verir.]
+
+İki yanlı yük torbası anlamındaki `خ ر ج` kökü, yerin çıkardığı çoğul yükün sonda iki ahlaki yana ayrılmasına zayıf bir şekil sağlar; gerçek bir torba etkinleşmez.
+
+### Tarla Olarak Geri Veriş
+
+[GÜÇLÜ / B bütün + GÜÇLÜ / A paylı ürün bağı + GÜÇLÜ / C doku — Yer, insan işini bölünmüş ve görünür bir ürün gibi geri verir.]
+
+Yumuşak, verimli toprak ve iyiliğe yatkınlık anlamlarındaki `ء ر ض` kökü bu görüntüyü orta etkinlikle açar. Suyun ve ağaçların toplandığı alçak yer ile toprağın çıkardığından belirli pay alma karşılığında ekim anlamlarındaki `خ ب ر` kökü, yerin haberiyle paylaştırılmış ürün arasında güçlü ve tam bir bağ kurar. Kazma, kaplama ve çamurla çalışma anlamındaki `ع م ل`; ince taneleri saçma, yerden sürgün çıkarma ve ışığı yayma anlamlarındaki `ذ ر ر`; bitkinin ayrı kümeler hâlinde çıkması anlamındaki `خ ر ج` kökleri emek, dağılım, çıkış ve görünürlüğü orta etkinlikle tamamlar. Yumuşak bitki anlamındaki `خ ب ر` ile kalıcı yeşillik ve bitkiyi besleyen bulut anlamlarındaki `ر ب ب` kökleri yalnızca zayıf doku verir. Arşiv bilgiyi saklayıp haber çıkarırken tarla emeği alıp ürün çıkarır; son kötülük cümlesi bu ürünü yalnızca bereketli bir hasada dönüştürmez.
+
+### Yol ve Su Başından Ayrılış
+
+[GÜÇLÜ / B yol çekirdeği + GÜÇLÜ / C-koşullu su ve sürü çevresi — Ortak bir kaynaktan çıkış, dağılmış yollara dönüşür.]
+
+Su başından, ülkeden veya girilmiş bir işten ayrılma anlamındaki `ص د ر`, çiğnenmiş yol ve yaya yolcular anlamlarındaki `ع م ل`, toplanmış bütünü dağıtma anlamındaki `ش ت ت` kökleri insan çıkışına yol geometrisi verir. Develeri sürme anlamındaki `ن و س`; sahip, sürü, bol ya da tatlı su ve besleyici bulut anlamlarındaki `ر ب ب`; su toplanan alçak yer anlamındaki `خ ب ر`; berrak akan su anlamındaki `ز ل ز ل`; bulutun doğması veya göğün açılması anlamındaki `خ ر ج`; gün doğumu ya da filizlenme anlamındaki `ذ ر ر` kökleri su başı çevresini koşullu olarak tamamlar. Su ve sürü doğrudan anılmadığından insanlar hayvanlara dönüşmez; kalan katkı, ortak kaynaktan çıkıp ayrı yollara dağılmalarıdır.
+
+### Ölçüm Var, Ödeme Yok
+
+[GÜÇLÜ / B kesinlik ve paylaştırma + GÜÇLÜ / C-koşullu hesap kapatma — Sahiplik ve ölçü kişisel kayıtlara kadar iner, fakat süreç ödemeye ulaşmaz.]
+
+Standart ağırlık anlamındaki `ث ق ل`; ücret ve alışveriş anlamlarındaki `ع م ل`; bilinen ödeme, vergi, ürün ve ortaklar arasında pay bölüşümü anlamlarındaki `خ ر ج`; mali tahsil veya güvence altındaki miktar anlamındaki `ص د ر`; ekili toprağın belirlenmiş payı anlamındaki `خ ب ر` kökleri iki son cümleye hesap kesinliği verir. Ayrı insanlar, kendilerine ait işler, aynı ölçü ve iki karşıt taraf bir denetim ile paylaştırmayı orta etkinlikle kurar; bitiş ödeme, ücret veya makbuzda değil, “onu görür” anlamındaki `يَرَهُ` sözündedir.
+
+### Söylentiden Doğrudan Kanıta
+
+[GÜÇLÜ / B dönüşüm + GÜÇLÜ / C reddedilen ihtimal — Dolaşan itibar, sahibinin gördüğü gerçek işe; yanlış isnat ise kapalı bir yola dönüşür.]
+
+Kişinin kendine iyi ya da kötü söz çekmesi ve insanlar arasında iyi ya da kötü haber dolaşması anlamlarındaki `ق و ل` ile insanların hakkında konuştuğu kişi veya topluluk olma anlamındaki `ح د ث` kökleri, işi sahibi hakkında yayılan itibara çevirebilir. Fakat insanlar dağılır, gerçek işleri gösterilir ve her sahip nesneyi görür; yanlış söz ve söylenmeyeni birine yükleme anlamındaki `ق و ل` kökünün ihtimali de bu zorunlu gösterim karşısında zayıf kalır.
+
+### Kalabalığın Birbirine Bakması
+
+[GÜÇLÜ / C — Karşılıklı yüzleşip görme, toplu gösterime uzak bir ihtimal verir.]
+
+Grupların birbirine dönüp bakması anlamındaki `ر ء ي` kökü insan çoğulluğunda duyulabilir; ancak ayrı çıkış ve “kendilerine gösterilsin” ifadesinin edilgen yönü, merkezi sahneyi kalabalığın birbirini seyretmesi değil, her sahibin kendi işiyle yüzleşmesi yapar.
+
+### Son Değerlerin Açılma Yankıları
+
+[GÜÇLÜ / C-koşullu — İyilik gizli olanı basınçla dışarı, kötülük serilmiş maddeyi ışık altına getirir.]
+
+Bir hayvanı yuvasının bir ağzından sıkıştırıp öteki ağızdan çıkarma anlamındaki `خ ي ر` kökü, son iyilik kelimesinden açılıştaki zorunlu dışarı çıkışı; kumaş, yiyecek, tuz veya tahılı güneş altında yayma anlamındaki `ش ر ر` kökü ise son kötülük kelimesinden inceleme için açığa sermeyi yankılar. Bu fiziksel yollar doğrudan iyi ve kötü anlamlarını değiştirmez.
+
+[GÜÇLÜ / C — Uçan kıvılcım, en küçük parçanın görünür çıkışına ikinci bir kötülük dokusu ekler.]
+
+Uçan ateş parçacığı anlamındaki `ش ر ر` kökü, en küçük parçacık ve son görüş yanında kısa bir dışarı saçılma görüntüsü kurar.
+
+### Sergileme Yüzeyi
+
+[GÜÇLÜ / C-koşullu — Yer, içinden boşalan parçaların dağıtılıp aydınlatıldığı bir yüzey gibi belirebilir.]
+
+Kalın yaygı anlamındaki `ء ر ض`, bir örtü üzerine malzeme serme anlamındaki `ش ر ر`, küçük parçalar serpme ve ışık yayma anlamlarındaki `ذ ر ر`, gösterme anlamındaki `ر ء ي` kökleri boşaltma, dağıtma, aydınlatma ve incelemeyi tek yüzeyde buluşturur; fakat bir yaygı ya da sergi alanı doğrudan anılmadığı için bu görüntü bütünü yönetmez.
 
 ## Son Geçiş
 
-Gizli fakat etkili hitap, tutan ve ağırlaşan yeri sarsar; yer taşıdığını dışarı çıkarır, bildiğini haber eder ve insanın sorusundan sonra kendi hareketlerinin saklı nedenini açar. Aynı gün tek insan dağılmış insanlara dönüşür; her biri, kendisinden çıkan amelin önüne getirilir. Yerin çoğul yükü kesin ölçüyle zerreye kadar bölünür, haber gösterime, gösterim sahibinin görüşüne geçer. Başlangıcın denetimsiz tekrarı sonunda iki dengeli cümlede durulur: zerre ağırlığınca hayır da şer de aynı eksiksizlikle görülür.
+Gizli ama etkili hitap, ağır olanı tutan yeri sarsar; yer taşıdığını dışarı çıkarır, insanın sorusunu haberiyle aşar ve ancak sonra kendisine yönelen sebebi açığa vurur. Ardından insanlar ortak kaynaktan ayrı ayrı çıkar, kendilerinden çıkmış işler önlerine konur; toplu yük ile kalabalık en küçük sahipli parçaya kadar bölünür. Başlangıçtaki denetimsiz tekrar, iyilik ve kötülüğü aynı kesinlikle ölçen iki dengeli cümleye yerleşir; haber, her sahibin kendi işini görmesiyle kapanır.

@@ -1,0 +1,91 @@
+# Göğüsten Çıkan Söz Kime Ait?
+
+Metin, “Söyle” anlamındaki `قُلْ` emriyle konuşana “Sığınırım” anlamındaki `أَعُوذُ` sözünü seslendirtir; sığınılan, insanların yetiştirip gözeten sahibi `رَبِّ ٱلنَّاسِ`, hükümdarı `مَلِكِ ٱلنَّاسِ` ve kulluk yöneldiği ilahı `إِلَٰهِ ٱلنَّاسِ` olarak üç unvanla anılır. Ardından kötülük anlamındaki `شَرِّ` ile geri çekilen fısıldayıcı `ٱلْوَسْوَاسِ ٱلْخَنَّاسِ`, onun insanların göğüslerinde çalışması `فِى صُدُورِ ٱلنَّاسِ` ve failin cinler ile insanlar arasında bulunması `ٱلْجِنَّةِ وَٱلنَّاسِ` gelir. İkincil çağrışımlar bu doğrudan hareketin yerine geçmez; onun nasıl işlediğini açar.
+
+## Ana Bulgular
+
+### Açık Söz, İçe Çekilen Söz
+
+[GÜÇLÜ / A — Kaynağı belli söz dışarı çıkarken kaynağını gizleyen fısıltı içeri girer; göğüs bu iki yönlü dolaşımın hem alıcısı hem çıkış noktası olur.] Söyleme anlamındaki `ق و ل` kökü, sözü dil aracılığıyla seslendirmeyi verdiği gibi, henüz dile gelmeden kişinin içinde tasarlanan ve kişinin kendine doğru çekip sahiplendiği sözü de verir. Gizli iç konuşma ve ince hareket sesi anlamındaki `و س و س` kökü ise kalbe atılan geçici düşünceyi, kaynağı seçilemeyen alçak sesi taşır. Göğüs, başlangıç ve çıkış kaynağı anlamlarını da taşıyan `ص د ر` kökü sayesinde yalnızca fısıltının saklandığı yer değildir: içeri çekilen söz burada “kendi düşüncem” görünümünü alabilir, sonra inanç, ilgi, konuşma ya da eylem olarak dışarı çıkıp insanlar arasında dolaşabilir. Böylece açık sığınma sözü de gizli telkin de konuşmayı kullanır; birincisi kaynağını ve bağlılığını bildirir, ikincisi bunları bulanıklaştırır.
+
+[GÜÇLÜ / B — İçeri alınan telkinin benimsenmiş inanca, sürekli kaygıya, uydurulmuş ya da yanlış kişiye bağlanmış söze ve toplumsal çekişmeye dönüşmesi, fısıltının sonuç zincirini tamamlar.] Söyleme kökünün benimseme, yoğun ilgi, uydurma ve yayılma dalları ile kötülük anlamındaki `ش ر ر` kökünün çekişme dalı, küçük bir iç dürtünün ortak alanda büyüyebilmesini gösterir.
+
+### Söylenen Sığınma, Tekrarlanan Kesinti
+
+[GÜÇLÜ / A — Sığınma sözü bir korunma bilgisini bildirmekle kalmaz; koruyucuya açıkça yönelip tutunmayı sesle gerçekleştirir ve gizli faili geri çektirir.] Sığınıp tutunma anlamındaki `ع و ذ` kökü bir koruyucuya dönmeyi, onun örtüsünde kalmayı ve korkulan şeyden uzak durmayı birlikte taşır; bu yüzden koruyucuya bağlayan `بِرَبِّ` yönü ile kötülükten ayıran `مِن شَرِّ` yönü birbirini tamamlar. Aynı kökün sözle söylenen ya da kişinin üzerinde taşınan koruma dalı, burada etkiyi bağımsız bir nesneye değil, seslendirilmiş sığınma ilişkisine verir. Kulluk ve yakarış anlamındaki `ء ل ه` kökü Tanrı’nın adını çağırmayı, çekilip gizlenme anlamındaki `خ ن س` kökü de Tanrı anıldığında fısıldayıcının geri çekilmesini verir. Koruyucunun adı emredilen sözün içinde bulunduğundan, açılış geri çekilme şartını bizzat yerine getirir.
+
+[GÜÇLÜ / A — Koruyucu bağ kalıcı, gizli baskı kesintilidir.] Sığınma kökündeki örtüye yapışma ile sahiplik ve yetiştirme anlamındaki `ر ب ب` kökünün bir yerde kalma, korunan komşuluk ve bağlayıcı ilişki dalları süreklilik kurar; geri çekilme kökü ise saklanma ve gecikme yönünde hareket eder. Kalkan, zırh ve saklanma yeri anlamlarını da taşıyan `ج ن ن` kökü kapanışı açılışa geri yollar: açıkça girilen örtü kişiyi korurken, göğüste saklanan içerik ve geri çekilen fail örtüyü tanınmamak için kullanır. [GÜÇLÜ / B — Kaybolup yeniden görünen gök cisimleri anlamındaki `خ ن س` dalı, geri çekilmenin yok oluş olmadığını gösterir.] Gizli ses geri dönebildiği için “Söyle” emri de bir defalık değil, her dönüşte yenilenebilen açık bir bağlanmadır.
+
+### Üç Unvan, İnsanın Bütün Yönetimi
+
+[GÜÇLÜ / A — Yetiştirip gözeten sahip `رَبّ`, açıkça hükmeden hükümdar `مَلِك` ve kulluğun yöneldiği ilah `إِلَٰه`, tehdidi daha adı konmadan üç yönden kuşatır.] Sahiplik, bakım ve yönetim anlamındaki `ر ب ب` kökü oluşumu; sahiplik, hükümdarlık ve emir anlamındaki `م ل ك` kökü topluluğun düzenini; kulluk anlamındaki `ء ل ه` kökü son yönelişi belirler. Fısıltı bu unvanlara denk bir güç olmaz; yalnızca oluşmakta olan düşünceye karışabilir, içeriden özel bir emir gibi davranabilir ve ilgiyi başka bir merkeze çevirmeye çalışabilir.
+
+[GÜÇLÜ / B — Aşamalı yetiştirme ve onarma, duvarı ya da benliği bir arada tutan sıkılık ve kalbin bedeni taşıyan dayanak oluşu, üç unvanı göğüsteki tehdide tam karşılık verir hâle getirir.] Yetiştirme kökü gelişeni tamamlar; hükümdarlık kökü bütünlüğü ve kalpteki dayanağı korur; kulluk kökü yönü sabitler. [GÜÇLÜ / B — Sözü yürüyen yönetici ile söz yoluyla başkasını denetleme anlamları, açık yönetim ile gizli yönlendirmeyi karşı karşıya getirir.] Söyleme kökünün büyük hükümdar altında sözü etkili olan yönetici dalı açılıştaki emri açık otoriteye bağlar; denetleme dalı ise fısıltının emir olduğunu saklayarak yerel hüküm kurmasını gösterir. Kötülük anlamındaki `ش ر ر` kökünün kişinin bütün benliğini ve toplanmış kaygılarını bir şeye bırakma dalı, gizli söz inanç ya da sürekli ilgiye dönüştüğünde rakip merkezin ne kadar kuvvetlenebileceğini gösterir.
+
+### Gizli, Yük Taşıyan ve Üreten Göğüs
+
+[GÜÇLÜ / A — Cinler anlamındaki kapanış sözü `ٱلْجِنَّةِ`, gizlenme anlamındaki `ج ن ن` kökü aracılığıyla önceki göğsü geriye doğru yeniden kurar: kaburgalar bir mahfaza, kalp gizli bir dayanak, göğüs de saklanan içeriğin dışarı çıkacağı kaynak olur.] Göğüs anlamındaki `صُدُور` doğrudan beden yerini korur; fakat gizlenme kökünün göğüste bir şeyi saklama, gizli kalp ve kaburga uçları dalları ile hükümdarlık kökünün kalbi bedenin dayanağı sayan dalı bu yeri katmanlandırır. Kapanış böylece hem cinleri ayrı bir fail sınıfı olarak bırakır hem de fısıltının neden içeride tanınmasının zor olduğunu açıklar.
+
+[GÜÇLÜ / B — Kesme ve yarma, sallanan yük ve aklın üzerini örten perde, iç baskının bütünlüğü nasıl bozabileceğini gösterir.] Kötülük anlamındaki `ش ر ر` kökü yarılma ve ağırlık verir; gizlenme kökü yargıyı örten engeli verir. Sığınma kökünün akıl yitimine karşı kullanılan koruma dalı bu perdeyle aynı noktada buluşur; yetiştiren sahip onarır, hükümdar bütünlüğü ve kalpteki desteği tutar, ilah yönelişi düzeltir. [GÜÇLÜ / B — Başlangıç ve gizli gelişim anlamları, göğsü yalnızca depo değil, henüz görünmeyen içeriğin söz ve davranışa doğru olgunlaştığı bir oluşum odası yapar.] Gizli gelişen cenin görüntüsü göğsü rahme çevirmez; telkinin ortaya çıkmadan önce geçirdiği kapalı evreyi görünür kılar.
+
+### Korunan Halk, Hareket Eden Aktarım Ağı
+
+[GÜÇLÜ / A — İnsanlar anlamındaki `ٱلنَّاسِ`, önce üç unvanın koruduğu topluluk, sonra girilen göğüslerin sahipleri, sonunda da fısıltının çıkabileceği ve taşınabileceği insan alanı olur.] Son insan sözü ilk üçünü iptal etmez: korunanlar aynı zamanda tehlikenin olası aktarıcılarıdır. Söyleme kökündeki insanlar arasında yayılan söz dalı, yetiştirme kökündeki toplanmış kabileler ve gizlenme kökündeki büyük insan kitlesi dalı, tek bir göğüsten çıkan ifadenin toplulukta dolaşıp başka bir göğse girebilmesini tamamlar. Fısıltı kökünün şeytanı adlandırabilen dalı gizli fail ihtimalini destekler, fakat cinlerle insanlar arasındaki açık ayrımı ve insan unsurunu silmez.
+
+[GÜÇLÜ / B — Salınma anlamındaki `ن و س` kökü ile hafif hareket sesi anlamındaki `و س و س` kökü, insanın sarsılışını kendi fısıltısını çoğaltan bir geri beslemeye dönüştürür.] Küpe, perçem ya da ince dal gibi sallanma; kötülük kökündeki asılı ağırlık; geri çekilme kökündeki kaybolup dönme ve düz gidiş sırasında yana sapma; hükümdarlık kökündeki bütünlük ile birleşir. Kişi hareket ettikçe ince ses doğar, ince ses yeni hareket doğurur; tekrarlanan `ٱلنَّاسِ` sözü de unvanların altında tutulup göğüste başka bir role geçerek sonda geri döner.
+
+[GÜÇLÜ / B — Deve sürme anlamındaki `ن و س`, önden gidilen kılavuz ve yolun ana hattı anlamlarındaki `م ل ك`, sürü anlamındaki `ر ب ب` ve yana sapma anlamındaki `خ ن س`, yönetimi yön tayini olarak somutlaştırır.] Meşru önder ve ana yol daha önce anılır; gizli yönlendirme ise ilerlemeyi durdurmadan içeriden küçük sapmalar biriktirir. Salınma kırılganlığı, sürülme dış yönü anlatır; tutunma ve bütünlük ikisine karşı denge kurar.
+
+## Tamamlayıcı Bulgular
+
+### İnsan Ağında Yalancı Sığınak
+
+[GÜÇLÜ / B — Çatışan insanların birbirine yaslanıp sorumluluğu devretmesi anlamındaki `ع و ذ` dalı, insan ağının neden kendi başına son sığınak olamayacağını gösterir.] Fısıltı insanlar arasından da gelebilir; bu yüzden topluluk, kendisini aşan yetiştirici sahip `رَبِّ ٱلنَّاسِ` altında korunur.
+
+### Düşünce Sanılan Söz
+
+[ORTA / C-koşullu — Söyleme anlamındaki `ق و ل` kökünün “sanmak” gibi işleyebilen dalı, içe gelen söz ile kişinin kendi hükmü arasındaki sınırın bulanabileceğini ancak koşullu olarak destekler.]
+
+### Sözsüz Belirti
+
+[ORTA / C-koşullu — Aynı `ق و ل` kökünün bir şeyin durumunu sözsüzce “söylemesi” anlamı, salınımdan çıkan hafif sesin daha kelime olmadan bir bozulmayı gösterebilmesine ince bir uzantı ekler.]
+
+### Bağın Düğümü
+
+[ORTA / C-koşullu — Sahiplik ve yetiştirme anlamındaki `ر ب ب` kökünün sağlam düğüm dalı, sığınmanın kalıcı bağını maddi olarak güçlendirir; aynı dal başka anlamları da topladığı için kendi başına sonuç taşımaz.]
+
+### Açık Öğreti, Gizli Telkin
+
+[GÜÇLÜ / C-koşullu — Öğretmenin insanları küçük bilgi paylarıyla beslemesi anlamındaki `ر ب ب` dalı, kaynağı belli aşamalı eğitim ile kaynağını saklayan biçimlendirici telkini karşılaştırır.] Metin doğrudan bir öğretim sahnesi kurmadığından bu karşılık ana ekseni yönetmez.
+
+### Su Başından Sonraki Yol
+
+[GÜÇLÜ / B — Toplanmış tatlı su ve bitki yetiştiren bulut anlamlarındaki `ر ب ب`, yolcunun konaklamasını sürdüren su, ana yol ve öndeki kılavuz anlamlarındaki `م ل ك`, su başından ayrılma anlamındaki `ص د ر`, deve sürme anlamındaki `ن و س` ve yana sapma anlamındaki `خ ن س`, koruyucu yönetimi kaynak sağlama ve yol üzerinde tutma olarak gösterir.] Metin gerçek bir kervan anlatmaz; su başından sonra süren hareket, küçük iç sapmaların nasıl büyüyebileceğini açıklar.
+
+[GÜÇLÜ / C-koşullu — Bir tulumu ya da kabı koyu bir maddeyle onarıp sağlamlaştırma anlamındaki `ر ب ب` dalı, hem taşınan kaynağın kabını hem göğsün mahfazasını çağrıştırır; yüzeyde kap bulunmadığı için yalnızca destekleyicidir.]
+
+### Nemli Büyüme, Kuruma ve Kıvılcım
+
+[GÜÇLÜ / B — Yeşil kalan bitki, yetiştirici bulut ve toplanmış su anlamlarındaki `ر ب ب` ile ağaçlarla örtülü bahçe ve sık büyüme anlamlarındaki `ج ن ن`, kurutma, yarma ve saçılan kıvılcımlar anlamlarındaki `ش ر ر` karşısında iki süreç kurar.] Bir yanda nem, örtü, bütünleşme ve tamamlanma; öte yanda kuruma, parçalanma ve dağılma vardır. İnsanlar arasında yayılan söz kıvılcım gibi çoğalabilir; üç unvan altında yeniden toplanma bu dağılmanın karşı biçimidir.
+
+[GÜÇLÜ / C-koşullu — Gençlik gücü ve harareti anlamındaki `ش ر ر` dalı, başlangıç hâlindeki telkinin hız kazanmasını düşündürür; metin gençliği ya da aceleyi doğrudan belirtmez.]
+
+### Kırılgan Başlangıca Yakın Bakım
+
+[GÜÇLÜ / B erken oluşum + GÜÇLÜ / C-koşullu bakım sahnesi — Başlangıç ve bedende gizli gelişim anlamlarındaki `ج ن ن`, doğum sonrası tazelik, bakılan çocuk ve sorumluluk alan bakıcı anlamlarındaki `ر ب ب`, yavrusunun yanında kalan yeni doğurmuş dişi anlamındaki `ع و ذ` ile birleşir.] Bu yakınlık, sığınmayı sonuç henüz biçimlenirken verilen bakım olarak duyurur; göğsü gerçek bir rahme ya da metni doğum anlatısına çevirmez.
+
+### Avcının Sessizliği ve Temassız Zarar
+
+[GÜÇLÜ / B çekirdek + ORTA / C-koşullu uzantı — Avcının alçak sesi anlamındaki `و س و س`, saklanma yeri anlamındaki `ج ن ن`, zor ulaşılan örtüye tutunma anlamındaki `ع و ذ` ve vurmadan korkutan ya da ısırmadan yüzü kaplayan zarar dalları, failin kendini göstermeden sarsmasını açıklar.] Geri çekilme anlamındaki `خ ن س` kökünün ceylanları ya da onların sığınağını adlandırabilmesi av sahnesini tamamlayabilir, fakat hangi rolü verdiği çözülemediği için tam sahne koşullu kalır.
+
+### Hareket Eden Koruma Halkası
+
+[GÜÇLÜ / B — Kişide taşınan koruma ve atın boyun yerindeki halka anlamlarındaki `ع و ذ`, sallanan küpe anlamındaki `ن و س`, takının hafif sesi anlamındaki `و س و س`, asılı ağırlık anlamındaki `ش ر ر` ve atın yana sapması anlamındaki `خ ن س`, korumayla ilişkili bir aracın kendi kendini sabitlemediğini gösterir.] Rakip yönlendirme onu salladığında araç tehlikenin ince sesini de üretebilir; belirleyici olan nesne değil, üç unvana açık bağlılık ve yönetimdir.
+
+### Eksik Seyir İmgesi
+
+[GÜÇLÜ / C-koşullu — Denizcilerin başı anlamındaki `ر ب ب`, su ve rota anlamlarındaki `م ل ك` ile kaybolup dönen gök cisimleri anlamındaki `خ ن س`, değişen işaretlere karşı sabit yönetimi ancak silik biçimde düşündürür.] Gemi ve gök cisimlerinin yol göstermesi arasındaki bağ bulunmadığından bu parçalar bağımsız bir seyir sahnesi kurmaz.
+
+## Son Geçiş
+
+Kaynağı belli “Söyle” emri `قُلْ`, konuşanı yetiştirip onaran sahibin, topluluğu yönetip bir arada tutan hükümdarın ve kulluğun yöneldiği ilahın korumasına sesle bağlar. Sonra kaynağını saklayan fısıltı göğsün gizli, yük taşıyan ve üretici merkezine girer; kendisini düşünce, inanç, kaygı, söz ve yön gibi benimsetip insanlar arasında yeniden dolaşmaya çalışır. Kapanış, faili cinler ile insanlar arasında gösterirken korunan topluluğun aynı zamanda aktarım yolu olabileceğini açığa çıkarır. Fakat adı açıkça anılan koruyucu gizli faili geri çektirir; geri çekilme dönüş ihtimalini taşıdığı için son söz yeniden ilk emre bağlanır ve sığınma, kaynağı ile yönü her defasında ilan edilen tekrarlanabilir bir söz olur.
