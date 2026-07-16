@@ -77,7 +77,7 @@ The resulting production artifacts are:
 | 1 | fresh A1 | `tasks/01-a1-discover.md` | `a1/discovery.md` |
 | 2 | same A1 | `tasks/02-a1-integrate.md` | `a1/discovery-integrated.md` |
 | 3 | fresh A2 | `tasks/03-a2-map.md` | `a2/mechanism-map.md` |
-| 4 | fresh gold renderer | `tasks/04-a2-publish.md` | `publication.md` |
+| 4 | fresh gold renderer | `tasks/04-a2-publish.md` | `<surah>-publication.md` |
 
 All paths in this table are relative to `v3/run/<run-id>/`.
 
@@ -129,14 +129,14 @@ The map preserves central, medium, weak, conditional, rival, and incomplete mate
 A third, context-free agent receives the exact passage, primary scaffold, integrated discovery, and completed mechanism map. Using `prompts/a2-publication-tr-compact-v2.md`, it turns those materials into the final work:
 
 ```text
-publication.md
+<surah>-publication.md
 ```
 
-The renderer is the final synthesis author, not a reviewer, auditor, validator, or new discovery agent. It compresses exposition rather than findings, preserves the established grading and breadth, and does not reopen or rescore the mechanism map. The publication uses labeled finding paragraphs and a final ordered replay. It is not organized by ayah, pericope, or section.
+The filename uses the numeric surah in the prepared passage, for example `1-publication.md` or `100-publication.md`, and is written in the run root. The renderer is the final synthesis author, not a reviewer, auditor, validator, or new discovery agent. It compresses exposition rather than findings, preserves the established grading and breadth, and does not reopen or rescore the mechanism map. The publication uses labeled finding paragraphs and a final ordered replay. It is not organized by ayah, pericope, or section.
 
 ## Re-render an existing run
 
-If a completed run already contains `inputs/passage-arabic.txt`, `inputs/primary-scaffold.md`, `a1/discovery-integrated.md`, and `a2/mechanism-map.md` for the same frozen passage scope, its upstream work is sufficient. Run `make_tasks.py` for that run root and execute only `tasks/04-a2-publish.md` in a fresh, context-free renderer session. Do not rerun A1 or the mechanism mapper unless one of those upstream artifacts is intentionally changed.
+If a completed run already contains `inputs/passage-arabic.txt`, `inputs/primary-scaffold.md`, `a1/discovery-integrated.md`, and `a2/mechanism-map.md` for the same frozen passage scope, its upstream work is sufficient. Run `make_tasks.py` for that run root and execute only `tasks/04-a2-publish.md` in a fresh, context-free renderer session. The regenerated task writes `<surah>-publication.md`; an older `publication.md` remains a historical artifact. Do not rerun A1 or the mechanism mapper unless one of those upstream artifacts is intentionally changed.
 
 ## Confidence language
 
@@ -153,4 +153,4 @@ Activation strength comes from specific cross-root convergence, complementary ro
 
 The runtime only prepares evidence and emits four task files. It does not score, approve, reject, promote, or close agent work. The operator's role is limited to preserving the three-agent, four-turn sequence and allowing each turn to finish.
 
-The production run is complete when the fresh renderer has written `publication.md` and reported completion. A blind gold comparison may begin only afterward, outside all production sessions. It is an evaluation of the finished work, not a fifth workflow turn, and its findings are never retroactively supplied as production evidence.
+The production run is complete when the fresh renderer has written `<surah>-publication.md` and reported completion. A blind gold comparison may begin only afterward, outside all production sessions. It is an evaluation of the finished work, not a fifth workflow turn, and its findings are never retroactively supplied as production evidence.

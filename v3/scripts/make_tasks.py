@@ -31,6 +31,15 @@ def require_files(paths: Iterable[Path], label: str) -> list[Path]:
     return materialized
 
 
+def passage_surah(path: Path) -> str:
+    for line in path.read_text(encoding="utf-8").splitlines():
+        location = line.partition("\t")[0]
+        surah, separator, _ayah = location.partition(":")
+        if separator and surah.isdigit():
+            return str(int(surah))
+    raise TaskError(f"Cannot determine surah from passage input: {path}")
+
+
 def task_text(
     title: str,
     session: str,
@@ -88,7 +97,7 @@ def emit(run_root: Path) -> list[Path]:
     discovery = run_root / "a1" / "discovery.md"
     integrated = run_root / "a1" / "discovery-integrated.md"
     mechanism = run_root / "a2" / "mechanism-map.md"
-    publication = run_root / "publication.md"
+    publication = run_root / f"{passage_surah(passage)}-publication.md"
 
     definitions = (
         (

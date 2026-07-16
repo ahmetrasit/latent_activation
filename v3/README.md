@@ -44,9 +44,9 @@ Run the emitted tasks in order:
 3. `tasks/03-a2-map.md` in a fresh A2 session.
 4. `tasks/04-a2-publish.md` in a fresh, context-free gold renderer session.
 
-The final product is `publication.md`.
+The final product is `<surah>-publication.md` in the run root, using the numeric surah from the prepared passage, for example `1-publication.md`.
 
-For an existing run that already has `a1/discovery-integrated.md` and `a2/mechanism-map.md`, rerun `make_tasks.py` and execute only task 04 with a fresh renderer. The earlier agents do not need to run again unless their artifacts change.
+For an existing run that already has `a1/discovery-integrated.md` and `a2/mechanism-map.md`, rerun `make_tasks.py` and execute only task 04 with a fresh renderer. The new task writes `<surah>-publication.md` and leaves an older `publication.md` untouched. The earlier agents do not need to run again unless their artifacts change.
 
 ## Deliberate omissions
 
