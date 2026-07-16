@@ -10,7 +10,7 @@ This is open-ended linguistic discovery. The prompts guide attention and composi
 
 Run from the repository root with a unique run directory under `v3/run/`. Before starting, supply an independent primary scaffold for the exact passage scope. The scaffold states the passage's direct contextual proposition; it must not be copied from a gold reference or prior synthesis.
 
-Production uses two native multi-agent sessions with `gpt-5.6-sol` at maximum reasoning depth. Use the environment's native spawn, send, wait, and close operations, and set `fork_context: false` for both spawns so neither agent inherits conversation history. Leave `service_tier` unset; do not request or override a priority tier when spawning either agent. Do not use `codex exec` to emulate an agent, and do not let either production agent spawn further agents.
+Production uses three native agent sessions and four intellectual turns with `gpt-5.6-sol` at maximum reasoning depth. A1 performs its two turns in one continuing session; the mechanism mapper and gold renderer each use a separate fresh session. Use the environment's native spawn, send, wait, and close operations, and set `fork_context: false` for every spawn so no agent inherits operator conversation history. Leave `service_tier` unset; do not request or override a priority tier when spawning any agent. Do not use `codex exec` to emulate an agent, and do not let a production agent spawn further agents.
 
 The local source files are:
 
@@ -77,7 +77,7 @@ The resulting production artifacts are:
 | 1 | fresh A1 | `tasks/01-a1-discover.md` | `a1/discovery.md` |
 | 2 | same A1 | `tasks/02-a1-integrate.md` | `a1/discovery-integrated.md` |
 | 3 | fresh A2 | `tasks/03-a2-map.md` | `a2/mechanism-map.md` |
-| 4 | same A2 | `tasks/04-a2-publish.md` | `publication.md` |
+| 4 | fresh gold renderer | `tasks/04-a2-publish.md` | `publication.md` |
 
 All paths in this table are relative to `v3/run/<run-id>/`.
 
@@ -85,12 +85,12 @@ All paths in this table are relative to `v3/run/<run-id>/`.
 
 1. Spawn a fresh, context-free A1 agent for `tasks/01-a1-discover.md`. Tell it to read and execute that task, write only its assigned output, and not spawn subagents. Wait until it reports completion; do not steer it while it is reasoning.
 2. Send `tasks/02-a1-integrate.md` to that same A1 session. Wait for completion, then close A1. Session continuity is required because this turn integrates rather than rediscovers A1's field.
-3. Spawn a fresh, context-free A2 agent for `tasks/03-a2-map.md`. Give it no conversation history or unlisted material. Wait until it reports completion without intermediate feedback.
-4. Send `tasks/04-a2-publish.md` to that same A2 session. Wait for completion, then close A2. Session continuity is required because the publication must realize the mechanism map rather than independently summarize the passage.
+3. Spawn a fresh, context-free A2 agent for `tasks/03-a2-map.md`. Give it no conversation history or unlisted material. Wait until it reports completion without intermediate feedback, then close A2.
+4. Spawn a fresh, context-free gold renderer for `tasks/04-a2-publish.md`. It receives only the listed passage, scaffold, integrated discovery, and mechanism map. Wait until it reports completion without intermediate feedback, then close it.
 
 Do not inspect against gold, rank findings, request revisions, or inject operator commentary between these turns. Maximum-depth turns can be long; a quiet interval is not a failure.
 
-If a wait call times out or the operator interface is interrupted, first wait on the existing agent id again. Do not resend the task or spawn a duplicate while that agent may still be running. If an agent actually fails before writing its assigned artifact, restart only the incomplete turn while preserving the required A1 or A2 session continuity whenever the session remains available.
+If a wait call times out or the operator interface is interrupted, first wait on the existing agent id again. Do not resend the task or spawn a duplicate while that agent may still be running. If an agent actually fails before writing its assigned artifact, restart only the incomplete turn. Preserve A1 continuity for Turn 2 whenever its session remains available; A2 and the renderer are independent fresh single-turn sessions.
 
 ## Flow
 
@@ -124,15 +124,19 @@ a2/mechanism-map.md
 
 The map preserves central, medium, weak, conditional, rival, and incomplete material when each contributes a real lexical or compositional insight.
 
-### Turn 4: A2 Turkish publication
+### Turn 4: fresh Turkish gold renderer
 
-The same A2 session turns the mechanism map into the final work:
+A third, context-free agent receives the exact passage, primary scaffold, integrated discovery, and completed mechanism map. Using `prompts/a2-publication-tr-compact-v2.md`, it turns those materials into the final work:
 
 ```text
 publication.md
 ```
 
-The publication uses labeled finding paragraphs and a final ordered replay. It is not organized by ayah, pericope, or section.
+The renderer is the final synthesis author, not a reviewer, auditor, validator, or new discovery agent. It compresses exposition rather than findings, preserves the established grading and breadth, and does not reopen or rescore the mechanism map. The publication uses labeled finding paragraphs and a final ordered replay. It is not organized by ayah, pericope, or section.
+
+## Re-render an existing run
+
+If a completed run already contains `inputs/passage-arabic.txt`, `inputs/primary-scaffold.md`, `a1/discovery-integrated.md`, and `a2/mechanism-map.md` for the same frozen passage scope, its upstream work is sufficient. Run `make_tasks.py` for that run root and execute only `tasks/04-a2-publish.md` in a fresh, context-free renderer session. Do not rerun A1 or the mechanism mapper unless one of those upstream artifacts is intentionally changed.
 
 ## Confidence language
 
@@ -147,6 +151,6 @@ Activation strength comes from specific cross-root convergence, complementary ro
 
 ## Orchestration boundary
 
-The runtime only prepares evidence and emits four task files. It does not score, approve, reject, promote, or close agent work. The operator's role is limited to preserving the two-session sequence and allowing each turn to finish.
+The runtime only prepares evidence and emits four task files. It does not score, approve, reject, promote, or close agent work. The operator's role is limited to preserving the three-agent, four-turn sequence and allowing each turn to finish.
 
-The production run is complete when A2 has written `publication.md` and reported completion. A blind gold comparison may begin only afterward, outside both production sessions. It is an evaluation of the finished work, not a fifth workflow turn, and its findings are never retroactively supplied as production evidence.
+The production run is complete when the fresh renderer has written `publication.md` and reported completion. A blind gold comparison may begin only afterward, outside all production sessions. It is an evaluation of the finished work, not a fifth workflow turn, and its findings are never retroactively supplied as production evidence.

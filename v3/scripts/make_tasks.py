@@ -79,7 +79,7 @@ def emit(run_root: Path) -> list[Path]:
         "discover": PACKAGE_ROOT / "prompts" / "a1-discovery.md",
         "integrate": PACKAGE_ROOT / "prompts" / "a1-scaffold-integration.md",
         "map": PACKAGE_ROOT / "prompts" / "a2-mechanism-map.md",
-        "publish": PACKAGE_ROOT / "prompts" / "a2-publication-tr.md",
+        "publish": PACKAGE_ROOT / "prompts" / "a2-publication-tr-compact-v2.md",
     }
     require_files(prompts.values(), "role prompt")
 
@@ -117,8 +117,8 @@ def emit(run_root: Path) -> list[Path]:
         ),
         (
             tasks_root / "04-a2-publish.md",
-            "A2 Turn 2: Turkish Gold Synthesis",
-            "continue the same A2 session used for task 03",
+            "Fresh Gold Renderer: Compact Turkish Synthesis",
+            "fresh context-free gold renderer agent session; do not continue the A2 session",
             prompts["publish"],
             (passage, scaffold, integrated, mechanism),
             publication,

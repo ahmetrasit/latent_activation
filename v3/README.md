@@ -11,12 +11,12 @@ prepared evidence
   -> A1 discovery
   -> A1 scaffold integration
   -> A2 mechanism map
-  -> A2 Turkish publication
+  -> fresh gold renderer
 ```
 
-A1 uses one continuing agent session for its two turns. A2 uses a fresh agent and one continuing session for its two turns. There is no reviewer or detached renderer.
+A1 uses one continuing agent session for its two turns. A fresh A2 agent creates the mechanism map in one turn. A third, context-free agent renders the completed work into compact Turkish prose. The renderer is a synthesis author, not a reviewer or validator, and it does not reopen discovery or grading.
 
-For gold-workflow runs, use `gpt-5.6-sol` at maximum reasoning depth for both agents.
+For gold-workflow runs, use `gpt-5.6-sol` at maximum reasoning depth for all three agents.
 
 ## Prepare a run
 
@@ -42,12 +42,14 @@ Run the emitted tasks in order:
 1. `tasks/01-a1-discover.md` in a fresh A1 session.
 2. `tasks/02-a1-integrate.md` in the same A1 session.
 3. `tasks/03-a2-map.md` in a fresh A2 session.
-4. `tasks/04-a2-publish.md` in the same A2 session.
+4. `tasks/04-a2-publish.md` in a fresh, context-free gold renderer session.
 
 The final product is `publication.md`.
 
+For an existing run that already has `a1/discovery-integrated.md` and `a2/mechanism-map.md`, rerun `make_tasks.py` and execute only task 04 with a fresh renderer. The earlier agents do not need to run again unless their artifacts change.
+
 ## Deliberate omissions
 
-V3 has no state machine, review agent, publication renderer, output JSON schema, hashes, manifests, provenance ledger, branch-coverage report, failed-seed record, or generic validation stage. Preparation and task emission do not call a model provider.
+V3 has no state machine, review agent, output JSON schema, hashes, manifests, provenance ledger, branch-coverage report, failed-seed record, or generic validation stage. Its final renderer is a production writing turn, not a control layer. Preparation and task emission do not call a model provider.
 
 See `00_orchestration_spec.md` and `00_input_supply_guide.md` for the complete workflow.
