@@ -67,6 +67,22 @@ def task_text(
         "Write the complete artifact directly to the output path.",
         "",
     ]
+    if output.suffix == ".jsonl":
+        validator = PACKAGE_ROOT / "scripts" / "render_publication.py"
+        lines.extend(
+            [
+                "## Deterministic Check",
+                "",
+                "After writing the JSONL, run:",
+                "",
+                "```bash",
+                f"python3 {validator} {output} --check",
+                "```",
+                "",
+                "Resolve every structural or content-contract error before reporting completion. Style warnings may guide a presentation-only rewrite, but they never permit changing, omitting, merging, or rescoring findings.",
+                "",
+            ]
+        )
     return "\n".join(lines)
 
 
@@ -88,7 +104,7 @@ def emit(run_root: Path) -> list[Path]:
         "discover": PACKAGE_ROOT / "prompts" / "a1-discovery.md",
         "integrate": PACKAGE_ROOT / "prompts" / "a1-scaffold-integration.md",
         "map": PACKAGE_ROOT / "prompts" / "a2-mechanism-map.md",
-        "publish": PACKAGE_ROOT / "prompts" / "a2-publication-tr-compact-v2.md",
+        "publish": PACKAGE_ROOT / "prompts" / "a2-publication-tr-audio-first.md",
     }
     require_files(prompts.values(), "role prompt")
 
@@ -97,7 +113,7 @@ def emit(run_root: Path) -> list[Path]:
     discovery = run_root / "a1" / "discovery.md"
     integrated = run_root / "a1" / "discovery-integrated.md"
     mechanism = run_root / "a2" / "mechanism-map.md"
-    publication = run_root / f"{passage_surah(passage)}-publication.md"
+    publication = run_root / f"{passage_surah(passage)}-publication.jsonl"
 
     definitions = (
         (
@@ -126,7 +142,7 @@ def emit(run_root: Path) -> list[Path]:
         ),
         (
             tasks_root / "04-a2-publish.md",
-            "Fresh Gold Renderer: Compact Turkish Synthesis",
+            "Fresh Gold Renderer: Audio-First Turkish Publication",
             "fresh context-free gold renderer agent session; do not continue the A2 session",
             prompts["publish"],
             (passage, scaffold, integrated, mechanism),

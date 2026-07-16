@@ -1,6 +1,6 @@
 # TTS Generation Spec
 
-This spec defines how to turn a `v3/run/<surah-run>/<surah>-publication.md` file into paragraph-level Google Gemini TTS requests and app-ready audio chunks.
+This spec defines how to turn a canonical `v3/run/<surah-run>/<surah>-publication.jsonl` file into paragraph-level Google Gemini TTS requests and app-ready audio chunks.
 
 Only `v3` sources are valid for this pipeline. Do not use `v1`, `v2`, `v2.1`, `v4`, or `v5` publication files for production audio generation, pilots, cost estimates, or app manifests.
 
@@ -43,7 +43,7 @@ Mono is preferred for this project. The content is spoken narration, not spatial
 Working prompt:
 
 ```text
-Speak as a warm, low-mid Turkish narrator for long-form theological and linguistic commentary. Keep the voice reflective, easy on the ears, and gently forward-moving so the listener can follow the argument. Use clear Istanbul Turkish diction, natural pauses, and subtle emphasis on key insight sentences. The tone should feel like a thoughtful teacher revealing structure step by step: calm, dignified, engaged, and quietly compelling. Pronounce Arabic script naturally, not as Turkish spelling.
+Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.
 ```
 
 Do not use `input.ssml` with this voice/model. The canary test failed with:
@@ -59,116 +59,84 @@ Use `input.text`. The response may include a `timepoints` key, but it is empty f
 For a given surah, read:
 
 ```text
-v3/run/<surah-run>/<surah>-publication.md
+v3/run/<surah-run>/<surah>-publication.jsonl
 ```
 
 Example:
 
 ```text
-v3/run/s096-full-20260716/96-publication.md
+v3/run/s096-full-20260716/96-publication.jsonl
 ```
 
 The source path must match:
 
 ```text
-^v3/run/[^/]+/[0-9]{1,3}-publication\.md$
+^v3/run/[^/]+/[0-9]{1,3}-publication\.jsonl$
 ```
 
-During the current migration, legacy `v3/run/<surah-run>/publication.md` files may still exist for some surahs. Treat numbered `{surah}-publication.md` files as canonical whenever present; use `publication.md` only as a temporary fallback for runs that do not yet have the numbered file.
+Legacy numbered `{surah}-publication.md` and `publication.md` files remain accepted only when the same run has no numbered publication JSONL. Once `<surah>-publication.jsonl` exists, TTS preparation must use it.
 
 If a requested surah does not have a matching `v3` publication file, stop and report that no valid v3 source exists. Do not fall back to `v4`, `v5`, or any other version.
 
-The source file is Markdown. The spoken text must be derived from the rendered editorial structure, not from raw Markdown syntax.
+The source JSONL is the canonical publication structure. Each line is one `opening`, `finding`, or `closing` record with:
+
+```text
+kind
+grades
+title
+paragraphs
+```
+
+Grades are app and audit metadata. They are never sent to TTS.
 
 ## Section Model
 
-Each generated audio unit belongs to a section.
+Each publication record becomes one audio section.
 
-### Intro Section
+### Opening
 
-The first Markdown H1 is the intro section title.
+The `opening` record is the first section. Its `title` is spoken as the first chunk, followed by each item in `paragraphs` as its own chunk.
 
 Example:
 
-```md
-# Asılı Başlangıçtan Yakınlığa: Alak Suresinde Ölçü, Taşkınlık ve Dönüş
+```json
+{"kind":"opening","grades":[],"title":"Yol Söylenmeden Önce","paragraphs":["Sure doğrudan hareketini kurar."]}
 ```
 
-The intro section includes all paragraphs after the H1 until the `## Bulgular` heading.
+### Findings
 
-The title itself should be spoken as the first paragraph of the intro section unless explicitly disabled by a later app policy.
+Every `finding` record becomes an independent section. The section preserves its `grades` in `chunks.jsonl` and `manifest.json`, but audio contains only the title and prose.
 
-Do not speak the `## Bulgular` heading.
-
-### Section Titles
-
-Markdown headings other than `## Bulgular` and `## Ana Bulgular` are section titles. They are standalone TTS chunks and standalone audio files.
-
-Examples:
-
-```md
-# Yol Söylenmeden Önce
-### Kulluğun Önceden Açtığı Yol
-## Son Geçiş
+```json
+{"kind":"finding","grades":["GÜÇLÜ / A"],"title":"Kulluğun Önceden Açtığı Yol","paragraphs":["İlk anlatım bölümü.","İkinci anlatım bölümü."]}
 ```
 
-Spoken section titles:
+Generated chunks:
 
 ```text
-Yol Söylenmeden Önce.
 Kulluğun Önceden Açtığı Yol.
+İlk anlatım bölümü.
+İkinci anlatım bölümü.
+```
+
+### Closing
+
+The final `closing` record is its own section:
+
+```text
 Son Geçiş.
 ```
 
-The section title chunk belongs to that section as its first paragraph unit. The following subsection chunks belong to the same section until the next Markdown heading or EOF.
-
-Do not speak structural collector headings:
-
-```md
-## Bulgular
-## Ana Bulgular
-```
-
-### Bulgular Subsections
-
-Inside a section, bracketed labels start subsection paragraph chunks. They do not create new sections and are not standalone title chunks.
-
-Raw example:
-
-```md
-[GÜÇLÜ / A — Perçemden meclise uzanan rakip ön ve karşı çağrı]
-
-لَنَسْفَعًا بِالنَّاصِيَةِ tehdidinde iki kök birbirinin eksik rolünü tam olarak doldurur.
-```
-
-Spoken paragraph chunk:
-
-```text
-Perçemden meclise uzanan rakip ön ve karşı çağrı. لَنَسْفَعًا بِالنَّاصِيَةِ tehdidinde iki kök birbirinin eksik rolünü tam olarak doldurur.
-```
-
-Parsing rule:
-
-- Match a line that starts with `[` and ends with `]`.
-- Remove the outer brackets.
-- If the content contains an em dash `—`, keep only the text after the first em dash.
-- Trim surrounding whitespace.
-- This cleaned title becomes the opening sentence of the next paragraph chunk.
-- The following prose belongs to the same paragraph chunk until the next bracketed label or the next Markdown heading.
-- If the bracket label is bolded, such as `**[GÜÇLÜ / A — ...]**`, remove the bold markers and apply the same rule.
-
-Do not speak the strength/rank prefix such as `GÜÇLÜ / A`, `GÜÇLÜ / B`, or `GÜÇLÜ / C-koşullu`.
-
-Also remove inline rank phrases from prose, such as `GÜÇLÜ / B`, `ORTA / A`, and `ZAYIF / C-koşullu`.
+The closing title is followed by its one or two prose paragraphs.
 
 ## Paragraph Unit
 
-Generate TTS one paragraph at a time.
+Generate TTS one title or prose paragraph at a time.
 
 A paragraph unit is:
 
-- One cleaned section title, or
-- One cleaned subsection paragraph that starts with the cleaned bracket title and continues with its prose.
+- One record title, or
+- One string from that record's `paragraphs` array.
 
 Paragraph units are the app playback and resume boundaries. Sentence-level timestamps are not available with this model because SSML marks are unsupported.
 
@@ -201,37 +169,16 @@ The app should store playback progress as:
 
 ## Text Cleaning
 
-Apply these transformations before sending text to TTS:
+Canonical JSONL prose is already plain text. Apply no Markdown inference or label parsing.
 
-1. Remove Markdown bold markers:
+1. Use `title` and `paragraphs` exactly as validated.
+2. Never concatenate `grades` into spoken text.
+3. Preserve Arabic script and Turkish punctuation exactly.
+4. Add final sentence punctuation to `ttsText` for a title only when it has none.
+5. Do not combine adjacent publication records or paragraphs.
+6. Reject malformed JSONL, spoken grade codes, bare spaced Arabic roots, or explicit cinematic production vocabulary before request creation.
 
-```text
-**لَنَسْفَعًا بِالنَّاصِيَةِ** -> لَنَسْفَعًا بِالنَّاصِيَةِ
-```
-
-2. Remove Markdown italic markers if present.
-
-3. Remove Markdown heading syntax from titles:
-
-```text
-## Geçişin yeniden duyuluşu -> Geçişin yeniden duyuluşu
-```
-
-4. Convert bracket labels into the opening sentence of the following subsection paragraph chunk.
-
-5. Do not speak `## Bulgular`.
-
-6. Preserve Arabic script exactly as written.
-
-7. Preserve Turkish punctuation, semicolons, colons, and quotation marks unless they are Markdown syntax.
-
-8. Collapse internal whitespace runs to single spaces within a paragraph.
-
-9. Use Markdown headings as section-title chunk boundaries and bracket labels as subsection paragraph chunk boundaries.
-
-10. Do not include empty paragraphs.
-
-11. Do not include raw Markdown list markers, code fences, HTML comments, or YAML frontmatter if they appear in future files.
+Legacy Markdown sources continue through the old cleaning path only when no canonical JSONL exists. That compatibility parser removes collector headings and all confidence codes from speech.
 
 ## Request Shape
 
@@ -245,7 +192,7 @@ For each paragraph unit, send one request:
     "speakingRate": 1
   },
   "input": {
-    "prompt": "Speak as a warm, low-mid Turkish narrator for long-form theological and linguistic commentary. Keep the voice reflective, easy on the ears, and gently forward-moving so the listener can follow the argument. Use clear Istanbul Turkish diction, natural pauses, and subtle emphasis on key insight sentences. The tone should feel like a thoughtful teacher revealing structure step by step: calm, dignified, engaged, and quietly compelling. Pronounce Arabic script naturally, not as Turkish spelling.",
+    "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
     "text": "<cleaned paragraph text>"
   },
   "voice": {
@@ -258,7 +205,7 @@ For each paragraph unit, send one request:
 
 Do not include `enableTimePointing` for plain text requests. It does not produce sentence timings here.
 
-Example request for the first `Bulgular` paragraph of `S096`:
+Example request for one finding paragraph of `S096`:
 
 ```json
 {
@@ -268,8 +215,8 @@ Example request for the first `Bulgular` paragraph of `S096`:
     "speakingRate": 1
   },
   "input": {
-    "prompt": "Speak as a warm, low-mid Turkish narrator for long-form theological and linguistic commentary. Keep the voice reflective, easy on the ears, and gently forward-moving so the listener can follow the argument. Use clear Istanbul Turkish diction, natural pauses, and subtle emphasis on key insight sentences. The tone should feel like a thoughtful teacher revealing structure step by step: calm, dignified, engaged, and quietly compelling. Pronounce Arabic script naturally, not as Turkish spelling.",
-    "text": "لَنَسْفَعًا بِالنَّاصِيَةِ tehdidinde iki kök birbirinin eksik rolünü tam olarak doldurur. سفع, başın önünden ya da perçemden zorla tutmayı, bununla birlikte gelen hâkimiyet ve aşağılamayı taşır; ناصية ise hem perçemi hem de ondan tutup çekmeyi adlandırır. Kuvvet, hedef, beden bölgesi ve sonuç tek bir sahnede kilitlenir. Ardından perçemin “yalancı, hatalı” diye nitelenmesi, yanlışı soyut bir hüküm olmaktan çıkarıp bedenin önünde okunur hale getirir."
+    "prompt": "Speak as a warm, conversational Turkish narrator addressing one curious listener. Sound like a thoughtful person sharing a discovery as it becomes clear, with natural human cadence, varied sentence energy, and quiet curiosity. Let short reveal sentences land, then slow slightly for explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid sermon, classroom lecture, documentary-announcer delivery, exaggerated drama, and a repeated rhetorical rise-and-fall. Do not give every section the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then return smoothly to Turkish.",
+    "text": "Tehdit önce soyut bir ceza gibi duyulur. Ardından perçem anlamındaki بِالنَّاصِيَةِ sözü belirir ve hareket bedenin en görünür yerine taşınır. Yanlış artık yalnızca hüküm verilen bir davranış değildir; insanın önünde okunabilen bir yöne dönüşür."
   },
   "voice": {
     "languageCode": "tr-TR",
@@ -320,7 +267,7 @@ sections/
 The source run is still recorded in `manifest.json`, so a regenerated `S096` folder can point back to the exact source file:
 
 ```text
-v3/run/s096-full-20260716/96-publication.md
+v3/run/s096-full-20260716/96-publication.jsonl
 ```
 
 `manifest.json` must always record a `source` beginning with `v3/run/`. Treat any other source value as non-canonical and invalid for production.
@@ -356,15 +303,13 @@ This file is a human-readable narration copy. It is not the canonical app mappin
 
 Rules:
 
-- Start from the source `{surah}-publication.md`.
-- Apply the same text-cleaning and section-title rules used for TTS.
+- Start from the source `{surah}-publication.jsonl`.
+- Preserve one section per publication record.
 - Rename the file to the surah id, such as `S096.md`.
 - Keep section headings readable as Markdown headings.
-- Do not include the `## Bulgular` heading.
-- Convert bracket labels into the first sentence of their subsection paragraph.
-- Remove strength/rank prefixes from bracket labels and inline prose.
-- Remove bold/italic markers.
-- Preserve generated TTS chunk boundaries, not necessarily raw Markdown paragraph boundaries.
+- Do not include grades.
+- Keep each `paragraphs` item as its own Markdown paragraph.
+- Preserve generated TTS chunk boundaries exactly.
 
 Example:
 
@@ -375,7 +320,9 @@ Sure, ...
 
 ## Perçemden meclise uzanan rakip ön ve karşı çağrı
 
-لَنَسْفَعًا بِالنَّاصِيَةِ tehdidinde ...
+Tehdit önce soyut bir ceza gibi duyulur.
+
+Ardından perçem anlamındaki بِالنَّاصِيَةِ sözü ...
 ```
 
 The Markdown copy is for review and editorial traceability. The app should read `chunks.jsonl` or `manifest.json`, not scrape `S096.md`.
@@ -387,17 +334,19 @@ Write a `chunks.jsonl` file in the surah folder. This is the canonical paragraph
 Each line is one paragraph unit and must be valid JSON:
 
 ```json
-{"surahId":"S096","source":"v3/run/s096-full-20260716/96-publication.md","chunkId":"sec-001-p-001","sectionIndex":1,"paragraphIndex":1,"kind":"section_title","sectionTitle":"Asılı Başlangıçtan Yakınlığa: Alak Suresinde Ölçü, Taşkınlık ve Dönüş","text":"Asılı Başlangıçtan Yakınlığa: Alak Suresinde Ölçü, Taşkınlık ve Dönüş","request":"requests/sec-001-p-001.json","response":"responses/sec-001-p-001.json","wav":"originals/wav/sec-001-p-001.wav","mp3":"originals/mp3/sec-001-p-001.mp3","durationSeconds":0}
+{"surahId":"S096","source":"v3/run/s096-full-20260716/96-publication.jsonl","chunkId":"sec-001-p-001","sectionIndex":1,"paragraphIndex":1,"kind":"section_title","publicationKind":"opening","grades":[],"sectionTitle":"Asılı Başlangıçtan Yakınlığa: Alak Suresinde Ölçü, Taşkınlık ve Dönüş","text":"Asılı Başlangıçtan Yakınlığa: Alak Suresinde Ölçü, Taşkınlık ve Dönüş","request":"requests/sec-001-p-001.json","response":"responses/sec-001-p-001.json","wav":"originals/wav/sec-001-p-001.wav","mp3":"originals/mp3/sec-001-p-001.mp3","durationSeconds":0}
 ```
 
 Required fields:
 
 - `surahId`: normalized folder id, such as `S096`.
-- `source`: original source Markdown path.
+- `source`: canonical source publication JSONL path.
 - `chunkId`: stable id, such as `sec-003-p-002`.
 - `sectionIndex`: 1-based section index.
 - `paragraphIndex`: 1-based paragraph index within the section.
 - `kind`: `section_title` or `paragraph`.
+- `publicationKind`: `opening`, `finding`, or `closing`.
+- `grades`: publication grades for the containing section; never spoken.
 - `sectionTitle`: cleaned section title.
 - `text`: exact cleaned display/audit text.
 - `ttsText`: exact text sent to TTS. For ordinary paragraphs this usually equals `text`; for section titles it may add final punctuation.
@@ -427,7 +376,7 @@ Suggested shape:
 
 ```json
 {
-  "source": "v3/run/s096-full-20260716/96-publication.md",
+  "source": "v3/run/s096-full-20260716/96-publication.jsonl",
   "surahId": "S096",
   "surahRun": "s096-full-20260716",
   "cleanMarkdown": "S096.md",
@@ -442,6 +391,8 @@ Suggested shape:
     {
       "sectionIndex": 1,
       "title": "Asılı Başlangıçtan Yakınlığa: Alak Suresinde Ölçü, Taşkınlık ve Dönüş",
+      "kind": "opening",
+      "grades": [],
       "paragraphs": [
         {
           "paragraphIndex": 1,

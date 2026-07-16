@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "publication-record.schema.json",
+  "title": "GSLS V3 Audio-First Publication Record",
+  "type": "object",
+  "required": [
+    "kind",
+    "grades",
+    "title",
+    "paragraphs"
+  ],
+  "properties": {
+    "kind": {
+      "enum": [
+        "opening",
+        "finding",
+        "closing"
+      ]
+    },
+    "grades": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^(GÜÇLÜ|ORTA|ZAYIF)\\s*/\\s*(A|B|C|C-koşullu)(?:\\s+.+)?$"
+      }
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "paragraphs": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "finding"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "grades": {
+            "minItems": 1
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "grades": {
+            "maxItems": 0
+          },
+          "paragraphs": {
+            "maxItems": 2
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

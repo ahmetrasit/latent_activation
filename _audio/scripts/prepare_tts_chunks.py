@@ -4,17 +4,31 @@ import hashlib
 import json
 import os
 import re
+import sys
 from pathlib import Path
 
 
+REPO_ROOT = Path(__file__).resolve().parents[2]
+V3_SCRIPTS_ROOT = REPO_ROOT / "v3" / "scripts"
+sys.path.insert(0, str(V3_SCRIPTS_ROOT))
+
+from publication_contract import (  # noqa: E402
+    PublicationError,
+    load_publication,
+    publication_sections,
+)
+
+
 PROMPT = (
-    "Speak as a warm, low-mid Turkish narrator for long-form theological and "
-    "linguistic commentary. Keep the voice reflective, easy on the ears, and "
-    "gently forward-moving so the listener can follow the argument. Use clear "
-    "Istanbul Turkish diction, natural pauses, and subtle emphasis on key "
-    "insight sentences. The tone should feel like a thoughtful teacher "
-    "revealing structure step by step: calm, dignified, engaged, and quietly "
-    "compelling. Pronounce Arabic script naturally, not as Turkish spelling."
+    "Speak as a warm, conversational Turkish narrator addressing one curious "
+    "listener. Sound like a thoughtful person sharing a discovery as it becomes "
+    "clear, with natural human cadence, varied sentence energy, and quiet "
+    "curiosity. Let short reveal sentences land, then slow slightly for "
+    "explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid "
+    "sermon, classroom lecture, documentary-announcer delivery, exaggerated "
+    "drama, and a repeated rhetorical rise-and-fall. Do not give every section "
+    "the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then "
+    "return smoothly to Turkish."
 )
 
 AUDIO_CONFIG = {
@@ -38,14 +52,19 @@ def normalize_surah_id(value):
 
 
 def validate_v3_source(source):
-    parts = source.as_posix().split("/")
+    try:
+        relative = source.resolve().relative_to(REPO_ROOT)
+    except ValueError as error:
+        raise ValueError(f"Source must be inside the repository: {source}") from error
+    parts = relative.parts
     filename = parts[-1] if parts else ""
-    numbered_match = re.match(r"^(\d{1,3})-publication\.md$", filename)
+    numbered_match = re.match(r"^(\d{1,3})-publication\.(jsonl|md)$", filename)
     valid_publication_name = filename == "publication.md" or numbered_match
     if len(parts) < 4 or parts[0] != "v3" or parts[1] != "run" or not valid_publication_name:
         raise ValueError(
             f"Invalid source {source}. TTS generation only accepts "
-            "v3/run/<surah-run>/<surah>-publication.md files."
+            "v3/run/<surah-run>/<surah>-publication.jsonl files, with Markdown "
+            "accepted only for legacy runs."
         )
     if numbered_match:
         run_match = re.search(r"s0*(\d{1,3})\b", parts[2], re.IGNORECASE)
@@ -54,6 +73,24 @@ def validate_v3_source(source):
                 f"Invalid source {source}. Numbered publication file must match "
                 "the surah id in v3/run/<surah-run>."
             )
+        if numbered_match.group(2) == "md":
+            canonical = source.with_suffix(".jsonl")
+            if canonical.is_file():
+                raise ValueError(
+                    f"Canonical JSONL exists for {source}; use {canonical} instead."
+                )
+    elif filename == "publication.md":
+        run_match = re.search(r"s0*(\d{1,3})\b", parts[2], re.IGNORECASE)
+        if run_match:
+            canonical = source.parent / f"{int(run_match.group(1))}-publication.jsonl"
+            if canonical.is_file():
+                raise ValueError(
+                    f"Canonical JSONL exists for {source}; use {canonical} instead."
+                )
+
+
+def canonical_source_path(source):
+    return source.resolve().relative_to(REPO_ROOT).as_posix()
 
 
 def clean_inline(text):
@@ -103,14 +140,10 @@ def replace_rank_labels(text):
 
 
 def remove_inline_rank_strength(text):
-    def repl(match):
-        level = match.group(1)
-        suffix = match.group(2) or " düzeyinde"
-        return f"{level}{suffix}"
-
     return re.sub(
-        r"\b(?:GÜÇLÜ|ORTA|ZAYIF)\s*/\s*([A-Z](?:-[\wçğıöşüÇĞİÖŞÜ]+)?)(\s+düzeyinde(?:dir)?)?\b",
-        repl,
+        r"\b(?:GÜÇLÜ|ORTA|ZAYIF)\s*/\s*[A-Z](?:-[\wçğıöşüÇĞİÖŞÜ]+)?"
+        r"(?:\s+düzeyinde(?:dir)?)?\b",
+        "",
         text,
     )
 
@@ -191,7 +224,7 @@ def flush_paragraph(lines):
     return split_rank_labeled_paragraph(text)
 
 
-def parse_publication(source):
+def parse_markdown_publication(source):
     raw_lines = source.read_text(encoding="utf-8").splitlines()
     sections = []
     current = None
@@ -268,7 +301,12 @@ def parse_publication(source):
         if h_match:
             flush_into_current()
             title = heading_text(stripped)
-            if title.casefold() in {"bulgular", "ana bulgular"}:
+            if title.casefold() in {
+                "bulgular",
+                "ana bulgular",
+                "tamamlayıcı bulgular",
+                "ince kayıtlar",
+            }:
                 continue
             if re.match(r"^\[[^\n]+\]$", title):
                 start_subsection(bracket_tts_prefix(title))
@@ -277,23 +315,24 @@ def parse_publication(source):
             continue
 
         bold_match = re.match(r"^\*\*(.+?)\*\*\s*(.*)$", stripped)
-        bold_prefixed_label_match = re.match(
-            r"^\*\*.+?\*\*\s*(\[[^\]\n]*\b(?:GÜÇLÜ|ORTA|ZAYIF)\b[^\]\n]*\])\s*(.*)$",
-            stripped,
-        )
-        if bold_prefixed_label_match:
-            start_subsection(bracket_tts_prefix(bold_prefixed_label_match.group(1)))
-            rest = bold_prefixed_label_match.group(2).strip()
-            if rest:
-                paragraph_lines.append(rest)
-            continue
-
         if bold_match and re.match(
             r"^\[[^\]\n]*\b(GÜÇLÜ|ORTA|ZAYIF)\b[^\]\n]*\]$",
             bold_match.group(1).strip(),
         ):
             start_subsection(bracket_tts_prefix(bold_match.group(1).strip()))
             rest = bold_match.group(2).strip()
+            if rest:
+                paragraph_lines.append(rest)
+            continue
+
+        bold_prefixed_label_match = re.match(
+            r"^\*\*[^*]+?\*\*\s*"
+            r"(\[[^\]\n]*\b(?:GÜÇLÜ|ORTA|ZAYIF)\b[^\]\n]*\])\s*(.*)$",
+            stripped,
+        )
+        if bold_prefixed_label_match:
+            start_subsection(bracket_tts_prefix(bold_prefixed_label_match.group(1)))
+            rest = bold_prefixed_label_match.group(2).strip()
             if rest:
                 paragraph_lines.append(rest)
             continue
@@ -306,6 +345,15 @@ def parse_publication(source):
 
     flush_into_current()
     return sections
+
+
+def parse_publication(source):
+    if source.suffix.casefold() == ".jsonl":
+        try:
+            return publication_sections(load_publication(source))
+        except PublicationError as error:
+            raise ValueError(str(error)) from error
+    return parse_markdown_publication(source)
 
 
 def write_clean_markdown(path, sections):
@@ -359,6 +407,7 @@ def main():
 
     source = args.source
     validate_v3_source(source)
+    source_path = canonical_source_path(source)
     surah_id = args.surah_id or normalize_surah_id(str(source))
     out_dir = args.out_root / surah_id
     requests_dir = out_dir / "requests"
@@ -400,11 +449,13 @@ def main():
             )
             record = {
                 "surahId": surah_id,
-                "source": str(source),
+                "source": source_path,
                 "chunkId": chunk_id,
                 "sectionIndex": section_index,
                 "paragraphIndex": paragraph_index,
                 "kind": paragraph["kind"],
+                "publicationKind": section.get("kind", "legacy"),
+                "grades": list(section.get("grades", [])),
                 "sectionTitle": section["title"],
                 "text": paragraph["text"],
                 "ttsText": tts_text,
@@ -431,7 +482,7 @@ def main():
     )
 
     manifest = {
-        "source": str(source),
+        "source": source_path,
         "surahId": surah_id,
         "surahRun": source.parent.name,
         "cleanMarkdown": f"{surah_id}.md",
@@ -445,6 +496,8 @@ def main():
             {
                 "sectionIndex": index,
                 "title": section["title"],
+                "kind": section.get("kind", "legacy"),
+                "grades": list(section.get("grades", [])),
                 "wav": f"sections/wav/sec-{index:03d}.wav",
                 "mp3": f"sections/mp3/sec-{index:03d}.mp3",
                 "durationSeconds": None,
