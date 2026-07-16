@@ -678,6 +678,11 @@
       return `https://github.com/${CONFIG.owner}/${CONFIG.repo}/tree/${CONFIG.branch}/${path}`;
     }
 
+    function rawFileUrl(path) {
+      const encodedPath = path.split("/").map(encodeURIComponent).join("/");
+      return `https://raw.githubusercontent.com/${CONFIG.owner}/${CONFIG.repo}/${encodeURIComponent(CONFIG.branch)}/${encodedPath}`;
+    }
+
     function cacheGet(key) {
       try {
         const raw = localStorage.getItem(key);
@@ -828,16 +833,50 @@
           cacheSet(cacheKey, entries);
         }
 
+        const manifestCacheKey = `la-manifest-${surah.code}-v1`;
+        let manifest = cacheGet(manifestCacheKey);
+        if (!manifest) {
+          try {
+            manifest = await fetchJson(rawFileUrl(`${CONFIG.audioRoot}/${surah.code}/manifest.json`));
+            cacheSet(manifestCacheKey, manifest);
+          } catch (error) {
+            console.warn(`${surah.code} manifest başlıkları alınamadı; dosya adları kullanılacak.`, error);
+            manifest = null;
+          }
+        }
+
+        const sectionMetadata = new Map(
+          (Array.isArray(manifest?.sections) ? manifest.sections : [])
+            .filter(section => section && typeof section.mp3 === "string")
+            .map(section => [section.mp3.split("/").pop(), section])
+        );
+
         state.tracks = entries
           .filter(item => item.type === "file" && /\.mp3$/i.test(item.name))
-          .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: "base" }))
-          .map(item => ({
-            name: item.name,
-            url: item.download_url,
-            size: item.size
-          }));
+          .map(item => {
+            const metadata = sectionMetadata.get(item.name) || {};
+            return {
+              name: item.name,
+              url: item.download_url,
+              size: item.size,
+              title: typeof metadata.title === "string" ? metadata.title.trim() : "",
+              sectionIndex: metadata.sectionIndex != null && Number.isFinite(Number(metadata.sectionIndex))
+                ? Number(metadata.sectionIndex)
+                : null,
+              durationSeconds: metadata.durationSeconds != null && Number.isFinite(Number(metadata.durationSeconds))
+                ? Number(metadata.durationSeconds)
+                : null
+            };
+          })
+          .sort((a, b) => {
+            if (a.sectionIndex !== null && b.sectionIndex !== null) return a.sectionIndex - b.sectionIndex;
+            return a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: "base" });
+          });
 
-        els.detailMeta.textContent = `${state.tracks.length} MP3 bölümü`;
+        const titledCount = state.tracks.filter(track => track.title).length;
+        els.detailMeta.textContent = titledCount
+          ? `${state.tracks.length} sesli bölüm · ${titledCount} bölüm başlığı`
+          : `${state.tracks.length} MP3 bölümü`;
         renderTracks();
 
         if (requestedTrackName) {
@@ -860,6 +899,10 @@
       const withoutExtension = filename.replace(/\.mp3$/i, "");
       const spaced = withoutExtension.replace(/[_-]+/g, " ").replace(/\s+/g, " ").trim();
       return spaced || filename;
+    }
+
+    function displayTrackTitle(track) {
+      return track?.title || cleanTrackTitle(track?.name || "MP3");
     }
 
     function formatBytes(bytes) {
@@ -885,7 +928,7 @@
         row.type = "button";
         row.className = "track-row";
         row.dataset.trackIndex = String(index);
-        row.setAttribute("aria-label", `Oynat: ${cleanTrackTitle(track.name)}`);
+        row.setAttribute("aria-label", `Oynat: ${displayTrackTitle(track)}`);
         row.addEventListener("click", () => playTrack(index));
 
         const play = document.createElement("span");
@@ -896,10 +939,12 @@
         const copy = document.createElement("span");
         const title = document.createElement("span");
         title.className = "track-title";
-        title.textContent = cleanTrackTitle(track.name);
+        title.textContent = displayTrackTitle(track);
         const file = document.createElement("span");
         file.className = "track-file";
-        file.textContent = [track.name, formatBytes(track.size)].filter(Boolean).join(" · ");
+        const sectionLabel = track.sectionIndex !== null ? `Bölüm ${track.sectionIndex}` : "";
+        const durationLabel = track.durationSeconds !== null ? formatTime(track.durationSeconds) : "";
+        file.textContent = [sectionLabel, durationLabel, track.name, formatBytes(track.size)].filter(Boolean).join(" · ");
         copy.append(title, file);
 
         const action = document.createElement("span");
@@ -930,7 +975,7 @@
         els.audio.load();
       }
 
-      els.nowPlayingTitle.textContent = cleanTrackTitle(track.name);
+      els.nowPlayingTitle.textContent = displayTrackTitle(track);
       els.nowPlayingSurah.textContent = `${state.currentSurah.number}. sûre · ${state.currentSurah.name}`;
       els.player.classList.add("visible");
       document.body.classList.add("has-player");
@@ -988,6 +1033,7 @@
         localStorage.setItem("la-audio-progress-v1", JSON.stringify({
           surahCode: state.currentSurah.code,
           trackName: track.name,
+          trackTitle: displayTrackTitle(track),
           time: Number.isFinite(els.audio.currentTime) ? els.audio.currentTime : 0,
           rate: els.audio.playbackRate,
           savedAt: Date.now()
@@ -1013,7 +1059,7 @@
       if (!surah) return;
 
       els.resumeTitle.textContent = `${surah.name} sûresine devam et`;
-      els.resumeSubtitle.textContent = `${cleanTrackTitle(progress.trackName)} · ${formatTime(progress.time)}`;
+      els.resumeSubtitle.textContent = `${progress.trackTitle || cleanTrackTitle(progress.trackName)} · ${formatTime(progress.time)}`;
       els.resumeButton.onclick = () => {
         els.speedSelect.value = String(progress.rate || 1);
         els.audio.playbackRate = Number(progress.rate || 1);
