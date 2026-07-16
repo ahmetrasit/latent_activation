@@ -1,0 +1,12 @@
+edge_id	source_position	target_position	edge_type	direction	confidence	exact_surface_span	evidence	reason
+ae:v3:s112:001:pass1:attach:a1	q:112:1:1	q:112:1:2	quoted_complement	head-to-dependent	high	قُلْ | هُوَ	local_syntax	The quoted content after قُلْ is هُوَ ٱللَّهُ أَحَدٌ, with the speech verb outside the quote.
+ae:v3:s112:001:pass1:attach:a2	q:112:1:3	q:112:1:4	predication	head-to-dependent	high	اللَّهُ | أَحَدٌ	case_government;local_syntax	أَحَدٌ is the nominative predicate of ٱللَّهُ within the quoted nominal clause.
+ae:v3:s112:001:pass1:attach:a3	q:112:1:2	q:112:1:3	apposition	head-to-dependent	medium	هُوَ | اللَّهُ	case_government;local_syntax	ٱللَّهُ can stand as apposition to هُوَ while أَحَدٌ supplies the nominal predicate.
+ae:v3:s112:002:pass1:attach:a1	q:112:2:1	q:112:2:2	predication	head-to-dependent	high	اللَّهُ | الصَّمَدُ	case_government;local_syntax	ٱلصَّمَدُ is the nominative predicate of ٱللَّهُ.
+ae:v3:s112:003:pass1:attach:a1	q:112:3:1	q:112:3:2	particle_complement	head-to-dependent	high	لَمْ | يَلِدْ	morphology;case_government	يَلِدْ is governed by لَمْ as a jussive negated imperfect.
+ae:v3:s112:003:pass1:attach:a2	q:112:3:2	q:112:3:5	conjoined	head-to-dependent	high	يَلِدْ | يُولَدْ	parallelism;local_syntax	يُولَدْ in وَلَمْ يُولَدْ is coordinated with يَلِدْ in the preceding negated clause.
+ae:v3:s112:003:pass1:attach:a3	q:112:3:4	q:112:3:5	particle_complement	head-to-dependent	high	وَلَمْ | يُولَدْ	morphology;case_government	يُولَدْ is governed by لَمْ as a jussive negated passive imperfect.
+ae:v3:s112:004:pass1:attach:a1	q:112:4:2	q:112:4:3	particle_complement	head-to-dependent	high	وَلَمْ | يَكُنْ	morphology;case_government	يَكُنْ is governed by لَمْ as a jussive negated imperfect.
+ae:v3:s112:004:pass1:attach:a2	q:112:4:5	q:112:4:4	prep_complement	head-to-dependent	high	كُفُوَاً	case_government;local_syntax	The pronoun in لَّهُۥ is governed by لَـ as the complement of كُفُوًا.
+ae:v3:s112:004:pass1:attach:a3	q:112:4:3	q:112:4:5	kana_predicate	head-to-dependent	high	يَكُنْ | كُفُوَاً	case_government;local_syntax	كُفُوًا is the accusative predicate of the negated copula يَكُنْ.
+ae:v3:s112:004:pass1:attach:a4	q:112:4:3	q:112:4:6	subject	head-to-dependent	high	يَكُنْ | أَحَدٌ	case_government;word_order	أَحَدٌۢ is the delayed nominative subject of يَكُنْ.
