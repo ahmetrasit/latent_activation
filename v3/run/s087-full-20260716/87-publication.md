@@ -1,0 +1,61 @@
+# Düzenin Kaldığı Yer: Meradan Sahifelere
+
+En Yüce Rabbin adını tesbih etme buyruğuyla açılan pasaj; yaratmayı, biçim vermeyi, ölçmeyi, yol göstermeyi, yeşeren merayı ve onun karanlık döküntüye dönüşmesini gösterir. Ardından Peygamber'e okutma ve Allah'ın dilediği dışında unutturmama vaadi gelir; açıkla gizliyi bilen Allah onu kolay olana hazırlar ve yarar verecek hatırlatmayı iletmesini ister. Saygıyla korkan hatırlar; kaçınan büyük ateşe girip ne ölür ne yaşar. Arınan, Rabbinin adını anıp namaz kılan kurtulur. İnsanlar yakın hayatı seçse de ahiret daha hayırlı ve kalıcıdır; aynı öğreti İbrahim ile Musa'nın ilk sahifelerinde de vardır. Aşağıdaki dereceli yan okumalar bu doğrudan hareketi değiştirmez: yaratma yine yaratma, kıraat yine kıraat, ateş yine ateş, namaz yine namazdır.
+
+## Ana Bulgular
+
+**[GÜÇLÜ / A — Ölçülen mera, dinleyenin iç tarlasına döner]** Yaratma, düzene koyma, ölçme ve yöneltme önce merayı biçimli bir varlık olarak çıkarır, sonra aynı varlığı karanlık artığa çevirir. Rab kökünün sahiplik ve aşama aşama yetiştirme; mer'a kökünün otlak ve gözetme; hidayet ile kolaylık köklerinin önden gitme ve uyumlu adım çağrışımları, sahipten bakıcıya, sürüden otlağa ve rehberden yürüyüşe kadar tam bir pastoral düzen kurar. Hatırlatma korunmuş biçimi insana aktarınca ikinci tarla açılır: *felâh* toprağı yaran çiftçiyi ve iyilikte kalmayı, *zekâ* ise arınma ile ürün artışını birlikte duyurur. Böylece ilk tarla düzenini yitirip döküntü olurken arınan insan açılmış, temizlenmiş ve kalıcı iyiliğe elverişli bir alan hâline gelir.
+
+**[GÜÇLÜ / A — Ad, ses, hafıza, beden ve sahife boyunca aynı kalır]** Açılıştaki “Rabbinin adı” bir işaret olmanın yanında yükselen ve yayılan anışı taşır; “En Yüce” ile yan yana gelişi bu anışa yukarı ve dışarı doğru bir yön verir. Kıraat harflerle kelimeleri düzen içinde toplar, unutmama vaadi bu toplamı dağılmış kırıntıya dönüşmekten korur; hatırlatma onu başkasına ulaştırır, korkan kişi içinde geri çağırır, arınan kişi “Rabbinin adını” diliyle yenileyip namaza taşır. Son sahifelerdeki “bu”, ortamlar değişirken kimliği korur: ad, kıraat, hafıza, öğüt, yeniden söylenen ad ve yazı tek bir kontrollü aktarım oluşturur. Açıkla gizliyi kuşatan ilahî bilgi de maddenin ortaya çıkışından sözün ses bulmasına, saklı hatıranın dönmesinden eski yazının açığa çıkmasına kadar bütün geçişleri çevreler.
+
+**[GÜÇLÜ / A — Düzenli toplama, karanlık yığının karşıtıdır]** *Guthâ* selin sürüklediği, değeri ve iç bağı kalmamış bitki artığını; *ahvâ* ise karanlığın yanında toplanma ve çevrelenmeyi duyurur: ortaya çıkan şey, dağılmış parçaların koyu bir yığınıdır. Kıraat bunun tersini yaparak kelimeleri ilişkileriyle toplar; hatırlama kaybolanı geri getirir, sahifeler yazıyı bir arada tutar. “Unutmayacaksın” sözü bu yüzden meranın çözülüş biçimine karşı koruma, “bu sahifelerdedir” sözü ise döküntü değil anlaşılır düzen bırakan bir kalıcılık kanıtıdır.
+
+**[GÜÇLÜ / A — Ölçülü yolun dışı, başka bir içtir]** Ölçü yolu hazırlar, hidayet yönü ve önden gideni gösterir, kolaylık ise geçişi bedende hafif ve uyumlu adıma çevirir. Hatırlatmadan *yana çekilen* kişi özgür bir açıklık bulmaz: kaçınma kökü hem uzaklaşmayı hem birini yanında götürmeyi, ateş kökleri de kurulmuş tuzağı taşır; ardından gelen “onun içinde” ifadesi hareketi çevrelenmeyle bitirir. Zorluk kökü sürekli çabayı, kolaylık kökü hazırlanmış geçidi verir; fakat ilk yol ateşte hareketsizliğe, ikincisi arınma, anış ve namaz gibi etkin fiillere varır. Hemen sonra gelen *felâh*, kapalı zemini yararak sahte çıkışın karşısına gerçek bir açıklık ve ekin çizgisi koyar.
+
+**[GÜÇLÜ / A — Aynı ses, ateşe de namaza da varır]** “Ateşe girer”deki *yaslâ* ile “namaz kıldı”daki *sallâ* ayrı köklere ve ayrı yerel anlamlara bağlıdır; yine de iki kökün sözlük alanında hem ateş hem namaz bulunduğu için yakın sesler zıt sonlara yönelir. Kuru alanın çizgisi yanmaya, arınmış alanın çizgisi Rabbin adını anarak namaza gider. Açılıştaki tesbih ibadet ve anışı, kıraat kökü okuyan âbidi, namazın hemen ardından gelen hayat kökü de “namaza gel” çağrısını yankılar; böylece yakın hayatı seçme azarı, az önce açılmış ibadet yönünün tam karşısında duyulur.
+
+**[GÜÇLÜ / A — Kalmak yetmez; kalanın niteliği tartılır]** Hatırlatma yarar sağlayabilir; hayat kökü yararlı ve iyi yaşamı, *hayır* istenen faydayı, *bekā* ise yok olmamayı taşır. Ateşteki kişi sürer ama ne tamamlanmış ölüme ne yararlı hayata ulaşır; mera artık olarak kalır ama değersizdir. Arınan kişi iyilikte kalır, ahiret hem daha iyi hem daha süreklidir, sahifeler de yalnız eski maddeyi değil yararlı bir düzeni korur. Pasaj böylece devam etmek, yaşamak ve iyi biçimde devam etmek arasındaki farkı kesinleştirir.
+
+**[GÜÇLÜ / A — Yakını seçmek, hangi izi sürdüreceğini seçmektir]** Açılıştaki En Yüce ve yükselen ad, kapanıştaki yakın-aşağı hayatla dikey bir karşıtlık kurar; fakat “büyük ateş” her büyüklüğün iyi olmadığını gösterir, değeri yalnız “daha hayırlı ve daha kalıcı” hükmü belirler. İlâhî ölçü ve iradeyle başlayan akış, insanın tercihi ve daha iyinin ilâhî değerlendirmesiyle kapanır. *Tü'sirûn* doğrudan yakın hayatı üstün tutmayı söylerken aynı kök aktarılan haberi, kalan izi ve öncekinin izini sürmeyi de taşır. Hemen ardından gelen sonraki hayat, ilk sahifeler ve onların İbrahim ile Musa adlı önceki sahipleri bütün rolleri doldurur: tercih artık yalnız iki nesneyi sıralamak değil, hangi miras yoluna katılacağını ve ne tür bir iz bırakacağını seçmektir. Ahiretin “sonraki” oluşu ilk sahifelerde zaten yazılıdır; öğretinin kendi sürekliliği de *ebkā*nın belge üzerindeki örneğine dönüşür.
+
+## İnce Kayıtlar
+
+**[GÜÇLÜ / B — Otlaktan kıraate bir işitme halkası uzanır]** Mer'a kökü söze kulak vermeyi, bir işin sonucunu gözetmeyi ve çirkinden geri dönmeyi; ilahî iradeyi bildiren kökün ayrı bir dalı da dinlemeyi taşır, böylece bakım sahnesi konuşan, kulak veren, hatırlayan ve sonucu görülen alıcıya kadar uzanır.
+
+**[GÜÇLÜ / B — Ateşteki ara hâl ölü toprağı andırır]** Ölüm kökünün ekilmemiş ve onarılarak diriltilmemiş arazi dalı, “ne ölür ne yaşar” cezasını meranın tamamlanmış ölümü ile arınanın yararlı gelişimi arasında verimsiz bir karşı-alan olarak pekiştirir.
+
+**[GÜÇLÜ / B — Kıraat izlenebilir bir usul de bırakır]** Okuma kökünün âbid okuyucu ile yöntem, örnek ve yürünebilir yol dalları, alınan sözün yalnız hafızada tutulmadığını, adın anılıp namaz kılınmasına kadar tekrar edilebilir bir davranış çizgisine dönüştüğünü gösterir.
+
+**[GÜÇLÜ / B — Belge, sahifeler görünmeden hazırlanır]** Adın işaret, bilginin yol nişanı, zikrin yazılı hak belgesi, izin aktarılmış haber ve kalıcı belirti dalları, kapanıştaki sahifelerin yazılı ortamını daha önce söz ve yol içinde hazırlar.
+
+**[GÜÇLÜ / B — Yol bir pist gibi bedenselleşir]** Tesbih kökündeki hızlı koşu, hidayetteki önder, kolaylıktaki çevik adım, yana alınan at, öndekini izleyen *musallî*, korunmuş koşu gücü, iz ve ilk-son sırası; rehberliği bakım sahnesinden ayrı bir takip ve öncelik pistine yansıtır. Bu çizgi, ateş ile namaz arasındaki ses kesişimine “hangi öndekini izliyorsun?” sorusunu ekler.
+
+**[GÜÇLÜ / B — Açılış, yazının üst kenarında yeniden belirir]** Yücelik kökünün bir yazının üst ya da ilk kısmını adlandıran dalı, son sahifeler ortaya çıktığında En Yüce ile yükseltilen adın açılışını belge üzerinde geriye doğru etkinleştirir.
+
+**[GÜÇLÜ / B — Buluttan sele, selden aleve bir çevrim kurulur]** Ad, Rab, çıkış, hayat, gizlilik, kalış, artık, koyu toplama ve ateş kökleri sırasıyla gök-bulut-yağmur, biriken su, bulutun belirmesi, toprağı dirilten yağış, belli belirsiz şimşek, şimşeği bekleme, selin taşıdığı ot, su tutan oyuk ve yanan ışık rollerini tamamlar; mera önce ıslak ve hareketli, sonra kuru ve yanabilir görünür. Açıklığın gözü kamaştırabilmesi, gizlinin açığa çıkarılabilmesi ve ışığın yakabilmesi de aydınlık-karanlık karşıtlığının tek başına ahlâk ölçüsü olmadığını gösterir.
+
+**[GÜÇLÜ / B — Yakın hayat, sınırlı bir pay gibi seçilebilir]** Rab kökündeki oyun okları mahfazası, yücelik kökündeki yedinci oyun oku *muallâ*, kolaylık kökündeki oklarla paylaştırma, kılma fiilindeki belirlenmiş ödül ve ölçü kökündeki sınırlı miktar; tercihi hemen alınan bir hisse ile daha iyi ve kalıcı iyilik arasındaki seçime çevirir. Aynı kolaylık kökü böylece hazırlanmış geçit ile şansa bağlı bölüşüm arasında bir iç karşıtlık taşır.
+
+**[GÜÇLÜ / C-koşullu — Gizli su, açıklanmış söz için bir hazne dokusu verir]** Yağmur suyu tutan kaya oyuğu ya da kuyu, birikmiş su, setli çukur, örtülü kuyu, gizliyi çıkarma, çamuru temizleyip suyu berraklaştırma, dolu kuyu-deniz, sığ leğen ve su tulumunun yanları; saklı içeriğin bilinip arıtılarak bir yüzeye çıkarılması ve taşınması sahnesini kısmen tamamlar.
+
+**[GÜÇLÜ / C-koşullu — Kaçışın çevresinde av ve tuzak belirir]** Avcı ve aleti, gizli in, hayvanı yuvasından çıkarma ve ateş-namaz köklerindeki kurulmuş kapan dalları bir takip sahnesi kurar; fail ile av sabitlenmediği için bu kayıt yalnız yana kaçışın ateş içinde biten sahte çıkışını keskinleştirir.
+
+**[GÜÇLÜ / C-koşullu — Yaratma ve büyüme, doğum bedenine de yansır]** Rahimde toplanma, gizli üreme organı ve hayat, doğumun yaklaşması, doğumda açılan uzuv, yeni kuzulamış koyun, süt ve yavru dalları; yaratma, çıkarma, hayat-ölüm ve artışa bedensel bir derinlik verir, fakat roller geçişin sırasını baştan sona kurmaz.
+
+**[GÜÇLÜ / C-koşullu — Artık, kap ve ısı çevresinde ikinci kez toplanır]** Tencere, onu ateşten indiren bez, suyun ya da kazanın köpüğü, ateşte ısıtma ve doğrultma, sıvının koyulaşıp son hâlini alması, şurup-tortu ve geniş tabak dalları; *guthâ* ile ateş arasına kesin araçları olan ama maddesi kararlı kalmayan bir ısı dönüşümü dokusu ekler.
+
+**[GÜÇLÜ / C-koşullu — Ateşte doğrultulan çubuk ile salyân otu iki uzak temas kurar]** Ateşte çevrilerek düzeltilen çubuk yaratılıştaki doğrultmayı, iki ateş-namaz kökünde bulunan *salyân* adlı ot da merayı yankılar; pasaj ne çubuğu ne bu bitkiyi adlandırdığı için ikisi de yalnız destekleyici temas olarak kalır.
+
+**[GÜÇLÜ / C-koşullu — Söz ve yazı kendi bozulma ihtimallerini taşır]** Yaratma kökündeki uydurma söz, başarı kökündeki aldatıcı satış sözü ve sahife kökündeki benzer harflerden doğan yanlış okuma; burada bir uydurma ya da bozulma yaşandığını söylemez, korunmuş hafıza, doğru kıraat ve “bu” ile sürdürülen kimliğin karşısındaki ortam risklerini görünür kılar.
+
+**[GÜÇLÜ / C — Korkunun kökünde kuruluk belirir]** Saygılı korkuyu doğrudan veren kökün kurumuş hurma ve kuru et dalı, korkan alıcıyı bir an için kuru mera ile ateş çizgisine bağlar; onu gerçek bir bitkiye çevirecek ikinci bağ yoktur.
+
+**[GÜÇLÜ / C — Zorluğun kökünde kolay bir sırt yükselir]** Bedbahtlık kökündeki uzun fakat tırmanması ya da üzerinde oturması kolay dağ sırtı, yükseklik-kolaylık-zorluk eksenlerini çaprazlar ve yükselmenin tek başına değer taşımadığını hatırlatır.
+
+**[GÜÇLÜ / C — Açıklık kökü bilgisiz geçişi de saklar]** Açıkça söyleme kökündeki araziyi bilgisizce aşma dalı, ilahî bilgi, hidayet ve yol işaretlerinin yanında hazırlanmış güzergâha zayıf bir rakip çıkarır; pasaj belirli bir yolcu atamaz.
+
+**[GÜÇLÜ / C — Tesbihin hızlı hareketi suya ancak uzaktan değer]** Tesbih kökündeki suda hızla ilerleme, selin taşıdığı artıkla temas kurabilir; burada asıl işi literal yüzme değil, yüceltilen adı ve yönlendirilmiş yolu harekete geçirmektir.
+
+## Son Geçiş
+
+En Yüce Rab ölçer, biçim verir ve yol gösterir; çıkardığı mera, düzenin artık hâline gelebileceğini baştan gösterir. Sonra kelimeleri Peygamber'de toplar, unutulup kırıntılaşmaktan korur ve açıkla gizliyi bilen iradesi altında kolay bir yola koyar. Hatırlatma bu korunmuş düzeni dinleyene taşır: saygıyla korkan onu içinde geri çağırır, yana çekilen ise çıkış sandığı hareketle ateşin içine kapanır. Ne ölüm ne yararlı hayat veren bu kapalı hâlin ardından arınan kişi toprağı yarar gibi açılır, büyür, Rabbinin adını yeniden söyler ve namaz kılar. Böylece açılış buyruğu başka bir bedende gerçekleşir. Yakın hayatı seçme azarı, bütün sonuçları süreleriyle değil değerleriyle tartar: artık kalır ama değersizdir; ceza sürer ama hayat değildir; iyilik ve ahiret hem hayırlı hem kalıcıdır. Sonunda “bu”, ilk sahifelerde ve İbrahim ile Musa'nın sahipliğinde görünür; sözün izlediği yol geriye açılır, sonraki olanın ilk olanda zaten bulunduğu ve doğru düzenin maddeden hafızaya, insandan tarihe kadar korunabildiği anlaşılır.
