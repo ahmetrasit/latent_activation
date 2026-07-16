@@ -39,22 +39,104 @@ def normalize_surah_id(value):
 
 def validate_v3_source(source):
     parts = source.as_posix().split("/")
-    if len(parts) < 4 or parts[0] != "v3" or parts[1] != "run" or parts[-1] != "publication.md":
+    filename = parts[-1] if parts else ""
+    numbered_match = re.match(r"^(\d{1,3})-publication\.md$", filename)
+    valid_publication_name = filename == "publication.md" or numbered_match
+    if len(parts) < 4 or parts[0] != "v3" or parts[1] != "run" or not valid_publication_name:
         raise ValueError(
             f"Invalid source {source}. TTS generation only accepts "
-            "v3/run/<surah-run>/publication.md files."
+            "v3/run/<surah-run>/<surah>-publication.md files."
         )
+    if numbered_match:
+        run_match = re.search(r"s0*(\d{1,3})\b", parts[2], re.IGNORECASE)
+        if not run_match or int(run_match.group(1)) != int(numbered_match.group(1)):
+            raise ValueError(
+                f"Invalid source {source}. Numbered publication file must match "
+                "the surah id in v3/run/<surah-run>."
+            )
 
 
 def clean_inline(text):
     text = re.sub(r"<!--.*?-->", "", text, flags=re.DOTALL)
+    text = replace_rank_labels(text)
     text = text.replace("**", "")
     text = text.replace("__", "")
     text = re.sub(r"(?<!\*)\*(?!\*)", "", text)
     text = re.sub(r"(?<!_)_(?!_)", "", text)
     text = re.sub(r"`([^`]+)`", r"\1", text)
+    text = remove_inline_rank_strength(text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
+
+
+def sentence_punctuate(text):
+    text = text.strip()
+    if text.endswith((".", "!", "?", ":", ";", "؛", "؟")):
+        return text
+    return f"{text}."
+
+
+def section_title_text(text):
+    text = clean_inline(text)
+    return re.sub(r"[.!?;:؛؟]+$", "", text).strip()
+
+
+def rank_label_title(content):
+    if "—" in content:
+        content = content.split("—", 1)[1]
+    return re.sub(r"\s+", " ", content).strip()
+
+
+def rank_label_text(content):
+    return sentence_punctuate(rank_label_title(content))
+
+
+def replace_rank_labels(text):
+    def repl(match):
+        content = match.group(1).strip()
+        if not re.search(r"\b(GÜÇLÜ|ORTA|ZAYIF)\b", content):
+            return match.group(0)
+        return rank_label_text(content)
+
+    return re.sub(r"\[([^\]\n]+)\]", repl, text)
+
+
+def remove_inline_rank_strength(text):
+    return re.sub(
+        r"\b(?:GÜÇLÜ|ORTA|ZAYIF)\s*/\s*[A-Z](?:-[\wçğıöşüÇĞİÖŞÜ]+)?\b",
+        "",
+        text,
+    )
+
+
+def split_rank_labeled_paragraph(text):
+    matches = list(re.finditer(r"\[([^\]\n]+)\]", text))
+    rank_matches = [
+        match
+        for match in matches
+        if re.search(r"\b(GÜÇLÜ|ORTA|ZAYIF)\b", match.group(1))
+    ]
+    if not rank_matches:
+        cleaned = clean_inline(text)
+        return [cleaned] if cleaned else []
+
+    segments = []
+    prefix = text[: rank_matches[0].start()].strip()
+    if prefix:
+        segments.append(prefix)
+
+    for index, match in enumerate(rank_matches):
+        end = rank_matches[index + 1].start() if index + 1 < len(rank_matches) else len(text)
+        label = rank_label_text(match.group(1).strip())
+        body = text[match.end() : end].strip()
+        segments.append(f"{label} {body}".strip())
+
+    cleaned_segments = []
+    for segment in segments:
+        cleaned = clean_inline(segment)
+        if cleaned:
+            cleaned_segments.append(cleaned)
+    return cleaned_segments
 
 
 def strip_list_marker(line):
@@ -74,20 +156,33 @@ def stable_json(value):
     return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
 
 
+def cleanup_unreferenced_files(paths):
+    for directory, referenced in paths:
+        if not directory.exists():
+            continue
+        referenced = {path.resolve() for path in referenced}
+        for path in directory.glob("*"):
+            if path.is_file() and path.resolve() not in referenced:
+                path.unlink()
+
+
 def heading_text(line):
     return clean_inline(re.sub(r"^#{1,6}\s+", "", line).strip())
 
 
 def bracket_title(line):
     content = line.strip()[1:-1].strip()
-    if "—" in content:
-        content = content.split("—", 1)[1]
-    return clean_inline(content)
+    return section_title_text(rank_label_title(content))
+
+
+def bracket_tts_prefix(line):
+    content = line.strip()[1:-1].strip()
+    return rank_label_text(content)
 
 
 def flush_paragraph(lines):
-    text = clean_inline(" ".join(strip_list_marker(line).strip() for line in lines))
-    return text or None
+    text = " ".join(strip_list_marker(line).strip() for line in lines)
+    return split_rank_labeled_paragraph(text)
 
 
 def parse_publication(source):
@@ -95,6 +190,7 @@ def parse_publication(source):
     sections = []
     current = None
     paragraph_lines = []
+    pending_subsection_title = None
     skip_fenced = False
     skip_html_comment = False
     in_frontmatter = raw_lines[:1] == ["---"]
@@ -102,18 +198,31 @@ def parse_publication(source):
 
     def ensure_section(title):
         nonlocal current
+        title = section_title_text(title)
         current = {"title": title, "paragraphs": []}
         current["paragraphs"].append({"kind": "section_title", "text": title})
         sections.append(current)
 
-    def flush_into_current():
-        nonlocal paragraph_lines
-        text = flush_paragraph(paragraph_lines)
+    def flush_into_current(force_pending=False):
+        nonlocal paragraph_lines, pending_subsection_title
+        texts = flush_paragraph(paragraph_lines) if paragraph_lines else []
         paragraph_lines = []
-        if text:
+        if pending_subsection_title:
+            if texts:
+                texts[0] = f"{pending_subsection_title} {texts[0]}".strip()
+                pending_subsection_title = None
+            elif force_pending:
+                texts = [pending_subsection_title]
+                pending_subsection_title = None
+        for text in texts:
             if current is None:
                 ensure_section("Anlatım")
             current["paragraphs"].append({"kind": "paragraph", "text": text})
+
+    def start_subsection(title):
+        nonlocal pending_subsection_title
+        flush_into_current(force_pending=True)
+        pending_subsection_title = title
 
     for line in raw_lines:
         stripped = line.strip()
@@ -153,24 +262,44 @@ def parse_publication(source):
             continue
         h_match = re.match(r"^(#{1,6})\s+(.+)$", stripped)
         if h_match:
-            flush_into_current()
+            flush_into_current(force_pending=True)
             title = heading_text(stripped)
-            if title.casefold() == "bulgular":
+            if title.casefold() in {"bulgular", "ana bulgular"}:
                 continue
             if re.match(r"^\[[^\n]+\]$", title):
-                ensure_section(bracket_title(title))
+                start_subsection(bracket_tts_prefix(title))
                 continue
             ensure_section(title)
             continue
 
+        bold_match = re.match(r"^\*\*(.+?)\*\*\s*(.*)$", stripped)
+        if bold_match and re.match(
+            r"^\[[^\]\n]*\b(GÜÇLÜ|ORTA|ZAYIF)\b[^\]\n]*\]$",
+            bold_match.group(1).strip(),
+        ):
+            start_subsection(bracket_tts_prefix(bold_match.group(1).strip()))
+            rest = bold_match.group(2).strip()
+            if rest:
+                paragraph_lines.append(rest)
+            continue
+
+        if bold_match and re.match(
+            r"^\[[^\]\n]*\b(GÜÇLÜ|ORTA|ZAYIF)\b[^\]\n]*\]", bold_match.group(2).strip()
+        ):
+            flush_into_current(force_pending=True)
+            ensure_section(bold_match.group(1))
+            rest = bold_match.group(2).strip()
+            if rest:
+                paragraph_lines.append(rest)
+            continue
+
         if re.match(r"^\[[^\n]+\]$", stripped):
-            flush_into_current()
-            ensure_section(bracket_title(stripped))
+            start_subsection(bracket_tts_prefix(stripped))
             continue
 
         paragraph_lines.append(line)
 
-    flush_into_current()
+    flush_into_current(force_pending=True)
     return sections
 
 
@@ -229,10 +358,19 @@ def main():
     out_dir = args.out_root / surah_id
     requests_dir = out_dir / "requests"
     responses_dir = out_dir / "responses"
-    wav_dir = out_dir / "wav"
-    mp3_dir = out_dir / "mp3"
+    originals_wav_dir = out_dir / "originals" / "wav"
+    originals_mp3_dir = out_dir / "originals" / "mp3"
+    sections_wav_dir = out_dir / "sections" / "wav"
+    sections_mp3_dir = out_dir / "sections" / "mp3"
 
-    for directory in (requests_dir, responses_dir, wav_dir, mp3_dir):
+    for directory in (
+        requests_dir,
+        responses_dir,
+        originals_wav_dir,
+        originals_mp3_dir,
+        sections_wav_dir,
+        sections_mp3_dir,
+    ):
         directory.mkdir(parents=True, exist_ok=True)
 
     sections = parse_publication(source)
@@ -246,7 +384,8 @@ def main():
             chunk_id = f"sec-{section_index:03d}-p-{paragraph_index:03d}"
             request_path = requests_dir / f"{chunk_id}.json"
             response_rel = f"responses/{chunk_id}.json"
-            wav_rel = f"wav/{chunk_id}.wav"
+            wav_rel = f"originals/wav/{chunk_id}.wav"
+            mp3_rel = f"originals/mp3/{chunk_id}.mp3"
             tts_text = tts_text_for(paragraph)
             request = build_request(tts_text)
             request_sha256 = request_hash(request)
@@ -267,7 +406,7 @@ def main():
                 "request": f"requests/{chunk_id}.json",
                 "response": response_rel,
                 "wav": wav_rel,
-                "mp3": None,
+                "mp3": mp3_rel,
                 "durationSeconds": None,
                 "charCount": len(paragraph["text"]),
                 "wordCount": len(paragraph["text"].split()),
@@ -301,6 +440,9 @@ def main():
             {
                 "sectionIndex": index,
                 "title": section["title"],
+                "wav": f"sections/wav/sec-{index:03d}.wav",
+                "mp3": f"sections/mp3/sec-{index:03d}.mp3",
+                "durationSeconds": None,
                 "paragraphs": [
                     {
                         key: chunk[key]
@@ -326,6 +468,22 @@ def main():
     atomic_write_text(
         out_dir / "manifest.json",
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+    )
+    cleanup_unreferenced_files(
+        [
+            (requests_dir, [out_dir / chunk["request"] for chunk in chunks]),
+            (responses_dir, [out_dir / chunk["response"] for chunk in chunks]),
+            (originals_wav_dir, [out_dir / chunk["wav"] for chunk in chunks]),
+            (originals_mp3_dir, [out_dir / chunk["mp3"] for chunk in chunks]),
+            (
+                sections_wav_dir,
+                [out_dir / section["wav"] for section in manifest["sections"]],
+            ),
+            (
+                sections_mp3_dir,
+                [out_dir / section["mp3"] for section in manifest["sections"]],
+            ),
+        ]
     )
 
     print(json.dumps({"outDir": str(out_dir), "chunks": len(chunks)}, indent=2))

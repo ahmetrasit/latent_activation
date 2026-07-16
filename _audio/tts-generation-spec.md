@@ -1,6 +1,6 @@
 # TTS Generation Spec
 
-This spec defines how to turn a `v3/run/<surah-run>/publication.md` file into paragraph-level Google Gemini TTS requests and app-ready audio chunks.
+This spec defines how to turn a `v3/run/<surah-run>/<surah>-publication.md` file into paragraph-level Google Gemini TTS requests and app-ready audio chunks.
 
 Only `v3` sources are valid for this pipeline. Do not use `v1`, `v2`, `v2.1`, `v4`, or `v5` publication files for production audio generation, pilots, cost estimates, or app manifests.
 
@@ -59,20 +59,22 @@ Use `input.text`. The response may include a `timepoints` key, but it is empty f
 For a given surah, read:
 
 ```text
-v3/run/<surah-run>/publication.md
+v3/run/<surah-run>/<surah>-publication.md
 ```
 
 Example:
 
 ```text
-v3/run/s096-full-20260716/publication.md
+v3/run/s096-full-20260716/96-publication.md
 ```
 
 The source path must match:
 
 ```text
-^v3/run/[^/]+/publication\.md$
+^v3/run/[^/]+/[0-9]{1,3}-publication\.md$
 ```
+
+During the current migration, legacy `v3/run/<surah-run>/publication.md` files may still exist for some surahs. Treat numbered `{surah}-publication.md` files as canonical whenever present; use `publication.md` only as a temporary fallback for runs that do not yet have the numbered file.
 
 If a requested surah does not have a matching `v3` publication file, stop and report that no valid v3 source exists. Do not fall back to `v4`, `v5`, or any other version.
 
@@ -98,20 +100,51 @@ The title itself should be spoken as the first paragraph of the intro section un
 
 Do not speak the `## Bulgular` heading.
 
+### Section Titles
+
+Markdown headings other than `## Bulgular` and `## Ana Bulgular` are section titles. They are standalone TTS chunks and standalone audio files.
+
+Examples:
+
+```md
+# Yol Söylenmeden Önce
+### Kulluğun Önceden Açtığı Yol
+## Son Geçiş
+```
+
+Spoken section titles:
+
+```text
+Yol Söylenmeden Önce.
+Kulluğun Önceden Açtığı Yol.
+Son Geçiş.
+```
+
+The section title chunk belongs to that section as its first paragraph unit. The following subsection chunks belong to the same section until the next Markdown heading or EOF.
+
+Do not speak structural collector headings:
+
+```md
+## Bulgular
+## Ana Bulgular
+```
+
 ### Bulgular Subsections
 
-Inside `## Bulgular`, bracketed labels start new sections.
+Inside a section, bracketed labels start subsection paragraph chunks. They do not create new sections and are not standalone title chunks.
 
 Raw example:
 
 ```md
 [GÜÇLÜ / A — Perçemden meclise uzanan rakip ön ve karşı çağrı]
+
+لَنَسْفَعًا بِالنَّاصِيَةِ tehdidinde iki kök birbirinin eksik rolünü tam olarak doldurur.
 ```
 
-Spoken section title:
+Spoken paragraph chunk:
 
 ```text
-Perçemden meclise uzanan rakip ön ve karşı çağrı
+Perçemden meclise uzanan rakip ön ve karşı çağrı. لَنَسْفَعًا بِالنَّاصِيَةِ tehdidinde iki kök birbirinin eksik rolünü tam olarak doldurur.
 ```
 
 Parsing rule:
@@ -120,30 +153,13 @@ Parsing rule:
 - Remove the outer brackets.
 - If the content contains an em dash `—`, keep only the text after the first em dash.
 - Trim surrounding whitespace.
-- This cleaned title becomes the first paragraph of that section.
-- The following prose paragraphs belong to this section until the next bracketed label or the next Markdown heading.
+- This cleaned title becomes the opening sentence of the next paragraph chunk.
+- The following prose belongs to the same paragraph chunk until the next bracketed label or the next Markdown heading.
+- If the bracket label is bolded, such as `**[GÜÇLÜ / A — ...]**`, remove the bold markers and apply the same rule.
 
 Do not speak the strength/rank prefix such as `GÜÇLÜ / A`, `GÜÇLÜ / B`, or `GÜÇLÜ / C-koşullu`.
 
-### Post-Bulgular Sections
-
-Any Markdown heading after `## Bulgular` is its own section.
-
-Example:
-
-```md
-## Geçişin yeniden duyuluşu
-```
-
-Spoken section title:
-
-```text
-Geçişin yeniden duyuluşu
-```
-
-This title becomes the first paragraph of the section. The following prose paragraphs belong to it until the next Markdown heading or EOF.
-
-The exact heading text may differ across surahs; do not hard-code `Geçişin yeniden duyuluşu`.
+Also remove inline rank phrases from prose, such as `GÜÇLÜ / B`, `ORTA / A`, and `ZAYIF / C-koşullu`.
 
 ## Paragraph Unit
 
@@ -152,7 +168,7 @@ Generate TTS one paragraph at a time.
 A paragraph unit is:
 
 - One cleaned section title, or
-- One cleaned prose paragraph.
+- One cleaned subsection paragraph that starts with the cleaned bracket title and continues with its prose.
 
 Paragraph units are the app playback and resume boundaries. Sentence-level timestamps are not available with this model because SSML marks are unsupported.
 
@@ -201,7 +217,7 @@ Apply these transformations before sending text to TTS:
 ## Geçişin yeniden duyuluşu -> Geçişin yeniden duyuluşu
 ```
 
-4. Convert bracket labels into cleaned section titles as described above.
+4. Convert bracket labels into the opening sentence of the following subsection paragraph chunk.
 
 5. Do not speak `## Bulgular`.
 
@@ -211,7 +227,7 @@ Apply these transformations before sending text to TTS:
 
 8. Collapse internal whitespace runs to single spaces within a paragraph.
 
-9. Preserve paragraph boundaries as chunk boundaries.
+9. Use Markdown headings as section-title chunk boundaries and bracket labels as subsection paragraph chunk boundaries.
 
 10. Do not include empty paragraphs.
 
@@ -293,14 +309,18 @@ chunks.jsonl
 manifest.json
 requests/
 responses/
-wav/
-mp3/
+originals/
+  wav/
+  mp3/
+sections/
+  wav/
+  mp3/
 ```
 
 The source run is still recorded in `manifest.json`, so a regenerated `S096` folder can point back to the exact source file:
 
 ```text
-v3/run/s096-full-20260716/publication.md
+v3/run/s096-full-20260716/96-publication.md
 ```
 
 `manifest.json` must always record a `source` beginning with `v3/run/`. Treat any other source value as non-canonical and invalid for production.
@@ -318,8 +338,10 @@ Store the raw request and response for reproducibility:
 ```text
 requests/sec-001-p-001.json
 responses/sec-001-p-001.json
-wav/sec-001-p-001.wav
-mp3/sec-001-p-001.mp3
+originals/wav/sec-001-p-001.wav
+originals/mp3/sec-001-p-001.mp3
+sections/wav/sec-001.wav
+sections/mp3/sec-001.mp3
 ```
 
 ## Clean Text Copy
@@ -334,15 +356,15 @@ This file is a human-readable narration copy. It is not the canonical app mappin
 
 Rules:
 
-- Start from the source `publication.md`.
+- Start from the source `{surah}-publication.md`.
 - Apply the same text-cleaning and section-title rules used for TTS.
 - Rename the file to the surah id, such as `S096.md`.
 - Keep section headings readable as Markdown headings.
 - Do not include the `## Bulgular` heading.
-- Convert bracket labels into ordinary section headings.
-- Remove strength/rank prefixes from bracket labels.
+- Convert bracket labels into the first sentence of their subsection paragraph.
+- Remove strength/rank prefixes from bracket labels and inline prose.
 - Remove bold/italic markers.
-- Preserve paragraph boundaries exactly as TTS chunk boundaries.
+- Preserve generated TTS chunk boundaries, not necessarily raw Markdown paragraph boundaries.
 
 Example:
 
@@ -365,7 +387,7 @@ Write a `chunks.jsonl` file in the surah folder. This is the canonical paragraph
 Each line is one paragraph unit and must be valid JSON:
 
 ```json
-{"surahId":"S096","source":"v3/run/s096-full-20260716/publication.md","chunkId":"sec-001-p-001","sectionIndex":1,"paragraphIndex":1,"kind":"section_title","sectionTitle":"Asılı Başlangıçtan Yakınlığa: Alak Suresinde Ölçü, Taşkınlık ve Dönüş","text":"Asılı Başlangıçtan Yakınlığa: Alak Suresinde Ölçü, Taşkınlık ve Dönüş","request":"requests/sec-001-p-001.json","response":"responses/sec-001-p-001.json","wav":"wav/sec-001-p-001.wav","mp3":"mp3/sec-001-p-001.mp3","durationSeconds":0}
+{"surahId":"S096","source":"v3/run/s096-full-20260716/96-publication.md","chunkId":"sec-001-p-001","sectionIndex":1,"paragraphIndex":1,"kind":"section_title","sectionTitle":"Asılı Başlangıçtan Yakınlığa: Alak Suresinde Ölçü, Taşkınlık ve Dönüş","text":"Asılı Başlangıçtan Yakınlığa: Alak Suresinde Ölçü, Taşkınlık ve Dönüş","request":"requests/sec-001-p-001.json","response":"responses/sec-001-p-001.json","wav":"originals/wav/sec-001-p-001.wav","mp3":"originals/mp3/sec-001-p-001.mp3","durationSeconds":0}
 ```
 
 Required fields:
@@ -405,7 +427,7 @@ Suggested shape:
 
 ```json
 {
-  "source": "v3/run/s096-full-20260716/publication.md",
+  "source": "v3/run/s096-full-20260716/96-publication.md",
   "surahId": "S096",
   "surahRun": "s096-full-20260716",
   "cleanMarkdown": "S096.md",
@@ -426,8 +448,8 @@ Suggested shape:
           "kind": "section_title",
           "text": "Asılı Başlangıçtan Yakınlığa: Alak Suresinde Ölçü, Taşkınlık ve Dönüş",
           "chunkId": "sec-001-p-001",
-          "wav": "wav/sec-001-p-001.wav",
-          "mp3": "mp3/sec-001-p-001.mp3",
+          "wav": "originals/wav/sec-001-p-001.wav",
+          "mp3": "originals/mp3/sec-001-p-001.mp3",
           "durationSeconds": 0
         }
       ]
