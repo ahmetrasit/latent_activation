@@ -1,5 +1,49 @@
 # V7 Prompt Changelog
 
+## V7.5.9
+
+- Replaces V7.5.8's exhaustive two-layer ontology with one stable four-status
+  generative field. `SOURCE_ACTUALITY` preserves exact local assertion and
+  identity; `LATENT_MAPPING` carries named relational invariants and changed
+  parameters; `LATENT_ASSEMBLY` projects source-indexed facets into
+  differentiated roles of newly enacted operations, images, processes, and
+  structures; `PRIMARY_TRANSFORMATION` records their exact passage work.
+- Makes projective assembly a direct formation path from raw supplied facets.
+  Exact identity and non-generic mapping interfaces continue to govern their
+  own planes but are no longer prerequisites for latent division of labor.
+- Uses generic role resemblance and functional complementarity as assembly
+  search cues. Every opened assignment becomes its own fully enacted variant;
+  compatibility and coherence emerge from completed formation rather than
+  deciding which candidates may begin.
+- Keeps every projected role attached to its source tuple while treating the
+  completed assembly as a real latent activation. This permits brave composite
+  formation without rewriting separate source events as one literal source
+  occurrence.
+- Separates token identity, proposition schema, referent identity, repeatable
+  role, and fresh performance so content continuation can mature without
+  silently transferring controllers, occupants, or actuality.
+- Makes every explicitly supplied full form, recoverable base term, affix, and
+  inflection a formal node that re-enters pairwise closure against all
+  positioned passage carriers.
+- Replaces dual closure with actuality, mapping, and assembly frontiers. New
+  roles, results, vacancies, consequences, topologies, interactions, primary
+  transformations, and backward returns restart all three planes until every
+  variant completes.
+- Adds `PRIMARY_TRANSFORMATION` as the positive relation between a completed
+  local operation, mapping, assembly, or interaction and an exact change in the
+  primary passage. Status labels identify what a formation performs; they are
+  never confidence, plausibility, importance, or survival grades.
+- Makes Turn 4 internally lossless over completed formations and compositionally
+  lossless over distinct primary transformations. Independently formed routes
+  remain fully active but combine inside the positive mechanism they jointly
+  make, preventing source-route catalogues from lowering the compositional
+  floor.
+- Gives Turn 5 four independent rereads before any prose decision: local
+  actuality and mechanisms, projective latent assemblies, mappings and
+  interactions among completed formations, and positioned passage form.
+- The prompts contain no passage-specific finding, regression oracle, audit,
+  validator, target-language rendering, TTS instruction, or benchmark result.
+
 ## V7.5.8
 
 - Splits formation into two coupled layers. The occupancy layer continues a
