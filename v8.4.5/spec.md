@@ -150,6 +150,8 @@ whether any claimed complete formation lost a participant or causal stage.
 Only then consult V8.4.4, V8.4.3, V8.4.2, V8.4.1, V8.3, V3, or the S1 audio
 reference.
 
-S96 remains prohibited until S103, S112, and S1 establish production
-readiness. On a production run, do not supply development assessments or
-known benchmark formations to any author.
+S96 was reserved for held-out assessment and was run only after S103, S112,
+and S1 established production readiness. That benchmark restriction is now
+complete. On every new production run, preserve the same cold isolation: do
+not supply development assessments, benchmark outputs, comparison diagnoses,
+or known passage formations to any author.

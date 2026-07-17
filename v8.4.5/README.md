@@ -95,4 +95,39 @@ The gate asks whether V8.4.5 preserves V8.4.4's evidence and morphology gains,
 restores S1's nonredundant extent without catalogue form, and avoids
 re-promoting explicitly conflicting material.
 
-S96 remains held out until all three development passages pass.
+S96 remains held out until the S1, S103, and S112 development passages pass.
+
+## Production decision
+
+The development gate passed on S1, S103, and S112. S96 was then run as the
+unseen final test with one cold synthesis author retained through Turns 4–6.
+Its blind assessment found no blocking primary-reading, morphology,
+participant, hierarchy, or return-to-surface failure. Comparative assessment
+of the actual publications—not their earlier reviews—judged the V8.4.5 S96
+final decisively stronger than V3 and narrowly stronger overall than V7.4.1
+and V8.3.
+
+Across the completed gate, V8.4.5 is the production workflow:
+
+- S112 preserves V8.3's carrier/referent, genealogy, recourse, dependency,
+  and non-equivalence controls while retaining consequential material
+  formations.
+- S103 preserves answerability and recipient consequence while restoring
+  custody, maturation, and repair without promoting the differently vocalized
+  medicinal branch.
+- S1 restores the centerline, closing `rabb`/`malik` return, supported gait,
+  counterfeit standing, morphology, and water mechanism while keeping
+  uncertain evidence secondary; it exceeds V3 and the reference-audio
+  synthesis overall.
+- S96 adds exact opening `q-r-ʾ` → `ʿalaqa`, counterfeit-formation,
+  prayer/call, route, mediation, and Lordward-approach locks while publishing
+  a selective synthesis rather than V3's reservoir catalogue.
+
+Production-ready does not mean that every predecessor formation is retained.
+S96 V8.3's same-root opening-to-closing `q-r-ʾ` circuit remains more memorable;
+V8.3 also states relational suspension and the protection-versus-capture
+criterion more explicitly. Those are real local predecessor advantages. They
+do not overturn the final comparison, and converting them into new mandatory
+prompt targets would reward benchmark-specific accumulation. The S96
+verse-center/anatomical-back conjunction should likewise remain a low-rank
+formal pressure, not a morphological claim.
