@@ -1,5 +1,29 @@
 # V7 Prompt Changelog
 
+## V7.3.0
+
+- Adds structural constellations as a second mature form alongside operational
+  configurations, so exact rings, axes, cross-definitions, distributed
+  convergences, contained oppositions, formal echoes, and supplied surface-form
+  variants do not need an invented state change to survive.
+- Runs a dedicated structural-constellation sweep after recursive operational
+  maturation and carries relation-complete structures through reciprocal
+  integration and the Turkish semantic master.
+- Preserves complete carrier sets when their distribution or number is part of
+  the discovery.
+- Defines a publication survival unit consisting of the passage carrier,
+  decisive supplied facet, operation or structural relation, and changed
+  primary hearing.
+- Separates semantic survival from narrative airtime: governing formations
+  receive sustained movements while independent formations remain complete in
+  compact recognition beats.
+- Limits oral rehearsal to roughly 10-15 percent and canonical publication to
+  roughly 40-55 percent of the semantic master's length.
+- Makes lexical provenance a one-time handoff to people, objects, forces, and
+  actions as grammatical subjects.
+- Makes the final turn perform structural editorial compression while
+  preserving every formation's reconstructable core.
+
 ## V7.2.0
 
 - Removes the primary-change admission gate for role-complete formations.
