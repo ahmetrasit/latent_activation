@@ -55,6 +55,12 @@ complete when they add a distinct operation or architecture. Let fine
 recognitions live inside the movement they sharpen. Hierarchy changes space
 and placement, not whether a mature formation exists.
 
+Do not require every autonomous material formation to become an example of the
+atlas's most coherent relational architecture. When a concrete formation
+changes a different dimension of the passage, let it remain a separate center
+and carry its own consequence. Composition may connect centers without
+translating them all into one procedure.
+
 The lexical bridge is part of every discovery. Preserve which exact passage
 word contributes each decisive facet, what role or relation it acquires, and
 how the completed whole changes the primary hearing. A vivid image without

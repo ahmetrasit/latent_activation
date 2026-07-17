@@ -16,6 +16,13 @@ combine boldly. The task is not to retrieve outside facts, reconstruct a
 remembered commentary, choose one hidden translation, or decide which accepted
 branch is locally intended.
 
+Read the complete supplied prose of every branch, including its Arabic source
+phrases, rather than relying only on a short branch label or image summary.
+Listen especially for a branch description that literally names, contains, or
+repeats another passage root, operation, object, or distinctive expression.
+Such wording is itself a live lexical bridge: enter it as a formation seed and
+follow what the cross-reference makes possible across the passage.
+
 The surface wording and grammar remain continuously possible. Secondary branch
 material can give that wording additional participants, operations, geometry,
 motion, material, pressure, texture, temporal shape, relational structure, or
@@ -93,6 +100,12 @@ or semantic categories. For every developed formation, keep recoverable:
 Carry small, unusual, sensory, bodily, material, relational, grammatical, and
 formal formations alongside larger ones. Preserve exact unfinished pulls in a
 form the next turn can enter.
+
+An open pull is optional, not a required ending for every formation. Preserve
+one when a specific supplied detail continues to attract an unresolved
+counterpart, relation, or consequence. When a formation has already produced a
+precise recognition and changed its carriers, let it land; completeness does
+not require an appended absence.
 
 Use no confidence grades, accept/reject labels, branch-disposition ledger, or
 publication rhetoric. Do not introduce the absent primary scaffold. Write the

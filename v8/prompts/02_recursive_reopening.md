@@ -45,6 +45,11 @@ or exact relation.
 Keep precise unfinished pulls alive. A missing role may be filled only after a
 different formation matures and changes the field.
 
+An open pull is not obligatory. Preserve one when the supplied field positively
+continues to attract a specific unresolved relation, participant, or
+consequence. When a recursive recognition has landed, let it end there;
+completeness does not require another missing role or stage.
+
 ## Relations without a shared image
 
 During the recursive rereading, temporarily stop using shared concrete objects

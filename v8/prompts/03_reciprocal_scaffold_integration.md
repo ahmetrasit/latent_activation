@@ -80,5 +80,10 @@ Carry precise unfinished formations forward with the role or relation that
 remains open. Organize by reciprocal transformations and formed interactions,
 not by ayah summaries, roots, confidence, or a selected hierarchy.
 
+Open roles are optional. Carry one forward when the supplied lexical and
+structural field continues to pull specifically toward it. When reciprocal
+contact has already produced a precise recognition, let the formation land;
+completeness does not require an added missing role or future stage.
+
 Do not write publication prose, assign grades, reject formations, or reduce the
 field to one governing interpretation.
