@@ -102,3 +102,83 @@ The finished work is not a catalogue, and it should not preserve every branch. T
 ### Blind production-readiness decision
 
 V8.4.4 Turn 6 is accurate enough to be a serious candidate and markedly better disciplined than its own Turn 4. Its core parse, participant architecture, direct lexical relay, and form hierarchy are publishable. The finished selection as a whole is not yet production-ready under the stricter survival requirement. A small repair pass could plausibly make it so: restore one calibrated sentence each for the road center, false standing/function, and the water circuit's recipient/repair stage; state the unvoiced-reply boundary; and recast the final **ضالّة / ربّ / مالك** result explicitly as the strongest backward lexical resonance rather than what the surface itself “describes.” Until then, the blind verdict remains **FAIL**.
+
+## Phase 2 — Comparative assessment
+
+### Comparative verdict
+
+**FAIL for this surah.** V8.4.4 has the strongest *core* synthesis and the best participant/morphology control of the compared cold English finals, but it is not yet the strongest *finished* result under the benchmark's combined standard of exactness, consequential discovery extent, and selective survival. It repairs the specific V8.4.3 failures and several deeper rank errors, yet it silently loses other nonredundant high-water work. It is the best revision base, not the release artifact.
+
+### What V8.4.4 genuinely improves over V8.4.3
+
+V8.4.4 retains the genuine strengths of V8.4.3 rather than reverting to an earlier architecture.
+
+- The named participant still becomes the twice-faced addressee, the requested guide, and the remembered giver.
+- The doubled **إِيَّاكَ**, the two unlike path specifications, repeated **عَلَيْهِمْ**, explicit favor giver, unexpressed anger agent, and active-participial strayers remain governing structures.
+- The worship/prepared-road bridge, person-preserving guidance, mercy after emergence, gift/debt distinction, and exact **ضالّة / ربّ / مالك** backward return remain central.
+- The final remains a synthesis organized by a few passage-scale movements; it does not revert to the V3 publication's sequence of independently titled well, herd, weapon, household, protection, and maritime scenes.
+
+It then corrects all three defects named in the V8.4.3 assessment.
+
+1. V8.4.3 said that the speakers emerge as **نـ** in **نعبد، نستعين، اهدنا**, conflating the subject prefixes of the imperfects with object suffix **نَا** in the second-person imperative. V8.4.4 explicitly distinguishes the first-person plural subjects of **نَعْبُدُ / نَسْتَعِينُ** from **نَا**, the first-person plural object of **ٱهْدِ**.
+
+2. V8.4.3 called God the “implied agent” of favor even though **تَ** in **أَنْعَمْتَ** explicitly marks the second-person agent. V8.4.4 repeatedly states that the giver is morphologically expressed and only its discourse referent is recovered from the address.
+
+3. V8.4.3 silently dropped the supported walker. V8.4.4 restores **ه د ي B008** in a compact paragraph, preserves its Form III status, connects it to the direct aid relation, and makes its unique consequence explicit: uneven sway and lateral human support do not constitute straying or compete with the exclusive object of **نَسْتَعِينُ**.
+
+V8.4.4 also corrects problems that the V8.4.3 assessment did not press far enough. V8.4.3's second major movement made **مَلَك الطريق**, the fourth-of-seven unit, noon's midpoint, and differently formed **قيام / قيامة / قوام** material co-govern “the Middle.” Its mercy section added an unsupported conventional contrast between the two divine forms. Its water section called **غ ي ر B001**'s **غِيرة** rain example “most exact” despite its different vocalization from surface **غَيْرِ**. Its opening used **رب الرجل النعمة** beside surface noun **رَبّ** without sufficient form calibration. V8.4.4 catches every one of these distinctions. It replaces the **ق و م B013** recapitulation with direct **الصراط: الطريق المستقيم** plus matching Form X prose; limits verbal **ربّ النعمة**; removes the unsupported mercy-form distinction; confines direct closing work to **غ ي ر B005**; and qualifies the swallowing derivation. This is not cosmetic caution. It materially improves what the reader is allowed to treat as the passage's spine.
+
+### Where the correction becomes overcorrection
+
+The V8.4.3 assessment asked for a morphology-and-retention gate. V8.4.4 plainly applies part of it, but the final shows that “demote” can still become “delete.” Four comparative regressions matter.
+
+First, V8.4.3's numerical centrality was overpromoted, but its road-center consequence was not redundant. The V3 publication and audio, V8.3, V8.4.1, V8.4.2, and V8.4.3 all preserve **مَلَك الطريق** as a center or main course to be kept. V8.4.4 Turn 5 rightly observes that this is not surface **مَٰلِك** and cannot establish an exact title-to-road lock. Turn 6 then removes it altogether. Direct **صراط–مستقيم** supplies straightness, but not centeredness; the title relay supplies participant identity, but not the formal fact that the fourth unit stands at the transition from titles to direct finite speech. One calibrated sentence could preserve the high-water without restoring “the Middle” as a coequal governing section.
+
+Second, V8.4.4 replaces a weak title-to-straightness spine and accidentally removes a strong independent diagnostic. V8.3, V8.4.1, and V8.4.2 distinguish living straightness from frozen water, the exhausted stopped mount, diseased standing, and the outwardly intact blind eye. The V3 publication and audio compress this as supported integrity between softness/disintegration and stone-like closure. V8.4.3 weakens the catalogue but still keeps straightness as maintained support. V8.4.4's Form X paragraph and assisted gait are better evidence for the positive path, but neither answers the inverse question: when can something look upright, stable, or straight because it has ceased to function? That consequence disappears without substitution.
+
+Third, the water system loses both an operation and its internal test. V8.3, V8.4.1, and V8.4.2 carry the sequence through household provision, watering, repair of saddle or mount, and green growth. V8.4.3 adds **ضل اللبن في الماء** as a countercurrent: mediation can sustain, but mixing can also erase discernibility. V8.4.4 correctly refuses to make differently vocalized **غِيرة** direct work of surface **غَيْرِ**, yet it can still retain it as a labeled root-field operation. Instead, the final calls its abbreviated system a “complete circulation” while omitting repair/household reception and detaching dissolution from the water scene. It preserves a beautiful apparatus, but no longer gives that apparatus the full causal or critical depth attained by its predecessors.
+
+Fourth, the no-reply boundary disappears. V8.4.1 and V8.4.2 explicitly say that the affirmative branch remains only a possible contour and that the passage never puts an answer in the addressee's mouth. The V3 publication and audio also preserve this restraint. V8.4.4 Turn 5 expressly orders it retained. Turn 6 does not invent a reply, but silence about the boundary is not a substitute for it, especially in a final that gives exact formal openness at **بِ** publication space.
+
+These are consequential losses, not a request to restore every discovered scene. The armory, herd procession, institutional city, vocal contest, perfume, marriage, covenant, and maritime journey may remain omitted because their relevant participant or boundary work is carried more strongly elsewhere. Centered course, false functional standing, mediated repair, and an unvoiced response answer questions no surviving paragraph fully answers.
+
+### Comparison with V8.4.2, V8.4.1, and V8.3
+
+V8.4.2 has the greatest integrated English extent among the cold predecessors. It preserves the center, participant braid, prepared road, assisted gait, false standing, guide/weapon distinction, mercy, educational discernment, complete water circulation, account, inhabitable social path, unequal ending, no voiced reply, and a large residue/recoverability return. Its problem is not discovery poverty but evidence rank. It treats **مَلَك الطريق** and **يوم يقوم الناس لرب العالمين** as if they could jointly establish the exact center-to-straightness spine, treats the accepted **ح م د** description as “full prose” containing **الشكر على النعمة**, and repeatedly lets differently vocalized **غِيرة** perform direct work for **غَيْرِ**. V8.4.4 is much safer and more legible, but it does not preserve all of V8.4.2's nonredundant consequences at corrected secondary rank.
+
+V8.4.1 is similarly rich and, in several places, better integrated than V8.4.2: its worship–road–gait section, mercy/release movement, **عَلَيْهِمْ** circulation/hardening contrast, and exact two-title closing return are particularly strong. It also distinguishes participant roles correctly. But it overstates the same differently formed title/straightness contacts, lets swallowing govern too much, and allows **غِيرة** repair to speak too directly through surface **غَيْرِ**. V8.4.4's exact relay and road/house opposition are superior replacements; its deletion of center, false standing, and water repair is not.
+
+V8.3 supplies the durable conceptual high-water: opening name versus final recoverability, **د ي ن** into worship, prepared road, straightness between rigidity and dissolution, assisted gait, person-specified path, mercy beyond emergence, complete water circulation, unequal **عَلَيْهِمْ**, account categories, and praise tested by inhabitable ground. V8.4.4 retains most of those movements and adds the missing **مالك** half of the closing stray formula, the exact **غَيْر / لَا** relation, the direct road/house opposition, and a far better form hierarchy. It is plainly more selective and more exact than V8.3. It is not fully coextensive with V8.3's best autonomous work.
+
+### Comparison with the V3 publication and audio high-water
+
+The V3 publication establishes breadth rather than a usable final hierarchy. Its strongest movements are identifiable: worship opens the road; the formal center gives a centerline; assisted gait embodies help; mercy matures dependence; softness and cohesion resist stone-like closure; name and mark oppose loss; praise finds tested, inhabitable ground; the well supplies travelers; and the last stray reactivates lordship. It then continues through herd, temporal, gift/account, weapon, household, protection, and maritime scenes. The audio improves rank by distinguishing direct meaning, A-level formations, B-level details, and complementary findings, but its latter half remains visibly encyclopedic.
+
+V8.4.4 decisively avoids that catalogue form. It preserves the prepared road, assisted gait, mercy's developmental sequence, praise/favor without debt, inhabitable road/house, unequal closing roles, secondary water apparatus, and exact lost-lord/master boundary. It also exceeds V3/audio in several discoveries: the exact title relay into worship and guidance, direct **صراط–مستقيم** plus Form X, the two-stage **غَيْر / وَلَا** syntax, explicit form-status disclaimers, and the complete participant rotation.
+
+It nevertheless does not preserve all of the high-water's nonredundant depth. The formal center is absent rather than demoted. The viable-band/false-standing diagnostic is absent. The well no longer reaches explicit repair or a tested danger of dissolution. The explicit absence of a divine reply is gone. Exact **ربّ / مالك** gives the old name/mark/recoverability catalogue a real substitute, and the omitted herd, weapon, household, and maritime scenes need not return. The four losses above have no comparable substitute and can be restored without reopening catalogue form.
+
+### Is V8.4.4 genuinely the strongest finished result?
+
+It is the strongest result in four important respects:
+
+- raw morphological accuracy;
+- control of explicit, implicit, and suppressed participants;
+- distinction among exact form, derivational family, contextual example, and remote root-field resonance;
+- synthesis hierarchy around title relay, direct path definition, person-specified road, gift/account distinction, and the closing loss of **ربّ / مالك**.
+
+No predecessor combines those strengths. V8.4.3 is more rhetorically expansive but contains direct morphology mistakes and weaker form control. V8.4.2 and V8.4.1 retain more depth but let form-mismatched contacts govern. V8.3 and V3/audio discover more than they can finally rank.
+
+That makes V8.4.4 the strongest *core* and the obvious revision base. It does not make it the strongest *finished* result, because the benchmark expressly requires nonredundant high-water survival as well as correctness. A final may not trade false exactness for silent extinction when calibrated secondary rank is available. V8.4.4 comes closer to release than any predecessor, but “closest” is not a PASS.
+
+The closing **ضالّة / ربّ / مالك** architecture illustrates the remaining synthesis issue. V8.4.4 improves on every predecessor by stating the gender/number transfer and anchoring the collision in exact source clauses. Yet its heading and final claims still say that the strayers have “lost” the earlier Lord and Master or that the close “describes” this collapse. V8.3's formulation was more careful: the animal example exposes one concrete structure of loss without turning the people into livestock. The strongest finished version would combine V8.4.4's two-title exactness with that earlier modal discipline.
+
+## Firm final verdict and smallest prompt implication
+
+**FAIL.** V8.4.4 fixes V8.4.3's participant errors, unsupported mercy distinction, and assisted-gait loss; corrects major form/vocalization ranking failures; preserves the strongest exact architecture; and is the best available revision base. It still falls short of production readiness because formal center, counterfeit standing, water repair/countercurrent, and the unvoiced-reply boundary disappear without real substitutes, while the final stray collision is stated one degree too literally.
+
+The smallest general prompt implication is one addition to the existing final gate:
+
+> **Build a final survival ledger from every Turn 5 item marked preserve, retain, demote, or load-bearing. For each, record its final location, a genuinely nonredundant substitute, or an explicit reason for deletion; demotion is not silent deletion, and claims of a “complete” formation must still contain every distinct participant and operation in Turn 5's map.**
+
+That single ledger would preserve V8.4.4's selectivity, catch the four silent losses and the incomplete “complete circulation,” and avoid any pressure to restore catalogue material.
