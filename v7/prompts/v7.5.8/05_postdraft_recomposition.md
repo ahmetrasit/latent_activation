@@ -24,7 +24,7 @@ architecture, and backward return.
 
 Do not rebuild from zero merely to display independence. Treat the draft's
 architecture as a starting state, not a constraint. Make no preservation,
-compression, or recentering decision until both silent movements are complete.
+compression, or recentering decision until all three silent movements are complete.
 Then preserve, narrow, redistribute, subordinate, enlarge, or replace any
 governing relation according to the completed field.
 

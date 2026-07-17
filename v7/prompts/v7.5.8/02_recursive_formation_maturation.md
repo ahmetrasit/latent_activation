@@ -18,8 +18,8 @@ succession, topology coalition, counterfield, vacancy comparison, and formal
 pattern before allowing a broad formation to organize it. Distributed tuples
 need not appear in one source assertion, but every link and transported
 payload must remain visible.
-Do not estimate a seed's strength or future importance while its licensed
-relations are still being enacted.
+Do not estimate a seed's strength or future importance while the relations it
+generates are still being enacted.
 
 The first assembled image or exact relation is the beginning of formation, not
 its completion. Build provisional formations and repeatedly let each one
@@ -118,7 +118,7 @@ edge before deciding what the combined operation is, then state the operation
 in the form acquired through the whole. Non-co-occurrence inside one quotation
 is not negative evidence when another supplied relation connects the records.
 
-Do not leave a licensed relation incomplete merely because its seed record did
+Do not leave a generated relation incomplete merely because its seed record did
 not name every position. Follow the connected typed edges through the whole
 field. A position can remain open at fixed point without weakening the complete
 movement already formed around it. Openness preserves its exact type for later
@@ -131,8 +131,8 @@ others, and none is a preliminary version of another.
 
 These are generative modes, not evaluation categories. An attraction may begin
 before every role or relation is visible. Keep it active and use it to search
-every candidate-edge schema. The attraction itself neither binds ports nor
-emits a new one. Once a licensed edge appears, enact its connected formation
+every defined relation type. The attraction itself neither binds ports nor
+emits a new one. Once a relation is generated, enact its connected formation
 completely and let later explicit ports extend or transform it. When the whole
 forms, state what it performs rather than carrying its initial incompleteness
 forward as a label.
@@ -194,7 +194,7 @@ recover each fragment's complete local assertion, tuple, ports, and interfaces
 -> reread every contributing fragment through the connected whole
 -> reread the passage forward and backward
 -> reread unused and multiply usable branch facets
--> follow newly exposed licensed edges; split, merge, rescale, rephase, or
+-> follow newly exposed relations; split, merge, rescale, rephase, or
    transform only through the relations they carry
 -> inhabit the changed formation again
 ```
@@ -276,12 +276,12 @@ Run these transformations wherever the supplied field opens them:
   complete another relation active in the same local event. Let each separately
   supplied relation continue through its own outcomes and returns;
 - **recursive result revision:** index every explicitly produced result as a
-  typed port. When a licensed handoff makes that same result a later input, let
+  typed port. When an identity handoff makes that same result a later input, let
   the later operation revise the earlier participant, source, relation, or
   interpretation that produced it.
 
-These are modes of formation, not a validation checklist. Follow every
-licensed edge they expose until the connected trajectory reaches its outcomes,
+These are generative modes. Follow every relation they expose until the
+connected trajectory reaches its outcomes,
 returns, and backward effects. Preserve every local verb, object, and
 participant after the larger operation forms.
 
@@ -295,7 +295,7 @@ contributing unmatched roles to a hybrid scene.
 Keep lexical co-branches concrete and fully available to formation. Several
 branches of one root may become alternative realizations, contrasts, phases,
 or exact links in a structural constellation. Root membership itself creates
-no participant handoff or shared event. When a licensed edge maps their ports,
+no participant handoff or shared event. When a defined relation maps their ports,
 state every distinct interaction it performs. Do not require one branch to
 establish the whole independently and do not reduce a completed formation
 because its interaction becomes visible only after a supplied relation from
@@ -442,14 +442,14 @@ small-scale, an alternative realization, non-processual, or partly shares
 material with a broader formation.
 
 Keep rival realizations alive long enough for each to expose and enact its own
-licensed edges and change the passage around it. Keep unfinished formations present
+relations and change the passage around it. Keep unfinished formations present
 with their open relational shape; their missing role or link may appear only
 after another formation matures.
 
 Read every supplied branch again after the first formations form. An unused
 facet is not outside the work merely because the initial reservoir did not
 know where to place it. Do not return an operation to the reservoir while the
-typed frontier still contains a licensed edge from it. A relational shape may
+dual frontier still contains a generated relation from it. A relational shape may
 retain an open port after fixed-point enactment; preserve both its completed
 movement and that exactly typed opening.
 
@@ -485,5 +485,5 @@ carrier-to-carrier links is likewise incomplete.
 Preserve exact microfindings inside the formations they sharpen. A genuinely
 still-forming structure may return to the activation reservoir with its open
 ports intact, but "open" never substitutes for enacting an occupant connected
-by one of the licensed edge relations. Do not assign confidence, produce
+by an occupancy relation. Do not assign confidence, produce
 rejection notes, or write the final synthesis.

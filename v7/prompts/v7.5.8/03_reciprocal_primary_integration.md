@@ -155,7 +155,8 @@ effect is governing, local, bodily, material, relational, temporal, formal,
 compositional, or a precise secondary recognition. A formation without such a
 path remains complete in the reservoir rather than being forced into one.
 
-For each formation with a scaffold-binding edge, complete this movement:
+For each operational formation with a primary occupancy or transformation
+binding, complete this movement:
 
 ```text
 formed configuration
@@ -195,8 +196,9 @@ expanded into a generic macro-theme.
 
 Preserve different formations when they alter different participants, forces,
 directions, temporal relations, formal architectures, or closure effects.
-Merge them only when a licensed edge makes them phases, roles, or links of the
-same operation or structure.
+Merge their occupants only through identity; merge their relational movement
+only when a defined coalition relation makes them links of the same distributed
+operation or structure.
 
 After every formation has met the scaffold, place the mature formations in
 contact through every occupancy relation and coalition interface between them.
