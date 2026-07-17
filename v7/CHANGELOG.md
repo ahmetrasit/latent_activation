@@ -1,5 +1,32 @@
 # V7 Prompt Changelog
 
+## V7.5.6
+
+- Makes complete enactment precede every compositional decision. Production
+  prompts prohibit strength estimates, confidence judgments, admission tests,
+  grading, ranking, and pruning while a field or synthesis is being formed.
+- Closes exact contacts pairwise across every explicitly supplied form,
+  equation term, named expression, positioned passage carrier, and boundary in
+  both containment directions before semantic expansion.
+- Replaces compatibility-gated role filling with provisional enactment of every
+  supplied facet in every position opened by an explicit topology. Fit or
+  mismatch becomes an outcome of enactment rather than an entrance condition.
+- Uses stable round-robin traversal and two mandatory re-entry cycles to define
+  whole-field completion: raw source assertions return to all positioned forms,
+  and every accumulated result or participant returns to every opened topology.
+- Changes Turn 4 from an internal mechanism map into a complete, fresh,
+  passage-governed English composition. Secondary scenes enter through the
+  exact primary carrier or relation they transform rather than becoming
+  autonomous catalogue sections.
+- Changes Turn 5 into same-author post-draft recomposition through two separate
+  completed movements: an unrestricted semantic reread and an independent
+  formal reread. Either may form relations absent from all upstream artifacts.
+- Preserves independently reinforcing convergence when a distinct supplied
+  route changes the basis, scope, mechanism, participants, temporal form, or
+  formal embodiment of a primary transformation already present.
+- The prompts contain no passage-specific finding, regression oracle, audit,
+  validator, target-language rendering, TTS instruction, or benchmark result.
+
 ## V7.5.5
 
 - Changes the cognitive order from early governing synthesis to bottom-up
