@@ -1,5 +1,35 @@
 # V7 Prompt Changelog
 
+## V7.5.3
+
+- Adds projective saturation as the governing cognitive movement across all
+  five semantic turns: project the strongest role-complete whole, inhabit it
+  throughout the closed field, let it assign roles backward, re-enter every
+  changed carrier, and project again.
+- Makes exactness an outcome of recursive whole-field incorporation rather
+  than an entrance condition. A single branch no longer has to state the full
+  causal or structural sentence assembled from supplied roles and relations.
+- Runs atomic individuation and top-down projection concurrently. Exact
+  surface circuits, entity relays, polarity forks, microfacets, and carrier
+  subsets remain independently recoverable inside every larger formation.
+- Adds event-class relay across different lexemes: the same act can form one
+  circuit when agency, force, voice, recipient, scale, or outcome changes.
+- Adds functional rotation through working, compromised, absent, replaced,
+  reversed, and restored states. Absence now develops both loss of capability
+  and bypass of any distortion or coercion carried by the compromised role.
+- Replaces exact-contact interaction with projected division of labor.
+  Different participants, instruments, media, scales, phases, and directions
+  can become differentiated moments of a larger operation while retaining
+  every local transformation.
+- Removes the durable named-open output state. An unfinished link becomes the
+  direction of the next projection, not a terminal finding or a reason to
+  preserve initial weakness as a caveat.
+- V7.5.2 benchmarking recovered nearly the entire atomic field and added new
+  exact relations, but decomposed several previously complete mechanisms when
+  no local record stated their whole bridge. V7.5.3 changes the cognitive
+  order without adding audits, validators, benchmark reminders, or
+  passage-specific language.
+
 ## V7.5.2
 
 - Individuates every branch record into independently reusable semantic
