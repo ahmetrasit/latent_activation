@@ -1,5 +1,30 @@
 # V7 Prompt Changelog
 
+## V7.4.0
+
+- Restores the successful V3 cognitive separation with three native sessions:
+  formation author, fresh independent synthesis author, and fresh Turkish
+  publication author.
+- Ends Agent 1 after reciprocal scaffold integration instead of letting the
+  same session turn its own discoveries into the semantic master.
+- Gives fresh Agent 2 the exact raw bundle, scaffold, Agent 1 reservoir, and
+  reciprocal field; the artifacts are generative material rather than a ceiling
+  or canonical hierarchy.
+- Adds an independent mechanism-recomposition turn that rereads the full branch
+  inventory, preserves operational configurations and structural
+  constellations, recruits newly completed material, and derives new
+  interaction-level consequences.
+- Requires Agent 2 to build a raw-field topology before opening either Agent 1
+  artifact, preventing the earlier author's hierarchy from becoming the fresh
+  synthesis author's starting ontology.
+- Keeps independent recomposition affirmative: freshness means a new grouping,
+  not auditing, rescoring, downgrading, or returning mature findings to their
+  initial weakness.
+- Lets the same Agent 2 write the Turkish semantic master from its recomposed
+  mechanism map before a fresh Agent 3 begins publication.
+- Carries V7.3.0 reconstructive weighting, human-language handoff, relative
+  length discipline, and dual-medium revision into Agent 3's three turns.
+
 ## V7.3.0
 
 - Adds structural constellations as a second mature form alongside operational
