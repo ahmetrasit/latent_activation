@@ -1,0 +1,159 @@
+# Post-Draft Recovery Field
+
+## Inherited load-bearing passage work
+
+The direct passage movement remains the governing floor. `وَٱلْعَصْرِ` is an oath construction; `إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ` emphatically places the human being in loss; `إِلَّا ٱلَّذِينَ` limits that condition through a relative plural defined by four coordinated perfect predicates: belief, work upon the explicit object `ٱلصَّٰلِحَٰتِ`, and two reciprocal acts whose content complements are `ٱلْحَقِّ` and `ٱلصَّبْرِ`.
+
+The following transformations are load-bearing inheritance for recomposition:
+
+- **The joined interval.** The opening `ع ص ر` phrase `العصران الليل والنهار` and the closing `و ص ي` phrase `وصيت الليلة باليوم وصلتها` form an exact operation–material lock: the ending joins the two times named at the opening. The perfect acts can be locally complete while report, deed, right, obligation, or bequest remains in transit to a later bearer. The final reciprocal actions therefore send continuation backward into the oath.
+
+- **The reversal of holding.** Opening `ع ص ر` supplies `العصر الحبس`; closing `ص ب ر` supplies `الصبر حبس النفس عن الجزع`. The explicit `فِى` places the singular human inside a condition, whereas the exception introduces plural agents capable of deliberate action and mutual address. This changes unnamed surrounding holding into self-governed, relational holding without claiming that the group controls time, weather, bodily limits, or every pressure. Refuge, safe custody, confinement, and coercive holding keep support distinct from arrest.
+
+- **Pressure as a receiver-governed distribution system.** The press, expressed yield, withheld portion, short measure, vessel sides, stopper, fitted joint, worker, wage, claimant, guarantor, and unnamed beneficiary form one apparatus. `ٱلصَّٰلِحَٰتِ` draws work toward repair and recipient-fit; `ٱلْحَقِّ` keeps amount, provenance, and due attached; `ٱلصَّبْرِ` keeps bearer and transfer alive without substituting delay for payment. The reciprocal addressee is internal to `تَوَاصَوْا۟`; the beneficiary of the direct object is not grammatically named.
+
+- **Two directions of exactness and delivery.** `ح ق ق` supplies correspondence, weave, joint, socket, and matching track, but also a straight penetrating thrust and an exhausting exact gait. `ع م ل` supplies the spear shaft; `ص ب ر` supplies the immobilized target. Against that one-way geometry, `ع ص ر` supplies the small drink adjusted to a choking throat. Reciprocal truth-counsel preserves the receiver as a participant; patience supplies time for uptake, while truth prevents pacing from becoming indefinite postponement.
+
+- **Trace, representation, and correction across time.** Dust, fragrance, road, hoofprint, compact speech, and bequest differentiate ways an accomplished act survives. The `ء ن س` figure of a human inside another's pupil gives `لَفِى خُسْرٍ` a second-scale containment: a person can be inside a condition and partially inside another's representation without being exhausted by either. Mutual truth-counsel can correct inherited traces and human images while preserving provenance.
+
+- **The convoy and the ethics of capacity.** A traveled road, walkers, working limbs, a far-seeing eye, a work-ready camel, a dependable camel, an exact hoof placement, resistant terrain, and an exhausting pace form an autonomous journey. Belief supplies reliance, work supplies motion and inherited infrastructure, truth supplies directional correction, and patience regulates sustainable force. Maturity or work-capacity does not itself confer permission to load, appoint, confine, or extract.
+
+- **The final boundary return.** The close currently returns both connection and voluntary holding to the oath: successive times acquire a social seam, and surrounding pressure acquires answerable plural agency. The ending does not remove the group from time; it gives the group a way to keep orientation, action, correction, and continuation from separating within it.
+
+## Formal recovery
+
+### The opening operation reappears literally as the closing product
+
+**Surface and form.** The distant carriers are the oath noun `ٱلْعَصْرِ` and the final content noun `ٱلصَّبْرِ`. Their boundary positions make a return possible, but position alone is not the evidence.
+
+**Activating source wording.** `ع ص ر` B002 defines the opening operation through `ضغط شيء حتى يتحلب` and says `العصارة ما سال عن العصر` and `العصارة ما تحلب من شيء تعصره`: *ʿuṣārah* is what runs or is expressed through pressing. `ص ب ر` B008 then says `الصبر بكسر الباء عصارة شجرة`: the bitter ṣibr is the expressed sap of a tree. The final branch prose literally contains a product word from the opening root.
+
+**Passage transformation.** The opening supplies an operation whose product is not lexically furnished until the last carrier. The final word can therefore answer the oath not only by another kind of holding but by yielding the bitter expressed material generated by the opening pressure. This exact operation–product circuit can organize the press, medicine, dose, and receiver material rather than leaving bitter sap as one sensory detail; the secondary product relation does not replace the direct patience content.
+
+**Turn 4 relation.** Partially carried. The press is a major movement and bitter medicinal sap appears in the delivery movement, but the literal `عصارة` return and its operation–product force are not composed.
+
+### Arrival reverses direction and reaches the middle of winter
+
+**Surface and form.** The opening root supplies delay; the last two content nouns occupy parallel clauses under repeated reciprocal `تَوَاصَوْا۟`. The reciprocal morphology permits members to rotate as mover and receiver.
+
+**Activating source wording.** `ع ص ر` B001 says `جاءني فلان عصرا أي بطيئا`: someone came to me slowly or late. `ح ق ق` B011 says `جئته في حاق الشتاء`: I came to him in the middle of winter. `ص ب ر` B007 says `أتيته في صبارة الشتاء أي في شدة البرد`: I came to him in winter's severe cold. The source phrases reverse the deictic direction from *he came to me* at the opening to *I came to him* in the final pair; the two closing phrases also share the same winter setting, with `ح ق ق` supplying its middle and `ص ب ر` its severity.
+
+**Passage transformation.** The delayed arrival opened by `ٱلْعَصْرِ` receives a returned approach at the close. Reciprocal counsel is no longer only content passed across an abstract seam: each participant can become the one who goes toward another when the interval is late, centered in winter, and resistant. Truth locates or fixes the relation; patience names the pressure under which arrival must still occur.
+
+**Turn 4 relation.** The pieces are present—late arrival, winter terrain, and reciprocal correction—but this reversed arrival circuit is not carried as a relation.
+
+### The central condition names undoing inside an increasingly connected utterance
+
+**Surface and form.** `خُسْرٍ` closes the emphatic central predication. It is followed by `إِلَّا`, a relative clause, three coordinating `وَ` prefixes, and the doubled reciprocal verb. The opening `وَ` is an oath particle rather than a conjunction, so the connectors do differentiated grammatical work.
+
+**Activating source wording.** The first `خ س ر` source phrase is `أصل واحد يدل على النقض`, naming breakage or undoing alongside the branch's explicit diminution language. `و ص ي` B001 gives the contrary operation `أصل يدل على وصل شيء بشيء` and `وصيت الشيء وصلته`. `ح ق ق` B010 supplies `ثوب محقق إذا كان محكم النسج`, a tightly woven cloth, while B011 supplies joints and fitted sockets.
+
+**Passage transformation.** The passage can be heard as placing the human within diminution whose source wording includes structural breakage, then formally building an exception through attachments, joints, an explicit object relation, and reciprocal connection. The closing does not merely bridge time after an unspecified failure; it performs the counter-operation to `النقض`. The woven and jointed truth material gives that counter-operation formal embodiment without making every connector syntactically identical.
+
+**Turn 4 relation.** Partially carried. Rupture, separation, seams, weave, and joints are all present, but `النقض` is not exposed as the exact central counterforce to `وصل`, and the grammatical attachments are not composed with it.
+
+### The named human recurs inside remedy, repair, and captivity
+
+**Surface and form.** `ٱلْإِنسَٰنَ` is the governed singular noun of the central assertion. `ء ن س` B001 itself spans the collective and the one: `الإنس البشر والواحد إنسي والجمع أناسي` and `الإنس جماعة الناس`. The passage then makes plurality grammatically visible in `ٱلَّذِينَ` and the repeated third-person plural suffixes.
+
+**Activating source wording.** Three other root fields literally name the same participant. `ع ص ر` B008 says `الاعتصار أن يغص الإنسان بالطعام فيعتصر بالماء`: the human chokes and takes water incrementally. `ص ل ح` B001 includes `إصلاح الله تعالى الإنسان`, making the human a possible patient of repair without assigning that source phrase's agent to the passage. `ص ب ر` B002 says `الصبر نصب الإنسان للقتل` and describes the human compelled to swear. The central surface noun is therefore already embedded in an opening bodily remedy, the object-field of sound action, and the coercive shadow of the final content.
+
+**Passage transformation.** The generic human is not left outside the exception as an abstraction. The branch prose gives that human differentiated later roles: needy embodied receiver, possible patient of repair, and captive when holding becomes unilateral. The movement into plural agency must therefore preserve how actual humans are affected by the group's deeds and counsel, including humans who may not belong to its reciprocal speaking circle.
+
+**Turn 4 relation.** Partially carried. The choking body, repair, captive, singular-to-plural transition, and unnamed beneficiary all appear, but the literal recurrence of `الإنسان` across those source phrases and the resulting participant continuity are not composed.
+
+### The first plural predicate is positioned as response
+
+**Surface and form.** After the oath-framed assertion and `إِلَّا ٱلَّذِينَ`, the first finite predicate is `ءَامَنُوا۟`, perfect Form IV, third-person plural. The group later becomes reciprocally vocal through the two Form VI predicates.
+
+**Activating source wording.** `ء م ن` B003 supplies `آمين` as an utterance meaning `استجب`, `اللهم افعل`, or `كذلك فليكن`: a request for response or fulfillment. B002 supplies the complementary receptive direction, crediting a report or promise. The opening oath and assertion thus precede a root field that contains both assent to what comes in and an utterance directed outward for answer.
+
+**Passage transformation.** The exception group first appears at a point of response. Its members do not remain hearers who privately assent; action follows, and the two final predicates turn voice among them. The speech geometry moves from solemn declaration, through reception and response, to mutual address. This relation does not identify the group as the opening's explicit addressee or turn `ءَامَنُوا۟` into a local rendering of `آمين`.
+
+**Turn 4 relation.** Partially carried. The draft moves from oath to answerable plural speech, but it omits the exact `آمين` source and therefore leaves the first predicate's response-position unstated at source level.
+
+### The four qualities contain one another in their own source prose
+
+**Surface and form.** The four predicates are coordinated rather than syntactically subordinated, yet their ordered argument structure widens. `ءَامَنُوا۟` presents the plural subject; `عَمِلُوا۟` takes the explicit accusative object `ٱلصَّٰلِحَٰتِ`; each `تَوَاصَوْا۟` makes members both agents and addressees and adds a definite content complement under `بِ`.
+
+**Activating source wording.** The branch prose crosses the surface stages in both directions. `ء م ن` B002 defines faith as `إذعان النفس للحق`, inward assent to `الحق`, embedding the later content inside the first predicate. `ع م ل` B001 explicitly gives `الأعمال الصالحة والسيئة`, fixing the adjacent work–soundness relation. `و ص ي` B002 describes counsel as `التقدم إلى الغير بما يعمل به مقترنا بوعظ`, advancing to another with what is to be acted upon, so the later reciprocal verb contains earlier `عمل`. `ح ق ق` B001 defines correspondence across belief, saying, and action—`مطابقة الاعتقاد أو القول أو الفعل لما هو ثابت`—and therefore reaches backward over the whole sequence. `ص ل ح` B002 adds the reciprocal social operation `تصالح القوم بينهم`, reconciliation among the people, before the surface reaches its two reciprocal verbs.
+
+**Passage transformation.** The ordered series is internally recursive before any later interpretive return is imposed. Belief is already oriented to truth; truth later tests belief, speech, and action; counsel carries something to be acted upon; sound work already contains the possibility of repaired relation among people. The formal widening from subject, to explicit object, to mutual participants with contents gives concrete grammar to that recursion.
+
+**Turn 4 relation.** Partially carried. Forward handoff and backward reopening govern the draft, but the exact cross-carrier source phrases and the progressive argument structure are not stated together.
+
+### Indefinite loss is followed by definite fields of work and counsel
+
+**Surface and form.** The morphology marks `خُسْرٍ` as indefinite and genitive within `فِى`, while `ٱلصَّٰلِحَٰتِ` is definite and accusative as the direct object, and `ٱلْحَقِّ` and `ٱلصَّبْرِ` are definite genitive content nouns after `بِ`. The assertion is emphatic, but it does not give `خُسْرٍ` one explicit quantitative baseline.
+
+**Activating evidence.** The `خ س ر` inventory differentiates general diminution, lost capital, short measure, and degrading classification. The definite closing fields supply repair and fit, correspondence and due, restraint and guarantee, but do not collapse those standards into one measure.
+
+**Passage transformation.** The utterance moves from a strongly asserted but materially unmeasured condition to definite objects and contents through which plural agents can act, compare, and sustain relations. This does not make indefiniteness mean vagueness or the final nouns exhaustive definitions; it sharpens why the measure of loss remains open while the counterstructure is grammatically specified.
+
+**Turn 4 relation.** Partially carried. The draft preserves several baselines and distinguishes the closing contents, but it does not use the definiteness contrast to explain the formal movement.
+
+## Marginal semantic recovery
+
+### Pressed sap, measured portion, and embodied uptake
+
+**Source locks and carriers.** `وَٱلْعَصْرِ` recruits the press, its `عصارة`, vessel, and extracted remainder (`ع ص ر` B002). `بِٱلصَّبْرِ` supplies the exact expressed product `عصارة شجرة` and bitter medicine (`ص ب ر` B008). `ٱلْإِنسَٰنَ` is named within the choking-and-small-drink phrase (`ع ص ر` B008), while B014 supplies the dry tongue. `خُسْرٍ` supplies deficient weight or measure (`خ س ر` B003). `ص ب ر` B011 supplies a food heap sold `بلا وزن ولا كيل`, without weight or measure, and B018 supplies the stopper controlling access. The two `تَوَاصَوْا۟ بِـ` clauses supply reciprocal delivery and responsive receivers.
+
+**Participant map.** The process requires pressure or a presser left unnamed by the passage; pressed material; expressed bitter product; a vessel and whoever controls its aperture; a human throat that can be obstructed; a person who portions or transmits content; a reciprocal receiver who can report uptake; and a standard by which too little, too much, or withheld access becomes perceptible. The excepted plural may regulate delivery but is not thereby made the agent of the opening pressure.
+
+**Before → resonance → after.** Before: the oath names an operation capable of expression. Resonance: the human in loss can be the embodied receiver whose dryness, obstruction, or short portion makes deficit concrete. After: sound work prepares or delivers; truth/right measures and keeps the due portion attached; patience supplies the bitter expressed material, controlled pacing, and the duration needed for uptake. The final product returns to the opening operation.
+
+Without this relation, the press and bodily-delivery movements retain parallel liquid imagery but lose their exact causal lock, and the unmeasured food heap remains detached from the central short measure. Turn 4 contains nearly all the parts but does not compose press → expressed medicine → measured, feedback-bearing uptake as one process.
+
+### Layered cloud, released rain, protected growth, and fitting pasture
+
+**Source locks and carriers.** `ع ص ر` B003 gives `السحابة المعصر التي تتحلب بالمطر`, the rain-bearing cloud that releases rain, at `وَٱلْعَصْرِ`. `ص ب ر` B010 gives `السحاب الأبيض الذي يصبر بعضه فوق بعض درجا`, cloud layered upon cloud, at the final `ٱلصَّبْرِ`. `ع ص ر` B010 gives grain protected in visible husks. `و ص ي` B001 gives vegetation and land connected across tracts, while B004 gives pasture whose fit is disclosed by the grazing animal. `ص ل ح` B001–B003 supplies repair, care for an animal, and suitability to a recipient.
+
+**Participant map.** The process differentiates layered cloud as bearer, stored rain as load, rain-releasing cloud as medium, ground as receiver, husk as temporary enclosure, connected vegetation as transmission across land, grazer as beneficiary and assay of fit, and caretaker or plural worker as an agent of repair. No one role absorbs the others.
+
+**Before → resonance → after.** Before: the oath can name release from a rain-bearing sky. Resonance: general loss can include a yield that fails to reach land or beneficiary, while enclosure can either protect a stage or withhold access. After: the closing cloud supplies load-bearing accumulation retrospectively; reciprocal connection extends growth across boundaries; sound work cares for the relation; truth tests distribution and fit; patience holds toward future release rather than hoarding.
+
+Without this process, the synthesis loses a distinct downward and ecological force direction. A press acts inward on material; rain descends from a layered bearer; pasture is judged by another living participant's uptake. Turn 4 uses pasture as an assay and mentions rain only in a broad root list; it does not compose the causal water-and-growth system.
+
+### Protected concern, rival claim, wound, captive, requital, and reconciliation
+
+**Source locks and carriers.** `ح ق ق` B007 gives the protected precinct, banner, household ground, or concern one is bound to defend; B004 gives disputants each claiming the right; B009 gives the straight penetrating thrust. `ع م ل` B009 supplies the spear's working shaft. `ص ب ر` B002 supplies the human or living being immobilized for killing or compelled to swear; B012 supplies requital or execution in retaliation. `ص ل ح` B002 supplies reconciliation as removal of estrangement between people. The surface carriers run from `عَمِلُوا۟ ٱلصَّٰلِحَٰتِ` through both reciprocal counsel clauses.
+
+**Participant map.** A protected concern has a defender; a rival claim has an opposing claimant; the weapon has a force-bearing shaft and a target; captivity introduces a holder and immobilized human; requital introduces an injured side and an authority or actor who answers the injury; reconciliation requires the disputants as continuing participants rather than erased claims. Reciprocal counsel can rotate speech among them but does not guarantee equal power.
+
+**Before → resonance → after.** Before: purposive work can acquire an instrument and force direction. Resonance: right moves from protected concern to rival claims and potentially to penetrating enforcement; patience's shadow immobilizes the affected human and can extend into requital. After: `ٱلصَّٰلِحَٰتِ` can name deeds that change the operation from wound and retaliation toward repaired relation, while truth preserves the protected due and mutual patience restrains force without demanding that the injured party accept indefinite suspension.
+
+Without the complete sequence, the spear and captive body function only as an illustration of one-way delivery. The passage loses the social causes before penetration and the divergent consequences after it. Turn 4 carries shaft, thrust, captive, and reciprocal answerability, but protected concern, requital, and reconciliation are not composed into their causal process.
+
+### Oath, response, worked speech, and companionship
+
+**Source locks and carriers.** The direct oath frame and assertion precede `ءَامَنُوا۟`. `ء م ن` B003 supplies `آمين` as request for response; B002 supplies crediting the received report. `ء ن س` B003 supplies conversation, companionship, and the removal of estrangement; B006 supplies the inward self and intimate companion. `ع م ل` B002 supplies the working of mind, opinion, and speech. `ح ق ق` B010 supplies compact, well-woven speech, and B005 its confirmation. `و ص ي` B003 supplies reciprocal recommendation among the group.
+
+**Participant map.** The oath has a speaker and immediate hearer left unnamed. The response field requires a receiver who can assent or answer. Work introduces thinkers and makers of utterance. Companionship differentiates intimate access from group-wide address. The closing plural alternates as speaker and hearer, while outsiders or unnamed beneficiaries may remain beyond that circuit.
+
+**Before → resonance → after.** Before: a solemn declaration moves toward an unfilled hearer-position. Resonance: `ءَامَنُوا۟` receives and answers, then `عَمِلُوا۟` places action between reception and later speech. After: mind and speech are worked into compact formulations, and the doubled reciprocal verb turns answer into sustained conversation around two distinct contents. The movement is not echo but role-changing response.
+
+Without this process, the oath-to-mutual-voice transition remains formally asserted but lacks its social medium: companionship, intimacy, worked speech, and response. Turn 4 preserves the change in speech direction and the dangers of compelled attestation, but the `آمين` lock and the conversation apparatus are absent.
+
+## Recomposition implications
+
+- **Operation–product boundary lock.** Sharpen the existing pressure movement by making `عصارة` the exact return from opening press to closing bitter sap. The smallest operation is to reorganize the press and bodily-delivery material around that lock, not add a second liquid movement. The broad opening of “The press is completed only at the receiver” and the later reintroduction of bitter medicine can be compressed once the causal relation carries both.
+
+- **Reversed arrival circuit.** Insert the `جاءني` → `جئته` / `أتيته` direction change where the joined interval meets reciprocal action. This can replace the two generic treatments of late arrival in the joined-interval and convoy movements. No additional travel movement is required; the exact winter arrival gives the existing journey a stronger return.
+
+- **`النقض` against `وصل`.** Sharpen the governing joined-interval architecture with the central counter-operation and differentiated grammatical joints. The final enumerative account of separations—time from time, intention from effect, worker from wage, and so on—can be shortened because exact breakage and reconnection can bear more of that work.
+
+- **Human participant continuity.** Bring the literal `الإنسان` recurrences into the existing receiver/coercion distinction so that needy body, patient of repair, and captive remain one participant field. This can displace the broad root inventory in the second movement that lists pressure, rain, wind, refuge, and bodily processes without composing their participant roles.
+
+- **Response-position and cross-carrier recursion.** Sharpen the passage's early speech movement with `آمين`, `إذعان النفس للحق`, `بما يعمل به`, and truth's correspondence across belief, speech, and action. The role-assignment paragraph in the joined-interval movement can be compressed into this more exact evidence. The generic paragraph beginning “This interaction also reaches the oath” in the exactness movement is the clearest prose available for replacement by the oath–response–mutual-voice relation.
+
+- **Progressive argument structure and definiteness.** Add a compact formal account of the movement from located singular, to plural subject, to explicit object, to reciprocal agents/addressees with definite contents, while preserving coordination and perfect aspect. This should sharpen the opening orientation rather than become a separate movement. It can replace repeated explanatory statements that the group becomes active and that the reciprocal receiver is internal.
+
+- **Pressed medicine and unmeasured food.** Compose the short measure, heap sold without measure, stopper, dose, and responsive throat inside the operation–product apparatus. This warrants compression of the separate ledger and delivery explanations where both currently restate that receiver uptake matters. The ledger's wage and due relations should remain, since they supply participants the bodily process does not.
+
+- **Cloud–rain–growth process.** Retain this as a serious candidate for a compact independent movement because its medium, downward direction, temporal accumulation, living beneficiary, and backward cause are not exhausted by the press. If it enters recomposition, space can come from compressing repeated generic holding/release contrasts and the duplicated discussion of terrain and load-bearing across exactness and convoy; the convoy itself should not be removed.
+
+- **Conflict–reconciliation process.** Enlarge the existing exactness movement just enough to restore protected concern, rival claimant, requital, and reconciliation around shaft, wound, and captive. A new movement is unnecessary unless those roles cannot remain legible there. The abstract paragraph that currently turns the spear directly into “a claim” is available for displacement by the fuller causal sequence.
+
+- **Oath–response social apparatus.** Fuse this with the formal response-position recovery rather than granting it parallel treatment. Conversation, intimacy, worked speech, and mutual recommendation should make the change of voices concrete; the present general contrast between oath and compelled oath can be shortened once response and free return of address carry the distinction.
+
+The inherited eye/trace movement, convoy, beneficiary distinction, and refuge/prison distinction already retain unique passage work. Recomposition should not fund the recovered material by removing those transformations; it should recover space from broad inventories, repeated qualifications, and duplicated statements of pressure, pace, receiver uptake, and late arrival.
