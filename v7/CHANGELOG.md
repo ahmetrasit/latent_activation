@@ -1,5 +1,38 @@
 # V7 Prompt Changelog
 
+## V7.5.4
+
+- Resets the five semantic prompts to a shorter precision-first sequence while
+  retaining V7.5.3's brave whole-field projection, functional rotation, and
+  returned-consequence synthesis.
+- Activates a positioned surface lattice before lexical grouping: complete
+  line and passage boundaries, ordered ending sequences, morphology, syntax,
+  and changed grammatical roles remain available as distributed carriers.
+- Treats every independent assertion in `source_phrase_ar` as operative data,
+  including exact equations, definitions, event statements, negations, and
+  role conditions that can form circuits with the passage or other records.
+- Separates grammatical controller, semantic initiator, continuous referent,
+  endpoint, beneficiary, possessor, predicate, complement, and delayed
+  argument so semantic recomposition cannot transfer syntax between roles.
+- Makes each exact seed seek maximum concrete completion before broad thematic
+  merging. Distant facets may fill participant, instrument, target, recipient,
+  scale, counterforce, return, aftermath, or changed-state positions after
+  whole-field incorporation.
+- Adds participant and output continuation, cross-scale enactment, medium
+  rotation, condition-to-response trajectories, vacancy propagation, and
+  functional rotation as generative movements inside formation.
+- Places formations into interaction only after their precise operations are
+  recoverable, preventing a general direction, stability, custody, or access
+  theme from replacing a more exact role-complete mechanism.
+- Carries exact source circuits, ordered boundary carriers, cross-scale
+  operations, participant trajectories, and controller distinctions through
+  independent recomposition and the Turkish semantic master.
+- V7.5.3 passed S103 against full V3 and strongest-V7 semantics, but S112 lost
+  precise operations when exact source assertions and whole-passage boundary
+  carriers were not activated and when scale-bearing formations were merged
+  too early. V7.5.4 corrects cognition only; it adds no audit, validator,
+  regression gate, benchmark reminder, or passage-specific language.
+
 ## V7.5.3
 
 - Adds projective saturation as the governing cognitive movement across all
