@@ -1,5 +1,44 @@
 # V7 Prompt Changelog
 
+## V7.5.1
+
+- Keeps V7.5.0's distributed relational synthesis but makes its completion
+  scale-specific: every realization must enact the same verb-level change
+  through the same relational role pattern.
+- Prevents broad dimensions such as access, continuity, capacity, boundary,
+  force, or consequence from terminating formation before exact operations and
+  carrier subsets have matured.
+- Adds carrier re-entry: using one supplied facet in one formation consumes
+  neither the carrier nor its role, leaving all of its participants,
+  directions, outcomes, and relations available for independent formation.
+- Adds generative passes for surface-to-branch circuits, recurring concrete
+  entities with changed roles, latent argument positions, deliberately vacant
+  roles, and exact relays across distant carriers.
+- Makes opposed functions of one concrete configuration recruit the whole
+  field independently before their interaction is composed.
+- Treats distributed resonance as an additive overlay. A local realization may
+  simultaneously carry another operation or constellation, and both passage
+  changes survive recomposition and the Turkish semantic master.
+- Leaves Turns 1 and 3 semantically unchanged. The correction acts at recursive
+  maturation, fresh independent recomposition, and final semantic composition.
+
+## V7.5.0
+
+- Adds distributed relational resonance as a structural subtype for exact
+  transformations recurring across materially distinct media without a shared
+  literal scene or causal chain.
+- Makes provisional relations transitive across all five semantic turns and
+  carries named-open operational or structural formations through fresh
+  recomposition and the semantic master.
+- Prevents fresh synthesis from absorbing a distinct acquired transformation
+  merely because formations share carriers, roles, or structural links.
+- Removes the implicit preference for only a few governing mechanisms and lets
+  semantic length follow the number and depth of formed transformations.
+- Benchmarking exposed a remaining failure: broad distributed invariants could
+  still capture carriers and replace more exact operations, opposed outcomes,
+  and independently formed carrier subsets. V7.5.1 corrects that cognitive
+  behavior without adding audits or validators.
+
 ## V7.4.1
 
 - Freezes V7.4.0 Turns 1-5 as the production semantic baseline and forks only
