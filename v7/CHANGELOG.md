@@ -1,5 +1,36 @@
 # V7 Prompt Changelog
 
+## V7.5.2
+
+- Individuates every branch record into independently reusable semantic
+  microfacets before thematic grouping. Branch summaries no longer substitute
+  for concrete examples, technical relations, participant arrangements,
+  directions, or opposed outcomes contained in the full source prose.
+- Seeds exact surface-to-branch collisions before larger formation: lexical
+  prose that names, defines, reenacts, reverses, compels, or opposes a surface
+  word or grammatical act becomes its own provisional circuit.
+- Replays every recurring concrete entity and technical role-class through its
+  changed state, owner, direction, scale, instrument, and outcome so entity
+  relays form before broad mechanisms claim their carriers.
+- Develops both directions and outcomes of transitive, reversible, paired,
+  containing, measuring, comparative, and negated operations. Functional
+  vacancies can now reveal both what an absence exposes and what compromised
+  dependence it removes.
+- Adds complementary constraint constellations for materially different local
+  operations that jointly delimit one primary possibility-space without
+  requiring one literal scene or one verb-level invariant.
+- Adds directional interaction calculus: formations act on one another in both
+  directions, rephase through prerequisite, enactment, transfer, and aftermath,
+  and extend their consequences through later recipients and the wider
+  participant field.
+- Keeps every exact atomic circuit, relay, polarity, and constraint assembled
+  beneath broader recomposition and carries the connected relation into the
+  Turkish semantic master.
+- V7.5.1 benchmarking showed that scale-specific carrier re-entry solved broad
+  resonance capture but could still omit microfacets upstream and disperse
+  exact cross-root relations during formation. V7.5.2 changes the generative
+  cognition at Turns 1-5 without adding audits or validators.
+
 ## V7.5.1
 
 - Keeps V7.5.0's distributed relational synthesis but makes its completion
