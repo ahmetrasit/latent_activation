@@ -1,5 +1,53 @@
 # V7 Prompt Changelog
 
+## V7.5.7
+
+- Replaces V7.5.6's untyped all-facet/all-role Cartesian product with a typed
+  formation frontier. Every port retains its exact carrier, licensing source
+  assertion, participant or state identity, role, direction, polarity,
+  modality, voice, transition, scale, scope, and position.
+- Defines five generative edge families: exact circuit, identity-preserving
+  participant or state handoff, complete topology replay, surface binding, and
+  scaffold binding. These specify which relation exists; they do not estimate
+  strength, plausibility, importance, or eventual survival.
+- Requires every edge to preserve a directional source-port, transported-
+  payload, target-port mapping. Formal contact carries form and position;
+  topology replay carries invariant role correspondence and supplied parameter
+  changes; only an identity-bearing handoff carries an occupant into another
+  event.
+- Requires complete enactment of every generated edge before hierarchy or
+  composition. Remote and initially strange formations receive the same
+  recursive treatment as obvious ones; no formation is pruned or graded while
+  it is being made.
+- Preserves open roles without turning them into global sockets. Generic role
+  similarity, compatible object type, an imagined later actor, or an
+  unspecified return no longer manufactures a candidate edge.
+- Keeps participant/result continuation brave but identity-exact: continuation
+  follows discourse-occurrence identity, explicit coreference, asserted transformation
+  lineage, or a source relation that explicitly reverses roles or makes an
+  endpoint a later initiator.
+- Separates full-topology replay from event splicing. Heterogeneous
+  realizations can reveal a shared operation and every changed parameter, but
+  unmatched participants from different scenes cannot be assembled into a
+  third hybrid event without an independently supplied handoff.
+- Keeps every thematic, sensory, or material attraction active as an exhaustive
+  search direction while preventing attraction alone from assigning roles or
+  emitting ports. Every payload-preserving edge it exposes is still enacted to
+  completion.
+- Runs fixed-point recursion over newly emitted explicit ports and licensed
+  edges rather than every result against every topology. Negated participants
+  can structure absence and consequence but cannot emit products or later acts
+  that the supplied relation denies.
+- Carries the same typed closure through the fresh synthesis and post-draft
+  recomposition turns, preventing Agent 2 from independently recreating the
+  all-role cross-product after Agent 1 has been corrected.
+- Adds generic recovery of lexical base terms used inside attached, inflected,
+  or suffixed equation and definition terms while preserving the complete form
+  and its affix. Arbitrary substring generation remains prohibited.
+- The prompts contain no passage-specific finding, object class, regression
+  oracle, audit, validator, target-language rendering, TTS instruction, or
+  benchmark result.
+
 ## V7.5.6
 
 - Makes complete enactment precede every compositional decision. Production
