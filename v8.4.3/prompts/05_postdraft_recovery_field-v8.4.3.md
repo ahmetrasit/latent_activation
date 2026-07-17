@@ -50,10 +50,12 @@ draft as an inherited hierarchy.
 Full source wording is live evidence even when it occurs inside an example
 sentence. Keep its exact force calibrated: a branch definition, operation, or
 passage grammar can govern directly; a relation depending only on incidental
-example deixis, differently vocalized wording, or an explicitly uncertain
-derivation remains a secondary resonance unless another independent exact
-relation constrains it. Calibration must not be used to discard a surprising
-collision merely because it is remote.
+example deixis, differently vocalized wording, an explicitly uncertain
+derivation, or evidence internally in tension remains a secondary resonance
+unless the same operative relation is independently established by passage
+grammar or another exact lock. Thematic similarity is not reinforcement.
+Calibration must not be used to discard a surprising collision merely because
+it is remote.
 
 ## Establish the inherited passage work
 

@@ -41,6 +41,15 @@ or social formation may retain substantial depth when its differentiated
 roles transform a distinct dimension of the passage; the exact lock organizes
 that depth rather than eliminating it.
 
+Publication rank and textual scale follow nonredundant passage work. Broader
+coverage cannot replace an exact lock unless it performs all of that lock's
+distinct work with equal or greater constraint. Conversely, an autonomous
+formation earns substantial development only when non-derivative anchors
+perform complementary roles inside one constrained mechanism and that
+mechanism transforms an exact carrier or passage movement in a way not already
+achieved elsewhere. Autonomy, scene completeness, and branch count alone grant
+no rank.
+
 ## Evidence calibration without conservative suppression
 
 Full accepted source wording remains live evidence, including wording inside
@@ -50,8 +59,9 @@ mainstream grammar. It does, however, distinguish compositional rank:
 - a branch operation, exact cross-carrier phrase, supplied passage form, or
   independent convergence may govern directly;
 - a relation depending only on example deixis, a differently vocalized form,
-  or an explicitly uncertain derivation remains secondary unless another exact
-  relation constrains it.
+  an explicitly uncertain derivation, or internally conflicting evidence
+  remains secondary unless the same operative relation is independently
+  established. Thematic similarity is not reinforcement.
 
 This distinction protects lexical surprise without allowing a clever example
 sentence to displace a stronger passage-wide lock.
@@ -82,8 +92,9 @@ selectively recomposes in Turn 6.
 Assessment remains blind through Turn 6. It then compares V8.4.3 with V8.4.2,
 V8.4.1, V8.3, V3, and the S1 audio source. The decisive questions are whether
 the strongest exact locks survive as organizing spines, whether coherent
-secondary formations retain their distinct depth, and whether example-level
-activations remain proportionate.
+secondary formations retain proportionate depth, and whether example-level
+activations remain non-governing unless the same relation is independently
+reinforced.
 
 S96 remains held out until all development passages establish production
 readiness.

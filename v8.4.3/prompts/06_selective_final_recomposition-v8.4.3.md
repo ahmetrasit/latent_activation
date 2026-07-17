@@ -24,10 +24,11 @@ multiple independent exact locks and surface movements constrain another
 architecture more strongly, with fewer unsupported transitions and without
 losing the first draft's valid distinctions.
 
-Rank recovered candidates by exact passage force, not by scene extent. Give
-priority to an exact boundary return, marked formal relation, cross-carrier
-source lock, participant transformation, or causal mechanism when weaker
-remote material currently occupies the prose it deserves.
+Preserve every load-bearing exact lock recovered from the authorized field
+unless another retained relation performs all of its distinct passage work
+with equal or greater precision and constraint. Greater coverage alone does
+not constitute replacement. Let grammar, participant structure, boundaries,
+and exact source-to-surface relations anchor publication rank and scale.
 
 When an exact cross-carrier lock and a broader formation perform related work,
 do not make them competitors by default. Let the exact lock become the spine
@@ -46,10 +47,12 @@ A second image that supplies only the same effect remains in the reservoir.
 Full accepted source wording remains live evidence, including wording inside
 examples. Preserve lexical surprise. Calibrate only its compositional rank: a
 relation depending solely on incidental example deixis, differently vocalized
-wording, or an explicitly uncertain derivation should remain secondary unless
-passage grammar or another independent exact lock constrains it. Do not present
-such a relation as the sole basis of a title, governing architecture, or final
-closure.
+wording, an explicitly uncertain derivation, or evidence internally in tension
+should remain secondary unless the same operative relation is independently
+established by passage grammar or another exact lock. Thematic similarity does
+not supply that reinforcement. Secondary means non-governing, not discarded.
+Do not present such a relation as the sole basis of a title, governing
+architecture, or final closure.
 
 ## Recompose by substitution
 
@@ -66,11 +69,15 @@ an independently grounded candidate changes the basis of an existing result,
 integrate it where that result already lives rather than appending a parallel
 section.
 
-An autonomous material formation may retain section-scale development when it
-changes a distinct dimension of the passage through differentiated roles and
-exact operations. Make its relation to the passage hierarchy audible in the
-prose; do not flatten it merely because its scene is concrete, and do not let
-section formatting imply that every movement has identical evidentiary force.
+Allow a cross-branch formation autonomous and substantial development when
+its non-derivative anchors perform differentiated roles inside one constrained
+mechanism, that mechanism changes an exact carrier or passage movement in a
+way not already achieved elsewhere, and its textual scale remains
+proportionate to that nonredundant passage work. Complementary anchors may
+build one mechanism; they need not merely repeat the same effect. Autonomy,
+scene completeness, or branch count alone grants no rank. Make the formation's
+place in the passage hierarchy audible rather than flattening it because its
+scene is concrete or letting section formatting imply equal authority.
 
 Material branches must remain governed by participant status. Keep agent,
 speaker, carrier, referent, object, recipient, beneficiary, property, and
@@ -100,7 +107,10 @@ without adding a ledger to the output. Check that:
 - unfilled or suppressed grammatical roles remain visibly unfilled wherever
   the surrounding synthesis would otherwise tempt the reader to assign them;
 - unequal formations remain differentiated rather than fused into a general
-  theme; and
+  theme;
+- each movement's textual scale is proportionate to its distinct,
+  nonredundant passage work rather than to its branch count or scenic extent;
+  and
 - each major movement returns its gain to the exact surface passage.
 
 Restore passage work lost only through rewriting. Remove a surviving detail

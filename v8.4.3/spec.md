@@ -15,7 +15,8 @@ boundaries, and Turn 1–4 semantics. The versioned copies in
 `v8.4.3/prompts/` keep those semantics unchanged. It preserves V8.4.2's
 two-turn recovery/recomposition boundary. Turn 5 adds an exact-carrier
 collision traversal before inherited-draft ranking; Turn 6 makes exact locks
-the spines of broader mechanisms and calibrates source-example evidence without
+the spines of broader mechanisms, assigns publication rank and scale by
+nonredundant passage work, and calibrates source-example evidence without
 suppressing it.
 
 Every newly spawned production agent must use these exact settings when the
