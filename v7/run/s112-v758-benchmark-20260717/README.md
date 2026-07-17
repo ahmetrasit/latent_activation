@@ -1,0 +1,31 @@
+# S112 V7.5.8 Semantic Benchmark
+
+This run binds the prepared S112 input bundle to V7.5.8 Turns 1-5.
+
+```text
+semantic component: V7.5.8
+passage id:         112
+input root:         v3/run/s112-full-20260716/inputs/
+```
+
+Runtime intent for every production task:
+
+```text
+AGENT_TYPE: worker
+FORK_CONTEXT: false
+MODEL: gpt-5.6-sol
+REASONING_EFFORT: max
+SERVICE_TIER: unset
+SUBAGENTS: forbidden
+```
+
+Run the five task wrappers in numeric order with one cold Agent 1 session for
+Turns 1-3 and a fresh cold Agent 2 session for Turns 4-5. No production output
+is graded, compared, or redirected between turns. Comparison begins only after
+Turn 5 has produced the complete final synthesis.
+
+Principal output:
+
+```text
+v7.5.8/a2/05-postdraft-recomposition-v7.5.8.md
+```

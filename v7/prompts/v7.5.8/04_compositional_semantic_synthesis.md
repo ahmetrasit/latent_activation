@@ -20,11 +20,14 @@ movement.
 Maintain two coupled but noninterchangeable relation layers. The occupancy
 layer carries exact participants, entities, materials, states, results, and
 event occurrences only through identity, coreference, asserted lineage, or an
-exact binding of that same occupant. The coalition layer carries complete local
-tuples and structural constellations through topology, content or role
-succession, controller change, vacancy mechanism, ordered formal relation, and
-other explicitly supplied relational payloads. A coalition may become a
-complete distributed architecture without making its local events one event.
+exact binding of that same occupant. Content and role schemas are separate
+typed payloads: they move only when a target tuple enacts the exact schema,
+always creating a distinct occurrence whose local fields come from that target.
+Topology alone cannot enact them. The coalition layer carries complete local
+tuples and structural constellations through topology, controller change,
+vacancy mechanism, ordered formal relation, and other supplied relational
+payloads. A coalition may become a complete distributed architecture without
+making its local events one event.
 
 Before opening the formation artifacts, read the exact passage, positioned
 morphology, syntax, complete branch prose, and primary scaffold for yourself.
@@ -74,11 +77,18 @@ relation, content schema, repeatable role, controller map, vacancy mechanism,
 exact contact, ordered pattern, and formal consequence. Generate and fully
 enact every relation defined above. A generic role or compatible object does
 not fill an occupancy port, but every complete tuple still enters exhaustive
-coalition comparison.
+coalition comparison. Emit a coalition only from a non-generic relational
+invariant or explicit interface: an exact form or relation, a source-produced
+content or role schema accepted by another tuple, a specifically named non-
+universal class inside its local operation, an explicit parameter
+transformation, a matching vacancy consequence, or an indexed surface or
+scaffold alignment. Shared arity, generic role labels, broad direction,
+participant class, or generic state change alone emits no coalition.
 
 For every relation, reconstruct `source node -> relation type and payload ->
 target node`. Formal recurrence or containment carries form and position only.
-Content or role re-instantiation creates a fresh occurrence and controller.
+Content or role re-instantiation creates a fresh occurrence whose accepting
+tuple supplies its controller and all other local fields.
 Topology coalition carries invariant role correspondence and parameter changes
 but no occupant. Bare adjacency or parallelism is positional. Only an identity-
 bearing handoff or exact binding of the same participant or state transports
@@ -88,9 +98,13 @@ Enact heterogeneous realizations separately before relating them. Shared
 topology carries only arity, role correspondence, direction, polarity, state
 transition, and explicit parameter changes; it never erases local nouns, verbs,
 material, agency, scale, or outcome and never splices unmatched roles into a
-hybrid scene. Chain every coalition whose adjacent interfaces share a complete
-relational payload. Continue until the entire occupancy and coalition field has
-been enacted and a full pass generates no new port, occurrence, interface,
+hybrid scene. Preserve every realization's complete parameter vector atomically
+and derive deltas only among actual vectors; never manufacture an unseen
+realization by recombining parameter values from different tuples. Chain every
+coalition whose adjacent interfaces share a complete relational payload, while
+keeping each node limited to the interfaces mapped by its constituent links.
+Continue until the entire occupancy and coalition field has been enacted and a
+full pass generates no new port, occurrence, interface,
 mapping, counterfield, vacancy consequence, formal pattern, primary
 transformation, or backward return.
 
@@ -136,10 +150,13 @@ architecture and parameter transformation. A composed passage movement may
 traverse both layers, but never treat a coalition as participant handoff or
 silently convert an actable continuation into a performed one.
 
-The formation reservoir remains complete beyond this artifact. When a
-completed formation has already given all of its passage work through another
-movement, do not repeat it as an autonomous chapter merely to prove its
-preservation. This is compositional compression, not rejection or downgrading.
+The formation reservoir remains complete beyond this artifact. Omit autonomous
+repetition only when the existing movement preserves the same primary carrier,
+source route, controller and participant structure, vacancy consequence,
+causal, temporal, material, and formal mechanism, and backward effect. Otherwise
+retain the distinct transformation, though its prose may be interwoven rather
+than given an autonomous chapter. This is compositional compression, not
+rejection or downgrading.
 
 Independent convergence is not redundant. When two formations reach a primary
 transformation through different exact source phrases, participants, causal
@@ -164,10 +181,12 @@ confidence judgment.
 
 ## Exact locks and differentiated relations
 
-Every substantial movement must expose its lexical lock inside living prose:
-the Arabic surface carrier, the decisive supplied phrase or facet, the roles it
-provides, and the primary relation it changes. Do not append lexical evidence
-after a thematic claim. Let the exact recognition generate the movement.
+Every substantial movement must expose its exact lock inside living prose. The
+lock may be lexical, morphological, syntactic, grammatical, surface-formal, or
+scaffold-relational as the formation supplies. Make its exact carrier or
+carrier set, decisive phrase, form, position, relation, or pattern, and changed
+primary relation perceptible. Do not append evidence after a thematic claim.
+Let the exact recognition generate the movement.
 
 When a supplied description literally recalls another surface word, preserve
 the complete circuit and enact what each endpoint supplies. A definition can
@@ -198,8 +217,11 @@ through the same primary carrier; that convergence changes the primary
 relation and does not by itself manufacture a new secondary event.
 
 After the semantic movement has formed, reread the passage independently as an
-arranged utterance. Derive every complete count and grouping vector before
-consulting the emerging prose hierarchy. Inspect opening and closing, ordinal
+arranged utterance. Derive every complete count and grouping vector for the
+actual supplied line, clause, syntactic, morphological, and passage units before
+consulting the emerging prose hierarchy. Use complete positioned carrier sets
+and real unit boundaries, not arbitrary subsets or regroupings. Inspect opening
+and closing, ordinal
 position, adjacency, recurrence, alternation, enclosure, symmetry, asymmetry,
 delayed completion, voice, case, polarity, aspect, participant rotation, and
 boundary sounds. Bind each indexed position to the exact lexical, grammatical,

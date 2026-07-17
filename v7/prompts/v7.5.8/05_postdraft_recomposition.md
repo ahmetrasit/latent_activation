@@ -13,7 +13,7 @@ remembered analysis.
 Turn 4 is a complete first composition. Do not grade it, audit it, score its
 formations, or estimate their strength. This turn begins only after that
 complete synthesis exists. Its work is fresh discovery through composition and
-full recomposition, not correction by a benchmark.
+full recomposition, not correction by an external target.
 
 ## Re-enter as a reader
 
@@ -25,8 +25,10 @@ architecture, and backward return.
 Do not rebuild from zero merely to display independence. Treat the draft's
 architecture as a starting state, not a constraint. Make no preservation,
 compression, or recentering decision until all three silent movements are complete.
-Then preserve, narrow, redistribute, subordinate, enlarge, or replace any
-governing relation according to the completed field.
+Then reorganize, narrow, redistribute, subordinate, enlarge, or replace the
+draft's governing prose architecture according to the completed field, while
+never narrowing away a distinct completed primary-transformation route.
+Reorganization concerns rhetorical hierarchy, not semantic preservation.
 
 Before revising, make three separate silent attentional movements. Complete
 each movement fully. Do not blend them, compare their likely value, or begin
@@ -50,6 +52,10 @@ identities, controller map, states, results, content schemas, repeatable roles,
 and typed occupancy ports. Generate and fully enact every exact circuit,
 identity-preserving handoff, content or role re-instantiation, surface binding,
 and primary occupancy binding before consulting the draft's organization.
+Re-instantiation carries only a source-produced exact content or role schema
+into an accepting tuple. That tuple supplies the distinct occurrence's
+controller, carrier, medium, participants, states, and results; an unspecified
+position remains unspecified.
 
 For every connected operation, preserve its exact carriers, differentiated
 local participants, relation types, controller, direction, transformation,
@@ -81,6 +87,17 @@ every controller, consent, voice, polarity, direction, medium, scale, state,
 outcome, vacancy, temporal, or positional transformation. No shared occupant is
 required for a coalition, and no coalition transports one.
 
+Emit a coalition only from a non-generic relational invariant or explicit
+interface: an exact form or relation, a source-produced content or role schema
+accepted by another tuple, a specifically named non-universal class inside its
+local operation, an explicit parameter transformation, a matching vacancy
+consequence, or an indexed surface or scaffold alignment. Shared arity, generic
+role labels, broad direction, participant class, or generic state change alone
+emits no coalition. Once emitted, expand the mapping maximally. Preserve each
+actual tuple's full parameter vector; relate actual vectors without constructing
+an unseen realization from parameter values taken from different tuples. A
+coalition node exposes only the interfaces mapped by its constituent links.
+
 Begin again from coalitions split across the draft's sections, topology replays
 that stopped after naming an invariant, role or content continuations left
 merely possible despite a supplied later occurrence, controller contrasts
@@ -101,10 +118,13 @@ counterfield, vacancy consequence, primary transformation, or return.
 Now place the draft's semantic architecture, marginal operations, and
 coalitional formations into the background. Reread the raw passage as an
 arranged utterance from beginning to end. Derive every complete count and
-grouping vector. Attend freshly to opening and closing, ordinal position,
-adjacency, recurrence, alternation, enclosure, symmetry, asymmetry, delayed
-completion, voice, case, polarity, aspect, person, number, participant rotation,
-government, attachment, boundary sound, and ordered carrier sets.
+grouping vector for the actual supplied line, clause, syntactic, morphological,
+and passage units. Use their complete positioned carrier sets and real
+boundaries, not arbitrary subsets or regroupings. Attend freshly to opening and
+closing, ordinal position, adjacency, recurrence, alternation, enclosure,
+symmetry, asymmetry, delayed completion, voice, case, polarity, aspect, person,
+number, participant rotation, government, attachment, boundary sound, and
+ordered carrier sets.
 
 Return to every exact source assertion without limiting attention to relations
 already named in any formation artifact. Compare explicitly supplied forms and
@@ -160,9 +180,10 @@ Bring a completed formation into the essay through every exact primary work its
 operation or relation performs. Trace the connected path from its exact primary
 carrier through the formation and back to the same or another exact primary
 relation. Occupancy edges transport occupants or states; content or role
-re-instantiation creates a new occurrence; coalition links transport relational
-architecture and changed parameters; formal links transport position and
-pattern. Do not give a formation an autonomous chapter merely because its
+re-instantiation creates a new occurrence whose accepting tuple supplies every
+local field; coalition links transport relational architecture and changed
+parameters; formal links transport position and pattern. Do not give a
+formation an autonomous chapter merely because its
 internal roles are complete. Formation completeness belongs to discovery; in
 composition, its work stays audible inside the primary carrier, relation, or
 formal movement it deepens or redirects.
@@ -187,12 +208,11 @@ coequal sections.
 Preserve the distinction among a completed surface act, a source-supplied role
 or carrier succession, an actable but unperformed continuation, an asserted
 participant or state handoff, and an asserted downstream result. A coalition
-can carry the full force of a distributed process, route, apparatus, custody
-system, bodily geometry, temporal mechanism, or social architecture without
+can carry the full force of a distributed mechanism or architecture without
 rewriting its local events as one literal scene.
 
-Preserve exact lexical locks already formed unless the completed rereading
-changes their internal relation. Keep grammatical controller, initiator,
+Preserve exact locks already formed unless the completed rereading changes
+their internal relation. Keep grammatical controller, initiator,
 referent, affected participant, addressee, beneficiary, possessor, complement,
 predicate, and delayed argument distinct. Let later grammar and passage form
 constrain what earlier lexical possibilities perform.

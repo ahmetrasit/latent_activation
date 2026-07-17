@@ -1,5 +1,55 @@
 # V7 Prompt Changelog
 
+## V7.5.8
+
+- Splits formation into two coupled layers. The occupancy layer continues a
+  participant, entity, material, state, result, or literal event only through
+  exact identity, coreference, asserted lineage, or exact binding of that same
+  occupant. The coalition layer composes complete local tuples without moving
+  their occupants.
+- Distinguishes six kinds of recurrence that V7.5.7 had treated too uniformly:
+  occupant continuity, content re-instantiation, role re-instantiation,
+  topology recurrence, vacancy recurrence, and formal recurrence. Each carries
+  a different payload and produces a different kind of continuation.
+- Expands the formation operators to exact circuits, occupant or state
+  handoffs, content or role re-instantiation under a supplied accepting tuple,
+  complete-tuple topology coalitions, changed-controller counterfields,
+  vacancy-mechanism comparisons, formal ordered patterns, surface binding, and
+  primary-scaffold binding.
+- Makes pairwise search exhaustive without returning to V7.5.6's Cartesian
+  role filling. A coalition is emitted only by a non-generic relational
+  invariant or recorded interface; generic arity, role labels, broad direction,
+  participant class, or state change remains an active search cue but cannot
+  manufacture a coalition.
+- Keeps an initially slight exact or whole-topology attraction active through
+  complete recursive enactment. Structural emission rules define relation
+  type, not strength, plausibility, confidence, importance, or survival.
+- Canonicalizes coalition nodes by member tuples and mapped payload. Membership
+  never globalizes all member interfaces, and every local tuple retains its
+  atomic controller, voice, polarity, modality, medium, scale, state, and
+  outcome vector rather than contributing parameters to a hybrid realization.
+- Restricts content and role re-instantiation to an exact source-produced
+  schema enacted by a supplied accepting tuple. The target supplies the new
+  occurrence's controller and other local fields; unspecified positions remain
+  unspecified, and actable content is not silently converted into performance.
+- Anchors formal vectors to actual supplied line, clause, syntactic,
+  morphological, and passage units. Complete counts, ordinals, recurrences,
+  contrasts, enclosures, and symmetries mature freely without enumerating
+  arbitrary subsets or regroupings.
+- Carries complete operations, structural constellations, and distributed
+  coalitions through primary-transformation bindings. A formation can change a
+  primary relation without placing a secondary occupant inside it.
+- Makes Turns 4 and 5 compositionally lossless for orthogonal primary
+  transformations. Distinct controller, participant, vacancy, causal,
+  material, temporal, formal, and backward-return routes remain active even
+  when prose interweaves them under an unequal hierarchy.
+- Gives post-draft recomposition three independent movements: local semantic
+  rereading, coalitional rereading, and formal rereading. All three complete
+  before any rhetorical preservation, compression, or recentering decision.
+- The prompts contain no passage-specific finding, object taxonomy, regression
+  oracle, validator, target-language rendering, TTS instruction, or benchmark
+  result.
+
 ## V7.5.7
 
 - Replaces V7.5.6's untyped all-facet/all-role Cartesian product with a typed

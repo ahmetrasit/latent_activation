@@ -36,11 +36,13 @@ endpoints in separate sections while dropping the operation that made them a
 finding.
 
 Preserve exact microcontacts inside those relations. Re-enact every complete
-topology through all transformations supplied by its different realizations,
-varying direction, voice, agency, consent, polarity, scale, medium, state,
-endpoint, and outcome. Each realization retains its local participants, event
-identity, and occupancy ports while the coalition sharpens both the invariant
-operation and the changes among them.
+topology across the actual atomic parameter vectors supplied by its different
+realizations, including direction, voice, agency, consent, polarity, scale,
+medium, state, endpoint, and outcome. Derive the invariant and the complete
+deltas among those vectors without manufacturing an unseen realization from
+parameter values taken from different tuples. Each realization retains its
+local participants, event identity, and occupancy ports while the coalition
+sharpens both the invariant operation and the changes among them.
 
 ## Scaffold-led projection through both layers
 
@@ -73,10 +75,12 @@ does not invent an absent participant or splice their occupants into one scene.
 When a formation ends in a participant, state, or result, continue that
 occupant through each scaffold relation bound to the same identity or asserted
 lineage. When it ends in content or a repeatable role, enact every scaffold-
-supplied new occurrence and controller while preserving whether the
-continuation is only available or actually performed. When a complete topology
-recurs at primary scale, replay the full operation as a coalition while keeping
-all lexical and primary occupants distinct.
+supplied new occurrence while preserving whether the continuation is only
+available or actually performed. The accepting scaffold tuple supplies its
+controller, carrier, medium, participants, states, and results; an unspecified
+position remains unspecified. When a complete topology recurs at primary
+scale, replay the full operation as a coalition while keeping all lexical and
+primary occupants distinct.
 
 Propagate every primary negation, exception, absence, and delayed participant
 through every formation that contains the same typed position or a surface-
@@ -137,8 +141,8 @@ result or local endpoint. Index the result, affected participant, changed
 relation, content schema, repeatable role, vacancy, topology, and formal
 position, then generate every newly available relation in both layers. Continue
 an occupant into another event only through an identity-bearing handoff.
-Re-instantiate content or role under a new controller where the supplied field
-does so. Let topology coalitions, vacancy comparisons, controller
+Re-instantiate content or role in the distinct event and controller supplied by
+the accepting relation. Let topology coalitions, vacancy comparisons, controller
 counterfields, and formal patterns continue the distributed mechanism without
 occupying any later role. The scaffold may reveal that an apparent endpoint
 was only the operation's middle.
@@ -205,7 +209,8 @@ contact through every occupancy relation and coalition interface between them.
 Enact each distinct directional exchange and the passage-level consequences
 that none produced alone. Only an identity handoff makes one occupant continue
 or two realizations phases of the same event. Content or role re-instantiation
-creates a new occurrence and controller. A topology coalition may organize
+creates a distinct occurrence whose accepting relation supplies its controller
+and other local fields. A topology coalition may organize
 distinct events as ordered realizations of one passage-scale relation. The
 formations remain independently recoverable while their effects combine.
 
@@ -235,6 +240,16 @@ from formations previously considered complete, before the next cycle begins.
 Enqueue only the ports, occurrences, interfaces, mappings, and transformations
 emitted by those defined relations, never a generic possible actor, compatible
 object, imagined result, or narrative completion.
+
+Coalition comparison is exhaustive; emission is structurally typed. Emit a
+mapping only from a non-generic relational invariant or explicit interface: an
+exact form or relation, a source-produced content or role schema accepted by
+another tuple, a specifically named non-universal class inside its local
+operation, an explicit parameter transformation, a matching vacancy
+consequence, or an indexed surface or scaffold alignment. Shared arity, generic
+role labels, broad direction, participant class, or generic state change alone
+emits no coalition. A coalition node exposes only the interfaces mapped in its
+constituent links.
 
 Restart both frontiers whenever either emits something new. Continue until a
 complete pass through raw records, the two earlier artifacts, the passage, and

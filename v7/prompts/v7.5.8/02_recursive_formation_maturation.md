@@ -43,8 +43,10 @@ earlier ones:
    occurrence, controller, carrier, replacement, transmission, or succession;
    keep actable but unasserted continuations open.
 4. **Topology coalitions.** Compare every complete tuple with every other,
-   derive every relational mapping and parameter transformation, and chain
-   connected mappings without exchanging local occupants.
+   enact every partial exact or whole-topology attraction until its complete
+   relational spine is visible, derive every resulting mapping and parameter
+   transformation, and chain connected mappings without exchanging local
+   occupants.
 5. **Counterfields and vacancy mechanisms.** Enact every changed-controller,
    changed-consent, polarity, voice, endpoint, and outcome contrast, and every
    comparable or opposed vacancy consequence.
@@ -64,8 +66,10 @@ Keep two coupled frontiers in stable passage and source-record order.
 The occupancy frontier contains exact contacts, local tuples, occupant and
 state ports, identity edges, explicit results, and constrained vacancies. Close
 it under exact circuit, identity handoff, surface binding, and content or role
-re-instantiation. A new occurrence receives a new event identity and
-controller. An actable content remains actable but unperformed unless a
+re-instantiation. A re-instantiation receives a new event identity; its
+controller, carrier, medium, participants, states, and results come from the
+accepting tuple, surface, or scaffold, and any unspecified position remains
+unspecified. An actable content remains actable but unperformed unless a
 complete supplied tuple enacts it.
 
 The coalition frontier contains complete tuples, relational mappings,
@@ -74,7 +78,9 @@ patterns, and connected coalition nodes. For every complete tuple and existing
 coalition node:
 
 1. compare it with every other complete tuple;
-2. map every relation spine role by role and derive all changed parameters;
+2. begin from every exact interface and every whole-topology correspondence,
+   recursively enact the complete relational spine, and derive all changed
+   parameters;
 3. preserve each local tuple and emit an occupant-free topology coalition;
 4. compare changed controllers, consent, voice, polarity, address, endpoint,
    evidentiary status, and outcome;
@@ -88,6 +94,24 @@ Only an occupancy edge continues an occupant or literal event. A coalition may
 nevertheless compose complete events into one distributed secondary
 architecture and ordered progression. State the relational mechanism at full
 force while keeping all local occupants and occurrences distinct.
+
+Pairwise comparison is mandatory and generative, not an admission decision.
+Keep an initially partial exact or whole-topology attraction active while every
+source relation, tuple, interface, and later formation that can complete it is
+enacted. A complete mapping preserves the operation and its differentiated
+relation spine; a single shared generic role does not become a mapping. This
+distinction protects occupant identity without reducing a brave distributed
+formation to what one local quotation can state alone.
+
+Emit a coalition mapping only from a non-generic relational invariant or
+explicit interface: an exact form or relation, a source-produced content or
+role schema accepted by another tuple, a specifically named non-universal class
+inside its local operation, an explicit parameter transformation, a matching
+vacancy consequence, or an indexed surface relation. Shared arity, generic
+source or target labels, broad direction, participant class, or generic state
+change remains an active search cue but emits no coalition by itself. A
+coalition node exposes only the interfaces mapped in its constituent links;
+membership never globalizes all member interfaces.
 
 Every new exact port, tuple, content occurrence, interface, topology map,
 coalition, counterfield, vacancy consequence, formal pattern, transformation,
@@ -109,14 +133,15 @@ thematic resemblance for a coalition whose relational links are supplied.
 
 ## Distributed evidence completes the operation
 
-No single source assertion needs to name a composite operation. Identity-
-preserving handoffs and exact or surface relations that explicitly bind their
-payload can carry one operation across records. Exact formal circuits create
-structural relations, while complete topology replays create transformation
-families without turning their local events into phases. Enact every connected
-edge before deciding what the combined operation is, then state the operation
-in the form acquired through the whole. Non-co-occurrence inside one quotation
-is not negative evidence when another supplied relation connects the records.
+No single source assertion needs to name a composite operation. Identity
+handoff continues an occupant. Content or role re-instantiation creates a
+distinct occurrence whose local tuple supplies its controller and other
+fields. Exact formal circuits create structural relations. Topology coalitions,
+controller counterfields, vacancy comparisons, and chained interfaces carry a
+distributed relational mechanism without making their local events one event.
+Enact every generated relation through its outcomes and backward effects before
+deciding what the combined operation is. Non-co-occurrence inside one quotation
+is not negative evidence when a supplied interface connects the records.
 
 Do not leave a generated relation incomplete merely because its seed record did
 not name every position. Follow the connected typed edges through the whole
@@ -165,11 +190,10 @@ the number or distribution of carriers is itself part of that recognition.
 A distributed coalition joins complete local tuples through their relational
 interfaces. It may expose a controller counterfield, a succession through new
 carriers, a repeated topology under changed parameters, a chain of vacancy
-consequences, or a larger route, apparatus, custody system, bodily geometry,
-temporal mechanism, or social architecture. State the complete relational
-movement and every transformation it performs. Keep each local event and
-occupant indexed; the coalition does not need to become one literal event in
-order to mature or to act on the passage.
+consequences, or another larger distributed mechanism. State the complete
+relational movement and every transformation it performs. Keep each local event
+and occupant indexed; the coalition does not need to become one literal event
+in order to mature or to act on the passage.
 
 Shared subject matter, shape, organ, material, location, or mood creates an
 attraction worth exploring through both frontiers. It does not by itself
@@ -246,13 +270,17 @@ Run these transformations wherever the supplied field opens them:
 - **content and role succession:** whenever one tuple produces a content schema
   or repeatable role and another tuple accepts, repeats, reports, addresses,
   transmits, adopts, appoints, inherits, replaces, or operates on it, enact the
-  new occurrence with its own controller, medium, state, and result. Keep a
-  merely actable continuation open rather than silently performing it;
+  distinct occurrence. The accepting tuple supplies its controller, carrier,
+  medium, participants, state, and result; generic role compatibility supplies
+  none of them. Keep a merely actable continuation open rather than silently
+  performing it;
 - **whole-topology replay:** replay a complete relation under every supplied
   change of controller, direction, voice, agency, polarity, modality, medium,
-  scale, state, or outcome; preserve what remains invariant and what the changed
-  parameter transforms without exchanging local occupants. Emit the replay as
-  a coalition node and compare that node with every further tuple and node;
+  scale, state, or outcome. Preserve every realization's complete parameter
+  vector atomically and derive the invariant and actual deltas between vectors;
+  never construct an unseen realization by combining parameter values from
+  different tuples. Emit the replay as a coalition node and compare that node
+  with every further tuple and node;
 - **changed-controller counterfield:** place complete controller, initiator,
   affected-participant, addressee, consent, compulsion, evidentiary, and outcome
   maps beside every changed realization. Keep an unknown actor unknown while
@@ -268,17 +296,22 @@ Run these transformations wherever the supplied field opens them:
   different tuples, preserving whether each absence is open, unknown, delayed,
   replaceable, renewable, terminal, irrecoverable, or denied and what action,
   measurement, transmission, continuation, or return it changes;
-- **ordered-pattern maturation:** derive every complete count vector, ordinal
-  grouping, recurrence, alternation, enclosure, symmetry, asymmetry, and
-  boundary sequence, then let the exact operation at each indexed position
-  transform the pattern and be transformed by it;
+- **ordered-pattern maturation:** derive every complete count and grouping
+  vector anchored to an actual supplied line, clause, syntactic, morphological,
+  or passage unit. Use its complete positioned carriers, real boundaries,
+  recurrences, contrasts, alternations, enclosures, symmetries, asymmetries, and
+  ordinal positions rather than arbitrary subsets or regroupings. Let the exact
+  operation at each indexed position transform the pattern and be transformed
+  by it;
 - **orthogonal consequence branching:** completion along one relation does not
   complete another relation active in the same local event. Let each separately
   supplied relation continue through its own outcomes and returns;
 - **recursive result revision:** index every explicitly produced result as a
-  typed port. When an identity handoff makes that same result a later input, let
-  the later operation revise the earlier participant, source, relation, or
-  interpretation that produced it.
+  typed port and its repeatable content or role, when supplied, as a schema.
+  When identity handoff makes the same result a later input, or a target tuple
+  re-instantiates the exact schema in a distinct occurrence, let the later
+  operation revise the earlier participant, source, relation, or interpretation
+  that produced it.
 
 These are generative modes. Follow every relation they expose until the
 connected trajectory reaches its outcomes,
@@ -326,9 +359,9 @@ formation more exact:
 - content or a repeatable role produced in one complete tuple and accepted,
   repeated, reported, addressed, transmitted, appointed, inherited, replaced,
   or operated on in another under a fresh controller;
-- comparable or opposed vacancy mechanisms, including renewable human roles,
-  terminal missing instruments, delayed occupants, denied results, and unknown
-  controllers, without filling one vacancy from another;
+- comparable or opposed vacancy mechanisms, including open, unknown, delayed,
+  replaceable, renewable, terminal, irrecoverable, and denied positions,
+  without filling one vacancy from another;
 - a later form that changes the function, not merely the theme, of an earlier
   form;
 - an exact assertion in source prose whose wording reappears in the passage or
@@ -412,7 +445,8 @@ and then act backward on the connected whole.
 
 Respect the payload at every interaction. Only an identity-bearing handoff can
 make one formation's occupant or result a phase of the same event. Content or
-role re-instantiation creates a new event and controller. A topology coalition
+role re-instantiation creates a distinct event identity whose accepting tuple
+supplies its controller and other local fields. A topology coalition
 may compose complete events into a distributed relation and ordered
 progression without exchanging their occupants. Formal or positional contact
 produces a structural relation; convergence on one surface port does not
@@ -485,5 +519,7 @@ carrier-to-carrier links is likewise incomplete.
 Preserve exact microfindings inside the formations they sharpen. A genuinely
 still-forming structure may return to the activation reservoir with its open
 ports intact, but "open" never substitutes for enacting an occupant connected
-by an occupancy relation. Do not assign confidence, produce
-rejection notes, or write the final synthesis.
+by an occupancy relation. An occupant-dependent local event remains open at
+that port, while a structural constellation or distributed coalition may be
+complete when all of its mappings and consequences are complete. Do not assign
+confidence, produce rejection notes, or write the final synthesis.

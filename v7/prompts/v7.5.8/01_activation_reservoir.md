@@ -35,6 +35,13 @@ occupant can fill a port or continue one literal event. Topology, thematic
 resemblance, passage order, and coalition membership never transport an
 occupant.
 
+Identity is required only to carry an existing occupant into another port or
+continue one literal event. Content or role re-instantiation transports a
+schema, not an occupant, and creates a distinct occurrence. Its controller,
+carrier, medium, participants, states, and results come from the tuple, surface,
+or scaffold that enacts the new occurrence; any position unspecified there
+remains unspecified.
+
 The **coalition layer** contains complete local event tuples, complete
 structural constellations, and relational mappings among them. A coalition
 link transports only an invariant relation and its transformations: role
@@ -63,9 +70,12 @@ the surface itself:
 - line, clause, and passage beginnings and endings;
 - complete unit counts and the ordinal position of every line, clause, and
   carrier inside its containing unit;
-- ordered count and grouping vectors, including recurrence, alternation,
-  enclosure, symmetry, asymmetry, and changed formal work at each indexed
-  position;
+- ordered count and grouping vectors for the actual supplied line, clause,
+  syntactic, morphological, and passage units, including recurrence,
+  alternation, enclosure, symmetry, asymmetry, and changed formal work at each
+  indexed position. Use the supplied unit boundaries and complete positioned
+  carrier set; do not manufacture arbitrary subsets or regroup unrelated
+  features;
 - exact repeated tokens, roots, lemmas, particles, pronouns, consonants,
   endings, and boundary sounds;
 - case, definiteness, person, number, gender, aspect, mood, and voice;
@@ -163,6 +173,12 @@ the complete source relation attached to the smaller form against the complete
 carrier containing it. Preserve both forms, both local relations, and every
 difference throughout that enactment.
 
+Do not wait for a second binder before beginning that enactment. Carry every
+exact contact through its complete source relation and recursive surrounding
+field before its semantic or structural work is known. The structurally typed
+coalition-emission rule below governs cross-tuple payloads; it never serves as
+an admission test for whether an exact contact receives full formation.
+
 ## Complete tuples, occupancy ports, and coalition interfaces
 
 Keep high-recall combination without erasing what combines. Preserve every
@@ -208,17 +224,22 @@ Generate candidates through these complete relations:
    coreferred entity or state, or asserted transformation lineage leaves one
    event and enters another. Lexeme recurrence is not entity recurrence.
 3. **Content or role re-instantiation.** One complete tuple produces a typed
-   content or repeatable role and another complete tuple explicitly accepts,
-   repeats, reports, adopts, addresses, transmits, appoints, inherits, replaces,
-   or operates on that exact schema. Create a new occurrence and controller;
-   transport the content or role specification, never the original event or
-   occupant. An actable port remains unasserted unless a supplied tuple enacts
-   it.
+   content or repeatable role as something another occurrence can carry, and
+   another complete tuple explicitly accepts, repeats, reports, adopts,
+   addresses, transmits, appoints, inherits, replaces, or operates on that
+   exact schema. Create a distinct occurrence; transport the content or role
+   specification, never the original event or occupant. The accepting tuple
+   supplies its controller, carrier, medium, states, and results. An unspecified
+   position remains unspecified, and an actable port remains unasserted unless
+   a supplied tuple enacts it. Generic role compatibility creates no
+   re-instantiation.
 4. **Complete-tuple topology coalition.** Compare every pair of complete tuples
-   for a relational mapping: source role -> operation, direction, boundary, or
-   state transition -> target role. Derive every maximal mapping and its
-   controller, polarity, voice, modality, scale, medium, state, or outcome
-   changes. The coalition carries the invariant role graph and parameter
+   through every coalition interface. Derive every maximal mapping of a
+   complete relational spine: source role -> operation, direction, boundary,
+   or state transition -> target role. Carry its controller, polarity, voice,
+   modality, scale, medium, state, and outcome changes. An exact interface or a
+   whole-topology correspondence can generate the mapping; one shared generic
+   slot cannot. The coalition carries the invariant relation and parameter
    transformations only; local occupants remain local.
 5. **Changed-controller counterfield.** When complete tuples share an operation,
    content schema, or topology while changing controller, initiative, consent,
@@ -242,10 +263,31 @@ Generate candidates through these complete relations:
 
 When coalition links share a relational interface, chain them into a connected
 coalition node. Preserve every local tuple and the payload of every adjacent
-link. The chain may form a distributed process, route, apparatus, counterfield,
-custody system, bodily geometry, temporal mechanism, or social architecture;
-it is not one literal event unless separate occupancy edges license every
+link. The chain may form a complete distributed mechanism or architecture; it
+is not one literal event unless separate occupancy edges establish every
 continuation.
+
+Comparison is exhaustive; coalition emission is structurally typed. Emit a
+mapping only when the complete tuples instantiate a recordable non-generic
+relational invariant or share an explicit coalition interface: an exact form or
+relation, a source-produced content or role schema accepted by another tuple, a
+specifically named non-universal class inside its local operation, an explicit
+parameter transformation, a matching vacancy consequence, or an indexed
+surface or scaffold alignment. Shared arity, generic source or target labels,
+broad direction, participant class, or generic state change alone emits no
+coalition. Once a mapping is emitted, expand its complete tuple relation
+maximally before any hierarchy.
+
+Canonicalize each coalition node by its member tuple identities and exact
+mapping payload. Adding one tuple exposes only that tuple's mapped interface;
+membership never globalizes every interface of every member or creates links
+between otherwise unrelated members.
+
+Preserve each local tuple's controller, polarity, voice, modality, direction,
+medium, scale, state, and outcome as one atomic parameter vector. Derive
+invariants and deltas between actual vectors. A coalition may carry and relate
+several actual vectors, but it never manufactures an unseen realization by
+combining parameter values taken from different tuples.
 
 These relations define which candidate operation or coalition exists; they do not grade its
 strength, familiarity, plausibility, or eventual importance. Fully enact every
@@ -302,9 +344,10 @@ object, force, instrument, medium, direction, state, boundary, result, and
 aftermath. Continue an occupant or state only through identity-preserving
 handoff or an exact or surface edge explicitly binding the same occupant. A
 produced content or repeatable role may continue through re-instantiation in a
-new occurrence and controller. A topology coalition may continue the
-relational mechanism without continuing any occupant. Distribution across
-records is no barrier when the correct payload relation is supplied.
+new occurrence whose accepting tuple supplies its controller and other local
+fields. A topology coalition may continue the relational mechanism without
+continuing any occupant. Distribution across records is no barrier when the
+correct payload relation is supplied.
 
 Different records may jointly articulate one coalition even when no source
 assertion contains the whole architecture. Preserve every local tuple and link
