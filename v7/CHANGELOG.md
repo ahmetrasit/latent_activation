@@ -1,5 +1,32 @@
 # V7 Prompt Changelog
 
+## V7.5.5
+
+- Changes the cognitive order from early governing synthesis to bottom-up
+  completion: exact microcontacts, cross-medium operations, changed-agency
+  families, and complete distributed processes mature before hierarchy.
+- Preserves exact embedded forms, consonantal sequences, affixes, inflections,
+  source assertions, and positioned recurrences as the smallest operative
+  contacts inside later synthesis.
+- Treats distributed supplied evidence as one closed projective field. No
+  single source assertion must state the complete composite operation, and
+  non-co-occurrence inside one quotation is not negative evidence.
+- Continues products, paths, images, technical results, local recipients, and
+  vacancies through reception, changed state, testimony, destination, storage,
+  return, and wider consequence instead of accepting premature endpoints.
+- Adds relational replay across heterogeneous realizations, systematic
+  transformation of supplied parameters, orthogonal consequence branching,
+  and recursive result-to-input continuation.
+- Makes changed or absent functions propagate through every operation they had
+  enabled, prevented, redirected, or bounded rather than terminating at a
+  static missing-role observation.
+- Gives the fresh synthesis author Agent 1's intermediate maturation field only
+  after an independent raw-first reading, so exact pre-scaffold operations can
+  survive even when later integration reorganizes them.
+- The correction is entirely generative and passage-agnostic. It adds no audit,
+  validator, regression gate, baseline reminder, or benchmark-specific prompt
+  language.
+
 ## V7.5.4
 
 - Resets the five semantic prompts to a shorter precision-first sequence while
