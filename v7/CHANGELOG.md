@@ -1,5 +1,23 @@
 # V7 Prompt Changelog
 
+## V7.4.1
+
+- Freezes V7.4.0 Turns 1-5 as the production semantic baseline and forks only
+  the Turkish publication session.
+- Removes rehearsal and publication word-count percentages. Length now follows
+  formed resonance, narrative movement, and one-pass comprehension.
+- Defines revision as removal of repetition and inert exposition rather than
+  reduction of semantic breadth.
+- States explicitly that publication is not disambiguation: several secondary
+  non-mainstream resonances may remain active around one direct contextual
+  meaning when they perform different operations or structural roles.
+- Preserves exact lexical carriers, decisive facets, formed relations, and
+  changed primary hearing without requiring equal airtime or one paragraph per
+  formation.
+- Keeps Turkish referents before Arabic, concrete actors after lexical setup,
+  a live opening tension, narrative callbacks, and full-author auditory
+  revision.
+
 ## V7.4.0
 
 - Restores the successful V3 cognitive separation with three native sessions:
