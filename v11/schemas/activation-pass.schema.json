@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "v11 activation pass",
+  "type": "object",
+  "required": ["passage", "activation_bias", "branches"],
+  "properties": {
+    "passage": {
+      "type": "object",
+      "required": ["surah", "ayah_start"],
+      "properties": {
+        "surah": {"type": "integer"},
+        "ayah_start": {"type": "integer"},
+        "ayah_end": {"type": ["integer", "null"]}
+      }
+    },
+    "activation_bias": {
+      "type": "string",
+      "const": "recall_first"
+    },
+    "branches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["root", "branch", "label", "role"],
+        "properties": {
+          "root": {"type": "string"},
+          "branch": {"type": "string"},
+          "label": {
+            "type": "string",
+            "enum": ["A", "B", "C", "C/B", "S", "X"]
+          },
+          "role": {"type": "string"},
+          "activated_by": {
+            "type": "array",
+            "items": {"type": "object"}
+          },
+          "activates": {
+            "type": "array",
+            "items": {"type": "object"}
+          },
+          "notes": {"type": "string"}
+        }
+      }
+    }
+  }
+}

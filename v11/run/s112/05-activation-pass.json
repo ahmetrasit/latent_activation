@@ -1,0 +1,491 @@
+{
+  "schema": "v11.activation_pass.integrated.v1",
+  "passage": {
+    "surah": 112,
+    "ayah_start": 1,
+    "ayah_end": 4
+  },
+  "activation_bias": "recall_first",
+  "source_agents": [
+    {
+      "id": "019f73b5-14b4-7c11-b15b-bfadbd23444d",
+      "nickname": "Anscombe",
+      "role": "A: broad branch activation pass"
+    },
+    {
+      "id": "019f73b5-1550-7d73-939e-e633ff2fe1d1",
+      "nickname": "Godel",
+      "role": "B: secondary/surprise expansion"
+    }
+  ],
+  "integration_policy": {
+    "mode": "union",
+    "conservative_pruning": false,
+    "rule": "If either fresh agent finds a plausible activation, preserve it. If labels differ, keep the stronger or more discovery-oriented reading unless contradicted by the root audit.",
+    "activation_labels": {
+      "A": "surface-active / structurally necessary",
+      "B": "strong secondary activation",
+      "C/B": "borderline strong secondary; preserve prominently",
+      "C": "exploratory latent activation worth inspecting",
+      "S": "currently silent in this passage",
+      "X": "data issue"
+    }
+  },
+  "root_resolution": {
+    "status": "clean",
+    "resolved_roots": 7,
+    "unresolved_roots": 0,
+    "qnet_layer": "bridge_theme_full",
+    "q2_relations_present": false,
+    "branch_ids_invented": false
+  },
+  "surface_mechanism": [
+    "قُلْ frames the surah as commanded public proclamation and identity-definition.",
+    "الله أحد establishes unique identity; the final أحد extends negation exhaustively to any possible counterpart.",
+    "الصمد activates dependence, solidity, sealing, supervision, and endurance as mutually reinforcing readings.",
+    "لم يلد ولم يولد blocks offspring, parentage, derivation, generation, temporal origination, and dependency in both directions.",
+    "ولم يكن له كفوا أحد negates counterpart, comparison, status, place, reproductive equivalence, and any diverting rival orientation."
+  ],
+  "branches": [
+    {
+      "root": "ق و ل",
+      "branch": "B001",
+      "label": "A",
+      "role": "commanded utterance and proclamation",
+      "discovery_value": "low",
+      "evidence": ["surface قل"],
+      "activates": ["ق و ل B007", "ق و ل B013", "ق و ل B016", "و ل د B005"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B002",
+      "label": "C/B",
+      "role": "speech instrument and voiced divine naming",
+      "discovery_value": "medium",
+      "evidence": ["bridge to ء ل ه B002 through grammar_expression and language_speech"],
+      "activates": ["ء ل ه B002", "ك ف ء B003"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B003",
+      "label": "C",
+      "role": "intensive or repeated speech",
+      "discovery_value": "low",
+      "evidence": ["same-root communication/rhetoric cluster"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B004",
+      "label": "C/B",
+      "role": "authoritative word whose declaration has force",
+      "discovery_value": "high",
+      "evidence": ["bridges to ء ل ه B001 authority, ص م د B005 governance, ك و ن B002 hierarchy"],
+      "activates": ["ق و ل B010", "ص م د B005", "ك و ن B002"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B005",
+      "label": "C",
+      "role": "false-attribution counter-reading",
+      "discovery_value": "medium",
+      "evidence": ["contrastive truth-function of the proclamation"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B006",
+      "label": "C",
+      "role": "appropriated or self-attributed saying",
+      "discovery_value": "medium",
+      "evidence": ["bridge to ء ح د B005 through agency_action and identity_personhood"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B007",
+      "label": "B",
+      "role": "publicly circulating proclamation",
+      "discovery_value": "medium",
+      "evidence": ["قل initiates outward speech"],
+      "activates": ["ق و ل B013", "ء ح د B001"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B008",
+      "label": "C",
+      "role": "material tool and impact underlay",
+      "discovery_value": "high",
+      "evidence": ["rare bridge to ص م د B003 through craft/tools_equipment and to ص م د B002 through material"],
+      "activates": ["ص م د B002", "ص م د B003"],
+      "note": "Preserved as a surprise candidate, not as a primary gloss."
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B009",
+      "label": "C",
+      "role": "negotiated speech as a counterframe",
+      "discovery_value": "medium",
+      "evidence": ["bridge to ك ف ء B001 through exchange, communication, reasoning, and social relation"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B010",
+      "label": "C/B",
+      "role": "declarative authority and judgment",
+      "discovery_value": "high",
+      "evidence": ["bridges to ك و ن B004 domination/power and ص م د B006 conflict/force"],
+      "activates": ["ك و ن B004", "ص م د B005", "ك ف ء B001"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B011",
+      "label": "C",
+      "role": "supposition contrasted with categorical assertion",
+      "discovery_value": "medium",
+      "evidence": ["bridge to ك و ن B001 through cognition, grammar_expression, and language_speech"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B012",
+      "label": "C",
+      "role": "inner saying contrasted with commanded articulation",
+      "discovery_value": "medium",
+      "evidence": ["bridge to ك ف ء B003 through language_speech"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B013",
+      "label": "B",
+      "role": "doctrinal confession",
+      "discovery_value": "medium",
+      "evidence": ["bridge to ء ل ه B001 through belief_revelation and religion_worship"],
+      "activates": ["ء ل ه B001", "ء ح د B001", "ق و ل B016"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B014",
+      "label": "C/B",
+      "role": "predicates functioning as indications",
+      "discovery_value": "high",
+      "evidence": ["bridge to ك ف ء B003 through language_speech, perception, and rhetoric_discourse"],
+      "activates": ["ك ف ء B003", "ص م د B007"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B015",
+      "label": "C/B",
+      "role": "earnest concern, responsibility, and stewardship",
+      "discovery_value": "high",
+      "evidence": ["bridges to ص م د B005 responsibility/stewardship and ك و ن B003 care"],
+      "activates": ["ص م د B005", "ك و ن B003"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B016",
+      "label": "B",
+      "role": "definition of identity or essence",
+      "discovery_value": "high",
+      "evidence": ["bridge to ء ح د B002 through logic", "bridge to ك و ن B001 through ontology"],
+      "activates": ["ء ح د B001", "ء ح د B002", "ك و ن B001", "و ل د B005"]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B017",
+      "label": "C/B",
+      "role": "inspired or revealed saying",
+      "discovery_value": "high",
+      "evidence": ["branch image fits commanded revelatory discourse"],
+      "activates": ["ق و ل B001", "ق و ل B013"]
+    },
+    {
+      "root": "ء ل ه",
+      "branch": "B001",
+      "label": "A",
+      "role": "the worshipped deity",
+      "discovery_value": "low",
+      "evidence": ["surface الله", "bridge to ق و ل B013 through religion/theology"],
+      "activates": ["ء ح د B001", "ص م د B001", "ك و ن B004"]
+    },
+    {
+      "root": "ء ل ه",
+      "branch": "B002",
+      "label": "A",
+      "role": "fixed divine name anchoring the definition",
+      "discovery_value": "medium",
+      "evidence": ["surface proper name الله", "bridge to ق و ل B002 through language/speech"],
+      "activates": ["ق و ل B002", "ق و ل B016", "ء ح د B001", "ك ف ء B003"]
+    },
+    {
+      "root": "ء ح د",
+      "branch": "B001",
+      "label": "A",
+      "role": "unique and indivisible identity",
+      "discovery_value": "low",
+      "evidence": ["surface أحد in 112:1", "bridge to ك و ن B005 through identity"],
+      "activates": ["ك ف ء B001", "و ل د B006", "ك و ن B005"]
+    },
+    {
+      "root": "ء ح د",
+      "branch": "B002",
+      "label": "A",
+      "role": "exhaustive negative anyone",
+      "discovery_value": "high",
+      "evidence": ["final أحد under ولم يكن", "bridge to ق و ل B016 through logic"],
+      "activates": ["ك ف ء B001", "ك و ن B001", "و ل د B005"]
+    },
+    {
+      "root": "ء ح د",
+      "branch": "B003",
+      "label": "C",
+      "role": "numerical one",
+      "discovery_value": "low",
+      "evidence": ["same-root quantity and sequence cluster"]
+    },
+    {
+      "root": "ء ح د",
+      "branch": "B004",
+      "label": "C",
+      "role": "firstness or one-of relation",
+      "discovery_value": "medium",
+      "evidence": ["bridge to ك و ن B005 through time/sequence"]
+    },
+    {
+      "root": "ء ح د",
+      "branch": "B005",
+      "label": "C/B",
+      "role": "individuality and separation from any class of peers",
+      "discovery_value": "high",
+      "evidence": ["bridge to ق و ل B006 through agency/identity", "bridge to ك ف ء B002 through motion"],
+      "activates": ["ك ف ء B001", "و ل د B006"]
+    },
+    {
+      "root": "ء ح د",
+      "branch": "B006",
+      "label": "S",
+      "role": "Mount Uhud",
+      "discovery_value": "low",
+      "evidence": ["no passage-specific geographic trigger"]
+    },
+    {
+      "root": "ص م د",
+      "branch": "B001",
+      "label": "A",
+      "role": "the relied-on destination of dependence",
+      "discovery_value": "low",
+      "evidence": ["surface الصمد", "bridges to ك و ن B004 dependence and ك ف ء B002 orientation"],
+      "activates": ["ك و ن B003", "ك و ن B004", "و ل د B004"]
+    },
+    {
+      "root": "ص م د",
+      "branch": "B002",
+      "label": "B",
+      "role": "compact solidity without internal lack",
+      "discovery_value": "high",
+      "evidence": ["rare bridge to ق و ل B008 through material", "bridge to ك ف ء B004 through architecture_construction"],
+      "activates": ["ص م د B003", "ك ف ء B004", "و ل د B005"]
+    },
+    {
+      "root": "ص م د",
+      "branch": "B003",
+      "label": "B",
+      "role": "sealed closure and containment",
+      "discovery_value": "high",
+      "evidence": ["bridge to ق و ل B008 through craft/tools_equipment", "bridge to ك ف ء B004 through containment/craft"],
+      "activates": ["ص م د B002", "ك ف ء B004", "ك ف ء B002", "و ل د B005"]
+    },
+    {
+      "root": "ص م د",
+      "branch": "B004",
+      "label": "C/B",
+      "role": "compression, binding, and protective covering",
+      "discovery_value": "medium",
+      "evidence": ["bridges to ك و ن B003 and ق و ل B015 through care"],
+      "activates": ["ك و ن B003", "ص م د B003"]
+    },
+    {
+      "root": "ص م د",
+      "branch": "B005",
+      "label": "B",
+      "role": "supervision and sustained attention to affairs",
+      "discovery_value": "high",
+      "evidence": ["bridge to ق و ل B015 through responsibility/stewardship"],
+      "activates": ["ق و ل B004", "ق و ل B015", "ك و ن B003"]
+    },
+    {
+      "root": "ص م د",
+      "branch": "B006",
+      "label": "C",
+      "role": "impact and force underlay",
+      "discovery_value": "medium",
+      "evidence": ["bridges to ق و ل B010 and ك ف ء B001 through conflict/force"]
+    },
+    {
+      "root": "ص م د",
+      "branch": "B007",
+      "label": "B",
+      "role": "endurance and continuance under severity",
+      "discovery_value": "high",
+      "evidence": ["bridges to ك و ن B006 scarcity and ك ف ء B005 provision/resource"],
+      "activates": ["ك و ن B001", "ك ف ء B005"]
+    },
+    {
+      "root": "و ل د",
+      "branch": "B001",
+      "label": "A",
+      "role": "offspring and descent",
+      "discovery_value": "low",
+      "evidence": ["surface يلد and يولد"],
+      "activates": ["و ل د B002", "و ل د B003", "ك ف ء B005"]
+    },
+    {
+      "root": "و ل د",
+      "branch": "B002",
+      "label": "B",
+      "role": "parenthood by birth relation",
+      "discovery_value": "medium",
+      "evidence": ["active/passive birth symmetry", "same-root family/kinship/genealogy/reproduction bridge"],
+      "activates": ["و ل د B001", "و ل د B004"]
+    },
+    {
+      "root": "و ل د",
+      "branch": "B003",
+      "label": "A",
+      "role": "event of birth, emergence, and delivery",
+      "discovery_value": "medium",
+      "evidence": ["surface active يلد and passive يولد", "bridge to ك ف ء B005 reproduction/sequence"],
+      "activates": ["و ل د B005", "ك ف ء B005"]
+    },
+    {
+      "root": "و ل د",
+      "branch": "B004",
+      "label": "B",
+      "role": "dependent child and subordinate status",
+      "discovery_value": "high",
+      "evidence": ["bridge to ص م د B001 through support_dependence", "bridge to ك و ن B002 through hierarchy_status"],
+      "activates": ["ص م د B001", "ك و ن B002", "ك و ن B003", "ك و ن B004"]
+    },
+    {
+      "root": "و ل د",
+      "branch": "B005",
+      "label": "B",
+      "role": "generated, derived, produced, or newly arising entity",
+      "discovery_value": "high",
+      "evidence": ["bridge to و ل د B003 through generation/origin", "bridge to ك ف ء B002 through change_transition"],
+      "activates": ["ق و ل B016", "ك و ن B001", "ك ف ء B002", "ك ف ء B005"]
+    },
+    {
+      "root": "و ل د",
+      "branch": "B006",
+      "label": "C/B",
+      "role": "peer of equal birth-age or cohort",
+      "discovery_value": "high",
+      "evidence": ["bridge to ك ف ء B001 through comparison", "bridge to ك و ن B005 through identity/life_stage_aging"],
+      "activates": ["ك ف ء B001", "ء ح د B001", "ك و ن B005"]
+    },
+    {
+      "root": "و ل د",
+      "branch": "B007",
+      "label": "S",
+      "role": "idiomatic emergency expression",
+      "discovery_value": "low",
+      "evidence": ["no Qnet bridge-theme membership or passage trigger"]
+    },
+    {
+      "root": "ك و ن",
+      "branch": "B001",
+      "label": "A",
+      "role": "being, occurrence, and negative predication",
+      "discovery_value": "low",
+      "evidence": ["surface يكن after لم", "bridge to ق و ل B016 through ontology"],
+      "activates": ["ك ف ء B001", "ء ح د B002", "ك و ن B002"]
+    },
+    {
+      "root": "ك و ن",
+      "branch": "B002",
+      "label": "B",
+      "role": "place, position, and rank",
+      "discovery_value": "high",
+      "evidence": ["bridge to و ل د B004 through status", "bridges to ق و ل B004/B010 through hierarchy"],
+      "activates": ["و ل د B004", "ق و ل B004"]
+    },
+    {
+      "root": "ك و ن",
+      "branch": "B003",
+      "label": "C/B",
+      "role": "suretyship, care, protection, and undertaking responsibility",
+      "discovery_value": "high",
+      "evidence": ["rare bridge to ك ف ء B004 through protection_security", "bridge to ص م د B001 through patronage", "bridge to ق و ل B015 through care"],
+      "activates": ["ص م د B001", "ص م د B005", "ك ف ء B004", "و ل د B004"]
+    },
+    {
+      "root": "ك و ن",
+      "branch": "B004",
+      "label": "C/B",
+      "role": "submission and dependence",
+      "discovery_value": "high",
+      "evidence": ["bridge to ء ل ه B001 through submission", "bridge to ص م د B001 through dependence", "bridge to ق و ل B010 through power"],
+      "activates": ["ء ل ه B001", "ص م د B001", "ق و ل B010"]
+    },
+    {
+      "root": "ك و ن",
+      "branch": "B005",
+      "label": "C/B",
+      "role": "identity remembered through temporal being; cancellation of biography and aging",
+      "discovery_value": "high",
+      "evidence": ["bridge to و ل د B006 through identity_personhood/life_stage_aging", "bridge to ء ح د B004 through time"],
+      "activates": ["و ل د B006", "ك و ن B001"]
+    },
+    {
+      "root": "ك و ن",
+      "branch": "B006",
+      "label": "C",
+      "role": "bad state or condition as contrast",
+      "discovery_value": "low",
+      "evidence": ["bridge to ص م د B007 through abundance_scarcity"]
+    },
+    {
+      "root": "ك ف ء",
+      "branch": "B001",
+      "label": "A",
+      "role": "equal counterpart and matching relation",
+      "discovery_value": "low",
+      "evidence": ["surface كفوا", "bridge to و ل د B006 through comparison"],
+      "activates": ["ء ح د B002", "و ل د B006", "ق و ل B016"]
+    },
+    {
+      "root": "ك ف ء",
+      "branch": "B002",
+      "label": "C/B",
+      "role": "tilting, overturning, diversion, or displacement",
+      "discovery_value": "high",
+      "evidence": ["rare bridge to ص م د B001 through orientation_direction", "bridge to و ل د B005 through change_transition", "bridge to ء ح د B005 through motion"],
+      "activates": ["ص م د B001", "ص م د B003", "و ل د B005"]
+    },
+    {
+      "root": "ك ف ء",
+      "branch": "B003",
+      "label": "C/B",
+      "role": "formal and acoustic correspondence or disruption",
+      "discovery_value": "high",
+      "evidence": ["bridges to ق و ل through language_speech/rhetoric_discourse", "surface final construction كفوا أحد"],
+      "activates": ["ق و ل B002", "ق و ل B014"]
+    },
+    {
+      "root": "ك ف ء",
+      "branch": "B004",
+      "label": "C/B",
+      "role": "covering, enclosure, shelter, and protection",
+      "discovery_value": "high",
+      "evidence": ["rare bridge to ك و ن B003 through protection_security", "bridge to ص م د B003 through containment/craft"],
+      "activates": ["ص م د B002", "ص م د B003", "ك و ن B003"]
+    },
+    {
+      "root": "ك ف ء",
+      "branch": "B005",
+      "label": "B",
+      "role": "yearly produce, breeding issue, and reproductive yield",
+      "discovery_value": "high",
+      "evidence": ["bridge to و ل د B003 through reproduction_birth/sequence_cycle", "bridges to و ل د B001/B002 through reproduction"],
+      "activates": ["و ل د B001", "و ل د B002", "و ل د B003"]
+    }
+  ],
+  "x_issues": []
+}

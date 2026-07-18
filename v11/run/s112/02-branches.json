@@ -1,0 +1,5364 @@
+{
+  "schema": "v11.branch_inventory.v1",
+  "root_resolution_policy": "qac_first_with_hamza_variant_audit",
+  "root_resolution_audit": [
+    {
+      "qac_root": "ق و ل",
+      "qac_root_join_keys": [
+        "قول"
+      ],
+      "lookup_variants": [
+        "قول"
+      ],
+      "status": "resolved",
+      "matched_variant": "قول",
+      "matches": [
+        {
+          "root_id": "root_001272",
+          "root_norm": "ق و ل",
+          "source_root_norm": "ق و ل"
+        }
+      ]
+    },
+    {
+      "qac_root": "ء ل ه",
+      "qac_root_join_keys": [
+        "ءله"
+      ],
+      "lookup_variants": [
+        "ءله"
+      ],
+      "status": "resolved",
+      "matched_variant": "ءله",
+      "matches": [
+        {
+          "root_id": "root_000047",
+          "root_norm": "ء ل ه",
+          "source_root_norm": "أ ل ه"
+        }
+      ]
+    },
+    {
+      "qac_root": "ء ح د",
+      "qac_root_join_keys": [
+        "ءحد"
+      ],
+      "lookup_variants": [
+        "ءحد"
+      ],
+      "status": "resolved",
+      "matched_variant": "ءحد",
+      "matches": [
+        {
+          "root_id": "root_000017",
+          "root_norm": "ء ح د",
+          "source_root_norm": "أ ح د"
+        }
+      ]
+    },
+    {
+      "qac_root": "ص م د",
+      "qac_root_join_keys": [
+        "صمد"
+      ],
+      "lookup_variants": [
+        "صمد"
+      ],
+      "status": "resolved",
+      "matched_variant": "صمد",
+      "matches": [
+        {
+          "root_id": "root_000882",
+          "root_norm": "ص م د",
+          "source_root_norm": "ص م د"
+        }
+      ]
+    },
+    {
+      "qac_root": "و ل د",
+      "qac_root_join_keys": [
+        "ولد"
+      ],
+      "lookup_variants": [
+        "ولد"
+      ],
+      "status": "resolved",
+      "matched_variant": "ولد",
+      "matches": [
+        {
+          "root_id": "root_001683",
+          "root_norm": "و ل د",
+          "source_root_norm": "و ل د"
+        }
+      ]
+    },
+    {
+      "qac_root": "ك و ن",
+      "qac_root_join_keys": [
+        "كون"
+      ],
+      "lookup_variants": [
+        "كون"
+      ],
+      "status": "resolved",
+      "matched_variant": "كون",
+      "matches": [
+        {
+          "root_id": "root_001332",
+          "root_norm": "ك و ن",
+          "source_root_norm": "ك و ن"
+        }
+      ]
+    },
+    {
+      "qac_root": "ك ف ء",
+      "qac_root_join_keys": [
+        "كفء"
+      ],
+      "lookup_variants": [
+        "كفء"
+      ],
+      "status": "resolved",
+      "matched_variant": "كفء",
+      "matches": [
+        {
+          "root_id": "root_001305",
+          "root_norm": "ك ف ء",
+          "source_root_norm": "ك ف أ"
+        }
+      ]
+    }
+  ],
+  "roots": {
+    "ق و ل": {
+      "root_id": "root_001272",
+      "root_norm": "ق و ل",
+      "source_root_norm": "ق و ل",
+      "matched_variant": "قول",
+      "qac_root_join_keys": [
+        "قول"
+      ],
+      "surface_occurrences": [
+        {
+          "qac_ref": "112:1:1:1",
+          "word_ref": "112:1:1",
+          "position": [
+            112,
+            1,
+            1,
+            1
+          ],
+          "surface_ar": "قُلْ",
+          "stem_ar": "قُلْ",
+          "lemma_ar": "قَالَ",
+          "root_join_key": "قول",
+          "pos": "V",
+          "measure": "",
+          "morph_features": "STEM|POS:V|IMPV|LEM:qaAla|ROOT:qwl|2MS"
+        }
+      ],
+      "branch_count": 17,
+      "qnet_branch_count": 16,
+      "furuq_branch_count": 17,
+      "branches_without_qnet_themes": [
+        "B017"
+      ],
+      "branches": {
+        "B001": {
+          "branch_id": "B001",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "إخراج القول بالنطق",
+            "branch_image_en": "uttered speech",
+            "what_is_ar": "يدخل فيه قال يقول قولا، والقول والقيل، والكلام المركب من الحروف إذا أبرز بالنطق، مفردا كان أو جملة أو قصيدة أو خطبة.",
+            "what_is_en": "Includes saying, utterance, qawl/qil, and articulated speech made of letters, whether word, sentence, poem, or sermon.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 4,
+          "parent_theme_count": 2,
+          "keyword_count": 8,
+          "themes": {
+            "agency_action": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "performance",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "communication": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "communication",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "language_speech": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "language",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "linguistics",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "orality",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "phonation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "rhetoric_discourse": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "discourse",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "rhetoric",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "condition_force_change",
+            "language_communication"
+          ],
+          "raw_keywords": [
+            "communication",
+            "discourse",
+            "language",
+            "linguistics",
+            "orality",
+            "performance",
+            "phonation",
+            "rhetoric"
+          ]
+        },
+        "B002": {
+          "branch_id": "B002",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "اللسان آلة القول",
+            "branch_image_en": "tongue as the instrument of speech",
+            "what_is_ar": "يدخل فيه المقول بمعنى اللسان.",
+            "what_is_en": "Includes al-maqul as the tongue.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 2,
+          "keyword_count": 9,
+          "themes": {
+            "anatomy": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "anatomy",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "body": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "body",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "communication": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "communication",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "grammar_expression": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "expression",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "language_speech": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "instrumentation",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "language",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "speech",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "voice",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "physiology": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "physiology",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "body_health_life",
+            "language_communication"
+          ],
+          "raw_keywords": [
+            "anatomy",
+            "body",
+            "communication",
+            "expression",
+            "instrumentation",
+            "language",
+            "physiology",
+            "speech",
+            "voice"
+          ]
+        },
+        "B003": {
+          "branch_id": "B003",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "كثرة القول في صاحبه",
+            "branch_image_en": "being much given to speech",
+            "what_is_ar": "يدخل فيه قولة وقوال وقوالة وتقوالة وقؤول ومقوال ومقول إذا وصفت الإنسان بأنه لسن أو كثير القول أو منطيق.",
+            "what_is_en": "Includes forms for a person who is eloquent, talkative, or much given to speech.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 4,
+          "parent_theme_count": 3,
+          "keyword_count": 7,
+          "themes": {
+            "communication": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "communication",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "intention_character": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "character",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "personality",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "temperament",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "rhetoric_discourse": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "rhetoric",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "social_relations": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "sociability",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "sociality",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "emotion_ethics",
+            "kinship_society",
+            "language_communication"
+          ],
+          "raw_keywords": [
+            "character",
+            "communication",
+            "personality",
+            "rhetoric",
+            "sociability",
+            "sociality",
+            "temperament"
+          ]
+        },
+        "B004": {
+          "branch_id": "B004",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "القيل صاحب القول النافذ",
+            "branch_image_en": "Yemeni qīl, a titled chief whose word has force",
+            "what_is_ar": "يدخل فيه المقول أو القيل بلغة أهل اليمن، والواحد القيل، والجمع المقاولة والأقيال والأقوال، وملك حمير دون الملك الأعظم، والمرأة قيلة.",
+            "what_is_en": "Includes qīl/al-maqul as a Yemeni or Himyarite title, with plurals such as maqawila, aqyal, and aqwal.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 3,
+          "parent_theme_count": 2,
+          "keyword_count": 10,
+          "themes": {
+            "authority_governance": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "authority",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "governance",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "kingship",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "monarchy",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "rulership",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "hierarchy_status": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "hierarchy",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "nobility",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "rank",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "politics_order": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "politics",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "polity",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "kinship_society",
+            "law_governance"
+          ],
+          "raw_keywords": [
+            "authority",
+            "governance",
+            "hierarchy",
+            "kingship",
+            "monarchy",
+            "nobility",
+            "politics",
+            "polity",
+            "rank",
+            "rulership"
+          ]
+        },
+        "B005": {
+          "branch_id": "B005",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "قول ما لم يكن أو نسبته",
+            "branch_image_en": "false saying or false attribution",
+            "what_is_ar": "يدخل فيه تقول باطلا، وتقول عليه أي كذب عليه، وقولتني أو أقولتني ما لم أقل.",
+            "what_is_en": "Includes saying what is not so, lying against someone, or attributing to someone words not said.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 3,
+          "keyword_count": 7,
+          "themes": {
+            "deception_corruption": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "deception",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "ethics_morality": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "ethics",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "honor_shame": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "reputation",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "slander",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "justice_judgment": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "accountability",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "rhetoric_discourse": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "discourse",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "testimony_witness": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "testimony",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "emotion_ethics",
+            "language_communication",
+            "law_governance"
+          ],
+          "raw_keywords": [
+            "accountability",
+            "deception",
+            "discourse",
+            "ethics",
+            "reputation",
+            "slander",
+            "testimony"
+          ]
+        },
+        "B006": {
+          "branch_id": "B006",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "اجترار القول إلى النفس",
+            "branch_image_en": "drawing a saying to oneself",
+            "what_is_ar": "يدخل فيه اقتال قولا إذا اجتر إلى نفسه قولا من خير أو شر.",
+            "what_is_en": "Includes iqtala qawlan when it means to draw or pull a statement to oneself, whether good or evil.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "parent_theme_count": 5,
+          "keyword_count": 7,
+          "themes": {
+            "agency_action": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "agency",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "communication": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "communication",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "ethics_morality": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "morality",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "honor_shame": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "reputation",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "identity_personhood": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "identity",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "rhetoric_discourse": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "discourse",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "wealth_property": {
+              "parent_theme": "economy_property",
+              "keywords": [
+                {
+                  "raw_keyword": "ownership",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "condition_force_change",
+            "economy_property",
+            "emotion_ethics",
+            "kinship_society",
+            "language_communication"
+          ],
+          "raw_keywords": [
+            "agency",
+            "communication",
+            "discourse",
+            "identity",
+            "morality",
+            "ownership",
+            "reputation"
+          ]
+        },
+        "B007": {
+          "branch_id": "B007",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "القول الفاشي بين الناس",
+            "branch_image_en": "circulating talk or public report",
+            "what_is_ar": "يدخل فيه القالة الحسنة أو القبيحة المنتشرة في الناس، وكثرة قالة الناس، والقيل والقال بوصفهما حديثا دائرا.",
+            "what_is_en": "Includes a good or bad report circulating among people, public talk, and qil wa qal as abundant talk.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 4,
+          "parent_theme_count": 3,
+          "keyword_count": 7,
+          "themes": {
+            "communication": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "communication",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "news",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "rumor",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "concealment_disclosure": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "publicity",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "honor_shame": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "reputation",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "social_relations": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "sociality",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "society",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "emotion_ethics",
+            "kinship_society",
+            "language_communication"
+          ],
+          "raw_keywords": [
+            "communication",
+            "news",
+            "publicity",
+            "reputation",
+            "rumor",
+            "sociality",
+            "society"
+          ]
+        },
+        "B008": {
+          "branch_id": "B008",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "عود القال لضرب القلة",
+            "branch_image_en": "the qal stick used in the game of qilla",
+            "what_is_ar": "يدخل فيه القال، الخشبة التي تضرب بها القلة.",
+            "what_is_en": "Includes al-qal as the stick used to strike the qilla.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 4,
+          "keyword_count": 9,
+          "themes": {
+            "craft": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "craft",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "force_power": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "impact",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "material": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "material",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "motion": {
+              "parent_theme": "movement_travel",
+              "keywords": [
+                {
+                  "raw_keyword": "motion",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "recreation_sport": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "game",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "play",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "sport",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "tools_equipment": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "implement",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "tool",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "condition_force_change",
+            "craft_material_built",
+            "kinship_society",
+            "movement_travel"
+          ],
+          "raw_keywords": [
+            "craft",
+            "game",
+            "impact",
+            "implement",
+            "material",
+            "motion",
+            "play",
+            "sport",
+            "tool"
+          ]
+        },
+        "B009": {
+          "branch_id": "B009",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "المقاولة في الأمر",
+            "branch_image_en": "mutual verbal negotiation",
+            "what_is_ar": "يدخل فيه قاولته في أمره وتقاولنا إذا تفاوضنا.",
+            "what_is_en": "Includes qawaltuhu and taqawalna when they mean mutual discussion or negotiation about a matter.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 5,
+          "keyword_count": 7,
+          "themes": {
+            "commerce_exchange": {
+              "parent_theme": "economy_property",
+              "keywords": [
+                {
+                  "raw_keyword": "commerce",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "communication": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "communication",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "obligation_contract": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "agreement",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "politics_order": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "diplomacy",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "reasoning_decision": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "decision",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "deliberation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "social_relations": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "mediation",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "cognition_perception",
+            "economy_property",
+            "kinship_society",
+            "language_communication",
+            "law_governance"
+          ],
+          "raw_keywords": [
+            "agreement",
+            "commerce",
+            "communication",
+            "decision",
+            "deliberation",
+            "diplomacy",
+            "mediation"
+          ]
+        },
+        "B010": {
+          "branch_id": "B010",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "اقتالة الحكم على غيره",
+            "branch_image_en": "arrogating judgment over someone",
+            "what_is_ar": "يدخل فيه اقتال عليه إذا كان بمعنى تحكم.",
+            "what_is_en": "Includes iqtala alayhi when it means to impose or arrogate judgment over someone.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 4,
+          "keyword_count": 7,
+          "themes": {
+            "authority_governance": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "authority",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "governance",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "conflict": {
+              "parent_theme": "conflict_security",
+              "keywords": [
+                {
+                  "raw_keyword": "conflict",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "control_restraint": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "domination",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "force_power": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "power",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "hierarchy_status": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "hierarchy",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "law": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "law",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "condition_force_change",
+            "conflict_security",
+            "kinship_society",
+            "law_governance"
+          ],
+          "raw_keywords": [
+            "authority",
+            "conflict",
+            "domination",
+            "governance",
+            "hierarchy",
+            "law",
+            "power"
+          ]
+        },
+        "B011": {
+          "branch_id": "B011",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "قول يجري مجرى الظن",
+            "branch_image_en": "saying used with the force of supposing",
+            "what_is_ar": "يدخل فيه تقول إذا أجري مجرى تظن في العمل، وخاصة في الاستفهام، وما ذكر عن بني سليم من إجراء متصرف قلت مجرى الظن في غير الاستفهام.",
+            "what_is_en": "Includes qala/taqulu when used grammatically like zanna, taking the work of supposing, especially in questions and in the reported Banu Sulaym usage.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 5,
+          "parent_theme_count": 2,
+          "keyword_count": 6,
+          "themes": {
+            "cognition": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "cognition",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "grammar_expression": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "grammar",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "modality",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "knowledge_learning": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "epistemology",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "language_speech": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "language",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "reasoning_decision": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "inference",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "cognition_perception",
+            "language_communication"
+          ],
+          "raw_keywords": [
+            "cognition",
+            "epistemology",
+            "grammar",
+            "inference",
+            "language",
+            "modality"
+          ]
+        },
+        "B012": {
+          "branch_id": "B012",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "قول في النفس لم يظهر",
+            "branch_image_en": "unspoken inner saying",
+            "what_is_ar": "يدخل فيه المتصور في النفس قبل الإبراز باللفظ، كما في قول في نفسي لم أظهره.",
+            "what_is_en": "Includes a thought or inner saying conceived in the self before being expressed in words.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 5,
+          "parent_theme_count": 4,
+          "keyword_count": 8,
+          "themes": {
+            "cognition": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "cognition",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "consciousness",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "psychology",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "concealment_disclosure": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "secrecy",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "containment_access": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "interiority",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "privacy",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "intention_character": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "intention",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "language_speech": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "language",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "cognition_perception",
+            "emotion_ethics",
+            "language_communication",
+            "space_form_boundary"
+          ],
+          "raw_keywords": [
+            "cognition",
+            "consciousness",
+            "intention",
+            "interiority",
+            "language",
+            "privacy",
+            "psychology",
+            "secrecy"
+          ]
+        },
+        "B013": {
+          "branch_id": "B013",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "القول اعتقاد ومذهب",
+            "branch_image_en": "belief or held doctrine",
+            "what_is_ar": "يدخل فيه القول بمعنى الاعتقاد، نحو فلان يقول بقول أبي حنيفة.",
+            "what_is_en": "Includes qawl as belief, doctrine, or held opinion.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 4,
+          "keyword_count": 7,
+          "themes": {
+            "belief_revelation": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "ideology",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "theology",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "cognition": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "philosophy",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "culture_tradition": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "tradition",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "law": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "law",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "religion_worship": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "religion",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "social_relations": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "affiliation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "cognition_perception",
+            "kinship_society",
+            "law_governance",
+            "ritual_belief"
+          ],
+          "raw_keywords": [
+            "affiliation",
+            "ideology",
+            "law",
+            "philosophy",
+            "religion",
+            "theology",
+            "tradition"
+          ]
+        },
+        "B014": {
+          "branch_id": "B014",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "قول الشيء دلالته",
+            "branch_image_en": "thing's saying as indication",
+            "what_is_ar": "يدخل فيه القول للدلالة على الشيء، مثل امتلأ الحوض وقال قطني.",
+            "what_is_en": "Includes a thing's saying when it means its indication or signification.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 3,
+          "keyword_count": 7,
+          "themes": {
+            "communication": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "semiotics",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "habitat_ecology": {
+              "parent_theme": "animal_life",
+              "keywords": [
+                {
+                  "raw_keyword": "environment",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "language_speech": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "meaning",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "perception": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "perception",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "proof_uncertainty": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "evidence",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "sign",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "rhetoric_discourse": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "metaphor",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "animal_life",
+            "cognition_perception",
+            "language_communication"
+          ],
+          "raw_keywords": [
+            "environment",
+            "evidence",
+            "meaning",
+            "metaphor",
+            "perception",
+            "semiotics",
+            "sign"
+          ]
+        },
+        "B015": {
+          "branch_id": "B015",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "العناية الصادقة بالشيء",
+            "branch_image_en": "earnest concern for something",
+            "what_is_ar": "يدخل فيه فلان يقول بكذا إذا كان معناه العناية الصادقة بالشيء.",
+            "what_is_en": "Includes saying by/for something when it means sincere concern or devoted care for it.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "parent_theme_count": 5,
+          "keyword_count": 7,
+          "themes": {
+            "authority_governance": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "stewardship",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "ethics_morality": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "ethics",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "hospitality_welfare": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "care",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "labor_work": {
+              "parent_theme": "economy_property",
+              "keywords": [
+                {
+                  "raw_keyword": "service",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "obligation_contract": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "responsibility",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "religion_worship": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "devotion",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "social_relations": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "attachment",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "economy_property",
+            "emotion_ethics",
+            "kinship_society",
+            "law_governance",
+            "ritual_belief"
+          ],
+          "raw_keywords": [
+            "attachment",
+            "care",
+            "devotion",
+            "ethics",
+            "responsibility",
+            "service",
+            "stewardship"
+          ]
+        },
+        "B016": {
+          "branch_id": "B016",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "قول الشيء حده",
+            "branch_image_en": "definition or essence stated as qawl",
+            "what_is_ar": "يدخل فيه استعمال المنطقيين القول بمعنى الحد، كقول الجوهر وقول العرض أي حدهما.",
+            "what_is_en": "Includes the logicians' use of qawl for a definition or essence, as in the definition of substance or accident.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 3,
+          "parent_theme_count": 2,
+          "keyword_count": 6,
+          "themes": {
+            "cognition": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "ontology",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "philosophy",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "naming_classification": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "classification",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "definition",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "taxonomy",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "reasoning_decision": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "logic",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "cognition_perception",
+            "language_communication"
+          ],
+          "raw_keywords": [
+            "classification",
+            "definition",
+            "logic",
+            "ontology",
+            "philosophy",
+            "taxonomy"
+          ]
+        },
+        "B017": {
+          "branch_id": "B017",
+          "root": "ق و ل",
+          "root_id": "root_001272",
+          "image": {
+            "branch_image_ar": "القول إلهام يلقي معنى",
+            "branch_image_en": "inspiration called saying",
+            "what_is_ar": "يدخل فيه القول في الإلهام، حيث يسمى إلقاء المعنى قولا من غير خطاب وارد.",
+            "what_is_en": "Includes qawl in the sense of inspiration, where a meaning is cast inwardly and called saying without an external address.",
+            "status": "accepted",
+            "contaminated": "yes"
+          },
+          "integrity": "ok",
+          "qnet_membership": "absent_from_bridge_theme_current",
+          "theme_count": 0,
+          "parent_theme_count": 0,
+          "keyword_count": 0,
+          "themes": {},
+          "parent_themes": [],
+          "raw_keywords": []
+        }
+      }
+    },
+    "ء ل ه": {
+      "root_id": "root_000047",
+      "root_norm": "ء ل ه",
+      "source_root_norm": "أ ل ه",
+      "matched_variant": "ءله",
+      "qac_root_join_keys": [
+        "ءله"
+      ],
+      "surface_occurrences": [
+        {
+          "qac_ref": "112:1:3:1",
+          "word_ref": "112:1:3",
+          "position": [
+            112,
+            1,
+            3,
+            1
+          ],
+          "surface_ar": "ٱللَّهُ",
+          "stem_ar": "ٱللَّهُ",
+          "lemma_ar": "ٱللَّه",
+          "root_join_key": "ءله",
+          "pos": "PN",
+          "measure": "",
+          "morph_features": "STEM|POS:PN|LEM:{ll~ah|ROOT:Alh|NOM"
+        },
+        {
+          "qac_ref": "112:2:1:1",
+          "word_ref": "112:2:1",
+          "position": [
+            112,
+            2,
+            1,
+            1
+          ],
+          "surface_ar": "ٱللَّهُ",
+          "stem_ar": "ٱللَّهُ",
+          "lemma_ar": "ٱللَّه",
+          "root_join_key": "ءله",
+          "pos": "PN",
+          "measure": "",
+          "morph_features": "STEM|POS:PN|LEM:{ll~ah|ROOT:Alh|NOM"
+        }
+      ],
+      "branch_count": 2,
+      "qnet_branch_count": 2,
+      "furuq_branch_count": 2,
+      "branches_without_qnet_themes": [],
+      "branches": {
+        "B001": {
+          "branch_id": "B001",
+          "root": "ء ل ه",
+          "root_id": "root_000047",
+          "image": {
+            "branch_image_ar": "التعبد والمعبود",
+            "branch_image_en": "worship and the worshipped one",
+            "what_is_ar": "يدخل فيه أله وتأله بمعنى عبد وتنسك، والتأليه بمعنى التعبيد، والإله والآلهة والإلاهة لما جعل معبودا.",
+            "what_is_en": "Covers worship, devotion, and a being or thing treated as an object of worship, including deity, idols, and the sun when named for being worshipped.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 5,
+          "parent_theme_count": 2,
+          "keyword_count": 10,
+          "themes": {
+            "authority_governance": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "authority",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "belief_revelation": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "divinity",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "theology",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "pilgrimage_sacrifice": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "sacrifice",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "religion_worship": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "cult",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "religion",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "sacredness",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "submission",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "ritual": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "liturgy",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "rituality",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "law_governance",
+            "ritual_belief"
+          ],
+          "raw_keywords": [
+            "authority",
+            "cult",
+            "divinity",
+            "liturgy",
+            "religion",
+            "rituality",
+            "sacredness",
+            "sacrifice",
+            "submission",
+            "theology"
+          ]
+        },
+        "B002": {
+          "branch_id": "B002",
+          "root": "ء ل ه",
+          "root_id": "root_000047",
+          "image": {
+            "branch_image_ar": "اسم الله في القسم والنداء",
+            "branch_image_en": "Allah as a fixed name in oath and invocation formulas",
+            "what_is_ar": "يدخل فيه اسم الله والقول في أصله من إله، وصيغ الاستعمال مثل الله ما فعلت بمعنى والله، واللهم، ويا الله، ولاه أبوك أو لاه أنت ونحوها.",
+            "what_is_en": "Covers the fixed divine name and oath or invocation formulas built on it, including Allah, O Allah, and reduced/formulaic forms cited by the dictionaries.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 3,
+          "keyword_count": 10,
+          "themes": {
+            "grammar_expression": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "formula",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "language_speech": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "language",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "speech",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "naming_classification": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "nomenclature",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "onomastics",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "obligation_contract": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "promise",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "vow",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "prayer_supplication": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "litany",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "prayer",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "religion_worship": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "devotion",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "language_communication",
+            "law_governance",
+            "ritual_belief"
+          ],
+          "raw_keywords": [
+            "devotion",
+            "formula",
+            "language",
+            "litany",
+            "nomenclature",
+            "onomastics",
+            "prayer",
+            "promise",
+            "speech",
+            "vow"
+          ]
+        }
+      }
+    },
+    "ء ح د": {
+      "root_id": "root_000017",
+      "root_norm": "ء ح د",
+      "source_root_norm": "أ ح د",
+      "matched_variant": "ءحد",
+      "qac_root_join_keys": [
+        "ءحد"
+      ],
+      "surface_occurrences": [
+        {
+          "qac_ref": "112:1:4:1",
+          "word_ref": "112:1:4",
+          "position": [
+            112,
+            1,
+            4,
+            1
+          ],
+          "surface_ar": "أَحَدٌ",
+          "stem_ar": "أَحَدٌ",
+          "lemma_ar": "أَحَد",
+          "root_join_key": "ءحد",
+          "pos": "N",
+          "measure": "",
+          "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM"
+        },
+        {
+          "qac_ref": "112:4:5:1",
+          "word_ref": "112:4:5",
+          "position": [
+            112,
+            4,
+            5,
+            1
+          ],
+          "surface_ar": "أَحَدٌۢ",
+          "stem_ar": "أَحَدٌۢ",
+          "lemma_ar": "أَحَد",
+          "root_join_key": "ءحد",
+          "pos": "N",
+          "measure": "",
+          "morph_features": "STEM|POS:N|LEM:>aHad|ROOT:AHd|M|INDEF|NOM"
+        }
+      ],
+      "branch_count": 6,
+      "qnet_branch_count": 6,
+      "furuq_branch_count": 6,
+      "branches_without_qnet_themes": [],
+      "branches": {
+        "B001": {
+          "branch_id": "B001",
+          "root": "ء ح د",
+          "root_id": "root_000017",
+          "image": {
+            "branch_image_ar": "الأَحَدِيَّة والوَحْدَة",
+            "branch_image_en": "oneness and absolute one",
+            "what_is_ar": "أحد بمعنى الواحد، والوصف المطلق بأحد، وتكرار أحد أحد للتأكيد",
+            "what_is_en": "One as singular unity, absolute attributive oneness, and the repeated formula ahad ahad.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 5,
+          "keyword_count": 7,
+          "themes": {
+            "belief_revelation": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "monotheism",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "theology",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "boundary": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "exclusivity",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "identity_personhood": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "identity",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "language_speech": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "assertion",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "social_relations": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "unity",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "value_quality": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "uniqueness",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "condition_force_change",
+            "kinship_society",
+            "language_communication",
+            "ritual_belief",
+            "space_form_boundary"
+          ],
+          "raw_keywords": [
+            "assertion",
+            "exclusivity",
+            "identity",
+            "monotheism",
+            "theology",
+            "uniqueness",
+            "unity"
+          ]
+        },
+        "B002": {
+          "branch_id": "B002",
+          "root": "ء ح د",
+          "root_id": "root_000017",
+          "image": {
+            "branch_image_ar": "استغراق النفي",
+            "branch_image_en": "negative exhaustive anyone",
+            "what_is_ar": "أحد في سياق النفي لاستغراق جنس من يصلح أن يخاطب، فيشمل الواحد وما فوقه",
+            "what_is_en": "Ahad in negation as exhaustive anyone, covering one or more addressable persons.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 5,
+          "keyword_count": 7,
+          "themes": {
+            "boundary": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "scope",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "grammar_expression": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "negation",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "quantity_number": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "quantification",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "totality",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "reasoning_decision": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "logic",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "rhetoric_discourse": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "reference",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "value_quality": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "universality",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "cognition_perception",
+            "condition_force_change",
+            "language_communication",
+            "space_form_boundary",
+            "time_measure_quantity"
+          ],
+          "raw_keywords": [
+            "logic",
+            "negation",
+            "quantification",
+            "reference",
+            "scope",
+            "totality",
+            "universality"
+          ]
+        },
+        "B003": {
+          "branch_id": "B003",
+          "root": "ء ح د",
+          "root_id": "root_000017",
+          "image": {
+            "branch_image_ar": "الواحد في العد والتركيب",
+            "branch_image_en": "one in counting and compound numerals",
+            "what_is_ar": "أحد في العد، وتركيبه مع العشرات، وتصْيير المعدود أحد عشر",
+            "what_is_en": "Ahad as one in counting, in compound numerals with tens, and making a counted set eleven.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 3,
+          "parent_theme_count": 1,
+          "keyword_count": 7,
+          "themes": {
+            "measurement": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "measurement",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "quantity_number": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "arithmetic",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "calculation",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "mathematics",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "number",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "quantity",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "sequence_cycle": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "sequence",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "time_measure_quantity"
+          ],
+          "raw_keywords": [
+            "arithmetic",
+            "calculation",
+            "mathematics",
+            "measurement",
+            "number",
+            "quantity",
+            "sequence"
+          ]
+        },
+        "B004": {
+          "branch_id": "B004",
+          "root": "ء ح د",
+          "root_id": "root_000017",
+          "image": {
+            "branch_image_ar": "الأول والإضافة",
+            "branch_image_en": "one as first or one-of",
+            "what_is_ar": "أحد مضافا أو مضافا إليه بمعنى الأول، واسم يوم الأحد",
+            "what_is_en": "Ahad in genitive or annexed use meaning first or one of, and Sunday as the first day name.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 3,
+          "keyword_count": 7,
+          "themes": {
+            "calendar_season": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "calendar",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "week",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "naming_classification": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "naming",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "politics_order": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "order",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "quantity_number": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "ordinality",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "sequence_cycle": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "sequence",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "time": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "time",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "language_communication",
+            "law_governance",
+            "time_measure_quantity"
+          ],
+          "raw_keywords": [
+            "calendar",
+            "naming",
+            "order",
+            "ordinality",
+            "sequence",
+            "time",
+            "week"
+          ]
+        },
+        "B005": {
+          "branch_id": "B005",
+          "root": "ء ح د",
+          "root_id": "root_000017",
+          "image": {
+            "branch_image_ar": "الانفراد والتفرق آحادا",
+            "branch_image_en": "isolation and individual-by-individual distribution",
+            "what_is_ar": "الانفراد بالفعل، والمجيء آحادا أفرادا",
+            "what_is_en": "Becoming or being alone, and coming as separate individuals.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 5,
+          "keyword_count": 8,
+          "themes": {
+            "agency_action": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "agency",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "boundary": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "separation",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "identity_personhood": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "individuality",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "motion": {
+              "parent_theme": "movement_travel",
+              "keywords": [
+                {
+                  "raw_keyword": "motion",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "movement",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "provision_resource": {
+              "parent_theme": "economy_property",
+              "keywords": [
+                {
+                  "raw_keyword": "distribution",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "social_relations": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "sociality",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "solitude",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "condition_force_change",
+            "economy_property",
+            "kinship_society",
+            "movement_travel",
+            "space_form_boundary"
+          ],
+          "raw_keywords": [
+            "agency",
+            "distribution",
+            "individuality",
+            "motion",
+            "movement",
+            "separation",
+            "sociality",
+            "solitude"
+          ]
+        },
+        "B006": {
+          "branch_id": "B006",
+          "root": "ء ح د",
+          "root_id": "root_000017",
+          "image": {
+            "branch_image_ar": "جبل أُحُد",
+            "branch_image_en": "Mount Uhud",
+            "what_is_ar": "اسم جبل بالمدينة",
+            "what_is_en": "Proper name of the mountain at Medina.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 4,
+          "parent_theme_count": 3,
+          "keyword_count": 7,
+          "themes": {
+            "geography_landscape": {
+              "parent_theme": "land_water_sky",
+              "keywords": [
+                {
+                  "raw_keyword": "geography",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "mountain",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "naming_classification": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "naming",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "place_location": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "city",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "location",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "place",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "terrain_desert": {
+              "parent_theme": "land_water_sky",
+              "keywords": [
+                {
+                  "raw_keyword": "topography",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "land_water_sky",
+            "language_communication",
+            "space_form_boundary"
+          ],
+          "raw_keywords": [
+            "city",
+            "geography",
+            "location",
+            "mountain",
+            "naming",
+            "place",
+            "topography"
+          ]
+        }
+      }
+    },
+    "ص م د": {
+      "root_id": "root_000882",
+      "root_norm": "ص م د",
+      "source_root_norm": "ص م د",
+      "matched_variant": "صمد",
+      "qac_root_join_keys": [
+        "صمد"
+      ],
+      "surface_occurrences": [
+        {
+          "qac_ref": "112:2:2:2",
+          "word_ref": "112:2:2",
+          "position": [
+            112,
+            2,
+            2,
+            2
+          ],
+          "surface_ar": "صَّمَدُ",
+          "stem_ar": "صَّمَدُ",
+          "lemma_ar": "صَّمَد",
+          "root_join_key": "صمد",
+          "pos": "N",
+          "measure": "",
+          "morph_features": "STEM|POS:N|LEM:S~amad|ROOT:Smd|MS|NOM"
+        }
+      ],
+      "branch_count": 7,
+      "qnet_branch_count": 7,
+      "furuq_branch_count": 7,
+      "branches_without_qnet_themes": [],
+      "branches": {
+        "B001": {
+          "branch_id": "B001",
+          "root": "ص م د",
+          "root_id": "root_000882",
+          "image": {
+            "branch_image_ar": "القصد إلى المعتمد المقصود",
+            "branch_image_en": "intending and resorting to the relied-on one",
+            "what_is_ar": "قصد الشيء واعتماده؛ السيد الذي يقصد إليه في الأمور والحوائج؛ الصمد من جهة الصمود إليه",
+            "what_is_en": "intending something with reliance; a chief or the Divine name insofar as one is resorted to for affairs and needs",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 5,
+          "parent_theme_count": 5,
+          "keyword_count": 10,
+          "themes": {
+            "authority_governance": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "authority",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "leadership",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "intention_character": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "purpose",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "orientation_direction": {
+              "parent_theme": "movement_travel",
+              "keywords": [
+                {
+                  "raw_keyword": "orientation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "prayer_supplication": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "petition",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "supplication",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "support_dependence": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "dependence",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "dependency",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "patronage",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "support",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "condition_force_change",
+            "emotion_ethics",
+            "law_governance",
+            "movement_travel",
+            "ritual_belief"
+          ],
+          "raw_keywords": [
+            "authority",
+            "dependence",
+            "dependency",
+            "leadership",
+            "orientation",
+            "patronage",
+            "petition",
+            "purpose",
+            "supplication",
+            "support"
+          ]
+        },
+        "B002": {
+          "branch_id": "B002",
+          "root": "ص م د",
+          "root_id": "root_000882",
+          "image": {
+            "branch_image_ar": "الصلابة المكتنزة بلا جوف",
+            "branch_image_en": "compact solidity without hollowness",
+            "what_is_ar": "الصلابة والاكتناز وانعدام الجوف؛ المكان الصلب أو المرتفع الغليظ؛ الصخرة الراسية والأرض الشديدة",
+            "what_is_en": "solidity and compactness; lack of hollowness; hard or elevated thick ground, fixed rock, and severe ground",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 8,
+          "parent_theme_count": 5,
+          "keyword_count": 8,
+          "themes": {
+            "architecture_construction": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "construction",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "conflict": {
+              "parent_theme": "conflict_security",
+              "keywords": [
+                {
+                  "raw_keyword": "resistance",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "control_restraint": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "obstruction",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "earth_geology": {
+              "parent_theme": "land_water_sky",
+              "keywords": [
+                {
+                  "raw_keyword": "geology",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "form_structure": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "structure",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "material": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "material",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "substance_texture": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "density",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "terrain_desert": {
+              "parent_theme": "land_water_sky",
+              "keywords": [
+                {
+                  "raw_keyword": "terrain",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "condition_force_change",
+            "conflict_security",
+            "craft_material_built",
+            "land_water_sky",
+            "space_form_boundary"
+          ],
+          "raw_keywords": [
+            "construction",
+            "density",
+            "geology",
+            "material",
+            "obstruction",
+            "resistance",
+            "structure",
+            "terrain"
+          ]
+        },
+        "B003": {
+          "branch_id": "B003",
+          "root": "ص م د",
+          "root_id": "root_000882",
+          "image": {
+            "branch_image_ar": "سدادة القارورة المحكمة",
+            "branch_image_en": "the tight bottle stopper",
+            "what_is_ar": "الصماد بمعنى عفاص القارورة أو سدادها؛ فعل صمد القارورة أي جعل لها صمادا",
+            "what_is_en": "the bottle stopper or seal, and the act of stopping a bottle with it",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 8,
+          "parent_theme_count": 3,
+          "keyword_count": 11,
+          "themes": {
+            "boundary": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "boundary",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "containment_access": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "closure",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "sealing",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "craft": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "craft",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "pattern_marking": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "seal",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "stability_endurance": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "preservation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "storage_vessels": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "container",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "packaging",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "storage",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "substance_texture": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "liquid",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "tools_equipment": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "tool",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "condition_force_change",
+            "craft_material_built",
+            "space_form_boundary"
+          ],
+          "raw_keywords": [
+            "boundary",
+            "closure",
+            "container",
+            "craft",
+            "liquid",
+            "packaging",
+            "preservation",
+            "seal",
+            "sealing",
+            "storage",
+            "tool"
+          ]
+        },
+        "B004": {
+          "branch_id": "B004",
+          "root": "ص م د",
+          "root_id": "root_000882",
+          "image": {
+            "branch_image_ar": "شد الرأس بصماد",
+            "branch_image_en": "wrapping the head with a head cloth",
+            "what_is_ar": "تصميد الرأس بخرقة أو منديل أو ثوب دون العمامة",
+            "what_is_en": "wrapping the head with a cloth, kerchief, or garment other than a turban",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 4,
+          "keyword_count": 9,
+          "themes": {
+            "control_restraint": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "fastening",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "disease_injury": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "wound",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "force_power": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "compression",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "health_medicine": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "medicine",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "hospitality_welfare": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "care",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "textile_clothing": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "clothing",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "covering",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "dressing",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "headwear",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "body_health_life",
+            "condition_force_change",
+            "craft_material_built",
+            "kinship_society"
+          ],
+          "raw_keywords": [
+            "care",
+            "clothing",
+            "compression",
+            "covering",
+            "dressing",
+            "fastening",
+            "headwear",
+            "medicine",
+            "wound"
+          ]
+        },
+        "B005": {
+          "branch_id": "B005",
+          "root": "ص م د",
+          "root_id": "root_000882",
+          "image": {
+            "branch_image_ar": "الإشراف على الأمر مع الحفل به",
+            "branch_image_en": "being on the verge of an affair and occupied with it",
+            "what_is_ar": "قولهم على صمادة من أمر لمن أشرف عليه وحفل به",
+            "what_is_en": "the idiom of being on the verge of an affair and giving it attention",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 3,
+          "parent_theme_count": 2,
+          "keyword_count": 7,
+          "themes": {
+            "authority_governance": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "administration",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "governance",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "management",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "stewardship",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "memory_attention": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "attention",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "vigilance",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "obligation_contract": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "responsibility",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "cognition_perception",
+            "law_governance"
+          ],
+          "raw_keywords": [
+            "administration",
+            "attention",
+            "governance",
+            "management",
+            "responsibility",
+            "stewardship",
+            "vigilance"
+          ]
+        },
+        "B006": {
+          "branch_id": "B006",
+          "root": "ص م د",
+          "root_id": "root_000882",
+          "image": {
+            "branch_image_ar": "إيقاع الضرب بالعصا",
+            "branch_image_en": "striking with a stick",
+            "what_is_ar": "صمده بالعصا بمعنى ضربه بها",
+            "what_is_en": "striking someone with a stick",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 4,
+          "keyword_count": 6,
+          "themes": {
+            "conflict": {
+              "parent_theme": "conflict_security",
+              "keywords": [
+                {
+                  "raw_keyword": "conflict",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "disease_injury": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "injury",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "force_power": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "force",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "punishment_sanction": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "punishment",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "violence_warfare": {
+              "parent_theme": "conflict_security",
+              "keywords": [
+                {
+                  "raw_keyword": "violence",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "weaponry": {
+              "parent_theme": "conflict_security",
+              "keywords": [
+                {
+                  "raw_keyword": "weapon",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "body_health_life",
+            "condition_force_change",
+            "conflict_security",
+            "law_governance"
+          ],
+          "raw_keywords": [
+            "conflict",
+            "force",
+            "injury",
+            "punishment",
+            "violence",
+            "weapon"
+          ]
+        },
+        "B007": {
+          "branch_id": "B007",
+          "root": "ص م د",
+          "root_id": "root_000882",
+          "image": {
+            "branch_image_ar": "الدوام والبقاء على الشدة",
+            "branch_image_en": "lasting endurance and continuance",
+            "what_is_ar": "الدوام والبقاء؛ الناقة المصماد الباقية على القر والجدب الدائمة الرسل",
+            "what_is_en": "lasting and remaining; a she-camel enduring cold and drought while continuing milk",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 4,
+          "keyword_count": 8,
+          "themes": {
+            "abundance_scarcity": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "scarcity",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "habitat_ecology": {
+              "parent_theme": "animal_life",
+              "keywords": [
+                {
+                  "raw_keyword": "ecology",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "livestock": {
+              "parent_theme": "animal_life",
+              "keywords": [
+                {
+                  "raw_keyword": "livestock",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "provision_resource": {
+              "parent_theme": "economy_property",
+              "keywords": [
+                {
+                  "raw_keyword": "sustenance",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "stability_endurance": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "endurance",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "resilience",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "survival",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "weather_climate": {
+              "parent_theme": "land_water_sky",
+              "keywords": [
+                {
+                  "raw_keyword": "climate",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "animal_life",
+            "condition_force_change",
+            "economy_property",
+            "land_water_sky"
+          ],
+          "raw_keywords": [
+            "climate",
+            "ecology",
+            "endurance",
+            "livestock",
+            "resilience",
+            "scarcity",
+            "survival",
+            "sustenance"
+          ]
+        }
+      }
+    },
+    "و ل د": {
+      "root_id": "root_001683",
+      "root_norm": "و ل د",
+      "source_root_norm": "و ل د",
+      "matched_variant": "ولد",
+      "qac_root_join_keys": [
+        "ولد"
+      ],
+      "surface_occurrences": [
+        {
+          "qac_ref": "112:3:2:1",
+          "word_ref": "112:3:2",
+          "position": [
+            112,
+            3,
+            2,
+            1
+          ],
+          "surface_ar": "يَلِدْ",
+          "stem_ar": "يَلِدْ",
+          "lemma_ar": "وَلَدَ",
+          "root_join_key": "ولد",
+          "pos": "V",
+          "measure": "",
+          "morph_features": "STEM|POS:V|IMPF|LEM:walada|ROOT:wld|3MS|MOOD:JUS"
+        },
+        {
+          "qac_ref": "112:3:4:1",
+          "word_ref": "112:3:4",
+          "position": [
+            112,
+            3,
+            4,
+            1
+          ],
+          "surface_ar": "يُولَدْ",
+          "stem_ar": "يُولَدْ",
+          "lemma_ar": "وَلَدَ",
+          "root_join_key": "ولد",
+          "pos": "V",
+          "measure": "",
+          "morph_features": "STEM|POS:V|IMPF|PASS|LEM:walada|ROOT:wld|3MS|MOOD:JUS"
+        }
+      ],
+      "branch_count": 7,
+      "qnet_branch_count": 6,
+      "furuq_branch_count": 7,
+      "branches_without_qnet_themes": [
+        "B007"
+      ],
+      "branches": {
+        "B001": {
+          "branch_id": "B001",
+          "root": "و ل د",
+          "root_id": "root_001683",
+          "image": {
+            "branch_image_ar": "مولود من نسل",
+            "branch_image_en": "Born offspring",
+            "what_is_ar": "يدخل فيه الولد والمولود والابن والابنة والأولاد، ويستعمل للواحد والجمع وللصغير والكبير وللذكر والأنثى بحسب نصوص المصادر.",
+            "what_is_en": "Offspring or child: a born son or daughter, singular or plural, young or old, male or female where the sources allow it.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 4,
+          "keyword_count": 6,
+          "themes": {
+            "family": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "family",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "kinship": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "kinship",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "marriage_genealogy": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "genealogy",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "motion": {
+              "parent_theme": "movement_travel",
+              "keywords": [
+                {
+                  "raw_keyword": "descent",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "reproduction_birth": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "reproduction",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "wealth_property": {
+              "parent_theme": "economy_property",
+              "keywords": [
+                {
+                  "raw_keyword": "inheritance",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "body_health_life",
+            "economy_property",
+            "kinship_society",
+            "movement_travel"
+          ],
+          "raw_keywords": [
+            "descent",
+            "family",
+            "genealogy",
+            "inheritance",
+            "kinship",
+            "reproduction"
+          ]
+        },
+        "B002": {
+          "branch_id": "B002",
+          "root": "و ل د",
+          "root_id": "root_001683",
+          "image": {
+            "branch_image_ar": "أبوان من جهة الولادة",
+            "branch_image_en": "Parents by birth relation",
+            "what_is_ar": "يدخل فيه الوالد بمعنى الأب، والوالدة بمعنى الأم، والوالدان للأب والأم.",
+            "what_is_en": "Parent roles in the birth relation: father, mother, and both parents.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 3,
+          "keyword_count": 8,
+          "themes": {
+            "family": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "family",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "parenthood",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "household_community": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "household",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "kinship": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "kinship",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "marriage_genealogy": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "ancestry",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "genealogy",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "motion": {
+              "parent_theme": "movement_travel",
+              "keywords": [
+                {
+                  "raw_keyword": "descent",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "reproduction_birth": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "reproduction",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "body_health_life",
+            "kinship_society",
+            "movement_travel"
+          ],
+          "raw_keywords": [
+            "ancestry",
+            "descent",
+            "family",
+            "genealogy",
+            "household",
+            "kinship",
+            "parenthood",
+            "reproduction"
+          ]
+        },
+        "B003": {
+          "branch_id": "B003",
+          "root": "و ل د",
+          "root_id": "root_001683",
+          "image": {
+            "branch_image_ar": "حدوث الولادة ووضع الحمل",
+            "branch_image_en": "Birth and delivery",
+            "what_is_ar": "يدخل فيه ولدت المرأة، والولادة بوضع الوالدة ولدها، وما قرب من وقت الولادة أو حان ولاده في أولدت، وولادة الحيوان إذا نصت المصادر عليها.",
+            "what_is_en": "Birth as an event or act: a mother gives birth, delivery occurs, or birth is due/near; also animal birthing where attested.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 5,
+          "parent_theme_count": 3,
+          "keyword_count": 9,
+          "themes": {
+            "change_transition": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "emergence",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "physiology": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "biology",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "reproduction_birth": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "generation",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "maternity",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "nativity",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "obstetrics",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "reproduction",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "sequence_cycle": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "origin",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "time": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "timing",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "body_health_life",
+            "condition_force_change",
+            "time_measure_quantity"
+          ],
+          "raw_keywords": [
+            "biology",
+            "emergence",
+            "generation",
+            "maternity",
+            "nativity",
+            "obstetrics",
+            "origin",
+            "reproduction",
+            "timing"
+          ]
+        },
+        "B004": {
+          "branch_id": "B004",
+          "root": "و ل د",
+          "root_id": "root_001683",
+          "image": {
+            "branch_image_ar": "صغير قريب العهد بالولادة أو مملوك",
+            "branch_image_en": "Young born one or slave term",
+            "what_is_ar": "يدخل فيه الوليد للصبي أو الغلام القريب العهد بالولادة، والوليدة للصبية أو الأمة، وما جمعه ولدان أو ولائد بحسب النص.",
+            "what_is_en": "A young child/newborn term, and in some usage a male slave or female slave girl marked by وليد or وليدة.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 4,
+          "keyword_count": 9,
+          "themes": {
+            "control_restraint": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "bondage",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "hierarchy_status": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "servitude",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "slavery",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "status",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "household_community": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "household",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "life_stage_aging": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "childhood",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "youth",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "support_dependence": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "dependency",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "wealth_property": {
+              "parent_theme": "economy_property",
+              "keywords": [
+                {
+                  "raw_keyword": "ownership",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "body_health_life",
+            "condition_force_change",
+            "economy_property",
+            "kinship_society"
+          ],
+          "raw_keywords": [
+            "bondage",
+            "childhood",
+            "dependency",
+            "household",
+            "ownership",
+            "servitude",
+            "slavery",
+            "status",
+            "youth"
+          ]
+        },
+        "B005": {
+          "branch_id": "B005",
+          "root": "و ل د",
+          "root_id": "root_001683",
+          "image": {
+            "branch_image_ar": "شيء حاصل عن شيء أو مستحدث منه",
+            "branch_image_en": "Generated or derived thing",
+            "what_is_ar": "يدخل فيه تولد الشيء من الشيء إذا حصل عنه بسبب، والمولد من الكلام إذا استحدث، وما كان غير محض أو ناشئا في بيئة معينة مثل عربية مولدة ورجل مولد.",
+            "what_is_en": "Something generated from something else, newly produced, derived, or not pure/original because of its origin.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 8,
+          "parent_theme_count": 7,
+          "keyword_count": 10,
+          "themes": {
+            "agency_action": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "creativity",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "belief_revelation": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "creation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "change_transition": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "change",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "innovation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "language_speech": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "language",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "linguistics",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "reasoning_decision": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "causality",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "reproduction_birth": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "generation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "sequence_cycle": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "origin",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "substance_texture": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "mixture",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "body_health_life",
+            "cognition_perception",
+            "condition_force_change",
+            "craft_material_built",
+            "language_communication",
+            "ritual_belief",
+            "time_measure_quantity"
+          ],
+          "raw_keywords": [
+            "causality",
+            "change",
+            "creation",
+            "creativity",
+            "generation",
+            "innovation",
+            "language",
+            "linguistics",
+            "mixture",
+            "origin"
+          ]
+        },
+        "B006": {
+          "branch_id": "B006",
+          "root": "و ل د",
+          "root_id": "root_001683",
+          "image": {
+            "branch_image_ar": "قرين في سن الولادة",
+            "branch_image_en": "Peer of the same birth-age",
+            "what_is_ar": "يدخل فيه اللدة أو لدة الرجل بمعنى تربه ومثيله في السن.",
+            "what_is_en": "A same-age peer, someone born around the same time.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 4,
+          "keyword_count": 8,
+          "themes": {
+            "identity_personhood": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "identity",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "justice_judgment": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "equality",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "life_stage_aging": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "age",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "reasoning_decision": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "comparison",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "similarity",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "reproduction_birth": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "generation",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "social_relations": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "cohort",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "companionship",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "body_health_life",
+            "cognition_perception",
+            "kinship_society",
+            "law_governance"
+          ],
+          "raw_keywords": [
+            "age",
+            "cohort",
+            "companionship",
+            "comparison",
+            "equality",
+            "generation",
+            "identity",
+            "similarity"
+          ]
+        },
+        "B007": {
+          "branch_id": "B007",
+          "root": "و ل د",
+          "root_id": "root_001683",
+          "image": {
+            "branch_image_ar": "أمر لا ينادى وليده",
+            "branch_image_en": "Idiom where its child is not called",
+            "what_is_ar": "يدخل فيه المثل لا ينادى وليده وما فسرته المصادر من أمر عظيم أو شديد، أو شيء كثير، أو غارة تذهل الأم عن ولدها، أو طعام ولبن وعشب كثير لا يحتاج فيه إلى نداء الوليد.",
+            "what_is_en": "The idiom لا ينادى وليده: a situation so grave, abundant, or absorbing that the child/slave boy is not called or corrected.",
+            "status": "accepted",
+            "contaminated": "yes"
+          },
+          "integrity": "ok",
+          "qnet_membership": "absent_from_bridge_theme_current",
+          "theme_count": 0,
+          "parent_theme_count": 0,
+          "keyword_count": 0,
+          "themes": {},
+          "parent_themes": [],
+          "raw_keywords": []
+        }
+      }
+    },
+    "ك و ن": {
+      "root_id": "root_001332",
+      "root_norm": "ك و ن",
+      "source_root_norm": "ك و ن",
+      "matched_variant": "كون",
+      "qac_root_join_keys": [
+        "كون"
+      ],
+      "surface_occurrences": [
+        {
+          "qac_ref": "112:4:2:1",
+          "word_ref": "112:4:2",
+          "position": [
+            112,
+            4,
+            2,
+            1
+          ],
+          "surface_ar": "يَكُن",
+          "stem_ar": "يَكُن",
+          "lemma_ar": "كَانَ",
+          "root_join_key": "كون",
+          "pos": "V",
+          "measure": "",
+          "morph_features": "STEM|POS:V|IMPF|LEM:kaAna|ROOT:kwn|SP:kaAn|3MS|MOOD:JUS"
+        }
+      ],
+      "branch_count": 6,
+      "qnet_branch_count": 6,
+      "furuq_branch_count": 6,
+      "branches_without_qnet_themes": [],
+      "branches": {
+        "B001": {
+          "branch_id": "B001",
+          "root": "ك و ن",
+          "root_id": "root_001332",
+          "image": {
+            "branch_image_ar": "وقوع الشيء وحضوره في زمان",
+            "branch_image_en": "being, occurrence, or temporal predication",
+            "what_is_ar": "يدخل فيه وقوع الشيء وحضوره وحدوثه في زمان ماض أو راهن، ومصدر كان والكينونة والكائنة، واستعمال كان خبرا أو توكيدا أو في الاستثناء.",
+            "what_is_en": "Includes a thing occurring or being present, being reported in past or present time, the verbal noun of kana, kaynuna, ka'inah, and grammatical uses of kana for predication, emphasis, or exception.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 4,
+          "keyword_count": 9,
+          "themes": {
+            "cognition": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "ontology",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "grammar_expression": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "copula",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "grammar",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "language_speech": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "assertion",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "sequence_cycle": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "event",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "stability_endurance": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "actuality",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "existence",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "time": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "temporality",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "time",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "cognition_perception",
+            "condition_force_change",
+            "language_communication",
+            "time_measure_quantity"
+          ],
+          "raw_keywords": [
+            "actuality",
+            "assertion",
+            "copula",
+            "event",
+            "existence",
+            "grammar",
+            "ontology",
+            "temporality",
+            "time"
+          ]
+        },
+        "B002": {
+          "branch_id": "B002",
+          "root": "ك و ن",
+          "root_id": "root_001332",
+          "image": {
+            "branch_image_ar": "المكان والمكانة من الكون",
+            "branch_image_en": "place, position, or rank from being",
+            "what_is_ar": "يدخل فيه المكان والموضع والمكانة والمنزلة والتمكن إذا جعلت من كان يكون.",
+            "what_is_en": "Includes place, position, rank, and tamakkun where the sources derive them from kana/yakun.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 4,
+          "parent_theme_count": 3,
+          "keyword_count": 8,
+          "themes": {
+            "capacity_ability": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "capacity",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "hierarchy_status": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "hierarchy",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "status",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "place_location": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "location",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "place",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "position",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "settlement",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "space": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "space",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "condition_force_change",
+            "kinship_society",
+            "space_form_boundary"
+          ],
+          "raw_keywords": [
+            "capacity",
+            "hierarchy",
+            "location",
+            "place",
+            "position",
+            "settlement",
+            "space",
+            "status"
+          ]
+        },
+        "B003": {
+          "branch_id": "B003",
+          "root": "ك و ن",
+          "root_id": "root_001332",
+          "image": {
+            "branch_image_ar": "الكفالة والقيام على فلان",
+            "branch_image_en": "suretyship or undertaking responsibility",
+            "what_is_ar": "يدخل فيه الكيانة والكفالة والتكفل بفلان واكتنت به.",
+            "what_is_en": "Includes suretyship, guaranteeing a person, and the form iktana in the same sense.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "parent_theme_count": 5,
+          "keyword_count": 8,
+          "themes": {
+            "agency_action": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "agency",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "hospitality_welfare": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "care",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "obligation_contract": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "liability",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "obligation",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "protection_security": {
+              "parent_theme": "conflict_security",
+              "keywords": [
+                {
+                  "raw_keyword": "protection",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "social_relations": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "social",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "support_dependence": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "patronage",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "trust_loyalty": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "trust",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "condition_force_change",
+            "conflict_security",
+            "emotion_ethics",
+            "kinship_society",
+            "law_governance"
+          ],
+          "raw_keywords": [
+            "agency",
+            "care",
+            "liability",
+            "obligation",
+            "patronage",
+            "protection",
+            "social",
+            "trust"
+          ]
+        },
+        "B004": {
+          "branch_id": "B004",
+          "root": "ك و ن",
+          "root_id": "root_001332",
+          "image": {
+            "branch_image_ar": "الخضوع بالاستكانة",
+            "branch_image_en": "submission or humbling",
+            "what_is_ar": "يدخل فيه الاستكانة بمعنى الخضوع.",
+            "what_is_en": "Includes istikanah meaning submission or humbling oneself.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 8,
+          "parent_theme_count": 5,
+          "keyword_count": 8,
+          "themes": {
+            "authority_governance": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "obedience",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "control_restraint": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "domination",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "danger_harm": {
+              "parent_theme": "conflict_security",
+              "keywords": [
+                {
+                  "raw_keyword": "vulnerability",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "ethics_morality": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "humility",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "force_power": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "power",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "honor_shame": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "humiliation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "religion_worship": {
+              "parent_theme": "ritual_belief",
+              "keywords": [
+                {
+                  "raw_keyword": "submission",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "support_dependence": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "dependence",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "condition_force_change",
+            "conflict_security",
+            "emotion_ethics",
+            "law_governance",
+            "ritual_belief"
+          ],
+          "raw_keywords": [
+            "dependence",
+            "domination",
+            "humiliation",
+            "humility",
+            "obedience",
+            "power",
+            "submission",
+            "vulnerability"
+          ]
+        },
+        "B005": {
+          "branch_id": "B005",
+          "root": "ك و ن",
+          "root_id": "root_001332",
+          "image": {
+            "branch_image_ar": "الشيخ المنسوب إلى كُنْتُ",
+            "branch_image_en": "the old \"I used to\" man",
+            "what_is_ar": "يدخل فيه الكُنْتِيّ للرجل إذا شاخ كأنه نسب إلى قوله كُنْتُ في شبابي.",
+            "what_is_en": "Includes the idiom kunti for a man who has grown old, as if named from saying \"I used to\" about his youth.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "parent_theme_count": 5,
+          "keyword_count": 7,
+          "themes": {
+            "identity_personhood": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "identity",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "language_speech": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "speech",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "life_stage_aging": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "aging",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "memory_attention": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "memory",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "physiology": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "life",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "time": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "time",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "writing_text": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "biography",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "body_health_life",
+            "cognition_perception",
+            "kinship_society",
+            "language_communication",
+            "time_measure_quantity"
+          ],
+          "raw_keywords": [
+            "aging",
+            "biography",
+            "identity",
+            "life",
+            "memory",
+            "speech",
+            "time"
+          ]
+        },
+        "B006": {
+          "branch_id": "B006",
+          "root": "ك و ن",
+          "root_id": "root_001332",
+          "image": {
+            "branch_image_ar": "حالة السوء بكينة",
+            "branch_image_en": "a bad state or condition",
+            "what_is_ar": "يدخل فيه قولهم بات فلان بكينة سوء أي بحال سوء إذا جعلت الكينة فعلة من الكون.",
+            "what_is_en": "Includes the expression bat bi-kinati su' meaning he spent the night in a bad condition, when kinah is traced to kawn.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 4,
+          "keyword_count": 8,
+          "themes": {
+            "abundance_scarcity": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "fortune",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "danger_harm": {
+              "parent_theme": "conflict_security",
+              "keywords": [
+                {
+                  "raw_keyword": "harm",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "ethics_morality": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "evil",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "perception": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "experience",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "suffering_hardship": {
+              "parent_theme": "emotion_ethics",
+              "keywords": [
+                {
+                  "raw_keyword": "adversity",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "misfortune",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "suffering",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "value_quality": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "condition",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "cognition_perception",
+            "condition_force_change",
+            "conflict_security",
+            "emotion_ethics"
+          ],
+          "raw_keywords": [
+            "adversity",
+            "condition",
+            "evil",
+            "experience",
+            "fortune",
+            "harm",
+            "misfortune",
+            "suffering"
+          ]
+        }
+      }
+    },
+    "ك ف ء": {
+      "root_id": "root_001305",
+      "root_norm": "ك ف ء",
+      "source_root_norm": "ك ف أ",
+      "matched_variant": "كفء",
+      "qac_root_join_keys": [
+        "كفء"
+      ],
+      "surface_occurrences": [
+        {
+          "qac_ref": "112:4:4:1",
+          "word_ref": "112:4:4",
+          "position": [
+            112,
+            4,
+            4,
+            1
+          ],
+          "surface_ar": "كُفُوًا",
+          "stem_ar": "كُفُوًا",
+          "lemma_ar": "كُفُو",
+          "root_join_key": "كفء",
+          "pos": "N",
+          "measure": "",
+          "morph_features": "STEM|POS:N|LEM:kufuw|ROOT:kfA|M|INDEF|ACC"
+        }
+      ],
+      "branch_count": 5,
+      "qnet_branch_count": 5,
+      "furuq_branch_count": 5,
+      "branches_without_qnet_themes": [],
+      "branches": {
+        "B001": {
+          "branch_id": "B001",
+          "root": "ك ف ء",
+          "root_id": "root_001305",
+          "image": {
+            "branch_image_ar": "المماثلة والمقابلة بالمثل",
+            "branch_image_en": "equal counterpart and matching response",
+            "what_is_ar": "يدخل فيه الكفء والمثل والنظير؛ التساوي والتكافؤ؛ الكفاءة في المناكحة والحرب والمضادة؛ المكافأة والمجازاة بالمثل؛ المقابلة والموالاة بين شيئين",
+            "what_is_en": "Includes an equal peer or counterpart, equality and mutual equivalence, suitability in marriage, war, or opposition, recompense by like-for-like response, and facing or alternating between two things.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 8,
+          "parent_theme_count": 7,
+          "keyword_count": 8,
+          "themes": {
+            "commerce_exchange": {
+              "parent_theme": "economy_property",
+              "keywords": [
+                {
+                  "raw_keyword": "exchange",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "communication": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "correspondence",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "conflict": {
+              "parent_theme": "conflict_security",
+              "keywords": [
+                {
+                  "raw_keyword": "conflict",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "justice_judgment": {
+              "parent_theme": "law_governance",
+              "keywords": [
+                {
+                  "raw_keyword": "justice",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "kinship": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "kinship",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "reasoning_decision": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "comparison",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "social_relations": {
+              "parent_theme": "kinship_society",
+              "keywords": [
+                {
+                  "raw_keyword": "relation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "surface_shape": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "symmetry",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "cognition_perception",
+            "conflict_security",
+            "economy_property",
+            "kinship_society",
+            "language_communication",
+            "law_governance",
+            "space_form_boundary"
+          ],
+          "raw_keywords": [
+            "comparison",
+            "conflict",
+            "correspondence",
+            "exchange",
+            "justice",
+            "kinship",
+            "relation",
+            "symmetry"
+          ]
+        },
+        "B002": {
+          "branch_id": "B002",
+          "root": "ك ف ء",
+          "root_id": "root_001305",
+          "image": {
+            "branch_image_ar": "الإمالة والقلب والصرف",
+            "branch_image_en": "tilting, overturning, and diverting",
+            "what_is_ar": "يدخل فيه إمالة الشيء وقلبه وكبه؛ إمالة القوس والصحفة؛ صرف القوم عن وجهتهم؛ التمايل في المشي أو كالسفينة؛ انكسار الوجه وتغير اللون",
+            "what_is_en": "Includes tilting, overturning, pouring out by turning over, tilting a bow or bowl, diverting people from their direction, swaying motion, and the downcast or changed face/color image.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 8,
+          "parent_theme_count": 4,
+          "keyword_count": 8,
+          "themes": {
+            "change_transition": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "change",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "migration_displacement": {
+              "parent_theme": "movement_travel",
+              "keywords": [
+                {
+                  "raw_keyword": "displacement",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "motion": {
+              "parent_theme": "movement_travel",
+              "keywords": [
+                {
+                  "raw_keyword": "motion",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "navigation_route": {
+              "parent_theme": "movement_travel",
+              "keywords": [
+                {
+                  "raw_keyword": "navigation",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "orientation_direction": {
+              "parent_theme": "movement_travel",
+              "keywords": [
+                {
+                  "raw_keyword": "orientation",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "posture_embodiment": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "posture",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "stability_endurance": {
+              "parent_theme": "condition_force_change",
+              "keywords": [
+                {
+                  "raw_keyword": "instability",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "storage_vessels": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "vessel",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "body_health_life",
+            "condition_force_change",
+            "craft_material_built",
+            "movement_travel"
+          ],
+          "raw_keywords": [
+            "change",
+            "displacement",
+            "instability",
+            "motion",
+            "navigation",
+            "orientation",
+            "posture",
+            "vessel"
+          ]
+        },
+        "B003": {
+          "branch_id": "B003",
+          "root": "ك ف ء",
+          "root_id": "root_001305",
+          "image": {
+            "branch_image_ar": "اختلاف القوافي",
+            "branch_image_en": "irregular rhyme variation",
+            "what_is_ar": "يدخل فيه الإكفاء في الشعر باختلاف القوافي في الحروف أو الحركات أو الإعراب",
+            "what_is_en": "Includes the poetic technical term for discrepant rhyme, whether described as differing rhyme letters or differing case/movement of the rhyme.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 3,
+          "keyword_count": 8,
+          "themes": {
+            "form_structure": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "composition",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "form",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "language_speech": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "language",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "recitation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "pattern_marking": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "pattern",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "perception": {
+              "parent_theme": "cognition_perception",
+              "keywords": [
+                {
+                  "raw_keyword": "audition",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "rhetoric_discourse": {
+              "parent_theme": "language_communication",
+              "keywords": [
+                {
+                  "raw_keyword": "poetics",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "visual_appearance": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "style",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "cognition_perception",
+            "language_communication",
+            "space_form_boundary"
+          ],
+          "raw_keywords": [
+            "audition",
+            "composition",
+            "form",
+            "language",
+            "pattern",
+            "poetics",
+            "recitation",
+            "style"
+          ]
+        },
+        "B004": {
+          "branch_id": "B004",
+          "root": "ك ف ء",
+          "root_id": "root_001305",
+          "image": {
+            "branch_image_ar": "كِفاء الخباء",
+            "branch_image_en": "tent-back covering",
+            "what_is_ar": "يدخل فيه الكِفاء بمعنى شقة أو شقتين تخاطان ويجعل بهما مؤخر الخباء أو البيت",
+            "what_is_en": "Includes the kifa cloth, one or two sewn pieces used to cover or form the rear of a tent or dwelling.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 3,
+          "keyword_count": 8,
+          "themes": {
+            "architecture_construction": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "architecture",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "dwelling",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "shelter",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "containment_access": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "enclosure",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "craft": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "craft",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "place_location": {
+              "parent_theme": "space_form_boundary",
+              "keywords": [
+                {
+                  "raw_keyword": "habitation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "protection_security": {
+              "parent_theme": "conflict_security",
+              "keywords": [
+                {
+                  "raw_keyword": "protection",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "textile_clothing": {
+              "parent_theme": "craft_material_built",
+              "keywords": [
+                {
+                  "raw_keyword": "textile",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "parent_themes": [
+            "conflict_security",
+            "craft_material_built",
+            "space_form_boundary"
+          ],
+          "raw_keywords": [
+            "architecture",
+            "craft",
+            "dwelling",
+            "enclosure",
+            "habitation",
+            "protection",
+            "shelter",
+            "textile"
+          ]
+        },
+        "B005": {
+          "branch_id": "B005",
+          "root": "ك ف ء",
+          "root_id": "root_001305",
+          "image": {
+            "branch_image_ar": "كفأة السنة والنتاج",
+            "branch_image_en": "yearly produce and breeding lot",
+            "what_is_ar": "يدخل فيه الكفأة لحمل النخلة أو نتاج الإبل سنة؛ سؤال نتاج الإبل أو ثمر النخل سنة؛ إعطاء اللبن والوبر والأولاد سنة؛ جعل الإبل كفأتين يتناوب نتاجهما",
+            "what_is_en": "Includes the annual produce or offspring of palms or camels, asking or granting a year's use of milk, wool, offspring, or fruit, and dividing camels into two alternating breeding lots.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "parent_theme_count": 5,
+          "keyword_count": 9,
+          "themes": {
+            "agriculture": {
+              "parent_theme": "agriculture_food",
+              "keywords": [
+                {
+                  "raw_keyword": "agriculture",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "harvest_cultivation": {
+              "parent_theme": "agriculture_food",
+              "keywords": [
+                {
+                  "raw_keyword": "harvest",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "husbandry": {
+              "parent_theme": "animal_life",
+              "keywords": [
+                {
+                  "raw_keyword": "husbandry",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "pastoralism",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "provision_resource": {
+              "parent_theme": "economy_property",
+              "keywords": [
+                {
+                  "raw_keyword": "livelihood",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "resource",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "reproduction_birth": {
+              "parent_theme": "body_health_life",
+              "keywords": [
+                {
+                  "raw_keyword": "fertility",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "reproduction",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "sequence_cycle": {
+              "parent_theme": "time_measure_quantity",
+              "keywords": [
+                {
+                  "raw_keyword": "cycle",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "parent_themes": [
+            "agriculture_food",
+            "animal_life",
+            "body_health_life",
+            "economy_property",
+            "time_measure_quantity"
+          ],
+          "raw_keywords": [
+            "agriculture",
+            "cycle",
+            "fertility",
+            "harvest",
+            "husbandry",
+            "livelihood",
+            "pastoralism",
+            "reproduction",
+            "resource"
+          ]
+        }
+      }
+    }
+  },
+  "missing_roots": []
+}

@@ -1,0 +1,343 @@
+# v11 Activation Packet — S112:1-4
+
+Bias: recall-first. Preserve latent candidates with labels instead of pruning.
+
+## Surface roots
+
+ق و ل → ء ل ه → ء ح د → ص م د → و ل د → ك و ن → ك ف ء
+
+## Branch inventory summary
+
+- ق و ل: 17 branches (16 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ء ل ه: 2 branches (2 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ء ح د: 6 branches (6 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ص م د: 7 branches (7 with Qnet bridge-theme nodes; 0 Furūq-only)
+- و ل د: 7 branches (6 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ك و ن: 6 branches (6 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ك ف ء: 5 branches (5 with Qnet bridge-theme nodes; 0 Furūq-only)
+
+## QAC-first root resolution audit
+
+- ق و ل | qac_keys=قول | status=resolved | matches=root_001272
+- ء ل ه | qac_keys=ءله | status=resolved | matches=root_000047
+- ء ح د | qac_keys=ءحد | status=resolved | matches=root_000017
+- ص م د | qac_keys=صمد | status=resolved | matches=root_000882
+- و ل د | qac_keys=ولد | status=resolved | matches=root_001683
+- ك و ن | qac_keys=كون | status=resolved | matches=root_001332
+- ك ف ء | qac_keys=كفء | status=resolved | matches=root_001305
+
+## Top candidate bridges
+
+- `ق و ل B010` ↔ `ك و ن B004` | score_hint=17 | discovery_hint=13 | themes=authority_governance, control_restraint, force_power | keywords=domination, power | q2=—
+- `ق و ل B008` ↔ `ص م د B003` | score_hint=15 | discovery_hint=16 | themes=craft, tools_equipment | keywords=craft, tool | q2=—
+- `ق و ل B001` ↔ `و ل د B005` | score_hint=14 | discovery_hint=11 | themes=agency_action, language_speech | keywords=language, linguistics | q2=—
+- `ق و ل B013` ↔ `ء ل ه B001` | score_hint=14 | discovery_hint=11 | themes=belief_revelation, religion_worship | keywords=religion, theology | q2=—
+- `ق و ل B009` ↔ `ك ف ء B001` | score_hint=14 | discovery_hint=10 | themes=commerce_exchange, communication, reasoning_decision, social_relations | keywords=— | q2=—
+- `ق و ل B002` ↔ `ء ل ه B002` | score_hint=13 | discovery_hint=12 | themes=grammar_expression, language_speech | keywords=language, speech | q2=—
+- `ق و ل B015` ↔ `ص م د B005` | score_hint=13 | discovery_hint=12 | themes=authority_governance, obligation_contract | keywords=responsibility, stewardship | q2=—
+- `ق و ل B015` ↔ `ك و ن B003` | score_hint=13 | discovery_hint=11 | themes=hospitality_welfare, obligation_contract, social_relations | keywords=care | q2=—
+- `و ل د B006` ↔ `ك ف ء B001` | score_hint=13 | discovery_hint=10 | themes=justice_judgment, reasoning_decision, social_relations | keywords=comparison | q2=—
+- `ق و ل B011` ↔ `ك و ن B001` | score_hint=12 | discovery_hint=10 | themes=cognition, grammar_expression, language_speech | keywords=grammar | q2=—
+- `ص م د B001` ↔ `ك و ن B004` | score_hint=12 | discovery_hint=11 | themes=authority_governance, support_dependence | keywords=dependence | q2=—
+- `ء ح د B006` ↔ `ك و ن B002` | score_hint=11 | discovery_hint=12 | themes=place_location | keywords=location, place | q2=—
+- `ق و ل B006` ↔ `ء ح د B005` | score_hint=11 | discovery_hint=12 | themes=agency_action, identity_personhood | keywords=agency | q2=—
+- `ق و ل B010` ↔ `ص م د B006` | score_hint=11 | discovery_hint=12 | themes=conflict, force_power | keywords=conflict | q2=—
+- `و ل د B006` ↔ `ك و ن B005` | score_hint=11 | discovery_hint=13 | themes=identity_personhood, life_stage_aging | keywords=identity | q2=—
+- `ق و ل B002` ↔ `ك و ن B005` | score_hint=10 | discovery_hint=12 | themes=language_speech, physiology | keywords=speech | q2=—
+- `ق و ل B011` ↔ `و ل د B005` | score_hint=10 | discovery_hint=11 | themes=language_speech, reasoning_decision | keywords=language | q2=—
+- `ق و ل B013` ↔ `ء ح د B001` | score_hint=10 | discovery_hint=10 | themes=belief_revelation, social_relations | keywords=theology | q2=—
+- `ق و ل B015` ↔ `ء ل ه B002` | score_hint=10 | discovery_hint=11 | themes=obligation_contract, religion_worship | keywords=devotion | q2=—
+- `ء ل ه B001` ↔ `ك و ن B004` | score_hint=10 | discovery_hint=10 | themes=authority_governance, religion_worship | keywords=submission | q2=—
+- `ء ح د B001` ↔ `ك و ن B005` | score_hint=10 | discovery_hint=11 | themes=identity_personhood, language_speech | keywords=identity | q2=—
+- `ء ح د B004` ↔ `ك و ن B001` | score_hint=10 | discovery_hint=10 | themes=sequence_cycle, time | keywords=time | q2=—
+- `ء ح د B005` ↔ `ك و ن B003` | score_hint=10 | discovery_hint=11 | themes=agency_action, social_relations | keywords=agency | q2=—
+- `ص م د B003` ↔ `ك ف ء B004` | score_hint=10 | discovery_hint=11 | themes=containment_access, craft | keywords=craft | q2=—
+- `و ل د B003` ↔ `ك ف ء B005` | score_hint=10 | discovery_hint=12 | themes=reproduction_birth, sequence_cycle | keywords=reproduction | q2=—
+- `ق و ل B008` ↔ `ص م د B002` | score_hint=9 | discovery_hint=15 | themes=material | keywords=material | q2=—
+- `ص م د B001` ↔ `ك ف ء B002` | score_hint=9 | discovery_hint=14 | themes=orientation_direction | keywords=orientation | q2=—
+- `ق و ل B001` ↔ `ك ف ء B003` | score_hint=9 | discovery_hint=10 | themes=language_speech, rhetoric_discourse | keywords=language | q2=—
+- `ق و ل B006` ↔ `ء ح د B001` | score_hint=9 | discovery_hint=11 | themes=identity_personhood | keywords=identity | q2=—
+- `ق و ل B006` ↔ `و ل د B004` | score_hint=9 | discovery_hint=12 | themes=wealth_property | keywords=ownership | q2=—
+- `ق و ل B006` ↔ `ك و ن B003` | score_hint=9 | discovery_hint=11 | themes=agency_action | keywords=agency | q2=—
+- `ق و ل B008` ↔ `ء ح د B005` | score_hint=9 | discovery_hint=11 | themes=motion | keywords=motion | q2=—
+- `ق و ل B008` ↔ `ك ف ء B002` | score_hint=9 | discovery_hint=11 | themes=motion | keywords=motion | q2=—
+- `ق و ل B010` ↔ `ك ف ء B001` | score_hint=9 | discovery_hint=10 | themes=conflict | keywords=conflict | q2=—
+- `ق و ل B011` ↔ `ء ل ه B002` | score_hint=9 | discovery_hint=11 | themes=grammar_expression, language_speech | keywords=language | q2=—
+- `ق و ل B012` ↔ `ك ف ء B003` | score_hint=9 | discovery_hint=11 | themes=language_speech | keywords=language | q2=—
+- `ء ح د B001` ↔ `و ل د B006` | score_hint=9 | discovery_hint=11 | themes=identity_personhood, social_relations | keywords=identity | q2=—
+- `ص م د B001` ↔ `ك و ن B003` | score_hint=9 | discovery_hint=11 | themes=support_dependence | keywords=patronage | q2=—
+- `و ل د B005` ↔ `ك ف ء B002` | score_hint=9 | discovery_hint=11 | themes=change_transition | keywords=change | q2=—
+- `ق و ل B015` ↔ `ك و ن B004` | score_hint=9 | discovery_hint=6 | themes=authority_governance, ethics_morality, religion_worship | keywords=— | q2=—
+- `ك و ن B003` ↔ `ك ف ء B004` | score_hint=8 | discovery_hint=16 | themes=protection_security | keywords=protection | q2=—
+- `ق و ل B002` ↔ `و ل د B005` | score_hint=8 | discovery_hint=11 | themes=language_speech | keywords=language | q2=—
+- `ق و ل B006` ↔ `ك و ن B005` | score_hint=8 | discovery_hint=12 | themes=identity_personhood | keywords=identity | q2=—
+- `ق و ل B010` ↔ `ص م د B001` | score_hint=8 | discovery_hint=10 | themes=authority_governance | keywords=authority | q2=—
+- `ق و ل B010` ↔ `ك و ن B002` | score_hint=8 | discovery_hint=11 | themes=hierarchy_status | keywords=hierarchy | q2=—
+- `ق و ل B011` ↔ `ك ف ء B003` | score_hint=8 | discovery_hint=11 | themes=language_speech | keywords=language | q2=—
+- `ق و ل B012` ↔ `و ل د B005` | score_hint=8 | discovery_hint=11 | themes=language_speech | keywords=language | q2=—
+- `ق و ل B016` ↔ `ء ح د B002` | score_hint=8 | discovery_hint=11 | themes=reasoning_decision | keywords=logic | q2=—
+- `ق و ل B016` ↔ `ك و ن B001` | score_hint=8 | discovery_hint=10 | themes=cognition | keywords=ontology | q2=—
+- `ء ل ه B001` ↔ `ص م د B001` | score_hint=8 | discovery_hint=9 | themes=authority_governance | keywords=authority | q2=—
+- `ء ل ه B002` ↔ `و ل د B005` | score_hint=8 | discovery_hint=11 | themes=language_speech | keywords=language | q2=—
+- `ء ح د B001` ↔ `ك و ن B001` | score_hint=8 | discovery_hint=9 | themes=language_speech | keywords=assertion | q2=—
+- `ء ح د B004` ↔ `ك و ن B005` | score_hint=8 | discovery_hint=11 | themes=time | keywords=time | q2=—
+- `ء ح د B005` ↔ `ك ف ء B002` | score_hint=8 | discovery_hint=11 | themes=motion | keywords=motion | q2=—
+- `ص م د B004` ↔ `ك و ن B003` | score_hint=8 | discovery_hint=11 | themes=hospitality_welfare | keywords=care | q2=—
+- `ص م د B006` ↔ `ك ف ء B001` | score_hint=8 | discovery_hint=10 | themes=conflict | keywords=conflict | q2=—
+- `و ل د B001` ↔ `ك ف ء B001` | score_hint=8 | discovery_hint=9 | themes=kinship | keywords=kinship | q2=—
+- `و ل د B001` ↔ `ك ف ء B005` | score_hint=8 | discovery_hint=11 | themes=reproduction_birth | keywords=reproduction | q2=—
+- `و ل د B004` ↔ `ك و ن B002` | score_hint=8 | discovery_hint=11 | themes=hierarchy_status | keywords=status | q2=—
+- `و ل د B005` ↔ `ك ف ء B003` | score_hint=8 | discovery_hint=11 | themes=language_speech | keywords=language | q2=—
+- `ق و ل B014` ↔ `ك ف ء B003` | score_hint=8 | discovery_hint=6 | themes=language_speech, perception, rhetoric_discourse | keywords=— | q2=—
+- `و ل د B005` ↔ `ك و ن B001` | score_hint=8 | discovery_hint=5 | themes=language_speech, sequence_cycle | keywords=— | q2=—
+- `ق و ل B001` ↔ `ء ل ه B002` | score_hint=7 | discovery_hint=10 | themes=language_speech | keywords=language | q2=—
+- `ق و ل B002` ↔ `ك ف ء B003` | score_hint=7 | discovery_hint=11 | themes=language_speech | keywords=language | q2=—
+- `ق و ل B003` ↔ `ء ح د B005` | score_hint=7 | discovery_hint=11 | themes=social_relations | keywords=sociality | q2=—
+- `ق و ل B004` ↔ `ء ل ه B001` | score_hint=7 | discovery_hint=10 | themes=authority_governance | keywords=authority | q2=—
+- `ق و ل B004` ↔ `ص م د B001` | score_hint=7 | discovery_hint=10 | themes=authority_governance | keywords=authority | q2=—
+- `ق و ل B004` ↔ `ص م د B005` | score_hint=7 | discovery_hint=11 | themes=authority_governance | keywords=governance | q2=—
+- `ق و ل B004` ↔ `ك و ن B002` | score_hint=7 | discovery_hint=11 | themes=hierarchy_status | keywords=hierarchy | q2=—
+- `ق و ل B006` ↔ `و ل د B006` | score_hint=7 | discovery_hint=12 | themes=identity_personhood | keywords=identity | q2=—
+- `ق و ل B007` ↔ `ء ح د B005` | score_hint=7 | discovery_hint=11 | themes=social_relations | keywords=sociality | q2=—
+- `ق و ل B008` ↔ `ك ف ء B004` | score_hint=7 | discovery_hint=11 | themes=craft | keywords=craft | q2=—
+- `ق و ل B010` ↔ `ء ل ه B001` | score_hint=7 | discovery_hint=10 | themes=authority_governance | keywords=authority | q2=—
+- `ق و ل B010` ↔ `ص م د B005` | score_hint=7 | discovery_hint=11 | themes=authority_governance | keywords=governance | q2=—
+- `ق و ل B012` ↔ `ء ل ه B002` | score_hint=7 | discovery_hint=11 | themes=language_speech | keywords=language | q2=—
+- `ق و ل B015` ↔ `ص م د B004` | score_hint=7 | discovery_hint=11 | themes=hospitality_welfare | keywords=care | q2=—
+- `ء ل ه B001` ↔ `ء ح د B001` | score_hint=7 | discovery_hint=9 | themes=belief_revelation | keywords=theology | q2=—
+- `ء ل ه B002` ↔ `ك و ن B005` | score_hint=7 | discovery_hint=11 | themes=language_speech | keywords=speech | q2=—
+- `ء ل ه B002` ↔ `ك ف ء B003` | score_hint=7 | discovery_hint=11 | themes=language_speech | keywords=language | q2=—
+- `ص م د B001` ↔ `و ل د B004` | score_hint=7 | discovery_hint=11 | themes=support_dependence | keywords=dependency | q2=—
+
+## Per-root candidate activations
+
+### ق و ل
+
+- `ق و ل B001` — إخراج القول بالنطق
+  - activated_by_or_with: ء ح د, ء ل ه, ك ف ء, ك و ن, و ل د
+  - themes: agency_action, communication, language_speech, rhetoric_discourse
+  - keywords: communication, discourse, language, linguistics, rhetoric
+- `ق و ل B002` — اللسان آلة القول
+  - activated_by_or_with: ء ح د, ء ل ه, ك ف ء, ك و ن, و ل د
+  - themes: communication, grammar_expression, language_speech, physiology
+  - keywords: communication, language, speech
+- `ق و ل B003` — كثرة القول في صاحبه
+  - activated_by_or_with: ء ح د, ص م د, ك ف ء, ك و ن, و ل د
+  - themes: communication, intention_character, rhetoric_discourse, social_relations
+  - keywords: communication, rhetoric, sociality
+- `ق و ل B004` — القيل صاحب القول النافذ
+  - activated_by_or_with: ء ح د, ء ل ه, ص م د, ك و ن, و ل د
+  - themes: authority_governance, hierarchy_status, politics_order
+  - keywords: authority, governance, hierarchy
+- `ق و ل B005` — قول ما لم يكن أو نسبته
+  - activated_by_or_with: ء ح د, ك ف ء, ك و ن, و ل د
+  - themes: ethics_morality, honor_shame, justice_judgment, rhetoric_discourse
+  - keywords: discourse, ethics, reputation
+- `ق و ل B006` — اجترار القول إلى النفس
+  - activated_by_or_with: ء ح د, ك ف ء, ك و ن, و ل د
+  - themes: agency_action, communication, ethics_morality, honor_shame, identity_personhood, rhetoric_discourse, wealth_property
+  - keywords: agency, communication, discourse, identity, ownership, reputation
+- `ق و ل B007` — القول الفاشي بين الناس
+  - activated_by_or_with: ء ح د, ك ف ء, ك و ن, و ل د
+  - themes: communication, concealment_disclosure, honor_shame, social_relations
+  - keywords: communication, reputation, sociality
+- `ق و ل B008` — عود القال لضرب القلة
+  - activated_by_or_with: ء ح د, ص م د, ك ف ء, ك و ن, و ل د
+  - themes: craft, force_power, material, motion, tools_equipment
+  - keywords: craft, material, motion, tool
+- `ق و ل B009` — المقاولة في الأمر
+  - activated_by_or_with: ء ح د, ء ل ه, ص م د, ك ف ء, ك و ن, و ل د
+  - themes: commerce_exchange, communication, obligation_contract, politics_order, reasoning_decision, social_relations
+  - keywords: communication
+- `ق و ل B010` — اقتالة الحكم على غيره
+  - activated_by_or_with: ء ل ه, ص م د, ك ف ء, ك و ن, و ل د
+  - themes: authority_governance, conflict, control_restraint, force_power, hierarchy_status, law
+  - keywords: authority, conflict, domination, governance, hierarchy, law, power
+- `ق و ل B011` — قول يجري مجرى الظن
+  - activated_by_or_with: ء ح د, ء ل ه, ك ف ء, ك و ن, و ل د
+  - themes: cognition, grammar_expression, language_speech, reasoning_decision
+  - keywords: cognition, grammar, language
+- `ق و ل B012` — قول في النفس لم يظهر
+  - activated_by_or_with: ء ح د, ء ل ه, ص م د, ك ف ء, ك و ن, و ل د
+  - themes: cognition, concealment_disclosure, containment_access, intention_character, language_speech
+  - keywords: cognition, language
+- `ق و ل B013` — القول اعتقاد ومذهب
+  - activated_by_or_with: ء ح د, ء ل ه, ك ف ء, ك و ن, و ل د
+  - themes: belief_revelation, cognition, law, religion_worship, social_relations
+  - keywords: law, philosophy, religion, theology
+- `ق و ل B014` — قول الشيء دلالته
+  - activated_by_or_with: ء ح د, ء ل ه, ص م د, ك ف ء, ك و ن, و ل د
+  - themes: communication, habitat_ecology, language_speech, perception, rhetoric_discourse
+  - keywords: —
+- `ق و ل B015` — العناية الصادقة بالشيء
+  - activated_by_or_with: ء ح د, ء ل ه, ص م د, ك ف ء, ك و ن, و ل د
+  - themes: authority_governance, ethics_morality, hospitality_welfare, obligation_contract, religion_worship, social_relations
+  - keywords: care, devotion, ethics, responsibility, stewardship
+- `ق و ل B016` — قول الشيء حده
+  - activated_by_or_with: ء ح د, ء ل ه, ك ف ء, ك و ن, و ل د
+  - themes: cognition, naming_classification, reasoning_decision
+  - keywords: logic, ontology, philosophy
+- `ق و ل B017` — القول إلهام يلقي معنى
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+
+### ء ل ه
+
+- `ء ل ه B001` — التعبد والمعبود
+  - activated_by_or_with: ء ح د, ص م د, ق و ل, ك و ن, و ل د
+  - themes: authority_governance, belief_revelation, religion_worship
+  - keywords: authority, religion, submission, theology
+- `ء ل ه B002` — اسم الله في القسم والنداء
+  - activated_by_or_with: ء ح د, ص م د, ق و ل, ك ف ء, ك و ن, و ل د
+  - themes: grammar_expression, language_speech, naming_classification, obligation_contract, prayer_supplication, religion_worship
+  - keywords: devotion, language, speech
+
+### ء ح د
+
+- `ء ح د B001` — الأَحَدِيَّة والوَحْدَة
+  - activated_by_or_with: ء ل ه, ص م د, ق و ل, ك ف ء, ك و ن, و ل د
+  - themes: belief_revelation, boundary, identity_personhood, language_speech, social_relations, value_quality
+  - keywords: assertion, identity, theology
+- `ء ح د B002` — استغراق النفي
+  - activated_by_or_with: ء ل ه, ص م د, ق و ل, ك ف ء, ك و ن, و ل د
+  - themes: boundary, grammar_expression, quantity_number, reasoning_decision, rhetoric_discourse, value_quality
+  - keywords: logic
+- `ء ح د B003` — الواحد في العد والتركيب
+  - activated_by_or_with: ك ف ء, ك و ن, و ل د
+  - themes: quantity_number, sequence_cycle
+  - keywords: sequence
+- `ء ح د B004` — الأول والإضافة
+  - activated_by_or_with: ء ل ه, ق و ل, ك ف ء, ك و ن, و ل د
+  - themes: naming_classification, politics_order, quantity_number, sequence_cycle, time
+  - keywords: naming, sequence, time
+- `ء ح د B005` — الانفراد والتفرق آحادا
+  - activated_by_or_with: ص م د, ق و ل, ك ف ء, ك و ن, و ل د
+  - themes: agency_action, boundary, identity_personhood, motion, provision_resource, social_relations
+  - keywords: agency, motion, sociality
+- `ء ح د B006` — جبل أُحُد
+  - activated_by_or_with: ء ل ه, ص م د, ق و ل, ك ف ء, ك و ن
+  - themes: naming_classification, place_location, terrain_desert
+  - keywords: location, naming, place
+
+### ص م د
+
+- `ص م د B001` — القصد إلى المعتمد المقصود
+  - activated_by_or_with: ء ل ه, ق و ل, ك ف ء, ك و ن, و ل د
+  - themes: authority_governance, intention_character, orientation_direction, prayer_supplication, support_dependence
+  - keywords: authority, dependence, dependency, orientation, patronage
+- `ص م د B002` — الصلابة المكتنزة بلا جوف
+  - activated_by_or_with: ء ح د, ق و ل, ك ف ء, ك و ن, و ل د
+  - themes: architecture_construction, conflict, control_restraint, form_structure, material, substance_texture, terrain_desert
+  - keywords: material
+- `ص م د B003` — سدادة القارورة المحكمة
+  - activated_by_or_with: ء ح د, ق و ل, ك ف ء, ك و ن, و ل د
+  - themes: boundary, containment_access, craft, pattern_marking, stability_endurance, storage_vessels, substance_texture, tools_equipment
+  - keywords: craft, tool
+- `ص م د B004` — شد الرأس بصماد
+  - activated_by_or_with: ق و ل, ك ف ء, ك و ن, و ل د
+  - themes: control_restraint, disease_injury, force_power, hospitality_welfare, textile_clothing
+  - keywords: care
+- `ص م د B005` — الإشراف على الأمر مع الحفل به
+  - activated_by_or_with: ء ل ه, ق و ل, ك و ن
+  - themes: authority_governance, memory_attention, obligation_contract
+  - keywords: governance, responsibility, stewardship
+- `ص م د B006` — إيقاع الضرب بالعصا
+  - activated_by_or_with: ق و ل, ك ف ء, ك و ن
+  - themes: conflict, disease_injury, force_power
+  - keywords: conflict
+- `ص م د B007` — الدوام والبقاء على الشدة
+  - activated_by_or_with: ء ح د, ق و ل, ك ف ء, ك و ن
+  - themes: abundance_scarcity, habitat_ecology, provision_resource, stability_endurance
+  - keywords: —
+
+### و ل د
+
+- `و ل د B001` — مولود من نسل
+  - activated_by_or_with: ء ح د, ق و ل, ك ف ء
+  - themes: family, kinship, marriage_genealogy, motion, reproduction_birth, wealth_property
+  - keywords: descent, family, genealogy, kinship, reproduction
+- `و ل د B002` — أبوان من جهة الولادة
+  - activated_by_or_with: ء ح د, ق و ل, ك ف ء
+  - themes: family, household_community, kinship, marriage_genealogy, motion, reproduction_birth
+  - keywords: descent, family, genealogy, household, kinship, reproduction
+- `و ل د B003` — حدوث الولادة ووضع الحمل
+  - activated_by_or_with: ء ح د, ق و ل, ك ف ء, ك و ن
+  - themes: change_transition, physiology, reproduction_birth, sequence_cycle, time
+  - keywords: generation, origin, reproduction
+- `و ل د B004` — صغير قريب العهد بالولادة أو مملوك
+  - activated_by_or_with: ص م د, ق و ل, ك و ن
+  - themes: control_restraint, hierarchy_status, household_community, life_stage_aging, support_dependence, wealth_property
+  - keywords: dependency, household, ownership, status
+- `و ل د B005` — شيء حاصل عن شيء أو مستحدث منه
+  - activated_by_or_with: ء ح د, ء ل ه, ص م د, ق و ل, ك ف ء, ك و ن
+  - themes: agency_action, belief_revelation, change_transition, language_speech, reasoning_decision, reproduction_birth, sequence_cycle, substance_texture
+  - keywords: change, generation, language, linguistics, origin
+- `و ل د B006` — قرين في سن الولادة
+  - activated_by_or_with: ء ح د, ق و ل, ك ف ء, ك و ن
+  - themes: identity_personhood, justice_judgment, life_stage_aging, reasoning_decision, reproduction_birth, social_relations
+  - keywords: comparison, generation, identity
+- `و ل د B007` — أمر لا ينادى وليده
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+
+### ك و ن
+
+- `ك و ن B001` — وقوع الشيء وحضوره في زمان
+  - activated_by_or_with: ء ح د, ء ل ه, ص م د, ق و ل, ك ف ء, و ل د
+  - themes: cognition, grammar_expression, language_speech, sequence_cycle, stability_endurance, time
+  - keywords: assertion, grammar, ontology, time
+- `ك و ن B002` — المكان والمكانة من الكون
+  - activated_by_or_with: ء ح د, ق و ل, ك ف ء, و ل د
+  - themes: hierarchy_status, place_location
+  - keywords: hierarchy, location, place, status
+- `ك و ن B003` — الكفالة والقيام على فلان
+  - activated_by_or_with: ء ح د, ء ل ه, ص م د, ق و ل, ك ف ء, و ل د
+  - themes: agency_action, hospitality_welfare, obligation_contract, protection_security, social_relations, support_dependence
+  - keywords: agency, care, patronage, protection
+- `ك و ن B004` — الخضوع بالاستكانة
+  - activated_by_or_with: ء ل ه, ص م د, ق و ل, و ل د
+  - themes: authority_governance, control_restraint, danger_harm, ethics_morality, force_power, honor_shame, religion_worship, support_dependence
+  - keywords: dependence, domination, power, submission
+- `ك و ن B005` — الشيخ المنسوب إلى كُنْتُ
+  - activated_by_or_with: ء ح د, ء ل ه, ص م د, ق و ل, ك ف ء, و ل د
+  - themes: identity_personhood, language_speech, life_stage_aging, memory_attention, physiology, time
+  - keywords: identity, speech, time
+- `ك و ن B006` — حالة السوء بكينة
+  - activated_by_or_with: ء ح د, ص م د, ق و ل, ك ف ء
+  - themes: abundance_scarcity, danger_harm, ethics_morality, perception, value_quality
+  - keywords: —
+
+### ك ف ء
+
+- `ك ف ء B001` — المماثلة والمقابلة بالمثل
+  - activated_by_or_with: ء ح د, ص م د, ق و ل, ك و ن, و ل د
+  - themes: commerce_exchange, communication, conflict, justice_judgment, kinship, reasoning_decision, social_relations
+  - keywords: comparison, conflict, kinship
+- `ك ف ء B002` — الإمالة والقلب والصرف
+  - activated_by_or_with: ء ح د, ص م د, ق و ل, ك و ن, و ل د
+  - themes: change_transition, motion, orientation_direction, stability_endurance, storage_vessels
+  - keywords: change, motion, orientation
+- `ك ف ء B003` — اختلاف القوافي
+  - activated_by_or_with: ء ح د, ء ل ه, ص م د, ق و ل, ك و ن, و ل د
+  - themes: form_structure, language_speech, pattern_marking, perception, rhetoric_discourse
+  - keywords: language
+- `ك ف ء B004` — كِفاء الخباء
+  - activated_by_or_with: ء ح د, ص م د, ق و ل, ك و ن
+  - themes: architecture_construction, containment_access, craft, place_location, protection_security, textile_clothing
+  - keywords: craft, protection
+- `ك ف ء B005` — كفأة السنة والنتاج
+  - activated_by_or_with: ء ح د, ص م د, ك و ن, و ل د
+  - themes: provision_resource, reproduction_birth, sequence_cycle
+  - keywords: reproduction
+
+## Agent instruction
+
+Classify branches as A/B/C/S/X, but use discovery bias:
+
+- uncertain S vs C => C
+- uncertain C vs B => C/B
+- broad bridge => preserve with evidence profile
+- only data-invalid branches => X
+- after broad activation, rank by discovery value: surprise, hidden material underlay, and added mechanism

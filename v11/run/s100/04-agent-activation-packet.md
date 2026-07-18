@@ -1,0 +1,943 @@
+# v11 Activation Packet — S100:1-11
+
+Bias: recall-first. Preserve latent candidates with labels instead of pruning.
+
+## Surface roots
+
+ع د و → ض ب ح → و ر ي → ق د ح → غ ي ر → ص ب ح → ث و ر → ن ق ع → و س ط → ج م ع → ء ن س → ر ب ب → ك ن د → ش ه د → ح ب ب → خ ي ر → ش د د → ع ل م → ب ع ث ر → ق ب ر → ح ص ل → ص د ر → خ ب ر
+
+## Branch inventory summary
+
+- ع د و: 12 branches (12 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ض ب ح: 5 branches (5 with Qnet bridge-theme nodes; 0 Furūq-only)
+- و ر ي: 9 branches (8 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ق د ح: 10 branches (10 with Qnet bridge-theme nodes; 0 Furūq-only)
+- غ ي ر: 5 branches (5 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ص ب ح: 10 branches (10 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ث و ر: 7 branches (7 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ن ق ع: 9 branches (9 with Qnet bridge-theme nodes; 0 Furūq-only)
+- و س ط: 7 branches (7 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ج م ع: 13 branches (13 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ء ن س: 7 branches (6 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ر ب ب: 17 branches (17 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ك ن د: 4 branches (4 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ش ه د: 8 branches (6 with Qnet bridge-theme nodes; 2 Furūq-only)
+- ح ب ب: 12 branches (12 with Qnet bridge-theme nodes; 0 Furūq-only)
+- خ ي ر: 6 branches (5 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ش د د: 6 branches (6 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ع ل م: 7 branches (6 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ب ع ث ر: 3 branches (3 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ق ب ر: 5 branches (4 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ح ص ل: 6 branches (6 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ص د ر: 6 branches (6 with Qnet bridge-theme nodes; 0 Furūq-only)
+- خ ب ر: 6 branches (6 with Qnet bridge-theme nodes; 0 Furūq-only)
+
+## QAC-first root resolution audit
+
+- ع د و | qac_keys=عدو | status=resolved | matches=root_000993
+- ض ب ح | qac_keys=ضبح | status=resolved | matches=root_000901
+- و ر ي | qac_keys=وري | status=resolved | matches=root_001642
+- ق د ح | qac_keys=قدح | status=resolved | matches=root_001203
+- غ ي ر | qac_keys=غير | status=resolved | matches=root_001119
+- ص ب ح | qac_keys=صبح | status=resolved | matches=root_000839
+- ث و ر | qac_keys=ثور | status=resolved | matches=root_000210
+- ن ق ع | qac_keys=نقع | status=resolved | matches=root_001544
+- و س ط | qac_keys=وسط | status=resolved | matches=root_001646
+- ج م ع | qac_keys=جمع | status=resolved | matches=root_000259
+- ء ن س | qac_keys=ءنس | status=resolved | matches=root_000059
+- ر ب ب | qac_keys=ربب | status=resolved | matches=root_000532
+- ك ن د | qac_keys=كند | status=resolved | matches=root_001321
+- ش ه د | qac_keys=شهد | status=resolved | matches=root_000822
+- ح ب ب | qac_keys=حبب | status=resolved | matches=root_000286
+- خ ي ر | qac_keys=خير | status=resolved | matches=root_000452
+- ش د د | qac_keys=شدد | status=resolved | matches=root_000782
+- ع ل م | qac_keys=علم | status=resolved | matches=root_001040
+- ب ع ث ر | qac_keys=بعثر | status=resolved | matches=root_000130
+- ق ب ر | qac_keys=قبر | status=resolved | matches=root_001195
+- ح ص ل | qac_keys=حصل | status=resolved | matches=root_000330
+- ص د ر | qac_keys=صدر | status=resolved | matches=root_000849
+- خ ب ر | qac_keys=خبر | status=resolved | matches=root_000387
+
+## Top candidate bridges
+
+- `ر ب ب B013` ↔ `ع ل م B005` | score_hint=34 | discovery_hint=15 | themes=abundance_scarcity, geography_landscape, habitat_ecology, provision_resource, water_hydrology | keywords=abundance, geography, hydrology, nature, resource | q2=—
+- `ص ب ح B001` ↔ `ش د د B005` | score_hint=32 | discovery_hint=14 | themes=calendar_season, light_darkness, sequence_cycle, sky_astronomy, time | keywords=astronomy, cycle, day, light, time | q2=—
+- `ق د ح B010` ↔ `ج م ع B003` | score_hint=31 | discovery_hint=14 | themes=agency_action, authority_governance, cognition, reasoning_decision | keywords=agency, cognition, governance, planning, strategy | q2=—
+- `و ر ي B002` ↔ `ق د ح B001` | score_hint=31 | discovery_hint=14 | themes=change_transition, craft, fire_heat, force_power, light_darkness, tools_equipment | keywords=energy, technology, tool, transformation | q2=—
+- `ث و ر B001` ↔ `ح ب ب B008` | score_hint=30 | discovery_hint=15 | themes=habitat_ecology, motion, substance_texture, water_hydrology, weather_climate | keywords=fluid, motion, nature, water | q2=—
+- `ع د و B004` ↔ `غ ي ر B005` | score_hint=29 | discovery_hint=14 | themes=boundary, grammar_expression, language_speech, naming_classification, reasoning_decision | keywords=boundary, classification, language, logic | q2=—
+- `غ ي ر B002` ↔ `ج م ع B008` | score_hint=27 | discovery_hint=18 | themes=justice_judgment, law, punishment_sanction, violence_warfare | keywords=justice, law, punishment, violence | q2=—
+- `ض ب ح B003` ↔ `و ر ي B002` | score_hint=27 | discovery_hint=14 | themes=change_transition, craft, fire_heat, tools_equipment | keywords=craft, heat, tool, transformation | q2=—
+- `ق د ح B007` ↔ `ر ب ب B010` | score_hint=27 | discovery_hint=14 | themes=belief_revelation, proof_uncertainty, ritual, weaponry | keywords=chance, gambling, ritual, weapon | q2=—
+- `غ ي ر B004` ↔ `ن ق ع B009` | score_hint=27 | discovery_hint=14 | themes=emotion, ethics_morality, honor_shame, social_relations | keywords=emotion, honor, morality, social | q2=—
+- `ث و ر B003` ↔ `ن ق ع B009` | score_hint=27 | discovery_hint=14 | themes=conflict, emotion, social_relations, violence_warfare | keywords=aggression, conflict, emotion, violence | q2=—
+- `ص ب ح B006` ↔ `ح ب ب B009` | score_hint=27 | discovery_hint=14 | themes=body, light_darkness, ornament_beauty, perception, visual_appearance | keywords=beauty, body, perception | q2=—
+- `ب ع ث ر B001` ↔ `ق ب ر B001` | score_hint=26 | discovery_hint=12 | themes=concealment_disclosure, earth_geology, mortality_death | keywords=burial, concealment, death, earth | q2=—
+- `ع د و B003` ↔ `و س ط B005` | score_hint=25 | discovery_hint=14 | themes=conflict, politics_order, social_relations | keywords=conflict, politics, relationship, society | q2=—
+- `ص ب ح B010` ↔ `ج م ع B009` | score_hint=25 | discovery_hint=14 | themes=change_transition, cognition, grammar_expression, identity_personhood | keywords=grammar, identity, ontology | q2=—
+- `ث و ر B001` ↔ `ن ق ع B004` | score_hint=25 | discovery_hint=13 | themes=concealment_disclosure, motion, perception, weather_climate | keywords=atmosphere, motion, visibility | q2=—
+- `ع د و B003` ↔ `ج م ع B013` | score_hint=24 | discovery_hint=14 | themes=conflict, politics_order, social_relations, trust_loyalty | keywords=conflict, politics, society | q2=—
+- `ق د ح B003` ↔ `ن ق ع B009` | score_hint=24 | discovery_hint=13 | themes=conflict, honor_shame, language_speech, social_relations | keywords=conflict, honor, speech | q2=—
+- `ث و ر B006` ↔ `ك ن د B004` | score_hint=24 | discovery_hint=14 | themes=culture_tradition, identity_personhood, kinship, marriage_genealogy, naming_classification | keywords=genealogy, identity, onomastics | q2=—
+- `ر ب ب B008` ↔ `خ ب ر B002` | score_hint=24 | discovery_hint=15 | themes=agriculture, habitat_ecology, reproduction_birth, water_hydrology | keywords=agriculture, ecology, fertility | q2=—
+- `ع د و B002` ↔ `ح ب ب B005` | score_hint=23 | discovery_hint=14 | themes=animal, body, motion, travel | keywords=animal, body, travel | q2=—
+- `ع د و B005` ↔ `غ ي ر B002` | score_hint=23 | discovery_hint=14 | themes=health_medicine, justice_judgment, law, protection_security | keywords=justice, law, remedy | q2=—
+- `ض ب ح B001` ↔ `ح ب ب B011` | score_hint=23 | discovery_hint=12 | themes=animal, calendar_season, motion, wildlife | keywords=animal, motion, night | q2=—
+- `ض ب ح B003` ↔ `ق د ح B001` | score_hint=23 | discovery_hint=12 | themes=change_transition, craft, fire_heat, tools_equipment | keywords=combustion, tool, transformation | q2=—
+- `ص ب ح B004` ↔ `ش د د B003` | score_hint=23 | discovery_hint=13 | themes=conflict, motion, time, violence_warfare | keywords=conflict, mobility, violence | q2=—
+- `ج م ع B002` ↔ `ر ب ب B004` | score_hint=23 | discovery_hint=14 | themes=household_community, quantity_number, social_relations, violence_warfare | keywords=assembly, demography, society | q2=—
+- `ج م ع B010` ↔ `ح ب ب B011` | score_hint=23 | discovery_hint=14 | themes=animal, force_power, motion | keywords=animal, energy, motion | q2=—
+- `ء ن س B005` ↔ `ح ب ب B009` | score_hint=23 | discovery_hint=14 | themes=anatomy, body, perception, visual_appearance | keywords=anatomy, body, perception | q2=—
+- `ع د و B001` ↔ `غ ي ر B002` | score_hint=22 | discovery_hint=12 | themes=justice_judgment, law, violence_warfare | keywords=justice, law, violence | q2=—
+- `ع د و B003` ↔ `ق د ح B003` | score_hint=22 | discovery_hint=14 | themes=conflict, identity_personhood, social_relations | keywords=conflict, identity, society | q2=—
+- `ض ب ح B002` ↔ `ح ب ب B005` | score_hint=22 | discovery_hint=13 | themes=animal, motion, transport, travel | keywords=animal, transport, travel | q2=—
+- `ق د ح B008` ↔ `ع ل م B004` | score_hint=22 | discovery_hint=14 | themes=anatomy, body, disease_injury, health_medicine | keywords=anatomy, body, veterinary | q2=—
+- `غ ي ر B003` ↔ `ص ب ح B010` | score_hint=22 | discovery_hint=14 | themes=change_transition, identity_personhood, sequence_cycle | keywords=change, identity, process | q2=—
+- `ص ب ح B008` ↔ `ر ب ب B009` | score_hint=22 | discovery_hint=13 | themes=animal, livestock, time | keywords=animal, livestock, time | q2=—
+- `ث و ر B003` ↔ `ج م ع B013` | score_hint=22 | discovery_hint=13 | themes=conflict, politics_order, social_relations | keywords=conflict, politics, sociality | q2=—
+- `و س ط B005` ↔ `ج م ع B013` | score_hint=22 | discovery_hint=13 | themes=conflict, politics_order, social_relations | keywords=conflict, politics, society | q2=—
+- `ج م ع B011` ↔ `ح ص ل B005` | score_hint=22 | discovery_hint=16 | themes=agriculture, growth_decay, harvest_cultivation, plant_vegetation | keywords=agriculture, botany, fruit | q2=—
+- `ر ب ب B008` ↔ `ك ن د B003` | score_hint=22 | discovery_hint=15 | themes=agriculture, habitat_ecology, reproduction_birth | keywords=agriculture, ecology, fertility | q2=—
+- `ر ب ب B012` ↔ `خ ب ر B002` | score_hint=22 | discovery_hint=14 | themes=agriculture, geography_landscape, habitat_ecology | keywords=agriculture, ecology, landscape | q2=—
+- `ك ن د B003` ↔ `خ ب ر B002` | score_hint=22 | discovery_hint=15 | themes=agriculture, habitat_ecology, reproduction_birth | keywords=agriculture, ecology, fertility | q2=—
+- `ض ب ح B001` ↔ `ن ق ع B005` | score_hint=21 | discovery_hint=12 | themes=animal, communication, perception | keywords=acoustics, animal, communication | q2=—
+- `و ر ي B004` ↔ `ص د ر B001` | score_hint=21 | discovery_hint=13 | themes=animal, body, health_medicine | keywords=animal, body, health | q2=—
+- `ص ب ح B008` ↔ `ح ب ب B005` | score_hint=21 | discovery_hint=13 | themes=animal, livestock, motion | keywords=animal, livestock, mobility | q2=—
+- `ن ق ع B008` ↔ `ر ب ب B017` | score_hint=21 | discovery_hint=13 | themes=navigation_route, travel, water_hydrology | keywords=navigation, travel, water | q2=—
+- `و س ط B007` ↔ `ح ب ب B006` | score_hint=21 | discovery_hint=14 | themes=animal, capacity_ability, storage_vessels | keywords=animal, capacity, container | q2=—
+- `ر ب ب B013` ↔ `خ ب ر B002` | score_hint=21 | discovery_hint=13 | themes=geography_landscape, habitat_ecology, water_hydrology | keywords=ecology, geography, hydrology | q2=—
+- `ش ه د B002` ↔ `خ ب ر B001` | score_hint=21 | discovery_hint=12 | themes=communication, knowledge_learning, proof_uncertainty | keywords=communication, evidence, knowledge | q2=—
+- `و ر ي B004` ↔ `ح ب ب B006` | score_hint=21 | discovery_hint=14 | themes=abundance_scarcity, animal, body, food_nutrition | keywords=animal, body | q2=—
+- `ح ب ب B004` ↔ `ع ل م B004` | score_hint=21 | discovery_hint=13 | themes=anatomy, body, disease_injury, pattern_marking, value_quality | keywords=anatomy, body | q2=—
+- `ع د و B001` ↔ `ن ق ع B009` | score_hint=20 | discovery_hint=12 | themes=conflict, ethics_morality, violence_warfare | keywords=conflict, ethics, violence | q2=—
+- `ع د و B001` ↔ `ج م ع B008` | score_hint=20 | discovery_hint=12 | themes=justice_judgment, law, violence_warfare | keywords=justice, law, violence | q2=—
+- `ع د و B006` ↔ `ص د ر B001` | score_hint=20 | discovery_hint=14 | themes=body, health_medicine, physiology | keywords=body, health, medicine | q2=—
+- `ع د و B011` ↔ `ث و ر B004` | score_hint=20 | discovery_hint=14 | themes=agriculture, livestock, pasture_forage | keywords=agriculture, livestock, pasture | q2=—
+- `ع د و B011` ↔ `ر ب ب B012` | score_hint=20 | discovery_hint=15 | themes=agriculture, habitat_ecology, plant_vegetation | keywords=agriculture, botany, ecology | q2=—
+- `ض ب ح B003` ↔ `و س ط B006` | score_hint=20 | discovery_hint=13 | themes=change_transition, craft, material | keywords=craft, material, transformation | q2=—
+- `و ر ي B002` ↔ `ص ب ح B005` | score_hint=20 | discovery_hint=13 | themes=fire_heat, light_darkness, tools_equipment | keywords=light, technology, tool | q2=—
+- `ق د ح B005` ↔ `ج م ع B012` | score_hint=20 | discovery_hint=15 | themes=cooking_drink, food_nutrition, storage_vessels | keywords=container, cooking, food | q2=—
+- `ق د ح B008` ↔ `ء ن س B005` | score_hint=20 | discovery_hint=14 | themes=anatomy, body, perception | keywords=anatomy, body, vision | q2=—
+- `ق د ح B009` ↔ `ج م ع B011` | score_hint=20 | discovery_hint=16 | themes=agriculture, growth_decay, plant_vegetation | keywords=agriculture, botany, growth | q2=—
+- `غ ي ر B003` ↔ `ش د د B006` | score_hint=20 | discovery_hint=14 | themes=commerce_exchange, ethics_morality | keywords=ethics, exchange, morality | q2=—
+- `ص ب ح B005` ↔ `ح ب ب B011` | score_hint=20 | discovery_hint=13 | themes=calendar_season, fire_heat, light_darkness | keywords=fire, light, night | q2=—
+- `ث و ر B004` ↔ `ع ل م B007` | score_hint=20 | discovery_hint=13 | themes=animal, gender, wildlife | keywords=gender, wildlife, zoology | q2=—
+- `ن ق ع B009` ↔ `ح ب ب B002` | score_hint=20 | discovery_hint=13 | themes=emotion, ethics_morality, social_relations | keywords=emotion, ethics, social | q2=—
+- `ج م ع B005` ↔ `ق ب ر B004` | score_hint=20 | discovery_hint=14 | themes=anatomy, body, communication | keywords=anatomy, body, gesture | q2=—
+- `ر ب ب B012` ↔ `ح ب ب B001` | score_hint=20 | discovery_hint=15 | themes=agriculture, food_nutrition, plant_vegetation | keywords=agriculture, botany, food | q2=—
+- `ح ب ب B007` ↔ `ب ع ث ر B003` | score_hint=20 | discovery_hint=14 | themes=architecture_construction, storage_vessels, water_hydrology | keywords=container, infrastructure, water | q2=—
+- `ع ل م B006` ↔ `ق ب ر B003` | score_hint=20 | discovery_hint=13 | themes=animal, naming_classification, wildlife | keywords=ornithology, taxonomy, wildlife | q2=—
+- `ع د و B003` ↔ `ث و ر B003` | score_hint=20 | discovery_hint=12 | themes=conflict, politics_order, social_relations, violence_warfare | keywords=conflict, politics | q2=—
+- `ع د و B006` ↔ `ج م ع B005` | score_hint=20 | discovery_hint=13 | themes=agency_action, body, communication, social_relations | keywords=body, contact | q2=—
+- `ض ب ح B001` ↔ `ث و ر B002` | score_hint=20 | discovery_hint=12 | themes=animal, motion, physiology, wildlife | keywords=animal, motion | q2=—
+- `ص ب ح B003` ↔ `خ ب ر B004` | score_hint=20 | discovery_hint=15 | themes=food_nutrition, husbandry, provision_resource, storage_vessels | keywords=provision, vessel | q2=—
+- `ش ه د B007` ↔ `ح ص ل B002` | score_hint=20 | discovery_hint=14 | themes=agriculture, craft, material, provision_resource | keywords=agriculture, extraction | q2=—
+- `ح ب ب B006` ↔ `خ ب ر B004` | score_hint=20 | discovery_hint=14 | themes=abundance_scarcity, animal, food_nutrition, storage_vessels | keywords=abundance, animal | q2=—
+- `ع د و B011` ↔ `ق د ح B009` | score_hint=19 | discovery_hint=15 | themes=agriculture, pasture_forage, plant_vegetation | keywords=agriculture, botany, forage | q2=—
+- `ق د ح B008` ↔ `ص د ر B001` | score_hint=19 | discovery_hint=13 | themes=anatomy, body, health_medicine | keywords=anatomy, body, medicine | q2=—
+- `ج م ع B011` ↔ `ر ب ب B012` | score_hint=19 | discovery_hint=16 | themes=agriculture, food_nutrition, plant_vegetation | keywords=agriculture, botany, food | q2=—
+- `ج م ع B011` ↔ `ح ب ب B001` | score_hint=19 | discovery_hint=15 | themes=agriculture, food_nutrition, plant_vegetation | keywords=agriculture, botany, food | q2=—
+- `و ر ي B005` ↔ `ن ق ع B005` | score_hint=19 | discovery_hint=12 | themes=communication, deception_corruption, language_speech, perception | keywords=communication, deception | q2=—
+- `و ر ي B007` ↔ `ر ب ب B005` | score_hint=19 | discovery_hint=13 | themes=family, household_community, kinship, reproduction_birth | keywords=family, kinship | q2=—
+- `ق د ح B002` ↔ `و س ط B006` | score_hint=19 | discovery_hint=13 | themes=craft, danger_harm, material, surface_shape | keywords=craft, material | q2=—
+
+## Per-root candidate activations
+
+### ع د و
+
+- `ع د و B001` — مجاوزة الحد والظلم
+  - activated_by_or_with: ث و ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: boundary, conflict, disease_injury, ethics_morality, justice_judgment, law, violence_warfare
+  - keywords: boundary, conflict, ethics, injury, justice, law, violence
+- `ع د و B002` — العَدْو والحَضْر
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع ل م, غ ي ر, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: animal, body, motion, recreation_sport, speed, travel
+  - keywords: animal, body, movement, sport, travel
+- `ع د و B003` — العَدُوّ والعداوة
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: conflict, identity_personhood, politics_order, social_relations, trust_loyalty, violence_warfare
+  - keywords: conflict, identity, loyalty, politics, relationship, society, warfare
+- `ع د و B004` — المجاوزة والاستثناء والصرف
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: boundary, change_transition, grammar_expression, language_speech, naming_classification, reasoning_decision
+  - keywords: boundary, classification, language, logic, syntax, transition
+- `ع د و B005` — العَدْوى في طلب الإنصاف
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع ل م, غ ي ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: authority_governance, conflict, health_medicine, justice_judgment, law, protection_security
+  - keywords: authority, conflict, governance, justice, law, protection, remedy
+- `ع د و B006` — العَدْوى في انتقال الداء
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, body, communication, health_medicine, physiology, social_relations
+  - keywords: body, causation, contact, health, medicine
+- `ع د و B007` — العَوادي والعادية الشاغلة
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, belief_revelation, cognition, control_restraint, labor_work, memory_attention, suffering_hardship, time
+  - keywords: agency, attention, constraint, fate, labor, time
+- `ع د و B008` — العِداء في تعاقب الصيد
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, animal, capacity_ability, habitat_ecology, recreation_sport, sequence_cycle, time, weaponry, wildlife
+  - keywords: animal, causation, hunting, predation, sequence, sport, weapon
+- `ع د و B009` — العَداء والعُدوة في الجانب والطوار
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ص ب ح, ص د ر, ض ب ح, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: boundary, geography_landscape, place_location, surface_shape, terrain_desert, water_hydrology
+  - keywords: boundary, geography, landscape, shape, terrain, topography
+- `ع د و B010` — العَدْواء في صلابة المكان واضطرابه
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: earth_geology, geography_landscape, habitat_ecology, material, place_location, posture_embodiment, stability_endurance, substance_texture, surface_shape, terrain_desert
+  - keywords: geography, habitat, habitation, material, posture, stability, surface, terrain, texture
+- `ع د و B011` — العَدَوِيّة من نبات الصيف
+  - activated_by_or_with: ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ض ب ح, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: agriculture, calendar_season, habitat_ecology, livestock, pasture_forage, plant_vegetation
+  - keywords: agriculture, botany, ecology, forage, livestock, pasture, vegetation
+- `ع د و B012` — العَنْدَأْوَة في الالتواء والعسر
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: conflict, control_restraint, force_power, form_structure, labor_work, motion, navigation_route, reasoning_decision, suffering_hardship, surface_shape
+  - keywords: constraint, form, motion, movement, problem, shape
+
+### ض ب ح
+
+- `ض ب ح B001` — صوت الضباح
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: animal, calendar_season, communication, motion, perception, physiology, wildlife
+  - keywords: acoustics, animal, communication, motion, night, respiration, zoology
+- `ض ب ح B002` — عدو ممدود الضبعين
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: animal, motion, speed, stability_endurance, transport, travel
+  - keywords: animal, journey, motion, speed, transport, travel
+- `ض ب ح B003` — إحراق أعالي العود
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش ه د, ص ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: change_transition, craft, fire_heat, material, tools_equipment
+  - keywords: combustion, craft, fire, heat, material, tool, transformation
+- `ض ب ح B004` — تغير اللون إلى السواد
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, ر ب ب, ص ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: change_transition, containment_access, earth_geology, fire_heat, surface_shape, visual_appearance
+  - keywords: appearance, color, heat, surface, transformation
+- `ض ب ح B005` — الرماد
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ش ه د, ص ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: change_transition, fire_heat, growth_decay, loss_absence, material, substance_texture
+  - keywords: combustion, decay, fire, material, residue, transformation, waste
+
+### و ر ي
+
+- `و ر ي B001` — داء يأكل الجوف أو يصيب الرئة
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و س ط
+  - themes: anatomy, disease_injury, growth_decay, health_medicine, mortality_death, physiology
+  - keywords: anatomy, decay, medicine, mortality, respiration
+- `و ر ي B002` — نار كامنة تخرج من الزند
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ض ب ح, ع د و, غ ي ر, ق د ح, ك ن د, و س ط
+  - themes: change_transition, craft, fire_heat, force_power, light_darkness, tools_equipment
+  - keywords: craft, energy, heat, light, technology, tool, transformation
+- `و ر ي B003` — زند يقدح نجاحا أو نصرة
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و س ط
+  - themes: abundance_scarcity, agency_action, commerce_exchange, support_dependence, trust_loyalty
+  - keywords: advocacy, agency, alliance, fortune, loyalty, patronage, reciprocity
+- `و ر ي B004` — شحم وار وسمن ظاهر
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و س ط
+  - themes: abundance_scarcity, animal, body, food_nutrition, health_medicine, husbandry, posture_embodiment, substance_texture, wealth_property
+  - keywords: animal, body, embodiment, food, health, nourishment, nutrition, pastoralism, substance, wealth
+- `و ر ي B005` — ستر الشيء وجعله وراء الظهور
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ن ق ع, و س ط
+  - themes: communication, concealment_disclosure, containment_access, deception_corruption, language_speech, perception, reasoning_decision, rhetoric_discourse
+  - keywords: communication, deception, perception, privacy, rhetoric, secrecy, semiotics
+- `و ر ي B006` — الجانب الوراء: خلف أو أمام أو سوى
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و س ط
+  - themes: boundary, grammar_expression, motion, perception, social_relations, space, surface_shape
+  - keywords: boundary, geometry, motion, movement, relation, space
+- `و ر ي B007` — ولد الولد يأتي من وراء الابن
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, غ ي ر, ق د ح, ك ن د, ن ق ع, و س ط
+  - themes: culture_tradition, family, household_community, kinship, marriage_genealogy, reproduction_birth, sequence_cycle, stability_endurance, wealth_property
+  - keywords: birth, demography, family, kinship, reproduction
+- `و ر ي B008` — الورى: الخلق على ظهر الأرض
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و س ط
+  - themes: cognition, habitat_ecology, physiology, place_location, sky_astronomy, social_relations, stability_endurance
+  - keywords: anthropology, ecology, existence, life, nature, ontology, society
+- `و ر ي B009` — استيراء زند الضلالة
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+
+### ق د ح
+
+- `ق د ح B001` — إيراء النار بالقدح
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ض ب ح, ع د و, غ ي ر, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: change_transition, craft, fire_heat, force_power, light_darkness, stability_endurance, tools_equipment
+  - keywords: combustion, energy, illumination, metallurgy, survival, technology, tool, transformation
+- `ق د ح B002` — نقر الشيء وعيبه
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: anatomy, craft, danger_harm, disease_injury, ethics_morality, material, surface_shape, textile_clothing
+  - keywords: anatomy, craft, damage, injury, integrity, material, pathology, surface
+- `ق د ح B003` — طعن في النسب
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق ب ر, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: conflict, hierarchy_status, honor_shame, identity_personhood, kinship, language_speech, law, social_relations
+  - keywords: conflict, honor, identity, kinship, law, society, speech, status
+- `ق د ح B004` — أكال الشجر والسن
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ك ن د, ن ق ع, و ر ي
+  - themes: deception_corruption, disease_injury, earth_geology, growth_decay, health_medicine, plant_vegetation, wildlife
+  - keywords: botany, disease, erosion, pathology
+- `ق د ح B005` — غرف ما في القدر
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: abundance_scarcity, agency_action, cooking_drink, food_nutrition, labor_work, provision_resource, storage_vessels, substance_texture, tools_equipment
+  - keywords: container, cooking, food, labor, liquid, scarcity, utensil
+- `ق د ح B006` — قدح الشرب
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, غ ي ر, ق ب ر, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: commerce_exchange, craft, food_nutrition, hospitality_welfare, household_community, material, storage_vessels, tools_equipment
+  - keywords: consumption, craft, hospitality, material, utensil
+- `ق د ح B007` — عود السهم والقدح في الميسر
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق ب ر, ن ق ع, و ر ي, و س ط
+  - themes: belief_revelation, conflict, proof_uncertainty, provision_resource, reasoning_decision, recreation_sport, ritual, weaponry
+  - keywords: chance, competition, decision, fate, gambling, ritual, weapon
+- `ق د ح B008` — ضمر الفرس وغؤور العين
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: abundance_scarcity, anatomy, body, disease_injury, health_medicine, perception
+  - keywords: anatomy, body, disease, medicine, veterinary, vision
+- `ق د ح B009` — رخص أطراف النبت
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ش ه د, ص ب ح, ض ب ح, ع د و, غ ي ر, ق ب ر, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agriculture, change_transition, growth_decay, pasture_forage, plant_vegetation, substance_texture
+  - keywords: agriculture, botany, forage, growth, softness, texture
+- `ق د ح B010` — اقتداح الأمر بالنظر والتدبير
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, authority_governance, cognition, reasoning_decision
+  - keywords: agency, cognition, governance, planning, problem, strategy
+
+### غ ي ر
+
+- `غ ي ر B001` — الصلاح والمنفعة بالميرة والسقي والإصلاح
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agriculture, change_transition, hospitality_welfare, labor_work, provision_resource, support_dependence, travel, weather_climate
+  - keywords: agriculture, support, travel
+- `غ ي ر B002` — الغَيْر في الدية
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: commerce_exchange, health_medicine, justice_judgment, law, obligation_contract, place_location, protection_security, punishment_sanction, violence_warfare
+  - keywords: exchange, justice, law, obligation, punishment, remedy, settlement, violence
+- `غ ي ر B003` — تغيير الصورة أو إبدال الشيء بغيره
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, change_transition, commerce_exchange, conflict, ethics_morality, identity_personhood, reasoning_decision, sequence_cycle
+  - keywords: agency, change, difference, ethics, exchange, identity, morality, process
+- `غ ي ر B004` — الغَيْرة على الأهل
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: emotion, ethics_morality, gender, honor_shame, kinship, marriage_genealogy, protection_security, social_relations
+  - keywords: emotion, gender, honor, kinship, marriage, morality, protection, social
+- `غ ي ر B005` — السوى والخلاف والاستثناء والنفي
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: boundary, grammar_expression, identity_personhood, language_speech, naming_classification, reasoning_decision, social_relations
+  - keywords: boundary, classification, difference, grammar, identity, language, logic, relation
+
+### ص ب ح
+
+- `ص ب ح B001` — الصبح وأول النهار
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ر ب ب, ش د د, ش ه د, ص د ر, ض ب ح, ع د و, غ ي ر, ق د ح, ك ن د, و ر ي, و س ط
+  - themes: calendar_season, change_transition, light_darkness, religion_worship, sequence_cycle, sky_astronomy, time
+  - keywords: astronomy, calendar, cycle, day, light, time, transition, worship
+- `ص ب ح B002` — الإتيان صباحا
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: calendar_season, communication, hospitality_welfare, language_speech, motion, ritual, time, travel, water_hydrology
+  - keywords: communication, hospitality, mobility, ritual, schedule, speech, time, travel, water
+- `ص ب ح B003` — الصبوح
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: cooking_drink, food_nutrition, hospitality_welfare, husbandry, provision_resource, storage_vessels, time, water_hydrology
+  - keywords: drink, food, hospitality, husbandry, nourishment, provision, time, vessel, water
+- `ص ب ح B004` — يوم الصباح
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: communication, conflict, danger_harm, fear_grief, motion, protection_security, time, travel, violence_warfare
+  - keywords: alarm, communication, conflict, danger, mobility, time, travel, violence
+- `ص ب ح B005` — المصباح والسراج
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ض ب ح, ع د و, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: calendar_season, fire_heat, household_community, light_darkness, perception, sky_astronomy, tools_equipment
+  - keywords: astronomy, domestic, fire, light, night, technology, tool, vision
+- `ص ب ح B006` — الصُّبْحة والصباحة
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: animal, body, light_darkness, ornament_beauty, perception, visual_appearance
+  - keywords: aesthetics, animal, appearance, beauty, body, color, light, perception
+- `ص ب ح B007` — الصُّبْحة نوما
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ش ه د, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: body, calendar_season, physiology, sequence_cycle, time
+  - keywords: body, cycle, time
+- `ص ب ح B008` — الناقة المصباح
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, husbandry, livestock, motion, pasture_forage, posture_embodiment, time
+  - keywords: animal, husbandry, livestock, mobility, posture, time
+- `ص ب ح B009` — ظروف الصباح
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ض ب ح, ع د و, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: calendar_season, motion, sequence_cycle, social_relations, time, travel
+  - keywords: calendar, journey, schedule, sequence, time
+- `ص ب ح B010` — أصبح بمعنى صار
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: change_transition, cognition, grammar_expression, identity_personhood, sequence_cycle, stability_endurance
+  - keywords: abstraction, change, existence, grammar, identity, ontology, process, transition
+
+### ث و ر
+
+- `ث و ر B001` — انبعاث الشيء وانتشاره ظاهرا
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: concealment_disclosure, disease_injury, habitat_ecology, motion, perception, substance_texture, water_hydrology, weather_climate, wildlife
+  - keywords: atmosphere, disease, fluid, motion, nature, visibility, water
+- `ث و ر B002` — إثارة الشيء وتحريكه من موضعه
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agriculture, animal, danger_harm, earth_geology, knowledge_learning, labor_work, motion, physiology, wildlife
+  - keywords: agriculture, animal, education, hunting, knowledge, labor, motion
+- `ث و ر B003` — هيجان إلى مواجهة أو غضب
+  - activated_by_or_with: ء ن س, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: conflict, emotion, politics_order, social_relations, violence_warfare
+  - keywords: aggression, anger, conflict, emotion, politics, sociality, violence
+- `ث و ر B004` — الثور: ذكر البقر
+  - activated_by_or_with: ء ن س, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agriculture, animal, gender, husbandry, livestock, pasture_forage, wildlife
+  - keywords: agriculture, animal, domestication, gender, livestock, pasture, wildlife, zoology
+- `ث و ر B005` — ثورة الأقط: قطعة جامدة
+  - activated_by_or_with: ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: food_nutrition, material, quantity_number, storage_vessels, substance_texture
+  - keywords: dairy, food, matter, storage, substance
+- `ث و ر B006` — ثور اسما لمكان أو قوم أو برج
+  - activated_by_or_with: ء ن س, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: culture_tradition, geography_landscape, identity_personhood, kinship, marriage_genealogy, naming_classification, sky_astronomy
+  - keywords: astronomy, genealogy, geography, identity, kinship, naming, onomastics
+- `ث و ر B007` — ثور الماء: طحلب يعلو السطح
+  - activated_by_or_with: ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: growth_decay, habitat_ecology, plant_vegetation, surface_shape, textile_clothing, water_hydrology
+  - keywords: covering, ecology, growth, plant, surface, water
+
+### ن ق ع
+
+- `ن ق ع B001` — استقرار الماء وما ينقع فيه
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, و ر ي, و س ط
+  - themes: agency_action, health_medicine, storage_vessels, substance_texture, water_hydrology
+  - keywords: hydrology, liquid, medicine, preparation, storage, vessel, water
+- `ن ق ع B002` — ماء ينقع الغلة ويروي
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, و ر ي, و س ط
+  - themes: cooking_drink, emotion, health_medicine, proof_uncertainty, suffering_hardship, support_dependence, trust_loyalty, water_hydrology
+  - keywords: drink, emotion, hydration, need
+- `ن ق ع B003` — نقيعة طعام أو نحر أو لبن
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, و ر ي, و س ط
+  - themes: food_nutrition, hospitality_welfare, livestock, marriage_genealogy, ritual
+  - keywords: dairy, food, hospitality, livestock, marriage, ritual
+- `ن ق ع B004` — نقع الغبار المثار
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, و ر ي, و س ط
+  - themes: concealment_disclosure, earth_geology, material, motion, orientation_direction, perception, weather_climate
+  - keywords: atmosphere, earth, material, motion, visibility, weather
+- `ن ق ع B005` — نقع الصوت المرتفع
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, و ر ي, و س ط
+  - themes: abundance_scarcity, agency_action, animal, communication, deception_corruption, emotion, fear_grief, language_speech, perception
+  - keywords: acoustics, alarm, animal, communication, deception, emotion, performance, speech
+- `ن ق ع B006` — سم ناقع ثابت أو قاتل
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, و ر ي, و س ط
+  - themes: animal, body, danger_harm, mortality_death, violence_warfare
+  - keywords: animal, body, danger, death, violence
+- `ن ق ع B007` — نقاع الأرض القيعان السهلة
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د
+  - themes: earth_geology, geography_landscape, suffering_hardship, terrain_desert, travel
+  - keywords: geography, soil, terrain, topography, travel
+- `ن ق ع B008` — شراب بأنقع مجرب للموارد
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, و ر ي, و س ط
+  - themes: navigation_route, perception, protection_security, provision_resource, reasoning_decision, rhetoric_discourse, stability_endurance, travel, water_hydrology
+  - keywords: navigation, resource, survival, travel, water, wisdom
+- `ن ق ع B009` — نقعه بالشتم القبيح
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, و ر ي, و س ط
+  - themes: conflict, emotion, ethics_morality, honor_shame, language_speech, social_relations, violence_warfare
+  - keywords: aggression, conflict, emotion, ethics, honor, morality, social, speech, violence
+
+### و س ط
+
+- `و س ط B001` — العدل والخيار في موضع الوسط
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: ethics_morality, hierarchy_status, household_community, stability_endurance, value_quality
+  - keywords: community, ethics, hierarchy, valuation, virtue
+- `و س ط B002` — موضع الوسط بين الأطراف
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: anatomy, naming_classification, ornament_beauty, place_location, ritual, space, surface_shape
+  - keywords: anatomy, geometry, ornament, ritual, settlement, space
+- `و س ط B003` — الدخول أو الجعل في الوسط
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: agency_action, change_transition, control_restraint, form_structure, motion, place_location, sequence_cycle, social_relations
+  - keywords: agency, arrangement, control, movement, process, transition
+- `و س ط B004` — مرتبة وسطى بين الجيد والرديء
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: abundance_scarcity, hierarchy_status, justice_judgment, measurement, naming_classification, orientation_direction, reasoning_decision, value_quality
+  - keywords: assessment, classification, comparison, hierarchy, judgment, quality, scale, valuation, value
+- `و س ط B005` — الوساطة بين الناس
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: communication, conflict, politics_order, rhetoric_discourse, social_relations, support_dependence
+  - keywords: advocacy, communication, conflict, diplomacy, politics, relation, relationship, society
+- `و س ط B006` — قطع الشيء نصفين
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: boundary, change_transition, craft, danger_harm, material, measurement, surface_shape
+  - keywords: craft, destruction, division, geometry, material, measure, rupture, separation, transformation
+- `و س ط B007` — الوسوط: بيت أو ناقة مخصوصة
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: animal, architecture_construction, capacity_ability, husbandry, migration_displacement, naming_classification, storage_vessels
+  - keywords: animal, architecture, capacity, container, pastoralism, taxonomy
+
+### ج م ع
+
+- `ج م ع B001` — ضم المتفرق حتى يصير شيئا مجموعا
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: abundance_scarcity, economy, household_community, material, motion, politics_order, provision_resource, quantity_number, stability_endurance
+  - keywords: aggregation, community, economy, material, order, resource
+- `ج م ع B002` — جماعة اجتمعت أو أخلاط ضمتها الجهة
+  - activated_by_or_with: ء ن س, ث و ر, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: household_community, quantity_number, social_relations, violence_warfare
+  - keywords: aggregation, assembly, community, demography, plurality, society
+- `ج م ع B003` — عزم محكم جمع الرأي بعد تفرقه
+  - activated_by_or_with: ء ن س, ب ع ث ر, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, authority_governance, cognition, obligation_contract, reasoning_decision
+  - keywords: agency, cognition, decision, governance, planning, strategy
+- `ج م ع B004` — موضع أو يوم أو نداء يجمع الناس
+  - activated_by_or_with: ء ن س, ث و ر, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: calendar_season, communication, geography_landscape, household_community, pilgrimage_sacrifice, place_location, religion_worship, ritual
+  - keywords: assembly, calendar, communication, geography, place, ritual, worship
+- `ج م ع B005` — قبضة الكف إذا ضمت الأصابع
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, anatomy, body, communication, food_nutrition, force_power, measurement, social_relations, writing_text
+  - keywords: anatomy, body, contact, food, force, gesture, measure
+- `ج م ع B006` — اتصال الجماع والمجامعة
+  - activated_by_or_with: ء ن س, ث و ر, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: body, containment_access, kinship, marriage_genealogy, posture_embodiment, reproduction_birth, sexuality
+  - keywords: body, embodiment, intimacy, kinship, marriage, privacy, reproduction, sexuality
+- `ج م ع B007` — حال المرأة أو الأنثى التي بقي حملها أو عذرها معها
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, ethics_morality, gender, mortality_death, reproduction_birth, sexuality
+  - keywords: animal, fertility, gender, mortality, reproduction, sexuality
+- `ج م ع B008` — القيد الذي يجمع اليدين إلى العنق
+  - activated_by_or_with: ث و ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, غ ي ر, ق د ح, ن ق ع, و س ط
+  - themes: control_restraint, justice_judgment, law, punishment_sanction, violence_warfare
+  - keywords: control, justice, law, punishment, restraint, violence
+- `ج م ع B009` — اكتمال الشيء كله بلا تفرق أو نقص
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: body, change_transition, cognition, ethics_morality, form_structure, grammar_expression, identity_personhood, posture_embodiment, quantity_number, value_quality
+  - keywords: body, embodiment, grammar, identity, integrity, ontology, quantity
+- `ج م ع B010` — استجماع القوة أو السير حتى تتلاحق أجزاؤه
+  - activated_by_or_with: ب ع ث ر, ث و ر, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, capacity_ability, force_power, motion, sequence_cycle, water_hydrology
+  - keywords: animal, capacity, energy, hydrology, motion, power, process
+- `ج م ع B011` — نخل دقل اجتمع من النوى لا يعرف اسمه
+  - activated_by_or_with: ث و ر, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agriculture, food_nutrition, growth_decay, harvest_cultivation, naming_classification, plant_vegetation
+  - keywords: agriculture, botany, food, fruit, growth, naming, taxonomy
+- `ج م ع B012` — عظم الشيء كأنه جامع ممتلئ
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: cooking_drink, food_nutrition, household_community, material, measurement, quantity_number, storage_vessels
+  - keywords: container, cooking, domestic, food, material, quantity, scale, vessel
+- `ج م ع B013` — ممالأة واجتماع مع غيرك على أمر
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, conflict, politics_order, social_relations, trust_loyalty
+  - keywords: agency, alliance, conflict, politics, sociality, society
+
+### ء ن س
+
+- `ء ن س B001` — ظهور الإنسان المخالف للتوحش والجن
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: belief_revelation, household_community, identity_personhood, place_location, social_relations
+  - keywords: anthropology, community, demography, habitation, identity, sociality, society
+- `ء ن س B002` — إيناس الشيء برؤية أو إحساس أو سماع
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ض ب ح, ع د و, ع ل م, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: cognition, knowledge_learning, memory_attention, perception, proof_uncertainty
+  - keywords: attention, cognition, evidence, knowledge, perception
+- `ء ن س B003` — الأنس الذي يزيل الوحشة
+  - activated_by_or_with: ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: emotion, health_medicine, hospitality_welfare, household_community, husbandry, social_relations
+  - keywords: community, companionship, domestication, emotion, hospitality, relationship
+- `ء ن س B004` — الجانب الإنسي المقبل على الإنسان
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: anatomy, navigation_route, orientation_direction, posture_embodiment, reasoning_decision, social_relations, space, tools_equipment
+  - keywords: anatomy, embodiment, navigation, orientation, relation
+- `ء ن س B005` — إنسان العين وصورة الإنسان في السواد
+  - activated_by_or_with: ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: anatomy, body, cognition, perception, posture_embodiment, visual_appearance
+  - keywords: anatomy, body, embodiment, perception, vision
+- `ء ن س B006` — ابن الإنس للنفس والصفوة
+  - activated_by_or_with: ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: identity_personhood, kinship, sexuality, social_relations, trust_loyalty
+  - keywords: companionship, identity, intimacy, kinship, loyalty
+- `ء ن س B007` — الاستئناس قبل دخول البيوت
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+
+### ر ب ب
+
+- `ر ب ب B001` — ربوبية وملك وسيادة
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, غ ي ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: authority_governance, belief_revelation, force_power, hierarchy_status, religion_worship, support_dependence, wealth_property
+  - keywords: authority, governance, hierarchy, patronage, power, property
+- `ر ب ب B002` — إصلاح وتربية وإتمام
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agriculture, authority_governance, belief_revelation, craft, family, growth_decay, knowledge_learning, life_stage_aging, stability_endurance
+  - keywords: agriculture, craft, education, growth, maturation
+- `ر ب ب B003` — علم رباني
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: cognition, ethics_morality, knowledge_learning, religion_worship
+  - keywords: education, ethics, religion
+- `ر ب ب B004` — ربة وجماعات كثيرة
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: household_community, kinship, quantity_number, social_relations, violence_warfare
+  - keywords: assembly, collectivity, demography, kinship, society, tribe
+- `ر ب ب B005` — ربيب وربيبة ورابة
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: authority_governance, family, hospitality_welfare, household_community, kinship, reproduction_birth, support_dependence
+  - keywords: dependency, family, household, kinship
+- `ر ب ب B006` — رُبّ خاثر وإصلاح به
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, food_nutrition, health_medicine, material, stability_endurance, substance_texture
+  - keywords: food, leather, material, medicine, preparation, substance
+- `ر ب ب B007` — لزوم وإقامة ودوام
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, geography_landscape, motion, place_location, time, weather_climate
+  - keywords: animal, geography, habitation, motion, movement, temporality, time, weather
+- `ر ب ب B008` — رباب السحاب
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: agriculture, habitat_ecology, reproduction_birth, sky_astronomy, water_hydrology, weather_climate
+  - keywords: agriculture, ecology, fertility, water, weather
+- `ر ب ب B009` — شاة رُبّى وحداثة
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, food_nutrition, household_community, life_stage_aging, livestock, reproduction_birth, time
+  - keywords: animal, birth, dairy, household, livestock, reproduction, temporality, time
+- `ر ب ب B010` — ربابة تجمع القداح
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: abundance_scarcity, belief_revelation, material, proof_uncertainty, ritual, storage_vessels, tools_equipment, weaponry
+  - keywords: chance, fortune, gambling, leather, ritual, storage, tool, weapon
+- `ر ب ب B011` — ربابة عهد وميثاق
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: finance_debt, household_community, law, obligation_contract, politics_order, protection_security, trust_loyalty
+  - keywords: community, contract, diplomacy, law, protection, taxation, trust
+- `ر ب ب B012` — ربة نبات
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: agriculture, food_nutrition, geography_landscape, habitat_ecology, physiology, plant_vegetation, visual_appearance
+  - keywords: agriculture, botany, color, ecology, food, landscape, life
+- `ر ب ب B013` — ماء رَبَب كثير
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: abundance_scarcity, cooking_drink, geography_landscape, habitat_ecology, provision_resource, water_hydrology
+  - keywords: abundance, drink, ecology, geography, hydrology, nature, resource
+- `ر ب ب B014` — رَبْرَب قطيع
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, habitat_ecology, household_community, husbandry, livestock, quantity_number, terrain_desert, wildlife
+  - keywords: collectivity, ecology, hunting, livestock, pastoralism, plurality, zoology
+- `ر ب ب B015` — حرف رب وربما
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: form_structure, grammar_expression, language_speech, quantity_number, rhetoric_discourse
+  - keywords: grammar, morphology, rhetoric, syntax
+- `ر ب ب B016` — رُبَى حاجة وعقدة ونعمة
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ض ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: control_restraint, ethics_morality, hospitality_welfare, material, obligation_contract, social_relations, support_dependence
+  - keywords: charity, dependency, ethics, gift, material, obligation, relation, welfare
+- `ر ب ب B017` — رباني الملاحين
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و س ط
+  - themes: authority_governance, hierarchy_status, labor_work, navigation_route, transport, travel, water_hydrology
+  - keywords: authority, hierarchy, navigation, transport, travel, water
+
+### ك ن د
+
+- `ك ن د B001` — القطع والانفصال
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, غ ي ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: boundary, change_transition, loss_absence, social_relations
+  - keywords: boundary, division, relation, rupture, separation
+- `ك ن د B002` — كفران النعمة والمودة
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: commerce_exchange, ethics_morality, hospitality_welfare, memory_attention, obligation_contract, social_relations, trust_loyalty
+  - keywords: ethics, generosity, loyalty, memory, obligation, reciprocity, relationship
+- `ك ن د B003` — الأرض التي لا تنبت
+  - activated_by_or_with: ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: abundance_scarcity, agriculture, growth_decay, habitat_ecology, labor_work, reproduction_birth, terrain_desert
+  - keywords: agriculture, ecology, fertility, growth, nature, scarcity, terrain
+- `ك ن د B004` — اسم كندة
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: culture_tradition, household_community, identity_personhood, kinship, marriage_genealogy, naming_classification, place_location, sequence_cycle, time
+  - keywords: community, genealogy, identity, onomastics, origin, tribe
+
+### ش ه د
+
+- `ش ه د B001` — الحضور مع المشاهدة
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ص ب ح, ص د ر, ض ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: household_community, loss_absence, perception, ritual, social_relations, space
+  - keywords: assembly, perception, ritual, space
+- `ش ه د B002` — البيان بعلم
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش د د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: authority_governance, communication, justice_judgment, knowledge_learning, law, proof_uncertainty
+  - keywords: authority, communication, evidence, judgment, knowledge, law
+- `ش ه د B003` — صيغة الإشهاد والذكر
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ش ه د B004` — الشهادة بالموت والحضور
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ش ه د B005` — اللسان الشاهد
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: communication, grammar_expression, identity_personhood, language_speech, posture_embodiment
+  - keywords: communication, embodiment, expression, identity, language, speech
+- `ش ه د B006` — الخارج عند الولادة والإدراك
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: anatomy, health_medicine, life_stage_aging, physiology, reproduction_birth
+  - keywords: anatomy, birth, maturation, medicine, reproduction
+- `ش ه د B007` — الشَّهْد في الشمع
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ص ب ح, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agriculture, craft, food_nutrition, husbandry, material, perception, provision_resource, substance_texture, wildlife
+  - keywords: agriculture, craft, extraction, food, substance
+- `ش ه د B008` — العلامة الشاهدة
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, animal, communication, proof_uncertainty, reasoning_decision, ritual, sky_astronomy, time, value_quality
+  - keywords: animal, assessment, astronomy, performance, quality, ritual, semiotics, time
+
+### ح ب ب
+
+- `ح ب ب B001` — الحبة التي تنبت وتحمل الحب
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agriculture, food_nutrition, material, measurement, ornament_beauty, plant_vegetation, weather_climate
+  - keywords: agriculture, botany, food, material, matter, measure, ornament, plant, weather
+- `ح ب ب B002` — المحبة الملازمة للقلب
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: anatomy, desire_appetite, emotion, ethics_morality, reasoning_decision, social_relations, value_quality
+  - keywords: desire, emotion, ethics, heart, relationship, social, sociality, value
+- `ح ب ب B003` — صيغة المدح وغاية الرغبة
+  - activated_by_or_with: ج م ع, ح ص ل, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: authority_governance, desire_appetite, ethics_morality, honor_shame, language_speech, rhetoric_discourse, ritual, value_quality
+  - keywords: desire, language, rhetoric, ritual, speech
+- `ح ب ب B004` — حبة القلب سويداؤه
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: anatomy, body, containment_access, disease_injury, pattern_marking, physiology, place_location, value_quality, visual_appearance
+  - keywords: anatomy, body, color, heart, injury, life, symbol
+- `ح ب ب B005` — البعير يلزم مكانه من عجز
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, body, boundary, disease_injury, labor_work, livestock, motion, transport, travel
+  - keywords: animal, body, labor, livestock, mobility, transport, travel
+- `ح ب ب B006` — الري حتى الامتلاء
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: abundance_scarcity, animal, body, capacity_ability, food_nutrition, storage_vessels, support_dependence, water_hydrology
+  - keywords: abundance, animal, body, capacity, consumption, container, hydration, need, water
+- `ح ب ب B007` — الحب جرة عظيمة أو موضعها
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ص ل, خ ب ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: architecture_construction, craft, household_community, material, storage_vessels, water_hydrology
+  - keywords: container, craft, household, infrastructure, material, storage, water
+- `ح ب ب B008` — حباب الماء فقاقيعه وطرائقه
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: habitat_ecology, motion, substance_texture, surface_shape, time, water_hydrology, weather_climate
+  - keywords: fluid, motion, nature, surface, texture, water, weather
+- `ح ب ب B009` — حبب الأسنان انتظام كالدرر
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: anatomy, body, light_darkness, ornament_beauty, pattern_marking, perception, politics_order, reasoning_decision, visual_appearance
+  - keywords: anatomy, beauty, body, comparison, mouth, order, ornament, perception
+- `ح ب ب B010` — الحبحاب الصغير القصير
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: animal, body, capacity_ability, form_structure, measurement, rhetoric_discourse
+  - keywords: animal, body, form, measure
+- `ح ب ب B011` — نار الحباحب شرر لا ينتفع به
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: animal, calendar_season, earth_geology, fire_heat, force_power, light_darkness, motion, value_quality, wildlife
+  - keywords: animal, energy, fire, light, motion, night
+- `ح ب ب B012` — الحباب الحية أو الشيطان
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, belief_revelation, danger_harm, ethics_morality, fear_grief, naming_classification, religion_worship, rhetoric_discourse
+  - keywords: animal, classification, danger, religion
+
+### خ ي ر
+
+- `خ ي ر B001` — الميل إلى الخير النافع
+  - activated_by_or_with: ء ن س, ج م ع, ح ب ب, ح ص ل, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: ethics_morality, hospitality_welfare, language_speech, protection_security, value_quality
+  - keywords: ethics, morality, protection, value, virtue, welfare
+- `خ ي ر B002` — فضل الصلاح والاصطفاء
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: ethics_morality, hierarchy_status, identity_personhood, ornament_beauty, reasoning_decision, value_quality
+  - keywords: aesthetics, ethics, identity, ranking, selection, status
+- `خ ي ر B003` — طلب الخير بالاختيار والاستخارة
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, belief_revelation, communication, proof_uncertainty, reasoning_decision, trust_loyalty
+  - keywords: agency, decision, selection, trust
+- `خ ي ر B004` — المال المسمى خيرا
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `خ ي ر B005` — الكرم والهبة
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, خ ب ر, ر ب ب, ش د د, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: abundance_scarcity, commerce_exchange, ethics_morality, hospitality_welfare, support_dependence, wealth_property
+  - keywords: abundance, charity, gift, hospitality, patronage, reciprocity, wealth
+- `خ ي ر B006` — استدراج الحيوان من جحره
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, control_restraint, habitat_ecology, motion, provision_resource, tools_equipment, wildlife
+  - keywords: animal, ecology, extraction, habitat, hunting, movement, tool
+
+### ش د د
+
+- `ش د د B001` — شد العقد والوثاق
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: authority_governance, control_restraint, form_structure, obligation_contract, protection_security, stability_endurance, support_dependence, trust_loyalty
+  - keywords: alliance, authority, constraint, restraint, stability, support
+- `ش د د B002` — شدة القوة والصلابة
+  - activated_by_or_with: ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش ه د, ص ب ح, ض ب ح, ع د و, غ ي ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: capacity_ability, control_restraint, force_power, justice_judgment, stability_endurance, suffering_hardship
+  - keywords: capacity, force, power
+- `ش د د B003` — شد الحملة والعدو
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: conflict, motion, time, violence_warfare
+  - keywords: aggression, conflict, mobility, motion, violence, warfare
+- `ش د د B004` — بلوغ الأشد
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, capacity_ability, cognition, growth_decay, life_stage_aging, reasoning_decision
+  - keywords: agency, capacity, cognition, development, growth, maturation, wisdom
+- `ش د د B005` — شد النهار وارتفاعه
+  - activated_by_or_with: ث و ر, ج م ع, ح ب ب, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, و ر ي, و س ط
+  - themes: calendar_season, light_darkness, measurement, sequence_cycle, sky_astronomy, time
+  - keywords: astronomy, cycle, day, illumination, light, measure, time
+- `ش د د B006` — شدة البخل
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ص ب ح, ص د ر, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: abundance_scarcity, commerce_exchange, control_restraint, desire_appetite, economy, ethics_morality, hospitality_welfare, wealth_property
+  - keywords: desire, economy, ethics, exchange, generosity, morality, possession, restraint, scarcity, wealth
+
+### ع ل م
+
+- `ع ل م B001` — انكشاف الشيء للعارف
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: cognition, communication, knowledge_learning, memory_attention, proof_uncertainty, reasoning_decision
+  - keywords: communication, education, epistemology, memory
+- `ع ل م B002` — أثر يميز الشيء ويهدي إليه
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: communication, geography_landscape, identity_personhood, naming_classification, navigation_route, orientation_direction, ornament_beauty, pattern_marking
+  - keywords: geography, identity, navigation, orientation, ornament, semiotics, symbol
+- `ع ل م B003` — الخلق عالم يدل على صانعه
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ع ل م B004` — شق ظاهر في الشفة العليا
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: anatomy, body, disease_injury, form_structure, health_medicine, naming_classification, pattern_marking, value_quality
+  - keywords: anatomy, body, classification, morphology, physiognomy, veterinary
+- `ع ل م B005` — ماء كثير مجتمع في عيلم
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ع د و, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: abundance_scarcity, geography_landscape, habitat_ecology, measurement, provision_resource, water_hydrology
+  - keywords: abundance, geography, hydrology, nature, resource, water
+- `ع ل م B006` — طائر جارح يسمى العلام
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, cognition, habitat_ecology, naming_classification, speed, wildlife
+  - keywords: hunting, intelligence, ornithology, predation, speed, taxonomy, wildlife, zoology
+- `ع ل م B007` — ذكر الضباع يسمى العيلام
+  - activated_by_or_with: ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, gender, habitat_ecology, naming_classification, wildlife
+  - keywords: ecology, gender, predation, taxonomy, wildlife, zoology
+
+### ب ع ث ر
+
+- `ب ع ث ر B001` — قلب التراب وكشف المدفون
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش ه د, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: belief_revelation, concealment_disclosure, earth_geology, knowledge_learning, loss_absence, mortality_death
+  - keywords: burial, concealment, death, disclosure, earth, revelation
+- `ب ع ث ر B002` — تبديد المتاع وقلب بعضه على بعض
+  - activated_by_or_with: ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, form_structure, material, motion, provision_resource, stability_endurance, storage_vessels, wealth_property
+  - keywords: arrangement, distribution, material, mobility, movement, possession, property, storage
+- `ب ع ث ر B003` — هدم الحوض وقلب أسفله أعلاه
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: architecture_construction, change_transition, danger_harm, orientation_direction, storage_vessels, water_hydrology
+  - keywords: architecture, container, damage, destruction, infrastructure, transformation, water
+
+### ق ب ر
+
+- `ق ب ر B001` — مواراة الميت في القبر
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش ه د, ص ب ح, ض ب ح, ع د و, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: concealment_disclosure, containment_access, earth_geology, mortality_death, ritual
+  - keywords: burial, concealment, death, earth, ritual
+- `ق ب ر B002` — غموض الشيء وتطامنه
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, ر ب ب, ش ه د, ص د ر, ض ب ح, ع د و, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: concealment_disclosure, containment_access, earth_geology, material, plant_vegetation, space
+  - keywords: cavity, concealment, erosion, material, plant, vegetation
+- `ق ب ر B003` — القُبَّرة الطائر
+  - activated_by_or_with: ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, language_speech, naming_classification, wildlife
+  - keywords: animal, naming, ornithology, taxonomy, wildlife
+- `ق ب ر B004` — طرف الأنف في الغضب
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: anatomy, body, communication, emotion, grammar_expression
+  - keywords: anatomy, anger, body, emotion, expression, gesture, physiognomy
+- `ق ب ر B005` — استعارة القبر للموت والاستتار
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+
+### ح ص ل
+
+- `ح ص ل B001` — جمع الشيء حتى يظهر حاصله
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: belief_revelation, cognition, concealment_disclosure, finance_debt, quantity_number, reasoning_decision, rhetoric_discourse, stability_endurance
+  - keywords: abstraction, aggregation, disclosure, revelation, stability
+- `ح ص ل B002` — استخراج اللب أو النفيس من غلافه
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agriculture, boundary, craft, material, provision_resource, reasoning_decision, social_relations, value_quality
+  - keywords: agriculture, extraction, material, metallurgy, selection, separation, value
+- `ح ص ل B003` — البقية والحثالة بعد الرفع أو الفصل
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ض ب ح, ع د و, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, agriculture, boundary, harvest_cultivation, loss_absence, quantity_number, substance_texture
+  - keywords: agriculture, harvest, residue, separation, waste
+- `ح ص ل B004` — موضع يجتمع فيه الطعام في جوف الطائر
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: anatomy, animal, containment_access, food_nutrition, physiology, storage_vessels
+  - keywords: anatomy, animal, cavity, container, digestion, nutrition, storage, zoology
+- `ح ص ل B005` — بلح حصل من النخلة قبل اشتداده
+  - activated_by_or_with: ث و ر, ج م ع, ح ب ب, خ ب ر, ر ب ب, ش د د, ش ه د, ض ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, و ر ي
+  - themes: agriculture, growth_decay, harvest_cultivation, life_stage_aging, plant_vegetation
+  - keywords: agriculture, botany, development, fruit, harvest, maturation
+- `ح ص ل B006` — وجع بطن الفرس من أكل التراب
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: animal, disease_injury, earth_geology, food_nutrition, health_medicine, physiology
+  - keywords: animal, digestion, disease, nutrition, pathology, soil, veterinary
+
+### ص د ر
+
+- `ص د ر B001` — الصدر الجارحة وما يتصل بها
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: anatomy, animal, body, health_medicine, identity_personhood, physiology, protection_security, textile_clothing
+  - keywords: anatomy, animal, body, covering, health, identity, medicine, protection
+- `ص د ر B002` — المقدّم والأعلى والأول
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ع د و, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: authority_governance, conflict, hierarchy_status, household_community, place_location, sequence_cycle, space, writing_text
+  - keywords: assembly, competition, hierarchy, ranking, sequence, space
+- `ص د ر B003` — الصُّدور عن المورد
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, خ ب ر, خ ي ر, ر ب ب, ش د د, ص ب ح, ض ب ح, ع د و, ع ل م, غ ي ر, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: migration_displacement, motion, navigation_route, place_location, transport, travel, water_hydrology
+  - keywords: journey, movement, settlement, travel, water
+- `ص د ر B004` — الأصل الذي تصدر عنه الأفعال
+  - activated_by_or_with: ء ن س, ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: agency_action, grammar_expression, language_speech, place_location, reasoning_decision, sequence_cycle, time
+  - keywords: causation, expression, grammar, language, origin, place, time
+- `ص د ر B005` — المصادرة على مال
+  - activated_by_or_with: ب ع ث ر, ج م ع, ح ب ب, ح ص ل, خ ب ر, خ ي ر, ر ب ب, ش د د, ش ه د, ع د و, غ ي ر, ق د ح, و ر ي
+  - themes: authority_governance, finance_debt, law, wealth_property
+  - keywords: authority, governance, law, property, taxation
+- `ص د ر B006` — الطائفة من الشيء
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, ر ب ب, ش د د, ع د و, ع ل م, غ ي ر, ق ب ر, ك ن د, و ر ي, و س ط
+  - themes: boundary, form_structure, measurement, naming_classification, quantity_number
+  - keywords: classification, measure, quantity
+
+### خ ب ر
+
+- `خ ب ر B001` — العلم بالخبر وباطن الأمر
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ص ل, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: cognition, communication, concealment_disclosure, knowledge_learning, proof_uncertainty
+  - keywords: communication, epistemology, evidence, intelligence, knowledge, secrecy
+- `خ ب ر B002` — لين الأرض ومائها
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: agriculture, geography_landscape, habitat_ecology, reproduction_birth, substance_texture, water_hydrology
+  - keywords: agriculture, ecology, fertility, geography, habitat, hydrology, landscape
+- `خ ب ر B003` — إصلاح الأرض بالمخابرة
+  - activated_by_or_with: ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش د د, ش ه د, ص د ر, ع د و, ع ل م, غ ي ر, ق د ح, ك ن د, ن ق ع, و ر ي
+  - themes: agriculture, economy, geography_landscape, harvest_cultivation, labor_work, obligation_contract, wealth_property
+  - keywords: agriculture, contract, economy, harvest, labor, property
+- `خ ب ر B004` — الغزر في المزادة والناقة
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: abundance_scarcity, animal, food_nutrition, husbandry, provision_resource, storage_vessels, substance_texture
+  - keywords: abundance, animal, liquid, provision, storage, vessel
+- `خ ب ر B005` — اللِّين في النبات والوبر والزبد
+  - activated_by_or_with: ء ن س, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, ق ب ر, ق د ح, ن ق ع, و ر ي, و س ط
+  - themes: anatomy, animal, physiology, plant_vegetation, substance_texture, textile_clothing
+  - keywords: animal, botany, mouth, softness, texture
+- `خ ب ر B006` — القسمة في الشاة واللحم
+  - activated_by_or_with: ء ن س, ب ع ث ر, ث و ر, ج م ع, ح ب ب, ح ص ل, خ ي ر, ر ب ب, ش د د, ش ه د, ص ب ح, ص د ر, ض ب ح, ع د و, ع ل م, غ ي ر, ق ب ر, ق د ح, ك ن د, ن ق ع, و ر ي, و س ط
+  - themes: animal, commerce_exchange, cooking_drink, food_nutrition, household_community, pilgrimage_sacrifice, provision_resource, social_relations, wealth_property
+  - keywords: animal, community, distribution, exchange, food
+
+## Agent instruction
+
+Classify branches as A/B/C/S/X, but use discovery bias:
+
+- uncertain S vs C => C
+- uncertain C vs B => C/B
+- broad bridge => preserve with evidence profile
+- only data-invalid branches => X
+- after broad activation, rank by discovery value: surprise, hidden material underlay, and added mechanism

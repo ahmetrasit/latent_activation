@@ -1,0 +1,399 @@
+{
+  "schema": "v11.activation_pass.v1",
+  "passage": {
+    "surah": 103,
+    "ayah_start": 1,
+    "ayah_end": 3
+  },
+  "activation_bias": "recall_first",
+  "orchestration": {
+    "mode": "two_independent_discovery_agents_union_merge",
+    "agent_a": "primary activation pass",
+    "agent_b": "independent secondary/missed activation pass",
+    "merge_rule": "union; consensus raises confidence but lack of consensus does not delete candidates"
+  },
+  "graph_discipline": "Roots are nodes; branches are edge/port labels.",
+  "labels": {
+    "A": "surface-active / structurally necessary",
+    "B": "strong secondary activation",
+    "C/B": "borderline strong secondary activation; preserve prominently",
+    "C": "exploratory latent activation worth inspecting",
+    "S": "currently silent / no visible bridge",
+    "X": "data issue"
+  },
+  "primary_surface_branches": [
+    {
+      "root": "ع ص ر",
+      "branch": "B001",
+      "label": "A",
+      "role": "temporal oath-frame",
+      "evidence": ["surface عَصْر at 103:1", "direct age/time sense"],
+      "surface_miss": "Without this branch, the passage loses its governing frame of time, succession, and human exposure to temporal loss."
+    },
+    {
+      "root": "ء ن س",
+      "branch": "B001",
+      "label": "A",
+      "role": "collective human subject",
+      "evidence": ["surface إِنسَان at 103:2", "direct human-presence sense"],
+      "surface_miss": "The universal loss statement concerns humans as social persons, not isolated abstractions."
+    },
+    {
+      "root": "خ س ر",
+      "branch": "B001",
+      "label": "A",
+      "role": "universal deficit state",
+      "evidence": ["surface خُسْر at 103:2", "direct general deficiency sense"],
+      "surface_miss": "The assertion is a comprehensive diminution of the human condition, not only financial loss."
+    },
+    {
+      "root": "ء م ن",
+      "branch": "B002",
+      "label": "A",
+      "role": "trusting assent to truth",
+      "evidence": ["surface ءَامَنُوا at 103:3", "form IV", "believing/confirmation sense"],
+      "surface_miss": "The exception begins with inward confirmation that grounds action and truth-directed counsel."
+    },
+    {
+      "root": "ع م ل",
+      "branch": "B001",
+      "label": "A",
+      "role": "intentional ethical action",
+      "evidence": ["surface عَمِلُوا at 103:3", "direct intentional doing sense"],
+      "surface_miss": "Faith must become deliberate conduct for the exception to loss to function."
+    },
+    {
+      "root": "ص ل ح",
+      "branch": "B001",
+      "label": "A",
+      "role": "sound and morally right deeds",
+      "evidence": ["surface صَّالِحَات at 103:3", "soundness against corruption"],
+      "surface_miss": "The deeds are characterized by soundness, benefit, repair, and opposition to corruption."
+    },
+    {
+      "root": "و ص ي",
+      "branch": "B003",
+      "label": "A",
+      "role": "reciprocal ethical exhortation",
+      "evidence": ["surface تَوَاصَوْا occurs twice", "form VI reciprocal morphology", "direct mutual-exhortation sense"],
+      "surface_miss": "Truth and patience are maintained by reciprocal communal practice rather than private possession."
+    },
+    {
+      "root": "ح ق ق",
+      "branch": "B001",
+      "label": "A",
+      "role": "established truth opposed to falsehood",
+      "evidence": ["surface حَقّ at 103:3", "truth/reality sense"],
+      "surface_miss": "The counsel is oriented to what is established, valid, and reality-conforming."
+    },
+    {
+      "root": "ص ب ر",
+      "branch": "B001",
+      "label": "A",
+      "role": "self-restraint and steadfast endurance",
+      "evidence": ["surface صَبْر at 103:3", "direct restraint/endurance sense"],
+      "surface_miss": "The final condition requires disciplined endurance under fear, impulse, and suffering."
+    }
+  ],
+  "secondary_activations": [
+    {
+      "root": "ع ص ر",
+      "branch": "B009",
+      "label": "B",
+      "role": "human life-stage and maturation under the temporal horizon",
+      "activated_by": ["ع ص ر B001", "ء ن س B006", "خ س ر B001", "ح ق ق B008/B013", "ع م ل B010"],
+      "evidence": [
+        "same-root Q2 relation links temporal B001 with B009",
+        "ء ن س bridges human identity/intimacy/life-stage",
+        "خ س ر B001 bridges growth/decline",
+        "ح ق ق B008/B013 bridge maturity/life-stage/reproduction",
+        "ع م ل B010 bridges body/physiology"
+      ],
+      "surface_miss": "العصر can frame not only abstract time but the human passage into and through maturity, where loss accumulates."
+    },
+    {
+      "root": "ع ص ر",
+      "branch": "B007",
+      "label": "B",
+      "role": "extracted yield, return, or output against which work and loss are assessed",
+      "activated_by": ["ع م ل B004", "خ س ر B002", "ص ب ر B011", "ص ل ح B003"],
+      "evidence": [
+        "ع م ل B004 bridge: commerce/economy/labor/provision/wealth",
+        "خ س ر B002 bridge: commerce/economy/value/wealth",
+        "ص ب ر B011 bridge: provision/quantity/accounting",
+        "same-root Q2 links B006 and B007"
+      ],
+      "surface_miss": "The work/loss contrast can be heard as whether time and labor yield value."
+    },
+    {
+      "root": "ع ص ر",
+      "branch": "B005",
+      "label": "B",
+      "role": "refuge from temporal loss through attachment and solidarity",
+      "activated_by": ["ء ن س B006", "ح ق ق B007", "ص ب ر B003", "ء م ن B001"],
+      "evidence": [
+        "ء ن س B006 bridge: kinship/social_relations/trust_loyalty",
+        "ح ق ق B007 bridge: kinship/protection_security",
+        "ص ب ر B003 bridge: kinship/social relations/trust",
+        "same-root Q2 links temporal B001 and refuge B005"
+      ],
+      "surface_miss": "The exception is not merely individual correctness; it supplies refuge through faithful attachment and mutual support."
+    },
+    {
+      "root": "ع ص ر",
+      "branch": "B006",
+      "label": "C/B",
+      "role": "withholding, restraint, retention, and recovery from loss through binding obligations",
+      "activated_by": ["ح ق ق B003", "ص ب ر B003", "و ص ي B002", "ع م ل B005", "خ س ر B002"],
+      "evidence": [
+        "shared law/obligation_contract/wealth_property",
+        "bridges to وصية as binding instruction",
+        "bridges to صبر as durable obligation",
+        "bridges to خسر as economic/property loss"
+      ],
+      "surface_miss": "The exception may describe practices that arrest or reclaim loss, not merely people exempted from it."
+    },
+    {
+      "root": "ع ص ر",
+      "branch": "B012",
+      "label": "C/B",
+      "role": "dependent affiliation and mutual support within the counseling group",
+      "activated_by": ["ص ب ر B003", "ء ن س B006", "ع م ل B005", "ص ل ح B002", "و ص ي B003"],
+      "evidence": ["social_relations/support_dependence/trust_loyalty bridges", "same-root Q2 links B005 and B012"],
+      "surface_miss": "The saved group is social rather than atomized; it is held together by affiliation and support."
+    },
+    {
+      "root": "خ س ر",
+      "branch": "B002",
+      "label": "B",
+      "role": "commercial accounting metaphor for human loss",
+      "activated_by": ["ع ص ر B007", "ع م ل B004"],
+      "evidence": ["commerce/economy/value/wealth bridge", "work/yield/loss frame"],
+      "surface_miss": "Loss can function as failed return on time, action, and moral investment."
+    },
+    {
+      "root": "خ س ر",
+      "branch": "B003",
+      "label": "B",
+      "role": "short measure and inequitable accounting as a concrete form of loss",
+      "activated_by": ["ص ب ر B011", "ح ق ق B003", "ع م ل B005"],
+      "evidence": [
+        "Q2 S103-BR0014",
+        "shared Arabic content كيل and وزن",
+        "commerce_exchange/measurement/quantity_number bridge",
+        "justice_judgment/obligation_contract bridge"
+      ],
+      "surface_miss": "خسر can include actively causing deficiency through dishonest measure, not only suffering loss."
+    },
+    {
+      "root": "ص ب ر",
+      "branch": "B011",
+      "label": "B",
+      "role": "measured provision and accumulated return countering deficiency",
+      "activated_by": ["خ س ر B003", "خ س ر B001", "ع ص ر B007"],
+      "evidence": ["Q2 S103-BR0014", "commerce/measurement/quantity bridge", "provision/abundance bridge"],
+      "surface_miss": "الصبر may retain a latent measurement/provision port alongside endurance."
+    },
+    {
+      "root": "ص ب ر",
+      "branch": "B003",
+      "label": "B",
+      "role": "bearing liability, guarantee, and standing with others",
+      "activated_by": ["ع م ل B005", "و ص ي B002/B003", "ح ق ق B007", "ء م ن B001"],
+      "evidence": ["law/obligation/social_relations bridge", "trust_loyalty bridge", "mutual-counsel structure"],
+      "surface_miss": "Patience is communal: people stand with one another and bear continuing obligations."
+    },
+    {
+      "root": "ص ب ر",
+      "branch": "B006",
+      "label": "B",
+      "role": "severe inescapable hardship requiring endurance",
+      "activated_by": ["خ س ر B001", "ع م ل B007"],
+      "evidence": ["passage contrast: universal loss versus patient exception", "suffering_hardship/effort pathway"],
+      "surface_miss": "Patience becomes intelligible against crisis, constraint, and situations with no easy exit."
+    },
+    {
+      "root": "و ص ي",
+      "branch": "B002",
+      "label": "B",
+      "role": "transmitted charge, covenant, and binding instruction",
+      "activated_by": ["و ص ي B003", "ح ق ق B003", "ص ب ر B003", "ء م ن B001", "ع م ل B005"],
+      "evidence": ["repeated تواصوا", "law/obligation/trust bridge", "authority/right bridge"],
+      "surface_miss": "Mutual exhortation carries entrusted obligations, not merely informal encouragement."
+    },
+    {
+      "root": "و ص ي",
+      "branch": "B001",
+      "label": "B",
+      "role": "continuity joining persons and moments",
+      "activated_by": ["و ص ي B003", "ع ص ر B001"],
+      "evidence": ["repetition of تواصوا", "sequence_cycle/time bridge"],
+      "surface_miss": "Exhortation joins people and sustains guidance across successive moments."
+    },
+    {
+      "root": "ع م ل",
+      "branch": "B005",
+      "label": "B",
+      "role": "reciprocal dealings through which social repair and obligation are enacted",
+      "activated_by": ["ص ب ر B003", "ح ق ق B003", "و ص ي B002/B003", "ص ل ح B002"],
+      "evidence": ["law/obligation/social_relations bridge", "reciprocity bridge", "commerce/rights bridge"],
+      "surface_miss": "Righteous action includes how people transact, reciprocate, and discharge duties toward one another."
+    },
+    {
+      "root": "ع م ل",
+      "branch": "B007",
+      "label": "B",
+      "role": "sustained exertion required by righteous action",
+      "activated_by": ["ح ق ق B012", "ص ب ر B001/B006"],
+      "evidence": ["labor/endurance/suffering bridge", "local action-to-patience sequence"],
+      "surface_miss": "Good action is effortful and must persist under burden rather than remaining a momentary deed."
+    },
+    {
+      "root": "ع م ل",
+      "branch": "B002",
+      "label": "B",
+      "role": "making something function or become usable",
+      "activated_by": ["ص ل ح B003", "ح ق ق B010", "ع ص ر B002"],
+      "evidence": ["function/utility/value_quality bridge", "applied agency bridge"],
+      "surface_miss": "عمل صالح can mean work that makes conditions function properly, not only morally credited acts."
+    },
+    {
+      "root": "ع م ل",
+      "branch": "B004",
+      "label": "C/B",
+      "role": "return or compensation for action",
+      "activated_by": ["ع ص ر B007", "خ س ر B002"],
+      "evidence": ["economy/exchange/labor/provision/wealth bridge"],
+      "surface_miss": "The action/loss frame permits an accounting underlay in which deeds bear consequence or return."
+    },
+    {
+      "root": "ع م ل",
+      "branch": "B008",
+      "label": "C/B",
+      "role": "fitness and durable capacity for work",
+      "activated_by": ["ص ل ح B001", "ح ق ق B012", "Q2 S103-BR0015"],
+      "evidence": ["value_quality bridge", "labor/stability/endurance bridge"],
+      "surface_miss": "The deeds may arise from a formed capacity or temperament, not isolated acts."
+    },
+    {
+      "root": "ص ل ح",
+      "branch": "B002",
+      "label": "B",
+      "role": "social reconciliation enacted through mutual counsel",
+      "activated_by": ["ء ن س B001/B003", "ع م ل B005", "و ص ي B003", "ع ص ر B005"],
+      "evidence": ["household_community/social_relations bridge", "repair through reciprocal practice"],
+      "surface_miss": "Righteous deeds can repair hostility and restore relations, giving communal content to the exception."
+    },
+    {
+      "root": "ص ل ح",
+      "branch": "B003",
+      "label": "B",
+      "role": "fitness, compatibility, and utility as the output criterion for عمل",
+      "activated_by": ["ع م ل B002/B008", "ح ق ق B010", "ع ص ر B007"],
+      "evidence": ["function/utility/value_quality bridge", "fitness/form/quality pathway"],
+      "surface_miss": "الصالحات may denote outputs fitted to their purpose and context."
+    },
+    {
+      "root": "ء ن س",
+      "branch": "B003",
+      "label": "B",
+      "role": "companionship enabling mutual exhortation",
+      "activated_by": ["ء ن س B001", "ص ل ح B002", "و ص ي B003"],
+      "evidence": ["community/social_relations bridge", "mutual-counsel structure"],
+      "surface_miss": "Mutual counsel presupposes familiarity, companionship, and removal of estrangement."
+    },
+    {
+      "root": "ء ن س",
+      "branch": "B002",
+      "label": "C/B",
+      "role": "perceptual recognition of truth",
+      "activated_by": ["ح ق ق B001/B005", "ء م ن B002"],
+      "evidence": ["knowledge/perception/proof bridge"],
+      "surface_miss": "The human subject is also a perceiver who must recognize and verify truth."
+    },
+    {
+      "root": "ء ن س",
+      "branch": "B006",
+      "label": "C/B",
+      "role": "self and chosen-companion underlay",
+      "activated_by": ["ع ص ر B005/B009", "و ص ي B003", "ص ب ر B003"],
+      "evidence": ["kinship/social_relations/trust_loyalty/sexuality bridge"],
+      "surface_miss": "The passage's exception joins personal responsibility to chosen, loyal companionship."
+    },
+    {
+      "root": "ء م ن",
+      "branch": "B001",
+      "label": "B",
+      "role": "security and entrusted reliability produced by faith",
+      "activated_by": ["ح ق ق B007", "و ص ي B002", "ص ب ر B001"],
+      "evidence": ["ethics/obligation/protection/trust bridge"],
+      "surface_miss": "Belief also establishes trustworthiness, security, and the capacity to hold a communal charge."
+    },
+    {
+      "root": "ح ق ق",
+      "branch": "B002",
+      "label": "B",
+      "role": "truth as binding duty and accountability",
+      "activated_by": ["ع م ل B001", "و ص ي B002", "ص ب ر B003"],
+      "evidence": ["ethics/justice/responsibility/law bridge"],
+      "surface_miss": "Truth is also something due: it generates responsibility and must be upheld."
+    },
+    {
+      "root": "ح ق ق",
+      "branch": "B003",
+      "label": "C/B",
+      "role": "particular rights and claims within mutual obligation",
+      "activated_by": ["و ص ي B002", "خ س ر B003", "ع م ل B005"],
+      "evidence": ["authority/law/obligation/wealth bridge", "commerce/justice bridge"],
+      "surface_miss": "Exhorting to الحق may include safeguarding concrete rights and equitable claims."
+    },
+    {
+      "root": "ح ق ق",
+      "branch": "B005",
+      "label": "B",
+      "role": "making truth stand through verification and advocacy",
+      "activated_by": ["ح ق ق B001", "و ص ي B002"],
+      "evidence": ["same-root Q2", "knowledge/law/proof/reasoning bridge"],
+      "surface_miss": "Mutual exhortation does active work: establishing, verifying, and making truth prevail."
+    },
+    {
+      "root": "ح ق ق",
+      "branch": "B007",
+      "label": "C/B",
+      "role": "guarded communal due",
+      "activated_by": ["ء م ن B001", "و ص ي B003", "ص ب ر B003", "ع ص ر B005"],
+      "evidence": ["ethics/obligation/protection/kinship bridge"],
+      "surface_miss": "Truth may name a protected due or sanctity that the community must preserve."
+    },
+    {
+      "root": "ح ق ق",
+      "branch": "B010",
+      "label": "C/B",
+      "role": "firmly constructed and well-set expression",
+      "activated_by": ["ع م ل B002", "ص ل ح B003", "و ص ي B003"],
+      "evidence": ["language/rhetoric/value/form/quality bridge"],
+      "surface_miss": "Counsel to truth may require speech that is firm, exact, and well constructed."
+    },
+    {
+      "root": "ح ق ق",
+      "branch": "B012",
+      "label": "C/B",
+      "role": "hard sustained pace that tests action and endurance",
+      "activated_by": ["ع م ل B007/B008", "ص ب ر B001"],
+      "evidence": ["labor/motion/endurance/suffering bridge"],
+      "surface_miss": "Truth-directed action and patience are tested over an exhausting course, not only at a single decision point."
+    }
+  ],
+  "exploratory_c_branches": [
+    {"root": "ع ص ر", "branches": ["B002", "B003", "B004", "B008", "B010", "B011", "B013", "B014", "B015", "B016"], "note": "preserved as exploratory; see 03-candidate-bridges.json for full evidence"},
+    {"root": "ء ن س", "branches": ["B004", "B005"], "note": "body/perception/orientation underlays"},
+    {"root": "خ س ر", "branches": ["B005"], "note": "weakness/degradation underlay"},
+    {"root": "ء م ن", "branches": ["B003"], "note": "ritual/formula underlay"},
+    {"root": "ع م ل", "branches": ["B003", "B006", "B009", "B010", "B011", "B012"], "note": "labor, body, terrain, craft, and applied-action underlays"},
+    {"root": "ص ل ح", "branches": ["B004", "B005"], "note": "identity/genealogy and place/geography underlays"},
+    {"root": "و ص ي", "branches": ["B004"], "note": "provision/abundance/husbandry underlay"},
+    {"root": "ح ق ق", "branches": ["B004", "B008", "B009", "B011", "B013", "B014"], "note": "conflict, maturity, body, geometry, and vitality underlays"},
+    {"root": "ص ب ر", "branches": ["B002", "B004", "B005", "B007", "B008", "B009", "B010", "B012", "B016", "B017", "B018"], "note": "authority, geometry, material, weather, agriculture, justice, identity, terrain, closure underlays"}
+  ],
+  "data_issues": []
+}

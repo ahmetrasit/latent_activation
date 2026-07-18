@@ -1,0 +1,159 @@
+{
+  "schema": "v11.secondary_expansion.v1",
+  "surah": 103,
+  "merge_source": "independent Agent B plus Agent A overlap",
+  "new_or_upgraded_candidates": [
+    {
+      "root": "ع ص ر",
+      "branch": "B009",
+      "suggested_label": "B",
+      "functional_role": "human life-stage and maturation under the passage's temporal horizon",
+      "why_preserve": "Activated by ء ن س, خ س ر, ح ق ق, and same-root temporal linkage; this is the clearest example of a secondary branch activated by another root."
+    },
+    {
+      "root": "ع ص ر",
+      "branch": "B007",
+      "suggested_label": "B",
+      "functional_role": "extracted yield, return, output",
+      "why_preserve": "Connects time/pressure to عمل and خسر through commerce/economy/labor/provision/value fields."
+    },
+    {
+      "root": "ع ص ر",
+      "branch": "B006",
+      "suggested_label": "C/B",
+      "functional_role": "withholding, restraint, retention, recovery from loss",
+      "why_preserve": "Connects to وصي/حق/صبر via obligation/law/trust fields."
+    },
+    {
+      "root": "ع ص ر",
+      "branch": "B005",
+      "suggested_label": "B",
+      "functional_role": "refuge and solidarity",
+      "why_preserve": "Connects the exception group to social protection, faith, and patient support."
+    },
+    {
+      "root": "خ س ر",
+      "branch": "B003",
+      "suggested_label": "B",
+      "functional_role": "short measure and inequitable accounting",
+      "why_preserve": "Q2 S103-BR0014 plus كيل/وزن makes this the strongest non-obvious hidden bridge."
+    },
+    {
+      "root": "ص ب ر",
+      "branch": "B011",
+      "suggested_label": "B",
+      "functional_role": "measured provision and accumulated return",
+      "why_preserve": "Pairs with خسر B003 and strengthens the measurement/accounting pathway."
+    },
+    {
+      "root": "و ص ي",
+      "branch": "B002",
+      "suggested_label": "B",
+      "functional_role": "binding transmitted charge",
+      "why_preserve": "The repeated reciprocal form تواصوا activates more than casual advice."
+    },
+    {
+      "root": "ع م ل",
+      "branch": "B002",
+      "suggested_label": "B",
+      "functional_role": "making something function or become usable",
+      "why_preserve": "Supports a functional-repair reading of عملوا الصالحات."
+    },
+    {
+      "root": "ص ل ح",
+      "branch": "B003",
+      "suggested_label": "B",
+      "functional_role": "fitness, compatibility, utility",
+      "why_preserve": "Clarifies الصالحات as fit outputs, not generic good deeds."
+    },
+    {
+      "root": "ء ن س",
+      "branch": "B002",
+      "suggested_label": "C/B",
+      "functional_role": "perceptual recognition of truth",
+      "why_preserve": "Connects الإنسان to حق and إيمان through cognition/proof/recognition."
+    }
+  ],
+  "alternate_mechanisms": [
+    {
+      "name": "life_course_loss",
+      "root_path": ["ع ص ر", "ء ن س", "خ س ر", "ح ق ق"],
+      "branch_ports": {
+        "ع ص ر": ["B001", "B009"],
+        "ء ن س": ["B006"],
+        "خ س ر": ["B001"],
+        "ح ق ق": ["B008", "B013"]
+      },
+      "summary": "Time becomes human maturation and subsequent growth/decline, making loss a life-course process."
+    },
+    {
+      "name": "yield_and_fair_measure",
+      "root_path": ["ع ص ر", "ع م ل", "خ س ر", "ص ب ر", "ح ق ق"],
+      "branch_ports": {
+        "ع ص ر": ["B007"],
+        "ع م ل": ["B004"],
+        "خ س ر": ["B002", "B003"],
+        "ص ب ر": ["B011"],
+        "ح ق ق": ["B003"]
+      },
+      "summary": "Work yields an output whose value depends on just measure; dishonest deficiency is an active form of loss."
+    },
+    {
+      "name": "reciprocal_covenant",
+      "root_path": ["و ص ي", "ح ق ق", "ص ب ر", "ع م ل", "ء م ن"],
+      "branch_ports": {
+        "و ص ي": ["B003", "B002"],
+        "ح ق ق": ["B002", "B003"],
+        "ص ب ر": ["B003"],
+        "ع م ل": ["B005"],
+        "ء م ن": ["B001"]
+      },
+      "summary": "Reciprocal counsel becomes a trusted covenant sustained as mutual liability."
+    },
+    {
+      "name": "repair_as_output",
+      "root_path": ["ع م ل", "ص ل ح", "و ص ي", "ء ن س"],
+      "branch_ports": {
+        "ع م ل": ["B002", "B005", "B008"],
+        "ص ل ح": ["B001", "B002", "B003"],
+        "و ص ي": ["B003"],
+        "ء ن س": ["B001", "B003"]
+      },
+      "summary": "Good work produces fitness, utility, and repaired social relations."
+    },
+    {
+      "name": "protective_solidarity",
+      "root_path": ["ع ص ر", "ء م ن", "ء ن س", "و ص ي", "ص ب ر"],
+      "branch_ports": {
+        "ع ص ر": ["B005", "B006", "B012"],
+        "ء م ن": ["B001"],
+        "ء ن س": ["B006"],
+        "و ص ي": ["B003"],
+        "ص ب ر": ["B003"]
+      },
+      "summary": "The exception forms a refuge-like community through trust, affiliation, reciprocal counsel, and durable support."
+    },
+    {
+      "name": "recognition_of_truth",
+      "root_path": ["ء ن س", "ء م ن", "ح ق ق", "و ص ي"],
+      "branch_ports": {
+        "ء ن س": ["B002"],
+        "ء م ن": ["B002"],
+        "ح ق ق": ["B001", "B005"],
+        "و ص ي": ["B003"]
+      },
+      "summary": "Truth is perceived, recognized, believed, and maintained through reciprocal communication."
+    },
+    {
+      "name": "geometric_measure",
+      "root_path": ["خ س ر", "ص ب ر", "ح ق ق"],
+      "branch_ports": {
+        "خ س ر": ["B003"],
+        "ص ب ر": ["B004"],
+        "ح ق ق": ["B011"]
+      },
+      "summary": "A weaker but coherent extension links deficient measure with bounded volume and exact fit."
+    }
+  ],
+  "note": "Unlisted branches are not implicitly rejected. Full candidate reservoir remains in 03-candidate-bridges.json."
+}
