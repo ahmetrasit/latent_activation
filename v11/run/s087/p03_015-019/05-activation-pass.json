@@ -1,0 +1,921 @@
+{
+  "schema": "v11.activation_pass.v1",
+  "passage": {
+    "surah": 87,
+    "ayah_start": 15,
+    "ayah_end": 19
+  },
+  "activation_bias": "recall_first",
+  "agent": "A",
+  "root_resolution": {
+    "authority": "01-passage.json QAC morphology and root resolution",
+    "status": "clean",
+    "resolved_roots": 12,
+    "unresolved_roots": 0,
+    "branch_ids_invented": false,
+    "note": "The basmala is included in the analysis frame. It reinforces divine naming, lordship, worship, mercy, and beneficence without adding roots to the supplied branch inventory."
+  },
+  "graph_discipline": "Roots remain nodes; branches are edge or port labels, not graph nodes.",
+  "surface_mechanism": [
+    "87:15 joins remembrance or voiced mention, the divine name, lordship, and prescribed prayer as one devotional sequence.",
+    "87:16-17 contrasts the chosen nearer worldly life with the later life as better and more enduring.",
+    "87:18-19 anchors that valuation in earlier written revelation associated with Abraham and Moses.",
+    "The basmala strengthens the divine-name, lordship, worship, mercy, and beneficence activations."
+  ],
+  "branches": [
+    {
+      "root": "ذ ك ر",
+      "branch": "B001",
+      "label": "C",
+      "role": "gendered and reproductive underlay to human life",
+      "mechanical_discovery_refs": ["ذ ك ر B001 ↔ ح ي ي B011", "ذ ك ر B001 ↔ د ن و B004"],
+      "activated_by": [{"root": "ح ي ي", "branch": "B011", "evidence": ["shared gender and reproduction themes"]}],
+      "notes": "Preserved as a body-life bridge, not as the gloss of ذَكَرَ here."
+    },
+    {
+      "root": "ذ ك ر",
+      "branch": "B002",
+      "label": "C",
+      "role": "hardness and force underlay",
+      "mechanical_discovery_refs": ["ذ ك ر B002 ↔ س م و B004", "ذ ك ر B002 ↔ ر ب ب B008"],
+      "activated_by": [{"root": "س م و", "branch": "B004", "evidence": ["broad weather and terrain overlap"]}],
+      "notes": "The material-weather bridge is inspectable but not locally asserted."
+    },
+    {
+      "root": "ذ ك ر",
+      "branch": "B003",
+      "label": "B",
+      "role": "bringing the divine name and prior teaching to mind",
+      "activated_by": [{"root": "ص ح ف", "branch": "B002", "evidence": ["written revelation preserves knowledge for recollection"]}],
+      "evidence": ["surface ذَكَرَ at 87:15", "cognition and memory sense"]
+    },
+    {
+      "root": "ذ ك ر",
+      "branch": "B004",
+      "label": "A",
+      "role": "voiced mention of the Lord's name",
+      "evidence": ["surface وَذَكَرَ ٱسْمَ رَبِّهِ at 87:15", "direct mention-on-the-tongue branch"]
+    },
+    {
+      "root": "ذ ك ر",
+      "branch": "B005",
+      "label": "A",
+      "role": "remembrance of God as worship, praise, and prayer",
+      "evidence": ["ذَكَرَ ... رَبِّهِۦ فَصَلَّىٰ at 87:15", "devotional sequence directly realizes the Furūq-only branch"]
+    },
+    {
+      "root": "ذ ك ر",
+      "branch": "B006",
+      "label": "B",
+      "role": "revealed-book sense activated by the former scriptures",
+      "activated_by": [{"root": "ص ح ف", "branch": "B002", "evidence": ["ٱلصُّحُفِ ٱلْأُولَىٰ and صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ"]}],
+      "notes": "Furūq-only in this Qnet layer but strongly visible in the passage."
+    },
+    {
+      "root": "ذ ك ر",
+      "branch": "B007",
+      "label": "C/B",
+      "role": "honorable renown attached to the divine name and remembered prophets",
+      "mechanical_discovery_refs": ["ذ ك ر B007 ↔ س م و B001", "ذ ك ر B007 ↔ س م و B008"],
+      "activated_by": [{"root": "س م و", "branch": "B008", "evidence": ["shared praise, reputation, and memory themes"]}]
+    },
+    {
+      "root": "ذ ك ر",
+      "branch": "B008",
+      "label": "C/B",
+      "role": "documentary attestation of a right or binding truth",
+      "mechanical_discovery_refs": ["ذ ك ر B008 ↔ ر ب ب B011"],
+      "activated_by": [{"root": "ص ح ف", "branch": "B002", "evidence": ["the claim is lodged in written sheets"]}],
+      "notes": "Preserved as a legal-document underlay, not as the primary sense of ذَكَرَ."
+    },
+    {
+      "root": "ذ ك ر",
+      "branch": "B009",
+      "label": "B",
+      "role": "scriptural reminder and admonition",
+      "mechanical_discovery_refs": ["ذ ك ر B009 ↔ ء ث ر B002"],
+      "activated_by": [{"root": "ء ث ر", "branch": "B002", "evidence": ["earlier teaching is transmitted and remembered"]}, {"root": "ص ح ف", "branch": "B002", "evidence": ["former scriptures carry reminder"]}]
+    },
+
+    {
+      "root": "س م و",
+      "branch": "B001",
+      "label": "C/B",
+      "role": "elevation encoded beneath the divine designation",
+      "mechanical_discovery_refs": ["س م و B001 ↔ ذ ك ر B007"],
+      "activated_by": [{"root": "ر ب ب", "branch": "B001", "evidence": ["the named referent is the sovereign Lord"]}],
+      "notes": "An etymological-status underlay, not a replacement for the noun 'name'."
+    },
+    {
+      "root": "س م و",
+      "branch": "B002",
+      "label": "C",
+      "role": "raised visible outline",
+      "mechanical_discovery_refs": ["س م و B002 ↔ ء و ل B006"],
+      "activated_by": [{"root": "ء و ل", "branch": "B006", "evidence": ["shared visibility and orientation themes"]}],
+      "notes": "Preserved as a weak spatial-perceptual bridge."
+    },
+    {
+      "root": "س م و",
+      "branch": "B003",
+      "label": "C",
+      "role": "livestock dominance and reproduction underlay",
+      "mechanical_discovery_refs": ["س م و B003 ↔ ح ي ي B011", "س م و B003 ↔ ر ب ب B009"],
+      "activated_by": [{"root": "ح ي ي", "branch": "B011", "evidence": ["shared reproduction and sexuality themes"]}],
+      "notes": "Materially remote but retained under recall-first review."
+    },
+    {
+      "root": "س م و",
+      "branch": "B004",
+      "label": "C",
+      "role": "sky and overhead-cover underlay",
+      "mechanical_discovery_refs": ["س م و B004 ↔ ر ب ب B008", "س م و B004 ↔ ح ي ي B002"],
+      "activated_by": [{"root": "ر ب ب", "branch": "B008", "evidence": ["shared sky and weather themes"]}],
+      "notes": "No sky image is asserted in 87:15-19."
+    },
+    {
+      "root": "س م و",
+      "branch": "B005",
+      "label": "A",
+      "role": "name as designation and sign",
+      "evidence": ["surface ٱسْمَ at 87:15", "basmala repeats بِسْمِ", "direct naming branch"]
+    },
+    {
+      "root": "س م و",
+      "branch": "B006",
+      "label": "C",
+      "role": "hunting and tracking underlay",
+      "mechanical_discovery_refs": ["س م و B006 ↔ ص ل و B004", "س م و B006 ↔ خ ي ر B006"],
+      "activated_by": [{"root": "ص ل و", "branch": "B004", "evidence": ["shared hunting, tool, and habitat themes"]}],
+      "notes": "A high-connectivity mechanical candidate with no narrative hunting trigger."
+    },
+    {
+      "root": "س م و",
+      "branch": "B007",
+      "label": "C",
+      "role": "upward rivalry and comparison",
+      "mechanical_discovery_refs": ["س م و B007 ↔ خ ي ر B002", "س م و B007 ↔ د ن و B003"],
+      "activated_by": [{"root": "خ ي ر", "branch": "B002", "evidence": ["the passage compares two lives by excellence"]}],
+      "notes": "Comparison is present, rivalry is not."
+    },
+    {
+      "root": "س م و",
+      "branch": "B008",
+      "label": "B",
+      "role": "good repute and praise spread through mention",
+      "mechanical_discovery_refs": ["س م و B008 ↔ ذ ك ر B007", "س م و B008 ↔ ذ ك ر B009"],
+      "activated_by": [{"root": "ذ ك ر", "branch": "B004", "evidence": ["voiced mention of the Lord's name"]}, {"root": "ذ ك ر", "branch": "B007", "evidence": ["shared praise and reputation themes"]}]
+    },
+
+    {
+      "root": "ر ب ب",
+      "branch": "B001",
+      "label": "A",
+      "role": "lordship, ownership, and sovereign authority",
+      "evidence": ["surface رَبِّهِۦ at 87:15", "direct lordship branch"]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B002",
+      "label": "B",
+      "role": "divine nurture, correction, and completion",
+      "mechanical_discovery_refs": ["ر ب ب B002 ↔ ء و ل B010"],
+      "activated_by": [{"root": "ح ي ي", "branch": "B001", "evidence": ["life is evaluated under the Lord's care"]}, {"root": "ب ق ي", "branch": "B001", "evidence": ["completion opens onto what endures"]}]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B003",
+      "label": "B",
+      "role": "Lord-derived knowledge preserved in revelation",
+      "mechanical_discovery_refs": ["ر ب ب B003 ↔ ء ث ر B011", "ر ب ب B003 ↔ ذ ك ر B009"],
+      "activated_by": [{"root": "ص ح ف", "branch": "B002", "evidence": ["the valuation is present in earlier scriptures"]}]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B004",
+      "label": "C",
+      "role": "large community or collectivity",
+      "mechanical_discovery_refs": ["ر ب ب B004 ↔ ح ي ي B010"],
+      "activated_by": [{"root": "ح ي ي", "branch": "B010", "evidence": ["shared tribe and community themes around Abraham and Moses"]}],
+      "notes": "The named prophets may evoke communities, but no multitude is explicit."
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B005",
+      "label": "C",
+      "role": "fosterage and household dependence",
+      "mechanical_discovery_refs": ["ر ب ب B005 ↔ ء و ل B003"],
+      "activated_by": [{"root": "ء و ل", "branch": "B003", "evidence": ["shared household, kinship, and dependence themes"]}],
+      "notes": "Preserved as a social underlay only."
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B006",
+      "label": "C",
+      "role": "thick substance used for preparation or preservation",
+      "mechanical_discovery_refs": ["ر ب ب B006 ↔ ء ث ر B009", "ر ب ب B006 ↔ ء و ل B005"],
+      "activated_by": [{"root": "ء ث ر", "branch": "B009", "evidence": ["shared food and substance residue themes"]}],
+      "notes": "Material underlay only."
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B007",
+      "label": "B",
+      "role": "staying, clinging, and duration",
+      "mechanical_discovery_refs": ["ر ب ب B007 ↔ ب ق ي B005"],
+      "activated_by": [{"root": "ب ق ي", "branch": "B001", "evidence": ["أَبْقَىٰ explicitly foregrounds endurance"]}]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B008",
+      "label": "C",
+      "role": "life-bearing cloud and weather underlay",
+      "mechanical_discovery_refs": ["ر ب ب B008 ↔ ح ي ي B002", "ر ب ب B008 ↔ س م و B004"],
+      "activated_by": [{"root": "ح ي ي", "branch": "B002", "evidence": ["shared fertility and weather themes"]}],
+      "notes": "High-ranked ecological bridge without a local weather image."
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B009",
+      "label": "C",
+      "role": "newborn livestock and freshness",
+      "mechanical_discovery_refs": ["ر ب ب B009 ↔ د ن و B004", "ر ب ب B009 ↔ ص ل و B005"],
+      "activated_by": [{"root": "د ن و", "branch": "B004", "evidence": ["shared birth, animal, and life-stage themes"]}],
+      "notes": "Preserved as a life-stage underlay."
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B010",
+      "label": "C",
+      "role": "ritual bundle, lots, and divinatory instrument",
+      "activated_by": [{"root": "ص ل و", "branch": "B003", "evidence": ["broad ritual overlap"]}],
+      "notes": "Prayer activates ritual review, but divination is not asserted."
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B011",
+      "label": "C/B",
+      "role": "covenant and binding pact preserved in former scriptures",
+      "mechanical_discovery_refs": ["ر ب ب B011 ↔ ذ ك ر B008", "ر ب ب B011 ↔ خ ي ر B003"],
+      "activated_by": [{"root": "ص ح ف", "branch": "B002", "evidence": ["earlier written revelation bears binding instruction"]}]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B012",
+      "label": "C",
+      "role": "plant and herb underlay",
+      "mechanical_discovery_refs": ["ر ب ب B012 ↔ ء و ل B011", "ر ب ب B012 ↔ ص ل و B009"],
+      "activated_by": [{"root": "ء و ل", "branch": "B011", "evidence": ["shared botany, food, and ecology themes"]}],
+      "notes": "Preserved as a ranked surprise candidate only."
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B013",
+      "label": "C",
+      "role": "abundant collected water",
+      "activated_by": [{"root": "ح ي ي", "branch": "B002", "evidence": ["water and provision support life"]}],
+      "notes": "No water image occurs locally."
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B014",
+      "label": "C",
+      "role": "herd or gathered wild cattle",
+      "mechanical_discovery_refs": ["ر ب ب B014 ↔ ص ل و B009", "ر ب ب B014 ↔ خ ي ر B006"],
+      "activated_by": [{"root": "ص ل و", "branch": "B009", "evidence": ["shared livestock and habitat themes"]}],
+      "notes": "Ecological candidate without a narrative animal trigger."
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B015",
+      "label": "C",
+      "role": "particle and discourse-grammar underlay",
+      "activated_by": [{"root": "ذ ك ر", "branch": "B004", "evidence": ["shared language and discourse frame"]}],
+      "notes": "The surface رَبّ is nominal, so the particle sense is not primary."
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B016",
+      "label": "C/B",
+      "role": "need, obligation, and benefaction under divine dependence",
+      "mechanical_discovery_refs": ["ر ب ب B016 ↔ خ ي ر B005"],
+      "activated_by": [{"root": "خ ي ر", "branch": "B005", "evidence": ["shared charity, gift, welfare, and dependence themes"]}],
+      "notes": "Strengthened by the merciful basmala frame."
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B017",
+      "label": "C",
+      "role": "chiefly leadership and navigation",
+      "mechanical_discovery_refs": ["ر ب ب B017 ↔ ب ق ي B005"],
+      "activated_by": [{"root": "ر ب ب", "branch": "B001", "evidence": ["same-root authority and hierarchy cluster"]}],
+      "notes": "Leadership is visible; maritime specialization is not."
+    },
+
+    {
+      "root": "ص ل و",
+      "branch": "B001",
+      "label": "S",
+      "role": "meeting fire and heat",
+      "notes": "The fire image occurs earlier in the surah but not in the assigned 87:15-19 passage or basmala frame."
+    },
+    {
+      "root": "ص ل و",
+      "branch": "B002",
+      "label": "B",
+      "role": "supplication, praise, blessing, and mercy",
+      "mechanical_discovery_refs": ["ص ل و B002 ↔ ح ي ي B007"],
+      "activated_by": [{"root": "ذ ك ر", "branch": "B005", "evidence": ["remembrance, praise, and prayer form one sequence"]}],
+      "evidence": ["فَصَلَّىٰ at 87:15", "merciful basmala frame"]
+    },
+    {
+      "root": "ص ل و",
+      "branch": "B003",
+      "label": "A",
+      "role": "prescribed worship",
+      "evidence": ["surface form-II صَلَّىٰ at 87:15", "direct prayer and worship branch"]
+    },
+    {
+      "root": "ص ل و",
+      "branch": "B004",
+      "label": "C",
+      "role": "set snare and capture underlay",
+      "mechanical_discovery_refs": ["ص ل و B004 ↔ خ ي ر B006", "ص ل و B004 ↔ س م و B006"],
+      "activated_by": [{"root": "خ ي ر", "branch": "B006", "evidence": ["shared capture, hunting, habitat, and tool themes"]}],
+      "notes": "Mechanically strong but semantically remote from prayer."
+    },
+    {
+      "root": "ص ل و",
+      "branch": "B005",
+      "label": "C",
+      "role": "rear flank and bodily orientation underlay",
+      "mechanical_discovery_refs": ["ص ل و B005 ↔ د ن و B004", "ص ل و B005 ↔ ء خ ر B003"],
+      "activated_by": [{"root": "ء خ ر", "branch": "B003", "evidence": ["shared posterior anatomy and orientation themes"]}],
+      "notes": "Preserved as a body bridge, not as a prayer gloss."
+    },
+    {
+      "root": "ص ل و",
+      "branch": "B006",
+      "label": "C/B",
+      "role": "following a predecessor in sequence",
+      "mechanical_discovery_refs": ["ص ل و B006 ↔ ء و ل B001"],
+      "activated_by": [{"root": "ء و ل", "branch": "B001", "evidence": ["former scriptures establish precedence and sequence"]}, {"root": "ء ث ر", "branch": "B004", "evidence": ["following earlier prophetic traces"]}]
+    },
+    {
+      "root": "ص ل و",
+      "branch": "B007",
+      "label": "C/B",
+      "role": "institutional place and community of worship",
+      "mechanical_discovery_refs": ["ص ل و B007 ↔ ح ي ي B009", "ص ل و B007 ↔ ء و ل B003"],
+      "activated_by": [{"root": "ص ح ف", "branch": "B003", "evidence": ["preserved liturgy implies worship tradition"]}],
+      "notes": "Worship is explicit, but no building or place is named."
+    },
+    {
+      "root": "ص ل و",
+      "branch": "B008",
+      "label": "C",
+      "role": "pounding stone and domestic preparation tool",
+      "mechanical_discovery_refs": ["ص ل و B008 ↔ ص ح ف B004"],
+      "activated_by": [{"root": "ص ح ف", "branch": "B004", "evidence": ["shared domestic food and tool themes"]}],
+      "notes": "Material surprise candidate only."
+    },
+    {
+      "root": "ص ل و",
+      "branch": "B009",
+      "label": "C",
+      "role": "pasture plant and provision underlay",
+      "mechanical_discovery_refs": ["ص ل و B009 ↔ ء و ل B011", "ص ل و B009 ↔ ر ب ب B012"],
+      "activated_by": [{"root": "ء و ل", "branch": "B011", "evidence": ["shared rare pasture-forage and botany themes"]}],
+      "notes": "Highest mechanical discovery queue item, retained as latent rather than promoted to a prayer sense."
+    },
+
+    {
+      "root": "ء ث ر",
+      "branch": "B001",
+      "label": "A",
+      "role": "putting one option first by choice",
+      "mechanical_discovery_refs": ["ء ث ر B001 ↔ خ ي ر B003", "ء ث ر B001 ↔ ء و ل B001"],
+      "evidence": ["surface form-IV تُؤْثِرُونَ at 87:16", "the worldly life is placed before the afterlife"]
+    },
+    {
+      "root": "ء ث ر",
+      "branch": "B002",
+      "label": "B",
+      "role": "transmitted report handed down through scripture",
+      "mechanical_discovery_refs": ["ء ث ر B002 ↔ ص ح ف B002", "ء ث ر B002 ↔ ذ ك ر B009"],
+      "activated_by": [{"root": "ص ح ف", "branch": "B002", "evidence": ["teaching is located in the former sheets of Abraham and Moses"]}]
+    },
+    {
+      "root": "ء ث ر",
+      "branch": "B003",
+      "label": "B",
+      "role": "remaining sign pointing to what preceded",
+      "activated_by": [{"root": "ص ح ف", "branch": "B002", "evidence": ["the earlier scriptures remain as evidence of prior revelation"]}, {"root": "ب ق ي", "branch": "B001", "evidence": ["explicit endurance supports a remaining trace"]}]
+    },
+    {
+      "root": "ء ث ر",
+      "branch": "B004",
+      "label": "B",
+      "role": "following the trace of earlier prophetic precedent",
+      "activated_by": [{"root": "ء و ل", "branch": "B001", "evidence": ["the scriptures are explicitly former"]}, {"root": "ص ح ف", "branch": "B002", "evidence": ["Abraham and Moses anchor prior guidance"]}]
+    },
+    {
+      "root": "ء ث ر",
+      "branch": "B005",
+      "label": "A",
+      "role": "preferring one thing over another",
+      "evidence": ["surface تُؤْثِرُونَ at 87:16", "direct preference branch", "explicit dunya-versus-ākhirah contrast"]
+    },
+    {
+      "root": "ء ث ر",
+      "branch": "B006",
+      "label": "B",
+      "role": "self-regarding exclusive appropriation of the nearer life",
+      "activated_by": [{"root": "د ن و", "branch": "B002", "evidence": ["the rebuke concerns choosing the nearer worldly side"]}],
+      "notes": "A strong ethical underlay to تُؤْثِرُونَ, not its sole lexical gloss."
+    },
+    {
+      "root": "ء ث ر",
+      "branch": "B007",
+      "label": "C",
+      "role": "sword mark, sheen, and violent trace",
+      "activated_by": [{"root": "ذ ك ر", "branch": "B002", "evidence": ["broad force and weapon overlap"]}],
+      "notes": "No weapon or injury trigger is visible."
+    },
+    {
+      "root": "ء ث ر",
+      "branch": "B008",
+      "label": "C",
+      "role": "marked hoof used for tracking",
+      "mechanical_discovery_refs": ["ء ث ر B008 ↔ س م و B006"],
+      "activated_by": [{"root": "س م و", "branch": "B006", "evidence": ["shared tracking, animal, and tool themes"]}],
+      "notes": "Tracking remains a latent trace-image only."
+    },
+    {
+      "root": "ء ث ر",
+      "branch": "B009",
+      "label": "C",
+      "role": "old food residue or remnant",
+      "mechanical_discovery_refs": ["ء ث ر B009 ↔ ر ب ب B006"],
+      "activated_by": [{"root": "ب ق ي", "branch": "B002", "evidence": ["shared residue and remaining-portion themes"]}],
+      "notes": "Material residue underlay only."
+    },
+    {
+      "root": "ء ث ر",
+      "branch": "B010",
+      "label": "B",
+      "role": "term and deeds that follow a human life",
+      "activated_by": [{"root": "ح ي ي", "branch": "B001", "evidence": ["worldly life is contrasted with what follows"]}, {"root": "ء خ ر", "branch": "B004", "evidence": ["the afterlife supplies the following horizon"]}],
+      "notes": "Furūq-only in the selected Qnet layer but strongly activated by the passage's life-afterlife contrast."
+    },
+    {
+      "root": "ء ث ر",
+      "branch": "B011",
+      "label": "C",
+      "role": "skill formed by practice and learning",
+      "mechanical_discovery_refs": ["ء ث ر B011 ↔ ر ب ب B003"],
+      "activated_by": [{"root": "ر ب ب", "branch": "B003", "evidence": ["shared learning and expertise themes"]}],
+      "notes": "A weak pedagogical underlay to transmitted scripture."
+    },
+    {
+      "root": "ء ث ر",
+      "branch": "B012",
+      "label": "C",
+      "role": "protective livestock container",
+      "activated_by": [{"root": "ر ب ب", "branch": "B009", "evidence": ["shared livestock, dairy, and protection themes"]}],
+      "notes": "Material animal-husbandry candidate only."
+    },
+
+    {
+      "root": "ح ي ي",
+      "branch": "B001",
+      "label": "A",
+      "role": "worldly life contrasted with the afterlife",
+      "evidence": ["surface ٱلْحَيَوٰةَ at 87:16", "direct life-opposed-to-death branch"]
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B002",
+      "label": "C",
+      "role": "earth made alive by rain and growth",
+      "mechanical_discovery_refs": ["ح ي ي B002 ↔ ر ب ب B008", "ح ي ي B002 ↔ س م و B004"],
+      "activated_by": [{"root": "ر ب ب", "branch": "B008", "evidence": ["shared agriculture, fertility, and weather themes"]}],
+      "notes": "Ecological life is latent; the passage speaks of human worldly life."
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B003",
+      "label": "B",
+      "role": "animate embodied existence",
+      "activated_by": [{"root": "ح ي ي", "branch": "B001", "evidence": ["same-root life and mortality cluster"]}],
+      "notes": "A strong embodiment underlay to ٱلْحَيَوٰةَ, though no animal is named."
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B004",
+      "label": "C",
+      "role": "snake named from vitality",
+      "mechanical_discovery_refs": ["ح ي ي B004 ↔ ص ل و B004"],
+      "activated_by": [{"root": "ص ل و", "branch": "B004", "evidence": ["shared animal, danger, and habitat themes"]}],
+      "notes": "No reptile trigger is visible."
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B005",
+      "label": "S",
+      "role": "modesty and inward shame",
+      "notes": "No modesty, embarrassment, or shame cue appears in 87:15-19."
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B006",
+      "label": "C/B",
+      "role": "preserving life and refusing destruction",
+      "mechanical_discovery_refs": ["ح ي ي B006 ↔ ب ق ي B003"],
+      "activated_by": [{"root": "ب ق ي", "branch": "B001", "evidence": ["the afterlife is explicitly more enduring"]}],
+      "notes": "Preservation is prominent; sparing from killing is not explicit."
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B007",
+      "label": "C/B",
+      "role": "greeting or blessing that wishes life and peace",
+      "mechanical_discovery_refs": ["ح ي ي B007 ↔ ص ل و B002"],
+      "activated_by": [{"root": "ص ل و", "branch": "B002", "evidence": ["shared blessing, prayer, mercy, and ritual themes"]}],
+      "notes": "Strengthened by prayer and the merciful basmala, without an explicit greeting."
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B008",
+      "label": "S",
+      "role": "royal greeting formula",
+      "notes": "Neither greeting formula nor royal acclamation is locally visible."
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B009",
+      "label": "C/B",
+      "role": "ritual invitation to come to prayer",
+      "mechanical_discovery_refs": ["ح ي ي B009 ↔ ص ل و B003", "ح ي ي B009 ↔ ص ل و B007"],
+      "activated_by": [{"root": "ص ل و", "branch": "B003", "evidence": ["explicit prayer activates the conventional ritual-motion port"]}],
+      "notes": "Preserved as a prayer-call underlay; the imperative formula itself is absent."
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B010",
+      "label": "C/B",
+      "role": "prophetic lineage and living community",
+      "mechanical_discovery_refs": ["ح ي ي B010 ↔ ء و ل B003", "ح ي ي B010 ↔ ر ب ب B004"],
+      "activated_by": [{"root": "ء و ل", "branch": "B003", "evidence": ["Abraham and Moses evoke lineage, household, and community continuity"]}],
+      "notes": "Community is implied by named prophetic traditions, not explicitly named."
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B011",
+      "label": "C",
+      "role": "private reproductive anatomy",
+      "mechanical_discovery_refs": ["ح ي ي B011 ↔ ذ ك ر B001"],
+      "activated_by": [{"root": "ذ ك ر", "branch": "B001", "evidence": ["shared gender, reproduction, and sexuality themes"]}],
+      "notes": "Preserved as a remote body-life port."
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B012",
+      "label": "C",
+      "role": "human face and countenance",
+      "mechanical_discovery_refs": ["ح ي ي B012 ↔ د ن و B005"],
+      "activated_by": [{"root": "د ن و", "branch": "B005", "evidence": ["shared anatomy, body, and posture themes"]}],
+      "notes": "Embodiment is available, but no face is named."
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B013",
+      "label": "B",
+      "role": "life as benefit, safety, and saving good",
+      "mechanical_discovery_refs": ["ح ي ي B013 ↔ خ ي ر B001"],
+      "activated_by": [{"root": "خ ي ر", "branch": "B001", "evidence": ["the afterlife is explicitly called better"]}]
+    },
+    {
+      "root": "ح ي ي",
+      "branch": "B014",
+      "label": "C",
+      "role": "proper names derived from life",
+      "activated_by": [{"root": "س م و", "branch": "B005", "evidence": ["name language and the proper names Abraham and Moses"]}],
+      "notes": "The named prophets activate naming review, though their names are not asserted to derive from this root."
+    },
+
+    {
+      "root": "د ن و",
+      "branch": "B001",
+      "label": "B",
+      "role": "nearness and proximity of worldly life",
+      "activated_by": [{"root": "ء خ ر", "branch": "B001", "evidence": ["nearer and later form the governing contrast"]}],
+      "evidence": ["surface ٱلدُّنْيَا at 87:16"]
+    },
+    {
+      "root": "د ن و",
+      "branch": "B002",
+      "label": "A",
+      "role": "the nearer, lower worldly side",
+      "mechanical_discovery_refs": ["د ن و B002 ↔ ء و ل B001"],
+      "evidence": ["surface ٱلدُّنْيَا at 87:16", "direct dunya and lower-nearer branch", "explicit contrast with ٱلْءَاخِرَةُ"]
+    },
+    {
+      "root": "د ن و",
+      "branch": "B003",
+      "label": "B",
+      "role": "ethical lowness in preferring the nearer life",
+      "mechanical_discovery_refs": ["د ن و B003 ↔ خ ي ر B001", "د ن و B003 ↔ ذ ك ر B007"],
+      "activated_by": [{"root": "خ ي ر", "branch": "B001", "evidence": ["the passage judges the alternative as better"]}],
+      "notes": "A strong evaluative underlay, not a claim that الدنيا only means baseness."
+    },
+    {
+      "root": "د ن و",
+      "branch": "B004",
+      "label": "C",
+      "role": "nearing parturition and reproductive threshold",
+      "mechanical_discovery_refs": ["د ن و B004 ↔ ص ل و B005", "د ن و B004 ↔ ر ب ب B009"],
+      "activated_by": [{"root": "ح ي ي", "branch": "B003", "evidence": ["shared life, body, and physiology themes"]}],
+      "notes": "Preserved as a life-stage bridge only."
+    },
+    {
+      "root": "د ن و",
+      "branch": "B005",
+      "label": "C",
+      "role": "bent bodily form and internal nearness",
+      "mechanical_discovery_refs": ["د ن و B005 ↔ ص ح ف B001", "د ن و B005 ↔ ء خ ر B003"],
+      "activated_by": [{"root": "ص ح ف", "branch": "B001", "evidence": ["shared body and surface-shape themes"]}],
+      "notes": "No bodily deformity or posture is asserted."
+    },
+
+    {
+      "root": "ء خ ر",
+      "branch": "B001",
+      "label": "A",
+      "role": "that which is later and contrasted with the first or nearer",
+      "mechanical_discovery_refs": ["ء خ ر B001 ↔ د ن و B002"],
+      "evidence": ["surface ٱلْءَاخِرَةُ at 87:17", "direct later-versus-first branch"]
+    },
+    {
+      "root": "ء خ ر",
+      "branch": "B002",
+      "label": "B",
+      "role": "deferred later horizon",
+      "activated_by": [{"root": "ح ي ي", "branch": "B001", "evidence": ["worldly life precedes the afterlife in temporal sequence"]}, {"root": "ب ق ي", "branch": "B001", "evidence": ["the later horizon endures"]}]
+    },
+    {
+      "root": "ء خ ر",
+      "branch": "B003",
+      "label": "C",
+      "role": "rear or posterior spatial part",
+      "mechanical_discovery_refs": ["ء خ ر B003 ↔ ص ل و B005", "ء خ ر B003 ↔ د ن و B005"],
+      "activated_by": [{"root": "ص ل و", "branch": "B005", "evidence": ["shared posterior anatomy and orientation themes"]}],
+      "notes": "Spatial posteriority remains latent beneath temporal laterness."
+    },
+    {
+      "root": "ء خ ر",
+      "branch": "B004",
+      "label": "A",
+      "role": "the afterlife as the better and enduring abode",
+      "evidence": ["surface ٱلْءَاخِرَةُ at 87:17", "direct Furūq-only afterlife branch", "contrasted with ٱلْحَيَوٰةَ ٱلدُّنْيَا"]
+    },
+
+    {
+      "root": "خ ي ر",
+      "branch": "B001",
+      "label": "A",
+      "role": "beneficial good assigned to the afterlife",
+      "mechanical_discovery_refs": ["خ ي ر B001 ↔ ح ي ي B013"],
+      "evidence": ["surface خَيْرٌ at 87:17", "direct beneficial-good branch"]
+    },
+    {
+      "root": "خ ي ر",
+      "branch": "B002",
+      "label": "A",
+      "role": "comparative excellence and superior merit",
+      "evidence": ["ٱلْءَاخِرَةُ خَيْرٌ at 87:17", "the clause explicitly ranks the afterlife above worldly life"]
+    },
+    {
+      "root": "خ ي ر",
+      "branch": "B003",
+      "label": "B",
+      "role": "choosing and discerning the better option",
+      "mechanical_discovery_refs": ["خ ي ر B003 ↔ ء ث ر B001"],
+      "activated_by": [{"root": "ء ث ر", "branch": "B001", "evidence": ["preference makes selection between two valued alternatives explicit"]}]
+    },
+    {
+      "root": "خ ي ر",
+      "branch": "B004",
+      "label": "C",
+      "role": "wealth conventionally called good",
+      "activated_by": [{"root": "د ن و", "branch": "B002", "evidence": ["worldly preference may include material valuation"]}],
+      "notes": "No wealth is named, so this Furūq-only branch remains exploratory."
+    },
+    {
+      "root": "خ ي ر",
+      "branch": "B005",
+      "label": "C/B",
+      "role": "beneficence, generosity, and gift",
+      "mechanical_discovery_refs": ["خ ي ر B005 ↔ ر ب ب B016"],
+      "activated_by": [{"root": "ر ب ب", "branch": "B016", "evidence": ["shared benefaction, welfare, gift, and dependence themes"]}],
+      "notes": "The merciful basmala strengthens beneficence, though no gift is explicitly named."
+    },
+    {
+      "root": "خ ي ر",
+      "branch": "B006",
+      "label": "C",
+      "role": "coaxing an animal from its refuge",
+      "mechanical_discovery_refs": ["خ ي ر B006 ↔ ص ل و B004", "خ ي ر B006 ↔ س م و B006"],
+      "activated_by": [{"root": "ص ل و", "branch": "B004", "evidence": ["shared hunting, capture, habitat, and tool themes"]}],
+      "notes": "Mechanically prominent but without a local animal trigger."
+    },
+
+    {
+      "root": "ب ق ي",
+      "branch": "B001",
+      "label": "A",
+      "role": "greater persistence and endurance of the afterlife",
+      "evidence": ["surface أَبْقَىٰ at 87:17", "direct persistence and remaining branch"]
+    },
+    {
+      "root": "ب ق ي",
+      "branch": "B002",
+      "label": "B",
+      "role": "remaining portion and preserved residue",
+      "activated_by": [{"root": "ص ح ف", "branch": "B003", "evidence": ["earlier revelation remains preserved in collected sheets"]}, {"root": "ء ث ر", "branch": "B003", "evidence": ["remaining trace of what preceded"]}]
+    },
+    {
+      "root": "ب ق ي",
+      "branch": "B003",
+      "label": "C/B",
+      "role": "sparing and keeping alive",
+      "mechanical_discovery_refs": ["ب ق ي B003 ↔ ح ي ي B006"],
+      "activated_by": [{"root": "ح ي ي", "branch": "B006", "evidence": ["shared mercy, survival, and preservation themes"]}],
+      "notes": "Life-preservation is relevant, while pardon from violence is not explicit."
+    },
+    {
+      "root": "ب ق ي",
+      "branch": "B004",
+      "label": "B",
+      "role": "holding back and preserving a reserve",
+      "activated_by": [{"root": "ص ح ف", "branch": "B003", "evidence": ["earlier teaching is stored and preserved"]}, {"root": "ب ق ي", "branch": "B001", "evidence": ["same-root endurance foregrounded by أَبْقَىٰ"]}]
+    },
+    {
+      "root": "ب ق ي",
+      "branch": "B005",
+      "label": "C",
+      "role": "watching and waiting across time",
+      "mechanical_discovery_refs": ["ب ق ي B005 ↔ ر ب ب B007"],
+      "activated_by": [{"root": "ء خ ر", "branch": "B002", "evidence": ["later time provides a waiting horizon"]}],
+      "notes": "Temporality is visible; literal watching is not."
+    },
+
+    {
+      "root": "ص ح ف",
+      "branch": "B001",
+      "label": "C",
+      "role": "flat spread and breadth of a sheet",
+      "mechanical_discovery_refs": ["ص ح ف B001 ↔ ء و ل B006"],
+      "activated_by": [{"root": "ص ح ف", "branch": "B002", "evidence": ["same-root material support of written sheets"]}],
+      "notes": "Physical flatness is implied by sheets but not foregrounded."
+    },
+    {
+      "root": "ص ح ف",
+      "branch": "B002",
+      "label": "A",
+      "role": "written sheets of earlier revelation",
+      "mechanical_discovery_refs": ["ص ح ف B002 ↔ ء ث ر B002"],
+      "evidence": ["surface ٱلصُّحُفِ at 87:18 and صُحُفِ at 87:19", "direct written-sheet branch"]
+    },
+    {
+      "root": "ص ح ف",
+      "branch": "B003",
+      "label": "B",
+      "role": "collected, transmitted, and preserved scripture",
+      "mechanical_discovery_refs": ["ص ح ف B003 ↔ ء ث ر B002"],
+      "activated_by": [{"root": "ء ث ر", "branch": "B002", "evidence": ["the teaching is transmitted from earlier prophets"]}, {"root": "ب ق ي", "branch": "B001", "evidence": ["scriptural teaching endures"]}]
+    },
+    {
+      "root": "ص ح ف",
+      "branch": "B004",
+      "label": "C",
+      "role": "broad shallow dish or basin",
+      "mechanical_discovery_refs": ["ص ح ف B004 ↔ ص ل و B008"],
+      "activated_by": [{"root": "ص ل و", "branch": "B008", "evidence": ["shared domestic food and tool themes"]}],
+      "notes": "Material homonymic underlay only."
+    },
+    {
+      "root": "ص ح ف",
+      "branch": "B005",
+      "label": "C/B",
+      "role": "misreading and interpretive error in written transmission",
+      "activated_by": [{"root": "ص ح ف", "branch": "B002", "evidence": ["written sheets create the possibility of textual reading"]}, {"root": "ء و ل", "branch": "B002", "evidence": ["interpretation and final meaning activate textual accuracy"]}],
+      "notes": "A relevant transmission-risk port, not an allegation of corruption in the passage."
+    },
+
+    {
+      "root": "ء و ل",
+      "branch": "B001",
+      "label": "A",
+      "role": "firstness and precedence of the former scriptures",
+      "mechanical_discovery_refs": ["ء و ل B001 ↔ د ن و B002", "ء و ل B001 ↔ ء ث ر B001"],
+      "evidence": ["surface ٱلْأُولَىٰ at 87:18", "QAC lemma أَوَّل", "direct beginning and precedence branch"]
+    },
+    {
+      "root": "ء و ل",
+      "branch": "B002",
+      "label": "B",
+      "role": "return to outcome and interpretive meaning",
+      "activated_by": [{"root": "ء خ ر", "branch": "B004", "evidence": ["the afterlife is the ultimate outcome of the choice"]}, {"root": "ص ح ف", "branch": "B002", "evidence": ["written revelation bears interpretation and meaning"]}]
+    },
+    {
+      "root": "ء و ل",
+      "branch": "B003",
+      "label": "C/B",
+      "role": "household, lineage, and dependents of the named prophets",
+      "mechanical_discovery_refs": ["ء و ل B003 ↔ ح ي ي B010", "ء و ل B003 ↔ ر ب ب B005"],
+      "activated_by": [{"root": "ح ي ي", "branch": "B010", "evidence": ["Abraham and Moses evoke lineage and prophetic community"]}],
+      "notes": "The names are explicit; their households are implied rather than stated."
+    },
+    {
+      "root": "ء و ل",
+      "branch": "B004",
+      "label": "C/B",
+      "role": "governing and setting affairs right",
+      "activated_by": [{"root": "ر ب ب", "branch": "B001", "evidence": ["lordship activates authority, governance, and stewardship"]}],
+      "notes": "A governance underlay to divine lordship and prophetic ordering."
+    },
+    {
+      "root": "ء و ل",
+      "branch": "B005",
+      "label": "C",
+      "role": "material thickening toward a final state",
+      "mechanical_discovery_refs": ["ء و ل B005 ↔ ر ب ب B006"],
+      "activated_by": [{"root": "ر ب ب", "branch": "B006", "evidence": ["shared food, material, and texture themes"]}],
+      "notes": "Process-to-outcome imagery is latent; no liquid is present."
+    },
+    {
+      "root": "ء و ل",
+      "branch": "B006",
+      "label": "C",
+      "role": "visible outline or apparition",
+      "mechanical_discovery_refs": ["ء و ل B006 ↔ س م و B002", "ء و ل B006 ↔ ص ح ف B001"],
+      "activated_by": [{"root": "س م و", "branch": "B002", "evidence": ["shared visibility and orientation themes"]}],
+      "notes": "No apparition or landscape outline is named."
+    },
+    {
+      "root": "ء و ل",
+      "branch": "B007",
+      "label": "C",
+      "role": "state, condition, and evaluative predication",
+      "activated_by": [{"root": "خ ي ر", "branch": "B002", "evidence": ["the passage predicates superior value of one life over another"]}],
+      "notes": "A grammatical-evaluative underlay to the comparison."
+    },
+    {
+      "root": "ء و ل",
+      "branch": "B008",
+      "label": "C",
+      "role": "supporting tool, carrier, or bier",
+      "activated_by": [{"root": "ص ح ف", "branch": "B002", "evidence": ["written sheets have a material support"]}],
+      "notes": "Tool and mortuary senses are not explicitly present."
+    },
+    {
+      "root": "ء و ل",
+      "branch": "B009",
+      "label": "C",
+      "role": "mountain-dwelling ibex and refuge",
+      "activated_by": [{"root": "خ ي ر", "branch": "B006", "evidence": ["shared animal, habitat, and refuge themes"]}],
+      "notes": "Wildlife underlay only."
+    },
+    {
+      "root": "ء و ل",
+      "branch": "B010",
+      "label": "C",
+      "role": "vessel in which drink matures",
+      "mechanical_discovery_refs": ["ء و ل B010 ↔ ر ب ب B002"],
+      "activated_by": [{"root": "ب ق ي", "branch": "B004", "evidence": ["shared storage, preservation, and time themes"]}],
+      "notes": "Maturation and endurance bridge mechanically, but no vessel or drink occurs."
+    },
+    {
+      "root": "ء و ل",
+      "branch": "B011",
+      "label": "C",
+      "role": "isolated plant-name and pasture underlay",
+      "mechanical_discovery_refs": ["ء و ل B011 ↔ ص ل و B009", "ء و ل B011 ↔ ر ب ب B012"],
+      "activated_by": [{"root": "ص ل و", "branch": "B009", "evidence": ["rare shared pasture-forage theme plus botany and ecology keywords"]}],
+      "notes": "Top mechanical discovery candidate preserved for inspection, not asserted as the sense of ٱلْأُولَىٰ."
+    }
+  ],
+  "inventory_accounting": {
+    "roots": 12,
+    "branches": 105,
+    "A": 16,
+    "B": 23,
+    "C/B": 16,
+    "C": 47,
+    "S": 3,
+    "X": 0,
+    "coverage": "complete"
+  },
+  "data_issues": []
+}
