@@ -1,0 +1,116 @@
+{
+  "reader_id": "reader_e",
+  "focus_ref": "103:1",
+  "stage": 0,
+  "revealed_refs": ["103:1"],
+  "models": [
+    {
+      "model_id": "M0-extractive-time",
+      "status": "provisional",
+      "confidence": "exploratory",
+      "mechanism": "Recurring time acts as a press: succession compresses what occurs within it until latent consequences emerge as an extracted yield. The packet supplies the time, pressing, and yield images; their causal sequence is assigned, not stated.",
+      "activation_trace": [
+        {
+          "root": "ع ص ر",
+          "branch_id": "B001",
+          "literal_contribution": "age or recurring time",
+          "assigned_role": "the repeated duration in which the mechanism operates"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B002",
+          "literal_contribution": "pressing until liquid runs",
+          "assigned_role": "the pressure exerted by temporal succession"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B007",
+          "literal_contribution": "giving, yield, and extracted gain",
+          "assigned_role": "the consequences made visible by that pressure"
+        }
+      ],
+      "structural_cues": [
+        "The single definite noun العصر concentrates the utterance on one polysemous root.",
+        "The terse oath-like By-time construction supplies no second lexeme to resolve the root toward neutral duration or an activated material image."
+      ],
+      "abductive_moves": [
+        {
+          "assumption": "Temporal recurrence pressures events and thereby exposes their yield.",
+          "why_invoked": "It turns the co-present B001, B002, and B007 branches into one functional process rather than a list of senses.",
+          "causal_direction": "recurring time -> pressure -> extracted consequence; every arrow is reader-supplied",
+          "alternatives": [
+            "العصر denotes time without any pressing echo",
+            "pressing is only a lexical cousin with no role in the focus"
+          ]
+        }
+      ],
+      "changed_reading": {
+        "before": "A compact invocation of time as duration.",
+        "after": "An invocation of time as an active press that forces hidden outcomes into view."
+      },
+      "minimal_triggers": ["103:1 العصر", "ع ص ر/B001", "ع ص ر/B002", "ع ص ر/B007"],
+      "ablation": "Removing B002 collapses the active pressure mechanism; removing B007 leaves pressure without an extracted outcome, returning the reading toward generic duration."
+    },
+    {
+      "model_id": "M0-withheld-maturation",
+      "status": "provisional",
+      "confidence": "exploratory",
+      "mechanism": "Time is provisionally a holding chamber: it encloses and withholds latent life until a threshold of maturity, after which yield becomes available. The packet supplies enclosure, withholding, maturation, and yield; the ordered release cycle is abductively imposed.",
+      "activation_trace": [
+        {
+          "root": "ع ص ر",
+          "branch_id": "B001",
+          "literal_contribution": "age or recurring time",
+          "assigned_role": "the interval that contains development"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B010",
+          "literal_contribution": "grain enclosed in its husks",
+          "assigned_role": "protected latent potential inside the interval"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B006",
+          "literal_contribution": "withholding, holding back, and reclaiming",
+          "assigned_role": "the delay that prevents premature release"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B009",
+          "literal_contribution": "reaching youth or maturity",
+          "assigned_role": "the threshold at which containment has completed its work"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B007",
+          "literal_contribution": "giving, yield, and extracted gain",
+          "assigned_role": "the eventual product released from latency"
+        }
+      ],
+      "structural_cues": [
+        "One root holds opposed branch-images of withholding (B006) and giving (B007).",
+        "B010 and B009 supply state images of enclosure and attained maturity, while B001 supplies recurrence; no explicit textual sequence orders them."
+      ],
+      "abductive_moves": [
+        {
+          "assumption": "Withholding preserves potential until maturity rather than merely depriving it.",
+          "why_invoked": "This assigns a productive function to the contrast between holding back and yielding.",
+          "causal_direction": "temporal enclosure -> protective withholding -> maturity -> yield; the packet supplies the nodes and the reader supplies the arrows",
+          "alternatives": [
+            "withholding is harmful or miserly rather than protective",
+            "maturity and grain enclosure are unrelated dormant senses"
+          ]
+        }
+      ],
+      "changed_reading": {
+        "before": "Time is an undifferentiated span.",
+        "after": "Time is the interval that holds potential back until it can ripen into yield."
+      },
+      "minimal_triggers": ["103:1 العصر", "ع ص ر/B001", "ع ص ر/B006", "ع ص ر/B009", "ع ص ر/B010"],
+      "ablation": "Removing B006 destroys the withholding function; removing both B009 and B010 removes the maturation logic, leaving only a generic time-to-yield association."
+    }
+  ],
+  "surprise_reading": "At baseline, By time may invoke more than duration: time can be imagined either as a press that extracts consequences or as a chamber that withholds potential until it ripens. Both readings remain provisional because the focus contains no second root to select between them.",
+  "discarded_or_unchanged": []
+}

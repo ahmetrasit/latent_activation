@@ -1,0 +1,129 @@
+{
+  "reader_id": "reader_d",
+  "focus_ref": "103:1",
+  "stage": 1,
+  "revealed_refs": ["103:1", "103:2"],
+  "models": [
+    {
+      "model_id": "pressure_yield",
+      "status": "revised",
+      "confidence": "strong",
+      "mechanism": "Time now reads as both press and audit: recurring succession works on human life as material or capital, and what it exposes as the resulting yield is not gain but deficiency.",
+      "activation_trace": [
+        {
+          "root": "ع ص ر",
+          "branch_id": "B001",
+          "literal_contribution": "age or recurring time",
+          "assigned_role": "the repeated medium in which the audit operates"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B002",
+          "literal_contribution": "pressing until liquid runs",
+          "assigned_role": "the process that forces a latent result into manifestation"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B007",
+          "literal_contribution": "yield and extracted gain",
+          "assigned_role": "the expected positive output that خسر reverses"
+        },
+        {
+          "root": "ء ن س",
+          "branch_id": "B002",
+          "literal_contribution": "perceiving something into awareness",
+          "assigned_role": "the disclosure of a deficit that may otherwise remain unnoticed"
+        },
+        {
+          "root": "خ س ر",
+          "branch_id": "B002",
+          "literal_contribution": "trade loss or loss of capital",
+          "assigned_role": "the negative balance assigned to human life"
+        },
+        {
+          "root": "خ س ر",
+          "branch_id": "B003",
+          "literal_contribution": "shorting measure and weight",
+          "assigned_role": "progressive diminution within the temporal audit"
+        }
+      ],
+      "structural_cues": [
+        "The oath by العصر is followed by the emphatic assertion إن ... لَـ, making the loss statement its answer rather than an unrelated catalog item.",
+        "لفي places الإنسان spatially inside loss, presenting deficiency as an encompassing condition rather than a single external mishap.",
+        "ع ص ر/B007 extracted gain and خ س ر/B002 trade loss form a reversal from anticipated yield to negative return."
+      ],
+      "abductive_moves": [
+        {
+          "assumption": "The oath's temporal object helps produce or reveal the asserted loss.",
+          "why_invoked": "The oath-answer structure links time and loss but does not grammatically state a causal verb.",
+          "causal_direction": "The packet supplies العصر followed by emphatic human loss; the reader supplies time -> pressure/audit -> exposed deficit.",
+          "alternatives": ["time merely witnesses loss", "the oath and loss share importance without causation"]
+        },
+        {
+          "assumption": "Human life can function as capital or measured stock within the mechanism.",
+          "why_invoked": "It connects the extraction branch of ع ص ر to the trade and measure branches of خ س ر.",
+          "causal_direction": "The packet supplies extraction, trade loss, and short measure; the reader supplies the commercial mapping and treats loss as the press's output.",
+          "alternatives": ["general noncommercial deficiency", "a completed catastrophe rather than progressive diminution"]
+        }
+      ],
+      "changed_reading": {
+        "before": "Time was provisionally a press that made an unspecified latent yield manifest.",
+        "after": "Time is provisionally the press-audit in which humanity's apparent yield is exposed as a shrinking balance."
+      },
+      "minimal_triggers": ["103:1 العصر", "103:2 إن الإنسان لفي خسر", "ع ص ر/B002 and B007", "خ س ر/B002 and B003"],
+      "ablation": "Removing 103:2 or خ س ر removes the negative output and returns the model to generic pressure-and-yield; removing ع ص ر/B002 removes the press mechanism, while removing B007 weakens the gain-to-loss reversal."
+    },
+    {
+      "model_id": "protective_withholding",
+      "status": "weakened",
+      "confidence": "exploratory",
+      "mechanism": "The stage-0 claim that temporal restraint protects development is no longer supported. The new verse preserves only an enclosure skeleton: humanity is held inside a diminishing condition, with no revealed maturation or release.",
+      "activation_trace": [
+        {
+          "root": "ع ص ر",
+          "branch_id": "B006",
+          "literal_contribution": "withholding, holding back, and reclaiming",
+          "assigned_role": "an adverse retention or reclamation rather than protective delay"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B010",
+          "literal_contribution": "grain enclosed in its husks",
+          "assigned_role": "a weakened material analogy for the containment expressed by في"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B009",
+          "literal_contribution": "reaching youth or maturity",
+          "assigned_role": "the predicted beneficial endpoint that the new verse fails to supply"
+        },
+        {
+          "root": "خ س ر",
+          "branch_id": "B001",
+          "literal_contribution": "general deficiency or diminution",
+          "assigned_role": "the actual state inside the enclosure, contradicting its proposed protective function"
+        }
+      ],
+      "structural_cues": [
+        "The preposition في supplies real containment, but its container is خسر rather than safety or maturation.",
+        "The emphatic إن ... لفي strengthens the adverse state.",
+        "Nothing newly revealed supplies the stage-0 sequence from restraint to maturity."
+      ],
+      "abductive_moves": [
+        {
+          "assumption": "The spatial containment of في may resonate with the enclosure and withholding branches of ع ص ر.",
+          "why_invoked": "It explains why part of the earlier model survives even though its protective purpose does not.",
+          "causal_direction": "The packet supplies humanity in loss plus B006/B010; the reader supplies enclosure -> continued deficiency, replacing the earlier unsupported restraint -> preservation -> maturity arrow.",
+          "alternatives": ["في is purely idiomatic", "a later unrevealed release could restore the protective reading"]
+        }
+      ],
+      "changed_reading": {
+        "before": "Time was provisionally a bounded interval whose restraint sheltered development until maturity.",
+        "after": "The protective function is weakened: the revealed enclosure contains humanity in loss, and maturity remains dormant rather than an indicated outcome."
+      },
+      "minimal_triggers": ["103:2 لفي خسر", "ع ص ر/B006", "ع ص ر/B010", "خ س ر/B001"],
+      "ablation": "Removing 103:2, especially في or خسر, removes the contradiction and restores the stage-0 model's plausibility; removing ع ص ر/B009 also removes its unsupported maturation endpoint rather than repairing it."
+    }
+  ],
+  "surprise_reading": "The oath now makes time sound like a press-audit: humanity is already inside the process, and the yield forced into view is a diminishing balance rather than gain. The earlier idea of protective delay is correspondingly weakened."
+}

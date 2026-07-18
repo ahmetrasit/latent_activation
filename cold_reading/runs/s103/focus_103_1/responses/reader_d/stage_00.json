@@ -1,0 +1,105 @@
+{
+  "reader_id": "reader_d",
+  "focus_ref": "103:1",
+  "stage": 0,
+  "revealed_refs": ["103:1"],
+  "models": [
+    {
+      "model_id": "pressure_yield",
+      "status": "provisional",
+      "confidence": "exploratory",
+      "mechanism": "Recurring time functions as a press: succession subjects what occurs within it to constraint, making latent contents emerge as a discernible yield.",
+      "activation_trace": [
+        {
+          "root": "ع ص ر",
+          "branch_id": "B001",
+          "literal_contribution": "age or recurring time",
+          "assigned_role": "the repeated temporal medium in which the process operates"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B002",
+          "literal_contribution": "pressing until liquid runs",
+          "assigned_role": "the transformative pressure that makes hidden content manifest"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B007",
+          "literal_contribution": "giving, yield, and extracted gain",
+          "assigned_role": "the output disclosed by temporal pressure"
+        }
+      ],
+      "structural_cues": [
+        "The revealed text is only the oath phrase والعصر: wāw plus one definite noun.",
+        "No verb or result clause states how time acts, so any pressure-to-yield sequence remains latent rather than grammatical assertion.",
+        "B002 and B007 share an extraction relation within the sole revealed root."
+      ],
+      "abductive_moves": [
+        {
+          "assumption": "The oath invokes an internal operation of time, not merely neutral duration.",
+          "why_invoked": "It coheres the recurring-time, pressing, and extracted-yield branches into one functional process.",
+          "causal_direction": "The packet supplies B001, B002, and B007; the reader supplies recurring time -> pressure -> manifested yield.",
+          "alternatives": ["time as neutral duration", "late afternoon or its prayer", "yield without pressure"]
+        }
+      ],
+      "changed_reading": {
+        "before": "A bare oath: By time.",
+        "after": "Provisionally: By time as the pressure through which what is latent becomes an extracted yield."
+      },
+      "minimal_triggers": ["103:1 والعصر", "ع ص ر/B001", "ع ص ر/B002", "ع ص ر/B007"],
+      "ablation": "Removing B002 collapses the pressing mechanism; removing B007 leaves pressure without an extracted outcome; removing B001 severs both from the ordinary temporal anchor."
+    },
+    {
+      "model_id": "protective_withholding",
+      "status": "provisional",
+      "confidence": "exploratory",
+      "mechanism": "Time acts as an interval of protective restraint: it holds developing contents within bounds until they reach their proper stage, so delay can preserve rather than merely deprive.",
+      "activation_trace": [
+        {
+          "root": "ع ص ر",
+          "branch_id": "B001",
+          "literal_contribution": "age or recurring time",
+          "assigned_role": "the interval across which development occurs"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B006",
+          "literal_contribution": "withholding, holding back, and reclaiming",
+          "assigned_role": "the restraining action that prevents premature release"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B010",
+          "literal_contribution": "grain enclosed in its husks",
+          "assigned_role": "the material image of bounded preservation"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B009",
+          "literal_contribution": "reaching youth or maturity",
+          "assigned_role": "the developmental threshold toward which restraint tends"
+        }
+      ],
+      "structural_cues": [
+        "The oath names a definite temporal term but supplies no overt agent, patient, or event.",
+        "The single noun can denote an age or stage (B001), while B006, B010, and B009 supply dormant restraint, enclosure, and maturation roles under the same root.",
+        "No revealed syntax orders those roles into a sequence."
+      ],
+      "abductive_moves": [
+        {
+          "assumption": "Withholding and enclosure are temporarily protective and terminate in maturation.",
+          "why_invoked": "The packet gives the three states but does not state their purpose or temporal order.",
+          "causal_direction": "The packet supplies B006 restraint, B010 enclosure, and B009 maturity; the reader supplies restraint -> preservation -> maturity within B001 time.",
+          "alternatives": ["withholding as harmful deprivation", "enclosure without development", "maturity independent of restraint"]
+        }
+      ],
+      "changed_reading": {
+        "before": "A bare oath: By time.",
+        "after": "Provisionally: By time as a bounded interval whose restraint shelters development until its proper stage."
+      },
+      "minimal_triggers": ["103:1 والعصر", "ع ص ر/B001", "ع ص ر/B006", "ع ص ر/B010", "ع ص ر/B009"],
+      "ablation": "Removing B006 or B010 reduces the reading to generic maturation over time; removing B009 removes the endpoint that makes restraint protective rather than merely restrictive."
+    }
+  ],
+  "surprise_reading": "At baseline, العصر may name not only passing time but either a press that extracts what events contain or a protective interval that holds development back until maturity; both readings are provisional."
+}

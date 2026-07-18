@@ -1,0 +1,98 @@
+{
+  "reader_id": "reader_c",
+  "focus_ref": "103:1",
+  "stage": 0,
+  "revealed_refs": ["103:1"],
+  "models": [
+    {
+      "model_id": "temporal_press",
+      "status": "provisional",
+      "confidence": "exploratory",
+      "mechanism": "Recurring time acts like a press: duration applies constraint until latent content becomes an observable yield.",
+      "activation_trace": [
+        {
+          "root": "ع ص ر",
+          "branch_id": "B001",
+          "literal_contribution": "age or recurring time",
+          "assigned_role": "supplies the duration within which the mechanism operates"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B002",
+          "literal_contribution": "pressing until liquid runs",
+          "assigned_role": "supplies the pressure-and-extraction mechanism"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B007",
+          "literal_contribution": "giving, yield, and extracted gain",
+          "assigned_role": "supplies the result exposed by temporal pressure"
+        }
+      ],
+      "structural_cues": [
+        "The oath consists of a single definite noun, concentrating attention on the semantic range of one root.",
+        "The same root inventory contains duration, pressing, and extracted yield, allowing a process sequence: time -> pressure -> yield."
+      ],
+      "abductive_moves": [
+        {
+          "assumption": "What duration contains is tested by constraint and thereby made manifest.",
+          "why_invoked": "The text gives only the oath and the shared root branches; it does not state that time causes extraction.",
+          "causal_direction": "recurring duration -> accumulated pressure -> revealed yield",
+          "alternatives": ["time is merely the object sworn by", "pressing and yield are inactive lexical possibilities"]
+        }
+      ],
+      "changed_reading": {
+        "before": "An oath by time as neutral duration.",
+        "after": "An oath by time as an active press that forces hidden contents to disclose their yield."
+      },
+      "minimal_triggers": ["103:1 ع ص ر", "B001", "B002", "B007"],
+      "ablation": "Removing B002 collapses the causal pressure mechanism; removing B007 leaves pressure without a specified yield, and removing 103:1 removes the model entirely."
+    },
+    {
+      "model_id": "temporal_maturation",
+      "status": "provisional",
+      "confidence": "exploratory",
+      "mechanism": "Recurring time is a medium of maturation in which vulnerable life reaches a new state and becomes enclosed or protected.",
+      "activation_trace": [
+        {
+          "root": "ع ص ر",
+          "branch_id": "B001",
+          "literal_contribution": "age or recurring time",
+          "assigned_role": "supplies repeated duration as the medium of development"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B009",
+          "literal_contribution": "a girl reaching youth or menstruation",
+          "assigned_role": "supplies a living transition into maturity"
+        },
+        {
+          "root": "ع ص ر",
+          "branch_id": "B010",
+          "literal_contribution": "grain enclosed in its husks",
+          "assigned_role": "supplies enclosure as the material form of attained development"
+        }
+      ],
+      "structural_cues": [
+        "A definite temporal noun is presented without an explicit event, leaving the kind of change wrought through time open.",
+        "Within the one root, recurring time stands beside two state-change images: reaching youth and grain entering its sheath."
+      ],
+      "abductive_moves": [
+        {
+          "assumption": "The two developmental branches are parallel outcomes produced through temporal recurrence, with enclosure functioning as protection rather than confinement.",
+          "why_invoked": "Neither causation by time nor the protective value of the husk is stated in the focus phrase.",
+          "causal_direction": "recurring time -> maturation -> protective enclosure",
+          "alternatives": ["the puberty and grain branches are unrelated homonymous extensions", "enclosure signifies restriction rather than protection"]
+        }
+      ],
+      "changed_reading": {
+        "before": "An oath by elapsed time.",
+        "after": "An oath by time as the medium that ripens beings into changed and provisionally protected forms."
+      },
+      "minimal_triggers": ["103:1 ع ص ر", "B001", "B009", "B010"],
+      "ablation": "Removing either B009 or B010 destroys the cross-domain maturation analogy; removing B001 makes it a static pair of images rather than a temporal mechanism."
+    }
+  ],
+  "surprise_reading": "At baseline, the oath can tentatively present time not as empty duration but as an active medium: it either presses hidden contents into yield or ripens vulnerable life into a newly enclosed form.",
+  "discarded_or_unchanged": []
+}
