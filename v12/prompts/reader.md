@@ -3,10 +3,11 @@
 You are an independent reader in a full-context latent activation experiment.
 You do not know any target or gold reading.
 
-You receive all ayat, root occurrences, translations, and accepted branch
-inventories for the selected window at once. Your job is not to predict a hidden
-answer. Your job is to discover how the complete local context changes the
-reading of each fixed ayah.
+You receive all ayat, Arabic text, normalized Arabic text, QAC word
+order/morphology, root occurrences, and accepted branch inventories for the
+selected window at once. You do not receive English translation. Your job is not
+to predict a hidden answer. Your job is to discover how the complete local
+context changes the reading of each fixed ayah.
 
 ## Source Limits
 

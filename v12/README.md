@@ -31,10 +31,9 @@ collapse them into a single interpretation.
 
 - The reader may inspect only the v12 prompt and the assigned full-context
   packet.
-- The packet contains raw Quran text, QAC root data, English translation, and
-  accepted, non-contaminated branch inventories from the Furuq v4 database.
-  If a translation is absent from the translation resource, the packet keeps an
-  empty string instead of failing.
+- The packet contains raw Quran text, normalized Arabic text, QAC word
+  order/morphology, and accepted, non-contaminated branch inventories from the
+  Furuq v4 database. It does not include English translation.
 - If the branch database has more than one accepted row for the same root and
   `branch_id`, the builder emits one branch entry for that ID and preserves the
   source rows under `variants`; the scalar image/scope fields are combined for

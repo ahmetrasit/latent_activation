@@ -39,15 +39,27 @@ The packet must include:
 
 - ordered ayat in the selected window;
 - Arabic text and normalized Arabic text;
-- English translation;
 - QAC root occurrences;
 - accepted, non-contaminated branch inventories;
 - explicit `missing_branch_inventories` records for roots without accepted,
   non-contaminated branch data;
 - source resource hashes.
 
-Missing translations are represented as empty strings. Missing branch
-inventories are represented explicitly and must not be filled in by the reader.
+The packet must not include English translation. Primary and secondary readings
+must be derived from Arabic text, QAC word order/morphology, and branch
+inventories. Translation can be used only outside this cold-reading packet as a
+human convenience layer, not as reader evidence.
+
+For `--surah N` builds, the first packet ayah must be `{N}:0`, a synthetic
+basmalah entry, except for S9. S9 is the only surah-level exception and starts
+at `9:1`. The synthetic basmalah uses the Arabic text, normalized Arabic text,
+QAC word order, root occurrences, surfaces, lemmas, and POS tags from the
+canonical basmalah resource entry, and records that source in packet provenance.
+Then the packet continues with the surah's ordinary ayat. For S1, the source
+basmalah is moved to `1:0` so it is not duplicated as both `1:0` and `1:1`.
+
+Missing branch inventories are represented explicitly and must not be filled in
+by the reader.
 When the branch resource reuses a `branch_id` for multiple accepted rows of the
 same root, the packet must not emit duplicate branch IDs. It should merge those
 rows into one branch entry, keep combined scalar image/scope fields, and preserve
@@ -79,7 +91,7 @@ The Turkish prose must be written to a separate Markdown file in the same run
 directory, for example:
 
 ```text
-v12/runs/s103/full_context_control/103-1-3-butuncul-okuma.md
+v12/runs/s103/full_context_control/103-0-3-butuncul-okuma.md
 ```
 
 Do not append Turkish prose to the analytical ayah-walk file.
@@ -126,7 +138,7 @@ python3 v12/scripts/freeze_full_context_run.py \
 ```
 
 Then send the Turkish prose follow-up to the same reader agent and ask it to
-write the separate `100-1-11-butuncul-okuma.md` file in the same run directory.
+write the separate `100-0-11-butuncul-okuma.md` file in the same run directory.
 
 ## Adjudication
 

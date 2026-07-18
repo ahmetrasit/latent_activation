@@ -14,7 +14,6 @@ AYAH_KEYS = {
     "ref",
     "text_ar",
     "text_norm_ar",
-    "translation_en",
     "root_sequence",
     "root_occurrences",
 }
@@ -64,8 +63,6 @@ def main() -> None:
         raise ValueError("ayah_count does not match window")
     for index, ayah in enumerate(ayat):
         require_keys(ayah, AYAH_KEYS, f"ayat[{index}]")
-        if not isinstance(ayah["translation_en"], str):
-            raise ValueError(f"ayat[{index}].translation_en must be a string")
         if not isinstance(ayah["root_occurrences"], list) or not ayah["root_occurrences"]:
             raise ValueError(f"ayat[{index}].root_occurrences must be a non-empty list")
         for occurrence_index, occurrence in enumerate(ayah["root_occurrences"]):

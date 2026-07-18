@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import copy
 import gzip
 import json
 import shutil
@@ -16,13 +17,15 @@ from typing import Any, Iterable
 from build_packets import (
     DEFAULT_BRANCH_DB,
     DEFAULT_QAC,
-    DEFAULT_TRANSLATIONS,
     REPO_ROOT,
     load_ayat,
     ordered_unique,
     parse_refs,
     sha256,
 )
+
+BASMALAH_TEMPLATE_REF = "1:1"
+BASMALAH_EXCLUDED_SURAHS = {9}
 
 
 def parse_surah(raw: str) -> int:
@@ -42,7 +45,16 @@ def refs_for_surah(qac_path: Path, surah: int) -> list[str]:
                 refs.add(ref)
     if not refs:
         raise ValueError(f"no ayat found for surah {surah}")
-    return sorted(refs, key=lambda ref: int(ref.split(":", 1)[1]))
+    ordered_refs = sorted(refs, key=lambda ref: int(ref.split(":", 1)[1]))
+    if surah in BASMALAH_EXCLUDED_SURAHS:
+        return ordered_refs
+    if surah == 1 and ordered_refs:
+        return ["1:0", *ordered_refs[1:]]
+    return [f"{surah}:0", *ordered_refs]
+
+
+def is_basmalah_ref(ref: str) -> bool:
+    return ref.split(":", 1)[1] == "0"
 
 
 def first_seen_roots(ayat: Iterable[dict]) -> list[str]:
@@ -140,6 +152,16 @@ def root_refs(ayat: Iterable[dict[str, Any]]) -> dict[str, list[str]]:
     return refs
 
 
+def make_basmalah_ayah(
+    template: dict[str, Any],
+    target_ref: str,
+) -> dict[str, Any]:
+    ayah = copy.deepcopy(template)
+    ayah["ref"] = target_ref
+    ayah["synthetic_source_ref"] = BASMALAH_TEMPLATE_REF
+    return ayah
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     source = parser.add_mutually_exclusive_group(required=True)
@@ -148,7 +170,6 @@ def main() -> None:
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--qac", type=Path, default=DEFAULT_QAC)
     parser.add_argument("--branches", type=Path, default=DEFAULT_BRANCH_DB)
-    parser.add_argument("--translations", type=Path, default=DEFAULT_TRANSLATIONS)
     parser.add_argument(
         "--strict-branches",
         action="store_true",
@@ -156,17 +177,23 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    paths = [args.qac, args.branches, args.translations]
+    paths = [args.qac, args.branches]
     for path in paths:
         if not path.is_file():
             parser.error(f"resource not found: {path}")
 
     window = refs_for_surah(args.qac, args.surah) if args.surah else args.window
-    ayat_by_ref = load_ayat(args.qac, set(window))
-    with args.translations.open(encoding="utf-8") as handle:
-        translations = json.load(handle)
-    for ref in window:
-        ayat_by_ref[ref]["translation_en"] = translations.get(ref, "")
+    basmalah_refs = [ref for ref in window if is_basmalah_ref(ref)]
+    real_refs = [ref for ref in window if not is_basmalah_ref(ref)]
+    load_refs = set(real_refs)
+    if basmalah_refs:
+        load_refs.add(BASMALAH_TEMPLATE_REF)
+    ayat_by_ref = load_ayat(args.qac, load_refs)
+    for ref in basmalah_refs:
+        ayat_by_ref[ref] = make_basmalah_ayah(
+            ayat_by_ref[BASMALAH_TEMPLATE_REF],
+            ref,
+        )
 
     ayat = [ayat_by_ref[ref] for ref in window]
     roots = first_seen_roots(ayat)
@@ -203,6 +230,14 @@ def main() -> None:
                 "origin_corpus": ["furuq", "quranic"],
             },
             "resource_sha256": resource_hashes,
+            "synthetic_ayat": [
+                {
+                    "ref": ref,
+                    "kind": "basmalah",
+                    "source_ref": BASMALAH_TEMPLATE_REF,
+                }
+                for ref in basmalah_refs
+            ],
         },
     }
 
