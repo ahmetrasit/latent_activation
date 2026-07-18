@@ -1,0 +1,111 @@
+# S109 v12 full-context ayah walk
+
+## 109:0 — بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+
+### Activated readings
+
+1. **Speech is placed under a raised designation before it becomes dispute.** The fixed ayah supplies س م و B005, "name as raised designation," and ء ل ه B002, "Allah as a fixed name in oath and invocation formulas." The activator is the immediate command قُلْ in 109:1, where ق و ل B001 makes the next movement an uttered public act. Mechanism: the basmalah is not only an opening piety but the naming frame that elevates and authorizes the speech-act that follows. The abductive move is mine: the packet gives name + command; I supply the arrow that the named invocation governs the commanded saying. Reading change: the surah's later refusal is read less as private polemic and more as speech issued under a prior, elevated divine designation.
+
+2. **Mercy frames separation without dissolving separation.** The fixed ayah repeats ر ح م through الرَّحْمَٰن and الرَّحِيم, primarily activating ر ح م B001, "mercy and tenderness." The contextual activator is the repeated لَا in 109:2-5 and the final pronominal split لَكُمْ / وَلِىَ in 109:6. Mechanism: tenderness does not produce merger; it creates a non-coercive boundary in which two addressees are separated without a scene of retaliation. The abductive move is mine: the packet gives mercy-terms and later negated reciprocity; I infer that mercy can regulate the manner of refusal. Reading change: the basmalah becomes the affective condition of the whole declaration, making the later boundary sound controlled rather than vindictive.
+
+3. **A kinship/womb shadow makes the later rupture feel like a refusal of ritual mixture, not a denial of common creatureliness.** The repeated ر ح م also keeps B002 "kinship bond" and B003 "womb" dormant but available. The activators are the second-person plural address in 109:1 and repeated opposed pronouns in 109:2-6. Mechanism: a common address community is present, yet the later worship/dīn lines refuse shared ritual lineage. The abductive move is mine: the packet gives kinship/womb branches and pronoun separation; I infer a contrast between bodily/social relatedness and ritual non-interchangeability. Reading change: the opening mercy does not erase the addressees; it makes the later "your/my" boundary sharper because it is drawn inside a world where relation still exists.
+
+### Retrospective surprises
+
+The later ayat made the basmalah more active than I first expected. 109:6 especially changed the opening mercy from a generic blessing into the manner of separation: the final لَكُمْ / وَلِىَ boundary is firm, but because it sits under ر ح م B001 it does not need to become coercion. 109:4 also retroactively strengthened the kinship/womb shadow, because عَبَدتُّمْ makes the other side's worship look historically inhabited; the opening ر ح م B002/B003 then marks relation and origin as real but insufficient to create ritual interchangeability. The command قُلْ in 109:1 made س م و B005 and ء ل ه B002 feel less decorative: the whole speech is launched under a named authority.
+
+## 109:1 — قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ
+
+### Activated readings
+
+1. **The address exposes a covering before it judges a group.** The fixed ayah supplies ك ف ر B001, "covering and concealment," and B003, "covering or rejecting truth." The later activators are the repeated objects of worship in 109:2-5 and the final دِين split in 109:6. Mechanism: the addressees are not merely named by a social label; the address makes visible the covering relation that the later worship clauses will unfold. The abductive move is mine: the packet gives the covering/rejecting branches and later incompatible worship/dīn; I supply the arrow from hidden covering to public address. Reading change: "ٱلْكَٰفِرُونَ" reads as diagnostic exposure of a concealed/rejected truth, not only as a fixed category.
+
+2. **The command "say" turns the boundary into public record.** The fixed ayah supplies ق و ل B001, "uttered speech," and B007, "circulating talk or public report." The activator is the exact repetition of denial in 109:2-5, which gives the utterance a formulaic, recitable profile. Mechanism: a spoken declaration becomes something that can circulate as a public report of non-participation. The abductive move is mine: the packet gives utterance and repeated clauses; I infer public-record force from their formulaic shape. Reading change: قُلْ is not a neutral instruction to pronounce words; it launches a publicly repeatable boundary statement.
+
+3. **The ayah refuses negotiated exchange.** The fixed root ق و ل also has B009, "mutual verbal negotiation," while ك ف ر has B005, "disavowal." The activator is the lack of any imperative or request after 109:1; instead, the surah proceeds through four negated worship clauses and then allotment in 109:6. Mechanism: the command to speak occupies the place where bargaining might have occurred, but the speech itself disavows exchange. The abductive move is mine: the packet gives a negotiation branch and disavowal branch; I infer that repeated negation blocks the negotiation pathway. Reading change: the address becomes a controlled non-negotiation, not an invitation to doctrinal compromise.
+
+4. **Ascription is present but bounded by direct address.** ك ف ر B006, "ascription of unbelief," is activated by the vocative form يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ. The later activator is 109:6, where each side is assigned its own دِين rather than the speaker absorbing the other side's account. Mechanism: the ayah performs naming/ascription, yet the direct address keeps the named party present as an interlocutor rather than turning them into an absent object. The abductive move is mine: the packet gives ascription and final allocation; I infer a bounded naming act rather than unlimited condemnation. Reading change: the vocative becomes a precise speech-act of designation inside a larger separation protocol.
+
+### Retrospective surprises
+
+The biggest later surprise was that 109:2-5 make "ٱلْكَٰفِرُونَ" less static, not more. Because the following lines repeatedly specify non-overlapping worship-relations, ك ف ر B003 becomes a diagnosis unfolded by syntax rather than a bare label. 109:6 then restrains ك ف ر B006 ascription: the address names the addressees, but the final dīn allotment leaves each side with its own account rather than continuing accusation. The four negations also confirmed the non-negotiation reading from ق و ل B009; after قُلْ there is no bargaining sequence, only boundary speech.
+
+## 109:2 — لَآ أَعْبُدُ مَا تَعْبُدُونَ
+
+### Activated readings
+
+1. **Present refusal of submissive worship.** The fixed ayah supplies ع ب د B003, "worship and submissive obedience," twice, once in the first-person verb أَعْبُدُ and once in the second-person verb تَعْبُدُونَ. The activators are the prior address "ٱلْكَٰفِرُونَ" in 109:1 and the later دِين in 109:6. Mechanism: the first negation marks the speaker's worship-act as non-overlapping with the addressees' worship-act. The abductive move is mine: the packet gives two matched verbs and later religious allotment; I infer that the shared root highlights incompatible objects rather than shared practice. Reading change: the line reads not as "I do not worship in general" but as a first boundary around a specific obedience relation.
+
+2. **The speaker refuses to enter a subjugating system.** ع ب د B004, "making someone a slave," is activated by the second-person plural act تَعْبُدُونَ and by د ي ن B004 in 109:6, "subjugation and possession." Mechanism: what the addressees worship is read as a regime that can enslave or reduce the participant, not only as an object of ritual attention. The abductive move is mine: the packet gives slavery/subjugation branches in ع ب د and د ي ن; I infer that worship can create a social-legal relation of capture. Reading change: لَا أَعْبُدُ becomes refusal of capture into another order of ownership.
+
+3. **The ayah rejects a paved/trodden path.** ع ب د B005, "physical subduing and smoothing," is activated by the repeated identical worship-root across 109:2-5 and the final د ي ن B005, "habit and customary state." Mechanism: the addressees' worship is a route already made smooth by repeated habit; the speaker's negation refuses to tread that passable path. The abductive move is mine: the packet gives "smoothed road" and "custom" branches; I infer path-dependence from repetition and habit. Reading change: the ayah becomes spatial and practical, a refusal to walk an already worn ritual road.
+
+4. **Affective aversion is possible but secondary.** ع ب د B008, "prideful aversion and anger," is activated by the blunt initial لَا and by the direct address of 109:1. Mechanism: the negation carries an emotional edge of offended refusal, but the surrounding formulaic repetition restrains it into declaration rather than outburst. The abductive move is mine: the packet gives the aversion branch and repeated negation; I infer affect from sharp syntax while limiting it by structure. Reading change: the refusal can sound morally/affectively resistant, not merely propositional.
+
+### Retrospective surprises
+
+The later noun forms in 109:3 and 109:5 corrected the first reading of 109:2. This ayah is primarily about present action, because both worship occurrences are verbs; the following participles show that role/identity will be handled separately. 109:4 made ع ب د B005 stronger in retrospect, since عَبَدتُّمْ introduced prior practice and allowed the "smoothed path" image to become historical habit rather than mere metaphor. 109:6 activated the legal/social side of ع ب د B004 by pairing worship with د ي ن B004, so the initial refusal also reads as refusal of capture into another possession-order.
+
+## 109:3 — وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ
+
+### Activated readings
+
+1. **The noun form shifts the problem from act to role.** The fixed ayah supplies ع ب د B003, "worship and submissive obedience," with عَٰبِدُونَ as a plural active participle and أَعْبُدُ as a first-person verb. The activator is 109:2, where both sides appeared as verbs. Mechanism: after the speaker denies doing their worship, this ayah denies their being the kind of worshippers oriented toward what he worships. The abductive move is mine: the packet gives the form shift from verbs to noun+verb; I infer role-stability from the participle. Reading change: the ayah is not a simple mirror of 109:2; it says the addressees lack a worshipper-identity relative to the speaker's object.
+
+2. **Honor/service is asymmetrical.** ع ب د B006, "honoring and magnifying," is activated by the object phrase مَا أَعْبُدُ and by the basmalah's ء ل ه B001/B002 divine object of worship/name. Mechanism: the issue is not only who performs rituals but who magnifies and serves what is worthy of service. The abductive move is mine: the packet gives worship/honor branches and the opening divine name; I infer that the object of the speaker's worship carries an honor-standard the addressees do not share. Reading change: "you are not worshippers of what I worship" becomes "you do not occupy the honoring-service relation that my worship requires."
+
+3. **The repeated plural resists scattering into exceptions.** ع ب د B010, "scattering in different directions," is activated negatively by the compact plural أَنتُمْ عَٰبِدُونَ and by the later exact repetition of the same ayah in 109:5. Mechanism: the grammar gathers the addressees into one addressed party even though the branch inventory allows scattered groups/routes; the repeated line prevents imagining partial overlap or dispersed exceptions inside the packet. The abductive move is mine: the packet gives a scattering branch and repeated plural structure; I infer that repetition blocks dispersal. Reading change: the ayah reads as a group-level relational denial, not a case-by-case census.
+
+### Retrospective surprises
+
+109:5 was the decisive surprise for this ayah: its exact repetition of 109:3 made the first occurrence provisional, as though 109:3 opens a role-denial that must be reaffirmed after the speaker's own identity is protected in 109:4. That structure strengthened the reading-change from action to role. 109:6 also made the participle عَٰبِدُونَ feel preparatory for دِينُكُمْ: the addressees' non-participation in the speaker's worship is what allows a separate dīn to be assigned to them. The scattering branch ع ب د B010 remained secondary, but repetition made its negative role clearer.
+
+## 109:4 — وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ
+
+### Activated readings
+
+1. **The speaker's own identity is denied with respect to their past practice.** The fixed ayah supplies ع ب د B003 in عَابِدٌ and عَبَدتُّمْ. The activators are the prior first-person verb in 109:2 and the second-person participle in 109:3. Mechanism: the sequence moves from "I do not do what you do" to "I am not a worshipper of what you have done/worshipped." The abductive move is mine: the packet gives the form change and the past-tense second-person verb; I infer that past practice is being excluded from the speaker's self-description. Reading change: the ayah deepens the refusal from present action to identity across inherited or prior worship.
+
+2. **The speaker refuses a smoothed inheritance-path.** ع ب د B005, "physical subduing and smoothing," is activated by عَبَدتُّمْ as a completed second-person practice and by د ي ن B005 "habit and customary state" in 109:6. Mechanism: what "you worshipped" appears as a path already made passable by prior use; the speaker's عَابِدٌ denies becoming a traveler on that already-smoothed road. The abductive move is mine: the packet gives past practice and the path/habit branches; I infer inheritance/path from the completed second-person action. Reading change: the ayah is not merely about an object but about refusing the authority of precedent.
+
+3. **No reversal into service or enslavement.** ع ب د B004, "making someone a slave," is activated by the alternation of pronouns: أَنَا against the second-person plural suffix in عَبَدتُّمْ. Mechanism: the speaker will not be reclassified as a servant/slave of the addressees' worship-system. The abductive move is mine: the packet gives enslavement under the worship root and pronoun opposition; I infer the danger of role-capture from entering the other side's object-relation. Reading change: عَابِدٌ becomes a status term the speaker refuses, not merely an action-term.
+
+4. **The central ayah prevents a purely symmetric reading.** ع ب د B009, "brief delay and slight haste," is only weakly activated by the temporal contrast between present participle عَابِدٌ and past عَبَدتُّمْ. Mechanism: the line looks backward and interrupts the 109:3/109:5 repetition, creating a temporal hinge. The abductive move is mine and exploratory: the packet gives a branch about short delay/non-delay, while the ayah supplies tense contrast; I infer that temporal non-coincidence matters even if the specific branch is not the main reading. Reading change: the ayah becomes a hinge between present non-overlap and prior practice, not just one more negation.
+
+### Retrospective surprises
+
+Revisiting the whole packet made 109:4 the hinge of the surah. 109:3 and 109:5 are identical around it, so this central line is not another parallel denial; it interrupts the repetition with أَنَا and the past عَبَدتُّمْ. That made the "past practice / inherited path" reading much stronger. 109:6 then changed the past-tense object into an account-bearing order: what they worshipped is not simply past behavior but part of the dīn that remains "for you." The basmalah's mercy also softened the central refusal: the speaker refuses identity-transfer without needing to erase the addressees.
+
+## 109:5 — وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ
+
+### Activated readings
+
+1. **Exact repetition turns relational denial into closure.** The fixed ayah again supplies ع ب د B003 through عَٰبِدُونَ and أَعْبُدُ. The structural activator is its exact match with 109:3 after the intervening 109:4. Mechanism: the repeated line closes the loop: even after the speaker's own identity has been protected from their past practice, the addressees remain non-participants in the speaker's worship-relation. The abductive move is mine: the packet gives exact repetition; I infer closure from return-after-interruption. Reading change: 109:5 reads as sealing, not redundancy.
+
+2. **The addressees are not servants in the speaker's honoring order.** ع ب د B006, "honoring and magnifying," is activated by the same مَا أَعْبُدُ object and by the basmalah's named divine frame. Mechanism: the repeated plural participle denies not only ritual performance but a service/honor orientation. The abductive move is mine: the packet gives honor/service and repeated object orientation; I infer that repetition confirms a stable honor mismatch. Reading change: the ayah says that the speaker's object of worship is not merely unchosen by them but not honored by them in the required mode.
+
+3. **Resistance to scattering becomes stronger after repetition.** ع ب د B010, "scattering in different directions," is activated by the plural and by the copied 109:3 structure. Mechanism: the exact repetition gathers possible scattered divergences into one formal statement; individual variations do not matter for the packet's declared boundary. The abductive move is mine: the packet gives the scattering branch; I infer that duplicated syntax suppresses dispersion. Reading change: 109:5 reads as a second clamp on the group-level boundary.
+
+4. **The ayah prepares the final legal/accounting allotment.** ع ب د B001, "slavery and owned status," and B004, "making someone a slave," are activated by د ي ن B004 in 109:6. Mechanism: by denying that the addressees are worshippers of what the speaker worships, the ayah prevents their being counted as belonging to the speaker's obedience/order. The abductive move is mine: the packet gives servile status under ع ب د and subjugation/possession under د ي ن; I infer that final allotment depends on non-ownership/non-belonging. Reading change: the repeated denial becomes preparatory sorting for لَكُمْ دِينُكُمْ وَلِىَ دِينِ.
+
+### Retrospective surprises
+
+The final ayah, when reread backward, made 109:5 feel immediately transitional. At first it could look like duplication of 109:3, but 109:6 shows why it returns: the repeated denial is the last sorting act before dīn is distributed by pronoun. The intervening 109:4 also made the repetition non-redundant, because the addressees' role-denial is restated after the speaker has refused relation to their past worship. This strengthened ع ب د B001/B004 as status-protection: no party is counted as belonging to the other's worship-order.
+
+## 109:6 — لَكُمْ دِينُكُمْ وَلِىَ دِينِ
+
+### Activated readings
+
+1. **Distinct religion/obedience orders are allotted to distinct pronouns.** The fixed ayah supplies د ي ن B001, "obedience and submission," twice in دِينُكُمْ and دِينِ. The activators are the repeated ع ب د B003 worship denials in 109:2-5. Mechanism: worship-relations crystallize into two dīn-relations, each attached to its own pronoun. The abductive move is mine: the packet gives repeated worship and final dīn nouns; I infer that dīn names the broader order generated by worship. Reading change: the final ayah is not a vague pluralism formula; it is the grammatical allotment of incompatible obedience systems.
+
+2. **The final line has an accounting/judgment shadow.** د ي ن B002, "reckoning and recompense," is activated by the balanced possessive construction لَكُمْ / وَلِىَ and by the public قُلْ of 109:1. Mechanism: each side's dīn is not only its path but its account; the declaration leaves the reckoning attached to the proper party. The abductive move is mine: the packet gives judgment/recompense and possessive allotment; I infer responsibility from possession. Reading change: "your dīn / my dīn" reads as separation of accountability, not merely separation of preference.
+
+3. **Debt/credit imagery makes the boundary non-transferable.** د ي ن B003, "debt and credit," is activated by the possessive suffixes كُمْ and the first-person دِينِ. Mechanism: each party carries its own liability/credit account; worship cannot be exchanged or paid across the boundary. The abductive move is mine: the packet gives debt/credit and pronoun possession; I infer non-transferability from the account metaphor. Reading change: the ayah becomes a ledger-like settlement after the preceding denials.
+
+4. **No coercive subjugation remains after the refusal.** د ي ن B004, "subjugation and possession," is activated by ع ب د B001/B004 in 109:2-5. Mechanism: the final allocation prevents either side from enslaving or owning the other's worship-relation inside this speech-act. The abductive move is mine: the packet gives subjugation/possession and worship-as-servitude branches; I infer that separation blocks coercive absorption. Reading change: the final ayah reads as a boundary against religious capture, not as indifference.
+
+5. **The line also leaves each side to its own conscience.** د ي ن B007, "crediting and leaving to conscience," is activated by the absence of further argument after the final allotment. Mechanism: once the repeated worship denials have done their work, the speech stops and leaves the addressees with their dīn. The abductive move is mine: the packet gives "leaving to religious responsibility"; I infer that the terminal position of the ayah performs that leaving. Reading change: the ending is a deliberate release from debate, not a failure to continue persuading.
+
+### Retrospective surprises
+
+The earlier ayat kept widening دِين beyond "religion" in a narrow sense. The repeated ع ب د clauses activated د ي ن B001 as a whole obedience order, while the ascriptive/public قُلْ in 109:1 activated Ø¯ ي ن B002 as accountability before a declared record. The strongest surprise was Ø¯ Ù ن B007: after so much repetition, the abrupt stop felt like a mechanism, not an omission; the speech leaves the parties to their own religious responsibility. The basmalah also retrospectively matters here, because Ø± Ø­ Ù B001 makes that release a mercy-shaped boundary rather than abandonment.
