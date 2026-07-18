@@ -139,6 +139,7 @@ Manual Qnet entries created during v11 orchestration:
 | QAC/Furūq root | Qnet root_id | Source Qnet root | Reason | Mapping |
 | --- | --- | --- | --- | --- |
 | `ط م ن` | `root_003669` | `root_000948` (`ط م ء ن`) | S89 had Furūq branches but zero Qnet nodes for the QAC/Furūq root; Qnet contained the same semantic root under hamzated key `طمءن`. | `B001` calm/stability copied from `root_000948:B001`; `B002` low-ground/topography split from `root_000948:B002`; `B003` posture/bending split from `root_000948:B002`. |
+| `ن و س` | `root_004965` | manual from Furūq v4 | S99/S101 had Furūq branches but zero Qnet nodes for the QAC/Furūq root; Qnet had no same-root key variant. | `B001` swaying/dangling oscillation mapped to motion/change/instability themes; `B002` camel-driving mapped to animal/livestock/husbandry/motion/control themes; `B003` disputed origin of `الناس` mapped to identity/social/community/proof-uncertainty themes. |
 
 ## Outputs
 
@@ -148,6 +149,7 @@ Manual Qnet entries created during v11 orchestration:
 01-passage.json
 02-branches.json
 03-candidate-bridges.json
+03-candidate-bridges.agent.json
 04-agent-activation-packet.md
 08-graph.json
 10-discovery-ranking.json
@@ -165,6 +167,10 @@ The numbered gap is reserved for agent-produced files:
 07-secondary-expansion.json
 09-final-report.md
 ```
+
+`03-candidate-bridges.json` is the full recall-first candidate reservoir. It can be large.
+
+`03-candidate-bridges.agent.json` is the bounded agent-facing queue derived from `10-discovery-ranking.json`. It exists to keep agent input loadable; it does not prune or replace the full reservoir. Agents read the compact file by default and consult the full reservoir only for targeted verification.
 
 `10-discovery-ranking.json` does not prune. It ranks candidates by likely surprise value:
 

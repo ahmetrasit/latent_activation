@@ -75,6 +75,7 @@ MECHANICAL_OUTPUTS = [
     "01-passage.json",
     "02-branches.json",
     "03-candidate-bridges.json",
+    "03-candidate-bridges.agent.json",
     "04-agent-activation-packet.md",
     "08-graph.json",
     "10-discovery-ranking.json",
@@ -195,6 +196,7 @@ def stage_success_outputs(
     passage: dict[str, Any],
     branches: dict[str, Any],
     bridges: dict[str, Any],
+    agent_bridges: dict[str, Any],
     graph: dict[str, Any],
     discovery: dict[str, Any],
     audit_payload: dict[str, Any],
@@ -209,12 +211,13 @@ def stage_success_outputs(
     write_json(staging_dir / "01-passage.json", passage)
     write_json(staging_dir / "02-branches.json", branches)
     write_json(staging_dir / "03-candidate-bridges.json", bridges)
+    write_json(staging_dir / "03-candidate-bridges.agent.json", agent_bridges)
     write_agent_packet(
         staging_dir / "04-agent-activation-packet.md",
         surah_text,
         passage,
         branches,
-        bridges,
+        agent_bridges,
         top_n,
     )
     write_json(staging_dir / "08-graph.json", graph)
@@ -316,6 +319,67 @@ def bridge_summary(bridges: dict[str, Any]) -> dict[str, Any]:
             {"evidence_profile": list(profile), "count": count}
             for profile, count in profile_counts.most_common()
         ],
+    }
+
+
+def build_agent_bridge_subset(
+    bridges: dict[str, Any],
+    discovery: dict[str, Any],
+    top_n: int,
+) -> dict[str, Any]:
+    """Build a bounded, agent-facing bridge queue from the full reservoir.
+
+    The full candidate reservoir remains in 03-candidate-bridges.json. This
+    file exists only to keep agent input packages loadable while preserving the
+    top mechanically ranked candidates and branch lookups used by prompts.
+    """
+    def candidate_identity(item: dict[str, Any]) -> tuple[Any, ...]:
+        return (
+            item.get("source_branch_key"),
+            item.get("target_branch_key"),
+            tuple(item.get("shared_themes", [])),
+            tuple(item.get("shared_keywords", [])),
+            tuple(rel.get("surah_relation_id") or "" for rel in item.get("q2_relations", [])),
+        )
+
+    full_by_key = {
+        candidate_identity(item): item
+        for item in bridges.get("candidates", [])
+    }
+    subset: list[dict[str, Any]] = []
+    seen: set[tuple[Any, ...]] = set()
+    for item in discovery.get("top_candidate_bridges", []):
+        key = candidate_identity(item)
+        if key in seen:
+            continue
+        candidate = full_by_key.get(key)
+        if candidate:
+            subset.append(candidate)
+            seen.add(key)
+        if len(subset) >= top_n:
+            break
+
+    by_branch: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for cand in subset:
+        by_branch[cand["source_branch_key"]].append(cand)
+        by_branch[cand["target_branch_key"]].append(cand)
+
+    return {
+        "schema": "v11.candidate_bridges_agent_subset.v1",
+        "activation_bias": bridges.get("activation_bias", "recall_first"),
+        "subset_semantics": (
+            "Agent-facing bounded queue derived from 10-discovery-ranking.json; "
+            "full reservoir remains in 03-candidate-bridges.json."
+        ),
+        "full_candidate_count": bridges.get("candidate_count", 0),
+        "candidate_count": len(subset),
+        "selection": {
+            "source": "10-discovery-ranking.json top_candidate_bridges",
+            "top_n": top_n,
+            "does_not_prune_full_reservoir": True,
+        },
+        "candidates": subset,
+        "by_branch": dict(by_branch),
     }
 
 
@@ -1598,6 +1662,7 @@ def main() -> None:
             print(f"wrote dense-gate package {out_dir}")
             return
         discovery = build_discovery_ranking(passage, branches, bridges, ns.top_n)
+        agent_bridges = build_agent_bridge_subset(bridges, discovery, ns.top_n)
         graph = build_graph(passage, bridges)
         validate_mechanical_outputs(passage, branches, bridges, graph)
 
@@ -1607,6 +1672,7 @@ def main() -> None:
             passage,
             branches,
             bridges,
+            agent_bridges,
             graph,
             discovery,
             audit_payload,

@@ -10,12 +10,14 @@ Input files:
 00-surah-text.json
 01-passage.json
 02-branches.json
-03-candidate-bridges.json
+03-candidate-bridges.agent.json
 04-agent-activation-packet.md
 10-discovery-ranking.json
 ```
 
 Read `00-surah-text.json` for Arabic recitation text. Treat basmala as part of analysis except for S9; for S1 it is `verse_1`, and for other surahs it is `verse_0`. Use `01-passage.json` as authoritative for QAC word order, morphology, and root resolution.
+
+Use `03-candidate-bridges.agent.json` as the agent-facing bridge queue. The full reservoir remains in `03-candidate-bridges.json`; consult it only for targeted lookup when the compact queue or packet points to a specific candidate/branch that needs verification. Do not attempt to read the full reservoir exhaustively.
 
 Use these labels:
 
