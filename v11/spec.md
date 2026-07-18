@@ -180,3 +180,34 @@ validate file shape
 ```
 
 The orchestrator should not manually decide the final synthesis when an agent workflow is being used. If a report language is requested, pass that language directly to the final integration agent. Turkish final reports should preserve the technical labels (`A`, `B`, `C/B`, `C`, `S`, `X`) while explaining the mechanism in Turkish.
+
+After Agent C generates the technical final report, the orchestrator must send Agent C this follow-up request for a Turkish user-facing prose layer:
+
+```text
+now can you write me a turkish user-facing prose that coherently explains what is the primary reading, and what the secondary readings change the primary reading in a suprising way? at the end of each paragraph, list relevant roots and branches inside curly brackets that created this reading. Write it to {surah}-{ayah_start}-{ayah_end}-butuncul-okuma.md in the run directory, for example 103-1-11-butuncul-okuma.md
+```
+
+This follow-up must be sent as the only message content. The orchestrator must not add any other instructions, requirements, examples, bullets, caveats, formatting rules, reinterpretations, or clarifications to the follow-up message. The orchestrator must not rewrite or expand the request. The only allowed substitution is filling the output filename with the concrete run path when needed, for example:
+
+```text
+now can you write me a turkish user-facing prose that coherently explains what is the primary reading, and what the secondary readings change the primary reading in a suprising way? at the end of each paragraph, list relevant roots and branches inside curly brackets that created this reading. Write it to v11/run/s100/100-1-11-butuncul-okuma.md
+```
+
+Agent C should answer in coherent Turkish prose rather than tables. Each paragraph must end with curly-brace evidence tags, for example:
+
+```text
+... Bu katman birincil okumayı daha somut bir verim/hasat mekanizmasına çevirir. {ك ن د B003; ر ب ب B008; ح ص ل B005}
+```
+
+The holistic prose filename must be:
+
+```text
+{surah}-{ayah_start}-{ayah_end}-butuncul-okuma.md
+```
+
+For example:
+
+```text
+v11/run/s103/103-1-3-butuncul-okuma.md
+v11/run/s100/100-1-11-butuncul-okuma.md
+```
