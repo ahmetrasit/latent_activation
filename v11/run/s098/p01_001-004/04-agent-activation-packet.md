@@ -1,0 +1,863 @@
+# v11 Activation Packet — S98:1-4
+
+Bias: recall-first. Preserve latent candidates with labels instead of pruning.
+
+## Arabic surah text
+
+- verse_0 (basmala; part of analysis): بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+- verse_1: لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ
+- verse_2: رَسُولٌۭ مِّنَ ٱللَّهِ يَتْلُوا۟ صُحُفًۭا مُّطَهَّرَةًۭ
+- verse_3: فِيهَا كُتُبٌۭ قَيِّمَةٌۭ
+- verse_4: وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَةُ
+
+Full copied source text is available in `00-surah-text.json`.
+
+## Surface roots
+
+ك و ن → ك ف ر → ء ه ل → ك ت ب → ش ر ك → ف ك ك → ء ت ي → ب ي ن → ر س ل → ء ل ه → ت ل و → ص ح ف → ط ه ر → ق و م → ف ر ق → ب ع د → ج ي ء
+
+## Branch inventory summary
+
+- ك و ن: 6 branches (6 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ك ف ر: 15 branches (15 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ء ه ل: 6 branches (6 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ك ت ب: 5 branches (5 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ش ر ك: 8 branches (8 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ف ك ك: 9 branches (9 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ء ت ي: 13 branches (13 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ب ي ن: 13 branches (12 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ر س ل: 11 branches (11 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ء ل ه: 2 branches (2 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ت ل و: 9 branches (8 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ص ح ف: 5 branches (5 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ط ه ر: 7 branches (5 with Qnet bridge-theme nodes; 2 Furūq-only)
+- ق و م: 21 branches (20 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ف ر ق: 16 branches (15 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ب ع د: 10 branches (10 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ج ي ء: 9 branches (9 with Qnet bridge-theme nodes; 0 Furūq-only)
+
+## QAC-first root resolution audit
+
+- ك و ن | qac_keys=كون | status=resolved | matches=root_001332
+- ك ف ر | qac_keys=كفر | status=resolved | matches=root_001307
+- ء ه ل | qac_keys=ءهل | status=resolved | matches=root_000064
+- ك ت ب | qac_keys=كتب | status=resolved | matches=root_001283
+- ش ر ك | qac_keys=شرك | status=resolved | matches=root_000791
+- ف ك ك | qac_keys=فكك | status=resolved | matches=root_001173
+- ء ت ي | qac_keys=ءتي | status=resolved | matches=root_000009
+- ب ي ن | qac_keys=بين | status=resolved | matches=root_000170
+- ر س ل | qac_keys=رسل | status=resolved | matches=root_000563
+- ء ل ه | qac_keys=ءله | status=resolved | matches=root_000047
+- ت ل و | qac_keys=تلو | status=resolved | matches=root_000186
+- ص ح ف | qac_keys=صحف | status=resolved | matches=root_000845
+- ط ه ر | qac_keys=طهر | status=resolved | matches=root_000953
+- ق و م | qac_keys=قوم | status=resolved | matches=root_001273
+- ف ر ق | qac_keys=فرق | status=resolved | matches=root_001148
+- ب ع د | qac_keys=بعد | status=resolved | matches=root_000131
+- ج ي ء | qac_keys=جيء | status=merged | matches=root_000281, root_000282
+
+## Top candidate bridges
+
+- `ك ف ر B010` ↔ `ء ت ي B007` | score_hint=13 | discovery_hint=17 | themes=harvest_cultivation, reproduction_birth | keywords=fertility, harvest | q2=—
+- `ر س ل B011` ↔ `ف ر ق B013` | score_hint=30 | discovery_hint=16 | themes=anatomy, animal, body, material, physiology | keywords=anatomy, animal, biology, body, material | q2=—
+- `ف ك ك B007` ↔ `ء ت ي B012` | score_hint=26 | discovery_hint=16 | themes=animal, husbandry, livestock, physiology, reproduction_birth | keywords=animal, husbandry, livestock, reproduction | q2=—
+- `ء ه ل B006` ↔ `ر س ل B006` | score_hint=22 | discovery_hint=16 | themes=animal, food_nutrition, substance_texture | keywords=animal, food, liquid, nourishment | q2=—
+- `ق و م B010` ↔ `ف ر ق B011` | score_hint=22 | discovery_hint=16 | themes=commerce_exchange, economy, measurement | keywords=commerce, economy, exchange, measurement | q2=—
+- `ب ي ن B009` ↔ `ر س ل B006` | score_hint=22 | discovery_hint=16 | themes=agriculture, animal, food_nutrition, husbandry, provision_resource | keywords=agriculture, animal, food | q2=—
+- `ك ف ر B008` ↔ `ر س ل B006` | score_hint=18 | discovery_hint=16 | themes=agriculture, food_nutrition, reproduction_birth | keywords=agriculture, fertility, food | q2=—
+- `ء ت ي B007` ↔ `ر س ل B006` | score_hint=16 | discovery_hint=16 | themes=agriculture, food_nutrition, provision_resource, reproduction_birth | keywords=agriculture, fertility | q2=—
+- `ء ه ل B002` ↔ `ء ت ي B012` | score_hint=7 | discovery_hint=16 | themes=sexuality | keywords=sexuality | q2=—
+- `ق و م B019` ↔ `ج ي ء root_000282:B003` | score_hint=28 | discovery_hint=15 | themes=anatomy, body, disease_injury, health_medicine | keywords=anatomy, body, disease, medicine, pathology | q2=—
+- `ش ر ك B001` ↔ `ت ل و B003` | score_hint=24 | discovery_hint=15 | themes=commerce_exchange, law, obligation_contract, wealth_property | keywords=commerce, law, obligation, property | q2=—
+- `ف ك ك B005` ↔ `ج ي ء root_000282:B003` | score_hint=24 | discovery_hint=15 | themes=anatomy, body, disease_injury, health_medicine | keywords=anatomy, body, injury, medicine | q2=—
+- `ك ت ب B005` ↔ `ت ل و B004` | score_hint=22 | discovery_hint=15 | themes=finance_debt, law, obligation_contract | keywords=contract, finance, law, obligation | q2=—
+- `ء ت ي B006` ↔ `ف ر ق B005` | score_hint=22 | discovery_hint=15 | themes=household_community, identity_personhood, social_relations | keywords=belonging, community, identity, society | q2=—
+- `ق و م B019` ↔ `ف ر ق B010` | score_hint=22 | discovery_hint=15 | themes=body, disease_injury, health_medicine | keywords=body, disease, medicine, pathology | q2=—
+- `ف ر ق B010` ↔ `ج ي ء root_000282:B003` | score_hint=22 | discovery_hint=15 | themes=body, disease_injury, health_medicine | keywords=body, disease, medicine, pathology | q2=—
+- `ف ك ك B004` ↔ `ف ر ق B013` | score_hint=20 | discovery_hint=15 | themes=anatomy, animal, body, food_nutrition | keywords=anatomy, animal, body | q2=—
+- `ر س ل B011` ↔ `ف ر ق B007` | score_hint=20 | discovery_hint=15 | themes=anatomy, animal, body, physiology | keywords=anatomy, biology, body | q2=—
+- `ت ل و B008` ↔ `ف ر ق B010` | score_hint=20 | discovery_hint=15 | themes=body, disease_injury, health_medicine, physiology | keywords=body, medicine, vitality | q2=—
+- `ف ر ق B010` ↔ `ج ي ء root_000281:B006` | score_hint=20 | discovery_hint=15 | themes=body, disease_injury, health_medicine, physiology | keywords=body, medicine, pathology | q2=—
+- `ك و ن B003` ↔ `ت ل و B004` | score_hint=18 | discovery_hint=15 | themes=obligation_contract, protection_security, trust_loyalty | keywords=liability, obligation, trust | q2=—
+- `ف ك ك B002` ↔ `ت ل و B004` | score_hint=16 | discovery_hint=15 | themes=finance_debt, law, protection_security, wealth_property | keywords=law, ownership | q2=—
+- `ء ت ي B007` ↔ `ب ي ن B009` | score_hint=16 | discovery_hint=15 | themes=agriculture, food_nutrition, labor_work, provision_resource | keywords=agriculture, dairy | q2=—
+- `ك ف ر B008` ↔ `ء ت ي B007` | score_hint=14 | discovery_hint=15 | themes=agriculture, food_nutrition, reproduction_birth | keywords=agriculture, fertility | q2=—
+- `ك ت ب B002` ↔ `ص ح ف B002` | score_hint=26 | discovery_hint=14 | themes=communication, knowledge_learning, writing_text | keywords=archive, communication, literacy, record, text | q2=—
+- `ء ه ل B002` ↔ `ش ر ك B003` | score_hint=24 | discovery_hint=14 | themes=family, household_community, kinship, marriage_genealogy | keywords=family, household, kinship, marriage | q2=—
+- `ش ر ك B005` ↔ `ء ت ي B010` | score_hint=24 | discovery_hint=14 | themes=architecture_construction, geography_landscape, navigation_route, travel | keywords=geography, infrastructure, navigation, travel | q2=—
+- `ء ت ي B009` ↔ `ر س ل B003` | score_hint=24 | discovery_hint=14 | themes=anatomy, animal, motion, travel | keywords=anatomy, animal, locomotion, travel | q2=—
+- `ش ر ك B001` ↔ `ف ر ق B011` | score_hint=22 | discovery_hint=14 | themes=commerce_exchange, economy, law | keywords=commerce, economy, exchange, law | q2=—
+- `ك ف ر B003` ↔ `ش ر ك B002` | score_hint=20 | discovery_hint=14 | themes=belief_revelation, religion_worship | keywords=belief, doctrine, religion, theology | q2=—
+- `ء ه ل B005` ↔ `ر س ل B007` | score_hint=22 | discovery_hint=14 | themes=emotion, health_medicine, hospitality_welfare, protection_security, social_relations | keywords=comfort, emotion, hospitality | q2=—
+- `ك ف ر B007` ↔ `ج ي ء root_000281:B005` | score_hint=20 | discovery_hint=14 | themes=agency_action, control_restraint, force_power, obligation_contract | keywords=agency, constraint, power | q2=—
+- `ء ه ل B006` ↔ `ف ر ق B013` | score_hint=20 | discovery_hint=14 | themes=anatomy, animal, cooking_drink, food_nutrition | keywords=animal, food, nutrition | q2=—
+- `ك ت ب B005` ↔ `ف ك ك B002` | score_hint=20 | discovery_hint=14 | themes=control_restraint, finance_debt, hierarchy_status, law | keywords=freedom, law, slavery | q2=—
+- `ف ك ك B004` ↔ `ر س ل B011` | score_hint=20 | discovery_hint=14 | themes=anatomy, animal, body, language_speech | keywords=anatomy, animal, body | q2=—
+- `ف ك ك B005` ↔ `ق و م B019` | score_hint=20 | discovery_hint=14 | themes=anatomy, body, disease_injury, health_medicine | keywords=anatomy, body, medicine | q2=—
+- `ب ي ن B008` ↔ `ر س ل B011` | score_hint=20 | discovery_hint=14 | themes=anatomy, animal, body, tools_equipment | keywords=anatomy, animal, body | q2=—
+- `ب ي ن B008` ↔ `ف ر ق B007` | score_hint=20 | discovery_hint=14 | themes=anatomy, animal, body, posture_embodiment | keywords=anatomy, body, embodiment | q2=—
+- `ك ت ب B005` ↔ `ت ل و B003` | score_hint=18 | discovery_hint=14 | themes=finance_debt, law, obligation_contract | keywords=finance, law, obligation | q2=—
+- `ف ك ك B004` ↔ `ب ي ن B008` | score_hint=18 | discovery_hint=14 | themes=anatomy, animal, body | keywords=anatomy, animal, body | q2=—
+- `ف ك ك B004` ↔ `ر س ل B003` | score_hint=18 | discovery_hint=14 | themes=anatomy, animal, body | keywords=anatomy, animal, body | q2=—
+- `ف ك ك B005` ↔ `ر س ل B003` | score_hint=18 | discovery_hint=14 | themes=anatomy, body, motion | keywords=anatomy, body, mobility | q2=—
+- `ف ك ك B005` ↔ `ج ي ء root_000281:B006` | score_hint=18 | discovery_hint=14 | themes=body, disease_injury, health_medicine | keywords=body, injury, medicine | q2=—
+- `ف ك ك B009` ↔ `ج ي ء root_000282:B003` | score_hint=18 | discovery_hint=14 | themes=anatomy, body, health_medicine | keywords=body, healing, medicine | q2=—
+- `ب ي ن B008` ↔ `ر س ل B003` | score_hint=18 | discovery_hint=14 | themes=anatomy, animal, body | keywords=anatomy, animal, body | q2=—
+- `ب ي ن B008` ↔ `ف ر ق B013` | score_hint=18 | discovery_hint=14 | themes=anatomy, animal, body | keywords=anatomy, animal, body | q2=—
+- `ر س ل B003` ↔ `ف ر ق B013` | score_hint=18 | discovery_hint=14 | themes=anatomy, animal, body | keywords=anatomy, animal, body | q2=—
+- `ت ل و B006` ↔ `ف ر ق B008` | score_hint=18 | discovery_hint=14 | themes=animal, husbandry, reproduction_birth | keywords=animal, motherhood, pastoralism | q2=—
+- `ق و م B019` ↔ `ج ي ء root_000281:B006` | score_hint=18 | discovery_hint=14 | themes=body, disease_injury, health_medicine | keywords=body, medicine, pathology | q2=—
+- `ك ف ر B005` ↔ `ب ي ن B003` | score_hint=16 | discovery_hint=14 | themes=social_relations, trust_loyalty | keywords=alliance, relation, sociality | q2=—
+- `ق و م B018` ↔ `ف ر ق B011` | score_hint=16 | discovery_hint=14 | themes=commerce_exchange, economy | keywords=commerce, economy, exchange | q2=—
+- `ت ل و B008` ↔ `ج ي ء root_000281:B006` | score_hint=16 | discovery_hint=14 | themes=body, disease_injury, health_medicine, physiology | keywords=body, medicine | q2=—
+- `ش ر ك B001` ↔ `ء ت ي B002` | score_hint=14 | discovery_hint=14 | themes=commerce_exchange, provision_resource, wealth_property | keywords=exchange, ownership | q2=—
+- `ف ك ك B002` ↔ `ت ل و B003` | score_hint=14 | discovery_hint=14 | themes=finance_debt, law, wealth_property | keywords=law, property | q2=—
+- `ء ت ي B002` ↔ `ج ي ء root_000281:B004` | score_hint=14 | discovery_hint=14 | themes=motion, provision_resource, wealth_property | keywords=provision, transfer | q2=—
+- `ب ي ن B008` ↔ `ق و م B011` | score_hint=14 | discovery_hint=14 | themes=anatomy, body, measurement | keywords=anatomy, body | q2=—
+- `ر س ل B003` ↔ `ج ي ء root_000282:B003` | score_hint=14 | discovery_hint=14 | themes=anatomy, body, substance_texture | keywords=anatomy, body | q2=—
+- `ط ه ر B002` ↔ `ف ر ق B007` | score_hint=14 | discovery_hint=14 | themes=body, physiology, posture_embodiment | keywords=body, embodiment | q2=—
+- `ط ه ر B002` ↔ `ف ر ق B010` | score_hint=14 | discovery_hint=14 | themes=body, change_transition, physiology | keywords=body, transition | q2=—
+- `ك ف ر B008` ↔ `ب ي ن B009` | score_hint=12 | discovery_hint=14 | themes=agriculture, food_nutrition | keywords=agriculture, food | q2=—
+- `ء ت ي B007` ↔ `ر س ل B005` | score_hint=12 | discovery_hint=14 | themes=agriculture, provision_resource | keywords=agriculture, resource | q2=—
+- `ء ت ي B012` ↔ `ط ه ر B002` | score_hint=12 | discovery_hint=14 | themes=physiology, reproduction_birth | keywords=fertility, reproduction | q2=—
+- `ر س ل B007` ↔ `ت ل و B004` | score_hint=12 | discovery_hint=14 | themes=protection_security, trust_loyalty | keywords=security, trust | q2=—
+- `ص ح ف B004` ↔ `ف ر ق B011` | score_hint=12 | discovery_hint=14 | themes=food_nutrition, storage_vessels | keywords=food, storage | q2=—
+- `ق و م B015` ↔ `ف ر ق B011` | score_hint=12 | discovery_hint=14 | themes=commerce_exchange, measurement | keywords=commerce, measurement | q2=—
+- `ج ي ء root_000281:B003` ↔ `ج ي ء root_000282:B002` | score_hint=37 | discovery_hint=13 | themes=geography_landscape, place_location, protection_security, stability_endurance, storage_vessels, terrain_desert, water_hydrology | keywords=defense, hydrology, landscape, settlement, stagnation, topography | q2=—
+- `ج ي ء root_000281:B006` ↔ `ج ي ء root_000282:B003` | score_hint=31 | discovery_hint=13 | themes=body, disease_injury, health_medicine, substance_texture | keywords=body, fluid, inflammation, injury, medicine, pathology | q2=—
+- `ء ت ي B001` ↔ `ج ي ء root_000281:B001` | score_hint=28 | discovery_hint=13 | themes=agency_action, change_transition, motion, sequence_cycle | keywords=agency, arrival, event, fulfillment, movement | q2=—
+- `ء ه ل B001` ↔ `ق و م B001` | score_hint=24 | discovery_hint=13 | themes=household_community, identity_personhood, kinship, social_relations | keywords=community, identity, kinship, society | q2=—
+- `ت ل و B003` ↔ `ت ل و B004` | score_hint=23 | discovery_hint=13 | themes=finance_debt, law, obligation_contract, wealth_property | keywords=finance, law, liability, obligation | q2=—
+- `ق و م B001` ↔ `ب ع د B005` | score_hint=22 | discovery_hint=13 | themes=kinship, marriage_genealogy, social_relations | keywords=affiliation, kinship, lineage, society | q2=—
+- `ب ي ن B001` ↔ `ب ع د B010` | score_hint=20 | discovery_hint=13 | themes=conflict, social_relations | keywords=conflict, opposition, relation, society | q2=—
+- `ك ف ر B013` ↔ `ش ر ك B005` | score_hint=20 | discovery_hint=13 | themes=architecture_construction, geography_landscape, navigation_route, terrain_desert | keywords=geography, passage, terrain | q2=—
+- `ء ه ل B001` ↔ `ء ت ي B006` | score_hint=20 | discovery_hint=13 | themes=household_community, identity_personhood, kinship, social_relations | keywords=community, identity, society | q2=—
+- `ك ت ب B002` ↔ `ب ي ن B005` | score_hint=20 | discovery_hint=13 | themes=communication, knowledge_learning, language_speech, writing_text | keywords=communication, language, literacy | q2=—
+- `ش ر ك B003` ↔ `ب ع د B005` | score_hint=20 | discovery_hint=13 | themes=family, kinship, marriage_genealogy, place_location | keywords=family, kinship, proximity | q2=—
+- `ء ت ي B006` ↔ `ق و م B001` | score_hint=20 | discovery_hint=13 | themes=household_community, identity_personhood, kinship, social_relations | keywords=community, identity, society | q2=—
+- `ب ي ن B002` ↔ `ب ع د B001` | score_hint=20 | discovery_hint=13 | themes=measurement, place_location, social_relations, space | keywords=proximity, relation, space | q2=—
+- `ك ف ر B006` ↔ `ب ع د B004` | score_hint=18 | discovery_hint=13 | themes=justice_judgment, language_speech, religion_worship | keywords=judgment, religion, speech | q2=—
+- `ء ه ل B001` ↔ `ف ر ق B005` | score_hint=18 | discovery_hint=13 | themes=household_community, identity_personhood, social_relations | keywords=community, identity, society | q2=—
+
+## Per-root candidate activations
+
+### ك و ن
+
+- `ك و ن B001` — وقوع الشيء وحضوره في زمان
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك و ن B002` — المكان والمكانة من الكون
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك و ن B003` — الكفالة والقيام على فلان
+  - activated_by_or_with: ت ل و
+  - themes: obligation_contract, protection_security, trust_loyalty
+  - keywords: liability, obligation, trust
+- `ك و ن B004` — الخضوع بالاستكانة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك و ن B005` — الشيخ المنسوب إلى كُنْتُ
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك و ن B006` — حالة السوء بكينة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ك ف ر
+
+- `ك ف ر B001` — ستر وتغطية
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B002` — غمر ساتر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B003` — حجب الحق
+  - activated_by_or_with: ش ر ك
+  - themes: belief_revelation, religion_worship
+  - keywords: belief, doctrine, religion, theology
+- `ك ف ر B004` — ستر النعمة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B005` — تبرؤ وتنصل
+  - activated_by_or_with: ب ي ن
+  - themes: social_relations, trust_loyalty
+  - keywords: alliance, relation, sociality
+- `ك ف ر B006` — نسبة إلى الكفر
+  - activated_by_or_with: ب ع د
+  - themes: justice_judgment, language_speech, religion_worship
+  - keywords: judgment, religion, speech
+- `ك ف ر B007` — إلجاء إلى العصيان
+  - activated_by_or_with: ج ي ء
+  - themes: agency_action, control_restraint, force_power, obligation_contract
+  - keywords: agency, constraint, power
+- `ك ف ر B008` — تغطية البذر
+  - activated_by_or_with: ء ت ي, ب ي ن, ر س ل
+  - themes: agriculture, food_nutrition, reproduction_birth
+  - keywords: agriculture, fertility, food
+- `ك ف ر B009` — محو الإثم بتغطيته
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B010` — كمام الثمر
+  - activated_by_or_with: ء ت ي
+  - themes: harvest_cultivation, reproduction_birth
+  - keywords: fertility, harvest
+- `ك ف ر B011` — كافور طيب
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B012` — موضع منقطع
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B013` — ثنية مستورة
+  - activated_by_or_with: ش ر ك
+  - themes: architecture_construction, geography_landscape, navigation_route, terrain_desert
+  - keywords: geography, passage, terrain
+- `ك ف ر B014` — خضوع متطامن
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B015` — تاج يغطي
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ء ه ل
+
+- `ء ه ل B001` — جماعة القرب والانتماء
+  - activated_by_or_with: ء ت ي, ف ر ق, ق و م
+  - themes: household_community, identity_personhood, kinship, social_relations
+  - keywords: community, identity, kinship, society
+- `ء ه ل B002` — اتخاذ الأهل بالزواج
+  - activated_by_or_with: ء ت ي, ش ر ك
+  - themes: family, household_community, kinship, marriage_genealogy, sexuality
+  - keywords: family, household, kinship, marriage, sexuality
+- `ء ه ل B003` — موضع الصلاح والاستحقاق
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ه ل B004` — أنس المكان والعمران
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ه ل B005` — تحية السعة والأنس
+  - activated_by_or_with: ر س ل
+  - themes: emotion, health_medicine, hospitality_welfare, protection_security, social_relations
+  - keywords: comfort, emotion, hospitality
+- `ء ه ل B006` — الإهالة المذابة
+  - activated_by_or_with: ر س ل, ف ر ق
+  - themes: anatomy, animal, cooking_drink, food_nutrition, substance_texture
+  - keywords: animal, food, liquid, nourishment, nutrition
+
+### ك ت ب
+
+- `ك ت ب B001` — ضم شيء إلى شيء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ت ب B002` — نظم الحروف واسم المكتوب
+  - activated_by_or_with: ب ي ن, ص ح ف
+  - themes: communication, knowledge_learning, language_speech, writing_text
+  - keywords: archive, communication, language, literacy, record, text
+- `ك ت ب B003` — إثبات يوجب حكما أو قدرا
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ت ب B004` — إدخال الاسم في سجل أو زمرة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ت ب B005` — مكاتبة العبد على عتقه
+  - activated_by_or_with: ت ل و, ف ك ك
+  - themes: control_restraint, finance_debt, hierarchy_status, law, obligation_contract
+  - keywords: contract, finance, freedom, law, obligation, slavery
+
+### ش ر ك
+
+- `ش ر ك B001` — الشَّرِكة والمشاركة
+  - activated_by_or_with: ء ت ي, ت ل و, ف ر ق
+  - themes: commerce_exchange, economy, law, obligation_contract, provision_resource, wealth_property
+  - keywords: commerce, economy, exchange, law, obligation, ownership, property
+- `ش ر ك B002` — الشِّرك بالله
+  - activated_by_or_with: ك ف ر
+  - themes: belief_revelation, religion_worship
+  - keywords: belief, doctrine, religion, theology
+- `ش ر ك B003` — شِرك المصاهرة
+  - activated_by_or_with: ء ه ل, ب ع د
+  - themes: family, household_community, kinship, marriage_genealogy, place_location
+  - keywords: family, household, kinship, marriage, proximity
+- `ش ر ك B004` — شِراك النعل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ك B005` — شِرك الطريق
+  - activated_by_or_with: ء ت ي, ك ف ر
+  - themes: architecture_construction, geography_landscape, navigation_route, terrain_desert, travel
+  - keywords: geography, infrastructure, navigation, passage, terrain, travel
+- `ش ر ك B006` — شَرَك الصائد
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ك B007` — تتابع شَرْكي
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ك B008` — رأي مشترك
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ف ك ك
+
+- `ف ك ك B001` — فتح المغلق وفصل المشتبك
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ف ك ك B002` — تخليص الرهن والرقبة من الغلق والإسار
+  - activated_by_or_with: ت ل و, ك ت ب
+  - themes: control_restraint, finance_debt, hierarchy_status, law, protection_security, wealth_property
+  - keywords: freedom, law, ownership, property, slavery
+- `ف ك ك B003` — مفارقة الشيء أو نفي زواله
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ف ك ك B004` — الفكّان وما بين الشدقين
+  - activated_by_or_with: ب ي ن, ر س ل, ف ر ق
+  - themes: anatomy, animal, body, food_nutrition, language_speech
+  - keywords: anatomy, animal, body
+- `ف ك ك B005` — انفراج المفصل واسترخاء العضو
+  - activated_by_or_with: ج ي ء, ر س ل, ق و م
+  - themes: anatomy, body, disease_injury, health_medicine, motion
+  - keywords: anatomy, body, injury, medicine, mobility
+- `ف ك ك B006` — فَكَّة الرأي والحمق والرخاوة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ف ك ك B007` — تفكك الدابة عند النتاج أو الضبعة والهزال
+  - activated_by_or_with: ء ت ي
+  - themes: animal, husbandry, livestock, physiology, reproduction_birth
+  - keywords: animal, husbandry, livestock, reproduction
+- `ف ك ك B008` — الفَكّة من الكواكب المستديرة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ف ك ك B009` — جعل الدواء في فم الصبي
+  - activated_by_or_with: ج ي ء
+  - themes: anatomy, body, health_medicine
+  - keywords: body, healing, medicine
+
+### ء ت ي
+
+- `ء ت ي B001` — الإتيان والمجيء
+  - activated_by_or_with: ج ي ء
+  - themes: agency_action, change_transition, motion, sequence_cycle
+  - keywords: agency, arrival, event, fulfillment, movement
+- `ء ت ي B002` — الإيتاء والإعطاء
+  - activated_by_or_with: ج ي ء, ش ر ك
+  - themes: commerce_exchange, motion, provision_resource, wealth_property
+  - keywords: exchange, ownership, provision, transfer
+- `ء ت ي B003` — مأتى الأمر وتهيؤه
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ت ي B004` — مجرى الماء وتسليك سبيله
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ت ي B005` — السيل الآتي من غير البلد
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ت ي B006` — الغريب الداخل في غير قومه
+  - activated_by_or_with: ء ه ل, ف ر ق, ق و م
+  - themes: household_community, identity_personhood, kinship, social_relations
+  - keywords: belonging, community, identity, society
+- `ء ت ي B007` — خروج النماء والنتاج
+  - activated_by_or_with: ب ي ن, ر س ل, ك ف ر
+  - themes: agriculture, food_nutrition, harvest_cultivation, labor_work, provision_resource, reproduction_birth
+  - keywords: agriculture, dairy, fertility, harvest, resource
+- `ء ت ي B008` — الإتاوة المؤداة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ت ي B009` — رجع يدي الناقة في السير
+  - activated_by_or_with: ر س ل
+  - themes: anatomy, animal, motion, travel
+  - keywords: anatomy, animal, locomotion, travel
+- `ء ت ي B010` — الميتاء طريق ومحاذاة
+  - activated_by_or_with: ش ر ك
+  - themes: architecture_construction, geography_landscape, navigation_route, travel
+  - keywords: geography, infrastructure, navigation, travel
+- `ء ت ي B011` — إتيان البلاء والهلاك
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ت ي B012` — استئتاء الناقة
+  - activated_by_or_with: ء ه ل, ط ه ر, ف ك ك
+  - themes: animal, husbandry, livestock, physiology, reproduction_birth, sexuality
+  - keywords: animal, fertility, husbandry, livestock, reproduction, sexuality
+- `ء ت ي B013` — نَفاذ الرجل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ب ي ن
+
+- `ب ي ن B001` — انفصال الشيء وافتراقه
+  - activated_by_or_with: ب ع د
+  - themes: conflict, social_relations
+  - keywords: conflict, opposition, relation, society
+- `ب ي ن B002` — الخلالة والوسط بين شيئين
+  - activated_by_or_with: ب ع د
+  - themes: measurement, place_location, social_relations, space
+  - keywords: proximity, relation, space
+- `ب ي ن B003` — الوصلة القائمة بين الأطراف
+  - activated_by_or_with: ك ف ر
+  - themes: social_relations, trust_loyalty
+  - keywords: alliance, relation, sociality
+- `ب ي ن B004` — ظهور الشيء وانكشافه
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ي ن B005` — كشف المعنى بالقول أو العلامة
+  - activated_by_or_with: ك ت ب
+  - themes: communication, knowledge_learning, language_speech, writing_text
+  - keywords: communication, language, literacy
+- `ب ي ن B006` — بعد المسافة واتساع الفجوة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ي ن B007` — قطعة أرض تمتد في النظر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ي ن B008` — انفراج العضو أو الشيء عن ملاصقه
+  - activated_by_or_with: ر س ل, ف ر ق, ف ك ك, ق و م
+  - themes: anatomy, animal, body, measurement, posture_embodiment, tools_equipment
+  - keywords: anatomy, animal, body, embodiment
+- `ب ي ن B009` — الحالب من جهة مخصوصة
+  - activated_by_or_with: ء ت ي, ر س ل, ك ف ر
+  - themes: agriculture, animal, food_nutrition, husbandry, labor_work, provision_resource
+  - keywords: agriculture, animal, dairy, food
+- `ب ي ن B010` — الوقت الواقع أثناء حال أو فعل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ي ن B011` — حالة متوسطة بين طرفين
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ي ن B012` — طلاق يقطع الرجعة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ي ن B013` — علامة الفراق المشؤومة
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+
+### ر س ل
+
+- `ر س ل B001` — الإرسال والانبعاث
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر س ل B002` — الرسول والرسالة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر س ل B003` — السير السهل واللين
+  - activated_by_or_with: ء ت ي, ب ي ن, ج ي ء, ف ر ق, ف ك ك
+  - themes: anatomy, animal, body, motion, substance_texture, travel
+  - keywords: anatomy, animal, body, locomotion, mobility, travel
+- `ر س ل B004` — الرفق والتؤدة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر س ل B005` — التتابع والقطع
+  - activated_by_or_with: ء ت ي
+  - themes: agriculture, provision_resource
+  - keywords: agriculture, resource
+- `ر س ل B006` — اللبن والدر المتتابع
+  - activated_by_or_with: ء ت ي, ء ه ل, ب ي ن, ك ف ر
+  - themes: agriculture, animal, food_nutrition, husbandry, provision_resource, reproduction_birth, substance_texture
+  - keywords: agriculture, animal, fertility, food, liquid, nourishment
+- `ر س ل B007` — الاستئناس والانبساط
+  - activated_by_or_with: ء ه ل, ت ل و
+  - themes: emotion, health_medicine, hospitality_welfare, protection_security, social_relations, trust_loyalty
+  - keywords: comfort, emotion, hospitality, security, trust
+- `ر س ل B008` — المراسلة والمسايرة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر س ل B009` — المرأة المراسل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر س ل B010` — الرخاء وطيب الإعطاء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر س ل B011` — تسميات مفردة مخصوصة
+  - activated_by_or_with: ب ي ن, ف ر ق, ف ك ك
+  - themes: anatomy, animal, body, language_speech, material, physiology, tools_equipment
+  - keywords: anatomy, animal, biology, body, material
+
+### ء ل ه
+
+- `ء ل ه B001` — التعبد والمعبود
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ل ه B002` — اسم الله في القسم والنداء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ت ل و
+
+- `ت ل و B001` — اتباع وتتابع
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ت ل و B002` — تلاوة متبوعة
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ت ل و B003` — بقية تتلو ما قبلها
+  - activated_by_or_with: ش ر ك, ف ك ك, ك ت ب
+  - themes: commerce_exchange, finance_debt, law, obligation_contract, wealth_property
+  - keywords: commerce, finance, law, liability, obligation, property
+- `ت ل و B004` — ذمة أو حق يتبع صاحبه
+  - activated_by_or_with: ر س ل, ف ك ك, ك ت ب, ك و ن
+  - themes: finance_debt, law, obligation_contract, protection_security, trust_loyalty, wealth_property
+  - keywords: contract, finance, law, liability, obligation, ownership, security, trust
+- `ت ل و B005` — ترك بعد صحبة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ت ل و B006` — ولد يتلو أمه
+  - activated_by_or_with: ف ر ق
+  - themes: animal, husbandry, reproduction_birth
+  - keywords: animal, motherhood, pastoralism
+- `ت ل و B007` — صوت يتلو صوتا
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ت ل و B008` — آخر رمق
+  - activated_by_or_with: ج ي ء, ف ر ق
+  - themes: body, disease_injury, health_medicine, physiology
+  - keywords: body, medicine, vitality
+- `ت ل و B009` — قول كذب على غيره
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ص ح ف
+
+- `ص ح ف B001` — انبساط وسعة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ص ح ف B002` — صحيفة مكتوبة
+  - activated_by_or_with: ك ت ب
+  - themes: communication, knowledge_learning, writing_text
+  - keywords: archive, communication, literacy, record, text
+- `ص ح ف B003` — جمع الصحف في مصحف
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ص ح ف B004` — صَحفة عريضة
+  - activated_by_or_with: ف ر ق
+  - themes: food_nutrition, storage_vessels
+  - keywords: food, storage
+- `ص ح ف B005` — تصحيف القراءة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ط ه ر
+
+- `ط ه ر B001` — النقاء وزوال الدنس
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ط ه ر B002` — طهر النساء من الحيض
+  - activated_by_or_with: ء ت ي, ف ر ق
+  - themes: body, change_transition, physiology, posture_embodiment, reproduction_birth
+  - keywords: body, embodiment, fertility, reproduction, transition
+- `ط ه ر B003` — التطهر بالماء والغسل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ط ه ر B004` — الطهور الذي يطهر غيره
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ط ه ر B005` — تنزيه النفس والعمل عن القبيح
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ط ه ر B006` — تطهير المكان المقدس من الرجس
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ط ه ر B007` — الأطهر بمعنى الأحل والأنزه
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+
+### ق و م
+
+- `ق و م B001` — جماعة الناس والرجال
+  - activated_by_or_with: ء ت ي, ء ه ل, ب ع د
+  - themes: household_community, identity_personhood, kinship, marriage_genealogy, social_relations
+  - keywords: affiliation, community, identity, kinship, lineage, society
+- `ق و م B002` — انتصاب وقيام بالبدن
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B003` — عزم ونهوض إلى الأمر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B004` — رعاية وحفظ وولاية
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B005` — إقامة وإدامة وتوفية حق
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ق و م B006` — مقام وإقامة في موضع
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B007` — نيابة وقيام مقام غيره
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B008` — استقامة واعتدال واستواء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B009` — قوام وعماد ومعاش
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B010` — قيمة وتقويم وتسعير
+  - activated_by_or_with: ف ر ق
+  - themes: commerce_exchange, economy, measurement
+  - keywords: commerce, economy, exchange, measurement
+- `ق و م B011` — قامة وقوام الجسم والطول
+  - activated_by_or_with: ب ي ن
+  - themes: anatomy, body, measurement
+  - keywords: anatomy, body
+- `ق و م B012` — آلة قائمة وجزء قائم
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B013` — قيامة وبعث وقيام الساعة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B014` — مقاومة ومنازلة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B015` — وزن سواء ومقدار معتدل
+  - activated_by_or_with: ف ر ق
+  - themes: commerce_exchange, measurement
+  - keywords: commerce, measurement
+- `ق و م B016` — جمود ووقوف وكلال
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B017` — انتصاف النهار وقائم الظهيرة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B018` — نفاق السوق
+  - activated_by_or_with: ف ر ق
+  - themes: commerce_exchange, economy
+  - keywords: commerce, economy, exchange
+- `ق و م B019` — وجع قائم بالعضو
+  - activated_by_or_with: ج ي ء, ف ر ق, ف ك ك
+  - themes: anatomy, body, disease_injury, health_medicine
+  - keywords: anatomy, body, disease, medicine, pathology
+- `ق و م B020` — قوام في قوائم الشاة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B021` — عين قائمة ذاهبة البصر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ف ر ق
+
+- `ف ر ق B001` — تمييز وتزييل بين شيئين
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ف ر ق B002` — تفريق وتشتيت إلى أجزاء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ف ر ق B003` — فرقان بين حق وباطل
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ف ر ق B004` — انفلاق وقطعة منفصلة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ف ر ق B005` — فرقة وفريق وقطيع منفصل
+  - activated_by_or_with: ء ت ي, ء ه ل
+  - themes: household_community, identity_personhood, social_relations
+  - keywords: belonging, community, identity, society
+- `ف ر ق B006` — مفرق شعر وطريق
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ف ر ق B007` — تباعد وافتراق في الخلقة
+  - activated_by_or_with: ب ي ن, ر س ل, ط ه ر
+  - themes: anatomy, animal, body, physiology, posture_embodiment
+  - keywords: anatomy, biology, body, embodiment
+- `ف ر ق B008` — فارق نادة وسحابة منفردة
+  - activated_by_or_with: ت ل و
+  - themes: animal, husbandry, reproduction_birth
+  - keywords: animal, motherhood, pastoralism
+- `ف ر ق B009` — فرق القلب من الخوف
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ف ر ق B010` — إفراق من المرض
+  - activated_by_or_with: ت ل و, ج ي ء, ط ه ر, ق و م
+  - themes: body, change_transition, disease_injury, health_medicine, physiology
+  - keywords: body, disease, medicine, pathology, transition, vitality
+- `ف ر ق B011` — فرق مكيال وإناء
+  - activated_by_or_with: ش ر ك, ص ح ف, ق و م
+  - themes: commerce_exchange, economy, food_nutrition, law, measurement, storage_vessels
+  - keywords: commerce, economy, exchange, food, law, measurement, storage
+- `ف ر ق B012` — فريقة تمر وحلبة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ف ر ق B013` — فروقة شحم الكليتين
+  - activated_by_or_with: ء ه ل, ب ي ن, ر س ل, ف ك ك
+  - themes: anatomy, animal, body, cooking_drink, food_nutrition, material, physiology
+  - keywords: anatomy, animal, biology, body, food, material, nutrition
+- `ف ر ق B014` — نبات متفرق غير متصل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ف ر ق B015` — ضروب ووجوه متميزة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ف ر ق B016` — افرنقعوا تنحوا بحركة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ب ع د
+
+- `ب ع د B001` — البعد عن القرب
+  - activated_by_or_with: ب ي ن
+  - themes: measurement, place_location, social_relations, space
+  - keywords: proximity, relation, space
+- `ب ع د B002` — البعد بعد القبل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ع د B003` — إحداث البعد والمباعدة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ع د B004` — البعد هلاكا ولعنا
+  - activated_by_or_with: ك ف ر
+  - themes: justice_judgment, language_speech, religion_worship
+  - keywords: judgment, religion, speech
+- `ب ع د B005` — الأباعد خلاف الأقارب
+  - activated_by_or_with: ش ر ك, ق و م
+  - themes: family, kinship, marriage_genealogy, place_location, social_relations
+  - keywords: affiliation, family, kinship, lineage, proximity, society
+- `ب ع د B006` — غير باعد وغير بعيد
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ع د B007` — بعيدات بين
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ع د B008` — بعد الرأي والغور
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ع د B009` — غير أبعد ولا طائل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ع د B010` — بعد المعاداة
+  - activated_by_or_with: ب ي ن
+  - themes: conflict, social_relations
+  - keywords: conflict, opposition, relation, society
+
+### ج ي ء
+
+- `ج ي ء root_000281:B001` — المجيء والحصول
+  - activated_by_or_with: ء ت ي
+  - themes: agency_action, change_transition, motion, sequence_cycle
+  - keywords: agency, arrival, event, fulfillment, movement
+- `ج ي ء root_000281:B002` — المغالبة بكثرة المجيء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ج ي ء root_000281:B003` — مجتمع الماء في هبطة أو حول حصن
+  - activated_by_or_with: same-root only
+  - themes: geography_landscape, place_location, protection_security, stability_endurance, storage_vessels, terrain_desert, water_hydrology
+  - keywords: defense, hydrology, landscape, settlement, stagnation, topography
+- `ج ي ء root_000281:B004` — الإتيان بالشيء واستحضاره
+  - activated_by_or_with: ء ت ي
+  - themes: motion, provision_resource, wealth_property
+  - keywords: provision, transfer
+- `ج ي ء root_000281:B005` — الإلجاء والاضطرار
+  - activated_by_or_with: ك ف ر
+  - themes: agency_action, control_restraint, force_power, obligation_contract
+  - keywords: agency, constraint, power
+- `ج ي ء root_000281:B006` — الجائية من الجراح
+  - activated_by_or_with: ت ل و, ف ر ق, ف ك ك, ق و م
+  - themes: body, disease_injury, health_medicine, physiology, substance_texture
+  - keywords: body, fluid, inflammation, injury, medicine, pathology
+- `ج ي ء root_000282:B001` — المجيء والغلبة بالمجيء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ج ي ء root_000282:B002` — الجِيأة مجتمع الماء
+  - activated_by_or_with: same-root only
+  - themes: geography_landscape, place_location, protection_security, stability_endurance, storage_vessels, terrain_desert, water_hydrology
+  - keywords: defense, hydrology, landscape, settlement, stagnation, topography
+- `ج ي ء root_000282:B003` — جائية الجراح
+  - activated_by_or_with: ر س ل, ف ر ق, ف ك ك, ق و م
+  - themes: anatomy, body, disease_injury, health_medicine, substance_texture
+  - keywords: anatomy, body, disease, fluid, healing, inflammation, injury, medicine, pathology
+
+## Agent instruction
+
+Classify branches as A/B/C/S/X, but use discovery bias:
+
+- uncertain S vs C => C
+- uncertain C vs B => C/B
+- broad bridge => preserve with evidence profile
+- only data-invalid branches => X
+- consume 10-discovery-ranking.json as a mechanical review queue; do not generate discovery ranking

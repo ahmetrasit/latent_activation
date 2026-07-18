@@ -1,0 +1,882 @@
+# v11 Activation Packet — S98:5-6
+
+Bias: recall-first. Preserve latent candidates with labels instead of pruning.
+
+## Arabic surah text
+
+- verse_0 (basmala; part of analysis): بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+- verse_5: وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ
+- verse_6: إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآ ۚ أُو۟لَٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ
+
+Full copied source text is available in `00-surah-text.json`.
+
+## Surface roots
+
+ء م ر → ع ب د → ء ل ه → خ ل ص → د ي ن → ح ن ف → ق و م → ص ل و → ء ت ي → ز ك و → ك ف ر → ء ه ل → ك ت ب → ش ر ك → ن و ر → خ ل د → ش ر ر → ب ر ء
+
+## Branch inventory summary
+
+- ء م ر: 11 branches (10 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ع ب د: 12 branches (11 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ء ل ه: 2 branches (2 with Qnet bridge-theme nodes; 0 Furūq-only)
+- خ ل ص: 8 branches (6 with Qnet bridge-theme nodes; 2 Furūq-only)
+- د ي ن: 7 branches (7 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ح ن ف: 5 branches (2 with Qnet bridge-theme nodes; 3 Furūq-only)
+- ق و م: 21 branches (20 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ص ل و: 9 branches (9 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ء ت ي: 13 branches (13 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ز ك و: 5 branches (4 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ك ف ر: 15 branches (15 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ء ه ل: 6 branches (6 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ك ت ب: 5 branches (5 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ش ر ك: 8 branches (8 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ن و ر: 11 branches (11 with Qnet bridge-theme nodes; 0 Furūq-only)
+- خ ل د: 5 branches (5 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ش ر ر: 12 branches (12 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ب ر ء: 14 branches (14 with Qnet bridge-theme nodes; 0 Furūq-only)
+
+## QAC-first root resolution audit
+
+- ء م ر | qac_keys=ءمر | status=resolved | matches=root_000051
+- ع ب د | qac_keys=عبد | status=resolved | matches=root_000973
+- ء ل ه | qac_keys=ءله | status=resolved | matches=root_000047
+- خ ل ص | qac_keys=خلص | status=resolved | matches=root_000430
+- د ي ن | qac_keys=دين | status=resolved | matches=root_000504
+- ح ن ف | qac_keys=حنف | status=resolved | matches=root_000362
+- ق و م | qac_keys=قوم | status=resolved | matches=root_001273
+- ص ل و | qac_keys=صلو | status=resolved | matches=root_000879
+- ء ت ي | qac_keys=ءتي | status=resolved | matches=root_000009
+- ز ك و | qac_keys=زكو | status=resolved | matches=root_000637
+- ك ف ر | qac_keys=كفر | status=resolved | matches=root_001307
+- ء ه ل | qac_keys=ءهل | status=resolved | matches=root_000064
+- ك ت ب | qac_keys=كتب | status=resolved | matches=root_001283
+- ش ر ك | qac_keys=شرك | status=resolved | matches=root_000791
+- ن و ر | qac_keys=نور | status=resolved | matches=root_001564
+- خ ل د | qac_keys=خلد | status=resolved | matches=root_000429
+- ش ر ر | qac_keys=شرر | status=resolved | matches=root_000787
+- ب ر ء | qac_keys=برء | status=merged | matches=root_000099, root_000100
+
+## Top candidate bridges
+
+- `د ي ن B003` ↔ `ب ر ء root_000099:B004` | score_hint=28 | discovery_hint=17 | themes=commerce_exchange, finance_debt, obligation_contract, wealth_property | keywords=commerce, contract, finance, obligation, property | q2=—
+- `ء ت ي B007` ↔ `ك ف ر B010` | score_hint=13 | discovery_hint=17 | themes=harvest_cultivation, reproduction_birth | keywords=fertility, harvest | q2=—
+- `ء ه ل B006` ↔ `ش ر ر B005` | score_hint=28 | discovery_hint=16 | themes=anatomy, cooking_drink, food_nutrition, substance_texture | keywords=cooking, fat, food, liquid, meat | q2=—
+- `ك ف ر B010` ↔ `ن و ر B004` | score_hint=18 | discovery_hint=16 | themes=growth_decay, plant_vegetation, reproduction_birth | keywords=botany, fertility, growth | q2=—
+- `ع ب د B009` ↔ `ص ل و B006` | score_hint=15 | discovery_hint=16 | themes=motion, recreation_sport, speed | keywords=motion, speed | q2=—
+- `ء م ر B009` ↔ `ش ر ر B010` | score_hint=7 | discovery_hint=16 | themes=life_stage_aging | keywords=youth | q2=—
+- `ع ب د B012` ↔ `ك ف ر B010` | score_hint=7 | discovery_hint=16 | themes=storage_vessels | keywords=container | q2=—
+- `ء ت ي B005` ↔ `ش ر ر B002` | score_hint=7 | discovery_hint=16 | themes=weather_climate | keywords=weather | q2=—
+- `ع ب د B004` ↔ `د ي ن B004` | score_hint=30 | discovery_hint=15 | themes=control_restraint, force_power, hierarchy_status, justice_judgment, violence_warfare | keywords=control, hierarchy, oppression, power, violence | q2=—
+- `ء م ر B004` ↔ `ز ك و B001` | score_hint=28 | discovery_hint=15 | themes=abundance_scarcity, belief_revelation, physiology, reproduction_birth | keywords=abundance, blessing, fertility, prosperity, vitality | q2=—
+- `د ي ن B003` ↔ `ش ر ك B001` | score_hint=28 | discovery_hint=15 | themes=commerce_exchange, economy, obligation_contract, wealth_property | keywords=commerce, economy, exchange, obligation, property | q2=—
+- `ش ر ك B001` ↔ `ب ر ء root_000099:B004` | score_hint=26 | discovery_hint=15 | themes=commerce_exchange, law, obligation_contract, social_relations, wealth_property | keywords=commerce, law, obligation, property | q2=—
+- `ص ل و B008` ↔ `ش ر ر B002` | score_hint=22 | discovery_hint=15 | themes=agency_action, food_nutrition, household_community | keywords=domesticity, food, preparation, processing | q2=—
+- `ك ت ب B005` ↔ `ب ر ء root_000099:B004` | score_hint=22 | discovery_hint=15 | themes=finance_debt, law, obligation_contract | keywords=contract, finance, law, obligation | q2=—
+- `ك ت ب B005` ↔ `ب ر ء root_000100:B004` | score_hint=22 | discovery_hint=15 | themes=finance_debt, law, obligation_contract | keywords=contract, finance, law, obligation | q2=—
+- `د ي ن B003` ↔ `ب ر ء root_000100:B004` | score_hint=20 | discovery_hint=15 | themes=finance_debt, obligation_contract | keywords=contract, finance, liability, obligation | q2=—
+- `خ ل ص B004` ↔ `ك ت ب B004` | score_hint=20 | discovery_hint=15 | themes=authority_governance, identity_personhood, provision_resource, social_relations | keywords=allocation, identity, membership | q2=—
+- `د ي ن B003` ↔ `ق و م B010` | score_hint=18 | discovery_hint=15 | themes=commerce_exchange, economy, measurement | keywords=commerce, economy, exchange | q2=—
+- `ص ل و B005` ↔ `ب ر ء root_000099:B005` | score_hint=14 | discovery_hint=15 | themes=body, physiology, reproduction_birth | keywords=body, reproduction | q2=—
+- `ء ت ي B007` ↔ `ك ف ر B008` | score_hint=14 | discovery_hint=15 | themes=agriculture, food_nutrition, reproduction_birth | keywords=agriculture, fertility | q2=—
+- `ء ت ي B012` ↔ `ب ر ء root_000099:B005` | score_hint=14 | discovery_hint=15 | themes=physiology, reproduction_birth, sexuality | keywords=reproduction, sexuality | q2=—
+- `ك ف ر B008` ↔ `ن و ر B004` | score_hint=14 | discovery_hint=15 | themes=growth_decay, plant_vegetation, reproduction_birth | keywords=fertility, growth | q2=—
+- `ب ر ء root_000099:B005` ↔ `ب ر ء root_000100:B005` | score_hint=29 | discovery_hint=14 | themes=body, purity_cleansing, reproduction_birth, ritual, sexuality | keywords=body, purity, reproduction, ritual, sexuality | q2=—
+- `ز ك و B002` ↔ `ك ف ر B009` | score_hint=28 | discovery_hint=14 | themes=ethics_morality, law, purity_cleansing, religion_worship | keywords=ethics, law, morality, purity, religion | q2=—
+- `ك ف ر B009` ↔ `ب ر ء root_000099:B002` | score_hint=28 | discovery_hint=14 | themes=ethics_morality, justice_judgment, law, purity_cleansing | keywords=accountability, ethics, law, morality, purity | q2=—
+- `ك ف ر B009` ↔ `ب ر ء root_000100:B002` | score_hint=28 | discovery_hint=14 | themes=ethics_morality, justice_judgment, law, purity_cleansing | keywords=accountability, ethics, law, purification, purity | q2=—
+- `ص ل و B004` ↔ `ش ر ك B006` | score_hint=28 | discovery_hint=14 | themes=animal, control_restraint, danger_harm, habitat_ecology, tools_equipment, wildlife | keywords=animal, danger, hunting, predation | q2=—
+- `ح ن ف B001` ↔ `ق و م B019` | score_hint=24 | discovery_hint=14 | themes=anatomy, body, disease_injury, health_medicine | keywords=anatomy, body, medicine, pathology | q2=—
+- `ء ت ي B010` ↔ `ش ر ك B005` | score_hint=24 | discovery_hint=14 | themes=architecture_construction, geography_landscape, navigation_route, travel | keywords=geography, infrastructure, navigation, travel | q2=—
+- `ء ه ل B002` ↔ `ش ر ك B003` | score_hint=24 | discovery_hint=14 | themes=family, household_community, kinship, marriage_genealogy | keywords=family, household, kinship, marriage | q2=—
+- `ء م ر B002` ↔ `ك ت ب B003` | score_hint=22 | discovery_hint=14 | themes=authority_governance, ethics_morality, law | keywords=authority, governance, law, norm | q2=—
+- `ز ك و B002` ↔ `ب ر ء root_000099:B002` | score_hint=22 | discovery_hint=14 | themes=ethics_morality, law, purity_cleansing | keywords=ethics, law, morality, purity | q2=—
+- `ك ف ر B003` ↔ `ش ر ك B002` | score_hint=20 | discovery_hint=14 | themes=belief_revelation, religion_worship | keywords=belief, doctrine, religion, theology | q2=—
+- `ق و م B019` ↔ `ب ر ء root_000100:B003` | score_hint=20 | discovery_hint=14 | themes=body, disease_injury, health_medicine, suffering_hardship | keywords=body, medicine, pathology | q2=—
+- `ص ل و B003` ↔ `ك ف ر B014` | score_hint=20 | discovery_hint=14 | themes=authority_governance, body, religion_worship, ritual | keywords=body, obedience, ritual | q2=—
+- `ص ل و B007` ↔ `ك ف ر B006` | score_hint=20 | discovery_hint=14 | themes=authority_governance, household_community, identity_personhood, religion_worship | keywords=community, identity, religion | q2=—
+- `ك ف ر B005` ↔ `ب ر ء root_000100:B002` | score_hint=20 | discovery_hint=14 | themes=conflict, identity_personhood, obligation_contract, social_relations | keywords=conflict, identity, responsibility | q2=—
+- `ع ب د B001` ↔ `ب ر ء root_000099:B004` | score_hint=18 | discovery_hint=14 | themes=commerce_exchange, law, wealth_property | keywords=commerce, law, property | q2=—
+- `خ ل ص B004` ↔ `ء ت ي B006` | score_hint=18 | discovery_hint=14 | themes=boundary, identity_personhood, social_relations | keywords=belonging, boundary, identity | q2=—
+- `خ ل ص B004` ↔ `ش ر ك B001` | score_hint=18 | discovery_hint=14 | themes=provision_resource, social_relations, wealth_property | keywords=allocation, ownership, property | q2=—
+- `د ي ن B003` ↔ `ق و م B018` | score_hint=18 | discovery_hint=14 | themes=commerce_exchange, economy, obligation_contract | keywords=commerce, economy, exchange | q2=—
+- `ص ل و B003` ↔ `ب ر ء root_000100:B005` | score_hint=18 | discovery_hint=14 | themes=body, law, ritual | keywords=body, law, ritual | q2=—
+- `ء ت ي B007` ↔ `ز ك و B001` | score_hint=18 | discovery_hint=14 | themes=abundance_scarcity, agriculture, reproduction_birth | keywords=abundance, agriculture, fertility | q2=—
+- `د ي ن B003` ↔ `ك ت ب B005` | score_hint=16 | discovery_hint=14 | themes=finance_debt, obligation_contract | keywords=contract, finance, obligation | q2=—
+- `ص ل و B009` ↔ `ش ر ر B012` | score_hint=16 | discovery_hint=14 | themes=habitat_ecology, plant_vegetation | keywords=botany, ecology, plant | q2=—
+- `ع ب د B007` ↔ `ص ل و B005` | score_hint=14 | discovery_hint=14 | themes=animal, body, physiology | keywords=animal, body | q2=—
+- `خ ل ص B008` ↔ `ء ه ل B006` | score_hint=14 | discovery_hint=14 | themes=cooking_drink, food_nutrition, substance_texture | keywords=nourishment, substance | q2=—
+- `ص ل و B005` ↔ `ء ت ي B012` | score_hint=14 | discovery_hint=14 | themes=animal, physiology, reproduction_birth | keywords=animal, reproduction | q2=—
+- `ء ت ي B002` ↔ `ش ر ك B001` | score_hint=14 | discovery_hint=14 | themes=commerce_exchange, provision_resource, wealth_property | keywords=exchange, ownership | q2=—
+- `ز ك و B001` ↔ `ك ف ر B008` | score_hint=14 | discovery_hint=14 | themes=agriculture, growth_decay, reproduction_birth | keywords=agriculture, fertility | q2=—
+- `ص ل و B005` ↔ `ب ر ء root_000100:B005` | score_hint=12 | discovery_hint=14 | themes=body, reproduction_birth | keywords=body, reproduction | q2=—
+- `ء ت ي B012` ↔ `ب ر ء root_000100:B005` | score_hint=12 | discovery_hint=14 | themes=reproduction_birth, sexuality | keywords=reproduction, sexuality | q2=—
+- `ك ف ر B008` ↔ `ش ر ر B002` | score_hint=12 | discovery_hint=14 | themes=agriculture, food_nutrition | keywords=agriculture, food | q2=—
+- `د ي ن B003` ↔ `ق و م B015` | score_hint=10 | discovery_hint=14 | themes=commerce_exchange, finance_debt, measurement | keywords=commerce | q2=—
+- `ب ر ء root_000099:B001` ↔ `ب ر ء root_000100:B001` | score_hint=33 | discovery_hint=13 | themes=belief_revelation, cognition, physiology, sky_astronomy, stability_endurance | keywords=cosmogony, cosmology, existence, life, ontology, theology | q2=—
+- `د ي ن B001` ↔ `ص ل و B003` | score_hint=30 | discovery_hint=13 | themes=authority_governance, household_community, law, religion_worship, ritual | keywords=community, devotion, law, religion, ritual | q2=—
+- `ع ب د B003` ↔ `د ي ن B001` | score_hint=26 | discovery_hint=13 | themes=authority_governance, religion_worship, ritual | keywords=authority, devotion, religion, ritual, submission | q2=—
+- `ع ب د B003` ↔ `ء ل ه B001` | score_hint=24 | discovery_hint=13 | themes=authority_governance, belief_revelation, religion_worship, ritual | keywords=authority, religion, submission, theology | q2=—
+- `د ي ن B001` ↔ `ز ك و B002` | score_hint=24 | discovery_hint=13 | themes=ethics_morality, law, religion_worship, ritual | keywords=ethics, law, religion, ritual | q2=—
+- `د ي ن B001` ↔ `ك ف ر B006` | score_hint=24 | discovery_hint=13 | themes=authority_governance, household_community, law, religion_worship | keywords=authority, community, law, religion | q2=—
+- `ق و م B001` ↔ `ء ه ل B001` | score_hint=24 | discovery_hint=13 | themes=household_community, identity_personhood, kinship, social_relations | keywords=community, identity, kinship, society | q2=—
+- `خ ل ص B007` ↔ `ء ه ل B001` | score_hint=22 | discovery_hint=13 | themes=household_community, kinship, social_relations | keywords=community, kinship, relationship, society | q2=—
+- `ع ب د B005` ↔ `ء ت ي B009` | score_hint=20 | discovery_hint=13 | themes=animal, husbandry, transport, travel | keywords=animal, transport, travel | q2=—
+- `د ي ن B007` ↔ `ك ف ر B006` | score_hint=20 | discovery_hint=13 | themes=justice_judgment, language_speech, law, testimony_witness | keywords=judgment, law, speech | q2=—
+- `ق و م B001` ↔ `ء ت ي B006` | score_hint=20 | discovery_hint=13 | themes=household_community, identity_personhood, kinship, social_relations | keywords=community, identity, society | q2=—
+- `ص ل و B003` ↔ `ك ف ر B006` | score_hint=20 | discovery_hint=13 | themes=authority_governance, household_community, law, religion_worship | keywords=community, law, religion | q2=—
+- `ء ت ي B006` ↔ `ء ه ل B001` | score_hint=20 | discovery_hint=13 | themes=household_community, identity_personhood, kinship, social_relations | keywords=community, identity, society | q2=—
+- `ك ف ر B013` ↔ `ش ر ك B005` | score_hint=20 | discovery_hint=13 | themes=architecture_construction, geography_landscape, navigation_route, terrain_desert | keywords=geography, passage, terrain | q2=—
+- `ء م ر B002` ↔ `ص ل و B002` | score_hint=18 | discovery_hint=13 | themes=ethics_morality, language_speech, ritual | keywords=ethic, ritual, speech | q2=—
+- `ء م ر B002` ↔ `ص ل و B003` | score_hint=18 | discovery_hint=13 | themes=authority_governance, law, ritual | keywords=law, obedience, ritual | q2=—
+- `ء م ر B002` ↔ `ك ف ر B006` | score_hint=18 | discovery_hint=13 | themes=authority_governance, language_speech, law | keywords=authority, law, speech | q2=—
+- `ع ب د B001` ↔ `ش ر ك B001` | score_hint=18 | discovery_hint=13 | themes=commerce_exchange, law, wealth_property | keywords=commerce, law, property | q2=—
+- `ع ب د B003` ↔ `ص ل و B003` | score_hint=18 | discovery_hint=13 | themes=authority_governance, religion_worship, ritual | keywords=devotion, religion, ritual | q2=—
+- `ع ب د B003` ↔ `ك ف ر B003` | score_hint=18 | discovery_hint=13 | themes=authority_governance, belief_revelation, religion_worship | keywords=faith, religion, theology | q2=—
+- `ع ب د B006` ↔ `ك ف ر B015` | score_hint=18 | discovery_hint=13 | themes=authority_governance, hierarchy_status, ritual | keywords=authority, ceremony, status | q2=—
+- `ع ب د B010` ↔ `ش ر ك B005` | score_hint=18 | discovery_hint=13 | themes=geography_landscape, motion, navigation_route | keywords=geography, movement, route | q2=—
+- `د ي ن B002` ↔ `ق و م B013` | score_hint=18 | discovery_hint=13 | themes=afterlife_eschatology, justice_judgment, time | keywords=eschatology, judgment, time | q2=—
+- `د ي ن B006` ↔ `ك ف ر B006` | score_hint=18 | discovery_hint=13 | themes=authority_governance, household_community, law | keywords=authority, community, law | q2=—
+- `ح ن ف B001` ↔ `ص ل و B005` | score_hint=18 | discovery_hint=13 | themes=anatomy, body, orientation_direction | keywords=anatomy, body, orientation | q2=—
+- `ح ن ف B001` ↔ `ب ر ء root_000100:B003` | score_hint=18 | discovery_hint=13 | themes=body, disease_injury, health_medicine | keywords=body, medicine, pathology | q2=—
+
+## Per-root candidate activations
+
+### ء م ر
+
+- `ء م ر B001` — الشأن والحال
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء م ر B002` — الطلب والإلزام
+  - activated_by_or_with: ص ل و, ك ت ب, ك ف ر
+  - themes: authority_governance, ethics_morality, language_speech, law, ritual
+  - keywords: authority, ethic, governance, law, norm, obedience, ritual, speech
+- `ء م ر B003` — الولاية وصاحب السلطان
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء م ر B004` — النماء والبركة
+  - activated_by_or_with: ز ك و
+  - themes: abundance_scarcity, belief_revelation, physiology, reproduction_birth
+  - keywords: abundance, blessing, fertility, prosperity, vitality
+- `ء م ر B005` — العلامة والموعد
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء م ر B006` — الأمر العظيم المنكر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء م ر B007` — المشاورة وتدبير الرأي
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء م ر B008` — ضعيف الرأي التابع
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء م ر B009` — ولد الضأن الصغير
+  - activated_by_or_with: ش ر ر
+  - themes: life_stage_aging
+  - keywords: youth
+- `ء م ر B010` — الإبداع الإلهي
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ء م ر B011` — تسليح القناة بسنان
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ع ب د
+
+- `ع ب د B001` — الرق والملك
+  - activated_by_or_with: ب ر ء, ش ر ك
+  - themes: commerce_exchange, law, wealth_property
+  - keywords: commerce, law, property
+- `ع ب د B002` — الانتساب إلى الله عبدا
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ع ب د B003` — العبادة والطاعة الخاضعة
+  - activated_by_or_with: ء ل ه, د ي ن, ص ل و, ك ف ر
+  - themes: authority_governance, belief_revelation, religion_worship, ritual
+  - keywords: authority, devotion, faith, religion, ritual, submission, theology
+- `ع ب د B004` — التعبيد والاستعباد
+  - activated_by_or_with: د ي ن
+  - themes: control_restraint, force_power, hierarchy_status, justice_judgment, violence_warfare
+  - keywords: control, hierarchy, oppression, power, violence
+- `ع ب د B005` — التذليل والتسوية
+  - activated_by_or_with: ء ت ي
+  - themes: animal, husbandry, transport, travel
+  - keywords: animal, transport, travel
+- `ع ب د B006` — التكريم والتعظيم
+  - activated_by_or_with: ك ف ر
+  - themes: authority_governance, hierarchy_status, ritual
+  - keywords: authority, ceremony, status
+- `ع ب د B007` — القوة والصلابة
+  - activated_by_or_with: ص ل و
+  - themes: animal, body, physiology
+  - keywords: animal, body
+- `ع ب د B008` — الأنفة والغضب
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ع ب د B009` — قلة اللبث وسرعة العدو
+  - activated_by_or_with: ص ل و
+  - themes: motion, recreation_sport, speed
+  - keywords: motion, speed
+- `ع ب د B010` — التفرق في الوجوه
+  - activated_by_or_with: ش ر ك
+  - themes: geography_landscape, motion, navigation_route
+  - keywords: geography, movement, route
+- `ع ب د B011` — العطب والانقطاع
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ع ب د B012` — صَلاءة الطيب
+  - activated_by_or_with: ك ف ر
+  - themes: storage_vessels
+  - keywords: container
+
+### ء ل ه
+
+- `ء ل ه B001` — التعبد والمعبود
+  - activated_by_or_with: ع ب د
+  - themes: authority_governance, belief_revelation, religion_worship, ritual
+  - keywords: authority, religion, submission, theology
+- `ء ل ه B002` — اسم الله في القسم والنداء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### خ ل ص
+
+- `خ ل ص B001` — تنقية وصفاء بعد شوب
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ل ص B002` — خروج ونجاة من نشب
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ل ص B003` — وصول بعد نفاذ
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ل ص B004` — اختصاص وانفراد عن الشرك
+  - activated_by_or_with: ء ت ي, ش ر ك, ك ت ب
+  - themes: authority_governance, boundary, identity_personhood, provision_resource, social_relations, wealth_property
+  - keywords: allocation, belonging, boundary, identity, membership, ownership, property
+- `خ ل ص B005` — تصفية الدين والقصد لله
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `خ ل ص B006` — اصطفاء واختيار خالص
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `خ ل ص B007` — صفاء مودة وخاصّة
+  - activated_by_or_with: ء ه ل
+  - themes: household_community, kinship, social_relations
+  - keywords: community, kinship, relationship, society
+- `خ ل ص B008` — استخلاص السمن والطعام
+  - activated_by_or_with: ء ه ل
+  - themes: cooking_drink, food_nutrition, substance_texture
+  - keywords: nourishment, substance
+
+### د ي ن
+
+- `د ي ن B001` — الطاعة والانقياد
+  - activated_by_or_with: ز ك و, ص ل و, ع ب د, ك ف ر
+  - themes: authority_governance, ethics_morality, household_community, law, religion_worship, ritual
+  - keywords: authority, community, devotion, ethics, law, religion, ritual, submission
+- `د ي ن B002` — الحساب والجزاء
+  - activated_by_or_with: ق و م
+  - themes: afterlife_eschatology, justice_judgment, time
+  - keywords: eschatology, judgment, time
+- `د ي ن B003` — الدين المالي
+  - activated_by_or_with: ب ر ء, ش ر ك, ق و م, ك ت ب
+  - themes: commerce_exchange, economy, finance_debt, measurement, obligation_contract, wealth_property
+  - keywords: commerce, contract, economy, exchange, finance, liability, obligation, property
+- `د ي ن B004` — الإذلال والملك
+  - activated_by_or_with: ع ب د
+  - themes: control_restraint, force_power, hierarchy_status, justice_judgment, violence_warfare
+  - keywords: control, hierarchy, oppression, power, violence
+- `د ي ن B005` — العادة والشأن
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `د ي ن B006` — مدينة الطاعة
+  - activated_by_or_with: ك ف ر
+  - themes: authority_governance, household_community, law
+  - keywords: authority, community, law
+- `د ي ن B007` — التصديق والتفويض
+  - activated_by_or_with: ك ف ر
+  - themes: justice_judgment, language_speech, law, testimony_witness
+  - keywords: judgment, law, speech
+
+### ح ن ف
+
+- `ح ن ف B001` — ميل القدم واعوجاجها
+  - activated_by_or_with: ب ر ء, ص ل و, ق و م
+  - themes: anatomy, body, disease_injury, health_medicine, orientation_direction
+  - keywords: anatomy, body, medicine, orientation, pathology
+- `ح ن ف B002` — الميل إلى جهة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ح ن ف B003` — الميل إلى الدين المستقيم
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ح ن ف B004` — شعائر الحنيفية
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ح ن ف B005` — حسب حديث الإسلام
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+
+### ق و م
+
+- `ق و م B001` — جماعة الناس والرجال
+  - activated_by_or_with: ء ت ي, ء ه ل
+  - themes: household_community, identity_personhood, kinship, social_relations
+  - keywords: community, identity, kinship, society
+- `ق و م B002` — انتصاب وقيام بالبدن
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B003` — عزم ونهوض إلى الأمر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B004` — رعاية وحفظ وولاية
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B005` — إقامة وإدامة وتوفية حق
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ق و م B006` — مقام وإقامة في موضع
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B007` — نيابة وقيام مقام غيره
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B008` — استقامة واعتدال واستواء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B009` — قوام وعماد ومعاش
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B010` — قيمة وتقويم وتسعير
+  - activated_by_or_with: د ي ن
+  - themes: commerce_exchange, economy, measurement
+  - keywords: commerce, economy, exchange
+- `ق و م B011` — قامة وقوام الجسم والطول
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B012` — آلة قائمة وجزء قائم
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B013` — قيامة وبعث وقيام الساعة
+  - activated_by_or_with: د ي ن
+  - themes: afterlife_eschatology, justice_judgment, time
+  - keywords: eschatology, judgment, time
+- `ق و م B014` — مقاومة ومنازلة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B015` — وزن سواء ومقدار معتدل
+  - activated_by_or_with: د ي ن
+  - themes: commerce_exchange, finance_debt, measurement
+  - keywords: commerce
+- `ق و م B016` — جمود ووقوف وكلال
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B017` — انتصاف النهار وقائم الظهيرة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B018` — نفاق السوق
+  - activated_by_or_with: د ي ن
+  - themes: commerce_exchange, economy, obligation_contract
+  - keywords: commerce, economy, exchange
+- `ق و م B019` — وجع قائم بالعضو
+  - activated_by_or_with: ب ر ء, ح ن ف
+  - themes: anatomy, body, disease_injury, health_medicine, suffering_hardship
+  - keywords: anatomy, body, medicine, pathology
+- `ق و م B020` — قوام في قوائم الشاة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و م B021` — عين قائمة ذاهبة البصر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ص ل و
+
+- `ص ل و B001` — ملاقاة النار وحرها
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ص ل و B002` — الدعاء والثناء والرحمة
+  - activated_by_or_with: ء م ر
+  - themes: ethics_morality, language_speech, ritual
+  - keywords: ethic, ritual, speech
+- `ص ل و B003` — العبادة المخصوصة
+  - activated_by_or_with: ء م ر, ب ر ء, د ي ن, ع ب د, ك ف ر
+  - themes: authority_governance, body, household_community, law, religion_worship, ritual
+  - keywords: body, community, devotion, law, obedience, religion, ritual
+- `ص ل و B004` — الشرك المنصوبة
+  - activated_by_or_with: ش ر ك
+  - themes: animal, control_restraint, danger_harm, habitat_ecology, tools_equipment, wildlife
+  - keywords: animal, danger, hunting, predation
+- `ص ل و B005` — الصَّلا من الظهر والجنب
+  - activated_by_or_with: ء ت ي, ب ر ء, ح ن ف, ع ب د
+  - themes: anatomy, animal, body, orientation_direction, physiology, reproduction_birth
+  - keywords: anatomy, animal, body, orientation, reproduction
+- `ص ل و B006` — تلو السابق في السباق
+  - activated_by_or_with: ع ب د
+  - themes: motion, recreation_sport, speed
+  - keywords: motion, speed
+- `ص ل و B007` — مواضع الصلاة ودور العبادة
+  - activated_by_or_with: ك ف ر
+  - themes: authority_governance, household_community, identity_personhood, religion_worship
+  - keywords: community, identity, religion
+- `ص ل و B008` — الصَّلاية حجر الدق
+  - activated_by_or_with: ش ر ر
+  - themes: agency_action, food_nutrition, household_community
+  - keywords: domesticity, food, preparation, processing
+- `ص ل و B009` — الصِّليان نبت ترعاه الإبل
+  - activated_by_or_with: ش ر ر
+  - themes: habitat_ecology, plant_vegetation
+  - keywords: botany, ecology, plant
+
+### ء ت ي
+
+- `ء ت ي B001` — الإتيان والمجيء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ت ي B002` — الإيتاء والإعطاء
+  - activated_by_or_with: ش ر ك
+  - themes: commerce_exchange, provision_resource, wealth_property
+  - keywords: exchange, ownership
+- `ء ت ي B003` — مأتى الأمر وتهيؤه
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ت ي B004` — مجرى الماء وتسليك سبيله
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ت ي B005` — السيل الآتي من غير البلد
+  - activated_by_or_with: ش ر ر
+  - themes: weather_climate
+  - keywords: weather
+- `ء ت ي B006` — الغريب الداخل في غير قومه
+  - activated_by_or_with: ء ه ل, خ ل ص, ق و م
+  - themes: boundary, household_community, identity_personhood, kinship, social_relations
+  - keywords: belonging, boundary, community, identity, society
+- `ء ت ي B007` — خروج النماء والنتاج
+  - activated_by_or_with: ز ك و, ك ف ر
+  - themes: abundance_scarcity, agriculture, food_nutrition, harvest_cultivation, reproduction_birth
+  - keywords: abundance, agriculture, fertility, harvest
+- `ء ت ي B008` — الإتاوة المؤداة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ت ي B009` — رجع يدي الناقة في السير
+  - activated_by_or_with: ع ب د
+  - themes: animal, husbandry, transport, travel
+  - keywords: animal, transport, travel
+- `ء ت ي B010` — الميتاء طريق ومحاذاة
+  - activated_by_or_with: ش ر ك
+  - themes: architecture_construction, geography_landscape, navigation_route, travel
+  - keywords: geography, infrastructure, navigation, travel
+- `ء ت ي B011` — إتيان البلاء والهلاك
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ت ي B012` — استئتاء الناقة
+  - activated_by_or_with: ب ر ء, ص ل و
+  - themes: animal, physiology, reproduction_birth, sexuality
+  - keywords: animal, reproduction, sexuality
+- `ء ت ي B013` — نَفاذ الرجل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ز ك و
+
+- `ز ك و B001` — النماء والزيادة
+  - activated_by_or_with: ء ت ي, ء م ر, ك ف ر
+  - themes: abundance_scarcity, agriculture, belief_revelation, growth_decay, physiology, reproduction_birth
+  - keywords: abundance, agriculture, blessing, fertility, prosperity, vitality
+- `ز ك و B002` — الطهارة والصلاح
+  - activated_by_or_with: ب ر ء, د ي ن, ك ف ر
+  - themes: ethics_morality, law, purity_cleansing, religion_worship, ritual
+  - keywords: ethics, law, morality, purity, religion, ritual
+- `ز ك و B003` — زكاة المال والصدقة
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ز ك و B004` — الملاءمة واللياقة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ز ك و B005` — الزوج والشفع
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ك ف ر
+
+- `ك ف ر B001` — ستر وتغطية
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B002` — غمر ساتر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B003` — حجب الحق
+  - activated_by_or_with: ش ر ك, ع ب د
+  - themes: authority_governance, belief_revelation, religion_worship
+  - keywords: belief, doctrine, faith, religion, theology
+- `ك ف ر B004` — ستر النعمة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B005` — تبرؤ وتنصل
+  - activated_by_or_with: ب ر ء
+  - themes: conflict, identity_personhood, obligation_contract, social_relations
+  - keywords: conflict, identity, responsibility
+- `ك ف ر B006` — نسبة إلى الكفر
+  - activated_by_or_with: ء م ر, د ي ن, ص ل و
+  - themes: authority_governance, household_community, identity_personhood, justice_judgment, language_speech, law, religion_worship, testimony_witness
+  - keywords: authority, community, identity, judgment, law, religion, speech
+- `ك ف ر B007` — إلجاء إلى العصيان
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B008` — تغطية البذر
+  - activated_by_or_with: ء ت ي, ز ك و, ش ر ر, ن و ر
+  - themes: agriculture, food_nutrition, growth_decay, plant_vegetation, reproduction_birth
+  - keywords: agriculture, fertility, food, growth
+- `ك ف ر B009` — محو الإثم بتغطيته
+  - activated_by_or_with: ب ر ء, ز ك و
+  - themes: ethics_morality, justice_judgment, law, purity_cleansing, religion_worship
+  - keywords: accountability, ethics, law, morality, purification, purity, religion
+- `ك ف ر B010` — كمام الثمر
+  - activated_by_or_with: ء ت ي, ع ب د, ن و ر
+  - themes: growth_decay, harvest_cultivation, plant_vegetation, reproduction_birth, storage_vessels
+  - keywords: botany, container, fertility, growth, harvest
+- `ك ف ر B011` — كافور طيب
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B012` — موضع منقطع
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ف ر B013` — ثنية مستورة
+  - activated_by_or_with: ش ر ك
+  - themes: architecture_construction, geography_landscape, navigation_route, terrain_desert
+  - keywords: geography, passage, terrain
+- `ك ف ر B014` — خضوع متطامن
+  - activated_by_or_with: ص ل و
+  - themes: authority_governance, body, religion_worship, ritual
+  - keywords: body, obedience, ritual
+- `ك ف ر B015` — تاج يغطي
+  - activated_by_or_with: ع ب د
+  - themes: authority_governance, hierarchy_status, ritual
+  - keywords: authority, ceremony, status
+
+### ء ه ل
+
+- `ء ه ل B001` — جماعة القرب والانتماء
+  - activated_by_or_with: ء ت ي, خ ل ص, ق و م
+  - themes: household_community, identity_personhood, kinship, social_relations
+  - keywords: community, identity, kinship, relationship, society
+- `ء ه ل B002` — اتخاذ الأهل بالزواج
+  - activated_by_or_with: ش ر ك
+  - themes: family, household_community, kinship, marriage_genealogy
+  - keywords: family, household, kinship, marriage
+- `ء ه ل B003` — موضع الصلاح والاستحقاق
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ه ل B004` — أنس المكان والعمران
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ه ل B005` — تحية السعة والأنس
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ه ل B006` — الإهالة المذابة
+  - activated_by_or_with: خ ل ص, ش ر ر
+  - themes: anatomy, cooking_drink, food_nutrition, substance_texture
+  - keywords: cooking, fat, food, liquid, meat, nourishment, substance
+
+### ك ت ب
+
+- `ك ت ب B001` — ضم شيء إلى شيء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ت ب B002` — نظم الحروف واسم المكتوب
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ك ت ب B003` — إثبات يوجب حكما أو قدرا
+  - activated_by_or_with: ء م ر
+  - themes: authority_governance, ethics_morality, law
+  - keywords: authority, governance, law, norm
+- `ك ت ب B004` — إدخال الاسم في سجل أو زمرة
+  - activated_by_or_with: خ ل ص
+  - themes: authority_governance, identity_personhood, provision_resource, social_relations
+  - keywords: allocation, identity, membership
+- `ك ت ب B005` — مكاتبة العبد على عتقه
+  - activated_by_or_with: ب ر ء, د ي ن
+  - themes: finance_debt, law, obligation_contract
+  - keywords: contract, finance, law, obligation
+
+### ش ر ك
+
+- `ش ر ك B001` — الشَّرِكة والمشاركة
+  - activated_by_or_with: ء ت ي, ب ر ء, خ ل ص, د ي ن, ع ب د
+  - themes: commerce_exchange, economy, law, obligation_contract, provision_resource, social_relations, wealth_property
+  - keywords: allocation, commerce, economy, exchange, law, obligation, ownership, property
+- `ش ر ك B002` — الشِّرك بالله
+  - activated_by_or_with: ك ف ر
+  - themes: belief_revelation, religion_worship
+  - keywords: belief, doctrine, religion, theology
+- `ش ر ك B003` — شِرك المصاهرة
+  - activated_by_or_with: ء ه ل
+  - themes: family, household_community, kinship, marriage_genealogy
+  - keywords: family, household, kinship, marriage
+- `ش ر ك B004` — شِراك النعل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ك B005` — شِرك الطريق
+  - activated_by_or_with: ء ت ي, ع ب د, ك ف ر
+  - themes: architecture_construction, geography_landscape, motion, navigation_route, terrain_desert, travel
+  - keywords: geography, infrastructure, movement, navigation, passage, route, terrain, travel
+- `ش ر ك B006` — شَرَك الصائد
+  - activated_by_or_with: ص ل و
+  - themes: animal, control_restraint, danger_harm, habitat_ecology, tools_equipment, wildlife
+  - keywords: animal, danger, hunting, predation
+- `ش ر ك B007` — تتابع شَرْكي
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ك B008` — رأي مشترك
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ن و ر
+
+- `ن و ر B001` — الضياء والإضاءة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ن و ر B002` — النار المتقدة والسمة بها
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ن و ر B003` — تنور النار من بعيد
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ن و ر B004` — نور الشجر وزهره
+  - activated_by_or_with: ك ف ر
+  - themes: growth_decay, plant_vegetation, reproduction_birth
+  - keywords: botany, fertility, growth
+- `ن و ر B005` — المنار والمنارة الظاهرة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ن و ر B006` — النِّفار وقلة الثبات
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ن و ر B007` — النائرة بين القوم
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ن و ر B008` — دخان الوشم والكحل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ن و ر B009` — النُّورَة المطلية
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ن و ر B010` — التلبيس على الغير
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ن و ر B011` — وضوح النِّير وبروزه
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### خ ل د
+
+- `خ ل د B001` — ثبات وبقاء لا يسرع إليه الفناء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ل د B002` — ركون ولصوق وملازمة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ل د B003` — زينة ملازمة للأذن أو اليد
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ل د B004` — بال مستقر في القلب
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ل د B005` — دويبة عمياء تشبه الجرذ
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ش ر ر
+
+- `ش ر ر B001` — الشَّرّ والسوء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B002` — نشر الشيء في الشمس ليجف
+  - activated_by_or_with: ء ت ي, ص ل و, ك ف ر
+  - themes: agency_action, agriculture, food_nutrition, household_community, weather_climate
+  - keywords: agriculture, domesticity, food, preparation, processing, weather
+- `ش ر ر B003` — شَرَر النار المتطاير
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B004` — الشَّرْشَرَة تقطيع ونفض
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B005` — الشواء المتقاطر دسمه
+  - activated_by_or_with: ء ه ل
+  - themes: anatomy, cooking_drink, food_nutrition, substance_texture
+  - keywords: cooking, fat, food, liquid, meat
+- `ش ر ر B006` — الشراشر ذباذب وأثقال
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B007` — إلقاء الشراشر إلقاء النفس كلها
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B008` — إظهار الشيء وإبرازه
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B009` — الشَّرّان أذى كالبعوض
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B010` — شِرّة الشباب نشاط وحرص
+  - activated_by_or_with: ء م ر
+  - themes: life_stage_aging
+  - keywords: youth
+- `ش ر ر B011` — المشارة مخاصمة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B012` — الشِّرْشِر نبت
+  - activated_by_or_with: ص ل و
+  - themes: habitat_ecology, plant_vegetation
+  - keywords: botany, ecology, plant
+
+### ب ر ء
+
+- `ب ر ء root_000099:B001` — الخَلْق والإيجاد
+  - activated_by_or_with: same-root only
+  - themes: belief_revelation, cognition, physiology, sky_astronomy, stability_endurance
+  - keywords: cosmogony, cosmology, existence, life, ontology, theology
+- `ب ر ء root_000099:B002` — البراءة والتباعد
+  - activated_by_or_with: ز ك و, ك ف ر
+  - themes: ethics_morality, justice_judgment, law, purity_cleansing
+  - keywords: accountability, ethics, law, morality, purity
+- `ب ر ء root_000099:B003` — بُرْء المرض
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ر ء root_000099:B004` — إبراء الحق والمفارقة
+  - activated_by_or_with: د ي ن, ش ر ك, ع ب د, ك ت ب
+  - themes: commerce_exchange, finance_debt, law, obligation_contract, social_relations, wealth_property
+  - keywords: commerce, contract, finance, law, obligation, property
+- `ب ر ء root_000099:B005` — الاستبراء
+  - activated_by_or_with: ء ت ي, ص ل و
+  - themes: body, physiology, purity_cleansing, reproduction_birth, ritual, sexuality
+  - keywords: body, purity, reproduction, ritual, sexuality
+- `ب ر ء root_000099:B006` — لَيْلَة بَرَاء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ر ء root_000099:B007` — بُرْأَة الصائد
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ر ء root_000100:B001` — الخَلْق والإيجاد
+  - activated_by_or_with: same-root only
+  - themes: belief_revelation, cognition, physiology, sky_astronomy, stability_endurance
+  - keywords: cosmogony, cosmology, existence, life, ontology, theology
+- `ب ر ء root_000100:B002` — البراءة والتباعد
+  - activated_by_or_with: ك ف ر
+  - themes: conflict, ethics_morality, identity_personhood, justice_judgment, law, obligation_contract, purity_cleansing, social_relations
+  - keywords: accountability, conflict, ethics, identity, law, purification, purity, responsibility
+- `ب ر ء root_000100:B003` — بُرْء المرض
+  - activated_by_or_with: ح ن ف, ق و م
+  - themes: body, disease_injury, health_medicine, suffering_hardship
+  - keywords: body, medicine, pathology
+- `ب ر ء root_000100:B004` — إبراء الحق والمفارقة
+  - activated_by_or_with: د ي ن, ك ت ب
+  - themes: finance_debt, law, obligation_contract
+  - keywords: contract, finance, law, liability, obligation
+- `ب ر ء root_000100:B005` — الاستبراء بالحيض
+  - activated_by_or_with: ء ت ي, ص ل و
+  - themes: body, law, purity_cleansing, reproduction_birth, ritual, sexuality
+  - keywords: body, law, purity, reproduction, ritual, sexuality
+- `ب ر ء root_000100:B006` — لَيْلَة بَرَاء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ب ر ء root_000100:B007` — بُرْأَة الصائد
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+## Agent instruction
+
+Classify branches as A/B/C/S/X, but use discovery bias:
+
+- uncertain S vs C => C
+- uncertain C vs B => C/B
+- broad bridge => preserve with evidence profile
+- only data-invalid branches => X
+- consume 10-discovery-ranking.json as a mechanical review queue; do not generate discovery ranking
