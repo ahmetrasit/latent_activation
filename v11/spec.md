@@ -165,6 +165,26 @@ For every `S`, do not elaborate unless it is surprising.
 
 For every `X`, identify the data issue.
 
+## Agent model requirement
+
+All workflow agents must use:
+
+```text
+model: gpt-5.6-sol
+reasoning_effort: high
+```
+
+This applies to:
+
+```text
+Agent A — activation pass
+Agent B — secondary/surprise expansion
+Agent C — final integration/report generation
+any optional mechanism synthesis agent
+```
+
+Do not silently downgrade the model or reasoning effort. If `gpt-5.6-sol` with high reasoning is unavailable, stop and report the blocker instead of starting substitute agents.
+
 ## Final integration/report agent
 
 The final report is an agent-produced artifact.

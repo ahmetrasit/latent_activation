@@ -4,5 +4,4 @@ This repository contains experimental workflow packages and run outputs for late
 
 ## Development Status
 
-Both `v3` and `v5` are in development.
-
+`v11` and `v12` are the production workflow versions.
