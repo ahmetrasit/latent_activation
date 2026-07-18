@@ -12,8 +12,8 @@ from validate_response import validate
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_PROMPT = REPO_ROOT / "cold_reading" / "prompts" / "reader.md"
-DEFAULT_SCHEMA = REPO_ROOT / "cold_reading" / "schemas" / "reader-response.schema.json"
+DEFAULT_PROMPT = REPO_ROOT / "v12" / "prompts" / "reader.md"
+DEFAULT_SCHEMA = REPO_ROOT / "v12" / "schemas" / "reader-response.schema.json"
 
 
 def sha256(path: Path) -> str:

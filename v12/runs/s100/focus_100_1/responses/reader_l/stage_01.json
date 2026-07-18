@@ -1,0 +1,226 @@
+{
+  "reader_id": "reader_l",
+  "focus_ref": "100:1",
+  "stage": 1,
+  "revealed_refs": [
+    "100:1",
+    "100:2"
+  ],
+  "models": [
+    {
+      "model_id": "m3_friction_heat_trace",
+      "status": "strengthened",
+      "confidence": "strong",
+      "mechanism": "The prior speculative material reading is now directly activated: panting runners are followed by agents that draw out sparks by striking. The focus ayah therefore reads less as isolated breath and more as the first phase of a contact process: rapid bodies over resistant ground, then impact, then hidden fire made visible.",
+      "activation_trace": [
+        {
+          "root": "ع د و",
+          "branch_id": "B002",
+          "literal_contribution": "running and hastening, including a horse's running",
+          "assigned_role": "supplies the high-speed body whose motion can lead into impact"
+        },
+        {
+          "root": "ع د و",
+          "branch_id": "B010",
+          "literal_contribution": "hard dry or uneven ground",
+          "assigned_role": "supplies the resistant surface needed for strike and friction"
+        },
+        {
+          "root": "ض ب ح",
+          "branch_id": "B001",
+          "literal_contribution": "audible breathing or mouth-sound of horses while running",
+          "assigned_role": "marks the living force immediately before material contact"
+        },
+        {
+          "root": "ض ب ح",
+          "branch_id": "B003",
+          "literal_contribution": "scorching the top of wood, fire-striker stones, or anything touched by fire",
+          "assigned_role": "links the focus word's dormant fire branch to the next ayah's explicit spark-making"
+        },
+        {
+          "root": "ض ب ح",
+          "branch_id": "B004",
+          "literal_contribution": "slight blackening by fire or sun",
+          "assigned_role": "provides the visible trace left by ignition or heat"
+        },
+        {
+          "root": "و ر ي",
+          "branch_id": "B002",
+          "literal_contribution": "hidden fire coming out of a fire-stick, kindling or rekindling fire",
+          "assigned_role": "makes fire emergence explicit in the revealed sequence"
+        },
+        {
+          "root": "ق د ح",
+          "branch_id": "B001",
+          "literal_contribution": "striking or kindling fire from a stick, stone, or implement",
+          "assigned_role": "supplies the mechanical impact that releases the spark"
+        }
+      ],
+      "structural_cues": [
+        "The two ayat form a sequence with فـ: panting runners, then spark-producers striking.",
+        "ض ب ح already contained scorch and blackening branches at stage 0; 100:2 now places explicit kindling and striking immediately after it.",
+        "The repeated plural participial pattern العاديات / الموريات keeps the same class of agents moving through successive functions.",
+        "Both ayat end with manner nouns, ضبحا and قدحا, making breath and strike parallel modes in one process."
+      ],
+      "abductive_moves": [
+        {
+          "assumption": "The spark in 100:2 is caused by the same rushing agents introduced in 100:1 rather than by a separate unrelated image.",
+          "why_invoked": "The packet gives sequential participles and the فـ relation, but does not explicitly say the panting runners' contact creates the sparks.",
+          "causal_direction": "supplied elements: runners panting, then spark-producers striking; inferred arrow: running over resistant ground leads to striking contact, which releases hidden fire.",
+          "alternatives": [
+            "100:2 could be an independent oath image rather than a causal continuation.",
+            "The sparks could come from weapons or implements, not from the runners' motion against ground."
+          ]
+        }
+      ],
+      "changed_reading": {
+        "before": "At stage 0, the heat reading was only an analogy: rushing bodies might leave a scorch-like trace.",
+        "after": "After 100:2, the focus panting becomes the pre-impact phase of an ignition sequence: breath-driven speed meets resistant matter and produces visible sparks."
+      },
+      "minimal_triggers": [
+        "100:1 ع د و/B002",
+        "100:1 ع د و/B010",
+        "100:1 ض ب ح/B003",
+        "100:2 و ر ي/B002",
+        "100:2 ق د ح/B001",
+        "فـ sequence from 100:1 to 100:2"
+      ],
+      "ablation": "Removing 100:2, especially و ر ي/B002 or ق د ح/B001, returns the heat reading to a speculative dormant branch of ض ب ح. Removing ض ب ح/B003 leaves ordinary panting followed by sparks, but loses the focus-root bridge that lets fire alter the reading of 100:1 itself."
+    },
+    {
+      "model_id": "m1_kinetic_expenditure",
+      "status": "revised",
+      "confidence": "medium",
+      "mechanism": "The stage-0 expenditure model is revised from biological strain alone into energy conversion. Panting is still the sign of exertion, but the next ayah shows that the exertion does not remain inside the body: it is transmitted outward as impact that brings sparks out of concealed fire.",
+      "activation_trace": [
+        {
+          "root": "ع د و",
+          "branch_id": "B002",
+          "literal_contribution": "running and hastening",
+          "assigned_role": "provides kinetic force accumulated through motion"
+        },
+        {
+          "root": "ض ب ح",
+          "branch_id": "B001",
+          "literal_contribution": "audible breathing of horses while running",
+          "assigned_role": "signals bodily expenditure and pressure before outward release"
+        },
+        {
+          "root": "ض ب ح",
+          "branch_id": "B002",
+          "literal_contribution": "running with stretched forelegs",
+          "assigned_role": "gives the body a striking gait capable of transferring force"
+        },
+        {
+          "root": "و ر ي",
+          "branch_id": "B002",
+          "literal_contribution": "hidden fire emerging from the fire-stick",
+          "assigned_role": "marks latent energy becoming manifest"
+        },
+        {
+          "root": "ق د ح",
+          "branch_id": "B001",
+          "literal_contribution": "striking out fire",
+          "assigned_role": "names the outward transfer mechanism from motion to spark"
+        }
+      ],
+      "structural_cues": [
+        "The repeated structure of participle plus verbal noun makes ضبحا and قدحا paired outputs: breath first, spark second.",
+        "The sequence introduced by فـ implies progression rather than mere restatement.",
+        "و ر ي/B002 contributes concealment-to-emergence of fire, giving the runner's exertion an external result."
+      ],
+      "abductive_moves": [
+        {
+          "assumption": "Breath and spark are two manifestations of one stored-and-released force.",
+          "why_invoked": "The text supplies adjacent outputs of motion, but the conservation-like energy model is inferred.",
+          "causal_direction": "supplied elements: panting from running and sparks from striking; inferred arrow: bodily force accumulates as exertion and is released as material ignition.",
+          "alternatives": [
+            "Breath may simply describe animals while sparks describe hooves or tools without a shared mechanism.",
+            "The line may intend serial vividness rather than energy transfer."
+          ]
+        }
+      ],
+      "changed_reading": {
+        "before": "The focus read as intense motion whose breath reveals bodily cost.",
+        "after": "The focus reads as charged motion: panting is the audible pressure of force that will be transmitted into the world as sparks."
+      },
+      "minimal_triggers": [
+        "100:1 ع د و/B002",
+        "100:1 ض ب ح/B001",
+        "100:1 ض ب ح/B002",
+        "100:2 و ر ي/B002",
+        "100:2 ق د ح/B001",
+        "parallel manner nouns ضبحا / قدحا"
+      ],
+      "ablation": "Without 100:2 ق د ح/B001, the model remains internal bodily exertion. Without 100:2 و ر ي/B002, the outward manifestation as latent fire emerging is much weaker. Without ض ب ح/B001, the focus loses the audible internal-pressure phase."
+    },
+    {
+      "model_id": "m2_boundary_crossing_incursion",
+      "status": "strengthened",
+      "confidence": "medium",
+      "mechanism": "The incursion reading gains a concrete contact phase. The runners who may overstep a boundary are now followed by striking spark-makers, so their rush is not only entry into contested space but forceful contact with it. The newly revealed ayah still does not supply an enemy, but it strengthens the model from abstract crossing to impact-bearing advance.",
+      "activation_trace": [
+        {
+          "root": "ع د و",
+          "branch_id": "B001",
+          "literal_contribution": "overstepping a bound into injustice, aggression, attacking, or raiding",
+          "assigned_role": "casts the rush as possible incursion beyond a limit"
+        },
+        {
+          "root": "ع د و",
+          "branch_id": "B003",
+          "literal_contribution": "enemy and enmity",
+          "assigned_role": "keeps open a social polarity for the advance"
+        },
+        {
+          "root": "ض ب ح",
+          "branch_id": "B001",
+          "literal_contribution": "breath-sound of horses while running",
+          "assigned_role": "makes the approach embodied and imminent"
+        },
+        {
+          "root": "ق د ح",
+          "branch_id": "B002",
+          "literal_contribution": "scoring, boring, splitting, or marking a physical thing with a flaw",
+          "assigned_role": "turns entry into damaging contact or marking of the crossed space"
+        },
+        {
+          "root": "ق د ح",
+          "branch_id": "B001",
+          "literal_contribution": "striking out fire",
+          "assigned_role": "adds impact and visible spark to the advance"
+        }
+      ],
+      "structural_cues": [
+        "100:2 continues 100:1 with فـ, making the second action an immediate consequence or next phase.",
+        "The movement term in 100:1 is followed by a striking term in 100:2, creating a spatial sequence of approach then contact.",
+        "ق د ح/B002 supplies a non-fire branch of physical marking or flawing, which helps the incursion model avoid depending only on spark imagery."
+      ],
+      "abductive_moves": [
+        {
+          "assumption": "Striking and scoring can be read as the material effect of crossing into another domain.",
+          "why_invoked": "The packet supplies overstepping and striking/flawing branches, but not an explicit target boundary or victim.",
+          "causal_direction": "supplied elements: possible overstepping runners and subsequent striking/scoring; inferred arrow: boundary-crossing advance culminates in damaging contact.",
+          "alternatives": [
+            "The sequence may be purely physical hoof-strike with no social incursion.",
+            "The enemy branch may remain dormant until a later ayah supplies opposition."
+          ]
+        }
+      ],
+      "changed_reading": {
+        "before": "The focus could be a collective rush with a possible hostile crossing, but the target and contact were absent.",
+        "after": "The focus now leans more strongly toward an advance that reaches contact: panting approach is followed by striking, sparks, and possible marking of what is crossed."
+      },
+      "minimal_triggers": [
+        "100:1 ع د و/B001",
+        "100:1 ع د و/B003",
+        "100:2 ق د ح/B001",
+        "100:2 ق د ح/B002",
+        "approach-then-contact sequence across 100:1-100:2"
+      ],
+      "ablation": "Removing 100:2 ق د ح/B001 and B002 leaves only the stage-0 speculative incursion. Removing ع د و/B001 collapses the model into ordinary physical striking after running, with no boundary-crossing force."
+    }
+  ],
+  "surprise_reading": "With 100:2 revealed, the focus panting is no longer just a sound of speed. It becomes the first phase of a sequence in which rushing bodies transmit force into resistant matter, drawing out sparks; secondarily, that same approach-then-strike pattern strengthens the possibility of a boundary-crossing incursion that reaches damaging contact.",
+  "discarded_or_unchanged": []
+}
