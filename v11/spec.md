@@ -71,9 +71,10 @@ The script emits evidence. Agents interpret it.
 ### Relational
 
 - shared leaf theme
-- shared parent theme
 - shared raw keyword
 - Q2 branch relation
+
+Parent themes are not valid bridge evidence. The 17 parent-theme layer is too broad and must not create, score, rank, or strengthen activation bridges. Parent themes should not be exposed to agents as bridge evidence.
 
 ### Passage-structural
 
@@ -90,7 +91,7 @@ The script emits evidence. Agents interpret it.
 
 ## Relaxed discovery rules
 
-1. Theme overlap alone may create a `C` candidate.
+1. Leaf-theme overlap alone may create a `C` candidate.
 2. Broad themes are not discarded; they are marked broad.
 3. One-hop root-to-root activation is enough to preserve a candidate.
 4. Same-root branch clusters are preserved, but marked as weaker than cross-root bridges unless the passage requires them.
@@ -105,13 +106,49 @@ Scores are not judgments. They only sort review queues.
 shared raw keyword        +4
 Q2 relation               +5
 shared leaf theme         +2
-shared parent theme       +1
 rare theme bonus          +1
 same-root bridge          -1
 high-connectivity branch  no penalty; add "high-connectivity" flag only
 ```
 
 The key design choice is not to subtract away broad possibilities. Instead, keep them and expose their evidence profile.
+
+## Dense passage / pericope workflow
+
+A whole passage is dense when the mechanical candidate reservoir exceeds the default agent limit:
+
+```text
+candidate_count > 10,000
+```
+
+Dense passages are not agent-ready as a whole-surah package. The script must stop before publishing `04-agent-activation-packet.md` and instead emit:
+
+```text
+DENSE_PASSAGE_GATE.json
+00-root-resolution-audit.dense.json
+01-passage.dense.json
+02-branches.summary.json
+03-candidate-bridges.summary.json
+11-pericope-plan.json
+```
+
+The orchestrator must then run each listed contiguous pericope as its own normal v11 package. The default pericope planner targets:
+
+```text
+≤ 18 unique surface roots
+≤ 8 ayat
+```
+
+Fragmenting a dense surah is not considered loss of evidence if a final cross-pericope integration pass is run after pericope reports. That final pass uses:
+
+```text
+pericope reports
+dense-gate summary
+whole-surah passage order
+top mechanical discovery hints when available
+```
+
+The integration pass checks long-range activation between pericopes without sending the entire dense bridge reservoir to an agent.
 
 ## Mechanical discovery ranking ownership
 

@@ -49,7 +49,7 @@ surface roots, words, order, morphology
   ↓
 all Qnet branches for those roots
   ↓
-theme / keyword / Q2 candidate bridges
+leaf-theme / keyword / Q2 candidate bridges
   ↓
 high-recall candidate graph
   ↓
@@ -95,6 +95,8 @@ The script enforces this by default. It also stops if a resolved root has Furūq
 
 Diagnostic override runs are not agent-ready. If either override flag is supplied, the script publishes `DIAGNOSTIC_ONLY.json` and a diagnostic audit, and it does not publish `04-agent-activation-packet.md` or the normal mechanical output set.
 
+Parent-theme bridges are disabled. The 17 parent themes are too broad for activation evidence and must not create, score, rank, or strengthen bridges.
+
 The script accepts compressed SQLite inputs. Defaults are:
 
 ```text
@@ -106,6 +108,15 @@ resources/quran
 ```
 
 Use `bridge_theme_full` by default. `bridge_theme_current` is a smaller/current subset and can miss valid Qnet nodes for roots that are present in QAC and Furūq.
+
+Dense whole-surah packages are also not agent-ready. By default, if the candidate reservoir exceeds 10,000 candidates, the script emits a dense gate and pericope plan instead of `04-agent-activation-packet.md`:
+
+```text
+DENSE_PASSAGE_GATE.json
+11-pericope-plan.json
+```
+
+Run each listed pericope as a separate package, then integrate across pericope reports.
 
 ## Outputs
 

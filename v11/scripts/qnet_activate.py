@@ -80,6 +80,10 @@ MECHANICAL_OUTPUTS = [
     "10-discovery-ranking.json",
 ]
 
+DENSE_AGENT_CANDIDATE_LIMIT = 10_000
+PERICOPE_TARGET_UNIQUE_ROOTS = 18
+PERICOPE_TARGET_AYAHS = 8
+
 
 def publish_staged_outputs(staging_dir: Path, out_dir: Path) -> None:
     missing = [name for name in MECHANICAL_OUTPUTS if not (staging_dir / name).exists()]
@@ -119,6 +123,47 @@ def write_diagnostic_manifest(staging_dir: Path, reason: str, audit_payload: dic
         },
     )
     write_json(staging_dir / "00-root-resolution-audit.diagnostic.json", audit_payload)
+
+
+def write_dense_gate_manifest(
+    staging_dir: Path,
+    out_dir: Path,
+    reason: str,
+    audit_payload: dict[str, Any],
+    passage: dict[str, Any],
+    branches: dict[str, Any],
+    bridges: dict[str, Any],
+    pericope_plan: dict[str, Any],
+) -> None:
+    if out_dir.exists() and any(out_dir.iterdir()):
+        raise FileExistsError(
+            f"refusing to publish dense-gate artifacts into nonempty output directory: {out_dir}"
+        )
+    ensure_out_dir(staging_dir)
+    write_json(
+        staging_dir / "DENSE_PASSAGE_GATE.json",
+        {
+            "status": "failed",
+            "reason": reason,
+            "agent_execution_allowed": False,
+            "recommended_action": "run the listed pericopes as separate v11 packages, then integrate across pericope summaries",
+        },
+    )
+    write_json(staging_dir / "00-root-resolution-audit.dense.json", audit_payload)
+    write_json(staging_dir / "01-passage.dense.json", passage)
+    write_json(
+        staging_dir / "02-branches.summary.json",
+        branch_inventory_summary(branches),
+    )
+    write_json(
+        staging_dir / "03-candidate-bridges.summary.json",
+        bridge_summary(bridges),
+    )
+    write_json(staging_dir / "11-pericope-plan.json", pericope_plan)
+    if out_dir.exists():
+        out_dir.rmdir()
+    out_dir.parent.mkdir(parents=True, exist_ok=True)
+    staging_dir.replace(out_dir)
 
 
 def write_failed_gate_manifest(staging_dir: Path, out_dir: Path, reason: str, audit_payload: dict[str, Any]) -> None:
@@ -227,6 +272,45 @@ def root_lookup_variants(text: str) -> list[str]:
     add(raw.translate(alif_to_plain))
     add(raw.replace("ى", "ي"))
     return variants
+
+
+def branch_inventory_summary(branches: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "schema": "v11.branch_inventory_summary.v1",
+        "root_count": len(branches.get("roots", {})),
+        "branch_count": sum(info.get("branch_count", 0) for info in branches.get("roots", {}).values()),
+        "qnet_branch_count": sum(
+            info.get("qnet_branch_count", 0) for info in branches.get("roots", {}).values()
+        ),
+        "furuq_branch_count": sum(
+            info.get("furuq_branch_count", 0) for info in branches.get("roots", {}).values()
+        ),
+        "roots": [
+            {
+                "root": root,
+                "root_id": info.get("root_id"),
+                "branch_count": info.get("branch_count", 0),
+                "qnet_branch_count": info.get("qnet_branch_count", 0),
+                "furuq_branch_count": info.get("furuq_branch_count", 0),
+            }
+            for root, info in branches.get("roots", {}).items()
+        ],
+    }
+
+
+def bridge_summary(bridges: dict[str, Any]) -> dict[str, Any]:
+    profile_counts = Counter(tuple(c.get("evidence_profile", [])) for c in bridges.get("candidates", []))
+    return {
+        "schema": "v11.candidate_bridges_summary.v1",
+        "candidate_count": bridges.get("candidate_count", 0),
+        "cross_root_count": sum(1 for c in bridges.get("candidates", []) if c.get("cross_root")),
+        "same_root_count": sum(1 for c in bridges.get("candidates", []) if not c.get("cross_root")),
+        "q2_candidate_count": sum(1 for c in bridges.get("candidates", []) if c.get("q2_relations")),
+        "evidence_profile_counts": [
+            {"evidence_profile": list(profile), "count": count}
+            for profile, count in profile_counts.most_common()
+        ],
+    }
 
 
 def split_csvish(value: str) -> list[str]:
@@ -418,6 +502,97 @@ def extract_passage(qac: sqlite3.Connection, args: PassageArgs) -> dict[str, Any
     }
 
 
+def ayah_root_sets(passage: dict[str, Any]) -> dict[int, set[str]]:
+    out: dict[int, set[str]] = defaultdict(set)
+    for root, occurrences in passage.get("root_occurrences", {}).items():
+        for occ in occurrences:
+            position = occ.get("position") or []
+            if len(position) >= 2:
+                out[int(position[1])].add(root)
+    return out
+
+
+def build_pericope_plan(
+    passage: dict[str, Any],
+    bridges: dict[str, Any],
+    max_agent_candidates: int,
+) -> dict[str, Any]:
+    p = passage["passage"]
+    start = int(p["ayah_start"])
+    end = int(p["ayah_end_effective"])
+    roots_by_ayah = ayah_root_sets(passage)
+    pericopes: list[dict[str, Any]] = []
+    current_start = start
+    current_roots: set[str] = set()
+    current_ayahs: list[int] = []
+
+    def flush(current_end: int) -> None:
+        pericopes.append(
+            {
+                "surah": p["surah"],
+                "ayah_start": current_start,
+                "ayah_end": current_end,
+                "root_count_hint": len(current_roots),
+                "ayah_count": len(current_ayahs),
+                "out_dir_hint": f"v11/run/s{p['surah']:03d}/p{len(pericopes) + 1:02d}_{current_start:03d}-{current_end:03d}",
+            }
+        )
+
+    for ayah in range(start, end + 1):
+        next_roots = current_roots | roots_by_ayah.get(ayah, set())
+        next_ayahs = current_ayahs + [ayah]
+        if (
+            current_ayahs
+            and (
+                len(next_roots) > PERICOPE_TARGET_UNIQUE_ROOTS
+                or len(next_ayahs) > PERICOPE_TARGET_AYAHS
+            )
+        ):
+            flush(current_ayahs[-1])
+            current_start = ayah
+            current_roots = set(roots_by_ayah.get(ayah, set()))
+            current_ayahs = [ayah]
+        else:
+            current_roots = next_roots
+            current_ayahs = next_ayahs
+
+    if current_ayahs:
+        flush(current_ayahs[-1])
+
+    if len(pericopes) == 1 and pericopes[0]["ayah_start"] < pericopes[0]["ayah_end"]:
+        midpoint = (pericopes[0]["ayah_start"] + pericopes[0]["ayah_end"]) // 2
+        pericopes = [
+            {
+                **pericopes[0],
+                "ayah_end": midpoint,
+                "ayah_count": midpoint - pericopes[0]["ayah_start"] + 1,
+                "out_dir_hint": f"v11/run/s{p['surah']:03d}/p01_{pericopes[0]['ayah_start']:03d}-{midpoint:03d}",
+            },
+            {
+                **pericopes[0],
+                "ayah_start": midpoint + 1,
+                "ayah_count": pericopes[0]["ayah_end"] - midpoint,
+                "out_dir_hint": f"v11/run/s{p['surah']:03d}/p02_{midpoint + 1:03d}-{pericopes[0]['ayah_end']:03d}",
+            },
+        ]
+
+    return {
+        "schema": "v11.pericope_plan.v1",
+        "dense_definition": {
+            "max_agent_candidates": max_agent_candidates,
+            "actual_candidate_count": bridges.get("candidate_count", 0),
+            "target_unique_roots_per_pericope": PERICOPE_TARGET_UNIQUE_ROOTS,
+            "target_ayahs_per_pericope": PERICOPE_TARGET_AYAHS,
+        },
+        "policy": [
+            "Do not send dense whole-surah candidate reservoirs to agents.",
+            "Run each listed pericope as a separate normal v11 package.",
+            "After pericope reports are complete, run a final cross-pericope integration pass using pericope reports plus the dense-gate summary.",
+        ],
+        "pericopes": pericopes,
+    }
+
+
 def root_id_map(furuq: sqlite3.Connection, passage: dict[str, Any]) -> tuple[dict[str, dict[str, str]], list[dict[str, Any]]]:
     out: dict[str, dict[str, str]] = {}
     audit: list[dict[str, Any]] = []
@@ -557,7 +732,7 @@ def load_branch_inventory(
             ).fetchone()
             keyword_rows = qnet.execute(
                 """
-                SELECT parent_theme, theme, raw_keyword, replicate_votes
+                SELECT theme, raw_keyword, replicate_votes
                 FROM theme_keyword_nodes
                 WHERE root_id = ? AND branch_id = ?
                 ORDER BY theme, raw_keyword
@@ -565,17 +740,13 @@ def load_branch_inventory(
                 [root_id, branch_id],
             ).fetchall()
             themes: dict[str, Any] = {}
-            parent_themes: set[str] = set()
             raw_keywords: list[str] = []
             for kw in keyword_rows:
                 theme = kw["theme"]
-                parent = kw["parent_theme"]
-                parent_themes.add(parent)
                 raw_keywords.append(kw["raw_keyword"])
                 themes.setdefault(
                     theme,
                     {
-                        "parent_theme": parent,
                         "keywords": [],
                         "max_votes": 0,
                     },
@@ -596,10 +767,8 @@ def load_branch_inventory(
                 "integrity": "ok" if image else "missing_branch_image",
                 "qnet_membership": "present" if branch_id in qnet_branch_ids else "absent_from_selected_qnet_layer",
                 "theme_count": len(themes),
-                "parent_theme_count": len(parent_themes),
                 "keyword_count": len(set(raw_keywords)),
                 "themes": themes,
-                "parent_themes": sorted(parent_themes),
                 "raw_keywords": sorted(set(raw_keywords)),
             }
         inventory["roots"][root] = {
@@ -748,19 +917,17 @@ def build_candidate_bridges(
         left_branch = left["branch"]
         right_branch = right["branch"]
         shared_themes = sorted(set(left_branch["themes"]) & set(right_branch["themes"]))
-        shared_parents = sorted(set(left_branch["parent_themes"]) & set(right_branch["parent_themes"]))
         shared_keywords = sorted(set(left_branch["raw_keywords"]) & set(right_branch["raw_keywords"]))
         key = relation_key(left["root"], left["branch_id"], right["root"], right["branch_id"])
         q2_hits = q2.get(key, [])
 
-        if not shared_themes and not shared_parents and not shared_keywords and not q2_hits:
+        if not shared_themes and not shared_keywords and not q2_hits:
             continue
 
         seen_keys.add(key)
         rare_themes = [theme for theme in shared_themes if theme_counts[theme] <= 2]
         evidence_score = (
             2 * len(shared_themes)
-            + len(shared_parents)
             + 4 * len(shared_keywords)
             + len(rare_themes)
             + 5 * len(q2_hits)
@@ -771,8 +938,6 @@ def build_candidate_bridges(
         evidence_profile = []
         if shared_themes:
             evidence_profile.append("shared_theme")
-        if shared_parents:
-            evidence_profile.append("shared_parent_theme")
         if shared_keywords:
             evidence_profile.append("shared_keyword")
         if q2_hits:
@@ -802,7 +967,6 @@ def build_candidate_bridges(
                 "target_branch_key": right["branch_key"],
                 "cross_root": left["root"] != right["root"],
                 "shared_themes": shared_themes,
-                "shared_parent_themes": shared_parents,
                 "shared_keywords": shared_keywords,
                 "rare_shared_themes": rare_themes,
                 "q2_relations": q2_hits,
@@ -833,7 +997,6 @@ def build_candidate_bridges(
                 "target_branch_key": b,
                 "cross_root": a_root != b_root,
                 "shared_themes": [],
-                "shared_parent_themes": [],
                 "shared_keywords": [],
                 "rare_shared_themes": [],
                 "q2_relations": hits,
@@ -866,8 +1029,9 @@ def build_candidate_bridges(
         "schema": "v11.candidate_bridges.v1",
         "activation_bias": "recall_first",
         "rules": [
-            "theme overlap may create C candidates",
+            "leaf-theme overlap may create C candidates",
             "shared keyword and Q2 relation raise review priority",
+            "parent themes are not bridge evidence and never create candidates",
             "broad themes are retained and labeled, not pruned",
             "branches remain edge labels, not nodes",
         ],
@@ -1226,6 +1390,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--include-same-root", action=argparse.BooleanOptionalAction, default=True)
     parser.add_argument("--allow-unresolved-roots", action="store_true")
     parser.add_argument("--allow-qnetless-roots", action="store_true")
+    parser.add_argument("--allow-dense-agent-package", action="store_true")
+    parser.add_argument("--max-agent-candidates", type=int, default=DENSE_AGENT_CANDIDATE_LIMIT)
     parser.add_argument("--top-n", type=int, default=80)
     return parser.parse_args()
 
@@ -1234,6 +1400,8 @@ def main() -> None:
     ns = parse_args()
     if ns.top_n <= 0:
         raise SystemExit("--top-n must be a positive integer")
+    if ns.max_agent_candidates <= 0:
+        raise SystemExit("--max-agent-candidates must be a positive integer")
     out_dir = ns.out_dir
     if not out_dir.is_absolute():
         out_dir = REPO_ROOT / out_dir
@@ -1331,6 +1499,27 @@ def main() -> None:
             ns.q2_runs,
             include_same_root=ns.include_same_root,
         )
+        if (
+            bridges["candidate_count"] > ns.max_agent_candidates
+            and not ns.allow_dense_agent_package
+        ):
+            reason = (
+                f"dense passage candidate reservoir exceeds agent limit: "
+                f"{bridges['candidate_count']} > {ns.max_agent_candidates}"
+            )
+            pericope_plan = build_pericope_plan(passage, bridges, ns.max_agent_candidates)
+            write_dense_gate_manifest(
+                staging_dir,
+                out_dir,
+                reason,
+                audit_payload,
+                passage,
+                branches,
+                bridges,
+                pericope_plan,
+            )
+            print(f"wrote dense-gate package {out_dir}")
+            return
         discovery = build_discovery_ranking(passage, branches, bridges, ns.top_n)
         graph = build_graph(passage, bridges)
         validate_mechanical_outputs(passage, branches, bridges, graph)
