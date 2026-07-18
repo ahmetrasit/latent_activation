@@ -18,14 +18,17 @@ separate file.
 
 ## Agent Profile
 
-All spawned v12 reader and adjudicator agents must use the `gpt 5.6 sol high`
-profile.
+All spawned v12 reader and adjudicator agents must use:
+
+```text
+model: gpt-5.6-sol
+reasoning_effort: high
+```
 
 This is an orchestration requirement. The v12 scripts build, validate, and hash
-files; they do not select or verify the model profile. If the agent runtime does
-not expose a literal `gpt 5.6 sol high` selector, the orchestrator must record
-that limitation in the run notes and use the closest available high-effort
-agent profile.
+files; they do not select or verify the model profile. Do not silently downgrade
+the model or reasoning effort. If `gpt-5.6-sol` with high reasoning is
+unavailable, stop and report the blocker instead of starting substitute agents.
 
 ## Inputs
 
@@ -80,11 +83,12 @@ shared keyword.
 
 ## Turkish Prose Follow-Up
 
-After the analytical file is complete, send the same reader agent this follow-up
-message. This is not part of the initial reader prompt:
+After the analytical file is complete, send the same reader agent the canonical
+Turkish prose follow-up defined in `v11/spec.md`, substituting only the concrete
+output path. This is not part of the initial reader prompt:
 
 ```text
-now can you write me a turkish user-facing prose that coherently explains what is the primary reading, and what the secondary readings change the primary reading in a suprising way? at the end of each paragraph, list relevant roots and branches inside curly brackets that created this reading. Write it to {surah}-{ayah_start}-{ayah_end}-butuncul-okuma.md in the run directory, for example 103-1-11-butuncul-okuma.md
+{output_path} = v12/runs/s103/full_context_control/103-0-3-butuncul-okuma.md
 ```
 
 The Turkish prose must be written to a separate Markdown file in the same run
@@ -113,7 +117,11 @@ Optional coverage preflight:
 python3 v12/scripts/check_full_context_coverage.py --surah 100
 ```
 
-Then spawn a fresh `gpt 5.6 sol high` reader agent and give it:
+Runs that record a closest-available or fallback model profile are legacy controls
+only. They must not be presented as conforming production v12 runs under this
+spec.
+
+Then spawn a fresh `gpt-5.6-sol` reader agent with `reasoning_effort: high` and give it:
 
 ```text
 v12/prompts/reader.md
@@ -137,14 +145,15 @@ python3 v12/scripts/freeze_full_context_run.py \
   --freeze v12/runs/s100/full_context_control/frozen_run.json
 ```
 
-Then send the Turkish prose follow-up to the same reader agent and ask it to
-write the separate `100-0-11-butuncul-okuma.md` file in the same run directory.
+Then send the canonical Turkish prose follow-up from `v11/spec.md` to the same
+reader agent, substituting only the concrete output path for the separate
+`100-0-11-butuncul-okuma.md` file in the same run directory.
 
 ## Adjudication
 
 Adjudication is optional unless the experiment has multiple independent v12
 readers for the same packet. When adjudication is run, spawn a fresh
-`gpt 5.6 sol high` adjudicator agent.
+`gpt-5.6-sol` adjudicator agent with `reasoning_effort: high`.
 
 Give the adjudicator only:
 

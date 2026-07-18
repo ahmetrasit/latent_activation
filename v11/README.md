@@ -43,6 +43,8 @@ This is linguistic discovery work, not a conservative proof system.
 ```text
 passage
   ↓
+surah text including basmala except S9
+  ↓
 surface roots, words, order, morphology
   ↓
 all Qnet branches for those roots
@@ -71,7 +73,7 @@ python3 v11/scripts/qnet_activate.py \
   --surah 103 \
   --ayah-start 1 \
   --ayah-end 3 \
-  --out-dir v11/run/s103
+  --out-dir v11/run/s103-fresh
 ```
 
 Every run starts from QAC:
@@ -91,6 +93,8 @@ The script enforces this by default. It also stops if a resolved root has Furūq
 --allow-qnetless-roots
 ```
 
+Diagnostic override runs are not agent-ready. If either override flag is supplied, the script publishes `DIAGNOSTIC_ONLY.json` and a diagnostic audit, and it does not publish `04-agent-activation-packet.md` or the normal mechanical output set.
+
 The script accepts compressed SQLite inputs. Defaults are:
 
 ```text
@@ -98,6 +102,7 @@ resources/qac.sqlite.gz
 resources/furuq_v4.sqlite.gz
 ../quran-roots/_corpus/activation/Qnet/v2/network/bridge_theme_full/bridge_theme_staging.sqlite
 ../quran-roots/_corpus/activation/Q2/runs
+resources/quran
 ```
 
 Use `bridge_theme_full` by default. `bridge_theme_current` is a smaller/current subset and can miss valid Qnet nodes for roots that are present in QAC and Furūq.
@@ -105,6 +110,7 @@ Use `bridge_theme_full` by default. `bridge_theme_current` is a smaller/current 
 ## Outputs
 
 ```text
+00-surah-text.json
 00-root-resolution-audit.json
 01-passage.json
 02-branches.json
@@ -113,6 +119,10 @@ Use `bridge_theme_full` by default. `bridge_theme_current` is a smaller/current 
 08-graph.json
 10-discovery-ranking.json
 ```
+
+`00-surah-text.json` is copied from `resources/quran/surah_{n}.json` and is part of the agent input package. Basmala is part of analysis for every surah except S9, which does not start with basmala. For S1, the basmala is `verse_1`; for other non-S9 surahs, it is `verse_0`. QAC remains authoritative for word order, morphology, and root/root-id resolution.
+
+`01-passage.json` includes QAC word rows, all QAC morpheme rows, root-bearing occurrences, root order, and the analysis verse keys that agents should read from `00-surah-text.json`.
 
 The numbered gap is reserved for agent-produced files:
 
@@ -131,6 +141,8 @@ Does it create a material/metaphorical underlay?
 Does another root activate it?
 Does it change the surah-level mechanism?
 ```
+
+This file is script-owned mechanical output. Agents consume it as a review queue; they do not generate or overwrite it.
 
 ## Discovery labels
 

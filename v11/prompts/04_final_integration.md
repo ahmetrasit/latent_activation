@@ -7,6 +7,7 @@ You integrate the activation pass, mechanism synthesis, and secondary expansion.
 Input:
 
 ```text
+00-surah-text.json
 01-passage.json
 02-branches.json
 03-candidate-bridges.json
@@ -16,6 +17,10 @@ Input:
 08-graph.json
 10-discovery-ranking.json
 ```
+
+Use `00-surah-text.json` for Arabic recitation text. Treat basmala as part of analysis except for S9; for S1 it is `verse_1`, and for other surahs it is `verse_0`. Use `01-passage.json` as authoritative for QAC word order, morphology, and root resolution.
+
+Do not generate or overwrite discovery ranking. Use `10-discovery-ranking.json` only as the script-owned mechanical queue for likely surprise value.
 
 Language:
 

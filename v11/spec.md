@@ -11,7 +11,9 @@ The workflow is designed for discovery. Conservative filters should be relaxed u
 Every run must start from QAC, not from Qnet.
 
 ```text
-QAC passage words
+Quran surah text JSON
+  → basmala included in analysis except S9
+  → QAC passage words
   → QAC morpheme roots/root_join_keys
   → Furūq root_id resolution
   → Qnet node/theme lookup
@@ -38,6 +40,8 @@ resolution status
 
 Agents must not start if any surface root is unresolved or ambiguous. Missing Qnet theme membership is different from missing root resolution; if Furūq branches exist but a Qnet layer lacks theme nodes, switch to a fuller Qnet layer before running agents.
 
+Every normal agent-ready package must include `00-surah-text.json`, copied from `resources/quran/surah_{surah}.json`. Agents must read it together with `01-passage.json`: the surah JSON supplies readable Arabic recitation text and basmala context, while QAC remains authoritative for word order, morphology, roots, and root-id resolution. Basmala is part of analysis for every surah except S9. For S1, the basmala is `verse_1`; for other non-S9 surahs, it is `verse_0`.
+
 The default script behavior must enforce this:
 
 ```text
@@ -45,7 +49,7 @@ unresolved/ambiguous root id => stop
 resolved root with Furūq branches but zero Qnet branch nodes => stop
 ```
 
-Override flags are allowed only for diagnostics, not normal workflow.
+Override flags are allowed only for diagnostics, not normal workflow. If either diagnostic override flag is supplied, the run must produce a diagnostic-only package even when the data would otherwise pass the gate.
 
 ## Non-goals
 
@@ -90,7 +94,7 @@ The script emits evidence. Agents interpret it.
 2. Broad themes are not discarded; they are marked broad.
 3. One-hop root-to-root activation is enough to preserve a candidate.
 4. Same-root branch clusters are preserved, but marked as weaker than cross-root bridges unless the passage requires them.
-5. Q2 candidates are always preserved.
+5. Compatible, in-scope Q2 candidates whose root-id/branch endpoints exist in the selected inventory are always preserved.
 6. Missing or mismatched branch data becomes `X`; this is the one hard conservative gate.
 
 ## Suggested scoring hints
@@ -108,6 +112,12 @@ high-connectivity branch  no penalty; add "high-connectivity" flag only
 ```
 
 The key design choice is not to subtract away broad possibilities. Instead, keep them and expose their evidence profile.
+
+## Mechanical discovery ranking ownership
+
+`10-discovery-ranking.json` is generated mechanically by `v11/scripts/qnet_activate.py`.
+
+Agents must not generate this file and must not treat themselves as the owner of discovery ranking. Agents may consume `10-discovery-ranking.json` only as a review queue for likely surprise value while doing their own classification, mechanism synthesis, and interpretation.
 
 ## Discovery-value ranking
 
@@ -204,13 +214,13 @@ The orchestrator should not manually decide the final synthesis when an agent wo
 After Agent C generates the technical final report, the orchestrator must send Agent C this follow-up request for a Turkish user-facing prose layer:
 
 ```text
-now can you write me a turkish user-facing prose that coherently explains what is the primary reading, and what the secondary readings change the primary reading in a suprising way? at the end of each paragraph, list relevant roots and branches inside curly brackets that created this reading. Write it to {surah}-{ayah_start}-{ayah_end}-butuncul-okuma.md in the run directory, for example 103-1-11-butuncul-okuma.md
+now can you write me a turkish user-facing prose that coherently explains what is the primary reading, and what the secondary readings change the primary reading in a suprising way? at the end of each paragraph, list relevant roots and branches inside curly brackets that created this reading. Write it to {output_path}
 ```
 
 This follow-up must be sent as the only message content. The orchestrator must not add any other instructions, requirements, examples, bullets, caveats, formatting rules, reinterpretations, or clarifications to the follow-up message. The orchestrator must not rewrite or expand the request. The only allowed substitution is filling the output filename with the concrete run path when needed, for example:
 
 ```text
-now can you write me a turkish user-facing prose that coherently explains what is the primary reading, and what the secondary readings change the primary reading in a suprising way? at the end of each paragraph, list relevant roots and branches inside curly brackets that created this reading. Write it to v11/run/s100/100-1-11-butuncul-okuma.md
+{output_path} = v11/run/s100/100-1-11-butuncul-okuma.md
 ```
 
 Agent C should answer in coherent Turkish prose rather than tables. Each paragraph must end with curly-brace evidence tags, for example:
