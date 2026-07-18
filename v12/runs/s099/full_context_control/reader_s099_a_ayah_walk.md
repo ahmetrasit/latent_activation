@@ -1,0 +1,147 @@
+# S99 Full-Context Ayah Walk — Reader A
+
+## 99:0 — بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+
+### Activated readings
+
+1. **Invocation as raised disclosure-name.** Lexical evidence: `س م و B005` name as raised designation; `ء ل ه B002` fixed divine name in invocation formulas; `ر ح م B001` mercy and tenderness. Structural cue: the basmalah stands before a surah whose sequence moves from earth-shaking, earth-output, speech/report, divine conveying, then visible deeds. Assigned role: the initial “name” is not only a formulaic label but a raised sign under which later hidden materials become reportable and visible. Abductive move: I supply the arrow that a name placed before disclosure authorizes the later disclosure as proceeding under that named authority. Reading change: the basmalah reads as a control frame for revelation and exposure, not merely a pious preface.
+
+2. **Mercy as birth-container before earth-labor.** Lexical evidence: `ر ح م B003` womb as vessel; `ر ح م B004` womb pain after birth; activated by `ث ق ل B007` pregnancy becoming heavy in 99:2, `خ ر ج B002` causing hidden matter to come out in 99:2, and the feminine earth-pronoun throughout 99:1-5. Structural cue: repeated `-ها` links earth, its shaking, its burdens, its reports, and the addressed recipient of divine conveying. Assigned role: mercy/womb branches supply a generative container whose burden is brought out under painful disturbance. Abductive move: I infer that the feminine earth can function as a womb-like bearer because the packet pairs earth + heaviness + extraction + later seeing. Reading change: the opening mercy is not softened away from judgment; it becomes the encompassing womb-frame inside which violent disclosure can still be birth-like.
+
+3. **Compassion as kinship before human dispersion.** Lexical evidence: `ر ح م B002` kinship bond; activated by `ن و س B001` people as swaying/unstable mass in 99:6 and `ش ت ت B001` scattering/separation. Structural cue: the surah opens with doubled mercy-root adjectives, then later depicts people issuing scattered. Assigned role: kinship names what gets loosened or tested when the human aggregate becomes separate groups. Abductive move: I supply that divine mercy precedes the social disaggregation so that judgment does not erase relation; it tests bonds and separations. Reading change: the basmalah becomes a relational canopy over a scene of human dispersal.
+
+### Retrospective surprises
+
+The later `أثقالها` and `مثقال ذرة` made the womb reading stronger than it first looked: mercy is not merely affective (`ر ح م B001`) but a container-form (`ر ح م B003/B004`) that can hold, ache, and release. 99:6-8 also made the “name” branch surprising: `اسم` as raised designation (`س م و B005`) anticipates not only divine invocation but the whole surah’s movement toward making hidden deeds nameable, reportable, and visible.
+
+## 99:1 — إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا
+
+### Activated readings
+
+1. **Earthquake as forced testimony mechanism.** Lexical evidence: `ز ل ز ل B001` shaking disturbance; `ء ر ض B001` lower ground opposite sky; activated by `خ ر ج B002` extraction from hiddenness in 99:2, `ح د ث B003/B006` speech-report and disclosure in 99:4, and `و ح ي B001/B004` hidden/divine conveying in 99:5. Structural cue: 99:1 begins a temporal chain: shaking → output → human question → earth report → divine conveying. Assigned role: shaking is the mechanical trigger that converts silent ground into a reporting surface. Abductive move: the packet supplies sequence, not causality; I infer that disturbance loosens what had been held below so that report can occur. Reading change: the ayah is no longer only cosmic catastrophe; it is the first operation in an evidentiary procedure.
+
+2. **The ground trembles like the human who will tremble.** Lexical evidence: `ء ر ض B008` trembling/shivering in a person; `ز ل ز ل B001` shaking; activated by `ء ن س B001/B002` visible human presence/perception in 99:3 and `ن و س B001` swaying instability in 99:6. Structural cue: the earth’s agitation precedes human bewildered speech and people’s issuing in unstable groups. Assigned role: the earth’s shaking becomes a bodily analogue for human destabilization. Abductive move: I supply a cross-domain mapping from ground-shake to person-shiver because the same packet makes earth and human both actors. Reading change: “the earth is shaken” also reads as the world assuming the body-language of humans who will face its evidence.
+
+3. **Shocks of time compressed into one event.** Lexical evidence: `ز ل ز ل B002` time’s shocks/hardships; activated by `ح د ث B005` event/calamity of time and the repeated `يَوْمَئِذٍ` in 99:4 and 99:6. Structural cue: the initial `إذا` opens a condition whose consequences are named as “on that day” twice. Assigned role: the quake is an event that gathers ordinary shocks of time into a decisive temporal crisis. Abductive move: I infer that the day-language lets the idiom of time’s shocks function without replacing the physical quake. Reading change: the ayah reads simultaneously as material shaking and as the arrival of accumulated temporal hardship.
+
+### Retrospective surprises
+
+99:6’s `ن و س B001` made the quake less one-directional: the earth is shaken first, but humans later appear as a swaying mass. 99:8’s `ش ر ر B004/B006` also retroactively made the shaking an act of loosening burdens and dangling attachments, not merely seismic violence.
+
+## 99:2 — وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا
+
+### Activated readings
+
+1. **Earth as container made to disgorge hidden liabilities.** Lexical evidence: `خ ر ج B002` causing something to emerge from hiddenness; `ء ر ض B001` lower ground; `ث ق ل B001` heaviness; activated by `ح د ث B006` disclosure in 99:4, `خ ب ر B001` inner/tested knowledge in 99:4, and `ر ء ي B012` showing/making seen in 99:6-8. Structural cue: the earth both undergoes shaking in 99:1 and produces contents in 99:2 before becoming a reporter in 99:4. Assigned role: “burdens” are the hidden weight that must move from containment to evidence. Abductive move: I infer that the hidden contents are not merely physical objects but liabilities made evidentiary because the later sequence explicitly makes deeds seen. Reading change: the ayah reads as extraction of weight from concealment into a forensic field.
+
+2. **Pregnancy/birth reading of earth’s burdens.** Lexical evidence: `ث ق ل B007` pregnancy becoming heavy; `خ ر ج B001/B002` passing out/causing emergence; activated by the feminine earth pronouns and the basmalah’s `ر ح م B003/B004` womb and womb-pain branches. Structural cue: 99:1 shaking, 99:2 خروج, and repeated `ها` produce a sequence like labor: convulsion, bearing weight, emergence. Assigned role: earth is a gravid bearer whose `أثقالها` are what has reached the point of being delivered. Abductive move: I supply the birth-arrow from the branch inventory’s pregnancy/womb images; the packet does not say “birth,” but it couples feminine earth, heaviness, exit, and later disclosed contents. Reading change: the ayah becomes a delivery scene, making the violent upheaval generative as well as destructive.
+
+3. **Due output/yield as settled account.** Lexical evidence: `خ ر ج B003` due output of wealth/rent/tax/yield; `ث ق ل B004` standard weight and weighing; activated by `ع م ل B004/B005` pay/transaction in 99:6-8 and `ص د ر B005` settling liability on money in 99:6. Structural cue: later “works” are shown to people in measured units as small as a `مثقال ذرة`. Assigned role: the earth’s outputs are like dues or yields paid out at a known measure. Abductive move: I infer an accounting mechanism: what was deposited in the earth/world is returned as quantifiable weight. Reading change: the ayah reads not only as unloading but as the world paying out its stored account.
+
+4. **Abscess/wound eruption reading.** Lexical evidence: `خ ر ج B004` erupting abscess; `ء ر ض B011` sore festering with pus; activated by `ش ر ر B004` shredding/shaking loose in 99:8 and `ز ل ز ل B001` disturbance in 99:1. Structural cue: shaking then output resembles a corrupted body breaking open. Assigned role: earth functions as a body whose hidden corruption can no longer remain under the surface. Abductive move: I supply the pathological arrow from pressure/disturbance to eruption; this is supported by the packet’s body/earth lexical bridge. Reading change: `أثقالها` can be felt as infected moral-material deposits, not only neutral cargo.
+
+### Retrospective surprises
+
+99:7-8 made `أثقالها` more exact than “heavy things”: the later `مثقال ذرة` activates `ث ق ل B004`, so earth’s macro-burdens are continuous with tiny measurable moral weights. 99:5 also sharpened the birth/account readings: the earth does not merely expel by natural pressure; it responds to an authorized hidden communication (`و ح ي B001/B004`).
+
+## 99:3 — وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا
+
+### Activated readings
+
+1. **Human speech as bewildered perception, not answer.** Lexical evidence: `ق و ل B001` uttered speech; `ء ن س B002` perceiving something into awareness by seeing/sensing/hearing. Structural cue: the human speaks only after earth-shaking and earth-output, before earth itself reports. Assigned role: the human’s saying is the first conscious registration of the event, but it has question-form rather than knowledge. Abductive move: I infer that the speech arises because perception has been forced by visible disturbance; the packet gives perception and utterance, I supply the cognitive lag. Reading change: `ما لها` reads less as a rhetorical phrase and more as human awareness catching up to a nonhuman disclosure already underway.
+
+2. **The human as visible presence confronted by a speaking lower world.** Lexical evidence: `ء ن س B001` visible human presence over against hidden/wild beings; activated by `ء ر ض B001` lower ground in 99:1-2 and `ح د ث B003` earth’s speech/report in 99:4. Structural cue: the named human stands between earth’s output and earth’s report. Assigned role: the human is the visible conscious party who assumed the ground was mute, now facing an interlocutor from below. Abductive move: I supply that “earth speaks” reverses the normal human/ground hierarchy: the visible human becomes listener/questioner. Reading change: the ayah reads as social reversal: humanity loses exclusive control of speech.
+
+3. **Question as circulating public talk.** Lexical evidence: `ق و ل B007` circulating talk/public report; activated by `ن و س B001` people’s swaying mass and `ش ت ت B001` scattered groups in 99:6. Structural cue: a singular `الإنسان` speaks, but later the mass of `الناس` issues in groups. Assigned role: the singular utterance condenses a collective public panic. Abductive move: I infer that the singular human can represent the aggregate whose talk will become many reports because the packet shifts from singular human to people in dispersion. Reading change: `وقال الإنسان` reads as the eruption of shared human discourse, not a lone individual’s sentence.
+
+4. **Inner saying exposed into speech.** Lexical evidence: `ق و ل B012` unspoken inner saying; `ق و ل B011` saying as supposing; activated by `ر ء ي B002` reflective judgment/opinion in 99:6-8 and `خ ب ر B001` inner knowledge in 99:4. Structural cue: the human’s `ما لها` precedes true news; it is a supposition/question before tested knowledge. Assigned role: speech reveals the interior uncertainty of the human. Abductive move: I supply that question-form discloses an inward judgment gap, because the packet later replaces supposition with seeing. Reading change: the ayah reads as exposure of human interiority before exposure of deeds.
+
+### Retrospective surprises
+
+The later `ليروا أعمالهم` corrected my first tendency to treat 99:3 as only panic: it is also a failed or premature epistemic act. Human `قول` asks “what is with her?” before earth’s `أخبار` and before compelled `ر ء ي`; later seeing replaces earlier supposing. The singular `الإنسان` also became more collective after 99:6’s `الناس أشتاتا`.
+
+## 99:4 — يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا
+
+### Activated readings
+
+1. **Earth’s report as newly arising speech.** Lexical evidence: `ح د ث B003` speech that arises as report/conversation; `خ ب ر B001` report and tested inner knowledge. Structural cue: the ayah answers the human’s `ما لها` by giving earth a reporting verb and an object of reports. Assigned role: `تحدث` is the act of converting inner knowledge into fresh report; `أخبارها` is the tested content. Abductive move: I infer that the earth reports from experience of what occurred upon/in it because `خ ب ر` includes inward tested knowledge, not mere transmitted rumor. Reading change: earth becomes a witness with experiential knowledge, not a passive stage.
+
+2. **Disclosure after emergence.** Lexical evidence: `ح د ث B006` disclosure/bringing out; `خ ر ج B002` causing hidden matter to come out in 99:2. Structural cue: physical خروج precedes verbal تحديث. Assigned role: the ayah turns extracted matter into legible statement. Abductive move: I supply the two-step evidentiary process: first expose the contents, then disclose their meaning. Reading change: the ayah is not just “the earth tells news”; it is the interpretive phase after material evidence has been produced.
+
+3. **The calamity becomes narrated event.** Lexical evidence: `ح د ث B005` event/calamity of time; `ز ل ز ل B002` time’s shocks; `ق و ل B007` public circulating talk. Structural cue: `يومئذ` ties earth’s reporting to the decisive day opened by `إذا`. Assigned role: the quake is both event and the origin of reports about events. Abductive move: I infer that the earth’s reports include the history of events accumulated in time, because the packet links day, shocks, deeds, and seeing. Reading change: `أخبارها` expands from the earth’s present condition to the record of what time deposited in it.
+
+4. **Soft-earth knowledge reading.** Lexical evidence: `خ ب ر B002` soft low ground and water-gathering place; `خ ب ر B003` working soft land through sharecropping; activated by `ء ر ض B002` fertile soft ground and `خ ر ج B003` yield from land. Structural cue: earth in 99:2 outputs burdens; earth in 99:4 reports. Assigned role: the earth is not only hard witness but worked ground whose inward softness retains traces and yields reports. Abductive move: I infer that cultivation/yield imagery can underwrite moral accounting: worked land gives back what was placed into it. Reading change: `أخبارها` reads as harvest-like output of a worked earth, not merely oral narration.
+
+### Retrospective surprises
+
+99:5 made the earth’s speech less autonomous and more commissioned: `تحدث` depends on `أوحى لها`. 99:7-8 also changed `أخبارها` from “news about the earth” toward “news about actions”: the reports are activated by the later visible `أعمال`, so the earth’s خبر becomes a moral archive.
+
+## 99:5 — بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا
+
+### Activated readings
+
+1. **Earth’s speech as authorized hidden instruction.** Lexical evidence: `ر ب ب B001` lordship/ownership/authority; `و ح ي B001` hidden imparting of knowledge; `و ح ي B004` divine message/inspiration. Structural cue: 99:5 gives the reason for 99:4’s earth-report: it reports because your Lord conveyed to it. Assigned role: `ربك` supplies authority/ownership; `أوحى لها` supplies the covert instruction that activates the earth’s testimony. Abductive move: the packet gives a causal `بأن`; I infer that the earth’s report is not autonomous speech but authorized witness-performance. Reading change: the scene shifts from earth as marvel to earth as obedient recipient of a divine communicative act.
+
+2. **Nurture/completion behind judgment.** Lexical evidence: `ر ب ب B002` repair, nurture, and completion; activated by the basmalah’s `ر ح م B001/B003` mercy/womb and 99:2’s `ث ق ل B007` pregnancy becoming heavy. Structural cue: the possessive `ربك` appears at the hinge where violent disclosure becomes intelligible testimony. Assigned role: lordship is not only sovereignty but stage-by-stage bringing to completion, including the completion of hidden deeds into visible outcomes. Abductive move: I infer that the same authority that nurtures a process also brings its concealed result to term. Reading change: the ayah makes judgment look like completion/maturation, not only command.
+
+3. **Inscription-in-earth reading.** Lexical evidence: `و ح ي B003` writing/inscription and `و ح ي B010` inscription or secret in stone; activated by `ء ر ض B001` ground and `خ ب ر B001` inner knowledge. Structural cue: the earth’s reports follow a divine `وحي` directed to her, while later deeds are shown. Assigned role: the earth is like a surface in which secrets have been inscribed and are now readable. Abductive move: I supply that hidden acts leave inscription-like traces in the ground/world; the packet gives inscription/secret, earth, report, and seeing. Reading change: the ayah reads as the unsealing of a divine archive written into material reality.
+
+4. **Low sound/gesture rather than ordinary speech.** Lexical evidence: `و ح ي B002` gesture/indication; `و ح ي B005` low or hidden sound; activated by `ق و ل B001` human utterance in 99:3 and `ح د ث B003` earth’s speech in 99:4. Structural cue: human speech is explicit and bewildered; divine communication to earth is covert and effective. Assigned role: revelation to earth can be nonverbal or sub-verbal yet sufficient to produce full report. Abductive move: I infer asymmetry between divine-to-earth communication and human speech: the former may be a sign/low impulse, the latter articulated question. Reading change: `أوحى لها` becomes more material and immediate than a “message” alone: a covert activation, signal, or command.
+
+5. **Swift activation.** Lexical evidence: `و ح ي B006` quickness/haste; activated by the rapid chain from `إذا` to `يومئذ` and the sudden خروج/تحديث sequence. Structural cue: the surah’s clauses move with compressed event-sequence and little descriptive delay. Assigned role: `أوحى` can color the transition from silent earth to speaking earth as immediate. Abductive move: I supply temporal compression from the branch’s speed image to the syntax’s quick succession. Reading change: the ayah reads as the instant enabling of testimony, not a slow briefing.
+
+### Retrospective surprises
+
+99:6-8 made `أوحى لها` look like the hinge between cosmic witness and personal display: the revelation to earth is not the final disclosure but the command that routes people toward seeing their own works. The later measuring of deeds also sharpened `ر ب ب B002`: lordship completes processes by bringing hidden deposits to their finished, visible measure.
+
+## 99:6 — يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ
+
+### Activated readings
+
+1. **People depart like herds leaving the water-source after being brought to evidence.** Lexical evidence: `ص د ر B003` departing after coming to water; `ن و س B002` driving camels; `ش ت ت B001` scattering; `ر ء ي B012` showing/making seen; `ع م ل B001` intentional deeds. Structural cue: the people issue on the same `يومئذ` as earth’s reporting, and the purpose clause says they are made to see their deeds. Assigned role: `يصدر` supplies the movement away from a source after arrival; `أشتاتا` supplies divided exits; `ليروا` supplies the destination/purpose of visibility. Abductive move: I infer an assembly-source from which groups depart because the verb’s water-source branch and the scene’s judgment purpose cohere. Reading change: the ayah becomes a controlled post-arrival dispersal from a source of disclosure, not random scattering.
+
+2. **Chest/interior comes forward.** Lexical evidence: `ص د ر B001` chest as bodily front and `ص د ر B004` source from which actions issue; `ع م ل B001` intentional doing; activated by 99:3’s human inner question (`ق و ل B012`) and 99:4’s inner knowledge (`خ ب ر B001`). Structural cue: humans move out to be shown deeds; what was inside intention becomes outwardly visible. Assigned role: `صدر` bridges interior source and frontal exposure. Abductive move: I supply that deeds issue from inner chests/sources and are then set before their owners because the packet connects intention/work, seeing, and outward movement. Reading change: `يصدر الناس` reads as the emergence of persons with their inward sources exposed.
+
+3. **Scattered groups as differentiated moral/accounting categories.** Lexical evidence: `ش ت ت B001` scattering, difference among kinds/hearts; activated by 99:7/99:8’s mirrored good/evil outcomes and `خ ي ر B001` versus `ش ر ر B001`. Structural cue: 99:6 precedes two parallel clauses splitting tiny good and tiny evil. Assigned role: `أشتاتا` marks separation by kinds or hearts before the detailed good/evil display. Abductive move: I infer that the dispersal is not merely spatial but classificatory, because the next two ayat divide action by moral polarity and measure. Reading change: the ayah reads as sorting into differentiated evidentiary paths.
+
+4. **Works as official charge and wage.** Lexical evidence: `ع م ل B003` holding/assigning official charge; `ع م ل B004` wage/pay for work; activated by `ص د ر B005` liability on money and `ث ق ل B004` measured weight in 99:7-8. Structural cue: people are made to see `أعمالهم`, and the next clauses quantify tiny units. Assigned role: works are both deeds performed and account-lines assigned to workers. Abductive move: I infer a labor-accounting frame: intentional work generates payable/liable outcome. Reading change: the ayah is not simply autobiographical replay; it is a summons to see one’s earned account.
+
+5. **Swaying mass becomes visible humans.** Lexical evidence: `ن و س B001` swaying/dangling oscillation; `ء ن س B001/B002` human visible presence/perception in 99:3; activated by `ز ل ز ل B001` shaking. Structural cue: the root listed for `الناس` is `ن و س`, not `ء ن س`; it follows the earlier earth-shake and precedes scattering. Assigned role: people are characterized as unstable, moved, and then forced into perception. Abductive move: I infer that human collectivity physically/morally oscillates under the quake before being sorted. Reading change: `الناس` reads as a shaken, wavering mass rather than a stable assembly.
+
+### Retrospective surprises
+
+99:7-8 turned `أشتاتا` from general scattering into moral bifurcation: the next two ayat split the display into tiny good and tiny evil. They also made `ليروا أعمالهم` the key purpose line for the whole surah, because the earth’s earlier speech and output culminate in personal seeing, not only cosmic spectacle.
+
+## 99:7 — فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ
+
+### Activated readings
+
+1. **Minimum good as measured visible output.** Lexical evidence: `ع م ل B001` intentional doing; `ث ق ل B004` standard weight/weighing; `ذ ر ر B001` tiny scattered mote/ant; `خ ي ر B001` desired beneficial good; `ر ء ي B001/B012` seeing and making seen. Structural cue: the ayah follows 99:6’s purpose clause `ليروا أعمالهم`, then individualizes it with `فمن`. Assigned role: action becomes a tiny measurable weight that is made visible to its doer. Abductive move: I infer that moral acts can be represented as measurable particles because the packet links works, weights, and seeing. Reading change: the ayah reads as precision-accounting of even the smallest intentional good.
+
+2. **Good as chosen excellence under coercive display.** Lexical evidence: `خ ي ر B002` virtue/chosen excellence; `خ ي ر B003` choosing/seeking the better option; activated by `ر ء ي B002` reflective judgment and 99:6’s people seeing deeds. Structural cue: `خيرا` stands between the minimal weight and seeing, after a life of عمل. Assigned role: good is not just pleasant benefit but a chosen/excellent orientation now objectified. Abductive move: I infer that the visible outcome discloses prior choice because `خ ي ر` includes selection and `عمل` includes intentionality. Reading change: the ayah reads as revelation of chosen orientation, not simply credit for a small unit.
+
+3. **Mote as scattered seed/emergence.** Lexical evidence: `ذ ر ر B002` scattering grains/powder and `ذ ر ر B004` gentle spreading emergence; activated by `ء ر ض B002` fertile ground and `خ ر ج B003` yield from land. Structural cue: the earth has already output its burdens; now a tiny particle is the measure. Assigned role: the `ذرة` can be a seed-like minimal deposit that later emerges into visibility. Abductive move: I infer that tiny acts are planted/scattered in the world and later rise/show as output. Reading change: the ayah reads agriculturally: even seed-sized good returns from the earth-account.
+
+4. **Seeing as mirror against ostentation.** Lexical evidence: `ر ء ي B006` mirror/visible appearance; `ر ء ي B005` showing off before people; activated by `س م و B008` good repute spread in the basmalah’s `اسم` field and `ق و ل B007` public talk in 99:3. Structural cue: the deed is seen by the doer (`يره`) after public-human discourse and scattering. Assigned role: the final seeing reverses performative visibility: what may have been done to be seen by people is now shown back to the self. Abductive move: I infer reversal because the same visibility-root includes ostentation and compelled showing; the packet supplies both people/public talk and final seeing. Reading change: the ayah includes a critique of reputation-management without displacing the primary measured-good reading.
+
+### Retrospective surprises
+
+99:8 made 99:7’s goodness more symmetrical and less sentimental: the good is measured by the same scale that will expose evil. The earlier earth-yield readings also kept returning here; `ذرة` is not only smallness (`ذ ر ر B001`) but a seed/scatter unit (`ذ ر ر B002/B004`) whose visibility depends on the world’s hidden archive.
+
+## 99:8 — وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ
+
+### Activated readings
+
+1. **Minimum evil as measured visible output.** Lexical evidence: `ع م ل B001` intentional doing; `ث ق ل B004` standard weight/weighing; `ذ ر ر B001` tiny particle; `ش ر ر B001` evil/badness; `ر ء ي B001/B012` seeing/showing. Structural cue: this ayah mirrors 99:7 almost exactly, replacing `خيرا` with `شرا`. Assigned role: the mirror structure prevents evil from being exempted by smallness; it receives the same measurement and display mechanism as good. Abductive move: I infer parity of accounting from syntactic parallelism. Reading change: the ayah reads as exact moral symmetry at the smallest scale.
+
+2. **Evil as spark from a tiny unit.** Lexical evidence: `ش ر ر B003` flying sparks of fire; `ذ ر ر B001/B002` tiny scattered motes/scattering; activated by `و ح ي B008` authority/fire in 99:5 and the sudden exposure sequence. Structural cue: the small `ذرة` touches `شرا` directly before final seeing. Assigned role: evil is like a spark: small, flying, and liable to be seen despite its minuteness. Abductive move: I infer that tiny evil has energetic consequence because the branch inventory allows `شرر` as sparks while the ayah makes evil particle-sized. Reading change: the ayah warns not only that small evil is counted, but that it can flare from a tiny source.
+
+3. **Drying/spreading exposure of evil.** Lexical evidence: `ش ر ر B002` spreading something in the sun to dry; activated by `ر ء ي B011/B012` marker/showing and `ذ ر ر B004` rising/spreading emergence. Structural cue: the final `يره` makes the evil visible after it has been measured. Assigned role: the evil is laid out like material exposed to sun: no longer damp, hidden, or folded. Abductive move: I supply the exposure-to-light mechanism from the branch image; the packet gives seeing and spread. Reading change: the ayah reads as visible desiccation of concealed wrong, not merely private recognition.
+
+4. **Shredding loose from the self.** Lexical evidence: `ش ر ر B004` shredding/cutting/shaking loose; `ش ر ر B007` throwing one’s whole self into something; activated by `ع م ل B007` self-exertion/taking trouble and `ق و ل B006` drawing a saying to oneself. Structural cue: the person did the work; now he sees it as an object distinct enough to confront. Assigned role: evil attaches to the self by intention, then is shaken loose as visible evidence. Abductive move: I infer a reversal from invested self to separated exhibit because the packet moves from `يعمل` to `يره`. Reading change: the ayah reads as disidentification: what one threw oneself into returns as an external thing one must face.
+
+5. **Burdens with dangling appendages.** Lexical evidence: `ش ر ر B006` trailing appendages and burdens; activated by `ث ق ل B001/B004` heaviness/weight and 99:2’s `أثقالها`. Structural cue: 99:2’s earth-burdens are mirrored at micro-scale by `مثقال ذرة شرا`. Assigned role: evil is a tiny burden that nevertheless trails after the actor. Abductive move: I infer continuity between macro earth-burdens and micro moral weight because both use the ثقل field and culminate in seeing. Reading change: the ayah reads as the return of one’s smallest trailing burden, not only the discovery of a discrete bad deed.
+
+### Retrospective surprises
+
+As the final ayah, no later ayah remained to alter it. The surprise came internally through its backward activation of the whole surah: the last `يره` made the earlier quake, output, report, and revelation read as one apparatus for making even particle-sized evil visible.
