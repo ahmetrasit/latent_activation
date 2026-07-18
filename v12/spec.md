@@ -110,7 +110,7 @@ it while it remains readable:
 
 ```text
 # {surah}:{ayah_start}-{ayah_end} Bütüncül Okuma
-**{surah}:{ayah}.** {arabic_ayah_text} — {single Turkish paragraph} {{root branch; root branch; ...}}
+**{surah}:{ayah}.** {arabic_ayah_text} — Birincil okuma: {primary reading}. {secondary/surprise reading change} {{root branch; root branch; ...}}
 ```
 
 Rules:
@@ -118,7 +118,10 @@ Rules:
 - exactly one title line;
 - exactly one non-empty line per ayah in packet order;
 - each ayah line starts with the bold ayah marker, then the Arabic ayah text,
-  then ` — `, then one Turkish paragraph;
+- then ` — `, then one Turkish paragraph;
+- the Turkish paragraph must start with the exact phrase `Birincil okuma:`;
+- after the primary reading, the same paragraph explains how secondary
+  activations change the primary reading in a surprising way;
 - each paragraph ends with curly-braced root and branch evidence;
 - no bullets, tables, extra sections, postscript, or analysis notes.
 
