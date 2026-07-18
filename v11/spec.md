@@ -40,6 +40,11 @@ resolution status
 
 Agents must not start if any surface root is unresolved or ambiguous. Missing Qnet theme membership is different from missing root resolution; if Furūq branches exist but a Qnet layer lacks theme nodes, switch to a fuller Qnet layer before running agents.
 
+Two root-resolution exceptions are allowed:
+
+1. Non-branchable QAC function roots may be omitted from branch/Qnet lookup only by explicit allowlist. Current allowlist: `كيف` / `ك ي ف` / `كَيْفَ`. They stay in `01-passage.json`, Arabic text, morphology, and surface order, but they do not create Qnet branches and do not block agents.
+2. Duplicate Furūq/Qnet root IDs for one QAC root key may be merged under the QAC root node only when they pass a deterministic mergeability check: the candidate rows share the same normalized `root_norm`, every `source_root_norm` collapses to the QAC lookup variant under hamza/key normalization, and branch provenance can be preserved. Branch IDs from duplicate source root IDs must be namespaced by source root ID, for example `root_001210:B001`, and every branch must preserve `source_root_id` provenance. Unmergeable ambiguity remains a hard failure.
+
 Every normal agent-ready package must include `00-surah-text.json`, copied from `resources/quran/surah_{surah}.json`. Agents must read it together with `01-passage.json`: the surah JSON supplies readable Arabic recitation text and basmala context, while QAC remains authoritative for word order, morphology, roots, and root-id resolution. Basmala is part of analysis for every surah except S9. For S1, the basmala is `verse_1`; for other non-S9 surahs, it is `verse_0`.
 
 The default script behavior must enforce this:
@@ -48,6 +53,10 @@ The default script behavior must enforce this:
 unresolved/ambiguous root id => stop
 resolved root with Furūq branches but zero Qnet branch nodes => stop
 ```
+
+Here “ambiguous” means unresolved after applying the explicit merge policy. A merged duplicate root is audit status `merged`, not a blocker. A non-branchable function root is audit status `omitted`, not a blocker.
+
+For roots with valid Furūq branches but no selected-layer Qnet nodes, do not weaken the gate silently. The orchestrator must check whether Qnet contains the same root under another key/root ID. If yes, create a documented Qnet entry for the QAC/Furūq root by deriving/splitting from that existing entry. If no, create a minimal documented Qnet entry from accepted, uncontaminated Furūq branch images. Then rerun the failed surah.
 
 Override flags are allowed only for diagnostics, not normal workflow. If either diagnostic override flag is supplied, the run must produce a diagnostic-only package even when the data would otherwise pass the gate.
 

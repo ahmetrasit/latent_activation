@@ -86,7 +86,14 @@ QAC surface roots/root_join_keys
 
 Agents should not be started if root resolution is missing or ambiguous.
 
-The script enforces this by default. It also stops if a resolved root has Furūq branches but zero Qnet branch nodes in the selected Qnet layer. Override flags exist only for diagnostics:
+The script enforces this by default. It also stops if a resolved root has Furūq branches but zero Qnet branch nodes in the selected Qnet layer.
+
+Two exceptions are intentional:
+
+- non-branchable QAC function roots are omitted from branch/Qnet lookup only by explicit allowlist; current allowlist is `كيف` / `ك ي ف` / `كَيْفَ`;
+- duplicated Furūq/Qnet IDs for one QAC root key are merged only when they pass deterministic hamza/key duplicate checks, with namespaced branch IDs such as `root_001210:B001` and explicit `source_root_id` provenance.
+
+Override flags exist only for diagnostics:
 
 ```text
 --allow-unresolved-roots
@@ -117,6 +124,21 @@ DENSE_PASSAGE_GATE.json
 ```
 
 Run each listed pericope as a separate package, then integrate across pericope reports.
+
+If a surah fails a gate during orchestration, stop the sequence, diagnose the root cause, draft a fix plan, send that plan to a read-only review agent for assessment, then fix and rerun the failed surah before continuing.
+
+For a root with Furūq branches but no Qnet nodes:
+
+1. first check whether Qnet already contains the same root under a key variant or another root ID;
+2. if it does, create a Qnet entry for the QAC/Furūq root by deriving/splitting from that existing Qnet entry and preserving provenance in notes;
+3. if it does not, create a minimal Qnet entry from accepted Furūq branch images, with conservative leaf themes/keywords and explicit documentation here;
+4. rerun the failed surah before continuing orchestration.
+
+Manual Qnet entries created during v11 orchestration:
+
+| QAC/Furūq root | Qnet root_id | Source Qnet root | Reason | Mapping |
+| --- | --- | --- | --- | --- |
+| `ط م ن` | `root_003669` | `root_000948` (`ط م ء ن`) | S89 had Furūq branches but zero Qnet nodes for the QAC/Furūq root; Qnet contained the same semantic root under hamzated key `طمءن`. | `B001` calm/stability copied from `root_000948:B001`; `B002` low-ground/topography split from `root_000948:B002`; `B003` posture/bending split from `root_000948:B002`. |
 
 ## Outputs
 

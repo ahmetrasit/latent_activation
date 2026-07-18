@@ -83,6 +83,8 @@ MECHANICAL_OUTPUTS = [
 DENSE_AGENT_CANDIDATE_LIMIT = 10_000
 PERICOPE_TARGET_UNIQUE_ROOTS = 18
 PERICOPE_TARGET_AYAHS = 8
+NONBRANCHABLE_QAC_POS = {"INTG"}
+NONBRANCHABLE_QAC_ROOT_KEYS = {"كيف"}
 
 
 def publish_staged_outputs(staging_dir: Path, out_dir: Path) -> None:
@@ -275,9 +277,13 @@ def root_lookup_variants(text: str) -> list[str]:
 
 
 def branch_inventory_summary(branches: dict[str, Any]) -> dict[str, Any]:
+    statuses = Counter(item.get("status") for item in branches.get("root_resolution_audit", []))
     return {
         "schema": "v11.branch_inventory_summary.v1",
         "root_count": len(branches.get("roots", {})),
+        "omitted_root_count": len(branches.get("omitted_roots", [])),
+        "missing_root_count": len(branches.get("missing_roots", [])),
+        "root_resolution_status_counts": dict(statuses),
         "branch_count": sum(info.get("branch_count", 0) for info in branches.get("roots", {}).values()),
         "qnet_branch_count": sum(
             info.get("qnet_branch_count", 0) for info in branches.get("roots", {}).values()
@@ -593,8 +599,34 @@ def build_pericope_plan(
     }
 
 
-def root_id_map(furuq: sqlite3.Connection, passage: dict[str, Any]) -> tuple[dict[str, dict[str, str]], list[dict[str, Any]]]:
-    out: dict[str, dict[str, str]] = {}
+def is_nonbranchable_qac_function_root(passage: dict[str, Any], root: str) -> bool:
+    occurrences = passage.get("root_occurrences", {}).get(root, [])
+    if not occurrences:
+        return False
+    keys = set(passage.get("root_join_keys_by_root", {}).get(root, []))
+    if not keys or not keys <= NONBRANCHABLE_QAC_ROOT_KEYS:
+        return False
+    return all((occ.get("pos") or "") in NONBRANCHABLE_QAC_POS for occ in occurrences)
+
+
+def mergeable_duplicate_root_rows(root: str, rows: list[sqlite3.Row]) -> bool:
+    if len(rows) < 2:
+        return False
+    qac_variants = set(root_lookup_variants(root))
+    normalized_root_norms = {compact_root(strip_arabic_marks(row["root_norm"])) for row in rows}
+    if len(normalized_root_norms) != 1:
+        return False
+    if normalized_root_norms and next(iter(normalized_root_norms)) not in qac_variants:
+        return False
+    source_variant_sets = [
+        set(root_lookup_variants(row["source_root_norm"]) + root_lookup_variants(row["root_norm"]))
+        for row in rows
+    ]
+    return all(source_variants & qac_variants for source_variants in source_variant_sets)
+
+
+def root_id_map(furuq: sqlite3.Connection, passage: dict[str, Any]) -> tuple[dict[str, dict[str, Any]], list[dict[str, Any]]]:
+    out: dict[str, dict[str, Any]] = {}
     audit: list[dict[str, Any]] = []
     roots = passage["roots_in_order"]
 
@@ -641,20 +673,40 @@ def root_id_map(furuq: sqlite3.Connection, passage: dict[str, Any]) -> tuple[dic
             row = next(iter(unique.values()))
             out[root] = {
                 "root_id": row["root_id"],
+                "root_ids": [row["root_id"]],
                 "root_norm": norm_root(row["root_norm"]),
                 "source_root_norm": norm_root(row["source_root_norm"]),
                 "matched_variant": matched_variants[0] if matched_variants else "",
                 "matched_variants": matched_variants,
                 "qac_root_join_keys": passage.get("root_join_keys_by_root", {}).get(root, []),
+                "merge_policy": "single_root_id",
             }
             status = "resolved"
             resolution_method = "unique_furuq_root_match"
+        elif len(unique) > 1 and mergeable_duplicate_root_rows(root, list(unique.values())):
+            rows_by_id = [unique[root_id] for root_id in sorted(unique)]
+            out[root] = {
+                "root_id": rows_by_id[0]["root_id"],
+                "root_ids": [row["root_id"] for row in rows_by_id],
+                "root_norm": norm_root(rows_by_id[0]["root_norm"]),
+                "source_root_norm": norm_root(rows_by_id[0]["source_root_norm"]),
+                "matched_variant": matched_variants[0] if matched_variants else "",
+                "matched_variants": matched_variants,
+                "qac_root_join_keys": passage.get("root_join_keys_by_root", {}).get(root, []),
+                "merge_policy": "merged_ambiguous_qac_root_key_with_namespaced_branches",
+            }
+            status = "merged"
+            resolution_method = "merged_multiple_furuq_root_ids"
         elif len(unique) > 1:
             status = "ambiguous"
-            resolution_method = "blocked_multiple_furuq_root_ids"
+            resolution_method = "blocked_unmergeable_multiple_furuq_root_ids"
         else:
-            status = "missing"
-            resolution_method = "no_furuq_root_match"
+            if is_nonbranchable_qac_function_root(passage, root):
+                status = "omitted"
+                resolution_method = "nonbranchable_qac_function_root"
+            else:
+                status = "missing"
+                resolution_method = "no_furuq_root_match"
         audit.append(
             {
                 "qac_root": root,
@@ -690,94 +742,118 @@ def load_branch_inventory(
         "root_resolution_policy": "qac_first_with_hamza_variant_audit",
         "root_resolution_audit": root_resolution_audit,
         "roots": {},
-        "missing_roots": [r for r in roots if r not in ids],
+        "missing_roots": [
+            item["qac_root"]
+            for item in root_resolution_audit
+            if item.get("status") == "missing"
+        ],
+        "omitted_roots": [
+            item["qac_root"]
+            for item in root_resolution_audit
+            if item.get("status") == "omitted"
+        ],
     }
 
     for root in roots:
         info = ids.get(root)
         if not info:
             continue
-        root_id = info["root_id"]
-        qnet_node_rows = qnet.execute(
-            """
-            SELECT branch_id
-            FROM nodes
-            WHERE root_id = ?
-            ORDER BY branch_id
-            """,
-            [root_id],
-        ).fetchall()
-        qnet_branch_ids = {row["branch_id"] for row in qnet_node_rows}
-        image_rows = furuq.execute(
-            """
-            SELECT branch_id
-            FROM branch_images
-            WHERE root_id = ?
-            ORDER BY branch_id
-            """,
-            [root_id],
-        ).fetchall()
-        furuq_branch_ids = {row["branch_id"] for row in image_rows}
-        branch_ids = sorted(qnet_branch_ids | furuq_branch_ids)
+        root_ids = info.get("root_ids") or [info["root_id"]]
+        namespace_branches = len(root_ids) > 1
         branches: dict[str, Any] = {}
-        for branch_id in branch_ids:
-            image = furuq.execute(
+        qnet_branch_count = 0
+        furuq_branch_count = 0
+        branches_without_qnet_themes: list[str] = []
+        for source_root_id in root_ids:
+            qnet_node_rows = qnet.execute(
                 """
-                SELECT branch_image_ar, branch_image_en, what_is_ar, what_is_en,
-                       status, contaminated
-                FROM branch_images
-                WHERE root_id = ? AND branch_id = ?
+                SELECT branch_id
+                FROM nodes
+                WHERE root_id = ?
+                ORDER BY branch_id
                 """,
-                [root_id, branch_id],
-            ).fetchone()
-            keyword_rows = qnet.execute(
-                """
-                SELECT theme, raw_keyword, replicate_votes
-                FROM theme_keyword_nodes
-                WHERE root_id = ? AND branch_id = ?
-                ORDER BY theme, raw_keyword
-                """,
-                [root_id, branch_id],
+                [source_root_id],
             ).fetchall()
-            themes: dict[str, Any] = {}
-            raw_keywords: list[str] = []
-            for kw in keyword_rows:
-                theme = kw["theme"]
-                raw_keywords.append(kw["raw_keyword"])
-                themes.setdefault(
-                    theme,
-                    {
-                        "keywords": [],
-                        "max_votes": 0,
-                    },
+            qnet_branch_ids = {row["branch_id"] for row in qnet_node_rows}
+            image_rows = furuq.execute(
+                """
+                SELECT branch_id
+                FROM branch_images
+                WHERE root_id = ?
+                ORDER BY branch_id
+                """,
+                [source_root_id],
+            ).fetchall()
+            furuq_branch_ids = {row["branch_id"] for row in image_rows}
+            qnet_branch_count += len(qnet_branch_ids)
+            furuq_branch_count += len(furuq_branch_ids)
+            branch_ids = sorted(qnet_branch_ids | furuq_branch_ids)
+            for branch_id in branch_ids:
+                canonical_branch_id = (
+                    f"{source_root_id}:{branch_id}" if namespace_branches else branch_id
                 )
-                themes[theme]["keywords"].append(
-                    {
-                        "raw_keyword": kw["raw_keyword"],
-                        "replicate_votes": kw["replicate_votes"],
-                    }
-                )
-                themes[theme]["max_votes"] = max(themes[theme]["max_votes"], kw["replicate_votes"])
+                if branch_id in furuq_branch_ids and branch_id not in qnet_branch_ids:
+                    branches_without_qnet_themes.append(canonical_branch_id)
+                image = furuq.execute(
+                    """
+                    SELECT branch_image_ar, branch_image_en, what_is_ar, what_is_en,
+                           status, contaminated
+                    FROM branch_images
+                    WHERE root_id = ? AND branch_id = ?
+                    """,
+                    [source_root_id, branch_id],
+                ).fetchone()
+                keyword_rows = qnet.execute(
+                    """
+                    SELECT theme, raw_keyword, replicate_votes
+                    FROM theme_keyword_nodes
+                    WHERE root_id = ? AND branch_id = ?
+                    ORDER BY theme, raw_keyword
+                    """,
+                    [source_root_id, branch_id],
+                ).fetchall()
+                themes: dict[str, Any] = {}
+                raw_keywords: list[str] = []
+                for kw in keyword_rows:
+                    theme = kw["theme"]
+                    raw_keywords.append(kw["raw_keyword"])
+                    themes.setdefault(
+                        theme,
+                        {
+                            "keywords": [],
+                            "max_votes": 0,
+                        },
+                    )
+                    themes[theme]["keywords"].append(
+                        {
+                            "raw_keyword": kw["raw_keyword"],
+                            "replicate_votes": kw["replicate_votes"],
+                        }
+                    )
+                    themes[theme]["max_votes"] = max(themes[theme]["max_votes"], kw["replicate_votes"])
 
-            branches[branch_id] = {
-                "branch_id": branch_id,
-                "root": root,
-                "root_id": root_id,
-                "image": dict(image) if image else None,
-                "integrity": "ok" if image else "missing_branch_image",
-                "qnet_membership": "present" if branch_id in qnet_branch_ids else "absent_from_selected_qnet_layer",
-                "theme_count": len(themes),
-                "keyword_count": len(set(raw_keywords)),
-                "themes": themes,
-                "raw_keywords": sorted(set(raw_keywords)),
-            }
+                branches[canonical_branch_id] = {
+                    "branch_id": canonical_branch_id,
+                    "source_branch_id": branch_id,
+                    "root": root,
+                    "root_id": info["root_id"],
+                    "source_root_id": source_root_id,
+                    "source_root_ids": root_ids,
+                    "image": dict(image) if image else None,
+                    "integrity": "ok" if image else "missing_branch_image",
+                    "qnet_membership": "present" if branch_id in qnet_branch_ids else "absent_from_selected_qnet_layer",
+                    "theme_count": len(themes),
+                    "keyword_count": len(set(raw_keywords)),
+                    "themes": themes,
+                    "raw_keywords": sorted(set(raw_keywords)),
+                }
         inventory["roots"][root] = {
             **info,
             "surface_occurrences": passage["root_occurrences"].get(root, []),
             "branch_count": len(branches),
-            "qnet_branch_count": len(qnet_branch_ids),
-            "furuq_branch_count": len(furuq_branch_ids),
-            "branches_without_qnet_themes": sorted(furuq_branch_ids - qnet_branch_ids),
+            "qnet_branch_count": qnet_branch_count,
+            "furuq_branch_count": furuq_branch_count,
+            "branches_without_qnet_themes": sorted(branches_without_qnet_themes),
             "branches": branches,
         }
 
@@ -847,9 +923,10 @@ def load_q2_relations(
         return {}
     endpoint_by_root_id_branch: dict[tuple[str, str], str] = {}
     for root, root_info in branch_inventory["roots"].items():
-        root_id = root_info["root_id"]
-        for branch_id in root_info["branches"]:
-            endpoint_by_root_id_branch[(root_id, branch_id)] = f"{root} {branch_id}"
+        for branch_id, branch in root_info["branches"].items():
+            endpoint_by_root_id_branch[
+                (branch["source_root_id"], branch.get("source_branch_id", branch_id))
+            ] = f"{root} {branch_id}"
 
     rels: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
     with path.open("r", encoding="utf-8") as handle:
@@ -1444,7 +1521,7 @@ def main() -> None:
 
         unresolved = [
             item for item in branches.get("root_resolution_audit", [])
-            if item.get("status") != "resolved"
+            if item.get("status") not in {"resolved", "merged", "omitted"}
         ]
         if unresolved and not ns.allow_unresolved_roots:
             unresolved_roots = ", ".join(item["qac_root"] for item in unresolved)
