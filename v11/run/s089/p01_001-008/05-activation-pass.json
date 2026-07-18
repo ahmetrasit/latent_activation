@@ -1,0 +1,1087 @@
+{
+  "schema": "v11.activation_pass.v1",
+  "passage": {
+    "surah": 89,
+    "ayah_start": 1,
+    "ayah_end": 8
+  },
+  "activation_bias": "recall_first",
+  "agent": "A",
+  "graph_discipline": "Roots are nodes; branches remain edge/port labels.",
+  "labels": {
+    "A": "surface-active / structurally necessary",
+    "B": "strong secondary activation",
+    "C/B": "borderline strong secondary activation; preserved prominently",
+    "C": "exploratory latent activation worth inspecting",
+    "S": "currently silent / no visible bridge",
+    "X": "data issue"
+  },
+  "root_resolution": {
+    "authority": "01-passage.json QAC word order, morphology, and root resolution",
+    "surface_roots": 17,
+    "resolved_branch_roots": 16,
+    "omitted_nonbranchable_roots": [
+      "ك ي ف"
+    ],
+    "branch_ids_invented": false,
+    "note": "QAC كيف at 89:6 is an interrogative function-root intentionally omitted by 02-branches.json; it is not counted as an X branch. The basmala is included as an interpretive frame but contributes no additional branch IDs to this inventory."
+  },
+  "surface_mechanism": [
+    "The basmala frames the oath, the night-to-dawn movement, divine action, creation, and the judgment of past power under divine lordship and mercy.",
+    "89:1-5 forms a temporal and numerical oath sequence: dawn, ten nights, paired and unpaired number, the passing night, and an oath addressed to restraining intellect.",
+    "89:6-8 turns from cosmic signs to historical seeing: the Lord's action against ancient Aad, Iram of the pillars, and an unmatched created form among the lands.",
+    "The strongest secondary network therefore joins time and recurrence, number and division, cognition and testimony, divine agency, ancient tribal memory, monumental architecture, creation and comparison, and bounded lands."
+  ],
+  "activation_clusters": [
+    {
+      "name": "temporal oath cycle",
+      "branch_keys": [
+        "ف ج ر B002",
+        "ل ي ل B001",
+        "ل ي ل B002",
+        "ل ي ل B003",
+        "ع ش ر B001",
+        "ع ش ر B016",
+        "و ت ر B004",
+        "س ر ي B001"
+      ]
+    },
+    {
+      "name": "number, pairing, and division",
+      "branch_keys": [
+        "ع ش ر B001",
+        "ع ش ر B002",
+        "ع ش ر B005",
+        "ش ف ع B001",
+        "و ت ر B001",
+        "ق س م B003",
+        "ق س م B004"
+      ]
+    },
+    {
+      "name": "cognition, testimony, and moral restraint",
+      "branch_keys": [
+        "ح ج ر B001",
+        "ح ج ر B002",
+        "ر ء ي B001",
+        "ر ء ي B002",
+        "ر ء ي B012",
+        "ر ء ي B013",
+        "ق س م B006"
+      ]
+    },
+    {
+      "name": "divine agency and created form",
+      "branch_keys": [
+        "ف ع ل B001",
+        "ر ب ب B001",
+        "ر ب ب B002",
+        "خ ل ق B001",
+        "خ ل ق B002",
+        "خ ل ق B003",
+        "م ث ل B001",
+        "م ث ل B008"
+      ]
+    },
+    {
+      "name": "Aad, Iram, pillars, and lands",
+      "branch_keys": [
+        "ع و د B009",
+        "ع و د B012",
+        "ع م د B002",
+        "ع م د B003",
+        "ع م د B004",
+        "ع م د B005",
+        "س ر ي B005",
+        "ح ج ر B003",
+        "ح ج ر B004",
+        "ب ل د B001",
+        "ب ل د B009"
+      ]
+    }
+  ],
+  "primary_surface_branches": [
+    {
+      "root": "ف ج ر",
+      "branch": "B002",
+      "label": "A",
+      "role": "dawn breaking from night and opening the oath sequence",
+      "evidence": [
+        "surface ٱلْفَجْرِ at 89:1",
+        "direct dawn and morning-light branch"
+      ]
+    },
+    {
+      "root": "ل ي ل",
+      "branch": "B001",
+      "label": "A",
+      "role": "the ten nights and the night that passes",
+      "evidence": [
+        "surface لَيَالٍ at 89:2 and ٱلَّيْلِ at 89:4",
+        "direct night and darkness branch"
+      ]
+    },
+    {
+      "root": "ع ش ر",
+      "branch": "B001",
+      "label": "A",
+      "role": "the explicit number ten modifying the nights",
+      "evidence": [
+        "surface عَشْرٍ at 89:2",
+        "direct cardinal-ten branch"
+      ]
+    },
+    {
+      "root": "ع ش ر",
+      "branch": "B016",
+      "label": "A",
+      "role": "ten as the completed number after nine within the oath count",
+      "evidence": [
+        "surface عَشْرٍ at 89:2",
+        "direct ten-after-nine branch"
+      ]
+    },
+    {
+      "root": "ش ف ع",
+      "branch": "B001",
+      "label": "A",
+      "role": "the paired or even member of the numerical oath",
+      "evidence": [
+        "surface ٱلشَّفْعِ at 89:3",
+        "direct joining-to-a-like branch"
+      ]
+    },
+    {
+      "root": "و ت ر",
+      "branch": "B001",
+      "label": "A",
+      "role": "the single or odd member opposed to the paired",
+      "evidence": [
+        "surface ٱلْوَتْرِ at 89:3",
+        "direct unpaired-single branch"
+      ]
+    },
+    {
+      "root": "س ر ي",
+      "branch": "B001",
+      "label": "A",
+      "role": "the night moving on in nocturnal passage",
+      "evidence": [
+        "surface يَسْرِ at 89:4",
+        "direct night-travel and nocturnal-motion branch"
+      ]
+    },
+    {
+      "root": "ق س م",
+      "branch": "B004",
+      "label": "A",
+      "role": "the oath explicitly named after the preceding signs",
+      "evidence": [
+        "surface قَسَمٌ at 89:5",
+        "direct oath branch"
+      ]
+    },
+    {
+      "root": "ح ج ر",
+      "branch": "B002",
+      "label": "A",
+      "role": "restraining intellect capable of grasping the oath",
+      "evidence": [
+        "surface حِجْرٍ at 89:5",
+        "direct intellect-as-barrier branch"
+      ]
+    },
+    {
+      "root": "ر ء ي",
+      "branch": "B001",
+      "label": "A",
+      "role": "seeing with eye and insight in the historical question",
+      "evidence": [
+        "surface تَرَ at 89:6",
+        "direct sight and insight branch"
+      ]
+    },
+    {
+      "root": "ف ع ل",
+      "branch": "B001",
+      "label": "A",
+      "role": "the Lord's effective action against Aad",
+      "evidence": [
+        "surface فَعَلَ at 89:6",
+        "direct causing-an-action branch"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B001",
+      "label": "A",
+      "role": "divine lordship and governing agency",
+      "evidence": [
+        "surface رَبُّكَ at 89:6",
+        "direct lordship and sovereignty branch",
+        "basmala included in the analysis frame"
+      ]
+    },
+    {
+      "root": "ع و د",
+      "branch": "B012",
+      "label": "A",
+      "role": "Aad as the named ancient people",
+      "evidence": [
+        "surface proper noun عَادٍ at 89:6",
+        "direct Aad-and-affiliated-names branch"
+      ]
+    },
+    {
+      "root": "ع م د",
+      "branch": "B003",
+      "label": "A",
+      "role": "the pillars or columnar supports characterizing Iram",
+      "evidence": [
+        "surface ٱلْعِمَادِ at 89:7",
+        "direct pillar and support noun branch"
+      ]
+    },
+    {
+      "root": "خ ل ق",
+      "branch": "B002",
+      "label": "A",
+      "role": "bringing the unmatched city or people into created existence",
+      "evidence": [
+        "surface passive يُخْلَقْ at 89:8",
+        "direct origination and creation branch"
+      ]
+    },
+    {
+      "root": "م ث ل",
+      "branch": "B001",
+      "label": "A",
+      "role": "the denied peer or likeness of Iram among the lands",
+      "evidence": [
+        "surface مِثْلُهَا at 89:8",
+        "direct likeness and counterpart branch"
+      ]
+    },
+    {
+      "root": "ب ل د",
+      "branch": "B001",
+      "label": "A",
+      "role": "bounded lands in which no likeness was created",
+      "evidence": [
+        "surface ٱلْبِلَادِ at 89:8",
+        "direct bounded-land and settlement branch"
+      ]
+    }
+  ],
+  "secondary_activation_groups": [
+    {
+      "root": "ف ج ر",
+      "label": "B",
+      "branches": [
+        "B001"
+      ],
+      "role": "wide splitting and release as the image beneath dawn's emergence",
+      "activated_by_roots": [
+        "ل ي ل",
+        "س ر ي",
+        "خ ل ق"
+      ],
+      "mechanical_discovery_refs": [
+        "ف ج ر B001 ↔ خ ل ق B011",
+        "ف ج ر B001 ↔ س ر ي B002"
+      ]
+    },
+    {
+      "root": "ل ي ل",
+      "label": "B",
+      "branches": [
+        "B002",
+        "B003"
+      ],
+      "role": "activity performed at night and the bounded night-unit within the ten-night sequence",
+      "activated_by_roots": [
+        "س ر ي",
+        "ع ش ر",
+        "ف ج ر"
+      ],
+      "mechanical_discovery_refs": [
+        "ل ي ل B002 ↔ س ر ي B001",
+        "ل ي ل B003 ↔ ع ش ر B011",
+        "ف ج ر B002 ↔ ل ي ل B003"
+      ]
+    },
+    {
+      "root": "ع ش ر",
+      "label": "B",
+      "branches": [
+        "B002",
+        "B005"
+      ],
+      "role": "completion by a tenth and patterned tenfold enumeration",
+      "activated_by_roots": [
+        "ش ف ع",
+        "و ت ر",
+        "ق س م"
+      ],
+      "mechanical_discovery_refs": [
+        "ع ش ر B002 ↔ و ت ر B001",
+        "ع ش ر B005 ↔ ش ف ع B001"
+      ]
+    },
+    {
+      "root": "ش ف ع",
+      "label": "B",
+      "branches": [
+        "B002"
+      ],
+      "role": "joining support or intercession beneath the paired member of the oath",
+      "activated_by_roots": [
+        "ر ب ب",
+        "ح ج ر",
+        "ف ع ل"
+      ],
+      "mechanical_discovery_refs": [
+        "ش ف ع B002 ↔ ع و د B006",
+        "ش ف ع B002 ↔ ح ج ر B002"
+      ]
+    },
+    {
+      "root": "و ت ر",
+      "label": "B",
+      "branches": [
+        "B004"
+      ],
+      "role": "single succession and rhythmic intervals within the passing night",
+      "activated_by_roots": [
+        "ل ي ل",
+        "ع ش ر",
+        "س ر ي"
+      ],
+      "mechanical_discovery_refs": [
+        "ل ي ل B003 ↔ و ت ر B004",
+        "ع ش ر B011 ↔ و ت ر B004"
+      ]
+    },
+    {
+      "root": "س ر ي",
+      "label": "B",
+      "branches": [
+        "B005"
+      ],
+      "role": "the column sense activated directly by Iram of the pillars",
+      "activated_by_roots": [
+        "ع م د",
+        "ح ج ر",
+        "ب ل د"
+      ],
+      "mechanical_discovery_refs": [
+        "س ر ي B005 ↔ ع م د B003",
+        "س ر ي B005 ↔ ع م د B002"
+      ]
+    },
+    {
+      "root": "ق س م",
+      "label": "B",
+      "branches": [
+        "B003",
+        "B006"
+      ],
+      "role": "division, allocation, and divided deliberation activated by ten, pair/odd structure, and the address to intellect",
+      "activated_by_roots": [
+        "ع ش ر",
+        "ش ف ع",
+        "و ت ر",
+        "ح ج ر",
+        "ر ء ي"
+      ],
+      "mechanical_discovery_refs": [
+        "ش ف ع B003 ↔ ق س م B003",
+        "ق س م B006 ↔ ر ء ي B002",
+        "ق س م B006 ↔ ح ج ر B002"
+      ]
+    },
+    {
+      "root": "ح ج ر",
+      "label": "B",
+      "branches": [
+        "B001",
+        "B003",
+        "B004"
+      ],
+      "role": "restraint, stone material, and enclosed place joining intellect to monumental Iram and bounded lands",
+      "activated_by_roots": [
+        "ر ء ي",
+        "ع م د",
+        "خ ل ق",
+        "ب ل د"
+      ],
+      "mechanical_discovery_refs": [
+        "ف ج ر B004 ↔ ح ج ر B001",
+        "ح ج ر B003 ↔ خ ل ق B008",
+        "و ت ر B010 ↔ ح ج ر B004"
+      ]
+    },
+    {
+      "root": "ر ء ي",
+      "label": "B",
+      "branches": [
+        "B002",
+        "B004",
+        "B006",
+        "B012",
+        "B013"
+      ],
+      "role": "reflection, confrontation, visible appearance, disclosure, and rhetorical attention in the question about Aad",
+      "activated_by_roots": [
+        "ح ج ر",
+        "ق س م",
+        "خ ل ق",
+        "م ث ل",
+        "ب ل د"
+      ],
+      "mechanical_discovery_refs": [
+        "ح ج ر B002 ↔ ر ء ي B002",
+        "ر ء ي B006 ↔ ب ل د B003",
+        "ر ء ي B012 ↔ م ث ل B011",
+        "ر ء ي B013 ↔ ع و د B003"
+      ]
+    },
+    {
+      "root": "ف ع ل",
+      "label": "B",
+      "branches": [
+        "B002",
+        "B003"
+      ],
+      "role": "character-bearing deeds and constructive work beneath what the Lord did and what was created",
+      "activated_by_roots": [
+        "خ ل ق",
+        "ع م د",
+        "ر ب ب"
+      ],
+      "mechanical_discovery_refs": [
+        "ف ع ل B002 ↔ خ ل ق B004",
+        "س ر ي B005 ↔ ف ع ل B003"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "label": "B",
+      "branches": [
+        "B002"
+      ],
+      "role": "divine ordering, nurture, completion, and formation under the basmala and creation clause",
+      "activated_by_roots": [
+        "خ ل ق",
+        "ف ع ل",
+        "ع م د"
+      ],
+      "mechanical_discovery_refs": [
+        "ر ب ب B002 ↔ ع م د B011"
+      ]
+    },
+    {
+      "root": "ع و د",
+      "label": "B",
+      "branches": [
+        "B009"
+      ],
+      "role": "antiquity, inherited memory, and an old route under the named Aad people",
+      "activated_by_roots": [
+        "ف ج ر",
+        "س ر ي",
+        "ر ب ب"
+      ],
+      "mechanical_discovery_refs": [
+        "ف ج ر B006 ↔ ع و د B009",
+        "س ر ي B001 ↔ ع و د B009"
+      ]
+    },
+    {
+      "root": "ع م د",
+      "label": "B",
+      "branches": [
+        "B002",
+        "B004",
+        "B005",
+        "B007"
+      ],
+      "role": "supporting by pillars, people of tent-poles, monumental height, and the structural core of Iram",
+      "activated_by_roots": [
+        "س ر ي",
+        "ح ج ر",
+        "خ ل ق",
+        "ب ل د"
+      ],
+      "mechanical_discovery_refs": [
+        "س ر ي B005 ↔ ع م د B002",
+        "ع م د B004 ↔ ب ل د B009",
+        "س ر ي B005 ↔ ع م د B005",
+        "و ت ر B009 ↔ ع م د B007"
+      ]
+    },
+    {
+      "root": "خ ل ق",
+      "label": "B",
+      "branches": [
+        "B001",
+        "B003"
+      ],
+      "role": "measured design and completed visible form beneath unmatched creation",
+      "activated_by_roots": [
+        "ق س م",
+        "ع م د",
+        "م ث ل",
+        "ب ل د"
+      ],
+      "mechanical_discovery_refs": [
+        "خ ل ق B001 ↔ م ث ل B008",
+        "ق س م B001 ↔ خ ل ق B003"
+      ]
+    },
+    {
+      "root": "م ث ل",
+      "label": "B",
+      "branches": [
+        "B003",
+        "B004",
+        "B005",
+        "B008",
+        "B011"
+      ],
+      "role": "parable, description, standing form, fashioned model, and historical sign beneath the denied likeness",
+      "activated_by_roots": [
+        "ر ء ي",
+        "خ ل ق",
+        "ع م د",
+        "ب ل د"
+      ],
+      "mechanical_discovery_refs": [
+        "ع م د B012 ↔ م ث ل B003",
+        "خ ل ق B001 ↔ م ث ل B008",
+        "ر ء ي B012 ↔ م ث ل B011"
+      ]
+    },
+    {
+      "root": "ب ل د",
+      "label": "B",
+      "branches": [
+        "B009"
+      ],
+      "role": "settled residence and civic permanence under Iram among the lands",
+      "activated_by_roots": [
+        "ع م د",
+        "ر ء ي",
+        "ع و د"
+      ],
+      "mechanical_discovery_refs": [
+        "ع م د B004 ↔ ب ل د B009"
+      ]
+    },
+    {
+      "root": "ف ج ر",
+      "label": "C/B",
+      "branches": [
+        "B003",
+        "B004",
+        "B006"
+      ],
+      "role": "sudden collective irruption, moral breach, and remembered battle-days under the transition from oath to Aad",
+      "activated_by_roots": [
+        "ع و د",
+        "ف ع ل",
+        "ق س م",
+        "ح ج ر"
+      ],
+      "mechanical_discovery_refs": [
+        "ف ج ر B004 ↔ ر ء ي B005",
+        "ف ج ر B006 ↔ ق س م B004"
+      ]
+    },
+    {
+      "root": "ع ش ر",
+      "label": "C/B",
+      "branches": [
+        "B006",
+        "B010",
+        "B011",
+        "B013"
+      ],
+      "role": "tenth-cycle desert time, measured monumental scale, calendrical commemoration, and tribal collectivity",
+      "activated_by_roots": [
+        "ل ي ل",
+        "ع م د",
+        "ع و د",
+        "ب ل د"
+      ],
+      "mechanical_discovery_refs": [
+        "ع ش ر B006 ↔ ر ب ب B014",
+        "ع ش ر B011 ↔ ع و د B007",
+        "ع ش ر B013 ↔ ع م د B004"
+      ]
+    },
+    {
+      "root": "و ت ر",
+      "label": "C/B",
+      "branches": [
+        "B002",
+        "B010"
+      ],
+      "role": "unanswered blood-claim and extended land-row imagery under Aad's judgment and Iram's built form",
+      "activated_by_roots": [
+        "ق س م",
+        "م ث ل",
+        "ح ج ر",
+        "ع م د"
+      ],
+      "mechanical_discovery_refs": [
+        "و ت ر B002 ↔ م ث ل B002",
+        "و ت ر B010 ↔ ح ج ر B004"
+      ]
+    },
+    {
+      "root": "س ر ي",
+      "label": "C/B",
+      "branches": [
+        "B002",
+        "B004"
+      ],
+      "role": "flow and disclosure as latent images of the passing night opening toward dawn",
+      "activated_by_roots": [
+        "ف ج ر",
+        "ل ي ل",
+        "خ ل ق"
+      ],
+      "mechanical_discovery_refs": [
+        "س ر ي B002 ↔ خ ل ق B011",
+        "س ر ي B004 ↔ ر ء ي B008"
+      ]
+    },
+    {
+      "root": "ق س م",
+      "label": "C/B",
+      "branches": [
+        "B008"
+      ],
+      "role": "truce and covenant law as a latent contrast to divine action against a transgressive people",
+      "activated_by_roots": [
+        "ر ب ب",
+        "ف ج ر",
+        "و ت ر"
+      ],
+      "mechanical_discovery_refs": [
+        "ق س م B008 ↔ ر ب ب B011"
+      ]
+    },
+    {
+      "root": "ح ج ر",
+      "label": "C/B",
+      "branches": [
+        "B005"
+      ],
+      "role": "protective enclosure and care under the basmala's mercy and the bounded-space network",
+      "activated_by_roots": [
+        "ر ب ب",
+        "ب ل د",
+        "ع م د"
+      ],
+      "mechanical_discovery_refs": [
+        "ح ج ر B005 ↔ ر ب ب B005",
+        "ح ج ر B005 ↔ ع م د B004"
+      ]
+    },
+    {
+      "root": "ر ء ي",
+      "label": "C/B",
+      "branches": [
+        "B005",
+        "B011"
+      ],
+      "role": "display before people and raised visible signs as a moral-political underlay of seeing Aad's power",
+      "activated_by_roots": [
+        "ف ج ر",
+        "خ ل ق",
+        "ع م د",
+        "ع و د"
+      ],
+      "mechanical_discovery_refs": [
+        "ف ج ر B004 ↔ ر ء ي B005",
+        "ر ء ي B011 ↔ ع م د B006"
+      ]
+    },
+    {
+      "root": "ف ع ل",
+      "label": "C/B",
+      "branches": [
+        "B004"
+      ],
+      "role": "fabricated action and authored fiction as a contrastive underlay to real divine action and creation",
+      "activated_by_roots": [
+        "خ ل ق",
+        "ر ء ي"
+      ],
+      "mechanical_discovery_refs": [
+        "ف ع ل B004 ↔ خ ل ق B007"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "label": "C/B",
+      "branches": [
+        "B003",
+        "B007",
+        "B011",
+        "B016"
+      ],
+      "role": "divine knowledge, permanence, covenantal order, and bestowed support under lordship and mercy",
+      "activated_by_roots": [
+        "ر ء ي",
+        "س ر ي",
+        "ق س م",
+        "ف ج ر"
+      ],
+      "mechanical_discovery_refs": [
+        "س ر ي B001 ↔ ر ب ب B007",
+        "ق س م B008 ↔ ر ب ب B011",
+        "ف ج ر B005 ↔ ر ب ب B016"
+      ]
+    },
+    {
+      "root": "ع و د",
+      "label": "C/B",
+      "branches": [
+        "B001",
+        "B006",
+        "B007"
+      ],
+      "role": "return, returning benefit, and recurrent festival-time beneath passing nights and the memory of Aad",
+      "activated_by_roots": [
+        "ل ي ل",
+        "ع ش ر",
+        "ف ج ر",
+        "ر ب ب"
+      ],
+      "mechanical_discovery_refs": [
+        "ع و د B001 ↔ م ث ل B006",
+        "ف ج ر B005 ↔ ع و د B006",
+        "ع ش ر B011 ↔ ع و د B007"
+      ]
+    },
+    {
+      "root": "ع م د",
+      "label": "C/B",
+      "branches": [
+        "B001",
+        "B006",
+        "B014",
+        "B015"
+      ],
+      "role": "deliberate agency, communal mainstay, persistence, and forceful domination beneath divine action and Aad's monumentality",
+      "activated_by_roots": [
+        "ف ع ل",
+        "ر ب ب",
+        "ع و د",
+        "ب ل د"
+      ],
+      "mechanical_discovery_refs": [
+        "ح ج ر B002 ↔ ع م د B001",
+        "ر ب ب B001 ↔ ع م د B006",
+        "ع م د B015 ↔ ب ل د B005"
+      ]
+    },
+    {
+      "root": "خ ل ق",
+      "label": "C/B",
+      "branches": [
+        "B004",
+        "B007",
+        "B008",
+        "B012"
+      ],
+      "role": "inner character, fabricated speech, material surface, and rock-like solidity as contrastive dimensions of unmatched creation",
+      "activated_by_roots": [
+        "ف ع ل",
+        "ر ء ي",
+        "ح ج ر",
+        "ع م د",
+        "ب ل د"
+      ],
+      "mechanical_discovery_refs": [
+        "ر ء ي B005 ↔ خ ل ق B004",
+        "ف ع ل B004 ↔ خ ل ق B007",
+        "ح ج ر B003 ↔ خ ل ق B008"
+      ]
+    },
+    {
+      "root": "م ث ل",
+      "label": "C/B",
+      "branches": [
+        "B002",
+        "B009"
+      ],
+      "role": "exemplary punishment and superlative excellence under Aad as an unmatched historical warning",
+      "activated_by_roots": [
+        "و ت ر",
+        "س ر ي",
+        "خ ل ق"
+      ],
+      "mechanical_discovery_refs": [
+        "و ت ر B002 ↔ م ث ل B002",
+        "س ر ي B003 ↔ م ث ل B009"
+      ]
+    },
+    {
+      "root": "ب ل د",
+      "label": "C/B",
+      "branches": [
+        "B004",
+        "B008",
+        "B010",
+        "B011"
+      ],
+      "role": "celestial place, massive bodily form, earth-contact, and warfare as underlays of cosmic oath, monumental Iram, and Aad's fate",
+      "activated_by_roots": [
+        "ل ي ل",
+        "ع ش ر",
+        "ع م د",
+        "خ ل ق",
+        "ع و د"
+      ],
+      "mechanical_discovery_refs": [
+        "ع ش ر B016 ↔ ب ل د B004",
+        "ع ش ر B017 ↔ ب ل د B008",
+        "م ث ل B006 ↔ ب ل د B010",
+        "و ت ر B007 ↔ ب ل د B011"
+      ]
+    }
+  ],
+  "exploratory_c_branches": [
+    {
+      "root": "ف ج ر",
+      "label": "C",
+      "branches": [
+        "B005"
+      ],
+      "role": "overflowing generosity retained through the basmala's mercy and lordship frame",
+      "note": "Plausible underlay, not asserted as the surface gloss."
+    },
+    {
+      "root": "ع ش ر",
+      "label": "C",
+      "branches": [
+        "B003",
+        "B004",
+        "B007",
+        "B008",
+        "B009",
+        "B012",
+        "B014",
+        "B015",
+        "B017"
+      ],
+      "role": "fraction, tithe, gestation, tenfold sound, division, social contact, desert plant, ten-verse marking, and feather anatomy",
+      "note": "Preserved across numerical, calendrical, tribal, desert, material, and animal bridges without promoting these senses to the surface."
+    },
+    {
+      "root": "ش ف ع",
+      "label": "C",
+      "branches": [
+        "B003",
+        "B004",
+        "B005",
+        "B006"
+      ],
+      "role": "property accession, dam-and-offspring pairing, paired milk vessels, and doubled vision",
+      "note": "Preserved through division, livestock, quantity, and perception bridges."
+    },
+    {
+      "root": "و ت ر",
+      "label": "C",
+      "branches": [
+        "B003",
+        "B005",
+        "B006",
+        "B007",
+        "B008",
+        "B009"
+      ],
+      "role": "deprivation, fixed practice, slackening, bowstring, training mark, and thin divider",
+      "note": "Preserved through law, action, travel, warfare, geometry, and form bridges."
+    },
+    {
+      "root": "س ر ي",
+      "label": "C",
+      "branches": [
+        "B003",
+        "B006"
+      ],
+      "role": "nobility and scattered names",
+      "note": "Status and naming bridges remain inspectable but are not needed by 89:1-8."
+    },
+    {
+      "root": "ق س م",
+      "label": "C",
+      "branches": [
+        "B001",
+        "B002",
+        "B005",
+        "B007"
+      ],
+      "role": "distributed beauty, midday heat, divinatory allotment, and the first fold of cloth",
+      "note": "Preserved through form, time, decision, and material bridges; B005 is Furūq-only in this layer but remains a plausible allocation underlay."
+    },
+    {
+      "root": "ح ج ر",
+      "label": "C",
+      "branches": [
+        "B006",
+        "B007"
+      ],
+      "role": "encircling mark and protected mare",
+      "note": "Geometry, boundary, livestock, and protection bridges justify exploratory retention."
+    },
+    {
+      "root": "ر ء ي",
+      "label": "C",
+      "branches": [
+        "B003",
+        "B007",
+        "B008",
+        "B009",
+        "B010"
+      ],
+      "role": "dream vision, menstrual sign, spirit-familiar, lung, and visible animal pregnancy",
+      "note": "Preserved across perception, sign, body, medicine, and reproduction bridges; none is asserted as the rhetorical surface sense."
+    },
+    {
+      "root": "ف ع ل",
+      "label": "C",
+      "branches": [
+        "B005",
+        "B006",
+        "B007"
+      ],
+      "role": "reciprocal action, axe attachment, and grammatical objects",
+      "note": "Social exchange, tools, construction, and syntax bridges keep these latent."
+    },
+    {
+      "root": "ر ب ب",
+      "label": "C",
+      "branches": [
+        "B004",
+        "B005",
+        "B006",
+        "B008",
+        "B009",
+        "B010",
+        "B012",
+        "B013",
+        "B014",
+        "B015",
+        "B017"
+      ],
+      "role": "groups, dependents, prepared preserve, cloud, young livestock, arrow vessel, plant, abundant water, herd, particle usage, and sailor-master",
+      "note": "Recall-first retention follows community, nurture, weather, animal, material, grammar, and authority bridges without confusing these with direct divine lordship."
+    },
+    {
+      "root": "ع و د",
+      "label": "C",
+      "branches": [
+        "B002",
+        "B004",
+        "B005",
+        "B008",
+        "B010"
+      ],
+      "role": "return-destination, habit, revisitation, aged camel, and wood or instrument",
+      "note": "Preserved through temporal return, social memory, desert livestock, and material-craft bridges."
+    },
+    {
+      "root": "ع م د",
+      "label": "C",
+      "branches": [
+        "B008",
+        "B009",
+        "B010",
+        "B011",
+        "B012",
+        "B013"
+      ],
+      "role": "burdening pain, wound, moist earth, robust youth, comparative expression, and blocked watercourse",
+      "note": "Preserved through force, body, material, rhetoric, and hydrology bridges around monumental structure."
+    },
+    {
+      "root": "خ ل ق",
+      "label": "C",
+      "branches": [
+        "B005",
+        "B006",
+        "B009",
+        "B010",
+        "B011"
+      ],
+      "role": "fitness, allotted good, worn cloth, perfume application, and water-holding hollow",
+      "note": "Preserved through capacity, value, time, material, ritual, and landscape bridges; B006 is Furūq-only in this layer."
+    },
+    {
+      "root": "م ث ل",
+      "label": "C",
+      "branches": [
+        "B006",
+        "B007",
+        "B010",
+        "B012"
+      ],
+      "role": "vanishing or crouching, bedding, imitation or compliance, and recovery from illness",
+      "note": "Motion, shelter, normative imitation, and restoration bridges justify retention."
+    },
+    {
+      "root": "ب ل د",
+      "label": "C",
+      "branches": [
+        "B002",
+        "B003",
+        "B005",
+        "B006",
+        "B007",
+        "B012"
+      ],
+      "role": "chest, facial blaze, bewilderment, bodily mark, weak penetration, and ostrich nest",
+      "note": "Preserved through body, appearance, cognition, evidence, capacity, and desert-ecology bridges without treating them as the surface lands."
+    }
+  ],
+  "silent_branches": [
+    {
+      "root": "ل ي ل",
+      "label": "S",
+      "branches": [
+        "B004"
+      ],
+      "role": "personal name Layla",
+      "note": "No person-naming trigger is visible in 89:1-8."
+    },
+    {
+      "root": "ع و د",
+      "label": "S",
+      "branches": [
+        "B003",
+        "B011"
+      ],
+      "role": "speechless idiom and the technical zihar-return formula",
+      "note": "Neither silence nor zihar is visibly triggered; B011 also has no Qnet bridge-theme membership in this layer."
+    }
+  ],
+  "data_issues": [],
+  "inventory_accounting": {
+    "surface_roots": 17,
+    "resolved_branch_roots": 16,
+    "branches": 164,
+    "A": 17,
+    "B": 34,
+    "C/B": 37,
+    "C": 73,
+    "S": 3,
+    "X": 0,
+    "coverage": "complete"
+  }
+}
