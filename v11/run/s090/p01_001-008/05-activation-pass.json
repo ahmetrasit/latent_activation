@@ -1,0 +1,582 @@
+{
+  "schema": "v11.activation_pass.v1",
+  "passage": {
+    "surah": 90,
+    "ayah_start": 1,
+    "ayah_end": 8
+  },
+  "activation_bias": "recall_first",
+  "agent": "A",
+  "graph_discipline": "Roots are nodes; branches are edge/port labels.",
+  "labels": {
+    "A": "surface-active / structurally necessary",
+    "B": "strong secondary activation",
+    "C/B": "borderline strong secondary activation; preserve prominently",
+    "C": "exploratory latent activation worth inspecting",
+    "S": "currently silent / no visible bridge",
+    "X": "data issue"
+  },
+  "root_resolution": {
+    "authority": "01-passage.json QAC morphology and root resolution",
+    "status": "clean",
+    "resolved_roots": 17,
+    "unresolved_roots": 0,
+    "branch_ids_invented": false,
+    "note": "The basmala in 00-surah-text.json is part of the analysis frame. It strengthens divine agency, watchfulness, and mercy readings but introduces no extra branch IDs into this passage inventory."
+  },
+  "surface_mechanism": [
+    "The basmala places the oath, creation, claimed power, unseen observation, and bestowed eyes under divine naming and mercy.",
+    "90:1-2 binds oath, bounded land, residence, and legal or sacral availability around this city.",
+    "90:3-4 joins parent, offspring, origination, visible humanity, and a condition of strenuous hardship.",
+    "90:5-7 repeats supposition and exhaustive negation: the speaker imagines that no individual can overpower him and that no individual has seen him.",
+    "90:6 makes utterance, destructive expenditure, wealth, and piled abundance a single boast-accounting complex.",
+    "90:8 answers the failed reckoning of visibility by pointing to divine making and the paired seeing eyes."
+  ],
+  "primary_surface_branches": [
+    {
+      "root": "ق س م",
+      "branch": "B004",
+      "label": "A",
+      "role": "divine oath opening the pericope",
+      "evidence": ["surface أُقْسِمُ at 90:1", "QAC form IV verb", "direct oath-taking branch"],
+      "surface_miss": "Without the oath branch, the city and the human condition lose their governing asseverative frame."
+    },
+    {
+      "root": "ب ل د",
+      "branch": "B001",
+      "label": "A",
+      "role": "the bounded land and city named twice",
+      "evidence": ["surface ٱلْبَلَدِ at 90:1 and 90:2", "direct bounded-place branch"],
+      "surface_miss": "The repeated demonstrative points to a concrete bounded place, not an abstract locality."
+    },
+    {
+      "root": "ح ل ل",
+      "branch": "B003",
+      "label": "A",
+      "role": "removal of prohibition or protected status in relation to the city",
+      "evidence": ["surface حِلّ at 90:2", "direct licitness/removal-of-prohibition branch"],
+      "surface_miss": "The marked relation between the addressee and the city includes a legal-sacral availability sense."
+    },
+    {
+      "root": "و ل د",
+      "branch": "B001",
+      "label": "A",
+      "role": "offspring encompassed by what was begotten",
+      "evidence": ["surface وَمَا وَلَدَ at 90:3", "offspring is the result implied by the transitive birth clause"],
+      "surface_miss": "The oath includes progeny as well as the act and agent of generation."
+    },
+    {
+      "root": "و ل د",
+      "branch": "B002",
+      "label": "A",
+      "role": "parent or begetter",
+      "evidence": ["surface وَوَالِدٍ at 90:3", "active-participle parent sense"],
+      "surface_miss": "The first member of the paired oath is explicitly the generative parent."
+    },
+    {
+      "root": "و ل د",
+      "branch": "B003",
+      "label": "A",
+      "role": "event and act of begetting",
+      "evidence": ["surface perfect verb وَلَدَ at 90:3", "QAC lemma وَلَدَ"],
+      "surface_miss": "The clause activates generation as an event, not only stable kinship categories."
+    },
+    {
+      "root": "خ ل ق",
+      "branch": "B002",
+      "label": "A",
+      "role": "divine origination of the human",
+      "evidence": ["surface خَلَقْنَا at 90:4", "QAC first-person plural perfect", "direct bringing-into-being branch"],
+      "surface_miss": "Human hardship is predicated inside an explicit divine creation statement."
+    },
+    {
+      "root": "ء ن س",
+      "branch": "B001",
+      "label": "A",
+      "role": "visible human person as the created subject",
+      "evidence": ["surface ٱلْإِنسَانَ at 90:4", "direct human-presence branch"],
+      "surface_miss": "The passage concerns embodied, socially visible humanity."
+    },
+    {
+      "root": "ك ب د",
+      "branch": "B002",
+      "label": "A",
+      "role": "strenuous hardship built into the human condition",
+      "evidence": ["surface كَبَدٍ at 90:4", "direct hardship and strenuous-endurance branch"],
+      "surface_miss": "The creation statement culminates in burden, exertion, and difficulty."
+    },
+    {
+      "root": "ح س ب",
+      "branch": "B002",
+      "label": "A",
+      "role": "repeated mistaken supposition",
+      "evidence": ["surface يَحْسَبُ at 90:5 and 90:7", "direct supposition branch"],
+      "surface_miss": "Both rhetorical questions expose the subject's faulty estimate of power and visibility."
+    },
+    {
+      "root": "ق د ر",
+      "branch": "B003",
+      "label": "A",
+      "role": "effective capacity to overpower or control",
+      "evidence": ["surface يَقْدِرَ عَلَيْهِ at 90:5", "direct effective-capacity and control branch"],
+      "surface_miss": "The boast assumes immunity from another agent's effective power."
+    },
+    {
+      "root": "ء ح د",
+      "branch": "B002",
+      "label": "A",
+      "role": "exhaustive anyone under negation",
+      "evidence": ["indefinite أَحَد under لَن at 90:5", "indefinite أَحَد under لَم at 90:7", "direct negative-exhaustive branch"],
+      "surface_miss": "The repeated construction excludes every possible observer or superior in the speaker's mistaken reckoning."
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B001",
+      "label": "A",
+      "role": "overt boastful utterance",
+      "evidence": ["surface يَقُولُ at 90:6", "direct uttered-speech branch"],
+      "surface_miss": "The interior supposition becomes an audible self-report."
+    },
+    {
+      "root": "ه ل ك",
+      "branch": "B001",
+      "label": "A",
+      "role": "causing wealth to perish through expenditure",
+      "evidence": ["surface أَهْلَكْتُ at 90:6", "QAC form IV perfect", "direct destruction and loss branch"],
+      "surface_miss": "The speaker presents expenditure as completed depletion or destruction."
+    },
+    {
+      "root": "م و ل",
+      "branch": "B001",
+      "label": "A",
+      "role": "possessed wealth and accumulated property",
+      "evidence": ["surface مَالًا at 90:6", "direct wealth branch"],
+      "surface_miss": "The claimed expenditure concerns concrete wealth and property."
+    },
+    {
+      "root": "ل ب د",
+      "branch": "B002",
+      "label": "A",
+      "role": "great abundance piled mass upon mass",
+      "evidence": ["surface لُبَدًا at 90:6", "QAC adjective", "direct gathered-abundance branch"],
+      "surface_miss": "The boast intensifies the money as amassed and heaped abundance."
+    },
+    {
+      "root": "ر ء ي",
+      "branch": "B001",
+      "label": "A",
+      "role": "seeing by eye or knowing observation",
+      "evidence": ["surface يَرَهُ at 90:7", "direct eye-and-insight seeing branch"],
+      "surface_miss": "The second supposition is explicitly about being observed."
+    },
+    {
+      "root": "ج ع ل",
+      "branch": "B001",
+      "label": "A",
+      "role": "divine making of the paired eyes",
+      "evidence": ["surface نَجْعَل at 90:8", "QAC first-person plural jussive", "direct making branch"],
+      "surface_miss": "The rhetorical answer points to divine productive agency in human equipment."
+    },
+    {
+      "root": "ع ي ن",
+      "branch": "B001",
+      "label": "A",
+      "role": "the two anatomical seeing eyes",
+      "evidence": ["surface dual عَيْنَيْنِ at 90:8", "direct seeing-eye branch"],
+      "surface_miss": "The passage closes this pericope by naming the paired organ of sight."
+    }
+  ],
+  "activation_clusters": [
+    {
+      "cluster": "oath_city_obligation",
+      "role": "The oath is anchored in a bounded city where residence, licitness, duty, and accountability overlap.",
+      "branches": ["ق س م B004", "ب ل د B001", "ب ل د B009", "ح ل ل B002", "ح ل ل B003", "ح ل ل B004", "ح ل ل B005", "ح س ب B006"],
+      "mechanical_discovery_refs": ["ب ل د B009 ↔ ح ل ل B002", "ب ل د B001 ↔ ح ل ل B002", "ق س م B004 ↔ ح ل ل B003", "ق س م B004 ↔ ح ل ل B004", "ق س م B004 ↔ ح س ب B006"],
+      "evidence": ["repeated البلد", "surface حِلّ", "shared place, law, obligation, ritual, justice, and accountability themes"]
+    },
+    {
+      "cluster": "generation_creation_humanity",
+      "role": "Parent, offspring, birth-event, divine origination, and human identity form a generation-to-creation sequence.",
+      "branches": ["و ل د B001", "و ل د B002", "و ل د B003", "و ل د B005", "خ ل ق B002", "ج ع ل B001", "ء ن س B001"],
+      "mechanical_discovery_refs": ["خ ل ق B002 ↔ ج ع ل B001", "خ ل ق B004 ↔ ء ن س B001", "و ل د B003 ↔ ج ع ل B009"],
+      "evidence": ["surface والد وما ولد", "surface خلقنا الإنسان", "shared origination, generation, agency, and identity themes"]
+    },
+    {
+      "cluster": "embodied_hardship_and_proportion",
+      "role": "The human is created in hardship while body, organ, centrality, uprightness, measure, and proportion remain active underlays.",
+      "branches": ["ك ب د B001", "ك ب د B002", "ك ب د B003", "ك ب د B006", "ك ب د B009", "خ ل ق B001", "خ ل ق B003", "ق د ر B001", "ق د ر B006", "ع ي ن B001", "ع ي ن B009", "ع ي ن B016"],
+      "mechanical_discovery_refs": ["ك ب د B009 ↔ ق د ر B006", "خ ل ق B003 ↔ ق د ر B006", "خ ل ق B003 ↔ ع ي ن B016", "ك ب د B006 ↔ ع ي ن B009", "ك ب د B001 ↔ ر ء ي B009"],
+      "evidence": ["surface خلقنا الإنسان في كبد", "surface جعل له عينين", "shared body, anatomy, form, measurement, endurance, and surface-shape themes"],
+      "note": "Organ and morphology ports are retained as underlays, not substituted for the primary hardship gloss."
+    },
+    {
+      "cluster": "supposition_reckoning_and_witness",
+      "role": "Repeated false supposition is answered by exhaustive accountability, actual seeing, and bestowed organs of sight.",
+      "branches": ["ح س ب B001", "ح س ب B002", "ح س ب B006", "ح س ب B010", "ء ح د B002", "ء ح د B003", "ر ء ي B001", "ر ء ي B002", "ر ء ي B012", "ع ي ن B001", "ع ي ن B002", "ع ي ن B003", "ء ن س B002", "ء ن س B005"],
+      "mechanical_discovery_refs": ["ء ن س B002 ↔ ر ء ي B001", "ء ن س B002 ↔ ع ي ن B002", "ء ن س B005 ↔ ع ي ن B001", "ح س ب B001 ↔ ء ح د B003", "ق س م B006 ↔ ر ء ي B002"],
+      "evidence": ["surface repetition of أيحسب", "surface لم يره أحد", "surface عينين", "shared cognition, perception, knowledge, proof, counting, and testimony themes"]
+    },
+    {
+      "cluster": "boast_wealth_expenditure",
+      "role": "The utterance converts depleted wealth into a status claim while reckoning, allocation, sufficiency, greed, futility, and visible display remain active.",
+      "branches": ["ق و ل B001", "ق و ل B005", "ق و ل B006", "ق و ل B007", "ق و ل B011", "ق و ل B012", "ه ل ك B001", "ه ل ك B004", "ه ل ك B009", "ه ل ك B011", "ه ل ك B012", "م و ل B001", "ل ب د B001", "ل ب د B002", "ق س م B003", "ح س ب B003", "ح س ب B004", "ر ء ي B005", "ع ي ن B011", "ع ي ن B012"],
+      "mechanical_discovery_refs": ["ق س م B003 ↔ م و ل B001", "ح س ب B003 ↔ م و ل B001", "ق س م B003 ↔ ع ي ن B011", "ح س ب B004 ↔ ق و ل B006", "ق و ل B005 ↔ ر ء ي B005"],
+      "evidence": ["surface يقول أهلكت مالا لبدا", "the claim is enclosed by failed suppositions of power and invisibility", "shared wealth, accounting, reputation, ethics, display, loss, and quantity themes"]
+    },
+    {
+      "cluster": "city_residence_and_presence",
+      "role": "The repeated city supports residence, sticking in place, human presence, companionship, and gathered inhabitants as secondary ports.",
+      "branches": ["ب ل د B001", "ب ل د B009", "ح ل ل B002", "ل ب د B003", "ء ن س B001", "ء ن س B003", "ع ي ن B017"],
+      "mechanical_discovery_refs": ["ب ل د B009 ↔ ل ب د B003", "ء ن س B001 ↔ ع ي ن B017", "ب ل د B009 ↔ ح ل ل B002"],
+      "evidence": ["هذا البلد is repeated", "shared habitation, place, residence, community, and social-presence themes"]
+    }
+  ],
+  "secondary_activation_groups": [
+    {
+      "root": "ق س م",
+      "label": "B",
+      "branches": ["B003", "B006"],
+      "role": "allocation-accounting and divided deliberation activated by wealth, reckoning, power, and mistaken supposition",
+      "mechanical_discovery_refs": ["ق س م B003 ↔ م و ل B001", "ق س م B006 ↔ ر ء ي B002"]
+    },
+    {
+      "root": "ق س م",
+      "label": "C/B",
+      "branches": ["B001"],
+      "role": "proportioned embodied form under the created-human and paired-eye frame",
+      "mechanical_discovery_refs": ["ق س م B001 ↔ خ ل ق B003", "ق س م B001 ↔ ق د ر B006"]
+    },
+    {
+      "root": "ب ل د",
+      "label": "B",
+      "branches": ["B009"],
+      "role": "residence and remaining in the named city",
+      "mechanical_discovery_refs": ["ب ل د B009 ↔ ح ل ل B002"]
+    },
+    {
+      "root": "ب ل د",
+      "label": "C/B",
+      "branches": ["B005", "B008"],
+      "role": "failed composure and coarse embodied build under the supposition-hardship and created-body frames",
+      "mechanical_discovery_refs": ["ق س م B006 ↔ ب ل د B005", "ب ل د B008 ↔ ج ع ل B012"]
+    },
+    {
+      "root": "ح ل ل",
+      "label": "B",
+      "branches": ["B002", "B004", "B005", "B006"],
+      "role": "dwelling, obligation falling due, oath-release, and co-dwelling kinship around city, oath, parent, and offspring",
+      "mechanical_discovery_refs": ["ب ل د B009 ↔ ح ل ل B002", "ق س م B004 ↔ ح ل ل B004", "ح ل ل B006 ↔ و ل د B002"]
+    },
+    {
+      "root": "ح ل ل",
+      "label": "C/B",
+      "branches": ["B001", "B012"],
+      "role": "loosening a bond and established authority as latent contrasts to claimed invulnerability"
+    },
+    {
+      "root": "و ل د",
+      "label": "B",
+      "branches": ["B005"],
+      "role": "generated or derived existence extending the birth-to-creation sequence",
+      "mechanical_discovery_refs": ["خ ل ق B002 ↔ ج ع ل B001"]
+    },
+    {
+      "root": "و ل د",
+      "label": "C/B",
+      "branches": ["B004", "B006"],
+      "role": "dependent child-status and same-generation peer underlays"
+    },
+    {
+      "root": "خ ل ق",
+      "label": "B",
+      "branches": ["B001", "B003", "B004"],
+      "role": "proportioning, completed bodily form, and inner character activated by capacity, eyes, humanity, and boast",
+      "mechanical_discovery_refs": ["خ ل ق B003 ↔ ق د ر B006", "خ ل ق B003 ↔ ع ي ن B016", "خ ل ق B004 ↔ ء ن س B001"]
+    },
+    {
+      "root": "خ ل ق",
+      "label": "C/B",
+      "branches": ["B005", "B007", "B012"],
+      "role": "fitness, fabricated speech, and embodied closure preserved under power, boast, and hardship"
+    },
+    {
+      "root": "ء ن س",
+      "label": "B",
+      "branches": ["B002", "B005"],
+      "role": "perceptual awareness and the human image in the pupil activated by seeing and the paired eyes",
+      "mechanical_discovery_refs": ["ء ن س B002 ↔ ر ء ي B001", "ء ن س B005 ↔ ع ي ن B001"]
+    },
+    {
+      "root": "ء ن س",
+      "label": "C/B",
+      "branches": ["B003", "B006"],
+      "role": "familiar social presence and intimate kin under the city-parent-human complex",
+      "mechanical_discovery_refs": ["ح ل ل B006 ↔ ء ن س B006", "ء ن س B001 ↔ ع ي ن B017"]
+    },
+    {
+      "root": "ك ب د",
+      "label": "B",
+      "branches": ["B003", "B009"],
+      "role": "being in the core or midst and being made upright within the hardship statement",
+      "mechanical_discovery_refs": ["ك ب د B009 ↔ ق د ر B006"]
+    },
+    {
+      "root": "ك ب د",
+      "label": "C/B",
+      "branches": ["B001", "B006", "B007"],
+      "role": "liver, bodily middle, and hostile inward disposition retained as embodied and ethical underlays",
+      "mechanical_discovery_refs": ["ك ب د B001 ↔ ر ء ي B009", "ك ب د B006 ↔ ع ي ن B009"]
+    },
+    {
+      "root": "ح س ب",
+      "label": "B",
+      "branches": ["B001", "B006"],
+      "role": "reckoning and accountable supervision beneath repeated false calculation",
+      "mechanical_discovery_refs": ["ح س ب B001 ↔ ق د ر B001", "ق س م B004 ↔ ح س ب B006"]
+    },
+    {
+      "root": "ح س ب",
+      "label": "C/B",
+      "branches": ["B003", "B004", "B010"],
+      "role": "imagined sufficiency, status-merit, and information-testing around wealth, boast, and visibility",
+      "mechanical_discovery_refs": ["ح س ب B003 ↔ م و ل B001", "ح س ب B004 ↔ ق و ل B006"]
+    },
+    {
+      "root": "ق د ر",
+      "label": "B",
+      "branches": ["B001", "B005", "B006"],
+      "role": "measured extent, deliberate estimation, and fitting proportion beneath claimed power and created form",
+      "mechanical_discovery_refs": ["ح س ب B001 ↔ ق د ر B001", "ك ب د B009 ↔ ق د ر B006"]
+    },
+    {
+      "root": "ق د ر",
+      "label": "C/B",
+      "branches": ["B002", "B004"],
+      "role": "divine determination and constricted measure under creation, hardship, and spent abundance"
+    },
+    {
+      "root": "ء ح د",
+      "label": "B",
+      "branches": ["B003", "B005"],
+      "role": "countable one and individual-by-individual distribution activated by repeated أحد, reckoning, and the dual eyes",
+      "mechanical_discovery_refs": ["ح س ب B001 ↔ ء ح د B003"]
+    },
+    {
+      "root": "ء ح د",
+      "label": "C/B",
+      "branches": ["B001"],
+      "role": "oneness and identity under the repeated indefinite individual"
+    },
+    {
+      "root": "ق و ل",
+      "label": "B",
+      "branches": ["B005", "B006", "B007", "B011"],
+      "role": "possible false attribution, self-appropriated boast, circulating report, and supposition-like saying",
+      "mechanical_discovery_refs": ["ح س ب B004 ↔ ق و ل B006", "ق و ل B005 ↔ ر ء ي B005"]
+    },
+    {
+      "root": "ق و ل",
+      "label": "C/B",
+      "branches": ["B012", "B013", "B014", "B016"],
+      "role": "inner claim, held belief, evidential indication, and identity-definition around boast and observation"
+    },
+    {
+      "root": "ه ل ك",
+      "label": "B",
+      "branches": ["B009"],
+      "role": "exhausting or expending effort and resources",
+      "evidence": ["form IV أهلكت intensifies caused depletion", "the object is wealth in piled abundance"]
+    },
+    {
+      "root": "ه ل ك",
+      "label": "C/B",
+      "branches": ["B002", "B004", "B011", "B012", "B013"],
+      "role": "self-destruction, destitution, futility, greed, and household ruin preserved beneath the boast of expenditure"
+    },
+    {
+      "root": "ل ب د",
+      "label": "B",
+      "branches": ["B001"],
+      "role": "wealth compacted layer upon layer",
+      "evidence": ["same-root material image reinforces the surface gathered-abundance branch"]
+    },
+    {
+      "root": "ل ب د",
+      "label": "C/B",
+      "branches": ["B003", "B007"],
+      "role": "adherence to place and proverbial property-negation beneath city and wealth",
+      "mechanical_discovery_refs": ["ب ل د B009 ↔ ل ب د B003"]
+    },
+    {
+      "root": "ر ء ي",
+      "label": "B",
+      "branches": ["B002", "B005", "B012"],
+      "role": "reflective judgment, being seen by people, and active showing under failed supposition and boast",
+      "mechanical_discovery_refs": ["ق س م B006 ↔ ر ء ي B002", "ق و ل B005 ↔ ر ء ي B005"]
+    },
+    {
+      "root": "ر ء ي",
+      "label": "C/B",
+      "branches": ["B006", "B013"],
+      "role": "visible appearance and attention-directing inquiry under the eye and rhetorical-question frame",
+      "mechanical_discovery_refs": ["ب ل د B003 ↔ ر ء ي B006", "ر ء ي B013 ↔ ج ع ل B003"]
+    },
+    {
+      "root": "ج ع ل",
+      "label": "B",
+      "branches": ["B002", "B004"],
+      "role": "bringing the human equipment into a state and initiating sustained divine action"
+    },
+    {
+      "root": "ج ع ل",
+      "label": "C/B",
+      "branches": ["B003", "B005", "B012"],
+      "role": "naming, stipulated return, and bodily morphology under speech, spent wealth, creation, and eyes",
+      "mechanical_discovery_refs": ["ر ء ي B013 ↔ ج ع ل B003", "ب ل د B008 ↔ ج ع ل B012"]
+    },
+    {
+      "root": "ع ي ن",
+      "label": "B",
+      "branches": ["B002", "B003", "B011", "B016"],
+      "role": "eyewitness verification, watchful care, present cash, and the visible beauty of the paired eyes",
+      "mechanical_discovery_refs": ["ء ن س B002 ↔ ع ي ن B002", "ق س م B003 ↔ ع ي ن B011", "خ ل ق B003 ↔ ع ي ن B016"]
+    },
+    {
+      "root": "ع ي ن",
+      "label": "C/B",
+      "branches": ["B005", "B009", "B012", "B013", "B015", "B017"],
+      "role": "surveillance, eye-shaped socket, debt transaction, the thing itself, social chiefs or kin, and present people under observation, money, family, and city",
+      "mechanical_discovery_refs": ["ك ب د B006 ↔ ع ي ن B009", "ء ن س B001 ↔ ع ي ن B017", "ح ل ل B006 ↔ ع ي ن B015"]
+    }
+  ],
+  "exploratory_c_branches": [
+    {
+      "root": "ق س م",
+      "label": "C",
+      "branches": ["B002", "B005", "B007", "B008"],
+      "note": "Midday hardship, divinatory allocation, material folding, and truce remain inspectable through hardship, decision, layered wealth, and oath-law bridges."
+    },
+    {
+      "root": "ب ل د",
+      "label": "C",
+      "branches": ["B002", "B003", "B004", "B006", "B007", "B010", "B011", "B012"],
+      "note": "Body, face, sky-place, bodily marks, dullness, ground-contact, combat, and ostrich-place underlays are preserved but are not asserted as city glosses."
+    },
+    {
+      "root": "ح ل ل",
+      "label": "C",
+      "branches": ["B007", "B008", "B009", "B010", "B011", "B013", "B014", "B015"],
+      "note": "Garment, bodily outlet, milk, newborn animal, displacement, camp equipment, joint weakness, and oil are weak material/body/travel/reproduction ports."
+    },
+    {
+      "root": "خ ل ق",
+      "label": "C",
+      "branches": ["B006", "B008", "B009", "B010", "B011"],
+      "note": "Allotted good, smooth surface, worn fabric, perfume, and water-holding hollow remain latent through wealth, body, material, and created-form bridges."
+    },
+    {
+      "root": "ء ن س",
+      "label": "C",
+      "branches": ["B004", "B007"],
+      "note": "The facing side and entry-familiarity are weak orientation, residence, and access underlays."
+    },
+    {
+      "root": "ك ب د",
+      "label": "C",
+      "branches": ["B004", "B005", "B008"],
+      "note": "Bow grip, thickened drink, and camel-travel remain exploratory centrality, material, and strenuous-motion ports."
+    },
+    {
+      "root": "ح س ب",
+      "label": "C",
+      "branches": ["B005", "B008", "B009"],
+      "note": "Counted reward, support cushion, and mottled bodily appearance remain broad divine-accounting and embodiment candidates."
+    },
+    {
+      "root": "ق د ر",
+      "label": "C",
+      "branches": ["B007"],
+      "note": "The cooking-vessel branch is retained only as a weak measure/container port."
+    },
+    {
+      "root": "ء ح د",
+      "label": "C",
+      "branches": ["B004", "B006"],
+      "note": "Firstness and Mount Uhud are weak time/geography candidates; the repeated city prevents automatic pruning of the place-name branch."
+    },
+    {
+      "root": "ق و ل",
+      "label": "C",
+      "branches": ["B002", "B003", "B004", "B008", "B009", "B010", "B015", "B017"],
+      "note": "Speech instrument, verbosity, authoritative title, game tool, negotiation, arrogated judgment, concern, and inspiration remain exploratory speech/authority/material ports."
+    },
+    {
+      "root": "ه ل ك",
+      "label": "C",
+      "branches": ["B003", "B005", "B006", "B007", "B008", "B010"],
+      "note": "Collapsed gait, barren land, lethal terrain, artisan nisba, fixed idiom, and desert bewilderment remain weak hardship, place, and rhetoric underlays."
+    },
+    {
+      "root": "ل ب د",
+      "label": "C",
+      "branches": ["B004", "B005", "B006"],
+      "note": "Bag, camel clump, and forage-fattened camels remain material, piled-mass, and wealth/husbandry underlays."
+    },
+    {
+      "root": "ر ء ي",
+      "label": "C",
+      "branches": ["B003", "B004", "B007", "B008", "B009", "B010", "B011"],
+      "note": "Dream, mutual facing, menstrual trace, jinn familiar, lung, visible pregnancy, and flag remain broad perception/body/display candidates."
+    },
+    {
+      "root": "ج ع ل",
+      "label": "C",
+      "branches": ["B006", "B007", "B008", "B009", "B010", "B011"],
+      "note": "Palm, pot cloth, beetle, animal heat, ostrich chick, and place-name branches remain material, generation, and locality underlays."
+    },
+    {
+      "root": "ع ي ن",
+      "label": "C",
+      "branches": ["B004", "B006", "B007", "B008", "B010", "B014"],
+      "note": "Evil eye, spring, skin-hole, sun, rain cloud, and choice-part branches remain weak sight, place, weather, and value ports."
+    }
+  ],
+  "silent_branches": [
+    {
+      "root": "و ل د",
+      "label": "S",
+      "branches": ["B007"],
+      "note": "The isolated emergency idiom has no visible trigger in 90:1-8."
+    },
+    {
+      "root": "ح س ب",
+      "label": "S",
+      "branches": ["B007"],
+      "note": "The projectile or descending-destructive-reckoning branch has no local trigger."
+    },
+    {
+      "root": "م و ل",
+      "label": "S",
+      "branches": ["B002"],
+      "note": "The specific spider term has no visible bridge to the passage."
+    },
+    {
+      "root": "ل ب د",
+      "label": "S",
+      "branches": ["B008"],
+      "note": "The proper-name branch has no visible trigger despite broad identity bridges."
+    }
+  ],
+  "inventory_accounting": {
+    "roots": 17,
+    "branches": 175,
+    "A": 19,
+    "B": 37,
+    "C/B": 43,
+    "C": 72,
+    "S": 4,
+    "X": 0,
+    "coverage": "complete"
+  },
+  "data_issues": []
+}

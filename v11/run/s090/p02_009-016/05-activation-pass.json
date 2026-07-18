@@ -1,0 +1,254 @@
+{
+  "schema": "v11.activation_pass.v1",
+  "passage": {"surah": 90, "ayah_start": 9, "ayah_end": 16},
+  "activation_bias": "recall_first",
+  "agent": "A",
+  "graph_discipline": "Roots are nodes; branches remain edge/port labels.",
+  "labels": {
+    "A": "surface-active / structurally necessary",
+    "B": "strong secondary activation",
+    "C/B": "borderline strong secondary activation; preserved prominently",
+    "C": "exploratory latent activation worth inspecting",
+    "S": "currently silent / no visible bridge",
+    "X": "data issue"
+  },
+  "root_resolution": {
+    "authority": "01-passage.json QAC word order, morphology, and root resolution",
+    "surface_roots": 16,
+    "resolved_branch_roots": 16,
+    "unresolved_roots": 0,
+    "branch_ids_invented": false,
+    "note": "All passage roots resolve uniquely. The basmala is included as an interpretive frame but contributes no additional branch IDs."
+  },
+  "surface_mechanism": [
+    "The bestowed tongue and two lips establish embodied speech and moral communication before the choice of two elevated paths.",
+    "Guidance is tested by the difficult ascent: release from captivity or feeding during a day of hunger.",
+    "The recipients make the ethical demand concrete: a related orphan and a destitute person brought down to the dust.",
+    "The dominant secondary network joins guidance, purposeful effort, difficult terrain, liberation law, bodily vulnerability, food provision, kinship obligation, poverty, and mercy."
+  ],
+  "primary_surface_branches": [
+    {"root":"ل س ن","branch":"B001","label":"A","role":"the bodily tongue bestowed for speech","evidence":["surface لِسَانًا at 90:9","direct speech-organ branch"]},
+    {"root":"ش ف ه","branch":"B001","label":"A","role":"the paired bodily lips","evidence":["surface شَفَتَيْنِ at 90:9","direct lips branch"]},
+    {"root":"ه د ي","branch":"B001","label":"A","role":"divine guidance toward path and truth","evidence":["surface هَدَيْنَاهُ at 90:10","direct guiding-to-the-way branch"]},
+    {"root":"ن ج د","branch":"B001","label":"A","role":"the two elevated ways presented for choice","evidence":["surface ٱلنَّجْدَيْنِ at 90:10","direct elevation and high-ground branch"]},
+    {"root":"ق ح م","branch":"B001","label":"A","role":"undertaking the severe ascent","evidence":["surface form-VIII ٱقْتَحَمَ at 90:11","direct plunging-into-hardship branch"]},
+    {"root":"ع ق ب","branch":"B012","label":"A","role":"the difficult steep obstacle defining the moral ascent","evidence":["surface ٱلْعَقَبَةَ at 90:11-12","direct difficult-rising-pass branch"]},
+    {"root":"د ر ي","branch":"B001","label":"A","role":"being made to know what the steep path is","evidence":["surface form-IV أَدْرَىٰكَ at 90:12","direct knowledge branch"]},
+    {"root":"ف ك ك","branch":"B002","label":"A","role":"releasing a person from bondage or encumbrance","evidence":["surface فَكُّ رَقَبَةٍ at 90:13","direct emancipation branch"]},
+    {"root":"ر ق ب","branch":"B004","label":"A","role":"the enslaved neck or person to be freed","evidence":["surface رَقَبَةٍ at 90:13","direct neck-and-slavery branch"]},
+    {"root":"ط ع م","branch":"B002","label":"A","role":"feeding another person in need","evidence":["surface form-IV verbal noun إِطْعَامٌ at 90:14","direct other-feeding branch"]},
+    {"root":"ي و م","branch":"B001","label":"A","role":"the bounded day in which famine prevails","evidence":["surface يَوْمٍ at 90:14","direct day-unit branch"]},
+    {"root":"س غ ب","branch":"B001","label":"A","role":"hunger joined with exhaustion and famine","evidence":["surface مَسْغَبَةٍ at 90:14","the root's sole branch"]},
+    {"root":"ي ت م","branch":"B001","label":"A","role":"the orphan cut off from a caregiver","evidence":["surface يَتِيمًا at 90:15","direct orphanhood branch"]},
+    {"root":"ق ر ب","branch":"B003","label":"A","role":"the orphan's close kinship relation","evidence":["surface مَقْرَبَةٍ at 90:15","direct blood-kinship branch"]},
+    {"root":"س ك ن","branch":"B006","label":"A","role":"destitution and dependence embodied by the miskin","evidence":["surface مِسْكِينًا at 90:16","direct poverty-and-humiliation branch"]},
+    {"root":"ت ر ب","branch":"B002","label":"A","role":"extreme poverty figured by adhesion to dust","evidence":["surface مَتْرَبَةٍ at 90:16","direct dust-poverty branch"]}
+  ],
+  "secondary_activation_groups": [
+    {
+      "root":"ل س ن","label":"B","branches":["B003","B006","B008"],
+      "role":"eloquence, language, and message-bearing activated by the bestowed tongue, lips, guidance, and disclosure of the ascent",
+      "activated_by_roots":["ش ف ه","ه د ي","د ر ي"],
+      "mechanical_discovery_refs":["ل س ن B003 ↔ ع ق ب B008","ل س ن B006 ↔ د ر ي B001"]
+    },
+    {
+      "root":"ش ف ه","label":"B","branches":["B002","B003"],
+      "role":"oral testimony and repeated requesting or need, linking speech to hungry dependents",
+      "activated_by_roots":["ل س ن","ط ع م","س غ ب","س ك ن"],
+      "mechanical_discovery_refs":["ل س ن B001 ↔ ش ف ه B002","ش ف ه B003 ↔ ط ع م B002"]
+    },
+    {
+      "root":"ه د ي","label":"B","branches":["B002","B004","B007","B010"],
+      "role":"purposeful direction, benevolent gift, protected captive, and disciplined demeanor within the guided welfare choice",
+      "activated_by_roots":["ق ح م","ف ك ك","ر ق ب","ط ع م","س ك ن"],
+      "mechanical_discovery_refs":["ه د ي B004 ↔ س ك ن B002","ه د ي B007 ↔ ر ق ب B002","ه د ي B010 ↔ ي ت م B003"]
+    },
+    {
+      "root":"ن ج د","label":"B","branches":["B002","B004","B005","B010"],
+      "role":"clarity of the two ways, purposeful advance, severe distress, and experience acquired through hardship",
+      "activated_by_roots":["ه د ي","ق ح م","ع ق ب","س غ ب","ي و م"],
+      "mechanical_discovery_refs":["ه د ي B001 ↔ ن ج د B002","ن ج د B005 ↔ ي و م B003"]
+    },
+    {
+      "root":"ق ح م","label":"B","branches":["B002","B003"],
+      "role":"road peril and a drought-year as concrete dimensions of the steep ascent and day of famine",
+      "activated_by_roots":["ع ق ب","س غ ب","ط ع م","ت ر ب"],
+      "mechanical_discovery_refs":["ق ح م B002 ↔ ي و م B003","ق ح م B003 ↔ ط ع م B001"]
+    },
+    {
+      "root":"ع ق ب","label":"B","branches":["B002","B004","B006","B007","B010"],
+      "role":"climbing motion, descendants, moral outcome, sanction, and legal substitution beneath the obstacle's ethical explanation",
+      "activated_by_roots":["ه د ي","ق ح م","ف ك ك","ر ق ب","ي ت م","ق ر ب"],
+      "mechanical_discovery_refs":["ه د ي B003 ↔ ع ق ب B002","ع ق ب B004 ↔ ق ر ب B003","ع ق ب B010 ↔ ف ك ك B002"]
+    },
+    {
+      "root":"د ر ي","label":"B","branches":["B002","B006"],
+      "role":"intentional orientation and humane social accommodation beneath revelatory instruction about duty",
+      "activated_by_roots":["ه د ي","ن ج د","ل س ن","ق ر ب"],
+      "mechanical_discovery_refs":["ن ج د B001 ↔ د ر ي B002","ل س ن B010 ↔ د ر ي B006"]
+    },
+    {
+      "root":"ف ك ك","label":"B","branches":["B001"],
+      "role":"opening what is closed and separating what is bound as the core image of emancipation",
+      "activated_by_roots":["ر ق ب","ق ر ب"],
+      "mechanical_discovery_refs":["ف ك ك B001 ↔ ق ر ب B001"]
+    },
+    {
+      "root":"ر ق ب","label":"B","branches":["B002","B005","B008","B012","B013"],
+      "role":"protection, legal ownership, bereaved vulnerability, capital property, and inheritance surrounding emancipation and related orphanhood",
+      "activated_by_roots":["ه د ي","ف ك ك","ع ق ب","ي ت م","ق ر ب"],
+      "mechanical_discovery_refs":["ه د ي B007 ↔ ر ق ب B002","ف ك ك B002 ↔ ر ق ب B005","ع ق ب B004 ↔ ر ق ب B013"]
+    },
+    {
+      "root":"ط ع م","label":"B","branches":["B001","B004","B008","B011"],
+      "role":"food intake, livelihood, moral discernment, and effective capacity supporting the command to feed",
+      "activated_by_roots":["س غ ب","ي ت م","س ك ن","ت ر ب","ق ح م"],
+      "mechanical_discovery_refs":["ش ف ه B003 ↔ ط ع م B001","ط ع م B004 ↔ ت ر ب B003","ط ع م B008 ↔ ي ت م B003"]
+    },
+    {
+      "root":"ي و م","label":"B","branches":["B002","B003"],
+      "role":"duration and the severe event-character of the famine day",
+      "activated_by_roots":["س غ ب","ن ج د","ق ح م"],
+      "mechanical_discovery_refs":["ف ك ك B003 ↔ ي و م B002","ن ج د B005 ↔ ي و م B003"]
+    },
+    {
+      "root":"ي ت م","label":"B","branches":["B003","B004"],
+      "role":"culpable neglect and delayed beneficence as the ethical failure answered by feeding a related orphan",
+      "activated_by_roots":["ه د ي","ط ع م","ع ق ب"],
+      "mechanical_discovery_refs":["ط ع م B008 ↔ ي ت م B003","ع ق ب B005 ↔ ي ت م B004"]
+    },
+    {
+      "root":"ق ر ب","label":"B","branches":["B001","B004","B006","B007"],
+      "role":"proximity, privileged access, care-backed nearness, and ethical approach surrounding kinship obligation",
+      "activated_by_roots":["ي ت م","ط ع م","ه د ي","ف ك ك"],
+      "mechanical_discovery_refs":["ف ك ك B001 ↔ ق ر ب B001","ق ر ب B004 ↔ س ك ن B006","ق ح م B001 ↔ ق ر ب B007"]
+    },
+    {
+      "root":"س ك ن","label":"B","branches":["B002","B003","B009","B010"],
+      "role":"dwelling, household, stable place, and sustaining food behind the miskin's need for support",
+      "activated_by_roots":["ه د ي","ط ع م","ي ت م","ق ر ب","ت ر ب"],
+      "mechanical_discovery_refs":["ه د ي B004 ↔ س ك ن B002","ه د ي B006 ↔ س ك ن B003","ط ع م B001 ↔ س ك ن B010"]
+    },
+    {
+      "root":"ت ر ب","label":"B","branches":["B001","B003","B004"],
+      "role":"literal earth, wealth as a contrast to dust-poverty, and equality among age-peers or companions",
+      "activated_by_roots":["ع ق ب","ط ع م","ي ت م","ق ر ب"],
+      "mechanical_discovery_refs":["ع ق ب B012 ↔ ت ر ب B001","ط ع م B004 ↔ ت ر ب B003","ع ق ب B004 ↔ ت ر ب B004"]
+    },
+    {
+      "root":"ل س ن","label":"C/B","branches":["B002","B005","B007","B010"],
+      "role":"verbal seizure, injured speech, pastoral provision, and false testimony as moral-vulnerability underlays",
+      "activated_by_roots":["ش ف ه","ف ك ك","ط ع م","د ر ي"],
+      "mechanical_discovery_refs":["ل س ن B005 ↔ ف ك ك B005","ل س ن B007 ↔ ق ر ب B008","ل س ن B010 ↔ د ر ي B006"]
+    },
+    {
+      "root":"ش ف ه","label":"C/B","branches":["B004"],
+      "role":"good public reputation as a latent ethical fruit of speech and welfare",
+      "activated_by_roots":["ل س ن","د ر ي","ي ت م"],
+      "mechanical_discovery_refs":["ل س ن B002 ↔ ش ف ه B004"]
+    },
+    {
+      "root":"ه د ي","label":"C/B","branches":["B005","B009"],
+      "role":"sacrificial gift and weak discernment as contrasting ritual and incapacity dimensions of guidance",
+      "activated_by_roots":["ق ر ب","ق ح م","ف ك ك"],
+      "mechanical_discovery_refs":["ه د ي B005 ↔ ق ر ب B005","ه د ي B009 ↔ ق ح م B004"]
+    },
+    {
+      "root":"ن ج د","label":"C/B","branches":["B003","B006","B012"],
+      "role":"strengthening support, bodily exertion, and settlement stability under the hard ascent and material care",
+      "activated_by_roots":["ق ح م","س غ ب","س ك ن","ت ر ب"],
+      "mechanical_discovery_refs":["ن ج د B003 ↔ س ك ن B006","ن ج د B012 ↔ ت ر ب B008"]
+    },
+    {
+      "root":"ق ح م","label":"C/B","branches":["B006","B007"],
+      "role":"being cast into desert isolation and estimating value by sight as latent hardship and judgment images",
+      "activated_by_roots":["ن ج د","ع ق ب","ت ر ب"],
+      "mechanical_discovery_refs":["ق ح م B006 ↔ ت ر ب B009","ن ج د B002 ↔ ق ح م B007"]
+    },
+    {
+      "root":"ع ق ب","label":"C/B","branches":["B003","B005","B008","B015"],
+      "role":"turning back, succession, review, and withered vegetation as risks or temporal underlays of the ascent and famine",
+      "activated_by_roots":["ه د ي","د ر ي","ي و م","ط ع م"],
+      "mechanical_discovery_refs":["ع ق ب B003 ↔ د ر ي B002","ل س ن B003 ↔ ع ق ب B008","ع ق ب B015 ↔ ط ع م B005"]
+    },
+    {
+      "root":"ف ك ك","label":"C/B","branches":["B003","B004","B006","B009"],
+      "role":"separation or persistence, jaws, weak judgment, and medicinal care as extensions and contrasts of release",
+      "activated_by_roots":["ي و م","ل س ن","ش ف ه","ه د ي","ط ع م"],
+      "mechanical_discovery_refs":["ف ك ك B003 ↔ ي و م B002","ش ف ه B001 ↔ ف ك ك B004","ه د ي B009 ↔ ف ك ك B006"]
+    },
+    {
+      "root":"ر ق ب","label":"C/B","branches":["B001","B015"],
+      "role":"watchful attention and what follows or remains after a sequence, framing moral accountability",
+      "activated_by_roots":["د ر ي","ن ج د","ع ق ب","ي و م"],
+      "mechanical_discovery_refs":["د ر ي B001 ↔ ر ق ب B001","ر ق ب B015 ↔ ي و م B002"]
+    },
+    {
+      "root":"ط ع م","label":"C/B","branches":["B005","B012","B014"],
+      "role":"harvest maturity, coercion at the throat, and generational continuity under famine, bodily release, and the bounded day",
+      "activated_by_roots":["ي و م","ت ر ب","ر ق ب","ع ق ب"],
+      "mechanical_discovery_refs":["ط ع م B005 ↔ ت ر ب B007","ط ع م B014 ↔ ي و م B002"]
+    },
+    {
+      "root":"ي و م","label":"C/B","branches":["B004"],
+      "role":"days of divine favor and decisive events under the basmala and divine guidance",
+      "activated_by_roots":["ه د ي","ن ج د"],
+      "notes":"Furūq-only in this Qnet layer; retained because the surface day carries divine testing and beneficence."
+    },
+    {
+      "root":"ي ت م","label":"C/B","branches":["B002","B005"],
+      "role":"isolation and unsupported womanhood as broader dependency dimensions of orphan vulnerability",
+      "activated_by_roots":["س ك ن","ت ر ب","ق ر ب"],
+      "mechanical_discovery_refs":["ه د ي B006 ↔ ي ت م B005","ي ت م B005 ↔ ت ر ب B004"]
+    },
+    {
+      "root":"ق ر ب","label":"C/B","branches":["B002","B005","B015","B016"],
+      "role":"near time, devotional offering, bodily flank or touch, and approximation of measure beneath kinship nearness",
+      "activated_by_roots":["ي و م","ه د ي","ل س ن","ت ر ب"],
+      "mechanical_discovery_refs":["ط ع م B005 ↔ ق ر ب B002","ه د ي B005 ↔ ق ر ب B005","ق ر ب B015 ↔ ت ر ب B006"]
+    },
+    {
+      "root":"س ك ن","label":"C/B","branches":["B001","B004","B005"],
+      "role":"cessation, intimate solace, and tranquil dignity as latent contrasts to destitution and instability",
+      "activated_by_roots":["ه د ي","ط ع م","ق ر ب"],
+      "mechanical_discovery_refs":["ه د ي B010 ↔ س ك ن B001","ق ر ب B005 ↔ س ك ن B004"],
+      "notes":"B005 is Furūq-only in this Qnet layer but remains semantically relevant to miskin and guided composure."
+    },
+    {
+      "root":"ت ر ب","label":"C/B","branches":["B006"],
+      "role":"fingertip touch and gesture as an embodied underlay of proximity and care",
+      "activated_by_roots":["ق ر ب","ش ف ه"],
+      "mechanical_discovery_refs":["ق ر ب B015 ↔ ت ر ب B006"]
+    }
+  ],
+  "exploratory_c_branches": [
+    {"root":"ل س ن","label":"C","branches":["B004","B009"],"role":"tongue-shaped form and worked fiber","note":"Preserved through form, material, and craft bridges; neither is the surface organ sense."},
+    {"root":"ه د ي","label":"C","branches":["B003","B006","B008","B011"],"role":"leader or first member, bride-transfer, supported gait, and exchanged poetry","note":"Leadership, kinship, motion, and communication bridges justify exploratory retention."},
+    {"root":"ن ج د","label":"C","branches":["B007","B008","B009","B011"],"role":"high livestock, household upholstery, sword ornaments, and straining vessel","note":"Animal, household, craft, weapon, and storage bridges remain inspectable."},
+    {"root":"ق ح م","label":"C","branches":["B004","B005"],"role":"advanced old age in a man or camel","note":"Weakness and life-stage bridges are plausible but not required by the moral ascent."},
+    {"root":"ع ق ب","label":"C","branches":["B001","B009","B011","B013"],"role":"tough white sinew, recurrence, residual trace, and eagle or banner","note":"Preserved through body, time, evidence, danger, and authority bridges."},
+    {"root":"د ر ي","label":"C","branches":["B003","B004","B005"],"role":"hunting concealment, sharp implement, and training target","note":"Strategy, tools, and disciplined training bridge to knowledge and difficult action without becoming surface senses."},
+    {"root":"ف ك ك","label":"C","branches":["B005","B007","B008"],"role":"joint dislocation, animal debility or birth, and round stars","note":"Body, vulnerability, reproduction, and navigation bridges support recall-first retention."},
+    {"root":"ر ق ب","label":"C","branches":["B003","B006","B007","B009","B010","B011","B014"],"role":"lookout, gaming lot, star, waiting livestock, snake, hunter's blind, and metrical monitoring","note":"Retained through perception, risk, time, scarcity, danger, tools, and language bridges."},
+    {"root":"ط ع م","label":"C","branches":["B003","B006","B007","B009","B010","B013"],"role":"soliciting speech, hunting provision, animal fat, horse training, grafting, and mouth-to-mouth contact","note":"B003 is Furūq-only; all are retained through speech, provision, body, motion, cultivation, or gesture links."},
+    {"root":"ق ر ب","label":"C","branches":["B008","B009","B010","B011","B012","B013","B014"],"role":"water-seeking night, water vessel, sword sheath, boat, approaching birth, favored mounts, and horse training","note":"Pastoral, material, travel, birth, status, and training bridges remain exploratory."},
+    {"root":"س ك ن","label":"C","branches":["B007","B008"],"role":"slaughter by knife and steering a vessel","note":"Tool, sacrifice, navigation, and control bridges are visible but remote from the miskin surface sense."},
+    {"root":"ت ر ب","label":"C","branches":["B005","B007","B008","B009"],"role":"chest ornaments, plant growth, place names, and a docile animal","note":"Body, botany, geography, and pastoral bridges justify exploratory retention."}
+  ],
+  "silent_branches": [
+    {"root":"ع ق ب","label":"S","branches":["B014"],"role":"Jacob and unrelated animal names","note":"No named-person, genealogy-name, or equestrian trigger is visible in 90:9-16."},
+    {"root":"ي و م","label":"S","branches":["B005"],"role":"the specialized construction of yawm with idh","note":"No idh construction occurs; this Furūq-only branch is currently silent."}
+  ],
+  "data_issues": [],
+  "inventory_accounting": {
+    "roots": 16,
+    "branches": 149,
+    "A": 16,
+    "B": 47,
+    "C/B": 36,
+    "C": 48,
+    "S": 2,
+    "X": 0,
+    "coverage": "complete"
+  }
+}
