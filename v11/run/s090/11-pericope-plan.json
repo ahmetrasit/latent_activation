@@ -1,0 +1,40 @@
+{
+  "schema": "v11.pericope_plan.v1",
+  "dense_definition": {
+    "max_agent_candidates": 10000,
+    "actual_candidate_count": 23930,
+    "target_unique_roots_per_pericope": 18,
+    "target_ayahs_per_pericope": 8
+  },
+  "policy": [
+    "Do not send dense whole-surah candidate reservoirs to agents.",
+    "Run each listed pericope as a separate normal v11 package.",
+    "After pericope reports are complete, run a final cross-pericope integration pass using pericope reports plus the dense-gate summary."
+  ],
+  "pericopes": [
+    {
+      "surah": 90,
+      "ayah_start": 1,
+      "ayah_end": 8,
+      "root_count_hint": 17,
+      "ayah_count": 8,
+      "out_dir_hint": "v11/run/s090/p01_001-008"
+    },
+    {
+      "surah": 90,
+      "ayah_start": 9,
+      "ayah_end": 16,
+      "root_count_hint": 16,
+      "ayah_count": 8,
+      "out_dir_hint": "v11/run/s090/p02_009-016"
+    },
+    {
+      "surah": 90,
+      "ayah_start": 17,
+      "ayah_end": 20,
+      "root_count_hint": 12,
+      "ayah_count": 4,
+      "out_dir_hint": "v11/run/s090/p03_017-020"
+    }
+  ]
+}
