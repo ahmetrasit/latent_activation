@@ -30,6 +30,11 @@ files; they do not select or verify the model profile. Do not silently downgrade
 the model or reasoning effort. If `gpt-5.6-sol` with high reasoning is
 unavailable, stop and report the blocker instead of starting substitute agents.
 
+When spawning a reader agent, explicitly instruct it not to write scripts,
+helper programs, parsers, workflow files, or patches. The reader's only write
+targets are the assigned analytical Markdown file and, after follow-up, the
+assigned Turkish prose Markdown file.
+
 ## Inputs
 
 The only required reader inputs are:
@@ -100,6 +105,23 @@ v12/runs/s103/full_context_control/103-0-3-butuncul-okuma.md
 
 Do not append Turkish prose to the analytical ayah-walk file.
 
+The Turkish prose file uses a constrained Markdown schema so scripts can parse
+it while it remains readable:
+
+```text
+# {surah}:{ayah_start}-{ayah_end} Bütüncül Okuma
+**{surah}:{ayah}.** {arabic_ayah_text} — {single Turkish paragraph} {{root branch; root branch; ...}}
+```
+
+Rules:
+
+- exactly one title line;
+- exactly one non-empty line per ayah in packet order;
+- each ayah line starts with the bold ayah marker, then the Arabic ayah text,
+  then ` — `, then one Turkish paragraph;
+- each paragraph ends with curly-braced root and branch evidence;
+- no bullets, tables, extra sections, postscript, or analysis notes.
+
 ## Minimal Run
 
 ```bash
@@ -147,7 +169,8 @@ python3 v12/scripts/freeze_full_context_run.py \
 
 Then send the canonical Turkish prose follow-up from `v11/spec.md` to the same
 reader agent, substituting only the concrete output path for the separate
-`100-0-11-butuncul-okuma.md` file in the same run directory.
+`100-0-11-butuncul-okuma.md` file in the same run directory, and require the
+constrained Turkish Markdown schema defined above.
 
 ## Adjudication
 
@@ -179,5 +202,8 @@ python3 v12/scripts/freeze_adjudication_report.py \
 - Turkish prose is downstream rendering produced by the same reader agent via
   follow-up message. It must be written to a separate file and must not replace
   or rewrite the analytical findings.
+- Turkish prose must follow the constrained one-line-per-ayah Markdown schema
+  so downstream scripts can parse ayah id, Arabic text, prose, and branch
+  evidence.
 - Later comparison can use older staged runs, but staged runs are legacy
   controls, not the default v12 method.

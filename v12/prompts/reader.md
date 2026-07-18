@@ -21,6 +21,9 @@ directories, staged reader outputs, tafsir, online sources, or another agent's
 work. Ordinary knowledge of Arabic morphology and syntax is allowed, but do not
 import a remembered tafsir as the answer.
 
+Do not write scripts, helper programs, parsers, workflow files, or patches. Your
+only task is to write the assigned analytical Markdown output.
+
 ## Core Task
 
 Work one fixed ayah at a time in packet order. For the current fixed ayah, treat
@@ -74,11 +77,9 @@ Use this order:
    retrospective subsection for each ayah. Mention later ayat that caused a
    surprising activation, correction, or newly visible relation. If no later
    surprise emerged, say so briefly.
-4. After the retrospective pass, append a separate top-level section:
-   `Turkish Prose Synthesis`.
-5. In the Turkish section, write concise Turkish prose for each ayah in order.
-   Render the analytical findings; do not add new analysis. If retrospective
-   surprise changed the reading, make that visible in the Turkish prose.
+
+Do not add Turkish prose to this analytical file. Turkish user-facing prose is a
+separate same-agent follow-up after this file is complete.
 
 ## Style
 
