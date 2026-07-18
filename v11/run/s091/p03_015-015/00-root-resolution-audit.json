@@ -1,0 +1,52 @@
+{
+  "schema": "v11.root_resolution_audit.v1",
+  "policy": "qac_first_with_hamza_variant_audit",
+  "qnet_source": "/Users/ahmetrasit/projects/quran-roots/_corpus/activation/Qnet/v2/network/bridge_theme_full/bridge_theme_staging.sqlite",
+  "audit": [
+    {
+      "qac_root": "خ و ف",
+      "qac_root_join_keys": [
+        "خوف"
+      ],
+      "lookup_variants": [
+        "خوف"
+      ],
+      "status": "resolved",
+      "resolution_method": "unique_furuq_root_match",
+      "matched_variant": "خوف",
+      "matched_variants": [
+        "خوف"
+      ],
+      "matches": [
+        {
+          "root_id": "root_000447",
+          "root_norm": "خ و ف",
+          "source_root_norm": "خ و ف"
+        }
+      ]
+    },
+    {
+      "qac_root": "ع ق ب",
+      "qac_root_join_keys": [
+        "عقب"
+      ],
+      "lookup_variants": [
+        "عقب"
+      ],
+      "status": "resolved",
+      "resolution_method": "unique_furuq_root_match",
+      "matched_variant": "عقب",
+      "matched_variants": [
+        "عقب"
+      ],
+      "matches": [
+        {
+          "root_id": "root_001033",
+          "root_norm": "ع ق ب",
+          "source_root_norm": "ع ق ب"
+        }
+      ]
+    }
+  ],
+  "missing_roots": []
+}

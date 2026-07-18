@@ -1,0 +1,2434 @@
+{
+  "schema": "v11.branch_inventory.v1",
+  "root_resolution_policy": "qac_first_with_hamza_variant_audit",
+  "root_resolution_audit": [
+    {
+      "qac_root": "خ و ف",
+      "qac_root_join_keys": [
+        "خوف"
+      ],
+      "lookup_variants": [
+        "خوف"
+      ],
+      "status": "resolved",
+      "resolution_method": "unique_furuq_root_match",
+      "matched_variant": "خوف",
+      "matched_variants": [
+        "خوف"
+      ],
+      "matches": [
+        {
+          "root_id": "root_000447",
+          "root_norm": "خ و ف",
+          "source_root_norm": "خ و ف"
+        }
+      ]
+    },
+    {
+      "qac_root": "ع ق ب",
+      "qac_root_join_keys": [
+        "عقب"
+      ],
+      "lookup_variants": [
+        "عقب"
+      ],
+      "status": "resolved",
+      "resolution_method": "unique_furuq_root_match",
+      "matched_variant": "عقب",
+      "matched_variants": [
+        "عقب"
+      ],
+      "matches": [
+        {
+          "root_id": "root_001033",
+          "root_norm": "ع ق ب",
+          "source_root_norm": "ع ق ب"
+        }
+      ]
+    }
+  ],
+  "roots": {
+    "خ و ف": {
+      "root_id": "root_000447",
+      "root_ids": [
+        "root_000447"
+      ],
+      "root_norm": "خ و ف",
+      "source_root_norm": "خ و ف",
+      "matched_variant": "خوف",
+      "matched_variants": [
+        "خوف"
+      ],
+      "qac_root_join_keys": [
+        "خوف"
+      ],
+      "merge_policy": "single_root_id",
+      "surface_occurrences": [
+        {
+          "qac_ref": "91:15:2:1",
+          "word_ref": "91:15:2",
+          "position": [
+            91,
+            15,
+            2,
+            1
+          ],
+          "surface_ar": "يَخَافُ",
+          "stem_ar": "يَخَافُ",
+          "lemma_ar": "خَافَ",
+          "root_join_key": "خوف",
+          "root_join_key_effective": "خوف",
+          "pos": "V",
+          "measure": "",
+          "morph_features": "STEM|POS:V|IMPF|LEM:xaAfa|ROOT:xwf|3MS"
+        }
+      ],
+      "branch_count": 6,
+      "qnet_branch_count": 6,
+      "furuq_branch_count": 6,
+      "branches_without_qnet_themes": [],
+      "branches": {
+        "B001": {
+          "branch_id": "B001",
+          "source_branch_id": "B001",
+          "root": "خ و ف",
+          "root_id": "root_000447",
+          "source_root_id": "root_000447",
+          "source_root_ids": [
+            "root_000447"
+          ],
+          "image": {
+            "branch_image_ar": "ذعر يتوقع المكروه",
+            "branch_image_en": "fearful anticipation of harm",
+            "what_is_ar": "الخوف والخيفة والمخافة؛ الفزع والذعر؛ توقع المكروه عن أمارة؛ ضد الأمن؛ حالة الخائف وما يتصل بها من خاف وخائف",
+            "what_is_en": "Being afraid; fear, fright, and apprehension; expecting harm from a sign; the opposite of safety; the state of one who fears",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 5,
+          "keyword_count": 8,
+          "themes": {
+            "cognition": {
+              "keywords": [
+                {
+                  "raw_keyword": "psychology",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "communication": {
+              "keywords": [
+                {
+                  "raw_keyword": "warning",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "danger_harm": {
+              "keywords": [
+                {
+                  "raw_keyword": "danger",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "risk",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "threat",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "emotion": {
+              "keywords": [
+                {
+                  "raw_keyword": "emotion",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "protection_security": {
+              "keywords": [
+                {
+                  "raw_keyword": "protection",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "security",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "raw_keywords": [
+            "danger",
+            "emotion",
+            "protection",
+            "psychology",
+            "risk",
+            "security",
+            "threat",
+            "warning"
+          ]
+        },
+        "B002": {
+          "branch_id": "B002",
+          "source_branch_id": "B002",
+          "root": "خ و ف",
+          "root_id": "root_000447",
+          "source_root_id": "root_000447",
+          "source_root_ids": [
+            "root_000447"
+          ],
+          "image": {
+            "branch_image_ar": "إدخال الخوف في الغير",
+            "branch_image_en": "making another afraid",
+            "what_is_ar": "التخويف والإخافة؛ جعل الإنسان أو الطريق أو الشيء مخوفا أو مخيفا؛ الحث على التحرز بإثارة الخوف",
+            "what_is_en": "Inducing fear; frightening or intimidating; making a person, path, or thing feared or fear-causing; warning toward precaution",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "keyword_count": 11,
+          "themes": {
+            "agency_action": {
+              "keywords": [
+                {
+                  "raw_keyword": "behavior",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "cognition": {
+              "keywords": [
+                {
+                  "raw_keyword": "psychology",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "communication": {
+              "keywords": [
+                {
+                  "raw_keyword": "communication",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "warning",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "control_restraint": {
+              "keywords": [
+                {
+                  "raw_keyword": "coercion",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "control",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "danger_harm": {
+              "keywords": [
+                {
+                  "raw_keyword": "risk",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "threat",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "force_power": {
+              "keywords": [
+                {
+                  "raw_keyword": "influence",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "protection_security": {
+              "keywords": [
+                {
+                  "raw_keyword": "safety",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "security",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "raw_keywords": [
+            "behavior",
+            "coercion",
+            "communication",
+            "control",
+            "influence",
+            "psychology",
+            "risk",
+            "safety",
+            "security",
+            "threat",
+            "warning"
+          ]
+        },
+        "B003": {
+          "branch_id": "B003",
+          "source_branch_id": "B003",
+          "root": "خ و ف",
+          "root_id": "root_000447",
+          "source_root_id": "root_000447",
+          "source_root_ids": [
+            "root_000447"
+          ],
+          "image": {
+            "branch_image_ar": "مغالبة في الخوف",
+            "branch_image_en": "out-fearing another",
+            "what_is_ar": "خاوفه فخافه؛ أن يغلبه بالخوف أو يكون أحدهما أشد خوفا من الآخر",
+            "what_is_en": "Comparative or reciprocal fearing: one party outdoes another in fear or is more afraid than the other",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "keyword_count": 9,
+          "themes": {
+            "cognition": {
+              "keywords": [
+                {
+                  "raw_keyword": "psychology",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "conflict": {
+              "keywords": [
+                {
+                  "raw_keyword": "competition",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "conflict",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "emotion": {
+              "keywords": [
+                {
+                  "raw_keyword": "emotion",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "hierarchy_status": {
+              "keywords": [
+                {
+                  "raw_keyword": "dominance",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "hierarchy",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "measurement": {
+              "keywords": [
+                {
+                  "raw_keyword": "measure",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "reasoning_decision": {
+              "keywords": [
+                {
+                  "raw_keyword": "comparison",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "social_relations": {
+              "keywords": [
+                {
+                  "raw_keyword": "relation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "raw_keywords": [
+            "comparison",
+            "competition",
+            "conflict",
+            "dominance",
+            "emotion",
+            "hierarchy",
+            "measure",
+            "psychology",
+            "relation"
+          ]
+        },
+        "B004": {
+          "branch_id": "B004",
+          "source_branch_id": "B004",
+          "root": "خ و ف",
+          "root_id": "root_000447",
+          "source_root_id": "root_000447",
+          "source_root_ids": [
+            "root_000447"
+          ],
+          "image": {
+            "branch_image_ar": "نقص يأخذ من الشيء",
+            "branch_image_en": "diminishing by taking away",
+            "what_is_ar": "تخوف الشيء بمعنى تنقصه وأخذ منه؛ تنقصا اقتضاه الخوف منه عند من يربطه بالخوف؛ الفرع الإبدالي المذكور في المصادر",
+            "what_is_en": "تخوف as diminishing, taking away, or reducing something; in some evidence, reduction motivated by fear",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "keyword_count": 8,
+          "themes": {
+            "abundance_scarcity": {
+              "keywords": [
+                {
+                  "raw_keyword": "scarcity",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "change_transition": {
+              "keywords": [
+                {
+                  "raw_keyword": "alteration",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "change",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "danger_harm": {
+              "keywords": [
+                {
+                  "raw_keyword": "damage",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "food_nutrition": {
+              "keywords": [
+                {
+                  "raw_keyword": "consumption",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "loss_absence": {
+              "keywords": [
+                {
+                  "raw_keyword": "loss",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "measurement": {
+              "keywords": [
+                {
+                  "raw_keyword": "measure",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "wealth_property": {
+              "keywords": [
+                {
+                  "raw_keyword": "possession",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "raw_keywords": [
+            "alteration",
+            "change",
+            "consumption",
+            "damage",
+            "loss",
+            "measure",
+            "possession",
+            "scarcity"
+          ]
+        },
+        "B005": {
+          "branch_id": "B005",
+          "source_branch_id": "B005",
+          "root": "خ و ف",
+          "root_id": "root_000447",
+          "source_root_id": "root_000447",
+          "source_root_ids": [
+            "root_000447"
+          ],
+          "image": {
+            "branch_image_ar": "ظهور الخوف على الإنسان",
+            "branch_image_en": "visible manifestation of fear",
+            "what_is_ar": "التخوف عند الراغب بمعنى ظهور الخوف من الإنسان؛ حالة ظاهرة لا مجرد تسمية الخوف",
+            "what_is_en": "Visible showing of fear in or from a person, as explicitly glossed by Mufradat",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 9,
+          "keyword_count": 9,
+          "themes": {
+            "agency_action": {
+              "keywords": [
+                {
+                  "raw_keyword": "behavior",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "cognition": {
+              "keywords": [
+                {
+                  "raw_keyword": "psychology",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "emotion": {
+              "keywords": [
+                {
+                  "raw_keyword": "emotion",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "grammar_expression": {
+              "keywords": [
+                {
+                  "raw_keyword": "expression",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "health_medicine": {
+              "keywords": [
+                {
+                  "raw_keyword": "diagnosis",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "perception": {
+              "keywords": [
+                {
+                  "raw_keyword": "perception",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "physiology": {
+              "keywords": [
+                {
+                  "raw_keyword": "physiology",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "posture_embodiment": {
+              "keywords": [
+                {
+                  "raw_keyword": "embodiment",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "proof_uncertainty": {
+              "keywords": [
+                {
+                  "raw_keyword": "sign",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "raw_keywords": [
+            "behavior",
+            "diagnosis",
+            "embodiment",
+            "emotion",
+            "expression",
+            "perception",
+            "physiology",
+            "psychology",
+            "sign"
+          ]
+        },
+        "B006": {
+          "branch_id": "B006",
+          "source_branch_id": "B006",
+          "root": "خ و ف",
+          "root_id": "root_000447",
+          "source_root_id": "root_000447",
+          "source_root_ids": [
+            "root_000447"
+          ],
+          "image": {
+            "branch_image_ar": "خافة العسال والسقاء",
+            "branch_image_en": "beekeeper or carrier pouch/cover",
+            "what_is_ar": "الخافة: جبة أو عيبة يلبسها أو يحملها العسال والسقاء؛ خريطة من أدم يشتار فيها العسل",
+            "what_is_en": "خافة as a concrete item: a garment/cover or leather pouch associated with honey-gathering or carrying",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "keyword_count": 10,
+          "themes": {
+            "commerce_exchange": {
+              "keywords": [
+                {
+                  "raw_keyword": "trade",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "craft": {
+              "keywords": [
+                {
+                  "raw_keyword": "craft",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "leatherwork",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "husbandry": {
+              "keywords": [
+                {
+                  "raw_keyword": "apiculture",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "beekeeping",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "material": {
+              "keywords": [
+                {
+                  "raw_keyword": "material",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "storage_vessels": {
+              "keywords": [
+                {
+                  "raw_keyword": "storage",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "vessel",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "textile_clothing": {
+              "keywords": [
+                {
+                  "raw_keyword": "clothing",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "transport": {
+              "keywords": [
+                {
+                  "raw_keyword": "transport",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "raw_keywords": [
+            "apiculture",
+            "beekeeping",
+            "clothing",
+            "craft",
+            "leatherwork",
+            "material",
+            "storage",
+            "trade",
+            "transport",
+            "vessel"
+          ]
+        }
+      }
+    },
+    "ع ق ب": {
+      "root_id": "root_001033",
+      "root_ids": [
+        "root_001033"
+      ],
+      "root_norm": "ع ق ب",
+      "source_root_norm": "ع ق ب",
+      "matched_variant": "عقب",
+      "matched_variants": [
+        "عقب"
+      ],
+      "qac_root_join_keys": [
+        "عقب"
+      ],
+      "merge_policy": "single_root_id",
+      "surface_occurrences": [
+        {
+          "qac_ref": "91:15:3:1",
+          "word_ref": "91:15:3",
+          "position": [
+            91,
+            15,
+            3,
+            1
+          ],
+          "surface_ar": "عُقْبَٰ",
+          "stem_ar": "عُقْبَٰ",
+          "lemma_ar": "عُقْبَى",
+          "root_join_key": "عقب",
+          "root_join_key_effective": "عقب",
+          "pos": "N",
+          "measure": "",
+          "morph_features": "STEM|POS:N|LEM:EuqobaY|ROOT:Eqb|F|ACC"
+        }
+      ],
+      "branch_count": 15,
+      "qnet_branch_count": 15,
+      "furuq_branch_count": 15,
+      "branches_without_qnet_themes": [],
+      "branches": {
+        "B001": {
+          "branch_id": "B001",
+          "source_branch_id": "B001",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "العَقَب الأبيض الشديد",
+            "branch_image_en": "white tough sinew",
+            "what_is_ar": "العَقَب بمعنى العصب أو الوتر الأبيض الصلب الذي تعمل منه الأوتار وتشد به السهام والقداح والرماح والقسي وحلقة القرط، وما اتصل به من العرقوب الموتر خلف الكعبين",
+            "what_is_en": "White tough sinew or tendon used for bowstrings, binding shafts, spears, bows, and earrings, including the hamstring-like عرقوب relation behind the ankles.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "keyword_count": 11,
+          "themes": {
+            "anatomy": {
+              "keywords": [
+                {
+                  "raw_keyword": "anatomy",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "control_restraint": {
+              "keywords": [
+                {
+                  "raw_keyword": "binding",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "fastening",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "craft": {
+              "keywords": [
+                {
+                  "raw_keyword": "craft",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "form_structure": {
+              "keywords": [
+                {
+                  "raw_keyword": "structure",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "material": {
+              "keywords": [
+                {
+                  "raw_keyword": "material",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "ornament_beauty": {
+              "keywords": [
+                {
+                  "raw_keyword": "jewelry",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "ornament",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "weaponry": {
+              "keywords": [
+                {
+                  "raw_keyword": "archery",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "weapon",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "weaponry",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "raw_keywords": [
+            "anatomy",
+            "archery",
+            "binding",
+            "craft",
+            "fastening",
+            "jewelry",
+            "material",
+            "ornament",
+            "structure",
+            "weapon",
+            "weaponry"
+          ]
+        },
+        "B002": {
+          "branch_id": "B002",
+          "source_branch_id": "B002",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "مؤخر القدم والأثر",
+            "branch_image_en": "heel and rear trace",
+            "what_is_ar": "العقب بمعنى مؤخر القدم وما خلف الإنسان أو القوم من أثر وموضع يتبع، ومنه وطء العقب وكون الإنسان موطأ العقب",
+            "what_is_en": "Heel or rear part of the foot, and the trace or place immediately behind someone that others tread or follow.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "keyword_count": 11,
+          "themes": {
+            "anatomy": {
+              "keywords": [
+                {
+                  "raw_keyword": "anatomy",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "body": {
+              "keywords": [
+                {
+                  "raw_keyword": "body",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "loss_absence": {
+              "keywords": [
+                {
+                  "raw_keyword": "presence",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "motion": {
+              "keywords": [
+                {
+                  "raw_keyword": "locomotion",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "motion",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "movement",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "navigation_route": {
+              "keywords": [
+                {
+                  "raw_keyword": "path",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "pathway",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "tracking",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "sequence_cycle": {
+              "keywords": [
+                {
+                  "raw_keyword": "sequence",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "space": {
+              "keywords": [
+                {
+                  "raw_keyword": "space",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "raw_keywords": [
+            "anatomy",
+            "body",
+            "locomotion",
+            "motion",
+            "movement",
+            "path",
+            "pathway",
+            "presence",
+            "sequence",
+            "space",
+            "tracking"
+          ]
+        },
+        "B003": {
+          "branch_id": "B003",
+          "source_branch_id": "B003",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "الرجوع على العقب",
+            "branch_image_en": "turning back on the heel",
+            "what_is_ar": "الرجوع والانثناء والنكوص بعد الإقبال، ومنه ولى على عقبه أو عقبيه، ولم يعقب بمعنى لم يعطف أو لم يرجع أو لم يلتفت",
+            "what_is_en": "Retreat, turning back, or failing to turn back after moving forward, pictured as returning on the heels.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 8,
+          "keyword_count": 8,
+          "themes": {
+            "belief_revelation": {
+              "keywords": [
+                {
+                  "raw_keyword": "apostasy",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "change_transition": {
+              "keywords": [
+                {
+                  "raw_keyword": "change",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "conflict": {
+              "keywords": [
+                {
+                  "raw_keyword": "conflict",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "control_restraint": {
+              "keywords": [
+                {
+                  "raw_keyword": "avoidance",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "memory_attention": {
+              "keywords": [
+                {
+                  "raw_keyword": "attention",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "motion": {
+              "keywords": [
+                {
+                  "raw_keyword": "motion",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "orientation_direction": {
+              "keywords": [
+                {
+                  "raw_keyword": "orientation",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "reasoning_decision": {
+              "keywords": [
+                {
+                  "raw_keyword": "decision",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "raw_keywords": [
+            "apostasy",
+            "attention",
+            "avoidance",
+            "change",
+            "conflict",
+            "decision",
+            "motion",
+            "orientation"
+          ]
+        },
+        "B004": {
+          "branch_id": "B004",
+          "source_branch_id": "B004",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "العَقِب من الولد",
+            "branch_image_en": "posterity left after",
+            "what_is_ar": "ولد الرجل وولد ولده ومن يبقى بعده من نسله، وما ينفى بقولهم لا عقب له، والذرية الباقية في عقب الإنسان",
+            "what_is_en": "Descendants, posterity, or surviving offspring left after a man, including the negation of leaving no offspring.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 8,
+          "keyword_count": 9,
+          "themes": {
+            "culture_tradition": {
+              "keywords": [
+                {
+                  "raw_keyword": "legacy",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "family": {
+              "keywords": [
+                {
+                  "raw_keyword": "family",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "identity_personhood": {
+              "keywords": [
+                {
+                  "raw_keyword": "identity",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "kinship": {
+              "keywords": [
+                {
+                  "raw_keyword": "kinship",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "marriage_genealogy": {
+              "keywords": [
+                {
+                  "raw_keyword": "genealogy",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "social_relations": {
+              "keywords": [
+                {
+                  "raw_keyword": "society",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "stability_endurance": {
+              "keywords": [
+                {
+                  "raw_keyword": "continuity",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "survival",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "wealth_property": {
+              "keywords": [
+                {
+                  "raw_keyword": "inheritance",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "raw_keywords": [
+            "continuity",
+            "family",
+            "genealogy",
+            "identity",
+            "inheritance",
+            "kinship",
+            "legacy",
+            "society",
+            "survival"
+          ]
+        },
+        "B005": {
+          "branch_id": "B005",
+          "source_branch_id": "B005",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "الخلف والتعاقب",
+            "branch_image_en": "coming after in succession",
+            "what_is_ar": "مجيء شيء بعد شيء وخلافته له، وتعاقب الليل والنهار والملائكة والطير والإبل والركاب والنوب، والعاقب الذي يأتي في أثر غيره أو يخلفه",
+            "what_is_en": "One thing following, replacing, or alternating with another, including night and day, angels, birds, camels, riders, turns, and a successor.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 8,
+          "keyword_count": 9,
+          "themes": {
+            "authority_governance": {
+              "keywords": [
+                {
+                  "raw_keyword": "governance",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "habitat_ecology": {
+              "keywords": [
+                {
+                  "raw_keyword": "nature",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "labor_work": {
+              "keywords": [
+                {
+                  "raw_keyword": "service",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "motion": {
+              "keywords": [
+                {
+                  "raw_keyword": "movement",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "politics_order": {
+              "keywords": [
+                {
+                  "raw_keyword": "order",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "sequence_cycle": {
+              "keywords": [
+                {
+                  "raw_keyword": "cycle",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "process",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "time": {
+              "keywords": [
+                {
+                  "raw_keyword": "time",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "travel": {
+              "keywords": [
+                {
+                  "raw_keyword": "travel",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "raw_keywords": [
+            "cycle",
+            "governance",
+            "movement",
+            "nature",
+            "order",
+            "process",
+            "service",
+            "time",
+            "travel"
+          ]
+        },
+        "B006": {
+          "branch_id": "B006",
+          "source_branch_id": "B006",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "آخر الشيء وعاقبته",
+            "branch_image_en": "the end and outcome",
+            "what_is_ar": "آخر الشيء وخاتمته وعاقبته وعقباه، وما يورثه الفعل أو يستعقبه من خير أو شر أو ندم أو مرض",
+            "what_is_en": "Final end, outcome, aftermath, or result that an act brings after it, for good or bad.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 10,
+          "keyword_count": 11,
+          "themes": {
+            "abundance_scarcity": {
+              "keywords": [
+                {
+                  "raw_keyword": "fortune",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "agency_action": {
+              "keywords": [
+                {
+                  "raw_keyword": "causation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "belief_revelation": {
+              "keywords": [
+                {
+                  "raw_keyword": "fate",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "change_transition": {
+              "keywords": [
+                {
+                  "raw_keyword": "completion",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "ethics_morality": {
+              "keywords": [
+                {
+                  "raw_keyword": "ethics",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "morality",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "health_medicine": {
+              "keywords": [
+                {
+                  "raw_keyword": "health",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "justice_judgment": {
+              "keywords": [
+                {
+                  "raw_keyword": "accountability",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "reasoning_decision": {
+              "keywords": [
+                {
+                  "raw_keyword": "causality",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "time": {
+              "keywords": [
+                {
+                  "raw_keyword": "time",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "value_quality": {
+              "keywords": [
+                {
+                  "raw_keyword": "evaluation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "raw_keywords": [
+            "accountability",
+            "causality",
+            "causation",
+            "completion",
+            "ethics",
+            "evaluation",
+            "fate",
+            "fortune",
+            "health",
+            "morality",
+            "time"
+          ]
+        },
+        "B007": {
+          "branch_id": "B007",
+          "source_branch_id": "B007",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "العقوبة بعد الذنب",
+            "branch_image_en": "punitive consequence",
+            "what_is_ar": "العقاب والعقوبة والمعاقبة بمعنى الجزاء بالسوء أو المؤاخذة على الذنب أو إدراك الثأر، وما فسر به فعاقبتم من الإصابة والغنيمة على وجه العقوبة",
+            "what_is_en": "Retaliatory or punitive consequence after an offense, including punishment, requital, and taking recompense.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "keyword_count": 8,
+          "themes": {
+            "authority_governance": {
+              "keywords": [
+                {
+                  "raw_keyword": "authority",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "conflict": {
+              "keywords": [
+                {
+                  "raw_keyword": "conflict",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "ethics_morality": {
+              "keywords": [
+                {
+                  "raw_keyword": "ethics",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "morality",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "justice_judgment": {
+              "keywords": [
+                {
+                  "raw_keyword": "compensation",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "justice",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "law": {
+              "keywords": [
+                {
+                  "raw_keyword": "law",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "violence_warfare": {
+              "keywords": [
+                {
+                  "raw_keyword": "violence",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "raw_keywords": [
+            "authority",
+            "compensation",
+            "conflict",
+            "ethics",
+            "justice",
+            "law",
+            "morality",
+            "violence"
+          ]
+        },
+        "B008": {
+          "branch_id": "B008",
+          "source_branch_id": "B008",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "التعقب والمراجعة",
+            "branch_image_en": "following up and challenging",
+            "what_is_ar": "تتبع الأمر أو الخبر أو الحكم بعده للسؤال أو الطلب أو الاعتراض أو الرد، ومنه المعقب طالب الحق ولا معقب لحكمه أي لا راد أو لا متتبع معارض",
+            "what_is_en": "Following up after something to pursue, question, review, challenge, or reverse it, including a claimant and a non-reverser of judgment.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "keyword_count": 9,
+          "themes": {
+            "authority_governance": {
+              "keywords": [
+                {
+                  "raw_keyword": "authority",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "governance",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "communication": {
+              "keywords": [
+                {
+                  "raw_keyword": "communication",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "conflict": {
+              "keywords": [
+                {
+                  "raw_keyword": "dispute",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "justice_judgment": {
+              "keywords": [
+                {
+                  "raw_keyword": "accountability",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "knowledge_learning": {
+              "keywords": [
+                {
+                  "raw_keyword": "inquiry",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "knowledge",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "law": {
+              "keywords": [
+                {
+                  "raw_keyword": "law",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "rhetoric_discourse": {
+              "keywords": [
+                {
+                  "raw_keyword": "argument",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "raw_keywords": [
+            "accountability",
+            "argument",
+            "authority",
+            "communication",
+            "dispute",
+            "governance",
+            "inquiry",
+            "knowledge",
+            "law"
+          ]
+        },
+        "B009": {
+          "branch_id": "B009",
+          "source_branch_id": "B009",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "العود مرة بعد مرة",
+            "branch_image_en": "repeated return after an act",
+            "what_is_ar": "العود إلى العمل بعد عمل مثله، كغزوة بعد غزوة، وصلاة بعد صلاة، وجري بعد جري، ومرعى بعد مرعى، وطلوع بعد غياب",
+            "what_is_en": "Repeating or returning to an act after the same kind of act: raid after raid, prayer after prayer, run after run, pasture after pasture, or rising after setting.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 8,
+          "keyword_count": 8,
+          "themes": {
+            "agriculture": {
+              "keywords": [
+                {
+                  "raw_keyword": "agriculture",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "intention_character": {
+              "keywords": [
+                {
+                  "raw_keyword": "habit",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "labor_work": {
+              "keywords": [
+                {
+                  "raw_keyword": "labor",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "motion": {
+              "keywords": [
+                {
+                  "raw_keyword": "movement",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "ritual": {
+              "keywords": [
+                {
+                  "raw_keyword": "ritual",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "sequence_cycle": {
+              "keywords": [
+                {
+                  "raw_keyword": "cycle",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "time": {
+              "keywords": [
+                {
+                  "raw_keyword": "time",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "violence_warfare": {
+              "keywords": [
+                {
+                  "raw_keyword": "warfare",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "raw_keywords": [
+            "agriculture",
+            "cycle",
+            "habit",
+            "labor",
+            "movement",
+            "ritual",
+            "time",
+            "warfare"
+          ]
+        },
+        "B010": {
+          "branch_id": "B010",
+          "source_branch_id": "B010",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "العقبة بدلا وضمانا",
+            "branch_image_en": "substitution and retained liability",
+            "what_is_ar": "العقبة بمعنى بدل يؤخذ مكان شيء، أو درك يلحق في السلعة، أو احتباس المبيع حتى يقبض الثمن مع ضمان المعتقب",
+            "what_is_en": "Substitute, compensation, follow-up claim, or retained sold item with liability after the sale.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 6,
+          "keyword_count": 10,
+          "themes": {
+            "commerce_exchange": {
+              "keywords": [
+                {
+                  "raw_keyword": "commerce",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "exchange",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "trade",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "finance_debt": {
+              "keywords": [
+                {
+                  "raw_keyword": "debt",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "finance",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "law": {
+              "keywords": [
+                {
+                  "raw_keyword": "law",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "obligation_contract": {
+              "keywords": [
+                {
+                  "raw_keyword": "contract",
+                  "replicate_votes": 2
+                },
+                {
+                  "raw_keyword": "obligation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 2
+            },
+            "protection_security": {
+              "keywords": [
+                {
+                  "raw_keyword": "security",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "wealth_property": {
+              "keywords": [
+                {
+                  "raw_keyword": "property",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "raw_keywords": [
+            "commerce",
+            "contract",
+            "debt",
+            "exchange",
+            "finance",
+            "law",
+            "obligation",
+            "property",
+            "security",
+            "trade"
+          ]
+        },
+        "B011": {
+          "branch_id": "B011",
+          "source_branch_id": "B011",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "بقية الشيء وأثره",
+            "branch_image_en": "residue and remaining trace",
+            "what_is_ar": "ما يبقى في آخر الشيء أو يرد بعد استعماله أو يظهر أثره وهيئته، كعقبة القدر وبقية السرو والجمال وبقية المرض",
+            "what_is_en": "Residue, remainder, or trace left at the end of something, such as pot remnants, visible marks of beauty or status, or illness residue.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 8,
+          "keyword_count": 9,
+          "themes": {
+            "growth_decay": {
+              "keywords": [
+                {
+                  "raw_keyword": "decay",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "health_medicine": {
+              "keywords": [
+                {
+                  "raw_keyword": "health",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "material": {
+              "keywords": [
+                {
+                  "raw_keyword": "material",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "memory_attention": {
+              "keywords": [
+                {
+                  "raw_keyword": "memory",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "ornament_beauty": {
+              "keywords": [
+                {
+                  "raw_keyword": "aesthetics",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "beauty",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "pattern_marking": {
+              "keywords": [
+                {
+                  "raw_keyword": "trace",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "proof_uncertainty": {
+              "keywords": [
+                {
+                  "raw_keyword": "evidence",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "stability_endurance": {
+              "keywords": [
+                {
+                  "raw_keyword": "continuity",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "raw_keywords": [
+            "aesthetics",
+            "beauty",
+            "continuity",
+            "decay",
+            "evidence",
+            "health",
+            "material",
+            "memory",
+            "trace"
+          ]
+        },
+        "B012": {
+          "branch_id": "B012",
+          "source_branch_id": "B012",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "العقبة الصعبة والناشز",
+            "branch_image_en": "steep pass and jutting rock",
+            "what_is_ar": "العقبة طريق وعر صاعد في الجبل، وما شابهها من مرقى أو صخرة أو حجر ناشز في البئر أو عرض الجبل أو بناء الطي",
+            "what_is_en": "Steep, difficult mountain pass or raised/jutting rock, ledge, well-stone, or layered construction.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 9,
+          "keyword_count": 10,
+          "themes": {
+            "architecture_construction": {
+              "keywords": [
+                {
+                  "raw_keyword": "architecture",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "boundary": {
+              "keywords": [
+                {
+                  "raw_keyword": "barrier",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "earth_geology": {
+              "keywords": [
+                {
+                  "raw_keyword": "geology",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "geography_landscape": {
+              "keywords": [
+                {
+                  "raw_keyword": "geography",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "landscape",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "labor_work": {
+              "keywords": [
+                {
+                  "raw_keyword": "effort",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "navigation_route": {
+              "keywords": [
+                {
+                  "raw_keyword": "passage",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "suffering_hardship": {
+              "keywords": [
+                {
+                  "raw_keyword": "difficulty",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "terrain_desert": {
+              "keywords": [
+                {
+                  "raw_keyword": "topography",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "travel": {
+              "keywords": [
+                {
+                  "raw_keyword": "travel",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "raw_keywords": [
+            "architecture",
+            "barrier",
+            "difficulty",
+            "effort",
+            "geography",
+            "geology",
+            "landscape",
+            "passage",
+            "topography",
+            "travel"
+          ]
+        },
+        "B013": {
+          "branch_id": "B013",
+          "source_branch_id": "B013",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "العقاب الجارح والراية",
+            "branch_image_en": "eagle and eagle-like banner",
+            "what_is_ar": "العقاب الطائر الجارح المعروف، وما شبه به من الراية أو اللواء أو الناقة السوداء، والعقنباة الداهية من العقبان",
+            "what_is_en": "An eagle or strong bird of prey, and items compared to it such as a banner, standard, or black camel; includes the intensified عقنباة form.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "keyword_count": 9,
+          "themes": {
+            "animal": {
+              "keywords": [
+                {
+                  "raw_keyword": "animal",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "authority_governance": {
+              "keywords": [
+                {
+                  "raw_keyword": "leadership",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "danger_harm": {
+              "keywords": [
+                {
+                  "raw_keyword": "danger",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "force_power": {
+              "keywords": [
+                {
+                  "raw_keyword": "power",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "pattern_marking": {
+              "keywords": [
+                {
+                  "raw_keyword": "heraldry",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "symbol",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "symbolism",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "violence_warfare": {
+              "keywords": [
+                {
+                  "raw_keyword": "warfare",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "visual_appearance": {
+              "keywords": [
+                {
+                  "raw_keyword": "color",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "raw_keywords": [
+            "animal",
+            "color",
+            "danger",
+            "heraldry",
+            "leadership",
+            "power",
+            "symbol",
+            "symbolism",
+            "warfare"
+          ]
+        },
+        "B014": {
+          "branch_id": "B014",
+          "source_branch_id": "B014",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "يعقوب واليعقوب",
+            "branch_image_en": "Jacob and the partridge cock",
+            "what_is_ar": "يعقوب اسم رجل في الاستعمال العربي والقرآني، واليعقوب ذكر الحجل وما شبه به من الخيل، مع تعليل بعض المصادر بالتعلق بالعقب أو عقب الجري",
+            "what_is_en": "Jacob as a proper name, and اليعقوب as the male partridge or a horse comparison, with some sources connecting the forms to heel-following or running after.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "keyword_count": 10,
+          "themes": {
+            "animal": {
+              "keywords": [
+                {
+                  "raw_keyword": "animal",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "zoology",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "belief_revelation": {
+              "keywords": [
+                {
+                  "raw_keyword": "scripture",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "identity_personhood": {
+              "keywords": [
+                {
+                  "raw_keyword": "identity",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "language_speech": {
+              "keywords": [
+                {
+                  "raw_keyword": "language",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "marriage_genealogy": {
+              "keywords": [
+                {
+                  "raw_keyword": "genealogy",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "naming_classification": {
+              "keywords": [
+                {
+                  "raw_keyword": "anthroponym",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "classification",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "onomastics",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "transport": {
+              "keywords": [
+                {
+                  "raw_keyword": "equestrian",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            }
+          },
+          "raw_keywords": [
+            "animal",
+            "anthroponym",
+            "classification",
+            "equestrian",
+            "genealogy",
+            "identity",
+            "language",
+            "onomastics",
+            "scripture",
+            "zoology"
+          ]
+        },
+        "B015": {
+          "branch_id": "B015",
+          "source_branch_id": "B015",
+          "root": "ع ق ب",
+          "root_id": "root_001033",
+          "source_root_id": "root_001033",
+          "source_root_ids": [
+            "root_001033"
+          ],
+          "image": {
+            "branch_image_ar": "اصفرار النبت ويبس العود",
+            "branch_image_en": "plant yellowing into dryness",
+            "what_is_ar": "عقب النبت أو العرفج إذا دق عوده واصفر ورقه أو ثمره وحان يبسه، بوصفه انتقالا إلى شدة ويبوسة",
+            "what_is_en": "Plant growth, especially عرفج, reaching a stage where its stem thins or hardens, its leaf or fruit yellows, and dryness is near.",
+            "status": "accepted",
+            "contaminated": "no"
+          },
+          "integrity": "ok",
+          "qnet_membership": "present",
+          "theme_count": 7,
+          "keyword_count": 8,
+          "themes": {
+            "agriculture": {
+              "keywords": [
+                {
+                  "raw_keyword": "agriculture",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "calendar_season": {
+              "keywords": [
+                {
+                  "raw_keyword": "season",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "growth_decay": {
+              "keywords": [
+                {
+                  "raw_keyword": "decay",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "life_stage_aging": {
+              "keywords": [
+                {
+                  "raw_keyword": "maturation",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "plant_vegetation": {
+              "keywords": [
+                {
+                  "raw_keyword": "botany",
+                  "replicate_votes": 1
+                },
+                {
+                  "raw_keyword": "plant",
+                  "replicate_votes": 1
+                }
+              ],
+              "max_votes": 1
+            },
+            "visual_appearance": {
+              "keywords": [
+                {
+                  "raw_keyword": "color",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            },
+            "weather_climate": {
+              "keywords": [
+                {
+                  "raw_keyword": "climate",
+                  "replicate_votes": 2
+                }
+              ],
+              "max_votes": 2
+            }
+          },
+          "raw_keywords": [
+            "agriculture",
+            "botany",
+            "climate",
+            "color",
+            "decay",
+            "maturation",
+            "plant",
+            "season"
+          ]
+        }
+      }
+    }
+  },
+  "missing_roots": [],
+  "omitted_roots": []
+}

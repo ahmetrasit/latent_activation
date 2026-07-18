@@ -1,0 +1,430 @@
+{
+  "schema": "v11.activation_pass.v1",
+  "passage": {
+    "surah": 91,
+    "ayah_start": 15,
+    "ayah_end": 15
+  },
+  "activation_bias": "recall_first",
+  "agent": "A",
+  "graph_discipline": "Roots remain nodes; branches are edge or port labels, not graph nodes.",
+  "root_resolution": {
+    "authority": "01-passage.json QAC morphology and root resolution",
+    "status": "clean",
+    "resolved_roots": 2,
+    "unresolved_roots": 0,
+    "branch_ids_invented": false,
+    "note": "The basmala is part of the analysis frame. It reinforces divine agency and sovereign security without adding roots to the supplied branch inventory."
+  },
+  "surface_mechanism": [
+    "The conjunction carries forward the preceding punitive act, while لَا scopes over the imperfect يَخَافُ and negates fear in the acting subject.",
+    "عُقْبَٰهَا names what follows the act: its end, outcome, or aftermath, with the feminine suffix referring back to the antecedent event.",
+    "The compact clause therefore joins sovereign fearlessness to consequence: the actor neither anticipates harm nor retreats before liability, review, or punitive aftermath."
+  ],
+  "inventory_accounting": {
+    "roots": 2,
+    "branches": 21,
+    "A": 2,
+    "B": 4,
+    "C/B": 6,
+    "C": 8,
+    "S": 1,
+    "X": 0,
+    "coverage": "complete"
+  },
+  "data_issues": [],
+  "branches": [
+    {
+      "root": "خ و ف",
+      "branch": "B001",
+      "label": "A",
+      "role": "anticipated fear of harmful aftermath, explicitly negated",
+      "evidence": [
+        "surface يَخَافُ under لَا at 91:15",
+        "direct fearful-anticipation branch",
+        "عُقْبَٰهَا supplies the potentially adverse object of anticipation"
+      ]
+    },
+    {
+      "root": "خ و ف",
+      "branch": "B002",
+      "label": "C/B",
+      "role": "fear-inducing sovereign warning directed outward rather than fear felt inward",
+      "mechanical_discovery_refs": [
+        "خ و ف B002 ↔ ع ق ب B008",
+        "خ و ف B002 ↔ ع ق ب B013"
+      ],
+      "activated_by": [
+        {
+          "root": "ع ق ب",
+          "branch": "B007",
+          "evidence": [
+            "punitive consequence can function as warning and intimidation",
+            "the subject's fearlessness contrasts with the fear caused by punishment"
+          ]
+        }
+      ],
+      "notes": "Preserved as a strong directional reversal of fear; the surface verb does not itself mean frightening another."
+    },
+    {
+      "root": "خ و ف",
+      "branch": "B003",
+      "label": "C",
+      "role": "comparative fearlessness within a conflict relation",
+      "mechanical_discovery_refs": [
+        "خ و ف B003 ↔ ع ق ب B003",
+        "خ و ف B003 ↔ ع ق ب B007"
+      ],
+      "activated_by": [
+        {
+          "root": "ع ق ب",
+          "branch": "B007",
+          "evidence": [
+            "shared conflict profile between fear comparison and punitive requital"
+          ]
+        }
+      ],
+      "notes": "The clause establishes absolute non-fear more directly than a reciprocal contest in fear."
+    },
+    {
+      "root": "خ و ف",
+      "branch": "B004",
+      "label": "C/B",
+      "role": "destructive diminution underlying the aftermath whose risk is not feared",
+      "mechanical_discovery_refs": [
+        "خ و ف B004 ↔ ع ق ب B006",
+        "خ و ف B004 ↔ ع ق ب B003"
+      ],
+      "activated_by": [
+        {
+          "root": "ع ق ب",
+          "branch": "B006",
+          "evidence": [
+            "shared change and scarcity profile",
+            "the aftermath belongs to a preceding act of overwhelming reduction"
+          ]
+        }
+      ],
+      "notes": "The taking-away sense is contextually activated, not offered as the gloss of يَخَافُ."
+    },
+    {
+      "root": "خ و ف",
+      "branch": "B005",
+      "label": "B",
+      "role": "absence of any outward manifestation of fear",
+      "mechanical_discovery_refs": [
+        "خ و ف B005 ↔ ع ق ب B011",
+        "خ و ف B005 ↔ ع ق ب B006"
+      ],
+      "activated_by": [
+        {
+          "root": "خ و ف",
+          "branch": "B001",
+          "evidence": [
+            "the explicit negation of fear entails no visible sign of apprehension"
+          ]
+        }
+      ],
+      "notes": "Strong negative entailment: manifestation is absent because fear itself is denied."
+    },
+    {
+      "root": "خ و ف",
+      "branch": "B006",
+      "label": "C",
+      "role": "material cover or carrying vessel as a remote containment underlay",
+      "mechanical_discovery_refs": [
+        "خ و ف B006 ↔ ع ق ب B001",
+        "خ و ف B006 ↔ ع ق ب B010"
+      ],
+      "activated_by": [
+        {
+          "root": "ع ق ب",
+          "branch": "B001",
+          "evidence": [
+            "shared craft and material profile"
+          ]
+        }
+      ],
+      "notes": "Preserved because the mechanical bridge is concrete and rare; no beekeeper, garment, pouch, or carrying event is asserted."
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B001",
+      "label": "C",
+      "role": "binding sinew and material restraint underlay",
+      "mechanical_discovery_refs": [
+        "ع ق ب B001 ↔ خ و ف B006",
+        "ع ق ب B001 ↔ ع ق ب B011"
+      ],
+      "activated_by": [
+        {
+          "root": "خ و ف",
+          "branch": "B006",
+          "evidence": [
+            "shared craft and material keywords"
+          ]
+        }
+      ],
+      "notes": "A valid but remote material activation; no tendon, binding, bow, spear, or ornament is present."
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B002",
+      "label": "C/B",
+      "role": "what lies behind an act as its following trace",
+      "mechanical_discovery_refs": [
+        "ع ق ب B002 ↔ ع ق ب B005",
+        "ع ق ب B002 ↔ ع ق ب B003"
+      ],
+      "activated_by": [
+        {
+          "root": "ع ق ب",
+          "branch": "B006",
+          "evidence": [
+            "an aftermath follows behind the completed act as its trace"
+          ]
+        }
+      ],
+      "notes": "The rear-trace component is active more strongly than literal heel anatomy."
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B003",
+      "label": "C/B",
+      "role": "retreat before consequences, negated by the subject's fearlessness",
+      "mechanical_discovery_refs": [
+        "ع ق ب B003 ↔ خ و ف B003",
+        "ع ق ب B003 ↔ خ و ف B004"
+      ],
+      "activated_by": [
+        {
+          "root": "خ و ف",
+          "branch": "B001",
+          "evidence": [
+            "one who does not fear the aftermath has no reason to turn back or retreat"
+          ]
+        }
+      ],
+      "notes": "Strong negative underlay; no literal heel-turn is narrated in the assigned ayah."
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B004",
+      "label": "C",
+      "role": "posterity and surviving legacy exposed to an act's aftermath",
+      "mechanical_discovery_refs": [
+        "ع ق ب B004 ↔ ع ق ب B014",
+        "ع ق ب B004 ↔ ع ق ب B011"
+      ],
+      "activated_by": [
+        {
+          "root": "ع ق ب",
+          "branch": "B011",
+          "evidence": [
+            "shared continuity profile between what remains and posterity left afterward"
+          ]
+        }
+      ],
+      "notes": "Preserved as a legacy-afterward underlay; no descendants are named in the assigned passage."
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B005",
+      "label": "B",
+      "role": "the consequence as what follows an act in sequence",
+      "mechanical_discovery_refs": [
+        "ع ق ب B005 ↔ ع ق ب B009",
+        "ع ق ب B005 ↔ ع ق ب B006"
+      ],
+      "activated_by": [
+        {
+          "root": "ع ق ب",
+          "branch": "B006",
+          "evidence": [
+            "عُقْبَٰهَا denotes the result that comes after its antecedent event",
+            "shared sequence and time profile"
+          ]
+        }
+      ]
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B006",
+      "label": "A",
+      "role": "the end, outcome, and aftermath of the antecedent act",
+      "evidence": [
+        "surface عُقْبَٰهَا at 91:15",
+        "direct end-and-outcome branch",
+        "the suffix ties the outcome to the preceding feminine event"
+      ]
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B007",
+      "label": "B",
+      "role": "punitive consequence following offense",
+      "mechanical_discovery_refs": [
+        "ع ق ب B007 ↔ ع ق ب B006",
+        "ع ق ب B007 ↔ ع ق ب B008"
+      ],
+      "activated_by": [
+        {
+          "root": "ع ق ب",
+          "branch": "B006",
+          "evidence": [
+            "the antecedent context is punitive destruction, making requital a strong specialization of outcome",
+            "shared ethics and judgment profile"
+          ]
+        }
+      ]
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B008",
+      "label": "B",
+      "role": "follow-up challenge or review that cannot reverse the judgment",
+      "mechanical_discovery_refs": [
+        "ع ق ب B008 ↔ ع ق ب B007",
+        "ع ق ب B008 ↔ خ و ف B002"
+      ],
+      "activated_by": [
+        {
+          "root": "خ و ف",
+          "branch": "B001",
+          "evidence": [
+            "not fearing the aftermath includes not fearing pursuit, questioning, or reversal by another authority"
+          ]
+        }
+      ],
+      "notes": "A strong sovereignty underlay, not a claim that an explicit reviewer appears."
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B009",
+      "label": "C",
+      "role": "recurrent return of consequence after repeated acts",
+      "mechanical_discovery_refs": [
+        "ع ق ب B009 ↔ ع ق ب B005",
+        "ع ق ب B009 ↔ ع ق ب B015"
+      ],
+      "activated_by": [
+        {
+          "root": "ع ق ب",
+          "branch": "B005",
+          "evidence": [
+            "shared sequence-cycle and time profile"
+          ]
+        }
+      ],
+      "notes": "The assigned ayah presents one aftermath, not explicit repetition."
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B010",
+      "label": "C/B",
+      "role": "retained liability or compensatory claim after an act",
+      "mechanical_discovery_refs": [
+        "ع ق ب B010 ↔ خ و ف B002",
+        "ع ق ب B010 ↔ خ و ف B001"
+      ],
+      "activated_by": [
+        {
+          "root": "خ و ف",
+          "branch": "B001",
+          "evidence": [
+            "liability is a concrete kind of aftermath one might fear",
+            "shared protection and security profile"
+          ]
+        }
+      ],
+      "notes": "The legal-economic sense is not surface, but fearlessness before any follow-up claim is strongly inspectable."
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B011",
+      "label": "C/B",
+      "role": "residue and trace remaining after the completed act",
+      "mechanical_discovery_refs": [
+        "ع ق ب B011 ↔ ع ق ب B015",
+        "ع ق ب B011 ↔ خ و ف B005"
+      ],
+      "activated_by": [
+        {
+          "root": "ع ق ب",
+          "branch": "B006",
+          "evidence": [
+            "aftermath naturally includes what remains as evidence or trace at the end"
+          ]
+        }
+      ],
+      "notes": "Residue is secondary to outcome but materially coherent."
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B012",
+      "label": "C",
+      "role": "a difficult obstacle ahead as an object one might fear",
+      "mechanical_discovery_refs": [
+        "ع ق ب B012 ↔ ع ق ب B005",
+        "ع ق ب B012 ↔ ع ق ب B002"
+      ],
+      "activated_by": [
+        {
+          "root": "خ و ف",
+          "branch": "B001",
+          "evidence": [
+            "a steep pass supplies a concrete hardship model for feared consequence"
+          ]
+        }
+      ],
+      "notes": "No mountain pass or rock is literally present."
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B013",
+      "label": "C",
+      "role": "dangerous force and sovereign banner underlay",
+      "mechanical_discovery_refs": [
+        "ع ق ب B013 ↔ خ و ف B001",
+        "ع ق ب B013 ↔ خ و ف B002"
+      ],
+      "activated_by": [
+        {
+          "root": "خ و ف",
+          "branch": "B001",
+          "evidence": [
+            "shared danger profile"
+          ]
+        }
+      ],
+      "notes": "Power and danger are inspectable; no eagle, bird, camel, or banner is asserted."
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B014",
+      "label": "S",
+      "role": "Jacob as a proper name or a partridge cock",
+      "notes": "No Jacob, proper-name reference, partridge, horse comparison, genealogy, or animal scene is visible in the assigned passage."
+    },
+    {
+      "root": "ع ق ب",
+      "branch": "B015",
+      "label": "C",
+      "role": "yellowing and decay as a natural aftermath image",
+      "mechanical_discovery_refs": [
+        "ع ق ب B015 ↔ ع ق ب B011",
+        "ع ق ب B015 ↔ ع ق ب B009"
+      ],
+      "activated_by": [
+        {
+          "root": "ع ق ب",
+          "branch": "B011",
+          "evidence": [
+            "shared growth-decay profile between remaining trace and plant dryness"
+          ]
+        }
+      ],
+      "notes": "Preserved as a decay-afterward analogy; no plant or seasonal scene is stated."
+    }
+  ]
+}

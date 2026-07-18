@@ -1,0 +1,4905 @@
+{
+  "schema": "v11.discovery_ranking.v1",
+  "activation_bias": "recall_first",
+  "ranking_semantics": "Ranks likely surprise/discovery value; does not prune the candidate reservoir.",
+  "passage": {
+    "surah": 91,
+    "ayah_start": 9,
+    "ayah_end": 14,
+    "ayah_end_effective": 14,
+    "qac_ayah_count": 15,
+    "include_basmala": true,
+    "basmala_in_analysis": true,
+    "surah_text_file": "00-surah-text.json",
+    "note": "QAC remains authoritative for word order, morphology, and root resolution; 00-surah-text.json supplies recitation text. Basmala is part of analysis except for S9; S1 uses verse_1, other non-S9 surahs use verse_0.",
+    "analysis_verse_keys": [
+      "verse_0",
+      "verse_9",
+      "verse_10",
+      "verse_11",
+      "verse_12",
+      "verse_13",
+      "verse_14"
+    ]
+  },
+  "top_candidate_bridges": [
+    {
+      "source": "س ق ي",
+      "target": "ر ب ب",
+      "source_branch": "B007",
+      "target_branch": "B008",
+      "source_branch_key": "س ق ي B007",
+      "target_branch_key": "ر ب ب B008",
+      "cross_root": true,
+      "shared_themes": [
+        "sky_astronomy",
+        "water_hydrology",
+        "weather_climate"
+      ],
+      "shared_keywords": [
+        "meteorology",
+        "sky",
+        "water",
+        "weather"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 22,
+      "discovery_value_hint": 16,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ك ذ ب",
+      "target": "ر س ل",
+      "source_branch": "B006",
+      "target_branch": "B006",
+      "source_branch_key": "ك ذ ب B006",
+      "target_branch_key": "ر س ل B006",
+      "cross_root": true,
+      "shared_themes": [
+        "animal",
+        "food_nutrition",
+        "provision_resource",
+        "reproduction_birth"
+      ],
+      "shared_keywords": [
+        "animal",
+        "fertility",
+        "nourishment"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 20,
+      "discovery_value_hint": 16,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ع ق ر",
+      "target": "ذ ن ب",
+      "source_branch": "B007",
+      "target_branch": "B005",
+      "source_branch_key": "ع ق ر B007",
+      "target_branch_key": "ذ ن ب B005",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "growth_decay",
+        "plant_vegetation"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "botany",
+        "growth"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 16,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر ب ب",
+      "target": "ذ ن ب",
+      "source_branch": "B012",
+      "target_branch": "B005",
+      "source_branch_key": "ر ب ب B012",
+      "target_branch_key": "ذ ن ب B005",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "food_nutrition",
+        "plant_vegetation"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "botany",
+        "food"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 16,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ع ق ر",
+      "target": "س و ي",
+      "source_branch": "B018",
+      "target_branch": "B012",
+      "source_branch_key": "ع ق ر B018",
+      "target_branch_key": "س و ي B012",
+      "cross_root": true,
+      "shared_themes": [
+        "light_darkness",
+        "sky_astronomy"
+      ],
+      "shared_keywords": [
+        "sky"
+      ],
+      "rare_shared_themes": [
+        "light_darkness"
+      ],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 9,
+      "discovery_value_hint": 16,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ف ل ح",
+      "target": "ذ ن ب",
+      "source_branch": "B003",
+      "target_branch": "B005",
+      "source_branch_key": "ف ل ح B003",
+      "target_branch_key": "ذ ن ب B005",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "food_nutrition",
+        "harvest_cultivation"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "food",
+        "harvest"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 15,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر س ل",
+      "target": "ذ ن ب",
+      "source_branch": "B011",
+      "target_branch": "B010",
+      "source_branch_key": "ر س ل B011",
+      "target_branch_key": "ذ ن ب B010",
+      "cross_root": true,
+      "shared_themes": [
+        "animal",
+        "body",
+        "physiology"
+      ],
+      "shared_keywords": [
+        "animal",
+        "biology",
+        "body"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 15,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر ب ب",
+      "target": "ذ ن ب",
+      "source_branch": "B012",
+      "target_branch": "B009",
+      "source_branch_key": "ر ب ب B012",
+      "target_branch_key": "ذ ن ب B009",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "habitat_ecology",
+        "plant_vegetation"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "botany",
+        "ecology"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 15,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ف ل ح",
+      "target": "ر س ل",
+      "source_branch": "B003",
+      "target_branch": "B006",
+      "source_branch_key": "ف ل ح B003",
+      "target_branch_key": "ر س ل B006",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "food_nutrition",
+        "provision_resource"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "food"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 14,
+      "discovery_value_hint": 15,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر س ل",
+      "target": "ر ب ب",
+      "source_branch": "B011",
+      "target_branch": "B010",
+      "source_branch_key": "ر س ل B011",
+      "target_branch_key": "ر ب ب B010",
+      "cross_root": true,
+      "shared_themes": [
+        "material",
+        "tools_equipment",
+        "weaponry"
+      ],
+      "shared_keywords": [
+        "weapon"
+      ],
+      "rare_shared_themes": [
+        "weaponry"
+      ],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 11,
+      "discovery_value_hint": 15,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ز ك و",
+      "target": "ر ب ب",
+      "source_branch": "B002",
+      "target_branch": "B013",
+      "source_branch_key": "ز ك و B002",
+      "target_branch_key": "ر ب ب B013",
+      "cross_root": true,
+      "shared_themes": [
+        "purity_cleansing"
+      ],
+      "shared_keywords": [
+        "purity"
+      ],
+      "rare_shared_themes": [
+        "purity_cleansing"
+      ],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 7,
+      "discovery_value_hint": 15,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ز ك و",
+      "target": "ق و ل",
+      "source_branch": "B005",
+      "target_branch": "B008",
+      "source_branch_key": "ز ك و B005",
+      "target_branch_key": "ق و ل B008",
+      "cross_root": true,
+      "shared_themes": [
+        "recreation_sport"
+      ],
+      "shared_keywords": [
+        "game"
+      ],
+      "rare_shared_themes": [
+        "recreation_sport"
+      ],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 7,
+      "discovery_value_hint": 15,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ق و ل",
+      "target": "ر س ل",
+      "source_branch": "B013",
+      "target_branch": "B011",
+      "source_branch_key": "ق و ل B013",
+      "target_branch_key": "ر س ل B011",
+      "cross_root": true,
+      "shared_themes": [
+        "culture_tradition"
+      ],
+      "shared_keywords": [
+        "tradition"
+      ],
+      "rare_shared_themes": [
+        "culture_tradition"
+      ],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 7,
+      "discovery_value_hint": 15,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ك ذ ب",
+      "target": "ع ق ر",
+      "source_branch": "B009",
+      "target_branch": "B019",
+      "source_branch_key": "ك ذ ب B009",
+      "target_branch_key": "ع ق ر B019",
+      "cross_root": true,
+      "shared_themes": [
+        "material",
+        "ornament_beauty",
+        "textile_clothing",
+        "visual_appearance"
+      ],
+      "shared_keywords": [
+        "adornment",
+        "clothing",
+        "material",
+        "ornament",
+        "textile"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 28,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ذ ن ب",
+      "target": "س و ي",
+      "source_branch": "B004",
+      "target_branch": "B009",
+      "source_branch_key": "ذ ن ب B004",
+      "target_branch_key": "س و ي B009",
+      "cross_root": true,
+      "shared_themes": [
+        "geography_landscape",
+        "terrain_desert",
+        "water_hydrology"
+      ],
+      "shared_keywords": [
+        "geography",
+        "hydrology",
+        "landscape",
+        "terrain",
+        "water"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 26,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ك ذ ب",
+      "target": "س ق ي",
+      "source_branch": "B009",
+      "target_branch": "B009",
+      "source_branch_key": "ك ذ ب B009",
+      "target_branch_key": "س ق ي B009",
+      "cross_root": true,
+      "shared_themes": [
+        "craft",
+        "material",
+        "textile_clothing",
+        "visual_appearance"
+      ],
+      "shared_keywords": [
+        "coloration",
+        "craft",
+        "material",
+        "textile"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 24,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "س ق ي",
+      "target": "ع ق ر",
+      "source_branch": "B011",
+      "target_branch": "B011",
+      "source_branch_key": "س ق ي B011",
+      "target_branch_key": "ع ق ر B011",
+      "cross_root": true,
+      "shared_themes": [
+        "conflict",
+        "honor_shame",
+        "language_speech",
+        "social_relations"
+      ],
+      "shared_keywords": [
+        "conflict",
+        "honor",
+        "society",
+        "speech"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 24,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر ب ب",
+      "target": "س و ي",
+      "source_branch": "B013",
+      "target_branch": "B009",
+      "source_branch_key": "ر ب ب B013",
+      "target_branch_key": "س و ي B009",
+      "cross_root": true,
+      "shared_themes": [
+        "abundance_scarcity",
+        "geography_landscape",
+        "habitat_ecology",
+        "water_hydrology"
+      ],
+      "shared_keywords": [
+        "abundance",
+        "ecology",
+        "geography",
+        "hydrology"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 24,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ط غ ي",
+      "target": "ش ق و",
+      "source_branch": "B005",
+      "target_branch": "B004",
+      "source_branch_key": "ط غ ي B005",
+      "target_branch_key": "ش ق و B004",
+      "cross_root": true,
+      "shared_themes": [
+        "geography_landscape",
+        "orientation_direction",
+        "terrain_desert"
+      ],
+      "shared_keywords": [
+        "elevation",
+        "landscape",
+        "mountain",
+        "terrain"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 22,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ق و ل",
+      "target": "ر ب ب",
+      "source_branch": "B010",
+      "target_branch": "B001",
+      "source_branch_key": "ق و ل B010",
+      "target_branch_key": "ر ب ب B001",
+      "cross_root": true,
+      "shared_themes": [
+        "authority_governance",
+        "force_power",
+        "hierarchy_status"
+      ],
+      "shared_keywords": [
+        "authority",
+        "governance",
+        "hierarchy",
+        "power"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 22,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "س ق ي",
+      "target": "ع ق ر",
+      "source_branch": "B010",
+      "target_branch": "B010",
+      "source_branch_key": "س ق ي B010",
+      "target_branch_key": "ع ق ر B010",
+      "cross_root": true,
+      "shared_themes": [
+        "conflict",
+        "emotion",
+        "language_speech"
+      ],
+      "shared_keywords": [
+        "conflict",
+        "emotion",
+        "hostility",
+        "speech"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 22,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "خ ي ب",
+      "target": "ق و ل",
+      "source_branch": "B002",
+      "target_branch": "B008",
+      "source_branch_key": "خ ي ب B002",
+      "target_branch_key": "ق و ل B008",
+      "cross_root": true,
+      "shared_themes": [
+        "craft",
+        "force_power",
+        "material",
+        "tools_equipment"
+      ],
+      "shared_keywords": [
+        "craft",
+        "material",
+        "tool"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 20,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر س ل",
+      "target": "ر ب ب",
+      "source_branch": "B005",
+      "target_branch": "B014",
+      "source_branch_key": "ر س ل B005",
+      "target_branch_key": "ر ب ب B014",
+      "cross_root": true,
+      "shared_themes": [
+        "household_community",
+        "husbandry",
+        "livestock",
+        "quantity_number"
+      ],
+      "shared_keywords": [
+        "collectivity",
+        "livestock",
+        "pastoralism"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 20,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ف ل ح",
+      "target": "ز ك و",
+      "source_branch": "B006",
+      "target_branch": "B002",
+      "source_branch_key": "ف ل ح B006",
+      "target_branch_key": "ز ك و B002",
+      "cross_root": true,
+      "shared_themes": [
+        "food_nutrition",
+        "religion_worship",
+        "ritual"
+      ],
+      "shared_keywords": [
+        "food",
+        "religion",
+        "ritual"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ش ق و",
+      "target": "ق و ل",
+      "source_branch": "B003",
+      "target_branch": "B010",
+      "source_branch_key": "ش ق و B003",
+      "target_branch_key": "ق و ل B010",
+      "cross_root": true,
+      "shared_themes": [
+        "conflict",
+        "force_power",
+        "hierarchy_status"
+      ],
+      "shared_keywords": [
+        "conflict",
+        "hierarchy",
+        "power"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ك ذ ب",
+      "target": "ر ب ب",
+      "source_branch": "B006",
+      "target_branch": "B009",
+      "source_branch_key": "ك ذ ب B006",
+      "target_branch_key": "ر ب ب B009",
+      "cross_root": true,
+      "shared_themes": [
+        "animal",
+        "food_nutrition",
+        "livestock",
+        "reproduction_birth"
+      ],
+      "shared_keywords": [
+        "animal",
+        "livestock"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 16,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ق و ل",
+      "target": "ر س ل",
+      "source_branch": "B002",
+      "target_branch": "B011",
+      "source_branch_key": "ق و ل B002",
+      "target_branch_key": "ر س ل B011",
+      "cross_root": true,
+      "shared_themes": [
+        "anatomy",
+        "body",
+        "language_speech",
+        "physiology"
+      ],
+      "shared_keywords": [
+        "anatomy",
+        "body"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 16,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ف ل ح",
+      "target": "ذ ن ب",
+      "source_branch": "B002",
+      "target_branch": "B002",
+      "source_branch_key": "ف ل ح B002",
+      "target_branch_key": "ذ ن ب B002",
+      "cross_root": true,
+      "shared_themes": [
+        "body",
+        "form_structure",
+        "surface_shape"
+      ],
+      "shared_keywords": [
+        "body",
+        "morphology"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 14,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ف ل ح",
+      "target": "س ق ي",
+      "source_branch": "B003",
+      "target_branch": "B003",
+      "source_branch_key": "ف ل ح B003",
+      "target_branch_key": "س ق ي B003",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "harvest_cultivation",
+        "provision_resource"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "cultivation"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 14,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ف ل ح",
+      "target": "ر ب ب",
+      "source_branch": "B003",
+      "target_branch": "B012",
+      "source_branch_key": "ف ل ح B003",
+      "target_branch_key": "ر ب ب B012",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "food_nutrition",
+        "geography_landscape"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "food"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 14,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "س ق ي",
+      "target": "ع ق ر",
+      "source_branch": "B003",
+      "target_branch": "B016",
+      "source_branch_key": "س ق ي B003",
+      "target_branch_key": "ع ق ر B016",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "architecture_construction",
+        "wealth_property"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "property"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 14,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ف ل ح",
+      "target": "ر س ل",
+      "source_branch": "B006",
+      "target_branch": "B006",
+      "source_branch_key": "ف ل ح B006",
+      "target_branch_key": "ر س ل B006",
+      "cross_root": true,
+      "shared_themes": [
+        "food_nutrition",
+        "provision_resource"
+      ],
+      "shared_keywords": [
+        "food",
+        "sustenance"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر س ل",
+      "target": "ر ب ب",
+      "source_branch": "B006",
+      "target_branch": "B008",
+      "source_branch_key": "ر س ل B006",
+      "target_branch_key": "ر ب ب B008",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "reproduction_birth"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "fertility"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر س ل",
+      "target": "ر ب ب",
+      "source_branch": "B006",
+      "target_branch": "B012",
+      "source_branch_key": "ر س ل B006",
+      "target_branch_key": "ر ب ب B012",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "food_nutrition"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "food"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر س ل",
+      "target": "ذ ن ب",
+      "source_branch": "B006",
+      "target_branch": "B005",
+      "source_branch_key": "ر س ل B006",
+      "target_branch_key": "ذ ن ب B005",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "food_nutrition"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "food"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "س ق ي",
+      "target": "ر ب ب",
+      "source_branch": "B006",
+      "target_branch": "B008",
+      "source_branch_key": "س ق ي B006",
+      "target_branch_key": "ر ب ب B008",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "weather_climate"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "weather"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "س ق ي",
+      "target": "ع ق ر",
+      "source_branch": "B007",
+      "target_branch": "B018",
+      "source_branch_key": "س ق ي B007",
+      "target_branch_key": "ع ق ر B018",
+      "cross_root": true,
+      "shared_themes": [
+        "sky_astronomy",
+        "weather_climate"
+      ],
+      "shared_keywords": [
+        "sky",
+        "weather"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ع ق ر",
+      "target": "ذ ن ب",
+      "source_branch": "B004",
+      "target_branch": "B010",
+      "source_branch_key": "ع ق ر B004",
+      "target_branch_key": "ذ ن ب B010",
+      "cross_root": true,
+      "shared_themes": [
+        "body",
+        "reproduction_birth"
+      ],
+      "shared_keywords": [
+        "body",
+        "reproduction"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ع ق ر",
+      "target": "ر ب ب",
+      "source_branch": "B007",
+      "target_branch": "B002",
+      "source_branch_key": "ع ق ر B007",
+      "target_branch_key": "ر ب ب B002",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "growth_decay"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "growth"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ع ق ر",
+      "target": "ر ب ب",
+      "source_branch": "B007",
+      "target_branch": "B012",
+      "source_branch_key": "ع ق ر B007",
+      "target_branch_key": "ر ب ب B012",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "plant_vegetation"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "botany"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ع ق ر",
+      "target": "ذ ن ب",
+      "source_branch": "B007",
+      "target_branch": "B009",
+      "source_branch_key": "ع ق ر B007",
+      "target_branch_key": "ذ ن ب B009",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "plant_vegetation"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "botany"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ع ق ر",
+      "target": "ر ب ب",
+      "source_branch": "B018",
+      "target_branch": "B008",
+      "source_branch_key": "ع ق ر B018",
+      "target_branch_key": "ر ب ب B008",
+      "cross_root": true,
+      "shared_themes": [
+        "sky_astronomy",
+        "weather_climate"
+      ],
+      "shared_keywords": [
+        "sky",
+        "weather"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر ب ب",
+      "target": "ذ ن ب",
+      "source_branch": "B002",
+      "target_branch": "B005",
+      "source_branch_key": "ر ب ب B002",
+      "target_branch_key": "ذ ن ب B005",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "growth_decay"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "growth"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ء ل ه",
+      "target": "ع ق ر",
+      "source_branch": "B001",
+      "target_branch": "B002",
+      "source_branch_key": "ء ل ه B001",
+      "target_branch_key": "ع ق ر B002",
+      "cross_root": true,
+      "shared_themes": [
+        "pilgrimage_sacrifice",
+        "ritual"
+      ],
+      "shared_keywords": [
+        "sacrifice"
+      ],
+      "rare_shared_themes": [
+        "pilgrimage_sacrifice"
+      ],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 9,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ع ق ر",
+      "target": "د م د م",
+      "source_branch": "B002",
+      "target_branch": "B001",
+      "source_branch_key": "ع ق ر B002",
+      "target_branch_key": "د م د م B001",
+      "cross_root": true,
+      "shared_themes": [
+        "mortality_death",
+        "violence_warfare"
+      ],
+      "shared_keywords": [
+        "violence"
+      ],
+      "rare_shared_themes": [
+        "mortality_death"
+      ],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 9,
+      "discovery_value_hint": 14,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "source_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ط غ ي",
+      "target": "د م د م",
+      "source_branch": "B004",
+      "target_branch": "B001",
+      "source_branch_key": "ط غ ي B004",
+      "target_branch_key": "د م د م B001",
+      "cross_root": true,
+      "shared_themes": [
+        "danger_harm",
+        "justice_judgment",
+        "punishment_sanction",
+        "violence_warfare"
+      ],
+      "shared_keywords": [
+        "destruction",
+        "judgment",
+        "punishment",
+        "violence"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 24,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ز ك و",
+      "target": "ذ ن ب",
+      "source_branch": "B002",
+      "target_branch": "B001",
+      "source_branch_key": "ز ك و B002",
+      "target_branch_key": "ذ ن ب B001",
+      "cross_root": true,
+      "shared_themes": [
+        "ethics_morality",
+        "law",
+        "religion_worship"
+      ],
+      "shared_keywords": [
+        "ethics",
+        "law",
+        "morality",
+        "religion"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 22,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ك ذ ب",
+      "target": "ذ ن ب",
+      "source_branch": "B007",
+      "target_branch": "B010",
+      "source_branch_key": "ك ذ ب B007",
+      "target_branch_key": "ذ ن ب B010",
+      "cross_root": true,
+      "shared_themes": [
+        "agency_action",
+        "animal",
+        "habitat_ecology",
+        "motion"
+      ],
+      "shared_keywords": [
+        "animal",
+        "behavior",
+        "motion"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 20,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ط غ ي",
+      "target": "ق و ل",
+      "source_branch": "B001",
+      "target_branch": "B010",
+      "source_branch_key": "ط غ ي B001",
+      "target_branch_key": "ق و ل B010",
+      "cross_root": true,
+      "shared_themes": [
+        "authority_governance",
+        "conflict",
+        "force_power",
+        "law"
+      ],
+      "shared_keywords": [
+        "authority",
+        "law",
+        "power"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 20,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ق و ل",
+      "target": "س و ي",
+      "source_branch": "B003",
+      "target_branch": "B008",
+      "source_branch_key": "ق و ل B003",
+      "target_branch_key": "س و ي B008",
+      "cross_root": true,
+      "shared_themes": [
+        "communication",
+        "intention_character",
+        "rhetoric_discourse",
+        "social_relations"
+      ],
+      "shared_keywords": [
+        "communication",
+        "rhetoric",
+        "sociality"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 20,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ع ق ر",
+      "target": "س و ي",
+      "source_branch": "B017",
+      "target_branch": "B009",
+      "source_branch_key": "ع ق ر B017",
+      "target_branch_key": "س و ي B009",
+      "cross_root": true,
+      "shared_themes": [
+        "abundance_scarcity",
+        "geography_landscape",
+        "habitat_ecology",
+        "terrain_desert"
+      ],
+      "shared_keywords": [
+        "desert",
+        "ecology",
+        "landscape"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 20,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ف ل ح",
+      "target": "ر س ل",
+      "source_branch": "B007",
+      "target_branch": "B004",
+      "source_branch_key": "ف ل ح B007",
+      "target_branch_key": "ر س ل B004",
+      "cross_root": true,
+      "shared_themes": [
+        "ethics_morality",
+        "language_speech",
+        "rhetoric_discourse"
+      ],
+      "shared_keywords": [
+        "ethics",
+        "rhetoric",
+        "speech"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "د س و",
+      "target": "ك ذ ب",
+      "source_branch": "B003",
+      "target_branch": "B008",
+      "source_branch_key": "د س و B003",
+      "target_branch_key": "ك ذ ب B008",
+      "cross_root": true,
+      "shared_themes": [
+        "deception_corruption",
+        "desire_appetite",
+        "ethics_morality"
+      ],
+      "shared_keywords": [
+        "deception",
+        "morality",
+        "temptation"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ق و ل",
+      "target": "س ق ي",
+      "source_branch": "B007",
+      "target_branch": "B011",
+      "source_branch_key": "ق و ل B007",
+      "target_branch_key": "س ق ي B011",
+      "cross_root": true,
+      "shared_themes": [
+        "communication",
+        "honor_shame",
+        "social_relations"
+      ],
+      "shared_keywords": [
+        "communication",
+        "reputation",
+        "society"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ق و ل",
+      "target": "س و ي",
+      "source_branch": "B007",
+      "target_branch": "B008",
+      "source_branch_key": "ق و ل B007",
+      "target_branch_key": "س و ي B008",
+      "cross_root": true,
+      "shared_themes": [
+        "communication",
+        "honor_shame",
+        "social_relations"
+      ],
+      "shared_keywords": [
+        "communication",
+        "sociality",
+        "society"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ق و ل",
+      "target": "ر س ل",
+      "source_branch": "B009",
+      "target_branch": "B002",
+      "source_branch_key": "ق و ل B009",
+      "target_branch_key": "ر س ل B002",
+      "cross_root": true,
+      "shared_themes": [
+        "communication",
+        "politics_order",
+        "social_relations"
+      ],
+      "shared_keywords": [
+        "communication",
+        "diplomacy",
+        "mediation"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر س ل",
+      "target": "ع ق ر",
+      "source_branch": "B003",
+      "target_branch": "B003",
+      "source_branch_key": "ر س ل B003",
+      "target_branch_key": "ع ق ر B003",
+      "cross_root": true,
+      "shared_themes": [
+        "animal",
+        "motion",
+        "travel"
+      ],
+      "shared_keywords": [
+        "animal",
+        "mobility",
+        "travel"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر س ل",
+      "target": "ع ق ر",
+      "source_branch": "B009",
+      "target_branch": "B006",
+      "source_branch_key": "ر س ل B009",
+      "target_branch_key": "ع ق ر B006",
+      "cross_root": true,
+      "shared_themes": [
+        "gender",
+        "law",
+        "marriage_genealogy"
+      ],
+      "shared_keywords": [
+        "gender",
+        "law",
+        "marriage"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "س ق ي",
+      "target": "ع ق ر",
+      "source_branch": "B009",
+      "target_branch": "B019",
+      "source_branch_key": "س ق ي B009",
+      "target_branch_key": "ع ق ر B019",
+      "cross_root": true,
+      "shared_themes": [
+        "material",
+        "textile_clothing",
+        "visual_appearance"
+      ],
+      "shared_keywords": [
+        "color",
+        "material",
+        "textile"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ع ق ر",
+      "target": "س و ي",
+      "source_branch": "B003",
+      "target_branch": "B010",
+      "source_branch_key": "ع ق ر B003",
+      "target_branch_key": "س و ي B010",
+      "cross_root": true,
+      "shared_themes": [
+        "animal",
+        "transport",
+        "travel"
+      ],
+      "shared_keywords": [
+        "animal",
+        "transport",
+        "travel"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 18,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ز ك و",
+      "target": "ر ب ب",
+      "source_branch": "B002",
+      "target_branch": "B003",
+      "source_branch_key": "ز ك و B002",
+      "target_branch_key": "ر ب ب B003",
+      "cross_root": true,
+      "shared_themes": [
+        "ethics_morality",
+        "religion_worship"
+      ],
+      "shared_keywords": [
+        "ethics",
+        "religion",
+        "spirituality"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 16,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ك ذ ب",
+      "target": "ق و ل",
+      "source_branch": "B008",
+      "target_branch": "B012",
+      "source_branch_key": "ك ذ ب B008",
+      "target_branch_key": "ق و ل B012",
+      "cross_root": true,
+      "shared_themes": [
+        "cognition",
+        "intention_character"
+      ],
+      "shared_keywords": [
+        "cognition",
+        "intention",
+        "psychology"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 16,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر س ل",
+      "target": "ر ب ب",
+      "source_branch": "B001",
+      "target_branch": "B007",
+      "source_branch_key": "ر س ل B001",
+      "target_branch_key": "ر ب ب B007",
+      "cross_root": true,
+      "shared_themes": [
+        "motion",
+        "weather_climate"
+      ],
+      "shared_keywords": [
+        "motion",
+        "movement",
+        "weather"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 16,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر س ل",
+      "target": "ر ب ب",
+      "source_branch": "B010",
+      "target_branch": "B016",
+      "source_branch_key": "ر س ل B010",
+      "target_branch_key": "ر ب ب B016",
+      "cross_root": true,
+      "shared_themes": [
+        "ethics_morality",
+        "hospitality_welfare"
+      ],
+      "shared_keywords": [
+        "ethics",
+        "gift",
+        "welfare"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 16,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ز ك و",
+      "target": "ر ب ب",
+      "source_branch": "B001",
+      "target_branch": "B008",
+      "source_branch_key": "ز ك و B001",
+      "target_branch_key": "ر ب ب B008",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "habitat_ecology",
+        "reproduction_birth"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "fertility"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 14,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ق و ل",
+      "target": "س و ي",
+      "source_branch": "B010",
+      "target_branch": "B003",
+      "source_branch_key": "ق و ل B010",
+      "target_branch_key": "س و ي B003",
+      "cross_root": true,
+      "shared_themes": [
+        "authority_governance",
+        "control_restraint",
+        "force_power"
+      ],
+      "shared_keywords": [
+        "authority",
+        "power"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 14,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ر س ل",
+      "target": "ذ ن ب",
+      "source_branch": "B003",
+      "target_branch": "B010",
+      "source_branch_key": "ر س ل B003",
+      "target_branch_key": "ذ ن ب B010",
+      "cross_root": true,
+      "shared_themes": [
+        "animal",
+        "body",
+        "motion"
+      ],
+      "shared_keywords": [
+        "animal",
+        "body"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 14,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ع ق ر",
+      "target": "س و ي",
+      "source_branch": "B015",
+      "target_branch": "B003",
+      "source_branch_key": "ع ق ر B015",
+      "target_branch_key": "س و ي B003",
+      "cross_root": true,
+      "shared_themes": [
+        "authority_governance",
+        "force_power",
+        "place_location"
+      ],
+      "shared_keywords": [
+        "authority",
+        "power"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 14,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ف ل ح",
+      "target": "ق و ل",
+      "source_branch": "B002",
+      "target_branch": "B002",
+      "source_branch_key": "ف ل ح B002",
+      "target_branch_key": "ق و ل B002",
+      "cross_root": true,
+      "shared_themes": [
+        "anatomy",
+        "body"
+      ],
+      "shared_keywords": [
+        "anatomy",
+        "body"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ف ل ح",
+      "target": "ر س ل",
+      "source_branch": "B002",
+      "target_branch": "B003",
+      "source_branch_key": "ف ل ح B002",
+      "target_branch_key": "ر س ل B003",
+      "cross_root": true,
+      "shared_themes": [
+        "anatomy",
+        "body"
+      ],
+      "shared_keywords": [
+        "anatomy",
+        "body"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ف ل ح",
+      "target": "ر س ل",
+      "source_branch": "B002",
+      "target_branch": "B011",
+      "source_branch_key": "ف ل ح B002",
+      "target_branch_key": "ر س ل B011",
+      "cross_root": true,
+      "shared_themes": [
+        "anatomy",
+        "body"
+      ],
+      "shared_keywords": [
+        "anatomy",
+        "body"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ف ل ح",
+      "target": "ع ق ر",
+      "source_branch": "B003",
+      "target_branch": "B016",
+      "source_branch_key": "ف ل ح B003",
+      "target_branch_key": "ع ق ر B016",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "geography_landscape"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "land"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ز ك و",
+      "target": "ر س ل",
+      "source_branch": "B001",
+      "target_branch": "B006",
+      "source_branch_key": "ز ك و B001",
+      "target_branch_key": "ر س ل B006",
+      "cross_root": true,
+      "shared_themes": [
+        "agriculture",
+        "reproduction_birth"
+      ],
+      "shared_keywords": [
+        "agriculture",
+        "fertility"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "خ ي ب",
+      "target": "ك ذ ب",
+      "source_branch": "B004",
+      "target_branch": "B006",
+      "source_branch_key": "خ ي ب B004",
+      "target_branch_key": "ك ذ ب B006",
+      "cross_root": true,
+      "shared_themes": [
+        "abundance_scarcity",
+        "provision_resource"
+      ],
+      "shared_keywords": [
+        "scarcity",
+        "subsistence"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "د س و",
+      "target": "ب ع ث",
+      "source_branch": "B003",
+      "target_branch": "B004",
+      "source_branch_key": "د س و B003",
+      "target_branch_key": "ب ع ث B004",
+      "cross_root": true,
+      "shared_themes": [
+        "ethics_morality",
+        "force_power"
+      ],
+      "shared_keywords": [
+        "ethics",
+        "morality"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "د س و",
+      "target": "س و ي",
+      "source_branch": "B003",
+      "target_branch": "B002",
+      "source_branch_key": "د س و B003",
+      "target_branch_key": "س و ي B002",
+      "cross_root": true,
+      "shared_themes": [
+        "ethics_morality",
+        "growth_decay"
+      ],
+      "shared_keywords": [
+        "ethics",
+        "morality"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ك ذ ب",
+      "target": "ر س ل",
+      "source_branch": "B006",
+      "target_branch": "B005",
+      "source_branch_key": "ك ذ ب B006",
+      "target_branch_key": "ر س ل B005",
+      "cross_root": true,
+      "shared_themes": [
+        "livestock",
+        "provision_resource"
+      ],
+      "shared_keywords": [
+        "livestock",
+        "resource"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ك ذ ب",
+      "target": "ق و ل",
+      "source_branch": "B008",
+      "target_branch": "B006",
+      "source_branch_key": "ك ذ ب B008",
+      "target_branch_key": "ق و ل B006",
+      "cross_root": true,
+      "shared_themes": [
+        "ethics_morality",
+        "identity_personhood"
+      ],
+      "shared_keywords": [
+        "identity",
+        "morality"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ك ذ ب",
+      "target": "ر س ل",
+      "source_branch": "B008",
+      "target_branch": "B007",
+      "source_branch_key": "ك ذ ب B008",
+      "target_branch_key": "ر س ل B007",
+      "cross_root": true,
+      "shared_themes": [
+        "cognition",
+        "trust_loyalty"
+      ],
+      "shared_keywords": [
+        "psychology",
+        "trust"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    },
+    {
+      "source": "ق و ل",
+      "target": "ر س ل",
+      "source_branch": "B002",
+      "target_branch": "B003",
+      "source_branch_key": "ق و ل B002",
+      "target_branch_key": "ر س ل B003",
+      "cross_root": true,
+      "shared_themes": [
+        "anatomy",
+        "body"
+      ],
+      "shared_keywords": [
+        "anatomy",
+        "body"
+      ],
+      "rare_shared_themes": [],
+      "q2_relations": [],
+      "evidence_profile": [
+        "shared_theme",
+        "shared_keyword",
+        "cross_root_bridge"
+      ],
+      "evidence_score_hint": 12,
+      "discovery_value_hint": 13,
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ],
+      "activation_hint": "latent_candidate",
+      "review_bias": "preserve_unless_data_invalid"
+    }
+  ],
+  "top_branch_candidates": [
+    {
+      "root": "ك ذ ب",
+      "branch": "B006",
+      "branch_image_ar": "كذب لبن الناقة إذا ذهب ولم يدم",
+      "max_discovery_value_hint": 16,
+      "bridge_count": 62,
+      "top_bridge_keys": [
+        "ر س ل B006",
+        "ر ب ب B009",
+        "خ ي ب B004",
+        "ر س ل B005",
+        "س ق ي B002",
+        "ف ل ح B003",
+        "ب ع ث B001",
+        "ن و ق B002"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر س ل",
+      "branch": "B006",
+      "branch_image_ar": "اللبن والدر المتتابع",
+      "max_discovery_value_hint": 16,
+      "bridge_count": 48,
+      "top_bridge_keys": [
+        "ك ذ ب B006",
+        "ف ل ح B003",
+        "ف ل ح B006",
+        "ر ب ب B008",
+        "ر ب ب B012",
+        "ذ ن ب B005",
+        "ز ك و B001",
+        "ع ق ر B016"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ع ق ر",
+      "branch": "B007",
+      "branch_image_ar": "عَقْر النخل والطير",
+      "max_discovery_value_hint": 16,
+      "bridge_count": 48,
+      "top_bridge_keys": [
+        "ذ ن ب B005",
+        "ر ب ب B002",
+        "ر ب ب B012",
+        "ذ ن ب B009",
+        "ز ك و B001",
+        "ر س ل B005",
+        "ف ل ح B003",
+        "ر س ل B006"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B012",
+      "branch_image_ar": "ربة نبات",
+      "max_discovery_value_hint": 16,
+      "bridge_count": 45,
+      "top_bridge_keys": [
+        "ذ ن ب B005",
+        "ذ ن ب B009",
+        "ف ل ح B003",
+        "ر س ل B006",
+        "ع ق ر B007",
+        "ع ق ر B017",
+        "س و ي B009",
+        "ز ك و B001"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B008",
+      "branch_image_ar": "رباب السحاب",
+      "max_discovery_value_hint": 16,
+      "bridge_count": 40,
+      "top_bridge_keys": [
+        "س ق ي B007",
+        "ر س ل B006",
+        "س ق ي B006",
+        "ع ق ر B018",
+        "ز ك و B001",
+        "ذ ن ب B009",
+        "ع ق ر B017",
+        "س و ي B009"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ذ ن ب",
+      "branch": "B005",
+      "branch_image_ar": "تذنوب البسر",
+      "max_discovery_value_hint": 16,
+      "bridge_count": 25,
+      "top_bridge_keys": [
+        "ع ق ر B007",
+        "ر ب ب B012",
+        "ف ل ح B003",
+        "ر س ل B006",
+        "ر ب ب B002",
+        "س ق ي B008",
+        "ذ ن ب B009",
+        "ز ك و B001"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster",
+        "rare_theme_bridge"
+      ]
+    },
+    {
+      "root": "ع ق ر",
+      "branch": "B018",
+      "branch_image_ar": "العَقْر غيم كالقصر",
+      "max_discovery_value_hint": 16,
+      "bridge_count": 25,
+      "top_bridge_keys": [
+        "س و ي B012",
+        "س ق ي B007",
+        "ر ب ب B008",
+        "س ق ي B006",
+        "ر ب ب B007",
+        "ك ذ ب B007",
+        "ك ذ ب B009",
+        "ق و ل B014"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "س ق ي",
+      "branch": "B007",
+      "branch_image_ar": "سحابة عظيمة القطر",
+      "max_discovery_value_hint": 16,
+      "bridge_count": 20,
+      "top_bridge_keys": [
+        "ر ب ب B008",
+        "ع ق ر B018",
+        "ط غ ي B002",
+        "ر ب ب B007",
+        "س و ي B012",
+        "ر س ل B001",
+        "ر ب ب B017",
+        "ذ ن ب B004"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "س و ي",
+      "branch": "B012",
+      "branch_image_ar": "ليلة استواء القمر",
+      "max_discovery_value_hint": 16,
+      "bridge_count": 20,
+      "top_bridge_keys": [
+        "ع ق ر B018",
+        "ف ل ح B006",
+        "ن و ق B002",
+        "س ق ي B007",
+        "ر ب ب B008",
+        "ك ذ ب B005",
+        "ع ق ر B005",
+        "ز ك و B002"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ]
+    },
+    {
+      "root": "ر س ل",
+      "branch": "B011",
+      "branch_image_ar": "تسميات مفردة مخصوصة",
+      "max_discovery_value_hint": 15,
+      "bridge_count": 58,
+      "top_bridge_keys": [
+        "ذ ن ب B010",
+        "ر ب ب B010",
+        "ق و ل B013",
+        "ق و ل B002",
+        "ف ل ح B002",
+        "ذ ن ب B002",
+        "ع ق ر B001",
+        "ع ق ر B010"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "rare_theme_bridge",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ذ ن ب",
+      "branch": "B010",
+      "branch_image_ar": "تذنيب الحيوان",
+      "max_discovery_value_hint": 15,
+      "bridge_count": 58,
+      "top_bridge_keys": [
+        "ر س ل B011",
+        "ع ق ر B004",
+        "ك ذ ب B007",
+        "ر س ل B003",
+        "ر ب ب B009",
+        "ق و ل B002",
+        "ب ع ث B001",
+        "ع ق ر B001"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B013",
+      "branch_image_ar": "القول اعتقاد ومذهب",
+      "max_discovery_value_hint": 15,
+      "bridge_count": 56,
+      "top_bridge_keys": [
+        "ر س ل B011",
+        "ز ك و B002",
+        "ط غ ي B003",
+        "ر ب ب B003",
+        "ء ل ه B001",
+        "ذ ن ب B001",
+        "ر س ل B002",
+        "س ق ي B006"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ز ك و",
+      "branch": "B002",
+      "branch_image_ar": "الطهارة والصلاح",
+      "max_discovery_value_hint": 15,
+      "bridge_count": 55,
+      "top_bridge_keys": [
+        "ر ب ب B013",
+        "ف ل ح B006",
+        "ذ ن ب B001",
+        "ر ب ب B003",
+        "ط غ ي B001",
+        "ق و ل B013",
+        "س ق ي B006",
+        "د س و B003"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B010",
+      "branch_image_ar": "ربابة تجمع القداح",
+      "max_discovery_value_hint": 15,
+      "bridge_count": 48,
+      "top_bridge_keys": [
+        "ر س ل B011",
+        "ذ ن ب B007",
+        "ذ ن ب B008",
+        "ف ل ح B005",
+        "ز ك و B002",
+        "خ ي ب B002",
+        "ق و ل B008",
+        "س ق ي B006"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ذ ن ب",
+      "branch": "B009",
+      "branch_image_ar": "الذنبان نبت",
+      "max_discovery_value_hint": 15,
+      "bridge_count": 45,
+      "top_bridge_keys": [
+        "ر ب ب B012",
+        "ع ق ر B007",
+        "ر س ل B006",
+        "ن و ق B002",
+        "ر ب ب B008",
+        "س ق ي B008",
+        "ذ ن ب B005",
+        "ز ك و B001"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B008",
+      "branch_image_ar": "عود القال لضرب القلة",
+      "max_discovery_value_hint": 15,
+      "bridge_count": 45,
+      "top_bridge_keys": [
+        "ز ك و B005",
+        "خ ي ب B002",
+        "ذ ن ب B008",
+        "ك ذ ب B009",
+        "س ق ي B009",
+        "ط غ ي B002",
+        "س و ي B003",
+        "ف ل ح B001"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B013",
+      "branch_image_ar": "ماء رَبَب كثير",
+      "max_discovery_value_hint": 15,
+      "bridge_count": 43,
+      "top_bridge_keys": [
+        "ز ك و B002",
+        "س و ي B009",
+        "ط غ ي B002",
+        "ذ ن ب B004",
+        "ذ ن ب B009",
+        "ك ذ ب B006",
+        "س ق ي B002",
+        "س ق ي B003"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ف ل ح",
+      "branch": "B003",
+      "branch_image_ar": "الأكار الشاق للأرض",
+      "max_discovery_value_hint": 15,
+      "bridge_count": 38,
+      "top_bridge_keys": [
+        "ذ ن ب B005",
+        "ر س ل B006",
+        "س ق ي B003",
+        "ر ب ب B012",
+        "ع ق ر B016",
+        "خ ي ب B004",
+        "ك ذ ب B006",
+        "ر س ل B005"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ز ك و",
+      "branch": "B005",
+      "branch_image_ar": "الزوج والشفع",
+      "max_discovery_value_hint": 15,
+      "bridge_count": 33,
+      "top_bridge_keys": [
+        "ق و ل B008",
+        "ن و ق B006",
+        "ر ب ب B004",
+        "ذ ن ب B006",
+        "ر س ل B005",
+        "ر ب ب B014",
+        "ر ب ب B015",
+        "س و ي B001"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "س ق ي",
+      "branch": "B011",
+      "branch_image_ar": "إسقاء الغيبة",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 66,
+      "top_bridge_keys": [
+        "ع ق ر B011",
+        "ق و ل B007",
+        "ف ل ح B007",
+        "ق و ل B006",
+        "ع ق ر B010",
+        "س و ي B008",
+        "ق و ل B002",
+        "ق و ل B005"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر س ل",
+      "branch": "B005",
+      "branch_image_ar": "التتابع والقطع",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 64,
+      "top_bridge_keys": [
+        "ر ب ب B014",
+        "ك ذ ب B006",
+        "ف ل ح B003",
+        "س ق ي B003",
+        "ب ع ث B004",
+        "س ق ي B006",
+        "ع ق ر B007",
+        "ع ق ر B016"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B002",
+      "branch_image_ar": "إصلاح وتربية وإتمام",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 61,
+      "top_bridge_keys": [
+        "ع ق ر B007",
+        "ذ ن ب B005",
+        "س ق ي B006",
+        "س و ي B005",
+        "ن و ق B004",
+        "ز ك و B001",
+        "ف ل ح B003",
+        "ر س ل B005"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster",
+        "rare_theme_bridge"
+      ]
+    },
+    {
+      "root": "ع ق ر",
+      "branch": "B010",
+      "branch_image_ar": "عَقْرا وعَقْرى دعاء",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 60,
+      "top_bridge_keys": [
+        "س ق ي B010",
+        "ق و ل B002",
+        "س ق ي B011",
+        "ر س ل B011",
+        "ف ل ح B002",
+        "ر س ل B003",
+        "ذ ن ب B002",
+        "ذ ن ب B010"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ع ق ر",
+      "branch": "B011",
+      "branch_image_ar": "المعاقرة منافرة وسباب",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 52,
+      "top_bridge_keys": [
+        "س ق ي B011",
+        "س ق ي B010",
+        "ف ل ح B007",
+        "س و ي B008",
+        "خ ي ب B003",
+        "ك ذ ب B004",
+        "ش ق و B002",
+        "ق و ل B007"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ع ق ر",
+      "branch": "B002",
+      "branch_image_ar": "عَقْر قوائم الدابة",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 52,
+      "top_bridge_keys": [
+        "ء ل ه B001",
+        "د م د م B001",
+        "ك ذ ب B006",
+        "ر س ل B003",
+        "ن و ق B002",
+        "ر ب ب B009",
+        "ب ع ث B001",
+        "ر س ل B005"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "target_secondary_branch",
+        "source_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B014",
+      "branch_image_ar": "رَبْرَب قطيع",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 50,
+      "top_bridge_keys": [
+        "ر س ل B005",
+        "ن و ق B002",
+        "ع ق ر B017",
+        "ذ ن ب B010",
+        "س و ي B009",
+        "ك ذ ب B006",
+        "ر س ل B006",
+        "ع ق ر B002"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B001",
+      "branch_image_ar": "ربوبية وملك وسيادة",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 49,
+      "top_bridge_keys": [
+        "ق و ل B010",
+        "ق و ل B004",
+        "ش ق و B003",
+        "ع ق ر B015",
+        "س و ي B003",
+        "ء ل ه B001",
+        "ط غ ي B003",
+        "ط غ ي B001"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ش ق و",
+      "branch": "B004",
+      "branch_image_ar": "شاقي الجبل الطالع الطويل",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 48,
+      "top_bridge_keys": [
+        "ط غ ي B005",
+        "ب ع ث B004",
+        "ذ ن ب B004",
+        "س و ي B009",
+        "ن و ق B001",
+        "ف ل ح B001",
+        "س و ي B004",
+        "ب ع ث B002"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch"
+      ]
+    },
+    {
+      "root": "س ق ي",
+      "branch": "B010",
+      "branch_image_ar": "تسقية القلب بالمكروه",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 48,
+      "top_bridge_keys": [
+        "ع ق ر B010",
+        "ر س ل B004",
+        "ع ق ر B011",
+        "ف ل ح B007",
+        "ر س ل B007",
+        "خ ي ب B003",
+        "ق و ل B012",
+        "ر ب ب B015"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B002",
+      "branch_image_ar": "اللسان آلة القول",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 46,
+      "top_bridge_keys": [
+        "ر س ل B011",
+        "ف ل ح B002",
+        "ر س ل B003",
+        "ع ق ر B010",
+        "ذ ن ب B010",
+        "ر س ل B002",
+        "ء ل ه B002",
+        "س ق ي B011"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ف ل ح",
+      "branch": "B006",
+      "branch_image_ar": "السحور المسمى فلاحا",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 45,
+      "top_bridge_keys": [
+        "ز ك و B002",
+        "ر س ل B006",
+        "س ق ي B006",
+        "س و ي B012",
+        "ر ب ب B006",
+        "ر ب ب B009",
+        "ر ب ب B012",
+        "ر ب ب B013"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B009",
+      "branch_image_ar": "شاة رُبّى وحداثة",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 45,
+      "top_bridge_keys": [
+        "ك ذ ب B006",
+        "ذ ن ب B010",
+        "ر س ل B006",
+        "ن و ق B002",
+        "ع ق ر B002",
+        "ف ل ح B006",
+        "ذ ن ب B008",
+        "ع ق ر B004"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "س ق ي",
+      "branch": "B003",
+      "branch_image_ar": "نصيب الري ومجراه",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 44,
+      "top_bridge_keys": [
+        "ف ل ح B003",
+        "ع ق ر B016",
+        "ر س ل B005",
+        "ر س ل B006",
+        "ذ ن ب B004",
+        "ر ب ب B008",
+        "ر ب ب B013",
+        "ذ ن ب B005"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B010",
+      "branch_image_ar": "اقتالة الحكم على غيره",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 43,
+      "top_bridge_keys": [
+        "ر ب ب B001",
+        "ش ق و B003",
+        "ط غ ي B001",
+        "س و ي B003",
+        "ع ق ر B015",
+        "ر ب ب B017",
+        "ش ق و B002",
+        "ر س ل B009"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ع ق ر",
+      "branch": "B016",
+      "branch_image_ar": "العَقار ضيعة ومتاع",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 42,
+      "top_bridge_keys": [
+        "س ق ي B003",
+        "ف ل ح B003",
+        "ر س ل B006",
+        "ر س ل B010",
+        "س و ي B013",
+        "ر س ل B005",
+        "ر ب ب B012",
+        "س ق ي B006"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "س ق ي",
+      "branch": "B006",
+      "branch_image_ar": "دعاء السقيا",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 42,
+      "top_bridge_keys": [
+        "ر ب ب B008",
+        "ر ب ب B002",
+        "ز ك و B002",
+        "ف ل ح B006",
+        "ز ك و B001",
+        "ر س ل B005",
+        "ف ل ح B003",
+        "خ ي ب B004"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster",
+        "rare_theme_bridge"
+      ]
+    },
+    {
+      "root": "س و ي",
+      "branch": "B009",
+      "branch_image_ar": "السِيّ واسع أملس من الأرض",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 40,
+      "top_bridge_keys": [
+        "ذ ن ب B004",
+        "ر ب ب B013",
+        "ع ق ر B017",
+        "ط غ ي B005",
+        "ش ق و B004",
+        "ر ب ب B008",
+        "ر ب ب B012",
+        "ر ب ب B014"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ف ل ح",
+      "branch": "B002",
+      "branch_image_ar": "فلحة الشفة",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 40,
+      "top_bridge_keys": [
+        "ذ ن ب B002",
+        "ق و ل B002",
+        "ر س ل B003",
+        "ر س ل B011",
+        "ك ذ ب B008",
+        "ق و ل B006",
+        "ن و ق B003",
+        "ع ق ر B004"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ذ ن ب",
+      "branch": "B002",
+      "branch_image_ar": "ذنب الشيء وآخره",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 40,
+      "top_bridge_keys": [
+        "ف ل ح B002",
+        "ر س ل B003",
+        "ر س ل B011",
+        "ن و ق B002",
+        "ع ق ر B001",
+        "ع ق ر B014",
+        "ق و ل B002",
+        "ع ق ر B004"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ء ل ه",
+      "branch": "B001",
+      "branch_image_ar": "التعبد والمعبود",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 37,
+      "top_bridge_keys": [
+        "ع ق ر B002",
+        "ط غ ي B003",
+        "ر ب ب B001",
+        "ر س ل B002",
+        "س ق ي B006",
+        "ق و ل B013",
+        "ز ك و B002",
+        "ف ل ح B006"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "target_secondary_branch",
+        "source_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ش ق و",
+      "branch": "B003",
+      "branch_image_ar": "الغلبة في المشاقاة",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 34,
+      "top_bridge_keys": [
+        "ق و ل B010",
+        "ر ب ب B001",
+        "ع ق ر B015",
+        "س و ي B003",
+        "ط غ ي B001",
+        "ق و ل B004",
+        "ر س ل B008",
+        "س ق ي B010"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "د م د م",
+      "branch": "B001",
+      "branch_image_ar": "الدَّمْدَمَةُ استئصال",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 32,
+      "top_bridge_keys": [
+        "ع ق ر B002",
+        "ط غ ي B004",
+        "ط غ ي B002",
+        "ذ ن ب B001",
+        "ك ذ ب B004",
+        "ذ ن ب B006",
+        "ز ك و B004",
+        "ك ذ ب B002"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "rare_theme_bridge",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme"
+      ]
+    },
+    {
+      "root": "ك ذ ب",
+      "branch": "B009",
+      "branch_image_ar": "الكذابة ثوب يكذب بحاله",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 29,
+      "top_bridge_keys": [
+        "ع ق ر B019",
+        "س ق ي B009",
+        "خ ي ب B002",
+        "ق و ل B008",
+        "ف ل ح B001",
+        "ن و ق B005",
+        "ر س ل B011",
+        "ق و ل B014"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "س ق ي",
+      "branch": "B009",
+      "branch_image_ar": "سقي الثوب صبغا",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 29,
+      "top_bridge_keys": [
+        "ك ذ ب B009",
+        "ع ق ر B019",
+        "ف ل ح B001",
+        "خ ي ب B002",
+        "ق و ل B008",
+        "ر ب ب B006",
+        "ن و ق B005",
+        "ر س ل B011"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "خ ي ب",
+      "branch": "B002",
+      "branch_image_ar": "الخِياب القدح الذي لا يوري",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 28,
+      "top_bridge_keys": [
+        "ق و ل B008",
+        "ك ذ ب B009",
+        "س ق ي B009",
+        "ذ ن ب B008",
+        "ف ل ح B001",
+        "ر س ل B011",
+        "ر ب ب B010",
+        "ذ ن ب B007"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ع ق ر",
+      "branch": "B004",
+      "branch_image_ar": "العُقْر انقطاع الولد",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 28,
+      "top_bridge_keys": [
+        "ذ ن ب B010",
+        "س ق ي B005",
+        "ف ل ح B002",
+        "ك ذ ب B006",
+        "ق و ل B002",
+        "ر س ل B003",
+        "ر س ل B006",
+        "ر س ل B011"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ط غ ي",
+      "branch": "B005",
+      "branch_image_ar": "الطغية الصفاة الملساء",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 26,
+      "top_bridge_keys": [
+        "ش ق و B004",
+        "ذ ن ب B004",
+        "س و ي B009",
+        "ن و ق B001",
+        "ع ق ر B017",
+        "ع ق ر B013",
+        "س و ي B003",
+        "خ ي ب B003"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme"
+      ]
+    },
+    {
+      "root": "ذ ن ب",
+      "branch": "B004",
+      "branch_image_ar": "مذانب المياه وأواخر الأودية",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 23,
+      "top_bridge_keys": [
+        "س و ي B009",
+        "ط غ ي B005",
+        "ش ق و B004",
+        "ر ب ب B013",
+        "س ق ي B003",
+        "ن و ق B001",
+        "ع ق ر B017",
+        "ط غ ي B002"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ع ق ر",
+      "branch": "B019",
+      "branch_image_ar": "العَقار ثوب أحمر",
+      "max_discovery_value_hint": 14,
+      "bridge_count": 19,
+      "top_bridge_keys": [
+        "ك ذ ب B009",
+        "س ق ي B009",
+        "س و ي B010",
+        "ر س ل B011",
+        "خ ي ب B002",
+        "ب ع ث B002",
+        "ب ع ث B004",
+        "ش ق و B004"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ب ع ث",
+      "branch": "B004",
+      "branch_image_ar": "اندفاع القوم ومضيهم",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 75,
+      "top_bridge_keys": [
+        "د س و B003",
+        "ش ق و B004",
+        "ط غ ي B001",
+        "ر س ل B003",
+        "ر س ل B005",
+        "ع ق ر B003",
+        "س و ي B002",
+        "ز ك و B002"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر س ل",
+      "branch": "B002",
+      "branch_image_ar": "الرسول والرسالة",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 72,
+      "top_bridge_keys": [
+        "ق و ل B009",
+        "ط غ ي B003",
+        "ب ع ث B002",
+        "ق و ل B002",
+        "ء ل ه B001",
+        "ق و ل B001",
+        "ق و ل B013",
+        "س ق ي B011"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر س ل",
+      "branch": "B004",
+      "branch_image_ar": "الرفق والتؤدة",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 70,
+      "top_bridge_keys": [
+        "ف ل ح B007",
+        "س ق ي B010",
+        "س ق ي B011",
+        "ق و ل B011",
+        "خ ي ب B003",
+        "ك ذ ب B003",
+        "ك ذ ب B008",
+        "ب ع ث B004"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ك ذ ب",
+      "branch": "B007",
+      "branch_image_ar": "كذب الوحشي إذا جرى ثم وقف",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 64,
+      "top_bridge_keys": [
+        "ذ ن ب B010",
+        "ر ب ب B007",
+        "ب ع ث B001",
+        "س و ي B004",
+        "ط غ ي B002",
+        "ق و ل B014",
+        "ر س ل B003",
+        "ع ق ر B002"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster",
+        "material_or_surprising_underlay_theme"
+      ]
+    },
+    {
+      "root": "ط غ ي",
+      "branch": "B001",
+      "branch_image_ar": "مجاوزة الحد في العصيان",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 64,
+      "top_bridge_keys": [
+        "ق و ل B010",
+        "ز ك و B002",
+        "د س و B003",
+        "ب ع ث B004",
+        "ع ق ر B015",
+        "س و ي B003",
+        "ذ ن ب B001",
+        "س و ي B006"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "target_secondary_branch",
+        "source_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B016",
+      "branch_image_ar": "رُبَى حاجة وعقدة ونعمة",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 63,
+      "top_bridge_keys": [
+        "ر س ل B010",
+        "ذ ن ب B003",
+        "ق و ل B015",
+        "ز ك و B004",
+        "ك ذ ب B003",
+        "ش ق و B002",
+        "ر س ل B004",
+        "ر س ل B007"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر س ل",
+      "branch": "B003",
+      "branch_image_ar": "السير السهل واللين",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 61,
+      "top_bridge_keys": [
+        "ع ق ر B003",
+        "ذ ن ب B010",
+        "ف ل ح B002",
+        "ق و ل B002",
+        "ذ ن ب B002",
+        "ب ع ث B002",
+        "ب ع ث B004",
+        "ع ق ر B001"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B006",
+      "branch_image_ar": "اجترار القول إلى النفس",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 59,
+      "top_bridge_keys": [
+        "ك ذ ب B008",
+        "س ق ي B011",
+        "ب ع ث B002",
+        "ن و ق B003",
+        "ف ل ح B002",
+        "ذ ن ب B006",
+        "س و ي B007",
+        "ط غ ي B001"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "س و ي",
+      "branch": "B002",
+      "branch_image_ar": "استقامة وتمام في الذات",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 57,
+      "top_bridge_keys": [
+        "د س و B003",
+        "ن و ق B004",
+        "ب ع ث B004",
+        "ز ك و B002",
+        "ط غ ي B001",
+        "ذ ن ب B001",
+        "ر س ل B005",
+        "ف ل ح B007"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "س و ي",
+      "branch": "B008",
+      "branch_image_ar": "قصد نحو شخص أو جهة",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 56,
+      "top_bridge_keys": [
+        "ق و ل B003",
+        "ق و ل B007",
+        "س ق ي B011",
+        "ق و ل B001",
+        "ق و ل B006",
+        "ع ق ر B011",
+        "ف ل ح B007",
+        "ز ك و B004"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B007",
+      "branch_image_ar": "لزوم وإقامة ودوام",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 56,
+      "top_bridge_keys": [
+        "ر س ل B001",
+        "ب ع ث B001",
+        "ك ذ ب B007",
+        "ذ ن ب B010",
+        "ك ذ ب B004",
+        "ط غ ي B002",
+        "س ق ي B006",
+        "س ق ي B007"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "target_secondary_branch",
+        "source_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "د س و",
+      "branch": "B003",
+      "branch_image_ar": "الغواية والإفساد",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 53,
+      "top_bridge_keys": [
+        "ك ذ ب B008",
+        "ب ع ث B004",
+        "س و ي B002",
+        "خ ي ب B003",
+        "ف ل ح B007",
+        "ز ك و B002",
+        "ط غ ي B001",
+        "ق و ل B005"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme"
+      ]
+    },
+    {
+      "root": "ط غ ي",
+      "branch": "B004",
+      "branch_image_ar": "الطاغية عذاب غالب",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 51,
+      "top_bridge_keys": [
+        "د م د م B001",
+        "ط غ ي B002",
+        "ذ ن ب B001",
+        "ذ ن ب B006",
+        "ك ذ ب B004",
+        "ز ك و B004",
+        "ك ذ ب B002",
+        "ق و ل B013"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "same_root_branch_cluster",
+        "target_secondary_branch",
+        "rare_theme_bridge"
+      ]
+    },
+    {
+      "root": "ر س ل",
+      "branch": "B010",
+      "branch_image_ar": "الرخاء وطيب الإعطاء",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 51,
+      "top_bridge_keys": [
+        "ر ب ب B016",
+        "ع ق ر B016",
+        "س و ي B013",
+        "ع ق ر B005",
+        "ق و ل B015",
+        "ف ل ح B005",
+        "ف ل ح B007",
+        "ز ك و B002"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ك ذ ب",
+      "branch": "B008",
+      "branch_image_ar": "النفس الكذوب",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 50,
+      "top_bridge_keys": [
+        "د س و B003",
+        "ق و ل B012",
+        "ق و ل B006",
+        "ر س ل B007",
+        "س و ي B005",
+        "ف ل ح B002",
+        "ن و ق B003",
+        "ر ب ب B011"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر س ل",
+      "branch": "B001",
+      "branch_image_ar": "الإرسال والانبعاث",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 50,
+      "top_bridge_keys": [
+        "ر ب ب B007",
+        "ك ذ ب B004",
+        "ط غ ي B002",
+        "س ق ي B006",
+        "س ق ي B007",
+        "ع ق ر B018",
+        "ر ب ب B008",
+        "ب ع ث B001"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "target_secondary_branch",
+        "source_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ز ك و",
+      "branch": "B001",
+      "branch_image_ar": "النماء والزيادة",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 50,
+      "top_bridge_keys": [
+        "ر ب ب B008",
+        "ر س ل B006",
+        "س ق ي B006",
+        "ذ ن ب B009",
+        "ر ب ب B002",
+        "ر ب ب B012",
+        "ذ ن ب B010",
+        "ع ق ر B007"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "target_secondary_branch",
+        "source_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "س و ي",
+      "branch": "B003",
+      "branch_image_ar": "علو واستقرار على شيء",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 50,
+      "top_bridge_keys": [
+        "ق و ل B010",
+        "ع ق ر B015",
+        "ط غ ي B001",
+        "ر ب ب B001",
+        "ط غ ي B002",
+        "ق و ل B008",
+        "ش ق و B003",
+        "ط غ ي B005"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster",
+        "rare_theme_bridge"
+      ]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B009",
+      "branch_image_ar": "المقاولة في الأمر",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 49,
+      "top_bridge_keys": [
+        "ر س ل B002",
+        "ف ل ح B004",
+        "ف ل ح B007",
+        "س و ي B001",
+        "ر س ل B008",
+        "س ق ي B011",
+        "ر ب ب B011",
+        "س و ي B008"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B006",
+      "branch_image_ar": "رُبّ خاثر وإصلاح به",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 48,
+      "top_bridge_keys": [
+        "ر س ل B006",
+        "ف ل ح B006",
+        "س ق ي B005",
+        "س ق ي B009",
+        "ف ل ح B003",
+        "ز ك و B002",
+        "ع ق ر B012",
+        "ذ ن ب B005"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ذ ن ب",
+      "branch": "B006",
+      "branch_image_ar": "الذنوب نصيب وحظ",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 48,
+      "top_bridge_keys": [
+        "س و ي B013",
+        "ع ق ر B006",
+        "ق و ل B006",
+        "ط غ ي B004",
+        "س و ي B001",
+        "س و ي B006",
+        "د م د م B001",
+        "ذ ن ب B001"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ف ل ح",
+      "branch": "B007",
+      "branch_image_ar": "تزيين البيع والمكر",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 47,
+      "top_bridge_keys": [
+        "ر س ل B004",
+        "ك ذ ب B001",
+        "ق و ل B005",
+        "خ ي ب B003",
+        "س ق ي B011",
+        "د س و B003",
+        "س ق ي B010",
+        "ق و ل B009"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "material_or_surprising_underlay_theme",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "خ ي ب",
+      "branch": "B004",
+      "branch_image_ar": "الخَوْبة فقر وذهاب وجوع",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 47,
+      "top_bridge_keys": [
+        "ك ذ ب B006",
+        "ف ل ح B003",
+        "ع ق ر B017",
+        "ف ل ح B004",
+        "س ق ي B002",
+        "س ق ي B006",
+        "س ق ي B001",
+        "ق و ل B014"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر س ل",
+      "branch": "B007",
+      "branch_image_ar": "الاستئناس والانبساط",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 47,
+      "top_bridge_keys": [
+        "ك ذ ب B008",
+        "ر ب ب B011",
+        "س ق ي B010",
+        "ف ل ح B005",
+        "ك ذ ب B002",
+        "ز ك و B004",
+        "ر ب ب B016",
+        "ك ذ ب B001"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B003",
+      "branch_image_ar": "كثرة القول في صاحبه",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 46,
+      "top_bridge_keys": [
+        "س و ي B008",
+        "ز ك و B004",
+        "ك ذ ب B002",
+        "ب ع ث B002",
+        "ر س ل B002",
+        "ر س ل B008",
+        "س ق ي B011",
+        "ع ق ر B020"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ع ق ر",
+      "branch": "B003",
+      "branch_image_ar": "عَقْر الظهر والحركة",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 46,
+      "top_bridge_keys": [
+        "ر س ل B003",
+        "س و ي B010",
+        "ف ل ح B004",
+        "ب ع ث B002",
+        "ب ع ث B004",
+        "ر ب ب B017",
+        "ب ع ث B001",
+        "ك ذ ب B007"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster",
+        "rare_theme_bridge"
+      ]
+    },
+    {
+      "root": "ن و ق",
+      "branch": "B002",
+      "branch_image_ar": "النّاقة وصورتها",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 46,
+      "top_bridge_keys": [
+        "ذ ن ب B002",
+        "ذ ن ب B009",
+        "ك ذ ب B006",
+        "ع ق ر B002",
+        "ع ق ر B020",
+        "ر ب ب B009",
+        "ر ب ب B014",
+        "س و ي B010"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B012",
+      "branch_image_ar": "قول في النفس لم يظهر",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 44,
+      "top_bridge_keys": [
+        "ك ذ ب B008",
+        "س و ي B005",
+        "د س و B001",
+        "ر س ل B004",
+        "س ق ي B010",
+        "ع ق ر B020",
+        "خ ي ب B003",
+        "ر س ل B002"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ذ ن ب",
+      "branch": "B001",
+      "branch_image_ar": "الذنب والإثم",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 43,
+      "top_bridge_keys": [
+        "ز ك و B002",
+        "ط غ ي B001",
+        "س و ي B006",
+        "ط غ ي B004",
+        "ق و ل B005",
+        "ق و ل B013",
+        "ر ب ب B003",
+        "د س و B003"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "branch": "B003",
+      "branch_image_ar": "علم رباني",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 42,
+      "top_bridge_keys": [
+        "ز ك و B002",
+        "ق و ل B013",
+        "ذ ن ب B001",
+        "ط غ ي B003",
+        "ق و ل B015",
+        "ر س ل B004",
+        "ع ق ر B008",
+        "ف ل ح B006"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    },
+    {
+      "root": "ذ ن ب",
+      "branch": "B007",
+      "branch_image_ar": "الذنوب دلو ممتلئ",
+      "max_discovery_value_hint": 13,
+      "bridge_count": 42,
+      "top_bridge_keys": [
+        "ر ب ب B010",
+        "ذ ن ب B008",
+        "ع ق ر B013",
+        "خ ي ب B002",
+        "ر ب ب B017",
+        "ف ل ح B003",
+        "ف ل ح B004",
+        "ش ق و B002"
+      ],
+      "discovery_reasons": [
+        "cross_root_activation",
+        "shared_raw_keyword",
+        "material_or_surprising_underlay_theme",
+        "source_secondary_branch",
+        "target_secondary_branch",
+        "same_root_branch_cluster"
+      ]
+    }
+  ]
+}
