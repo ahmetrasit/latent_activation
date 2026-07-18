@@ -3,8 +3,10 @@
 ## Purpose
 
 v12 tests full-context latent activation. A single cold agent receives all
-material for an ayah window at once, then writes an ayah-by-ayah analysis,
-retrospective surprise pass, and Turkish prose synthesis.
+material for an ayah window at once, then writes an ayah-by-ayah analysis and
+retrospective surprise pass. After that analytical pass is complete, the same
+agent receives a follow-up message and writes Turkish user-facing prose to a
+separate file.
 
 ## Non-Goals
 
@@ -53,17 +55,34 @@ the original rows under that branch entry's `variants` list.
 
 ## Reader Output
 
-The reader writes one Markdown file. It appends as it works.
+The reader first writes one analytical Markdown file. It appends as it works.
 
 Required order:
 
 1. ayah-by-ayah analytical findings in packet order;
-2. retrospective surprises under each ayah;
-3. `Turkish Prose Synthesis` in packet order.
+2. retrospective surprises under each ayah.
 
 The analysis must preserve multiple activated readings. A reading is retained
 only when it has a visible mechanism and a change in reading, not merely a
 shared keyword.
+
+## Turkish Prose Follow-Up
+
+After the analytical file is complete, send the same reader agent this follow-up
+message. This is not part of the initial reader prompt:
+
+```text
+now can you write me a turkish user-facing prose that coherently explains what is the primary reading, and what the secondary readings change the primary reading in a suprising way? at the end of each paragraph, list relevant roots and branches inside curly brackets that created this reading. Write it to {surah}-{ayah_start}-{ayah_end}-butuncul-okuma.md in the run directory, for example 103-1-11-butuncul-okuma.md
+```
+
+The Turkish prose must be written to a separate Markdown file in the same run
+directory, for example:
+
+```text
+v12/runs/s103/full_context_control/103-1-3-butuncul-okuma.md
+```
+
+Do not append Turkish prose to the analytical ayah-walk file.
 
 ## Minimal Run
 
@@ -106,6 +125,9 @@ python3 v12/scripts/freeze_full_context_run.py \
   --freeze v12/runs/s100/full_context_control/frozen_run.json
 ```
 
+Then send the Turkish prose follow-up to the same reader agent and ask it to
+write the separate `100-1-11-butuncul-okuma.md` file in the same run directory.
+
 ## Adjudication
 
 Adjudication is optional unless the experiment has multiple independent v12
@@ -133,7 +155,8 @@ python3 v12/scripts/freeze_adjudication_report.py \
 
 - A changed prompt means a new treatment.
 - A frozen run hashes the packet, prompt, and output file.
-- Turkish prose is downstream rendering. It must not replace or rewrite the
-  analytical findings.
+- Turkish prose is downstream rendering produced by the same reader agent via
+  follow-up message. It must be written to a separate file and must not replace
+  or rewrite the analytical findings.
 - Later comparison can use older staged runs, but staged runs are legacy
   controls, not the default v12 method.
