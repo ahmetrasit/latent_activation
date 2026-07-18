@@ -46,6 +46,10 @@ The packet must include:
 
 Missing translations are represented as empty strings. Missing branch
 inventories are represented explicitly and must not be filled in by the reader.
+When the branch resource reuses a `branch_id` for multiple accepted rows of the
+same root, the packet must not emit duplicate branch IDs. It should merge those
+rows into one branch entry, keep combined scalar image/scope fields, and preserve
+the original rows under that branch entry's `variants` list.
 
 ## Reader Output
 

@@ -48,6 +48,10 @@ For every retained reading, make these layers visible:
    cohere;
 5. reading change: how the fixed ayah reads differently after activation.
 
+If a branch entry contains `variants`, the same packet branch ID represents
+multiple accepted source rows. You may cite the shared branch ID, but be clear
+which variant image or scope is doing the work.
+
 Whenever you infer that one element causes, enables, blocks, reveals, preserves,
 or reverses another, distinguish the elements supplied by the packet from the
 directional arrow supplied by you. Such moves are allowed. Hidden moves are not.

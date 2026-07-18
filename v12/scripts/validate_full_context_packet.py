@@ -27,6 +27,7 @@ OCCURRENCE_KEYS = {
     "pos_tags",
 }
 BRANCH_KEYS = {"branch_id", "image_ar", "image_en", "scope_ar", "scope_en"}
+BRANCH_VARIANT_KEYS = {"root_id", "source_path", "image_ar", "image_en", "scope_ar", "scope_en"}
 MISSING_KEYS = {"root", "refs", "reason"}
 
 
@@ -34,6 +35,12 @@ def require_keys(record: dict, keys: set[str], label: str) -> None:
     missing = keys - record.keys()
     if missing:
         raise ValueError(f"{label}: missing keys {sorted(missing)}")
+
+
+def require_string_fields(record: dict, keys: set[str], label: str) -> None:
+    invalid = [key for key in sorted(keys) if not isinstance(record.get(key), str)]
+    if invalid:
+        raise ValueError(f"{label}: fields must be strings {invalid}")
 
 
 def main() -> None:
@@ -76,15 +83,25 @@ def main() -> None:
     inventories = packet.get("branch_inventories")
     if not isinstance(inventories, list):
         raise ValueError("branch_inventories must be a list")
+    for inventory_index, inventory in enumerate(inventories):
+        if not isinstance(inventory, dict):
+            raise ValueError(f"branch_inventories[{inventory_index}] must be an object")
     actual_roots = [item.get("root") for item in inventories]
     if len(actual_roots) != len(set(actual_roots)):
         raise ValueError("duplicate root in branch_inventories")
 
     for inventory_index, inventory in enumerate(inventories):
         require_keys(inventory, {"root", "branches"}, f"branch_inventories[{inventory_index}]")
+        require_string_fields(inventory, {"root"}, f"branch_inventories[{inventory_index}]")
         branches = inventory.get("branches")
         if not isinstance(branches, list) or not branches:
             raise ValueError(f"empty branch inventory for {inventory.get('root')}")
+        for branch_index, branch in enumerate(branches):
+            if not isinstance(branch, dict):
+                raise ValueError(
+                    f"branch_inventories[{inventory_index}].branches[{branch_index}] "
+                    "must be an object"
+                )
         ids = [branch.get("branch_id") for branch in branches]
         if len(ids) != len(set(ids)):
             raise ValueError(f"duplicate branch ID for {inventory.get('root')}")
@@ -94,6 +111,28 @@ def main() -> None:
                 BRANCH_KEYS,
                 f"branch_inventories[{inventory_index}].branches[{branch_index}]",
             )
+            require_string_fields(
+                branch,
+                BRANCH_KEYS,
+                f"branch_inventories[{inventory_index}].branches[{branch_index}]",
+            )
+            variants = branch.get("variants")
+            if variants is None:
+                continue
+            if not isinstance(variants, list) or not variants:
+                raise ValueError(
+                    f"branch_inventories[{inventory_index}].branches[{branch_index}].variants "
+                    "must be a non-empty list when present"
+                )
+            for variant_index, variant in enumerate(variants):
+                label = (
+                    f"branch_inventories[{inventory_index}].branches[{branch_index}]"
+                    f".variants[{variant_index}]"
+                )
+                if not isinstance(variant, dict):
+                    raise ValueError(f"{label} must be an object")
+                require_keys(variant, BRANCH_VARIANT_KEYS, label)
+                require_string_fields(variant, BRANCH_VARIANT_KEYS, label)
 
     missing = packet.get("missing_branch_inventories", [])
     if not isinstance(missing, list):
@@ -102,7 +141,10 @@ def main() -> None:
     if len(missing_roots) != len(set(missing_roots)):
         raise ValueError("duplicate root in missing_branch_inventories")
     for missing_index, item in enumerate(missing):
+        if not isinstance(item, dict):
+            raise ValueError(f"missing_branch_inventories[{missing_index}] must be an object")
         require_keys(item, MISSING_KEYS, f"missing_branch_inventories[{missing_index}]")
+        require_string_fields(item, {"root", "reason"}, f"missing_branch_inventories[{missing_index}]")
         if not isinstance(item["refs"], list) or not item["refs"]:
             raise ValueError(f"missing_branch_inventories[{missing_index}].refs must be non-empty")
         invalid_refs = [ref for ref in item["refs"] if ref not in window]
@@ -117,8 +159,15 @@ def main() -> None:
     if [root for root in expected_roots if root not in set(actual_roots)] != missing_roots:
         raise ValueError("missing roots do not match first-seen missing root order")
 
-    resource_hashes = packet["provenance"]["resource_sha256"]
+    provenance = packet.get("provenance")
+    if not isinstance(provenance, dict):
+        raise ValueError("provenance must be an object")
+    resource_hashes = provenance.get("resource_sha256")
+    if not isinstance(resource_hashes, dict):
+        raise ValueError("provenance.resource_sha256 must be an object")
     for resource, expected_hash in resource_hashes.items():
+        if not isinstance(resource, str) or not isinstance(expected_hash, str):
+            raise ValueError("provenance.resource_sha256 keys and values must be strings")
         path = REPO_ROOT / resource
         if sha256(path) != expected_hash:
             raise ValueError(f"resource hash changed: {resource}")

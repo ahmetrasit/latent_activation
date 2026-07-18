@@ -35,6 +35,10 @@ collapse them into a single interpretation.
   accepted, non-contaminated branch inventories from the Furuq v4 database.
   If a translation is absent from the translation resource, the packet keeps an
   empty string instead of failing.
+- If the branch database has more than one accepted row for the same root and
+  `branch_id`, the builder emits one branch entry for that ID and preserves the
+  source rows under `variants`; the scalar image/scope fields are combined for
+  reader convenience.
 - Database origin labels (`furuq`, `quranic`) are provenance labels, not themes.
 - The reader must not inspect `s1-bulgular-tr.md`, `attachments.tsv`, older
   version directories, previous v12 run outputs, staged reader outputs, tafsir,

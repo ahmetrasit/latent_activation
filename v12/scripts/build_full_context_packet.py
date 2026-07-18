@@ -56,8 +56,8 @@ def first_seen_roots(ayat: Iterable[dict]) -> list[str]:
 def load_branches_with_missing(
     branch_db_gz: Path,
     roots: list[str],
-) -> tuple[dict[str, list[dict[str, str]]], list[str]]:
-    branches: dict[str, list[dict[str, str]]] = {root: [] for root in roots}
+) -> tuple[dict[str, list[dict[str, Any]]], list[str]]:
+    branches: dict[str, list[dict[str, Any]]] = {root: [] for root in roots}
     with tempfile.NamedTemporaryFile(suffix=".sqlite") as temp_db:
         with gzip.open(branch_db_gz, "rb") as source:
             shutil.copyfileobj(source, temp_db)
@@ -66,28 +66,67 @@ def load_branches_with_missing(
         connection.row_factory = sqlite3.Row
         placeholders = ",".join("?" for _ in roots)
         query = f"""
-            SELECT root_norm, branch_id, branch_image_ar, branch_image_en,
-                   what_is_ar, what_is_en
+            SELECT root_norm, root_id, source_path, branch_id,
+                   branch_image_ar, branch_image_en, what_is_ar, what_is_en
             FROM branch_images
             WHERE root_norm IN ({placeholders})
               AND status = 'accepted'
               AND contaminated = 'no'
-            ORDER BY root_norm, CAST(SUBSTR(branch_id, 2) AS INTEGER)
+            ORDER BY root_norm, CAST(SUBSTR(branch_id, 2) AS INTEGER), id
         """
         for row in connection.execute(query, roots):
-            branches[row["root_norm"]].append(
+            append_branch_row(
+                branches[row["root_norm"]],
                 {
                     "branch_id": row["branch_id"],
                     "image_ar": row["branch_image_ar"],
                     "image_en": row["branch_image_en"],
                     "scope_ar": row["what_is_ar"],
                     "scope_en": row["what_is_en"],
+                    "variants": [
+                        {
+                            "root_id": row["root_id"],
+                            "source_path": row["source_path"],
+                            "image_ar": row["branch_image_ar"],
+                            "image_en": row["branch_image_en"],
+                            "scope_ar": row["what_is_ar"],
+                            "scope_en": row["what_is_en"],
+                        }
+                    ],
                 }
             )
         connection.close()
 
     missing = [root for root in roots if not branches[root]]
     return branches, missing
+
+
+def combine_variant_field(branch: dict[str, Any], field: str) -> str:
+    values = ordered_unique(
+        variant[field]
+        for variant in branch["variants"]
+        if variant.get(field)
+    )
+    if len(values) == 1:
+        return values[0]
+    return "\n".join(f"{index}. {value}" for index, value in enumerate(values, start=1))
+
+
+def append_branch_row(branches: list[dict[str, Any]], row: dict[str, Any]) -> None:
+    """Append a branch row, merging duplicate source branch labels.
+
+    The branch resource can contain multiple accepted rows for the same normalized
+    root with the same root-local branch_id, especially when a root has multiple
+    root_id/source_path records. The packet keeps one reader-facing branch_id and
+    preserves all source meanings as variants inside that branch.
+    """
+    for branch in branches:
+        if branch["branch_id"] == row["branch_id"]:
+            branch["variants"].extend(row["variants"])
+            for field in ("image_ar", "image_en", "scope_ar", "scope_en"):
+                branch[field] = combine_variant_field(branch, field)
+            return
+    branches.append(row)
 
 
 def root_refs(ayat: Iterable[dict[str, Any]]) -> dict[str, list[str]]:
