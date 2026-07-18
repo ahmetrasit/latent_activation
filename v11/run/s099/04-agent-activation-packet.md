@@ -1,0 +1,860 @@
+# v11 Activation Packet — S99:1-None
+
+Bias: recall-first. Preserve latent candidates with labels instead of pruning.
+
+## Arabic surah text
+
+- verse_0 (basmala; part of analysis): بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+- verse_1: إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا
+- verse_2: وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا
+- verse_3: وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا
+- verse_4: يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا
+- verse_5: بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا
+- verse_6: يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ
+- verse_7: فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ
+- verse_8: وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ
+
+Full copied source text is available in `00-surah-text.json`.
+
+## Surface roots
+
+ز ل ز ل → ء ر ض → خ ر ج → ث ق ل → ق و ل → ء ن س → ح د ث → خ ب ر → ر ب ب → و ح ي → ص د ر → ن و س → ش ت ت → ر ء ي → ع م ل → ذ ر ر → خ ي ر → ش ر ر
+
+## Branch inventory summary
+
+- ز ل ز ل: 3 branches (3 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ء ر ض: 12 branches (12 with Qnet bridge-theme nodes; 0 Furūq-only)
+- خ ر ج: 13 branches (13 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ث ق ل: 9 branches (7 with Qnet bridge-theme nodes; 2 Furūq-only)
+- ق و ل: 17 branches (16 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ء ن س: 7 branches (6 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ح د ث: 8 branches (7 with Qnet bridge-theme nodes; 1 Furūq-only)
+- خ ب ر: 6 branches (6 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ر ب ب: 17 branches (17 with Qnet bridge-theme nodes; 0 Furūq-only)
+- و ح ي: 10 branches (10 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ص د ر: 6 branches (6 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ن و س: 3 branches (3 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ش ت ت: 3 branches (3 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ر ء ي: 13 branches (13 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ع م ل: 12 branches (12 with Qnet bridge-theme nodes; 0 Furūq-only)
+- ذ ر ر: 5 branches (5 with Qnet bridge-theme nodes; 0 Furūq-only)
+- خ ي ر: 6 branches (5 with Qnet bridge-theme nodes; 1 Furūq-only)
+- ش ر ر: 12 branches (12 with Qnet bridge-theme nodes; 0 Furūq-only)
+
+## QAC-first root resolution audit
+
+- ز ل ز ل | qac_keys=زلزل | status=resolved | matches=root_000638
+- ء ر ض | qac_keys=ءرض | status=resolved | matches=root_000025
+- خ ر ج | qac_keys=خرج | status=resolved | matches=root_000400
+- ث ق ل | qac_keys=ثقل | status=resolved | matches=root_000202
+- ق و ل | qac_keys=قول | status=resolved | matches=root_001272
+- ء ن س | qac_keys=ءنس | status=resolved | matches=root_000059
+- ح د ث | qac_keys=حدث | status=resolved | matches=root_000299
+- خ ب ر | qac_keys=خبر | status=resolved | matches=root_000387
+- ر ب ب | qac_keys=ربب | status=resolved | matches=root_000532
+- و ح ي | qac_keys=وحي | status=resolved | matches=root_001633
+- ص د ر | qac_keys=صدر | status=resolved | matches=root_000849
+- ن و س | qac_keys=نوس | status=resolved | matches=root_004965
+- ش ت ت | qac_keys=شتت | status=resolved | matches=root_000775
+- ر ء ي | qac_keys=رءي | status=resolved | matches=root_000531
+- ع م ل | qac_keys=عمل | status=resolved | matches=root_001046
+- ذ ر ر | qac_keys=ذرر | status=resolved | matches=root_000511
+- خ ي ر | qac_keys=خير | status=resolved | matches=root_000452
+- ش ر ر | qac_keys=شرر | status=resolved | matches=root_000787
+
+## Top candidate bridges
+
+- `ر ب ب B012` ↔ `ش ر ر B012` | score_hint=24 | discovery_hint=17 | themes=agriculture, habitat_ecology, physiology, plant_vegetation | keywords=agriculture, botany, ecology, life | q2=—
+- `ء ر ض B009` ↔ `ر ء ي B009` | score_hint=24 | discovery_hint=16 | themes=body, disease_injury, health_medicine, physiology | keywords=body, disease, medicine, respiration | q2=—
+- `ر ب ب B006` ↔ `ذ ر ر B002` | score_hint=24 | discovery_hint=16 | themes=agency_action, food_nutrition, health_medicine, substance_texture | keywords=food, medicine, preparation, substance | q2=—
+- `خ ر ج B003` ↔ `ص د ر B005` | score_hint=22 | discovery_hint=16 | themes=authority_governance, finance_debt, wealth_property | keywords=finance, governance, property, taxation | q2=—
+- `ء ر ض B002` ↔ `ر ب ب B012` | score_hint=20 | discovery_hint=16 | themes=agriculture, food_nutrition, habitat_ecology, plant_vegetation | keywords=agriculture, botany, ecology | q2=—
+- `ء ر ض B002` ↔ `ذ ر ر B004` | score_hint=20 | discovery_hint=16 | themes=agriculture, growth_decay, habitat_ecology, plant_vegetation | keywords=agriculture, botany, growth | q2=—
+- `خ ر ج B010` ↔ `ق و ل B008` | score_hint=11 | discovery_hint=16 | themes=recreation_sport | keywords=game, play | q2=—
+- `خ ر ج B005` ↔ `ذ ر ر B004` | score_hint=11 | discovery_hint=16 | themes=calendar_season, habitat_ecology, sky_astronomy | keywords=nature | q2=—
+- `ء ر ض B002` ↔ `خ ب ر B003` | score_hint=9 | discovery_hint=16 | themes=agriculture, harvest_cultivation | keywords=agriculture | q2=—
+- `ء ن س B005` ↔ `ر ء ي B006` | score_hint=24 | discovery_hint=15 | themes=body, cognition, perception, visual_appearance | keywords=body, image, perception, reflection | q2=—
+- `ء ن س B005` ↔ `ع م ل B010` | score_hint=22 | discovery_hint=15 | themes=anatomy, body, perception | keywords=anatomy, body, perception, vision | q2=—
+- `ص د ر B005` ↔ `ع م ل B003` | score_hint=20 | discovery_hint=15 | themes=authority_governance, finance_debt | keywords=authority, finance, governance, taxation | q2=—
+- `خ ر ج B003` ↔ `خ ب ر B003` | score_hint=20 | discovery_hint=15 | themes=agriculture, economy, obligation_contract, wealth_property | keywords=agriculture, economy, property | q2=—
+- `خ ب ر B002` ↔ `ر ب ب B008` | score_hint=20 | discovery_hint=15 | themes=agriculture, habitat_ecology, reproduction_birth, water_hydrology | keywords=agriculture, ecology, fertility | q2=—
+- `ء ر ض B002` ↔ `ش ر ر B012` | score_hint=18 | discovery_hint=15 | themes=agriculture, habitat_ecology, plant_vegetation | keywords=agriculture, botany, ecology | q2=—
+- `خ ر ج B012` ↔ `ص د ر B005` | score_hint=18 | discovery_hint=15 | themes=finance_debt, law, wealth_property | keywords=finance, law, property | q2=—
+- `ق و ل B002` ↔ `ع م ل B010` | score_hint=18 | discovery_hint=15 | themes=anatomy, body, physiology | keywords=anatomy, body, physiology | q2=—
+- `ذ ر ر B002` ↔ `ش ر ر B002` | score_hint=18 | discovery_hint=15 | themes=agency_action, agriculture, food_nutrition | keywords=agriculture, food, preparation | q2=—
+- `ذ ر ر B004` ↔ `ش ر ر B012` | score_hint=18 | discovery_hint=15 | themes=agriculture, habitat_ecology, plant_vegetation | keywords=agriculture, botany, nature | q2=—
+- `ء ر ض B003` ↔ `ع م ل B008` | score_hint=11 | discovery_hint=15 | themes=capacity_ability, intention_character, value_quality | keywords=capacity | q2=—
+- `و ح ي B007` ↔ `خ ي ر B003` | score_hint=11 | discovery_hint=15 | themes=agency_action, communication, prayer_supplication | keywords=agency | q2=—
+- `ء ر ض B008` ↔ `و ح ي B009` | score_hint=9 | discovery_hint=15 | themes=emotion, fear_grief | keywords=emotion | q2=—
+- `ذ ر ر B004` ↔ `ش ر ر B003` | score_hint=7 | discovery_hint=15 | themes=light_darkness | keywords=light | q2=—
+- `ح د ث B006` ↔ `ر ء ي B012` | score_hint=30 | discovery_hint=14 | themes=belief_revelation, communication, knowledge_learning, ornament_beauty, perception | keywords=communication, display, perception, revelation, visibility | q2=—
+- `ص د ر B003` ↔ `ع م ل B011` | score_hint=28 | discovery_hint=14 | themes=motion, navigation_route, transport, travel | keywords=journey, movement, route, transit, travel | q2=—
+- `ص د ر B003` ↔ `ع م ل B012` | score_hint=24 | discovery_hint=14 | themes=migration_displacement, motion, navigation_route, travel | keywords=journey, migration, movement, travel | q2=—
+- `ق و ل B010` ↔ `ر ب ب B001` | score_hint=22 | discovery_hint=14 | themes=authority_governance, force_power, hierarchy_status | keywords=authority, governance, hierarchy, power | q2=—
+- `ء ن س B001` ↔ `ن و س B003` | score_hint=22 | discovery_hint=14 | themes=household_community, identity_personhood, social_relations | keywords=community, identity, personhood, society | q2=—
+- `ح د ث B006` ↔ `ش ر ر B008` | score_hint=22 | discovery_hint=14 | themes=communication, knowledge_learning, perception | keywords=communication, knowledge, perception, visibility | q2=—
+- `ق و ل B007` ↔ `ح د ث B003` | score_hint=20 | discovery_hint=14 | themes=communication, social_relations | keywords=communication, news, sociality, society | q2=—
+- `خ ر ج B012` ↔ `ع م ل B005` | score_hint=20 | discovery_hint=14 | themes=commerce_exchange, law, obligation_contract, social_relations | keywords=commerce, contract, law | q2=—
+- `خ ب ر B003` ↔ `ع م ل B004` | score_hint=20 | discovery_hint=14 | themes=economy, labor_work, obligation_contract, wealth_property | keywords=contract, economy, labor | q2=—
+- `ص د ر B001` ↔ `ر ء ي B009` | score_hint=20 | discovery_hint=14 | themes=anatomy, body, health_medicine, physiology | keywords=anatomy, body, medicine | q2=—
+- `ص د ر B001` ↔ `ع م ل B010` | score_hint=20 | discovery_hint=14 | themes=anatomy, animal, body, physiology | keywords=anatomy, animal, body | q2=—
+- `ش ر ر B007` ↔ `ش ر ر B010` | score_hint=20 | discovery_hint=14 | themes=agency_action, desire_appetite, emotion, intention_character | keywords=desire, emotion, motivation | q2=—
+- `ء ر ض B011` ↔ `ر ء ي B009` | score_hint=18 | discovery_hint=14 | themes=body, disease_injury, health_medicine | keywords=body, disease, medicine | q2=—
+- `خ ر ج B008` ↔ `ع م ل B010` | score_hint=18 | discovery_hint=14 | themes=anatomy, animal, physiology | keywords=anatomy, animal, biology | q2=—
+- `خ ب ر B002` ↔ `ر ب ب B012` | score_hint=18 | discovery_hint=14 | themes=agriculture, geography_landscape, habitat_ecology | keywords=agriculture, ecology, landscape | q2=—
+- `ر ب ب B006` ↔ `ش ر ر B002` | score_hint=18 | discovery_hint=14 | themes=agency_action, food_nutrition, stability_endurance | keywords=food, preparation, preservation | q2=—
+- `ش ت ت B002` ↔ `ر ء ي B006` | score_hint=18 | discovery_hint=14 | themes=body, ornament_beauty, visual_appearance | keywords=appearance, beauty, body | q2=—
+- `ر ء ي B007` ↔ `ذ ر ر B003` | score_hint=18 | discovery_hint=14 | themes=body, health_medicine, ritual | keywords=body, medicine, ritual | q2=—
+- `ء ر ض B002` ↔ `خ ب ر B002` | score_hint=16 | discovery_hint=14 | themes=agriculture, habitat_ecology | keywords=agriculture, ecology, habitat | q2=—
+- `خ ر ج B003` ↔ `ع م ل B003` | score_hint=16 | discovery_hint=14 | themes=authority_governance, finance_debt | keywords=finance, governance, taxation | q2=—
+- `خ ر ج B012` ↔ `ع م ل B004` | score_hint=16 | discovery_hint=14 | themes=commerce_exchange, justice_judgment, obligation_contract, wealth_property | keywords=contract, exchange | q2=—
+- `خ ر ج B005` ↔ `ر ب ب B008` | score_hint=14 | discovery_hint=14 | themes=habitat_ecology, sky_astronomy, weather_climate | keywords=sky, weather | q2=—
+- `خ ر ج B012` ↔ `ث ق ل B004` | score_hint=14 | discovery_hint=14 | themes=commerce_exchange, finance_debt, justice_judgment | keywords=commerce, exchange | q2=—
+- `خ ر ج B012` ↔ `خ ب ر B006` | score_hint=14 | discovery_hint=14 | themes=commerce_exchange, social_relations, wealth_property | keywords=exchange, ownership | q2=—
+- `ق و ل B002` ↔ `ر ء ي B009` | score_hint=14 | discovery_hint=14 | themes=anatomy, body, physiology | keywords=anatomy, body | q2=—
+- `ر ب ب B012` ↔ `ذ ر ر B004` | score_hint=14 | discovery_hint=14 | themes=agriculture, habitat_ecology, plant_vegetation | keywords=agriculture, botany | q2=—
+- `ر ء ي B009` ↔ `ع م ل B010` | score_hint=14 | discovery_hint=14 | themes=anatomy, body, physiology | keywords=anatomy, body | q2=—
+- `ء ر ض B002` ↔ `ر ب ب B002` | score_hint=12 | discovery_hint=14 | themes=agriculture, growth_decay | keywords=agriculture, growth | q2=—
+- `ح د ث B002` ↔ `ر ب ب B002` | score_hint=12 | discovery_hint=14 | themes=growth_decay, life_stage_aging | keywords=childhood, growth | q2=—
+- `خ ب ر B002` ↔ `ر ء ي B010` | score_hint=12 | discovery_hint=14 | themes=agriculture, reproduction_birth | keywords=agriculture, fertility | q2=—
+- `خ ب ر B006` ↔ `ذ ر ر B002` | score_hint=12 | discovery_hint=14 | themes=food_nutrition, provision_resource | keywords=distribution, food | q2=—
+- `ر ب ب B002` ↔ `ذ ر ر B004` | score_hint=12 | discovery_hint=14 | themes=agriculture, growth_decay | keywords=agriculture, growth | q2=—
+- `ر ب ب B008` ↔ `ر ء ي B010` | score_hint=12 | discovery_hint=14 | themes=agriculture, reproduction_birth | keywords=agriculture, fertility | q2=—
+- `ر ب ب B008` ↔ `ش ر ر B002` | score_hint=12 | discovery_hint=14 | themes=agriculture, weather_climate | keywords=agriculture, weather | q2=—
+- `ر ب ب B012` ↔ `ذ ر ر B002` | score_hint=12 | discovery_hint=14 | themes=agriculture, food_nutrition | keywords=agriculture, food | q2=—
+- `ر ب ب B012` ↔ `ش ر ر B002` | score_hint=12 | discovery_hint=14 | themes=agriculture, food_nutrition | keywords=agriculture, food | q2=—
+- `خ ب ر B006` ↔ `ع م ل B004` | score_hint=10 | discovery_hint=14 | themes=commerce_exchange, provision_resource, wealth_property | keywords=exchange | q2=—
+- `ق و ل B005` ↔ `خ ب ر B001` | score_hint=7 | discovery_hint=14 | themes=testimony_witness | keywords=testimony | q2=—
+- `ء ن س B002` ↔ `ر ء ي B001` | score_hint=28 | discovery_hint=13 | themes=cognition, knowledge_learning, memory_attention, perception | keywords=attention, cognition, knowledge, perception, sense | q2=—
+- `خ ر ج B013` ↔ `ن و س B002` | score_hint=20 | discovery_hint=13 | themes=animal, control_restraint, husbandry, motion | keywords=animal, control, movement | q2=—
+- `ز ل ز ل B002` ↔ `ح د ث B005` | score_hint=18 | discovery_hint=13 | themes=belief_revelation, danger_harm, suffering_hardship | keywords=crisis, fate, suffering | q2=—
+- `ء ر ض B003` ↔ `خ ي ر B002` | score_hint=18 | discovery_hint=13 | themes=ethics_morality, intention_character, value_quality | keywords=character, ethics, merit | q2=—
+- `خ ر ج B002` ↔ `ح د ث B006` | score_hint=18 | discovery_hint=13 | themes=belief_revelation, knowledge_learning, perception | keywords=knowledge, revelation, visibility | q2=—
+- `خ ر ج B004` ↔ `ر ء ي B009` | score_hint=18 | discovery_hint=13 | themes=anatomy, disease_injury, health_medicine | keywords=anatomy, disease, medicine | q2=—
+- `خ ر ج B006` ↔ `ق و ل B004` | score_hint=18 | discovery_hint=13 | themes=authority_governance, hierarchy_status, politics_order | keywords=authority, hierarchy, politics | q2=—
+- `خ ر ج B013` ↔ `ع م ل B010` | score_hint=18 | discovery_hint=13 | themes=anatomy, animal, motion | keywords=anatomy, animal, motion | q2=—
+- `ث ق ل B009` ↔ `و ح ي B002` | score_hint=18 | discovery_hint=13 | themes=communication, language_speech, perception | keywords=communication, language, perception | q2=—
+- `ق و ل B005` ↔ `ر ء ي B005` | score_hint=18 | discovery_hint=13 | themes=deception_corruption, ethics_morality, honor_shame | keywords=deception, ethics, reputation | q2=—
+- `ق و ل B007` ↔ `ح د ث B004` | score_hint=18 | discovery_hint=13 | themes=concealment_disclosure, honor_shame, social_relations | keywords=publicity, reputation, society | q2=—
+- `ء ن س B004` ↔ `ش ت ت B003` | score_hint=18 | discovery_hint=13 | themes=reasoning_decision, social_relations, space | keywords=contrast, relation, spatiality | q2=—
+- `ح د ث B003` ↔ `ر ء ي B013` | score_hint=18 | discovery_hint=13 | themes=communication, language_speech, rhetoric_discourse | keywords=communication, discourse, language | q2=—
+- `خ ب ر B002` ↔ `ر ب ب B013` | score_hint=18 | discovery_hint=13 | themes=geography_landscape, habitat_ecology, water_hydrology | keywords=ecology, geography, hydrology | q2=—
+- `ر ب ب B017` ↔ `ع م ل B011` | score_hint=18 | discovery_hint=13 | themes=navigation_route, transport, travel | keywords=navigation, transport, travel | q2=—
+- `و ح ي B002` ↔ `ر ء ي B012` | score_hint=18 | discovery_hint=13 | themes=communication, knowledge_learning, perception | keywords=communication, instruction, perception | q2=—
+- `ر ء ي B012` ↔ `ش ر ر B008` | score_hint=18 | discovery_hint=13 | themes=communication, knowledge_learning, perception | keywords=communication, perception, visibility | q2=—
+- `ذ ر ر B005` ↔ `ش ر ر B010` | score_hint=18 | discovery_hint=13 | themes=agency_action, emotion, intention_character | keywords=behavior, emotion, temperament | q2=—
+- `ء ر ض B007` ↔ `ش ر ر B011` | score_hint=16 | discovery_hint=13 | themes=conflict, social_relations | keywords=competition, conflict, sociality | q2=—
+
+## Per-root candidate activations
+
+### ز ل ز ل
+
+- `ز ل ز ل B001` — اضطراب واهتزاز
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ز ل ز ل B002` — شدائد الدهر
+  - activated_by_or_with: ح د ث
+  - themes: belief_revelation, danger_harm, suffering_hardship
+  - keywords: crisis, fate, suffering
+- `ز ل ز ل B003` — ماء صاف سائغ
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ء ر ض
+
+- `ء ر ض B001` — السفل المقابل للسماء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ر ض B002` — الأرض اللينة المنبتة
+  - activated_by_or_with: خ ب ر, ذ ر ر, ر ب ب, ش ر ر
+  - themes: agriculture, food_nutrition, growth_decay, habitat_ecology, harvest_cultivation, plant_vegetation
+  - keywords: agriculture, botany, ecology, growth, habitat
+- `ء ر ض B003` — الخليق بالخير كالأرض الأريضة
+  - activated_by_or_with: خ ي ر, ع م ل
+  - themes: capacity_ability, ethics_morality, intention_character, value_quality
+  - keywords: capacity, character, ethics, merit
+- `ء ر ض B004` — ابن الأرض الغريب
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ر ض B005` — الإراض البساط الضخم
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ر ض B006` — لزوم الأرض والتثاقل إليها
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ر ض B007` — التعرض والتصدي
+  - activated_by_or_with: ش ر ر
+  - themes: conflict, social_relations
+  - keywords: competition, conflict, sociality
+- `ء ر ض B008` — الأَرْض الرعدة
+  - activated_by_or_with: و ح ي
+  - themes: emotion, fear_grief
+  - keywords: emotion
+- `ء ر ض B009` — الأَرْض الزكام
+  - activated_by_or_with: ر ء ي
+  - themes: body, disease_injury, health_medicine, physiology
+  - keywords: body, disease, medicine, respiration
+- `ء ر ض B010` — الأَرَضَة آكلة الخشب
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ر ض B011` — فساد القرحة بالمدة
+  - activated_by_or_with: ر ء ي
+  - themes: body, disease_injury, health_medicine
+  - keywords: body, disease, medicine
+- `ء ر ض B012` — المأروض المخبول من أهل الأرض
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### خ ر ج
+
+- `خ ر ج B001` — النفاذ إلى خارج الشيء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ر ج B002` — إخراج الشيء من خفائه
+  - activated_by_or_with: ح د ث
+  - themes: belief_revelation, knowledge_learning, perception
+  - keywords: knowledge, revelation, visibility
+- `خ ر ج B003` — مال يخرج على جهة معلومة
+  - activated_by_or_with: خ ب ر, ص د ر, ع م ل
+  - themes: agriculture, authority_governance, economy, finance_debt, obligation_contract, wealth_property
+  - keywords: agriculture, economy, finance, governance, property, taxation
+- `خ ر ج B004` — قُرْح يخرج في الجسد
+  - activated_by_or_with: ر ء ي
+  - themes: anatomy, disease_injury, health_medicine
+  - keywords: anatomy, disease, medicine
+- `خ ر ج B005` — ظهور السحاب وانكشاف السماء
+  - activated_by_or_with: ذ ر ر, ر ب ب
+  - themes: calendar_season, habitat_ecology, sky_astronomy, weather_climate
+  - keywords: nature, sky, weather
+- `خ ر ج B006` — خروج عن الأصل أو الطاعة
+  - activated_by_or_with: ق و ل
+  - themes: authority_governance, hierarchy_status, politics_order
+  - keywords: authority, hierarchy, politics
+- `خ ر ج B007` — اختلاف لونين في الشيء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ر ج B008` — خروج الخلقة عن نوعها
+  - activated_by_or_with: ع م ل
+  - themes: anatomy, animal, physiology
+  - keywords: anatomy, animal, biology
+- `خ ر ج B009` — خرج الوعاء ذو الأونين
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ر ج B010` — لعبة إخراج ما في اليد
+  - activated_by_or_with: ق و ل
+  - themes: recreation_sport
+  - keywords: game, play
+- `خ ر ج B011` — ألف الخروج بعد الصلة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ر ج B012` — تخارج الشركاء في النصيب
+  - activated_by_or_with: ث ق ل, خ ب ر, ص د ر, ع م ل
+  - themes: commerce_exchange, finance_debt, justice_judgment, law, obligation_contract, social_relations, wealth_property
+  - keywords: commerce, contract, exchange, finance, law, ownership, property
+- `خ ر ج B013` — عنق خارج يغتال العنان
+  - activated_by_or_with: ع م ل, ن و س
+  - themes: anatomy, animal, control_restraint, husbandry, motion
+  - keywords: anatomy, animal, control, motion, movement
+
+### ث ق ل
+
+- `ث ق ل B001` — الثقل ضد الخفة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ث ق ل B002` — الأثقال المحمولة والمخرجة
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ث ق ل B003` — الأوزار المثقلة
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `ث ق ل B004` — المثقال والوزن
+  - activated_by_or_with: خ ر ج
+  - themes: commerce_exchange, finance_debt, justice_judgment
+  - keywords: commerce, exchange
+- `ث ق ل B005` — الثقل النفيس ذو القدر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ث ق ل B006` — الثقلة والبطء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ث ق ل B007` — إثقال الحمل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ث ق ل B008` — امرأة ثقال
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ث ق ل B009` — ثقل السمع
+  - activated_by_or_with: و ح ي
+  - themes: communication, language_speech, perception
+  - keywords: communication, language, perception
+
+### ق و ل
+
+- `ق و ل B001` — إخراج القول بالنطق
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و ل B002` — اللسان آلة القول
+  - activated_by_or_with: ر ء ي, ع م ل
+  - themes: anatomy, body, physiology
+  - keywords: anatomy, body, physiology
+- `ق و ل B003` — كثرة القول في صاحبه
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و ل B004` — القيل صاحب القول النافذ
+  - activated_by_or_with: خ ر ج
+  - themes: authority_governance, hierarchy_status, politics_order
+  - keywords: authority, hierarchy, politics
+- `ق و ل B005` — قول ما لم يكن أو نسبته
+  - activated_by_or_with: خ ب ر, ر ء ي
+  - themes: deception_corruption, ethics_morality, honor_shame, testimony_witness
+  - keywords: deception, ethics, reputation, testimony
+- `ق و ل B006` — اجترار القول إلى النفس
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و ل B007` — القول الفاشي بين الناس
+  - activated_by_or_with: ح د ث
+  - themes: communication, concealment_disclosure, honor_shame, social_relations
+  - keywords: communication, news, publicity, reputation, sociality, society
+- `ق و ل B008` — عود القال لضرب القلة
+  - activated_by_or_with: خ ر ج
+  - themes: recreation_sport
+  - keywords: game, play
+- `ق و ل B009` — المقاولة في الأمر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و ل B010` — اقتالة الحكم على غيره
+  - activated_by_or_with: ر ب ب
+  - themes: authority_governance, force_power, hierarchy_status
+  - keywords: authority, governance, hierarchy, power
+- `ق و ل B011` — قول يجري مجرى الظن
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و ل B012` — قول في النفس لم يظهر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و ل B013` — القول اعتقاد ومذهب
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و ل B014` — قول الشيء دلالته
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و ل B015` — العناية الصادقة بالشيء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و ل B016` — قول الشيء حده
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ق و ل B017` — القول إلهام يلقي معنى
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+
+### ء ن س
+
+- `ء ن س B001` — ظهور الإنسان المخالف للتوحش والجن
+  - activated_by_or_with: ن و س
+  - themes: household_community, identity_personhood, social_relations
+  - keywords: community, identity, personhood, society
+- `ء ن س B002` — إيناس الشيء برؤية أو إحساس أو سماع
+  - activated_by_or_with: ر ء ي
+  - themes: cognition, knowledge_learning, memory_attention, perception
+  - keywords: attention, cognition, knowledge, perception, sense
+- `ء ن س B003` — الأنس الذي يزيل الوحشة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ن س B004` — الجانب الإنسي المقبل على الإنسان
+  - activated_by_or_with: ش ت ت
+  - themes: reasoning_decision, social_relations, space
+  - keywords: contrast, relation, spatiality
+- `ء ن س B005` — إنسان العين وصورة الإنسان في السواد
+  - activated_by_or_with: ر ء ي, ع م ل
+  - themes: anatomy, body, cognition, perception, visual_appearance
+  - keywords: anatomy, body, image, perception, reflection, vision
+- `ء ن س B006` — ابن الإنس للنفس والصفوة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ء ن س B007` — الاستئناس قبل دخول البيوت
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+
+### ح د ث
+
+- `ح د ث B001` — كون الشيء بعد أن لم يكن
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ح د ث B002` — طراوة السن وقرب العهد
+  - activated_by_or_with: ر ب ب
+  - themes: growth_decay, life_stage_aging
+  - keywords: childhood, growth
+- `ح د ث B003` — كلام يتجدد خبرا وحديثا
+  - activated_by_or_with: ر ء ي, ق و ل
+  - themes: communication, language_speech, rhetoric_discourse, social_relations
+  - keywords: communication, discourse, language, news, sociality, society
+- `ح د ث B004` — صيرورة المرء حديث الناس
+  - activated_by_or_with: ق و ل
+  - themes: concealment_disclosure, honor_shame, social_relations
+  - keywords: publicity, reputation, society
+- `ح د ث B005` — نازلة الدهر وحادثته
+  - activated_by_or_with: ز ل ز ل
+  - themes: belief_revelation, danger_harm, suffering_hardship
+  - keywords: crisis, fate, suffering
+- `ح د ث B006` — إبداء الشيء وإظهاره
+  - activated_by_or_with: خ ر ج, ر ء ي, ش ر ر
+  - themes: belief_revelation, communication, knowledge_learning, ornament_beauty, perception
+  - keywords: communication, display, knowledge, perception, revelation, visibility
+- `ح د ث B007` — جلاء السيف والقلب بالصقال
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ح د ث B008` — إلقاء معنى صادق في الروع
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+
+### خ ب ر
+
+- `خ ب ر B001` — العلم بالخبر وباطن الأمر
+  - activated_by_or_with: ق و ل
+  - themes: testimony_witness
+  - keywords: testimony
+- `خ ب ر B002` — لين الأرض ومائها
+  - activated_by_or_with: ء ر ض, ر ء ي, ر ب ب
+  - themes: agriculture, geography_landscape, habitat_ecology, reproduction_birth, water_hydrology
+  - keywords: agriculture, ecology, fertility, geography, habitat, hydrology, landscape
+- `خ ب ر B003` — إصلاح الأرض بالمخابرة
+  - activated_by_or_with: ء ر ض, خ ر ج, ع م ل
+  - themes: agriculture, economy, harvest_cultivation, labor_work, obligation_contract, wealth_property
+  - keywords: agriculture, contract, economy, labor, property
+- `خ ب ر B004` — الغزر في المزادة والناقة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ب ر B005` — اللِّين في النبات والوبر والزبد
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ب ر B006` — القسمة في الشاة واللحم
+  - activated_by_or_with: خ ر ج, ذ ر ر, ع م ل
+  - themes: commerce_exchange, food_nutrition, provision_resource, social_relations, wealth_property
+  - keywords: distribution, exchange, food, ownership
+
+### ر ب ب
+
+- `ر ب ب B001` — ربوبية وملك وسيادة
+  - activated_by_or_with: ق و ل
+  - themes: authority_governance, force_power, hierarchy_status
+  - keywords: authority, governance, hierarchy, power
+- `ر ب ب B002` — إصلاح وتربية وإتمام
+  - activated_by_or_with: ء ر ض, ح د ث, ذ ر ر
+  - themes: agriculture, growth_decay, life_stage_aging
+  - keywords: agriculture, childhood, growth
+- `ر ب ب B003` — علم رباني
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ب ب B004` — ربة وجماعات كثيرة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ب ب B005` — ربيب وربيبة ورابة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ب ب B006` — رُبّ خاثر وإصلاح به
+  - activated_by_or_with: ذ ر ر, ش ر ر
+  - themes: agency_action, food_nutrition, health_medicine, stability_endurance, substance_texture
+  - keywords: food, medicine, preparation, preservation, substance
+- `ر ب ب B007` — لزوم وإقامة ودوام
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ب ب B008` — رباب السحاب
+  - activated_by_or_with: خ ب ر, خ ر ج, ر ء ي, ش ر ر
+  - themes: agriculture, habitat_ecology, reproduction_birth, sky_astronomy, water_hydrology, weather_climate
+  - keywords: agriculture, ecology, fertility, sky, weather
+- `ر ب ب B009` — شاة رُبّى وحداثة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ب ب B010` — ربابة تجمع القداح
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ب ب B011` — ربابة عهد وميثاق
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ب ب B012` — ربة نبات
+  - activated_by_or_with: ء ر ض, خ ب ر, ذ ر ر, ش ر ر
+  - themes: agriculture, food_nutrition, geography_landscape, habitat_ecology, physiology, plant_vegetation
+  - keywords: agriculture, botany, ecology, food, landscape, life
+- `ر ب ب B013` — ماء رَبَب كثير
+  - activated_by_or_with: خ ب ر
+  - themes: geography_landscape, habitat_ecology, water_hydrology
+  - keywords: ecology, geography, hydrology
+- `ر ب ب B014` — رَبْرَب قطيع
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ب ب B015` — حرف رب وربما
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ب ب B016` — رُبَى حاجة وعقدة ونعمة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ب ب B017` — رباني الملاحين
+  - activated_by_or_with: ع م ل
+  - themes: navigation_route, transport, travel
+  - keywords: navigation, transport, travel
+
+### و ح ي
+
+- `و ح ي B001` — إلقاء علم في خفاء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `و ح ي B002` — إشارة وإيماء
+  - activated_by_or_with: ث ق ل, ر ء ي
+  - themes: communication, knowledge_learning, language_speech, perception
+  - keywords: communication, instruction, language, perception
+- `و ح ي B003` — كتابة ونقش
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `و ح ي B004` — نبأ وإلهام من الله
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `و ح ي B005` — صوت خفي
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `و ح ي B006` — سرعة وعجلة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `و ح ي B007` — استيحاء طلبا
+  - activated_by_or_with: خ ي ر
+  - themes: agency_action, communication, prayer_supplication
+  - keywords: agency
+- `و ح ي B008` — ملك كنار
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `و ح ي B009` — نياحة وبكاء
+  - activated_by_or_with: ء ر ض
+  - themes: emotion, fear_grief
+  - keywords: emotion
+- `و ح ي B010` — وحي في حجر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ص د ر
+
+- `ص د ر B001` — الصدر الجارحة وما يتصل بها
+  - activated_by_or_with: ر ء ي, ع م ل
+  - themes: anatomy, animal, body, health_medicine, physiology
+  - keywords: anatomy, animal, body, medicine
+- `ص د ر B002` — المقدّم والأعلى والأول
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ص د ر B003` — الصُّدور عن المورد
+  - activated_by_or_with: ع م ل
+  - themes: migration_displacement, motion, navigation_route, transport, travel
+  - keywords: journey, migration, movement, route, transit, travel
+- `ص د ر B004` — الأصل الذي تصدر عنه الأفعال
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ص د ر B005` — المصادرة على مال
+  - activated_by_or_with: خ ر ج, ع م ل
+  - themes: authority_governance, finance_debt, law, wealth_property
+  - keywords: authority, finance, governance, law, property, taxation
+- `ص د ر B006` — الطائفة من الشيء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ن و س
+
+- `ن و س B001` — تذبذب الشيء المتدلّي
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ن و س B002` — سوق الإبل
+  - activated_by_or_with: خ ر ج
+  - themes: animal, control_restraint, husbandry, motion
+  - keywords: animal, control, movement
+- `ن و س B003` — اسم الناس المختلف في أصله
+  - activated_by_or_with: ء ن س
+  - themes: household_community, identity_personhood, social_relations
+  - keywords: community, identity, personhood, society
+
+### ش ت ت
+
+- `ش ت ت B001` — التفرق والشتات
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ت ت B002` — الثغر الشتيت
+  - activated_by_or_with: ر ء ي
+  - themes: body, ornament_beauty, visual_appearance
+  - keywords: appearance, beauty, body
+- `ش ت ت B003` — بُعد ما بين الشيئين
+  - activated_by_or_with: ء ن س
+  - themes: reasoning_decision, social_relations, space
+  - keywords: contrast, relation, spatiality
+
+### ر ء ي
+
+- `ر ء ي B001` — رؤية العين والبصيرة
+  - activated_by_or_with: ء ن س
+  - themes: cognition, knowledge_learning, memory_attention, perception
+  - keywords: attention, cognition, knowledge, perception, sense
+- `ر ء ي B002` — رأي القلب والتفكر
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ء ي B003` — الرؤيا في المنام
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ء ي B004` — تراء وتواجه
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ء ي B005` — رياء الناس
+  - activated_by_or_with: ق و ل
+  - themes: deception_corruption, ethics_morality, honor_shame
+  - keywords: deception, ethics, reputation
+- `ر ء ي B006` — مرأى ومنظر ومرآة
+  - activated_by_or_with: ء ن س, ش ت ت
+  - themes: body, cognition, ornament_beauty, perception, visual_appearance
+  - keywords: appearance, beauty, body, image, perception, reflection
+- `ر ء ي B007` — ترية الحيض
+  - activated_by_or_with: ذ ر ر
+  - themes: body, health_medicine, ritual
+  - keywords: body, medicine, ritual
+- `ر ء ي B008` — رئي من الجن
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ء ي B009` — الرئة وما يصيبها
+  - activated_by_or_with: ء ر ض, خ ر ج, ص د ر, ع م ل, ق و ل
+  - themes: anatomy, body, disease_injury, health_medicine, physiology
+  - keywords: anatomy, body, disease, medicine, respiration
+- `ر ء ي B010` — ظهور حمل الناقة أو الشاة
+  - activated_by_or_with: خ ب ر, ر ب ب
+  - themes: agriculture, reproduction_birth
+  - keywords: agriculture, fertility
+- `ر ء ي B011` — راية منصوبة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ر ء ي B012` — إراءة وإظهار
+  - activated_by_or_with: ح د ث, ش ر ر, و ح ي
+  - themes: belief_revelation, communication, knowledge_learning, ornament_beauty, perception
+  - keywords: communication, display, instruction, perception, revelation, visibility
+- `ر ء ي B013` — أرأيتك للتنبيه والاستخبار
+  - activated_by_or_with: ح د ث
+  - themes: communication, language_speech, rhetoric_discourse
+  - keywords: communication, discourse, language
+
+### ع م ل
+
+- `ع م ل B001` — الفعل المقصود والعمل
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ع م ل B002` — إعمال الشيء واستعماله
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ع م ل B003` — ولاية العمل والقيام عليه
+  - activated_by_or_with: خ ر ج, ص د ر
+  - themes: authority_governance, finance_debt
+  - keywords: authority, finance, governance, taxation
+- `ع م ل B004` — أجر العمل ورزق العامل
+  - activated_by_or_with: خ ب ر, خ ر ج
+  - themes: commerce_exchange, economy, justice_judgment, labor_work, obligation_contract, provision_resource, wealth_property
+  - keywords: contract, economy, exchange, labor
+- `ع م ل B005` — المعاملة بين الناس
+  - activated_by_or_with: خ ر ج
+  - themes: commerce_exchange, law, obligation_contract, social_relations
+  - keywords: commerce, contract, law
+- `ع م ل B006` — العملة العاملون بالأيدي
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ع م ل B007` — التعمل بمعنى التعني
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ع م ل B008` — المطبوع على العمل
+  - activated_by_or_with: ء ر ض
+  - themes: capacity_ability, intention_character, value_quality
+  - keywords: capacity
+- `ع م ل B009` — عامل الرمح
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ع م ل B010` — الجارحة العاملة
+  - activated_by_or_with: ء ن س, خ ر ج, ر ء ي, ص د ر, ق و ل
+  - themes: anatomy, animal, body, motion, perception, physiology
+  - keywords: anatomy, animal, biology, body, motion, perception, physiology, vision
+- `ع م ل B011` — الطريق المعمل
+  - activated_by_or_with: ر ب ب, ص د ر
+  - themes: motion, navigation_route, transport, travel
+  - keywords: journey, movement, navigation, route, transit, transport, travel
+- `ع م ل B012` — بنو العمل من المشاة
+  - activated_by_or_with: ص د ر
+  - themes: migration_displacement, motion, navigation_route, travel
+  - keywords: journey, migration, movement, travel
+
+### ذ ر ر
+
+- `ذ ر ر B001` — صغر الذر وانتشاره
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ذ ر ر B002` — تفريق الحبوب والدقيق
+  - activated_by_or_with: خ ب ر, ر ب ب, ش ر ر
+  - themes: agency_action, agriculture, food_nutrition, health_medicine, provision_resource, substance_texture
+  - keywords: agriculture, distribution, food, medicine, preparation, substance
+- `ذ ر ر B003` — مسحوق الذريرة والذَّرور
+  - activated_by_or_with: ر ء ي
+  - themes: body, health_medicine, ritual
+  - keywords: body, medicine, ritual
+- `ذ ر ر B004` — طلوع لطيف منتشر
+  - activated_by_or_with: ء ر ض, خ ر ج, ر ب ب, ش ر ر
+  - themes: agriculture, calendar_season, growth_decay, habitat_ecology, light_darkness, plant_vegetation, sky_astronomy
+  - keywords: agriculture, botany, growth, light, nature
+- `ذ ر ر B005` — إعراض غضب وسوء خلق
+  - activated_by_or_with: ش ر ر
+  - themes: agency_action, emotion, intention_character
+  - keywords: behavior, emotion, temperament
+
+### خ ي ر
+
+- `خ ي ر B001` — الميل إلى الخير النافع
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ي ر B002` — فضل الصلاح والاصطفاء
+  - activated_by_or_with: ء ر ض
+  - themes: ethics_morality, intention_character, value_quality
+  - keywords: character, ethics, merit
+- `خ ي ر B003` — طلب الخير بالاختيار والاستخارة
+  - activated_by_or_with: و ح ي
+  - themes: agency_action, communication, prayer_supplication
+  - keywords: agency
+- `خ ي ر B004` — المال المسمى خيرا
+  - activated_by_or_with: no Qnet bridge-theme memberships in this layer
+  - themes: —
+  - keywords: —
+- `خ ي ر B005` — الكرم والهبة
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `خ ي ر B006` — استدراج الحيوان من جحره
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+
+### ش ر ر
+
+- `ش ر ر B001` — الشَّرّ والسوء
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B002` — نشر الشيء في الشمس ليجف
+  - activated_by_or_with: ذ ر ر, ر ب ب
+  - themes: agency_action, agriculture, food_nutrition, stability_endurance, weather_climate
+  - keywords: agriculture, food, preparation, preservation, weather
+- `ش ر ر B003` — شَرَر النار المتطاير
+  - activated_by_or_with: ذ ر ر
+  - themes: light_darkness
+  - keywords: light
+- `ش ر ر B004` — الشَّرْشَرَة تقطيع ونفض
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B005` — الشواء المتقاطر دسمه
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B006` — الشراشر ذباذب وأثقال
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B007` — إلقاء الشراشر إلقاء النفس كلها
+  - activated_by_or_with: same-root only
+  - themes: agency_action, desire_appetite, emotion, intention_character
+  - keywords: desire, emotion, motivation
+- `ش ر ر B008` — إظهار الشيء وإبرازه
+  - activated_by_or_with: ح د ث, ر ء ي
+  - themes: communication, knowledge_learning, perception
+  - keywords: communication, knowledge, perception, visibility
+- `ش ر ر B009` — الشَّرّان أذى كالبعوض
+  - activated_by_or_with: no current candidate bridges
+  - themes: —
+  - keywords: —
+- `ش ر ر B010` — شِرّة الشباب نشاط وحرص
+  - activated_by_or_with: ذ ر ر
+  - themes: agency_action, desire_appetite, emotion, intention_character
+  - keywords: behavior, desire, emotion, motivation, temperament
+- `ش ر ر B011` — المشارة مخاصمة
+  - activated_by_or_with: ء ر ض
+  - themes: conflict, social_relations
+  - keywords: competition, conflict, sociality
+- `ش ر ر B012` — الشِّرْشِر نبت
+  - activated_by_or_with: ء ر ض, ذ ر ر, ر ب ب
+  - themes: agriculture, habitat_ecology, physiology, plant_vegetation
+  - keywords: agriculture, botany, ecology, life, nature
+
+## Agent instruction
+
+Classify branches as A/B/C/S/X, but use discovery bias:
+
+- uncertain S vs C => C
+- uncertain C vs B => C/B
+- broad bridge => preserve with evidence profile
+- only data-invalid branches => X
+- consume 10-discovery-ranking.json as a mechanical review queue; do not generate discovery ranking
