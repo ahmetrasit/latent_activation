@@ -1,0 +1,78 @@
+you'll run v3 synthesizer on combined v11 and v12 data. do not read any files - i'll tell you which files to read. this is the
+  instruction set you'll strictly follow: "v3/prompts/a2-publication-tr-compact-v2.md" . you'll write your output to /Users/ahmetrasit/projects/
+  latent_activation/test/{surah}-prose-tr-v1.md . you'll not read any other files from the repo. you'll ignore grading requirements of your input material. 
+  
+  Be bold, do not be conservative.
+  
+  this is the list of input files you'll use, do not read anything else that is outside this list, except the prompt file
+  - v12/runs/{surah}/full_context_control/reader_s001_b_ayah_walk.md" 
+  - v11/run/{surah}/09-final-report.md 
+  - v11/run/{surah}/06-mechanism.md 
+  
+  
+  
+  why didn't you keep all suprise elements - what's the root cause for the poor performance? Here is a review of your poor performance report: "Gold is finding-first. test-v1 is synthesis-first.
+    Gold gives each surprise a sharp independent unit:
+    “Look: this root has an unexpected branch. Look where it sits. Now the ayah changes.”
+
+    test-v1 gives a consolidated reading:
+    “Here is the whole channel; here are the roots contributing to it; here is how the passage moves.”
+
+    So yes: test-v1 is longer and more consolidated, but the deeper difference is compression style.
+    Gold’s surprise style:
+
+    - Shorter findings.
+    - Stronger hook in the heading.
+    - The surprising branch appears early.
+    - The local adjacency is foregrounded.
+    - Each paragraph has one main shock.
+    - It does not over-explain the whole mechanism.
+    - It often says, in effect: “This one lexical fact changes how you hear the passage.”
+
+    Example pattern from gold:
+    “ع ب د contains prepared/trodden road, and it appears immediately before the explicit road request. Therefore worship itself prepares
+    the path.”
+
+    That is compact, memorable, and surprising.
+
+    test-v1’s style:
+    - Longer findings.
+    - More roots per paragraph.
+    - More passage-wide integration.
+    - More careful boundary management.
+    - More explanation of why the finding does not replace the primary reading.
+    - Less immediate punch, more coherent architecture.
+
+    Example pattern from test-v1:
+    “Worship, help, guidance, path, uprightness, support, bodily movement, and leading all form an infrastructure of guided movement.”
+    That is more complete, but less surprising at the sentence level.
+    So the gold standard has higher “surprise-per-paragraph.” test-v3 has higher “system coherence.”
+
+    The ideal target should probably be:
+    - Gold-style finding hooks.
+    - test-v1’s responsible synthesis.
+    - Less length per finding.
+    - One surprise first, then only enough explanation to show passage-level effect.
+    - Keep consolidated synthesis for the final transition, not inside every finding.
+  ". then tell me if you can achieve intended target and create v2 if you are confident
+  
+  
+  
+  now this is good but too atomized and we do not need grading. now think as if you are a cutting-edge cinema director using all cinematic elements of a masterpiece
+  appropriately: using all findings find main story axes, move your camera to focus on hooks and suprising elements, create hook-only /
+  suprising-packed  narrative paragraphs and hooks connecting one paragraph to another, zoom out time to time to make sure the user/
+  viewer is not disoriented. each paragraph and sentence must earn its place. at the end, make sure to revisit the primary reading and
+  revisit main story axes for how they now change the reading in a non-dense yet memorible style. total prose length or number of
+  paragraphs per main story axis and last revisit should make sure that the user can still follow the whole experience without too-much
+  cognitive load or disruption due to shart camera movements, but also not too long to prevent user from over-loaded or bored. 
+  make sure to name the axis headings into surprise headings and make each section open with the sharpest lexical fact. your root cause for
+  failure is to be more conservative - v2 as v3 but this time be the bold cinema director. here are the movements that should be bold:
+  - image-first paragraphs;
+  - root evidence after the image, not before;
+  - fewer “kökü/dalı” explanatory openings;
+  - present-tense unfolding;
+  - each finding staged as a scene;
+  - no loss of gold surprise;
+  - final replay as a visual sequence, not a summary.
+  
+  Be bold, not conservative.
