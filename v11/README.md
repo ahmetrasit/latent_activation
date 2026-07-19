@@ -143,6 +143,16 @@ Manual Qnet entries created during v11 orchestration:
 | `س ه و` | `root_003249` | manual from Furūq v4 | S107 had Furūq branches but zero Qnet nodes for the QAC/Furūq root; Qnet had no same-root key variant. | `B001` heedlessness mapped to memory/cognition/worship themes; `B002` stillness to stability/motion contrast; `B003` overlooking faults to social/ethics; `B004` porch/rack to place/tools; `B005` hidden star to perception/visual/proof-uncertainty; `B006` pregnancy during menstruation to sexuality/reproduction/physiology. |
 | `م ع ن` | `root_004706` | manual from Furūq v4 | S107 had Furūq branches but zero Qnet nodes for the QAC/Furūq root; Qnet had no same-root key variant. | `B001` flowing water mapped to water/motion/provision; `B002` far running to motion/animal/livestock; `B003` small/easy/light to value/scarcity; `B004` right handling to justice/obligation/agency/control; `B005` maʿūn benefit/tools/zakat/obedience/water to tools/provision/welfare/obligation/worship/water; `B006` dwelling to place/social habitation. |
 
+Whole-corpus QAC→Qnet coverage sweep:
+
+- On 2026-07-19, `v11/audits/qac-qnet-root-coverage-2026-07-19.json` found 17 QAC/Furūq roots with no Qnet nodes and 288 additional roots with partial Furūq branch gaps.
+- The fix filled 448 missing Furūq branch ports with generated Qnet `nodes`, `theme_keyword_nodes`, `branch_theme_inventory`, `root_theme_inventory`, and regenerated `theme_inventory` rows.
+- Generated rows use only leaf themes from `theme_taxonomy`. Parent-theme bridges remain disabled and are not evidence.
+- Generated keyword rows use the prefix `furuq_qac_sweep__`; assignment is deterministic and recall-forward over Furūq `branch_image_en` + `what_is_en`, capped at four leaf themes per missing branch.
+- Full per-branch assignments are documented in `v11/audits/qac-qnet-root-coverage-2026-07-19.fix-manifest.json`; the compact summary is `v11/audits/qac-qnet-root-coverage-2026-07-19.fix-manifest.md`.
+- A follow-up FK repair restored 52 missing `bridge_keyword_theme` parent rows for earlier manual keyword memberships on `س ه و`, `م ع ن`, and `ن و س`; see `v11/audits/qnet-fk-repair-2026-07-19.json`.
+- The after-fix audit is `v11/audits/qac-qnet-root-coverage-2026-07-19.after-fix.json`: `qnet_present=1633`, `qnetless_root=0`, `partial_branch_gap=0`, `foreign_key_failures=0`. The remaining 9 roots are unresolved QAC→Furūq key cases, not Qnet node gaps.
+
 ## Outputs
 
 ```text
