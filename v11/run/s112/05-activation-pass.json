@@ -1,491 +1,1161 @@
 {
-  "schema": "v11.activation_pass.integrated.v1",
   "passage": {
     "surah": 112,
     "ayah_start": 1,
     "ayah_end": 4
   },
   "activation_bias": "recall_first",
-  "source_agents": [
-    {
-      "id": "019f73b5-14b4-7c11-b15b-bfadbd23444d",
-      "nickname": "Anscombe",
-      "role": "A: broad branch activation pass"
-    },
-    {
-      "id": "019f73b5-1550-7d73-939e-e633ff2fe1d1",
-      "nickname": "Godel",
-      "role": "B: secondary/surprise expansion"
-    }
-  ],
-  "integration_policy": {
-    "mode": "union",
-    "conservative_pruning": false,
-    "rule": "If either fresh agent finds a plausible activation, preserve it. If labels differ, keep the stronger or more discovery-oriented reading unless contradicted by the root audit.",
-    "activation_labels": {
-      "A": "surface-active / structurally necessary",
-      "B": "strong secondary activation",
-      "C/B": "borderline strong secondary; preserve prominently",
-      "C": "exploratory latent activation worth inspecting",
-      "S": "currently silent in this passage",
-      "X": "data issue"
-    }
-  },
-  "root_resolution": {
-    "status": "clean",
-    "resolved_roots": 7,
-    "unresolved_roots": 0,
-    "qnet_layer": "bridge_theme_full",
-    "q2_relations_present": false,
-    "branch_ids_invented": false
-  },
-  "surface_mechanism": [
-    "قُلْ frames the surah as commanded public proclamation and identity-definition.",
-    "الله أحد establishes unique identity; the final أحد extends negation exhaustively to any possible counterpart.",
-    "الصمد activates dependence, solidity, sealing, supervision, and endurance as mutually reinforcing readings.",
-    "لم يلد ولم يولد blocks offspring, parentage, derivation, generation, temporal origination, and dependency in both directions.",
-    "ولم يكن له كفوا أحد negates counterpart, comparison, status, place, reproductive equivalence, and any diverting rival orientation."
-  ],
   "branches": [
     {
       "root": "ق و ل",
       "branch": "B001",
       "label": "A",
-      "role": "commanded utterance and proclamation",
-      "discovery_value": "low",
-      "evidence": ["surface قل"],
-      "activates": ["ق و ل B007", "ق و ل B013", "ق و ل B016", "و ل د B005"]
+      "role": "the commanded, articulated proclamation of the surah's divine predicates",
+      "mechanical_discovery_refs": [
+        "ق و ل B001 ↔ و ل د B005",
+        "ق و ل B001 ↔ ك ف ء B003",
+        "ق و ل B001 ↔ ء ل ه B002"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ل ه",
+          "branch": "B002",
+          "evidence": [
+            "the imperative introduces an articulated statement using the fixed divine name"
+          ]
+        }
+      ],
+      "notes": "Direct surface force of qul; structurally necessary as the command to utter the creed."
     },
     {
       "root": "ق و ل",
       "branch": "B002",
       "label": "C/B",
-      "role": "speech instrument and voiced divine naming",
-      "discovery_value": "medium",
-      "evidence": ["bridge to ء ل ه B002 through grammar_expression and language_speech"],
-      "activates": ["ء ل ه B002", "ك ف ء B003"]
+      "role": "the tongue and voice as the instrument carrying the divine-name formula",
+      "mechanical_discovery_refs": [
+        "ق و ل B002 ↔ ء ل ه B002",
+        "ق و ل B002 ↔ ك و ن B005",
+        "ق و ل B002 ↔ و ل د B005",
+        "ق و ل B002 ↔ ك ف ء B003"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ل ه",
+          "branch": "B002",
+          "evidence": [
+            "shared language and speech field around the uttered name Allah"
+          ]
+        }
+      ],
+      "notes": "Speech is explicit, but no anatomical tongue or voice is named; retained at C/B."
     },
     {
       "root": "ق و ل",
       "branch": "B003",
       "label": "C",
-      "role": "intensive or repeated speech",
-      "discovery_value": "low",
-      "evidence": ["same-root communication/rhetoric cluster"]
+      "role": "a speaker characterized by abundant or socially circulating speech",
+      "mechanical_discovery_refs": [
+        "ق و ل B003 ↔ ء ح د B005"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ح د",
+          "branch": "B005",
+          "evidence": [
+            "shared social-personhood field"
+          ]
+        }
+      ],
+      "notes": "The passage commands one utterance, not talkativeness; preserved as exploratory social speech."
     },
     {
       "root": "ق و ل",
       "branch": "B004",
-      "label": "C/B",
-      "role": "authoritative word whose declaration has force",
-      "discovery_value": "high",
-      "evidence": ["bridges to ء ل ه B001 authority, ص م د B005 governance, ك و ن B002 hierarchy"],
-      "activates": ["ق و ل B010", "ص م د B005", "ك و ن B002"]
+      "label": "C",
+      "role": "a titled human chief whose word has political force, contrasted with divine authority",
+      "mechanical_discovery_refs": [
+        "ق و ل B004 ↔ ص م د B005",
+        "ق و ل B004 ↔ ك و ن B002",
+        "ق و ل B004 ↔ ء ل ه B001"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ل ه",
+          "branch": "B001",
+          "evidence": [
+            "shared authority field"
+          ]
+        }
+      ],
+      "notes": "Authority is relevant, but no Yemeni title, ruler, or human chief appears."
     },
     {
       "root": "ق و ل",
       "branch": "B005",
-      "label": "C",
-      "role": "false-attribution counter-reading",
-      "discovery_value": "medium",
-      "evidence": ["contrastive truth-function of the proclamation"]
+      "label": "B",
+      "role": "false attribution rejected by the declarations of no offspring, origin, or equal",
+      "mechanical_discovery_refs": [],
+      "activated_by": [
+        {
+          "root": "و ل د",
+          "branch": "B001",
+          "evidence": [
+            "the explicit negation rejects attributing offspring to Allah"
+          ]
+        },
+        {
+          "root": "ك ف ء",
+          "branch": "B001",
+          "evidence": [
+            "the final negation rejects attributing an equal counterpart"
+          ]
+        }
+      ],
+      "notes": "Strong polemical underlay; the surah corrects false divine attribution without quoting an opponent."
     },
     {
       "root": "ق و ل",
       "branch": "B006",
-      "label": "C",
-      "role": "appropriated or self-attributed saying",
-      "discovery_value": "medium",
-      "evidence": ["bridge to ء ح د B005 through agency_action and identity_personhood"]
+      "label": "C/B",
+      "role": "drawing the commanded doctrine to oneself as an owned confession and responsibility",
+      "mechanical_discovery_refs": [
+        "ق و ل B006 ↔ ء ح د B005",
+        "ق و ل B006 ↔ و ل د B004",
+        "ق و ل B006 ↔ و ل د B006",
+        "ق و ل B006 ↔ ك و ن B005"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ح د",
+          "branch": "B005",
+          "evidence": [
+            "shared agency and identity field"
+          ]
+        }
+      ],
+      "notes": "A plausible confessional underlay to qul, but the idiom of appropriating a saying is not explicit."
     },
     {
       "root": "ق و ل",
       "branch": "B007",
       "label": "B",
-      "role": "publicly circulating proclamation",
-      "discovery_value": "medium",
-      "evidence": ["قل initiates outward speech"],
-      "activates": ["ق و ل B013", "ء ح د B001"]
+      "role": "the monotheistic declaration entering public circulation through the command to say",
+      "mechanical_discovery_refs": [
+        "ق و ل B007 ↔ ء ح د B005"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ح د",
+          "branch": "B001",
+          "evidence": [
+            "the proclaimed content is Allah's absolute oneness"
+          ]
+        }
+      ],
+      "notes": "Qul gives the creed a public-report function; no rumor or uncontrolled gossip is asserted."
     },
     {
       "root": "ق و ل",
       "branch": "B008",
       "label": "C",
-      "role": "material tool and impact underlay",
-      "discovery_value": "high",
-      "evidence": ["rare bridge to ص م د B003 through craft/tools_equipment and to ص م د B002 through material"],
-      "activates": ["ص م د B002", "ص م د B003"],
-      "note": "Preserved as a surprise candidate, not as a primary gloss."
+      "role": "stick, striking tool, and material-game cluster",
+      "mechanical_discovery_refs": [
+        "ق و ل B008 ↔ ص م د B003",
+        "ق و ل B008 ↔ ص م د B002",
+        "ق و ل B008 ↔ ك ف ء B004"
+      ],
+      "activated_by": [
+        {
+          "root": "ص م د",
+          "branch": "B003",
+          "evidence": [
+            "strong craft and tool bridge"
+          ]
+        }
+      ],
+      "notes": "High mechanical discovery value, but no game, stick, craft, or tool occurs locally."
     },
     {
       "root": "ق و ل",
       "branch": "B009",
       "label": "C",
-      "role": "negotiated speech as a counterframe",
-      "discovery_value": "medium",
-      "evidence": ["bridge to ك ف ء B001 through exchange, communication, reasoning, and social relation"]
+      "role": "mutual verbal negotiation as a contrast to the surah's unilateral declaration",
+      "mechanical_discovery_refs": [],
+      "activated_by": [
+        {
+          "root": "ق و ل",
+          "branch": "B001",
+          "evidence": [
+            "the command establishes speech without narrating deliberation"
+          ]
+        }
+      ],
+      "notes": "No negotiation, bargain, or dialogue is present."
     },
     {
       "root": "ق و ل",
       "branch": "B010",
       "label": "C/B",
-      "role": "declarative authority and judgment",
-      "discovery_value": "high",
-      "evidence": ["bridges to ك و ن B004 domination/power and ص م د B006 conflict/force"],
-      "activates": ["ك و ن B004", "ص م د B005", "ك ف ء B001"]
+      "role": "humanly arrogated judgment corrected by the declaration of divine uniqueness",
+      "mechanical_discovery_refs": [
+        "ق و ل B010 ↔ ك و ن B004",
+        "ق و ل B010 ↔ ص م د B006",
+        "ق و ل B010 ↔ ق و ل B013"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ل ه",
+          "branch": "B001",
+          "evidence": [
+            "divine authority contrasts with imposed human judgment"
+          ]
+        }
+      ],
+      "notes": "Relevant as a rejected authority posture; no human judge or coercive act is narrated."
     },
     {
       "root": "ق و ل",
       "branch": "B011",
-      "label": "C",
-      "role": "supposition contrasted with categorical assertion",
-      "discovery_value": "medium",
-      "evidence": ["bridge to ك و ن B001 through cognition, grammar_expression, and language_speech"]
+      "label": "C/B",
+      "role": "suppositional saying contrasted with the surah's unqualified assertions",
+      "mechanical_discovery_refs": [
+        "ق و ل B011 ↔ ء ل ه B002",
+        "ق و ل B011 ↔ و ل د B005",
+        "ق و ل B011 ↔ ك و ن B001"
+      ],
+      "activated_by": [
+        {
+          "root": "ك و ن",
+          "branch": "B001",
+          "evidence": [
+            "shared grammar and predication field"
+          ]
+        }
+      ],
+      "notes": "Epistemic contrast is useful, but qul is imperative assertion rather than grammatical supposition."
     },
     {
       "root": "ق و ل",
       "branch": "B012",
-      "label": "C",
-      "role": "inner saying contrasted with commanded articulation",
-      "discovery_value": "medium",
-      "evidence": ["bridge to ك ف ء B003 through language_speech"]
+      "label": "C/B",
+      "role": "inner confession brought from concealment into commanded speech",
+      "mechanical_discovery_refs": [
+        "ق و ل B012 ↔ ء ل ه B002",
+        "ق و ل B012 ↔ و ل د B005",
+        "ق و ل B012 ↔ ك ف ء B003"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ل ه",
+          "branch": "B002",
+          "evidence": [
+            "the divine name links inward belief and spoken formula"
+          ]
+        }
+      ],
+      "notes": "A plausible interior-to-public contrast; no heart or secret thought is explicitly named."
     },
     {
       "root": "ق و ل",
       "branch": "B013",
       "label": "B",
-      "role": "doctrinal confession",
-      "discovery_value": "medium",
-      "evidence": ["bridge to ء ل ه B001 through belief_revelation and religion_worship"],
-      "activates": ["ء ل ه B001", "ء ح د B001", "ق و ل B016"]
+      "role": "the surah as a compact held doctrine of divine oneness",
+      "mechanical_discovery_refs": [
+        "ق و ل B013 ↔ ء ل ه B001",
+        "ق و ل B013 ↔ ء ح د B001",
+        "ق و ل B010 ↔ ق و ل B013"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ل ه",
+          "branch": "B001",
+          "evidence": [
+            "shared religion and theology field"
+          ]
+        },
+        {
+          "root": "ء ح د",
+          "branch": "B001",
+          "evidence": [
+            "the doctrine's central content is absolute oneness"
+          ]
+        }
+      ],
+      "notes": "Strong doctrinal function beneath the direct act of saying."
     },
     {
       "root": "ق و ل",
       "branch": "B014",
-      "label": "C/B",
-      "role": "predicates functioning as indications",
-      "discovery_value": "high",
-      "evidence": ["bridge to ك ف ء B003 through language_speech, perception, and rhetoric_discourse"],
-      "activates": ["ك ف ء B003", "ص م د B007"]
+      "label": "B",
+      "role": "the predicates One, al-Samad, unbegotten, and unequal functioning as indications",
+      "mechanical_discovery_refs": [],
+      "activated_by": [
+        {
+          "root": "ء ح د",
+          "branch": "B001",
+          "evidence": [
+            "the predicate ahad signifies divine uniqueness"
+          ]
+        },
+        {
+          "root": "ص م د",
+          "branch": "B001",
+          "evidence": [
+            "al-Samad signifies absolute resort and dependence structure"
+          ]
+        }
+      ],
+      "notes": "Strong semiotic underlay: the things said function as signs without replacing their predicates."
     },
     {
       "root": "ق و ل",
       "branch": "B015",
-      "label": "C/B",
-      "role": "earnest concern, responsibility, and stewardship",
-      "discovery_value": "high",
-      "evidence": ["bridges to ص م د B005 responsibility/stewardship and ك و ن B003 care"],
-      "activates": ["ص م د B005", "ك و ن B003"]
+      "label": "B",
+      "role": "earnest care, devotion, and stewardship in preserving and proclaiming the creed",
+      "mechanical_discovery_refs": [
+        "ق و ل B015 ↔ ص م د B005",
+        "ق و ل B015 ↔ ك و ن B003",
+        "ق و ل B015 ↔ ء ل ه B002"
+      ],
+      "activated_by": [
+        {
+          "root": "ص م د",
+          "branch": "B005",
+          "evidence": [
+            "shared responsibility and stewardship field"
+          ]
+        },
+        {
+          "root": "ء ل ه",
+          "branch": "B002",
+          "evidence": [
+            "shared devotion and obligation field"
+          ]
+        }
+      ],
+      "notes": "The command implies responsible transmission; no separate care scene is asserted."
     },
     {
       "root": "ق و ل",
       "branch": "B016",
       "label": "B",
-      "role": "definition of identity or essence",
-      "discovery_value": "high",
-      "evidence": ["bridge to ء ح د B002 through logic", "bridge to ك و ن B001 through ontology"],
-      "activates": ["ء ح د B001", "ء ح د B002", "ك و ن B001", "و ل د B005"]
+      "role": "a concise definition of divine identity and the limits of valid comparison",
+      "mechanical_discovery_refs": [
+        "ق و ل B016 ↔ ء ح د B002",
+        "ق و ل B016 ↔ ك و ن B001"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ح د",
+          "branch": "B002",
+          "evidence": [
+            "exhaustive negation supplies logical scope"
+          ]
+        },
+        {
+          "root": "ك و ن",
+          "branch": "B001",
+          "evidence": [
+            "being and predication supply an ontological-definition field"
+          ]
+        }
+      ],
+      "notes": "Strong definitional function, though the technical logicians' terminology is not surface language."
     },
     {
       "root": "ق و ل",
       "branch": "B017",
       "label": "C/B",
-      "role": "inspired or revealed saying",
-      "discovery_value": "high",
-      "evidence": ["branch image fits commanded revelatory discourse"],
-      "activates": ["ق و ل B001", "ق و ل B013"]
+      "role": "inspired meaning received and then externalized by the command qul",
+      "mechanical_discovery_refs": [],
+      "activated_by": [
+        {
+          "root": "ق و ل",
+          "branch": "B001",
+          "evidence": [
+            "a commanded proclamation can presuppose a received message"
+          ]
+        }
+      ],
+      "notes": "Furuq-only and without bridge-theme membership; plausible revelation underlay, not a primary gloss."
     },
     {
       "root": "ء ل ه",
       "branch": "B001",
       "label": "A",
-      "role": "the worshipped deity",
-      "discovery_value": "low",
-      "evidence": ["surface الله", "bridge to ق و ل B013 through religion/theology"],
-      "activates": ["ء ح د B001", "ص م د B001", "ك و ن B004"]
+      "role": "Allah as the sole worshipped deity named and described by the surah",
+      "mechanical_discovery_refs": [
+        "ق و ل B013 ↔ ء ل ه B001",
+        "ء ل ه B001 ↔ ك و ن B004"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ح د",
+          "branch": "B001",
+          "evidence": [
+            "absolute oneness specifies the named deity"
+          ]
+        },
+        {
+          "root": "ص م د",
+          "branch": "B001",
+          "evidence": [
+            "all resort and dependence are directed to Allah"
+          ]
+        }
+      ],
+      "notes": "Surface-active through the repeated proper name Allah and the surah's theological predication."
     },
     {
       "root": "ء ل ه",
       "branch": "B002",
       "label": "A",
-      "role": "fixed divine name anchoring the definition",
-      "discovery_value": "medium",
-      "evidence": ["surface proper name الله", "bridge to ق و ل B002 through language/speech"],
-      "activates": ["ق و ل B002", "ق و ل B016", "ء ح د B001", "ك ف ء B003"]
+      "role": "Allah as the fixed divine name uttered twice in the creed",
+      "mechanical_discovery_refs": [
+        "ق و ل B002 ↔ ء ل ه B002",
+        "ق و ل B015 ↔ ء ل ه B002",
+        "ء ل ه B002 ↔ ك و ن B005"
+      ],
+      "activated_by": [
+        {
+          "root": "ق و ل",
+          "branch": "B001",
+          "evidence": [
+            "the proper name occurs inside the commanded utterance"
+          ]
+        }
+      ],
+      "notes": "The fixed-name portion is direct; oath and vocative subuses are not asserted."
     },
     {
       "root": "ء ح د",
       "branch": "B001",
       "label": "A",
-      "role": "unique and indivisible identity",
-      "discovery_value": "low",
-      "evidence": ["surface أحد in 112:1", "bridge to ك و ن B005 through identity"],
-      "activates": ["ك ف ء B001", "و ل د B006", "ك و ن B005"]
+      "role": "absolute, attributive divine oneness in verse 1",
+      "mechanical_discovery_refs": [
+        "ء ح د B001 ↔ و ل د B006",
+        "ء ح د B001 ↔ ك و ن B005",
+        "ق و ل B013 ↔ ء ح د B001"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ل ه",
+          "branch": "B001",
+          "evidence": [
+            "the named deity is predicated as absolutely one"
+          ]
+        },
+        {
+          "root": "ك ف ء",
+          "branch": "B001",
+          "evidence": [
+            "the absence of any equal reinforces uniqueness"
+          ]
+        }
+      ],
+      "notes": "Direct sense of the first ahad and structurally central to the surah."
     },
     {
       "root": "ء ح د",
       "branch": "B002",
       "label": "A",
-      "role": "exhaustive negative anyone",
-      "discovery_value": "high",
-      "evidence": ["final أحد under ولم يكن", "bridge to ق و ل B016 through logic"],
-      "activates": ["ك ف ء B001", "ك و ن B001", "و ل د B005"]
+      "role": "exhaustive anyone under negation in the final verse",
+      "mechanical_discovery_refs": [
+        "ق و ل B016 ↔ ء ح د B002"
+      ],
+      "activated_by": [
+        {
+          "root": "ك ف ء",
+          "branch": "B001",
+          "evidence": [
+            "lam yakun and ahad make the denial of any equal exhaustive"
+          ]
+        }
+      ],
+      "notes": "Direct grammatical force of the second ahad in a negated clause."
     },
     {
       "root": "ء ح د",
       "branch": "B003",
-      "label": "C",
-      "role": "numerical one",
-      "discovery_value": "low",
-      "evidence": ["same-root quantity and sequence cluster"]
+      "label": "C/B",
+      "role": "arithmetic one retained as a contrast to non-composite, non-countable uniqueness",
+      "mechanical_discovery_refs": [],
+      "activated_by": [
+        {
+          "root": "ء ح د",
+          "branch": "B001",
+          "evidence": [
+            "same-root contrast between absolute oneness and counted one"
+          ]
+        }
+      ],
+      "notes": "No counting construction appears; useful chiefly to prevent reducing ahad to numerical one."
     },
     {
       "root": "ء ح د",
       "branch": "B004",
-      "label": "C",
-      "role": "firstness or one-of relation",
-      "discovery_value": "medium",
-      "evidence": ["bridge to ك و ن B005 through time/sequence"]
+      "label": "C/B",
+      "role": "firstness and temporal ordering denied any genealogical beginning",
+      "mechanical_discovery_refs": [
+        "ء ح د B004 ↔ ك و ن B005",
+        "ء ح د B004 ↔ ك و ن B001"
+      ],
+      "activated_by": [
+        {
+          "root": "ك و ن",
+          "branch": "B001",
+          "evidence": [
+            "shared time and sequence field"
+          ]
+        },
+        {
+          "root": "و ل د",
+          "branch": "B003",
+          "evidence": [
+            "birth would impose temporal origin, which the verse negates"
+          ]
+        }
+      ],
+      "notes": "Temporal firstness is a plausible underlay; no Sunday, calendar, or ordinal expression appears."
     },
     {
       "root": "ء ح د",
       "branch": "B005",
-      "label": "C/B",
-      "role": "individuality and separation from any class of peers",
-      "discovery_value": "high",
-      "evidence": ["bridge to ق و ل B006 through agency/identity", "bridge to ك ف ء B002 through motion"],
-      "activates": ["ك ف ء B001", "و ل د B006"]
+      "label": "B",
+      "role": "peerless individuality without a second, offspring, or counterpart",
+      "mechanical_discovery_refs": [
+        "ق و ل B006 ↔ ء ح د B005",
+        "ء ح د B005 ↔ ك و ن B003",
+        "ء ح د B005 ↔ ك ف ء B002"
+      ],
+      "activated_by": [
+        {
+          "root": "ك ف ء",
+          "branch": "B001",
+          "evidence": [
+            "the explicit denial of an equal activates peerless individuality"
+          ]
+        },
+        {
+          "root": "و ل د",
+          "branch": "B001",
+          "evidence": [
+            "the denial of offspring excludes genealogical plurality"
+          ]
+        }
+      ],
+      "notes": "Strong uniqueness underlay; not an assertion of social loneliness or spatial isolation."
     },
     {
       "root": "ء ح د",
       "branch": "B006",
-      "label": "S",
-      "role": "Mount Uhud",
-      "discovery_value": "low",
-      "evidence": ["no passage-specific geographic trigger"]
+      "label": "C",
+      "role": "Mount Uhud as a remote place-name branch",
+      "mechanical_discovery_refs": [
+        "ء ح د B006 ↔ ك و ن B002"
+      ],
+      "activated_by": [
+        {
+          "root": "ك و ن",
+          "branch": "B002",
+          "evidence": [
+            "shared place and location field"
+          ]
+        }
+      ],
+      "notes": "No mountain, Medina, battle, or geographic location is present."
     },
     {
       "root": "ص م د",
       "branch": "B001",
       "label": "A",
-      "role": "the relied-on destination of dependence",
-      "discovery_value": "low",
-      "evidence": ["surface الصمد", "bridges to ك و ن B004 dependence and ك ف ء B002 orientation"],
-      "activates": ["ك و ن B003", "ك و ن B004", "و ل د B004"]
+      "role": "Allah as the one intended, resorted to, and relied upon for every need",
+      "mechanical_discovery_refs": [
+        "ص م د B001 ↔ ك ف ء B002",
+        "ص م د B001 ↔ ك و ن B004",
+        "ص م د B001 ↔ و ل د B004",
+        "ص م د B001 ↔ ك و ن B003"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ل ه",
+          "branch": "B001",
+          "evidence": [
+            "the divine name is directly predicated as al-Samad"
+          ]
+        },
+        {
+          "root": "ك و ن",
+          "branch": "B003",
+          "evidence": [
+            "support and patronage clarify universal resort"
+          ]
+        }
+      ],
+      "notes": "Primary lexical-theological sense of al-Samad."
     },
     {
       "root": "ص م د",
       "branch": "B002",
       "label": "B",
-      "role": "compact solidity without internal lack",
-      "discovery_value": "high",
-      "evidence": ["rare bridge to ق و ل B008 through material", "bridge to ك ف ء B004 through architecture_construction"],
-      "activates": ["ص م د B003", "ك ف ء B004", "و ل د B005"]
+      "role": "compact, non-hollow solidity as a material analogy for indivisibility and needlessness",
+      "mechanical_discovery_refs": [
+        "ق و ل B008 ↔ ص م د B002"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ح د",
+          "branch": "B001",
+          "evidence": [
+            "absolute oneness activates non-composite solidity as a lexical underlay"
+          ]
+        },
+        {
+          "root": "و ل د",
+          "branch": "B005",
+          "evidence": [
+            "non-generation contrasts with divisible or derived composition"
+          ]
+        }
+      ],
+      "notes": "Classical lexical branch retained strongly, but material density is analogical rather than a bodily claim."
     },
     {
       "root": "ص م د",
       "branch": "B003",
-      "label": "B",
-      "role": "sealed closure and containment",
-      "discovery_value": "high",
-      "evidence": ["bridge to ق و ل B008 through craft/tools_equipment", "bridge to ك ف ء B004 through containment/craft"],
-      "activates": ["ص م د B002", "ك ف ء B004", "ك ف ء B002", "و ل د B005"]
+      "label": "C",
+      "role": "tight stopper, sealed container, and closure cluster",
+      "mechanical_discovery_refs": [
+        "ق و ل B008 ↔ ص م د B003",
+        "ص م د B003 ↔ ك ف ء B004",
+        "ص م د B003 ↔ ك ف ء B002"
+      ],
+      "activated_by": [
+        {
+          "root": "ك ف ء",
+          "branch": "B004",
+          "evidence": [
+            "rare containment and craft bridge"
+          ]
+        }
+      ],
+      "notes": "Top-ranked mechanically, but no bottle, stopper, liquid, storage, or sealing act occurs."
     },
     {
       "root": "ص م د",
       "branch": "B004",
-      "label": "C/B",
-      "role": "compression, binding, and protective covering",
-      "discovery_value": "medium",
-      "evidence": ["bridges to ك و ن B003 and ق و ل B015 through care"],
-      "activates": ["ك و ن B003", "ص م د B003"]
+      "label": "C",
+      "role": "head wrapping, wound care, and textile restraint cluster",
+      "mechanical_discovery_refs": [
+        "ق و ل B015 ↔ ص م د B004",
+        "ص م د B004 ↔ ك و ن B003"
+      ],
+      "activated_by": [
+        {
+          "root": "ك و ن",
+          "branch": "B003",
+          "evidence": [
+            "shared care field"
+          ]
+        }
+      ],
+      "notes": "Care is thematically present through reliance, but no head cloth, wound, or medical act appears."
     },
     {
       "root": "ص م د",
       "branch": "B005",
       "label": "B",
-      "role": "supervision and sustained attention to affairs",
-      "discovery_value": "high",
-      "evidence": ["bridge to ق و ل B015 through responsibility/stewardship"],
-      "activates": ["ق و ل B004", "ق و ل B015", "ك و ن B003"]
+      "role": "sovereign attention, oversight, and responsible management of every affair",
+      "mechanical_discovery_refs": [
+        "ق و ل B015 ↔ ص م د B005",
+        "ق و ل B004 ↔ ص م د B005",
+        "ق و ل B010 ↔ ص م د B005"
+      ],
+      "activated_by": [
+        {
+          "root": "ق و ل",
+          "branch": "B015",
+          "evidence": [
+            "shared responsibility and stewardship field"
+          ]
+        },
+        {
+          "root": "ء ل ه",
+          "branch": "B001",
+          "evidence": [
+            "divine authority supports sovereign oversight"
+          ]
+        }
+      ],
+      "notes": "Strong administrative-attention underlay to the relied-on Lord; not a temporal claim that an affair is merely imminent."
     },
     {
       "root": "ص م د",
       "branch": "B006",
       "label": "C",
-      "role": "impact and force underlay",
-      "discovery_value": "medium",
-      "evidence": ["bridges to ق و ل B010 and ك ف ء B001 through conflict/force"]
+      "role": "striking, punishment, and weapon-force cluster",
+      "mechanical_discovery_refs": [
+        "ق و ل B010 ↔ ص م د B006",
+        "ص م د B006 ↔ ك ف ء B001"
+      ],
+      "activated_by": [
+        {
+          "root": "ق و ل",
+          "branch": "B010",
+          "evidence": [
+            "shared conflict and force field"
+          ]
+        }
+      ],
+      "notes": "No blow, stick, punishment, battle, or injury occurs."
     },
     {
       "root": "ص م د",
       "branch": "B007",
-      "label": "B",
-      "role": "endurance and continuance under severity",
-      "discovery_value": "high",
-      "evidence": ["bridges to ك و ن B006 scarcity and ك ف ء B005 provision/resource"],
-      "activates": ["ك و ن B001", "ك ف ء B005"]
+      "label": "C/B",
+      "role": "endurance and continuance under conditions that exhaust dependent beings",
+      "mechanical_discovery_refs": [],
+      "activated_by": [
+        {
+          "root": "ك و ن",
+          "branch": "B001",
+          "evidence": [
+            "being and temporal continuance"
+          ]
+        },
+        {
+          "root": "و ل د",
+          "branch": "B003",
+          "evidence": [
+            "negated birth removes a temporal point of origin"
+          ]
+        }
+      ],
+      "notes": "Continuance is the plausible underlay; camel, drought, milk, and climate details remain remote."
     },
     {
       "root": "و ل د",
       "branch": "B001",
       "label": "A",
-      "role": "offspring and descent",
-      "discovery_value": "low",
-      "evidence": ["surface يلد and يولد"],
-      "activates": ["و ل د B002", "و ل د B003", "ك ف ء B005"]
+      "role": "offspring explicitly denied by lam yalid",
+      "mechanical_discovery_refs": [
+        "و ل د B001 ↔ و ل د B002",
+        "و ل د B001 ↔ ك ف ء B005"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ح د",
+          "branch": "B001",
+          "evidence": [
+            "absolute oneness excludes genealogical multiplication"
+          ]
+        }
+      ],
+      "notes": "Negated but surface-active and structurally necessary."
     },
     {
       "root": "و ل د",
       "branch": "B002",
-      "label": "B",
-      "role": "parenthood by birth relation",
-      "discovery_value": "medium",
-      "evidence": ["active/passive birth symmetry", "same-root family/kinship/genealogy/reproduction bridge"],
-      "activates": ["و ل د B001", "و ل د B004"]
+      "label": "A",
+      "role": "parental ancestry excluded by the passive lam yulad",
+      "mechanical_discovery_refs": [
+        "و ل د B001 ↔ و ل د B002",
+        "و ل د B002 ↔ ك ف ء B005",
+        "و ل د B002 ↔ و ل د B004"
+      ],
+      "activated_by": [
+        {
+          "root": "و ل د",
+          "branch": "B003",
+          "evidence": [
+            "being born entails a parent relation, which the verse negates"
+          ]
+        }
+      ],
+      "notes": "The parent relation is not named as a noun but is structurally entailed and denied."
     },
     {
       "root": "و ل د",
       "branch": "B003",
       "label": "A",
-      "role": "event of birth, emergence, and delivery",
-      "discovery_value": "medium",
-      "evidence": ["surface active يلد and passive يولد", "bridge to ك ف ء B005 reproduction/sequence"],
-      "activates": ["و ل د B005", "ك ف ء B005"]
+      "role": "the event of begetting and birth denied in both active and passive directions",
+      "mechanical_discovery_refs": [
+        "و ل د B003 ↔ ك ف ء B005",
+        "و ل د B003 ↔ و ل د B005"
+      ],
+      "activated_by": [
+        {
+          "root": "ك و ن",
+          "branch": "B001",
+          "evidence": [
+            "birth would mark an event and temporal beginning in being"
+          ]
+        }
+      ],
+      "notes": "Direct verbal event underlying yalid and yulad, explicitly negated."
     },
     {
       "root": "و ل د",
       "branch": "B004",
       "label": "B",
-      "role": "dependent child and subordinate status",
-      "discovery_value": "high",
-      "evidence": ["bridge to ص م د B001 through support_dependence", "bridge to ك و ن B002 through hierarchy_status"],
-      "activates": ["ص م د B001", "ك و ن B002", "ك و ن B003", "ك و ن B004"]
+      "role": "newborn dependency, household status, and owned creaturehood rejected of Allah",
+      "mechanical_discovery_refs": [
+        "ق و ل B006 ↔ و ل د B004",
+        "و ل د B002 ↔ و ل د B004",
+        "ص م د B001 ↔ و ل د B004",
+        "و ل د B004 ↔ ك و ن B002"
+      ],
+      "activated_by": [
+        {
+          "root": "ص م د",
+          "branch": "B001",
+          "evidence": [
+            "the one relied upon cannot occupy the dependent status of a newborn"
+          ]
+        },
+        {
+          "root": "ك و ن",
+          "branch": "B002",
+          "evidence": [
+            "shared dependency and status field"
+          ]
+        }
+      ],
+      "notes": "Strong rejected dependency underlay; slavery and household ownership are not separately asserted."
     },
     {
       "root": "و ل د",
       "branch": "B005",
       "label": "B",
-      "role": "generated, derived, produced, or newly arising entity",
-      "discovery_value": "high",
-      "evidence": ["bridge to و ل د B003 through generation/origin", "bridge to ك ف ء B002 through change_transition"],
-      "activates": ["ق و ل B016", "ك و ن B001", "ك ف ء B002", "ك ف ء B005"]
+      "role": "all generated, derived, originated, or produced being denied of Allah",
+      "mechanical_discovery_refs": [
+        "ق و ل B001 ↔ و ل د B005",
+        "ق و ل B011 ↔ و ل د B005",
+        "و ل د B005 ↔ ك ف ء B002"
+      ],
+      "activated_by": [
+        {
+          "root": "ك و ن",
+          "branch": "B001",
+          "evidence": [
+            "being born would make existence originated or generated"
+          ]
+        },
+        {
+          "root": "ء ح د",
+          "branch": "B001",
+          "evidence": [
+            "absolute oneness resists derivation and composition"
+          ]
+        }
+      ],
+      "notes": "Strong metaphysical expansion of the explicit birth denial; not a claim about linguistic derivation or material mixture."
     },
     {
       "root": "و ل د",
       "branch": "B006",
-      "label": "C/B",
-      "role": "peer of equal birth-age or cohort",
-      "discovery_value": "high",
-      "evidence": ["bridge to ك ف ء B001 through comparison", "bridge to ك و ن B005 through identity/life_stage_aging"],
-      "activates": ["ك ف ء B001", "ء ح د B001", "ك و ن B005"]
+      "label": "B",
+      "role": "same-generation peerhood excluded by absolute oneness and lack of any equal",
+      "mechanical_discovery_refs": [
+        "و ل د B006 ↔ ك و ن B005",
+        "ق و ل B006 ↔ و ل د B006",
+        "ء ح د B001 ↔ و ل د B006",
+        "و ل د B006 ↔ ك ف ء B001"
+      ],
+      "activated_by": [
+        {
+          "root": "ك ف ء",
+          "branch": "B001",
+          "evidence": [
+            "peerhood and comparison are directly excluded by no equal"
+          ]
+        },
+        {
+          "root": "ء ح د",
+          "branch": "B001",
+          "evidence": [
+            "unique identity excludes a same-age or same-generation peer"
+          ]
+        }
+      ],
+      "notes": "Strong comparison underlay; no literal age cohort is asserted."
     },
     {
       "root": "و ل د",
       "branch": "B007",
-      "label": "S",
-      "role": "idiomatic emergency expression",
-      "discovery_value": "low",
-      "evidence": ["no Qnet bridge-theme membership or passage trigger"]
+      "label": "C",
+      "role": "the grave idiom in which a child is not called or corrected",
+      "mechanical_discovery_refs": [],
+      "activated_by": [],
+      "notes": "Furuq-only and without local crisis, abundance, child-calling, or correction scene; retained at C by recall bias."
     },
     {
       "root": "ك و ن",
       "branch": "B001",
       "label": "A",
-      "role": "being, occurrence, and negative predication",
-      "discovery_value": "low",
-      "evidence": ["surface يكن after لم", "bridge to ق و ل B016 through ontology"],
-      "activates": ["ك ف ء B001", "ء ح د B002", "ك و ن B002"]
+      "role": "being and grammatical predication in lam yakun lahu kufuwan ahad",
+      "mechanical_discovery_refs": [
+        "ق و ل B011 ↔ ك و ن B001",
+        "ء ح د B004 ↔ ك و ن B001",
+        "ق و ل B016 ↔ ك و ن B001"
+      ],
+      "activated_by": [
+        {
+          "root": "ك ف ء",
+          "branch": "B001",
+          "evidence": [
+            "the copular clause negates the existence of any equal"
+          ]
+        }
+      ],
+      "notes": "Direct surface function of yakun and structurally necessary for the final predication."
     },
     {
       "root": "ك و ن",
       "branch": "B002",
-      "label": "B",
-      "role": "place, position, and rank",
-      "discovery_value": "high",
-      "evidence": ["bridge to و ل د B004 through status", "bridges to ق و ل B004/B010 through hierarchy"],
-      "activates": ["و ل د B004", "ق و ل B004"]
+      "label": "C/B",
+      "role": "rank and position as a comparison field emptied by the denial of any equal",
+      "mechanical_discovery_refs": [
+        "ء ح د B006 ↔ ك و ن B002",
+        "ق و ل B004 ↔ ك و ن B002",
+        "ق و ل B010 ↔ ك و ن B002",
+        "و ل د B004 ↔ ك و ن B002"
+      ],
+      "activated_by": [
+        {
+          "root": "ك ف ء",
+          "branch": "B001",
+          "evidence": [
+            "equality ordinarily compares position or status, here exhaustively denied"
+          ]
+        }
+      ],
+      "notes": "Status comparison is plausible; no spatial place, settlement, or rank title is named."
     },
     {
       "root": "ك و ن",
       "branch": "B003",
-      "label": "C/B",
-      "role": "suretyship, care, protection, and undertaking responsibility",
-      "discovery_value": "high",
-      "evidence": ["rare bridge to ك ف ء B004 through protection_security", "bridge to ص م د B001 through patronage", "bridge to ق و ل B015 through care"],
-      "activates": ["ص م د B001", "ص م د B005", "ك ف ء B004", "و ل د B004"]
+      "label": "B",
+      "role": "guaranteeing, sustaining, and undertaking the needs of dependent beings",
+      "mechanical_discovery_refs": [
+        "ك و ن B003 ↔ ك ف ء B004",
+        "ق و ل B015 ↔ ك و ن B003",
+        "ء ح د B005 ↔ ك و ن B003",
+        "ص م د B001 ↔ ك و ن B003"
+      ],
+      "activated_by": [
+        {
+          "root": "ص م د",
+          "branch": "B001",
+          "evidence": [
+            "the relied-on one supplies patronage and support"
+          ]
+        },
+        {
+          "root": "ق و ل",
+          "branch": "B015",
+          "evidence": [
+            "shared care and obligation field"
+          ]
+        }
+      ],
+      "notes": "Strong support underlay to al-Samad; not a legal surety contract stated in the passage."
     },
     {
       "root": "ك و ن",
       "branch": "B004",
-      "label": "C/B",
-      "role": "submission and dependence",
-      "discovery_value": "high",
-      "evidence": ["bridge to ء ل ه B001 through submission", "bridge to ص م د B001 through dependence", "bridge to ق و ل B010 through power"],
-      "activates": ["ء ل ه B001", "ص م د B001", "ق و ل B010"]
+      "label": "B",
+      "role": "creaturely submission and dependence directed toward the worshipped, relied-on one",
+      "mechanical_discovery_refs": [
+        "ق و ل B010 ↔ ك و ن B004",
+        "ص م د B001 ↔ ك و ن B004",
+        "ء ل ه B001 ↔ ك و ن B004"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ل ه",
+          "branch": "B001",
+          "evidence": [
+            "worship entails submission"
+          ]
+        },
+        {
+          "root": "ص م د",
+          "branch": "B001",
+          "evidence": [
+            "resorting and dependence imply creaturely humility"
+          ]
+        }
+      ],
+      "notes": "The dependence belongs to worshippers and creatures, not to Allah; no humiliation scene is asserted."
     },
     {
       "root": "ك و ن",
       "branch": "B005",
       "label": "C/B",
-      "role": "identity remembered through temporal being; cancellation of biography and aging",
-      "discovery_value": "high",
-      "evidence": ["bridge to و ل د B006 through identity_personhood/life_stage_aging", "bridge to ء ح د B004 through time"],
-      "activates": ["و ل د B006", "ك و ن B001"]
+      "role": "age-bound biography and remembered former state excluded by no birth or generation",
+      "mechanical_discovery_refs": [
+        "و ل د B006 ↔ ك و ن B005",
+        "ق و ل B002 ↔ ك و ن B005",
+        "ء ح د B001 ↔ ك و ن B005",
+        "ء ل ه B002 ↔ ك و ن B005"
+      ],
+      "activated_by": [
+        {
+          "root": "و ل د",
+          "branch": "B003",
+          "evidence": [
+            "birth initiates an age sequence that is explicitly denied"
+          ]
+        },
+        {
+          "root": "ء ح د",
+          "branch": "B004",
+          "evidence": [
+            "shared time and sequence field"
+          ]
+        }
+      ],
+      "notes": "Useful temporal contrast, but no old man, memory, youth, or spoken biography appears."
     },
     {
       "root": "ك و ن",
       "branch": "B006",
       "label": "C",
-      "role": "bad state or condition as contrast",
-      "discovery_value": "low",
-      "evidence": ["bridge to ص م د B007 through abundance_scarcity"]
+      "role": "bad condition, adversity, and suffering as a remote state branch",
+      "mechanical_discovery_refs": [],
+      "activated_by": [
+        {
+          "root": "ص م د",
+          "branch": "B007",
+          "evidence": [
+            "endurance can contrast with adversity"
+          ]
+        }
+      ],
+      "notes": "No hardship, night condition, evil fortune, or suffering event occurs."
     },
     {
       "root": "ك ف ء",
       "branch": "B001",
       "label": "A",
-      "role": "equal counterpart and matching relation",
-      "discovery_value": "low",
-      "evidence": ["surface كفوا", "bridge to و ل د B006 through comparison"],
-      "activates": ["ء ح د B002", "و ل د B006", "ق و ل B016"]
+      "role": "equal peer, comparable counterpart, or matching equivalent exhaustively denied",
+      "mechanical_discovery_refs": [
+        "و ل د B006 ↔ ك ف ء B001",
+        "ق و ل B010 ↔ ك ف ء B001",
+        "ص م د B006 ↔ ك ف ء B001",
+        "و ل د B002 ↔ ك ف ء B001"
+      ],
+      "activated_by": [
+        {
+          "root": "ء ح د",
+          "branch": "B002",
+          "evidence": [
+            "the negated ahad makes the lack of any counterpart exhaustive"
+          ]
+        },
+        {
+          "root": "و ل د",
+          "branch": "B006",
+          "evidence": [
+            "same-generation peerhood is one rejected form of equivalence"
+          ]
+        }
+      ],
+      "notes": "Direct sense of kufuwan in the final verse."
     },
     {
       "root": "ك ف ء",
       "branch": "B002",
       "label": "C/B",
-      "role": "tilting, overturning, diversion, or displacement",
-      "discovery_value": "high",
-      "evidence": ["rare bridge to ص م د B001 through orientation_direction", "bridge to و ل د B005 through change_transition", "bridge to ء ح د B005 through motion"],
-      "activates": ["ص م د B001", "ص م د B003", "و ل د B005"]
+      "role": "turning or diversion contrasted with exclusive orientation toward al-Samad",
+      "mechanical_discovery_refs": [
+        "ص م د B001 ↔ ك ف ء B002",
+        "ق و ل B008 ↔ ك ف ء B002",
+        "ء ح د B005 ↔ ك ف ء B002",
+        "و ل د B005 ↔ ك ف ء B002"
+      ],
+      "activated_by": [
+        {
+          "root": "ص م د",
+          "branch": "B001",
+          "evidence": [
+            "rare shared orientation field: all resort is toward the relied-on one"
+          ]
+        }
+      ],
+      "notes": "Directionality is mechanically salient, but no vessel, bow, bodily tilt, or displacement appears."
     },
     {
       "root": "ك ف ء",
       "branch": "B003",
-      "label": "C/B",
-      "role": "formal and acoustic correspondence or disruption",
-      "discovery_value": "high",
-      "evidence": ["bridges to ق و ل through language_speech/rhetoric_discourse", "surface final construction كفوا أحد"],
-      "activates": ["ق و ل B002", "ق و ل B014"]
+      "label": "C",
+      "role": "irregular rhyme and recitational-pattern variation",
+      "mechanical_discovery_refs": [
+        "ق و ل B002 ↔ ك ف ء B003",
+        "ق و ل B011 ↔ ك ف ء B003",
+        "ق و ل B012 ↔ ك ف ء B003",
+        "ء ل ه B002 ↔ ك ف ء B003"
+      ],
+      "activated_by": [
+        {
+          "root": "ق و ل",
+          "branch": "B001",
+          "evidence": [
+            "spoken recitation activates a remote poetics field"
+          ]
+        }
+      ],
+      "notes": "Language bridges are numerous, but no technical discussion of discrepant rhyme appears."
     },
     {
       "root": "ك ف ء",
       "branch": "B004",
       "label": "C/B",
-      "role": "covering, enclosure, shelter, and protection",
-      "discovery_value": "high",
-      "evidence": ["rare bridge to ك و ن B003 through protection_security", "bridge to ص م د B003 through containment/craft"],
-      "activates": ["ص م د B002", "ص م د B003", "ك و ن B003"]
+      "role": "protective tent covering as a material analogy for patronage and shelter",
+      "mechanical_discovery_refs": [
+        "ك و ن B003 ↔ ك ف ء B004",
+        "ص م د B003 ↔ ك ف ء B004",
+        "ق و ل B008 ↔ ك ف ء B004"
+      ],
+      "activated_by": [
+        {
+          "root": "ك و ن",
+          "branch": "B003",
+          "evidence": [
+            "rare protection-security bridge"
+          ]
+        },
+        {
+          "root": "ص م د",
+          "branch": "B001",
+          "evidence": [
+            "the relied-on one supplies protection rather than needing enclosure"
+          ]
+        }
+      ],
+      "notes": "Protection is a plausible underlay; no tent, cloth, dwelling, or enclosure is named."
     },
     {
       "root": "ك ف ء",
       "branch": "B005",
-      "label": "B",
-      "role": "yearly produce, breeding issue, and reproductive yield",
-      "discovery_value": "high",
-      "evidence": ["bridge to و ل د B003 through reproduction_birth/sequence_cycle", "bridges to و ل د B001/B002 through reproduction"],
-      "activates": ["و ل د B001", "و ل د B002", "و ل د B003"]
+      "label": "C/B",
+      "role": "annual offspring and breeding cycle activated as a negated genealogy-production field",
+      "mechanical_discovery_refs": [
+        "و ل د B003 ↔ ك ف ء B005",
+        "و ل د B002 ↔ ك ف ء B005",
+        "و ل د B001 ↔ ك ف ء B005"
+      ],
+      "activated_by": [
+        {
+          "root": "و ل د",
+          "branch": "B003",
+          "evidence": [
+            "explicit birth language activates reproduction and sequence"
+          ]
+        }
+      ],
+      "notes": "The reproductive bridge is strong, but no palms, camels, annual yield, milk, wool, or pastoral cycle is local."
     }
-  ],
-  "x_issues": []
+  ]
 }

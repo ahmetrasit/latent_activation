@@ -1,175 +1,202 @@
 {
-  "schema": "v11.secondary_expansion.integrated.v1",
-  "passage": {
-    "surah": 112,
-    "ayah_start": 1,
-    "ayah_end": 4
-  },
-  "integration_policy": "union_recall_first",
   "new_or_upgraded_candidates": [
     {
-      "root": "ق و ل",
-      "branch": "B016",
-      "label": "B",
-      "discovery_value": "high",
-      "role": "قُلْ states an essential definition, not merely information.",
-      "evidence": ["ق و ل B016 ↔ ء ح د B002: logic", "ق و ل B016 ↔ ك و ن B001: ontology"]
+      "root": "ء ح د",
+      "branch": "B004",
+      "suggested_label": "B",
+      "mechanical_discovery_refs": [
+        "ء ح د B004 ↔ ك و ن B005",
+        "ء ح د B004 ↔ ك و ن B001"
+      ],
+      "reason": "Upgrade the firstness and temporal-order sub-sense: lam yulad directly excludes a birth-event that could place God at a first point in an age sequence, while lam yakun excludes transition into a later state. The calendrical and Sunday senses remain inactive."
     },
     {
       "root": "ء ح د",
-      "branch": "B002",
-      "label": "A",
-      "discovery_value": "high",
-      "role": "final أحد functions as exhaustive negative quantifier.",
-      "evidence": ["direct structural occurrence after لم يكن", "logic bridge to ق و ل B016"]
-    },
-    {
-      "root": "ص م د",
-      "branch": "B002",
-      "label": "B",
-      "discovery_value": "high",
-      "role": "compact solidity without hollowness models non-derivation and self-sufficiency.",
-      "evidence": ["rare material bridge to ق و ل B008", "architecture bridge to ك ف ء B004"]
-    },
-    {
-      "root": "ص م د",
       "branch": "B003",
-      "label": "B",
-      "discovery_value": "high",
-      "role": "sealed containment makes self-containment operative.",
-      "evidence": ["craft/tool bridge to ق و ل B008", "containment/craft bridge to ك ف ء B004"]
+      "suggested_label": "C/B",
+      "mechanical_discovery_refs": [],
+      "reason": "Retain arithmetic one as a contrastive boundary rather than the primary meaning: the two occurrences of ahad, together with the denial of derivation and equivalence, present uniqueness that cannot be reduced to one countable member of a class. No counting syntax occurs, so the label should not rise above C/B."
     },
     {
-      "root": "و ل د",
-      "branch": "B004",
-      "label": "B",
-      "discovery_value": "high",
-      "role": "birth denial rejects dependent, owned, subordinate child-status.",
-      "evidence": ["dependency bridge to ص م د B001", "status bridge to ك و ن B002"]
-    },
-    {
-      "root": "و ل د",
-      "branch": "B005",
-      "label": "B",
-      "discovery_value": "high",
-      "role": "birth generalizes into causal derivation, generation, mixture, and emergence.",
-      "evidence": ["generation/origin bridge to و ل د B003", "change bridge to ك ف ء B002"]
-    },
-    {
-      "root": "و ل د",
+      "root": "ق و ل",
       "branch": "B006",
-      "label": "C/B",
-      "discovery_value": "high",
-      "role": "counterpart denial includes no cohort, age-class, or generational peer.",
-      "evidence": ["comparison bridge to ك ف ء B001", "life-stage/identity bridge to ك و ن B005"]
+      "suggested_label": "C/B",
+      "mechanical_discovery_refs": [
+        "ق و ل B006 ↔ ء ح د B005",
+        "ق و ل B006 ↔ و ل د B004",
+        "ق و ل B006 ↔ و ل د B006",
+        "ق و ل B006 ↔ ك و ن B005"
+      ],
+      "reason": "The imperative qul can make the doctrine an owned confession rather than detached information: the speaker takes the claims about unique identity, generation, and biography into the self and becomes responsible for voicing them. Because the idiom of drawing speech to oneself is not explicit, C/B remains honest."
+    },
+    {
+      "root": "ق و ل",
+      "branch": "B012",
+      "suggested_label": "C/B",
+      "mechanical_discovery_refs": [
+        "ق و ل B012 ↔ ء ل ه B002",
+        "ق و ل B012 ↔ و ل د B005",
+        "ق و ل B012 ↔ ك ف ء B003"
+      ],
+      "reason": "The command supplies an interior-to-public movement: a creed concerning the divine name is not left as concealed cognition but is brought into audible formulation. The passage does not name heart, secrecy, or concealment, so this is a plausible performative underlay only."
+    },
+    {
+      "root": "ص م د",
+      "branch": "B002",
+      "suggested_label": "B",
+      "mechanical_discovery_refs": [
+        "ق و ل B008 ↔ ص م د B002"
+      ],
+      "reason": "The compact, non-hollow solidity branch can do more than suggest strength: beside ahad and the denial of generation, it supplies a material analogy for non-composition, non-derivation, and needlessness. It must remain analogical and must not be converted into a bodily description."
+    },
+    {
+      "root": "ص م د",
+      "branch": "B003",
+      "suggested_label": "C",
+      "mechanical_discovery_refs": [
+        "ق و ل B008 ↔ ص م د B003",
+        "ص م د B003 ↔ ك ف ء B004",
+        "ص م د B003 ↔ ك ف ء B002"
+      ],
+      "reason": "Preserve the high-ranked stopper-and-closure cluster as a remote negative analogy: the passage closes routes of derivation, genealogy, and comparison. The local text contains no vessel, stopper, liquid, storage, or sealing act, and the strongest links run through other latent material branches, so C is still required."
     },
     {
       "root": "ك و ن",
       "branch": "B003",
-      "label": "C/B",
-      "discovery_value": "high",
-      "role": "no guarantor, custodian, patron, or protective support stands over Him.",
-      "evidence": ["rare protection bridge to ك ف ء B004", "patronage bridge to ص م د B001", "care bridge to ق و ل B015"]
+      "suggested_label": "B",
+      "mechanical_discovery_refs": [
+        "ك و ن B003 ↔ ك ف ء B004",
+        "ق و ل B015 ↔ ك و ن B003",
+        "ء ح د B005 ↔ ك و ن B003",
+        "ص م د B001 ↔ ك و ن B003"
+      ],
+      "reason": "This top-ranked branch expands al-Samad from a static title into an asymmetric sustaining relation: dependent beings are guaranteed, upheld, and cared for by the one to whom they turn, whereas no reciprocal guarantor or support stands over God. It is a strong secondary mechanism, though not a literal legal surety contract."
     },
     {
       "root": "ك و ن",
       "branch": "B005",
-      "label": "C/B",
-      "discovery_value": "high",
-      "role": "cancels biography, aging, and a divine 'used-to-be' state.",
-      "evidence": ["identity/life-stage bridge to و ل د B006", "time bridge to ء ح د B004"]
-    },
-    {
-      "root": "ك ف ء",
-      "branch": "B002",
-      "label": "C/B",
-      "discovery_value": "high",
-      "role": "no rival can tilt, overturn, divert, or displace exclusive orientation.",
-      "evidence": ["rare orientation bridge to ص م د B001", "change bridge to و ل د B005", "motion bridge to ء ح د B005"]
+      "suggested_label": "C/B",
+      "mechanical_discovery_refs": [
+        "و ل د B006 ↔ ك و ن B005",
+        "ق و ل B002 ↔ ك و ن B005",
+        "ء ح د B001 ↔ ك و ن B005",
+        "ء ل ه B002 ↔ ك و ن B005"
+      ],
+      "reason": "The denial of being born removes the entire age-bound biography implied by 'used to be': no infancy, maturity, remembered former condition, or peer cohort can frame divine identity. The specific old-man idiom is absent, so the temporal-biographical contrast should remain C/B."
     },
     {
       "root": "ك ف ء",
       "branch": "B004",
-      "label": "C/B",
-      "discovery_value": "high",
-      "role": "no external shelter, cover, protector, or containing counterpart.",
-      "evidence": ["rare protection bridge to ك و ن B003", "containment/craft bridge to ص م د B003"]
-    },
-    {
-      "root": "ق و ل",
-      "branch": "B010",
-      "label": "C/B",
-      "discovery_value": "high",
-      "role": "قُلْ functions as authoritative verdict against rival parity claims.",
-      "evidence": ["domination/power bridge to ك و ن B004", "conflict/force bridge to ص م د B006", "law bridge to ق و ل B013"]
-    },
-    {
-      "root": "ء ل ه",
-      "branch": "B002",
-      "label": "A",
-      "discovery_value": "medium",
-      "role": "the repeated divine name is the invariant subject of the definition.",
-      "evidence": ["language/speech bridge to ق و ل B002", "language bridge to و ل د B005"]
-    },
-    {
-      "root": "ق و ل",
-      "branch": "B008",
-      "label": "C",
-      "discovery_value": "high",
-      "role": "material tool/impact branch supports the sealing/solidity mechanism as a surprise candidate.",
-      "evidence": ["craft/tool bridge to ص م د B003", "material bridge to ص م د B002"]
+      "suggested_label": "C/B",
+      "mechanical_discovery_refs": [
+        "ك و ن B003 ↔ ك ف ء B004",
+        "ص م د B003 ↔ ك ف ء B004",
+        "ق و ل B008 ↔ ك ف ء B004"
+      ],
+      "reason": "The rare protection bridge permits a surprising asymmetry: al-Samad is the provider of shelter and patronage, yet no covering, counterpart, or enclosing support contains or protects him. No tent, cloth, dwelling, or enclosure appears locally, so this remains a cautious material analogy."
     },
     {
       "root": "ك ف ء",
-      "branch": "B003",
-      "label": "C/B",
-      "discovery_value": "high",
-      "role": "formal/acoustic correspondence branch preserves recitational non-correspondence as a latent layer.",
-      "evidence": ["language bridges to ق و ل", "surface final construction كفوا أحد"]
+      "branch": "B005",
+      "suggested_label": "C/B",
+      "mechanical_discovery_refs": [
+        "و ل د B003 ↔ ك ف ء B005",
+        "و ل د B002 ↔ ك ف ء B005",
+        "و ل د B001 ↔ ك ف ء B005"
+      ],
+      "reason": "The explicit double denial of begetting and being born activates the annual offspring-and-yield branch as a negated cycle: divine identity does not enter a recurring economy of reproduction, inheritance, and replacement. Pastoral details such as palms, camels, milk, or wool are not present, so C/B is the upper bound."
     }
   ],
   "alternate_mechanisms": [
     {
-      "name": "ontological_definition_under_exhaustive_negation",
-      "label": "B",
-      "discovery_value": "high",
-      "path": ["ق و ل B016", "ء ح د B002", "ك و ن B001", "و ل د B005"],
-      "effect": "The surah defines divine identity by asserting absolute unity and excluding derivation, temporal becoming, and every possible equivalent."
+      "name": "qualitative-oneness-without-a-first-event",
+      "suggested_label": "B",
+      "branches": [
+        "ء ح د B001",
+        "ء ح د B003",
+        "ء ح د B004",
+        "و ل د B003",
+        "ك و ن B001",
+        "ك و ن B005"
+      ],
+      "mechanical_discovery_refs": [
+        "ء ح د B004 ↔ ك و ن B001",
+        "ء ح د B004 ↔ ك و ن B005",
+        "ء ح د B001 ↔ ك و ن B005"
+      ],
+      "description": "Read the first ahad as qualitative uniqueness rather than arithmetic membership, then let lam yulad deny the first event and age-sequence that would make such membership possible. The final ahad under negation closes the class by denying even one comparable member."
     },
     {
-      "name": "material_self_containment",
-      "label": "C/B",
-      "discovery_value": "high",
-      "path": ["ق و ل B008", "ص م د B002", "ص م د B003", "ك ف ء B004"],
-      "effect": "الصمد becomes compact, sealed integrity; non-generation and non-equivalence follow from absence of division, opening, extraction, or external enclosure."
+      "name": "speech-as-owned-stewardship",
+      "suggested_label": "B",
+      "branches": [
+        "ق و ل B001",
+        "ق و ل B006",
+        "ق و ل B012",
+        "ق و ل B015",
+        "ء ل ه B002"
+      ],
+      "mechanical_discovery_refs": [
+        "ق و ل B006 ↔ ء ح د B001",
+        "ق و ل B012 ↔ ء ل ه B002",
+        "ق و ل B015 ↔ ء ل ه B002",
+        "ق و ل B015 ↔ ك و ن B003"
+      ],
+      "description": "Qul does not merely introduce propositions. It moves an inwardly apprehended creed into an owned, public utterance and assigns the reciter responsibility for preserving and transmitting it."
     },
     {
-      "name": "dependency_and_status_inversion",
-      "label": "B",
-      "discovery_value": "high",
-      "path": ["ص م د B001", "و ل د B004", "ك و ن B003", "ك و ن B004", "ك ف ء B004"],
-      "effect": "God is the terminus of dependence while being outside childhood, ownership, suretyship, submission, or shelter."
+      "name": "asymmetric-support-without-reciprocal-dependence",
+      "suggested_label": "B",
+      "branches": [
+        "ص م د B001",
+        "ك و ن B003",
+        "ك و ن B004",
+        "و ل د B004",
+        "ك ف ء B001"
+      ],
+      "mechanical_discovery_refs": [
+        "ص م د B001 ↔ ك و ن B003",
+        "ص م د B001 ↔ ك و ن B004",
+        "ص م د B001 ↔ و ل د B004",
+        "ك و ن B003 ↔ ك ف ء B004"
+      ],
+      "description": "Al-Samad establishes a one-way dependency structure: created beings may require patronage, support, and protection, but God is not a dependent child, subordinate, or party balanced by an equal guarantor."
     },
     {
-      "name": "lifecycle_and_cohort_cancellation",
-      "label": "C/B",
-      "discovery_value": "high",
-      "path": ["و ل د B003", "و ل د B006", "ك و ن B005", "ء ح د B004", "ك ف ء B001"],
-      "effect": "The text denies beginning, age, generation, remembered former state, and any same-cohort peer."
+      "name": "protection-without-enclosure",
+      "suggested_label": "C/B",
+      "branches": [
+        "ص م د B001",
+        "ص م د B003",
+        "ك و ن B003",
+        "ك ف ء B004"
+      ],
+      "mechanical_discovery_refs": [
+        "ك و ن B003 ↔ ك ف ء B004",
+        "ص م د B003 ↔ ك ف ء B004",
+        "ص م د B001 ↔ ك و ن B003"
+      ],
+      "description": "A cautious material inversion: the relied-on sustainer can shelter others, while no tent-like counterpart encloses, completes, or protects him. The closure and tent images remain analogical because their objects are absent from the surface text."
     },
     {
-      "name": "unturnable_orientation",
-      "label": "C/B",
-      "discovery_value": "high",
-      "path": ["ص م د B001", "ك ف ء B002", "ء ح د B005"],
-      "effect": "Exclusive resort to the صمد cannot be tilted, reversed, distributed, or redirected toward a rival."
-    },
-    {
-      "name": "authoritative_verdict",
-      "label": "C/B",
-      "discovery_value": "medium",
-      "path": ["ق و ل B010", "ك و ن B004", "ص م د B006"],
-      "effect": "The opening imperative performs a hierarchy-establishing judgment against rival equivalence claims."
+      "name": "genealogy-as-a-comparison-engine",
+      "suggested_label": "B",
+      "branches": [
+        "و ل د B001",
+        "و ل د B002",
+        "و ل د B003",
+        "و ل د B006",
+        "ك ف ء B001",
+        "ك ف ء B005",
+        "ء ح د B002"
+      ],
+      "mechanical_discovery_refs": [
+        "و ل د B001 ↔ و ل د B002",
+        "و ل د B006 ↔ ك ف ء B001",
+        "و ل د B003 ↔ ك ف ء B005",
+        "و ل د B002 ↔ ك ف ء B005"
+      ],
+      "description": "Genealogy normally generates origin, offspring, peers, inheritance, and recurring replacement; these in turn generate candidates for comparison. Negating both directions of birth removes that comparison engine before the final clause denies every remaining equal."
     }
   ]
 }
