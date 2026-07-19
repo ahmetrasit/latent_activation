@@ -61,19 +61,21 @@ retrieval commands in parallel against the same state file.
 
 The retriever returns:
 
-- the active five-ayah window;
+- the active five-ayah window as references;
 - Arabic text, normalized Arabic text, QAC word order/morphology, and root
-  occurrences for active ayat;
+  occurrences only for newly unseen ayat under `new_ayat`;
+- source pointers for cached ayat under `active_ayah_sources`;
 - newly unseen accepted, non-contaminated branch inventories;
 - explicit missing-branch records;
-- cached root labels for roots already retrieved earlier, split into available
-  and missing cached roots;
+- cached root labels and source pointers for roots already retrieved earlier,
+  split into available and missing cached roots;
 - provenance and resource hashes.
 
 Do not invent missing branch IDs. Do not re-query raw resources. If a needed
-root is listed as cached, use the branch information from earlier retrieval
-packets in this run. If you no longer have that information in immediate
-context, read the earlier retrieval packet listed in the state file instead of
+ayah or root is listed as cached, use its source pointer to read the earlier
+retrieval packet from this run. If you no longer have that information in
+immediate context, read the earlier retrieval packet listed in
+`active_ayah_sources`, `active_root_sources`, or the state file instead of
 querying raw resources.
 
 ## Core Task

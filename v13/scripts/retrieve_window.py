@@ -39,7 +39,7 @@ from build_full_context_packet import (  # noqa: E402
 )
 
 
-PROTOCOL = "v13-dynamic-retrieval-packet-v1"
+PROTOCOL = "v13-dynamic-retrieval-packet-v2"
 STATE_PROTOCOL = "v13-dynamic-retrieval-state-v1"
 DEFAULT_RADIUS = 2
 
@@ -105,7 +105,9 @@ def empty_state(
         "selected_window": selected_refs,
         "radius": radius,
         "seen_ayat": [],
+        "ayah_sources": {},
         "seen_roots": [],
+        "root_sources": {},
         "available_roots": [],
         "missing_roots": [],
         "retrievals": [],
@@ -143,6 +145,16 @@ def load_state(
     existing_hashes = state.get("provenance", {}).get("resource_sha256")
     if existing_hashes != resource_hashes:
         raise ValueError("state resource hashes differ from current resources")
+    state.setdefault("ayah_sources", {})
+    state.setdefault("root_sources", {})
+    for retrieval in state.get("retrievals", []):
+        source = retrieval.get("output", "")
+        if not source:
+            continue
+        for ref in retrieval.get("new_ayah_refs", []):
+            state["ayah_sources"].setdefault(ref, source)
+        for root in retrieval.get("new_roots", []):
+            state["root_sources"].setdefault(root, source)
     return state
 
 
@@ -158,6 +170,11 @@ def state_summary(state: dict[str, Any]) -> dict[str, int]:
 
 def update_ordered_unique(existing: list[str], additions: Iterable[str]) -> list[str]:
     return ordered_unique([*existing, *additions])
+
+
+def dumps_low_whitespace(record: dict[str, Any]) -> str:
+    """Serialize as readable JSON with newlines but no indentation padding."""
+    return json.dumps(record, ensure_ascii=False, indent=0) + "\n"
 
 
 def main() -> None:
@@ -218,6 +235,9 @@ def main() -> None:
     seen_roots_before = set(state["seen_roots"])
     new_ayah_refs = [ref for ref in active_window if ref not in seen_ayat_before]
     new_roots = [root for root in active_roots if root not in seen_roots_before]
+    output_ref = rel(args.output)
+    new_ayah_ref_set = set(new_ayah_refs)
+    new_ayat = [ayah for ayah in active_ayat if ayah["ref"] in new_ayah_ref_set]
 
     branches: dict[str, list[dict[str, Any]]] = {}
     missing_roots: list[str] = []
@@ -242,6 +262,34 @@ def main() -> None:
         }
         for root in missing_roots
     ]
+    new_available_roots = [item["root"] for item in new_branch_inventories]
+    new_root_set = set(new_roots)
+    active_ayah_sources = [
+        {
+            "ref": ref,
+            "status": "new" if ref in new_ayah_ref_set else "cached",
+            "source": output_ref
+            if ref in new_ayah_ref_set
+            else state["ayah_sources"].get(ref, ""),
+        }
+        for ref in active_window
+    ]
+    active_root_sources = [
+        {
+            "root": root,
+            "status": "new"
+            if root in new_root_set
+            else (
+                "cached_missing"
+                if root in set(state["missing_roots"])
+                else "cached_available"
+            ),
+            "source": output_ref
+            if root in new_root_set
+            else state["root_sources"].get(root, ""),
+        }
+        for root in active_roots
+    ]
 
     packet = {
         "protocol": PROTOCOL,
@@ -250,10 +298,12 @@ def main() -> None:
         "radius": args.radius,
         "selected_window_size": len(selected_refs),
         "active_window": active_window,
-        "active_ayat": active_ayat,
         "new_ayah_refs": new_ayah_refs,
+        "new_ayat": new_ayat,
+        "active_ayah_sources": active_ayah_sources,
         "active_roots": active_roots,
         "new_roots": new_roots,
+        "active_root_sources": active_root_sources,
         "cached_roots": [root for root in active_roots if root in seen_roots_before],
         "cached_available_roots": [
             root
@@ -284,16 +334,20 @@ def main() -> None:
     }
 
     state["seen_ayat"] = update_ordered_unique(state["seen_ayat"], active_window)
+    for ref in new_ayah_refs:
+        state["ayah_sources"][ref] = output_ref
     state["seen_roots"] = update_ordered_unique(state["seen_roots"], new_roots)
     state["available_roots"] = update_ordered_unique(
         state["available_roots"],
-        [item["root"] for item in new_branch_inventories],
+        new_available_roots,
     )
     state["missing_roots"] = update_ordered_unique(state["missing_roots"], missing_roots)
+    for root in [*new_available_roots, *missing_roots]:
+        state["root_sources"][root] = output_ref
     retrieval_record = {
         "focus_ref": args.focus,
         "mode": packet["mode"],
-        "output": rel(args.output),
+        "output": output_ref,
         "active_window": active_window,
         "new_ayah_refs": new_ayah_refs,
         "new_roots": new_roots,
@@ -303,15 +357,9 @@ def main() -> None:
     packet["state_after"] = state_summary(state)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(
-        json.dumps(packet, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    args.output.write_text(dumps_low_whitespace(packet), encoding="utf-8")
     args.state.parent.mkdir(parents=True, exist_ok=True)
-    args.state.write_text(
-        json.dumps(state, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    args.state.write_text(dumps_low_whitespace(state), encoding="utf-8")
     print(f"v13 retrieval packet: {args.output}")
     print(f"v13 retrieval state: {args.state}")
 

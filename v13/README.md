@@ -63,6 +63,17 @@ The retrieval script uses the same resource semantics as v12 packet generation:
 - S1 basmalah moved to `1:0`, avoiding duplication of `1:1`;
 - source resource hashes.
 
+Retrieval packets are delta-only. They include the active five-ayah window as
+references, but they do not resend cached ayah content. Newly seen ayat are
+returned under `new_ayat`; cached ayat are located through
+`active_ayah_sources` and the state file. Branch inventories follow the same
+rule: newly seen roots are returned under `new_branch_inventories`, while cached
+roots are located through `active_root_sources`.
+
+The retriever writes low-whitespace JSON: newlines are preserved, but indentation
+padding is removed. This keeps packets readable enough for inspection while
+avoiding avoidable token and disk overhead across many small retrievals.
+
 ## Key Anchoring Rule
 
 Surrounding ayat may activate, sharpen, correct, or retrospectively change a
@@ -103,10 +114,10 @@ python3 v13/scripts/retrieve_window.py \
   --output v13/runs/s100/retrieval/100_2.json
 ```
 
-The second packet returns the active five-ayah window, but only newly unseen
-root branch inventories are included under `new_branch_inventories`. Previously
-seen roots are listed under `cached_roots`; their branch details are recovered
-from earlier retrieval packets in the same run.
+The second packet returns the active five-ayah window as refs, but only newly
+unseen ayah contents and newly unseen root branch inventories are included.
+Previously seen ayat and roots are listed with source pointers; their details are
+recovered from earlier retrieval packets in the same run.
 
 After all ayat are processed:
 
@@ -127,15 +138,17 @@ active window becomes the complete selected run window.
 Each retrieval packet uses:
 
 ```text
-protocol: v13-dynamic-retrieval-packet-v1
+protocol: v13-dynamic-retrieval-packet-v2
 mode: focus | retrospective_sweep
 focus_ref
 radius
 active_window
-active_ayat
 new_ayah_refs
+new_ayat
+active_ayah_sources
 active_roots
 new_roots
+active_root_sources
 cached_roots
 cached_available_roots
 cached_missing_roots
@@ -153,7 +166,9 @@ protocol: v13-dynamic-retrieval-state-v1
 selected_window
 radius
 seen_ayat
+ayah_sources
 seen_roots
+root_sources
 available_roots
 missing_roots
 retrievals
@@ -164,11 +179,11 @@ The state file is part of the audit trail. Do not hand-edit it.
 
 ## Token Implication
 
-Naive dynamic retrieval can be worse than v12 if each focus resends all branches
-for its five-ayah window. v13 avoids that by sending only branch inventories for
-newly unseen roots. With sequential ayah processing, total branch-token cost
-approaches the union of roots encountered in the selected run, not five repeated
-copies per ayah.
+Naive dynamic retrieval can be worse than v12 if each focus resends all ayat or
+branches for its five-ayah window. v13 avoids that by sending only newly unseen
+ayah contents and newly unseen branch inventories. With sequential ayah
+processing, total evidence-token cost approaches the union of ayat and roots
+encountered in the selected run, not five repeated copies per ayah.
 
 The reader still accumulates context over time. For long runs, the practical
 token discipline is:
