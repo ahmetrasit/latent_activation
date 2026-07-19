@@ -1,1262 +1,616 @@
 {
-  "protocol": "v13-dynamic-retrieval-packet-v1",
-  "mode": "focus",
-  "focus_ref": "48:12",
-  "radius": 2,
-  "selected_window_size": 30,
-  "active_window": [
-    "48:10",
-    "48:11",
-    "48:12",
-    "48:13",
-    "48:14"
-  ],
-  "active_ayat": [
-    {
-      "ref": "48:10",
-      "text_ar": "إِنَّ ٱلَّذِينَ يُبَايِعُونَكَ إِنَّمَا يُبَايِعُونَ ٱللَّهَ يَدُ ٱللَّهِ فَوْقَ أَيْدِيهِمْ ۚ فَمَن نَّكَثَ فَإِنَّمَا يَنكُثُ عَلَىٰ نَفْسِهِۦ ۖ وَمَنْ أَوْفَىٰ بِمَا عَٰهَدَ عَلَيْهُ ٱللَّهَ فَسَيُؤْتِيهِ أَجْرًا عَظِيمًۭا",
-      "text_norm_ar": "ان الذين يبايعونك انما يبايعون الله يد الله فوق ايديهم فمن نكث فانما ينكث علي نفسه ومن اوفي بما عهد عليه الله فسيؤتيه اجرا عظيما",
-      "root_sequence": [
-        "ب ي ع",
-        "ب ي ع",
-        "ء ل ه",
-        "ي د ي",
-        "ء ل ه",
-        "ف و ق",
-        "ي د ي",
-        "ن ك ث",
-        "ن ك ث",
-        "ن ف س",
-        "و ف ي",
-        "ع ه د",
-        "ء ل ه",
-        "ء ت ي",
-        "ء ج ر",
-        "ع ظ م"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ب ي ع",
-          "occurrence_count": 2,
-          "word_indices": [
-            "3",
-            "5"
-          ],
-          "surfaces_ar": [
-            "يُبَايِعُ",
-            "يُبَايِعُ"
-          ],
-          "lemmas_ar": [
-            "بَايَعْ",
-            "بَايَعْ"
-          ],
-          "pos_tags": [
-            "V",
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 3,
-          "word_indices": [
-            "6",
-            "8",
-            "22"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهَ",
-            "ٱللَّهِ",
-            "ٱللَّهَ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه",
-            "ٱللَّه",
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN",
-            "PN",
-            "PN"
-          ]
-        },
-        {
-          "root": "ي د ي",
-          "occurrence_count": 2,
-          "word_indices": [
-            "7",
-            "10"
-          ],
-          "surfaces_ar": [
-            "يَدُ",
-            "أَيْدِي"
-          ],
-          "lemmas_ar": [
-            "يَد",
-            "يَد"
-          ],
-          "pos_tags": [
-            "N",
-            "N"
-          ]
-        },
-        {
-          "root": "ف و ق",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "فَوْقَ"
-          ],
-          "lemmas_ar": [
-            "فَوْق"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ن ك ث",
-          "occurrence_count": 2,
-          "word_indices": [
-            "12",
-            "14"
-          ],
-          "surfaces_ar": [
-            "نَّكَثَ",
-            "يَنكُثُ"
-          ],
-          "lemmas_ar": [
-            "نَّكَثَ",
-            "نَّكَثَ"
-          ],
-          "pos_tags": [
-            "V",
-            "V"
-          ]
-        },
-        {
-          "root": "ن ف س",
-          "occurrence_count": 1,
-          "word_indices": [
-            "16"
-          ],
-          "surfaces_ar": [
-            "نَفْسِ"
-          ],
-          "lemmas_ar": [
-            "نَفْس"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "و ف ي",
-          "occurrence_count": 1,
-          "word_indices": [
-            "18"
-          ],
-          "surfaces_ar": [
-            "أَوْفَىٰ"
-          ],
-          "lemmas_ar": [
-            "أَوْفَىٰ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ع ه د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "20"
-          ],
-          "surfaces_ar": [
-            "عَٰهَدَ"
-          ],
-          "lemmas_ar": [
-            "عَٰهَدَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ت ي",
-          "occurrence_count": 1,
-          "word_indices": [
-            "23"
-          ],
-          "surfaces_ar": [
-            "يُؤْتِي"
-          ],
-          "lemmas_ar": [
-            "آتَى"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ج ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "24"
-          ],
-          "surfaces_ar": [
-            "أَجْرًا"
-          ],
-          "lemmas_ar": [
-            "أَجْر"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ع ظ م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "25"
-          ],
-          "surfaces_ar": [
-            "عَظِيمًا"
-          ],
-          "lemmas_ar": [
-            "عَظِيم"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:11",
-      "text_ar": "سَيَقُولُ لَكَ ٱلْمُخَلَّفُونَ مِنَ ٱلْأَعْرَابِ شَغَلَتْنَآ أَمْوَٰلُنَا وَأَهْلُونَا فَٱسْتَغْفِرْ لَنَا ۚ يَقُولُونَ بِأَلْسِنَتِهِم مَّا لَيْسَ فِى قُلُوبِهِمْ ۚ قُلْ فَمَن يَمْلِكُ لَكُم مِّنَ ٱللَّهِ شَيْـًٔا إِنْ أَرَادَ بِكُمْ ضَرًّا أَوْ أَرَادَ بِكُمْ نَفْعًۢا ۚ بَلْ كَانَ ٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرًۢا",
-      "text_norm_ar": "سيقول لك المخلفون من الاعراب شغلتنا امولنا واهلونا فاستغفر لنا يقولون بالسنتهم ما ليس في قلوبهم قل فمن يملك لكم من الله شيا ان اراد بكم ضرا او اراد بكم نفعا بل كان الله بما تعملون خبيرا",
-      "root_sequence": [
-        "ق و ل",
-        "خ ل ف",
-        "ع ر ب",
-        "ش غ ل",
-        "م و ل",
-        "ء ه ل",
-        "غ ف ر",
-        "ق و ل",
-        "ل س ن",
-        "ل ي س",
-        "ق ل ب",
-        "ق و ل",
-        "م ل ك",
-        "ء ل ه",
-        "ش ي ء",
-        "ر و د",
-        "ض ر ر",
-        "ر و د",
-        "ن ف ع",
-        "ك و ن",
-        "ء ل ه",
-        "ع م ل",
-        "خ ب ر"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ق و ل",
-          "occurrence_count": 3,
-          "word_indices": [
-            "1",
-            "11",
-            "17"
-          ],
-          "surfaces_ar": [
-            "يَقُولُ",
-            "يَقُولُ",
-            "قُلْ"
-          ],
-          "lemmas_ar": [
-            "قَالَ",
-            "قَالَ",
-            "قَالَ"
-          ],
-          "pos_tags": [
-            "V",
-            "V",
-            "V"
-          ]
-        },
-        {
-          "root": "خ ل ف",
-          "occurrence_count": 1,
-          "word_indices": [
-            "3"
-          ],
-          "surfaces_ar": [
-            "مُخَلَّفُونَ"
-          ],
-          "lemmas_ar": [
-            "مُخَلَّفُون"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ع ر ب",
-          "occurrence_count": 1,
-          "word_indices": [
-            "5"
-          ],
-          "surfaces_ar": [
-            "أَعْرَابِ"
-          ],
-          "lemmas_ar": [
-            "أَعْرَاب"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ش غ ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "6"
-          ],
-          "surfaces_ar": [
-            "شَغَلَتْ"
-          ],
-          "lemmas_ar": [
-            "شَغَلَتْ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "م و ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "أَمْوَٰلُ"
-          ],
-          "lemmas_ar": [
-            "مَال"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء ه ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "8"
-          ],
-          "surfaces_ar": [
-            "أَهْلُو"
-          ],
-          "lemmas_ar": [
-            "أَهْل"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "غ ف ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "ٱسْتَغْفِرْ"
-          ],
-          "lemmas_ar": [
-            "ٱسْتَغْفَرَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ل س ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "12"
-          ],
-          "surfaces_ar": [
-            "أَلْسِنَتِ"
-          ],
-          "lemmas_ar": [
-            "لِسَان"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ل ي س",
-          "occurrence_count": 1,
-          "word_indices": [
-            "14"
-          ],
-          "surfaces_ar": [
-            "لَيْسَ"
-          ],
-          "lemmas_ar": [
-            "لَّيْسَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ق ل ب",
-          "occurrence_count": 1,
-          "word_indices": [
-            "16"
-          ],
-          "surfaces_ar": [
-            "قُلُوبِ"
-          ],
-          "lemmas_ar": [
-            "قَلْب"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "م ل ك",
-          "occurrence_count": 1,
-          "word_indices": [
-            "19"
-          ],
-          "surfaces_ar": [
-            "يَمْلِكُ"
-          ],
-          "lemmas_ar": [
-            "مَلَكَتْ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 2,
-          "word_indices": [
-            "22",
-            "34"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهِ",
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه",
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN",
-            "PN"
-          ]
-        },
-        {
-          "root": "ش ي ء",
-          "occurrence_count": 1,
-          "word_indices": [
-            "23"
-          ],
-          "surfaces_ar": [
-            "شَيْـًٔا"
-          ],
-          "lemmas_ar": [
-            "شَىْء"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ر و د",
-          "occurrence_count": 2,
-          "word_indices": [
-            "25",
-            "29"
-          ],
-          "surfaces_ar": [
-            "أَرَادَ",
-            "أَرَادَ"
-          ],
-          "lemmas_ar": [
-            "أَرَادَ",
-            "أَرَادَ"
-          ],
-          "pos_tags": [
-            "V",
-            "V"
-          ]
-        },
-        {
-          "root": "ض ر ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "27"
-          ],
-          "surfaces_ar": [
-            "ضَرًّا"
-          ],
-          "lemmas_ar": [
-            "ضَرّ"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ن ف ع",
-          "occurrence_count": 1,
-          "word_indices": [
-            "31"
-          ],
-          "surfaces_ar": [
-            "نَفْعًۢا"
-          ],
-          "lemmas_ar": [
-            "نَفْع"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ك و ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "33"
-          ],
-          "surfaces_ar": [
-            "كَانَ"
-          ],
-          "lemmas_ar": [
-            "كَانَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ع م ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "36"
-          ],
-          "surfaces_ar": [
-            "تَعْمَلُ"
-          ],
-          "lemmas_ar": [
-            "عَمِلَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "خ ب ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "37"
-          ],
-          "surfaces_ar": [
-            "خَبِيرًۢا"
-          ],
-          "lemmas_ar": [
-            "خَبِير"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:12",
-      "text_ar": "بَلْ ظَنَنتُمْ أَن لَّن يَنقَلِبَ ٱلرَّسُولُ وَٱلْمُؤْمِنُونَ إِلَىٰٓ أَهْلِيهِمْ أَبَدًۭا وَزُيِّنَ ذَٰلِكَ فِى قُلُوبِكُمْ وَظَنَنتُمْ ظَنَّ ٱلسَّوْءِ وَكُنتُمْ قَوْمًۢا بُورًۭا",
-      "text_norm_ar": "بل ظننتم ان لن ينقلب الرسول والمؤمنون الي اهليهم ابدا وزين ذلك في قلوبكم وظننتم ظن السوء وكنتم قوما بورا",
-      "root_sequence": [
-        "ظ ن ن",
-        "ق ل ب",
-        "ر س ل",
-        "ء م ن",
-        "ء ه ل",
-        "ء ب د",
-        "ز ي ن",
-        "ق ل ب",
-        "ظ ن ن",
-        "ظ ن ن",
-        "س و ء",
-        "ك و ن",
-        "ق و م",
-        "ب و ر"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ظ ن ن",
-          "occurrence_count": 3,
-          "word_indices": [
-            "2",
-            "15",
-            "16"
-          ],
-          "surfaces_ar": [
-            "ظَنَن",
-            "ظَنَن",
-            "ظَنَّ"
-          ],
-          "lemmas_ar": [
-            "ظَنَّ",
-            "ظَنَّ",
-            "ظَنّ"
-          ],
-          "pos_tags": [
-            "V",
-            "V",
-            "N"
-          ]
-        },
-        {
-          "root": "ق ل ب",
-          "occurrence_count": 2,
-          "word_indices": [
-            "5",
-            "14"
-          ],
-          "surfaces_ar": [
-            "يَنقَلِبَ",
-            "قُلُوبِ"
-          ],
-          "lemmas_ar": [
-            "ٱنقَلَبَ",
-            "قَلْب"
-          ],
-          "pos_tags": [
-            "V",
-            "N"
-          ]
-        },
-        {
-          "root": "ر س ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "6"
-          ],
-          "surfaces_ar": [
-            "رَّسُولُ"
-          ],
-          "lemmas_ar": [
-            "رَسُول"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء م ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "مُؤْمِنُونَ"
-          ],
-          "lemmas_ar": [
-            "مُؤْمِن"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء ه ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "أَهْلِي"
-          ],
-          "lemmas_ar": [
-            "أَهْل"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء ب د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "10"
-          ],
-          "surfaces_ar": [
-            "أَبَدًا"
-          ],
-          "lemmas_ar": [
-            "أَبَدًا"
-          ],
-          "pos_tags": [
-            "T"
-          ]
-        },
-        {
-          "root": "ز ي ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "11"
-          ],
-          "surfaces_ar": [
-            "زُيِّنَ"
-          ],
-          "lemmas_ar": [
-            "زَيَّنَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "س و ء",
-          "occurrence_count": 1,
-          "word_indices": [
-            "17"
-          ],
-          "surfaces_ar": [
-            "سَّوْءِ"
-          ],
-          "lemmas_ar": [
-            "سَوْء"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ك و ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "18"
-          ],
-          "surfaces_ar": [
-            "كُن"
-          ],
-          "lemmas_ar": [
-            "كَانَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ق و م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "19"
-          ],
-          "surfaces_ar": [
-            "قَوْمًۢا"
-          ],
-          "lemmas_ar": [
-            "قَوْم"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ب و ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "20"
-          ],
-          "surfaces_ar": [
-            "بُورًا"
-          ],
-          "lemmas_ar": [
-            "بُور"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:13",
-      "text_ar": "وَمَن لَّمْ يُؤْمِنۢ بِٱللَّهِ وَرَسُولِهِۦ فَإِنَّآ أَعْتَدْنَا لِلْكَٰفِرِينَ سَعِيرًۭا",
-      "text_norm_ar": "ومن لم يؤمن بالله ورسوله فانا اعتدنا للكفرين سعيرا",
-      "root_sequence": [
-        "ء م ن",
-        "ء ل ه",
-        "ر س ل",
-        "ع ت د",
-        "ك ف ر",
-        "س ع ر"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ء م ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "3"
-          ],
-          "surfaces_ar": [
-            "يُؤْمِنۢ"
-          ],
-          "lemmas_ar": [
-            "ءَامَنَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهِ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "ر س ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "5"
-          ],
-          "surfaces_ar": [
-            "رَسُولِ"
-          ],
-          "lemmas_ar": [
-            "رَسُول"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ع ت د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "أَعْتَدْ"
-          ],
-          "lemmas_ar": [
-            "أَعْتَدَتْ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك ف ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "8"
-          ],
-          "surfaces_ar": [
-            "كَٰفِرِينَ"
-          ],
-          "lemmas_ar": [
-            "كَٰفِرُون"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "س ع ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "سَعِيرًا"
-          ],
-          "lemmas_ar": [
-            "سَعِير"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:14",
-      "text_ar": "وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۚ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۭا",
-      "text_norm_ar": "ولله ملك السموت والارض يغفر لمن يشاء ويعذب من يشاء وكان الله غفورا رحيما",
-      "root_sequence": [
-        "ء ل ه",
-        "م ل ك",
-        "س م و",
-        "ء ر ض",
-        "غ ف ر",
-        "ش ي ء",
-        "ع ذ ب",
-        "ش ي ء",
-        "ك و ن",
-        "ء ل ه",
-        "غ ف ر",
-        "ر ح م"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 2,
-          "word_indices": [
-            "1",
-            "12"
-          ],
-          "surfaces_ar": [
-            "لَّهِ",
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه",
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN",
-            "PN"
-          ]
-        },
-        {
-          "root": "م ل ك",
-          "occurrence_count": 1,
-          "word_indices": [
-            "2"
-          ],
-          "surfaces_ar": [
-            "مُلْكُ"
-          ],
-          "lemmas_ar": [
-            "مُلْك"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "س م و",
-          "occurrence_count": 1,
-          "word_indices": [
-            "3"
-          ],
-          "surfaces_ar": [
-            "سَّمَٰوَٰتِ"
-          ],
-          "lemmas_ar": [
-            "سَمَآء"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء ر ض",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "أَرْضِ"
-          ],
-          "lemmas_ar": [
-            "أَرْض"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "غ ف ر",
-          "occurrence_count": 2,
-          "word_indices": [
-            "5",
-            "13"
-          ],
-          "surfaces_ar": [
-            "يَغْفِرُ",
-            "غَفُورًا"
-          ],
-          "lemmas_ar": [
-            "غَفَرَ",
-            "غَفُور"
-          ],
-          "pos_tags": [
-            "V",
-            "ADJ"
-          ]
-        },
-        {
-          "root": "ش ي ء",
-          "occurrence_count": 2,
-          "word_indices": [
-            "7",
-            "10"
-          ],
-          "surfaces_ar": [
-            "يَشَآءُ",
-            "يَشَآءُ"
-          ],
-          "lemmas_ar": [
-            "شَآءَ",
-            "شَآءَ"
-          ],
-          "pos_tags": [
-            "V",
-            "V"
-          ]
-        },
-        {
-          "root": "ع ذ ب",
-          "occurrence_count": 1,
-          "word_indices": [
-            "8"
-          ],
-          "surfaces_ar": [
-            "يُعَذِّبُ"
-          ],
-          "lemmas_ar": [
-            "عَذَّبَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك و ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "11"
-          ],
-          "surfaces_ar": [
-            "كَانَ"
-          ],
-          "lemmas_ar": [
-            "كَانَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ر ح م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "14"
-          ],
-          "surfaces_ar": [
-            "رَّحِيمًا"
-          ],
-          "lemmas_ar": [
-            "رَّحِيم"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    }
-  ],
-  "new_ayah_refs": [
-    "48:14"
-  ],
-  "active_roots": [
-    "ب ي ع",
-    "ء ل ه",
-    "ي د ي",
-    "ف و ق",
-    "ن ك ث",
-    "ن ف س",
-    "و ف ي",
-    "ع ه د",
-    "ء ت ي",
-    "ء ج ر",
-    "ع ظ م",
-    "ق و ل",
-    "خ ل ف",
-    "ع ر ب",
-    "ش غ ل",
-    "م و ل",
-    "ء ه ل",
-    "غ ف ر",
-    "ل س ن",
-    "ل ي س",
-    "ق ل ب",
-    "م ل ك",
-    "ش ي ء",
-    "ر و د",
-    "ض ر ر",
-    "ن ف ع",
-    "ك و ن",
-    "ع م ل",
-    "خ ب ر",
-    "ظ ن ن",
-    "ر س ل",
-    "ء م ن",
-    "ء ب د",
-    "ز ي ن",
-    "س و ء",
-    "ق و م",
-    "ب و ر",
-    "ع ت د",
-    "ك ف ر",
-    "س ع ر",
-    "س م و",
-    "ء ر ض",
-    "ع ذ ب",
-    "ر ح م"
-  ],
-  "new_roots": [],
-  "cached_roots": [
-    "ب ي ع",
-    "ء ل ه",
-    "ي د ي",
-    "ف و ق",
-    "ن ك ث",
-    "ن ف س",
-    "و ف ي",
-    "ع ه د",
-    "ء ت ي",
-    "ء ج ر",
-    "ع ظ م",
-    "ق و ل",
-    "خ ل ف",
-    "ع ر ب",
-    "ش غ ل",
-    "م و ل",
-    "ء ه ل",
-    "غ ف ر",
-    "ل س ن",
-    "ل ي س",
-    "ق ل ب",
-    "م ل ك",
-    "ش ي ء",
-    "ر و د",
-    "ض ر ر",
-    "ن ف ع",
-    "ك و ن",
-    "ع م ل",
-    "خ ب ر",
-    "ظ ن ن",
-    "ر س ل",
-    "ء م ن",
-    "ء ب د",
-    "ز ي ن",
-    "س و ء",
-    "ق و م",
-    "ب و ر",
-    "ع ت د",
-    "ك ف ر",
-    "س ع ر",
-    "س م و",
-    "ء ر ض",
-    "ع ذ ب",
-    "ر ح م"
-  ],
-  "cached_available_roots": [
-    "ب ي ع",
-    "ء ل ه",
-    "ي د ي",
-    "ف و ق",
-    "ن ك ث",
-    "ن ف س",
-    "و ف ي",
-    "ع ه د",
-    "ء ت ي",
-    "ء ج ر",
-    "ع ظ م",
-    "ق و ل",
-    "خ ل ف",
-    "ع ر ب",
-    "ش غ ل",
-    "م و ل",
-    "ء ه ل",
-    "غ ف ر",
-    "ل س ن",
-    "ل ي س",
-    "ق ل ب",
-    "م ل ك",
-    "ش ي ء",
-    "ر و د",
-    "ض ر ر",
-    "ن ف ع",
-    "ك و ن",
-    "ع م ل",
-    "خ ب ر",
-    "ظ ن ن",
-    "ر س ل",
-    "ء م ن",
-    "ء ب د",
-    "ز ي ن",
-    "س و ء",
-    "ق و م",
-    "ب و ر",
-    "ع ت د",
-    "ك ف ر",
-    "س ع ر",
-    "س م و",
-    "ء ر ض",
-    "ع ذ ب",
-    "ر ح م"
-  ],
-  "cached_missing_roots": [],
-  "new_branch_inventories": [],
-  "new_missing_branch_inventories": [],
-  "state_before": {
-    "seen_ayah_count": 14,
-    "seen_root_count": 84,
-    "available_root_count": 84,
-    "missing_root_count": 0,
-    "retrieval_count": 12
-  },
-  "provenance": {
-    "branch_filter": {
-      "status": "accepted",
-      "contaminated": "no",
-      "origin_corpus": [
-        "furuq",
-        "quranic"
-      ]
-    },
-    "resource_sha256": {
-      "resources/qac_root_ayah.tsv": "be694bc26a6ec261f16037e08be1d62a0dcc8d9154c9f6c5f267a338b91cf3ad",
-      "resources/furuq_v4.sqlite.gz": "2fc0c4f30ff841e46441df82d50b771c43a762d1e62e1ed2842292c17b06e699"
-    },
-    "synthetic_ayat": []
-  },
-  "state_after": {
-    "seen_ayah_count": 15,
-    "seen_root_count": 84,
-    "available_root_count": 84,
-    "missing_root_count": 0,
-    "retrieval_count": 13
-  }
+"protocol": "v13-dynamic-retrieval-packet-v2",
+"mode": "focus",
+"focus_ref": "48:12",
+"radius": 2,
+"selected_window_size": 30,
+"active_window": [
+"48:10",
+"48:11",
+"48:12",
+"48:13",
+"48:14"
+],
+"new_ayah_refs": [
+"48:14"
+],
+"new_ayat": [
+{
+"ref": "48:14",
+"text_ar": "وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۚ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۭا",
+"text_norm_ar": "ولله ملك السموت والارض يغفر لمن يشاء ويعذب من يشاء وكان الله غفورا رحيما",
+"root_sequence": [
+"ء ل ه",
+"م ل ك",
+"س م و",
+"ء ر ض",
+"غ ف ر",
+"ش ي ء",
+"ع ذ ب",
+"ش ي ء",
+"ك و ن",
+"ء ل ه",
+"غ ف ر",
+"ر ح م"
+],
+"root_occurrences": [
+{
+"root": "ء ل ه",
+"occurrence_count": 2,
+"word_indices": [
+"1",
+"12"
+],
+"surfaces_ar": [
+"لَّهِ",
+"ٱللَّهُ"
+],
+"lemmas_ar": [
+"ٱللَّه",
+"ٱللَّه"
+],
+"pos_tags": [
+"PN",
+"PN"
+]
+},
+{
+"root": "م ل ك",
+"occurrence_count": 1,
+"word_indices": [
+"2"
+],
+"surfaces_ar": [
+"مُلْكُ"
+],
+"lemmas_ar": [
+"مُلْك"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "س م و",
+"occurrence_count": 1,
+"word_indices": [
+"3"
+],
+"surfaces_ar": [
+"سَّمَٰوَٰتِ"
+],
+"lemmas_ar": [
+"سَمَآء"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "ء ر ض",
+"occurrence_count": 1,
+"word_indices": [
+"4"
+],
+"surfaces_ar": [
+"أَرْضِ"
+],
+"lemmas_ar": [
+"أَرْض"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "غ ف ر",
+"occurrence_count": 2,
+"word_indices": [
+"5",
+"13"
+],
+"surfaces_ar": [
+"يَغْفِرُ",
+"غَفُورًا"
+],
+"lemmas_ar": [
+"غَفَرَ",
+"غَفُور"
+],
+"pos_tags": [
+"V",
+"ADJ"
+]
+},
+{
+"root": "ش ي ء",
+"occurrence_count": 2,
+"word_indices": [
+"7",
+"10"
+],
+"surfaces_ar": [
+"يَشَآءُ",
+"يَشَآءُ"
+],
+"lemmas_ar": [
+"شَآءَ",
+"شَآءَ"
+],
+"pos_tags": [
+"V",
+"V"
+]
+},
+{
+"root": "ع ذ ب",
+"occurrence_count": 1,
+"word_indices": [
+"8"
+],
+"surfaces_ar": [
+"يُعَذِّبُ"
+],
+"lemmas_ar": [
+"عَذَّبَ"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "ك و ن",
+"occurrence_count": 1,
+"word_indices": [
+"11"
+],
+"surfaces_ar": [
+"كَانَ"
+],
+"lemmas_ar": [
+"كَانَ"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "ر ح م",
+"occurrence_count": 1,
+"word_indices": [
+"14"
+],
+"surfaces_ar": [
+"رَّحِيمًا"
+],
+"lemmas_ar": [
+"رَّحِيم"
+],
+"pos_tags": [
+"ADJ"
+]
+}
+]
+}
+],
+"active_ayah_sources": [
+{
+"ref": "48:10",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"ref": "48:11",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"ref": "48:12",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_10.json"
+},
+{
+"ref": "48:13",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_11.json"
+},
+{
+"ref": "48:14",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_12.json"
+}
+],
+"active_roots": [
+"ب ي ع",
+"ء ل ه",
+"ي د ي",
+"ف و ق",
+"ن ك ث",
+"ن ف س",
+"و ف ي",
+"ع ه د",
+"ء ت ي",
+"ء ج ر",
+"ع ظ م",
+"ق و ل",
+"خ ل ف",
+"ع ر ب",
+"ش غ ل",
+"م و ل",
+"ء ه ل",
+"غ ف ر",
+"ل س ن",
+"ل ي س",
+"ق ل ب",
+"م ل ك",
+"ش ي ء",
+"ر و د",
+"ض ر ر",
+"ن ف ع",
+"ك و ن",
+"ع م ل",
+"خ ب ر",
+"ظ ن ن",
+"ر س ل",
+"ء م ن",
+"ء ب د",
+"ز ي ن",
+"س و ء",
+"ق و م",
+"ب و ر",
+"ع ت د",
+"ك ف ر",
+"س ع ر",
+"س م و",
+"ء ر ض",
+"ع ذ ب",
+"ر ح م"
+],
+"new_roots": [],
+"active_root_sources": [
+{
+"root": "ب ي ع",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ء ل ه",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ي د ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ف و ق",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ن ك ث",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ن ف س",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "و ف ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ع ه د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ء ت ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ء ج ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ع ظ م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_3.json"
+},
+{
+"root": "ق و ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "خ ل ف",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ع ر ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ش غ ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "م و ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ء ه ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "غ ف ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ل س ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ل ي س",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ق ل ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "م ل ك",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ش ي ء",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ر و د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ض ر ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ن ف ع",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ك و ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ع م ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "خ ب ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ظ ن ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_4.json"
+},
+{
+"root": "ر س ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_6.json"
+},
+{
+"root": "ء م ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ء ب د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_10.json"
+},
+{
+"root": "ز ي ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_10.json"
+},
+{
+"root": "س و ء",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_3.json"
+},
+{
+"root": "ق و م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ب و ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_10.json"
+},
+{
+"root": "ع ت د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_11.json"
+},
+{
+"root": "ك ف ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_3.json"
+},
+{
+"root": "س ع ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_11.json"
+},
+{
+"root": "س م و",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ء ر ض",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ع ذ ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_4.json"
+},
+{
+"root": "ر ح م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+}
+],
+"cached_roots": [
+"ب ي ع",
+"ء ل ه",
+"ي د ي",
+"ف و ق",
+"ن ك ث",
+"ن ف س",
+"و ف ي",
+"ع ه د",
+"ء ت ي",
+"ء ج ر",
+"ع ظ م",
+"ق و ل",
+"خ ل ف",
+"ع ر ب",
+"ش غ ل",
+"م و ل",
+"ء ه ل",
+"غ ف ر",
+"ل س ن",
+"ل ي س",
+"ق ل ب",
+"م ل ك",
+"ش ي ء",
+"ر و د",
+"ض ر ر",
+"ن ف ع",
+"ك و ن",
+"ع م ل",
+"خ ب ر",
+"ظ ن ن",
+"ر س ل",
+"ء م ن",
+"ء ب د",
+"ز ي ن",
+"س و ء",
+"ق و م",
+"ب و ر",
+"ع ت د",
+"ك ف ر",
+"س ع ر",
+"س م و",
+"ء ر ض",
+"ع ذ ب",
+"ر ح م"
+],
+"cached_available_roots": [
+"ب ي ع",
+"ء ل ه",
+"ي د ي",
+"ف و ق",
+"ن ك ث",
+"ن ف س",
+"و ف ي",
+"ع ه د",
+"ء ت ي",
+"ء ج ر",
+"ع ظ م",
+"ق و ل",
+"خ ل ف",
+"ع ر ب",
+"ش غ ل",
+"م و ل",
+"ء ه ل",
+"غ ف ر",
+"ل س ن",
+"ل ي س",
+"ق ل ب",
+"م ل ك",
+"ش ي ء",
+"ر و د",
+"ض ر ر",
+"ن ف ع",
+"ك و ن",
+"ع م ل",
+"خ ب ر",
+"ظ ن ن",
+"ر س ل",
+"ء م ن",
+"ء ب د",
+"ز ي ن",
+"س و ء",
+"ق و م",
+"ب و ر",
+"ع ت د",
+"ك ف ر",
+"س ع ر",
+"س م و",
+"ء ر ض",
+"ع ذ ب",
+"ر ح م"
+],
+"cached_missing_roots": [],
+"new_branch_inventories": [],
+"new_missing_branch_inventories": [],
+"state_before": {
+"seen_ayah_count": 14,
+"seen_root_count": 84,
+"available_root_count": 84,
+"missing_root_count": 0,
+"retrieval_count": 12
+},
+"provenance": {
+"branch_filter": {
+"status": "accepted",
+"contaminated": "no",
+"origin_corpus": [
+"furuq",
+"quranic"
+]
+},
+"resource_sha256": {
+"resources/qac_root_ayah.tsv": "be694bc26a6ec261f16037e08be1d62a0dcc8d9154c9f6c5f267a338b91cf3ad",
+"resources/furuq_v4.sqlite.gz": "2fc0c4f30ff841e46441df82d50b771c43a762d1e62e1ed2842292c17b06e699"
+},
+"synthetic_ayat": []
+},
+"state_after": {
+"seen_ayah_count": 15,
+"seen_root_count": 84,
+"available_root_count": 84,
+"missing_root_count": 0,
+"retrieval_count": 13
+}
 }

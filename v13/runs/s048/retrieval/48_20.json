@@ -1,1486 +1,950 @@
 {
-  "protocol": "v13-dynamic-retrieval-packet-v1",
-  "mode": "focus",
-  "focus_ref": "48:20",
-  "radius": 2,
-  "selected_window_size": 30,
-  "active_window": [
-    "48:18",
-    "48:19",
-    "48:20",
-    "48:21",
-    "48:22"
-  ],
-  "active_ayat": [
-    {
-      "ref": "48:18",
-      "text_ar": "۞ لَّقَدْ رَضِىَ ٱللَّهُ عَنِ ٱلْمُؤْمِنِينَ إِذْ يُبَايِعُونَكَ تَحْتَ ٱلشَّجَرَةِ فَعَلِمَ مَا فِى قُلُوبِهِمْ فَأَنزَلَ ٱلسَّكِينَةَ عَلَيْهِمْ وَأَثَٰبَهُمْ فَتْحًۭا قَرِيبًۭا",
-      "text_norm_ar": "لقد رضي الله عن المؤمنين اذ يبايعونك تحت الشجرة فعلم ما في قلوبهم فانزل السكينة عليهم واثبهم فتحا قريبا",
-      "root_sequence": [
-        "ر ض و",
-        "ء ل ه",
-        "ء م ن",
-        "ب ي ع",
-        "ت ح ت",
-        "ش ج ر",
-        "ع ل م",
-        "ق ل ب",
-        "ن ز ل",
-        "س ك ن",
-        "ث و ب",
-        "ف ت ح",
-        "ق ر ب"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ر ض و",
-          "occurrence_count": 1,
-          "word_indices": [
-            "2"
-          ],
-          "surfaces_ar": [
-            "رَضِىَ"
-          ],
-          "lemmas_ar": [
-            "رَّضِىَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "3"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "ء م ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "5"
-          ],
-          "surfaces_ar": [
-            "مُؤْمِنِينَ"
-          ],
-          "lemmas_ar": [
-            "مُؤْمِن"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ب ي ع",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "يُبَايِعُ"
-          ],
-          "lemmas_ar": [
-            "بَايَعْ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ت ح ت",
-          "occurrence_count": 1,
-          "word_indices": [
-            "8"
-          ],
-          "surfaces_ar": [
-            "تَحْتَ"
-          ],
-          "lemmas_ar": [
-            "تَحْت"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ش ج ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "شَّجَرَةِ"
-          ],
-          "lemmas_ar": [
-            "شَجَرَة"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ع ل م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "10"
-          ],
-          "surfaces_ar": [
-            "عَلِمَ"
-          ],
-          "lemmas_ar": [
-            "عَلِمَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ق ل ب",
-          "occurrence_count": 1,
-          "word_indices": [
-            "13"
-          ],
-          "surfaces_ar": [
-            "قُلُوبِ"
-          ],
-          "lemmas_ar": [
-            "قَلْب"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ن ز ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "14"
-          ],
-          "surfaces_ar": [
-            "أَنزَلَ"
-          ],
-          "lemmas_ar": [
-            "أَنزَلَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "س ك ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "15"
-          ],
-          "surfaces_ar": [
-            "سَّكِينَةَ"
-          ],
-          "lemmas_ar": [
-            "سَكِينَة"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ث و ب",
-          "occurrence_count": 1,
-          "word_indices": [
-            "17"
-          ],
-          "surfaces_ar": [
-            "أَثَٰبَ"
-          ],
-          "lemmas_ar": [
-            "أَثَٰبَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ف ت ح",
-          "occurrence_count": 1,
-          "word_indices": [
-            "18"
-          ],
-          "surfaces_ar": [
-            "فَتْحًا"
-          ],
-          "lemmas_ar": [
-            "فَتْح"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ق ر ب",
-          "occurrence_count": 1,
-          "word_indices": [
-            "19"
-          ],
-          "surfaces_ar": [
-            "قَرِيبًا"
-          ],
-          "lemmas_ar": [
-            "قَرِيب"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:19",
-      "text_ar": "وَمَغَانِمَ كَثِيرَةًۭ يَأْخُذُونَهَا ۗ وَكَانَ ٱللَّهُ عَزِيزًا حَكِيمًۭا",
-      "text_norm_ar": "ومغانم كثيرة ياخذونها وكان الله عزيزا حكيما",
-      "root_sequence": [
-        "غ ن م",
-        "ك ث ر",
-        "ء خ ذ",
-        "ك و ن",
-        "ء ل ه",
-        "ع ز ز",
-        "ح ك م"
-      ],
-      "root_occurrences": [
-        {
-          "root": "غ ن م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "1"
-          ],
-          "surfaces_ar": [
-            "مَغَانِمَ"
-          ],
-          "lemmas_ar": [
-            "مَغَانِم"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ك ث ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "2"
-          ],
-          "surfaces_ar": [
-            "كَثِيرَةً"
-          ],
-          "lemmas_ar": [
-            "كَثِيرَة"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        },
-        {
-          "root": "ء خ ذ",
-          "occurrence_count": 1,
-          "word_indices": [
-            "3"
-          ],
-          "surfaces_ar": [
-            "يَأْخُذُ"
-          ],
-          "lemmas_ar": [
-            "أَخَذَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك و ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "كَانَ"
-          ],
-          "lemmas_ar": [
-            "كَانَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "5"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "ع ز ز",
-          "occurrence_count": 1,
-          "word_indices": [
-            "6"
-          ],
-          "surfaces_ar": [
-            "عَزِيزًا"
-          ],
-          "lemmas_ar": [
-            "عَزِيز"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        },
-        {
-          "root": "ح ك م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "حَكِيمًا"
-          ],
-          "lemmas_ar": [
-            "حَكِيم"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:20",
-      "text_ar": "وَعَدَكُمُ ٱللَّهُ مَغَانِمَ كَثِيرَةًۭ تَأْخُذُونَهَا فَعَجَّلَ لَكُمْ هَٰذِهِۦ وَكَفَّ أَيْدِىَ ٱلنَّاسِ عَنكُمْ وَلِتَكُونَ ءَايَةًۭ لِّلْمُؤْمِنِينَ وَيَهْدِيَكُمْ صِرَٰطًۭا مُّسْتَقِيمًۭا",
-      "text_norm_ar": "وعدكم الله مغانم كثيرة تاخذونها فعجل لكم هذه وكف ايدي الناس عنكم ولتكون ءاية للمؤمنين ويهديكم صرطا مستقيما",
-      "root_sequence": [
-        "و ع د",
-        "ء ل ه",
-        "غ ن م",
-        "ك ث ر",
-        "ء خ ذ",
-        "ع ج ل",
-        "ك ف ف",
-        "ي د ي",
-        "ن و س",
-        "ك و ن",
-        "ء ي ي",
-        "ء م ن",
-        "ه د ي",
-        "ص ر ط",
-        "ق و م"
-      ],
-      "root_occurrences": [
-        {
-          "root": "و ع د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "1"
-          ],
-          "surfaces_ar": [
-            "وَعَدَ"
-          ],
-          "lemmas_ar": [
-            "وَعَدَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "2"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "غ ن م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "3"
-          ],
-          "surfaces_ar": [
-            "مَغَانِمَ"
-          ],
-          "lemmas_ar": [
-            "مَغَانِم"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ك ث ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "كَثِيرَةً"
-          ],
-          "lemmas_ar": [
-            "كَثِيرَة"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        },
-        {
-          "root": "ء خ ذ",
-          "occurrence_count": 1,
-          "word_indices": [
-            "5"
-          ],
-          "surfaces_ar": [
-            "تَأْخُذُ"
-          ],
-          "lemmas_ar": [
-            "أَخَذَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ع ج ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "6"
-          ],
-          "surfaces_ar": [
-            "عَجَّلَ"
-          ],
-          "lemmas_ar": [
-            "عَجَّلَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك ف ف",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "كَفَّ"
-          ],
-          "lemmas_ar": [
-            "كَفَّ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ي د ي",
-          "occurrence_count": 1,
-          "word_indices": [
-            "10"
-          ],
-          "surfaces_ar": [
-            "أَيْدِىَ"
-          ],
-          "lemmas_ar": [
-            "يَد"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ن و س",
-          "occurrence_count": 1,
-          "word_indices": [
-            "11"
-          ],
-          "surfaces_ar": [
-            "نَّاسِ"
-          ],
-          "lemmas_ar": [
-            "نَّاس"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ك و ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "13"
-          ],
-          "surfaces_ar": [
-            "تَكُونَ"
-          ],
-          "lemmas_ar": [
-            "كَانَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ي ي",
-          "occurrence_count": 1,
-          "word_indices": [
-            "14"
-          ],
-          "surfaces_ar": [
-            "ءَايَةً"
-          ],
-          "lemmas_ar": [
-            "ءَايَة"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء م ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "15"
-          ],
-          "surfaces_ar": [
-            "مُؤْمِنِينَ"
-          ],
-          "lemmas_ar": [
-            "مُؤْمِن"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ه د ي",
-          "occurrence_count": 1,
-          "word_indices": [
-            "16"
-          ],
-          "surfaces_ar": [
-            "يَهْدِيَ"
-          ],
-          "lemmas_ar": [
-            "هَدَى"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ص ر ط",
-          "occurrence_count": 1,
-          "word_indices": [
-            "17"
-          ],
-          "surfaces_ar": [
-            "صِرَٰطًا"
-          ],
-          "lemmas_ar": [
-            "صِرَٰط"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ق و م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "18"
-          ],
-          "surfaces_ar": [
-            "مُّسْتَقِيمًا"
-          ],
-          "lemmas_ar": [
-            "مُّسْتَقِيم"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:21",
-      "text_ar": "وَأُخْرَىٰ لَمْ تَقْدِرُوا۟ عَلَيْهَا قَدْ أَحَاطَ ٱللَّهُ بِهَا ۚ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرًۭا",
-      "text_norm_ar": "واخري لم تقدروا عليها قد احاط الله بها وكان الله علي كل شيء قديرا",
-      "root_sequence": [
-        "ء خ ر",
-        "ق د ر",
-        "ح و ط",
-        "ء ل ه",
-        "ك و ن",
-        "ء ل ه",
-        "ك ل ل",
-        "ش ي ء",
-        "ق د ر"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ء خ ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "1"
-          ],
-          "surfaces_ar": [
-            "أُخْرَىٰ"
-          ],
-          "lemmas_ar": [
-            "آخَر"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ق د ر",
-          "occurrence_count": 2,
-          "word_indices": [
-            "3",
-            "14"
-          ],
-          "surfaces_ar": [
-            "تَقْدِرُ",
-            "قَدِيرًا"
-          ],
-          "lemmas_ar": [
-            "قَدَرَ",
-            "قَدِير"
-          ],
-          "pos_tags": [
-            "V",
-            "N"
-          ]
-        },
-        {
-          "root": "ح و ط",
-          "occurrence_count": 1,
-          "word_indices": [
-            "6"
-          ],
-          "surfaces_ar": [
-            "أَحَاطَ"
-          ],
-          "lemmas_ar": [
-            "أَحَاطَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 2,
-          "word_indices": [
-            "7",
-            "10"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهُ",
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه",
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN",
-            "PN"
-          ]
-        },
-        {
-          "root": "ك و ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "كَانَ"
-          ],
-          "lemmas_ar": [
-            "كَانَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك ل ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "12"
-          ],
-          "surfaces_ar": [
-            "كُلِّ"
-          ],
-          "lemmas_ar": [
-            "كُلّ"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ش ي ء",
-          "occurrence_count": 1,
-          "word_indices": [
-            "13"
-          ],
-          "surfaces_ar": [
-            "شَىْءٍ"
-          ],
-          "lemmas_ar": [
-            "شَىْء"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:22",
-      "text_ar": "وَلَوْ قَٰتَلَكُمُ ٱلَّذِينَ كَفَرُوا۟ لَوَلَّوُا۟ ٱلْأَدْبَٰرَ ثُمَّ لَا يَجِدُونَ وَلِيًّۭا وَلَا نَصِيرًۭا",
-      "text_norm_ar": "ولو قتلكم الذين كفروا لولوا الادبر ثم لا يجدون وليا ولا نصيرا",
-      "root_sequence": [
-        "ق ت ل",
-        "ك ف ر",
-        "و ل ي",
-        "د ب ر",
-        "و ج د",
-        "و ل ي",
-        "ن ص ر"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ق ت ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "2"
-          ],
-          "surfaces_ar": [
-            "قَٰتَلَ"
-          ],
-          "lemmas_ar": [
-            "قَٰتَلَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك ف ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "كَفَرُ"
-          ],
-          "lemmas_ar": [
-            "كَفَرَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "و ل ي",
-          "occurrence_count": 2,
-          "word_indices": [
-            "5",
-            "10"
-          ],
-          "surfaces_ar": [
-            "وَلَّ",
-            "وَلِيًّا"
-          ],
-          "lemmas_ar": [
-            "وَلَّىٰ",
-            "وَلِىّ"
-          ],
-          "pos_tags": [
-            "V",
-            "N"
-          ]
-        },
-        {
-          "root": "د ب ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "6"
-          ],
-          "surfaces_ar": [
-            "أَدْبَٰرَ"
-          ],
-          "lemmas_ar": [
-            "دُبُر"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "و ج د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "يَجِدُ"
-          ],
-          "lemmas_ar": [
-            "وَجَدَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ن ص ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "12"
-          ],
-          "surfaces_ar": [
-            "نَصِيرًا"
-          ],
-          "lemmas_ar": [
-            "نَصِير"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        }
-      ]
-    }
-  ],
-  "new_ayah_refs": [
-    "48:22"
-  ],
-  "active_roots": [
-    "ر ض و",
-    "ء ل ه",
-    "ء م ن",
-    "ب ي ع",
-    "ت ح ت",
-    "ش ج ر",
-    "ع ل م",
-    "ق ل ب",
-    "ن ز ل",
-    "س ك ن",
-    "ث و ب",
-    "ف ت ح",
-    "ق ر ب",
-    "غ ن م",
-    "ك ث ر",
-    "ء خ ذ",
-    "ك و ن",
-    "ع ز ز",
-    "ح ك م",
-    "و ع د",
-    "ع ج ل",
-    "ك ف ف",
-    "ي د ي",
-    "ن و س",
-    "ء ي ي",
-    "ه د ي",
-    "ص ر ط",
-    "ق و م",
-    "ء خ ر",
-    "ق د ر",
-    "ح و ط",
-    "ك ل ل",
-    "ش ي ء",
-    "ق ت ل",
-    "ك ف ر",
-    "و ل ي",
-    "د ب ر",
-    "و ج د",
-    "ن ص ر"
-  ],
-  "new_roots": [
-    "د ب ر",
-    "و ج د"
-  ],
-  "cached_roots": [
-    "ر ض و",
-    "ء ل ه",
-    "ء م ن",
-    "ب ي ع",
-    "ت ح ت",
-    "ش ج ر",
-    "ع ل م",
-    "ق ل ب",
-    "ن ز ل",
-    "س ك ن",
-    "ث و ب",
-    "ف ت ح",
-    "ق ر ب",
-    "غ ن م",
-    "ك ث ر",
-    "ء خ ذ",
-    "ك و ن",
-    "ع ز ز",
-    "ح ك م",
-    "و ع د",
-    "ع ج ل",
-    "ك ف ف",
-    "ي د ي",
-    "ن و س",
-    "ء ي ي",
-    "ه د ي",
-    "ص ر ط",
-    "ق و م",
-    "ء خ ر",
-    "ق د ر",
-    "ح و ط",
-    "ك ل ل",
-    "ش ي ء",
-    "ق ت ل",
-    "ك ف ر",
-    "و ل ي",
-    "ن ص ر"
-  ],
-  "cached_available_roots": [
-    "ر ض و",
-    "ء ل ه",
-    "ء م ن",
-    "ب ي ع",
-    "ت ح ت",
-    "ش ج ر",
-    "ع ل م",
-    "ق ل ب",
-    "ن ز ل",
-    "س ك ن",
-    "ث و ب",
-    "ف ت ح",
-    "ق ر ب",
-    "غ ن م",
-    "ك ث ر",
-    "ء خ ذ",
-    "ك و ن",
-    "ع ز ز",
-    "ح ك م",
-    "و ع د",
-    "ع ج ل",
-    "ك ف ف",
-    "ي د ي",
-    "ن و س",
-    "ء ي ي",
-    "ه د ي",
-    "ص ر ط",
-    "ق و م",
-    "ء خ ر",
-    "ق د ر",
-    "ح و ط",
-    "ك ل ل",
-    "ش ي ء",
-    "ق ت ل",
-    "ك ف ر",
-    "و ل ي",
-    "ن ص ر"
-  ],
-  "cached_missing_roots": [],
-  "new_branch_inventories": [
-    {
-      "root": "د ب ر",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "خلف الشيء ودبره",
-          "image_en": "the rear or back of a thing",
-          "scope_ar": "ما كان خلف الشيء أو ظهره أو خلاف قبله، وما جعل وراء الأذن أو وراء الوجه",
-          "scope_en": "the spatial rear, back, or behind-side of something, including what is put behind the ear or face",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "خلف الشيء ودبره",
-              "image_en": "the rear or back of a thing",
-              "scope_ar": "ما كان خلف الشيء أو ظهره أو خلاف قبله، وما جعل وراء الأذن أو وراء الوجه",
-              "scope_en": "the spatial rear, back, or behind-side of something, including what is put behind the ear or face"
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "آخر الشيء ومضي عاقبته",
-          "image_en": "the end or trailing remainder of a thing",
-          "scope_ar": "آخر الوقت أو الأمر وما يمضي بعده، وأواخر الصلاة والنهار والليل ومضي الشيء حتى الموت",
-          "scope_en": "the temporal end, latter part, or passing-away of something, including last prayer time and elapsed day or night",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "آخر الشيء ومضي عاقبته",
-              "image_en": "the end or trailing remainder of a thing",
-              "scope_ar": "آخر الوقت أو الأمر وما يمضي بعده، وأواخر الصلاة والنهار والليل ومضي الشيء حتى الموت",
-              "scope_en": "the temporal end, latter part, or passing-away of something, including last prayer time and elapsed day or night"
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "تولية الدبر والإعراض",
-          "image_en": "turning the back and withdrawing",
-          "scope_ar": "الإدبار خلاف الإقبال، وتولية الدبر في القتال، والإعراض عن الكلام أو الحاجة، والهزيمة والدبرة",
-          "scope_en": "turning away, retreating, showing the back, ignoring speech, or defeat in battle",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "تولية الدبر والإعراض",
-              "image_en": "turning the back and withdrawing",
-              "scope_ar": "الإدبار خلاف الإقبال، وتولية الدبر في القتال، والإعراض عن الكلام أو الحاجة، والهزيمة والدبرة",
-              "scope_en": "turning away, retreating, showing the back, ignoring speech, or defeat in battle"
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "قطع الدابر واستئصال الأثر",
-          "image_en": "cutting off the last remnant",
-          "scope_ar": "قطع آخر القوم أو أصلهم أو عقبهم حتى لا يبقى أثر، والدبار بمعنى الهلاك وانقطاع الأثر",
-          "scope_en": "cutting off the last remnant, root, posterity, or trace; utter destruction",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "قطع الدابر واستئصال الأثر",
-              "image_en": "cutting off the last remnant",
-              "scope_ar": "قطع آخر القوم أو أصلهم أو عقبهم حتى لا يبقى أثر، والدبار بمعنى الهلاك وانقطاع الأثر",
-              "scope_en": "cutting off the last remnant, root, posterity, or trace; utter destruction"
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "تدابر القوم وتصارمهم",
-          "image_en": "mutual estrangement and enmity",
-          "scope_ar": "المعاداة والهجران والتقاطع، بأن يولي كل واحد صاحبه دبره أو يعرض عنه",
-          "scope_en": "mutual estrangement, enmity, or cutting relations by turning away from one another",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "تدابر القوم وتصارمهم",
-              "image_en": "mutual estrangement and enmity",
-              "scope_ar": "المعاداة والهجران والتقاطع، بأن يولي كل واحد صاحبه دبره أو يعرض عنه",
-              "scope_en": "mutual estrangement, enmity, or cutting relations by turning away from one another"
-            }
-          ]
-        },
-        {
-          "branch_id": "B006",
-          "image_ar": "تدبير الأمر والنظر في عاقبته",
-          "image_en": "managing by considering outcomes",
-          "scope_ar": "تدبير الأمر وتدبره، أي النظر إلى ما يؤول إليه آخره وعاقبته",
-          "scope_en": "managing or reflecting on a matter by looking to its outcome",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "تدبير الأمر والنظر في عاقبته",
-              "image_en": "managing by considering outcomes",
-              "scope_ar": "تدبير الأمر وتدبره، أي النظر إلى ما يؤول إليه آخره وعاقبته",
-              "scope_en": "managing or reflecting on a matter by looking to its outcome"
-            }
-          ]
-        },
-        {
-          "branch_id": "B007",
-          "image_ar": "عتق العبد عن دبر الموت",
-          "image_en": "manumission after the owner's death",
-          "scope_ar": "تدبير العبد أو الأمة، وهو أن يعتق بعد موت صاحبه أو إذا قال له أنت حر بعد موتي",
-          "scope_en": "legal manumission of a slave after the owner's death",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "عتق العبد عن دبر الموت",
-              "image_en": "manumission after the owner's death",
-              "scope_ar": "تدبير العبد أو الأمة، وهو أن يعتق بعد موت صاحبه أو إذا قال له أنت حر بعد موتي",
-              "scope_en": "legal manumission of a slave after the owner's death"
-            }
-          ]
-        },
-        {
-          "branch_id": "B009",
-          "image_ar": "دوابر الحيوان وأواخر الأعضاء",
-          "image_en": "rear animal parts and hind anatomy",
-          "scope_ar": "الإصبع المتأخرة في رجل الطائر، ومؤخر الحافر أو الرسغ، وعرقوب الإنسان وما في معناه من الأعضاء الخلفية",
-          "scope_en": "rear toe, hind hoof or pastern area, human hock, and similar hind anatomy",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "دوابر الحيوان وأواخر الأعضاء",
-              "image_en": "rear animal parts and hind anatomy",
-              "scope_ar": "الإصبع المتأخرة في رجل الطائر، ومؤخر الحافر أو الرسغ، وعرقوب الإنسان وما في معناه من الأعضاء الخلفية",
-              "scope_en": "rear toe, hind hoof or pastern area, human hock, and similar hind anatomy"
-            }
-          ]
-        },
-        {
-          "branch_id": "B010",
-          "image_ar": "الدبير والمدابرة في الفتل والأذن",
-          "image_en": "backward twist and rear ear-cut",
-          "scope_ar": "الدبير في الفتل إلى خلف، والمدابرة أو الإدبارة في شق مؤخر الأذن أو فتلتها",
-          "scope_en": "the backward-twisted thread and rear-side ear cut or tag",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "الدبير والمدابرة في الفتل والأذن",
-              "image_en": "backward twist and rear ear-cut",
-              "scope_ar": "الدبير في الفتل إلى خلف، والمدابرة أو الإدبارة في شق مؤخر الأذن أو فتلتها",
-              "scope_en": "the backward-twisted thread and rear-side ear cut or tag"
-            }
-          ]
-        },
-        {
-          "branch_id": "B011",
-          "image_ar": "مقابل مدابر في كرم النسب",
-          "image_en": "noble on both ancestral sides",
-          "scope_ar": "المقابل المدابر أو المدابر المقابل، أي كريم النسب أو محض من قبل أبويه",
-          "scope_en": "noble or pure in lineage from both parental sides",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "مقابل مدابر في كرم النسب",
-              "image_en": "noble on both ancestral sides",
-              "scope_ar": "المقابل المدابر أو المدابر المقابل، أي كريم النسب أو محض من قبل أبويه",
-              "scope_en": "noble or pure in lineage from both parental sides"
-            }
-          ]
-        },
-        {
-          "branch_id": "B012",
-          "image_ar": "الدبور ريح من خلف الكعبة",
-          "image_en": "the west wind from behind the Kaaba",
-          "scope_ar": "الدبور ريح معروفة تقابل الصبا وتأتي من دبر الكعبة أو من نحو المغرب",
-          "scope_en": "the wind called dabur, opposite the east wind and described as coming from the Kaaba's rear or the west",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "الدبور ريح من خلف الكعبة",
-              "image_en": "the west wind from behind the Kaaba",
-              "scope_ar": "الدبور ريح معروفة تقابل الصبا وتأتي من دبر الكعبة أو من نحو المغرب",
-              "scope_en": "the wind called dabur, opposite the east wind and described as coming from the Kaaba's rear or the west"
-            }
-          ]
-        },
-        {
-          "branch_id": "B013",
-          "image_ar": "الدبران تابع الثريا",
-          "image_en": "Aldebaran following the Pleiades",
-          "scope_ar": "الدبران نجم أو كواكب من منازل القمر سميت لأنها تدبر الثريا وتتبعها",
-          "scope_en": "the star Aldebaran or its lunar mansion, named for following the Pleiades",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "الدبران تابع الثريا",
-              "image_en": "Aldebaran following the Pleiades",
-              "scope_ar": "الدبران نجم أو كواكب من منازل القمر سميت لأنها تدبر الثريا وتتبعها",
-              "scope_en": "the star Aldebaran or its lunar mansion, named for following the Pleiades"
-            }
-          ]
-        },
-        {
-          "branch_id": "B014",
-          "image_ar": "الدبر جماعة النحل والزنابير",
-          "image_en": "bees and wasps",
-          "scope_ar": "الدبر اسم لجماعة النحل والزنابير وما شاكلها، ويجمع على دبور",
-          "scope_en": "bees, wasps, and similar stinging insects called dabr or dubur",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "الدبر جماعة النحل والزنابير",
-              "image_en": "bees and wasps",
-              "scope_ar": "الدبر اسم لجماعة النحل والزنابير وما شاكلها، ويجمع على دبور",
-              "scope_en": "bees, wasps, and similar stinging insects called dabr or dubur"
-            }
-          ]
-        },
-        {
-          "branch_id": "B015",
-          "image_ar": "الدبار مشارات الزرع",
-          "image_en": "field strips or furrows",
-          "scope_ar": "الدبار والدبرة والدبارة في المشارات أو الكردة من المزرعة",
-          "scope_en": "field strips, ridges, or furrowed plots in cultivation",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "الدبار مشارات الزرع",
-              "image_en": "field strips or furrows",
-              "scope_ar": "الدبار والدبرة والدبارة في المشارات أو الكردة من المزرعة",
-              "scope_en": "field strips, ridges, or furrowed plots in cultivation"
-            }
-          ]
-        },
-        {
-          "branch_id": "B016",
-          "image_ar": "الدبر مال كثير باق",
-          "image_en": "abundant lasting wealth",
-          "scope_ar": "الدبر أو المدبور مال كثير، وربما وصف بما يبقى بعد صاحبه",
-          "scope_en": "abundant wealth, especially wealth that remains after its owner",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "الدبر مال كثير باق",
-              "image_en": "abundant lasting wealth",
-              "scope_ar": "الدبر أو المدبور مال كثير، وربما وصف بما يبقى بعد صاحبه",
-              "scope_en": "abundant wealth, especially wealth that remains after its owner"
-            }
-          ]
-        },
-        {
-          "branch_id": "B017",
-          "image_ar": "دبرة الظهر وقرح البعير",
-          "image_en": "back sore or saddle sore",
-          "scope_ar": "الدبرة في ظهر البعير أو غيره، وصيرورة البعير أدبر إذا أصابه القرح في ظهره",
-          "scope_en": "the sore on a camel's or animal's back, especially from equipment",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "دبرة الظهر وقرح البعير",
-              "image_en": "back sore or saddle sore",
-              "scope_ar": "الدبرة في ظهر البعير أو غيره، وصيرورة البعير أدبر إذا أصابه القرح في ظهره",
-              "scope_en": "the sore on a camel's or animal's back, especially from equipment"
-            }
-          ]
-        },
-        {
-          "branch_id": "B018",
-          "image_ar": "دبر السهم الهدف",
-          "image_en": "the arrow passed behind the target",
-          "scope_ar": "دبر السهم الهدف إذا خرج أو سقط وراءه، والدابر من السهام الخارج من الهدف",
-          "scope_en": "an arrow passing behind or beyond the target",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "دبر السهم الهدف",
-              "image_en": "the arrow passed behind the target",
-              "scope_ar": "دبر السهم الهدف إذا خرج أو سقط وراءه، والدابر من السهام الخارج من الهدف",
-              "scope_en": "an arrow passing behind or beyond the target"
-            }
-          ]
-        },
-        {
-          "branch_id": "B019",
-          "image_ar": "الدابر الخائب في القداح",
-          "image_en": "the losing lot in gaming",
-          "scope_ar": "الدابر من القداح خلاف الفائز، وصاحبه مدابر، وما ذهب به القمار",
-          "scope_en": "the losing gaming lot and the gambler deprived by it",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "الدابر الخائب في القداح",
-              "image_en": "the losing lot in gaming",
-              "scope_ar": "الدابر من القداح خلاف الفائز، وصاحبه مدابر، وما ذهب به القمار",
-              "scope_en": "the losing gaming lot and the gambler deprived by it"
-            }
-          ]
-        },
-        {
-          "branch_id": "B021",
-          "image_ar": "الدبر قطعة في البحر",
-          "image_en": "an island-like sea rise",
-          "scope_ar": "الدبر قطعة تغلظ في البحر كالجزيرة يعلوها الماء وينضب عنها",
-          "scope_en": "a sea rise or island-like mass that water covers and exposes",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "الدبر قطعة في البحر",
-              "image_en": "an island-like sea rise",
-              "scope_ar": "الدبر قطعة تغلظ في البحر كالجزيرة يعلوها الماء وينضب عنها",
-              "scope_en": "a sea rise or island-like mass that water covers and exposes"
-            }
-          ]
-        },
-        {
-          "branch_id": "B022",
-          "image_ar": "الدابرة في الصراع",
-          "image_en": "a wrestling grip or move",
-          "scope_ar": "الدابرة ضرب من أخذ الصرع أو الشغزبية في الصراع",
-          "scope_en": "a named wrestling hold or maneuver",
-          "variants": [
-            {
-              "root_id": "root_000458",
-              "source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
-              "image_ar": "الدابرة في الصراع",
-              "image_en": "a wrestling grip or move",
-              "scope_ar": "الدابرة ضرب من أخذ الصرع أو الشغزبية في الصراع",
-              "scope_en": "a named wrestling hold or maneuver"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "و ج د",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "إلفاء الشيء وإصابته",
-          "image_en": "finding and coming upon a thing",
-          "scope_ar": "يدخل فيه العثور على المطلوب أو الضالة، وإصابة الشيء، وإدراكه بالحس أو العقل حيث نص المصدر.",
-          "scope_en": "This branch covers finding a sought or lost thing, obtaining/coming upon something, and perceiving it by sense or mind where the source states that.",
-          "variants": [
-            {
-              "root_id": "root_001626",
-              "source_path": "v4/outputs/pass2_branches/root_001626.branches.tsv",
-              "image_ar": "إلفاء الشيء وإصابته",
-              "image_en": "finding and coming upon a thing",
-              "scope_ar": "يدخل فيه العثور على المطلوب أو الضالة، وإصابة الشيء، وإدراكه بالحس أو العقل حيث نص المصدر.",
-              "scope_en": "This branch covers finding a sought or lost thing, obtaining/coming upon something, and perceiving it by sense or mind where the source states that."
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "ثبوت الشيء في الوجود",
-          "image_en": "existence or being found in reality",
-          "scope_ar": "يدخل فيه كون الشيء موجودا أو موجودا بعد عدم، والتعبير عن الموجودات، وما أوجده الله.",
-          "scope_en": "This branch covers something being existent, present after nonexistence, named as a موجود, or brought into existence.",
-          "variants": [
-            {
-              "root_id": "root_001626",
-              "source_path": "v4/outputs/pass2_branches/root_001626.branches.tsv",
-              "image_ar": "ثبوت الشيء في الوجود",
-              "image_en": "existence or being found in reality",
-              "scope_ar": "يدخل فيه كون الشيء موجودا أو موجودا بعد عدم، والتعبير عن الموجودات، وما أوجده الله.",
-              "scope_en": "This branch covers something being existent, present after nonexistence, named as a موجود, or brought into existence."
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "السعة والجدة والغنى",
-          "image_en": "capacity, means, and wealth",
-          "scope_ar": "يدخل فيه الجدة والوجد والوجدان في المال، والواجد بمعنى الغني، والتمكن والقدرة والسعة، وما جاء بصيغة الإغناء أو التقوية.",
-          "scope_en": "This branch covers means, wealth, ability, sufficiency, and related causatives of enriching or strengthening.",
-          "variants": [
-            {
-              "root_id": "root_001626",
-              "source_path": "v4/outputs/pass2_branches/root_001626.branches.tsv",
-              "image_ar": "السعة والجدة والغنى",
-              "image_en": "capacity, means, and wealth",
-              "scope_ar": "يدخل فيه الجدة والوجد والوجدان في المال، والواجد بمعنى الغني، والتمكن والقدرة والسعة، وما جاء بصيغة الإغناء أو التقوية.",
-              "scope_en": "This branch covers means, wealth, ability, sufficiency, and related causatives of enriching or strengthening."
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "وجدان الحزن والمحبة",
-          "image_en": "inner feeling of sorrow or love",
-          "scope_ar": "يدخل فيه الوجد بمعنى الحزن أو الحب، والتوجد لفلان بمعنى الحزن له، وما نص عليه المصدر من وجد الشهوة أو الوجدان العاطفي.",
-          "scope_en": "This branch covers wajd as sorrow, love, or felt inward passion where the source names those emotions.",
-          "variants": [
-            {
-              "root_id": "root_001626",
-              "source_path": "v4/outputs/pass2_branches/root_001626.branches.tsv",
-              "image_ar": "وجدان الحزن والمحبة",
-              "image_en": "inner feeling of sorrow or love",
-              "scope_ar": "يدخل فيه الوجد بمعنى الحزن أو الحب، والتوجد لفلان بمعنى الحزن له، وما نص عليه المصدر من وجد الشهوة أو الوجدان العاطفي.",
-              "scope_en": "This branch covers wajd as sorrow, love, or felt inward passion where the source names those emotions."
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "الموجدة والغضب",
-          "image_en": "resentful anger",
-          "scope_ar": "يدخل فيه وجد في الغضب، والموجدة من الغضب أو على الرجل، والوجدان إذا نص المصدر أنه في الغضب.",
-          "scope_en": "This branch covers anger, resentment, or ill feeling expressed as موجدة or وجد in anger.",
-          "variants": [
-            {
-              "root_id": "root_001626",
-              "source_path": "v4/outputs/pass2_branches/root_001626.branches.tsv",
-              "image_ar": "الموجدة والغضب",
-              "image_en": "resentful anger",
-              "scope_ar": "يدخل فيه وجد في الغضب، والموجدة من الغضب أو على الرجل، والوجدان إذا نص المصدر أنه في الغضب.",
-              "scope_en": "This branch covers anger, resentment, or ill feeling expressed as موجدة or وجد in anger."
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "new_missing_branch_inventories": [],
-  "state_before": {
-    "seen_ayah_count": 22,
-    "seen_root_count": 122,
-    "available_root_count": 122,
-    "missing_root_count": 0,
-    "retrieval_count": 20
-  },
-  "provenance": {
-    "branch_filter": {
-      "status": "accepted",
-      "contaminated": "no",
-      "origin_corpus": [
-        "furuq",
-        "quranic"
-      ]
-    },
-    "resource_sha256": {
-      "resources/qac_root_ayah.tsv": "be694bc26a6ec261f16037e08be1d62a0dcc8d9154c9f6c5f267a338b91cf3ad",
-      "resources/furuq_v4.sqlite.gz": "2fc0c4f30ff841e46441df82d50b771c43a762d1e62e1ed2842292c17b06e699"
-    },
-    "synthetic_ayat": []
-  },
-  "state_after": {
-    "seen_ayah_count": 23,
-    "seen_root_count": 124,
-    "available_root_count": 124,
-    "missing_root_count": 0,
-    "retrieval_count": 21
-  }
+"protocol": "v13-dynamic-retrieval-packet-v2",
+"mode": "focus",
+"focus_ref": "48:20",
+"radius": 2,
+"selected_window_size": 30,
+"active_window": [
+"48:18",
+"48:19",
+"48:20",
+"48:21",
+"48:22"
+],
+"new_ayah_refs": [
+"48:22"
+],
+"new_ayat": [
+{
+"ref": "48:22",
+"text_ar": "وَلَوْ قَٰتَلَكُمُ ٱلَّذِينَ كَفَرُوا۟ لَوَلَّوُا۟ ٱلْأَدْبَٰرَ ثُمَّ لَا يَجِدُونَ وَلِيًّۭا وَلَا نَصِيرًۭا",
+"text_norm_ar": "ولو قتلكم الذين كفروا لولوا الادبر ثم لا يجدون وليا ولا نصيرا",
+"root_sequence": [
+"ق ت ل",
+"ك ف ر",
+"و ل ي",
+"د ب ر",
+"و ج د",
+"و ل ي",
+"ن ص ر"
+],
+"root_occurrences": [
+{
+"root": "ق ت ل",
+"occurrence_count": 1,
+"word_indices": [
+"2"
+],
+"surfaces_ar": [
+"قَٰتَلَ"
+],
+"lemmas_ar": [
+"قَٰتَلَ"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "ك ف ر",
+"occurrence_count": 1,
+"word_indices": [
+"4"
+],
+"surfaces_ar": [
+"كَفَرُ"
+],
+"lemmas_ar": [
+"كَفَرَ"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "و ل ي",
+"occurrence_count": 2,
+"word_indices": [
+"5",
+"10"
+],
+"surfaces_ar": [
+"وَلَّ",
+"وَلِيًّا"
+],
+"lemmas_ar": [
+"وَلَّىٰ",
+"وَلِىّ"
+],
+"pos_tags": [
+"V",
+"N"
+]
+},
+{
+"root": "د ب ر",
+"occurrence_count": 1,
+"word_indices": [
+"6"
+],
+"surfaces_ar": [
+"أَدْبَٰرَ"
+],
+"lemmas_ar": [
+"دُبُر"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "و ج د",
+"occurrence_count": 1,
+"word_indices": [
+"9"
+],
+"surfaces_ar": [
+"يَجِدُ"
+],
+"lemmas_ar": [
+"وَجَدَ"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "ن ص ر",
+"occurrence_count": 1,
+"word_indices": [
+"12"
+],
+"surfaces_ar": [
+"نَصِيرًا"
+],
+"lemmas_ar": [
+"نَصِير"
+],
+"pos_tags": [
+"N"
+]
+}
+]
+}
+],
+"active_ayah_sources": [
+{
+"ref": "48:18",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_16.json"
+},
+{
+"ref": "48:19",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_17.json"
+},
+{
+"ref": "48:20",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_18.json"
+},
+{
+"ref": "48:21",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_19.json"
+},
+{
+"ref": "48:22",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_20.json"
+}
+],
+"active_roots": [
+"ر ض و",
+"ء ل ه",
+"ء م ن",
+"ب ي ع",
+"ت ح ت",
+"ش ج ر",
+"ع ل م",
+"ق ل ب",
+"ن ز ل",
+"س ك ن",
+"ث و ب",
+"ف ت ح",
+"ق ر ب",
+"غ ن م",
+"ك ث ر",
+"ء خ ذ",
+"ك و ن",
+"ع ز ز",
+"ح ك م",
+"و ع د",
+"ع ج ل",
+"ك ف ف",
+"ي د ي",
+"ن و س",
+"ء ي ي",
+"ه د ي",
+"ص ر ط",
+"ق و م",
+"ء خ ر",
+"ق د ر",
+"ح و ط",
+"ك ل ل",
+"ش ي ء",
+"ق ت ل",
+"ك ف ر",
+"و ل ي",
+"د ب ر",
+"و ج د",
+"ن ص ر"
+],
+"new_roots": [
+"د ب ر",
+"و ج د"
+],
+"active_root_sources": [
+{
+"root": "ر ض و",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_16.json"
+},
+{
+"root": "ء ل ه",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ء م ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ب ي ع",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ت ح ت",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_3.json"
+},
+{
+"root": "ش ج ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_16.json"
+},
+{
+"root": "ع ل م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ق ل ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ن ز ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "س ك ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ث و ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_16.json"
+},
+{
+"root": "ف ت ح",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ق ر ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_16.json"
+},
+{
+"root": "غ ن م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "ك ث ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_17.json"
+},
+{
+"root": "ء خ ذ",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "ك و ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ع ز ز",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_1.json"
+},
+{
+"root": "ح ك م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "و ع د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_18.json"
+},
+{
+"root": "ع ج ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_18.json"
+},
+{
+"root": "ك ف ف",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_18.json"
+},
+{
+"root": "ي د ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ن و س",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_18.json"
+},
+{
+"root": "ء ي ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_18.json"
+},
+{
+"root": "ه د ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ص ر ط",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ق و م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ء خ ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ق د ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_19.json"
+},
+{
+"root": "ح و ط",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_19.json"
+},
+{
+"root": "ك ل ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_19.json"
+},
+{
+"root": "ش ي ء",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ق ت ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_14.json"
+},
+{
+"root": "ك ف ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_3.json"
+},
+{
+"root": "و ل ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_14.json"
+},
+{
+"root": "د ب ر",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_20.json"
+},
+{
+"root": "و ج د",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_20.json"
+},
+{
+"root": "ن ص ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_1.json"
+}
+],
+"cached_roots": [
+"ر ض و",
+"ء ل ه",
+"ء م ن",
+"ب ي ع",
+"ت ح ت",
+"ش ج ر",
+"ع ل م",
+"ق ل ب",
+"ن ز ل",
+"س ك ن",
+"ث و ب",
+"ف ت ح",
+"ق ر ب",
+"غ ن م",
+"ك ث ر",
+"ء خ ذ",
+"ك و ن",
+"ع ز ز",
+"ح ك م",
+"و ع د",
+"ع ج ل",
+"ك ف ف",
+"ي د ي",
+"ن و س",
+"ء ي ي",
+"ه د ي",
+"ص ر ط",
+"ق و م",
+"ء خ ر",
+"ق د ر",
+"ح و ط",
+"ك ل ل",
+"ش ي ء",
+"ق ت ل",
+"ك ف ر",
+"و ل ي",
+"ن ص ر"
+],
+"cached_available_roots": [
+"ر ض و",
+"ء ل ه",
+"ء م ن",
+"ب ي ع",
+"ت ح ت",
+"ش ج ر",
+"ع ل م",
+"ق ل ب",
+"ن ز ل",
+"س ك ن",
+"ث و ب",
+"ف ت ح",
+"ق ر ب",
+"غ ن م",
+"ك ث ر",
+"ء خ ذ",
+"ك و ن",
+"ع ز ز",
+"ح ك م",
+"و ع د",
+"ع ج ل",
+"ك ف ف",
+"ي د ي",
+"ن و س",
+"ء ي ي",
+"ه د ي",
+"ص ر ط",
+"ق و م",
+"ء خ ر",
+"ق د ر",
+"ح و ط",
+"ك ل ل",
+"ش ي ء",
+"ق ت ل",
+"ك ف ر",
+"و ل ي",
+"ن ص ر"
+],
+"cached_missing_roots": [],
+"new_branch_inventories": [
+{
+"root": "د ب ر",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "خلف الشيء ودبره",
+"image_en": "the rear or back of a thing",
+"scope_ar": "ما كان خلف الشيء أو ظهره أو خلاف قبله، وما جعل وراء الأذن أو وراء الوجه",
+"scope_en": "the spatial rear, back, or behind-side of something, including what is put behind the ear or face",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "خلف الشيء ودبره",
+"image_en": "the rear or back of a thing",
+"scope_ar": "ما كان خلف الشيء أو ظهره أو خلاف قبله، وما جعل وراء الأذن أو وراء الوجه",
+"scope_en": "the spatial rear, back, or behind-side of something, including what is put behind the ear or face"
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "آخر الشيء ومضي عاقبته",
+"image_en": "the end or trailing remainder of a thing",
+"scope_ar": "آخر الوقت أو الأمر وما يمضي بعده، وأواخر الصلاة والنهار والليل ومضي الشيء حتى الموت",
+"scope_en": "the temporal end, latter part, or passing-away of something, including last prayer time and elapsed day or night",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "آخر الشيء ومضي عاقبته",
+"image_en": "the end or trailing remainder of a thing",
+"scope_ar": "آخر الوقت أو الأمر وما يمضي بعده، وأواخر الصلاة والنهار والليل ومضي الشيء حتى الموت",
+"scope_en": "the temporal end, latter part, or passing-away of something, including last prayer time and elapsed day or night"
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "تولية الدبر والإعراض",
+"image_en": "turning the back and withdrawing",
+"scope_ar": "الإدبار خلاف الإقبال، وتولية الدبر في القتال، والإعراض عن الكلام أو الحاجة، والهزيمة والدبرة",
+"scope_en": "turning away, retreating, showing the back, ignoring speech, or defeat in battle",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "تولية الدبر والإعراض",
+"image_en": "turning the back and withdrawing",
+"scope_ar": "الإدبار خلاف الإقبال، وتولية الدبر في القتال، والإعراض عن الكلام أو الحاجة، والهزيمة والدبرة",
+"scope_en": "turning away, retreating, showing the back, ignoring speech, or defeat in battle"
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "قطع الدابر واستئصال الأثر",
+"image_en": "cutting off the last remnant",
+"scope_ar": "قطع آخر القوم أو أصلهم أو عقبهم حتى لا يبقى أثر، والدبار بمعنى الهلاك وانقطاع الأثر",
+"scope_en": "cutting off the last remnant, root, posterity, or trace; utter destruction",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "قطع الدابر واستئصال الأثر",
+"image_en": "cutting off the last remnant",
+"scope_ar": "قطع آخر القوم أو أصلهم أو عقبهم حتى لا يبقى أثر، والدبار بمعنى الهلاك وانقطاع الأثر",
+"scope_en": "cutting off the last remnant, root, posterity, or trace; utter destruction"
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "تدابر القوم وتصارمهم",
+"image_en": "mutual estrangement and enmity",
+"scope_ar": "المعاداة والهجران والتقاطع، بأن يولي كل واحد صاحبه دبره أو يعرض عنه",
+"scope_en": "mutual estrangement, enmity, or cutting relations by turning away from one another",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "تدابر القوم وتصارمهم",
+"image_en": "mutual estrangement and enmity",
+"scope_ar": "المعاداة والهجران والتقاطع، بأن يولي كل واحد صاحبه دبره أو يعرض عنه",
+"scope_en": "mutual estrangement, enmity, or cutting relations by turning away from one another"
+}
+]
+},
+{
+"branch_id": "B006",
+"image_ar": "تدبير الأمر والنظر في عاقبته",
+"image_en": "managing by considering outcomes",
+"scope_ar": "تدبير الأمر وتدبره، أي النظر إلى ما يؤول إليه آخره وعاقبته",
+"scope_en": "managing or reflecting on a matter by looking to its outcome",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "تدبير الأمر والنظر في عاقبته",
+"image_en": "managing by considering outcomes",
+"scope_ar": "تدبير الأمر وتدبره، أي النظر إلى ما يؤول إليه آخره وعاقبته",
+"scope_en": "managing or reflecting on a matter by looking to its outcome"
+}
+]
+},
+{
+"branch_id": "B007",
+"image_ar": "عتق العبد عن دبر الموت",
+"image_en": "manumission after the owner's death",
+"scope_ar": "تدبير العبد أو الأمة، وهو أن يعتق بعد موت صاحبه أو إذا قال له أنت حر بعد موتي",
+"scope_en": "legal manumission of a slave after the owner's death",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "عتق العبد عن دبر الموت",
+"image_en": "manumission after the owner's death",
+"scope_ar": "تدبير العبد أو الأمة، وهو أن يعتق بعد موت صاحبه أو إذا قال له أنت حر بعد موتي",
+"scope_en": "legal manumission of a slave after the owner's death"
+}
+]
+},
+{
+"branch_id": "B009",
+"image_ar": "دوابر الحيوان وأواخر الأعضاء",
+"image_en": "rear animal parts and hind anatomy",
+"scope_ar": "الإصبع المتأخرة في رجل الطائر، ومؤخر الحافر أو الرسغ، وعرقوب الإنسان وما في معناه من الأعضاء الخلفية",
+"scope_en": "rear toe, hind hoof or pastern area, human hock, and similar hind anatomy",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "دوابر الحيوان وأواخر الأعضاء",
+"image_en": "rear animal parts and hind anatomy",
+"scope_ar": "الإصبع المتأخرة في رجل الطائر، ومؤخر الحافر أو الرسغ، وعرقوب الإنسان وما في معناه من الأعضاء الخلفية",
+"scope_en": "rear toe, hind hoof or pastern area, human hock, and similar hind anatomy"
+}
+]
+},
+{
+"branch_id": "B010",
+"image_ar": "الدبير والمدابرة في الفتل والأذن",
+"image_en": "backward twist and rear ear-cut",
+"scope_ar": "الدبير في الفتل إلى خلف، والمدابرة أو الإدبارة في شق مؤخر الأذن أو فتلتها",
+"scope_en": "the backward-twisted thread and rear-side ear cut or tag",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "الدبير والمدابرة في الفتل والأذن",
+"image_en": "backward twist and rear ear-cut",
+"scope_ar": "الدبير في الفتل إلى خلف، والمدابرة أو الإدبارة في شق مؤخر الأذن أو فتلتها",
+"scope_en": "the backward-twisted thread and rear-side ear cut or tag"
+}
+]
+},
+{
+"branch_id": "B011",
+"image_ar": "مقابل مدابر في كرم النسب",
+"image_en": "noble on both ancestral sides",
+"scope_ar": "المقابل المدابر أو المدابر المقابل، أي كريم النسب أو محض من قبل أبويه",
+"scope_en": "noble or pure in lineage from both parental sides",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "مقابل مدابر في كرم النسب",
+"image_en": "noble on both ancestral sides",
+"scope_ar": "المقابل المدابر أو المدابر المقابل، أي كريم النسب أو محض من قبل أبويه",
+"scope_en": "noble or pure in lineage from both parental sides"
+}
+]
+},
+{
+"branch_id": "B012",
+"image_ar": "الدبور ريح من خلف الكعبة",
+"image_en": "the west wind from behind the Kaaba",
+"scope_ar": "الدبور ريح معروفة تقابل الصبا وتأتي من دبر الكعبة أو من نحو المغرب",
+"scope_en": "the wind called dabur, opposite the east wind and described as coming from the Kaaba's rear or the west",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "الدبور ريح من خلف الكعبة",
+"image_en": "the west wind from behind the Kaaba",
+"scope_ar": "الدبور ريح معروفة تقابل الصبا وتأتي من دبر الكعبة أو من نحو المغرب",
+"scope_en": "the wind called dabur, opposite the east wind and described as coming from the Kaaba's rear or the west"
+}
+]
+},
+{
+"branch_id": "B013",
+"image_ar": "الدبران تابع الثريا",
+"image_en": "Aldebaran following the Pleiades",
+"scope_ar": "الدبران نجم أو كواكب من منازل القمر سميت لأنها تدبر الثريا وتتبعها",
+"scope_en": "the star Aldebaran or its lunar mansion, named for following the Pleiades",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "الدبران تابع الثريا",
+"image_en": "Aldebaran following the Pleiades",
+"scope_ar": "الدبران نجم أو كواكب من منازل القمر سميت لأنها تدبر الثريا وتتبعها",
+"scope_en": "the star Aldebaran or its lunar mansion, named for following the Pleiades"
+}
+]
+},
+{
+"branch_id": "B014",
+"image_ar": "الدبر جماعة النحل والزنابير",
+"image_en": "bees and wasps",
+"scope_ar": "الدبر اسم لجماعة النحل والزنابير وما شاكلها، ويجمع على دبور",
+"scope_en": "bees, wasps, and similar stinging insects called dabr or dubur",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "الدبر جماعة النحل والزنابير",
+"image_en": "bees and wasps",
+"scope_ar": "الدبر اسم لجماعة النحل والزنابير وما شاكلها، ويجمع على دبور",
+"scope_en": "bees, wasps, and similar stinging insects called dabr or dubur"
+}
+]
+},
+{
+"branch_id": "B015",
+"image_ar": "الدبار مشارات الزرع",
+"image_en": "field strips or furrows",
+"scope_ar": "الدبار والدبرة والدبارة في المشارات أو الكردة من المزرعة",
+"scope_en": "field strips, ridges, or furrowed plots in cultivation",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "الدبار مشارات الزرع",
+"image_en": "field strips or furrows",
+"scope_ar": "الدبار والدبرة والدبارة في المشارات أو الكردة من المزرعة",
+"scope_en": "field strips, ridges, or furrowed plots in cultivation"
+}
+]
+},
+{
+"branch_id": "B016",
+"image_ar": "الدبر مال كثير باق",
+"image_en": "abundant lasting wealth",
+"scope_ar": "الدبر أو المدبور مال كثير، وربما وصف بما يبقى بعد صاحبه",
+"scope_en": "abundant wealth, especially wealth that remains after its owner",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "الدبر مال كثير باق",
+"image_en": "abundant lasting wealth",
+"scope_ar": "الدبر أو المدبور مال كثير، وربما وصف بما يبقى بعد صاحبه",
+"scope_en": "abundant wealth, especially wealth that remains after its owner"
+}
+]
+},
+{
+"branch_id": "B017",
+"image_ar": "دبرة الظهر وقرح البعير",
+"image_en": "back sore or saddle sore",
+"scope_ar": "الدبرة في ظهر البعير أو غيره، وصيرورة البعير أدبر إذا أصابه القرح في ظهره",
+"scope_en": "the sore on a camel's or animal's back, especially from equipment",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "دبرة الظهر وقرح البعير",
+"image_en": "back sore or saddle sore",
+"scope_ar": "الدبرة في ظهر البعير أو غيره، وصيرورة البعير أدبر إذا أصابه القرح في ظهره",
+"scope_en": "the sore on a camel's or animal's back, especially from equipment"
+}
+]
+},
+{
+"branch_id": "B018",
+"image_ar": "دبر السهم الهدف",
+"image_en": "the arrow passed behind the target",
+"scope_ar": "دبر السهم الهدف إذا خرج أو سقط وراءه، والدابر من السهام الخارج من الهدف",
+"scope_en": "an arrow passing behind or beyond the target",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "دبر السهم الهدف",
+"image_en": "the arrow passed behind the target",
+"scope_ar": "دبر السهم الهدف إذا خرج أو سقط وراءه، والدابر من السهام الخارج من الهدف",
+"scope_en": "an arrow passing behind or beyond the target"
+}
+]
+},
+{
+"branch_id": "B019",
+"image_ar": "الدابر الخائب في القداح",
+"image_en": "the losing lot in gaming",
+"scope_ar": "الدابر من القداح خلاف الفائز، وصاحبه مدابر، وما ذهب به القمار",
+"scope_en": "the losing gaming lot and the gambler deprived by it",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "الدابر الخائب في القداح",
+"image_en": "the losing lot in gaming",
+"scope_ar": "الدابر من القداح خلاف الفائز، وصاحبه مدابر، وما ذهب به القمار",
+"scope_en": "the losing gaming lot and the gambler deprived by it"
+}
+]
+},
+{
+"branch_id": "B021",
+"image_ar": "الدبر قطعة في البحر",
+"image_en": "an island-like sea rise",
+"scope_ar": "الدبر قطعة تغلظ في البحر كالجزيرة يعلوها الماء وينضب عنها",
+"scope_en": "a sea rise or island-like mass that water covers and exposes",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "الدبر قطعة في البحر",
+"image_en": "an island-like sea rise",
+"scope_ar": "الدبر قطعة تغلظ في البحر كالجزيرة يعلوها الماء وينضب عنها",
+"scope_en": "a sea rise or island-like mass that water covers and exposes"
+}
+]
+},
+{
+"branch_id": "B022",
+"image_ar": "الدابرة في الصراع",
+"image_en": "a wrestling grip or move",
+"scope_ar": "الدابرة ضرب من أخذ الصرع أو الشغزبية في الصراع",
+"scope_en": "a named wrestling hold or maneuver",
+"variants": [
+{
+"root_id": "root_000458",
+"source_path": "v4/outputs/pass2_branches/root_000458.branches.tsv",
+"image_ar": "الدابرة في الصراع",
+"image_en": "a wrestling grip or move",
+"scope_ar": "الدابرة ضرب من أخذ الصرع أو الشغزبية في الصراع",
+"scope_en": "a named wrestling hold or maneuver"
+}
+]
+}
+]
+},
+{
+"root": "و ج د",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "إلفاء الشيء وإصابته",
+"image_en": "finding and coming upon a thing",
+"scope_ar": "يدخل فيه العثور على المطلوب أو الضالة، وإصابة الشيء، وإدراكه بالحس أو العقل حيث نص المصدر.",
+"scope_en": "This branch covers finding a sought or lost thing, obtaining/coming upon something, and perceiving it by sense or mind where the source states that.",
+"variants": [
+{
+"root_id": "root_001626",
+"source_path": "v4/outputs/pass2_branches/root_001626.branches.tsv",
+"image_ar": "إلفاء الشيء وإصابته",
+"image_en": "finding and coming upon a thing",
+"scope_ar": "يدخل فيه العثور على المطلوب أو الضالة، وإصابة الشيء، وإدراكه بالحس أو العقل حيث نص المصدر.",
+"scope_en": "This branch covers finding a sought or lost thing, obtaining/coming upon something, and perceiving it by sense or mind where the source states that."
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "ثبوت الشيء في الوجود",
+"image_en": "existence or being found in reality",
+"scope_ar": "يدخل فيه كون الشيء موجودا أو موجودا بعد عدم، والتعبير عن الموجودات، وما أوجده الله.",
+"scope_en": "This branch covers something being existent, present after nonexistence, named as a موجود, or brought into existence.",
+"variants": [
+{
+"root_id": "root_001626",
+"source_path": "v4/outputs/pass2_branches/root_001626.branches.tsv",
+"image_ar": "ثبوت الشيء في الوجود",
+"image_en": "existence or being found in reality",
+"scope_ar": "يدخل فيه كون الشيء موجودا أو موجودا بعد عدم، والتعبير عن الموجودات، وما أوجده الله.",
+"scope_en": "This branch covers something being existent, present after nonexistence, named as a موجود, or brought into existence."
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "السعة والجدة والغنى",
+"image_en": "capacity, means, and wealth",
+"scope_ar": "يدخل فيه الجدة والوجد والوجدان في المال، والواجد بمعنى الغني، والتمكن والقدرة والسعة، وما جاء بصيغة الإغناء أو التقوية.",
+"scope_en": "This branch covers means, wealth, ability, sufficiency, and related causatives of enriching or strengthening.",
+"variants": [
+{
+"root_id": "root_001626",
+"source_path": "v4/outputs/pass2_branches/root_001626.branches.tsv",
+"image_ar": "السعة والجدة والغنى",
+"image_en": "capacity, means, and wealth",
+"scope_ar": "يدخل فيه الجدة والوجد والوجدان في المال، والواجد بمعنى الغني، والتمكن والقدرة والسعة، وما جاء بصيغة الإغناء أو التقوية.",
+"scope_en": "This branch covers means, wealth, ability, sufficiency, and related causatives of enriching or strengthening."
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "وجدان الحزن والمحبة",
+"image_en": "inner feeling of sorrow or love",
+"scope_ar": "يدخل فيه الوجد بمعنى الحزن أو الحب، والتوجد لفلان بمعنى الحزن له، وما نص عليه المصدر من وجد الشهوة أو الوجدان العاطفي.",
+"scope_en": "This branch covers wajd as sorrow, love, or felt inward passion where the source names those emotions.",
+"variants": [
+{
+"root_id": "root_001626",
+"source_path": "v4/outputs/pass2_branches/root_001626.branches.tsv",
+"image_ar": "وجدان الحزن والمحبة",
+"image_en": "inner feeling of sorrow or love",
+"scope_ar": "يدخل فيه الوجد بمعنى الحزن أو الحب، والتوجد لفلان بمعنى الحزن له، وما نص عليه المصدر من وجد الشهوة أو الوجدان العاطفي.",
+"scope_en": "This branch covers wajd as sorrow, love, or felt inward passion where the source names those emotions."
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "الموجدة والغضب",
+"image_en": "resentful anger",
+"scope_ar": "يدخل فيه وجد في الغضب، والموجدة من الغضب أو على الرجل، والوجدان إذا نص المصدر أنه في الغضب.",
+"scope_en": "This branch covers anger, resentment, or ill feeling expressed as موجدة or وجد in anger.",
+"variants": [
+{
+"root_id": "root_001626",
+"source_path": "v4/outputs/pass2_branches/root_001626.branches.tsv",
+"image_ar": "الموجدة والغضب",
+"image_en": "resentful anger",
+"scope_ar": "يدخل فيه وجد في الغضب، والموجدة من الغضب أو على الرجل، والوجدان إذا نص المصدر أنه في الغضب.",
+"scope_en": "This branch covers anger, resentment, or ill feeling expressed as موجدة or وجد in anger."
+}
+]
+}
+]
+}
+],
+"new_missing_branch_inventories": [],
+"state_before": {
+"seen_ayah_count": 22,
+"seen_root_count": 122,
+"available_root_count": 122,
+"missing_root_count": 0,
+"retrieval_count": 20
+},
+"provenance": {
+"branch_filter": {
+"status": "accepted",
+"contaminated": "no",
+"origin_corpus": [
+"furuq",
+"quranic"
+]
+},
+"resource_sha256": {
+"resources/qac_root_ayah.tsv": "be694bc26a6ec261f16037e08be1d62a0dcc8d9154c9f6c5f267a338b91cf3ad",
+"resources/furuq_v4.sqlite.gz": "2fc0c4f30ff841e46441df82d50b771c43a762d1e62e1ed2842292c17b06e699"
+},
+"synthetic_ayat": []
+},
+"state_after": {
+"seen_ayah_count": 23,
+"seen_root_count": 124,
+"available_root_count": 124,
+"missing_root_count": 0,
+"retrieval_count": 21
+}
 }

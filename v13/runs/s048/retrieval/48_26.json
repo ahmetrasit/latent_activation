@@ -1,2286 +1,1324 @@
 {
-  "protocol": "v13-dynamic-retrieval-packet-v1",
-  "mode": "focus",
-  "focus_ref": "48:26",
-  "radius": 2,
-  "selected_window_size": 30,
-  "active_window": [
-    "48:24",
-    "48:25",
-    "48:26",
-    "48:27",
-    "48:28"
-  ],
-  "active_ayat": [
-    {
-      "ref": "48:24",
-      "text_ar": "وَهُوَ ٱلَّذِى كَفَّ أَيْدِيَهُمْ عَنكُمْ وَأَيْدِيَكُمْ عَنْهُم بِبَطْنِ مَكَّةَ مِنۢ بَعْدِ أَنْ أَظْفَرَكُمْ عَلَيْهِمْ ۚ وَكَانَ ٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرًا",
-      "text_norm_ar": "وهو الذي كف ايديهم عنكم وايديكم عنهم ببطن مكة من بعد ان اظفركم عليهم وكان الله بما تعملون بصيرا",
-      "root_sequence": [
-        "ك ف ف",
-        "ي د ي",
-        "ي د ي",
-        "ب ط ن",
-        "ب ع د",
-        "ظ ف ر",
-        "ك و ن",
-        "ء ل ه",
-        "ع م ل",
-        "ب ص ر"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ك ف ف",
-          "occurrence_count": 1,
-          "word_indices": [
-            "3"
-          ],
-          "surfaces_ar": [
-            "كَفَّ"
-          ],
-          "lemmas_ar": [
-            "كَفَّ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ي د ي",
-          "occurrence_count": 2,
-          "word_indices": [
-            "4",
-            "6"
-          ],
-          "surfaces_ar": [
-            "أَيْدِيَ",
-            "أَيْدِيَ"
-          ],
-          "lemmas_ar": [
-            "يَد",
-            "يَد"
-          ],
-          "pos_tags": [
-            "N",
-            "N"
-          ]
-        },
-        {
-          "root": "ب ط ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "8"
-          ],
-          "surfaces_ar": [
-            "بَطْنِ"
-          ],
-          "lemmas_ar": [
-            "بَطْن"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ب ع د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "11"
-          ],
-          "surfaces_ar": [
-            "بَعْدِ"
-          ],
-          "lemmas_ar": [
-            "بَعْد"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ظ ف ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "13"
-          ],
-          "surfaces_ar": [
-            "أَظْفَرَ"
-          ],
-          "lemmas_ar": [
-            "أَظْفَرَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك و ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "15"
-          ],
-          "surfaces_ar": [
-            "كَانَ"
-          ],
-          "lemmas_ar": [
-            "كَانَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "16"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "ع م ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "18"
-          ],
-          "surfaces_ar": [
-            "تَعْمَلُ"
-          ],
-          "lemmas_ar": [
-            "عَمِلَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ب ص ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "19"
-          ],
-          "surfaces_ar": [
-            "بَصِيرًا"
-          ],
-          "lemmas_ar": [
-            "بَصِير"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:25",
-      "text_ar": "هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌۭ مُّؤْمِنُونَ وَنِسَآءٌۭ مُّؤْمِنَٰتٌۭ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍۢ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا",
-      "text_norm_ar": "هم الذين كفروا وصدوكم عن المسجد الحرام والهدي معكوفا ان يبلغ محله ولولا رجال مؤمنون ونساء مؤمنت لم تعلموهم ان تطوهم فتصيبكم منهم معرة بغير علم ليدخل الله في رحمته من يشاء لو تزيلوا لعذبنا الذين كفروا منهم عذابا اليما",
-      "root_sequence": [
-        "ك ف ر",
-        "ص د د",
-        "س ج د",
-        "ح ر م",
-        "ه د ي",
-        "ع ك ف",
-        "ب ل غ",
-        "ح ل ل",
-        "ر ج ل",
-        "ء م ن",
-        "ن س و",
-        "ء م ن",
-        "ع ل م",
-        "و ط ء",
-        "ص و ب",
-        "ع ر ر",
-        "غ ي ر",
-        "ع ل م",
-        "د خ ل",
-        "ء ل ه",
-        "ر ح م",
-        "ش ي ء",
-        "ز ي ل",
-        "ع ذ ب",
-        "ك ف ر",
-        "ع ذ ب",
-        "ء ل م"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ك ف ر",
-          "occurrence_count": 2,
-          "word_indices": [
-            "3",
-            "37"
-          ],
-          "surfaces_ar": [
-            "كَفَرُ",
-            "كَفَرُ"
-          ],
-          "lemmas_ar": [
-            "كَفَرَ",
-            "كَفَرَ"
-          ],
-          "pos_tags": [
-            "V",
-            "V"
-          ]
-        },
-        {
-          "root": "ص د د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "صَدُّ"
-          ],
-          "lemmas_ar": [
-            "صَدَّ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "س ج د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "6"
-          ],
-          "surfaces_ar": [
-            "مَسْجِدِ"
-          ],
-          "lemmas_ar": [
-            "مَسْجِد"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ح ر م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "حَرَامِ"
-          ],
-          "lemmas_ar": [
-            "حَرَام"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ه د ي",
-          "occurrence_count": 1,
-          "word_indices": [
-            "8"
-          ],
-          "surfaces_ar": [
-            "هَدْىَ"
-          ],
-          "lemmas_ar": [
-            "هَدْي"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ع ك ف",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "مَعْكُوفًا"
-          ],
-          "lemmas_ar": [
-            "مَعْكُوف"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ب ل غ",
-          "occurrence_count": 1,
-          "word_indices": [
-            "11"
-          ],
-          "surfaces_ar": [
-            "يَبْلُغَ"
-          ],
-          "lemmas_ar": [
-            "بَلَغَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ح ل ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "12"
-          ],
-          "surfaces_ar": [
-            "مَحِلَّ"
-          ],
-          "lemmas_ar": [
-            "مَحِلّ"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ر ج ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "14"
-          ],
-          "surfaces_ar": [
-            "رِجَالٌ"
-          ],
-          "lemmas_ar": [
-            "رِجَال"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء م ن",
-          "occurrence_count": 2,
-          "word_indices": [
-            "15",
-            "17"
-          ],
-          "surfaces_ar": [
-            "مُّؤْمِنُونَ",
-            "مُّؤْمِنَٰتٌ"
-          ],
-          "lemmas_ar": [
-            "مُؤْمِن",
-            "مُّؤْمِنَٰت"
-          ],
-          "pos_tags": [
-            "N",
-            "N"
-          ]
-        },
-        {
-          "root": "ن س و",
-          "occurrence_count": 1,
-          "word_indices": [
-            "16"
-          ],
-          "surfaces_ar": [
-            "نِسَآءٌ"
-          ],
-          "lemmas_ar": [
-            "نِسَآء"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ع ل م",
-          "occurrence_count": 2,
-          "word_indices": [
-            "19",
-            "26"
-          ],
-          "surfaces_ar": [
-            "تَعْلَمُ",
-            "عِلْمٍ"
-          ],
-          "lemmas_ar": [
-            "عَلِمَ",
-            "عِلْم"
-          ],
-          "pos_tags": [
-            "V",
-            "N"
-          ]
-        },
-        {
-          "root": "و ط ء",
-          "occurrence_count": 1,
-          "word_indices": [
-            "21"
-          ],
-          "surfaces_ar": [
-            "تَطَـُٔ"
-          ],
-          "lemmas_ar": [
-            "يَطَـُٔ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ص و ب",
-          "occurrence_count": 1,
-          "word_indices": [
-            "22"
-          ],
-          "surfaces_ar": [
-            "تُصِيبَ"
-          ],
-          "lemmas_ar": [
-            "أَصَابَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ع ر ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "24"
-          ],
-          "surfaces_ar": [
-            "مَّعَرَّةٌۢ"
-          ],
-          "lemmas_ar": [
-            "مَّعَرَّة"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "غ ي ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "25"
-          ],
-          "surfaces_ar": [
-            "غَيْرِ"
-          ],
-          "lemmas_ar": [
-            "غَيْر"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "د خ ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "27"
-          ],
-          "surfaces_ar": [
-            "يُدْخِلَ"
-          ],
-          "lemmas_ar": [
-            "أُدْخِلَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "28"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "ر ح م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "30"
-          ],
-          "surfaces_ar": [
-            "رَحْمَتِ"
-          ],
-          "lemmas_ar": [
-            "رَحْمَة"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ش ي ء",
-          "occurrence_count": 1,
-          "word_indices": [
-            "32"
-          ],
-          "surfaces_ar": [
-            "يَشَآءُ"
-          ],
-          "lemmas_ar": [
-            "شَآءَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ز ي ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "34"
-          ],
-          "surfaces_ar": [
-            "تَزَيَّلُ"
-          ],
-          "lemmas_ar": [
-            "تَزَيَّلُ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ع ذ ب",
-          "occurrence_count": 2,
-          "word_indices": [
-            "35",
-            "39"
-          ],
-          "surfaces_ar": [
-            "عَذَّبْ",
-            "عَذَابًا"
-          ],
-          "lemmas_ar": [
-            "عَذَّبَ",
-            "عَذَاب"
-          ],
-          "pos_tags": [
-            "V",
-            "N"
-          ]
-        },
-        {
-          "root": "ء ل م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "40"
-          ],
-          "surfaces_ar": [
-            "أَلِيمًا"
-          ],
-          "lemmas_ar": [
-            "أَلِيم"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:26",
-      "text_ar": "إِذْ جَعَلَ ٱلَّذِينَ كَفَرُوا۟ فِى قُلُوبِهِمُ ٱلْحَمِيَّةَ حَمِيَّةَ ٱلْجَٰهِلِيَّةِ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَىٰ رَسُولِهِۦ وَعَلَى ٱلْمُؤْمِنِينَ وَأَلْزَمَهُمْ كَلِمَةَ ٱلتَّقْوَىٰ وَكَانُوٓا۟ أَحَقَّ بِهَا وَأَهْلَهَا ۚ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمًۭا",
-      "text_norm_ar": "اذ جعل الذين كفروا في قلوبهم الحمية حمية الجهلية فانزل الله سكينته علي رسوله وعلي المؤمنين والزمهم كلمة التقوي وكانوا احق بها واهلها وكان الله بكل شيء عليما",
-      "root_sequence": [
-        "ج ع ل",
-        "ك ف ر",
-        "ق ل ب",
-        "ح م ي",
-        "ح م ي",
-        "ج ه ل",
-        "ن ز ل",
-        "ء ل ه",
-        "س ك ن",
-        "ر س ل",
-        "ء م ن",
-        "ل ز م",
-        "ك ل م",
-        "و ق ي",
-        "ك و ن",
-        "ح ق ق",
-        "ء ه ل",
-        "ك و ن",
-        "ء ل ه",
-        "ك ل ل",
-        "ش ي ء",
-        "ع ل م"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ج ع ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "2"
-          ],
-          "surfaces_ar": [
-            "جَعَلَ"
-          ],
-          "lemmas_ar": [
-            "جَعَلَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك ف ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "كَفَرُ"
-          ],
-          "lemmas_ar": [
-            "كَفَرَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ق ل ب",
-          "occurrence_count": 1,
-          "word_indices": [
-            "6"
-          ],
-          "surfaces_ar": [
-            "قُلُوبِ"
-          ],
-          "lemmas_ar": [
-            "قَلْب"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ح م ي",
-          "occurrence_count": 2,
-          "word_indices": [
-            "7",
-            "8"
-          ],
-          "surfaces_ar": [
-            "حَمِيَّةَ",
-            "حَمِيَّةَ"
-          ],
-          "lemmas_ar": [
-            "حَمِيَّة",
-            "حَمِيَّة"
-          ],
-          "pos_tags": [
-            "N",
-            "N"
-          ]
-        },
-        {
-          "root": "ج ه ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "جَٰهِلِيَّةِ"
-          ],
-          "lemmas_ar": [
-            "جَٰهِلِيَّة2"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "ن ز ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "10"
-          ],
-          "surfaces_ar": [
-            "أَنزَلَ"
-          ],
-          "lemmas_ar": [
-            "أَنزَلَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 2,
-          "word_indices": [
-            "11",
-            "25"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهُ",
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه",
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN",
-            "PN"
-          ]
-        },
-        {
-          "root": "س ك ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "12"
-          ],
-          "surfaces_ar": [
-            "سَكِينَتَ"
-          ],
-          "lemmas_ar": [
-            "سَكِينَة"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ر س ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "14"
-          ],
-          "surfaces_ar": [
-            "رَسُولِ"
-          ],
-          "lemmas_ar": [
-            "رَسُول"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء م ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "16"
-          ],
-          "surfaces_ar": [
-            "مُؤْمِنِينَ"
-          ],
-          "lemmas_ar": [
-            "مُؤْمِن"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ل ز م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "17"
-          ],
-          "surfaces_ar": [
-            "أَلْزَمَ"
-          ],
-          "lemmas_ar": [
-            "أَلْزَمَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك ل م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "18"
-          ],
-          "surfaces_ar": [
-            "كَلِمَةَ"
-          ],
-          "lemmas_ar": [
-            "كَلِمَة"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "و ق ي",
-          "occurrence_count": 1,
-          "word_indices": [
-            "19"
-          ],
-          "surfaces_ar": [
-            "تَّقْوَىٰ"
-          ],
-          "lemmas_ar": [
-            "تَقْوَى"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ك و ن",
-          "occurrence_count": 2,
-          "word_indices": [
-            "20",
-            "24"
-          ],
-          "surfaces_ar": [
-            "كَانُ",
-            "كَانَ"
-          ],
-          "lemmas_ar": [
-            "كَانَ",
-            "كَانَ"
-          ],
-          "pos_tags": [
-            "V",
-            "V"
-          ]
-        },
-        {
-          "root": "ح ق ق",
-          "occurrence_count": 1,
-          "word_indices": [
-            "21"
-          ],
-          "surfaces_ar": [
-            "أَحَقَّ"
-          ],
-          "lemmas_ar": [
-            "أَحَقّ"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء ه ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "23"
-          ],
-          "surfaces_ar": [
-            "أَهْلَ"
-          ],
-          "lemmas_ar": [
-            "أَهْل"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ك ل ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "26"
-          ],
-          "surfaces_ar": [
-            "كُلِّ"
-          ],
-          "lemmas_ar": [
-            "كُلّ"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ش ي ء",
-          "occurrence_count": 1,
-          "word_indices": [
-            "27"
-          ],
-          "surfaces_ar": [
-            "شَىْءٍ"
-          ],
-          "lemmas_ar": [
-            "شَىْء"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ع ل م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "28"
-          ],
-          "surfaces_ar": [
-            "عَلِيمًا"
-          ],
-          "lemmas_ar": [
-            "عَلِيم"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:27",
-      "text_ar": "لَّقَدْ صَدَقَ ٱللَّهُ رَسُولَهُ ٱلرُّءْيَا بِٱلْحَقِّ ۖ لَتَدْخُلُنَّ ٱلْمَسْجِدَ ٱلْحَرَامَ إِن شَآءَ ٱللَّهُ ءَامِنِينَ مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ لَا تَخَافُونَ ۖ فَعَلِمَ مَا لَمْ تَعْلَمُوا۟ فَجَعَلَ مِن دُونِ ذَٰلِكَ فَتْحًۭا قَرِيبًا",
-      "text_norm_ar": "لقد صدق الله رسوله الرءيا بالحق لتدخلن المسجد الحرام ان شاء الله ءامنين محلقين رءوسكم ومقصرين لا تخافون فعلم ما لم تعلموا فجعل من دون ذلك فتحا قريبا",
-      "root_sequence": [
-        "ص د ق",
-        "ء ل ه",
-        "ر س ل",
-        "ر ء ي",
-        "ح ق ق",
-        "د خ ل",
-        "س ج د",
-        "ح ر م",
-        "ش ي ء",
-        "ء ل ه",
-        "ء م ن",
-        "ح ل ق",
-        "ر ء س",
-        "ق ص ر",
-        "خ و ف",
-        "ع ل م",
-        "ع ل م",
-        "ج ع ل",
-        "د و ن",
-        "ف ت ح",
-        "ق ر ب"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ص د ق",
-          "occurrence_count": 1,
-          "word_indices": [
-            "2"
-          ],
-          "surfaces_ar": [
-            "صَدَقَ"
-          ],
-          "lemmas_ar": [
-            "صَدَقَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 2,
-          "word_indices": [
-            "3",
-            "12"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهُ",
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه",
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN",
-            "PN"
-          ]
-        },
-        {
-          "root": "ر س ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "رَسُولَ"
-          ],
-          "lemmas_ar": [
-            "رَسُول"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ر ء ي",
-          "occurrence_count": 1,
-          "word_indices": [
-            "5"
-          ],
-          "surfaces_ar": [
-            "رُّءْيَا"
-          ],
-          "lemmas_ar": [
-            "رُّءْيَا"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ح ق ق",
-          "occurrence_count": 1,
-          "word_indices": [
-            "6"
-          ],
-          "surfaces_ar": [
-            "حَقِّ"
-          ],
-          "lemmas_ar": [
-            "حَقّ"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "د خ ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "تَدْخُلُ"
-          ],
-          "lemmas_ar": [
-            "دَخَلَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "س ج د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "8"
-          ],
-          "surfaces_ar": [
-            "مَسْجِدَ"
-          ],
-          "lemmas_ar": [
-            "مَسْجِد"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ح ر م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "حَرَامَ"
-          ],
-          "lemmas_ar": [
-            "حَرَام"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ش ي ء",
-          "occurrence_count": 1,
-          "word_indices": [
-            "11"
-          ],
-          "surfaces_ar": [
-            "شَآءَ"
-          ],
-          "lemmas_ar": [
-            "شَآءَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء م ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "13"
-          ],
-          "surfaces_ar": [
-            "ءَامِنِينَ"
-          ],
-          "lemmas_ar": [
-            "ءَامِنِين"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ح ل ق",
-          "occurrence_count": 1,
-          "word_indices": [
-            "14"
-          ],
-          "surfaces_ar": [
-            "مُحَلِّقِينَ"
-          ],
-          "lemmas_ar": [
-            "مُحَلِّقِين"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ر ء س",
-          "occurrence_count": 1,
-          "word_indices": [
-            "15"
-          ],
-          "surfaces_ar": [
-            "رُءُوسَ"
-          ],
-          "lemmas_ar": [
-            "رَأْس"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ق ص ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "16"
-          ],
-          "surfaces_ar": [
-            "مُقَصِّرِينَ"
-          ],
-          "lemmas_ar": [
-            "مُقَصِّرِين"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "خ و ف",
-          "occurrence_count": 1,
-          "word_indices": [
-            "18"
-          ],
-          "surfaces_ar": [
-            "تَخَافُ"
-          ],
-          "lemmas_ar": [
-            "خَافَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ع ل م",
-          "occurrence_count": 2,
-          "word_indices": [
-            "19",
-            "22"
-          ],
-          "surfaces_ar": [
-            "عَلِمَ",
-            "تَعْلَمُ"
-          ],
-          "lemmas_ar": [
-            "عَلِمَ",
-            "عَلِمَ"
-          ],
-          "pos_tags": [
-            "V",
-            "V"
-          ]
-        },
-        {
-          "root": "ج ع ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "23"
-          ],
-          "surfaces_ar": [
-            "جَعَلَ"
-          ],
-          "lemmas_ar": [
-            "جَعَلَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "د و ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "25"
-          ],
-          "surfaces_ar": [
-            "دُونِ"
-          ],
-          "lemmas_ar": [
-            "دُون"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ف ت ح",
-          "occurrence_count": 1,
-          "word_indices": [
-            "27"
-          ],
-          "surfaces_ar": [
-            "فَتْحًا"
-          ],
-          "lemmas_ar": [
-            "فَتْح"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ق ر ب",
-          "occurrence_count": 1,
-          "word_indices": [
-            "28"
-          ],
-          "surfaces_ar": [
-            "قَرِيبًا"
-          ],
-          "lemmas_ar": [
-            "قَرِيب"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:28",
-      "text_ar": "هُوَ ٱلَّذِىٓ أَرْسَلَ رَسُولَهُۥ بِٱلْهُدَىٰ وَدِينِ ٱلْحَقِّ لِيُظْهِرَهُۥ عَلَى ٱلدِّينِ كُلِّهِۦ ۚ وَكَفَىٰ بِٱللَّهِ شَهِيدًۭا",
-      "text_norm_ar": "هو الذي ارسل رسوله بالهدي ودين الحق ليظهره علي الدين كله وكفي بالله شهيدا",
-      "root_sequence": [
-        "ر س ل",
-        "ر س ل",
-        "ه د ي",
-        "د ي ن",
-        "ح ق ق",
-        "ظ ه ر",
-        "د ي ن",
-        "ك ل ل",
-        "ك ف ي",
-        "ء ل ه",
-        "ش ه د"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ر س ل",
-          "occurrence_count": 2,
-          "word_indices": [
-            "3",
-            "4"
-          ],
-          "surfaces_ar": [
-            "أَرْسَلَ",
-            "رَسُولَ"
-          ],
-          "lemmas_ar": [
-            "أَرْسَلَ",
-            "رَسُول"
-          ],
-          "pos_tags": [
-            "V",
-            "N"
-          ]
-        },
-        {
-          "root": "ه د ي",
-          "occurrence_count": 1,
-          "word_indices": [
-            "5"
-          ],
-          "surfaces_ar": [
-            "هُدَىٰ"
-          ],
-          "lemmas_ar": [
-            "هُدًى"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "د ي ن",
-          "occurrence_count": 2,
-          "word_indices": [
-            "6",
-            "10"
-          ],
-          "surfaces_ar": [
-            "دِينِ",
-            "دِّينِ"
-          ],
-          "lemmas_ar": [
-            "دِين",
-            "دِين"
-          ],
-          "pos_tags": [
-            "N",
-            "N"
-          ]
-        },
-        {
-          "root": "ح ق ق",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "حَقِّ"
-          ],
-          "lemmas_ar": [
-            "حَقّ"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ظ ه ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "8"
-          ],
-          "surfaces_ar": [
-            "يُظْهِرَ"
-          ],
-          "lemmas_ar": [
-            "أَظْهَرَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك ل ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "11"
-          ],
-          "surfaces_ar": [
-            "كُلِّ"
-          ],
-          "lemmas_ar": [
-            "كُلّ"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ك ف ي",
-          "occurrence_count": 1,
-          "word_indices": [
-            "12"
-          ],
-          "surfaces_ar": [
-            "كَفَىٰ"
-          ],
-          "lemmas_ar": [
-            "كَفَىٰ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "13"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهِ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "ش ه د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "14"
-          ],
-          "surfaces_ar": [
-            "شَهِيدًا"
-          ],
-          "lemmas_ar": [
-            "شَهِيد"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    }
-  ],
-  "new_ayah_refs": [
-    "48:28"
-  ],
-  "active_roots": [
-    "ك ف ف",
-    "ي د ي",
-    "ب ط ن",
-    "ب ع د",
-    "ظ ف ر",
-    "ك و ن",
-    "ء ل ه",
-    "ع م ل",
-    "ب ص ر",
-    "ك ف ر",
-    "ص د د",
-    "س ج د",
-    "ح ر م",
-    "ه د ي",
-    "ع ك ف",
-    "ب ل غ",
-    "ح ل ل",
-    "ر ج ل",
-    "ء م ن",
-    "ن س و",
-    "ع ل م",
-    "و ط ء",
-    "ص و ب",
-    "ع ر ر",
-    "غ ي ر",
-    "د خ ل",
-    "ر ح م",
-    "ش ي ء",
-    "ز ي ل",
-    "ع ذ ب",
-    "ء ل م",
-    "ج ع ل",
-    "ق ل ب",
-    "ح م ي",
-    "ج ه ل",
-    "ن ز ل",
-    "س ك ن",
-    "ر س ل",
-    "ل ز م",
-    "ك ل م",
-    "و ق ي",
-    "ح ق ق",
-    "ء ه ل",
-    "ك ل ل",
-    "ص د ق",
-    "ر ء ي",
-    "ح ل ق",
-    "ر ء س",
-    "ق ص ر",
-    "خ و ف",
-    "د و ن",
-    "ف ت ح",
-    "ق ر ب",
-    "د ي ن",
-    "ظ ه ر",
-    "ك ف ي",
-    "ش ه د"
-  ],
-  "new_roots": [
-    "د ي ن",
-    "ظ ه ر",
-    "ك ف ي"
-  ],
-  "cached_roots": [
-    "ك ف ف",
-    "ي د ي",
-    "ب ط ن",
-    "ب ع د",
-    "ظ ف ر",
-    "ك و ن",
-    "ء ل ه",
-    "ع م ل",
-    "ب ص ر",
-    "ك ف ر",
-    "ص د د",
-    "س ج د",
-    "ح ر م",
-    "ه د ي",
-    "ع ك ف",
-    "ب ل غ",
-    "ح ل ل",
-    "ر ج ل",
-    "ء م ن",
-    "ن س و",
-    "ع ل م",
-    "و ط ء",
-    "ص و ب",
-    "ع ر ر",
-    "غ ي ر",
-    "د خ ل",
-    "ر ح م",
-    "ش ي ء",
-    "ز ي ل",
-    "ع ذ ب",
-    "ء ل م",
-    "ج ع ل",
-    "ق ل ب",
-    "ح م ي",
-    "ج ه ل",
-    "ن ز ل",
-    "س ك ن",
-    "ر س ل",
-    "ل ز م",
-    "ك ل م",
-    "و ق ي",
-    "ح ق ق",
-    "ء ه ل",
-    "ك ل ل",
-    "ص د ق",
-    "ر ء ي",
-    "ح ل ق",
-    "ر ء س",
-    "ق ص ر",
-    "خ و ف",
-    "د و ن",
-    "ف ت ح",
-    "ق ر ب",
-    "ش ه د"
-  ],
-  "cached_available_roots": [
-    "ك ف ف",
-    "ي د ي",
-    "ب ط ن",
-    "ب ع د",
-    "ظ ف ر",
-    "ك و ن",
-    "ء ل ه",
-    "ع م ل",
-    "ب ص ر",
-    "ك ف ر",
-    "ص د د",
-    "س ج د",
-    "ح ر م",
-    "ه د ي",
-    "ع ك ف",
-    "ب ل غ",
-    "ح ل ل",
-    "ر ج ل",
-    "ء م ن",
-    "ن س و",
-    "ع ل م",
-    "و ط ء",
-    "ص و ب",
-    "ع ر ر",
-    "غ ي ر",
-    "د خ ل",
-    "ر ح م",
-    "ش ي ء",
-    "ز ي ل",
-    "ع ذ ب",
-    "ء ل م",
-    "ج ع ل",
-    "ق ل ب",
-    "ح م ي",
-    "ج ه ل",
-    "ن ز ل",
-    "س ك ن",
-    "ر س ل",
-    "ل ز م",
-    "ك ل م",
-    "و ق ي",
-    "ح ق ق",
-    "ء ه ل",
-    "ك ل ل",
-    "ص د ق",
-    "ر ء ي",
-    "ح ل ق",
-    "ر ء س",
-    "ق ص ر",
-    "خ و ف",
-    "د و ن",
-    "ف ت ح",
-    "ق ر ب",
-    "ش ه د"
-  ],
-  "cached_missing_roots": [],
-  "new_branch_inventories": [
-    {
-      "root": "د ي ن",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "الطاعة والانقياد",
-          "image_en": "obedience and submission",
-          "scope_ar": "الدين بمعنى الطاعة والانقياد والتعبد والملة والشريعة وما يتدين به",
-          "scope_en": "Religion, worship, obedience, submission, and the way or law one follows",
-          "variants": [
-            {
-              "root_id": "root_000504",
-              "source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
-              "image_ar": "الطاعة والانقياد",
-              "image_en": "obedience and submission",
-              "scope_ar": "الدين بمعنى الطاعة والانقياد والتعبد والملة والشريعة وما يتدين به",
-              "scope_en": "Religion, worship, obedience, submission, and the way or law one follows"
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "الحساب والجزاء",
-          "image_en": "reckoning and recompense",
-          "scope_ar": "الدين بمعنى الحكم والحساب والجزاء والمكافأة والقضاء",
-          "scope_en": "Reckoning, judgment, recompense, and being requited for deeds",
-          "variants": [
-            {
-              "root_id": "root_000504",
-              "source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
-              "image_ar": "الحساب والجزاء",
-              "image_en": "reckoning and recompense",
-              "scope_ar": "الدين بمعنى الحكم والحساب والجزاء والمكافأة والقضاء",
-              "scope_en": "Reckoning, judgment, recompense, and being requited for deeds"
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "الدين المالي",
-          "image_en": "debt and credit",
-          "scope_ar": "الدين المالي والقرض والاستقراض والمداينة والبيع إلى أجل وما يؤخذ أو يعطى دينا",
-          "scope_en": "Financial debt, lending, borrowing, credit dealing, and deferred sale",
-          "variants": [
-            {
-              "root_id": "root_000504",
-              "source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
-              "image_ar": "الدين المالي",
-              "image_en": "debt and credit",
-              "scope_ar": "الدين المالي والقرض والاستقراض والمداينة والبيع إلى أجل وما يؤخذ أو يعطى دينا",
-              "scope_en": "Financial debt, lending, borrowing, credit dealing, and deferred sale"
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "الإذلال والملك",
-          "image_en": "subjugation and possession",
-          "scope_ar": "الإذلال والقهر والملك والاستعباد والحمل على المكروه والعبد المدين والأمة المدينة",
-          "scope_en": "Humbling, compelling, owning, enslaving, and being under another's control",
-          "variants": [
-            {
-              "root_id": "root_000504",
-              "source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
-              "image_ar": "الإذلال والملك",
-              "image_en": "subjugation and possession",
-              "scope_ar": "الإذلال والقهر والملك والاستعباد والحمل على المكروه والعبد المدين والأمة المدينة",
-              "scope_en": "Humbling, compelling, owning, enslaving, and being under another's control"
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "العادة والشأن",
-          "image_en": "habit and customary state",
-          "scope_ar": "الدين بمعنى العادة والشأن والحال المعهود والدأب",
-          "scope_en": "Custom, habitual way, usual condition, or familiar state",
-          "variants": [
-            {
-              "root_id": "root_000504",
-              "source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
-              "image_ar": "العادة والشأن",
-              "image_en": "habit and customary state",
-              "scope_ar": "الدين بمعنى العادة والشأن والحال المعهود والدأب",
-              "scope_en": "Custom, habitual way, usual condition, or familiar state"
-            }
-          ]
-        },
-        {
-          "branch_id": "B006",
-          "image_ar": "مدينة الطاعة",
-          "image_en": "city of ordered authority",
-          "scope_ar": "المدينة بمعنى المصر والموضع الذي تقام فيه طاعة ذوي الأمر",
-          "scope_en": "The city or town understood as a place of organized authority and obedience",
-          "variants": [
-            {
-              "root_id": "root_000504",
-              "source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
-              "image_ar": "مدينة الطاعة",
-              "image_en": "city of ordered authority",
-              "scope_ar": "المدينة بمعنى المصر والموضع الذي تقام فيه طاعة ذوي الأمر",
-              "scope_en": "The city or town understood as a place of organized authority and obedience"
-            }
-          ]
-        },
-        {
-          "branch_id": "B007",
-          "image_ar": "التصديق والتفويض",
-          "image_en": "crediting and leaving to conscience",
-          "scope_ar": "التديين بمعنى تصديق الرجل في القضاء أو الحلف أو تفويضه إلى دينه",
-          "scope_en": "Crediting a person in judgment or oath, or leaving him to his own religious responsibility",
-          "variants": [
-            {
-              "root_id": "root_000504",
-              "source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
-              "image_ar": "التصديق والتفويض",
-              "image_en": "crediting and leaving to conscience",
-              "scope_ar": "التديين بمعنى تصديق الرجل في القضاء أو الحلف أو تفويضه إلى دينه",
-              "scope_en": "Crediting a person in judgment or oath, or leaving him to his own religious responsibility"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "ظ ه ر",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "البروز والانكشاف",
-          "image_en": "coming out into view",
-          "scope_ar": "ظهور الشيء وانكشافه وتبينه وما كان ظاهرا غير باطن",
-          "scope_en": "Things becoming visible, evident, exposed, or outward rather than hidden",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "البروز والانكشاف",
-              "image_en": "coming out into view",
-              "scope_ar": "ظهور الشيء وانكشافه وتبينه وما كان ظاهرا غير باطن",
-              "scope_en": "Things becoming visible, evident, exposed, or outward rather than hidden"
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "الظهر وخلاف البطن",
-          "image_en": "the back opposite the belly",
-          "scope_ar": "الظهر جارحة أو جهة مقابلة للبطن في الإنسان وغيره وما ينسب إلى شدة الظهر أو وجعه",
-          "scope_en": "Anatomical or object back as the side opposite the belly, including back strength or back pain",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "الظهر وخلاف البطن",
-              "image_en": "the back opposite the belly",
-              "scope_ar": "الظهر جارحة أو جهة مقابلة للبطن في الإنسان وغيره وما ينسب إلى شدة الظهر أو وجعه",
-              "scope_en": "Anatomical or object back as the side opposite the belly, including back strength or back pain"
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "ظهر الأرض وظاهرها",
-          "image_en": "the upper or outer surface",
-          "scope_ar": "ظهر الأرض وظاهر الشيء وما غلظ وارتفع أو علا وبرز من أرض أو ثوب أو بساط",
-          "scope_en": "Upper, outer, raised, or exposed side or surface of land and objects",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "ظهر الأرض وظاهرها",
-              "image_en": "the upper or outer surface",
-              "scope_ar": "ظهر الأرض وظاهر الشيء وما غلظ وارتفع أو علا وبرز من أرض أو ثوب أو بساط",
-              "scope_en": "Upper, outer, raised, or exposed side or surface of land and objects"
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "وقت الظهر والظهيرة",
-          "image_en": "noon and midday",
-          "scope_ar": "وقت الظهر والظهيرة والدخول في ذلك الوقت والصلاة المسماة به والورد فيه",
-          "scope_en": "Noon, midday, entering that time, the noon prayer, and watering at midday",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "وقت الظهر والظهيرة",
-              "image_en": "noon and midday",
-              "scope_ar": "وقت الظهر والظهيرة والدخول في ذلك الوقت والصلاة المسماة به والورد فيه",
-              "scope_en": "Noon, midday, entering that time, the noon prayer, and watering at midday"
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "الركاب والعدة المحمولة",
-          "image_en": "mounts and spare riding animals",
-          "scope_ar": "الظهر بمعنى الركاب التي تحمل الأثقال والبعير المعد للحاجة أو الركوب",
-          "scope_en": "Travel mounts, load-bearing animals, and spare riding animals kept in reserve",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "الركاب والعدة المحمولة",
-              "image_en": "mounts and spare riding animals",
-              "scope_ar": "الظهر بمعنى الركاب التي تحمل الأثقال والبعير المعد للحاجة أو الركوب",
-              "scope_en": "Travel mounts, load-bearing animals, and spare riding animals kept in reserve"
-            }
-          ]
-        },
-        {
-          "branch_id": "B006",
-          "image_ar": "التقوي بالظهر والعون",
-          "image_en": "backing and support",
-          "scope_ar": "الظهير والمعين والمظاهر والتظاهر بمعنى المعاونة والاستعانة والتقوي بالأعوان",
-          "scope_en": "Helper, supporter, ally, and mutual backing or assistance",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "التقوي بالظهر والعون",
-              "image_en": "backing and support",
-              "scope_ar": "الظهير والمعين والمظاهر والتظاهر بمعنى المعاونة والاستعانة والتقوي بالأعوان",
-              "scope_en": "Helper, supporter, ally, and mutual backing or assistance"
-            }
-          ]
-        },
-        {
-          "branch_id": "B007",
-          "image_ar": "العلو والغلبة",
-          "image_en": "being over or overcoming",
-          "scope_ar": "الظهور على الشيء بمعنى علوه وغلبته والقدرة عليه والصعود فوقه",
-          "scope_en": "Overcoming, prevailing over, being above, or climbing onto something",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "العلو والغلبة",
-              "image_en": "being over or overcoming",
-              "scope_ar": "الظهور على الشيء بمعنى علوه وغلبته والقدرة عليه والصعود فوقه",
-              "scope_en": "Overcoming, prevailing over, being above, or climbing onto something"
-            }
-          ]
-        },
-        {
-          "branch_id": "B008",
-          "image_ar": "الاطلاع والعثور",
-          "image_en": "finding out or gaining access",
-          "scope_ar": "الظهور على الأمر بمعنى الاطلاع عليه والعثور عليه وبلوغ معرفته",
-          "scope_en": "Discovering, finding out, or gaining access to hidden information or a matter",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "الاطلاع والعثور",
-              "image_en": "finding out or gaining access",
-              "scope_ar": "الظهور على الأمر بمعنى الاطلاع عليه والعثور عليه وبلوغ معرفته",
-              "scope_en": "Discovering, finding out, or gaining access to hidden information or a matter"
-            }
-          ]
-        },
-        {
-          "branch_id": "B009",
-          "image_ar": "العين الظاهرة",
-          "image_en": "the protruding eye",
-          "scope_ar": "العين الظاهرة أو الجاحظة الخارجة خلاف الغائرة",
-          "scope_en": "An eye that protrudes or bulges rather than being sunken",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "العين الظاهرة",
-              "image_en": "the protruding eye",
-              "scope_ar": "العين الظاهرة أو الجاحظة الخارجة خلاف الغائرة",
-              "scope_en": "An eye that protrudes or bulges rather than being sunken"
-            }
-          ]
-        },
-        {
-          "branch_id": "B010",
-          "image_ar": "ظِهار المرأة",
-          "image_en": "the zihar formula",
-          "scope_ar": "الظِهار من المرأة بقول الرجل أنت علي كظهر أمي أو ذات رحم محرم",
-          "scope_en": "Legal or formulaic zihar, comparing one's wife to the back of one's mother or a forbidden female relative",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "ظِهار المرأة",
-              "image_en": "the zihar formula",
-              "scope_ar": "الظِهار من المرأة بقول الرجل أنت علي كظهر أمي أو ذات رحم محرم",
-              "scope_en": "Legal or formulaic zihar, comparing one's wife to the back of one's mother or a forbidden female relative"
-            }
-          ]
-        },
-        {
-          "branch_id": "B011",
-          "image_ar": "ريش الظهار",
-          "image_en": "outer fletching feathers",
-          "scope_ar": "الظِهار أو الظهران من الريش وما جعل من ظهر عسيب الريشة في الجناح أو السهم",
-          "scope_en": "Outer wing feathers or the fletching made from the back side of a feather shaft",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "ريش الظهار",
-              "image_en": "outer fletching feathers",
-              "scope_ar": "الظِهار أو الظهران من الريش وما جعل من ظهر عسيب الريشة في الجناح أو السهم",
-              "scope_en": "Outer wing feathers or the fletching made from the back side of a feather shaft"
-            }
-          ]
-        },
-        {
-          "branch_id": "B012",
-          "image_ar": "جعله بظهره",
-          "image_en": "putting behind one's back",
-          "scope_ar": "جعل الشيء بظهر أو وراء الظهر بمعنى تركه ونسيانه والإعراض عنه والاستخفاف به",
-          "scope_en": "Leaving something behind, neglecting it, forgetting it, or treating it as unimportant",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "جعله بظهره",
-              "image_en": "putting behind one's back",
-              "scope_ar": "جعل الشيء بظهر أو وراء الظهر بمعنى تركه ونسيانه والإعراض عنه والاستخفاف به",
-              "scope_en": "Leaving something behind, neglecting it, forgetting it, or treating it as unimportant"
-            }
-          ]
-        },
-        {
-          "branch_id": "B013",
-          "image_ar": "ظاهر عنك العار",
-          "image_en": "blame falling away from you",
-          "scope_ar": "الأمر أو العار الظاهر عن الشخص بمعنى الزائل غير اللازم له",
-          "scope_en": "The idiom in which blame or a defect is removed from someone and does not stick to them",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "ظاهر عنك العار",
-              "image_en": "blame falling away from you",
-              "scope_ar": "الأمر أو العار الظاهر عن الشخص بمعنى الزائل غير اللازم له",
-              "scope_en": "The idiom in which blame or a defect is removed from someone and does not stick to them"
-            }
-          ]
-        },
-        {
-          "branch_id": "B014",
-          "image_ar": "الظهرة متاع البيت",
-          "image_en": "household goods as backing",
-          "scope_ar": "الظهرة بمعنى متاع البيت وما يستظهر به ويتقوى به",
-          "scope_en": "Household goods or property as usable support or backing",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "الظهرة متاع البيت",
-              "image_en": "household goods as backing",
-              "scope_ar": "الظهرة بمعنى متاع البيت وما يستظهر به ويتقوى به",
-              "scope_en": "Household goods or property as usable support or backing"
-            }
-          ]
-        },
-        {
-          "branch_id": "B015",
-          "image_ar": "طريق الظهر وظواهر البلد",
-          "image_en": "overland route and outer districts",
-          "scope_ar": "طريق البر المسمى طريق الظهر وظاهر البلد أو ظواهره وأعاليه الخارجة عن بطنه",
-          "scope_en": "Overland route, outer land, and outlying or upper districts of a place",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "طريق الظهر وظواهر البلد",
-              "image_en": "overland route and outer districts",
-              "scope_ar": "طريق البر المسمى طريق الظهر وظاهر البلد أو ظواهره وأعاليه الخارجة عن بطنه",
-              "scope_en": "Overland route, outer land, and outlying or upper districts of a place"
-            }
-          ]
-        },
-        {
-          "branch_id": "B016",
-          "image_ar": "الظهرة والظهراء من القوم",
-          "image_en": "group backing and one's people",
-          "scope_ar": "الظهرة بمعنى الأعوان والقوم والناصرين الذين يتقوى بهم المرء",
-          "scope_en": "People, clan, or allies serving as backing and support",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "الظهرة والظهراء من القوم",
-              "image_en": "group backing and one's people",
-              "scope_ar": "الظهرة بمعنى الأعوان والقوم والناصرين الذين يتقوى بهم المرء",
-              "scope_en": "People, clan, or allies serving as backing and support"
-            }
-          ]
-        },
-        {
-          "branch_id": "B017",
-          "image_ar": "بين ظهرانيهم",
-          "image_en": "being among or between them",
-          "scope_ar": "كون الشيء بين ظهري قوم أو ظهرانيهم أي في وسطهم أو بينهم",
-          "scope_en": "Being among, between, or in the midst of a group or interval",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "بين ظهرانيهم",
-              "image_en": "being among or between them",
-              "scope_ar": "كون الشيء بين ظهري قوم أو ظهرانيهم أي في وسطهم أو بينهم",
-              "scope_en": "Being among, between, or in the midst of a group or interval"
-            }
-          ]
-        },
-        {
-          "branch_id": "B018",
-          "image_ar": "قلب الأمر ظهرا لبطن",
-          "image_en": "turning the matter back to belly",
-          "scope_ar": "تقليب الأمر ظهرا لبطن أو تدبيره من وجوهه",
-          "scope_en": "Examining or turning a matter over, back-to-front",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "قلب الأمر ظهرا لبطن",
-              "image_en": "turning the matter back to belly",
-              "scope_ar": "تقليب الأمر ظهرا لبطن أو تدبيره من وجوهه",
-              "scope_en": "Examining or turning a matter over, back-to-front"
-            }
-          ]
-        },
-        {
-          "branch_id": "B019",
-          "image_ar": "ظهر الغيب والقلب",
-          "image_en": "memory without a book",
-          "scope_ar": "عن ظهر غيب أو ظهر القلب والحفظ والاستظهار من غير كتاب",
-          "scope_en": "Memory, recitation, or knowledge retained without consulting a written source",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "ظهر الغيب والقلب",
-              "image_en": "memory without a book",
-              "scope_ar": "عن ظهر غيب أو ظهر القلب والحفظ والاستظهار من غير كتاب",
-              "scope_en": "Memory, recitation, or knowledge retained without consulting a written source"
-            }
-          ]
-        },
-        {
-          "branch_id": "B020",
-          "image_ar": "ظاهر بين الشيئين",
-          "image_en": "layering one thing over another",
-          "scope_ar": "المظاهرة بين ثوبين أو درعين بمعنى المطابقة ووضع أحدهما على الآخر",
-          "scope_en": "Layering, matching, or putting one garment or armor over another",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "ظاهر بين الشيئين",
-              "image_en": "layering one thing over another",
-              "scope_ar": "المظاهرة بين ثوبين أو درعين بمعنى المطابقة ووضع أحدهما على الآخر",
-              "scope_en": "Layering, matching, or putting one garment or armor over another"
-            }
-          ]
-        },
-        {
-          "branch_id": "B021",
-          "image_ar": "الاحتياط والاستيثاق",
-          "image_en": "precaution by having backup",
-          "scope_ar": "الاستظهار بمعنى الاحتياط والاستيثاق واتخاذ عدة زائدة للحاجة",
-          "scope_en": "Precaution, securing oneself, or keeping backup resources in reserve",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "الاحتياط والاستيثاق",
-              "image_en": "precaution by having backup",
-              "scope_ar": "الاستظهار بمعنى الاحتياط والاستيثاق واتخاذ عدة زائدة للحاجة",
-              "scope_en": "Precaution, securing oneself, or keeping backup resources in reserve"
-            }
-          ]
-        },
-        {
-          "branch_id": "B022",
-          "image_ar": "التدابر بالظهور",
-          "image_en": "turning backs to one another",
-          "scope_ar": "تظاهر القوم بمعنى تدابروا وولى كل واحد ظهره إلى صاحبه",
-          "scope_en": "The reciprocal act of turning backs to one another or facing away",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "التدابر بالظهور",
-              "image_en": "turning backs to one another",
-              "scope_ar": "تظاهر القوم بمعنى تدابروا وولى كل واحد ظهره إلى صاحبه",
-              "scope_en": "The reciprocal act of turning backs to one another or facing away"
-            }
-          ]
-        },
-        {
-          "branch_id": "B023",
-          "image_ar": "عن ظهر يد وغنى",
-          "image_en": "from surplus or without recompense",
-          "scope_ar": "عن ظهر يد أو ظهر غنى بمعنى ابتداء بلا مكافأة أو من فضل وسعة",
-          "scope_en": "Giving or acting from surplus, advantage, or without expected recompense",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "عن ظهر يد وغنى",
-              "image_en": "from surplus or without recompense",
-              "scope_ar": "عن ظهر يد أو ظهر غنى بمعنى ابتداء بلا مكافأة أو من فضل وسعة",
-              "scope_en": "Giving or acting from surplus, advantage, or without expected recompense"
-            }
-          ]
-        },
-        {
-          "branch_id": "B024",
-          "image_ar": "الافتخار به",
-          "image_en": "boasting by means of it",
-          "scope_ar": "ظهر بالشيء أو ظهر به بمعنى افتخر به وجعله وجها للفخر",
-          "scope_en": "Boasting of, taking pride in, or displaying something as a source of honor",
-          "variants": [
-            {
-              "root_id": "root_000970",
-              "source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
-              "image_ar": "الافتخار به",
-              "image_en": "boasting by means of it",
-              "scope_ar": "ظهر بالشيء أو ظهر به بمعنى افتخر به وجعله وجها للفخر",
-              "scope_en": "Boasting of, taking pride in, or displaying something as a source of honor"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "ك ف ي",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "القيام بالأمر حتى تحصل الكِفاية",
-          "image_en": "sufficing by taking care of the matter",
-          "scope_ar": "يدخل فيه كفى الشيء وكفى الله والكِفاية وسد الخلة وبلوغ المراد والقيام بالأمر",
-          "scope_en": "This covers sufficing, taking care of a matter, filling a need, and reaching the intended adequacy.",
-          "variants": [
-            {
-              "root_id": "root_001310",
-              "source_path": "v4/outputs/pass2_branches/root_001310.branches.tsv",
-              "image_ar": "القيام بالأمر حتى تحصل الكِفاية",
-              "image_en": "sufficing by taking care of the matter",
-              "scope_ar": "يدخل فيه كفى الشيء وكفى الله والكِفاية وسد الخلة وبلوغ المراد والقيام بالأمر",
-              "scope_en": "This covers sufficing, taking care of a matter, filling a need, and reaching the intended adequacy."
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "القول بأن الشيء حسب وكاف",
-          "image_en": "the formula of being enough or sufficient",
-          "scope_ar": "يدخل فيه كفاك هذا أي حسبك وكافيك من رجل وكَفْيُك أي حسبك",
-          "scope_en": "This covers formulaic expressions meaning “enough for you” or “sufficient as a man/person.”",
-          "variants": [
-            {
-              "root_id": "root_001310",
-              "source_path": "v4/outputs/pass2_branches/root_001310.branches.tsv",
-              "image_ar": "القول بأن الشيء حسب وكاف",
-              "image_en": "the formula of being enough or sufficient",
-              "scope_ar": "يدخل فيه كفاك هذا أي حسبك وكافيك من رجل وكَفْيُك أي حسبك",
-              "scope_en": "This covers formulaic expressions meaning “enough for you” or “sufficient as a man/person.”"
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "القوت الذي يكفي الحاجة",
-          "image_en": "sufficient provision",
-          "scope_ar": "يدخل فيه الكُفْية بمعنى القوت والكُفَى بمعنى الأقوات",
-          "scope_en": "This covers food/provision viewed as what suffices for need.",
-          "variants": [
-            {
-              "root_id": "root_001310",
-              "source_path": "v4/outputs/pass2_branches/root_001310.branches.tsv",
-              "image_ar": "القوت الذي يكفي الحاجة",
-              "image_en": "sufficient provision",
-              "scope_ar": "يدخل فيه الكُفْية بمعنى القوت والكُفَى بمعنى الأقوات",
-              "scope_en": "This covers food/provision viewed as what suffices for need."
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "الكَفِيّ بطن الوادي",
-          "image_en": "valley floor",
-          "scope_ar": "يدخل فيه الكَفِيّ بمعنى بطن الوادي وجمعه الأكفاء",
-          "scope_en": "This covers the noun for the bottom of a valley.",
-          "variants": [
-            {
-              "root_id": "root_001310",
-              "source_path": "v4/outputs/pass2_branches/root_001310.branches.tsv",
-              "image_ar": "الكَفِيّ بطن الوادي",
-              "image_en": "valley floor",
-              "scope_ar": "يدخل فيه الكَفِيّ بمعنى بطن الوادي وجمعه الأكفاء",
-              "scope_en": "This covers the noun for the bottom of a valley."
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "new_missing_branch_inventories": [],
-  "state_before": {
-    "seen_ayah_count": 28,
-    "seen_root_count": 156,
-    "available_root_count": 156,
-    "missing_root_count": 0,
-    "retrieval_count": 26
-  },
-  "provenance": {
-    "branch_filter": {
-      "status": "accepted",
-      "contaminated": "no",
-      "origin_corpus": [
-        "furuq",
-        "quranic"
-      ]
-    },
-    "resource_sha256": {
-      "resources/qac_root_ayah.tsv": "be694bc26a6ec261f16037e08be1d62a0dcc8d9154c9f6c5f267a338b91cf3ad",
-      "resources/furuq_v4.sqlite.gz": "2fc0c4f30ff841e46441df82d50b771c43a762d1e62e1ed2842292c17b06e699"
-    },
-    "synthetic_ayat": []
-  },
-  "state_after": {
-    "seen_ayah_count": 29,
-    "seen_root_count": 159,
-    "available_root_count": 159,
-    "missing_root_count": 0,
-    "retrieval_count": 27
-  }
+"protocol": "v13-dynamic-retrieval-packet-v2",
+"mode": "focus",
+"focus_ref": "48:26",
+"radius": 2,
+"selected_window_size": 30,
+"active_window": [
+"48:24",
+"48:25",
+"48:26",
+"48:27",
+"48:28"
+],
+"new_ayah_refs": [
+"48:28"
+],
+"new_ayat": [
+{
+"ref": "48:28",
+"text_ar": "هُوَ ٱلَّذِىٓ أَرْسَلَ رَسُولَهُۥ بِٱلْهُدَىٰ وَدِينِ ٱلْحَقِّ لِيُظْهِرَهُۥ عَلَى ٱلدِّينِ كُلِّهِۦ ۚ وَكَفَىٰ بِٱللَّهِ شَهِيدًۭا",
+"text_norm_ar": "هو الذي ارسل رسوله بالهدي ودين الحق ليظهره علي الدين كله وكفي بالله شهيدا",
+"root_sequence": [
+"ر س ل",
+"ر س ل",
+"ه د ي",
+"د ي ن",
+"ح ق ق",
+"ظ ه ر",
+"د ي ن",
+"ك ل ل",
+"ك ف ي",
+"ء ل ه",
+"ش ه د"
+],
+"root_occurrences": [
+{
+"root": "ر س ل",
+"occurrence_count": 2,
+"word_indices": [
+"3",
+"4"
+],
+"surfaces_ar": [
+"أَرْسَلَ",
+"رَسُولَ"
+],
+"lemmas_ar": [
+"أَرْسَلَ",
+"رَسُول"
+],
+"pos_tags": [
+"V",
+"N"
+]
+},
+{
+"root": "ه د ي",
+"occurrence_count": 1,
+"word_indices": [
+"5"
+],
+"surfaces_ar": [
+"هُدَىٰ"
+],
+"lemmas_ar": [
+"هُدًى"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "د ي ن",
+"occurrence_count": 2,
+"word_indices": [
+"6",
+"10"
+],
+"surfaces_ar": [
+"دِينِ",
+"دِّينِ"
+],
+"lemmas_ar": [
+"دِين",
+"دِين"
+],
+"pos_tags": [
+"N",
+"N"
+]
+},
+{
+"root": "ح ق ق",
+"occurrence_count": 1,
+"word_indices": [
+"7"
+],
+"surfaces_ar": [
+"حَقِّ"
+],
+"lemmas_ar": [
+"حَقّ"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "ظ ه ر",
+"occurrence_count": 1,
+"word_indices": [
+"8"
+],
+"surfaces_ar": [
+"يُظْهِرَ"
+],
+"lemmas_ar": [
+"أَظْهَرَ"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "ك ل ل",
+"occurrence_count": 1,
+"word_indices": [
+"11"
+],
+"surfaces_ar": [
+"كُلِّ"
+],
+"lemmas_ar": [
+"كُلّ"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "ك ف ي",
+"occurrence_count": 1,
+"word_indices": [
+"12"
+],
+"surfaces_ar": [
+"كَفَىٰ"
+],
+"lemmas_ar": [
+"كَفَىٰ"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "ء ل ه",
+"occurrence_count": 1,
+"word_indices": [
+"13"
+],
+"surfaces_ar": [
+"ٱللَّهِ"
+],
+"lemmas_ar": [
+"ٱللَّه"
+],
+"pos_tags": [
+"PN"
+]
+},
+{
+"root": "ش ه د",
+"occurrence_count": 1,
+"word_indices": [
+"14"
+],
+"surfaces_ar": [
+"شَهِيدًا"
+],
+"lemmas_ar": [
+"شَهِيد"
+],
+"pos_tags": [
+"ADJ"
+]
+}
+]
+}
+],
+"active_ayah_sources": [
+{
+"ref": "48:24",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_22.json"
+},
+{
+"ref": "48:25",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"ref": "48:26",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_24.json"
+},
+{
+"ref": "48:27",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_25.json"
+},
+{
+"ref": "48:28",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_26.json"
+}
+],
+"active_roots": [
+"ك ف ف",
+"ي د ي",
+"ب ط ن",
+"ب ع د",
+"ظ ف ر",
+"ك و ن",
+"ء ل ه",
+"ع م ل",
+"ب ص ر",
+"ك ف ر",
+"ص د د",
+"س ج د",
+"ح ر م",
+"ه د ي",
+"ع ك ف",
+"ب ل غ",
+"ح ل ل",
+"ر ج ل",
+"ء م ن",
+"ن س و",
+"ع ل م",
+"و ط ء",
+"ص و ب",
+"ع ر ر",
+"غ ي ر",
+"د خ ل",
+"ر ح م",
+"ش ي ء",
+"ز ي ل",
+"ع ذ ب",
+"ء ل م",
+"ج ع ل",
+"ق ل ب",
+"ح م ي",
+"ج ه ل",
+"ن ز ل",
+"س ك ن",
+"ر س ل",
+"ل ز م",
+"ك ل م",
+"و ق ي",
+"ح ق ق",
+"ء ه ل",
+"ك ل ل",
+"ص د ق",
+"ر ء ي",
+"ح ل ق",
+"ر ء س",
+"ق ص ر",
+"خ و ف",
+"د و ن",
+"ف ت ح",
+"ق ر ب",
+"د ي ن",
+"ظ ه ر",
+"ك ف ي",
+"ش ه د"
+],
+"new_roots": [
+"د ي ن",
+"ظ ه ر",
+"ك ف ي"
+],
+"active_root_sources": [
+{
+"root": "ك ف ف",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_18.json"
+},
+{
+"root": "ي د ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ب ط ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_22.json"
+},
+{
+"root": "ب ع د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_22.json"
+},
+{
+"root": "ظ ف ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_22.json"
+},
+{
+"root": "ك و ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ء ل ه",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ع م ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ب ص ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_22.json"
+},
+{
+"root": "ك ف ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_3.json"
+},
+{
+"root": "ص د د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "س ج د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "ح ر م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "ه د ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ع ك ف",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "ب ل غ",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "ح ل ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "ر ج ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "ء م ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ن س و",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "ع ل م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "و ط ء",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "ص و ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "ع ر ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "غ ي ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "د خ ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_3.json"
+},
+{
+"root": "ر ح م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ش ي ء",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ز ي ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_23.json"
+},
+{
+"root": "ع ذ ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_4.json"
+},
+{
+"root": "ء ل م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_14.json"
+},
+{
+"root": "ج ع ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_24.json"
+},
+{
+"root": "ق ل ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ح م ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_24.json"
+},
+{
+"root": "ج ه ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_24.json"
+},
+{
+"root": "ن ز ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "س ك ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ر س ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_6.json"
+},
+{
+"root": "ل ز م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_24.json"
+},
+{
+"root": "ك ل م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "و ق ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_24.json"
+},
+{
+"root": "ح ق ق",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_24.json"
+},
+{
+"root": "ء ه ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ك ل ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_19.json"
+},
+{
+"root": "ص د ق",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_25.json"
+},
+{
+"root": "ر ء ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_25.json"
+},
+{
+"root": "ح ل ق",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_25.json"
+},
+{
+"root": "ر ء س",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_25.json"
+},
+{
+"root": "ق ص ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_25.json"
+},
+{
+"root": "خ و ف",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_25.json"
+},
+{
+"root": "د و ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_25.json"
+},
+{
+"root": "ف ت ح",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ق ر ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_16.json"
+},
+{
+"root": "د ي ن",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_26.json"
+},
+{
+"root": "ظ ه ر",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_26.json"
+},
+{
+"root": "ك ف ي",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_26.json"
+},
+{
+"root": "ش ه د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_6.json"
+}
+],
+"cached_roots": [
+"ك ف ف",
+"ي د ي",
+"ب ط ن",
+"ب ع د",
+"ظ ف ر",
+"ك و ن",
+"ء ل ه",
+"ع م ل",
+"ب ص ر",
+"ك ف ر",
+"ص د د",
+"س ج د",
+"ح ر م",
+"ه د ي",
+"ع ك ف",
+"ب ل غ",
+"ح ل ل",
+"ر ج ل",
+"ء م ن",
+"ن س و",
+"ع ل م",
+"و ط ء",
+"ص و ب",
+"ع ر ر",
+"غ ي ر",
+"د خ ل",
+"ر ح م",
+"ش ي ء",
+"ز ي ل",
+"ع ذ ب",
+"ء ل م",
+"ج ع ل",
+"ق ل ب",
+"ح م ي",
+"ج ه ل",
+"ن ز ل",
+"س ك ن",
+"ر س ل",
+"ل ز م",
+"ك ل م",
+"و ق ي",
+"ح ق ق",
+"ء ه ل",
+"ك ل ل",
+"ص د ق",
+"ر ء ي",
+"ح ل ق",
+"ر ء س",
+"ق ص ر",
+"خ و ف",
+"د و ن",
+"ف ت ح",
+"ق ر ب",
+"ش ه د"
+],
+"cached_available_roots": [
+"ك ف ف",
+"ي د ي",
+"ب ط ن",
+"ب ع د",
+"ظ ف ر",
+"ك و ن",
+"ء ل ه",
+"ع م ل",
+"ب ص ر",
+"ك ف ر",
+"ص د د",
+"س ج د",
+"ح ر م",
+"ه د ي",
+"ع ك ف",
+"ب ل غ",
+"ح ل ل",
+"ر ج ل",
+"ء م ن",
+"ن س و",
+"ع ل م",
+"و ط ء",
+"ص و ب",
+"ع ر ر",
+"غ ي ر",
+"د خ ل",
+"ر ح م",
+"ش ي ء",
+"ز ي ل",
+"ع ذ ب",
+"ء ل م",
+"ج ع ل",
+"ق ل ب",
+"ح م ي",
+"ج ه ل",
+"ن ز ل",
+"س ك ن",
+"ر س ل",
+"ل ز م",
+"ك ل م",
+"و ق ي",
+"ح ق ق",
+"ء ه ل",
+"ك ل ل",
+"ص د ق",
+"ر ء ي",
+"ح ل ق",
+"ر ء س",
+"ق ص ر",
+"خ و ف",
+"د و ن",
+"ف ت ح",
+"ق ر ب",
+"ش ه د"
+],
+"cached_missing_roots": [],
+"new_branch_inventories": [
+{
+"root": "د ي ن",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "الطاعة والانقياد",
+"image_en": "obedience and submission",
+"scope_ar": "الدين بمعنى الطاعة والانقياد والتعبد والملة والشريعة وما يتدين به",
+"scope_en": "Religion, worship, obedience, submission, and the way or law one follows",
+"variants": [
+{
+"root_id": "root_000504",
+"source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
+"image_ar": "الطاعة والانقياد",
+"image_en": "obedience and submission",
+"scope_ar": "الدين بمعنى الطاعة والانقياد والتعبد والملة والشريعة وما يتدين به",
+"scope_en": "Religion, worship, obedience, submission, and the way or law one follows"
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "الحساب والجزاء",
+"image_en": "reckoning and recompense",
+"scope_ar": "الدين بمعنى الحكم والحساب والجزاء والمكافأة والقضاء",
+"scope_en": "Reckoning, judgment, recompense, and being requited for deeds",
+"variants": [
+{
+"root_id": "root_000504",
+"source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
+"image_ar": "الحساب والجزاء",
+"image_en": "reckoning and recompense",
+"scope_ar": "الدين بمعنى الحكم والحساب والجزاء والمكافأة والقضاء",
+"scope_en": "Reckoning, judgment, recompense, and being requited for deeds"
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "الدين المالي",
+"image_en": "debt and credit",
+"scope_ar": "الدين المالي والقرض والاستقراض والمداينة والبيع إلى أجل وما يؤخذ أو يعطى دينا",
+"scope_en": "Financial debt, lending, borrowing, credit dealing, and deferred sale",
+"variants": [
+{
+"root_id": "root_000504",
+"source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
+"image_ar": "الدين المالي",
+"image_en": "debt and credit",
+"scope_ar": "الدين المالي والقرض والاستقراض والمداينة والبيع إلى أجل وما يؤخذ أو يعطى دينا",
+"scope_en": "Financial debt, lending, borrowing, credit dealing, and deferred sale"
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "الإذلال والملك",
+"image_en": "subjugation and possession",
+"scope_ar": "الإذلال والقهر والملك والاستعباد والحمل على المكروه والعبد المدين والأمة المدينة",
+"scope_en": "Humbling, compelling, owning, enslaving, and being under another's control",
+"variants": [
+{
+"root_id": "root_000504",
+"source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
+"image_ar": "الإذلال والملك",
+"image_en": "subjugation and possession",
+"scope_ar": "الإذلال والقهر والملك والاستعباد والحمل على المكروه والعبد المدين والأمة المدينة",
+"scope_en": "Humbling, compelling, owning, enslaving, and being under another's control"
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "العادة والشأن",
+"image_en": "habit and customary state",
+"scope_ar": "الدين بمعنى العادة والشأن والحال المعهود والدأب",
+"scope_en": "Custom, habitual way, usual condition, or familiar state",
+"variants": [
+{
+"root_id": "root_000504",
+"source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
+"image_ar": "العادة والشأن",
+"image_en": "habit and customary state",
+"scope_ar": "الدين بمعنى العادة والشأن والحال المعهود والدأب",
+"scope_en": "Custom, habitual way, usual condition, or familiar state"
+}
+]
+},
+{
+"branch_id": "B006",
+"image_ar": "مدينة الطاعة",
+"image_en": "city of ordered authority",
+"scope_ar": "المدينة بمعنى المصر والموضع الذي تقام فيه طاعة ذوي الأمر",
+"scope_en": "The city or town understood as a place of organized authority and obedience",
+"variants": [
+{
+"root_id": "root_000504",
+"source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
+"image_ar": "مدينة الطاعة",
+"image_en": "city of ordered authority",
+"scope_ar": "المدينة بمعنى المصر والموضع الذي تقام فيه طاعة ذوي الأمر",
+"scope_en": "The city or town understood as a place of organized authority and obedience"
+}
+]
+},
+{
+"branch_id": "B007",
+"image_ar": "التصديق والتفويض",
+"image_en": "crediting and leaving to conscience",
+"scope_ar": "التديين بمعنى تصديق الرجل في القضاء أو الحلف أو تفويضه إلى دينه",
+"scope_en": "Crediting a person in judgment or oath, or leaving him to his own religious responsibility",
+"variants": [
+{
+"root_id": "root_000504",
+"source_path": "v4/outputs/pass2_branches/root_000504.branches.tsv",
+"image_ar": "التصديق والتفويض",
+"image_en": "crediting and leaving to conscience",
+"scope_ar": "التديين بمعنى تصديق الرجل في القضاء أو الحلف أو تفويضه إلى دينه",
+"scope_en": "Crediting a person in judgment or oath, or leaving him to his own religious responsibility"
+}
+]
+}
+]
+},
+{
+"root": "ظ ه ر",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "البروز والانكشاف",
+"image_en": "coming out into view",
+"scope_ar": "ظهور الشيء وانكشافه وتبينه وما كان ظاهرا غير باطن",
+"scope_en": "Things becoming visible, evident, exposed, or outward rather than hidden",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "البروز والانكشاف",
+"image_en": "coming out into view",
+"scope_ar": "ظهور الشيء وانكشافه وتبينه وما كان ظاهرا غير باطن",
+"scope_en": "Things becoming visible, evident, exposed, or outward rather than hidden"
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "الظهر وخلاف البطن",
+"image_en": "the back opposite the belly",
+"scope_ar": "الظهر جارحة أو جهة مقابلة للبطن في الإنسان وغيره وما ينسب إلى شدة الظهر أو وجعه",
+"scope_en": "Anatomical or object back as the side opposite the belly, including back strength or back pain",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "الظهر وخلاف البطن",
+"image_en": "the back opposite the belly",
+"scope_ar": "الظهر جارحة أو جهة مقابلة للبطن في الإنسان وغيره وما ينسب إلى شدة الظهر أو وجعه",
+"scope_en": "Anatomical or object back as the side opposite the belly, including back strength or back pain"
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "ظهر الأرض وظاهرها",
+"image_en": "the upper or outer surface",
+"scope_ar": "ظهر الأرض وظاهر الشيء وما غلظ وارتفع أو علا وبرز من أرض أو ثوب أو بساط",
+"scope_en": "Upper, outer, raised, or exposed side or surface of land and objects",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "ظهر الأرض وظاهرها",
+"image_en": "the upper or outer surface",
+"scope_ar": "ظهر الأرض وظاهر الشيء وما غلظ وارتفع أو علا وبرز من أرض أو ثوب أو بساط",
+"scope_en": "Upper, outer, raised, or exposed side or surface of land and objects"
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "وقت الظهر والظهيرة",
+"image_en": "noon and midday",
+"scope_ar": "وقت الظهر والظهيرة والدخول في ذلك الوقت والصلاة المسماة به والورد فيه",
+"scope_en": "Noon, midday, entering that time, the noon prayer, and watering at midday",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "وقت الظهر والظهيرة",
+"image_en": "noon and midday",
+"scope_ar": "وقت الظهر والظهيرة والدخول في ذلك الوقت والصلاة المسماة به والورد فيه",
+"scope_en": "Noon, midday, entering that time, the noon prayer, and watering at midday"
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "الركاب والعدة المحمولة",
+"image_en": "mounts and spare riding animals",
+"scope_ar": "الظهر بمعنى الركاب التي تحمل الأثقال والبعير المعد للحاجة أو الركوب",
+"scope_en": "Travel mounts, load-bearing animals, and spare riding animals kept in reserve",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "الركاب والعدة المحمولة",
+"image_en": "mounts and spare riding animals",
+"scope_ar": "الظهر بمعنى الركاب التي تحمل الأثقال والبعير المعد للحاجة أو الركوب",
+"scope_en": "Travel mounts, load-bearing animals, and spare riding animals kept in reserve"
+}
+]
+},
+{
+"branch_id": "B006",
+"image_ar": "التقوي بالظهر والعون",
+"image_en": "backing and support",
+"scope_ar": "الظهير والمعين والمظاهر والتظاهر بمعنى المعاونة والاستعانة والتقوي بالأعوان",
+"scope_en": "Helper, supporter, ally, and mutual backing or assistance",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "التقوي بالظهر والعون",
+"image_en": "backing and support",
+"scope_ar": "الظهير والمعين والمظاهر والتظاهر بمعنى المعاونة والاستعانة والتقوي بالأعوان",
+"scope_en": "Helper, supporter, ally, and mutual backing or assistance"
+}
+]
+},
+{
+"branch_id": "B007",
+"image_ar": "العلو والغلبة",
+"image_en": "being over or overcoming",
+"scope_ar": "الظهور على الشيء بمعنى علوه وغلبته والقدرة عليه والصعود فوقه",
+"scope_en": "Overcoming, prevailing over, being above, or climbing onto something",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "العلو والغلبة",
+"image_en": "being over or overcoming",
+"scope_ar": "الظهور على الشيء بمعنى علوه وغلبته والقدرة عليه والصعود فوقه",
+"scope_en": "Overcoming, prevailing over, being above, or climbing onto something"
+}
+]
+},
+{
+"branch_id": "B008",
+"image_ar": "الاطلاع والعثور",
+"image_en": "finding out or gaining access",
+"scope_ar": "الظهور على الأمر بمعنى الاطلاع عليه والعثور عليه وبلوغ معرفته",
+"scope_en": "Discovering, finding out, or gaining access to hidden information or a matter",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "الاطلاع والعثور",
+"image_en": "finding out or gaining access",
+"scope_ar": "الظهور على الأمر بمعنى الاطلاع عليه والعثور عليه وبلوغ معرفته",
+"scope_en": "Discovering, finding out, or gaining access to hidden information or a matter"
+}
+]
+},
+{
+"branch_id": "B009",
+"image_ar": "العين الظاهرة",
+"image_en": "the protruding eye",
+"scope_ar": "العين الظاهرة أو الجاحظة الخارجة خلاف الغائرة",
+"scope_en": "An eye that protrudes or bulges rather than being sunken",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "العين الظاهرة",
+"image_en": "the protruding eye",
+"scope_ar": "العين الظاهرة أو الجاحظة الخارجة خلاف الغائرة",
+"scope_en": "An eye that protrudes or bulges rather than being sunken"
+}
+]
+},
+{
+"branch_id": "B010",
+"image_ar": "ظِهار المرأة",
+"image_en": "the zihar formula",
+"scope_ar": "الظِهار من المرأة بقول الرجل أنت علي كظهر أمي أو ذات رحم محرم",
+"scope_en": "Legal or formulaic zihar, comparing one's wife to the back of one's mother or a forbidden female relative",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "ظِهار المرأة",
+"image_en": "the zihar formula",
+"scope_ar": "الظِهار من المرأة بقول الرجل أنت علي كظهر أمي أو ذات رحم محرم",
+"scope_en": "Legal or formulaic zihar, comparing one's wife to the back of one's mother or a forbidden female relative"
+}
+]
+},
+{
+"branch_id": "B011",
+"image_ar": "ريش الظهار",
+"image_en": "outer fletching feathers",
+"scope_ar": "الظِهار أو الظهران من الريش وما جعل من ظهر عسيب الريشة في الجناح أو السهم",
+"scope_en": "Outer wing feathers or the fletching made from the back side of a feather shaft",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "ريش الظهار",
+"image_en": "outer fletching feathers",
+"scope_ar": "الظِهار أو الظهران من الريش وما جعل من ظهر عسيب الريشة في الجناح أو السهم",
+"scope_en": "Outer wing feathers or the fletching made from the back side of a feather shaft"
+}
+]
+},
+{
+"branch_id": "B012",
+"image_ar": "جعله بظهره",
+"image_en": "putting behind one's back",
+"scope_ar": "جعل الشيء بظهر أو وراء الظهر بمعنى تركه ونسيانه والإعراض عنه والاستخفاف به",
+"scope_en": "Leaving something behind, neglecting it, forgetting it, or treating it as unimportant",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "جعله بظهره",
+"image_en": "putting behind one's back",
+"scope_ar": "جعل الشيء بظهر أو وراء الظهر بمعنى تركه ونسيانه والإعراض عنه والاستخفاف به",
+"scope_en": "Leaving something behind, neglecting it, forgetting it, or treating it as unimportant"
+}
+]
+},
+{
+"branch_id": "B013",
+"image_ar": "ظاهر عنك العار",
+"image_en": "blame falling away from you",
+"scope_ar": "الأمر أو العار الظاهر عن الشخص بمعنى الزائل غير اللازم له",
+"scope_en": "The idiom in which blame or a defect is removed from someone and does not stick to them",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "ظاهر عنك العار",
+"image_en": "blame falling away from you",
+"scope_ar": "الأمر أو العار الظاهر عن الشخص بمعنى الزائل غير اللازم له",
+"scope_en": "The idiom in which blame or a defect is removed from someone and does not stick to them"
+}
+]
+},
+{
+"branch_id": "B014",
+"image_ar": "الظهرة متاع البيت",
+"image_en": "household goods as backing",
+"scope_ar": "الظهرة بمعنى متاع البيت وما يستظهر به ويتقوى به",
+"scope_en": "Household goods or property as usable support or backing",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "الظهرة متاع البيت",
+"image_en": "household goods as backing",
+"scope_ar": "الظهرة بمعنى متاع البيت وما يستظهر به ويتقوى به",
+"scope_en": "Household goods or property as usable support or backing"
+}
+]
+},
+{
+"branch_id": "B015",
+"image_ar": "طريق الظهر وظواهر البلد",
+"image_en": "overland route and outer districts",
+"scope_ar": "طريق البر المسمى طريق الظهر وظاهر البلد أو ظواهره وأعاليه الخارجة عن بطنه",
+"scope_en": "Overland route, outer land, and outlying or upper districts of a place",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "طريق الظهر وظواهر البلد",
+"image_en": "overland route and outer districts",
+"scope_ar": "طريق البر المسمى طريق الظهر وظاهر البلد أو ظواهره وأعاليه الخارجة عن بطنه",
+"scope_en": "Overland route, outer land, and outlying or upper districts of a place"
+}
+]
+},
+{
+"branch_id": "B016",
+"image_ar": "الظهرة والظهراء من القوم",
+"image_en": "group backing and one's people",
+"scope_ar": "الظهرة بمعنى الأعوان والقوم والناصرين الذين يتقوى بهم المرء",
+"scope_en": "People, clan, or allies serving as backing and support",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "الظهرة والظهراء من القوم",
+"image_en": "group backing and one's people",
+"scope_ar": "الظهرة بمعنى الأعوان والقوم والناصرين الذين يتقوى بهم المرء",
+"scope_en": "People, clan, or allies serving as backing and support"
+}
+]
+},
+{
+"branch_id": "B017",
+"image_ar": "بين ظهرانيهم",
+"image_en": "being among or between them",
+"scope_ar": "كون الشيء بين ظهري قوم أو ظهرانيهم أي في وسطهم أو بينهم",
+"scope_en": "Being among, between, or in the midst of a group or interval",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "بين ظهرانيهم",
+"image_en": "being among or between them",
+"scope_ar": "كون الشيء بين ظهري قوم أو ظهرانيهم أي في وسطهم أو بينهم",
+"scope_en": "Being among, between, or in the midst of a group or interval"
+}
+]
+},
+{
+"branch_id": "B018",
+"image_ar": "قلب الأمر ظهرا لبطن",
+"image_en": "turning the matter back to belly",
+"scope_ar": "تقليب الأمر ظهرا لبطن أو تدبيره من وجوهه",
+"scope_en": "Examining or turning a matter over, back-to-front",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "قلب الأمر ظهرا لبطن",
+"image_en": "turning the matter back to belly",
+"scope_ar": "تقليب الأمر ظهرا لبطن أو تدبيره من وجوهه",
+"scope_en": "Examining or turning a matter over, back-to-front"
+}
+]
+},
+{
+"branch_id": "B019",
+"image_ar": "ظهر الغيب والقلب",
+"image_en": "memory without a book",
+"scope_ar": "عن ظهر غيب أو ظهر القلب والحفظ والاستظهار من غير كتاب",
+"scope_en": "Memory, recitation, or knowledge retained without consulting a written source",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "ظهر الغيب والقلب",
+"image_en": "memory without a book",
+"scope_ar": "عن ظهر غيب أو ظهر القلب والحفظ والاستظهار من غير كتاب",
+"scope_en": "Memory, recitation, or knowledge retained without consulting a written source"
+}
+]
+},
+{
+"branch_id": "B020",
+"image_ar": "ظاهر بين الشيئين",
+"image_en": "layering one thing over another",
+"scope_ar": "المظاهرة بين ثوبين أو درعين بمعنى المطابقة ووضع أحدهما على الآخر",
+"scope_en": "Layering, matching, or putting one garment or armor over another",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "ظاهر بين الشيئين",
+"image_en": "layering one thing over another",
+"scope_ar": "المظاهرة بين ثوبين أو درعين بمعنى المطابقة ووضع أحدهما على الآخر",
+"scope_en": "Layering, matching, or putting one garment or armor over another"
+}
+]
+},
+{
+"branch_id": "B021",
+"image_ar": "الاحتياط والاستيثاق",
+"image_en": "precaution by having backup",
+"scope_ar": "الاستظهار بمعنى الاحتياط والاستيثاق واتخاذ عدة زائدة للحاجة",
+"scope_en": "Precaution, securing oneself, or keeping backup resources in reserve",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "الاحتياط والاستيثاق",
+"image_en": "precaution by having backup",
+"scope_ar": "الاستظهار بمعنى الاحتياط والاستيثاق واتخاذ عدة زائدة للحاجة",
+"scope_en": "Precaution, securing oneself, or keeping backup resources in reserve"
+}
+]
+},
+{
+"branch_id": "B022",
+"image_ar": "التدابر بالظهور",
+"image_en": "turning backs to one another",
+"scope_ar": "تظاهر القوم بمعنى تدابروا وولى كل واحد ظهره إلى صاحبه",
+"scope_en": "The reciprocal act of turning backs to one another or facing away",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "التدابر بالظهور",
+"image_en": "turning backs to one another",
+"scope_ar": "تظاهر القوم بمعنى تدابروا وولى كل واحد ظهره إلى صاحبه",
+"scope_en": "The reciprocal act of turning backs to one another or facing away"
+}
+]
+},
+{
+"branch_id": "B023",
+"image_ar": "عن ظهر يد وغنى",
+"image_en": "from surplus or without recompense",
+"scope_ar": "عن ظهر يد أو ظهر غنى بمعنى ابتداء بلا مكافأة أو من فضل وسعة",
+"scope_en": "Giving or acting from surplus, advantage, or without expected recompense",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "عن ظهر يد وغنى",
+"image_en": "from surplus or without recompense",
+"scope_ar": "عن ظهر يد أو ظهر غنى بمعنى ابتداء بلا مكافأة أو من فضل وسعة",
+"scope_en": "Giving or acting from surplus, advantage, or without expected recompense"
+}
+]
+},
+{
+"branch_id": "B024",
+"image_ar": "الافتخار به",
+"image_en": "boasting by means of it",
+"scope_ar": "ظهر بالشيء أو ظهر به بمعنى افتخر به وجعله وجها للفخر",
+"scope_en": "Boasting of, taking pride in, or displaying something as a source of honor",
+"variants": [
+{
+"root_id": "root_000970",
+"source_path": "v4/outputs/pass2_branches/root_000970.branches.tsv",
+"image_ar": "الافتخار به",
+"image_en": "boasting by means of it",
+"scope_ar": "ظهر بالشيء أو ظهر به بمعنى افتخر به وجعله وجها للفخر",
+"scope_en": "Boasting of, taking pride in, or displaying something as a source of honor"
+}
+]
+}
+]
+},
+{
+"root": "ك ف ي",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "القيام بالأمر حتى تحصل الكِفاية",
+"image_en": "sufficing by taking care of the matter",
+"scope_ar": "يدخل فيه كفى الشيء وكفى الله والكِفاية وسد الخلة وبلوغ المراد والقيام بالأمر",
+"scope_en": "This covers sufficing, taking care of a matter, filling a need, and reaching the intended adequacy.",
+"variants": [
+{
+"root_id": "root_001310",
+"source_path": "v4/outputs/pass2_branches/root_001310.branches.tsv",
+"image_ar": "القيام بالأمر حتى تحصل الكِفاية",
+"image_en": "sufficing by taking care of the matter",
+"scope_ar": "يدخل فيه كفى الشيء وكفى الله والكِفاية وسد الخلة وبلوغ المراد والقيام بالأمر",
+"scope_en": "This covers sufficing, taking care of a matter, filling a need, and reaching the intended adequacy."
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "القول بأن الشيء حسب وكاف",
+"image_en": "the formula of being enough or sufficient",
+"scope_ar": "يدخل فيه كفاك هذا أي حسبك وكافيك من رجل وكَفْيُك أي حسبك",
+"scope_en": "This covers formulaic expressions meaning “enough for you” or “sufficient as a man/person.”",
+"variants": [
+{
+"root_id": "root_001310",
+"source_path": "v4/outputs/pass2_branches/root_001310.branches.tsv",
+"image_ar": "القول بأن الشيء حسب وكاف",
+"image_en": "the formula of being enough or sufficient",
+"scope_ar": "يدخل فيه كفاك هذا أي حسبك وكافيك من رجل وكَفْيُك أي حسبك",
+"scope_en": "This covers formulaic expressions meaning “enough for you” or “sufficient as a man/person.”"
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "القوت الذي يكفي الحاجة",
+"image_en": "sufficient provision",
+"scope_ar": "يدخل فيه الكُفْية بمعنى القوت والكُفَى بمعنى الأقوات",
+"scope_en": "This covers food/provision viewed as what suffices for need.",
+"variants": [
+{
+"root_id": "root_001310",
+"source_path": "v4/outputs/pass2_branches/root_001310.branches.tsv",
+"image_ar": "القوت الذي يكفي الحاجة",
+"image_en": "sufficient provision",
+"scope_ar": "يدخل فيه الكُفْية بمعنى القوت والكُفَى بمعنى الأقوات",
+"scope_en": "This covers food/provision viewed as what suffices for need."
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "الكَفِيّ بطن الوادي",
+"image_en": "valley floor",
+"scope_ar": "يدخل فيه الكَفِيّ بمعنى بطن الوادي وجمعه الأكفاء",
+"scope_en": "This covers the noun for the bottom of a valley.",
+"variants": [
+{
+"root_id": "root_001310",
+"source_path": "v4/outputs/pass2_branches/root_001310.branches.tsv",
+"image_ar": "الكَفِيّ بطن الوادي",
+"image_en": "valley floor",
+"scope_ar": "يدخل فيه الكَفِيّ بمعنى بطن الوادي وجمعه الأكفاء",
+"scope_en": "This covers the noun for the bottom of a valley."
+}
+]
+}
+]
+}
+],
+"new_missing_branch_inventories": [],
+"state_before": {
+"seen_ayah_count": 28,
+"seen_root_count": 156,
+"available_root_count": 156,
+"missing_root_count": 0,
+"retrieval_count": 26
+},
+"provenance": {
+"branch_filter": {
+"status": "accepted",
+"contaminated": "no",
+"origin_corpus": [
+"furuq",
+"quranic"
+]
+},
+"resource_sha256": {
+"resources/qac_root_ayah.tsv": "be694bc26a6ec261f16037e08be1d62a0dcc8d9154c9f6c5f267a338b91cf3ad",
+"resources/furuq_v4.sqlite.gz": "2fc0c4f30ff841e46441df82d50b771c43a762d1e62e1ed2842292c17b06e699"
+},
+"synthetic_ayat": []
+},
+"state_after": {
+"seen_ayah_count": 29,
+"seen_root_count": 159,
+"available_root_count": 159,
+"missing_root_count": 0,
+"retrieval_count": 27
+}
 }

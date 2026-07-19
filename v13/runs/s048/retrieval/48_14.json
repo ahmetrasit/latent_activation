@@ -1,2703 +1,2172 @@
 {
-  "protocol": "v13-dynamic-retrieval-packet-v1",
-  "mode": "focus",
-  "focus_ref": "48:14",
-  "radius": 2,
-  "selected_window_size": 30,
-  "active_window": [
-    "48:12",
-    "48:13",
-    "48:14",
-    "48:15",
-    "48:16"
-  ],
-  "active_ayat": [
-    {
-      "ref": "48:12",
-      "text_ar": "بَلْ ظَنَنتُمْ أَن لَّن يَنقَلِبَ ٱلرَّسُولُ وَٱلْمُؤْمِنُونَ إِلَىٰٓ أَهْلِيهِمْ أَبَدًۭا وَزُيِّنَ ذَٰلِكَ فِى قُلُوبِكُمْ وَظَنَنتُمْ ظَنَّ ٱلسَّوْءِ وَكُنتُمْ قَوْمًۢا بُورًۭا",
-      "text_norm_ar": "بل ظننتم ان لن ينقلب الرسول والمؤمنون الي اهليهم ابدا وزين ذلك في قلوبكم وظننتم ظن السوء وكنتم قوما بورا",
-      "root_sequence": [
-        "ظ ن ن",
-        "ق ل ب",
-        "ر س ل",
-        "ء م ن",
-        "ء ه ل",
-        "ء ب د",
-        "ز ي ن",
-        "ق ل ب",
-        "ظ ن ن",
-        "ظ ن ن",
-        "س و ء",
-        "ك و ن",
-        "ق و م",
-        "ب و ر"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ظ ن ن",
-          "occurrence_count": 3,
-          "word_indices": [
-            "2",
-            "15",
-            "16"
-          ],
-          "surfaces_ar": [
-            "ظَنَن",
-            "ظَنَن",
-            "ظَنَّ"
-          ],
-          "lemmas_ar": [
-            "ظَنَّ",
-            "ظَنَّ",
-            "ظَنّ"
-          ],
-          "pos_tags": [
-            "V",
-            "V",
-            "N"
-          ]
-        },
-        {
-          "root": "ق ل ب",
-          "occurrence_count": 2,
-          "word_indices": [
-            "5",
-            "14"
-          ],
-          "surfaces_ar": [
-            "يَنقَلِبَ",
-            "قُلُوبِ"
-          ],
-          "lemmas_ar": [
-            "ٱنقَلَبَ",
-            "قَلْب"
-          ],
-          "pos_tags": [
-            "V",
-            "N"
-          ]
-        },
-        {
-          "root": "ر س ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "6"
-          ],
-          "surfaces_ar": [
-            "رَّسُولُ"
-          ],
-          "lemmas_ar": [
-            "رَسُول"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء م ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "مُؤْمِنُونَ"
-          ],
-          "lemmas_ar": [
-            "مُؤْمِن"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء ه ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "أَهْلِي"
-          ],
-          "lemmas_ar": [
-            "أَهْل"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء ب د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "10"
-          ],
-          "surfaces_ar": [
-            "أَبَدًا"
-          ],
-          "lemmas_ar": [
-            "أَبَدًا"
-          ],
-          "pos_tags": [
-            "T"
-          ]
-        },
-        {
-          "root": "ز ي ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "11"
-          ],
-          "surfaces_ar": [
-            "زُيِّنَ"
-          ],
-          "lemmas_ar": [
-            "زَيَّنَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "س و ء",
-          "occurrence_count": 1,
-          "word_indices": [
-            "17"
-          ],
-          "surfaces_ar": [
-            "سَّوْءِ"
-          ],
-          "lemmas_ar": [
-            "سَوْء"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ك و ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "18"
-          ],
-          "surfaces_ar": [
-            "كُن"
-          ],
-          "lemmas_ar": [
-            "كَانَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ق و م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "19"
-          ],
-          "surfaces_ar": [
-            "قَوْمًۢا"
-          ],
-          "lemmas_ar": [
-            "قَوْم"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ب و ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "20"
-          ],
-          "surfaces_ar": [
-            "بُورًا"
-          ],
-          "lemmas_ar": [
-            "بُور"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:13",
-      "text_ar": "وَمَن لَّمْ يُؤْمِنۢ بِٱللَّهِ وَرَسُولِهِۦ فَإِنَّآ أَعْتَدْنَا لِلْكَٰفِرِينَ سَعِيرًۭا",
-      "text_norm_ar": "ومن لم يؤمن بالله ورسوله فانا اعتدنا للكفرين سعيرا",
-      "root_sequence": [
-        "ء م ن",
-        "ء ل ه",
-        "ر س ل",
-        "ع ت د",
-        "ك ف ر",
-        "س ع ر"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ء م ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "3"
-          ],
-          "surfaces_ar": [
-            "يُؤْمِنۢ"
-          ],
-          "lemmas_ar": [
-            "ءَامَنَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهِ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "ر س ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "5"
-          ],
-          "surfaces_ar": [
-            "رَسُولِ"
-          ],
-          "lemmas_ar": [
-            "رَسُول"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ع ت د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "أَعْتَدْ"
-          ],
-          "lemmas_ar": [
-            "أَعْتَدَتْ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك ف ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "8"
-          ],
-          "surfaces_ar": [
-            "كَٰفِرِينَ"
-          ],
-          "lemmas_ar": [
-            "كَٰفِرُون"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "س ع ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "سَعِيرًا"
-          ],
-          "lemmas_ar": [
-            "سَعِير"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:14",
-      "text_ar": "وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۚ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۭا",
-      "text_norm_ar": "ولله ملك السموت والارض يغفر لمن يشاء ويعذب من يشاء وكان الله غفورا رحيما",
-      "root_sequence": [
-        "ء ل ه",
-        "م ل ك",
-        "س م و",
-        "ء ر ض",
-        "غ ف ر",
-        "ش ي ء",
-        "ع ذ ب",
-        "ش ي ء",
-        "ك و ن",
-        "ء ل ه",
-        "غ ف ر",
-        "ر ح م"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 2,
-          "word_indices": [
-            "1",
-            "12"
-          ],
-          "surfaces_ar": [
-            "لَّهِ",
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه",
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN",
-            "PN"
-          ]
-        },
-        {
-          "root": "م ل ك",
-          "occurrence_count": 1,
-          "word_indices": [
-            "2"
-          ],
-          "surfaces_ar": [
-            "مُلْكُ"
-          ],
-          "lemmas_ar": [
-            "مُلْك"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "س م و",
-          "occurrence_count": 1,
-          "word_indices": [
-            "3"
-          ],
-          "surfaces_ar": [
-            "سَّمَٰوَٰتِ"
-          ],
-          "lemmas_ar": [
-            "سَمَآء"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء ر ض",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "أَرْضِ"
-          ],
-          "lemmas_ar": [
-            "أَرْض"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "غ ف ر",
-          "occurrence_count": 2,
-          "word_indices": [
-            "5",
-            "13"
-          ],
-          "surfaces_ar": [
-            "يَغْفِرُ",
-            "غَفُورًا"
-          ],
-          "lemmas_ar": [
-            "غَفَرَ",
-            "غَفُور"
-          ],
-          "pos_tags": [
-            "V",
-            "ADJ"
-          ]
-        },
-        {
-          "root": "ش ي ء",
-          "occurrence_count": 2,
-          "word_indices": [
-            "7",
-            "10"
-          ],
-          "surfaces_ar": [
-            "يَشَآءُ",
-            "يَشَآءُ"
-          ],
-          "lemmas_ar": [
-            "شَآءَ",
-            "شَآءَ"
-          ],
-          "pos_tags": [
-            "V",
-            "V"
-          ]
-        },
-        {
-          "root": "ع ذ ب",
-          "occurrence_count": 1,
-          "word_indices": [
-            "8"
-          ],
-          "surfaces_ar": [
-            "يُعَذِّبُ"
-          ],
-          "lemmas_ar": [
-            "عَذَّبَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك و ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "11"
-          ],
-          "surfaces_ar": [
-            "كَانَ"
-          ],
-          "lemmas_ar": [
-            "كَانَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ر ح م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "14"
-          ],
-          "surfaces_ar": [
-            "رَّحِيمًا"
-          ],
-          "lemmas_ar": [
-            "رَّحِيم"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:15",
-      "text_ar": "سَيَقُولُ ٱلْمُخَلَّفُونَ إِذَا ٱنطَلَقْتُمْ إِلَىٰ مَغَانِمَ لِتَأْخُذُوهَا ذَرُونَا نَتَّبِعْكُمْ ۖ يُرِيدُونَ أَن يُبَدِّلُوا۟ كَلَٰمَ ٱللَّهِ ۚ قُل لَّن تَتَّبِعُونَا كَذَٰلِكُمْ قَالَ ٱللَّهُ مِن قَبْلُ ۖ فَسَيَقُولُونَ بَلْ تَحْسُدُونَنَا ۚ بَلْ كَانُوا۟ لَا يَفْقَهُونَ إِلَّا قَلِيلًۭا",
-      "text_norm_ar": "سيقول المخلفون اذا انطلقتم الي مغانم لتاخذوها ذرونا نتبعكم يريدون ان يبدلوا كلم الله قل لن تتبعونا كذلكم قال الله من قبل فسيقولون بل تحسدوننا بل كانوا لا يفقهون الا قليلا",
-      "root_sequence": [
-        "ق و ل",
-        "خ ل ف",
-        "ط ل ق",
-        "غ ن م",
-        "ء خ ذ",
-        "و ذ ر",
-        "ت ب ع",
-        "ر و د",
-        "ب د ل",
-        "ك ل م",
-        "ء ل ه",
-        "ق و ل",
-        "ت ب ع",
-        "ق و ل",
-        "ء ل ه",
-        "ق ب ل",
-        "ق و ل",
-        "ح س د",
-        "ك و ن",
-        "ف ق ه",
-        "ق ل ل"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ق و ل",
-          "occurrence_count": 4,
-          "word_indices": [
-            "1",
-            "15",
-            "19",
-            "23"
-          ],
-          "surfaces_ar": [
-            "يَقُولُ",
-            "قُل",
-            "قَالَ",
-            "يَقُولُ"
-          ],
-          "lemmas_ar": [
-            "قَالَ",
-            "قَالَ",
-            "قَالَ",
-            "قَالَ"
-          ],
-          "pos_tags": [
-            "V",
-            "V",
-            "V",
-            "V"
-          ]
-        },
-        {
-          "root": "خ ل ف",
-          "occurrence_count": 1,
-          "word_indices": [
-            "2"
-          ],
-          "surfaces_ar": [
-            "مُخَلَّفُونَ"
-          ],
-          "lemmas_ar": [
-            "مُخَلَّفُون"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ط ل ق",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "ٱنطَلَقْ"
-          ],
-          "lemmas_ar": [
-            "ٱنطَلَقَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "غ ن م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "6"
-          ],
-          "surfaces_ar": [
-            "مَغَانِمَ"
-          ],
-          "lemmas_ar": [
-            "مَغَانِم"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء خ ذ",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "تَأْخُذُ"
-          ],
-          "lemmas_ar": [
-            "أَخَذَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "و ذ ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "8"
-          ],
-          "surfaces_ar": [
-            "ذَرُ"
-          ],
-          "lemmas_ar": [
-            "يَذَرَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ت ب ع",
-          "occurrence_count": 2,
-          "word_indices": [
-            "9",
-            "17"
-          ],
-          "surfaces_ar": [
-            "نَتَّبِعْ",
-            "تَتَّبِعُ"
-          ],
-          "lemmas_ar": [
-            "ٱتَّبَعَ",
-            "ٱتَّبَعَ"
-          ],
-          "pos_tags": [
-            "V",
-            "V"
-          ]
-        },
-        {
-          "root": "ر و د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "10"
-          ],
-          "surfaces_ar": [
-            "يُرِيدُ"
-          ],
-          "lemmas_ar": [
-            "أَرَادَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ب د ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "12"
-          ],
-          "surfaces_ar": [
-            "يُبَدِّلُ"
-          ],
-          "lemmas_ar": [
-            "بَدَّلَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك ل م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "13"
-          ],
-          "surfaces_ar": [
-            "كَلَٰمَ"
-          ],
-          "lemmas_ar": [
-            "كَلَٰم"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 2,
-          "word_indices": [
-            "14",
-            "20"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهِ",
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه",
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN",
-            "PN"
-          ]
-        },
-        {
-          "root": "ق ب ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "22"
-          ],
-          "surfaces_ar": [
-            "قَبْلُ"
-          ],
-          "lemmas_ar": [
-            "قَبْل"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ح س د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "25"
-          ],
-          "surfaces_ar": [
-            "تَحْسُدُ"
-          ],
-          "lemmas_ar": [
-            "حَسَدَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ك و ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "27"
-          ],
-          "surfaces_ar": [
-            "كَانُ"
-          ],
-          "lemmas_ar": [
-            "كَانَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ف ق ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "29"
-          ],
-          "surfaces_ar": [
-            "يَفْقَهُ"
-          ],
-          "lemmas_ar": [
-            "يَفْقَهُ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ق ل ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "31"
-          ],
-          "surfaces_ar": [
-            "قَلِيلًا"
-          ],
-          "lemmas_ar": [
-            "قَلِيل"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:16",
-      "text_ar": "قُل لِّلْمُخَلَّفِينَ مِنَ ٱلْأَعْرَابِ سَتُدْعَوْنَ إِلَىٰ قَوْمٍ أُو۟لِى بَأْسٍۢ شَدِيدٍۢ تُقَٰتِلُونَهُمْ أَوْ يُسْلِمُونَ ۖ فَإِن تُطِيعُوا۟ يُؤْتِكُمُ ٱللَّهُ أَجْرًا حَسَنًۭا ۖ وَإِن تَتَوَلَّوْا۟ كَمَا تَوَلَّيْتُم مِّن قَبْلُ يُعَذِّبْكُمْ عَذَابًا أَلِيمًۭا",
-      "text_norm_ar": "قل للمخلفين من الاعراب ستدعون الي قوم اولي باس شديد تقتلونهم او يسلمون فان تطيعوا يؤتكم الله اجرا حسنا وان تتولوا كما توليتم من قبل يعذبكم عذابا اليما",
-      "root_sequence": [
-        "ق و ل",
-        "خ ل ف",
-        "ع ر ب",
-        "د ع و",
-        "ق و م",
-        "ء و ل",
-        "ب ء س",
-        "ش د د",
-        "ق ت ل",
-        "س ل م",
-        "ط و ع",
-        "ء ت ي",
-        "ء ل ه",
-        "ء ج ر",
-        "ح س ن",
-        "و ل ي",
-        "و ل ي",
-        "ق ب ل",
-        "ع ذ ب",
-        "ع ذ ب",
-        "ء ل م"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ق و ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "1"
-          ],
-          "surfaces_ar": [
-            "قُل"
-          ],
-          "lemmas_ar": [
-            "قَالَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "خ ل ف",
-          "occurrence_count": 1,
-          "word_indices": [
-            "2"
-          ],
-          "surfaces_ar": [
-            "مُخَلَّفِينَ"
-          ],
-          "lemmas_ar": [
-            "مُخَلَّفُون"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ع ر ب",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "أَعْرَابِ"
-          ],
-          "lemmas_ar": [
-            "أَعْرَاب"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "د ع و",
-          "occurrence_count": 1,
-          "word_indices": [
-            "5"
-          ],
-          "surfaces_ar": [
-            "تُدْعَ"
-          ],
-          "lemmas_ar": [
-            "دَعَا"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ق و م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "قَوْمٍ"
-          ],
-          "lemmas_ar": [
-            "قَوْم"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء و ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "8"
-          ],
-          "surfaces_ar": [
-            "أُو۟لِى"
-          ],
-          "lemmas_ar": [
-            "أُولِى"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ب ء س",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "بَأْسٍ"
-          ],
-          "lemmas_ar": [
-            "بَأْس"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ش د د",
-          "occurrence_count": 1,
-          "word_indices": [
-            "10"
-          ],
-          "surfaces_ar": [
-            "شَدِيدٍ"
-          ],
-          "lemmas_ar": [
-            "شَدِيد"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        },
-        {
-          "root": "ق ت ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "11"
-          ],
-          "surfaces_ar": [
-            "تُقَٰتِلُ"
-          ],
-          "lemmas_ar": [
-            "قَٰتَلَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "س ل م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "13"
-          ],
-          "surfaces_ar": [
-            "يُسْلِمُ"
-          ],
-          "lemmas_ar": [
-            "أَسْلَمَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ط و ع",
-          "occurrence_count": 1,
-          "word_indices": [
-            "15"
-          ],
-          "surfaces_ar": [
-            "تُطِيعُ"
-          ],
-          "lemmas_ar": [
-            "أَطَاعَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ت ي",
-          "occurrence_count": 1,
-          "word_indices": [
-            "16"
-          ],
-          "surfaces_ar": [
-            "يُؤْتِ"
-          ],
-          "lemmas_ar": [
-            "آتَى"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "17"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "ء ج ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "18"
-          ],
-          "surfaces_ar": [
-            "أَجْرًا"
-          ],
-          "lemmas_ar": [
-            "أَجْر"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ح س ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "19"
-          ],
-          "surfaces_ar": [
-            "حَسَنًا"
-          ],
-          "lemmas_ar": [
-            "حَسَن"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        },
-        {
-          "root": "و ل ي",
-          "occurrence_count": 2,
-          "word_indices": [
-            "21",
-            "23"
-          ],
-          "surfaces_ar": [
-            "تَتَوَلَّ",
-            "تَوَلَّيْ"
-          ],
-          "lemmas_ar": [
-            "تَوَلَّىٰ",
-            "تَوَلَّىٰ"
-          ],
-          "pos_tags": [
-            "V",
-            "V"
-          ]
-        },
-        {
-          "root": "ق ب ل",
-          "occurrence_count": 1,
-          "word_indices": [
-            "25"
-          ],
-          "surfaces_ar": [
-            "قَبْلُ"
-          ],
-          "lemmas_ar": [
-            "قَبْل"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ع ذ ب",
-          "occurrence_count": 2,
-          "word_indices": [
-            "26",
-            "27"
-          ],
-          "surfaces_ar": [
-            "يُعَذِّبْ",
-            "عَذَابًا"
-          ],
-          "lemmas_ar": [
-            "عَذَّبَ",
-            "عَذَاب"
-          ],
-          "pos_tags": [
-            "V",
-            "N"
-          ]
-        },
-        {
-          "root": "ء ل م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "28"
-          ],
-          "surfaces_ar": [
-            "أَلِيمًا"
-          ],
-          "lemmas_ar": [
-            "أَلِيم"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    }
-  ],
-  "new_ayah_refs": [
-    "48:16"
-  ],
-  "active_roots": [
-    "ظ ن ن",
-    "ق ل ب",
-    "ر س ل",
-    "ء م ن",
-    "ء ه ل",
-    "ء ب د",
-    "ز ي ن",
-    "س و ء",
-    "ك و ن",
-    "ق و م",
-    "ب و ر",
-    "ء ل ه",
-    "ع ت د",
-    "ك ف ر",
-    "س ع ر",
-    "م ل ك",
-    "س م و",
-    "ء ر ض",
-    "غ ف ر",
-    "ش ي ء",
-    "ع ذ ب",
-    "ر ح م",
-    "ق و ل",
-    "خ ل ف",
-    "ط ل ق",
-    "غ ن م",
-    "ء خ ذ",
-    "و ذ ر",
-    "ت ب ع",
-    "ر و د",
-    "ب د ل",
-    "ك ل م",
-    "ق ب ل",
-    "ح س د",
-    "ف ق ه",
-    "ق ل ل",
-    "ع ر ب",
-    "د ع و",
-    "ء و ل",
-    "ب ء س",
-    "ش د د",
-    "ق ت ل",
-    "س ل م",
-    "ط و ع",
-    "ء ت ي",
-    "ء ج ر",
-    "ح س ن",
-    "و ل ي",
-    "ء ل م"
-  ],
-  "new_roots": [
-    "د ع و",
-    "ء و ل",
-    "ب ء س",
-    "ش د د",
-    "ق ت ل",
-    "س ل م",
-    "ط و ع",
-    "ح س ن",
-    "و ل ي",
-    "ء ل م"
-  ],
-  "cached_roots": [
-    "ظ ن ن",
-    "ق ل ب",
-    "ر س ل",
-    "ء م ن",
-    "ء ه ل",
-    "ء ب د",
-    "ز ي ن",
-    "س و ء",
-    "ك و ن",
-    "ق و م",
-    "ب و ر",
-    "ء ل ه",
-    "ع ت د",
-    "ك ف ر",
-    "س ع ر",
-    "م ل ك",
-    "س م و",
-    "ء ر ض",
-    "غ ف ر",
-    "ش ي ء",
-    "ع ذ ب",
-    "ر ح م",
-    "ق و ل",
-    "خ ل ف",
-    "ط ل ق",
-    "غ ن م",
-    "ء خ ذ",
-    "و ذ ر",
-    "ت ب ع",
-    "ر و د",
-    "ب د ل",
-    "ك ل م",
-    "ق ب ل",
-    "ح س د",
-    "ف ق ه",
-    "ق ل ل",
-    "ع ر ب",
-    "ء ت ي",
-    "ء ج ر"
-  ],
-  "cached_available_roots": [
-    "ظ ن ن",
-    "ق ل ب",
-    "ر س ل",
-    "ء م ن",
-    "ء ه ل",
-    "ء ب د",
-    "ز ي ن",
-    "س و ء",
-    "ك و ن",
-    "ق و م",
-    "ب و ر",
-    "ء ل ه",
-    "ع ت د",
-    "ك ف ر",
-    "س ع ر",
-    "م ل ك",
-    "س م و",
-    "ء ر ض",
-    "غ ف ر",
-    "ش ي ء",
-    "ع ذ ب",
-    "ر ح م",
-    "ق و ل",
-    "خ ل ف",
-    "ط ل ق",
-    "غ ن م",
-    "ء خ ذ",
-    "و ذ ر",
-    "ت ب ع",
-    "ر و د",
-    "ب د ل",
-    "ك ل م",
-    "ق ب ل",
-    "ح س د",
-    "ف ق ه",
-    "ق ل ل",
-    "ع ر ب",
-    "ء ت ي",
-    "ء ج ر"
-  ],
-  "cached_missing_roots": [],
-  "new_branch_inventories": [
-    {
-      "root": "د ع و",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "النداء والإمالة بالكلام",
-          "image_en": "calling to draw near by voice or speech",
-          "scope_ar": "الدعاء والنداء والإمالة إلى الشيء بصوت وكلام والدعوة إلى الطعام وقصد المكان بدعائه مجازا",
-          "scope_en": "calling, inviting, or drawing something toward oneself by voice or speech, including invitation to food and metaphorical attraction toward a place",
-          "variants": [
-            {
-              "root_id": "root_000478",
-              "source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
-              "image_ar": "النداء والإمالة بالكلام",
-              "image_en": "calling to draw near by voice or speech",
-              "scope_ar": "الدعاء والنداء والإمالة إلى الشيء بصوت وكلام والدعوة إلى الطعام وقصد المكان بدعائه مجازا",
-              "scope_en": "calling, inviting, or drawing something toward oneself by voice or speech, including invitation to food and metaphorical attraction toward a place"
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "ادعاء الحق والانتساب",
-          "image_en": "claiming a right or affiliation",
-          "scope_ar": "ادعاء حق للنفس أو للغير وادعاء النسب والولد والاعتزاء في الحرب",
-          "scope_en": "claiming a right for oneself or another, claiming lineage or a child, and battle affiliation by lineage call",
-          "variants": [
-            {
-              "root_id": "root_000478",
-              "source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
-              "image_ar": "ادعاء الحق والانتساب",
-              "image_en": "claiming a right or affiliation",
-              "scope_ar": "ادعاء حق للنفس أو للغير وادعاء النسب والولد والاعتزاء في الحرب",
-              "scope_en": "claiming a right for oneself or another, claiming lineage or a child, and battle affiliation by lineage call"
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "داعية اللبن",
-          "image_en": "milk remnant that draws more milk",
-          "scope_ar": "ما يترك في الضرع من اللبن ليدعو ما بعده",
-          "scope_en": "the milk left in the udder so that it draws after it what remains",
-          "variants": [
-            {
-              "root_id": "root_000478",
-              "source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
-              "image_ar": "داعية اللبن",
-              "image_en": "milk remnant that draws more milk",
-              "scope_ar": "ما يترك في الضرع من اللبن ليدعو ما بعده",
-              "scope_en": "the milk left in the udder so that it draws after it what remains"
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "الدعاء بالمكروه النازل",
-          "image_en": "calling down an unwelcome thing",
-          "scope_ar": "إنزال المكروه بأحد في قولهم دعا الله فلانا بما يكره",
-          "scope_en": "causing or bringing down something disliked upon someone in the expression دعا الله فلانا بما يكره",
-          "variants": [
-            {
-              "root_id": "root_000478",
-              "source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
-              "image_ar": "الدعاء بالمكروه النازل",
-              "image_en": "calling down an unwelcome thing",
-              "scope_ar": "إنزال المكروه بأحد في قولهم دعا الله فلانا بما يكره",
-              "scope_en": "causing or bringing down something disliked upon someone in the expression دعا الله فلانا بما يكره"
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "التداعي بالسقوط",
-          "image_en": "successive falling or collapse",
-          "scope_ar": "سقوط بعض الشيء إثر بعض وهدمه واحدا بعد آخر",
-          "scope_en": "successive collapse, where one part falls after another, and demolition one after another",
-          "variants": [
-            {
-              "root_id": "root_000478",
-              "source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
-              "image_ar": "التداعي بالسقوط",
-              "image_en": "successive falling or collapse",
-              "scope_ar": "سقوط بعض الشيء إثر بعض وهدمه واحدا بعد آخر",
-              "scope_en": "successive collapse, where one part falls after another, and demolition one after another"
-            }
-          ]
-        },
-        {
-          "branch_id": "B006",
-          "image_ar": "دواعي الدهر",
-          "image_en": "turns of time that draw events",
-          "scope_ar": "صروف الدهر وحوادثه التي تميل الإنسان إليها",
-          "scope_en": "the turns and events of time, pictured as drawing events or people toward them",
-          "variants": [
-            {
-              "root_id": "root_000478",
-              "source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
-              "image_ar": "دواعي الدهر",
-              "image_en": "turns of time that draw events",
-              "scope_ar": "صروف الدهر وحوادثه التي تميل الإنسان إليها",
-              "scope_en": "the turns and events of time, pictured as drawing events or people toward them"
-            }
-          ]
-        },
-        {
-          "branch_id": "B007",
-          "image_ar": "الأُدْعِيّة المعماة",
-          "image_en": "riddle-like calls",
-          "scope_ar": "الأُدْعِيّة التي يتداعون بها مثل الأغلوطة لإخراج الجواب المعمى",
-          "scope_en": "riddle-like prompts exchanged to draw out a hidden answer",
-          "variants": [
-            {
-              "root_id": "root_000478",
-              "source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
-              "image_ar": "الأُدْعِيّة المعماة",
-              "image_en": "riddle-like calls",
-              "scope_ar": "الأُدْعِيّة التي يتداعون بها مثل الأغلوطة لإخراج الجواب المعمى",
-              "scope_en": "riddle-like prompts exchanged to draw out a hidden answer"
-            }
-          ]
-        },
-        {
-          "branch_id": "B008",
-          "image_ar": "خلو الدار من داع",
-          "image_en": "absence of any caller in the house",
-          "scope_ar": "نفي وجود أحد في الدار بقولهم ما بالدار دَعْوِيّ",
-          "scope_en": "denying that anyone is in the house, phrased as no caller being there",
-          "variants": [
-            {
-              "root_id": "root_000478",
-              "source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
-              "image_ar": "خلو الدار من داع",
-              "image_en": "absence of any caller in the house",
-              "scope_ar": "نفي وجود أحد في الدار بقولهم ما بالدار دَعْوِيّ",
-              "scope_en": "denying that anyone is in the house, phrased as no caller being there"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "ء و ل",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "ابتداء الشيء وتقدمه",
-          "image_en": "beginning and precedence",
-          "scope_ar": "يدخل فيه الأول والأولى والأوائل والأولية وما يدل على ابتداء الشيء أو تقدمه في الزمن أو الرتبة أو السير.",
-          "scope_en": "Covers firstness, beginning, priority, and coming at the front in time, rank, or movement.",
-          "variants": [
-            {
-              "root_id": "root_000067",
-              "source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
-              "image_ar": "ابتداء الشيء وتقدمه",
-              "image_en": "beginning and precedence",
-              "scope_ar": "يدخل فيه الأول والأولى والأوائل والأولية وما يدل على ابتداء الشيء أو تقدمه في الزمن أو الرتبة أو السير.",
-              "scope_en": "Covers firstness, beginning, priority, and coming at the front in time, rank, or movement."
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "رجوع الشيء إلى مآله وعاقبته",
-          "image_en": "return to outcome or final meaning",
-          "scope_ar": "يدخل فيه آل يؤول بمعنى رجع أو صار، والمآل والمرجع والمصير، وتأويل الكلام بمعنى ما يؤول إليه أو تفسيره برده إلى معناه.",
-          "scope_en": "Covers returning, becoming, final outcome, and interpretation as bringing speech back to its resulting meaning.",
-          "variants": [
-            {
-              "root_id": "root_000067",
-              "source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
-              "image_ar": "رجوع الشيء إلى مآله وعاقبته",
-              "image_en": "return to outcome or final meaning",
-              "scope_ar": "يدخل فيه آل يؤول بمعنى رجع أو صار، والمآل والمرجع والمصير، وتأويل الكلام بمعنى ما يؤول إليه أو تفسيره برده إلى معناه.",
-              "scope_en": "Covers returning, becoming, final outcome, and interpretation as bringing speech back to its resulting meaning."
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "آل الرجل من يرجع إليهم ويرجعون إليه",
-          "image_en": "a person's household and dependents",
-          "scope_ar": "يدخل فيه آل الرجل: أهل بيته وعياله وقرابته وأتباعه ومن إليه مآل الرجل أو مآلهم إليه، مع استعمال آل فلان في الرجل نفسه على جهة التعبير عنه بآله.",
-          "scope_en": "Covers a person's family, household, dependents, followers, and those mutually referred back to him.",
-          "variants": [
-            {
-              "root_id": "root_000067",
-              "source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
-              "image_ar": "آل الرجل من يرجع إليهم ويرجعون إليه",
-              "image_en": "a person's household and dependents",
-              "scope_ar": "يدخل فيه آل الرجل: أهل بيته وعياله وقرابته وأتباعه ومن إليه مآل الرجل أو مآلهم إليه، مع استعمال آل فلان في الرجل نفسه على جهة التعبير عنه بآله.",
-              "scope_en": "Covers a person's family, household, dependents, followers, and those mutually referred back to him."
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "إيالة الأمر بإصلاحه وسياسته",
-          "image_en": "governing and setting affairs right",
-          "scope_ar": "يدخل فيه الإيالة والسياسة، وآل الأمير رعيته إذا ساسها، وآل ماله إذا أصلحه، والائتيال والإصلاح وجمع الأمر أو رد الضالة في الدعاء.",
-          "scope_en": "Covers governance, tending subjects or property, repair, ordering, and gathering a matter back together.",
-          "variants": [
-            {
-              "root_id": "root_000067",
-              "source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
-              "image_ar": "إيالة الأمر بإصلاحه وسياسته",
-              "image_en": "governing and setting affairs right",
-              "scope_ar": "يدخل فيه الإيالة والسياسة، وآل الأمير رعيته إذا ساسها، وآل ماله إذا أصلحه، والائتيال والإصلاح وجمع الأمر أو رد الضالة في الدعاء.",
-              "scope_en": "Covers governance, tending subjects or property, repair, ordering, and gathering a matter back together."
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "خثور السائل وانعقاده في آخر أمره",
-          "image_en": "thickening or coagulating",
-          "scope_ar": "يدخل فيه آل اللبن أو النبات أو القطران أو العسل إذا خثر أو انعقد، والآيل اللبن الخاثر.",
-          "scope_en": "Covers milk, tar, honey, or similar matter becoming thick, curdled, or coagulated.",
-          "variants": [
-            {
-              "root_id": "root_000067",
-              "source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
-              "image_ar": "خثور السائل وانعقاده في آخر أمره",
-              "image_en": "thickening or coagulating",
-              "scope_ar": "يدخل فيه آل اللبن أو النبات أو القطران أو العسل إذا خثر أو انعقد، والآيل اللبن الخاثر.",
-              "scope_en": "Covers milk, tar, honey, or similar matter becoming thick, curdled, or coagulated."
-            }
-          ]
-        },
-        {
-          "branch_id": "B007",
-          "image_ar": "آلة الحال التي يكون عليها الشيء",
-          "image_en": "state or condition",
-          "scope_ar": "يدخل فيه الآلة أو الألة بمعنى الحالة، كقولهم هو بآلة سوء.",
-          "scope_en": "Covers condition or state, especially the state someone is in.",
-          "variants": [
-            {
-              "root_id": "root_000067",
-              "source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
-              "image_ar": "آلة الحال التي يكون عليها الشيء",
-              "image_en": "state or condition",
-              "scope_ar": "يدخل فيه الآلة أو الألة بمعنى الحالة، كقولهم هو بآلة سوء.",
-              "scope_en": "Covers condition or state, especially the state someone is in."
-            }
-          ]
-        },
-        {
-          "branch_id": "B008",
-          "image_ar": "الآلة الحاملة أو الأداة",
-          "image_en": "tool, support, or bier",
-          "scope_ar": "يدخل فيه الآلة بمعنى الأداة، وخشبات الخيمة، والجنازة أو الحامل الذي يحمل عليه.",
-          "scope_en": "Covers implement, structural support, tent timbers, and bier-like carrying apparatus.",
-          "variants": [
-            {
-              "root_id": "root_000067",
-              "source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
-              "image_ar": "الآلة الحاملة أو الأداة",
-              "image_en": "tool, support, or bier",
-              "scope_ar": "يدخل فيه الآلة بمعنى الأداة، وخشبات الخيمة، والجنازة أو الحامل الذي يحمل عليه.",
-              "scope_en": "Covers implement, structural support, tent timbers, and bier-like carrying apparatus."
-            }
-          ]
-        },
-        {
-          "branch_id": "B009",
-          "image_ar": "الأيل الذي يأوي إلى الجبل",
-          "image_en": "the mountain-going ibex",
-          "scope_ar": "يدخل فيه الأيل: ذكر الوعول، مع تعليل تسميته بأنه يؤول إلى الجبل يتحصن.",
-          "scope_en": "Covers the male ibex or mountain goat named in the sources.",
-          "variants": [
-            {
-              "root_id": "root_000067",
-              "source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
-              "image_ar": "الأيل الذي يأوي إلى الجبل",
-              "image_en": "the mountain-going ibex",
-              "scope_ar": "يدخل فيه الأيل: ذكر الوعول، مع تعليل تسميته بأنه يؤول إلى الجبل يتحصن.",
-              "scope_en": "Covers the male ibex or mountain goat named in the sources."
-            }
-          ]
-        },
-        {
-          "branch_id": "B010",
-          "image_ar": "الإيال وعاء الشراب حتى يجود",
-          "image_en": "a vessel for aging drink",
-          "scope_ar": "يدخل فيه الإيال: وعاء يجمع فيه الشراب أياما حتى يجود.",
-          "scope_en": "Covers the vessel in which drink is kept for days until it improves.",
-          "variants": [
-            {
-              "root_id": "root_000067",
-              "source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
-              "image_ar": "الإيال وعاء الشراب حتى يجود",
-              "image_en": "a vessel for aging drink",
-              "scope_ar": "يدخل فيه الإيال: وعاء يجمع فيه الشراب أياما حتى يجود.",
-              "scope_en": "Covers the vessel in which drink is kept for days until it improves."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "ب ء س",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "البأس شدة قاهرة",
-          "image_en": "severe force or punishment",
-          "scope_ar": "البأس في الحرب والعذاب والنكاية والشجاعة وقوة القتال",
-          "scope_en": "The branch covers ba's as harsh force: war severity, punishment, injury, and courageous battle-strength.",
-          "variants": [
-            {
-              "root_id": "root_000079",
-              "source_path": "v4/outputs/pass2_branches/root_000079.branches.tsv",
-              "image_ar": "البأس شدة قاهرة",
-              "image_en": "severe force or punishment",
-              "scope_ar": "البأس في الحرب والعذاب والنكاية والشجاعة وقوة القتال",
-              "scope_en": "The branch covers ba's as harsh force: war severity, punishment, injury, and courageous battle-strength."
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "البؤس ضيق العيش",
-          "image_en": "hardship and poverty",
-          "scope_ar": "البؤس والبأساء في الفقر والجوع والمشقة والضرر والبلية والعدم والداهية والدعاء بالبؤس والضراعة للفقر",
-          "scope_en": "The branch covers bu's and ba'sa' as poverty, hard living, calamity, need, hunger, and related misery.",
-          "variants": [
-            {
-              "root_id": "root_000079",
-              "source_path": "v4/outputs/pass2_branches/root_000079.branches.tsv",
-              "image_ar": "البؤس ضيق العيش",
-              "image_en": "hardship and poverty",
-              "scope_ar": "البؤس والبأساء في الفقر والجوع والمشقة والضرر والبلية والعدم والداهية والدعاء بالبؤس والضراعة للفقر",
-              "scope_en": "The branch covers bu's and ba'sa' as poverty, hard living, calamity, need, hunger, and related misery."
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "الابتئاس حزنا وكراهة",
-          "image_en": "grieving at disliked harm",
-          "scope_ar": "الابتئاس والمبتئس في الحزن والكراهة وبلوغ المكروه ولزوم البؤس",
-          "scope_en": "The branch covers the verbal/emotional use: becoming sad, distressed, or averse because something disliked has reached one.",
-          "variants": [
-            {
-              "root_id": "root_000079",
-              "source_path": "v4/outputs/pass2_branches/root_000079.branches.tsv",
-              "image_ar": "الابتئاس حزنا وكراهة",
-              "image_en": "grieving at disliked harm",
-              "scope_ar": "الابتئاس والمبتئس في الحزن والكراهة وبلوغ المكروه ولزوم البؤس",
-              "scope_en": "The branch covers the verbal/emotional use: becoming sad, distressed, or averse because something disliked has reached one."
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "بئس كلمة ذم",
-          "image_en": "blame formula",
-          "scope_ar": "بئس في الذم ونقيض نعم وأحكامها النحوية مع الاسم والجنس وما",
-          "scope_en": "The branch covers bi'sa as the fixed blame/praise counterpart to ni'ma, including its grammatical behavior.",
-          "variants": [
-            {
-              "root_id": "root_000079",
-              "source_path": "v4/outputs/pass2_branches/root_000079.branches.tsv",
-              "image_ar": "بئس كلمة ذم",
-              "image_en": "blame formula",
-              "scope_ar": "بئس في الذم ونقيض نعم وأحكامها النحوية مع الاسم والجنس وما",
-              "scope_en": "The branch covers bi'sa as the fixed blame/praise counterpart to ni'ma, including its grammatical behavior."
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "نفي البأس أمان",
-          "image_en": "negated harm as safety",
-          "scope_ar": "لا بأس عليك في نفي الأذى وإفادة الأمن",
-          "scope_en": "The branch covers the idiom where denying ba's from someone grants safety or removes threat.",
-          "variants": [
-            {
-              "root_id": "root_000079",
-              "source_path": "v4/outputs/pass2_branches/root_000079.branches.tsv",
-              "image_ar": "نفي البأس أمان",
-              "image_en": "negated harm as safety",
-              "scope_ar": "لا بأس عليك في نفي الأذى وإفادة الأمن",
-              "scope_en": "The branch covers the idiom where denying ba's from someone grants safety or removes threat."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "ش د د",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "شد العقد والوثاق",
-          "image_en": "fastening a bond",
-          "scope_ar": "عقد الشيء وإيثاقه وتقوية عقده وتقوية العضد والملك",
-          "scope_en": "Binding or fastening a thing, making its bond firm, and strengthening support or rule",
-          "variants": [
-            {
-              "root_id": "root_000782",
-              "source_path": "v4/outputs/pass2_branches/root_000782.branches.tsv",
-              "image_ar": "شد العقد والوثاق",
-              "image_en": "fastening a bond",
-              "scope_ar": "عقد الشيء وإيثاقه وتقوية عقده وتقوية العضد والملك",
-              "scope_en": "Binding or fastening a thing, making its bond firm, and strengthening support or rule"
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "شدة القوة والصلابة",
-          "image_en": "intensity of strength and hardness",
-          "scope_ar": "القوة والصلابة والشجاعة وثبات القلب وشدة الحال والجوع والعذاب والتشديد وبذل الجهد والقدرة",
-          "scope_en": "Strength, hardness, courage, firmness of heart, harsh condition, hunger, punishment, intensification, exertion, and capacity",
-          "variants": [
-            {
-              "root_id": "root_000782",
-              "source_path": "v4/outputs/pass2_branches/root_000782.branches.tsv",
-              "image_ar": "شدة القوة والصلابة",
-              "image_en": "intensity of strength and hardness",
-              "scope_ar": "القوة والصلابة والشجاعة وثبات القلب وشدة الحال والجوع والعذاب والتشديد وبذل الجهد والقدرة",
-              "scope_en": "Strength, hardness, courage, firmness of heart, harsh condition, hunger, punishment, intensification, exertion, and capacity"
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "شد الحملة والعدو",
-          "image_en": "forceful charge and running",
-          "scope_ar": "الحمل على العدو في القتال والعدو والحضر",
-          "scope_en": "Charging against an enemy in battle, running, and swift movement",
-          "variants": [
-            {
-              "root_id": "root_000782",
-              "source_path": "v4/outputs/pass2_branches/root_000782.branches.tsv",
-              "image_ar": "شد الحملة والعدو",
-              "image_en": "forceful charge and running",
-              "scope_ar": "الحمل على العدو في القتال والعدو والحضر",
-              "scope_en": "Charging against an enemy in battle, running, and swift movement"
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "بلوغ الأشد",
-          "image_en": "full maturity and strength",
-          "scope_ar": "بلوغ الأشد من القوة والرشد والحنكة والمعرفة واكتمال الشباب",
-          "scope_en": "Reaching full strength, maturity, judgment, experience, and completion of youth",
-          "variants": [
-            {
-              "root_id": "root_000782",
-              "source_path": "v4/outputs/pass2_branches/root_000782.branches.tsv",
-              "image_ar": "بلوغ الأشد",
-              "image_en": "full maturity and strength",
-              "scope_ar": "بلوغ الأشد من القوة والرشد والحنكة والمعرفة واكتمال الشباب",
-              "scope_en": "Reaching full strength, maturity, judgment, experience, and completion of youth"
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "شد النهار وارتفاعه",
-          "image_en": "the day rising high",
-          "scope_ar": "ارتفاع النهار",
-          "scope_en": "Daytime rising or reaching height",
-          "variants": [
-            {
-              "root_id": "root_000782",
-              "source_path": "v4/outputs/pass2_branches/root_000782.branches.tsv",
-              "image_ar": "شد النهار وارتفاعه",
-              "image_en": "the day rising high",
-              "scope_ar": "ارتفاع النهار",
-              "scope_en": "Daytime rising or reaching height"
-            }
-          ]
-        },
-        {
-          "branch_id": "B006",
-          "image_ar": "شدة البخل",
-          "image_en": "severity as miserliness",
-          "scope_ar": "الشديد والمتشدد بمعنى البخيل",
-          "scope_en": "Use of severe or over-severe for miserly",
-          "variants": [
-            {
-              "root_id": "root_000782",
-              "source_path": "v4/outputs/pass2_branches/root_000782.branches.tsv",
-              "image_ar": "شدة البخل",
-              "image_en": "severity as miserliness",
-              "scope_ar": "الشديد والمتشدد بمعنى البخيل",
-              "scope_en": "Use of severe or over-severe for miserly"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "ق ت ل",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "إماتة وإزهاق روح",
-          "image_en": "killing, putting to death",
-          "scope_ar": "يدخل فيه القتل المعروف، إزالة الروح، القتيل والقتلى، قتلة السوء، والتكثير في القتل، وما يصيب مقاتل الإنسان فيميته.",
-          "scope_en": "Includes ordinary killing, removal of life, slain persons, bad manner of killing, intensive killing, and mortal spots whose injury kills.",
-          "variants": [
-            {
-              "root_id": "root_001200",
-              "source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
-              "image_ar": "إماتة وإزهاق روح",
-              "image_en": "killing, putting to death",
-              "scope_ar": "يدخل فيه القتل المعروف، إزالة الروح، القتيل والقتلى، قتلة السوء، والتكثير في القتل، وما يصيب مقاتل الإنسان فيميته.",
-              "scope_en": "Includes ordinary killing, removal of life, slain persons, bad manner of killing, intensive killing, and mortal spots whose injury kills."
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "إذلال وترويض حتى تلين الشدة",
-          "image_en": "subduing or training until force is softened",
-          "scope_ar": "يدخل فيه الإذلال، تذليل الإنسان أو الدابة، المقتل المجرب أو المعود، وما صار مرنا على العمل.",
-          "scope_en": "Includes humbling, taming a person or animal, the experienced or habituated one, and what has been trained for work.",
-          "variants": [
-            {
-              "root_id": "root_001200",
-              "source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
-              "image_ar": "إذلال وترويض حتى تلين الشدة",
-              "image_en": "subduing or training until force is softened",
-              "scope_ar": "يدخل فيه الإذلال، تذليل الإنسان أو الدابة، المقتل المجرب أو المعود، وما صار مرنا على العمل.",
-              "scope_en": "Includes humbling, taming a person or animal, the experienced or habituated one, and what has been trained for work."
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "إحاطة علمية كأن الأمر مقهور",
-          "image_en": "complete mastery of a fact",
-          "scope_ar": "يدخل فيه قتل الشيء خبرا أو علما أو يقينا، أي بلوغ العلم التام والإحاطة بالرأي أو الحديث.",
-          "scope_en": "Includes knowing a thing completely, by report, knowledge, or certainty.",
-          "variants": [
-            {
-              "root_id": "root_001200",
-              "source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
-              "image_ar": "إحاطة علمية كأن الأمر مقهور",
-              "image_en": "complete mastery of a fact",
-              "scope_ar": "يدخل فيه قتل الشيء خبرا أو علما أو يقينا، أي بلوغ العلم التام والإحاطة بالرأي أو الحديث.",
-              "scope_en": "Includes knowing a thing completely, by report, knowledge, or certainty."
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "تدلل وتكسر في مشية أو طلب",
-          "image_en": "affected yielding in gait or request",
-          "scope_ar": "يدخل فيه تقتل الجارية أو المرأة للفتى في التزين والتثني والتكسر، وتقتل الرجل لحاجته أو للمرأة بمعنى التأتي والتضرع.",
-          "scope_en": "Includes a woman or girl coyly adorning and bending herself before a young man, and a man working humbly toward a need or pleading to a woman.",
-          "variants": [
-            {
-              "root_id": "root_001200",
-              "source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
-              "image_ar": "تدلل وتكسر في مشية أو طلب",
-              "image_en": "affected yielding in gait or request",
-              "scope_ar": "يدخل فيه تقتل الجارية أو المرأة للفتى في التزين والتثني والتكسر، وتقتل الرجل لحاجته أو للمرأة بمعنى التأتي والتضرع.",
-              "scope_en": "Includes a woman or girl coyly adorning and bending herself before a young man, and a man working humbly toward a need or pleading to a woman."
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "تعريض شخص للقتل",
-          "image_en": "exposing someone to being killed",
-          "scope_ar": "يدخل فيه أقتل فلانا بمعنى جعله عرضة للقتل أو تسبب في أن يقتل.",
-          "scope_en": "Includes causing someone to be exposed to killing or made liable to be killed.",
-          "variants": [
-            {
-              "root_id": "root_001200",
-              "source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
-              "image_ar": "تعريض شخص للقتل",
-              "image_en": "exposing someone to being killed",
-              "scope_ar": "يدخل فيه أقتل فلانا بمعنى جعله عرضة للقتل أو تسبب في أن يقتل.",
-              "scope_en": "Includes causing someone to be exposed to killing or made liable to be killed."
-            }
-          ]
-        },
-        {
-          "branch_id": "B006",
-          "image_ar": "قهر العشق أو الجن كقتل معنوي",
-          "image_en": "being overcome by love or spirits as if slain",
-          "scope_ar": "يدخل فيه قلب مقتل قتله العشق، واقتتل الرجل إذا غلبه عشق النساء أو الجن وخبلوه.",
-          "scope_en": "Includes a heart or person subdued by love, and the special use of اقتتل for being overwhelmed by love or spirits.",
-          "variants": [
-            {
-              "root_id": "root_001200",
-              "source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
-              "image_ar": "قهر العشق أو الجن كقتل معنوي",
-              "image_en": "being overcome by love or spirits as if slain",
-              "scope_ar": "يدخل فيه قلب مقتل قتله العشق، واقتتل الرجل إذا غلبه عشق النساء أو الجن وخبلوه.",
-              "scope_en": "Includes a heart or person subdued by love, and the special use of اقتتل for being overwhelmed by love or spirits."
-            }
-          ]
-        },
-        {
-          "branch_id": "B007",
-          "image_ar": "كسر شدة الشراب بالماء",
-          "image_en": "killing the strength of drink by dilution",
-          "scope_ar": "يدخل فيه قتل الخمر أو الشراب بالماء، أي مزجه حتى تذهب شدته.",
-          "scope_en": "Includes diluting wine or drink with water so that its strength is broken.",
-          "variants": [
-            {
-              "root_id": "root_001200",
-              "source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
-              "image_ar": "كسر شدة الشراب بالماء",
-              "image_en": "killing the strength of drink by dilution",
-              "scope_ar": "يدخل فيه قتل الخمر أو الشراب بالماء، أي مزجه حتى تذهب شدته.",
-              "scope_en": "Includes diluting wine or drink with water so that its strength is broken."
-            }
-          ]
-        },
-        {
-          "branch_id": "B008",
-          "image_ar": "عدو أو قرين يقابل صاحبه",
-          "image_en": "enemy or matching peer",
-          "scope_ar": "يدخل فيه القتل بمعنى العدو، الأقتال، أهل الوتر والترة، والقتلان بمعنى المثلين أو القرينين.",
-          "scope_en": "Includes an enemy, adversaries with blood-feud relation, and matched peers or counterparts.",
-          "variants": [
-            {
-              "root_id": "root_001200",
-              "source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
-              "image_ar": "عدو أو قرين يقابل صاحبه",
-              "image_en": "enemy or matching peer",
-              "scope_ar": "يدخل فيه القتل بمعنى العدو، الأقتال، أهل الوتر والترة، والقتلان بمعنى المثلين أو القرينين.",
-              "scope_en": "Includes an enemy, adversaries with blood-feud relation, and matched peers or counterparts."
-            }
-          ]
-        },
-        {
-          "branch_id": "B011",
-          "image_ar": "مقاتلة ومحاربة بين طرفين",
-          "image_en": "mutual fighting or combat",
-          "scope_ar": "يدخل فيه قاتل فلان فلانا، المقاتلة، القتال، الاقتتال، وتقاتل القوم حين يكون بين طرفين أو أكثر مع تحري القتل.",
-          "scope_en": "Includes reciprocal fighting, combat, fighting groups, and mutual fighting forms oriented toward killing.",
-          "variants": [
-            {
-              "root_id": "root_001200",
-              "source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
-              "image_ar": "مقاتلة ومحاربة بين طرفين",
-              "image_en": "mutual fighting or combat",
-              "scope_ar": "يدخل فيه قاتل فلان فلانا، المقاتلة، القتال، الاقتتال، وتقاتل القوم حين يكون بين طرفين أو أكثر مع تحري القتل.",
-              "scope_en": "Includes reciprocal fighting, combat, fighting groups, and mutual fighting forms oriented toward killing."
-            }
-          ]
-        },
-        {
-          "branch_id": "B012",
-          "image_ar": "استماتة وإلقاء النفس في شدة",
-          "image_en": "self-devoting struggle as if courting death",
-          "scope_ar": "يدخل فيه استقتل بمعنى استمات.",
-          "scope_en": "Includes the derived form استقتل when glossed as استمات.",
-          "variants": [
-            {
-              "root_id": "root_001200",
-              "source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
-              "image_ar": "استماتة وإلقاء النفس في شدة",
-              "image_en": "self-devoting struggle as if courting death",
-              "scope_ar": "يدخل فيه استقتل بمعنى استمات.",
-              "scope_en": "Includes the derived form استقتل when glossed as استمات."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "س ل م",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "السلامة والبراءة من الآفات",
-          "image_en": "soundness and safety",
-          "scope_ar": "يدخل فيه السلامة والعافية والخلوص من العاهة والأذى والعيب ظاهرا وباطنا، ومنه القلب السليم والسالم.",
-          "scope_en": "This covers safety, soundness, freedom from harm, defects, and inner or outer blemish, including a sound heart.",
-          "variants": [
-            {
-              "root_id": "root_000737",
-              "source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
-              "image_ar": "السلامة والبراءة من الآفات",
-              "image_en": "soundness and safety",
-              "scope_ar": "يدخل فيه السلامة والعافية والخلوص من العاهة والأذى والعيب ظاهرا وباطنا، ومنه القلب السليم والسالم.",
-              "scope_en": "This covers safety, soundness, freedom from harm, defects, and inner or outer blemish, including a sound heart."
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "الصلح والمسالمة ضد الحرب",
-          "image_en": "reconciliation and peace",
-          "scope_ar": "يدخل فيه السلم بمعنى الصلح، والمسالمة والمصالحة، وكون الشيء ضد الحرب.",
-          "scope_en": "This covers truce, reconciliation, peaceful dealing, and peace as the opposite of war.",
-          "variants": [
-            {
-              "root_id": "root_000737",
-              "source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
-              "image_ar": "الصلح والمسالمة ضد الحرب",
-              "image_en": "reconciliation and peace",
-              "scope_ar": "يدخل فيه السلم بمعنى الصلح، والمسالمة والمصالحة، وكون الشيء ضد الحرب.",
-              "scope_en": "This covers truce, reconciliation, peaceful dealing, and peace as the opposite of war."
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "السلم في البيع والسلف",
-          "image_en": "advance payment sale",
-          "scope_ar": "يدخل فيه السلم أو السلف في المعاملة: المال أو الثمن الذي يقدم أو يسلف.",
-          "scope_en": "This covers salam or salaf as an advance-payment transaction.",
-          "variants": [
-            {
-              "root_id": "root_000737",
-              "source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
-              "image_ar": "السلم في البيع والسلف",
-              "image_en": "advance payment sale",
-              "scope_ar": "يدخل فيه السلم أو السلف في المعاملة: المال أو الثمن الذي يقدم أو يسلف.",
-              "scope_en": "This covers salam or salaf as an advance-payment transaction."
-            }
-          ]
-        },
-        {
-          "branch_id": "B006",
-          "image_ar": "السلم مرقاة وسببا",
-          "image_en": "ladder and means",
-          "scope_ar": "يدخل فيه السلم والسلاليم التي يرتقى عليها، والسبب أو الوسيلة المؤدية إلى الشيء.",
-          "scope_en": "This covers a ladder, stair, or means that leads to something.",
-          "variants": [
-            {
-              "root_id": "root_000737",
-              "source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
-              "image_ar": "السلم مرقاة وسببا",
-              "image_en": "ladder and means",
-              "scope_ar": "يدخل فيه السلم والسلاليم التي يرتقى عليها، والسبب أو الوسيلة المؤدية إلى الشيء.",
-              "scope_en": "This covers a ladder, stair, or means that leads to something."
-            }
-          ]
-        },
-        {
-          "branch_id": "B007",
-          "image_ar": "السلام حجارة صلبة",
-          "image_en": "hard stones",
-          "scope_ar": "يدخل فيه السلام والسلمة للحجارة الصلبة أو جماعة الحجارة، وما فسر من ذلك بسلامتها من الرخاوة.",
-          "scope_en": "This covers salam or salamah as hard stones or a mass of stones, explained as free from softness.",
-          "variants": [
-            {
-              "root_id": "root_000737",
-              "source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
-              "image_ar": "السلام حجارة صلبة",
-              "image_en": "hard stones",
-              "scope_ar": "يدخل فيه السلام والسلمة للحجارة الصلبة أو جماعة الحجارة، وما فسر من ذلك بسلامتها من الرخاوة.",
-              "scope_en": "This covers salam or salamah as hard stones or a mass of stones, explained as free from softness."
-            }
-          ]
-        },
-        {
-          "branch_id": "B008",
-          "image_ar": "السلم شجر وقرظ للدباغة",
-          "image_en": "salam tree and tanning bark",
-          "scope_ar": "يدخل فيه السلم والسلام والسلامة والسلامان أسماء للشجر، وورقه أو قشره الذي يدبغ به الجلد.",
-          "scope_en": "This covers salam/salamah/salaman as tree names and their leaves or bark used in tanning leather.",
-          "variants": [
-            {
-              "root_id": "root_000737",
-              "source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
-              "image_ar": "السلم شجر وقرظ للدباغة",
-              "image_en": "salam tree and tanning bark",
-              "scope_ar": "يدخل فيه السلم والسلام والسلامة والسلامان أسماء للشجر، وورقه أو قشره الذي يدبغ به الجلد.",
-              "scope_en": "This covers salam/salamah/salaman as tree names and their leaves or bark used in tanning leather."
-            }
-          ]
-        },
-        {
-          "branch_id": "B009",
-          "image_ar": "السليم الملدوغ تفاؤلا أو استسلاما",
-          "image_en": "the snakebitten called sound",
-          "scope_ar": "يدخل فيه السليم والمسلوم للملدوغ، مع تعليلين: التفاؤل بالسلامة أو أنه أسلم لما به.",
-          "scope_en": "This covers salim or maslum for a snakebitten person, explained either as hopeful naming for safety or as yielding to the injury.",
-          "variants": [
-            {
-              "root_id": "root_000737",
-              "source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
-              "image_ar": "السليم الملدوغ تفاؤلا أو استسلاما",
-              "image_en": "the snakebitten called sound",
-              "scope_ar": "يدخل فيه السليم والمسلوم للملدوغ، مع تعليلين: التفاؤل بالسلامة أو أنه أسلم لما به.",
-              "scope_en": "This covers salim or maslum for a snakebitten person, explained either as hopeful naming for safety or as yielding to the injury."
-            }
-          ]
-        },
-        {
-          "branch_id": "B010",
-          "image_ar": "السلامى عظام ومفاصل",
-          "image_en": "small bones and joints",
-          "scope_ar": "يدخل فيه السلامى والسلاميات لعظام الأصابع والأشاجع والأكارع وعظام القدم والفرسن.",
-          "scope_en": "This covers salama and salamiyyat as small bones or joints of fingers, feet, limbs, or hoof.",
-          "variants": [
-            {
-              "root_id": "root_000737",
-              "source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
-              "image_ar": "السلامى عظام ومفاصل",
-              "image_en": "small bones and joints",
-              "scope_ar": "يدخل فيه السلامى والسلاميات لعظام الأصابع والأشاجع والأكارع وعظام القدم والفرسن.",
-              "scope_en": "This covers salama and salamiyyat as small bones or joints of fingers, feet, limbs, or hoof."
-            }
-          ]
-        },
-        {
-          "branch_id": "B011",
-          "image_ar": "السلم دلو بعروة واحدة",
-          "image_en": "one-handled bucket",
-          "scope_ar": "يدخل فيه السلم للدلو المستطيلة أو دلو السقائين التي لها عروة واحدة.",
-          "scope_en": "This covers salm as a long or water-carrier's bucket with one handle.",
-          "variants": [
-            {
-              "root_id": "root_000737",
-              "source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
-              "image_ar": "السلم دلو بعروة واحدة",
-              "image_en": "one-handled bucket",
-              "scope_ar": "يدخل فيه السلم للدلو المستطيلة أو دلو السقائين التي لها عروة واحدة.",
-              "scope_en": "This covers salm as a long or water-carrier's bucket with one handle."
-            }
-          ]
-        },
-        {
-          "branch_id": "B012",
-          "image_ar": "تسليم الشيء وتخليته",
-          "image_en": "handing over and letting go",
-          "scope_ar": "يدخل فيه تسليم الشيء إلى غيره فتسلمه، وإسلام الأمر، والخذلان أو الترك عما كان المرء فيه.",
-          "scope_en": "This covers handing something over so another receives it, consigning an affair, abandoning, or leaving someone unsupported.",
-          "variants": [
-            {
-              "root_id": "root_000737",
-              "source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
-              "image_ar": "تسليم الشيء وتخليته",
-              "image_en": "handing over and letting go",
-              "scope_ar": "يدخل فيه تسليم الشيء إلى غيره فتسلمه، وإسلام الأمر، والخذلان أو الترك عما كان المرء فيه.",
-              "scope_en": "This covers handing something over so another receives it, consigning an affair, abandoning, or leaving someone unsupported."
-            }
-          ]
-        },
-        {
-          "branch_id": "B013",
-          "image_ar": "أخذه سلما أي أسره",
-          "image_en": "taking captive",
-          "scope_ar": "يدخل فيه قولهم أخذه سلما أي أسره.",
-          "scope_en": "This covers the expression akhadhahu salman, meaning he captured him.",
-          "variants": [
-            {
-              "root_id": "root_000737",
-              "source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
-              "image_ar": "أخذه سلما أي أسره",
-              "image_en": "taking captive",
-              "scope_ar": "يدخل فيه قولهم أخذه سلما أي أسره.",
-              "scope_en": "This covers the expression akhadhahu salman, meaning he captured him."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "ط و ع",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "الانقياد والطاعة",
-          "image_en": "pliant obedience and willing yielding",
-          "scope_ar": "يدخل فيه الطوع والطاعة والانقياد للأمر والمضي له، والطائع والمطيع والمطواع والمنقاد، وما كان طوع اليد أو العنان أو القياد أو اللسان بمعنى السلاسة والتبعية",
-          "scope_en": "Yielding, obedience, compliance with a command, and tractable readiness such as being under the hand, rein, lead, or tongue.",
-          "variants": [
-            {
-              "root_id": "root_000956",
-              "source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
-              "image_ar": "الانقياد والطاعة",
-              "image_en": "pliant obedience and willing yielding",
-              "scope_ar": "يدخل فيه الطوع والطاعة والانقياد للأمر والمضي له، والطائع والمطيع والمطواع والمنقاد، وما كان طوع اليد أو العنان أو القياد أو اللسان بمعنى السلاسة والتبعية",
-              "scope_en": "Yielding, obedience, compliance with a command, and tractable readiness such as being under the hand, rein, lead, or tongue."
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "الموافقة والمطاوعة",
-          "image_en": "agreement and mutual compliance",
-          "scope_ar": "يدخل فيه طاوعه إذا وافقه أو تابعه، والمطاوعة والطواعية حين تكون موافقة بين طرفين",
-          "scope_en": "Agreement, mutual compliance, and responsive following between parties.",
-          "variants": [
-            {
-              "root_id": "root_000956",
-              "source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
-              "image_ar": "الموافقة والمطاوعة",
-              "image_en": "agreement and mutual compliance",
-              "scope_ar": "يدخل فيه طاوعه إذا وافقه أو تابعه، والمطاوعة والطواعية حين تكون موافقة بين طرفين",
-              "scope_en": "Agreement, mutual compliance, and responsive following between parties."
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "الاستطاعة والإطاقة",
-          "image_en": "ability and practical capacity",
-          "scope_ar": "يدخل فيه الاستطاعة والإطاقة والتمكن من الفعل بما يجعله متأتيا، وصيغ استطاع واسطاع وأسطيع واستاع حيث هي لغات في ذلك",
-          "scope_en": "Ability, capacity, and the practical conditions that make an action possible.",
-          "variants": [
-            {
-              "root_id": "root_000956",
-              "source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
-              "image_ar": "الاستطاعة والإطاقة",
-              "image_en": "ability and practical capacity",
-              "scope_ar": "يدخل فيه الاستطاعة والإطاقة والتمكن من الفعل بما يجعله متأتيا، وصيغ استطاع واسطاع وأسطيع واستاع حيث هي لغات في ذلك",
-              "scope_en": "Ability, capacity, and the practical conditions that make an action possible."
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "تكلف الاستطاعة",
-          "image_en": "working oneself into ability",
-          "scope_ar": "يدخل فيه تطاوع للأمر حتى يستطيعه وتطوع بمعنى تكلف استطاعته أو تحمل الشيء طوعا",
-          "scope_en": "Becoming able through effort, forcing oneself into capacity, or taking something on willingly.",
-          "variants": [
-            {
-              "root_id": "root_000956",
-              "source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
-              "image_ar": "تكلف الاستطاعة",
-              "image_en": "working oneself into ability",
-              "scope_ar": "يدخل فيه تطاوع للأمر حتى يستطيعه وتطوع بمعنى تكلف استطاعته أو تحمل الشيء طوعا",
-              "scope_en": "Becoming able through effort, forcing oneself into capacity, or taking something on willingly."
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "التطوع والتبرع",
-          "image_en": "voluntary good beyond obligation",
-          "scope_ar": "يدخل فيه التطوع بالشيء والتبرع بما لا يلزم فرضه، ولا سيما في الخير والبر، واسم المطوعة للذين يتطوعون بالجهاد",
-          "scope_en": "Voluntary offering or doing good beyond obligation, including volunteer fighters.",
-          "variants": [
-            {
-              "root_id": "root_000956",
-              "source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
-              "image_ar": "التطوع والتبرع",
-              "image_en": "voluntary good beyond obligation",
-              "scope_ar": "يدخل فيه التطوع بالشيء والتبرع بما لا يلزم فرضه، ولا سيما في الخير والبر، واسم المطوعة للذين يتطوعون بالجهاد",
-              "scope_en": "Voluntary offering or doing good beyond obligation, including volunteer fighters."
-            }
-          ]
-        },
-        {
-          "branch_id": "B006",
-          "image_ar": "تسهيل النفس للأمر",
-          "image_en": "making an act easy to oneself",
-          "scope_ar": "يدخل فيه طوعت له نفسه إذا سهلت له الأمر أو هونته أو تابعته وأعانته وشجعته عليه",
-          "scope_en": "An inner self making an act easy, acceptable, or encouraged.",
-          "variants": [
-            {
-              "root_id": "root_000956",
-              "source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
-              "image_ar": "تسهيل النفس للأمر",
-              "image_en": "making an act easy to oneself",
-              "scope_ar": "يدخل فيه طوعت له نفسه إذا سهلت له الأمر أو هونته أو تابعته وأعانته وشجعته عليه",
-              "scope_en": "An inner self making an act easy, acceptable, or encouraged."
-            }
-          ]
-        },
-        {
-          "branch_id": "B007",
-          "image_ar": "تهيؤ المرعى والثمر",
-          "image_en": "readiness for use or grazing",
-          "scope_ar": "يدخل فيه أطاع المرعى أو الكلأ إذا اتسع وأمكن الرعي، وأطاع النخل والشجر إذا أدرك ثمره وأمكن جناه",
-          "scope_en": "Availability and readiness of pasture, herbage, trees, or fruit for grazing or harvesting.",
-          "variants": [
-            {
-              "root_id": "root_000956",
-              "source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
-              "image_ar": "تهيؤ المرعى والثمر",
-              "image_en": "readiness for use or grazing",
-              "scope_ar": "يدخل فيه أطاع المرعى أو الكلأ إذا اتسع وأمكن الرعي، وأطاع النخل والشجر إذا أدرك ثمره وأمكن جناه",
-              "scope_en": "Availability and readiness of pasture, herbage, trees, or fruit for grazing or harvesting."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "ح س ن",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "الحسن ضد القبح",
-          "image_en": "goodness or beauty opposed to ugliness",
-          "scope_ar": "النعت والمصدر لما كان حسنا أو مرغوبا أو ضد القبح، ويشمل حسن الشخص والشيء والمحاسن والحسان",
-          "scope_en": "Goodness, beauty, or pleasing quality opposed to ugliness or badness, including personal/object beauty and good qualities.",
-          "variants": [
-            {
-              "root_id": "root_000323",
-              "source_path": "v4/outputs/pass2_branches/root_000323.branches.tsv",
-              "image_ar": "الحسن ضد القبح",
-              "image_en": "goodness or beauty opposed to ugliness",
-              "scope_ar": "النعت والمصدر لما كان حسنا أو مرغوبا أو ضد القبح، ويشمل حسن الشخص والشيء والمحاسن والحسان",
-              "scope_en": "Goodness, beauty, or pleasing quality opposed to ugliness or badness, including personal/object beauty and good qualities."
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "الإحسان فعل حسن",
-          "image_en": "beneficent or skillful good action",
-          "scope_ar": "الفعل الحسن والإتقان والإنعام على الغير والزيادة على العدل، وما يقابل الإساءة",
-          "scope_en": "Doing well, acting beautifully or skillfully, benefitting another, and going beyond justice, opposed to doing harm.",
-          "variants": [
-            {
-              "root_id": "root_000323",
-              "source_path": "v4/outputs/pass2_branches/root_000323.branches.tsv",
-              "image_ar": "الإحسان فعل حسن",
-              "image_en": "beneficent or skillful good action",
-              "scope_ar": "الفعل الحسن والإتقان والإنعام على الغير والزيادة على العدل، وما يقابل الإساءة",
-              "scope_en": "Doing well, acting beautifully or skillfully, benefitting another, and going beyond justice, opposed to doing harm."
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "أسماء الحسن للمواضع والأجسام",
-          "image_en": "names from حسن for places and bodies",
-          "scope_ar": "الأسماء المتفرعة من الحسن للمواضع والأجسام والأجزاء، مثل الحسن للرمل أو الجبل، والحسين للجبل العالي، والحسن من الذراع، والحاسن للقمر",
-          "scope_en": "Named physical uses derived from حسن: sand ridge or mountain names, a part of the forearm, a high mountain, and the moon.",
-          "variants": [
-            {
-              "root_id": "root_000323",
-              "source_path": "v4/outputs/pass2_branches/root_000323.branches.tsv",
-              "image_ar": "أسماء الحسن للمواضع والأجسام",
-              "image_en": "names from حسن for places and bodies",
-              "scope_ar": "الأسماء المتفرعة من الحسن للمواضع والأجسام والأجزاء، مثل الحسن للرمل أو الجبل، والحسين للجبل العالي، والحسن من الذراع، والحاسن للقمر",
-              "scope_en": "Named physical uses derived from حسن: sand ridge or mountain names, a part of the forearm, a high mountain, and the moon."
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "حُسَيْناء الغاية والجهد",
-          "image_en": "utmost effort or limit",
-          "scope_ar": "قولهم حُسَيْناؤه أو حُسَيْناه بمعنى جهده وغايته",
-          "scope_en": "The idiom حُسَيْناؤه or حُسَيْناه meaning one's utmost effort or limit.",
-          "variants": [
-            {
-              "root_id": "root_000323",
-              "source_path": "v4/outputs/pass2_branches/root_000323.branches.tsv",
-              "image_ar": "حُسَيْناء الغاية والجهد",
-              "image_en": "utmost effort or limit",
-              "scope_ar": "قولهم حُسَيْناؤه أو حُسَيْناه بمعنى جهده وغايته",
-              "scope_en": "The idiom حُسَيْناؤه or حُسَيْناه meaning one's utmost effort or limit."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "و ل ي",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "قرب ودنو بلا فاصل",
-          "image_en": "nearness and adjacency",
-          "scope_ar": "يدخل فيه الولي بمعنى القرب والدنو، وما يلي الشيء أو يقاربه مكانا أو نسبة، والدار القريبة التي تلي دارا أخرى",
-          "scope_en": "Includes nearness, adjacency, immediate proximity, and a thing that lies next to or close to another in place or relation.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "قرب ودنو بلا فاصل",
-              "image_en": "nearness and adjacency",
-              "scope_ar": "يدخل فيه الولي بمعنى القرب والدنو، وما يلي الشيء أو يقاربه مكانا أو نسبة، والدار القريبة التي تلي دارا أخرى",
-              "scope_en": "Includes nearness, adjacency, immediate proximity, and a thing that lies next to or close to another in place or relation."
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "تتابع شيء بعد شيء",
-          "image_en": "continuous succession",
-          "scope_ar": "يدخل فيه التوالي والموالاة والولاء بمعنى ترتيب الأشياء أو الأفعال بعضها إثر بعض بلا انقطاع",
-          "scope_en": "Includes successive order, continuity, and doing or placing things one after another without an intervening break.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "تتابع شيء بعد شيء",
-              "image_en": "continuous succession",
-              "scope_ar": "يدخل فيه التوالي والموالاة والولاء بمعنى ترتيب الأشياء أو الأفعال بعضها إثر بعض بلا انقطاع",
-              "scope_en": "Includes successive order, continuity, and doing or placing things one after another without an intervening break."
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "تولي الأمر والقيام عليه",
-          "image_en": "assuming charge and authority",
-          "scope_ar": "يدخل فيه الولاية والإمارة والسلطان، وتولي العمل أو الأمر، وولي اليتيم أو المرأة الذي يلي شأنهما ويقوم به",
-          "scope_en": "Includes governance, authority, assuming charge, managing an office or affair, and guardianship over another person's matter.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "تولي الأمر والقيام عليه",
-              "image_en": "assuming charge and authority",
-              "scope_ar": "يدخل فيه الولاية والإمارة والسلطان، وتولي العمل أو الأمر، وولي اليتيم أو المرأة الذي يلي شأنهما ويقوم به",
-              "scope_en": "Includes governance, authority, assuming charge, managing an office or affair, and guardianship over another person's matter."
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "محبة ونصرة وموالاة",
-          "image_en": "loyal alliance and support",
-          "scope_ar": "يدخل فيه الولي ضد العدو، والنصرة، والمحبة، وموالاة الدين أو الصداقة أو الاعتقاد، والحليف والناصر من جهة المعاضدة",
-          "scope_en": "Includes friend or ally as opposed to enemy, support, loyalty, affection, religious or social affiliation, and alliance.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "محبة ونصرة وموالاة",
-              "image_en": "loyal alliance and support",
-              "scope_ar": "يدخل فيه الولي ضد العدو، والنصرة، والمحبة، وموالاة الدين أو الصداقة أو الاعتقاد، والحليف والناصر من جهة المعاضدة",
-              "scope_en": "Includes friend or ally as opposed to enemy, support, loyalty, affection, religious or social affiliation, and alliance."
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "ولاء قرابة وعتق وجوار",
-          "image_en": "kinship and manumission patronage",
-          "scope_ar": "يدخل فيه المولى بمعاني المعتق والمعتق وابن العم والعصبة والجار والصهر والولاء القانوني للمعتق والموالي المنتسبين",
-          "scope_en": "Includes mawla as patron or freed person, agnate or cousin, neighbor, in-law, legal manumission patronage, and affiliated dependents.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "ولاء قرابة وعتق وجوار",
-              "image_en": "kinship and manumission patronage",
-              "scope_ar": "يدخل فيه المولى بمعاني المعتق والمعتق وابن العم والعصبة والجار والصهر والولاء القانوني للمعتق والموالي المنتسبين",
-              "scope_en": "Includes mawla as patron or freed person, agnate or cousin, neighbor, in-law, legal manumission patronage, and affiliated dependents."
-            }
-          ]
-        },
-        {
-          "branch_id": "B006",
-          "image_ar": "تولية الوجه والإقبال",
-          "image_en": "turning toward and facing",
-          "scope_ar": "يدخل فيه وليت الوجه أو السمع أو العين إلى الشيء، والتولية بمعنى الإقبال والاستقبال والاتباع والرضا",
-          "scope_en": "Includes turning one's face, hearing, or attention toward something, facing it, following it, or accepting it.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "تولية الوجه والإقبال",
-              "image_en": "turning toward and facing",
-              "scope_ar": "يدخل فيه وليت الوجه أو السمع أو العين إلى الشيء، والتولية بمعنى الإقبال والاستقبال والاتباع والرضا",
-              "scope_en": "Includes turning one's face, hearing, or attention toward something, facing it, following it, or accepting it."
-            }
-          ]
-        },
-        {
-          "branch_id": "B007",
-          "image_ar": "الإدبار والإعراض",
-          "image_en": "turning away and withdrawal",
-          "scope_ar": "يدخل فيه ولى الرجل إذا أدبر، وتولى عنه إذا أعرض، والتولي عن الأمر بترك القرب والإصغاء والامتثال",
-          "scope_en": "Includes turning back, retreating, averting oneself, and refusing attention or compliance.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "الإدبار والإعراض",
-              "image_en": "turning away and withdrawal",
-              "scope_ar": "يدخل فيه ولى الرجل إذا أدبر، وتولى عنه إذا أعرض، والتولي عن الأمر بترك القرب والإصغاء والامتثال",
-              "scope_en": "Includes turning back, retreating, averting oneself, and refusing attention or compliance."
-            }
-          ]
-        },
-        {
-          "branch_id": "B008",
-          "image_ar": "الأولوية والاستحقاق",
-          "image_en": "priority and superior right",
-          "scope_ar": "يدخل فيه أولى بكذا بمعنى أحرى وأجدر وأحق، والأوليان بمعنى الأحقان",
-          "scope_en": "Includes being more entitled, worthier, or more deserving of a thing.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "الأولوية والاستحقاق",
-              "image_en": "priority and superior right",
-              "scope_ar": "يدخل فيه أولى بكذا بمعنى أحرى وأجدر وأحق، والأوليان بمعنى الأحقان",
-              "scope_en": "Includes being more entitled, worthier, or more deserving of a thing."
-            }
-          ]
-        },
-        {
-          "branch_id": "B010",
-          "image_ar": "مطر يلي الوسمي",
-          "image_en": "late rain following the wasmi",
-          "scope_ar": "يدخل فيه الولي أو الولى المطر الذي يأتي بعد الوسمي، وما يقال في الأرض إذا أصابها هذا المطر",
-          "scope_en": "Includes the rain called الولي/الولى that follows the wasmi rain and the land affected by it.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "مطر يلي الوسمي",
-              "image_en": "late rain following the wasmi",
-              "scope_ar": "يدخل فيه الولي أو الولى المطر الذي يأتي بعد الوسمي، وما يقال في الأرض إذا أصابها هذا المطر",
-              "scope_en": "Includes the rain called الولي/الولى that follows the wasmi rain and the land affected by it."
-            }
-          ]
-        },
-        {
-          "branch_id": "B011",
-          "image_ar": "ولية تحت الرحل",
-          "image_en": "under-saddle cloth",
-          "scope_ar": "يدخل فيه الولية والولايا بمعنى الحلس أو البرذعة أو ما يكون تحت البرذعة على ظهر البعير",
-          "scope_en": "Includes the saddle cloth or pad under a saddle or pack on a camel's back.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "ولية تحت الرحل",
-              "image_en": "under-saddle cloth",
-              "scope_ar": "يدخل فيه الولية والولايا بمعنى الحلس أو البرذعة أو ما يكون تحت البرذعة على ظهر البعير",
-              "scope_en": "Includes the saddle cloth or pad under a saddle or pack on a camel's back."
-            }
-          ]
-        },
-        {
-          "branch_id": "B012",
-          "image_ar": "استيلاء وبلوغ غاية",
-          "image_en": "attaining or taking possession",
-          "scope_ar": "يدخل فيه استولى على الشيء إذا صار في يده أو غلب عليه، واستولى الفرس أو السابق على الغاية إذا بلغها أو سبق إليها",
-          "scope_en": "Includes taking control or possession of a thing and reaching or winning a race-goal.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "استيلاء وبلوغ غاية",
-              "image_en": "attaining or taking possession",
-              "scope_ar": "يدخل فيه استولى على الشيء إذا صار في يده أو غلب عليه، واستولى الفرس أو السابق على الغاية إذا بلغها أو سبق إليها",
-              "scope_en": "Includes taking control or possession of a thing and reaching or winning a race-goal."
-            }
-          ]
-        },
-        {
-          "branch_id": "B013",
-          "image_ar": "إيلاء وإسناد معروف أو شر",
-          "image_en": "granting or assigning something",
-          "scope_ar": "يدخل فيه أوليته الشيء أو معروفا أو خيرا أو شرا بمعنى جعلته له أو أسديته إليه",
-          "scope_en": "Includes conferring, granting, assigning, or directing good or evil to someone.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "إيلاء وإسناد معروف أو شر",
-              "image_en": "granting or assigning something",
-              "scope_ar": "يدخل فيه أوليته الشيء أو معروفا أو خيرا أو شرا بمعنى جعلته له أو أسديته إليه",
-              "scope_en": "Includes conferring, granting, assigning, or directing good or evil to someone."
-            }
-          ]
-        },
-        {
-          "branch_id": "B014",
-          "image_ar": "تولية البيع",
-          "image_en": "transfer resale at cost",
-          "scope_ar": "يدخل فيه التولية في البيع: شراء سلعة بثمن معلوم ثم توليتها رجلا آخر بذلك الثمن",
-          "scope_en": "Includes the commercial term تولية: transferring a purchased item to another at the known original price.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "تولية البيع",
-              "image_en": "transfer resale at cost",
-              "scope_ar": "يدخل فيه التولية في البيع: شراء سلعة بثمن معلوم ثم توليتها رجلا آخر بذلك الثمن",
-              "scope_en": "Includes the commercial term تولية: transferring a purchased item to another at the known original price."
-            }
-          ]
-        },
-        {
-          "branch_id": "B015",
-          "image_ar": "موالاة صغار النعم عن كبارها",
-          "image_en": "separating young livestock",
-          "scope_ar": "يدخل فيه والوا حواشي النعم من الجلة، أي عزل الصغار عن الكبار، وتوالي السقاب بمعنى فصالها عن الأمهات حتى تنقاد",
-          "scope_en": "Includes the pastoral usage of separating young livestock from older animals or from their mothers.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "موالاة صغار النعم عن كبارها",
-              "image_en": "separating young livestock",
-              "scope_ar": "يدخل فيه والوا حواشي النعم من الجلة، أي عزل الصغار عن الكبار، وتوالي السقاب بمعنى فصالها عن الأمهات حتى تنقاد",
-              "scope_en": "Includes the pastoral usage of separating young livestock from older animals or from their mothers."
-            }
-          ]
-        },
-        {
-          "branch_id": "B016",
-          "image_ar": "ولي الرطب وتولى إذا هاج",
-          "image_en": "early drying or color-change of dates",
-          "scope_ar": "يدخل فيه الرطب إذا أخذ في الهيج فقيل قد ولى وتولى، وتوليه شهبته",
-          "scope_en": "Includes ripe dates beginning to dry or change color, described by ولى وتولى and توليه.",
-          "variants": [
-            {
-              "root_id": "root_001684",
-              "source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
-              "image_ar": "ولي الرطب وتولى إذا هاج",
-              "image_en": "early drying or color-change of dates",
-              "scope_ar": "يدخل فيه الرطب إذا أخذ في الهيج فقيل قد ولى وتولى، وتوليه شهبته",
-              "scope_en": "Includes ripe dates beginning to dry or change color, described by ولى وتولى and توليه."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "ء ل م",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "الوجع والتألم",
-          "image_en": "pain and aching",
-          "scope_ar": "ما دل على الألم والوجع وإحساس المتألم به، ومنه ألم يألم وتألم وألمت بطنك/نفسك بمعنى أصابها الألم",
-          "scope_en": "words for pain, aching, and the person or body part experiencing pain",
-          "variants": [
-            {
-              "root_id": "root_000046",
-              "source_path": "v4/outputs/pass2_branches/root_000046.branches.tsv",
-              "image_ar": "الوجع والتألم",
-              "image_en": "pain and aching",
-              "scope_ar": "ما دل على الألم والوجع وإحساس المتألم به، ومنه ألم يألم وتألم وألمت بطنك/نفسك بمعنى أصابها الألم",
-              "scope_en": "words for pain, aching, and the person or body part experiencing pain"
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "الإيلام والوصف بالموجع",
-          "image_en": "causing pain and painful",
-          "scope_ar": "ما دل على إيقاع الألم بغيره أو وصف الشيء أو الشخص بأنه مؤلم أو أليم أو موجع",
-          "scope_en": "causing pain, making someone hurt, or describing something as painful",
-          "variants": [
-            {
-              "root_id": "root_000046",
-              "source_path": "v4/outputs/pass2_branches/root_000046.branches.tsv",
-              "image_ar": "الإيلام والوصف بالموجع",
-              "image_en": "causing pain and painful",
-              "scope_ar": "ما دل على إيقاع الألم بغيره أو وصف الشيء أو الشخص بأنه مؤلم أو أليم أو موجع",
-              "scope_en": "causing pain, making someone hurt, or describing something as painful"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "new_missing_branch_inventories": [],
-  "state_before": {
-    "seen_ayah_count": 16,
-    "seen_root_count": 95,
-    "available_root_count": 95,
-    "missing_root_count": 0,
-    "retrieval_count": 14
-  },
-  "provenance": {
-    "branch_filter": {
-      "status": "accepted",
-      "contaminated": "no",
-      "origin_corpus": [
-        "furuq",
-        "quranic"
-      ]
-    },
-    "resource_sha256": {
-      "resources/qac_root_ayah.tsv": "be694bc26a6ec261f16037e08be1d62a0dcc8d9154c9f6c5f267a338b91cf3ad",
-      "resources/furuq_v4.sqlite.gz": "2fc0c4f30ff841e46441df82d50b771c43a762d1e62e1ed2842292c17b06e699"
-    },
-    "synthetic_ayat": []
-  },
-  "state_after": {
-    "seen_ayah_count": 17,
-    "seen_root_count": 105,
-    "available_root_count": 105,
-    "missing_root_count": 0,
-    "retrieval_count": 15
-  }
+"protocol": "v13-dynamic-retrieval-packet-v2",
+"mode": "focus",
+"focus_ref": "48:14",
+"radius": 2,
+"selected_window_size": 30,
+"active_window": [
+"48:12",
+"48:13",
+"48:14",
+"48:15",
+"48:16"
+],
+"new_ayah_refs": [
+"48:16"
+],
+"new_ayat": [
+{
+"ref": "48:16",
+"text_ar": "قُل لِّلْمُخَلَّفِينَ مِنَ ٱلْأَعْرَابِ سَتُدْعَوْنَ إِلَىٰ قَوْمٍ أُو۟لِى بَأْسٍۢ شَدِيدٍۢ تُقَٰتِلُونَهُمْ أَوْ يُسْلِمُونَ ۖ فَإِن تُطِيعُوا۟ يُؤْتِكُمُ ٱللَّهُ أَجْرًا حَسَنًۭا ۖ وَإِن تَتَوَلَّوْا۟ كَمَا تَوَلَّيْتُم مِّن قَبْلُ يُعَذِّبْكُمْ عَذَابًا أَلِيمًۭا",
+"text_norm_ar": "قل للمخلفين من الاعراب ستدعون الي قوم اولي باس شديد تقتلونهم او يسلمون فان تطيعوا يؤتكم الله اجرا حسنا وان تتولوا كما توليتم من قبل يعذبكم عذابا اليما",
+"root_sequence": [
+"ق و ل",
+"خ ل ف",
+"ع ر ب",
+"د ع و",
+"ق و م",
+"ء و ل",
+"ب ء س",
+"ش د د",
+"ق ت ل",
+"س ل م",
+"ط و ع",
+"ء ت ي",
+"ء ل ه",
+"ء ج ر",
+"ح س ن",
+"و ل ي",
+"و ل ي",
+"ق ب ل",
+"ع ذ ب",
+"ع ذ ب",
+"ء ل م"
+],
+"root_occurrences": [
+{
+"root": "ق و ل",
+"occurrence_count": 1,
+"word_indices": [
+"1"
+],
+"surfaces_ar": [
+"قُل"
+],
+"lemmas_ar": [
+"قَالَ"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "خ ل ف",
+"occurrence_count": 1,
+"word_indices": [
+"2"
+],
+"surfaces_ar": [
+"مُخَلَّفِينَ"
+],
+"lemmas_ar": [
+"مُخَلَّفُون"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "ع ر ب",
+"occurrence_count": 1,
+"word_indices": [
+"4"
+],
+"surfaces_ar": [
+"أَعْرَابِ"
+],
+"lemmas_ar": [
+"أَعْرَاب"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "د ع و",
+"occurrence_count": 1,
+"word_indices": [
+"5"
+],
+"surfaces_ar": [
+"تُدْعَ"
+],
+"lemmas_ar": [
+"دَعَا"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "ق و م",
+"occurrence_count": 1,
+"word_indices": [
+"7"
+],
+"surfaces_ar": [
+"قَوْمٍ"
+],
+"lemmas_ar": [
+"قَوْم"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "ء و ل",
+"occurrence_count": 1,
+"word_indices": [
+"8"
+],
+"surfaces_ar": [
+"أُو۟لِى"
+],
+"lemmas_ar": [
+"أُولِى"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "ب ء س",
+"occurrence_count": 1,
+"word_indices": [
+"9"
+],
+"surfaces_ar": [
+"بَأْسٍ"
+],
+"lemmas_ar": [
+"بَأْس"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "ش د د",
+"occurrence_count": 1,
+"word_indices": [
+"10"
+],
+"surfaces_ar": [
+"شَدِيدٍ"
+],
+"lemmas_ar": [
+"شَدِيد"
+],
+"pos_tags": [
+"ADJ"
+]
+},
+{
+"root": "ق ت ل",
+"occurrence_count": 1,
+"word_indices": [
+"11"
+],
+"surfaces_ar": [
+"تُقَٰتِلُ"
+],
+"lemmas_ar": [
+"قَٰتَلَ"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "س ل م",
+"occurrence_count": 1,
+"word_indices": [
+"13"
+],
+"surfaces_ar": [
+"يُسْلِمُ"
+],
+"lemmas_ar": [
+"أَسْلَمَ"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "ط و ع",
+"occurrence_count": 1,
+"word_indices": [
+"15"
+],
+"surfaces_ar": [
+"تُطِيعُ"
+],
+"lemmas_ar": [
+"أَطَاعَ"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "ء ت ي",
+"occurrence_count": 1,
+"word_indices": [
+"16"
+],
+"surfaces_ar": [
+"يُؤْتِ"
+],
+"lemmas_ar": [
+"آتَى"
+],
+"pos_tags": [
+"V"
+]
+},
+{
+"root": "ء ل ه",
+"occurrence_count": 1,
+"word_indices": [
+"17"
+],
+"surfaces_ar": [
+"ٱللَّهُ"
+],
+"lemmas_ar": [
+"ٱللَّه"
+],
+"pos_tags": [
+"PN"
+]
+},
+{
+"root": "ء ج ر",
+"occurrence_count": 1,
+"word_indices": [
+"18"
+],
+"surfaces_ar": [
+"أَجْرًا"
+],
+"lemmas_ar": [
+"أَجْر"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "ح س ن",
+"occurrence_count": 1,
+"word_indices": [
+"19"
+],
+"surfaces_ar": [
+"حَسَنًا"
+],
+"lemmas_ar": [
+"حَسَن"
+],
+"pos_tags": [
+"ADJ"
+]
+},
+{
+"root": "و ل ي",
+"occurrence_count": 2,
+"word_indices": [
+"21",
+"23"
+],
+"surfaces_ar": [
+"تَتَوَلَّ",
+"تَوَلَّيْ"
+],
+"lemmas_ar": [
+"تَوَلَّىٰ",
+"تَوَلَّىٰ"
+],
+"pos_tags": [
+"V",
+"V"
+]
+},
+{
+"root": "ق ب ل",
+"occurrence_count": 1,
+"word_indices": [
+"25"
+],
+"surfaces_ar": [
+"قَبْلُ"
+],
+"lemmas_ar": [
+"قَبْل"
+],
+"pos_tags": [
+"N"
+]
+},
+{
+"root": "ع ذ ب",
+"occurrence_count": 2,
+"word_indices": [
+"26",
+"27"
+],
+"surfaces_ar": [
+"يُعَذِّبْ",
+"عَذَابًا"
+],
+"lemmas_ar": [
+"عَذَّبَ",
+"عَذَاب"
+],
+"pos_tags": [
+"V",
+"N"
+]
+},
+{
+"root": "ء ل م",
+"occurrence_count": 1,
+"word_indices": [
+"28"
+],
+"surfaces_ar": [
+"أَلِيمًا"
+],
+"lemmas_ar": [
+"أَلِيم"
+],
+"pos_tags": [
+"ADJ"
+]
+}
+]
+}
+],
+"active_ayah_sources": [
+{
+"ref": "48:12",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_10.json"
+},
+{
+"ref": "48:13",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_11.json"
+},
+{
+"ref": "48:14",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_12.json"
+},
+{
+"ref": "48:15",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"ref": "48:16",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_14.json"
+}
+],
+"active_roots": [
+"ظ ن ن",
+"ق ل ب",
+"ر س ل",
+"ء م ن",
+"ء ه ل",
+"ء ب د",
+"ز ي ن",
+"س و ء",
+"ك و ن",
+"ق و م",
+"ب و ر",
+"ء ل ه",
+"ع ت د",
+"ك ف ر",
+"س ع ر",
+"م ل ك",
+"س م و",
+"ء ر ض",
+"غ ف ر",
+"ش ي ء",
+"ع ذ ب",
+"ر ح م",
+"ق و ل",
+"خ ل ف",
+"ط ل ق",
+"غ ن م",
+"ء خ ذ",
+"و ذ ر",
+"ت ب ع",
+"ر و د",
+"ب د ل",
+"ك ل م",
+"ق ب ل",
+"ح س د",
+"ف ق ه",
+"ق ل ل",
+"ع ر ب",
+"د ع و",
+"ء و ل",
+"ب ء س",
+"ش د د",
+"ق ت ل",
+"س ل م",
+"ط و ع",
+"ء ت ي",
+"ء ج ر",
+"ح س ن",
+"و ل ي",
+"ء ل م"
+],
+"new_roots": [
+"د ع و",
+"ء و ل",
+"ب ء س",
+"ش د د",
+"ق ت ل",
+"س ل م",
+"ط و ع",
+"ح س ن",
+"و ل ي",
+"ء ل م"
+],
+"active_root_sources": [
+{
+"root": "ظ ن ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_4.json"
+},
+{
+"root": "ق ل ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ر س ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_6.json"
+},
+{
+"root": "ء م ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ء ه ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ء ب د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_10.json"
+},
+{
+"root": "ز ي ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_10.json"
+},
+{
+"root": "س و ء",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_3.json"
+},
+{
+"root": "ك و ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "ق و م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ب و ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_10.json"
+},
+{
+"root": "ء ل ه",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ع ت د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_11.json"
+},
+{
+"root": "ك ف ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_3.json"
+},
+{
+"root": "س ع ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_11.json"
+},
+{
+"root": "م ل ك",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "س م و",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ء ر ض",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_2.json"
+},
+{
+"root": "غ ف ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ش ي ء",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ع ذ ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_4.json"
+},
+{
+"root": "ر ح م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ق و ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "خ ل ف",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ط ل ق",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "غ ن م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "ء خ ذ",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "و ذ ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "ت ب ع",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "ر و د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "ب د ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "ك ل م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "ق ب ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "ح س د",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "ف ق ه",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "ق ل ل",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_13.json"
+},
+{
+"root": "ع ر ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_9.json"
+},
+{
+"root": "د ع و",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_14.json"
+},
+{
+"root": "ء و ل",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_14.json"
+},
+{
+"root": "ب ء س",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_14.json"
+},
+{
+"root": "ش د د",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_14.json"
+},
+{
+"root": "ق ت ل",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_14.json"
+},
+{
+"root": "س ل م",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_14.json"
+},
+{
+"root": "ط و ع",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_14.json"
+},
+{
+"root": "ء ت ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ء ج ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_8.json"
+},
+{
+"root": "ح س ن",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_14.json"
+},
+{
+"root": "و ل ي",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_14.json"
+},
+{
+"root": "ء ل م",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_14.json"
+}
+],
+"cached_roots": [
+"ظ ن ن",
+"ق ل ب",
+"ر س ل",
+"ء م ن",
+"ء ه ل",
+"ء ب د",
+"ز ي ن",
+"س و ء",
+"ك و ن",
+"ق و م",
+"ب و ر",
+"ء ل ه",
+"ع ت د",
+"ك ف ر",
+"س ع ر",
+"م ل ك",
+"س م و",
+"ء ر ض",
+"غ ف ر",
+"ش ي ء",
+"ع ذ ب",
+"ر ح م",
+"ق و ل",
+"خ ل ف",
+"ط ل ق",
+"غ ن م",
+"ء خ ذ",
+"و ذ ر",
+"ت ب ع",
+"ر و د",
+"ب د ل",
+"ك ل م",
+"ق ب ل",
+"ح س د",
+"ف ق ه",
+"ق ل ل",
+"ع ر ب",
+"ء ت ي",
+"ء ج ر"
+],
+"cached_available_roots": [
+"ظ ن ن",
+"ق ل ب",
+"ر س ل",
+"ء م ن",
+"ء ه ل",
+"ء ب د",
+"ز ي ن",
+"س و ء",
+"ك و ن",
+"ق و م",
+"ب و ر",
+"ء ل ه",
+"ع ت د",
+"ك ف ر",
+"س ع ر",
+"م ل ك",
+"س م و",
+"ء ر ض",
+"غ ف ر",
+"ش ي ء",
+"ع ذ ب",
+"ر ح م",
+"ق و ل",
+"خ ل ف",
+"ط ل ق",
+"غ ن م",
+"ء خ ذ",
+"و ذ ر",
+"ت ب ع",
+"ر و د",
+"ب د ل",
+"ك ل م",
+"ق ب ل",
+"ح س د",
+"ف ق ه",
+"ق ل ل",
+"ع ر ب",
+"ء ت ي",
+"ء ج ر"
+],
+"cached_missing_roots": [],
+"new_branch_inventories": [
+{
+"root": "د ع و",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "النداء والإمالة بالكلام",
+"image_en": "calling to draw near by voice or speech",
+"scope_ar": "الدعاء والنداء والإمالة إلى الشيء بصوت وكلام والدعوة إلى الطعام وقصد المكان بدعائه مجازا",
+"scope_en": "calling, inviting, or drawing something toward oneself by voice or speech, including invitation to food and metaphorical attraction toward a place",
+"variants": [
+{
+"root_id": "root_000478",
+"source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
+"image_ar": "النداء والإمالة بالكلام",
+"image_en": "calling to draw near by voice or speech",
+"scope_ar": "الدعاء والنداء والإمالة إلى الشيء بصوت وكلام والدعوة إلى الطعام وقصد المكان بدعائه مجازا",
+"scope_en": "calling, inviting, or drawing something toward oneself by voice or speech, including invitation to food and metaphorical attraction toward a place"
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "ادعاء الحق والانتساب",
+"image_en": "claiming a right or affiliation",
+"scope_ar": "ادعاء حق للنفس أو للغير وادعاء النسب والولد والاعتزاء في الحرب",
+"scope_en": "claiming a right for oneself or another, claiming lineage or a child, and battle affiliation by lineage call",
+"variants": [
+{
+"root_id": "root_000478",
+"source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
+"image_ar": "ادعاء الحق والانتساب",
+"image_en": "claiming a right or affiliation",
+"scope_ar": "ادعاء حق للنفس أو للغير وادعاء النسب والولد والاعتزاء في الحرب",
+"scope_en": "claiming a right for oneself or another, claiming lineage or a child, and battle affiliation by lineage call"
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "داعية اللبن",
+"image_en": "milk remnant that draws more milk",
+"scope_ar": "ما يترك في الضرع من اللبن ليدعو ما بعده",
+"scope_en": "the milk left in the udder so that it draws after it what remains",
+"variants": [
+{
+"root_id": "root_000478",
+"source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
+"image_ar": "داعية اللبن",
+"image_en": "milk remnant that draws more milk",
+"scope_ar": "ما يترك في الضرع من اللبن ليدعو ما بعده",
+"scope_en": "the milk left in the udder so that it draws after it what remains"
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "الدعاء بالمكروه النازل",
+"image_en": "calling down an unwelcome thing",
+"scope_ar": "إنزال المكروه بأحد في قولهم دعا الله فلانا بما يكره",
+"scope_en": "causing or bringing down something disliked upon someone in the expression دعا الله فلانا بما يكره",
+"variants": [
+{
+"root_id": "root_000478",
+"source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
+"image_ar": "الدعاء بالمكروه النازل",
+"image_en": "calling down an unwelcome thing",
+"scope_ar": "إنزال المكروه بأحد في قولهم دعا الله فلانا بما يكره",
+"scope_en": "causing or bringing down something disliked upon someone in the expression دعا الله فلانا بما يكره"
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "التداعي بالسقوط",
+"image_en": "successive falling or collapse",
+"scope_ar": "سقوط بعض الشيء إثر بعض وهدمه واحدا بعد آخر",
+"scope_en": "successive collapse, where one part falls after another, and demolition one after another",
+"variants": [
+{
+"root_id": "root_000478",
+"source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
+"image_ar": "التداعي بالسقوط",
+"image_en": "successive falling or collapse",
+"scope_ar": "سقوط بعض الشيء إثر بعض وهدمه واحدا بعد آخر",
+"scope_en": "successive collapse, where one part falls after another, and demolition one after another"
+}
+]
+},
+{
+"branch_id": "B006",
+"image_ar": "دواعي الدهر",
+"image_en": "turns of time that draw events",
+"scope_ar": "صروف الدهر وحوادثه التي تميل الإنسان إليها",
+"scope_en": "the turns and events of time, pictured as drawing events or people toward them",
+"variants": [
+{
+"root_id": "root_000478",
+"source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
+"image_ar": "دواعي الدهر",
+"image_en": "turns of time that draw events",
+"scope_ar": "صروف الدهر وحوادثه التي تميل الإنسان إليها",
+"scope_en": "the turns and events of time, pictured as drawing events or people toward them"
+}
+]
+},
+{
+"branch_id": "B007",
+"image_ar": "الأُدْعِيّة المعماة",
+"image_en": "riddle-like calls",
+"scope_ar": "الأُدْعِيّة التي يتداعون بها مثل الأغلوطة لإخراج الجواب المعمى",
+"scope_en": "riddle-like prompts exchanged to draw out a hidden answer",
+"variants": [
+{
+"root_id": "root_000478",
+"source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
+"image_ar": "الأُدْعِيّة المعماة",
+"image_en": "riddle-like calls",
+"scope_ar": "الأُدْعِيّة التي يتداعون بها مثل الأغلوطة لإخراج الجواب المعمى",
+"scope_en": "riddle-like prompts exchanged to draw out a hidden answer"
+}
+]
+},
+{
+"branch_id": "B008",
+"image_ar": "خلو الدار من داع",
+"image_en": "absence of any caller in the house",
+"scope_ar": "نفي وجود أحد في الدار بقولهم ما بالدار دَعْوِيّ",
+"scope_en": "denying that anyone is in the house, phrased as no caller being there",
+"variants": [
+{
+"root_id": "root_000478",
+"source_path": "v4/outputs/pass2_branches/root_000478.branches.tsv",
+"image_ar": "خلو الدار من داع",
+"image_en": "absence of any caller in the house",
+"scope_ar": "نفي وجود أحد في الدار بقولهم ما بالدار دَعْوِيّ",
+"scope_en": "denying that anyone is in the house, phrased as no caller being there"
+}
+]
+}
+]
+},
+{
+"root": "ء و ل",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "ابتداء الشيء وتقدمه",
+"image_en": "beginning and precedence",
+"scope_ar": "يدخل فيه الأول والأولى والأوائل والأولية وما يدل على ابتداء الشيء أو تقدمه في الزمن أو الرتبة أو السير.",
+"scope_en": "Covers firstness, beginning, priority, and coming at the front in time, rank, or movement.",
+"variants": [
+{
+"root_id": "root_000067",
+"source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
+"image_ar": "ابتداء الشيء وتقدمه",
+"image_en": "beginning and precedence",
+"scope_ar": "يدخل فيه الأول والأولى والأوائل والأولية وما يدل على ابتداء الشيء أو تقدمه في الزمن أو الرتبة أو السير.",
+"scope_en": "Covers firstness, beginning, priority, and coming at the front in time, rank, or movement."
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "رجوع الشيء إلى مآله وعاقبته",
+"image_en": "return to outcome or final meaning",
+"scope_ar": "يدخل فيه آل يؤول بمعنى رجع أو صار، والمآل والمرجع والمصير، وتأويل الكلام بمعنى ما يؤول إليه أو تفسيره برده إلى معناه.",
+"scope_en": "Covers returning, becoming, final outcome, and interpretation as bringing speech back to its resulting meaning.",
+"variants": [
+{
+"root_id": "root_000067",
+"source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
+"image_ar": "رجوع الشيء إلى مآله وعاقبته",
+"image_en": "return to outcome or final meaning",
+"scope_ar": "يدخل فيه آل يؤول بمعنى رجع أو صار، والمآل والمرجع والمصير، وتأويل الكلام بمعنى ما يؤول إليه أو تفسيره برده إلى معناه.",
+"scope_en": "Covers returning, becoming, final outcome, and interpretation as bringing speech back to its resulting meaning."
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "آل الرجل من يرجع إليهم ويرجعون إليه",
+"image_en": "a person's household and dependents",
+"scope_ar": "يدخل فيه آل الرجل: أهل بيته وعياله وقرابته وأتباعه ومن إليه مآل الرجل أو مآلهم إليه، مع استعمال آل فلان في الرجل نفسه على جهة التعبير عنه بآله.",
+"scope_en": "Covers a person's family, household, dependents, followers, and those mutually referred back to him.",
+"variants": [
+{
+"root_id": "root_000067",
+"source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
+"image_ar": "آل الرجل من يرجع إليهم ويرجعون إليه",
+"image_en": "a person's household and dependents",
+"scope_ar": "يدخل فيه آل الرجل: أهل بيته وعياله وقرابته وأتباعه ومن إليه مآل الرجل أو مآلهم إليه، مع استعمال آل فلان في الرجل نفسه على جهة التعبير عنه بآله.",
+"scope_en": "Covers a person's family, household, dependents, followers, and those mutually referred back to him."
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "إيالة الأمر بإصلاحه وسياسته",
+"image_en": "governing and setting affairs right",
+"scope_ar": "يدخل فيه الإيالة والسياسة، وآل الأمير رعيته إذا ساسها، وآل ماله إذا أصلحه، والائتيال والإصلاح وجمع الأمر أو رد الضالة في الدعاء.",
+"scope_en": "Covers governance, tending subjects or property, repair, ordering, and gathering a matter back together.",
+"variants": [
+{
+"root_id": "root_000067",
+"source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
+"image_ar": "إيالة الأمر بإصلاحه وسياسته",
+"image_en": "governing and setting affairs right",
+"scope_ar": "يدخل فيه الإيالة والسياسة، وآل الأمير رعيته إذا ساسها، وآل ماله إذا أصلحه، والائتيال والإصلاح وجمع الأمر أو رد الضالة في الدعاء.",
+"scope_en": "Covers governance, tending subjects or property, repair, ordering, and gathering a matter back together."
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "خثور السائل وانعقاده في آخر أمره",
+"image_en": "thickening or coagulating",
+"scope_ar": "يدخل فيه آل اللبن أو النبات أو القطران أو العسل إذا خثر أو انعقد، والآيل اللبن الخاثر.",
+"scope_en": "Covers milk, tar, honey, or similar matter becoming thick, curdled, or coagulated.",
+"variants": [
+{
+"root_id": "root_000067",
+"source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
+"image_ar": "خثور السائل وانعقاده في آخر أمره",
+"image_en": "thickening or coagulating",
+"scope_ar": "يدخل فيه آل اللبن أو النبات أو القطران أو العسل إذا خثر أو انعقد، والآيل اللبن الخاثر.",
+"scope_en": "Covers milk, tar, honey, or similar matter becoming thick, curdled, or coagulated."
+}
+]
+},
+{
+"branch_id": "B007",
+"image_ar": "آلة الحال التي يكون عليها الشيء",
+"image_en": "state or condition",
+"scope_ar": "يدخل فيه الآلة أو الألة بمعنى الحالة، كقولهم هو بآلة سوء.",
+"scope_en": "Covers condition or state, especially the state someone is in.",
+"variants": [
+{
+"root_id": "root_000067",
+"source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
+"image_ar": "آلة الحال التي يكون عليها الشيء",
+"image_en": "state or condition",
+"scope_ar": "يدخل فيه الآلة أو الألة بمعنى الحالة، كقولهم هو بآلة سوء.",
+"scope_en": "Covers condition or state, especially the state someone is in."
+}
+]
+},
+{
+"branch_id": "B008",
+"image_ar": "الآلة الحاملة أو الأداة",
+"image_en": "tool, support, or bier",
+"scope_ar": "يدخل فيه الآلة بمعنى الأداة، وخشبات الخيمة، والجنازة أو الحامل الذي يحمل عليه.",
+"scope_en": "Covers implement, structural support, tent timbers, and bier-like carrying apparatus.",
+"variants": [
+{
+"root_id": "root_000067",
+"source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
+"image_ar": "الآلة الحاملة أو الأداة",
+"image_en": "tool, support, or bier",
+"scope_ar": "يدخل فيه الآلة بمعنى الأداة، وخشبات الخيمة، والجنازة أو الحامل الذي يحمل عليه.",
+"scope_en": "Covers implement, structural support, tent timbers, and bier-like carrying apparatus."
+}
+]
+},
+{
+"branch_id": "B009",
+"image_ar": "الأيل الذي يأوي إلى الجبل",
+"image_en": "the mountain-going ibex",
+"scope_ar": "يدخل فيه الأيل: ذكر الوعول، مع تعليل تسميته بأنه يؤول إلى الجبل يتحصن.",
+"scope_en": "Covers the male ibex or mountain goat named in the sources.",
+"variants": [
+{
+"root_id": "root_000067",
+"source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
+"image_ar": "الأيل الذي يأوي إلى الجبل",
+"image_en": "the mountain-going ibex",
+"scope_ar": "يدخل فيه الأيل: ذكر الوعول، مع تعليل تسميته بأنه يؤول إلى الجبل يتحصن.",
+"scope_en": "Covers the male ibex or mountain goat named in the sources."
+}
+]
+},
+{
+"branch_id": "B010",
+"image_ar": "الإيال وعاء الشراب حتى يجود",
+"image_en": "a vessel for aging drink",
+"scope_ar": "يدخل فيه الإيال: وعاء يجمع فيه الشراب أياما حتى يجود.",
+"scope_en": "Covers the vessel in which drink is kept for days until it improves.",
+"variants": [
+{
+"root_id": "root_000067",
+"source_path": "v4/outputs/pass2_branches/root_000067.branches.tsv",
+"image_ar": "الإيال وعاء الشراب حتى يجود",
+"image_en": "a vessel for aging drink",
+"scope_ar": "يدخل فيه الإيال: وعاء يجمع فيه الشراب أياما حتى يجود.",
+"scope_en": "Covers the vessel in which drink is kept for days until it improves."
+}
+]
+}
+]
+},
+{
+"root": "ب ء س",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "البأس شدة قاهرة",
+"image_en": "severe force or punishment",
+"scope_ar": "البأس في الحرب والعذاب والنكاية والشجاعة وقوة القتال",
+"scope_en": "The branch covers ba's as harsh force: war severity, punishment, injury, and courageous battle-strength.",
+"variants": [
+{
+"root_id": "root_000079",
+"source_path": "v4/outputs/pass2_branches/root_000079.branches.tsv",
+"image_ar": "البأس شدة قاهرة",
+"image_en": "severe force or punishment",
+"scope_ar": "البأس في الحرب والعذاب والنكاية والشجاعة وقوة القتال",
+"scope_en": "The branch covers ba's as harsh force: war severity, punishment, injury, and courageous battle-strength."
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "البؤس ضيق العيش",
+"image_en": "hardship and poverty",
+"scope_ar": "البؤس والبأساء في الفقر والجوع والمشقة والضرر والبلية والعدم والداهية والدعاء بالبؤس والضراعة للفقر",
+"scope_en": "The branch covers bu's and ba'sa' as poverty, hard living, calamity, need, hunger, and related misery.",
+"variants": [
+{
+"root_id": "root_000079",
+"source_path": "v4/outputs/pass2_branches/root_000079.branches.tsv",
+"image_ar": "البؤس ضيق العيش",
+"image_en": "hardship and poverty",
+"scope_ar": "البؤس والبأساء في الفقر والجوع والمشقة والضرر والبلية والعدم والداهية والدعاء بالبؤس والضراعة للفقر",
+"scope_en": "The branch covers bu's and ba'sa' as poverty, hard living, calamity, need, hunger, and related misery."
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "الابتئاس حزنا وكراهة",
+"image_en": "grieving at disliked harm",
+"scope_ar": "الابتئاس والمبتئس في الحزن والكراهة وبلوغ المكروه ولزوم البؤس",
+"scope_en": "The branch covers the verbal/emotional use: becoming sad, distressed, or averse because something disliked has reached one.",
+"variants": [
+{
+"root_id": "root_000079",
+"source_path": "v4/outputs/pass2_branches/root_000079.branches.tsv",
+"image_ar": "الابتئاس حزنا وكراهة",
+"image_en": "grieving at disliked harm",
+"scope_ar": "الابتئاس والمبتئس في الحزن والكراهة وبلوغ المكروه ولزوم البؤس",
+"scope_en": "The branch covers the verbal/emotional use: becoming sad, distressed, or averse because something disliked has reached one."
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "بئس كلمة ذم",
+"image_en": "blame formula",
+"scope_ar": "بئس في الذم ونقيض نعم وأحكامها النحوية مع الاسم والجنس وما",
+"scope_en": "The branch covers bi'sa as the fixed blame/praise counterpart to ni'ma, including its grammatical behavior.",
+"variants": [
+{
+"root_id": "root_000079",
+"source_path": "v4/outputs/pass2_branches/root_000079.branches.tsv",
+"image_ar": "بئس كلمة ذم",
+"image_en": "blame formula",
+"scope_ar": "بئس في الذم ونقيض نعم وأحكامها النحوية مع الاسم والجنس وما",
+"scope_en": "The branch covers bi'sa as the fixed blame/praise counterpart to ni'ma, including its grammatical behavior."
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "نفي البأس أمان",
+"image_en": "negated harm as safety",
+"scope_ar": "لا بأس عليك في نفي الأذى وإفادة الأمن",
+"scope_en": "The branch covers the idiom where denying ba's from someone grants safety or removes threat.",
+"variants": [
+{
+"root_id": "root_000079",
+"source_path": "v4/outputs/pass2_branches/root_000079.branches.tsv",
+"image_ar": "نفي البأس أمان",
+"image_en": "negated harm as safety",
+"scope_ar": "لا بأس عليك في نفي الأذى وإفادة الأمن",
+"scope_en": "The branch covers the idiom where denying ba's from someone grants safety or removes threat."
+}
+]
+}
+]
+},
+{
+"root": "ش د د",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "شد العقد والوثاق",
+"image_en": "fastening a bond",
+"scope_ar": "عقد الشيء وإيثاقه وتقوية عقده وتقوية العضد والملك",
+"scope_en": "Binding or fastening a thing, making its bond firm, and strengthening support or rule",
+"variants": [
+{
+"root_id": "root_000782",
+"source_path": "v4/outputs/pass2_branches/root_000782.branches.tsv",
+"image_ar": "شد العقد والوثاق",
+"image_en": "fastening a bond",
+"scope_ar": "عقد الشيء وإيثاقه وتقوية عقده وتقوية العضد والملك",
+"scope_en": "Binding or fastening a thing, making its bond firm, and strengthening support or rule"
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "شدة القوة والصلابة",
+"image_en": "intensity of strength and hardness",
+"scope_ar": "القوة والصلابة والشجاعة وثبات القلب وشدة الحال والجوع والعذاب والتشديد وبذل الجهد والقدرة",
+"scope_en": "Strength, hardness, courage, firmness of heart, harsh condition, hunger, punishment, intensification, exertion, and capacity",
+"variants": [
+{
+"root_id": "root_000782",
+"source_path": "v4/outputs/pass2_branches/root_000782.branches.tsv",
+"image_ar": "شدة القوة والصلابة",
+"image_en": "intensity of strength and hardness",
+"scope_ar": "القوة والصلابة والشجاعة وثبات القلب وشدة الحال والجوع والعذاب والتشديد وبذل الجهد والقدرة",
+"scope_en": "Strength, hardness, courage, firmness of heart, harsh condition, hunger, punishment, intensification, exertion, and capacity"
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "شد الحملة والعدو",
+"image_en": "forceful charge and running",
+"scope_ar": "الحمل على العدو في القتال والعدو والحضر",
+"scope_en": "Charging against an enemy in battle, running, and swift movement",
+"variants": [
+{
+"root_id": "root_000782",
+"source_path": "v4/outputs/pass2_branches/root_000782.branches.tsv",
+"image_ar": "شد الحملة والعدو",
+"image_en": "forceful charge and running",
+"scope_ar": "الحمل على العدو في القتال والعدو والحضر",
+"scope_en": "Charging against an enemy in battle, running, and swift movement"
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "بلوغ الأشد",
+"image_en": "full maturity and strength",
+"scope_ar": "بلوغ الأشد من القوة والرشد والحنكة والمعرفة واكتمال الشباب",
+"scope_en": "Reaching full strength, maturity, judgment, experience, and completion of youth",
+"variants": [
+{
+"root_id": "root_000782",
+"source_path": "v4/outputs/pass2_branches/root_000782.branches.tsv",
+"image_ar": "بلوغ الأشد",
+"image_en": "full maturity and strength",
+"scope_ar": "بلوغ الأشد من القوة والرشد والحنكة والمعرفة واكتمال الشباب",
+"scope_en": "Reaching full strength, maturity, judgment, experience, and completion of youth"
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "شد النهار وارتفاعه",
+"image_en": "the day rising high",
+"scope_ar": "ارتفاع النهار",
+"scope_en": "Daytime rising or reaching height",
+"variants": [
+{
+"root_id": "root_000782",
+"source_path": "v4/outputs/pass2_branches/root_000782.branches.tsv",
+"image_ar": "شد النهار وارتفاعه",
+"image_en": "the day rising high",
+"scope_ar": "ارتفاع النهار",
+"scope_en": "Daytime rising or reaching height"
+}
+]
+},
+{
+"branch_id": "B006",
+"image_ar": "شدة البخل",
+"image_en": "severity as miserliness",
+"scope_ar": "الشديد والمتشدد بمعنى البخيل",
+"scope_en": "Use of severe or over-severe for miserly",
+"variants": [
+{
+"root_id": "root_000782",
+"source_path": "v4/outputs/pass2_branches/root_000782.branches.tsv",
+"image_ar": "شدة البخل",
+"image_en": "severity as miserliness",
+"scope_ar": "الشديد والمتشدد بمعنى البخيل",
+"scope_en": "Use of severe or over-severe for miserly"
+}
+]
+}
+]
+},
+{
+"root": "ق ت ل",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "إماتة وإزهاق روح",
+"image_en": "killing, putting to death",
+"scope_ar": "يدخل فيه القتل المعروف، إزالة الروح، القتيل والقتلى، قتلة السوء، والتكثير في القتل، وما يصيب مقاتل الإنسان فيميته.",
+"scope_en": "Includes ordinary killing, removal of life, slain persons, bad manner of killing, intensive killing, and mortal spots whose injury kills.",
+"variants": [
+{
+"root_id": "root_001200",
+"source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
+"image_ar": "إماتة وإزهاق روح",
+"image_en": "killing, putting to death",
+"scope_ar": "يدخل فيه القتل المعروف، إزالة الروح، القتيل والقتلى، قتلة السوء، والتكثير في القتل، وما يصيب مقاتل الإنسان فيميته.",
+"scope_en": "Includes ordinary killing, removal of life, slain persons, bad manner of killing, intensive killing, and mortal spots whose injury kills."
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "إذلال وترويض حتى تلين الشدة",
+"image_en": "subduing or training until force is softened",
+"scope_ar": "يدخل فيه الإذلال، تذليل الإنسان أو الدابة، المقتل المجرب أو المعود، وما صار مرنا على العمل.",
+"scope_en": "Includes humbling, taming a person or animal, the experienced or habituated one, and what has been trained for work.",
+"variants": [
+{
+"root_id": "root_001200",
+"source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
+"image_ar": "إذلال وترويض حتى تلين الشدة",
+"image_en": "subduing or training until force is softened",
+"scope_ar": "يدخل فيه الإذلال، تذليل الإنسان أو الدابة، المقتل المجرب أو المعود، وما صار مرنا على العمل.",
+"scope_en": "Includes humbling, taming a person or animal, the experienced or habituated one, and what has been trained for work."
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "إحاطة علمية كأن الأمر مقهور",
+"image_en": "complete mastery of a fact",
+"scope_ar": "يدخل فيه قتل الشيء خبرا أو علما أو يقينا، أي بلوغ العلم التام والإحاطة بالرأي أو الحديث.",
+"scope_en": "Includes knowing a thing completely, by report, knowledge, or certainty.",
+"variants": [
+{
+"root_id": "root_001200",
+"source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
+"image_ar": "إحاطة علمية كأن الأمر مقهور",
+"image_en": "complete mastery of a fact",
+"scope_ar": "يدخل فيه قتل الشيء خبرا أو علما أو يقينا، أي بلوغ العلم التام والإحاطة بالرأي أو الحديث.",
+"scope_en": "Includes knowing a thing completely, by report, knowledge, or certainty."
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "تدلل وتكسر في مشية أو طلب",
+"image_en": "affected yielding in gait or request",
+"scope_ar": "يدخل فيه تقتل الجارية أو المرأة للفتى في التزين والتثني والتكسر، وتقتل الرجل لحاجته أو للمرأة بمعنى التأتي والتضرع.",
+"scope_en": "Includes a woman or girl coyly adorning and bending herself before a young man, and a man working humbly toward a need or pleading to a woman.",
+"variants": [
+{
+"root_id": "root_001200",
+"source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
+"image_ar": "تدلل وتكسر في مشية أو طلب",
+"image_en": "affected yielding in gait or request",
+"scope_ar": "يدخل فيه تقتل الجارية أو المرأة للفتى في التزين والتثني والتكسر، وتقتل الرجل لحاجته أو للمرأة بمعنى التأتي والتضرع.",
+"scope_en": "Includes a woman or girl coyly adorning and bending herself before a young man, and a man working humbly toward a need or pleading to a woman."
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "تعريض شخص للقتل",
+"image_en": "exposing someone to being killed",
+"scope_ar": "يدخل فيه أقتل فلانا بمعنى جعله عرضة للقتل أو تسبب في أن يقتل.",
+"scope_en": "Includes causing someone to be exposed to killing or made liable to be killed.",
+"variants": [
+{
+"root_id": "root_001200",
+"source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
+"image_ar": "تعريض شخص للقتل",
+"image_en": "exposing someone to being killed",
+"scope_ar": "يدخل فيه أقتل فلانا بمعنى جعله عرضة للقتل أو تسبب في أن يقتل.",
+"scope_en": "Includes causing someone to be exposed to killing or made liable to be killed."
+}
+]
+},
+{
+"branch_id": "B006",
+"image_ar": "قهر العشق أو الجن كقتل معنوي",
+"image_en": "being overcome by love or spirits as if slain",
+"scope_ar": "يدخل فيه قلب مقتل قتله العشق، واقتتل الرجل إذا غلبه عشق النساء أو الجن وخبلوه.",
+"scope_en": "Includes a heart or person subdued by love, and the special use of اقتتل for being overwhelmed by love or spirits.",
+"variants": [
+{
+"root_id": "root_001200",
+"source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
+"image_ar": "قهر العشق أو الجن كقتل معنوي",
+"image_en": "being overcome by love or spirits as if slain",
+"scope_ar": "يدخل فيه قلب مقتل قتله العشق، واقتتل الرجل إذا غلبه عشق النساء أو الجن وخبلوه.",
+"scope_en": "Includes a heart or person subdued by love, and the special use of اقتتل for being overwhelmed by love or spirits."
+}
+]
+},
+{
+"branch_id": "B007",
+"image_ar": "كسر شدة الشراب بالماء",
+"image_en": "killing the strength of drink by dilution",
+"scope_ar": "يدخل فيه قتل الخمر أو الشراب بالماء، أي مزجه حتى تذهب شدته.",
+"scope_en": "Includes diluting wine or drink with water so that its strength is broken.",
+"variants": [
+{
+"root_id": "root_001200",
+"source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
+"image_ar": "كسر شدة الشراب بالماء",
+"image_en": "killing the strength of drink by dilution",
+"scope_ar": "يدخل فيه قتل الخمر أو الشراب بالماء، أي مزجه حتى تذهب شدته.",
+"scope_en": "Includes diluting wine or drink with water so that its strength is broken."
+}
+]
+},
+{
+"branch_id": "B008",
+"image_ar": "عدو أو قرين يقابل صاحبه",
+"image_en": "enemy or matching peer",
+"scope_ar": "يدخل فيه القتل بمعنى العدو، الأقتال، أهل الوتر والترة، والقتلان بمعنى المثلين أو القرينين.",
+"scope_en": "Includes an enemy, adversaries with blood-feud relation, and matched peers or counterparts.",
+"variants": [
+{
+"root_id": "root_001200",
+"source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
+"image_ar": "عدو أو قرين يقابل صاحبه",
+"image_en": "enemy or matching peer",
+"scope_ar": "يدخل فيه القتل بمعنى العدو، الأقتال، أهل الوتر والترة، والقتلان بمعنى المثلين أو القرينين.",
+"scope_en": "Includes an enemy, adversaries with blood-feud relation, and matched peers or counterparts."
+}
+]
+},
+{
+"branch_id": "B011",
+"image_ar": "مقاتلة ومحاربة بين طرفين",
+"image_en": "mutual fighting or combat",
+"scope_ar": "يدخل فيه قاتل فلان فلانا، المقاتلة، القتال، الاقتتال، وتقاتل القوم حين يكون بين طرفين أو أكثر مع تحري القتل.",
+"scope_en": "Includes reciprocal fighting, combat, fighting groups, and mutual fighting forms oriented toward killing.",
+"variants": [
+{
+"root_id": "root_001200",
+"source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
+"image_ar": "مقاتلة ومحاربة بين طرفين",
+"image_en": "mutual fighting or combat",
+"scope_ar": "يدخل فيه قاتل فلان فلانا، المقاتلة، القتال، الاقتتال، وتقاتل القوم حين يكون بين طرفين أو أكثر مع تحري القتل.",
+"scope_en": "Includes reciprocal fighting, combat, fighting groups, and mutual fighting forms oriented toward killing."
+}
+]
+},
+{
+"branch_id": "B012",
+"image_ar": "استماتة وإلقاء النفس في شدة",
+"image_en": "self-devoting struggle as if courting death",
+"scope_ar": "يدخل فيه استقتل بمعنى استمات.",
+"scope_en": "Includes the derived form استقتل when glossed as استمات.",
+"variants": [
+{
+"root_id": "root_001200",
+"source_path": "v4/outputs/pass2_branches/root_001200.branches.tsv",
+"image_ar": "استماتة وإلقاء النفس في شدة",
+"image_en": "self-devoting struggle as if courting death",
+"scope_ar": "يدخل فيه استقتل بمعنى استمات.",
+"scope_en": "Includes the derived form استقتل when glossed as استمات."
+}
+]
+}
+]
+},
+{
+"root": "س ل م",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "السلامة والبراءة من الآفات",
+"image_en": "soundness and safety",
+"scope_ar": "يدخل فيه السلامة والعافية والخلوص من العاهة والأذى والعيب ظاهرا وباطنا، ومنه القلب السليم والسالم.",
+"scope_en": "This covers safety, soundness, freedom from harm, defects, and inner or outer blemish, including a sound heart.",
+"variants": [
+{
+"root_id": "root_000737",
+"source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
+"image_ar": "السلامة والبراءة من الآفات",
+"image_en": "soundness and safety",
+"scope_ar": "يدخل فيه السلامة والعافية والخلوص من العاهة والأذى والعيب ظاهرا وباطنا، ومنه القلب السليم والسالم.",
+"scope_en": "This covers safety, soundness, freedom from harm, defects, and inner or outer blemish, including a sound heart."
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "الصلح والمسالمة ضد الحرب",
+"image_en": "reconciliation and peace",
+"scope_ar": "يدخل فيه السلم بمعنى الصلح، والمسالمة والمصالحة، وكون الشيء ضد الحرب.",
+"scope_en": "This covers truce, reconciliation, peaceful dealing, and peace as the opposite of war.",
+"variants": [
+{
+"root_id": "root_000737",
+"source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
+"image_ar": "الصلح والمسالمة ضد الحرب",
+"image_en": "reconciliation and peace",
+"scope_ar": "يدخل فيه السلم بمعنى الصلح، والمسالمة والمصالحة، وكون الشيء ضد الحرب.",
+"scope_en": "This covers truce, reconciliation, peaceful dealing, and peace as the opposite of war."
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "السلم في البيع والسلف",
+"image_en": "advance payment sale",
+"scope_ar": "يدخل فيه السلم أو السلف في المعاملة: المال أو الثمن الذي يقدم أو يسلف.",
+"scope_en": "This covers salam or salaf as an advance-payment transaction.",
+"variants": [
+{
+"root_id": "root_000737",
+"source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
+"image_ar": "السلم في البيع والسلف",
+"image_en": "advance payment sale",
+"scope_ar": "يدخل فيه السلم أو السلف في المعاملة: المال أو الثمن الذي يقدم أو يسلف.",
+"scope_en": "This covers salam or salaf as an advance-payment transaction."
+}
+]
+},
+{
+"branch_id": "B006",
+"image_ar": "السلم مرقاة وسببا",
+"image_en": "ladder and means",
+"scope_ar": "يدخل فيه السلم والسلاليم التي يرتقى عليها، والسبب أو الوسيلة المؤدية إلى الشيء.",
+"scope_en": "This covers a ladder, stair, or means that leads to something.",
+"variants": [
+{
+"root_id": "root_000737",
+"source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
+"image_ar": "السلم مرقاة وسببا",
+"image_en": "ladder and means",
+"scope_ar": "يدخل فيه السلم والسلاليم التي يرتقى عليها، والسبب أو الوسيلة المؤدية إلى الشيء.",
+"scope_en": "This covers a ladder, stair, or means that leads to something."
+}
+]
+},
+{
+"branch_id": "B007",
+"image_ar": "السلام حجارة صلبة",
+"image_en": "hard stones",
+"scope_ar": "يدخل فيه السلام والسلمة للحجارة الصلبة أو جماعة الحجارة، وما فسر من ذلك بسلامتها من الرخاوة.",
+"scope_en": "This covers salam or salamah as hard stones or a mass of stones, explained as free from softness.",
+"variants": [
+{
+"root_id": "root_000737",
+"source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
+"image_ar": "السلام حجارة صلبة",
+"image_en": "hard stones",
+"scope_ar": "يدخل فيه السلام والسلمة للحجارة الصلبة أو جماعة الحجارة، وما فسر من ذلك بسلامتها من الرخاوة.",
+"scope_en": "This covers salam or salamah as hard stones or a mass of stones, explained as free from softness."
+}
+]
+},
+{
+"branch_id": "B008",
+"image_ar": "السلم شجر وقرظ للدباغة",
+"image_en": "salam tree and tanning bark",
+"scope_ar": "يدخل فيه السلم والسلام والسلامة والسلامان أسماء للشجر، وورقه أو قشره الذي يدبغ به الجلد.",
+"scope_en": "This covers salam/salamah/salaman as tree names and their leaves or bark used in tanning leather.",
+"variants": [
+{
+"root_id": "root_000737",
+"source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
+"image_ar": "السلم شجر وقرظ للدباغة",
+"image_en": "salam tree and tanning bark",
+"scope_ar": "يدخل فيه السلم والسلام والسلامة والسلامان أسماء للشجر، وورقه أو قشره الذي يدبغ به الجلد.",
+"scope_en": "This covers salam/salamah/salaman as tree names and their leaves or bark used in tanning leather."
+}
+]
+},
+{
+"branch_id": "B009",
+"image_ar": "السليم الملدوغ تفاؤلا أو استسلاما",
+"image_en": "the snakebitten called sound",
+"scope_ar": "يدخل فيه السليم والمسلوم للملدوغ، مع تعليلين: التفاؤل بالسلامة أو أنه أسلم لما به.",
+"scope_en": "This covers salim or maslum for a snakebitten person, explained either as hopeful naming for safety or as yielding to the injury.",
+"variants": [
+{
+"root_id": "root_000737",
+"source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
+"image_ar": "السليم الملدوغ تفاؤلا أو استسلاما",
+"image_en": "the snakebitten called sound",
+"scope_ar": "يدخل فيه السليم والمسلوم للملدوغ، مع تعليلين: التفاؤل بالسلامة أو أنه أسلم لما به.",
+"scope_en": "This covers salim or maslum for a snakebitten person, explained either as hopeful naming for safety or as yielding to the injury."
+}
+]
+},
+{
+"branch_id": "B010",
+"image_ar": "السلامى عظام ومفاصل",
+"image_en": "small bones and joints",
+"scope_ar": "يدخل فيه السلامى والسلاميات لعظام الأصابع والأشاجع والأكارع وعظام القدم والفرسن.",
+"scope_en": "This covers salama and salamiyyat as small bones or joints of fingers, feet, limbs, or hoof.",
+"variants": [
+{
+"root_id": "root_000737",
+"source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
+"image_ar": "السلامى عظام ومفاصل",
+"image_en": "small bones and joints",
+"scope_ar": "يدخل فيه السلامى والسلاميات لعظام الأصابع والأشاجع والأكارع وعظام القدم والفرسن.",
+"scope_en": "This covers salama and salamiyyat as small bones or joints of fingers, feet, limbs, or hoof."
+}
+]
+},
+{
+"branch_id": "B011",
+"image_ar": "السلم دلو بعروة واحدة",
+"image_en": "one-handled bucket",
+"scope_ar": "يدخل فيه السلم للدلو المستطيلة أو دلو السقائين التي لها عروة واحدة.",
+"scope_en": "This covers salm as a long or water-carrier's bucket with one handle.",
+"variants": [
+{
+"root_id": "root_000737",
+"source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
+"image_ar": "السلم دلو بعروة واحدة",
+"image_en": "one-handled bucket",
+"scope_ar": "يدخل فيه السلم للدلو المستطيلة أو دلو السقائين التي لها عروة واحدة.",
+"scope_en": "This covers salm as a long or water-carrier's bucket with one handle."
+}
+]
+},
+{
+"branch_id": "B012",
+"image_ar": "تسليم الشيء وتخليته",
+"image_en": "handing over and letting go",
+"scope_ar": "يدخل فيه تسليم الشيء إلى غيره فتسلمه، وإسلام الأمر، والخذلان أو الترك عما كان المرء فيه.",
+"scope_en": "This covers handing something over so another receives it, consigning an affair, abandoning, or leaving someone unsupported.",
+"variants": [
+{
+"root_id": "root_000737",
+"source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
+"image_ar": "تسليم الشيء وتخليته",
+"image_en": "handing over and letting go",
+"scope_ar": "يدخل فيه تسليم الشيء إلى غيره فتسلمه، وإسلام الأمر، والخذلان أو الترك عما كان المرء فيه.",
+"scope_en": "This covers handing something over so another receives it, consigning an affair, abandoning, or leaving someone unsupported."
+}
+]
+},
+{
+"branch_id": "B013",
+"image_ar": "أخذه سلما أي أسره",
+"image_en": "taking captive",
+"scope_ar": "يدخل فيه قولهم أخذه سلما أي أسره.",
+"scope_en": "This covers the expression akhadhahu salman, meaning he captured him.",
+"variants": [
+{
+"root_id": "root_000737",
+"source_path": "v4/outputs/pass2_branches/root_000737.branches.tsv",
+"image_ar": "أخذه سلما أي أسره",
+"image_en": "taking captive",
+"scope_ar": "يدخل فيه قولهم أخذه سلما أي أسره.",
+"scope_en": "This covers the expression akhadhahu salman, meaning he captured him."
+}
+]
+}
+]
+},
+{
+"root": "ط و ع",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "الانقياد والطاعة",
+"image_en": "pliant obedience and willing yielding",
+"scope_ar": "يدخل فيه الطوع والطاعة والانقياد للأمر والمضي له، والطائع والمطيع والمطواع والمنقاد، وما كان طوع اليد أو العنان أو القياد أو اللسان بمعنى السلاسة والتبعية",
+"scope_en": "Yielding, obedience, compliance with a command, and tractable readiness such as being under the hand, rein, lead, or tongue.",
+"variants": [
+{
+"root_id": "root_000956",
+"source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
+"image_ar": "الانقياد والطاعة",
+"image_en": "pliant obedience and willing yielding",
+"scope_ar": "يدخل فيه الطوع والطاعة والانقياد للأمر والمضي له، والطائع والمطيع والمطواع والمنقاد، وما كان طوع اليد أو العنان أو القياد أو اللسان بمعنى السلاسة والتبعية",
+"scope_en": "Yielding, obedience, compliance with a command, and tractable readiness such as being under the hand, rein, lead, or tongue."
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "الموافقة والمطاوعة",
+"image_en": "agreement and mutual compliance",
+"scope_ar": "يدخل فيه طاوعه إذا وافقه أو تابعه، والمطاوعة والطواعية حين تكون موافقة بين طرفين",
+"scope_en": "Agreement, mutual compliance, and responsive following between parties.",
+"variants": [
+{
+"root_id": "root_000956",
+"source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
+"image_ar": "الموافقة والمطاوعة",
+"image_en": "agreement and mutual compliance",
+"scope_ar": "يدخل فيه طاوعه إذا وافقه أو تابعه، والمطاوعة والطواعية حين تكون موافقة بين طرفين",
+"scope_en": "Agreement, mutual compliance, and responsive following between parties."
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "الاستطاعة والإطاقة",
+"image_en": "ability and practical capacity",
+"scope_ar": "يدخل فيه الاستطاعة والإطاقة والتمكن من الفعل بما يجعله متأتيا، وصيغ استطاع واسطاع وأسطيع واستاع حيث هي لغات في ذلك",
+"scope_en": "Ability, capacity, and the practical conditions that make an action possible.",
+"variants": [
+{
+"root_id": "root_000956",
+"source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
+"image_ar": "الاستطاعة والإطاقة",
+"image_en": "ability and practical capacity",
+"scope_ar": "يدخل فيه الاستطاعة والإطاقة والتمكن من الفعل بما يجعله متأتيا، وصيغ استطاع واسطاع وأسطيع واستاع حيث هي لغات في ذلك",
+"scope_en": "Ability, capacity, and the practical conditions that make an action possible."
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "تكلف الاستطاعة",
+"image_en": "working oneself into ability",
+"scope_ar": "يدخل فيه تطاوع للأمر حتى يستطيعه وتطوع بمعنى تكلف استطاعته أو تحمل الشيء طوعا",
+"scope_en": "Becoming able through effort, forcing oneself into capacity, or taking something on willingly.",
+"variants": [
+{
+"root_id": "root_000956",
+"source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
+"image_ar": "تكلف الاستطاعة",
+"image_en": "working oneself into ability",
+"scope_ar": "يدخل فيه تطاوع للأمر حتى يستطيعه وتطوع بمعنى تكلف استطاعته أو تحمل الشيء طوعا",
+"scope_en": "Becoming able through effort, forcing oneself into capacity, or taking something on willingly."
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "التطوع والتبرع",
+"image_en": "voluntary good beyond obligation",
+"scope_ar": "يدخل فيه التطوع بالشيء والتبرع بما لا يلزم فرضه، ولا سيما في الخير والبر، واسم المطوعة للذين يتطوعون بالجهاد",
+"scope_en": "Voluntary offering or doing good beyond obligation, including volunteer fighters.",
+"variants": [
+{
+"root_id": "root_000956",
+"source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
+"image_ar": "التطوع والتبرع",
+"image_en": "voluntary good beyond obligation",
+"scope_ar": "يدخل فيه التطوع بالشيء والتبرع بما لا يلزم فرضه، ولا سيما في الخير والبر، واسم المطوعة للذين يتطوعون بالجهاد",
+"scope_en": "Voluntary offering or doing good beyond obligation, including volunteer fighters."
+}
+]
+},
+{
+"branch_id": "B006",
+"image_ar": "تسهيل النفس للأمر",
+"image_en": "making an act easy to oneself",
+"scope_ar": "يدخل فيه طوعت له نفسه إذا سهلت له الأمر أو هونته أو تابعته وأعانته وشجعته عليه",
+"scope_en": "An inner self making an act easy, acceptable, or encouraged.",
+"variants": [
+{
+"root_id": "root_000956",
+"source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
+"image_ar": "تسهيل النفس للأمر",
+"image_en": "making an act easy to oneself",
+"scope_ar": "يدخل فيه طوعت له نفسه إذا سهلت له الأمر أو هونته أو تابعته وأعانته وشجعته عليه",
+"scope_en": "An inner self making an act easy, acceptable, or encouraged."
+}
+]
+},
+{
+"branch_id": "B007",
+"image_ar": "تهيؤ المرعى والثمر",
+"image_en": "readiness for use or grazing",
+"scope_ar": "يدخل فيه أطاع المرعى أو الكلأ إذا اتسع وأمكن الرعي، وأطاع النخل والشجر إذا أدرك ثمره وأمكن جناه",
+"scope_en": "Availability and readiness of pasture, herbage, trees, or fruit for grazing or harvesting.",
+"variants": [
+{
+"root_id": "root_000956",
+"source_path": "v4/outputs/pass2_branches/root_000956.branches.tsv",
+"image_ar": "تهيؤ المرعى والثمر",
+"image_en": "readiness for use or grazing",
+"scope_ar": "يدخل فيه أطاع المرعى أو الكلأ إذا اتسع وأمكن الرعي، وأطاع النخل والشجر إذا أدرك ثمره وأمكن جناه",
+"scope_en": "Availability and readiness of pasture, herbage, trees, or fruit for grazing or harvesting."
+}
+]
+}
+]
+},
+{
+"root": "ح س ن",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "الحسن ضد القبح",
+"image_en": "goodness or beauty opposed to ugliness",
+"scope_ar": "النعت والمصدر لما كان حسنا أو مرغوبا أو ضد القبح، ويشمل حسن الشخص والشيء والمحاسن والحسان",
+"scope_en": "Goodness, beauty, or pleasing quality opposed to ugliness or badness, including personal/object beauty and good qualities.",
+"variants": [
+{
+"root_id": "root_000323",
+"source_path": "v4/outputs/pass2_branches/root_000323.branches.tsv",
+"image_ar": "الحسن ضد القبح",
+"image_en": "goodness or beauty opposed to ugliness",
+"scope_ar": "النعت والمصدر لما كان حسنا أو مرغوبا أو ضد القبح، ويشمل حسن الشخص والشيء والمحاسن والحسان",
+"scope_en": "Goodness, beauty, or pleasing quality opposed to ugliness or badness, including personal/object beauty and good qualities."
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "الإحسان فعل حسن",
+"image_en": "beneficent or skillful good action",
+"scope_ar": "الفعل الحسن والإتقان والإنعام على الغير والزيادة على العدل، وما يقابل الإساءة",
+"scope_en": "Doing well, acting beautifully or skillfully, benefitting another, and going beyond justice, opposed to doing harm.",
+"variants": [
+{
+"root_id": "root_000323",
+"source_path": "v4/outputs/pass2_branches/root_000323.branches.tsv",
+"image_ar": "الإحسان فعل حسن",
+"image_en": "beneficent or skillful good action",
+"scope_ar": "الفعل الحسن والإتقان والإنعام على الغير والزيادة على العدل، وما يقابل الإساءة",
+"scope_en": "Doing well, acting beautifully or skillfully, benefitting another, and going beyond justice, opposed to doing harm."
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "أسماء الحسن للمواضع والأجسام",
+"image_en": "names from حسن for places and bodies",
+"scope_ar": "الأسماء المتفرعة من الحسن للمواضع والأجسام والأجزاء، مثل الحسن للرمل أو الجبل، والحسين للجبل العالي، والحسن من الذراع، والحاسن للقمر",
+"scope_en": "Named physical uses derived from حسن: sand ridge or mountain names, a part of the forearm, a high mountain, and the moon.",
+"variants": [
+{
+"root_id": "root_000323",
+"source_path": "v4/outputs/pass2_branches/root_000323.branches.tsv",
+"image_ar": "أسماء الحسن للمواضع والأجسام",
+"image_en": "names from حسن for places and bodies",
+"scope_ar": "الأسماء المتفرعة من الحسن للمواضع والأجسام والأجزاء، مثل الحسن للرمل أو الجبل، والحسين للجبل العالي، والحسن من الذراع، والحاسن للقمر",
+"scope_en": "Named physical uses derived from حسن: sand ridge or mountain names, a part of the forearm, a high mountain, and the moon."
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "حُسَيْناء الغاية والجهد",
+"image_en": "utmost effort or limit",
+"scope_ar": "قولهم حُسَيْناؤه أو حُسَيْناه بمعنى جهده وغايته",
+"scope_en": "The idiom حُسَيْناؤه or حُسَيْناه meaning one's utmost effort or limit.",
+"variants": [
+{
+"root_id": "root_000323",
+"source_path": "v4/outputs/pass2_branches/root_000323.branches.tsv",
+"image_ar": "حُسَيْناء الغاية والجهد",
+"image_en": "utmost effort or limit",
+"scope_ar": "قولهم حُسَيْناؤه أو حُسَيْناه بمعنى جهده وغايته",
+"scope_en": "The idiom حُسَيْناؤه or حُسَيْناه meaning one's utmost effort or limit."
+}
+]
+}
+]
+},
+{
+"root": "و ل ي",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "قرب ودنو بلا فاصل",
+"image_en": "nearness and adjacency",
+"scope_ar": "يدخل فيه الولي بمعنى القرب والدنو، وما يلي الشيء أو يقاربه مكانا أو نسبة، والدار القريبة التي تلي دارا أخرى",
+"scope_en": "Includes nearness, adjacency, immediate proximity, and a thing that lies next to or close to another in place or relation.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "قرب ودنو بلا فاصل",
+"image_en": "nearness and adjacency",
+"scope_ar": "يدخل فيه الولي بمعنى القرب والدنو، وما يلي الشيء أو يقاربه مكانا أو نسبة، والدار القريبة التي تلي دارا أخرى",
+"scope_en": "Includes nearness, adjacency, immediate proximity, and a thing that lies next to or close to another in place or relation."
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "تتابع شيء بعد شيء",
+"image_en": "continuous succession",
+"scope_ar": "يدخل فيه التوالي والموالاة والولاء بمعنى ترتيب الأشياء أو الأفعال بعضها إثر بعض بلا انقطاع",
+"scope_en": "Includes successive order, continuity, and doing or placing things one after another without an intervening break.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "تتابع شيء بعد شيء",
+"image_en": "continuous succession",
+"scope_ar": "يدخل فيه التوالي والموالاة والولاء بمعنى ترتيب الأشياء أو الأفعال بعضها إثر بعض بلا انقطاع",
+"scope_en": "Includes successive order, continuity, and doing or placing things one after another without an intervening break."
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "تولي الأمر والقيام عليه",
+"image_en": "assuming charge and authority",
+"scope_ar": "يدخل فيه الولاية والإمارة والسلطان، وتولي العمل أو الأمر، وولي اليتيم أو المرأة الذي يلي شأنهما ويقوم به",
+"scope_en": "Includes governance, authority, assuming charge, managing an office or affair, and guardianship over another person's matter.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "تولي الأمر والقيام عليه",
+"image_en": "assuming charge and authority",
+"scope_ar": "يدخل فيه الولاية والإمارة والسلطان، وتولي العمل أو الأمر، وولي اليتيم أو المرأة الذي يلي شأنهما ويقوم به",
+"scope_en": "Includes governance, authority, assuming charge, managing an office or affair, and guardianship over another person's matter."
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "محبة ونصرة وموالاة",
+"image_en": "loyal alliance and support",
+"scope_ar": "يدخل فيه الولي ضد العدو، والنصرة، والمحبة، وموالاة الدين أو الصداقة أو الاعتقاد، والحليف والناصر من جهة المعاضدة",
+"scope_en": "Includes friend or ally as opposed to enemy, support, loyalty, affection, religious or social affiliation, and alliance.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "محبة ونصرة وموالاة",
+"image_en": "loyal alliance and support",
+"scope_ar": "يدخل فيه الولي ضد العدو، والنصرة، والمحبة، وموالاة الدين أو الصداقة أو الاعتقاد، والحليف والناصر من جهة المعاضدة",
+"scope_en": "Includes friend or ally as opposed to enemy, support, loyalty, affection, religious or social affiliation, and alliance."
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "ولاء قرابة وعتق وجوار",
+"image_en": "kinship and manumission patronage",
+"scope_ar": "يدخل فيه المولى بمعاني المعتق والمعتق وابن العم والعصبة والجار والصهر والولاء القانوني للمعتق والموالي المنتسبين",
+"scope_en": "Includes mawla as patron or freed person, agnate or cousin, neighbor, in-law, legal manumission patronage, and affiliated dependents.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "ولاء قرابة وعتق وجوار",
+"image_en": "kinship and manumission patronage",
+"scope_ar": "يدخل فيه المولى بمعاني المعتق والمعتق وابن العم والعصبة والجار والصهر والولاء القانوني للمعتق والموالي المنتسبين",
+"scope_en": "Includes mawla as patron or freed person, agnate or cousin, neighbor, in-law, legal manumission patronage, and affiliated dependents."
+}
+]
+},
+{
+"branch_id": "B006",
+"image_ar": "تولية الوجه والإقبال",
+"image_en": "turning toward and facing",
+"scope_ar": "يدخل فيه وليت الوجه أو السمع أو العين إلى الشيء، والتولية بمعنى الإقبال والاستقبال والاتباع والرضا",
+"scope_en": "Includes turning one's face, hearing, or attention toward something, facing it, following it, or accepting it.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "تولية الوجه والإقبال",
+"image_en": "turning toward and facing",
+"scope_ar": "يدخل فيه وليت الوجه أو السمع أو العين إلى الشيء، والتولية بمعنى الإقبال والاستقبال والاتباع والرضا",
+"scope_en": "Includes turning one's face, hearing, or attention toward something, facing it, following it, or accepting it."
+}
+]
+},
+{
+"branch_id": "B007",
+"image_ar": "الإدبار والإعراض",
+"image_en": "turning away and withdrawal",
+"scope_ar": "يدخل فيه ولى الرجل إذا أدبر، وتولى عنه إذا أعرض، والتولي عن الأمر بترك القرب والإصغاء والامتثال",
+"scope_en": "Includes turning back, retreating, averting oneself, and refusing attention or compliance.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "الإدبار والإعراض",
+"image_en": "turning away and withdrawal",
+"scope_ar": "يدخل فيه ولى الرجل إذا أدبر، وتولى عنه إذا أعرض، والتولي عن الأمر بترك القرب والإصغاء والامتثال",
+"scope_en": "Includes turning back, retreating, averting oneself, and refusing attention or compliance."
+}
+]
+},
+{
+"branch_id": "B008",
+"image_ar": "الأولوية والاستحقاق",
+"image_en": "priority and superior right",
+"scope_ar": "يدخل فيه أولى بكذا بمعنى أحرى وأجدر وأحق، والأوليان بمعنى الأحقان",
+"scope_en": "Includes being more entitled, worthier, or more deserving of a thing.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "الأولوية والاستحقاق",
+"image_en": "priority and superior right",
+"scope_ar": "يدخل فيه أولى بكذا بمعنى أحرى وأجدر وأحق، والأوليان بمعنى الأحقان",
+"scope_en": "Includes being more entitled, worthier, or more deserving of a thing."
+}
+]
+},
+{
+"branch_id": "B010",
+"image_ar": "مطر يلي الوسمي",
+"image_en": "late rain following the wasmi",
+"scope_ar": "يدخل فيه الولي أو الولى المطر الذي يأتي بعد الوسمي، وما يقال في الأرض إذا أصابها هذا المطر",
+"scope_en": "Includes the rain called الولي/الولى that follows the wasmi rain and the land affected by it.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "مطر يلي الوسمي",
+"image_en": "late rain following the wasmi",
+"scope_ar": "يدخل فيه الولي أو الولى المطر الذي يأتي بعد الوسمي، وما يقال في الأرض إذا أصابها هذا المطر",
+"scope_en": "Includes the rain called الولي/الولى that follows the wasmi rain and the land affected by it."
+}
+]
+},
+{
+"branch_id": "B011",
+"image_ar": "ولية تحت الرحل",
+"image_en": "under-saddle cloth",
+"scope_ar": "يدخل فيه الولية والولايا بمعنى الحلس أو البرذعة أو ما يكون تحت البرذعة على ظهر البعير",
+"scope_en": "Includes the saddle cloth or pad under a saddle or pack on a camel's back.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "ولية تحت الرحل",
+"image_en": "under-saddle cloth",
+"scope_ar": "يدخل فيه الولية والولايا بمعنى الحلس أو البرذعة أو ما يكون تحت البرذعة على ظهر البعير",
+"scope_en": "Includes the saddle cloth or pad under a saddle or pack on a camel's back."
+}
+]
+},
+{
+"branch_id": "B012",
+"image_ar": "استيلاء وبلوغ غاية",
+"image_en": "attaining or taking possession",
+"scope_ar": "يدخل فيه استولى على الشيء إذا صار في يده أو غلب عليه، واستولى الفرس أو السابق على الغاية إذا بلغها أو سبق إليها",
+"scope_en": "Includes taking control or possession of a thing and reaching or winning a race-goal.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "استيلاء وبلوغ غاية",
+"image_en": "attaining or taking possession",
+"scope_ar": "يدخل فيه استولى على الشيء إذا صار في يده أو غلب عليه، واستولى الفرس أو السابق على الغاية إذا بلغها أو سبق إليها",
+"scope_en": "Includes taking control or possession of a thing and reaching or winning a race-goal."
+}
+]
+},
+{
+"branch_id": "B013",
+"image_ar": "إيلاء وإسناد معروف أو شر",
+"image_en": "granting or assigning something",
+"scope_ar": "يدخل فيه أوليته الشيء أو معروفا أو خيرا أو شرا بمعنى جعلته له أو أسديته إليه",
+"scope_en": "Includes conferring, granting, assigning, or directing good or evil to someone.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "إيلاء وإسناد معروف أو شر",
+"image_en": "granting or assigning something",
+"scope_ar": "يدخل فيه أوليته الشيء أو معروفا أو خيرا أو شرا بمعنى جعلته له أو أسديته إليه",
+"scope_en": "Includes conferring, granting, assigning, or directing good or evil to someone."
+}
+]
+},
+{
+"branch_id": "B014",
+"image_ar": "تولية البيع",
+"image_en": "transfer resale at cost",
+"scope_ar": "يدخل فيه التولية في البيع: شراء سلعة بثمن معلوم ثم توليتها رجلا آخر بذلك الثمن",
+"scope_en": "Includes the commercial term تولية: transferring a purchased item to another at the known original price.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "تولية البيع",
+"image_en": "transfer resale at cost",
+"scope_ar": "يدخل فيه التولية في البيع: شراء سلعة بثمن معلوم ثم توليتها رجلا آخر بذلك الثمن",
+"scope_en": "Includes the commercial term تولية: transferring a purchased item to another at the known original price."
+}
+]
+},
+{
+"branch_id": "B015",
+"image_ar": "موالاة صغار النعم عن كبارها",
+"image_en": "separating young livestock",
+"scope_ar": "يدخل فيه والوا حواشي النعم من الجلة، أي عزل الصغار عن الكبار، وتوالي السقاب بمعنى فصالها عن الأمهات حتى تنقاد",
+"scope_en": "Includes the pastoral usage of separating young livestock from older animals or from their mothers.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "موالاة صغار النعم عن كبارها",
+"image_en": "separating young livestock",
+"scope_ar": "يدخل فيه والوا حواشي النعم من الجلة، أي عزل الصغار عن الكبار، وتوالي السقاب بمعنى فصالها عن الأمهات حتى تنقاد",
+"scope_en": "Includes the pastoral usage of separating young livestock from older animals or from their mothers."
+}
+]
+},
+{
+"branch_id": "B016",
+"image_ar": "ولي الرطب وتولى إذا هاج",
+"image_en": "early drying or color-change of dates",
+"scope_ar": "يدخل فيه الرطب إذا أخذ في الهيج فقيل قد ولى وتولى، وتوليه شهبته",
+"scope_en": "Includes ripe dates beginning to dry or change color, described by ولى وتولى and توليه.",
+"variants": [
+{
+"root_id": "root_001684",
+"source_path": "v4/outputs/pass2_branches/root_001684.branches.tsv",
+"image_ar": "ولي الرطب وتولى إذا هاج",
+"image_en": "early drying or color-change of dates",
+"scope_ar": "يدخل فيه الرطب إذا أخذ في الهيج فقيل قد ولى وتولى، وتوليه شهبته",
+"scope_en": "Includes ripe dates beginning to dry or change color, described by ولى وتولى and توليه."
+}
+]
+}
+]
+},
+{
+"root": "ء ل م",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "الوجع والتألم",
+"image_en": "pain and aching",
+"scope_ar": "ما دل على الألم والوجع وإحساس المتألم به، ومنه ألم يألم وتألم وألمت بطنك/نفسك بمعنى أصابها الألم",
+"scope_en": "words for pain, aching, and the person or body part experiencing pain",
+"variants": [
+{
+"root_id": "root_000046",
+"source_path": "v4/outputs/pass2_branches/root_000046.branches.tsv",
+"image_ar": "الوجع والتألم",
+"image_en": "pain and aching",
+"scope_ar": "ما دل على الألم والوجع وإحساس المتألم به، ومنه ألم يألم وتألم وألمت بطنك/نفسك بمعنى أصابها الألم",
+"scope_en": "words for pain, aching, and the person or body part experiencing pain"
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "الإيلام والوصف بالموجع",
+"image_en": "causing pain and painful",
+"scope_ar": "ما دل على إيقاع الألم بغيره أو وصف الشيء أو الشخص بأنه مؤلم أو أليم أو موجع",
+"scope_en": "causing pain, making someone hurt, or describing something as painful",
+"variants": [
+{
+"root_id": "root_000046",
+"source_path": "v4/outputs/pass2_branches/root_000046.branches.tsv",
+"image_ar": "الإيلام والوصف بالموجع",
+"image_en": "causing pain and painful",
+"scope_ar": "ما دل على إيقاع الألم بغيره أو وصف الشيء أو الشخص بأنه مؤلم أو أليم أو موجع",
+"scope_en": "causing pain, making someone hurt, or describing something as painful"
+}
+]
+}
+]
+}
+],
+"new_missing_branch_inventories": [],
+"state_before": {
+"seen_ayah_count": 16,
+"seen_root_count": 95,
+"available_root_count": 95,
+"missing_root_count": 0,
+"retrieval_count": 14
+},
+"provenance": {
+"branch_filter": {
+"status": "accepted",
+"contaminated": "no",
+"origin_corpus": [
+"furuq",
+"quranic"
+]
+},
+"resource_sha256": {
+"resources/qac_root_ayah.tsv": "be694bc26a6ec261f16037e08be1d62a0dcc8d9154c9f6c5f267a338b91cf3ad",
+"resources/furuq_v4.sqlite.gz": "2fc0c4f30ff841e46441df82d50b771c43a762d1e62e1ed2842292c17b06e699"
+},
+"synthetic_ayat": []
+},
+"state_after": {
+"seen_ayah_count": 17,
+"seen_root_count": 105,
+"available_root_count": 105,
+"missing_root_count": 0,
+"retrieval_count": 15
+}
 }

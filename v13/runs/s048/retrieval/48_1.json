@@ -1,785 +1,596 @@
 {
-  "protocol": "v13-dynamic-retrieval-packet-v1",
-  "mode": "focus",
-  "focus_ref": "48:1",
-  "radius": 2,
-  "selected_window_size": 30,
-  "active_window": [
-    "48:0",
-    "48:1",
-    "48:2",
-    "48:3"
-  ],
-  "active_ayat": [
-    {
-      "ref": "48:0",
-      "text_ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
-      "text_norm_ar": "بسم الله الرحمن الرحيم",
-      "root_sequence": [
-        "س م و",
-        "ء ل ه",
-        "ر ح م",
-        "ر ح م"
-      ],
-      "root_occurrences": [
-        {
-          "root": "س م و",
-          "occurrence_count": 1,
-          "word_indices": [
-            "1"
-          ],
-          "surfaces_ar": [
-            "سْمِ"
-          ],
-          "lemmas_ar": [
-            "ٱسْم"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "2"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهِ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "ر ح م",
-          "occurrence_count": 2,
-          "word_indices": [
-            "3",
-            "4"
-          ],
-          "surfaces_ar": [
-            "رَّحْمَٰنِ",
-            "رَّحِيمِ"
-          ],
-          "lemmas_ar": [
-            "رَّحْمَٰن",
-            "رَّحِيم"
-          ],
-          "pos_tags": [
-            "ADJ",
-            "ADJ"
-          ]
-        }
-      ],
-      "synthetic_source_ref": "1:1"
-    },
-    {
-      "ref": "48:1",
-      "text_ar": "إِنَّا فَتَحْنَا لَكَ فَتْحًۭا مُّبِينًۭا",
-      "text_norm_ar": "انا فتحنا لك فتحا مبينا",
-      "root_sequence": [
-        "ف ت ح",
-        "ف ت ح",
-        "ب ي ن"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ف ت ح",
-          "occurrence_count": 2,
-          "word_indices": [
-            "2",
-            "4"
-          ],
-          "surfaces_ar": [
-            "فَتَحْ",
-            "فَتْحًا"
-          ],
-          "lemmas_ar": [
-            "فَتَحَ",
-            "فَتْح"
-          ],
-          "pos_tags": [
-            "V",
-            "N"
-          ]
-        },
-        {
-          "root": "ب ي ن",
-          "occurrence_count": 1,
-          "word_indices": [
-            "5"
-          ],
-          "surfaces_ar": [
-            "مُّبِينًا"
-          ],
-          "lemmas_ar": [
-            "مُّبِين"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:2",
-      "text_ar": "لِّيَغْفِرَ لَكَ ٱللَّهُ مَا تَقَدَّمَ مِن ذَنۢبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًۭا مُّسْتَقِيمًۭا",
-      "text_norm_ar": "ليغفر لك الله ما تقدم من ذنبك وما تاخر ويتم نعمته عليك ويهديك صرطا مستقيما",
-      "root_sequence": [
-        "غ ف ر",
-        "ء ل ه",
-        "ق د م",
-        "ذ ن ب",
-        "ء خ ر",
-        "ت م م",
-        "ن ع م",
-        "ه د ي",
-        "ص ر ط",
-        "ق و م"
-      ],
-      "root_occurrences": [
-        {
-          "root": "غ ف ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "1"
-          ],
-          "surfaces_ar": [
-            "يَغْفِرَ"
-          ],
-          "lemmas_ar": [
-            "غَفَرَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "3"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "ق د م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "5"
-          ],
-          "surfaces_ar": [
-            "تَقَدَّمَ"
-          ],
-          "lemmas_ar": [
-            "تَقَدَّمَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ذ ن ب",
-          "occurrence_count": 1,
-          "word_indices": [
-            "7"
-          ],
-          "surfaces_ar": [
-            "ذَنۢبِ"
-          ],
-          "lemmas_ar": [
-            "ذَنب"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ء خ ر",
-          "occurrence_count": 1,
-          "word_indices": [
-            "9"
-          ],
-          "surfaces_ar": [
-            "تَأَخَّرَ"
-          ],
-          "lemmas_ar": [
-            "تَأَخَّرَ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ت م م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "10"
-          ],
-          "surfaces_ar": [
-            "يُتِمَّ"
-          ],
-          "lemmas_ar": [
-            "أَتَمَّ"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ن ع م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "11"
-          ],
-          "surfaces_ar": [
-            "نِعْمَتَ"
-          ],
-          "lemmas_ar": [
-            "نِعْمَة"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ه د ي",
-          "occurrence_count": 1,
-          "word_indices": [
-            "13"
-          ],
-          "surfaces_ar": [
-            "يَهْدِيَ"
-          ],
-          "lemmas_ar": [
-            "هَدَى"
-          ],
-          "pos_tags": [
-            "V"
-          ]
-        },
-        {
-          "root": "ص ر ط",
-          "occurrence_count": 1,
-          "word_indices": [
-            "14"
-          ],
-          "surfaces_ar": [
-            "صِرَٰطًا"
-          ],
-          "lemmas_ar": [
-            "صِرَٰط"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        },
-        {
-          "root": "ق و م",
-          "occurrence_count": 1,
-          "word_indices": [
-            "15"
-          ],
-          "surfaces_ar": [
-            "مُّسْتَقِيمًا"
-          ],
-          "lemmas_ar": [
-            "مُّسْتَقِيم"
-          ],
-          "pos_tags": [
-            "N"
-          ]
-        }
-      ]
-    },
-    {
-      "ref": "48:3",
-      "text_ar": "وَيَنصُرَكَ ٱللَّهُ نَصْرًا عَزِيزًا",
-      "text_norm_ar": "وينصرك الله نصرا عزيزا",
-      "root_sequence": [
-        "ن ص ر",
-        "ء ل ه",
-        "ن ص ر",
-        "ع ز ز"
-      ],
-      "root_occurrences": [
-        {
-          "root": "ن ص ر",
-          "occurrence_count": 2,
-          "word_indices": [
-            "1",
-            "3"
-          ],
-          "surfaces_ar": [
-            "يَنصُرَ",
-            "نَصْرًا"
-          ],
-          "lemmas_ar": [
-            "نَصَرَ",
-            "نَصْر"
-          ],
-          "pos_tags": [
-            "V",
-            "N"
-          ]
-        },
-        {
-          "root": "ء ل ه",
-          "occurrence_count": 1,
-          "word_indices": [
-            "2"
-          ],
-          "surfaces_ar": [
-            "ٱللَّهُ"
-          ],
-          "lemmas_ar": [
-            "ٱللَّه"
-          ],
-          "pos_tags": [
-            "PN"
-          ]
-        },
-        {
-          "root": "ع ز ز",
-          "occurrence_count": 1,
-          "word_indices": [
-            "4"
-          ],
-          "surfaces_ar": [
-            "عَزِيزًا"
-          ],
-          "lemmas_ar": [
-            "عَزِيز"
-          ],
-          "pos_tags": [
-            "ADJ"
-          ]
-        }
-      ]
-    }
-  ],
-  "new_ayah_refs": [
-    "48:3"
-  ],
-  "active_roots": [
-    "س م و",
-    "ء ل ه",
-    "ر ح م",
-    "ف ت ح",
-    "ب ي ن",
-    "غ ف ر",
-    "ق د م",
-    "ذ ن ب",
-    "ء خ ر",
-    "ت م م",
-    "ن ع م",
-    "ه د ي",
-    "ص ر ط",
-    "ق و م",
-    "ن ص ر",
-    "ع ز ز"
-  ],
-  "new_roots": [
-    "ن ص ر",
-    "ع ز ز"
-  ],
-  "cached_roots": [
-    "س م و",
-    "ء ل ه",
-    "ر ح م",
-    "ف ت ح",
-    "ب ي ن",
-    "غ ف ر",
-    "ق د م",
-    "ذ ن ب",
-    "ء خ ر",
-    "ت م م",
-    "ن ع م",
-    "ه د ي",
-    "ص ر ط",
-    "ق و م"
-  ],
-  "cached_available_roots": [
-    "س م و",
-    "ء ل ه",
-    "ر ح م",
-    "ف ت ح",
-    "ب ي ن",
-    "غ ف ر",
-    "ق د م",
-    "ذ ن ب",
-    "ء خ ر",
-    "ت م م",
-    "ن ع م",
-    "ه د ي",
-    "ص ر ط",
-    "ق و م"
-  ],
-  "cached_missing_roots": [],
-  "new_branch_inventories": [
-    {
-      "root": "ن ص ر",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "النصرة عون وإظهار",
-          "image_en": "aid that makes someone prevail",
-          "scope_ar": "العون، والنصرة، والناصر والنصير، والأنصار، والاستنصار والتناصر حين تدور على المعونة والإظهار على العدو",
-          "scope_en": "aid, support, helper/protector, helpers, seeking help, and mutual support where the image is aid that brings victory",
-          "variants": [
-            {
-              "root_id": "root_001510",
-              "source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
-              "image_ar": "النصرة عون وإظهار",
-              "image_en": "aid that makes someone prevail",
-              "scope_ar": "العون، والنصرة، والناصر والنصير، والأنصار، والاستنصار والتناصر حين تدور على المعونة والإظهار على العدو",
-              "scope_en": "aid, support, helper/protector, helpers, seeking help, and mutual support where the image is aid that brings victory"
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "انتصاف المظلوم",
-          "image_en": "redress after oppression",
-          "scope_ar": "الانتصار من الظالم، والامتناع منه، والانتصاف والانتقام بعد ظلم",
-          "scope_en": "self-redress against an oppressor, resistance, taking satisfaction, or avenging after being wronged",
-          "variants": [
-            {
-              "root_id": "root_001510",
-              "source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
-              "image_ar": "انتصاف المظلوم",
-              "image_en": "redress after oppression",
-              "scope_ar": "الانتصار من الظالم، والامتناع منه، والانتصاف والانتقام بعد ظلم",
-              "scope_en": "self-redress against an oppressor, resistance, taking satisfaction, or avenging after being wronged"
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "إتيان البلد",
-          "image_en": "coming to a land",
-          "scope_ar": "نصر البلد أو الأرض بمعنى أتاها",
-          "scope_en": "coming to or reaching a land or place",
-          "variants": [
-            {
-              "root_id": "root_001510",
-              "source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
-              "image_ar": "إتيان البلد",
-              "image_en": "coming to a land",
-              "scope_ar": "نصر البلد أو الأرض بمعنى أتاها",
-              "scope_en": "coming to or reaching a land or place"
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "النصر مطر وإغاثة",
-          "image_en": "helping rain and relief by rain",
-          "scope_ar": "المطر المسمى نصرا، ونصر الغيث البلاد بإروائها أو إنباتها، والأرض المنصورة إذا مطرت، وإغاثة القوم بالغيث",
-          "scope_en": "rain called nasr, rain watering or causing land to grow, land rained upon, and people relieved by rain",
-          "variants": [
-            {
-              "root_id": "root_001510",
-              "source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
-              "image_ar": "النصر مطر وإغاثة",
-              "image_en": "helping rain and relief by rain",
-              "scope_ar": "المطر المسمى نصرا، ونصر الغيث البلاد بإروائها أو إنباتها، والأرض المنصورة إذا مطرت، وإغاثة القوم بالغيث",
-              "scope_en": "rain called nasr, rain watering or causing land to grow, land rained upon, and people relieved by rain"
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "النصر عطاء",
-          "image_en": "granting or gift",
-          "scope_ar": "النصر بمعنى العطاء وإيتاء الخير",
-          "scope_en": "gift, giving, or bringing good to someone",
-          "variants": [
-            {
-              "root_id": "root_001510",
-              "source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
-              "image_ar": "النصر عطاء",
-              "image_en": "granting or gift",
-              "scope_ar": "النصر بمعنى العطاء وإيتاء الخير",
-              "scope_en": "gift, giving, or bringing good to someone"
-            }
-          ]
-        },
-        {
-          "branch_id": "B006",
-          "image_ar": "النصرانية نسبة وملة",
-          "image_en": "Christian affiliation",
-          "scope_ar": "النصرانية، والتنصر، والنصراني والنصرانية والنصارى بوصفها ملة أو نسبة",
-          "scope_en": "Christianity, becoming Christian, Christian affiliation, and the plural Christians",
-          "variants": [
-            {
-              "root_id": "root_001510",
-              "source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
-              "image_ar": "النصرانية نسبة وملة",
-              "image_en": "Christian affiliation",
-              "scope_ar": "النصرانية، والتنصر، والنصراني والنصرانية والنصارى بوصفها ملة أو نسبة",
-              "scope_en": "Christianity, becoming Christian, Christian affiliation, and the plural Christians"
-            }
-          ]
-        },
-        {
-          "branch_id": "B007",
-          "image_ar": "ناصرة الماء",
-          "image_en": "tributary watercourse",
-          "scope_ar": "النواصر من الشعاب أو المسايل التي تجيء من بعيد حتى تقع في مجتمع الماء",
-          "scope_en": "tributary channels or ravines bringing water from afar into a collecting place",
-          "variants": [
-            {
-              "root_id": "root_001510",
-              "source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
-              "image_ar": "ناصرة الماء",
-              "image_en": "tributary watercourse",
-              "scope_ar": "النواصر من الشعاب أو المسايل التي تجيء من بعيد حتى تقع في مجتمع الماء",
-              "scope_en": "tributary channels or ravines bringing water from afar into a collecting place"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "root": "ع ز ز",
-      "branches": [
-        {
-          "branch_id": "B001",
-          "image_ar": "العزة والقوة بعد الذل",
-          "image_en": "might and honor",
-          "scope_ar": "يدخل فيه العز والعزة والعزيز بمعنى القوة والمنعة والشرف وخلاف الذل وصيرورة المرء عزيزا",
-          "scope_en": "Includes might, invulnerability, honor, the opposite of abasement, and becoming strong or honored.",
-          "variants": [
-            {
-              "root_id": "root_001008",
-              "source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
-              "image_ar": "العزة والقوة بعد الذل",
-              "image_en": "might and honor",
-              "scope_ar": "يدخل فيه العز والعزة والعزيز بمعنى القوة والمنعة والشرف وخلاف الذل وصيرورة المرء عزيزا",
-              "scope_en": "Includes might, invulnerability, honor, the opposite of abasement, and becoming strong or honored."
-            }
-          ]
-        },
-        {
-          "branch_id": "B002",
-          "image_ar": "الغلبة والقهر",
-          "image_en": "overcoming and subduing",
-          "scope_ar": "يدخل فيه غلبة الخصم وقهره والمغالبة في الخطاب أو الخصومة والمثل من غلب سلب",
-          "scope_en": "Includes defeating, overpowering, contesting, and prevailing in speech or dispute.",
-          "variants": [
-            {
-              "root_id": "root_001008",
-              "source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
-              "image_ar": "الغلبة والقهر",
-              "image_en": "overcoming and subduing",
-              "scope_ar": "يدخل فيه غلبة الخصم وقهره والمغالبة في الخطاب أو الخصومة والمثل من غلب سلب",
-              "scope_en": "Includes defeating, overpowering, contesting, and prevailing in speech or dispute."
-            }
-          ]
-        },
-        {
-          "branch_id": "B003",
-          "image_ar": "العزة بمعنى الندرة وصعوبة المنال",
-          "image_en": "rarity and inaccessibility",
-          "scope_ar": "يدخل فيه قلة الشيء حتى لا يكاد يوجد وصعوبة مناله أو وجود مثله",
-          "scope_en": "Includes being scarce, hard to find, hard to obtain, or unmatched.",
-          "variants": [
-            {
-              "root_id": "root_001008",
-              "source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
-              "image_ar": "العزة بمعنى الندرة وصعوبة المنال",
-              "image_en": "rarity and inaccessibility",
-              "scope_ar": "يدخل فيه قلة الشيء حتى لا يكاد يوجد وصعوبة مناله أو وجود مثله",
-              "scope_en": "Includes being scarce, hard to find, hard to obtain, or unmatched."
-            }
-          ]
-        },
-        {
-          "branch_id": "B004",
-          "image_ar": "التعزيز والتقوية",
-          "image_en": "reinforcing and strengthening",
-          "scope_ar": "يدخل فيه جعل الشيء أو الشخص عزيزا أو قويا وشديدا وتقوية الواحد بآخر",
-          "scope_en": "Includes causing strength, honor, or firmness, and reinforcing one with another.",
-          "variants": [
-            {
-              "root_id": "root_001008",
-              "source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
-              "image_ar": "التعزيز والتقوية",
-              "image_en": "reinforcing and strengthening",
-              "scope_ar": "يدخل فيه جعل الشيء أو الشخص عزيزا أو قويا وشديدا وتقوية الواحد بآخر",
-              "scope_en": "Includes causing strength, honor, or firmness, and reinforcing one with another."
-            }
-          ]
-        },
-        {
-          "branch_id": "B005",
-          "image_ar": "شدة الوقع والصعوبة",
-          "image_en": "severity and difficulty",
-          "scope_ar": "يدخل فيه ما يشتد على النفس أو يصعب ويعظم وقعه من مصيبة أو فعل",
-          "scope_en": "Includes something being hard, severe, grievous, or difficult to bear.",
-          "variants": [
-            {
-              "root_id": "root_001008",
-              "source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
-              "image_ar": "شدة الوقع والصعوبة",
-              "image_en": "severity and difficulty",
-              "scope_ar": "يدخل فيه ما يشتد على النفس أو يصعب ويعظم وقعه من مصيبة أو فعل",
-              "scope_en": "Includes something being hard, severe, grievous, or difficult to bear."
-            }
-          ]
-        },
-        {
-          "branch_id": "B006",
-          "image_ar": "ضيق الإحليل وقلة الدر",
-          "image_en": "tight udder and difficult milking",
-          "scope_ar": "يدخل فيه الناقة أو الشاة العزوز لضيق الإحليل وقلة الدر أو عدم الدر إلا بجهد",
-          "scope_en": "Includes a she-camel, ewe, or goat whose teat opening is tight and whose milk comes only with effort or is scant.",
-          "variants": [
-            {
-              "root_id": "root_001008",
-              "source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
-              "image_ar": "ضيق الإحليل وقلة الدر",
-              "image_en": "tight udder and difficult milking",
-              "scope_ar": "يدخل فيه الناقة أو الشاة العزوز لضيق الإحليل وقلة الدر أو عدم الدر إلا بجهد",
-              "scope_en": "Includes a she-camel, ewe, or goat whose teat opening is tight and whose milk comes only with effort or is scant."
-            }
-          ]
-        },
-        {
-          "branch_id": "B007",
-          "image_ar": "صلابة الأرض وتماسك الشيء",
-          "image_en": "hard solid ground and cohesion",
-          "scope_ar": "يدخل فيه العزاز من الأرض وصلابة الطين وتماسك الرمل واللحم وتلبيد المطر للأرض",
-          "scope_en": "Includes hard ground, firm clay, cohesive sand or flesh, and rain compacting soil.",
-          "variants": [
-            {
-              "root_id": "root_001008",
-              "source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
-              "image_ar": "صلابة الأرض وتماسك الشيء",
-              "image_en": "hard solid ground and cohesion",
-              "scope_ar": "يدخل فيه العزاز من الأرض وصلابة الطين وتماسك الرمل واللحم وتلبيد المطر للأرض",
-              "scope_en": "Includes hard ground, firm clay, cohesive sand or flesh, and rain compacting soil."
-            }
-          ]
-        },
-        {
-          "branch_id": "B008",
-          "image_ar": "الشدة في السنة والمطر والسيل",
-          "image_en": "severity in season, rain, and flood",
-          "scope_ar": "يدخل فيه السنة الشديدة والمطر الشديد الكثير والسيل الغالب والدفع الشديد في الوادي",
-          "scope_en": "Includes a hard year, heavy severe rain, overpowering flood, or strong surge in a valley.",
-          "variants": [
-            {
-              "root_id": "root_001008",
-              "source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
-              "image_ar": "الشدة في السنة والمطر والسيل",
-              "image_en": "severity in season, rain, and flood",
-              "scope_ar": "يدخل فيه السنة الشديدة والمطر الشديد الكثير والسيل الغالب والدفع الشديد في الوادي",
-              "scope_en": "Includes a hard year, heavy severe rain, overpowering flood, or strong surge in a valley."
-            }
-          ]
-        },
-        {
-          "branch_id": "B009",
-          "image_ar": "استعزاز المرض أو الموت أو الأمر",
-          "image_en": "overpowering sickness, death, or persistence",
-          "scope_ar": "يدخل فيه غلبة المرض أو الموت على الشخص وغلبة الشيطان أو الأمر ولجاجه",
-          "scope_en": "Includes illness, death, possession, or an affair overpowering someone or persisting against them.",
-          "variants": [
-            {
-              "root_id": "root_001008",
-              "source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
-              "image_ar": "استعزاز المرض أو الموت أو الأمر",
-              "image_en": "overpowering sickness, death, or persistence",
-              "scope_ar": "يدخل فيه غلبة المرض أو الموت على الشخص وغلبة الشيطان أو الأمر ولجاجه",
-              "scope_en": "Includes illness, death, possession, or an affair overpowering someone or persisting against them."
-            }
-          ]
-        },
-        {
-          "branch_id": "B010",
-          "image_ar": "العزيزاء من الفرس",
-          "image_en": "horse hip part",
-          "scope_ar": "يدخل فيه العزيزاء من الفرس وما بين الجاعرتين أو طرفا الورك",
-          "scope_en": "Includes the horse body part called العزيزاء, between the rump points or at the hip ends.",
-          "variants": [
-            {
-              "root_id": "root_001008",
-              "source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
-              "image_ar": "العزيزاء من الفرس",
-              "image_en": "horse hip part",
-              "scope_ar": "يدخل فيه العزيزاء من الفرس وما بين الجاعرتين أو طرفا الورك",
-              "scope_en": "Includes the horse body part called العزيزاء, between the rump points or at the hip ends."
-            }
-          ]
-        },
-        {
-          "branch_id": "B011",
-          "image_ar": "العزى وما جاورها من أسماء",
-          "image_en": "al-Uzza and related feminine/proper names",
-          "scope_ar": "يدخل فيه العزى تأنيث الأعز واسم الصنم وعزة اسما للظبية أو المرأة",
-          "scope_en": "Includes العزى as the feminine of الأعز and as the idol name, plus عزة as a gazelle or woman name.",
-          "variants": [
-            {
-              "root_id": "root_001008",
-              "source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
-              "image_ar": "العزى وما جاورها من أسماء",
-              "image_en": "al-Uzza and related feminine/proper names",
-              "scope_ar": "يدخل فيه العزى تأنيث الأعز واسم الصنم وعزة اسما للظبية أو المرأة",
-              "scope_en": "Includes العزى as the feminine of الأعز and as the idol name, plus عزة as a gazelle or woman name."
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "new_missing_branch_inventories": [],
-  "state_before": {
-    "seen_ayah_count": 3,
-    "seen_root_count": 14,
-    "available_root_count": 14,
-    "missing_root_count": 0,
-    "retrieval_count": 1
-  },
-  "provenance": {
-    "branch_filter": {
-      "status": "accepted",
-      "contaminated": "no",
-      "origin_corpus": [
-        "furuq",
-        "quranic"
-      ]
-    },
-    "resource_sha256": {
-      "resources/qac_root_ayah.tsv": "be694bc26a6ec261f16037e08be1d62a0dcc8d9154c9f6c5f267a338b91cf3ad",
-      "resources/furuq_v4.sqlite.gz": "2fc0c4f30ff841e46441df82d50b771c43a762d1e62e1ed2842292c17b06e699"
-    },
-    "synthetic_ayat": [
-      {
-        "ref": "48:0",
-        "kind": "basmalah",
-        "source_ref": "1:1"
-      }
-    ]
-  },
-  "state_after": {
-    "seen_ayah_count": 4,
-    "seen_root_count": 16,
-    "available_root_count": 16,
-    "missing_root_count": 0,
-    "retrieval_count": 2
-  }
+"protocol": "v13-dynamic-retrieval-packet-v2",
+"mode": "focus",
+"focus_ref": "48:1",
+"radius": 2,
+"selected_window_size": 30,
+"active_window": [
+"48:0",
+"48:1",
+"48:2",
+"48:3"
+],
+"new_ayah_refs": [
+"48:3"
+],
+"new_ayat": [
+{
+"ref": "48:3",
+"text_ar": "وَيَنصُرَكَ ٱللَّهُ نَصْرًا عَزِيزًا",
+"text_norm_ar": "وينصرك الله نصرا عزيزا",
+"root_sequence": [
+"ن ص ر",
+"ء ل ه",
+"ن ص ر",
+"ع ز ز"
+],
+"root_occurrences": [
+{
+"root": "ن ص ر",
+"occurrence_count": 2,
+"word_indices": [
+"1",
+"3"
+],
+"surfaces_ar": [
+"يَنصُرَ",
+"نَصْرًا"
+],
+"lemmas_ar": [
+"نَصَرَ",
+"نَصْر"
+],
+"pos_tags": [
+"V",
+"N"
+]
+},
+{
+"root": "ء ل ه",
+"occurrence_count": 1,
+"word_indices": [
+"2"
+],
+"surfaces_ar": [
+"ٱللَّهُ"
+],
+"lemmas_ar": [
+"ٱللَّه"
+],
+"pos_tags": [
+"PN"
+]
+},
+{
+"root": "ع ز ز",
+"occurrence_count": 1,
+"word_indices": [
+"4"
+],
+"surfaces_ar": [
+"عَزِيزًا"
+],
+"lemmas_ar": [
+"عَزِيز"
+],
+"pos_tags": [
+"ADJ"
+]
+}
+]
+}
+],
+"active_ayah_sources": [
+{
+"ref": "48:0",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"ref": "48:1",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"ref": "48:2",
+"status": "cached",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"ref": "48:3",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_1.json"
+}
+],
+"active_roots": [
+"س م و",
+"ء ل ه",
+"ر ح م",
+"ف ت ح",
+"ب ي ن",
+"غ ف ر",
+"ق د م",
+"ذ ن ب",
+"ء خ ر",
+"ت م م",
+"ن ع م",
+"ه د ي",
+"ص ر ط",
+"ق و م",
+"ن ص ر",
+"ع ز ز"
+],
+"new_roots": [
+"ن ص ر",
+"ع ز ز"
+],
+"active_root_sources": [
+{
+"root": "س م و",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ء ل ه",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ر ح م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ف ت ح",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ب ي ن",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "غ ف ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ق د م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ذ ن ب",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ء خ ر",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ت م م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ن ع م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ه د ي",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ص ر ط",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ق و م",
+"status": "cached_available",
+"source": "v13/runs/s048/retrieval/48_0.json"
+},
+{
+"root": "ن ص ر",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_1.json"
+},
+{
+"root": "ع ز ز",
+"status": "new",
+"source": "v13/runs/s048/retrieval/48_1.json"
+}
+],
+"cached_roots": [
+"س م و",
+"ء ل ه",
+"ر ح م",
+"ف ت ح",
+"ب ي ن",
+"غ ف ر",
+"ق د م",
+"ذ ن ب",
+"ء خ ر",
+"ت م م",
+"ن ع م",
+"ه د ي",
+"ص ر ط",
+"ق و م"
+],
+"cached_available_roots": [
+"س م و",
+"ء ل ه",
+"ر ح م",
+"ف ت ح",
+"ب ي ن",
+"غ ف ر",
+"ق د م",
+"ذ ن ب",
+"ء خ ر",
+"ت م م",
+"ن ع م",
+"ه د ي",
+"ص ر ط",
+"ق و م"
+],
+"cached_missing_roots": [],
+"new_branch_inventories": [
+{
+"root": "ن ص ر",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "النصرة عون وإظهار",
+"image_en": "aid that makes someone prevail",
+"scope_ar": "العون، والنصرة، والناصر والنصير، والأنصار، والاستنصار والتناصر حين تدور على المعونة والإظهار على العدو",
+"scope_en": "aid, support, helper/protector, helpers, seeking help, and mutual support where the image is aid that brings victory",
+"variants": [
+{
+"root_id": "root_001510",
+"source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
+"image_ar": "النصرة عون وإظهار",
+"image_en": "aid that makes someone prevail",
+"scope_ar": "العون، والنصرة، والناصر والنصير، والأنصار، والاستنصار والتناصر حين تدور على المعونة والإظهار على العدو",
+"scope_en": "aid, support, helper/protector, helpers, seeking help, and mutual support where the image is aid that brings victory"
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "انتصاف المظلوم",
+"image_en": "redress after oppression",
+"scope_ar": "الانتصار من الظالم، والامتناع منه، والانتصاف والانتقام بعد ظلم",
+"scope_en": "self-redress against an oppressor, resistance, taking satisfaction, or avenging after being wronged",
+"variants": [
+{
+"root_id": "root_001510",
+"source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
+"image_ar": "انتصاف المظلوم",
+"image_en": "redress after oppression",
+"scope_ar": "الانتصار من الظالم، والامتناع منه، والانتصاف والانتقام بعد ظلم",
+"scope_en": "self-redress against an oppressor, resistance, taking satisfaction, or avenging after being wronged"
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "إتيان البلد",
+"image_en": "coming to a land",
+"scope_ar": "نصر البلد أو الأرض بمعنى أتاها",
+"scope_en": "coming to or reaching a land or place",
+"variants": [
+{
+"root_id": "root_001510",
+"source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
+"image_ar": "إتيان البلد",
+"image_en": "coming to a land",
+"scope_ar": "نصر البلد أو الأرض بمعنى أتاها",
+"scope_en": "coming to or reaching a land or place"
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "النصر مطر وإغاثة",
+"image_en": "helping rain and relief by rain",
+"scope_ar": "المطر المسمى نصرا، ونصر الغيث البلاد بإروائها أو إنباتها، والأرض المنصورة إذا مطرت، وإغاثة القوم بالغيث",
+"scope_en": "rain called nasr, rain watering or causing land to grow, land rained upon, and people relieved by rain",
+"variants": [
+{
+"root_id": "root_001510",
+"source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
+"image_ar": "النصر مطر وإغاثة",
+"image_en": "helping rain and relief by rain",
+"scope_ar": "المطر المسمى نصرا، ونصر الغيث البلاد بإروائها أو إنباتها، والأرض المنصورة إذا مطرت، وإغاثة القوم بالغيث",
+"scope_en": "rain called nasr, rain watering or causing land to grow, land rained upon, and people relieved by rain"
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "النصر عطاء",
+"image_en": "granting or gift",
+"scope_ar": "النصر بمعنى العطاء وإيتاء الخير",
+"scope_en": "gift, giving, or bringing good to someone",
+"variants": [
+{
+"root_id": "root_001510",
+"source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
+"image_ar": "النصر عطاء",
+"image_en": "granting or gift",
+"scope_ar": "النصر بمعنى العطاء وإيتاء الخير",
+"scope_en": "gift, giving, or bringing good to someone"
+}
+]
+},
+{
+"branch_id": "B006",
+"image_ar": "النصرانية نسبة وملة",
+"image_en": "Christian affiliation",
+"scope_ar": "النصرانية، والتنصر، والنصراني والنصرانية والنصارى بوصفها ملة أو نسبة",
+"scope_en": "Christianity, becoming Christian, Christian affiliation, and the plural Christians",
+"variants": [
+{
+"root_id": "root_001510",
+"source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
+"image_ar": "النصرانية نسبة وملة",
+"image_en": "Christian affiliation",
+"scope_ar": "النصرانية، والتنصر، والنصراني والنصرانية والنصارى بوصفها ملة أو نسبة",
+"scope_en": "Christianity, becoming Christian, Christian affiliation, and the plural Christians"
+}
+]
+},
+{
+"branch_id": "B007",
+"image_ar": "ناصرة الماء",
+"image_en": "tributary watercourse",
+"scope_ar": "النواصر من الشعاب أو المسايل التي تجيء من بعيد حتى تقع في مجتمع الماء",
+"scope_en": "tributary channels or ravines bringing water from afar into a collecting place",
+"variants": [
+{
+"root_id": "root_001510",
+"source_path": "v4/outputs/pass2_branches/root_001510.branches.tsv",
+"image_ar": "ناصرة الماء",
+"image_en": "tributary watercourse",
+"scope_ar": "النواصر من الشعاب أو المسايل التي تجيء من بعيد حتى تقع في مجتمع الماء",
+"scope_en": "tributary channels or ravines bringing water from afar into a collecting place"
+}
+]
+}
+]
+},
+{
+"root": "ع ز ز",
+"branches": [
+{
+"branch_id": "B001",
+"image_ar": "العزة والقوة بعد الذل",
+"image_en": "might and honor",
+"scope_ar": "يدخل فيه العز والعزة والعزيز بمعنى القوة والمنعة والشرف وخلاف الذل وصيرورة المرء عزيزا",
+"scope_en": "Includes might, invulnerability, honor, the opposite of abasement, and becoming strong or honored.",
+"variants": [
+{
+"root_id": "root_001008",
+"source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
+"image_ar": "العزة والقوة بعد الذل",
+"image_en": "might and honor",
+"scope_ar": "يدخل فيه العز والعزة والعزيز بمعنى القوة والمنعة والشرف وخلاف الذل وصيرورة المرء عزيزا",
+"scope_en": "Includes might, invulnerability, honor, the opposite of abasement, and becoming strong or honored."
+}
+]
+},
+{
+"branch_id": "B002",
+"image_ar": "الغلبة والقهر",
+"image_en": "overcoming and subduing",
+"scope_ar": "يدخل فيه غلبة الخصم وقهره والمغالبة في الخطاب أو الخصومة والمثل من غلب سلب",
+"scope_en": "Includes defeating, overpowering, contesting, and prevailing in speech or dispute.",
+"variants": [
+{
+"root_id": "root_001008",
+"source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
+"image_ar": "الغلبة والقهر",
+"image_en": "overcoming and subduing",
+"scope_ar": "يدخل فيه غلبة الخصم وقهره والمغالبة في الخطاب أو الخصومة والمثل من غلب سلب",
+"scope_en": "Includes defeating, overpowering, contesting, and prevailing in speech or dispute."
+}
+]
+},
+{
+"branch_id": "B003",
+"image_ar": "العزة بمعنى الندرة وصعوبة المنال",
+"image_en": "rarity and inaccessibility",
+"scope_ar": "يدخل فيه قلة الشيء حتى لا يكاد يوجد وصعوبة مناله أو وجود مثله",
+"scope_en": "Includes being scarce, hard to find, hard to obtain, or unmatched.",
+"variants": [
+{
+"root_id": "root_001008",
+"source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
+"image_ar": "العزة بمعنى الندرة وصعوبة المنال",
+"image_en": "rarity and inaccessibility",
+"scope_ar": "يدخل فيه قلة الشيء حتى لا يكاد يوجد وصعوبة مناله أو وجود مثله",
+"scope_en": "Includes being scarce, hard to find, hard to obtain, or unmatched."
+}
+]
+},
+{
+"branch_id": "B004",
+"image_ar": "التعزيز والتقوية",
+"image_en": "reinforcing and strengthening",
+"scope_ar": "يدخل فيه جعل الشيء أو الشخص عزيزا أو قويا وشديدا وتقوية الواحد بآخر",
+"scope_en": "Includes causing strength, honor, or firmness, and reinforcing one with another.",
+"variants": [
+{
+"root_id": "root_001008",
+"source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
+"image_ar": "التعزيز والتقوية",
+"image_en": "reinforcing and strengthening",
+"scope_ar": "يدخل فيه جعل الشيء أو الشخص عزيزا أو قويا وشديدا وتقوية الواحد بآخر",
+"scope_en": "Includes causing strength, honor, or firmness, and reinforcing one with another."
+}
+]
+},
+{
+"branch_id": "B005",
+"image_ar": "شدة الوقع والصعوبة",
+"image_en": "severity and difficulty",
+"scope_ar": "يدخل فيه ما يشتد على النفس أو يصعب ويعظم وقعه من مصيبة أو فعل",
+"scope_en": "Includes something being hard, severe, grievous, or difficult to bear.",
+"variants": [
+{
+"root_id": "root_001008",
+"source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
+"image_ar": "شدة الوقع والصعوبة",
+"image_en": "severity and difficulty",
+"scope_ar": "يدخل فيه ما يشتد على النفس أو يصعب ويعظم وقعه من مصيبة أو فعل",
+"scope_en": "Includes something being hard, severe, grievous, or difficult to bear."
+}
+]
+},
+{
+"branch_id": "B006",
+"image_ar": "ضيق الإحليل وقلة الدر",
+"image_en": "tight udder and difficult milking",
+"scope_ar": "يدخل فيه الناقة أو الشاة العزوز لضيق الإحليل وقلة الدر أو عدم الدر إلا بجهد",
+"scope_en": "Includes a she-camel, ewe, or goat whose teat opening is tight and whose milk comes only with effort or is scant.",
+"variants": [
+{
+"root_id": "root_001008",
+"source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
+"image_ar": "ضيق الإحليل وقلة الدر",
+"image_en": "tight udder and difficult milking",
+"scope_ar": "يدخل فيه الناقة أو الشاة العزوز لضيق الإحليل وقلة الدر أو عدم الدر إلا بجهد",
+"scope_en": "Includes a she-camel, ewe, or goat whose teat opening is tight and whose milk comes only with effort or is scant."
+}
+]
+},
+{
+"branch_id": "B007",
+"image_ar": "صلابة الأرض وتماسك الشيء",
+"image_en": "hard solid ground and cohesion",
+"scope_ar": "يدخل فيه العزاز من الأرض وصلابة الطين وتماسك الرمل واللحم وتلبيد المطر للأرض",
+"scope_en": "Includes hard ground, firm clay, cohesive sand or flesh, and rain compacting soil.",
+"variants": [
+{
+"root_id": "root_001008",
+"source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
+"image_ar": "صلابة الأرض وتماسك الشيء",
+"image_en": "hard solid ground and cohesion",
+"scope_ar": "يدخل فيه العزاز من الأرض وصلابة الطين وتماسك الرمل واللحم وتلبيد المطر للأرض",
+"scope_en": "Includes hard ground, firm clay, cohesive sand or flesh, and rain compacting soil."
+}
+]
+},
+{
+"branch_id": "B008",
+"image_ar": "الشدة في السنة والمطر والسيل",
+"image_en": "severity in season, rain, and flood",
+"scope_ar": "يدخل فيه السنة الشديدة والمطر الشديد الكثير والسيل الغالب والدفع الشديد في الوادي",
+"scope_en": "Includes a hard year, heavy severe rain, overpowering flood, or strong surge in a valley.",
+"variants": [
+{
+"root_id": "root_001008",
+"source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
+"image_ar": "الشدة في السنة والمطر والسيل",
+"image_en": "severity in season, rain, and flood",
+"scope_ar": "يدخل فيه السنة الشديدة والمطر الشديد الكثير والسيل الغالب والدفع الشديد في الوادي",
+"scope_en": "Includes a hard year, heavy severe rain, overpowering flood, or strong surge in a valley."
+}
+]
+},
+{
+"branch_id": "B009",
+"image_ar": "استعزاز المرض أو الموت أو الأمر",
+"image_en": "overpowering sickness, death, or persistence",
+"scope_ar": "يدخل فيه غلبة المرض أو الموت على الشخص وغلبة الشيطان أو الأمر ولجاجه",
+"scope_en": "Includes illness, death, possession, or an affair overpowering someone or persisting against them.",
+"variants": [
+{
+"root_id": "root_001008",
+"source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
+"image_ar": "استعزاز المرض أو الموت أو الأمر",
+"image_en": "overpowering sickness, death, or persistence",
+"scope_ar": "يدخل فيه غلبة المرض أو الموت على الشخص وغلبة الشيطان أو الأمر ولجاجه",
+"scope_en": "Includes illness, death, possession, or an affair overpowering someone or persisting against them."
+}
+]
+},
+{
+"branch_id": "B010",
+"image_ar": "العزيزاء من الفرس",
+"image_en": "horse hip part",
+"scope_ar": "يدخل فيه العزيزاء من الفرس وما بين الجاعرتين أو طرفا الورك",
+"scope_en": "Includes the horse body part called العزيزاء, between the rump points or at the hip ends.",
+"variants": [
+{
+"root_id": "root_001008",
+"source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
+"image_ar": "العزيزاء من الفرس",
+"image_en": "horse hip part",
+"scope_ar": "يدخل فيه العزيزاء من الفرس وما بين الجاعرتين أو طرفا الورك",
+"scope_en": "Includes the horse body part called العزيزاء, between the rump points or at the hip ends."
+}
+]
+},
+{
+"branch_id": "B011",
+"image_ar": "العزى وما جاورها من أسماء",
+"image_en": "al-Uzza and related feminine/proper names",
+"scope_ar": "يدخل فيه العزى تأنيث الأعز واسم الصنم وعزة اسما للظبية أو المرأة",
+"scope_en": "Includes العزى as the feminine of الأعز and as the idol name, plus عزة as a gazelle or woman name.",
+"variants": [
+{
+"root_id": "root_001008",
+"source_path": "v4/outputs/pass2_branches/root_001008.branches.tsv",
+"image_ar": "العزى وما جاورها من أسماء",
+"image_en": "al-Uzza and related feminine/proper names",
+"scope_ar": "يدخل فيه العزى تأنيث الأعز واسم الصنم وعزة اسما للظبية أو المرأة",
+"scope_en": "Includes العزى as the feminine of الأعز and as the idol name, plus عزة as a gazelle or woman name."
+}
+]
+}
+]
+}
+],
+"new_missing_branch_inventories": [],
+"state_before": {
+"seen_ayah_count": 3,
+"seen_root_count": 14,
+"available_root_count": 14,
+"missing_root_count": 0,
+"retrieval_count": 1
+},
+"provenance": {
+"branch_filter": {
+"status": "accepted",
+"contaminated": "no",
+"origin_corpus": [
+"furuq",
+"quranic"
+]
+},
+"resource_sha256": {
+"resources/qac_root_ayah.tsv": "be694bc26a6ec261f16037e08be1d62a0dcc8d9154c9f6c5f267a338b91cf3ad",
+"resources/furuq_v4.sqlite.gz": "2fc0c4f30ff841e46441df82d50b771c43a762d1e62e1ed2842292c17b06e699"
+},
+"synthetic_ayat": [
+{
+"ref": "48:0",
+"kind": "basmalah",
+"source_ref": "1:1"
+}
+]
+},
+"state_after": {
+"seen_ayah_count": 4,
+"seen_root_count": 16,
+"available_root_count": 16,
+"missing_root_count": 0,
+"retrieval_count": 2
+}
 }
