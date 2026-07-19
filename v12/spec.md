@@ -58,6 +58,17 @@ must be derived from Arabic text, QAC word order/morphology, and branch
 inventories. Translation can be used only outside this cold-reading packet as a
 human convenience layer, not as reader evidence.
 
+For ayah-attached/app-facing runs, the default selected window is five ayat:
+the fixed ayah, up to two ayat before it, and up to two ayat after it, clipped
+at surah boundaries. Whole-surah packets remain valid for discovery/control runs,
+but the reader must still write one fixed ayah at a time.
+
+Key anchoring rule: surrounding ayat may activate, sharpen, correct, or
+retrospectively change a reading, but every retained reading must remain anchored
+to a word, root, form, or construction in the fixed ayah. A surrounding-ayah
+theme that cannot be attached back to the fixed ayah must not be promoted into a
+reading for that ayah.
+
 For `--surah N` builds, the first packet ayah must be `{N}:0`, a synthetic
 basmalah entry, except for S9. S9 is the only surah-level exception and starts
 at `9:1`. The synthetic basmalah uses the Arabic text, normalized Arabic text,

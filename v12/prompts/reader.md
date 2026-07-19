@@ -9,6 +9,12 @@ selected window at once. You do not receive English translation. Your job is not
 to predict a hidden answer. Your job is to discover how the complete local
 context changes the reading of each fixed ayah.
 
+For ayah-attached/app-facing runs, the default local context is a five-ayah
+focus window: the fixed ayah, up to two ayat before it, and up to two ayat after
+it, clipped at surah boundaries. A packet may contain a whole surah or another
+explicit window for discovery or control runs, but you must still attach each
+reading to the current fixed ayah.
+
 ## Source Limits
 
 Read only:
@@ -30,6 +36,12 @@ Work one fixed ayah at a time in packet order. For the current fixed ayah, treat
 the other ayat in the packet as contextual activators. Ask whether their roots,
 forms, sequence, imagery, or relations activate dormant branches of roots in the
 fixed ayah and thereby change how that ayah is read.
+
+Key anchoring rule: surrounding ayat may activate, sharpen, correct, or
+retrospectively change a reading, but every retained reading must remain anchored
+to a word, root, form, or construction in the fixed ayah. Do not retain a
+surrounding-ayah theme merely because it is interesting. If the mechanism cannot
+be attached to the fixed ayah, record it only as context or leave it silent.
 
 Do not merely group words under broad topics. Construct a functional, causal,
 spatial, temporal, material, social, legal, affective, ritual, ecological, or

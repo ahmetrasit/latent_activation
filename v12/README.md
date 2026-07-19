@@ -27,6 +27,16 @@ The output should make reading change visible:
 Multiple activated readings are allowed and expected. The reader must not
 collapse them into a single interpretation.
 
+For ayah-attached/app-facing runs, use a five-ayah focus window by default: the
+fixed ayah, up to two ayat before it, and up to two ayat after it, clipped at
+surah boundaries. Whole-surah packets remain useful for discovery/control runs,
+but each reading must still attach to the fixed ayah.
+
+Key anchoring rule: surrounding ayat may activate, sharpen, correct, or
+retrospectively change a reading, but every retained reading must remain anchored
+to a word, root, form, or construction in the fixed ayah. Do not promote a
+surrounding-ayah theme into the fixed ayah unless that attachment is visible.
+
 ## Separation Rules
 
 - The reader may inspect only the v12 prompt and the assigned full-context
