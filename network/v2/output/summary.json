@@ -1,0 +1,210 @@
+{
+  "version": "network_v2_channel_stability",
+  "policy": "Compress v1 groups using existing facets only; require multi-branch support and test ablation stability.",
+  "input": "network/v1/output/image_facet_review_index.jsonl",
+  "parameters": {
+    "min_support": 2,
+    "min_groups_per_facet": 3,
+    "min_cooccurrence": 2,
+    "min_groups_for_channel": 3
+  },
+  "counts": {
+    "input_groups": 200,
+    "facet_components": 6,
+    "channels_total": 6,
+    "stable_channels": 2,
+    "mixed_channels": 4,
+    "unstable_channels": 0,
+    "groups_in_stable_or_mixed_channels": 129,
+    "unassigned_or_reject_like_groups": 71,
+    "domain_channels_total": 8,
+    "domain_stable_channels": 6,
+    "domain_mixed_channels": 2,
+    "domain_unstable_channels": 0
+  },
+  "top_channels": [
+    {
+      "channel_id": "CH001",
+      "status": "stable",
+      "label": "custom",
+      "stability_score": 0.7049,
+      "group_count": 8,
+      "anchor_facets": [
+        "kw:custom"
+      ]
+    },
+    {
+      "channel_id": "CH002",
+      "status": "stable",
+      "label": "sky / day / verticality",
+      "stability_score": 0.7007,
+      "group_count": 8,
+      "anchor_facets": [
+        "theme:land_water_sky/sky_astronomy"
+      ]
+    },
+    {
+      "channel_id": "CH003",
+      "status": "mixed",
+      "label": "craft_material_built/architecture_construction",
+      "stability_score": 0.6694,
+      "group_count": 4,
+      "anchor_facets": [
+        "theme:craft_material_built/architecture_construction"
+      ]
+    },
+    {
+      "channel_id": "CH004",
+      "status": "mixed",
+      "label": "solidity",
+      "stability_score": 0.6663,
+      "group_count": 3,
+      "anchor_facets": [
+        "kw:solidity"
+      ]
+    },
+    {
+      "channel_id": "CH005",
+      "status": "mixed",
+      "label": "biology / condition_force_change/growth_decay",
+      "stability_score": 0.6658,
+      "group_count": 3,
+      "anchor_facets": [
+        "kw:biology",
+        "theme:condition_force_change/growth_decay"
+      ]
+    },
+    {
+      "channel_id": "CH006",
+      "status": "mixed",
+      "label": "guidance / road / deviation",
+      "stability_score": 0.6079,
+      "group_count": 113,
+      "anchor_facets": [
+        "kw:anger",
+        "kw:authority",
+        "kw:blessing",
+        "kw:direction",
+        "kw:guidance",
+        "kw:hierarchy",
+        "kw:honor",
+        "kw:knowledge"
+      ]
+    }
+  ],
+  "top_domain_channels": [
+    {
+      "channel_id": "D05",
+      "status": "stable",
+      "label": "name / invocation / obligation",
+      "stability_score": 0.7996,
+      "group_count": 20,
+      "anchor_facets": [
+        "kw:language",
+        "kw:name",
+        "kw:semiotics",
+        "theme:kinship_society/identity_personhood",
+        "theme:language_communication/concealment_disclosure"
+      ]
+    },
+    {
+      "channel_id": "D06",
+      "status": "stable",
+      "label": "sign / knowledge / marker",
+      "stability_score": 0.7764,
+      "group_count": 22,
+      "anchor_facets": [
+        "kw:knowledge",
+        "kw:landmark",
+        "kw:semiotics",
+        "theme:cognition_perception/knowledge_learning",
+        "theme:cognition_perception/proof_uncertainty"
+      ]
+    },
+    {
+      "channel_id": "D01",
+      "status": "stable",
+      "label": "guidance / road / deviation",
+      "stability_score": 0.7517,
+      "group_count": 31,
+      "anchor_facets": [
+        "kw:direction",
+        "kw:guidance",
+        "kw:landmark",
+        "kw:navigation",
+        "kw:road",
+        "kw:straightness",
+        "theme:movement_travel/navigation_route"
+      ]
+    },
+    {
+      "channel_id": "D04",
+      "status": "stable",
+      "label": "anger / honor / rejection",
+      "stability_score": 0.7462,
+      "group_count": 17,
+      "anchor_facets": [
+        "kw:anger",
+        "kw:honor",
+        "kw:zeal",
+        "theme:emotion_ethics/fear_grief",
+        "theme:emotion_ethics/honor_shame"
+      ]
+    },
+    {
+      "channel_id": "D02",
+      "status": "stable",
+      "label": "mercy / blessing / provision",
+      "stability_score": 0.7373,
+      "group_count": 41,
+      "anchor_facets": [
+        "kw:blessing",
+        "theme:kinship_society/culture_tradition",
+        "theme:kinship_society/hierarchy_status",
+        "theme:kinship_society/hospitality_welfare",
+        "theme:kinship_society/identity_personhood",
+        "theme:kinship_society/kinship",
+        "theme:kinship_society/marriage_genealogy"
+      ]
+    },
+    {
+      "channel_id": "D03",
+      "status": "stable",
+      "label": "authority / obedience / standing",
+      "stability_score": 0.684,
+      "group_count": 72,
+      "anchor_facets": [
+        "kw:authority",
+        "kw:hierarchy",
+        "kw:property",
+        "theme:economy_property/commerce_exchange",
+        "theme:kinship_society/hierarchy_status",
+        "theme:law_governance/obligation_contract",
+        "theme:law_governance/politics_order"
+      ]
+    },
+    {
+      "channel_id": "D09",
+      "status": "mixed",
+      "label": "substitution / replacement / loss",
+      "stability_score": 0.6774,
+      "group_count": 4,
+      "anchor_facets": [
+        "kw:replacement",
+        "kw:substitution"
+      ]
+    },
+    {
+      "channel_id": "D07",
+      "status": "mixed",
+      "label": "verticality / sky / concealment",
+      "stability_score": 0.5695,
+      "group_count": 8,
+      "anchor_facets": [
+        "kw:sky",
+        "theme:land_water_sky/sky_astronomy",
+        "theme:land_water_sky/weather_climate"
+      ]
+    }
+  ]
+}

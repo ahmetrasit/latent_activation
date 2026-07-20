@@ -1,0 +1,26 @@
+{
+  "version": "network_v1_qnet_review_index",
+  "policy": "Use existing Qnet bridge themes and raw keywords only; no new role ontology.",
+  "inputs": {
+    "path_families": "network/output/s1_min5_strong_v0/path_family_candidates.jsonl",
+    "qnet_branch_themes": "../quran-roots/_corpus/activation/Qnet/v2/network/bridge_theme_full/branch_theme_inventory.tsv",
+    "qnet_branch_keywords": "../quran-roots/_corpus/activation/Qnet/v2/network/incidence_full/branch_keywords.tsv"
+  },
+  "counts": {
+    "input_path_families": 1000,
+    "enriched_path_families": 1000,
+    "theme_signature_groups_selected": 200,
+    "rare_facet_groups_selected": 200,
+    "scored_facet_groups_selected": 200,
+    "image_facet_groups_selected": 200,
+    "qnet_theme_branches": 11275,
+    "qnet_leaf_themes": 127,
+    "qnet_keyword_branches": 11275,
+    "qnet_keywords": 9805
+  },
+  "parameters": {
+    "review_cap": 200,
+    "top_theme_limit": 3,
+    "keyword_limit": 5
+  }
+}

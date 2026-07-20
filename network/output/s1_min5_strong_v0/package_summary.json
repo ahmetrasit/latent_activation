@@ -1,0 +1,36 @@
+{
+  "package_version": "semantic_candidate_package_v1",
+  "source_repo": "../quran-slm",
+  "configuration": {
+    "min_ayahs": 5,
+    "max_len": 7,
+    "best_rank_threshold": 8,
+    "mutual_rank_threshold": 12,
+    "path_family_cap": 1000,
+    "channel_seed_cap": 200,
+    "diversity_first_pass": 350,
+    "per_root_guarantee": 12
+  },
+  "graph_counts": {
+    "filtered_branch_occurrence_nodes": 161,
+    "filtered_occurrence_edges": 973,
+    "all_semantic_edges_in_occurrence_graph": 1664,
+    "kept_semantic_edges": 772
+  },
+  "raw_group_space_after_filters": {
+    "ordered_root_signature_groups_len_3_to_max": 11583,
+    "root_set_groups_len_3_to_max": 9046,
+    "ordered_path_count_exact_dp": 895837
+  },
+  "package_counts": {
+    "atomic_relation_inventory": 772,
+    "ordered_path_family_review_candidates": 1000,
+    "root_set_channel_seed_candidates": 200
+  },
+  "selection_policy": {
+    "edge_filter": "keep if best combined_rank <= threshold OR mutual combined_rank <= threshold",
+    "path_families": "capped diversified ordered root signatures with per-root coverage",
+    "channel_seeds": "capped diversified unordered root sets",
+    "not_claimed": "candidate package, not accepted findings"
+  }
+}
