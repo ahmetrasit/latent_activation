@@ -1,6 +1,11 @@
 # v13 Dynamic Retrieval Latent Activation Workflow
 
-v13 is the dynamic-retrieval version of v12.
+Status: retired.
+
+v13 is the dynamic-retrieval version of v12. It is kept for audit/history, but
+should not be used for new production runs. In S48 comparison, v13 preserved the
+main latent chain but was less generative than v12 and missed several surprising
+secondary activations. Prefer v12 for current ayah-attached full-context runs.
 
 The reader behavior stays the same: one cold agent works one fixed ayah at a
 time, preserves multiple activated readings, avoids disambiguation, writes an
