@@ -1,316 +1,156 @@
-# Cross-Run TSV Schema v2
+# Whole-Surah Publication Schema
 
-All files are UTF-8 TSV with one header row, no embedded tabs, and no embedded
-newlines. Lists inside a scalar field use semicolons. Stable IDs are never
-reused.
+This document defines the target publication data model. Existing TSV templates
+and staged worker JSON schemas in this directory belong to the legacy S1
+calibration and are not the production output contract.
 
-The exact headers are stored in `templates/` and enforced by the validator.
+## Surah Object
 
-## `runs.tsv`
-
-One row per source reader run.
-
-```text
-run_id
-treatment
-reader_id
-prompt_path
-prompt_sha256
-prompt_revision
-packet_path
-packet_sha256
-output_path
-output_sha256
-output_revision
-frozen_manifest_path
-frozen_manifest_sha256
-visible_refs
-provenance_status
-notes
+```json
+{
+  "surah": 1,
+  "ayat": []
+}
 ```
 
-`provenance_status`:
+- `surah`: integer surah number;
+- `ayat`: every processed ayah in packet order.
 
-- `frozen`;
-- `reconstructed_verified`;
-- `reconstructed_unverified`.
+The agent does not emit run provenance or source-finding IDs. The orchestrator
+records source file paths and hashes outside the publication content.
 
-## `source_findings.tsv`
+## Ayah Object
 
-One row per atomic activated reading or retrospective finding. Extraction is
-lossless; later rejection does not remove the row.
-
-```text
-source_finding_id
-run_id
-fixed_ayah_ref
-finding_type
-source_pointer
-finding_title
-claimed_branches
-support_refs
-reader_strength
-disposition
-notes
+```json
+{
+  "ayah_ref": "1:6",
+  "primary": [],
+  "secondary": []
+}
 ```
 
-Allowed values:
+- `ayah_ref`: fixed ayah reference;
+- `primary`: zero or more primary contextual findings;
+- `secondary`: zero or more non-primary contextual findings.
 
-- `finding_type`: `activated_reading`, `retrospective_surprise`;
-- `reader_strength`: `asserted`, `qualified`, `exploratory`;
-- `disposition`: `unreviewed`, `accepted`, `merged`, `split`,
-  `evidence_only`, `deferred`, `rejected`, `conflict`.
+All source findings must be represented substantively in one of these two
+collections. Exploratory source findings become secondary.
 
-`claimed_branches` uses `ROOT:B###`, separated by semicolons.
+## Primary Finding
 
-## `claims.tsv`
-
-One row per normalized mechanism. Rejected mechanisms remain as rows.
-
-```text
-claim_id
-ayah_ref
-mechanism
-cross_run_relation
-publication_role
-disposition
-decision_reason
+```json
+{
+  "text": "contextual reading",
+  "anchors": [
+    {"root_id": "root_000000", "branch_id": "B001"}
+  ]
+}
 ```
 
-`word_id` and `morpheme_id` are deterministic foreign keys into the QAC layer.
-`linguistic_support_ids` may cite supplied `sx-*` syntax edges or `co-*`
-root-cooccurrence rows. It is empty when no such feature materially supports the
-claim-specific judgment.
+Required fields:
 
-Allowed values:
+- `text`: publication-ready contextual reading;
+- `anchors`: one or more assigned root/branch anchors.
 
-- `cross_run_relation`: `shared_mechanism`, `standard_only`,
-  `eleven_ayah_only`, `compatible_refinement`, `material_conflict`;
-- `publication_role`: `unreviewed`, `primary`, `secondary`, `exploratory`,
-  `evidence_only`, `none`;
-- `disposition`: `unreviewed`, `accepted`, `merged`, `split`,
-  `evidence_only`, `deferred`, `rejected`, `conflict`.
+A primary finding has no grade.
 
-Rules:
+## Secondary Finding
 
-- `rejected` claims use `publication_role=none`;
-- `accepted` claims must use a non-`none`, non-`unreviewed` publication role;
-- multiple primary and multiple secondary claims per ayah are allowed;
-- primary claims require at least one fixed-ayah `direct` or
-  `contextually_activated` lexical anchor.
-
-## `claim_sources.tsv`
-
-Many-to-many lineage between normalized claims and source findings.
-
-```text
-claim_id
-source_finding_id
-source_relation
-notes
+```json
+{
+  "text": "contextual reading",
+  "grade": "strong",
+  "anchors": [
+    {"root_id": "root_000000", "branch_id": "B005"}
+  ]
+}
 ```
 
-`source_relation`: `supports`, `refines`, `reinforces`, `split_component`,
-`counterevidence`, `rejected_basis`.
+Required fields:
 
-Every claim, including a rejected claim, requires at least one source link.
+- `text`: publication-ready contextual reading;
+- `grade`: `strong`, `weak`, or `reject`;
+- `anchors`: one or more assigned root/branch anchors.
 
-## `branch_evidence.tsv`
+`Reject` is a retained secondary grade. It does not create a rejected
+collection and never removes the finding's text or anchors.
 
-One row per claim-specific branch occurrence. This is where lexical status and
-resonance strength are adjudicated.
+## Anchor
 
-```text
-evidence_id
-claim_id
-occurrence_ref
-word_index
-word_id
-morpheme_id
-surface
-lemma
-pos
-root
-branch
-inventory_pointer
-inventory_match
-form_fit
-construction_fit
-evidence_role
-lexical_status
-translation_role
-resonance_eligible
-trigger_score
-proximity_score
-structure_score
-reading_gain_score
-robustness_score
-resonance_score
-resonance_strength
-support_refs
-linguistic_support_ids
-counterevidence
-decision_reason
+```json
+{"root_id": "root_000000", "branch_id": "B001"}
 ```
 
-Allowed values:
+Only these fields belong to an anchor:
 
-- `inventory_match`: `yes`, `no`, `unknown`;
-- `form_fit`, `construction_fit`: `exact`, `compatible`, `mismatch`, `unknown`;
-- `evidence_role`: `lexical_anchor`, `context_support`,
-  `target_root_resonance`, `counterevidence`;
-- `lexical_status`: `direct`, `contextually_activated`,
-  `analogical_resonance`, `unlicensed`;
-- `translation_role`: `governing`, `modifier`, `none`;
-- `resonance_eligible`: `yes`, `no`, `not_applicable`;
-- `resonance_strength`: `strong`, `moderate`, `weak`, `none`.
+- `root_id`: stable root inventory identifier;
+- `branch_id`: branch identifier within that root.
 
-Lexical rules:
+Anchors do not carry lexical status, translation role, evidence role,
+resonance class, confidence, or any other context-independent label. A branch
+may contribute differently to different contextual readings.
 
-- `direct`: ordinary form/construction realization;
-- `contextually_activated`: licensed nuance made live by context;
-- `analogical_resonance`: the accepted root image materially changes the
-  commentary mechanism but does not govern this form's ordinary sense;
-- `unlicensed`: fails inventory, anchoring, morphology/construction, or
-  mechanism support. The row remains retained.
+The orchestrator validates anchors mechanically against the assigned packet and
+accepted inventory snapshot.
 
-Translation rules:
+## Contextual Deduplication
 
-- `governing` is available only to `direct` evidence;
-- `modifier` is available only to `direct` or `contextually_activated`
-  evidence;
-- `analogical_resonance` and `unlicensed` always use `none`.
+Findings may be merged only when they express the same fixed-ayah contextual
+reading, mechanism, structural/causal relation, and reading change.
 
-### Resonance grading
+- Same anchors with different contextual readings remain separate.
+- Different anchors with the same contextual reading may be merged and their
+  anchors combined.
+- Similar themes with different mechanisms remain separate.
+- Paraphrases or compatible elaborations of the same mechanism may merge.
 
-Only `analogical_resonance` receives component scores. Score every dimension
-from 0–2:
+When equivalence is uncertain, keep separate entries.
 
-- `trigger_score`: thematic association / clear cue / exact activating cue;
-- `proximity_score`: distant / local / adjacent or same construction;
-- `structure_score`: loose association / coherent link / explicit sequence,
-  syntax, repetition, or contrast;
-- `reading_gain_score`: decorative / useful nuance / material reading change;
-- `robustness_score`: fragile / plausible with limits / survives alternatives
-  and counterevidence.
+## Forbidden Publication Fields
 
-`resonance_score` is the sum:
+The agent output must not contain:
 
-- 8–10: `strong`;
-- 5–7: `moderate`;
-- 0–4: `weak`.
+- source-finding IDs or source lineage arrays;
+- translation eligibility or translation roles;
+- direct/contextual/analogical/unlicensed labels;
+- branch-level grades or roles;
+- a third exploratory or rejected collection;
+- evidence-score components;
+- agent-assigned QAC or attachment IDs.
 
-Direct and contextually activated rows use blank component scores,
-`resonance_eligible=not_applicable`, and `resonance_strength=none`.
+If downstream systems need stable row IDs, scripts assign them after the
+publication is complete.
 
-Failed resonance gates use `lexical_status=unlicensed`,
-`resonance_eligible=no`, blank scores, `resonance_strength=none`, and a required
-reason. A failed gate is not disguised as a weak score.
+## Deterministic Linguistic Cache
 
-Cross-run agreement is never a component score. The orchestrator, not the
-worker, computes both `resonance_score` and `resonance_strength`.
+The linguistic cache is separate from the publication content and is generated
+by `scripts/build_linguistic_bindings.py`.
 
-### Retaining failed evidence and claims
+- `words.tsv`: QAC-aligned orthographic words and stable `word_id` values;
+- `morphemes.tsv`: QAC segments, morphology, and stable `morpheme_id` values;
+- `attachment_units.tsv`: observed attachment units cross-walked to QAC words
+  and morphemes;
+- `syntax_edges.tsv`: attachment edges with resolved QAC endpoints;
+- `root_cooccurrences.tsv`: mechanical descriptive root-pair counts;
+- `manifest.json`: resource hashes, target-to-QAC ref mapping, counts, protocol,
+  and unresolved warnings.
 
-An `unlicensed` row is complete only when it preserves:
+Attachment and QAC index equality is never assumed. Alignment uses position,
+normalized surface, root, sequence, and clitic evidence. Binding statuses
+preserve word-only and fallback cautions; unresolved endpoints remain explicit.
 
-- the attempted occurrence/root/branch identification;
-- inventory, form, and construction results;
-- `resonance_eligible=no` with blank component scores;
-- `translation_role=none`;
-- explicit counterevidence and a decision reason;
-- its claim and source-finding lineage.
+The agent reads this cache as needed but never creates or repairs its IDs.
 
-An accepted claim may retain an unlicensed branch beside stronger evidence; the
-failed branch simply contributes nothing to lexical or translation selection.
-If the proposed mechanism has no surviving licensed or eligible resonance
-support, retain the mechanism with `disposition=rejected` and
-`publication_role=none`. Its `claim_sources.tsv` link normally uses
-`rejected_basis`, and its coverage visibility is `none`.
+## Minimal Validation
 
-These are terminal, queryable classifications. Neither row may be removed in a
-cleanup or handoff stage.
+The final surah output must satisfy:
 
-## Deterministic linguistic layer
-
-`linguistic/` is a reproducible cache generated before grading. It is not agent
-judgment and does not replace the semantic ledger.
-
-- `words.tsv`: every orthographic word, with analysis ref, QAC ref, root/POS,
-  aspect, mood, voice, measure, and raw morphology summary;
-- `morphemes.tsv`: every QAC segment, including prefixes, stems, and suffixes,
-  plus raw features and parsed person/gender/number/case when available;
-- `attachment_units.tsv`: one row per attachment unit observed in an edge,
-  cross-walked to its QAC word/morpheme by normalized surface, root, sequence,
-  and clitic information;
-- `syntax_edges.tsv`: attachment relations with resolved word and morpheme
-  endpoints, original status/confidence, and source pointer;
-- `root_cooccurrences.tsv`: local root-pair rows with corpus counts. These are
-  descriptive co-occurrences, not semantic collocation judgments;
-- `manifest.json`: resource paths, hashes, mappings, counts, and unresolved
-  warnings. Production requires zero unresolved warnings for the active scope.
-
-Attachment/QAC index equality is never assumed. `position_crosswalk` records a
-directly reconstructed match; `surface_root_sequence_fallback` records a safe
-cross-tokenizer recovery. Syntax edges distinguish exact morpheme alignment,
-word-only alignment, fallback alignment, and `unresolved`. Word-only alignment
-is retained as a caution; `unresolved` is a blocking warning.
-
-The packet's synthetic Basmala ref remains `1:0`; its QAC source ref is `1:1`.
-Standalone Qur'anic pause and ornament symbols in packet display text are not
-counted as orthographic words.
-Unrooted words and morphemes remain in this layer but receive no dummy branch
-evidence.
-
-`primary`, `secondary`, and `exploratory` belong to claims. A per-word dossier
-joins claim roles through `branch_evidence`; it must never store those roles as
-intrinsic properties of a branch.
-
-## `coverage.tsv`
-
-Derived review ledger with one row per source finding.
-
-```text
-source_finding_id
-claim_ids
-disposition
-publication_roles
-translation_visibility
-notes
-```
-
-`translation_visibility`: `commentary_and_translation`, `commentary_only`,
-`evidence_only`, `none`.
-
-Rejected and unlicensed material must still resolve through coverage.
-
-## `stage_status.tsv`
-
-Resumable orchestration state.
-
-```text
-stage_id
-scope_ref
-stage
-status
-attempt
-prompt_path
-prompt_sha256
-prompt_revision
-input_fingerprint
-output_fingerprint
-started_at
-completed_at
-error_summary
-notes
-```
-
-- `stage`: `provenance`, `extract`, `normalize`, `grade`, `publish`, plus
-  exception/optional states `reconcile`, `audit`, and `handoff`;
-- `status`: `pending`, `running`, `complete`, `failed`.
-
-`prompt_revision` records a git revision containing the exact prompt hash when
-available. This lets historical stages remain verifiable after prompt changes.
-
-The root orchestrator is the sole canonical writer for a surah workspace.
-Workers return JSON only; separate surah workspaces may run independently.
+- one valid surah number;
+- unique, ordered ayah refs belonging to the surah;
+- arrays named only `primary` and `secondary` at finding level;
+- nonempty finding text and anchors;
+- no grade on primary;
+- exactly one allowed grade on every secondary;
+- every anchor resolves to the assigned root/branch inventory;
+- no forbidden publication fields;
+- no unresolved blocking linguistic warnings.

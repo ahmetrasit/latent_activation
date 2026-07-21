@@ -1,83 +1,60 @@
-# v12 Cross-Run Production Package
+# v12 Cross-Run Whole-Surah Publication
 
-This package integrates the standard v12 and eleven-ayah/±5 reader outputs into
-an ayah-level claim ledger.
+This package consolidates canonical regular v12 and ±5 v12 findings into a
+direct publication structure. Both source families are complete for S001-S114;
+no new reader runs are pending.
 
-Start with [STATUS.md](STATUS.md) for the current checkpoint. The root
-orchestrator then follows [ORCHESTRATION.md](ORCHESTRATION.md), spawns fresh
-stage workers, and centralizes canonical writes. There is no workflow CLI and
-no script invokes agents. Scripts are limited to deterministic parsing, payload
-construction, packet enrichment, TSV updates, and lightweight validation.
+Start with:
 
-Production compares an actually constrained regular window (focus ±2 ayat)
-with an actually constrained wide window (focus ±5 ayat). A prompt declaration
-does not replace packet-level visibility control. Existing whole-surah runs are
-discovery/control inputs unless explicitly accepted for calibration.
+- [STATUS.md](STATUS.md): current implementation checkpoint;
+- [ORCHESTRATION.md](ORCHESTRATION.md): normative whole-surah agent workflow;
+- [schema/SCHEMA.md](schema/SCHEMA.md): simplified publication model.
 
-## Core Flow
+## Production Flow
 
 ```text
-bootstrap + linguistic bind -> extract -> normalize -> grade -> publish -> close
+mechanical whole-surah package + QAC/attachment binding
+  -> Agent A publishes the whole surah
+  -> Agent B reviews the whole surah
+  -> optional Agent A repair
+  -> deterministic close and atomic commit
 ```
 
-Reconciliation is used only for a real conflict or necessary split/merge.
-Audits and derived handoff views are optional, not production gates.
+Agents are never assigned individual ayat. They receive paths to complete
+surah files and read the material they need on demand, following the original
+v12 pattern.
 
-## Non-Loss Contract
+## Output
 
-Every extracted finding remains represented:
+Each ayah contains:
 
-- failed lexical gates remain `unlicensed` evidence;
-- unpromoted mechanisms remain `rejected` claims;
-- merged and split findings retain lineage;
-- evidence-only, deferred, and conflicting material remains queryable.
+- one or more primary contextual findings with `root_id` + `branch_id`
+  anchors;
+- one or more secondary contextual findings with anchors and a finding-level
+  grade: `strong`, `weak`, or `reject`.
 
-`Rejected` means not promoted. `Unlicensed` means not lexically available.
-Neither means discarded.
+Every non-primary or exploratory source finding becomes secondary. A `reject`
+secondary is retained in full. There is no third rejected category.
 
-## Independent Decisions
+The publication output omits source-finding IDs, translation eligibility,
+lexical-status labels, branch-level roles, and branch-level grades. Original
+v12 files remain the provenance source.
 
-The workflow keeps these axes separate:
+Deduplication follows contextual-reading equivalence. Anchor overlap does not
+justify merging; different contextual readings with the same branches remain
+separate.
 
-1. `lexical_status`;
-2. `resonance_strength`;
-3. `publication_role`;
-4. `translation_role`;
-5. `disposition`.
+## Mechanical Linguistic Boundary
 
-A normal strong secondary resonance is:
+`scripts/build_linguistic_bindings.py` already assigns QAC word/morpheme IDs
+and cross-walks attachment identifiers to QAC identifiers. It preserves the
+original attachment IDs, resolved QAC endpoints, binding methods, and warnings.
+The publication agent consumes this cache and never performs the alignment.
 
-```text
-lexical_status: analogical_resonance
-resonance_strength: strong
-publication_role: secondary
-translation_role: none
-disposition: accepted
-```
+## Legacy Material
 
-Multiple primary and multiple secondary claims are allowed. Analogical
-resonance may organize commentary but never silently governs translation.
-
-## Contents
-
-- [ORCHESTRATION.md](ORCHESTRATION.md): normative agent orchestration;
-- [STATUS.md](STATUS.md): current readiness decision and exact resume point;
-- [schema/SCHEMA.md](schema/SCHEMA.md): canonical TSV schema;
-- `schema/templates/`: exact TSV headers;
-- `prompts/`: stage-worker instructions;
-- `model_schemas/`: worker JSON contracts;
-- `scripts/stage_operations.py`: deterministic payload and commit functions;
-- `scripts/build_linguistic_bindings.py`: QAC, attachment-unit, syntax, and
-  root-cooccurrence binding;
-- `scripts/build_word_claim_views.py`: derived all-word and claim-specific
-  branch-use TSVs for downstream commentary/translation work;
-- `scripts/workflow_common.py`: parsing, packet, TSV, and state helpers;
-- `scripts/validate_workspace.py`: normal structural validation; strict mode is
-  optional;
-- `s###/`: one canonical workspace per surah.
-
-The S1 workspace is the integration calibration. Ayah 1:6 is the completed
-slice; the remaining packet ayahs proceed through fresh stage workers under the
-same orchestration spec. Because both historical S1 readers saw the same
-whole-surah packet, this fixture does not by itself validate the intended
-five-versus-eleven-ayah production comparison.
+The existing prompts, model schemas, TSV templates, and S1 ayah-scoped task
+artifacts document the previous calibration workflow. They remain available as
+history but are not the target production contract. Only Markdown
+documentation was updated in the current change; implementation alignment is
+still pending.

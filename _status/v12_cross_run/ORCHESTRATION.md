@@ -1,396 +1,271 @@
-# v12 Cross-Run Agent Orchestration Specification
+# v12 Cross-Run Whole-Surah Publication Specification
 
-Use this specification when a fresh orchestrator continues or starts v12
-cross-run production. The orchestrator follows this document directly, runs
-deterministic helper scripts, and spawns fresh stage workers. No Python program
-owns the workflow or invokes the workers.
+This is the normative target workflow for combining canonical regular v12 and
+±5 v12 findings. The root orchestrator follows this document, prepares files,
+and spawns whole-surah agents. Scripts never spawn agents and there is no
+workflow CLI.
+
+The current staged extract/normalize/grade/publish prompts, schemas, and task
+helpers are legacy calibration machinery. They do not define production after
+this specification.
 
 ## 1. Objective
 
-Integrate the standard v12 reader and the eleven-ayah/±5 reader into one
-ayah-level ledger while keeping these decisions independent:
+For one surah, consolidate the two already-generated and already-audited v12
+readings into a compact publication structure:
 
-1. lexical status;
-2. resonance strength;
-3. publication role;
-4. translation role;
-5. retained disposition.
+- one or more primary contextual findings per ayah;
+- one or more secondary contextual findings per ayah;
+- exact `root_id` + `branch_id` anchors for every finding;
+- one finding-level grade for every secondary: `strong`, `weak`, or `reject`.
 
-All findings remain stored, including unlicensed evidence and rejected claims.
-Multiple primary and multiple secondary claims are allowed for one ayah.
+There is no translation-eligibility task, lexical-status classification,
+branch-level grade, unlicensed category, exploratory output category, or
+separate rejected collection.
 
-## 2. Authority Boundary
+Every non-primary finding becomes a secondary finding. A secondary graded
+`reject` remains fully stored as an ordinary secondary row; the grade is a
+recommendation, not deletion.
 
-The root orchestrator owns:
+## 2. Source Status and Authority
 
-- scope selection and stage order;
-- worker creation and task assignment;
-- the only writes to canonical TSVs;
-- one repair attempt for malformed worker output;
-- stage status and concise progress reporting.
+The source families are complete:
 
-Stage workers own only the reasoning requested by their assigned prompt. They
-must not edit canonical TSVs, choose the next stage, inspect unrelated analyses,
-or spawn their own adjudication chain.
+- canonical regular v12: S001-S114;
+- ±5 v12: S001-S114.
 
-Scripts are deterministic utilities only. They may discover and hash inputs,
-parse source blocks, build task payloads, validate JSON shape, enrich packet
-facts, calculate score totals, and write TSV rows atomically. A script must not:
+No new v12 reader runs are required for this integration workflow.
 
-- invoke a model or agent;
-- select publication or lexical decisions;
-- sequence the workflow;
-- retry a task;
-- run the whole corpus.
+The agent may use only the assigned whole-surah package:
 
-## 3. Evidence Boundary
+- the selected canonical regular v12 analytical output;
+- the selected ±5 v12 analytical output;
+- the matching `full_context_packet.json`;
+- the deterministic QAC/attachment linguistic cache;
+- the publication prompt and output contract.
 
-Production workers may use only:
+Do not add tafsir, translations, web material, older project analyses, or other
+surahs' unpublished work.
 
-- the regular v12 run whose packet actually contains only the focus ayah plus
-  up to two ayat on each side;
-- the wide v12 run whose packet actually contains only the focus ayah plus up
-  to five ayat on each side;
-- the assigned accepted-clean packet and branch inventory;
-- canonical rows and exact source lines supplied for their scope;
-- the schema and their stage prompt.
+## 3. Whole-Surah File Access
 
-Window boundaries are clipped at surah boundaries. Each treatment is a fresh,
-focus-specific run with a frozen prompt, packet, output, focus ref, and
-visible-ref list. Visibility must be enforced by the packet. A whole-surah
-packet paired with a prompt that merely describes ±2 or ±5 is a control run,
-not a production window treatment.
+Mirror the successful v12 input pattern. Give the agent paths to the complete
+surah files; do not serialize their contents into a giant task envelope and do
+not create one agent task per ayah.
 
-Do not use translations, tafsir, web sources, compact synthesis files, older
-project versions, or another worker's unpublished reasoning.
+A package index may record paths and hashes, but it is only an index. The agent
+opens the whole files and reads the sections it needs whenever it needs them.
+File size is not equivalent to initial prompt tokens.
 
-Historical calibration may retain a missing ±5 manifest with
-`provenance_status=reconstructed_unverified`; do not treat that limitation as
-evidence against an individual finding. Production must not start a paired
-scope unless both focus-specific manifests and reader outputs exist. If either
-reader output is absent, leave the paired integration pending unless the user
-explicitly permits a single-run treatment.
-
-## 4. Canonical and Temporary State
-
-The independently writable unit is one surah workspace:
+Typical package paths are:
 
 ```text
-_status/v12_cross_run/s###/
+v12/runs/s###/full_context_packet.json
+v12/runs/s###/full_context_control/<selected-reader-output>.md
+v12/runs_11ayah/s###/full_context_control/<selected-reader-output>.md
+_status/v12_cross_run/s###/linguistic/manifest.json
+_status/v12_cross_run/s###/linguistic/words.tsv
+_status/v12_cross_run/s###/linguistic/morphemes.tsv
+_status/v12_cross_run/s###/linguistic/attachment_units.tsv
+_status/v12_cross_run/s###/linguistic/syntax_edges.tsv
 ```
 
-Canonical semantic state consists only of:
+The agent owns the entire surah and processes ayat in surah order. It may write
+its surah output incrementally, as v12 did, but it may not delegate individual
+ayat to other agents.
 
-```text
-runs.tsv
-source_findings.tsv
-claims.tsv
-claim_sources.tsv
-branch_evidence.tsv
-coverage.tsv
-stage_status.tsv
-decisions.md
+## 4. Deterministic Preparation
+
+Before spawning the publisher, the orchestrator performs only mechanical work:
+
+1. select the two canonical reader outputs and record their hashes;
+2. verify that both outputs and the packet belong to the same surah;
+3. build or refresh the linguistic cache;
+4. resolve and validate the already-assigned `root_id` + `branch_id` anchors;
+5. create the small package index containing file paths and hashes.
+
+Run the existing binder:
+
+```bash
+python3 _status/v12_cross_run/scripts/build_linguistic_bindings.py \
+  _status/v12_cross_run/s###
 ```
 
-The orchestrator may create disposable task artifacts under:
+`build_linguistic_bindings.py` is the authority for:
 
-```text
-s###/automation/tasks/<stage>/<task_id>.json
-s###/automation/results/<stage>/<task_id>.json
-```
+- stable QAC word IDs;
+- QAC morpheme IDs and morphology;
+- mapping synthetic packet refs to QAC refs;
+- attachment-unit to QAC word/morpheme alignment;
+- attachment syntax-edge endpoints;
+- binding status and unresolved warnings.
 
-Worker result files are not canonical. The normalized TSVs remain the source of
-truth; a database or prose view is derived later.
+Attachment indices are never treated as QAC indices. The script cross-walks
+them through position, normalized surface, root, sequence, and clitic evidence.
+The publication agent does not perform, repair, or reinterpret this alignment.
 
-Before grading, build the deterministic linguistic cache under
-`s###/linguistic/` with `scripts/build_linguistic_bindings.py`. It contains QAC
-word/morpheme bindings, attachment units and syntax edges, and descriptive
-root-cooccurrence counts. The cache is reproducible from hashed resources; it
-does not contain agent classifications.
+## 5. Agent Roles
 
-Attachment IDs are never joined directly to QAC word indices. The binder
-cross-walks observed attachment positions through normalized surface, root,
-sequence, and clitic evidence, preserving both identifier systems. Safe
-fallbacks remain labeled; any unresolved endpoint is written to the manifest
-and blocks grading for that scope.
+### Agent A — whole-surah publisher
 
-Only one orchestrator may write a surah workspace at a time. Workers may reason
-in parallel because they do not write canonical data. Canonical commits to one
-surah are serialized.
+Agent A reads the complete package and directly writes the final publication
+structure. It performs the necessary consolidation internally; extraction,
+normalization, and branch grading are not separate stages or outputs.
 
-## 5. Unit of Reasoning and Stage Graph
+For every ayah, Agent A must:
 
-The normal reasoning unit is one ayah. The required graph is:
+1. retain the existing primary contextual readings as primary;
+2. merge only genuinely duplicate contextual readings;
+3. convert every non-primary or exploratory reading into secondary;
+4. preserve distinct contextual readings as distinct findings;
+5. copy or combine the already-assigned root/branch anchors;
+6. grade every secondary `strong`, `weak`, or `reject`;
+7. write the complete surah output.
 
-```text
-bootstrap + linguistic binding (deterministic, once per surah)
-  -> extract (fresh worker per ayah)
-  -> normalize (fresh worker per ayah)
-  -> grade (fresh worker per ayah or disjoint claim partition)
-  -> publish (fresh worker per ayah)
-  -> close (deterministic minimal checks)
-```
+Agent A does not emit source-finding IDs, lexical labels, translation roles,
+branch roles, evidentiary scores, or intermediate claims.
 
-There is no corpus-wide barrier. As soon as one ayah has its extraction result,
-it may advance while workers process other ayahs.
+### Agent B — whole-surah integration reviewer
 
-Reconciliation is an exception path, not a routine stage. Spawn a targeted
-worker with `prompts/04_reconcile_after_grading.md` only when grading reveals a
-material conflict, a non-atomic claim, or a necessary split/merge. Re-grade any
-new or materially changed claim before publication.
+Agent B reviews the complete proposed publication, not the original findings
+from scratch. Its narrow checks are:
 
-Audit and handoff are optional maintenance operations. Do not run an audit
-agent, strict audit loop, or derived-view build during normal production unless
-the user explicitly requests it.
+- all ayat with source findings are represented;
+- distinct contextual readings were not over-merged;
+- true contextual duplicates were not needlessly repeated;
+- every anchor resolves to an assigned `root_id` + `branch_id`;
+- primary findings have no grade;
+- every secondary has exactly one allowed grade;
+- `reject` secondaries remain fully present.
 
-### Deterministic helper map
+Agent B returns a concise issue list. If a material issue exists, Agent A gets
+one repair pass over the whole surah. Agent B does not invent new readings or
+reclassify branches.
 
-`scripts/stage_operations.py` is an importable function library and deliberately
-has no `main` or run-all command. The orchestrator calls only the function for
-the current explicit task:
+## 6. Publication Output
 
-| Need | Function |
-|---|---|
-| initialize provenance and source blocks | `initialize_workspace` |
-| build QAC/attachment/co-occurrence bindings | `scripts/build_linguistic_bindings.py` |
-| build/commit extraction | `extraction_payload` / `apply_extraction` |
-| build/commit normalization | `normalization_payload` / `apply_normalization` |
-| build/commit grading | `grading_payload` / `apply_grading` |
-| targeted exception decision | `reconciliation_payload` / `apply_reconciliation` |
-| build/commit publication | `publication_payload` / `apply_publication` |
-
-`scripts/workflow_common.py` provides packet lookup, atomic TSV I/O, hashes,
-and stage-state helpers. Neither module may spawn a worker or decide what runs
-next.
-
-## 6. Worker Task Envelope
-
-Before spawning a worker, the orchestrator creates a task envelope containing:
+The logical output for each ayah is:
 
 ```json
 {
-  "task_id": "s001-1_6-grade-001",
-  "stage": "grade",
-  "scope_ref": "1:6",
-  "workspace": "_status/v12_cross_run/s001",
-  "prompt_path": "_status/v12_cross_run/prompts/03_grade_lexical_resonance.md",
-  "result_schema_path": "_status/v12_cross_run/model_schemas/grade.json",
-  "result_path": "_status/v12_cross_run/s001/automation/results/grade/s001-1_6-grade-001.json",
-  "input_paths": [],
-  "expected_ids": [],
-  "payload": {}
+  "ayah_ref": "1:6",
+  "primary": [
+    {
+      "text": "contextual reading",
+      "anchors": [
+        {"root_id": "root_000000", "branch_id": "B001"}
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "text": "distinct contextual reading",
+      "grade": "strong",
+      "anchors": [
+        {"root_id": "root_000000", "branch_id": "B005"}
+      ]
+    },
+    {
+      "text": "retained but not recommended for default display",
+      "grade": "reject",
+      "anchors": [
+        {"root_id": "root_000001", "branch_id": "B003"}
+      ]
+    }
+  ]
 }
 ```
 
-The actual `payload` is stage-specific. Include the smallest complete evidence
-slice; do not make the worker search the repository for missing context.
+Rules:
 
-Use this spawn instruction, followed by the exact task path:
+- multiple primary and multiple secondary findings are allowed;
+- primary findings do not have a grade;
+- every secondary has exactly one grade;
+- a `reject` secondary has the same full structure as `strong` and `weak`;
+- anchors contain only `root_id` and `branch_id`;
+- branch anchors receive no context-independent labels;
+- no source-finding IDs are copied into the publication output;
+- original v12 files remain the source provenance;
+- downstream row IDs, if needed, are assigned mechanically after publication.
 
-```text
-You are a fresh v12 cross-run stage worker.
+## 7. Contextual Deduplication
 
-Read the assigned stage prompt and result schema completely. Use only the task
-envelope and the local evidence paths it names. Do not inspect unrelated project
-analysis. Do not edit canonical TSVs. Preserve unlicensed, rejected, deferred,
-and conflicting material. Write one JSON object conforming exactly to the
-result schema at result_path, then report only completion or a concrete blocker.
-```
+Deduplication is based on contextual-reading equivalence, never branch overlap.
 
-Use a fresh worker for each stage. Do not ask the extraction worker to grade its
-own findings or the grader to assign publication roles.
+Merge only when two findings express the same:
 
-## 7. Stage Instructions
+- fixed-ayah reading;
+- contextual mechanism;
+- structural or causal relationship;
+- substantive change in how the ayah is understood.
 
-### 7.1 Bootstrap
+Consequences:
 
-The orchestrator runs deterministic source discovery and parsing once per
-surah:
+- same branches + different contextual readings = separate findings;
+- different branches + the same contextual reading = merge is allowed, with
+  the anchors combined;
+- similar topic + different mechanism = separate findings;
+- paraphrase or compatible elaboration of the same mechanism = merge.
 
-1. resolve the focus-specific ±2 output from its frozen manifest and verify its
-   visible refs;
-2. resolve the focus-specific ±5 output from its frozen manifest and verify its
-   visible refs;
-3. record paths and hashes in `runs.tsv`;
-4. parse reader outputs into stable source blocks;
-5. initialize missing TSVs from `schema/templates/`;
-6. build the linguistic cache and require zero unresolved binding warnings;
-7. run structural validation once.
+When uncertain, preserve separate findings. Avoiding semantic loss is more
+important than minimizing row count.
 
-Bootstrap performs no interpretive classification.
+## 8. Secondary Grades
 
-### 7.2 Extract
+The grade belongs to the complete contextual finding, not to any branch.
 
-Prompt: `prompts/01_extract_source_findings.md`
-Schema: `model_schemas/extract.json`
+- `strong`: clear anchored mechanism that materially organizes or changes the
+  reading;
+- `weak`: distinct anchored reading with limited, indirect, or tentative force;
+- `reject`: retained in full, but Agent A recommends that it not appear in the
+  default publication layer.
 
-Spawn one worker per ayah. Give it all activated-reading and retrospective
-blocks from both available runs, each retaining its stable `run_id` and source
-pointer. The worker must account for every supplied block and split bundled
-mechanisms atomically without clustering across runs.
+`Reject` never authorizes deletion and never creates a third output category.
 
-After the worker returns, the orchestrator commits the results to
-`source_findings.tsv` in source order. Do not cluster, reject, or grade during
-extraction.
+## 9. Mechanical Close
 
-### 7.3 Normalize
+After Agent A and, when used, Agent B finish, deterministic checks verify only:
 
-Prompt: `prompts/02_normalize_mechanisms.md`
-Schema: `model_schemas/normalize.json`
+1. the output has the assigned surah and valid ordered ayah refs;
+2. primary and secondary structures match the publication contract;
+3. every secondary grade is `strong`, `weak`, or `reject`;
+4. primary findings contain no grade;
+5. every anchor resolves in the assigned packet/inventory snapshot;
+6. every QAC/attachment binding warning is resolved or explicitly surfaced;
+7. no forbidden source IDs, translation roles, or branch labels appear.
 
-Spawn one fresh worker for the ayah with findings from both runs. It clusters by
-mechanism rather than wording and returns provisional claims plus complete
-source lineage.
+The orchestrator then commits the complete surah output atomically and derives
+any downstream TSV/database views mechanically. No separate lexical audit or
+translation audit is part of this workflow.
 
-Cross-run silence is neutral. Agreement is stability information, not an
-independent confidence point. One-run findings remain present.
+## 10. Parallelism and Resume
 
-The orchestrator assigns stable claim IDs and commits `claims.tsv`,
-`claim_sources.tsv`, and finding merge/split dispositions atomically.
+- The independently owned unit is one whole surah.
+- Never spawn separate workers for its ayat.
+- Different surahs may run in parallel.
+- One publisher owns a surah from its first ayah through its final ayah.
+- Incremental writes are recovery checkpoints, not separate agent tasks.
+- If the publisher dies, a replacement receives the whole package and the
+  partial output, reviews the existing work, and owns completion of the surah.
 
-### 7.4 Grade
+## 11. Legacy S1 Calibration
 
-Prompt: `prompts/03_grade_lexical_resonance.md`
-Schema: `model_schemas/grade.json`
+The existing S1 TSV ledger and ayah-scoped task artifacts document the earlier
+calibration design. Preserve them as history, but do not resume the prepared
+ayah-level normalization or grading tasks.
 
-Give the worker the provisional claims, their source lines, exact packet
-occurrences, relevant accepted-clean inventory branches, and the mechanically
-bound QAC/attachment slice. For a long ayah,
-the orchestrator may partition by disjoint claim IDs; no claim may be graded by
-two workers in the same attempt.
+The first production test is a fresh whole-surah S1 direct-publication pass
+under this specification. It may consult the canonical v12 inputs, not the
+legacy classifications, as its analytical source.
 
-Keep that slice lean: provide full inventories for roots occurring in the
-focus ayah (so the worker can establish the direct lexical floor), but only the
-explicitly cited branch records for roots that occur solely in support ayahs.
-Include linguistic rows only for the focus and cited support refs.
+## 12. Completion
 
-The worker classifies every cited or necessary branch as:
+A surah is complete when:
 
-- `direct`;
-- `contextually_activated`;
-- `analogical_resonance`;
-- `unlicensed`.
-
-Eligible analogical resonance receives five 0–2 component scores. The script,
-not the worker, calculates the total and strength bucket:
-
-- 8–10: `strong`;
-- 5–7: `moderate`;
-- 0–4: `weak`.
-
-A failed eligibility gate becomes retained `unlicensed` evidence with no
-score. Cross-run agreement contributes zero points. Analogical and unlicensed
-evidence always receives `translation_role=none`.
-
-The orchestrator enriches deterministic packet fields and commits all evidence
-rows atomically. It also supplies `word_id`/`morpheme_id`, calculates score and
-strength, and validates cited linguistic feature IDs. Workers interpret the
-relevance of supplied morphology/syntax; they never bind QAC tokens or compute
-collocations. Missing, mismatched, and failed branches remain in the ledger.
-
-### 7.5 Publish
-
-Prompt: `prompts/05_assign_publication_roles.md`
-Schema: `model_schemas/publish.json`
-
-Spawn one fresh worker for the ayah after grading is complete. It assigns one
-terminal disposition and publication role to every claim.
-
-Publication role is independent of lexical status. A strong analogical
-resonance may materially support a primary mechanism, but it cannot become a
-translation sense or serve as the sole lexical anchor of a primary claim.
-
-More than one `primary` and more than one `secondary` are allowed. Claims not
-promoted remain queryable as `exploratory`, `evidence_only`, `deferred`,
-`conflict`, or `rejected`/`none` as warranted.
-
-The orchestrator commits claim decisions and derives `coverage.tsv`
-deterministically.
-
-## 8. Commit Protocol
-
-For each worker result, the orchestrator performs only these checks:
-
-1. the JSON matches the named result schema;
-2. returned IDs equal the assigned IDs or blocks—none missing or extra;
-3. referenced source, claim, occurrence, and branch IDs resolve;
-4. resonance arithmetic and bucket mapping are correct;
-5. analogical/unlicensed evidence has no translation access;
-6. a published primary claim has a fixed-ayah `direct` or
-   `contextually_activated` anchor.
-
-If these pass, write the affected TSVs atomically and mark the stage complete.
-Do not require a second opinion, prose audit, cross-run agreement, or strict
-workspace audit.
-
-If the result is malformed, send the concrete validation errors back to that
-worker once. If the repair still fails, mark only that task failed and continue
-unrelated ayahs. Do not silently repair a worker's interpretive decision in a
-script.
-
-Run the normal structural validator after a stage commit:
-
-```bash
-python3 _status/v12_cross_run/scripts/validate_workspace.py \
-  _status/v12_cross_run/s001 --scope 1:6
-```
-
-`--strict` is optional and is not a production gate.
-
-## 9. Parallelism and Resume
-
-- Parallelize workers across disjoint ayahs.
-- Never run two workers that will decide the same claim in one attempt.
-- Do not let workers write shared TSVs.
-- Serialize commits within each surah workspace.
-- Respect the dependency graph per ayah; do not wait for the entire surah.
-- Resume from the first incomplete stage in `stage_status.tsv`.
-- A completed stage is reused unless one of its canonical inputs changed.
-- When an input changed, append a new attempt; never overwrite stage history.
-
-## 10. Non-Loss and Translation Invariants
-
-- No evidential outcome authorizes deletion.
-- `unlicensed` means not lexically available, not discarded.
-- `rejected` means not promoted, not discarded.
-- Merged and split predecessors retain source lineage.
-- Every source finding reaches at least one claim or an explicit retained
-  terminal outcome.
-- Every cited branch receives an evidence row, including failed branches.
-- Only `direct` may govern translation.
-- Only `direct` or `contextually_activated` may modify translation.
-- Analogical resonance may enter commentary but never translation.
-
-## 11. Completion Definition
-
-An ayah is complete when:
-
-- every source block from both assigned runs is accounted for;
-- every finding has claim lineage;
-- every cited branch is retained and classified;
-- all eligible resonance scores are arithmetically closed;
-- every claim has a terminal publication decision;
-- coverage is derived;
-- the six commit checks pass.
-
-A surah is complete when every assigned ayah is complete or explicitly marked
-blocked with a concrete missing input. No separate audit stage is required.
-
-The user-facing structure is a derived join, not another hand-edited ledger:
-
-```text
-ayah
-  words/morphemes -> QAC morphology + attachment links
-  branch uses -> evidence ID + lexical/translation status + claim ID/role
-  claims -> mechanism + publication role + source lineage
-```
-
-Publication role remains claim-specific. Never flatten it into an intrinsic
-`word -> primary branch` label.
-
-## 12. Resume and Production Checkpoint
-
-Read [STATUS.md](STATUS.md) for the exact live task IDs, completed S1 scopes,
-remaining stages, source-window limitation, and corpus-production gates. Do not
-copy a stale next-ayah instruction from this specification; resume from
-`stage_status.tsv` and the exact task envelope named there.
+- Agent A has processed the whole surah;
+- each contextual reading is represented as primary or secondary;
+- contextual duplicates are consolidated without collapsing distinct readings;
+- every finding has valid root/branch anchors;
+- every secondary has a grade, including fully retained `reject` findings;
+- the mechanical QAC/attachment cache has no unresolved blocking warning;
+- the final surah output passes the compact structural checks.

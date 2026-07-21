@@ -1,164 +1,101 @@
-# v12 Cross-Run Production Status
+# v12 Cross-Run Publication Status
 
 Checkpoint: 2026-07-21
 
-Read this file first when resuming. Then read
-[ORCHESTRATION.md](ORCHESTRATION.md) and inspect the target surah's
-`stage_status.tsv`. The orchestration specification is normative; this file is
-the disposable operational checkpoint.
+Read [ORCHESTRATION.md](ORCHESTRATION.md) first when resuming. It contains the
+current whole-surah direct-publication design.
 
-## Readiness Decision
+## Decisions Now Fixed
 
-The integration machinery is ready for a controlled pilot. It is **not yet
-ready for corpus-wide production**.
+- Canonical regular v12 is complete for S001-S114.
+- ±5 v12 is complete for S001-S114.
+- No new v12 reader runs are pending.
+- An integration agent owns an entire surah, never one ayah.
+- The agent reads complete files on demand, following the original v12 access
+  pattern; source files are not embedded into a large prompt payload.
+- Agent A directly writes the publication output.
+- Agent B performs only a narrow whole-surah integration review.
+- There are no separate extraction, normalization, lexical-grading, or
+  translation-eligibility stages in production.
 
-Two gates remain:
+## Final Finding Model
 
-1. finish S1 through publication and close it with zero structural errors;
-2. create and freeze genuinely focus-constrained source runs for the two
-   treatments used in production.
+For each ayah:
 
-Do not begin unattended corpus production merely because the schema and stage
-workers exist.
+- `primary`: contextual reading text plus assigned `root_id` + `branch_id`
+  anchors; no grade;
+- `secondary`: contextual reading text, assigned anchors, and exactly one grade:
+  `strong`, `weak`, or `reject`.
 
-## Production Source Treatments
+Every non-primary or exploratory finding becomes secondary. A secondary graded
+`reject` remains fully stored; it is not moved to another category and is not
+deleted.
 
-For every focus ayah, production must compare two independent, focus-specific
-reader runs:
+The output does not carry source-finding IDs, translation roles, lexical
+statuses, branch roles, or branch-level grades. Original v12 files remain the
+provenance source.
 
-| Treatment | Material actually visible to reader |
-|---|---|
-| regular v12 | focus ayah, up to 2 preceding, and up to 2 following ayat |
-| wide v12 | focus ayah, up to 5 preceding, and up to 5 following ayat |
+Deduplication uses contextual-reading equivalence only. Shared roots or branches
+never justify merging. Two readings with the same anchors remain separate when
+their contextual mechanisms or reading changes differ.
 
-Both windows are clipped at surah boundaries. The packet—not only the prose
-prompt—must enforce the visibility boundary. Each treatment needs its own
-packet hash, output hash, prompt hash, focus ref, and visible-ref list. The
-integration worker still reasons about one focus ayah at a time.
+## Mechanical Linguistic Work
 
-The existing `v12/runs/s###/full_context_packet.json` files are whole-surah
-control packets. Existing `v12/runs_11ayah/` outputs do not by themselves prove
-that the reader was blind outside a focus-specific ±5 window. They are useful
-discovery/control material, but are not substitutes for constrained production
-inputs.
+`scripts/build_linguistic_bindings.py` already performs the required mechanical
+alignment:
 
-S1 used the same seven-ayah whole-surah packet for both readers. Therefore S1
-tests extraction, normalization, grading, publication, retention, morphology,
-and attachment alignment, but it must not be presented as a clean
-five-versus-eleven-ayah window comparison. A production S1 result requires
-focus-specific reruns too.
+- assigns stable QAC word IDs;
+- assigns QAC morpheme IDs and morphology;
+- maps packet refs, including synthetic Basmalah refs, to QAC refs;
+- cross-walks attachment units and syntax-edge endpoints to QAC words and
+  morphemes without assuming equal indices;
+- records binding methods, cautions, and unresolved warnings.
 
-Upstream source work still required:
+This work remains script-owned. The publication agent only consumes the result;
+it does not align QAC and attachment identifiers.
 
-- define a stable per-focus directory and manifest convention for ±2 and ±5;
-- build the two actual window packets for each focus;
-- use fresh readers restricted to the assigned packet and focus output;
-- freeze every prompt/packet/output triple;
-- extend source discovery to select these manifests instead of silently
-  selecting a whole-surah control.
+## Current Implementation State
 
-## Completed Machinery
+Only documentation was updated for this decision. The existing production
+implementation still reflects the superseded ayah-sharded, multi-stage
+calibration workflow.
 
-- normative agent orchestration, prompts, and JSON result contracts;
-- canonical non-loss TSV schema with independent lexical, resonance,
-  publication, translation, and disposition axes;
-- deterministic QAC word/morpheme binding and attachment crosswalk;
-- deterministic task construction and atomic result application;
-- derived word/claim views for downstream commentary and translation;
-- S1 extraction: 80 retained findings across all seven assigned scopes;
-- complete 1:6 calibration: 7 claims, 18 source links, 40 branch-evidence rows,
-  and 13 coverage rows;
-- linguistic binder protocol v2 rebuilt for S1 with 29 words, 48 morphemes,
-  30 attachment units, 23 syntax edges, 28 root-cooccurrence rows, and zero
-  unresolved warnings.
+Reusable now:
 
-The binder was also stress-tested transiently against S18: 1,583 words, 2,582
-morphemes, 1,525 observed attachment units, 1,258 syntax edges, 5,950
-root-cooccurrence rows, and zero unresolved endpoints. Three contracted forms
-resolved at word rather than morpheme level; they remain visibly labeled, not
-discarded. This was a binder test only and was not persisted as a canonical S18
-cross-run workspace.
+- whole-surah v12 source files;
+- linguistic binder protocol v2;
+- QAC word/morpheme and attachment-alignment cache;
+- source discovery, hashing, atomic file primitives, and packet lookup;
+- the historical S1 calibration as a reference fixture.
 
-## S1 Checkpoint
+Still to implement:
 
-| Scope | Extract | Normalize | Grade | Publish |
-|---|---|---|---|---|
-| 1:0 | complete | complete | complete | pending |
-| 1:2 | complete | complete | complete | pending |
-| 1:3 | complete | task prepared | pending | pending |
-| 1:4 | complete | task prepared | pending | pending |
-| 1:5 | complete | complete | complete | pending |
-| 1:6 | complete | complete | complete | complete |
-| 1:7 | complete | task prepared | pending | pending |
+1. a compact whole-surah package index containing source paths and hashes;
+2. the whole-surah publisher prompt and simplified publication schema;
+3. the whole-surah integration-review prompt;
+4. direct whole-surah result commit and minimal structural validation;
+5. derived downstream views for the simplified primary/secondary model.
 
-The two completed grading repairs enforced core invariants only: support-ayah evidence
-cannot enter translation, and a `direct` classification cannot retain a failed
-construction gate. Use one repair attempt, as specified; do not add an audit
-agent.
+Do not resume the prepared S1 ayah tasks. They belong to the superseded design.
 
-Current canonical totals are 80 findings, 20 claims, 54 claim-source links, 113
-branch-evidence rows, and 13 terminal coverage rows. Normal structural
-validation reports zero errors. Its five warnings are expected provenance
-notices for historically frozen prompt content. No stage is currently marked
-`running`.
+## Next Test
 
-Durable task identities at this checkpoint:
+After the implementation is aligned with the new documentation:
 
-| Scope | Stage/task | Stage ID | Result |
-|---|---|---|---|
-| 1:0 | `s001-1_0-grade-001` | `st-s001-1_0-grade-001` | committed after one invariant repair |
-| 1:2 | `s001-1_2-grade-002` | `st-s001-1_2-grade-002` | committed |
-| 1:5 | `s001-1_5-grade-001` | `st-s001-1_5-grade-001` | committed after one invariant repair |
+1. build/refesh S1 linguistic bindings mechanically;
+2. give Agent A the complete S1 source package;
+3. have Agent A write the complete S1 publication;
+4. have Agent B review the complete S1 result once;
+5. give Agent A one repair pass only if needed;
+6. run minimal structural and anchor validation;
+7. commit the whole S1 result atomically.
 
-Prepared but unstarted normalization envelopes:
+After S1 closes, test the same whole-surah pattern on S2. S2 is the largest
+practical input case and should use file access and incremental output, not
+ayah-agent sharding.
 
-- `automation/tasks/normalize/s001-1_3-normalize-001.json`
-- `automation/tasks/normalize/s001-1_4-normalize-001.json`
-- `automation/tasks/normalize/s001-1_7-normalize-001.json`
+## Production Readiness
 
-## Resume Procedure
-
-1. Read `s001/stage_status.tsv`; never infer durable state from an old chat or
-   agent name.
-2. For a `running` row, inspect the exact task envelope and its named
-   `result_path`.
-3. If a valid repaired result exists, call `apply_task_result(task_path)` and
-   then `end_stage(...)` for that exact stage ID.
-4. If no result exists and no worker is alive, mark that attempt failed with a
-   concrete note, create the next numbered task, and spawn one fresh worker.
-5. After grading, create a fresh publication task for that ayah. Do not let the
-   grader publish its own claims.
-6. The immediate next tasks are publication for 1:0, 1:2, and 1:5, plus
-   normalization for 1:3, 1:4, and 1:7.
-7. Continue 1:3, 1:4, and 1:7 through normalize → grade → publish. Canonical
-   commits within S1 stay serialized even when workers reason in parallel.
-8. Rebuild derived word views only after the semantic rows are terminal.
-
-Example deterministic close commands:
-
-```bash
-python3 _status/v12_cross_run/scripts/build_linguistic_bindings.py \
-  _status/v12_cross_run/s001
-
-python3 _status/v12_cross_run/scripts/validate_workspace.py \
-  _status/v12_cross_run/s001
-
-python3 _status/v12_cross_run/scripts/build_word_claim_views.py \
-  _status/v12_cross_run/s001
-```
-
-Normal structural validation is the production gate. Strict validation and a
-separate audit agent are not required.
-
-## Gate for Corpus Production
-
-Corpus production may start only when:
-
-- the source resolver accepts only frozen, actual ±2 and ±5 focus packets;
-- every S1 scope has terminal publication decisions;
-- S1 has zero unresolved linguistic warnings and zero structural errors;
-- a fresh paired-window pilot demonstrates the revised source layer end to end.
-
-After those gates, process surah by surah and ayah by ayah. A large surah does
-not go to one integration agent: only deterministic bootstrap is surah-wide;
-interpretive workers receive one compact ayah task.
+The source runs and QAC/attachment binder are ready. The simplified
+whole-surah publisher is not production-ready until the old task boundary and
+output contracts are replaced and S1/S2 pass the new workflow.
