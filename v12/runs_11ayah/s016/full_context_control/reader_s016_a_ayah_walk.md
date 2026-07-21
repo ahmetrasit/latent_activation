@@ -8,7 +8,7 @@
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:4 was decisive: the drop-to-human creation made the womb branch more than an abstract mercy metaphor.
 
 ## 16:1 — أَتَىٰٓ أَمْرُ ٱللَّهِ فَلَا تَسْتَعْجِلُوهُ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ
 
@@ -18,7 +18,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:6's paired `حِينَ` corrected my first event-only reading toward an appointed, recurring order.
 
 ## 16:2 — يُنَزِّلُ ٱلْمَلَٰٓئِكَةَ بِٱلرُّوحِ مِنْ أَمْرِهِۦ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦٓ أَنْ أَنذِرُوٓا۟ أَنَّهُۥ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱتَّقُونِ
 
@@ -28,7 +28,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:6 unexpectedly returned the `ر و ح` root through herd movement, sharpening spirit as transmissive motion.
 
 ## 16:3 — خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ تَعَٰلَىٰ عَمَّا يُشْرِكُونَ
 
@@ -38,7 +38,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:5-8 made proportion visible through fitted animal functions, strengthening `خ ل ق` as calibration.
 
 ## 16:4 — خَلَقَ ٱلْإِنسَٰنَ مِن نُّطْفَةٍۢ فَإِذَا هُوَ خَصِيمٌۭ مُّبِينٌۭ
 
@@ -48,7 +48,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:9 supplied the split-route image that made `مُّبِين` an active separator rather than a plain descriptor.
 
 ## 16:5 — وَٱلْأَنْعَٰمَ خَلَقَهَا ۗ لَكُمْ فِيهَا دِفْءٌۭ وَمَنَٰفِعُ وَمِنْهَا تَأْكُلُونَ
 
@@ -58,7 +58,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:6-10 expanded warmth into the herd's full cycle of movement, transport, and pasture.
 
 ## 16:6 — وَلَكُمْ فِيهَا جَمَالٌ حِينَ تُرِيحُونَ وَحِينَ تَسْرَحُونَ
 
@@ -68,7 +68,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:10-11 made rain-fed grazing and crops the missing ecological layer in the collected beauty.
 
 ## 16:7 — وَتَحْمِلُ أَثْقَالَكُمْ إِلَىٰ بَلَدٍۢ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ ۚ إِنَّ رَبَّكُمْ لَرَءُوفٌۭ رَّحِيمٌۭ
 
@@ -78,7 +78,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:8-12 showed that spared bodily strain belongs to a wider transport-and-guidance system.
 
 ## 16:8 — وَٱلْخَيْلَ وَٱلْبِغَالَ وَٱلْحَمِيرَ لِتَرْكَبُوهَا وَزِينَةًۭ ۚ وَيَخْلُقُ مَا لَا تَعْلَمُونَ
 
@@ -88,7 +88,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:9 made route the decisive third component alongside animal body and rider.
 
 ## 16:9 — وَعَلَى ٱللَّهِ قَصْدُ ٱلسَّبِيلِ وَمِنْهَا جَآئِرٌۭ ۚ وَلَوْ شَآءَ لَهَدَىٰكُمْ أَجْمَعِينَ
 
@@ -98,7 +98,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:10-14 corrected a merely geometric "straight road" reading toward balanced transfers across creation.
 
 ## 16:10 — هُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ ۖ لَّكُم مِّنْهُ شَرَابٌۭ وَمِنْهُ شَجَرٌۭ فِيهِ تُسِيمُونَ
 
@@ -108,7 +108,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:11 and 16:14-15 revealed the descended water's branching outputs across crop, sea, and river.
 
 ## 16:11 — يُنۢبِتُ لَكُم بِهِ ٱلزَّرْعَ وَٱلزَّيْتُونَ وَٱلنَّخِيلَ وَٱلْأَعْنَٰبَ وَمِن كُلِّ ٱلثَّمَرَٰتِ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّقَوْمٍۢ يَتَفَكَّرُونَ
 
@@ -118,7 +118,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:14 surprisingly extended `ثَمَر`-yield beyond botany into food, ornament, travel, and bounty.
 
 ## 16:12 — وَسَخَّرَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ وَٱلشَّمْسَ وَٱلْقَمَرَ ۖ وَٱلنُّجُومُ مُسَخَّرَٰتٌۢ بِأَمْرِهِۦٓ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّقَوْمٍۢ يَعْقِلُونَ
 
@@ -128,7 +128,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:15-16 made restraint productive: fixed land and visible markers turn governed motion into guidance.
 
 ## 16:13 — وَمَا ذَرَأَ لَكُمْ فِى ٱلْأَرْضِ مُخْتَلِفًا أَلْوَٰنُهُۥٓ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّقَوْمٍۢ يَذَّكَّرُونَ
 
@@ -138,7 +138,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:14-16 changed color-difference into alternating ecological and navigational functions.
 
 ## 16:14 — وَهُوَ ٱلَّذِى سَخَّرَ ٱلْبَحْرَ لِتَأْكُلُوا۟ مِنْهُ لَحْمًۭا طَرِيًّۭا وَتَسْتَخْرِجُوا۟ مِنْهُ حِلْيَةًۭ تَلْبَسُونَهَا وَتَرَى ٱلْفُلْكَ مَوَاخِرَ فِيهِ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ
 
@@ -148,7 +148,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:15-16 supplied land paths and markers, making the ship's water-cut a route-making act.
 
 ## 16:15 — وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَأَنْهَٰرًۭا وَسُبُلًۭا لَّعَلَّكُمْ تَهْتَدُونَ
 
@@ -158,7 +158,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:16 confirmed the mooring activation by making stability serve orientation rather than stillness alone.
 
 ## 16:16 — وَعَلَٰمَٰتٍۢ ۚ وَبِٱلنَّجْمِ هُمْ يَهْتَدُونَ
 
@@ -168,7 +168,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+No later ayah in the clipped window added a stronger activation beyond the fixed marker-guidance relation.
 
 ## 16:17 — أَفَمَن يَخْلُقُ كَمَن لَّا يَخْلُقُ ۗ أَفَلَا تَذَكَّرُونَ
 
@@ -178,7 +178,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:20 sharpened the contrast: the noncreator lacks not only origination but fitted productive capacity.
 
 ## 16:18 — وَإِن تَعُدُّوا۟ نِعْمَةَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱللَّهَ لَغَفُورٌۭ رَّحِيمٌۭ
 
@@ -188,7 +188,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:20-21 made the pebble-like count tactile by contrasting abundant favors with inert, insensible objects.
 
 ## 16:19 — وَٱللَّهُ يَعْلَمُ مَا تُسِرُّونَ وَمَا تُعْلِنُونَ
 
@@ -198,7 +198,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:20-23 exposed the hidden content as devotional allegiance, denial, and inward arrogance.
 
 ## 16:20 — وَٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ لَا يَخْلُقُونَ شَيْـًۭٔا وَهُمْ يُخْلَقُونَ
 
@@ -208,7 +208,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:21's lack of awareness made the "knowable thing" variant an epistemic contrast rather than wordplay.
 
 ## 16:21 — أَمْوَٰتٌ غَيْرُ أَحْيَآءٍۢ ۖ وَمَا يَشْعُرُونَ أَيَّانَ يُبْعَثُونَ
 
@@ -218,7 +218,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:22-23 relocated failed sensation into rejecting hearts and contrasted it again with divine knowledge.
 ## 16:22 — إِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ ۚ فَٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ قُلُوبُهُم مُّنكِرَةٌۭ وَهُم مُّسْتَكْبِرُونَ
 
 ### Activated readings
@@ -227,7 +227,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:26's roof-foundation reversal gave the inwardly reversed heart an unexpectedly architectural analogue.
 
 ## 16:23 — لَا جَرَمَ أَنَّ ٱللَّهَ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْتَكْبِرِينَ
 
@@ -237,7 +237,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:25-26 turned `لَا جَرَمَ` into harvest and cutoff through accumulated burdens and collapse.
 
 ## 16:24 — وَإِذَا قِيلَ لَهُم مَّاذَآ أَنزَلَ رَبُّكُمْ ۙ قَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ
 
@@ -247,7 +247,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:25 showed that calling revelation old rows is causally transmissive: it loads those who mislead.
 
 ## 16:25 — لِيَحْمِلُوٓا۟ أَوْزَارَهُمْ كَامِلَةًۭ يَوْمَ ٱلْقِيَٰمَةِ ۙ وَمِنْ أَوْزَارِ ٱلَّذِينَ يُضِلُّونَهُم بِغَيْرِ عِلْمٍ ۗ أَلَا سَآءَ مَا يَزِرُونَ
 
@@ -257,7 +257,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:26-29 converted abstract liability into a sequence of collapse, exposure, surrender, and entry.
 
 ## 16:26 — قَدْ مَكَرَ ٱلَّذِينَ مِن قَبْلِهِمْ فَأَتَى ٱللَّهُ بُنْيَٰنَهُم مِّنَ ٱلْقَوَاعِدِ فَخَرَّ عَلَيْهِمُ ٱلسَّقْفُ مِن فَوْقِهِمْ وَأَتَىٰهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ
 
@@ -267,7 +267,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:27-29 confirmed that ruin overtakes through public exposure as well as failed architecture.
 
 ## 16:27 — ثُمَّ يَوْمَ ٱلْقِيَٰمَةِ يُخْزِيهِمْ وَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ تُشَٰٓقُّونَ فِيهِمْ ۚ قَالَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ إِنَّ ٱلْخِزْىَ ٱلْيَوْمَ وَٱلسُّوٓءَ عَلَى ٱلْكَٰفِرِينَ
 
@@ -277,7 +277,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:28-30 made the social split visible through opposite surrenders, answers, and destinations.
 
 ## 16:28 — ٱلَّذِينَ تَتَوَفَّىٰهُمُ ٱلْمَلَٰٓئِكَةُ ظَالِمِىٓ أَنفُسِهِمْ ۖ فَأَلْقَوُا۟ ٱلسَّلَمَ مَا كُنَّا نَعْمَلُ مِن سُوٓءٍۭ ۚ بَلَىٰٓ إِنَّ ٱللَّهَ عَلِيمٌۢ بِمَا كُنتُمْ تَعْمَلُونَ
 
@@ -287,7 +287,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:32 supplied the exact angelic mirror, clarifying that 16:28's `ٱلسَّلَم` is failed relinquishment.
 
 ## 16:29 — فَٱدْخُلُوٓا۟ أَبْوَٰبَ جَهَنَّمَ خَٰلِدِينَ فِيهَا ۖ فَلَبِئْسَ مَثْوَى ٱلْمُتَكَبِّرِينَ
 
@@ -297,7 +297,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:30-32 supplied the opposite classified entry, strengthening the gates-as-sorting mechanism.
 
 ## 16:30 — ۞ وَقِيلَ لِلَّذِينَ ٱتَّقَوْا۟ مَاذَآ أَنزَلَ رَبُّكُمْ ۚ قَالُوا۟ خَيْرًۭا ۗ لِّلَّذِينَ أَحْسَنُوا۟ فِى هَٰذِهِ ٱلدُّنْيَا حَسَنَةٌۭ ۚ وَلَدَارُ ٱلْءَاخِرَةِ خَيْرٌۭ ۚ وَلَنِعْمَ دَارُ ٱلْمُتَّقِينَ
 
@@ -307,7 +307,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:31-32 showed that choosing "good" becomes a trajectory of flowing grant and work-grounded entry.
 
 ## 16:31 — جَنَّٰتُ عَدْنٍۢ يَدْخُلُونَهَا تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۖ لَهُمْ فِيهَا مَا يَشَآءُونَ ۚ كَذَٰلِكَ يَجْزِى ٱللَّهُ ٱلْمُتَّقِينَ
 
@@ -317,7 +317,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:32 tied the ongoing grant directly to cleansed persons and their prior work.
 
 ## 16:32 — ٱلَّذِينَ تَتَوَفَّىٰهُمُ ٱلْمَلَٰٓئِكَةُ طَيِّبِينَ ۙ يَقُولُونَ سَلَٰمٌ عَلَيْكُمُ ٱدْخُلُوا۟ ٱلْجَنَّةَ بِمَا كُنتُمْ تَعْمَلُونَ
 
@@ -327,7 +327,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:33-34 made angelic arrival and deed-consequence the transition that `طَيِّبِينَ` safely crosses.
 
 ## 16:33 — هَلْ يَنظُرُونَ إِلَّآ أَن تَأْتِيَهُمُ ٱلْمَلَٰٓئِكَةُ أَوْ يَأْتِىَ أَمْرُ رَبِّكَ ۚ كَذَٰلِكَ فَعَلَ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ وَمَا ظَلَمَهُمُ ٱللَّهُ وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ
 
@@ -337,7 +337,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:38's denied rousing fixed the endpoint of the respite more sharply than 16:34 alone.
 
 ## 16:34 — فَأَصَابَهُمْ سَيِّـَٔاتُ مَا عَمِلُوا۟ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ
 
@@ -347,7 +347,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:35-36 identified the returning target: self-justifying speech meets the message it rejected.
 
 ## 16:35 — وَقَالَ ٱلَّذِينَ أَشْرَكُوا۟ لَوْ شَآءَ ٱللَّهُ مَا عَبَدْنَا مِن دُونِهِۦ مِن شَىْءٍۢ نَّحْنُ وَلَآ ءَابَآؤُنَا وَلَا حَرَّمْنَا مِن دُونِهِۦ مِن شَىْءٍۢ ۚ كَذَٰلِكَ فَعَلَ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ فَهَلْ عَلَى ٱلرُّسُلِ إِلَّا ٱلْبَلَٰغُ ٱلْمُبِينُ
 
@@ -357,7 +357,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:36 corrected the fatalist boundary claim by locating legitimate limits in a conveyed command.
 
 ## 16:36 — وَلَقَدْ بَعَثْنَا فِى كُلِّ أُمَّةٍۢ رَّسُولًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱجْتَنِبُوا۟ ٱلطَّٰغُوتَ ۖ فَمِنْهُم مَّنْ هَدَى ٱللَّهُ وَمِنْهُم مَّنْ حَقَّتْ عَلَيْهِ ٱلضَّلَٰلَةُ ۚ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ
 
@@ -367,7 +367,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:39 made the route's outcome a disclosure mechanism, not merely a historical warning.
 
 ## 16:37 — إِن تَحْرِصْ عَلَىٰ هُدَىٰهُمْ فَإِنَّ ٱللَّهَ لَا يَهْدِى مَن يُضِلُّ ۖ وَمَا لَهُم مِّن نَّٰصِرِينَ
 
@@ -377,7 +377,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:41-42 replaced scraping concern with migration, patience, and reliance, confirming the limit on control.
 
 ## 16:38 — وَأَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ ۙ لَا يَبْعَثُ ٱللَّهُ مَن يَمُوتُ ۚ بَلَىٰ وَعْدًا عَلَيْهِ حَقًّۭا وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ
 
@@ -387,7 +387,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:39-40 exposed the oath's strain by answering it with disclosure and effortless realization.
 
 ## 16:39 — لِيُبَيِّنَ لَهُمُ ٱلَّذِى يَخْتَلِفُونَ فِيهِ وَلِيَعْلَمَ ٱلَّذِينَ كَفَرُوٓا۟ أَنَّهُمْ كَانُوا۟ كَٰذِبِينَ
 
@@ -397,7 +397,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:40 and 16:44 joined event-disclosure to textual explanation, preserving both modes without merging them.
 
 ## 16:40 — إِنَّمَا قَوْلُنَا لِشَىْءٍ إِذَآ أَرَدْنَٰهُ أَن نَّقُولَ لَهُۥ كُن فَيَكُونُ
 
@@ -407,7 +407,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:41 supplied an immediate event-form: commanded being becomes concrete displacement and resettlement.
 
 ## 16:41 — وَٱلَّذِينَ هَاجَرُوا۟ فِى ٱللَّهِ مِنۢ بَعْدِ مَا ظُلِمُوا۟ لَنُبَوِّئَنَّهُمْ فِى ٱلدُّنْيَا حَسَنَةًۭ ۖ وَلَأَجْرُ ٱلْءَاخِرَةِ أَكْبَرُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ
 
@@ -417,7 +417,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:45-46 surprisingly contrasted prepared settlement with ground failure and insecure movement.
 
 ## 16:42 — ٱلَّذِينَ صَبَرُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ
 
@@ -427,7 +427,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:43-47 filled entrusted patience with concrete uncertainties: message, hidden threat, capture, and attrition.
 
 ## 16:43 — وَمَآ أَرْسَلْنَا مِن قَبْلِكَ إِلَّا رِجَالًۭا نُّوحِىٓ إِلَيْهِمْ ۚ فَسْـَٔلُوٓا۟ أَهْلَ ٱلذِّكْرِ إِن كُنتُمْ لَا تَعْلَمُونَ
 
@@ -437,7 +437,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:44 showed that belonging to remembrance is maintained through proofs, writings, and active explanation.
 
 ## 16:44 — بِٱلْبَيِّنَٰتِ وَٱلزُّبُرِ ۗ وَأَنزَلْنَآ إِلَيْكَ ٱلذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ وَلَعَلَّهُمْ يَتَفَكَّرُونَ
 
@@ -447,7 +447,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:45-47 confirmed the reminder's admonitory force by unfolding three distinct danger trajectories.
 
 ## 16:45 — أَفَأَمِنَ ٱلَّذِينَ مَكَرُوا۟ ٱلسَّيِّـَٔاتِ أَن يَخْسِفَ ٱللَّهُ بِهِمُ ٱلْأَرْضَ أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ
 
@@ -457,7 +457,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:48-50 made sinking the forced inverse of shadows and creatures that lower willingly.
 
 ## 16:46 — أَوْ يَأْخُذَهُمْ فِى تَقَلُّبِهِمْ فَمَا هُم بِمُعْجِزِينَ
 
@@ -467,7 +467,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:48's right-left shadow turning made mobility itself visibly governed.
 
 ## 16:47 — أَوْ يَأْخُذَهُمْ عَلَىٰ تَخَوُّفٍۢ فَإِنَّ رَبَّكُمْ لَرَءُوفٌۭ رَّحِيمٌ
 
@@ -477,7 +477,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:48's gradual shadow return strengthened the attritional reading and explained the merciful close.
 
 ## 16:48 — أَوَلَمْ يَرَوْا۟ إِلَىٰ مَا خَلَقَ ٱللَّهُ مِن شَىْءٍۢ يَتَفَيَّؤُا۟ ظِلَٰلُهُۥ عَنِ ٱلْيَمِينِ وَٱلشَّمَآئِلِ سُجَّدًۭا لِّلَّهِ وَهُمْ دَٰخِرُونَ
 
@@ -487,7 +487,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:49-50 expanded one shadow's return into universal submission and command-following.
 
 ## 16:49 — وَلِلَّهِ يَسْجُدُ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ مِن دَآبَّةٍۢ وَٱلْمَلَٰٓئِكَةُ وَهُمْ لَا يَسْتَكْبِرُونَ
 
@@ -497,7 +497,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:50-52 moved from imperceptible creature-motion to one all-encompassing authority.
 
 ## 16:50 — يَخَافُونَ رَبَّهُم مِّن فَوْقِهِمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ ۩
 
@@ -507,7 +507,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:51-52 confirmed that `فَوْق` is operative supremacy through exclusive deity, possession, and obligation.
 
 ## 16:51 — ۞ وَقَالَ ٱللَّهُ لَا تَتَّخِذُوٓا۟ إِلَٰهَيْنِ ٱثْنَيْنِ ۖ إِنَّمَا هُوَ إِلَٰهٌۭ وَٰحِدٌۭ ۖ فَإِيَّٰىَ فَٱرْهَبُونِ
 
@@ -517,7 +517,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:52 completed the anti-doubling mechanism by assigning the entire domain and enduring debt to one.
 
 ## 16:52 — وَلَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلَهُ ٱلدِّينُ وَاصِبًا ۚ أَفَغَيْرَ ٱللَّهِ تَتَّقُونَ
 
@@ -527,7 +527,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:53-55 showed why the debt is permanent: human allegiance changes across favor, harm, and relief.
 
 ## 16:53 — وَمَا بِكُم مِّن نِّعْمَةٍۢ فَمِنَ ٱللَّهِ ۖ ثُمَّ إِذَا مَسَّكُمُ ٱلضُّرُّ فَإِلَيْهِ تَجْـَٔرُونَ
 
@@ -537,7 +537,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:54-55 confirmed harm's diagnostic role by exposing the reversal that follows its removal.
 
 ## 16:54 — ثُمَّ إِذَا كَشَفَ ٱلضُّرَّ عَنكُمْ إِذَا فَرِيقٌۭ مِّنكُم بِرَبِّهِمْ يُشْرِكُونَ
 
@@ -547,7 +547,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:55-56 showed that relief uncovers not only partnership but a fabricated allocation system.
 
 ## 16:55 — لِيَكْفُرُوا۟ بِمَآ ءَاتَيْنَٰهُمْ ۚ فَتَمَتَّعُوا۟ ۖ فَسَوْفَ تَعْلَمُونَ
 
@@ -557,7 +557,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:56-60 let the permitted interval mature into visible shares, projection, shame, and judgment.
 
 ## 16:56 — وَيَجْعَلُونَ لِمَا لَا يَعْلَمُونَ نَصِيبًۭا مِّمَّا رَزَقْنَٰهُمْ ۗ تَٱللَّهِ لَتُسْـَٔلُنَّ عَمَّا كُنتُمْ تَفْتَرُونَ
 
@@ -567,7 +567,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:57 exposed the next counterfeit ledger entry: disliked daughters assigned outward, desires retained inward.
 
 ## 16:57 — وَيَجْعَلُونَ لِلَّهِ ٱلْبَنَٰتِ سُبْحَٰنَهُۥ ۙ وَلَهُم مَّا يَشْتَهُونَ
 
@@ -577,7 +577,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:58-59 supplied the social aversion that made purification from the projection causally necessary.
 
 ## 16:58 — وَإِذَا بُشِّرَ أَحَدُهُم بِٱلْأُنثَىٰ ظَلَّ وَجْهُهُۥ مُسْوَدًّۭا وَهُوَ كَظِيمٌۭ
 
@@ -587,7 +587,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:59 carried the inverted face-brightening into hiding, humiliation, and burial.
 
 ## 16:59 — يَتَوَٰرَىٰ مِنَ ٱلْقَوْمِ مِن سُوٓءِ مَا بُشِّرَ بِهِۦٓ ۚ أَيُمْسِكُهُۥ عَلَىٰ هُونٍ أَمْ يَدُسُّهُۥ فِى ٱلتُّرَابِ ۗ أَلَا سَآءَ مَا يَحْكُمُونَ
 
@@ -597,7 +597,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:60 named the whole concealment sequence a bad representation, completing its progression.
 
 ## 16:60 — لِلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ مَثَلُ ٱلسَّوْءِ ۖ وَلِلَّهِ ٱلْمَثَلُ ٱلْأَعْلَىٰ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ
 
@@ -607,7 +607,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:62 repeated the disliked projection and lying description, confirming that the conflict concerns image-making.
 
 ## 16:61 — وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ بِظُلْمِهِم مَّا تَرَكَ عَلَيْهَا مِن دَآبَّةٍۢ وَلَٰكِن يُؤَخِّرُهُمْ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى ۖ فَإِذَا جَآءَ أَجَلُهُمْ لَا يَسْتَـْٔخِرُونَ سَاعَةًۭ ۖ وَلَا يَسْتَقْدِمُونَ
 
@@ -617,7 +617,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:62-66 showed what fills the appointed interval: false description, failed alliance, clarification, and provision.
 
 ## 16:62 — وَيَجْعَلُونَ لِلَّهِ مَا يَكْرَهُونَ وَتَصِفُ أَلْسِنَتُهُمُ ٱلْكَذِبَ أَنَّ لَهُمُ ٱلْحُسْنَىٰ ۖ لَا جَرَمَ أَنَّ لَهُمُ ٱلنَّارَ وَأَنَّهُم مُّفْرَطُونَ
 
@@ -629,7 +629,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:63 made both `ف ر ط` readings sharper: fore-running ends in failed patronage, and neglect ends in abandonment.
 
 ## 16:63 — تَٱللَّهِ لَقَدْ أَرْسَلْنَآ إِلَىٰٓ أُمَمٍۢ مِّن قَبْلِكَ فَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَهُوَ وَلِيُّهُمُ ٱلْيَوْمَ وَلَهُمْ عَذَابٌ أَلِيمٌۭ
 
@@ -639,7 +639,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:64 answered beautified work with a book that reconnects what deceptive evaluation had split.
 
 ## 16:64 — وَمَآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ إِلَّا لِتُبَيِّنَ لَهُمُ ٱلَّذِى ٱخْتَلَفُوا۟ فِيهِ ۙ وَهُدًۭى وَرَحْمَةًۭ لِّقَوْمٍۢ يُؤْمِنُونَ
 
@@ -649,7 +649,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:65 supplied a material analogue for restorative joining: descent reconnects dead earth to life.
 
 ## 16:65 — وَٱللَّهُ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّقَوْمٍۢ يَسْمَعُونَ
 
@@ -659,7 +659,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:66 made responsive hearing explicitly cross from observed transformation into lesson.
 
 ## 16:66 — وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ لَعِبْرَةًۭ ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهِۦ مِنۢ بَيْنِ فَرْثٍۢ وَدَمٍۢ لَّبَنًا خَالِصًۭا سَآئِغًۭا لِّلشَّٰرِبِينَ
 
@@ -669,7 +669,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:67-69 repeated the crossing mechanism through fruit-products, bee behavior, and healing output.
 
 ## 16:67 — وَمِن ثَمَرَٰتِ ٱلنَّخِيلِ وَٱلْأَعْنَٰبِ تَتَّخِذُونَ مِنْهُ سَكَرًۭا وَرِزْقًا حَسَنًا ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّقَوْمٍۢ يَعْقِلُونَ
 
@@ -679,7 +679,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:68-69 sharpened the restraint contrast: one fruit-product impairs course-control while the bee follows proper courses.
 
 ## 16:68 — وَأَوْحَىٰ رَبُّكَ إِلَى ٱلنَّحْلِ أَنِ ٱتَّخِذِى مِنَ ٱلْجِبَالِ بُيُوتًۭا وَمِنَ ٱلشَّجَرِ وَمِمَّا يَعْرِشُونَ
 
@@ -689,7 +689,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:69 made nonverbal revelation legible as a complete input-route-output behavior sequence.
 
 ## 16:69 — ثُمَّ كُلِى مِن كُلِّ ٱلثَّمَرَٰتِ فَٱسْلُكِى سُبُلَ رَبِّكِ ذُلُلًۭا ۚ يَخْرُجُ مِنۢ بُطُونِهَا شَرَابٌۭ مُّخْتَلِفٌ أَلْوَٰنُهُۥ فِيهِ شِفَآءٌۭ لِّلنَّاسِ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّقَوْمٍۢ يَتَفَكَّرُونَ
 
@@ -699,7 +699,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:70 provided a corrective contrast: the bee's proper course yields stable output, while human capacity can reverse.
 
 ## 16:70 — وَٱللَّهُ خَلَقَكُمْ ثُمَّ يَتَوَفَّىٰكُمْ ۚ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَىْ لَا يَعْلَمَ بَعْدَ عِلْمٍۢ شَيْـًٔا ۚ إِنَّ ٱللَّهَ عَلِيمٌۭ قَدِيرٌۭ
 
@@ -709,7 +709,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:71 unexpectedly reused `ر د د` for returning provision, sharpening return as both reversal and recirculation.
 
 ## 16:71 — وَٱللَّهُ فَضَّلَ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ فِى ٱلرِّزْقِ ۚ فَمَا ٱلَّذِينَ فُضِّلُوا۟ بِرَآدِّى رِزْقِهِمْ عَلَىٰ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَهُمْ فِيهِ سَوَآءٌ ۚ أَفَبِنِعْمَةِ ٱللَّهِ يَجْحَدُونَ
 
@@ -719,7 +719,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:72-73 tested surplus against household provision and the powerlessness of false owners.
 
 ## 16:72 — وَٱللَّهُ جَعَلَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا وَجَعَلَ لَكُم مِّنْ أَزْوَٰجِكُم بَنِينَ وَحَفَدَةًۭ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ ۚ أَفَبِٱلْبَٰطِلِ يُؤْمِنُونَ وَبِنِعْمَتِ ٱللَّهِ هُمْ يَكْفُرُونَ
 
@@ -729,7 +729,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:73 and 16:75 made household service part of a larger provision question: who controls and who circulates output.
 
 ## 16:73 — وَيَعْبُدُونَ مِن دُونِ ٱللَّهِ مَا لَا يَمْلِكُ لَهُمْ رِزْقًۭا مِّنَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ شَيْـًۭٔا وَلَا يَسْتَطِيعُونَ
 
@@ -739,7 +739,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:75 supplied the positive ownership test: allotted provision becomes meaningful through outward expenditure.
 
 ## 16:74 — فَلَا تَضْرِبُوا۟ لِلَّهِ ٱلْأَمْثَالَ ۚ إِنَّ ٱللَّهَ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ
 
@@ -749,7 +749,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:75-76 corrected any blanket anti-analogy reading by immediately presenting two divinely grounded examples.
 
 ## 16:75 — ۞ ضَرَبَ ٱللَّهُ مَثَلًا عَبْدًۭا مَّمْلُوكًۭا لَّا يَقْدِرُ عَلَىٰ شَىْءٍۢ وَمَن رَّزَقْنَٰهُ مِنَّا رِزْقًا حَسَنًۭا فَهُوَ يُنفِقُ مِنْهُ سِرًّۭا وَجَهْرًا ۖ هَلْ يَسْتَوُۥنَ ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ
 
@@ -759,7 +759,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:76 confirmed circulation as the criterion by contrasting directed effort that yields no good with just output.
 
 ## 16:76 — وَضَرَبَ ٱللَّهُ مَثَلًۭا رَّجُلَيْنِ أَحَدُهُمَآ أَبْكَمُ لَا يَقْدِرُ عَلَىٰ شَىْءٍۢ وَهُوَ كَلٌّ عَلَىٰ مَوْلَىٰهُ أَيْنَمَا يُوَجِّههُّ لَا يَأْتِ بِخَيْرٍ ۖ هَلْ يَسْتَوِى هُوَ وَمَن يَأْمُرُ بِٱلْعَدْلِ ۙ وَهُوَ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
 
@@ -769,7 +769,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:77 enlarged the output contrast: effective command realizes what dependent direction cannot produce.
 
 ## 16:77 — وَلِلَّهِ غَيْبُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَمَآ أَمْرُ ٱلسَّاعَةِ إِلَّا كَلَمْحِ ٱلْبَصَرِ أَوْ هُوَ أَقْرَبُ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ
 
@@ -779,7 +779,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:78-79 made the sensor-limit explicit through created faculties and visible but divinely held birds.
 
 ## 16:78 — وَٱللَّهُ أَخْرَجَكُم مِّنۢ بُطُونِ أُمَّهَٰتِكُمْ لَا تَعْلَمُونَ شَيْـًۭٔا وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۙ لَعَلَّكُمْ تَشْكُرُونَ
 
@@ -789,7 +789,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:79-83 supplied the signs that the inner kindling should convert into gratitude and recognition.
 
 ## 16:79 — أَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ مُسَخَّرَٰتٍۢ فِى جَوِّ ٱلسَّمَآءِ مَا يُمْسِكُهُنَّ إِلَّا ٱللَّهُ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّقَوْمٍۢ يُؤْمِنُونَ
 
@@ -799,7 +799,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:80-81 turned invisible aerial holding into a broader shelter continuum of homes, recesses, and garments.
 
 ## 16:80 — وَٱللَّهُ جَعَلَ لَكُم مِّنۢ بُيُوتِكُمْ سَكَنًۭا وَجَعَلَ لَكُم مِّن جُلُودِ ٱلْأَنْعَٰمِ بُيُوتًۭا تَسْتَخِفُّونَهَا يَوْمَ ظَعْنِكُمْ وَيَوْمَ إِقَامَتِكُمْ ۙ وَمِنْ أَصْوَافِهَا وَأَوْبَارِهَا وَأَشْعَارِهَآ أَثَٰثًۭا وَمَتَٰعًا إِلَىٰ حِينٍۢ
 
@@ -809,7 +809,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:81 confirmed the rudder-like reading by extending dwelling into layered stabilization against multiple risks.
 
 ## 16:81 — وَٱللَّهُ جَعَلَ لَكُم مِّمَّا خَلَقَ ظِلَٰلًۭا وَجَعَلَ لَكُم مِّنَ ٱلْجِبَالِ أَكْنَٰنًۭا وَجَعَلَ لَكُمْ سَرَٰبِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ ۚ كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ
 
@@ -819,7 +819,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:82-83 showed completed protection reaching its communicative limit and then being actively denied.
 
 ## 16:82 — فَإِن تَوَلَّوْا۟ فَإِنَّمَا عَلَيْكَ ٱلْبَلَٰغُ ٱلْمُبِينُ
 
@@ -829,7 +829,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:83 clarified the messenger's limit: recognition can occur fully without being converted into assent.
 
 ## 16:83 — يَعْرِفُونَ نِعْمَتَ ٱللَّهِ ثُمَّ يُنكِرُونَهَا وَأَكْثَرُهُمُ ٱلْكَٰفِرُونَ
 
@@ -839,7 +839,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:84 transformed recognized traces into local testimony, making denial accountable rather than uninformed.
 
 ## 16:84 — وَيَوْمَ نَبْعَثُ مِن كُلِّ أُمَّةٍۢ شَهِيدًۭا ثُمَّ لَا يُؤْذَنُ لِلَّذِينَ كَفَرُوا۟ وَلَا هُمْ يُسْتَعْتَبُونَ
 
@@ -849,7 +849,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:89's repeated internal witnesses confirmed that the testimony is embedded knowledge, not imported accusation.
 
 ## 16:85 — وَإِذَا رَءَا ٱلَّذِينَ ظَلَمُوا۟ ٱلْعَذَابَ فَلَا يُخَفَّفُ عَنْهُمْ وَلَا هُمْ يُنظَرُونَ
 
@@ -859,7 +859,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:88's punishment added above punishment made the non-lightening image quantitatively heavier.
 
 ## 16:86 — وَإِذَا رَءَا ٱلَّذِينَ أَشْرَكُوا۟ شُرَكَآءَهُمْ قَالُوا۟ رَبَّنَا هَٰٓؤُلَآءِ شُرَكَآؤُنَا ٱلَّذِينَ كُنَّا نَدْعُوا۟ مِن دُونِكَ ۖ فَأَلْقَوْا۟ إِلَيْهِمُ ٱلْقَوْلَ إِنَّكُمْ لَكَٰذِبُونَ
 
@@ -869,7 +869,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:87 completed the affiliation mechanism when the fabricated partners disappeared after repudiating the claim.
 
 ## 16:87 — وَأَلْقَوْا۟ إِلَى ٱللَّهِ يَوْمَئِذٍ ٱلسَّلَمَ ۖ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ
 
@@ -879,7 +879,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:88-89 replaced surrendered fabrications with measured consequence, internal witnesses, and textual disclosure.
 
 ## 16:88 — ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ زِدْنَٰهُمْ عَذَابًۭا فَوْقَ ٱلْعَذَابِ بِمَا كَانُوا۟ يُفْسِدُونَ
 
@@ -889,7 +889,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:89-90 showed why obstruction adds a layer: it blocks a public disclosure-and-justice system for others.
 
 ## 16:89 — وَيَوْمَ نَبْعَثُ فِى كُلِّ أُمَّةٍۢ شَهِيدًا عَلَيْهِم مِّنْ أَنفُسِهِمْ ۖ وَجِئْنَا بِكَ شَهِيدًا عَلَىٰ هَٰٓؤُلَآءِ ۚ وَنَزَّلْنَا عَلَيْكَ ٱلْكِتَٰبَ تِبْيَٰنًۭا لِّكُلِّ شَىْءٍۢ وَهُدًۭى وَرَحْمَةًۭ وَبُشْرَىٰ لِلْمُسْلِمِينَ
 
@@ -899,7 +899,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:90 made comprehensive disclosure operational by specifying balanced social commands and restraints.
 
 ## 16:90 — ۞ إِنَّ ٱللَّهَ يَأْمُرُ بِٱلْعَدْلِ وَٱلْإِحْسَٰنِ وَإِيتَآئِ ذِى ٱلْقُرْبَىٰ وَيَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَٱلْبَغْىِ ۚ يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ
 
@@ -909,7 +909,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:91-92 materialized load-balancing in covenant cords whose strands can hold or be unraveled.
 
 ## 16:91 — وَأَوْفُوا۟ بِعَهْدِ ٱللَّهِ إِذَا عَٰهَدتُّمْ وَلَا تَنقُضُوا۟ ٱلْأَيْمَٰنَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ ٱللَّهَ عَلَيْكُمْ كَفِيلًا ۚ إِنَّ ٱللَّهَ يَعْلَمُ مَا تَفْعَلُونَ
 
@@ -919,7 +919,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:92 supplied the spun-thread image that made oath confirmation literally load-bearing.
 
 ## 16:92 — وَلَا تَكُونُوا۟ كَٱلَّتِى نَقَضَتْ غَزْلَهَا مِنۢ بَعْدِ قُوَّةٍ أَنكَٰثًۭا تَتَّخِذُونَ أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ أَن تَكُونَ أُمَّةٌ هِىَ أَرْبَىٰ مِنْ أُمَّةٍ ۚ إِنَّمَا يَبْلُوكُمُ ٱللَّهُ بِهِۦ ۚ وَلَيُبَيِّنَنَّ لَكُمْ يَوْمَ ٱلْقِيَٰمَةِ مَا كُنتُمْ فِيهِ تَخْتَلِفُونَ
 
@@ -929,7 +929,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:94 showed the hidden woven defect migrating into a shared walking surface and dislodging a foot.
 
 ## 16:93 — وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَكُمْ أُمَّةًۭ وَٰحِدَةًۭ وَلَٰكِن يُضِلُّ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَلَتُسْـَٔلُنَّ عَمَّا كُنتُمْ تَعْمَلُونَ
 
@@ -939,7 +939,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:94-95 preserved plurality as accountable choice through path damage and a bad covenant exchange.
 
 ## 16:94 — وَلَا تَتَّخِذُوٓا۟ أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ فَتَزِلَّ قَدَمٌۢ بَعْدَ ثُبُوتِهَا وَتَذُوقُوا۟ ٱلسُّوٓءَ بِمَا صَدَدتُّمْ عَن سَبِيلِ ٱللَّهِ ۖ وَلَكُمْ عَذَابٌ عَظِيمٌۭ
 
@@ -949,7 +949,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:95-96 showed the slipping foot's economic cause and temporal cost: a small price replaces durable value.
 
 ## 16:95 — وَلَا تَشْتَرُوا۟ بِعَهْدِ ٱللَّهِ ثَمَنًۭا قَلِيلًا ۚ إِنَّمَا عِندَ ٱللَّهِ هُوَ خَيْرٌۭ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ
 
@@ -959,4 +959,334 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 16:96 made the exchange's duration explicit by opposing exhausted holdings to a retained reserve.
+
+## 16:96 — مَا عِندَكُمْ يَنفَدُ ۖ وَمَا عِندَ ٱللَّهِ بَاقٍۢ ۗ وَلَنَجْزِيَنَّ ٱلَّذِينَ صَبَرُوٓا۟ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ
+
+### Activated readings
+
+1. **Roots `ن ف د`, branch `B001` ("the thing is cut off and exhausted"), and `ب ق ي`, branch `B004` ("holding back a reserve").** The fixed contrast places human holdings under depletion and what is with God under remaining reserve, then converts patient work into recompense; 16:91-95 has shown covenant exchanged for a small price, and 16:97 continues work into good life. These time-horizons are supplied; I infer restrained action -> transfer from exhaustible inventory into durable reserve. The ayah reads as value conversion, not only a contrast of locations.
+
+### Retrospective surprises
+
+Later 16:97 immediately showed the conversion mechanism: fit work becomes enlivening and recompensed value.
+
+## 16:97 — مَنْ عَمِلَ صَٰلِحًۭا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ فَلَنُحْيِيَنَّهُۥ حَيَوٰةًۭ طَيِّبَةًۭ ۖ وَلَنَجْزِيَنَّهُمْ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ
+
+### Activated readings
+
+1. **Root `ص ل ح`, branch `B003` ("suitability or fitness for something").** The fixed `صَٰلِحًا` is paired with belief and yields enlivening plus recompense without gender distinction; 16:96 supplies durable valuation, while 16:98-102 supplies protective reading, trust, rejected authority, replacement, and stabilization. These operating conditions are supplied; I infer action fitted to believing orientation -> life-supporting outcome. Righteous action reads as conduct functionally fit for a durable life system, not a generic honorific.
+
+### Retrospective surprises
+
+Later 16:98-102 expanded fitness into a protected operating sequence of recitation, reliance, allegiance, and stabilization.
+
+## 16:98 — فَإِذَا قَرَأْتَ ٱلْقُرْءَانَ فَٱسْتَعِذْ بِٱللَّهِ مِنَ ٱلشَّيْطَٰنِ ٱلرَّجِيمِ
+
+### Activated readings
+
+1. **Roots `ق ر ء`, branch `B001`, variant image "gathering speech into recitation," and `ع و ذ`, branch `B004` ("clinging close beside something").** The fixed act gathers the discourse and immediately directs the reader to protective proximity; 16:99-100 then contrasts trust in the Lord with taking the adversary into charge, and 16:101-102 concerns changed signs and stabilizing descent. These relations are supplied; I infer gathered recitation -> contested relational exposure -> need to cling to the protecting source. Reading becomes an allegiance-bearing encounter, not neutral vocalization.
+
+### Retrospective surprises
+
+Later 16:99-100 made refuge relationally precise by contrasting protected reliance with granted adversarial charge.
+
+## 16:99 — إِنَّهُۥ لَيْسَ لَهُۥ سُلْطَٰنٌ عَلَى ٱلَّذِينَ ءَامَنُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ
+
+### Activated readings
+
+1. **Root `س ل ط`, branch `B001` ("coercive force let loose").** The fixed negation places believers and their reliance outside such force; 16:98 supplies refuge, and 16:100 positively limits authority to those who take the adversary into charge and associate. Refuge, trust, alliance, and authority are supplied; I infer protected reliance -> force not released across the boundary. `سُلْطَٰن` reads as operative coercion requiring relational access, not an unlimited metaphysical capacity.
+
+### Retrospective surprises
+
+Later 16:100 confirmed that coercive force is conditioned by who is allowed to assume charge.
+
+## 16:100 — إِنَّمَا سُلْطَٰنُهُۥ عَلَى ٱلَّذِينَ يَتَوَلَّوْنَهُۥ وَٱلَّذِينَ هُم بِهِۦ مُشْرِكُونَ
+
+### Activated readings
+
+1. **Root `و ل ي`, branch `B003` ("assuming charge and authority").** The fixed relative clause makes authority fall only over those who `يَتَوَلَّوْنَهُ`; 16:98-99 has opposed refuge and reliance, while 16:101-105 shows accusations and fabricated attribution. These chosen orientations are supplied; I infer granting charge -> acquired jurisdiction. The adversary's authority reads as delegated through allegiance and repeated attribution, not as unilateral domination of every person.
+
+### Retrospective surprises
+
+Later 16:101-105 showed allegiance reproducing itself through accusations and fabricated attributions.
+
+## 16:101 — وَإِذَا بَدَّلْنَآ ءَايَةًۭ مَّكَانَ ءَايَةٍۢ ۙ وَٱللَّهُ أَعْلَمُ بِمَا يُنَزِّلُ قَالُوٓا۟ إِنَّمَآ أَنتَ مُفْتَرٍۭ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ
+
+### Activated readings
+
+1. **Root `ب د ل`, branch `B001` ("replacement or substitution").** The fixed substitution puts one sign in another's place under the knowledge of what descends; 16:96 contrasted depletion and durable reserve, 16:97-100 established life and protected allegiance, and 16:102 states that descent stabilizes believers. Those functions are supplied; I infer changed component -> preservation or reinforcement of recipients. Replacement reads as knowledgeable system maintenance whose criterion is stabilizing guidance, not evidence of fabrication.
+
+### Retrospective surprises
+
+Later 16:102 stated the surprising function of replacement directly: changed descent makes believers firm.
+
+## 16:102 — قُلْ نَزَّلَهُۥ رُوحُ ٱلْقُدُسِ مِن رَّبِّكَ بِٱلْحَقِّ لِيُثَبِّتَ ٱلَّذِينَ ءَامَنُوا۟ وَهُدًۭى وَبُشْرَىٰ لِلْمُسْلِمِينَ
+
+### Activated readings
+
+1. **Root `ث ب ت`, branch `B003` ("making firm and steadying").** The fixed purpose explicitly braces believers through a descent characterized by purity and truth; 16:101 supplies replacement and accusation, while 16:103-105 adds a linguistic source attack and falsehood claims. Change, challenge, and bracing are supplied; I infer repeated truthful descent under pressure -> reinforced stance. Stabilization reads as the operational reason for staged communication, not a secondary emotional effect.
+
+### Retrospective surprises
+
+Later 16:103-105 supplied the pressures against which stabilization works: source-skew, sign-rejection, and fabrication.
+
+## 16:103 — وَلَقَدْ نَعْلَمُ أَنَّهُمْ يَقُولُونَ إِنَّمَا يُعَلِّمُهُۥ بَشَرٌۭ ۗ لِّسَانُ ٱلَّذِى يُلْحِدُونَ إِلَيْهِ أَعْجَمِىٌّۭ وَهَٰذَا لِسَانٌ عَرَبِىٌّۭ مُّبِينٌ
+
+### Activated readings
+
+1. **Root `ل ح د`, branch `B004` ("speech leaning aside and objection").** The fixed accusation leans attribution `إِلَيْهِ` toward a person whose tongue is characterized as unarticulated/foreign, opposite the clear Arabic tongue; 16:101-102 has supplied the fabrication charge and actual descent, and 16:104-105 continues sign-rejection and lying. Directional language and source contrast are supplied; I infer sideward attribution -> evasive source theory. `يُلْحِدُونَ` reads as bending discourse away from its evident relation, not simply pointing to someone.
+
+### Retrospective surprises
+
+Later 16:104-105 confirmed that sideward attribution is not lack of clarity but a chosen course into false construction.
+
+## 16:104 — إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِـَٔايَٰتِ ٱللَّهِ لَا يَهْدِيهِمُ ٱللَّهُ وَلَهُمْ عَذَابٌ أَلِيمٌ
+
+### Activated readings
+
+1. **Root `ه د ي`, branch `B002` ("course, manner, and intended direction").** The fixed non-guidance follows 16:101-103's replacement, stabilizing descent, and sideward source-attribution; 16:105-106 then separates fabrication, coercion, settled heart, and voluntary expansion. These directional responses are supplied; I infer refusal of signs -> no accepted course for guidance to operate through. `لَا يَهْدِيهِمُ` reads as loss of intended trajectory, not lack of available articulation.
+
+### Retrospective surprises
+
+Later 16:105-106 moved non-guidance from public source claims into the decisive distinction between coerced exterior and willing interior.
+
+## 16:105 — إِنَّمَا يَفْتَرِى ٱلْكَذِبَ ٱلَّذِينَ لَا يُؤْمِنُونَ بِـَٔايَٰتِ ٱللَّهِ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْكَٰذِبُونَ
+
+### Activated readings
+
+1. **Root `ف ر ي`, branches `B001` ("cutting to repair or stitch") and `B003` ("fabricating a lie").** The fixed accusation reverses the `مُفْتَرٍ` charge of 16:101; 16:103 has shown a source theory stitched from mismatched foreign and clear tongues, and 16:104 names rejected signs. Those pieces are supplied; I infer selective cutting and joining -> counterfeit account. Fabrication reads materially as stitching disparate observations into a false source-story, while preserving the distinct accepted lie branch.
+
+### Retrospective surprises
+
+Later 16:106 corrected the stitched public source-story by locating accountability in the relation between speech and settled interior.
+
+## 16:106 — مَن كَفَرَ بِٱللَّهِ مِنۢ بَعْدِ إِيمَٰنِهِۦٓ إِلَّا مَنْ أُكْرِهَ وَقَلْبُهُۥ مُطْمَئِنٌّۢ بِٱلْإِيمَٰنِ وَلَٰكِن مَّن شَرَحَ بِٱلْكُفْرِ صَدْرًۭا فَعَلَيْهِمْ غَضَبٌۭ مِّنَ ٱللَّهِ وَلَهُمْ عَذَابٌ عَظِيمٌۭ
+
+### Activated readings
+
+1. **Root `ش ر ح`, branch `B005` ("expansive inclination toward something").** The fixed exception opposes external coercion with a heart settled in faith, then assigns consequence to one who expands a chest toward rejection; 16:101-105 has shown pressure through accusation, while 16:107 names preferred attachment. Coercion, calm interior, and voluntary expansion are supplied; I infer granted inward space -> accountable adoption. `شَرَحَ ... صَدْرًا` reads as making rejection roomy and habitable, sharply distinct from compelled outward speech.
+
+### Retrospective surprises
+
+Later 16:107 named the voluntary mechanism behind chest-expansion: clinging preference for the nearer life.
+
+## 16:107 — ذَٰلِكَ بِأَنَّهُمُ ٱسْتَحَبُّوا۟ ٱلْحَيَوٰةَ ٱلدُّنْيَا عَلَى ٱلْءَاخِرَةِ وَأَنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلْكَٰفِرِينَ
+
+### Activated readings
+
+1. **Root `ح ب ب`, branch `B002` ("love as clinging attachment").** The fixed preference attaches to nearer life over later life; 16:106 has described a chest expanded toward rejection, and 16:108-109 follows with stamped faculties and trade loss. Expansion, attachment, closure, and loss are supplied; I infer adhesive preference -> perceptual orientation that excludes alternatives. `ٱسْتَحَبُّوا` reads as making the nearer life cling to the evaluative core, not a momentary ranking.
+
+### Retrospective surprises
+
+Later 16:108-109 showed adhesive preference hardening into stamped faculties and an eventual trade loss.
+
+## 16:108 — أُو۟لَٰٓئِكَ ٱلَّذِينَ طَبَعَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَسَمْعِهِمْ وَأَبْصَٰرِهِمْ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْغَٰفِلُونَ
+
+### Activated readings
+
+1. **Root `ط ب ع`, branch `B001` ("sealing and impressing by a stamp").** The fixed stamp covers heart, hearing, and sight after 16:106-107 has supplied voluntary chest-expansion and clinging preference; 16:109 names the resulting loss, while 16:110 contrasts people who move after trial. Those orientations and outcomes are supplied; I infer repeatedly chosen attachment -> an impressed perceptual pattern, while the divine subject of sealing remains explicit. The seal reads as a formed stamp across faculties, not arbitrary informational deprivation.
+
+### Retrospective surprises
+
+Later 16:109 made the stamp's economic result explicit: closed evaluation realizes loss in the later horizon.
+
+## 16:109 — لَا جَرَمَ أَنَّهُمْ فِى ٱلْءَاخِرَةِ هُمُ ٱلْخَٰسِرُونَ
+
+### Activated readings
+
+1. **Root `خ س ر`, branch `B002` ("trade loss").** The fixed loss follows 16:107's explicit preference of nearer life over later life and 16:108's sealed evaluative faculties; 16:110-114 contrasts trial endured, full accounting, a town's lost provision, and restored lawful eating. Preference, closure, and later balance sheet are supplied; I infer intertemporal exchange -> realized deficit. `ٱلْخَٰسِرُونَ` reads as failed traders in duration, not merely people who suffer.
+
+### Retrospective surprises
+
+Later 16:110-114 supplied the corrective balance sheet of tested endurance, full payment, lost provision, and lawful restoration.
+
+## 16:110 — ثُمَّ إِنَّ رَبَّكَ لِلَّذِينَ هَاجَرُوا۟ مِنۢ بَعْدِ مَا فُتِنُوا۟ ثُمَّ جَٰهَدُوا۟ وَصَبَرُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌۭ
+
+### Activated readings
+
+1. **Root `ف ت ن`, branch `B001` ("assaying by trial").** The fixed ordeal is followed by migration, strenuous action, and patience; 16:106 has distinguished coerced exterior from settled heart, and 16:111 pays every self fully for action. Inner state, trial, and post-trial outputs are supplied; I infer pressure -> disclosure of durable composition. `فُتِنُوا` reads as an assay that reveals what remains under coercion, with migration and patience as observable assay-results rather than unrelated merits.
+
+### Retrospective surprises
+
+Later 16:111 confirmed the assay reading by paying each self the full product revealed through its action.
+
+## 16:111 — ۞ يَوْمَ تَأْتِى كُلُّ نَفْسٍۢ تُجَٰدِلُ عَن نَّفْسِهَا وَتُوَفَّىٰ كُلُّ نَفْسٍۢ مَّا عَمِلَتْ وَهُمْ لَا يُظْلَمُونَ
+
+### Activated readings
+
+1. **Root `ج د ل`, branch `B001` ("firm twisting and interlacing").** The fixed self tightly argues for itself, but the next clause gives each self the full product of its work; 16:110 supplied tested action, and 16:112-113 follows with a causal parable and a rejected messenger. Argument, work, and consequence are supplied; I infer woven defense -> inability to alter completed action. `تُجَٰدِلُ` reads as constructing a tightly interlaced case whose verbal strength cannot untwist the work-ledger.
+
+### Retrospective surprises
+
+Later 16:112-113 showed that even a tightly woven defense cannot alter a community's manufactured condition or rejected warning.
+
+## 16:112 — وَضَرَبَ ٱللَّهُ مَثَلًۭا قَرْيَةًۭ كَانَتْ ءَامِنَةًۭ مُّطْمَئِنَّةًۭ يَأْتِيهَا رِزْقُهَا رَغَدًۭا مِّن كُلِّ مَكَانٍۢ فَكَفَرَتْ بِأَنْعُمِ ٱللَّهِ فَأَذَٰقَهَا ٱللَّهُ لِبَاسَ ٱلْجُوعِ وَٱلْخَوْفِ بِمَا كَانُوا۟ يَصْنَعُونَ
+
+### Activated readings
+
+1. **Root `ل ب س`, branch `B001` ("covering by something worn").** The fixed settlement moves from security, calm, and provision arriving from every place to `لِبَاسَ` hunger and fear because of what its people made; 16:111 supplied full action-recompense, and 16:113-115 moves through rejection, seizure, eating, and bounded prohibition. These reversals are supplied; I infer denied provision -> deprivation becoming total environment. Hunger and fear are worn as an encompassing social condition, not tasted as isolated episodes.
+
+### Retrospective surprises
+
+Later 16:113-115 sharpened the worn-environment reading through seizure, restored eating, and necessity-bounded rules.
+
+## 16:113 — وَلَقَدْ جَآءَهُمْ رَسُولٌۭ مِّنْهُمْ فَكَذَّبُوهُ فَأَخَذَهُمُ ٱلْعَذَابُ وَهُمْ ظَٰلِمُونَ
+
+### Activated readings
+
+1. **Root `ء خ ذ`, branch `B002` ("taking someone to account for a fault").** The fixed messenger comes from within the town, is declared false, and punishment takes them while they wrong; 16:112 supplies the town's manufactured condition, and 16:114-118 contrasts authorized provision rules with fabricated ones. Internal notice, denial, and consequence are supplied; I infer rejected accountable warning -> account-taking. `فَأَخَذَهُمُ` reads judicially as seizure on the fault already made knowable, not an unannounced capture.
+
+### Retrospective surprises
+
+Later 16:114-118 showed what accountable warning governs: real provision boundaries as opposed to fabricated labels.
+
+## 16:114 — فَكُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ حَلَٰلًۭا طَيِّبًۭا وَٱشْكُرُوا۟ نِعْمَتَ ٱللَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ
+
+### Activated readings
+
+1. **Root `ح ل ل`, branch `B001` ("untie a knot").** The fixed command releases access to good allotted food after 16:112's hunger-covering and 16:113's seizure; 16:115 introduces narrow prohibitions and necessity, while 16:116 rejects invented lawful/forbidden labels. Deprivation, access, and bounded restriction are supplied; I infer authorized untying -> usable provision within limits. `حَلَٰلًا` reads as food released from a legal knot by its source, not a free-floating label attached by consumers.
+
+### Retrospective surprises
+
+Later 16:115-116 clarified that lawful untying remains source-governed through prohibition, necessity, and rejection of relabeling.
+
+## 16:115 — إِنَّمَا حَرَّمَ عَلَيْكُمُ ٱلْمَيْتَةَ وَٱلدَّمَ وَلَحْمَ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ ۖ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍۢ وَلَا عَادٍۢ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+
+### Activated readings
+
+1. **Root `ض ر ر`, branch `B003` ("compulsion under necessity").** The fixed list of barred foods opens an exception under `ٱضْطُرَّ`, then bounds it by neither seeking excess nor crossing the limit; 16:114 supplied released good food, and 16:116-119 addresses false labels, prior restrictions, ignorance, and repair. Rule, pressure, and intent limits are supplied; I infer survival compression -> temporary relaxation without erased boundary. Necessity reads as a causal state that changes application, not a competing source of law.
+
+### Retrospective surprises
+
+Later 16:116-119 preserved the exception's boundary by opposing false labels and allowing repair after rash action.
+
+## 16:116 — وَلَا تَقُولُوا۟ لِمَا تَصِفُ أَلْسِنَتُكُمُ ٱلْكَذِبَ هَٰذَا حَلَٰلٌۭ وَهَٰذَا حَرَامٌۭ لِّتَفْتَرُوا۟ عَلَى ٱللَّهِ ٱلْكَذِبَ ۚ إِنَّ ٱلَّذِينَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ لَا يُفْلِحُونَ
+
+### Activated readings
+
+1. **Root `و ص ف`, branch `B002` ("selling by description rather than sight").** The fixed tongues market false descriptions as lawful and forbidden; 16:114-115 has supplied actual provision, specific bars, and necessity, while 16:117 names brief utility and 16:118 traced prior restriction. Concrete rule and verbal relabeling are supplied; I infer detached description -> counterfeit legal commodity. Their tongues read as selling classifications unsupported by the described reality or authorized source.
+
+### Retrospective surprises
+
+Later 16:117-118 exposed the counterfeit description's horizon and supplied traced precedent as its corrective.
+
+## 16:117 — مَتَٰعٌۭ قَلِيلٌۭ وَلَهُمْ عَذَابٌ أَلِيمٌۭ
+
+### Activated readings
+
+1. **Root `م ت ع`, branch `B001` ("benefit enjoyed and used").** The fixed terse nominal contrast grants only small usable benefit before painful consequence; 16:116 supplies fabricated legal labels as its source, and 16:118-119 contrasts traced restriction with later repair. Fabrication, short utility, and durable consequence are supplied; I infer counterfeit classification -> temporary practical gain. `مَتَٰع` reads as a consumable use-value with an expiry horizon, not genuine lasting success.
+
+### Retrospective surprises
+
+Later 16:118-119 contrasted expiring utility with a traceable rule and a path of behavioral repair.
+
+## 16:118 — وَعَلَى ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا مَا قَصَصْنَا عَلَيْكَ مِن قَبْلُ ۖ وَمَا ظَلَمْنَٰهُمْ وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ
+
+### Activated readings
+
+1. **Root `ق ص ص`, branch `B001` ("following a trace").** The fixed restriction is what was `قَصَصْنَا` before, and self-wronging rather than divine wrong supplies its causal frame; 16:114-117 distinguishes authorized bounds from fabricated labels, while 16:119-123 moves through repair and Abrahamic precedent. Rule, prior trace, and model are supplied; I infer followable historical sequence -> accountable restriction. Recounting reads as tracing how the legal state arose, not listing an arbitrary ban.
+
+### Retrospective surprises
+
+Later 16:119-123 extended legal tracing into repaired conduct, an exemplar, selection, and a followed way.
+
+## 16:119 — ثُمَّ إِنَّ رَبَّكَ لِلَّذِينَ عَمِلُوا۟ ٱلسُّوٓءَ بِجَهَٰلَةٍۢ ثُمَّ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌ
+
+### Activated readings
+
+1. **Root `ج ه ل`, branch `B002` ("rashness and unsettled folly").** The fixed bad work occurs `بِجَهَٰلَة`, then must be followed by turning and repair; 16:116-118 has shown impulsive legal fabrication and self-directed wrong, while 16:120-123 supplies an obedient model and followed way. Conduct, correction, and model are supplied; I infer agitated misaction -> need for behavioral repair, not information alone. Ignorance reads as rash instability that becomes forgivable through reoriented work.
+
+### Retrospective surprises
+
+Later 16:120-123 supplied the stable alternative to rashness: devoted exemplar, gratitude, guidance, and repeated following.
+
+## 16:120 — إِنَّ إِبْرَٰهِيمَ كَانَ أُمَّةًۭ قَانِتًۭا لِّلَّهِ حَنِيفًۭا وَلَمْ يَكُ مِنَ ٱلْمُشْرِكِينَ
+
+### Activated readings
+
+1. **Root `ء م م`, branch `B009` ("leader, guide, or exemplar followed").** The fixed singular person is called an `أُمَّة` and qualified by obedient devotion and nonassociation; 16:119 has required repaired conduct, while 16:121-123 selects, guides, and commands following his way. Singular model and later following are supplied; I infer embodied exemplar -> community-forming trajectory. Abraham reads as a community in the functional sense of a followed reference-point, not a numerical multitude compressed into one person.
+
+### Retrospective surprises
+
+Later 16:121-123 confirmed the community-forming mechanism when the exemplar is selected, guided, and explicitly followed.
+
+## 16:121 — شَاكِرًۭا لِّأَنْعُمِهِ ۚ ٱجْتَبَىٰهُ وَهَدَىٰهُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+
+### Activated readings
+
+1. **Root `ج ب ي`, branch `B004` ("choosing, selecting, and drawing near").** The fixed `ٱجْتَبَىٰهُ` stands between gratitude for favors and guidance to a straight path; 16:120 supplies devoted orientation, and 16:122-125 extends the sequence into good grant, following, disputed Sabbath, and wise invitation. Orientation, selection, and route are supplied; I infer responsive gratitude -> relational drawing-near -> directed path. Selection reads as bringing an exemplar near for a guidance function, not arbitrary preference.
+
+### Retrospective surprises
+
+Later 16:122-125 showed selection becoming transmittable through durable fitness, a followed path, and governed invitation.
+
+## 16:122 — وَءَاتَيْنَٰهُ فِى ٱلدُّنْيَا حَسَنَةًۭ ۖ وَإِنَّهُۥ فِى ٱلْءَاخِرَةِ لَمِنَ ٱلصَّٰلِحِينَ
+
+### Activated readings
+
+1. **Root `ص ل ح`, branch `B003` ("suitability or fitness for something").** The fixed later placement is among `ٱلصَّٰلِحِينَ`, after 16:120-121 has established Abraham as obedient exemplar, selected and guided; 16:123-125 makes his way a followed model for later invitation. Model, path, and continued use are supplied; I infer sustained fit to guidance role -> membership among the fit. Righteousness reads as durable suitability across near and later domains, not only praise for isolated acts.
+
+### Retrospective surprises
+
+Later 16:123-125 made Abraham's fitness functional: his way remains usable for later following and invitation.
+
+## 16:123 — ثُمَّ أَوْحَيْنَآ إِلَيْكَ أَنِ ٱتَّبِعْ مِلَّةَ إِبْرَٰهِيمَ حَنِيفًۭا ۖ وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ
+
+### Activated readings
+
+1. **Root `م ل ل`, branch `B006` ("a path worn clear by repeated travel").** The fixed `مِلَّة` is governed by step-following; 16:120-122 has supplied Abraham as exemplar on a straight path, and 16:124-125 contrasts a disputed cessation with invitation to the Lord's path. Path, repetition, and following are supplied; I infer exemplary repeated passage -> a legible way for successors. The religious way reads as a route worn clear through enacted precedent, not an abstract affiliation label.
+
+### Retrospective surprises
+
+Later 16:124-125 distinguished the worn exemplary route from a disputed cut and then reopened movement through wise calling.
+
+## 16:124 — إِنَّمَا جُعِلَ ٱلسَّبْتُ عَلَى ٱلَّذِينَ ٱخْتَلَفُوا۟ فِيهِ ۚ وَإِنَّ رَبَّكَ لَيَحْكُمُ بَيْنَهُمْ يَوْمَ ٱلْقِيَٰمَةِ فِيمَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ
+
+### Activated readings
+
+1. **Root `س ب ت`, branch `B002` ("cutting and removal").** The fixed Sabbath is made upon those who differed about it, and later judgment separates that difference; 16:123 has presented the worn Abrahamic way, while 16:125-126 turns to invitation, dispute, and bounded response. Way, cut/cessation, and divergence are supplied; I infer communal difference -> imposed interruption marking the split. Sabbath reads as a cutting boundary within a disputed history, not the essence of the preceding universal model.
+
+### Retrospective surprises
+
+Later 16:125-126 confirmed that the Sabbath cut belongs to managed difference, debate, and bounded consequence.
+
+## 16:125 — ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ ۖ وَجَٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ ۖ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ
+
+### Activated readings
+
+1. **Roots `ح ك م`, branch `B006` ("the bridle-piece that restrains"), and `ج د ل`, branch `B001` ("firm twisting and interlacing").** The fixed call regulates admonition and debate by good/better form; 16:124 supplies unresolved difference, and 16:126-127 caps retaliation and commands patience. Dispute and restraints are supplied; I infer wisdom as bridle -> contentious strands kept from tightening into uncontrolled conflict. Wisdom reads as method-governance that restrains argument while preserving its directed movement toward the path.
+
+### Retrospective surprises
+
+Later 16:126-127 made the bridle image concrete by capping reciprocal harm and then stopping reactive constriction.
+
+## 16:126 — وَإِنْ عَاقَبْتُمْ فَعَاقِبُوا۟ بِمِثْلِ مَا عُوقِبْتُم بِهِۦ ۖ وَلَئِن صَبَرْتُمْ لَهُوَ خَيْرٌۭ لِّلصَّٰبِرِينَ
+
+### Activated readings
+
+1. **Root `ع ق ب`, branch `B007` ("punitive consequence").** The fixed root recursively returns punishment for punishment but caps it by likeness, then offers patience as better; 16:124-125 has supplied disagreement and restrained debate, and 16:127-128 continues restraint and beneficent action. Prior harm, matched return, and possible interruption are supplied; I infer rear-following consequence -> bounded reciprocity. Retaliation reads as a controlled return-loop, while patience prevents the loop from becoming self-propelling escalation.
+
+### Retrospective surprises
+
+Later 16:127-128 showed patience interrupting the return-loop and converting conflict response into skilled good action.
+
+## 16:127 — وَٱصْبِرْ وَمَا صَبْرُكَ إِلَّا بِٱللَّهِ ۚ وَلَا تَحْزَنْ عَلَيْهِمْ وَلَا تَكُ فِى ضَيْقٍۢ مِّمَّا يَمْكُرُونَ
+
+### Activated readings
+
+1. **Root `ص ب ر`, branch `B018` ("stopper or plug").** Exploratorily, the fixed patience is placed between the retaliation option of 16:126 and grief, constriction, and others' plotting, then 16:128 supplies divine withness. Those pressures are supplied; I infer supported restraint -> blockage of reactive entry. Patience reads as a stopper that prevents external plotting from entering and narrowing the inner field, not passive delay; the explicit `بِٱللَّهِ` names the source of that stopping force.
+
+### Retrospective surprises
+
+Later 16:128 supplied the positive endpoint: the stopper preserves the inner space in which `إِحْسَان` can operate.
+
+## 16:128 — إِنَّ ٱللَّهَ مَعَ ٱلَّذِينَ ٱتَّقَوا۟ وَّٱلَّذِينَ هُم مُّحْسِنُونَ
+
+### Activated readings
+
+1. **Root `ح س ن`, branch `B002` ("beneficent or skillful good action").** The clipped preceding window supplies following a worn exemplary way (16:123), governing dispute (16:124-125), capping retaliation (16:126), and supported patience under plotting (16:127). Those practiced controls are supplied; I infer disciplined method under pressure -> enacted excellence. `مُّحْسِنُونَ` reads as skilled doers who preserve goodness in conflict, not bearers of an untested abstract quality; divine withness attaches to that practice.
+
+### Retrospective surprises
+
+No later ayah exists in the clipped surah-boundary window; the preceding restraint sequence supplied the final activation.

@@ -228,7 +228,7 @@
 
 ### Activated readings
 
-1. **Capacity shapes the flow before separation tests the cargo.** `و د ي / B005` is a valley as flood channel, `ق د ر / B001` is measure reaching a thing's extent, `ح م ل / B001` is bearing an outward load, and `س ي ل / B001` is a flowing torrent. The fixed sequence gives each channel its own capacity, then lets the flow carry a raised surface load. This resumes hidden measure in 13:8 and the cloud-load of 13:12. I assign valley capacity the role of constraining reception and the flood the role of a stress event that exposes what the reception carries. The packet supplies water and differently measured channels; I infer channel capacity -> distinct flow profile. Truth's manifestation is therefore locally proportioned rather than mechanically identical everywhere.
+1. **Capacity shapes the flow before separation tests the cargo.** `و د ي / B005` is a valley as flood channel, `ق د ر / B001` is measure reaching a thing's extent, `ح م ل / B001` is bearing an outward load, and `س ي ل / B001` is a flowing torrent. The fixed sequence gives each channel its own capacity, then lets the flow carry a raised surface load. This extends the cloud-load of 13:12 and answers 13:14's failed water-reach with actual channels. I assign valley capacity the role of constraining reception and the flood the role of a stress event that exposes what the reception carries. The packet supplies water and differently measured channels; I infer channel capacity -> distinct flow profile. Truth's manifestation is therefore locally proportioned rather than mechanically identical everywhere.
 
 2. **Persistence plus benefit, not elevation, is the discriminator.** `ز ب د / B001` is floating froth, `ج ف ء / B001` is cast-off scum, `م ك ث / B001` is staying still while waiting, and `ن ف ع / B001` is benefit opposed to harm. The repeated foam rises in both water and fire processes, but it departs while what benefits remains. The accepted `ز ب د / B002` image of cream-butter also cautions that frothy appearance alone is not intrinsically worthless; the fixed syntax supplies the decisive departure and benefit tests. I assign flow and fire the role of stress-separators. The packet gives elevation, casting off, remaining, and utility; I infer surviving useful function -> truth-like status. The ayah reads as an operational assay of claims, correcting any easy equation of visibility or height with value.
 
@@ -298,7 +298,7 @@
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:25's inverse chain made the fixed sequence's causal unity visible: undoing, cutting, and corrupting reverse restraint, orientation, outflow, and warding. 13:26's variable provision further clarified that expenditure is circulation of a received measure, not proof of autonomous abundance.
 
 ## 13:23 - جَنَّٰتُ عَدْنٍۢ يَدْخُلُونَهَا وَمَن صَلَحَ مِنْ ءَابَآئِهِمْ وَأَزْوَٰجِهِمْ وَذُرِّيَّٰتِهِمْ ۖ وَٱلْمَلَٰٓئِكَةُ يَدْخُلُونَ عَلَيْهِم مِّن كُلِّ بَابٍۢ
 
@@ -312,7 +312,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:25's cutting of commanded links retrospectively exposed why 13:23 names three family layers before opening every door: the scene repairs precisely the network that corruption severs. 13:28's settled hearts added an inward counterpart to shared entry.
 
 ## 13:24 - سَلَٰمٌ عَلَيْكُم بِمَا صَبَرْتُمْ ۚ فَنِعْمَ عُقْبَى ٱلدَّارِ
 
@@ -324,7 +324,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:25 immediately defined the opposite of `سلام` as bond-breaking, severance, corruption, expulsion, and bad dwelling. That later reversal made the greeting a diagnosis of restored structural soundness; 13:28 then echoed it inwardly as settled calm.
 
 ## 13:25 - وَٱلَّذِينَ يَنقُضُونَ عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفْسِدُونَ فِى ٱلْأَرْضِ ۙ أُو۟لَٰٓئِكَ لَهُمُ ٱللَّعْنَةُ وَلَهُمْ سُوٓءُ ٱلدَّارِ
 
@@ -338,7 +338,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:27-30 repeatedly turn guidance, hearts, return-place, call, and trust toward one destination. That later return-field sharpened `ل ع ن / B001` as exclusion from a route of return already abandoned through severance.
 
 ## 13:26 - ٱللَّهُ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ وَفَرِحُوا۟ بِٱلْحَيَوٰةِ ٱلدُّنْيَا وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا فِى ٱلْءَاخِرَةِ إِلَّا مَتَٰعٌۭ
 
@@ -352,7 +352,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:27-30's dense return vocabulary made “near” life unmistakably a route-stage, not a destination. 13:31's recurring strikes “until” an unfailing appointment then corrected exultation by exposing a timeline wider than present provision.
 
 ## 13:27 - وَيَقُولُ ٱلَّذِينَ كَفَرُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ ءَايَةٌۭ مِّن رَّبِّهِۦ ۗ قُلْ إِنَّ ٱللَّهَ يُضِلُّ مَن يَشَآءُ وَيَهْدِىٓ إِلَيْهِ مَنْ أَنَابَ
 
@@ -364,7 +364,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:28-30 unexpectedly repeat the return mechanism as settled hearts, `مآب`, and `متاب`. This lexical clustering confirmed that `أناب` is not a momentary pivot but recurring orientation sustained through remembrance, action, and trust.
 
 ## 13:28 - ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ ۗ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ
 
@@ -376,7 +376,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:33's decorated scheme and diversion from the way supplied the surprising threat model for a turning heart: perceived value can be reversed without changing the acquired act. That later ayah made repeated remembrance an ongoing recalibration, not a one-time soothing event.
 
 ## 13:29 - ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ طُوبَىٰ لَهُمْ وَحُسْنُ مَـَٔابٍۢ
 
@@ -388,7 +388,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:33's `بِمَا كَسَبَتْ` made intentional work retrospectively leave an acquired, accountable trace. 13:34 then showed the opposed trajectory's return as increasing strain, sharpening `حسن مآب` as the quality of what one's work can carry back.
 
 ## 13:30 - كَذَٰلِكَ أَرْسَلْنَٰكَ فِىٓ أُمَّةٍۢ قَدْ خَلَتْ مِن قَبْلِهَآ أُمَمٌۭ لِّتَتْلُوَا۟ عَلَيْهِمُ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَهُمْ يَكْفُرُونَ بِٱلرَّحْمَٰنِ ۚ قُلْ هُوَ رَبِّى لَآ إِلَٰهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ مَتَابِ
 
@@ -402,7 +402,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:31 immediately made recitation carry mountains, cut earth, and address the dead in a counterfactual demand. That later pressure clarified why 13:30 ends in trust: the messenger controls faithful relay, not coercive physical or receptive outcomes; 13:32's earlier mocked messengers confirmed the recurring relay pattern.
 
 ## 13:31 - وَلَوْ أَنَّ قُرْءَانًۭا سُيِّرَتْ بِهِ ٱلْجِبَالُ أَوْ قُطِّعَتْ بِهِ ٱلْأَرْضُ أَوْ كُلِّمَ بِهِ ٱلْمَوْتَىٰ ۗ بَل لِّلَّهِ ٱلْأَمْرُ جَمِيعًا ۗ أَفَلَمْ يَا۟يْـَٔسِ ٱلَّذِينَ ءَامَنُوٓا۟ أَن لَّوْ يَشَآءُ ٱللَّهُ لَهَدَى ٱلنَّاسَ جَمِيعًۭا ۗ وَلَا يَزَالُ ٱلَّذِينَ كَفَرُوا۟ تُصِيبُهُم بِمَا صَنَعُوا۟ قَارِعَةٌ أَوْ تَحُلُّ قَرِيبًۭا مِّن دَارِهِمْ حَتَّىٰ يَأْتِىَ وَعْدُ ٱللَّهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ
 
@@ -416,7 +416,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:32's explicit respite before taking explained how repeated impacts can coexist with an unfailing endpoint. 13:36's divided reception then corrected a power-centered reading: the unresolved problem is how gathered speech is received, not whether it can be imagined as physical force.
 
 ## 13:32 - وَلَقَدِ ٱسْتُهْزِئَ بِرُسُلٍۢ مِّن قَبْلِكَ فَأَمْلَيْتُ لِلَّذِينَ كَفَرُوا۟ ثُمَّ أَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ عِقَابِ
 
@@ -428,7 +428,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:33's account of what each self acquires showed what the respite interval accumulates, while 13:37's warning after knowledge showed that delay preserves consequential choice. These later ayat made extension evidentiary, not empty waiting.
 
 ## 13:33 - أَفَمَنْ هُوَ قَآئِمٌ عَلَىٰ كُلِّ نَفْسٍۭ بِمَا كَسَبَتْ ۗ وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ قُلْ سَمُّوهُمْ ۚ أَمْ تُنَبِّـُٔونَهُۥ بِمَا لَا يَعْلَمُ فِى ٱلْأَرْضِ أَم بِظَٰهِرٍۢ مِّنَ ٱلْقَوْلِ ۗ بَلْ زُيِّنَ لِلَّذِينَ كَفَرُوا۟ مَكْرُهُمْ وَصُدُّوا۟ عَنِ ٱلسَّبِيلِ ۗ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍۢ
 
@@ -442,7 +442,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:38's authorization-bound sign made the naming challenge sharper: a genuine agent is not produced by a label but located within an actual chain of permission and effect. 13:36-37's joined book and clear judgment likewise contrasted articulated content with `ظاهر من القول`.
 
 ## 13:34 - لَّهُمْ عَذَابٌۭ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَعَذَابُ ٱلْءَاخِرَةِ أَشَقُّ ۖ وَمَا لَهُم مِّنَ ٱللَّهِ مِن وَاقٍۢ
 
@@ -454,7 +454,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:35's rivers, continuous food, and shade supplied the strongest later activation of `ع ذ ب / B003` as withholding: punishment is the deprived inverse of an uninterrupted sustaining ecology. 13:37's repeated absence of `واق` confirmed the protection contrast.
 
 ## 13:35 - ۞ مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۖ أُكُلُهَا دَآئِمٌۭ وَظِلُّهَا ۚ تِلْكَ عُقْبَى ٱلَّذِينَ ٱتَّقَوا۟ ۖ وَّعُقْبَى ٱلْكَٰفِرِينَ ٱلنَّارُ
 
@@ -468,7 +468,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:38-40 placed promise, term, book, erasure/confirmation, and partial visibility around the garden. That later administrative sequence made its permanence read as continuously maintained provision under ordered governance, not as a scene outside all process.
 
 ## 13:36 - وَٱلَّذِينَ ءَاتَيْنَٰهُمُ ٱلْكِتَٰبَ يَفْرَحُونَ بِمَآ أُنزِلَ إِلَيْكَ ۖ وَمِنَ ٱلْأَحْزَابِ مَن يُنكِرُ بَعْضَهُۥ ۚ قُلْ إِنَّمَآ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ وَلَآ أُشْرِكَ بِهِۦٓ ۚ إِلَيْهِ أَدْعُوا۟ وَإِلَيْهِ مَـَٔابِ
 
@@ -482,7 +482,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:39's `أم الكتاب` made denial of “part” retrospectively more consequential: factional selection breaks relation to a source-organized whole. 13:41's progressive edge-loss added a spatial analogue for what partial rejection does to integrity.
 
 ## 13:37 - وَكَذَٰلِكَ أَنزَلْنَٰهُ حُكْمًا عَرَبِيًّۭا ۚ وَلَئِنِ ٱتَّبَعْتَ أَهْوَآءَهُم بَعْدَمَا جَآءَكَ مِنَ ٱلْعِلْمِ مَا لَكَ مِنَ ٱللَّهِ مِن وَلِىٍّۢ وَلَا وَاقٍۢ
 
@@ -494,7 +494,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:41's judgment with no `معقب` realized the dormant firmness in `ح ك م / B004`: the clear boundary eventually becomes non-reviewable settlement. 13:42's knowledge of every acquisition then showed why post-knowledge following remains fully accountable.
 
 ## 13:38 - وَلَقَدْ أَرْسَلْنَا رُسُلًۭا مِّن قَبْلِكَ وَجَعَلْنَا لَهُمْ أَزْوَٰجًۭا وَذُرِّيَّةًۭ ۚ وَمَا كَانَ لِرَسُولٍ أَن يَأْتِىَ بِـَٔايَةٍ إِلَّا بِإِذْنِ ٱللَّهِ ۗ لِكُلِّ أَجَلٍۢ كِتَابٌۭ
 
@@ -508,7 +508,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:39 immediately complicated “a book for every term” with erasure, confirmation, and a mother-source, revealing layered scheduling rather than a single flat record. 13:40 then confirmed the agency boundary: delivery persists even when the messenger cannot trigger or outlive the promised sign.
 
 ## 13:39 - يَمْحُوا۟ ٱللَّهُ مَا يَشَآءُ وَيُثْبِتُ ۖ وَعِندَهُۥٓ أُمُّ ٱلْكِتَٰبِ
 
@@ -520,7 +520,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:40's possibility of seeing only part of the promise gave the layered records an epistemic effect: local visibility may change without exhausting the source architecture. 13:43 then turned knowledge of the book into testimony, revealing an evidentiary role for the stable reference.
 
 ## 13:40 - وَإِن مَّا نُرِيَنَّكَ بَعْضَ ٱلَّذِى نَعِدُهُمْ أَوْ نَتَوَفَّيَنَّكَ فَإِنَّمَا عَلَيْكَ ٱلْبَلَٰغُ وَعَلَيْنَا ٱلْحِسَابُ
 
@@ -532,7 +532,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:41's “quick account” immediately confirmed that the process continues independently of the messenger's observation window. 13:43's sufficient witness further separated his duty to convey from the evidentiary and accounting authority that validates it.
 
 ## 13:41 - أَوَلَمْ يَرَوْا۟ أَنَّا نَأْتِى ٱلْأَرْضَ نَنقُصُهَا مِنْ أَطْرَافِهَا ۚ وَٱللَّهُ يَحْكُمُ لَا مُعَقِّبَ لِحُكْمِهِۦ ۚ وَهُوَ سَرِيعُ ٱلْحِسَابِ
 
@@ -546,7 +546,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:42 supplied the reason quick settlement need not be hasty: every self's acquisitions are already known within an all-gathering account. 13:43's testimony then added that the completed judgment is evidence-bearing, not merely irreversible force.
 
 ## 13:42 - وَقَدْ مَكَرَ ٱلَّذِينَ مِن قَبْلِهِمْ فَلِلَّهِ ٱلْمَكْرُ جَمِيعًۭا ۖ يَعْلَمُ مَا تَكْسِبُ كُلُّ نَفْسٍۢ ۗ وَسَيَعْلَمُ ٱلْكُفَّٰرُ لِمَنْ عُقْبَى ٱلدَّارِ
 
@@ -560,7 +560,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+13:43's book-grounded witness transformed total gathering into evidentiary sufficiency: schemes and acquisitions are not merely overpowered but integrated into testimony capable of settling the final dispute.
 
 ## 13:43 - وَيَقُولُ ٱلَّذِينَ كَفَرُوا۟ لَسْتَ مُرْسَلًۭا ۚ قُلْ كَفَىٰ بِٱللَّهِ شَهِيدًۢا بَيْنِى وَبَيْنَكُمْ وَمَنْ عِندَهُۥ عِلْمُ ٱلْكِتَٰبِ
 
@@ -574,4 +574,4 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+No later ayah exists in the clipped focus window. The retrospective pass therefore found no later surprise beyond the fixed ayah's closing convergence of negation, sufficient testimony, relational interval, knowledge, and book.

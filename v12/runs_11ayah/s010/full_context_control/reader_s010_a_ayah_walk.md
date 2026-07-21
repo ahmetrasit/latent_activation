@@ -504,7 +504,7 @@
 
 ### Activated readings
 
-1. **The demanded acceleration is tested against the event’s possible arrival modes.** **Lexical evidence:** ع ذ ب/B005 is torment or severe punishment, ي و م/B001 supplies ordinary day in the day/night contrast, and ق و ل/B001 introduces the thought experiment. **Structural cue:** “consider” is followed by a conditional arrival at night or by day, then a question asks what part criminals are hastening; 10:49 has fixed the term beyond their control. **Assigned role:** demand reversal. **Abductive move:** the packet gives requested haste + unchosen nocturnal/diurnal arrival + punitive object; I infer those asking for acceleration have not integrated what arrival would mean for them. **Reading change:** haste is exposed as rhetorical distance from the event, not informed desire.
+1. **The demanded acceleration is tested against the event’s possible arrival modes.** **Lexical evidence:** ع ذ ب/B005 is torment or severe punishment, and ق و ل/B001 introduces the thought experiment as a commanded public question. **Structural cue:** “consider” is followed by a conditional arrival at night or by day, then a question asks what part criminals are hastening; 10:49 has fixed the term beyond their control. **Assigned role:** demand reversal. **Abductive move:** the packet gives requested haste + unchosen nocturnal/diurnal arrival + punitive object; I infer those asking for acceleration have not integrated what arrival would mean for them. **Reading change:** haste is exposed as rhetorical distance from the event, not informed desire.
 
 ### Retrospective surprises
 
@@ -559,3 +559,543 @@
 ### Retrospective surprises
 
 10:56 later condenses that domain into giving life, causing death, and receiving return, specifying the operative powers behind the promise.
+
+## 10:56 — هُوَ يُحْىِۦ وَيُمِيتُ وَإِلَيْهِ تُرْجَعُونَ
+
+### Activated readings
+
+1. **Life, death, and return form a compressed directional cycle.** **Lexical evidence:** ر ج ع/B001 is return after departure, directly anchoring the final تُرْجَعُونَ. **Structural cue:** two coordinated present verbs assign enlivening and causing death to one subject, then the preposed إِلَيْهِ fixes the direction of return; 10:55 supplied total ownership and a true promise. **Assigned role:** compact causal summary. **Abductive move:** the packet gives life-source + death-boundary + return-destination; I infer the same authority spans entry, termination, and final reception. **Reading change:** death is not the end of the asserted sequence but its middle boundary.
+
+### Retrospective surprises
+
+10:57 later calls the message healing, guidance, and mercy, showing that the life-giving pattern also operates through addressed discourse before bodily return.
+
+## 10:57 — يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَتْكُم مَّوْعِظَةٌۭ مِّن رَّبِّكُمْ وَشِفَآءٌۭ لِّمَا فِى ٱلصُّدُورِ وَهُدًۭى وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ
+
+### Activated readings
+
+1. **The arriving address moves from correction to inward repair and direction.** **Lexical evidence:** ر ب ب/B002 is nurture, repair, and completion, ه د ي/B001 gentle guidance toward truth, ر ح م/B001 mercy, and ء م ن/B002 trusting assent. **Structural cue:** an arrived admonition is sourced “from your Lord,” then coordinated with healing specifically for what is in chests, guidance, and mercy for believers. **Assigned role:** therapeutic sequence. **Abductive move:** the packet gives corrective address + inward locus + guidance/mercy; I infer disclosure first confronts, then repairs the reception-center, then enables direction. **Reading change:** admonition is not merely rebuke; it participates in the Lordly work of restoration.
+
+### Retrospective surprises
+
+10:61 later says every recitation and action occurs under witness and record, adding accountability to the therapeutic openness described here.
+
+## 10:58 — قُلْ بِفَضْلِ ٱللَّهِ وَبِرَحْمَتِهِۦ فَبِذَٰلِكَ فَلْيَفْرَحُوا۟ هُوَ خَيْرٌۭ مِّمَّا يَجْمَعُونَ
+
+### Activated readings
+
+1. **Joy is redirected from accumulation to received favor and mercy.** **Lexical evidence:** ر ح م/B001 is mercy and tender care, ج م ع/B001 is collecting scattered things into a whole, and ق و ل/B001 marks the commanded reorientation. **Structural cue:** two prepositional causes, divine favor and mercy, are gathered by فَبِذَٰلِكَ and made the object of an imperative to rejoice; the final comparison places this above what people collect. **Assigned role:** affective revaluation. **Abductive move:** the packet gives received divine goods versus human accumulation; I infer a changed account of value -> a changed object of joy. **Reading change:** rejoicing becomes a diagnostic of what the self treats as its real wealth.
+
+### Retrospective surprises
+
+10:59 later challenges human restriction of sent provision, showing that accumulation can be accompanied by unauthorized control over the very gift being valued.
+
+## 10:59 — قُلْ أَرَءَيْتُم مَّآ أَنزَلَ ٱللَّهُ لَكُم مِّن رِّزْقٍۢ فَجَعَلْتُم مِّنْهُ حَرَامًۭا وَحَلَٰلًۭا قُلْ ءَآللَّهُ أَذِنَ لَكُمْ ۖ أَمْ عَلَى ٱللَّهِ تَفْتَرُونَ
+
+### Activated readings
+
+1. **Received provision is transformed into categories whose authorization is then tested.** **Lexical evidence:** ن ز ل/B002 is divine sending down, ج ع ل/B002 is turning something into a state, and ء ذ ن/B004 is authorization. **Structural cue:** provision descends “for you,” but the audience makes parts forbidden and permitted; the repeated command “say” then offers only divine permission or fabrication against Allah. **Assigned role:** authority audit. **Abductive move:** the packet gives gift-source -> human classification -> permission question; I infer use of a gift does not entail ownership of the authority to define its normative status. **Reading change:** the issue is not classification as such but whether its causal warrant reaches the giver.
+
+### Retrospective surprises
+
+10:60 later places fabricators’ conjecture on the resurrection day, extending the audit from present speech to eventual accountability.
+
+## 10:60 — وَمَا ظَنُّ ٱلَّذِينَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ يَوْمَ ٱلْقِيَٰمَةِ ۗ إِنَّ ٱللَّهَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَشْكُرُونَ
+
+### Activated readings
+
+1. **Fabrication is set against both resurrection and unacknowledged favor.** **Lexical evidence:** ك ذ ب/B001 is falsehood against truth, ق و م/B013 is resurrection and the rising of the Hour, and ء ل ه/B002 marks both the object of fabrication and source of favor. **Structural cue:** a question asks what fabricators suppose on the resurrection day; the next clause asserts divine favor to people, followed by majority non-gratitude. **Assigned role:** horizon correction. **Abductive move:** the packet gives false attribution + future standing + present favor; I infer fabrication depends on treating speech as consequence-free while failing to recognize the giver already sustaining its speaker. **Reading change:** ingratitude and false norm-making become related failures of source acknowledgment.
+
+### Retrospective surprises
+
+10:61 later says no affair, recitation, or action escapes witness, answering the opening question with pervasive present observation rather than only future discovery.
+
+## 10:61 — وَمَا تَكُونُ فِى شَأْنٍۢ وَمَا تَتْلُوا۟ مِنْهُ مِن قُرْءَانٍۢ وَلَا تَعْمَلُونَ مِنْ عَمَلٍ إِلَّا كُنَّا عَلَيْكُمْ شُهُودًا إِذْ تُفِيضُونَ فِيهِ ۚ وَمَا يَعْزُبُ عَن رَّبِّكَ مِن مِّثْقَالِ ذَرَّةٍۢ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ وَلَآ أَصْغَرَ مِن ذَٰلِكَ وَلَآ أَكْبَرَ إِلَّا فِى كِتَٰبٍۢ مُّبِينٍ
+
+### Activated readings
+
+1. **Witness coincides with engagement, and record spans every scale.** **Lexical evidence:** ك و ن/B001 marks states of being, ع م ل/B001 intentional action, ك ت ب/B002 written record, and ب ي ن/B004 clarity. **Structural cue:** repeated مَا...إِلَّا constructions cover affair, recitation, and work, with witness present precisely إِذْ تُفِيضُونَ; a second sweep denies absence from atom-weight through smaller and larger, all in a clear book. **Assigned role:** comprehensive observability. **Abductive move:** the packet gives activity-in-progress + contemporaneous witness + scale-complete inscription; I infer accountability is not reconstructed from incomplete traces after the fact. **Reading change:** the record is embedded in action’s occurrence.
+
+### Retrospective surprises
+
+10:62-64 later place safety, glad tidings, and unaltered words inside this witnessed field, preventing comprehensive observation from being read only as threat.
+
+## 10:62 — أَلَآ إِنَّ أَوْلِيَآءَ ٱللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+
+### Activated readings
+
+1. **Loyal nearness to Allah displaces future fear and backward grief.** **Lexical evidence:** و ل ي/B004 is loyal alliance, support, and affection, while ء ل ه/B002 fixes the relation’s divine term. **Structural cue:** emphatic أَلَآ إِنَّ introduces the allies, followed by two balanced negations: no fear upon them and no grieving by them; 10:61 has just made all action present to witness. **Assigned role:** protected relation. **Abductive move:** the packet gives loyal affiliation under complete witness + negated anticipatory and retrospective distress; I infer security comes from the governing relation, not from invisibility or unaccountability. **Reading change:** divine alliance is read as exposed yet protected belonging.
+
+### Retrospective surprises
+
+10:63 later defines these allies through faith and continuing self-guarding, correcting any reading of alliance as an unconditioned label.
+
+## 10:63 — ٱلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ
+
+### Activated readings
+
+1. **Alliance is specified as trusted assent sustained in guarded conduct.** **Lexical evidence:** ء م ن/B002 is trusting assent, و ق ي/B002 is placing oneself in protective moral caution, and ك و ن/B001 marks the continuing past state. **Structural cue:** the relative clause directly identifies the allies of 10:62; perfect faith is coordinated with كَانُوا يَتَّقُونَ, a durative construction. **Assigned role:** relational definition. **Abductive move:** the packet gives named allies -> assent + continuing guarding; I infer protected nearness is manifested as a durable pattern rather than a momentary declaration. **Reading change:** the short ayah supplies the behavioral duration hidden inside the title “allies.”
+
+### Retrospective surprises
+
+10:64 later gives glad tidings in both lives and denies alteration of divine words, grounding the durability of their guarded relation in a durable promise.
+
+## 10:64 — لَهُمُ ٱلْبُشْرَىٰ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْءَاخِرَةِ ۚ لَا تَبْدِيلَ لِكَلِمَٰتِ ٱللَّهِ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ
+
+### Activated readings
+
+1. **The glad announcement spans both horizons because its source-word is not exchangeable.** **Lexical evidence:** ب ش ر/B005 is tidings that brighten the face, د ن و/B002 is the nearer worldly life, and ء ل ه/B002 marks the unaltered divine words. **Structural cue:** glad tidings are located in the nearer life and the later one; a categorical no-substitution clause then precedes the demonstrative identification of great success. **Assigned role:** cross-temporal assurance. **Abductive move:** the packet gives dual-horizon announcement + unalterable source-word; I infer continuity of promise bridges the temporal division. **Reading change:** success is not deferred so completely that the present bears no sign of it.
+
+### Retrospective surprises
+
+10:65 later tells the messenger not to grieve hostile speech, showing the present-world form of assurance operating against competing words.
+
+## 10:65 — وَلَا يَحْزُنكَ قَوْلُهُمْ ۘ إِنَّ ٱلْعِزَّةَ لِلَّهِ جَمِيعًا ۚ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ
+
+### Activated readings
+
+1. **Opponent speech is re-scaled under total might, hearing, and knowledge.** **Lexical evidence:** ق و ل/B001 is uttered speech, ج م ع/B009 is emphatic allness, س م ع/B001 is hearing, and ع ل م/B001 clear knowledge. **Structural cue:** the prohibition targets grief caused by “their saying”; إِنَّ then assigns might wholly to Allah, followed by paired hearing and knowing attributes. **Assigned role:** affective counterweight. **Abductive move:** the packet gives injurious speech + total divine might + complete auditory/cognitive reception; I infer hostile words neither escape notice nor possess the authority their emotional effect suggests. **Reading change:** the speaker need not deny the words’ occurrence in order to deny their ultimacy.
+
+### Retrospective surprises
+
+10:68 later presents a specific unsupported saying about Allah, confirming that the troubling speech is answered by authority and knowledge rather than emotional suppression.
+
+## 10:66 — أَلَآ إِنَّ لِلَّهِ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ ۗ وَمَا يَتَّبِعُ ٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ شُرَكَآءَ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ
+
+### Activated readings
+
+1. **Calling partners does not produce a corresponding object of following.** **Lexical evidence:** د ع و/B001 is calling to draw near by speech, ء ل ه/B002 marks the exclusive divine ownership, and س م و/B004 supplies the heavenly domain paired with earth. **Structural cue:** all persons in heavens and earth belong to Allah; a question then asks what partner-callers actually follow, answered by two restrictive clauses reducing it to conjecture and guessing. **Assigned role:** referential collapse. **Abductive move:** the packet gives comprehensive ownership + partner invocation + no grounded followed object; I infer speech has projected a relation that evidence does not furnish. **Reading change:** the partners’ weakness is shown at the level of reference before power is even compared.
+
+### Retrospective surprises
+
+10:68 later asks whether they possess any authority for the child-claim, applying the same referential test to another theological assertion.
+
+## 10:67 — هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلَّيْلَ لِتَسْكُنُوا۟ فِيهِ وَٱلنَّهَارَ مُبْصِرًا ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّقَوْمٍۢ يَسْمَعُونَ
+
+### Activated readings
+
+1. **Alternating conditions of rest and visibility become signs for effective listeners.** **Lexical evidence:** ج ع ل/B002 is assigning a thing a state, ء ي ي/B003 is a visible sign, and س م ع/B003 is hearing that reaches understanding and compliance. **Structural cue:** night is assigned a rest-purpose and day a seeing quality; the demonstrative gathers both into plural signs for a listening people, recalling the alternation of 10:6. **Assigned role:** receptive rhythm. **Abductive move:** the packet gives complementary temporal functions + signhood + understanding-hearing; I infer ordinary alternation trains reception through difference. **Reading change:** listening is not confined to spoken revelation; patterned conditions can also be “heard” as directional evidence.
+
+### Retrospective surprises
+
+10:68 later contrasts this receptive use of the created order with a claim about Allah unsupported by any authority within that order.
+
+## 10:68 — قَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًۭا ۗ سُبْحَٰنَهُۥ ۖ هُوَ ٱلْغَنِىُّ ۖ لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ إِنْ عِندَكُم مِّن سُلْطَٰنٍۭ بِهَٰذَآ ۚ أَتَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ
+
+### Activated readings
+
+1. **The child-claim is contradicted by self-sufficiency, ownership, and absent knowledge.** **Lexical evidence:** ق و ل/B001 is uttered assertion, ء ل ه/B002 the fixed divine name, س م و/B004 the heavens paired with earth, and ع ل م/B001 clear knowledge, here negated. **Structural cue:** reported speech is interrupted by transcendence and self-sufficiency, then total ownership; a conditional denies available authority before the final question opposes speech to knowledge. **Assigned role:** warrant dismantling. **Abductive move:** the packet gives asserted relation + no need + full ownership + no authority/knowledge; I infer the claim imports a dependency relation that the stated attributes exclude. **Reading change:** the rebuttal joins ontological mismatch with evidentiary absence.
+
+### Retrospective surprises
+
+10:69 later states that fabricating falsehood against Allah does not flourish, converting the warrant critique into an outcome claim.
+
+## 10:69 — قُلْ إِنَّ ٱلَّذِينَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ لَا يُفْلِحُونَ
+
+### Activated readings
+
+1. **False attribution is denied a flourishing future.** **Lexical evidence:** ك ذ ب/B001 is falsehood against truth, ق و ل/B001 is the commanded public response, and ء ل ه/B002 marks the one against whom the falsehood is projected. **Structural cue:** the compact إِنَّ clause names fabricators and immediately negates flourishing; 10:68 supplied a concrete unsupported claim, while 10:70 will delimit its worldly benefit. **Assigned role:** outcome verdict. **Abductive move:** the packet gives source-directed falsehood + categorical non-flourishing; I infer a claim detached from the actual source cannot sustain the future it seeks to organize. **Reading change:** false doctrine is treated as causally sterile, not only descriptively incorrect.
+
+### Retrospective surprises
+
+10:70 later concedes a temporary worldly enjoyment before return, correcting “does not flourish” so it does not mean “never gains any short-term traction.”
+
+## 10:70 — مَتَٰعٌۭ فِى ٱلدُّنْيَا ثُمَّ إِلَيْنَا مَرْجِعُهُمْ ثُمَّ نُذِيقُهُمُ ٱلْعَذَابَ ٱلشَّدِيدَ بِمَا كَانُوا۟ يَكْفُرُونَ
+
+### Activated readings
+
+1. **Temporary near-life benefit is enclosed by return and experienced consequence.** **Lexical evidence:** د ن و/B002 is the nearer worldly life, ر ج ع/B001 return, ع ذ ب/B005 severe punishment, and ك ف ر/B003 rejection of truth. **Structural cue:** an indefinite “enjoyment” is restricted to the nearer life; two ثُمَّ clauses then move to return and tasting severe punishment, causally tied to continuing rejection. **Assigned role:** horizon delimiter. **Abductive move:** the packet gives limited benefit -> return -> consequence grounded in rejection; I infer present utility cannot establish ultimate flourishing because it occupies only the first segment. **Reading change:** apparent success is acknowledged but temporally downgraded.
+
+### Retrospective surprises
+
+10:71 later places Noah’s exposed stance and reliance against collective opposition, supplying a historical case where immediate social advantage does not determine outcome.
+
+## 10:71 — ۞ وَٱتْلُ عَلَيْهِمْ نَبَأَ نُوحٍ إِذْ قَالَ لِقَوْمِهِۦ يَٰقَوْمِ إِن كَانَ كَبُرَ عَلَيْكُم مَّقَامِى وَتَذْكِيرِى بِـَٔايَٰتِ ٱللَّهِ فَعَلَى ٱللَّهِ تَوَكَّلْتُ فَأَجْمِعُوٓا۟ أَمْرَكُمْ وَشُرَكَآءَكُمْ ثُمَّ لَا يَكُنْ أَمْرُكُمْ عَلَيْكُمْ غُمَّةًۭ ثُمَّ ٱقْضُوٓا۟ إِلَىَّ وَلَا تُنظِرُونِ
+
+### Activated readings
+
+1. **Reliance answers social burden by inviting fully concerted opposition into the open.** **Lexical evidence:** ق و م/B006 is station or standing-place in مَقَامِى, ج م ع/B003 is concerted resolve, ء م ر/B001 an affair or plan, and ن ظ ر/B002 respite, here negated. **Structural cue:** Noah names his standing and reminder as burdensome, places reliance on Allah, then commands opponents to gather plan and partners, remove obscurity, execute, and grant no delay. **Assigned role:** exposure challenge. **Abductive move:** the packet gives disliked public stance + divine reliance + opponents’ maximal clarified resolve; I infer reliance removes the need for hidden maneuver and asks rival power to become fully testable. **Reading change:** courage is structured as epistemic openness, not mere defiance.
+
+### Retrospective surprises
+
+10:73 later gives rescue, succession, and drowning, showing why the challenge could allow opposition its fullest form without treating numerical force as decisive.
+
+## 10:72 — فَإِن تَوَلَّيْتُمْ فَمَا سَأَلْتُكُم مِّنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱللَّهِ ۖ وَأُمِرْتُ أَنْ أَكُونَ مِنَ ٱلْمُسْلِمِينَ
+
+### Activated readings
+
+1. **Audience withdrawal cannot convert the message into a failed transaction.** **Lexical evidence:** و ل ي/B007 is turning away, ء م ر/B002 is command, س ل م/B012 is handing over or consigning an affair, and ك و ن/B001 marks the commanded state. **Structural cue:** the conditional grants their withdrawal, then negates any requested wage; the speaker’s recompense is restricted to Allah, and his own commanded submission closes the ayah. **Assigned role:** incentive independence. **Abductive move:** the packet gives rejected audience + no audience-funded reward + divinely commanded self-consignment; I infer neither payment nor acceptance is the causal basis of the stance. **Reading change:** the messenger is accountable upward rather than economically dependent outward.
+
+### Retrospective surprises
+
+10:73 later makes rescue follow denial, confirming that lack of audience acceptance does not constitute failure within the stated reward structure.
+
+## 10:73 — فَكَذَّبُوهُ فَنَجَّيْنَٰهُ وَمَن مَّعَهُۥ فِى ٱلْفُلْكِ وَجَعَلْنَٰهُمْ خَلَٰٓئِفَ وَأَغْرَقْنَا ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۖ فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُنذَرِينَ
+
+### Activated readings
+
+1. **Denial divides one community into rescued successors and a drowned sign-denying remainder.** **Lexical evidence:** ك ذ ب/B002 is declaring false, ج ع ل/B002 is assigning a state, خ ل ف/B001 successor status, ء ي ي/B003 visible signs, and ن ظ ر/B001 reflective inspection. **Structural cue:** rapid فَ clauses move denial to rescue, ark-company, succession, and drowning; the final imperative asks inspection of the warned group’s outcome. **Assigned role:** historical bifurcation. **Abductive move:** the packet gives one denial event -> divergent embodied outcomes -> demanded observation; I infer response to signs becomes a community-forming separator. **Reading change:** succession is again an accountable result, now produced through rescue rather than simple replacement.
+
+### Retrospective surprises
+
+10:74 later shows new messengers and renewed denial, correcting any expectation that rescued succession automatically prevents the old pattern from recurring.
+
+## 10:74 — ثُمَّ بَعَثْنَا مِنۢ بَعْدِهِۦ رُسُلًا إِلَىٰ قَوْمِهِمْ فَجَآءُوهُم بِٱلْبَيِّنَٰتِ فَمَا كَانُوا۟ لِيُؤْمِنُوا۟ بِمَا كَذَّبُوا۟ بِهِۦ مِن قَبْلُ ۚ كَذَٰلِكَ نَطْبَعُ عَلَىٰ قُلُوبِ ٱلْمُعْتَدِينَ
+
+### Activated readings
+
+1. **Later proof encounters a path already shaped by prior denial.** **Lexical evidence:** ب ع د/B002 marks the later sequence, ب ي ن/B004 clear proofs, ء م ن/B002 trusting assent, and ك ذ ب/B002 declaring false. **Structural cue:** later messengers come to their own peoples with proofs, but an inability-to-believe construction is causally related to what was denied before; the closing similitude names a stamped-heart pattern. **Assigned role:** path-dependence account. **Abductive move:** the packet gives renewed clear evidence + prior denial + repeated non-assent; I infer an earlier verdict trains the reception through which later evidence is encountered. **Reading change:** repeated disbelief is not evidence that proofs never arrived; it can be an effect of entrenched response.
+
+### Retrospective surprises
+
+10:76 later shows truth immediately relabeled as obvious magic, providing the speech-act by which a prior denial path is renewed.
+
+## 10:75 — ثُمَّ بَعَثْنَا مِنۢ بَعْدِهِم مُّوسَىٰ وَهَٰرُونَ إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ بِـَٔايَٰتِنَا فَٱسْتَكْبَرُوا۟ وَكَانُوا۟ قَوْمًۭا مُّجْرِمِينَ
+
+### Activated readings
+
+1. **The general messenger pattern narrows to a named elite confrontation.** **Lexical evidence:** ب ع د/B002 marks sequence after predecessors, ء ي ي/B003 visible signs, ق و م/B001 a social group, and ك و ن/B001 their continuing criminal state. **Structural cue:** ثُمَّ and “after them” connect to 10:74, while named messengers, ruler, and elite make the next instance concrete; the response is arrogance, then a state-description of criminality. **Assigned role:** instantiated pattern. **Abductive move:** the packet gives repeated mission structure + concentrated political audience + sign-triggered arrogance; I infer social elevation can become the local mechanism by which clear signs are resisted. **Reading change:** the historical sequence moves from abstract recurrence to power-protecting reception.
+
+### Retrospective surprises
+
+10:78 later makes the elite’s concern explicit as inherited orientation and earthly grandeur, confirming the status-preservation mechanism.
+
+## 10:76 — فَلَمَّا جَآءَهُمُ ٱلْحَقُّ مِنْ عِندِنَا قَالُوٓا۟ إِنَّ هَٰذَا لَسِحْرٌۭ مُّبِينٌۭ
+
+### Activated readings
+
+1. **Arrival of truth is met by a clear counter-label of deception.** **Lexical evidence:** ح ق ق/B001 is firm truth against falsehood, س ح ر/B002 is diversion or deception, ق و ل/B001 is uttered relabeling, and ب ي ن/B004 is clarity. **Structural cue:** فَلَمَّا makes their speech a direct response to truth’s arrival; the demonstrative points at the arrived object while emphatic syntax calls it “clear magic.” **Assigned role:** categorical inversion. **Abductive move:** the packet gives truth from the divine side -> immediate public label of deceptive power; I infer the label preserves rejection by redescribing evidentiary force as manipulation. **Reading change:** “clear” does not resolve the dispute because clarity itself is absorbed into the rival category.
+
+### Retrospective surprises
+
+10:77 later turns the label back into a question and contrasts it with magicians’ non-flourishing, forcing the category to bear outcome implications.
+
+## 10:77 — قَالَ مُوسَىٰٓ أَتَقُولُونَ لِلْحَقِّ لَمَّا جَآءَكُمْ ۖ أَسِحْرٌ هَٰذَا وَلَا يُفْلِحُ ٱلسَّٰحِرُونَ
+
+### Activated readings
+
+1. **Moses interrupts the relabeling before answering its category by outcome.** **Lexical evidence:** ق و ل/B001 is uttered speech, ح ق ق/B001 firm truth, and س ح ر/B002 diversion or deception. **Structural cue:** the response first asks whether they say this “to the truth when it came,” then isolates “is this magic?” and closes by denying flourishing to magicians. **Assigned role:** label audit. **Abductive move:** the packet gives an arrival-event + a speech imposed on it + the claimed category’s failed future; I infer a label must be tested against both the object’s source-relation and the trajectory associated with the label. **Reading change:** Moses does not merely counter-assert; he exposes the timing and consequences of their classification.
+
+### Retrospective surprises
+
+10:80-81 later lets actual magicians cast before their production is nullified, turning the verbal category test into an observable comparison.
+
+## 10:78 — قَالُوٓا۟ أَجِئْتَنَا لِتَلْفِتَنَا عَمَّا وَجَدْنَا عَلَيْهِ ءَابَآءَنَا وَتَكُونَ لَكُمَا ٱلْكِبْرِيَآءُ فِى ٱلْأَرْضِ وَمَا نَحْنُ لَكُمَا بِمُؤْمِنِينَ
+
+### Activated readings
+
+1. **The truth-claim is recoded as displacement of inheritance and competition for grandeur.** **Lexical evidence:** ق و ل/B001 is the opponents’ account, ك و ن/B001 marks the alleged future status and their present stance, ء ر ض/B001 is the terrestrial field of grandeur, and ء م ن/B002 is trusting assent, here negated. **Structural cue:** two purpose accusations follow “have you come”: turning them from what they found their fathers upon and acquiring grandeur; non-belief then closes as a declared conclusion. **Assigned role:** motive substitution. **Abductive move:** the packet gives inherited placement + perceived status threat -> attributed ambition -> refusal of assent. **Reading change:** evidence is bypassed by explaining the messenger through a political motive.
+
+### Retrospective surprises
+
+10:79 later mobilizes every learned magician, showing the ruler’s practical response is indeed status defense through institutional counter-display.
+
+## 10:79 — وَقَالَ فِرْعَوْنُ ٱئْتُونِى بِكُلِّ سَٰحِرٍ عَلِيمٍۢ
+
+### Activated readings
+
+1. **The ruler answers the dispute by assembling recognized expertise in the imposed category.** **Lexical evidence:** س ح ر/B002 is deceptive diversion, ع ل م/B001 is knowledge, and ق و ل/B001 turns the classification into a command. **Structural cue:** Pharaoh’s imperative asks for “every” learned magician immediately after the grandeur accusation; 10:76-77 established that magic is the contested category. **Assigned role:** institutional counter-production. **Abductive move:** the packet gives a label of magic + centralized command + exhaustive learned specialists; I infer the regime seeks to stabilize its label by producing a controlled comparison inside the category it chose. **Reading change:** expertise can be recruited to defend a prior classification rather than investigate whether it fits.
+
+### Retrospective surprises
+
+10:81 later has Moses call what the specialists brought “the magic” and predict its nullification, sharply separating expertise in a category from truth.
+
+## 10:80 — فَلَمَّا جَآءَ ٱلسَّحَرَةُ قَالَ لَهُم مُّوسَىٰٓ أَلْقُوا۟ مَآ أَنتُم مُّلْقُونَ
+
+### Activated readings
+
+1. **Moses permits the rival production to become fully manifest.** **Lexical evidence:** ل ق ي/B005 is casting or setting something before another, ق و ل/B001 is the enabling command, and س ح ر/B002 retains the specialists’ deceptive category. **Structural cue:** the magicians’ arrival triggers Moses’ imperative; cognate forms أَلْقُوا۟/مُّلْقُونَ repeat the casting action and leave its object open. **Assigned role:** controlled exposure. **Abductive move:** the packet gives assembled experts + permission to cast whatever they cast; I infer the rival claim is not suppressed but allowed to externalize its strongest evidence before comparison. **Reading change:** confidence appears as procedural openness rather than avoidance of the opponent’s display.
+
+### Retrospective surprises
+
+10:81 immediately identifies the manifested production and assigns its nullification to Allah, confirming that exposure was a precondition for discrimination.
+
+## 10:81 — فَلَمَّآ أَلْقَوْا۟ قَالَ مُوسَىٰ مَا جِئْتُم بِهِ ٱلسِّحْرُ ۖ إِنَّ ٱللَّهَ سَيُبْطِلُهُۥٓ ۖ إِنَّ ٱللَّهَ لَا يُصْلِحُ عَمَلَ ٱلْمُفْسِدِينَ
+
+### Activated readings
+
+1. **Manifest magic is assigned a future nullification because corrupting work is not made sound.** **Lexical evidence:** ل ق ي/B005 is the completed casting, ص ل ح/B001 is soundness opposed to corruption, ع م ل/B001 intentional work, and ف س د/B001 departure from soundness and balance. **Structural cue:** once they cast, Moses identifies what they brought; two إِنَّ clauses then announce divine nullification and a general rule that Allah does not set right corrupters’ work. **Assigned role:** mechanism verdict. **Abductive move:** the packet gives exposed production + corrupting agency + denied repair; I infer a work structured by corruption lacks the divine sustaining operation needed to stand. **Reading change:** nullification is grounded in the production’s mode, not treated as arbitrary competitive force.
+
+### Retrospective surprises
+
+10:82 later states the positive counterpart: Allah makes truth stand by His words, so non-repair of corruption and establishment of truth form one discriminating process.
+
+## 10:82 — وَيُحِقُّ ٱللَّهُ ٱلْحَقَّ بِكَلِمَٰتِهِۦ وَلَوْ كَرِهَ ٱلْمُجْرِمُونَ
+
+### Activated readings
+
+1. **Truth is made to stand through divine words despite hostile aversion.** **Lexical evidence:** ح ق ق/B005 is establishing and making truth prevail, ح ق ق/B001 is the truth established, and ء ل ه/B002 marks the acting source. **Structural cue:** cognate verb and object place establishment and truth together; بِكَلِمَٰتِهِ names the means, while the concessive clause denies criminals’ dislike veto power. **Assigned role:** positive stabilization. **Abductive move:** the packet gives truth + source-words as effective means + opposed desire; I infer truth’s public standing depends on divine enactment rather than audience preference. **Reading change:** the sequence’s victory is verbal-causal, complementing 10:81’s removal of corrupt production.
+
+### Retrospective surprises
+
+10:83 later shows only a fearful young group believing, correcting any assumption that truth’s establishment must immediately appear as majority assent.
+
+## 10:83 — فَمَآ ءَامَنَ لِمُوسَىٰٓ إِلَّا ذُرِّيَّةٌۭ مِّن قَوْمِهِۦ عَلَىٰ خَوْفٍۢ مِّن فِرْعَوْنَ وَمَلَإِي۟هِمْ أَن يَفْتِنَهُمْ ۚ وَإِنَّ فِرْعَوْنَ لَعَالٍۢ فِى ٱلْأَرْضِ وَإِنَّهُۥ لَمِنَ ٱلْمُسْرِفِينَ
+
+### Activated readings
+
+1. **Established truth first appears socially as vulnerable assent.** **Lexical evidence:** ء م ن/B002 is trusting assent, ق و م/B001 is the surrounding social group, and ء ر ض/B001 is the terrestrial field in which Pharaoh is elevated. **Structural cue:** restrictive syntax limits belief to a young subgroup, locates them “upon fear” of ruler and elites, and closes with Pharaoh’s earthly height and excess; 10:82 has just said truth is established despite criminals’ dislike. **Assigned role:** scale correction. **Abductive move:** the packet gives effective truth + small fearful reception + concentrated worldly power; I infer truth’s establishment cannot be measured simply by immediate social dominance. **Reading change:** minority fear is compatible with, not evidence against, the prior truth claim.
+
+### Retrospective surprises
+
+10:84 later makes trust the explicit response to this fear, showing how vulnerable assent is to become an active orientation rather than remain a private conclusion.
+
+## 10:84 — وَقَالَ مُوسَىٰ يَٰقَوْمِ إِن كُنتُمْ ءَامَنتُم بِٱللَّهِ فَعَلَيْهِ تَوَكَّلُوٓا۟ إِن كُنتُم مُّسْلِمِينَ
+
+### Activated readings
+
+1. **Professed assent is tested by where reliance is placed under pressure.** **Lexical evidence:** ء م ن/B002 is trusting assent, س ل م/B012 is handing over or consigning an affair, ك و ن/B001 marks the conditional state, and ق و ل/B001 introduces Moses’ address. **Structural cue:** two إِن كُنتُم conditions surround the imperative to rely upon Allah: if you believe, rely; if you are submitters. **Assigned role:** enacted faith test. **Abductive move:** the packet gives endangered belief + claimed submission + commanded reliance; I infer assent becomes operational when threatened agents consign outcome to the acknowledged source. **Reading change:** reliance is not an added virtue but the pressure-form of faith and submission.
+
+### Retrospective surprises
+
+10:85 immediately records “upon Allah we relied,” then turns reliance into prayer about communal vulnerability, confirming both action and dependence.
+
+## 10:85 — فَقَالُوا۟ عَلَى ٱللَّهِ تَوَكَّلْنَا رَبَّنَا لَا تَجْعَلْنَا فِتْنَةًۭ لِّلْقَوْمِ ٱلظَّٰلِمِينَ
+
+### Activated readings
+
+1. **Reliance speaks as a request not to become material for oppressive testing.** **Lexical evidence:** ق و ل/B001 is the community’s response, ج ع ل/B002 is turning something into a state, ق و م/B001 is the opposing collective, and ظ ل م/B008 is withholding a due right. **Structural cue:** فَ links their declaration directly to Moses’ imperative; invocation of “our Lord” then negates being made a fitnah for the wronging people. **Assigned role:** vulnerable communal prayer. **Abductive move:** the packet gives declared reliance + awareness of how their suffering could function for oppressors; I infer trust does not deny secondary effects but asks that their condition not reinforce the rival order. **Reading change:** reliance includes concern for the public meaning of the community’s fate.
+
+### Retrospective surprises
+
+10:86 later specifies rescue “by Your mercy,” locating the requested outcome in care rather than in the believers’ strategic control.
+
+## 10:86 — وَنَجِّنَا بِرَحْمَتِكَ مِنَ ٱلْقَوْمِ ٱلْكَٰفِرِينَ
+
+### Activated readings
+
+1. **Rescue is requested through mercy from a rejecting social order.** **Lexical evidence:** ر ح م/B001 is mercy and tender care, ق و م/B001 is the collective from which separation is sought, and ك ف ر/B003 is rejection of truth. **Structural cue:** the compact coordinated prayer names the means with بِرَحْمَتِكَ and the source-domain of danger with مِنَ; 10:85 asked not to be made a trial for the wronging people. **Assigned role:** requested separation. **Abductive move:** the packet gives exposed believers + rejecting collective + mercy as means; I infer rescue is a relational extraction that preserves the vulnerable group from being absorbed into the oppressor’s meaning-system. **Reading change:** mercy is causally active in historical deliverance, not only an inward consolation.
+
+### Retrospective surprises
+
+10:87 later answers vulnerability first through houses, orientation, prayer, and glad tidings, showing rescue begins with a reconfigured communal interior before the sea crossing.
+
+## 10:87 — وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰ وَأَخِيهِ أَن تَبَوَّءَا لِقَوْمِكُمَا بِمِصْرَ بُيُوتًۭا وَٱجْعَلُوا۟ بُيُوتَكُمْ قِبْلَةًۭ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ
+
+### Activated readings
+
+1. **Hidden instruction reorganizes domestic space into shared orientation and sustained worship.** **Lexical evidence:** و ح ي/B004 is divine message, ج ع ل/B002 is assigning a state, ق و م/B004 is maintaining and sustaining an affair, ب ش ر/B005 is face-brightening tidings, and ء م ن/B002 trusting assent. **Structural cue:** revelation to two leaders yields plural houses for the people, houses made a qiblah, established prayer, and glad tidings; 10:83-86 supplied fear and rescue-prayer. **Assigned role:** community formation. **Abductive move:** the packet gives threatened minority + revealed spatial instructions -> common orientation -> maintained prayer; I infer resilience is built by aligning ordinary dwellings around repeated worship. **Reading change:** deliverance begins as organized practice before dramatic escape.
+
+### Retrospective surprises
+
+10:90 later supplies the sea crossing, confirming that the household-prayer reorganization was preparatory rather than the full extent of rescue.
+
+## 10:88 — وَقَالَ مُوسَىٰ رَبَّنَآ إِنَّكَ ءَاتَيْتَ فِرْعَوْنَ وَمَلَأَهُۥ زِينَةًۭ وَأَمْوَٰلًۭا فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا رَبَّنَا لِيُضِلُّوا۟ عَن سَبِيلِكَ ۖ رَبَّنَا ٱطْمِسْ عَلَىٰٓ أَمْوَٰلِهِمْ وَٱشْدُدْ عَلَىٰ قُلُوبِهِمْ فَلَا يُؤْمِنُوا۟ حَتَّىٰ يَرَوُا۟ ٱلْعَذَابَ ٱلْأَلِيمَ
+
+### Activated readings
+
+1. **Worldly gifts are diagnosed as incorporated into a misguiding regime, prompting a prayer against their operative force.** **Lexical evidence:** د ن و/B002 is the nearer worldly life, ء م ن/B002 trusting assent, ء ل م/B002 painful or causing pain, ق و ل/B001 is Moses’ prayer-speech, and ر ب ب/B001 is repeatedly invoked lordship. **Structural cue:** adornment and wealth are first acknowledged as given, then linked to diversion from the divine way; three “our Lord” invocations frame requests concerning wealth, hearts, and belief until punishment is seen. **Assigned role:** gift-corruption diagnosis. **Abductive move:** the packet gives bestowed resources -> organized diversion -> requested disabling; I infer gifts can become infrastructure for opposition without ceasing to be gifts in origin. **Reading change:** possession is separated from approval.
+
+### Retrospective surprises
+
+10:89 later says the prayer has been answered but commands straightness, showing that answered opposition-prayer also imposes discipline on its petitioners.
+
+## 10:89 — قَالَ قَدْ أُجِيبَت دَّعْوَتُكُمَا فَٱسْتَقِيمَا وَلَا تَتَّبِعَآنِّ سَبِيلَ ٱلَّذِينَ لَا يَعْلَمُونَ
+
+### Activated readings
+
+1. **Answered prayer is followed by a command to remain straight and refuse ignorant sequencing.** **Lexical evidence:** د ع و/B001 is the received call, ق و م/B008 is straightness and uprightness, ع ل م/B001 is knowledge, here negated, and ق و ل/B001 announces the answer. **Structural cue:** completed response “has been answered” leads with فَ to a dual command for straightness, then a prohibition against following the path of those who do not know. **Assigned role:** post-answer discipline. **Abductive move:** the packet gives granted petition -> continued uprightness -> prohibited imitation; I infer assurance of outcome does not license impatience or adoption of the opponent’s methods. **Reading change:** answered prayer opens a waiting practice rather than ending responsibility.
+
+### Retrospective surprises
+
+10:90 later contrasts their commanded straightness with Pharaoh’s aggressive following, making “do not follow their path” narratively concrete.
+
+## 10:90 — ۞ وَجَٰوَزْنَا بِبَنِىٓ إِسْرَٰٓءِيلَ ٱلْبَحْرَ فَأَتْبَعَهُمْ فِرْعَوْنُ وَجُنُودُهُۥ بَغْيًۭا وَعَدْوًا ۖ حَتَّىٰٓ إِذَآ أَدْرَكَهُ ٱلْغَرَقُ قَالَ ءَامَنتُ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا ٱلَّذِىٓ ءَامَنَتْ بِهِۦ بَنُوٓا۟ إِسْرَٰٓءِيلَ وَأَنَا۠ مِنَ ٱلْمُسْلِمِينَ
+
+### Activated readings
+
+1. **Aggressive pursuit ends in a compelled convergence of confession.** **Lexical evidence:** ء م ن/B002 is trusting assent, repeated in Pharaoh’s confession and Israel’s prior belief, س ل م/B012 is handing oneself over, ق و ل/B001 is the terminal utterance, and ء ل ه/B001 is deity or object of worship. **Structural cue:** crossing is followed by pursuit “in transgression and hostility” until drowning overtakes; only then does Pharaoh confess the deity believed in by Israel and claim submission. **Assigned role:** closed-threshold confession. **Abductive move:** the packet gives hostile pursuit -> inescapable drowning -> verbal alignment with the pursued; I infer the event forces propositional convergence after the interval for trust-led alignment has collapsed. **Reading change:** identical vocabulary of belief does not erase its radically different timing.
+
+### Retrospective surprises
+
+10:91 immediately answers “now?” and recalls prior disobedience and corruption, explicitly confirming the timing distinction.
+
+## 10:91 — ءَآلْـَٰٔنَ وَقَدْ عَصَيْتَ قَبْلُ وَكُنتَ مِنَ ٱلْمُفْسِدِينَ
+
+### Activated readings
+
+1. **The present confession is interpreted through the durable prior pattern.** **Lexical evidence:** ك و ن/B001 marks the continuing prior state, and ف س د/B001 is departure from soundness and balance. **Structural cue:** the abrupt temporal challenge “now?” is followed by وَقَدْ, prior disobedience, and “you were among the corrupters”; 10:90 supplied the drowning-triggered confession. **Assigned role:** temporal qualification. **Abductive move:** the packet gives end-point speech + established earlier corruption; I infer the final utterance cannot be evaluated without the trajectory that produced the moment in which it became unavoidable. **Reading change:** confession is not isolated from biography; timing and formed agency govern its significance.
+
+### Retrospective surprises
+
+10:92 later preserves the body as a sign for those after, shifting Pharaoh’s final moment from a private failed confession into public historical evidence.
+
+## 10:92 — فَٱلْيَوْمَ نُنَجِّيكَ بِبَدَنِكَ لِتَكُونَ لِمَنْ خَلْفَكَ ءَايَةًۭ ۚ وَإِنَّ كَثِيرًۭا مِّنَ ٱلنَّاسِ عَنْ ءَايَٰتِنَا لَغَٰفِلُونَ
+
+### Activated readings
+
+1. **Bodily preservation converts a defeated agent into a later-facing sign.** **Lexical evidence:** ي و م/B001 marks the emphatic “today,” خ ل ف/B002 is what lies behind or comes after, ء ي ي/B003 is a visible sign, and غ ف ل/B001 is heedlessness that leaves signs outside attention. **Structural cue:** the purpose of bodily rescue is explicitly “to be a sign for whoever is after you”; a concessive close says many people remain heedless of signs. **Assigned role:** historical inscription. **Abductive move:** the packet gives preserved body -> future audience -> possible heedlessness; I infer material survival does not preserve Pharaoh’s power but preserves the intelligibility of its end. **Reading change:** rescue of the body is separated from rescue of the person’s trajectory.
+
+### Retrospective surprises
+
+10:93 later shows Israel differing only after knowledge came, demonstrating that even preserved signs and arrived knowledge do not mechanically prevent divergence.
+
+## 10:93 — وَلَقَدْ بَوَّأْنَا بَنِىٓ إِسْرَٰٓءِيلَ مُبَوَّأَ صِدْقٍۢ وَرَزَقْنَٰهُم مِّنَ ٱلطَّيِّبَٰتِ فَمَا ٱخْتَلَفُوا۟ حَتَّىٰ جَآءَهُمُ ٱلْعِلْمُ ۚ إِنَّ رَبَّكَ يَقْضِى بَيْنَهُمْ يَوْمَ ٱلْقِيَٰمَةِ فِيمَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ
+
+### Activated readings
+
+1. **A truthful settlement and good provision do not stop difference once knowledge arrives.** **Lexical evidence:** ص د ق/B003 is complete, excellent worth, خ ل ف/B004 is divergent courses, ع ل م/B001 clear knowledge, and ر ب ب/B001 is the Lord who judges. **Structural cue:** settled place and provision precede a فَمَا...حَتَّىٰ construction locating disagreement only after knowledge; the close postpones adjudication of that disagreement to the resurrection day. **Assigned role:** post-deliverance complication. **Abductive move:** the packet gives rescue-benefits + arrived knowledge -> divergence -> deferred Lordly judgment; I infer favorable conditions remove deprivation as a sufficient explanation for dispute. **Reading change:** knowledge can become the occasion of accountable differentiation rather than automatic unanimity.
+
+### Retrospective surprises
+
+10:94 later directs a doubter toward prior readers of the book, showing that earlier communities can still serve as witnesses even though their later divergence requires judgment.
+
+## 10:94 — فَإِن كُنتَ فِى شَكٍّۢ مِّمَّآ أَنزَلْنَآ إِلَيْكَ فَسْـَٔلِ ٱلَّذِينَ يَقْرَءُونَ ٱلْكِتَٰبَ مِن قَبْلِكَ ۚ لَقَدْ جَآءَكَ ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ
+
+### Activated readings
+
+1. **A hypothetical doubt is routed through prior textual witnesses and then closed by arrived truth.** **Lexical evidence:** ن ز ل/B002 is sending down, ك ت ب/B002 the written book, ح ق ق/B001 firm truth, ر ب ب/B001 the Lordly source, and ك و ن/B001 the prohibited state. **Structural cue:** the conditional permits asking those who read the book before; completed arrival of truth then grounds a prohibition against being among disputing doubters. **Assigned role:** continuity check. **Abductive move:** the packet gives present descent + prior readers + arrived truth; I infer temporal continuity can test the new disclosure without making prior communities its source. **Reading change:** inquiry is authorized as a route out of doubt, not treated as disloyalty.
+
+### Retrospective surprises
+
+10:98 later supplies Jonah’s community as a positive historical exception, broadening the evidentiary role of prior communities beyond warnings of failure.
+
+## 10:95 — وَلَا تَكُونَنَّ مِنَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِ ٱللَّهِ فَتَكُونَ مِنَ ٱلْخَٰسِرِينَ
+
+### Activated readings
+
+1. **Denied signs lead through a consequence-marking فَ into loss.** **Lexical evidence:** ك ذ ب/B002 is declaring false, ء ي ي/B003 is a visible sign, ك و ن/B001 marks both prohibited affiliation and resulting state, and ء ل ه/B002 fixes the signs’ source. **Structural cue:** the first prohibition concerns being among sign-deniers; فَ then makes being among losers its result, continuing 10:94’s prohibition against doubt. **Assigned role:** trajectory warning. **Abductive move:** the packet gives social affiliation with denial -> resultant affiliation with loss; I infer epistemic stance forms a community and carries it toward a corresponding outcome. **Reading change:** denial is not pictured as a private opinion with no state-forming effect.
+
+### Retrospective surprises
+
+10:96 later says the Lord’s word becomes due upon some, clarifying how a repeatedly inhabited denial-state can harden into an outcome-bearing condition.
+
+## 10:96 — إِنَّ ٱلَّذِينَ حَقَّتْ عَلَيْهِمْ كَلِمَتُ رَبِّكَ لَا يُؤْمِنُونَ
+
+### Activated readings
+
+1. **A word becoming due names the endpoint of entrenched non-assent.** **Lexical evidence:** ح ق ق/B002 is due obligation or a claim becoming fixed, ء م ن/B002 is trusting assent, and ر ب ب/B001 marks the Lord whose word is due. **Structural cue:** emphatic إِنَّ identifies a group by the word’s having come due upon them, then categorically negates belief; 10:95 supplied the denial-to-loss trajectory. **Assigned role:** ratified closure. **Abductive move:** the packet gives sustained denial trajectory + due word + non-assent; I infer the clause describes a condition that has reached confirmatory maturity. **Reading change:** it is read retrospectively as closure of a path, while not being generalized to every community.
+
+### Retrospective surprises
+
+10:98 later presents Jonah’s people as a community whose belief benefited them, decisively preventing this closure statement from being flattened into a universal communal rule.
+
+## 10:97 — وَلَوْ جَآءَتْهُمْ كُلُّ ءَايَةٍ حَتَّىٰ يَرَوُا۟ ٱلْعَذَابَ ٱلْأَلِيمَ
+
+### Activated readings
+
+1. **Sign multiplication cannot reopen a trajectory that waits for painful sight.** **Lexical evidence:** ء ي ي/B003 is a visible sign, ع ذ ب/B005 punishment, and ء ل م/B002 painful or pain-causing. **Structural cue:** the concessive counterfactual grants “every sign,” but حَتَّىٰ places their eventual seeing of painful punishment as the limit; 10:96 has already named the due-word condition. **Assigned role:** saturation limit. **Abductive move:** the packet gives maximal sign supply + no assent before punitive vision; I infer the deficit is no longer quantity of evidence but the reception rule governing all evidence. **Reading change:** more signs are not assumed to repair a settled interpretive closure.
+
+### Retrospective surprises
+
+10:98 immediately gives a town whose belief did benefit it before destruction, showing that the saturation limit belongs to the described trajectory, not to sign-response as such.
+
+## 10:98 — فَلَوْلَا كَانَتْ قَرْيَةٌ ءَامَنَتْ فَنَفَعَهَآ إِيمَٰنُهَآ إِلَّا قَوْمَ يُونُسَ لَمَّآ ءَامَنُوا۟ كَشَفْنَا عَنْهُمْ عَذَابَ ٱلْخِزْىِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَمَتَّعْنَٰهُمْ إِلَىٰ حِينٍۢ
+
+### Activated readings
+
+1. **Jonah’s people instantiate beneficial communal assent as a marked exception.** **Lexical evidence:** ء م ن/B002 is trusting assent, repeated around the benefit relation, ق و م/B001 is the named community, and د ن و/B002 is the nearer worldly life in which punishment is removed. **Structural cue:** the question expects a town whose belief benefited it, then إِلَّا isolates Jonah’s people; when they believed, disgrace-punishment was uncovered from them and enjoyment extended to a term. **Assigned role:** corrective exception. **Abductive move:** the packet gives communal assent -> removed punishment -> finite extension; I infer warning can achieve its protective end when reception changes before closure. **Reading change:** prior destruction patterns are not fatalistic laws; they are trajectories that can be interrupted.
+
+### Retrospective surprises
+
+10:99 later denies compelled universal belief, showing that this successful communal response remains meaningful precisely because it was not mechanically imposed.
+
+## 10:99 — وَلَوْ شَآءَ رَبُّكَ لَءَامَنَ مَن فِى ٱلْأَرْضِ كُلُّهُمْ جَمِيعًا ۚ أَفَأَنتَ تُكْرِهُ ٱلنَّاسَ حَتَّىٰ يَكُونُوا۟ مُؤْمِنِينَ
+
+### Activated readings
+
+1. **Possible universal assent is distinguished from messenger-imposed assent.** **Lexical evidence:** ء م ن/B002 is trusting assent, ج م ع/B009 is totality without scattering, ء ر ض/B001 is the earth-wide domain, and ك و ن/B001 marks the coerced target state. **Structural cue:** a counterfactual attributes universal belief to the Lord’s will, then a rhetorical question denies the addressee’s forcing people until they become believers. **Assigned role:** agency boundary. **Abductive move:** the packet gives divine capacity for total assent + prohibition of human compulsion; I infer non-universality cannot be explained by divine incapacity, while messenger vocation excludes coercive production of faith. **Reading change:** belief’s value is preserved by separating invitation from forced state-change.
+
+### Retrospective surprises
+
+10:100 later says no self believes except by Allah’s permission, adding enabled dependence without transferring coercive power to the messenger.
+
+## 10:100 — وَمَا كَانَ لِنَفْسٍ أَن تُؤْمِنَ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَيَجْعَلُ ٱلرِّجْسَ عَلَى ٱلَّذِينَ لَا يَعْقِلُونَ
+
+### Activated readings
+
+1. **Belief is non-coercive yet permission-dependent, while non-reasoning receives a contaminating consequence.** **Lexical evidence:** ء م ن/B002 is trusting assent, ء ذ ن/B004 authorization, ج ع ل/B002 is assigning a state, and ء ل ه/B002 marks the authorizing source. **Structural cue:** restrictive syntax denies belief to any self except by divine permission; the coordinated clause then places impurity upon those who do not reason. **Assigned role:** enabled-agency account. **Abductive move:** the packet gives no messenger compulsion + divine authorization + accountable non-reasoning; I infer enabled belief is neither self-originating autonomy nor externally forced performance. **Reading change:** permission and responsibility are held together rather than made rival explanations.
+
+### Retrospective surprises
+
+10:101 later commands observation of heavens and earth but says signs do not avail a nonbelieving people, specifying the active reasoning reception that permission does not replace.
+
+## 10:101 — قُلِ ٱنظُرُوا۟ مَاذَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَمَا تُغْنِى ٱلْءَايَٰتُ وَٱلنُّذُرُ عَن قَوْمٍۢ لَّا يُؤْمِنُونَ
+
+### Activated readings
+
+1. **Observation is commanded, but signs and warnings are denied automatic efficacy.** **Lexical evidence:** ن ظ ر/B001 is directing sight or insight to examine, ء ي ي/B003 is a visible sign, ن ذ ر/B001 is warning that awakens caution, and ء م ن/B002 is trusting assent. **Structural cue:** the imperative opens the heavens and earth to inspection; the next clause asks what signs and warnings avail a people who do not believe. **Assigned role:** reception condition. **Abductive move:** the packet gives available cosmos + commanded examination + non-availing evidence under non-assent; I infer evidence has genuine content but does not coerce the orientation by which it is received. **Reading change:** lack of automatic effect is not lack of signs.
+
+### Retrospective surprises
+
+10:102 later redirects nonresponders to historical days like those before them, adding temporal observation to the spatial observation commanded here.
+
+## 10:102 — فَهَلْ يَنتَظِرُونَ إِلَّا مِثْلَ أَيَّامِ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِهِمْ ۚ قُلْ فَٱنتَظِرُوٓا۟ إِنِّى مَعَكُم مِّنَ ٱلْمُنتَظِرِينَ
+
+### Activated readings
+
+1. **Passive waiting is interpreted through analogous prior days and answered by shared waiting.** **Lexical evidence:** ن ظ ر/B002 is waiting for a time, ي و م/B003 is an eventful or severe day, and ق و ل/B001 commands the reply. **Structural cue:** restrictive syntax asks whether they await anything except days like earlier peoples’; the response repeats the waiting root and places the messenger among those waiting. **Assigned role:** historical countdown. **Abductive move:** the packet gives present delay + patterned prior events + common waiting posture; I infer delay is not empty time but time already given an analogue by history. **Reading change:** shared waiting does not imply shared expectation or outcome.
+
+### Retrospective surprises
+
+10:103 later states rescue of messengers and believers as the rule within such days, specifying the divergent expectation carried inside the common wait.
+
+## 10:103 — ثُمَّ نُنَجِّى رُسُلَنَا وَٱلَّذِينَ ءَامَنُوا۟ ۚ كَذَٰلِكَ حَقًّا عَلَيْنَا نُنجِ ٱلْمُؤْمِنِينَ
+
+### Activated readings
+
+1. **Rescue is presented as a repeated pattern made due upon the divine speaker.** **Lexical evidence:** ء م ن/B002 is trusting assent, repeated for those rescued, and ح ق ق/B002 is a due obligation or fixed claim. **Structural cue:** ثُمَّ places rescue within the historical sequence of 10:102; كَذَٰلِكَ generalizes it, and حَقًّا عَلَيْنَا frames saving believers as a self-stated due. **Assigned role:** rescue rule. **Abductive move:** the packet gives prior-day pattern + messenger/believer rescue + due formulation; I infer historical judgment contains a stable discriminating commitment, not only destructive recurrence. **Reading change:** the retrospective sequence culminates in a positive invariant.
+
+### Retrospective surprises
+
+10:104 later commands exclusive worship of the one who takes lives, showing the allegiance corresponding to the rescued-believer category.
+
+## 10:104 — قُلْ يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى شَكٍّۢ مِّن دِينِى فَلَآ أَعْبُدُ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ وَلَٰكِنْ أَعْبُدُ ٱللَّهَ ٱلَّذِى يَتَوَفَّىٰكُمْ ۖ وَأُمِرْتُ أَنْ أَكُونَ مِنَ ٱلْمُؤْمِنِينَ
+
+### Activated readings
+
+1. **Audience doubt does not produce reciprocal compromise in worship.** **Lexical evidence:** ع ب د/B003 is worshipful submission, ء م ر/B002 is command, ك و ن/B001 is the commanded state, ء م ن/B002 trusting assent, and ق و ل/B001 introduces the public declaration. **Structural cue:** the conditional grants doubt about “my religion”; فَلَا negates worship of their objects, وَلَٰكِنْ asserts worship of Allah who takes them in death, and a final passive command places the speaker among believers. **Assigned role:** nonreciprocal allegiance. **Abductive move:** the packet gives disputed religion + mortal dependence + commanded belief; I infer uncertainty in hearers cannot alter the speaker’s source-bound obligation. **Reading change:** exclusivity is grounded in who governs their death, not group differentiation alone.
+
+### Retrospective surprises
+
+10:105 later converts the negative refusal into a positive command to set the face upright toward the religion.
+
+## 10:105 — وَأَنْ أَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًۭا وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ
+
+### Activated readings
+
+1. **Exclusive worship becomes sustained directional posture.** **Lexical evidence:** ق و م/B008 is straightness, uprightness, and an upright religion, while ك و ن/B001 marks the prohibited affiliation-state. **Structural cue:** the coordinated command continues 10:104, placing “your face” toward religion with an inclining modifier, then negating being among associators. **Assigned role:** embodied orientation. **Abductive move:** the packet gives refusal of rival worship -> upright face-setting -> exclusion of partnership; I infer allegiance must be maintained as a directed posture, not only stated as a doctrinal negation. **Reading change:** the face makes religious exclusivity continuous and enacted.
+
+### Retrospective surprises
+
+10:106-107 later test this posture through benefit and harm, showing that directional worship entails an equally exclusive map of dependence.
+
+## 10:106 — وَلَا تَدْعُ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُكَ وَلَا يَضُرُّكَ ۖ فَإِن فَعَلْتَ فَإِنَّكَ إِذًۭا مِّنَ ٱلظَّٰلِمِينَ
+
+### Activated readings
+
+1. **Calling a powerless other would place the caller among those who withhold the due relation.** **Lexical evidence:** د ع و/B001 is calling to draw near by speech, ء ل ه/B002 marks the exclusive divine term, and ظ ل م/B008 is withholding a due right. **Structural cue:** the prohibition names objects unable to benefit or harm; a nested conditional then says that doing so would immediately place the addressee among wrongdoers. **Assigned role:** dependence boundary. **Abductive move:** the packet gives invoked object + no effective benefit/harm + wronging affiliation; I infer invocation assigns relational efficacy where the fixed clause denies it and thereby displaces the due source. **Reading change:** wrong is located in a false practical relation, not only a mistaken proposition.
+
+### Retrospective surprises
+
+10:107 later positively assigns removal of harm and unrepellable good to Allah, supplying the effective relation whose displacement makes this call wrongful.
+
+## 10:107 — وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّۢ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يُرِدْكَ بِخَيْرٍۢ فَلَا رَآدَّ لِفَضْلِهِۦ ۚ يُصِيبُ بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+
+### Activated readings
+
+1. **Harm and good are asymmetrically enclosed by one effective will and a merciful close.** **Lexical evidence:** ء ل ه/B002 marks the actor in the harm condition, ع ب د/B003 the servants reached by favor, and ر ح م/B001 the mercy named at the end. **Structural cue:** two conditionals deny any remover of divinely touched harm and any repeller of intended good; favor reaches whom He wills, then forgiveness and mercy close the sequence. **Assigned role:** exclusive efficacy with gracious telos. **Abductive move:** the packet gives unshared removal/repulsion authority + selective reaching favor + mercy; I infer exclusive dependence is not a bare power claim but is finally framed by forgiveness and care. **Reading change:** the asymmetry prevents harm-language from dominating the account of divine agency.
+
+### Retrospective surprises
+
+10:108 later returns responsibility for guidance or error to each self, showing that exclusive divine efficacy does not erase the reflexive direction of human response.
+
+## 10:108 — قُلْ يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَكُمُ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۖ وَمَآ أَنَا۠ عَلَيْكُم بِوَكِيلٍۢ
+
+### Activated readings
+
+1. **Arrived truth opens a reflexive division of guidance and error without making the messenger an agent over outcomes.** **Lexical evidence:** ح ق ق/B001 is firm truth, ه د ي/B001 guidance toward a way and becoming guided, ر ب ب/B001 the truth’s source, and ق و ل/B001 its public announcement. **Structural cue:** completed arrival is followed by matched مَن clauses: guidance is for the self and error against it; the messenger then denies being a trustee over the audience. **Assigned role:** response allocation. **Abductive move:** the packet gives source-backed truth + self-returning paths + messenger non-control; I infer communication establishes the fork while each response accrues to its agent. **Reading change:** messenger responsibility ends at faithful disclosure, not at manufacturing outcomes.
+
+### Retrospective surprises
+
+10:109 later assigns the messenger his own continuing duties, clarifying what remains after agency over audience outcomes is denied.
+
+## 10:109 — وَٱتَّبِعْ مَا يُوحَىٰٓ إِلَيْكَ وَٱصْبِرْ حَتَّىٰ يَحْكُمَ ٱللَّهُ ۚ وَهُوَ خَيْرُ ٱلْحَٰكِمِينَ
+
+### Activated readings
+
+1. **Received disclosure governs action during the interval before judgment.** **Lexical evidence:** و ح ي/B004 is divine message or inspiration, ح ك م/B002 is adjudication, and ء ل ه/B002 marks both the coming judge and the source of the command. **Structural cue:** two imperatives require following what is revealed and patience; حَتَّىٰ gives divine judgment as the limit, and the final nominal clause identifies Allah as the best of judges. **Assigned role:** closing temporal discipline. **Abductive move:** the packet gives received direction + unresolved interval + superior future adjudication; I infer faithful following and patience are the proper activities when outcome control is denied. **Reading change:** the surah closes not with passive suspension but with source-bound action sustained until judgment.
+
+### Retrospective surprises
+
+No later ayah exists within the clipped window; the closing command therefore remains the final retrospective control on the surah’s earlier demands for haste, alteration, and compelled response.

@@ -8,7 +8,7 @@
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:64 relocates protection under divine mercy, 12:92 suspends reproach, and 12:111 names mercy as a function of the story; together they make the opening mercy branches unexpectedly concrete as repaired kinship rather than only an opening attribute.
 
 ## 12:1 — الٓر ۚ تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْمُبِينِ
 
@@ -18,7 +18,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:51 makes truth emerge through public inquiry, while 12:105 shows signs remaining visible yet unattended; these outcomes confirm that clarity is staged and can be resisted even when disclosure is available.
 
 ## 12:2 — إِنَّآ أَنزَلْنَٰهُ قُرْءَٰنًا عَرَبِيًّۭا لَّعَلَّكُمْ تَعْقِلُونَ
 
@@ -28,7 +28,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+The closing question *a-fa-lā taʿqilūn* in 12:109 returns understanding to restraint after surveying historical outcomes, extending the opening role from linguistic comprehension to conduct disciplined by consequence.
 
 ## 12:3 — نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ ٱلْقَصَصِ بِمَآ أَوْحَيْنَآ إِلَيْكَ هَٰذَا ٱلْقُرْءَانَ وَإِن كُنتَ مِن قَبْلِهِۦ لَمِنَ ٱلْغَٰفِلِينَ
 
@@ -38,7 +38,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:111 explicitly locates an *ʿibrah* inside the narrated *qaṣaṣ*, confirming that following the sequence is meant to carry the reader beyond plot into transferable judgment.
 
 ## 12:4 — إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَٰٓأَبَتِ إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًۭا وَٱلشَّمْسَ وَٱلْقَمَرَ رَأَيْتُهُمْ لِى سَٰجِدِينَ
 
@@ -48,7 +48,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:100 explicitly calls the family scene the earlier dream's *taʾwīl* and says it was made true, removing the initial uncertainty about whether the vision would become an enacted social arrangement.
 
 ## 12:5 — قَالَ يَٰبُنَىَّ لَا تَقْصُصْ رُءْيَاكَ عَلَىٰٓ إِخْوَتِكَ فَيَكِيدُوا۟ لَكَ كَيْدًا ۖ إِنَّ ٱلشَّيْطَٰنَ لِلْإِنسَٰنِ عَدُوٌّۭ مُّبِينٌۭ
 
@@ -58,7 +58,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:76 attributes a stratagem to divine enabling, so the surah ultimately prevents *kayd* from being treated as intrinsically corrupt; disclosure still furnishes action, but moral evaluation depends on its assigned end.
 
 ## 12:6 — وَكَذَٰلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ ٱلْأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ وَعَلَىٰٓ ءَالِ يَعْقُوبَ كَمَآ أَتَمَّهَا عَلَىٰٓ أَبَوَيْكَ مِن قَبْلُ إِبْرَٰهِيمَ وَإِسْحَٰقَ ۚ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٌۭ
 
@@ -68,7 +68,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:100 names the realized scene as the dream's *taʾwīl*, confirming that interpretation here is not merely explanation but the return of an image-complex to an embodied outcome.
 
 ## 12:7 — ۞ لَّقَدْ كَانَ فِى يُوسُفَ وَإِخْوَتِهِۦٓ ءَايَٰتٌۭ لِّلسَّآئِلِينَ
 
@@ -78,7 +78,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:105 supplies the surprise: even numerous visible signs can be passed over while attention turns away, sharpening the claim that signhood proposes a relation but does not compel recognition.
 
 ## 12:8 — إِذْ قَالُوا۟ لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰٓ أَبِينَا مِنَّا وَنَحْنُ عُصْبَةٌ إِنَّ أَبَانَا لَفِى ضَلَٰلٍۢ مُّبِينٍ
 
@@ -88,7 +88,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:80 repeats private collective withdrawal, while 12:91 dissolves the brothers' earlier factional claim in confession; solidarity proves capable of both enclosing judgment and becoming a forum for its correction.
 
 ## 12:9 — ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًۭا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًۭا صَٰلِحِينَ
 
@@ -98,7 +98,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+The secure reunion of 12:99-100 overturns the brothers' zero-sum model of paternal attention: restored nearness expands the family relation instead of requiring Joseph's removal.
 
 ## 12:10 — قَالَ قَآئِلٌۭ مِّنْهُمْ لَا تَقْتُلُوا۟ يُوسُفَ وَأَلْقُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ يَلْتَقِطْهُ بَعْضُ ٱلسَّيَّارَةِ إِن كُنتُمْ فَٰعِلِينَ
 
@@ -108,7 +108,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:102 calls the brothers' gathered plotting unseen report, confirming that the pit's concealment was not only physical but an epistemic barrier that the final revelation claim deliberately crosses.
 
 ## 12:11 — قَالُوا۟ يَٰٓأَبَانَا مَا لَكَ لَا تَأْمَ۫نَّا عَلَىٰ يُوسُفَ وَإِنَّا لَهُۥ لَنَٰصِحُونَ
 
@@ -118,7 +118,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:64 explicitly recalls the failure of the first trust request, while 12:54 has the ruler call Joseph secure and trusted; the root's state-change claim is therefore tested, damaged, and reassigned rather than simply repeated.
 
 ## 12:12 — أَرْسِلْهُ مَعَنَا غَدًۭا يَرْتَعْ وَيَلْعَبْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ
 
@@ -128,7 +128,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:81 has the brothers restrict their testimony to what they know and deny guardianship of the unseen, a direct correction to the unqualified confidence with which protection is promised here.
 
 ## 12:13 — قَالَ إِنِّى لَيَحْزُنُنِىٓ أَن تَذْهَبُوا۟ بِهِۦ وَأَخَافُ أَن يَأْكُلَهُ ٱلذِّئْبُ وَأَنتُمْ عَنْهُ غَٰفِلُونَ
 
@@ -138,7 +138,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:87 replaces the family's earlier vulnerability to inattention with an active sensory search, showing that the antidote to heedlessness is organized pursuit rather than mere renewed concern.
 
 ## 12:14 — قَالُوا۟ لَئِنْ أَكَلَهُ ٱلذِّئْبُ وَنَحْنُ عُصْبَةٌ إِنَّآ إِذًۭا لَّخَٰسِرُونَ
 
@@ -148,7 +148,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:20 converts Joseph into a low-priced exchange object, and 12:88 returns the family with meager goods; the initially threatened loss unexpectedly unfolds through repeated distortions of valuation.
 
 ## 12:15 — فَلَمَّا ذَهَبُوا۟ بِهِۦ وَأَجْمَعُوٓا۟ أَن يَجْعَلُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ ۚ وَأَوْحَيْنَآ إِلَيْهِ لَتُنَبِّئَنَّهُم بِأَمْرِهِمْ هَٰذَا وَهُمْ لَا يَشْعُرُونَ
 
@@ -158,7 +158,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:102 reports the very concealed gathering in which this future notification was announced, completing the reversal: those who controlled the secret become objects of a report beyond their control.
 
 ## 12:16 — وَجَآءُوٓ أَبَاهُمْ عِشَآءًۭ يَبْكُونَ
 
@@ -168,7 +168,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:84-86 distinguishes Jacob's embodied grief and directed complaint from this performed weeping, showing retrospectively that tears acquire evidentiary value only through their relation to truthful disclosure.
 
 ## 12:17 — قَالُوا۟ يَٰٓأَبَانَآ إِنَّا ذَهَبْنَا نَسْتَبِقُ وَتَرَكْنَا يُوسُفَ عِندَ مَتَٰعِنَا فَأَكَلَهُ ٱلذِّئْبُ ۖ وَمَآ أَنتَ بِمُؤْمِنٍۢ لَّنَا وَلَوْ كُنَّا صَٰدِقِينَ
 
@@ -178,7 +178,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:25 gives racing a second role when Joseph and the woman compete toward the door; unlike the alibi interval here, that race leaves directional evidence in the torn shirt.
 
 ## 12:18 — وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍۢ كَذِبٍۢ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌۭ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ
 
@@ -188,7 +188,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+The shirt returns in 12:25 as forensic evidence and in 12:93-96 as a carrier of restoration, so its first role as a false claim-surface becomes only the beginning of a three-stage evidentiary transformation.
 
 ## 12:19 — وَجَآءَتْ سَيَّارَةٌۭ فَأَرْسَلُوا۟ وَارِدَهُمْ فَأَدْلَىٰ دَلْوَهُۥ ۖ قَالَ يَٰبُشْرَىٰ هَٰذَا غُلَٰمٌۭ ۚ وَأَسَرُّوهُ بِضَٰعَةًۭ ۚ وَٱللَّهُ عَلِيمٌۢ بِمَا يَعْمَلُونَ
 
@@ -198,7 +198,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:100 attributes the family's arrival to subtle divine action, confirming that the caravan's lowered means began a chain whose agents could not see the relational destination they were enabling.
 
 ## 12:20 — وَشَرَوْهُ بِثَمَنٍۭ بَخْسٍۢ دَرَٰهِمَ مَعْدُودَةٍۢ وَكَانُوا۟ فِيهِ مِنَ ٱلزَّٰهِدِينَ
 
@@ -208,7 +208,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:59 makes full measure a credential and 12:65 makes returned goods reopen exchange, so this low-price sale is retrospectively exposed as one distorted valuation inside a larger economy of measured provision and relational return.
 ## 12:21 — وَقَالَ ٱلَّذِى ٱشْتَرَىٰهُ مِن مِّصْرَ لِٱمْرَأَتِهِۦٓ أَكْرِمِى مَثْوَىٰهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًۭا ۚ وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ وَلِنُعَلِّمَهُۥ مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ وَٱللَّهُ غَالِبٌ عَلَىٰٓ أَمْرِهِۦ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ
 
 ### Activated readings
@@ -217,7 +217,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:99 repeats sheltering at the scale of Joseph's parents and then all Egypt, fulfilling the ethical possibility latent here: lodging becomes secure relation rather than possession of a useful stranger.
 
 ## 12:22 — وَلَمَّا بَلَغَ أَشُدَّهُۥٓ ءَاتَيْنَٰهُ حُكْمًۭا وَعِلْمًۭا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ
 
@@ -227,7 +227,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:54-55 turns Joseph's judgment and knowledge into public trust and administrative office, showing that the attained threshold here is tested through increasingly shared responsibility.
 
 ## 12:23 — وَرَٰوَدَتْهُ ٱلَّتِى هُوَ فِى بَيْتِهَا عَن نَّفْسِهِۦ وَغَلَّقَتِ ٱلْأَبْوَٰبَ وَقَالَتْ هَيْتَ لَكَ ۚ قَالَ مَعَاذَ ٱللَّهِ ۖ إِنَّهُۥ رَبِّىٓ أَحْسَنَ مَثْوَاىَ ۖ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّٰلِمُونَ
 
@@ -237,7 +237,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:61 reuses solicitation for the brothers' negotiation with their father, confirming that the root marks a contest over another's will while the surrounding aim determines its moral character.
 
 ## 12:24 — وَلَقَدْ هَمَّتْ بِهِۦ ۖ وَهَمَّ بِهَا لَوْلَآ أَن رَّءَا بُرْهَٰنَ رَبِّهِۦ ۚ كَذَٰلِكَ لِنَصْرِفَ عَنْهُ ٱلسُّوٓءَ وَٱلْفَحْشَآءَ ۚ إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُخْلَصِينَ
 
@@ -247,7 +247,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:90 identifies guardedness and patience as the durable conditions of the outcome, clarifying that the interrupted resolve here was redirected into a sustained practice rather than erased by one moment.
 
 ## 12:25 — وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍۢ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌۭ
 
@@ -257,7 +257,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+The shirt's rear tear is later recalled in the public inquiry of 12:50-51, while the same garment becomes restorative in 12:93-96; the cut's diagnostic force outlasts the immediate room and changes the shirt's role again.
 
 ## 12:26 — قَالَ هِىَ رَٰوَدَتْنِى عَن نَّفْسِى ۚ وَشَهِدَ شَاهِدٌۭ مِّنْ أَهْلِهَآ إِن كَانَ قَمِيصُهُۥ قُدَّ مِن قُبُلٍۢ فَصَدَقَتْ وَهُوَ مِنَ ٱلْكَٰذِبِينَ
 
@@ -267,7 +267,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:51 supplies direct confession after the earlier conditional witness, confirming the material inference without making the material sign itself equivalent to full personal acknowledgment.
 
 ## 12:27 — وَإِن كَانَ قَمِيصُهُۥ قُدَّ مِن دُبُرٍۢ فَكَذَبَتْ وَهُوَ مِنَ ٱلصَّٰدِقِينَ
 
@@ -277,7 +277,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:100 names satanic incitement between the siblings but ends in reunion, so the rearward trace here comes to mark withdrawal from one assault within a much longer reversal of corrupted relations.
 
 ## 12:28 — فَلَمَّا رَءَا قَمِيصَهُۥ قُدَّ مِن دُبُرٍۢ قَالَ إِنَّهُۥ مِن كَيْدِكُنَّ ۖ إِنَّ كَيْدَكُنَّ عَظِيمٌۭ
 
@@ -287,7 +287,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:76 says that a stratagem was made for Joseph, correcting any assumption that all *kayd* is destructive: the same operational form can conceal predation or serve a bounded restorative plan.
 
 ## 12:29 — يُوسُفُ أَعْرِضْ عَنْ هَٰذَا ۚ وَٱسْتَغْفِرِى لِذَنۢبِكِ ۖ إِنَّكِ كُنتِ مِنَ ٱلْخَاطِـِٔينَ
 
@@ -297,7 +297,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:92 halts reproach and 12:98 promises forgiveness, making the distinction here decisive: concealment from scandal, suspension of blame, and shielding from moral consequence remain separate operations.
 
 ## 12:30 — ۞ وَقَالَ نِسْوَةٌۭ فِى ٱلْمَدِينَةِ ٱمْرَأَتُ ٱلْعَزِيزِ تُرَٰوِدُ فَتَىٰهَا عَن نَّفْسِهِۦ ۖ قَدْ شَغَفَهَا حُبًّا ۖ إِنَّا لَنَرَىٰهَا فِى ضَلَٰلٍۢ مُّبِينٍۢ
 
@@ -307,7 +307,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:51 turns the women's inference about inward penetration into the woman's own public admission, showing how an interior condition first read from conduct can later become accountable speech.
 
 ## 12:31 — فَلَمَّا سَمِعَتْ بِمَكْرِهِنَّ أَرْسَلَتْ إِلَيْهِنَّ وَأَعْتَدَتْ لَهُنَّ مُتَّكَـًۭٔا وَءَاتَتْ كُلَّ وَٰحِدَةٍۢ مِّنْهُنَّ سِكِّينًۭا وَقَالَتِ ٱخْرُجْ عَلَيْهِنَّ ۖ فَلَمَّا رَأَيْنَهُۥٓ أَكْبَرْنَهُۥ وَقَطَّعْنَ أَيْدِيَهُنَّ وَقُلْنَ حَٰشَ لِلَّهِ مَا هَٰذَا بَشَرًا إِنْ هَٰذَآ إِلَّا مَلَكٌۭ كَرِيمٌۭ
 
@@ -317,7 +317,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:50 explicitly reopens the question of the women who cut their hands, so the bodily interruption that first exposed astonishment becomes durable evidence in Joseph's delayed case review.
 
 ## 12:32 — قَالَتْ فَذَٰلِكُنَّ ٱلَّذِى لُمْتُنَّنِى فِيهِ ۖ وَلَقَدْ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ فَٱسْتَعْصَمَ ۖ وَلَئِن لَّمْ يَفْعَلْ مَآ ءَامُرُهُۥ لَيُسْجَنَنَّ وَلَيَكُونًۭا مِّنَ ٱلصَّٰغِرِينَ
 
@@ -327,7 +327,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:79 repeats refuge language while refusing an expedient substitute, confirming that protection is an active hold on moral boundaries across both sexual pressure and administrative pressure.
 
 ## 12:33 — قَالَ رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَٰهِلِينَ
 
@@ -337,7 +337,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:90 names guardedness and patience together as the condition under which favor arrives, showing that the directional pull anticipated here was managed over time rather than settled by a single prayer.
 
 ## 12:34 — فَٱسْتَجَابَ لَهُۥ رَبُّهُۥ فَصَرَفَ عَنْهُ كَيْدَهُنَّ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ
 
@@ -347,7 +347,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:54 converts the prison route into exclusive royal appointment, confirming that the answered prayer redirected circumstances toward a different outcome rather than simply removing hardship at once.
 
 ## 12:35 — ثُمَّ بَدَا لَهُم مِّنۢ بَعْدِ مَا رَأَوُا۟ ٱلْءَايَٰتِ لَيَسْجُنُنَّهُۥ حَتَّىٰ حِينٍۢ
 
@@ -357,7 +357,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:50-54 finally lets the previously visible evidence govern policy and status, revealing this imprisonment as a temporary institutional override rather than the evidence's permanent defeat.
 
 ## 12:36 — وَدَخَلَ مَعَهُ ٱلسِّجْنَ فَتَيَانِ ۖ قَالَ أَحَدُهُمَآ إِنِّىٓ أَرَىٰنِىٓ أَعْصِرُ خَمْرًۭا ۖ وَقَالَ ٱلْءَاخَرُ إِنِّىٓ أَرَىٰنِىٓ أَحْمِلُ فَوْقَ رَأْسِى خُبْزًۭا تَأْكُلُ ٱلطَّيْرُ مِنْهُ ۖ نَبِّئْنَا بِتَأْوِيلِهِۦٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ
 
@@ -367,7 +367,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:49 returns pressing in a year of rain and relief, converting the prisoner's isolated image into the final operation of an ecological and economic recovery sequence.
 
 ## 12:37 — قَالَ لَا يَأْتِيكُمَا طَعَامٌۭ تُرْزَقَانِهِۦٓ إِلَّا نَبَّأْتُكُمَا بِتَأْوِيلِهِۦ قَبْلَ أَن يَأْتِيَكُمَا ۚ ذَٰلِكُمَا مِمَّا عَلَّمَنِى رَبِّىٓ ۚ إِنِّى تَرَكْتُ مِلَّةَ قَوْمٍۢ لَّا يُؤْمِنُونَ بِٱللَّهِ وَهُم بِٱلْءَاخِرَةِ هُمْ كَٰفِرُونَ
 
@@ -377,7 +377,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:88 brings the brothers back under distress to request measure, showing that provision is not only a teaching threshold here but eventually the social medium through which the family is gathered.
 
 ## 12:38 — وَٱتَّبَعْتُ مِلَّةَ ءَابَآءِىٓ إِبْرَٰهِيمَ وَإِسْحَٰقَ وَيَعْقُوبَ ۚ مَا كَانَ لَنَآ أَن نُّشْرِكَ بِٱللَّهِ مِن شَىْءٍۢ ۚ ذَٰلِكَ مِن فَضْلِ ٱللَّهِ عَلَيْنَا وَعَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ
 
@@ -387,7 +387,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:101 places Joseph's lineage, interpretation, worldly patronage, and final affiliation inside one prayer, while 12:108 names a followable path; together they extend inherited way into consciously continued direction.
 
 ## 12:39 — يَٰصَىٰحِبَىِ ٱلسِّجْنِ ءَأَرْبَابٌۭ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ
 
@@ -397,7 +397,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:54 shows royal authority releasing and appointing Joseph, but 12:101 names God as Joseph's patron in both worlds; political power acts within the story yet loses any claim to ultimate guardianship.
 
 ## 12:40 — مَا تَعْبُدُونَ مِن دُونِهِۦٓ إِلَّآ أَسْمَآءًۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۚ أَمَرَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ
 
@@ -407,7 +407,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:106 shows assent coexisting with association and 12:108 explicitly disavows it, extending the prison critique: unauthorized names are not harmless vocabulary when they distribute authority that the discourse reserves for God.
 
 ## 12:41 — يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَمَّآ أَحَدُكُمَا فَيَسْقِى رَبَّهُۥ خَمْرًۭا ۖ وَأَمَّا ٱلْءَاخَرُ فَيُصْلَبُ فَتَأْكُلُ ٱلطَّيْرُ مِن رَّأْسِهِۦ ۚ قُضِىَ ٱلْأَمْرُ ٱلَّذِى فِيهِ تَسْتَفْتِيَانِ
 
@@ -417,7 +417,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:96 restores Jacob's sight and 12:100 identifies the dream's realized outcome; both scenes confirm that an interpretation's force in this surah is finally audited by what comes to pass.
 
 ## 12:42 — وَقَالَ لِلَّذِى ظَنَّ أَنَّهُۥ نَاجٍۢ مِّنْهُمَا ٱذْكُرْنِى عِندَ رَبِّكَ فَأَنسَىٰهُ ٱلشَّيْطَٰنُ ذِكْرَ رَبِّهِۦ فَلَبِثَ فِى ٱلسِّجْنِ بِضْعَ سِنِينَ
 
@@ -429,7 +429,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:45 brings the forgotten Joseph back to mind after an interval, confirming the cognitive reading, while the cupbearer's delayed service also confirms the abandoned-obligation reading; neither dormant branch proved disposable.
 
 ## 12:43 — وَقَالَ ٱلْمَلِكُ إِنِّىٓ أَرَىٰ سَبْعَ بَقَرَٰتٍۢ سِمَانٍۢ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌۭ وَسَبْعَ سُنۢبُلَٰتٍ خُضْرٍۢ وَأُخَرَ يَابِسَٰتٍۢ ۖ يَٰٓأَيُّهَا ٱلْمَلَأُ أَفْتُونِى فِى رُءْيَٰىَ إِن كُنتُمْ لِلرُّءْيَا تَعْبُرُونَ
 
@@ -439,7 +439,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:47-49 converts the dream crossing into a timed agricultural protocol, confirming that interpretation is validated by its capacity to organize action across the predicted sequence.
 
 ## 12:44 — قَالُوٓا۟ أَضْغَٰثُ أَحْلَٰمٍۢ ۖ وَمَا نَحْنُ بِتَأْوِيلِ ٱلْأَحْلَٰمِ بِعَٰلِمِينَ
 
@@ -449,7 +449,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:111 praises clarification that separates parts and meanings, the precise antidote to this dismissive bundle-label; what looked like an unordered mass becomes operational once its internal sequence is distinguished.
 
 ## 12:45 — وَقَالَ ٱلَّذِى نَجَا مِنْهُمَا وَٱدَّكَرَ بَعْدَ أُمَّةٍ أَنَا۠ أُنَبِّئُكُم بِتَأْوِيلِهِۦ فَأَرْسِلُونِ
 
@@ -459,7 +459,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:50 makes the delayed remembrance effective by reopening Joseph's case, showing that lateness did not empty recall of agency but positioned it at the ruler's moment of need.
 
 ## 12:46 — يُوسُفُ أَيُّهَا ٱلصِّدِّيقُ أَفْتِنَا فِى سَبْعِ بَقَرَٰتٍۢ سِمَانٍۢ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌۭ وَسَبْعِ سُنۢبُلَٰتٍ خُضْرٍۢ وَأُخَرَ يَابِسَٰتٍۢ لَّعَلِّىٓ أَرْجِعُ إِلَى ٱلنَّاسِ لَعَلَّهُمْ يَعْلَمُونَ
 
@@ -469,7 +469,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:51 publicly establishes Joseph's truthfulness, so the honorific used here is not merely ingratiating address; the narrative subsequently supplies the demonstrated reliability on which it depends.
 
 ## 12:47 — قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًۭا فَمَا حَصَدتُّمْ فَذَرُوهُ فِى سُنۢبُلِهِۦٓ إِلَّا قَلِيلًۭا مِّمَّا تَأْكُلُونَ
 
@@ -479,7 +479,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:58 brings the brothers into the provisioning system created by this counsel, turning the proposed storage habit into the concrete infrastructure of both famine survival and family reunion.
 
 ## 12:48 — ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ سَبْعٌۭ شِدَادٌۭ يَأْكُلْنَ مَا قَدَّمْتُمْ لَهُنَّ إِلَّا قَلِيلًۭا مِّمَّا تُحْصِنُونَ
 
@@ -489,7 +489,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:55 places Joseph over the storehouses and 12:58 initiates measured distribution to his brothers, confirming that leaving grain in the ear was a fortification design rather than incidental farm advice.
 
 ## 12:49 — ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ عَامٌۭ فِيهِ يُغَاثُ ٱلنَّاسُ وَفِيهِ يَعْصِرُونَ
 
@@ -499,7 +499,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:88 shows the family's distress at the far end of the scarcity sequence, so the promised rain and pressing remain ordered relief rather than immediate exemption from the hardship that precedes them.
 
 ## 12:50 — وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦ ۖ فَلَمَّا جَآءَهُ ٱلرَّسُولُ قَالَ ٱرْجِعْ إِلَىٰ رَبِّكَ فَسْـَٔلْهُ مَا بَالُ ٱلنِّسْوَةِ ٱلَّٰتِى قَطَّعْنَ أَيْدِيَهُنَّ ۚ إِنَّ رَبِّى بِكَيْدِهِنَّ عَلِيمٌۭ
 
@@ -509,7 +509,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:51-54 vindicates the deferred release: inquiry produces public truth before Joseph enters the ruler's presence and is appointed, making status clarification part of liberation rather than an optional sequel.
 
 ## 12:51 — قَالَ مَا خَطْبُكُنَّ إِذْ رَٰوَدتُّنَّ يُوسُفَ عَن نَّفْسِهِۦ ۚ قُلْنَ حَٰشَ لِلَّهِ مَا عَلِمْنَا عَلَيْهِ مِن سُوٓءٍۢ ۚ قَالَتِ ٱمْرَأَتُ ٱلْعَزِيزِ ٱلْـَٰٔنَ حَصْحَصَ ٱلْحَقُّ أَنَا۠ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ وَإِنَّهُۥ لَمِنَ ٱلصَّٰدِقِينَ
 
@@ -519,7 +519,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:100 says the earlier dream was made true, expanding the root's public stabilization here from one disputed incident to the full narrative promise realized in relations and space.
 
 ## 12:52 — ذَٰلِكَ لِيَعْلَمَ أَنِّى لَمْ أَخُنْهُ بِٱلْغَيْبِ وَأَنَّ ٱللَّهَ لَا يَهْدِى كَيْدَ ٱلْخَآئِنِينَ
 
@@ -529,7 +529,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:81 has the brothers bind testimony to what they know and deny guardianship of the unseen, another scene in which integrity is measured precisely where direct supervision or knowledge stops.
 
 ## 12:53 — ۞ وَمَآ أُبَرِّئُ نَفْسِىٓ ۚ إِنَّ ٱلنَّفْسَ لَأَمَّارَةٌۢ بِٱلسُّوٓءِ إِلَّا مَا رَحِمَ رَبِّىٓ ۚ إِنَّ رَبِّى غَفُورٌۭ رَّحِيمٌۭ
 
@@ -539,7 +539,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:90 again joins self-guarding with patience before naming divine favor, confirming that Joseph's refusal of absolute self-clearance is compatible with sustained moral agency rather than fatalism.
 
 ## 12:54 — وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦٓ أَسْتَخْلِصْهُ لِنَفْسِى ۖ فَلَمَّا كَلَّمَهُۥ قَالَ إِنَّكَ ٱلْيَوْمَ لَدَيْنَا مَكِينٌ أَمِينٌۭ
 
@@ -549,7 +549,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:80 uses exclusive withdrawal for the brothers' private consultation, an unexpected contrast that clarifies the royal selection here: formal exclusivity can isolate authority for trust or merely close a distressed group around itself.
 
 ## 12:55 — قَالَ ٱجْعَلْنِى عَلَىٰ خَزَآئِنِ ٱلْأَرْضِ ۖ إِنِّى حَفِيظٌ عَلِيمٌۭ
 
@@ -559,7 +559,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:58-65 makes the storehouses serve Joseph's own family through measure, leverage, and returned goods, turning public custodianship into the material route of private relational repair.
 
 ## 12:56 — وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ يَتَبَوَّأُ مِنْهَا حَيْثُ يَشَآءُ ۚ نُصِيبُ بِرَحْمَتِنَا مَن نَّشَآءُ ۖ وَلَا نُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ
 
@@ -569,7 +569,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:99 settles the reunited family safely in Egypt, extending Joseph's administrative emplacement from personal reach across the land to a secure place made available for others.
 
 ## 12:57 — وَلَأَجْرُ ٱلْءَاخِرَةِ خَيْرٌۭ لِّلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ
 
@@ -579,7 +579,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:90 repeats the conditional pairing of self-guarding and patience immediately before favor, confirming that the protective practice named here is the story's durable criterion rather than a passing commendation.
 
 ## 12:58 — وَجَآءَ إِخْوَةُ يُوسُفَ فَدَخَلُوا۟ عَلَيْهِ فَعَرَفَهُمْ وَهُمْ لَهُۥ مُنكِرُونَ
 
@@ -589,7 +589,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:89-90 ends the recognition asymmetry through Joseph's question and self-disclosure, showing that concealed recognition was a temporary instrument for testing and reunion, not a permanent superiority.
 
 ## 12:59 — وَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ قَالَ ٱئْتُونِى بِأَخٍۢ لَّكُم مِّنْ أَبِيكُمْ ۚ أَلَا تَرَوْنَ أَنِّىٓ أُوفِى ٱلْكَيْلَ وَأَنَا۠ خَيْرُ ٱلْمُنزِلِينَ
 
@@ -599,7 +599,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:88 has the brothers explicitly ask Joseph to give full measure and add charity, confirming that complete measure has become both his public credential and the relational basis from which extra mercy can be sought.
 
 ## 12:60 — فَإِن لَّمْ تَأْتُونِى بِهِۦ فَلَا كَيْلَ لَكُمْ عِندِى وَلَا تَقْرَبُونِ
 
@@ -609,7 +609,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:99 reverses the access barrier by inviting the whole family to enter Egypt safely, so threatened exclusion here becomes one controlled stage on the route to comprehensive admission.
 
 ## 12:61 — قَالُوا۟ سَنُرَٰوِدُ عَنْهُ أَبَاهُ وَإِنَّا لَفَٰعِلُونَ
 
@@ -619,7 +619,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:66 records the father's binding covenant, showing that the brothers' promised solicitation succeeds only after desire is converted into explicit, bounded accountability.
 
 ## 12:62 — وَقَالَ لِفِتْيَٰنِهِ ٱجْعَلُوا۟ بِضَٰعَتَهُمْ فِى رِحَالِهِمْ لَعَلَّهُمْ يَعْرِفُونَهَآ إِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمْ لَعَلَّهُمْ يَرْجِعُونَ
 
@@ -629,7 +629,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:65 narrates the recognition of the returned goods and the new request it enables, confirming that the concealed placement was designed as a return loop rather than a completed gift.
 
 ## 12:63 — فَلَمَّا رَجَعُوٓا۟ إِلَىٰٓ أَبِيهِمْ قَالُوا۟ يَٰٓأَبَانَا مُنِعَ مِنَّا ٱلْكَيْلُ فَأَرْسِلْ مَعَنَآ أَخَانَا نَكْتَلْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ
 
@@ -639,7 +639,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:65 lets the returned goods answer the reported withholding by making another journey easier, showing how an exclusionary condition is converted into renewed capacity to approach.
 
 ## 12:64 — قَالَ هَلْ ءَامَنُكُمْ عَلَيْهِ إِلَّا كَمَآ أَمِنتُكُمْ عَلَىٰٓ أَخِيهِ مِن قَبْلُ ۖ فَٱللَّهُ خَيْرٌ حَٰفِظًۭا ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ
 
@@ -649,7 +649,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:99 fulfills the recalibrated trust under a wider shelter: the family enters safely not because fraternal promises became infallible, but because protection has been relocated beyond them.
 
 ## 12:65 — وَلَمَّا فَتَحُوا۟ مَتَٰعَهُمْ وَجَدُوا۟ بِضَٰعَتَهُمْ رُدَّتْ إِلَيْهِمْ ۖ قَالُوا۟ يَٰٓأَبَانَا مَا نَبْغِى ۖ هَٰذِهِۦ بِضَٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍۢ ۖ ذَٰلِكَ كَيْلٌۭ يَسِيرٌۭ
 
@@ -659,7 +659,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:96 uses the same return root for restored sight, unexpectedly enlarging the return pattern from merchandise and travelers to bodily perception and vindicated knowledge.
 
 ## 12:66 — قَالَ لَنْ أُرْسِلَهُۥ مَعَكُمْ حَتَّىٰ تُؤْتُونِ مَوْثِقًۭا مِّنَ ٱللَّهِ لَتَأْتُنَّنِى بِهِۦٓ إِلَّآ أَن يُحَاطَ بِكُمْ ۖ فَلَمَّآ ءَاتَوْهُ مَوْثِقَهُمْ قَالَ ٱللَّهُ عَلَىٰ مَا نَقُولُ وَكِيلٌۭ
 
@@ -669,7 +669,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:80 has the eldest brother explicitly recall this covenant when the crisis occurs, confirming that the binding speech remains operative as an internal constraint even when performance fails.
 
 ## 12:67 — وَقَالَ يَٰبَنِىَّ لَا تَدْخُلُوا۟ مِنۢ بَابٍۢ وَٰحِدٍۢ وَٱدْخُلُوا۟ مِنْ أَبْوَٰبٍۢ مُّتَفَرِّقَةٍۢ ۖ وَمَآ أُغْنِى عَنكُم مِّنَ ٱللَّهِ مِن شَىْءٍ ۖ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَعَلَيْهِ فَلْيَتَوَكَّلِ ٱلْمُتَوَكِّلُونَ
 
@@ -679,7 +679,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+The immediate assessment in 12:68 confirms the strategy's limited success while denying it control over divine decree; later safe entry in 12:99 therefore cannot be credited to door management alone.
 
 ## 12:68 — وَلَمَّا دَخَلُوا۟ مِنْ حَيْثُ أَمَرَهُمْ أَبُوهُم مَّا كَانَ يُغْنِى عَنْهُم مِّنَ ٱللَّهِ مِن شَىْءٍ إِلَّا حَاجَةًۭ فِى نَفْسِ يَعْقُوبَ قَضَىٰهَا ۚ وَإِنَّهُۥ لَذُو عِلْمٍۢ لِّمَا عَلَّمْنَٰهُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ
 
@@ -689,7 +689,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:76 identifies a divinely enabled stratagem that exceeds the family's precautions, confirming that prudential need can be satisfied without becoming sovereign over the event sequence.
 
 ## 12:69 — وَلَمَّا دَخَلُوا۟ عَلَىٰ يُوسُفَ ءَاوَىٰٓ إِلَيْهِ أَخَاهُ ۖ قَالَ إِنِّىٓ أَنَا۠ أَخُوكَ فَلَا تَبْتَئِسْ بِمَا كَانُوا۟ يَعْمَلُونَ
 
@@ -699,7 +699,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:99 repeats Joseph's act of sheltering with his parents before extending security to the family, scaling this private relational repair into public settlement.
 
 ## 12:70 — فَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ جَعَلَ ٱلسِّقَايَةَ فِى رَحْلِ أَخِيهِ ثُمَّ أَذَّنَ مُؤَذِّنٌ أَيَّتُهَا ٱلْعِيرُ إِنَّكُمْ لَسَٰرِقُونَ
 
@@ -709,7 +709,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:76 draws the vessel from the brother's container and states the plan's enabling logic, confirming that an ordinary drinking object had been reassigned a temporary but exact evidentiary function.
 
 ## 12:71 — قَالُوا۟ وَأَقْبَلُوا۟ عَلَيْهِم مَّاذَا تَفْقِدُونَ
 
@@ -719,7 +719,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:87 commands a genuine sensory search for Joseph and his brother, making this staged search for a planted vessel a deliberate foil to pursuit whose object is truly absent.
 
 ## 12:72 — قَالُوا۟ نَفْقِدُ صُوَاعَ ٱلْمَلِكِ وَلِمَن جَآءَ بِهِۦ حِمْلُ بَعِيرٍۢ وَأَنَا۠ بِهِۦ زَعِيمٌۭ
 
@@ -729,7 +729,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:78 tests person-backed liability when the brothers offer a substitute, but 12:79 refuses to detach custody from the person in whose possession the object was found; assurance does not erase the governing rule.
 
 ## 12:73 — قَالُوا۟ تَٱللَّهِ لَقَدْ عَلِمْتُم مَّا جِئْنَا لِنُفْسِدَ فِى ٱلْأَرْضِ وَمَا كُنَّا سَٰرِقِينَ
 
@@ -739,7 +739,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:89 names the brothers' earlier action as ignorance rather than fixing corruption as their permanent identity, softening the denial here into a claim about conduct that can still be acknowledged and repaired.
 
 ## 12:74 — قَالُوا۟ فَمَا جَزَٰٓؤُهُۥٓ إِن كُنتُمْ كَٰذِبِينَ
 
@@ -749,7 +749,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:92 stops reproach instead of demanding reciprocal suffering, interrupting the liability logic developed here and showing that reunion need not reproduce the offense through equivalent harm.
 
 ## 12:75 — قَالُوا۟ جَزَٰٓؤُهُۥ مَن وُجِدَ فِى رَحْلِهِۦ فَهُوَ جَزَٰٓؤُهُۥ ۚ كَذَٰلِكَ نَجْزِى ٱلظَّٰلِمِينَ
 
@@ -759,7 +759,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:78-79 directly tests the proposed substitution rule: an elder brother offers himself, but Joseph refuses to transfer custody away from the person linked to the found object.
 
 ## 12:76 — فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَآءِ أَخِيهِ ثُمَّ ٱسْتَخْرَجَهَا مِن وِعَآءِ أَخِيهِ ۚ كَذَٰلِكَ كِدْنَا لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِى دِينِ ٱلْمَلِكِ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ نَرْفَعُ دَرَجَٰتٍۢ مَّن نَّشَآءُ ۗ وَفَوْقَ كُلِّ ذِى عِلْمٍ عَلِيمٌۭ
 
@@ -769,7 +769,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:89-90 ends the managed inference through recognition and self-disclosure, confirming that the ordering of containers and observers served a temporary disclosure schedule rather than concealment as an end.
 
 ## 12:77 — ۞ قَالُوٓا۟ إِن يَسْرِقْ فَقَدْ سَرَقَ أَخٌۭ لَّهُۥ مِن قَبْلُ ۚ فَأَسَرَّهَا يُوسُفُ فِى نَفْسِهِۦ وَلَمْ يُبْدِهَا لَهُمْ ۚ قَالَ أَنتُمْ شَرٌّۭ مَّكَانًۭا ۖ وَٱللَّهُ أَعْلَمُ بِمَا تَصِفُونَ
 
@@ -779,7 +779,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:86 has Jacob disclose his grief and sorrow specifically to God, revealing that concealment must be indexed to audience: inward control can prevent reactive speech without requiring absolute silence.
 
 ## 12:78 — قَالُوا۟ يَٰٓأَيُّهَا ٱلْعَزِيزُ إِنَّ لَهُۥٓ أَبًۭا شَيْخًۭا كَبِيرًۭا فَخُذْ أَحَدَنَا مَكَانَهُۥٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ
 
@@ -789,7 +789,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:84-86 gives the father's age-based vulnerability an embodied history of grief, making the appeal here more than tactical pathos even though it still functions rhetorically within the substitution request.
 
 ## 12:79 — قَالَ مَعَاذَ ٱللَّهِ أَن نَّأْخُذَ إِلَّا مَن وَجَدْنَا مَتَٰعَنَا عِندَهُۥٓ إِنَّآ إِذًۭا لَّظَٰلِمُونَ
 
@@ -799,7 +799,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:92 shows Joseph combining the earlier legal refusal with suspension of reproach, confirming that adherence to a bounded rule did not foreclose later compassion when the relational conditions changed.
 
 ## 12:80 — فَلَمَّا ٱسْتَيْـَٔسُوا۟ مِنْهُ خَلَصُوا۟ نَجِيًّۭا ۖ قَالَ كَبِيرُهُمْ أَلَمْ تَعْلَمُوٓا۟ أَنَّ أَبَاكُمْ قَدْ أَخَذَ عَلَيْكُم مَّوْثِقًۭا مِّنَ ٱللَّهِ وَمِن قَبْلُ مَا فَرَّطتُمْ فِى يُوسُفَ ۖ فَلَنْ أَبْرَحَ ٱلْأَرْضَ حَتَّىٰ يَأْذَنَ لِىٓ أَبِىٓ أَوْ يَحْكُمَ ٱللَّهُ لِى ۖ وَهُوَ خَيْرُ ٱلْحَٰكِمِينَ
 
@@ -809,7 +809,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:87 explicitly prohibits despair and converts hope into renewed search, confirming that the private council here was an altered mode of agency but not yet the story's final response to apparent closure.
 
 ## 12:81 — ٱرْجِعُوٓا۟ إِلَىٰٓ أَبِيكُمْ فَقُولُوا۟ يَٰٓأَبَانَآ إِنَّ ٱبْنَكَ سَرَقَ وَمَا شَهِدْنَآ إِلَّا بِمَا عَلِمْنَا وَمَا كُنَّا لِلْغَيْبِ حَٰفِظِينَ
 
@@ -819,7 +819,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:102 states that revelation reports an unseen conspiracy despite the addressee's absence, supplying the exceptional knowledge channel that this ayah's carefully bounded human testimony does not claim.
 
 ## 12:82 — وَسْـَٔلِ ٱلْقَرْيَةَ ٱلَّتِى كُنَّا فِيهَا وَٱلْعِيرَ ٱلَّتِىٓ أَقْبَلْنَا فِيهَا ۖ وَإِنَّا لَصَٰدِقُونَ
 
@@ -829,7 +829,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:109 broadens settlement-based knowledge into travel among earlier towns and inspection of their outcomes, expanding the local witness network here into a historical field of public evidence.
 
 ## 12:83 — قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌ ۖ عَسَى ٱللَّهُ أَن يَأْتِيَنِى بِهِمْ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ
 
@@ -839,7 +839,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:91 supplies the brothers' confession that divine preference had indeed exceeded their judgment, while reunion changes the consequence; the father's diagnosis is confirmed without becoming a sentence of permanent estrangement.
 
 ## 12:84 — وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ كَظِيمٌۭ
 
@@ -849,7 +849,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:86 reveals where the contained grief goes: Jacob directs complaint and sorrow to God, showing that restraint preserves selective, purposeful disclosure rather than suppressing expression altogether.
 
 ## 12:85 — قَالُوا۟ تَٱللَّهِ تَفْتَؤُا۟ تَذْكُرُ يُوسُفَ حَتَّىٰ تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ ٱلْهَٰلِكِينَ
 
@@ -859,7 +859,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:96 restores Jacob's sight and immediately overturns the brothers' terminal prognosis; what they read as irreversible bodily wasting becomes a reversible condition inside the reunion sequence.
 
 ## 12:86 — قَالَ إِنَّمَآ أَشْكُوا۟ بَثِّى وَحُزْنِىٓ إِلَى ٱللَّهِ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ
 
@@ -869,7 +869,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:87 follows complaint with a concrete command to investigate, confirming that this disclosure mobilizes action instead of functioning as passive emotional release.
 
 ## 12:87 — يَٰبَنِىَّ ٱذْهَبُوا۟ فَتَحَسَّسُوا۟ مِن يُوسُفَ وَأَخِيهِ وَلَا تَا۟يْـَٔسُوا۟ مِن رَّوْحِ ٱللَّهِ ۖ إِنَّهُۥ لَا يَا۟يْـَٔسُ مِن رَّوْحِ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْكَٰفِرُونَ
 
@@ -879,7 +879,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:94 lets Jacob detect Joseph by scent before the caravan arrives, validating the sensory orientation of the search command through an unexpectedly subtle form of evidence.
 
 ## 12:88 — فَلَمَّا دَخَلُوا۟ عَلَيْهِ قَالُوا۟ يَٰٓأَيُّهَا ٱلْعَزِيزُ مَسَّنَا وَأَهْلَنَا ٱلضُّرُّ وَجِئْنَا بِبِضَٰعَةٍۢ مُّزْجَىٰةٍۢ فَأَوْفِ لَنَا ٱلْكَيْلَ وَتَصَدَّقْ عَلَيْنَآ ۖ إِنَّ ٱللَّهَ يَجْزِى ٱلْمُتَصَدِّقِينَ
 
@@ -889,7 +889,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:90 names divine favor after Joseph's disclosure, answering the brothers' appeal for charity with a form of beneficence larger than the requested commercial measure.
 
 ## 12:89 — قَالَ هَلْ عَلِمْتُم مَّا فَعَلْتُم بِيُوسُفَ وَأَخِيهِ إِذْ أَنتُمْ جَٰهِلُونَ
 
@@ -899,7 +899,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:91 turns the brothers' recognition into explicit confession, confirming that naming the past as ignorance created room for acknowledgment without denying the acts themselves.
 
 ## 12:90 — قَالُوٓا۟ أَءِنَّكَ لَأَنتَ يُوسُفُ ۖ قَالَ أَنَا۠ يُوسُفُ وَهَٰذَآ أَخِى ۖ قَدْ مَنَّ ٱللَّهُ عَلَيْنَآ ۖ إِنَّهُۥ مَن يَتَّقِ وَيَصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ
 
@@ -909,7 +909,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:101 reclassifies rule and interpretive knowledge as gifts before asking for a sound death and righteous affiliation, preventing the favor named here from terminating in worldly success.
 
 ## 12:91 — قَالُوا۟ تَٱللَّهِ لَقَدْ ءَاثَرَكَ ٱللَّهُ عَلَيْنَا وَإِن كُنَّا لَخَٰطِـِٔينَ
 
@@ -919,7 +919,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:100 identifies the realized dream and the subtly composed reunion, giving concrete narrative form to the divine preference the brothers now acknowledge.
 
 ## 12:92 — قَالَ لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ ۖ يَغْفِرُ ٱللَّهُ لَكُمْ ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ
 
@@ -929,7 +929,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:97-98 has the brothers seek forgiveness from their father after Joseph suspends reproach, confirming that immediate release from blame and the further repair of moral consequence are distinct steps.
 
 ## 12:93 — ٱذْهَبُوا۟ بِقَمِيصِى هَٰذَا فَأَلْقُوهُ عَلَىٰ وَجْهِ أَبِى يَأْتِ بَصِيرًۭا وَأْتُونِى بِأَهْلِكُمْ أَجْمَعِينَ
 
@@ -939,7 +939,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:100 completes the reunion and dream realization after the shirt restores sight, so the garment's truthful trace ultimately enables participation in the promised social scene, not only bodily recovery.
 
 ## 12:94 — وَلَمَّا فَصَلَتِ ٱلْعِيرُ قَالَ أَبُوهُمْ إِنِّى لَأَجِدُ رِيحَ يُوسُفَ ۖ لَوْلَآ أَن تُفَنِّدُونِ
 
@@ -949,7 +949,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:96 validates the scent when the bearer arrives and sight returns, confirming that the apparently premature perception was a genuine relation across distance rather than wishful projection.
 
 ## 12:95 — قَالُوا۟ تَٱللَّهِ إِنَّكَ لَفِى ضَلَٰلِكَ ٱلْقَدِيمِ
 
@@ -959,7 +959,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+The immediate reversal in 12:96 exposes the cost of the old diagnostic category: current evidence was not merely overlooked but contradicted by an event already moving toward verification.
 
 ## 12:96 — فَلَمَّآ أَن جَآءَ ٱلْبَشِيرُ أَلْقَىٰهُ عَلَىٰ وَجْهِهِۦ فَٱرْتَدَّ بَصِيرًۭا ۖ قَالَ أَلَمْ أَقُل لَّكُمْ إِنِّىٓ أَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ
 
@@ -969,7 +969,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:100 says the first dream was made true, expanding restored sight into restored vision in the broader sense: Jacob can now witness the relation his earlier knowledge anticipated.
 
 ## 12:97 — قَالُوا۟ يَٰٓأَبَانَا ٱسْتَغْفِرْ لَنَا ذُنُوبَنَآ إِنَّا كُنَّا خَٰطِـِٔينَ
 
@@ -979,7 +979,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:100 gathers the family around the realized dream, giving the long trailing consequences of the brothers' sin a repaired social endpoint without pretending those consequences never occurred.
 
 ## 12:98 — قَالَ سَوْفَ أَسْتَغْفِرُ لَكُمْ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
 
@@ -989,7 +989,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:99-100 moves directly into secure admission and reunion, giving the promised shielding from consequence a material relational shape while leaving its ultimate acceptance unstated.
 
 ## 12:99 — فَلَمَّا دَخَلُوا۟ عَلَىٰ يُوسُفَ ءَاوَىٰٓ إِلَيْهِ أَبَوَيْهِ وَقَالَ ٱدْخُلُوا۟ مِصْرَ إِن شَآءَ ٱللَّهُ ءَامِنِينَ
 
@@ -999,4 +999,128 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 12:100 raises the parents onto the throne and identifies the fulfilled dream, converting the secure admission here from logistical entry into honored participation in the story's promised arrangement.
+
+## 12:100 — وَرَفَعَ أَبَوَيْهِ عَلَى ٱلْعَرْشِ وَخَرُّوا۟ لَهُۥ سُجَّدًۭا ۖ وَقَالَ يَٰٓأَبَتِ هَٰذَا تَأْوِيلُ رُءْيَٰىَ مِن قَبْلُ قَدْ جَعَلَهَا رَبِّى حَقًّۭا ۖ وَقَدْ أَحْسَنَ بِىٓ إِذْ أَخْرَجَنِى مِنَ ٱلسِّجْنِ وَجَآءَ بِكُم مِّنَ ٱلْبَدْوِ مِنۢ بَعْدِ أَن نَّزَغَ ٱلشَّيْطَٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ ۚ إِنَّ رَبِّى لَطِيفٌۭ لِّمَا يَشَآءُ ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ
+
+### Activated readings
+
+1. **The dream realized through opposed bodily directions.** `ر ف ع:B001` is physical raising, with `ر ف ع:B002` supplying elevation in rank; `خ ر ر:B001` is a sudden bodily fall. The coordinated sequence raises the parents onto the throne and has the family fall in prostration before Joseph identifies the scene as his earlier dream's *taʾwīl*. The packet supplies the upward and downward motions; I infer that their conjunction translates the celestial arrangement of 12:4 into embodied honor and acknowledgment. The realization therefore does not require parental abasement: their elevation and the family's prostration jointly enact the dream's reordered relations.
+
+2. **A repaired history attributed to subtle agency rather than to rupture.** `ن ز غ:B001` is incitement that corrupts relations, while `ل ط ف:B001` is gentle kindness and `ل ط ف:B002` is hidden fineness or subtle operation. Joseph places prison, the family's arrival, and satanic incitement inside one retrospective sentence, then predicates subtlety of his Lord concerning what He wills. The packet supplies the contrasted agencies; I infer that the long chain's indirect turns are being reread as a delicately composed route through, not an endorsement of, the discord. The ayah changes the plot from a catalogue of injuries into a repaired relation whose means were often too fine for participants to see.
+
+### Retrospective surprises
+
+Later 12:102 returns specifically to the brothers' hidden collective plotting and identifies its report as revelation, confirming Joseph's attribution of the outcome to an agency operating beyond what the original participants could observe.
+
+## 12:101 — ۞ رَبِّ قَدْ ءَاتَيْتَنِى مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۖ تَوَفَّنِى مُسْلِمًۭا وَأَلْحِقْنِى بِٱلصَّٰلِحِينَ
+
+### Activated readings
+
+1. **A life arc gathered from origination to completed affiliation.** `ف ط ر:B002` is bringing into being or initiating; `و ل ي:B003` supplies protective charge or authority and `و ل ي:B004` alliance and support; `و ف ي:B002` is taking a soul in full at death; `س ل م:B001` is soundness or safety; and `ل ح ق:B001` is catching up or reaching. The prayer moves from received rule and interpretation to the Originator, present and future patronage, death in sound submission, and being joined to the righteous. The packet supplies these ordered nodes; I infer that Joseph places his entire achieved station inside a larger trajectory he neither initiated nor can complete himself. Kingship ceases to be the endpoint and becomes one entrusted interval between creation and final affiliation.
+
+### Retrospective surprises
+
+Later 12:108 names a path of invitation and following, while 12:109 places revelation within a succession of messengers; Joseph's prayer is thereby situated inside mission continuity rather than left as a private narrative closure.
+
+## 12:102 — ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ ۖ وَمَا كُنتَ لَدَيْهِمْ إِذْ أَجْمَعُوٓا۟ أَمْرَهُمْ وَهُمْ يَمْكُرُونَ
+
+### Activated readings
+
+1. **Revelation bridging a scene inaccessible to ordinary witness.** `ن ب ء:B002` is consequential report or news, `غ ي ب:B001` is what is hidden from sight or knowledge, and `و ح ي:B004` is divine message or inspiration. The demonstrative recategorizes the foregoing account as unseen report, while the explicit denial of the addressee's presence at the brothers' collective plotting removes eyewitness access. The packet supplies both the inaccessible event and the named channel; I infer that revelation is assigned the evidentiary role that ordinary presence cannot perform. The ayah changes narrative detail from an implied observer's reconstruction into reported knowledge whose warrant is overtly identified.
+
+### Retrospective surprises
+
+Later 12:111 explicitly denies that the account is fabricated and assigns it confirmation and clarification, validating the unseen-report claim here through the final statement of narrative function.
+
+## 12:103 — وَمَآ أَكْثَرُ ٱلنَّاسِ وَلَوْ حَرَصْتَ بِمُؤْمِنِينَ
+
+### Activated readings
+
+1. **Intense desire denied causal control over assent.** `ح ر ص:B002` is excessive longing or will, including eagerness for guidance; `ء م ن:B002` is trusting assent or confirmation. The concessive *wa-law ḥaraṣta* places even maximal concern before the negative prediction that most people will not believe. The packet supplies the intensity and the withheld result; I infer that sincere human eagerness may sustain invitation but cannot manufacture another person's assent. The ayah prevents the narrator's newly asserted revelatory warrant in 12:102 from being mistaken for automatic persuasive success.
+
+### Retrospective surprises
+
+Later 12:111 calls the account guidance and mercy for people who assent, preserving the tension here: the message can be fitted to belief without coercively producing belief in most hearers.
+
+## 12:104 — وَمَا تَسْـَٔلُهُمْ عَلَيْهِ مِنْ أَجْرٍ ۚ إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ
+
+### Activated readings
+
+1. **Reminder released from transactional leverage.** `ء ج ر:B001` is recompense, wage, or beneficial return for work, whereas `ذ ك ر:B009` is a reminder or admonition that restores a matter to presence. The negated request for any wage is followed by the exclusive construction that identifies the message only as remembrance for all peoples. The packet supplies the rejected exchange and the positive communicative role; I infer that hearers incur no patronage debt to the speaker by receiving it. The ayah recasts transmission from paid service into universally available reactivation of attention.
+
+### Retrospective surprises
+
+Later 12:111 closes by naming guidance and mercy rather than compensation, confirming that the reminder's final value remains nontransactional even while its effects are substantial.
+
+## 12:105 — وَكَأَيِّن مِّنْ ءَايَةٍۢ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ يَمُرُّونَ عَلَيْهَا وَهُمْ عَنْهَا مُعْرِضُونَ
+
+### Activated readings
+
+1. **Abundant visible signs defeated by directional attention.** `ء ي ي:B007` makes *ka-ayyin* an expression of multiplicity, `ء ي ي:B003` is a visible sign, `م ر ر:B001` is passing over or through, and `ع ر ض:B005` is turning one's side away and refusing attention. The ayah stacks many signs across heavens and earth, physical passage over them, and simultaneous aversion from them. The packet supplies proximity without uptake; I infer that the failure is not scarcity or distance but an orientation that converts encounter into non-observation. A sign therefore reads here as an offered relation requiring attention, not as self-enforcing proof.
+
+### Retrospective surprises
+
+Later 12:108 requires inner sight for the announced path, supplying the positive attentional discipline missing here: passing near signs must become evidentiary insight before proximity changes conduct.
+
+## 12:106 — وَمَا يُؤْمِنُ أَكْثَرُهُم بِٱللَّهِ إِلَّا وَهُم مُّشْرِكُونَ
+
+### Activated readings
+
+1. **Assent and association held together without being collapsed.** `ء م ن:B002` is trusting assent or confirmation, while `ش ر ك:B002` is assigning a partner to God, grounded in the shared participation of `ش ر ك:B001`. The exception construction does not replace belief with association; it states that most people's believing occurs while they are associating. The packet supplies coexistence in one subject and time; I infer that acknowledgment can be real yet structurally compromised by distributing what should not be shared. The ayah changes belief from a simple binary label into a relation whose internal allocation must be examined.
+
+### Retrospective surprises
+
+Later 12:108 explicitly disavows association while describing invitation upon insight, confirming that the coexistence diagnosed here is not normalized but answered by a route with a stated boundary.
+
+## 12:107 — أَفَأَمِنُوٓا۟ أَن تَأْتِيَهُمْ غَٰشِيَةٌۭ مِّنْ عَذَابِ ٱللَّهِ أَوْ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةًۭ وَهُمْ لَا يَشْعُرُونَ
+
+### Activated readings
+
+1. **Presumed safety exposed by enveloping, unperceived arrival.** `ء م ن:B001` is settled safety against fear, `غ ش و:B002` is an overwhelming affliction that covers or overtakes, `ب غ ت:B001` is unexpected suddenness, and `ش ع ر:B005` is subtle awareness or noticing. The opening question challenges felt security with two arrivals: an enveloping punishment or the Hour coming suddenly while awareness is absent. The packet supplies a mismatch between event scale and perception; I infer that habitual non-attention in 12:105 can harden into confidence precisely where vigilance is required. Safety here is not affirmed status but an assumption placed under interrogation.
+
+### Retrospective surprises
+
+Later 12:110 says divine force cannot be repelled from the culpable people, giving the interrogated possibility of an enveloping arrival its realized directional counterpart.
+
+## 12:108 — قُلْ هَٰذِهِۦ سَبِيلِىٓ أَدْعُوٓا۟ إِلَى ٱللَّهِ ۚ عَلَىٰ بَصِيرَةٍ أَنَا۠ وَمَنِ ٱتَّبَعَنِى ۖ وَسُبْحَٰنَ ٱللَّهِ وَمَآ أَنَا۠ مِنَ ٱلْمُشْرِكِينَ
+
+### Activated readings
+
+1. **Invitation defined as a traversable route of shared insight.** `س ب ل:B001` is an extended way or means by which a destination is reached, `ب ص ر:B002` is inner sight and evidentiary insight, and `ت ب ع:B001` is following a person, command, path, or trace. The demonstrative names a path, the verb assigns it the work of inviting toward God, and *ʿalā baṣīrah* governs both the speaker and those who follow him. The packet supplies route, epistemic footing, and transmissible following; I infer that this is neither private illumination nor blind succession but a course followers can knowingly inhabit and extend. The final disavowal of association marks that route's boundary after 12:106.
+
+### Retrospective surprises
+
+Later 12:109 makes travel through the land and inspection of prior outcomes the path's evidentiary method, showing how shared insight is cultivated rather than merely asserted.
+
+## 12:109 — وَمَآ أَرْسَلْنَا مِن قَبْلِكَ إِلَّا رِجَالًۭا نُّوحِىٓ إِلَيْهِم مِّنْ أَهْلِ ٱلْقُرَىٰٓ ۗ أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۗ وَلَدَارُ ٱلْءَاخِرَةِ خَيْرٌۭ لِّلَّذِينَ ٱتَّقَوْا۟ ۗ أَفَلَا تَعْقِلُونَ
+
+### Activated readings
+
+1. **Travel made an instrument for reasoning from historical aftermath.** `س ي ر:B001` is going or traveling forward, `ع ق ب:B006` is an act's final outcome or aftermath, `و ق ي:B002` is placing oneself in moral protective caution, and `ع ق ل:B001` is understanding as restraining or binding judgment. The question orders movement through the land toward seeing how earlier peoples ended, then contrasts that aftermath with the better final abode and closes by asking whether the hearers will reason. The packet supplies motion, observed consequence, self-guarding, and restraint; I infer that travel becomes epistemic only when visible remains are carried forward into disciplined judgment. The ayah turns the path of 12:108 into a historical method: movement should alter conduct through attention to outcomes.
+
+### Retrospective surprises
+
+Later 12:110 supplies the compressed historical pattern the travelers are meant to learn: perceived exhaustion reaches its limit, aid arrives, and culpable force proves irreversible.
+
+## 12:110 — حَتَّىٰٓ إِذَا ٱسْتَيْـَٔسَ ٱلرُّسُلُ وَظَنُّوٓا۟ أَنَّهُمْ قَدْ كُذِبُوا۟ جَآءَهُمْ نَصْرُنَا فَنُجِّىَ مَن نَّشَآءُ ۖ وَلَا يُرَدُّ بَأْسُنَا عَنِ ٱلْقَوْمِ ٱلْمُجْرِمِينَ
+
+### Activated readings
+
+1. **Aid arriving at hope's perceived endpoint while force becomes irreversible.** `ي ء س:B001` is loss of hope, `ن ص ر:B001` is aid that makes its recipient prevail, and `ر د د:B002` is repelling or driving something back. The temporal threshold *ḥattā idhā* carries the messengers to intensified despair before aid arrives; the closing negation then denies any repulsion of divine force from the culpable people. The packet supplies two opposite directional outcomes at one limit: rescue comes toward some, while force cannot be turned away from others. I infer that felt exhaustion does not diagnose the actual availability of aid, correcting both the brothers' despair in 12:80 and Jacob's prohibition of it in 12:87.
+
+### Retrospective surprises
+
+Later 12:111 turns prior stories into transferable lesson, making the movement from despair to aid portable beyond the messengers whose experience is summarized here.
+
+## 12:111 — لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌۭ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ حَدِيثًۭا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍۢ وَهُدًۭى وَرَحْمَةًۭ لِّقَوْمٍۢ يُؤْمِنُونَ
+
+### Activated readings
+
+1. **Narrative becoming lesson by crossing from case to purified understanding.** `ق ص ص:B002` is narration as ordered tracking of events, `ع ب ر:B004` is taking instruction by crossing from an observed or past case to another, and `ل ب ب:B004` is purified or sound intellect. The locative construction places the lesson inside their stories and assigns its uptake specifically to possessors of *al-albāb*. The packet supplies the narrated sequence and the transfer operation; I infer that insight is neither a detached maxim nor every plot detail by itself, but the disciplined passage from this case into a reusable judgment. The closing ayah thus names the cognitive work the full surah has demanded from its reader.
+
+2. **A non-fabricated account whose distinctions guide rather than merely accumulate.** `ف ر ي:B003` is fabricating falsehood, `ص د ق:B004` is confirmation or fulfillment, `ف ص ل:B013` is detailing that clarifies parts and meanings, `ه د ي:B001` is gentle guidance toward a way or truth, and `ر ح م:B001` is merciful tenderness. The negation of fabrication is followed by an adversative series: confirmation, clarification of parts, guidance, and mercy for people who assent (`ء م ن:B002`). The packet supplies these coordinated functions; I infer that comprehensiveness means meaningful differentiation rather than an undigested mass of information. The story's truth claim therefore changes reading from passive consumption into guided, merciful discrimination among acts, appearances, and outcomes.
+
+### Retrospective surprises
+
+No later ayah remains. Retrospective review of the full run confirms that the closing distinction holds: ordered narration becomes guidance only when its parts are crossed into disciplined judgment, while mercy governs what that judgment is for.

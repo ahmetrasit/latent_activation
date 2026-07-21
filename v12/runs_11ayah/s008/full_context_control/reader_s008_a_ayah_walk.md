@@ -9,7 +9,7 @@
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:4-5 made the opening mercy unexpectedly concrete: forgiveness and provision supply protective care, while departure from the house sharpened the dormant kin-bond image in the repaired social relation.
 
 
 ## 8:1: يَسْـَٔلُونَكَ عَنِ ٱلْأَنفَالِ ۖ قُلِ ٱلْأَنفَالُ لِلَّهِ وَٱلرَّسُولِ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَأَصْلِحُوا۟ ذَاتَ بَيْنِكُمْ ۖ وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥٓ إِن كُنتُم مُّؤْمِنِينَ
@@ -22,7 +22,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:5-6 exposed a reluctant faction and active disputation, retrospectively changing the anfal question from a property dispute into a test of whether allocation would preserve or split the connective tie.
 
 ## 8:2: إِنَّمَا ٱلْمُؤْمِنُونَ ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتْ قُلُوبُهُمْ وَإِذَا تُلِيَتْ عَلَيْهِمْ ءَايَٰتُهُۥ زَادَتْهُمْ إِيمَٰنًۭا وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ
 
@@ -34,7 +34,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:5-7 corrected any passive reading of reliance: aversion, argument, and preference for the easier party made `يتوكلون` active delegation that turns the heart toward a resisted course.
 
 ## 8:3: ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ
 
@@ -46,7 +46,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:5-8 moved from home into armed conflict, unexpectedly sharpening provision as logistics and expenditure as the outlet through which supplied capacity reaches collective action.
 
 ## 8:4: أُو۟لَٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّۭا ۚ لَّهُمْ دَرَجَٰتٌ عِندَ رَبِّهِمْ وَمَغْفِرَةٌۭ وَرِزْقٌۭ كَرِيمٌۭ
 
@@ -58,7 +58,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:5-9 turned `درجات` into a traversed sequence of exposure, dispute, promise, and aid, while the cry for help made forgiveness's protective-cover branch more visible.
 
 ## 8:5: كَمَآ أَخْرَجَكَ رَبُّكَ مِنۢ بَيْتِكَ بِٱلْحَقِّ وَإِنَّ فَرِيقًۭا مِّنَ ٱلْمُؤْمِنِينَ لَكَٰرِهُونَ
 
@@ -70,7 +70,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:7-9 supplied causative truth-making and distress-aid, retrospectively making the house-exit an instrument of establishing truth and the aversion an embodied response to exposure.
 
 ## 8:6: يُجَٰدِلُونَكَ فِى ٱلْحَقِّ بَعْدَمَا تَبَيَّنَ كَأَنَّمَا يُسَاقُونَ إِلَى ٱلْمَوْتِ وَهُمْ يَنظُرُونَ
 
@@ -82,7 +82,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:7-9 corrected the death simile without removing literal danger: truth-making and rescue made surrender of preferred control newly visible inside the image of being driven to death.
 
 ## 8:7: وَإِذْ يَعِدُكُمُ ٱللَّهُ إِحْدَى ٱلطَّآئِفَتَيْنِ أَنَّهَا لَكُمْ وَتَوَدُّونَ أَنَّ غَيْرَ ذَاتِ ٱلشَّوْكَةِ تَكُونُ لَكُمْ وَيُرِيدُ ٱللَّهُ أَن يُحِقَّ ٱلْحَقَّ بِكَلِمَٰتِهِۦ وَيَقْطَعَ دَابِرَ ٱلْكَٰفِرِينَ
 
@@ -94,7 +94,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:11-12 supplied water-fixed feet and targeted blows, making the `شوكة` more than weapon inventory and clarifying that cutting the adversarial rear removes its continuing bodily capacity.
 
 ## 8:8: لِيُحِقَّ ٱلْحَقَّ وَيُبْطِلَ ٱلْبَٰطِلَ وَلَوْ كَرِهَ ٱلْمُجْرِمُونَ
 
@@ -106,21 +106,21 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:12-13 made the dormant cutting image in `المجرمون` surprisingly material: extremity-strikes and group-splitting let offense appear as a false order being severed and harvested.
 
-## 8:9: إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى مُمِدُّكم بِأَلْفٍۢ مِّنَ ٱلْمَلَٰٓئِكَةِ مُرْدِفِينَ
+## 8:9: إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى مُمِدُّكُم بِأَلْفٍۢ مِّنَ ٱلْمَلَٰٓئِكَةِ مُرْدِفِينَ
 
 ### Activated readings
 
 1. **The response cuts open a way through distress.** غ و ث:B001 is aid in distress. ج و ب:B003 directly supplies answering and responsive compliance for `فَٱسْتَجَابَ`, while dormant B001 is piercing or cutting through and B004 an opened gap. The preceding context has severing and annulment; the following context discloses reassurance, water, and stabilization. I infer that the answer is not only verbal acceptance but an opening made through a closed tactical and affective condition. The divine response reads as creating passage for action.
-2. **Reinforcement is a connected supply line.** م د د:B002 is connected increase that supplies another. ر د ف:B001 is following close behind and B004 is a successor or relay replacing another. Number, `مُمِدُّكم`, and `مُرْدِفِينَ` are packed into one clause; 8:10-12 then unfold several successive supports. I add that the thousand functions as a relayed supply architecture rather than an isolated mass. The aid reads as continuous reinforcement arriving in ordered succession.
+2. **Reinforcement is a connected supply line.** م د د:B002 is connected increase that supplies another. ر د ف:B001 is following close behind and B004 is a successor or relay replacing another. Number, `مُمِدُّكُم`, and `مُرْدِفِينَ` are packed into one clause; 8:10-12 then unfold several successive supports. I add that the thousand functions as a relayed supply architecture rather than an isolated mass. The aid reads as continuous reinforcement arriving in ordered succession.
 3. **Lordship answers by nurturing capacity.** ر ب ب:B001 gives lordship, but B002 gives nurture, repair, and stagewise completion. The cry addresses `رَبَّكُمْ`, and the response unfolds in 8:10-12 as reassurance, sleep, water, purification, bound hearts, fixed feet, and angelic strengthening. The packet supplies the stages; I infer that the title identifies how aid operates, by completing the force's impaired capacities one by one. `رب` reads here as an active developer of readiness, not only sovereign possessor.
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:10-12 unfolded tidings, calm, water, heart-binding, fixed feet, and angelic action, revealing that `ممدكم ... مردفين` names a relayed support system rather than headcount alone.
 
-## 8:10: وَمَا جَعَلَهُ ٱللَّهُ إِلَّا بُشْرَىٰ وَلِتَطْمَئِنَّ بِهِۦ قُلُوبُكمْ ۚ وَمَا ٱلنَّصْرُ إِلَّا مِنْ عِندِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ
+## 8:10: وَمَا جَعَلَهُ ٱللَّهُ إِلَّا بُشْرَىٰ وَلِتَطْمَئِنَّ بِهِۦ قُلُوبُكُمْ ۚ وَمَا ٱلنَّصْرُ إِلَّا مِنْ عِندِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ
 
 ### Activated readings
 
@@ -130,7 +130,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:11-12 produced the strongest surprise in the block: descending water activated ن ص ر:B004's rain-relief image, and the opposite handling of the two sides' hearts confirmed calm as a tactical turn rather than ornament.
 
 ## 8:11: إِذْ يُغَشِّيكُمُ ٱلنُّعَاسَ أَمَنَةًۭ مِّنْهُ وَيُنَزِّلُ عَلَيْكُم مِّنَ ٱلسَّمَآءِ مَآءًۭا لِّيُطَهِّرَكُم بِهِۦ وَيُذْهِبَ عَنكُمْ رِجْزَ ٱلشَّيْطَٰنِ وَلِيَرْبِطَ عَلَىٰ قُلُوبِكُمْ وَيُثَبِّتَ بِهِ ٱلْأَقْدَامَ
 
@@ -142,7 +142,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:12-16 showed what the rain-prepared body had to do: angelic strengthening, targeted action, and the retreat prohibition clarified the water-to-heart-to-feet chain as preparation for forward capacity.
 
 ## 8:12: إِذْ يُوحِى رَبُّكَ إِلَى ٱلْمَلَٰٓئِكَةِ أَنِّى مَعَكُمْ فَثَبِّتُوا۟ ٱلَّذِينَ ءَامَنُوا۟ ۚ سَأُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ فَٱضْرِبُوا۟ فَوْقَ ٱلْأَعْنَاقِ وَٱضْرِبُوا۟ مِنْهُمْ كُلَّ بَنَانٍۢ
 
@@ -154,7 +154,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:13-17 connected schism, consequence, retreat, and corrected agency, making the neck-and-extremity strikes read more clearly as dismantling an opposing action system rather than random impact.
 
 ## 8:13: ذَٰلِكَ بِأَنَّهُمْ شَآقُّوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ وَمَن يُشَاقِقِ ٱللَّهَ وَرَسُولَهُۥ فَإِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ
 
@@ -166,7 +166,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:17-18 relocated decisive efficacy to Allah and named the opposing plot's weakening, retrospectively tightening the link between sustained schism and the punitive consequence that follows it.
 
 ## 8:14: ذَٰلِكُمْ فَذُوقُوهُ وَأَنَّ لِلْكَٰفِرِينَ عَذَابَ ٱلنَّارِ
 
@@ -178,7 +178,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:17's `بلاء حسنا` created a surprising counter-taste to fire, while 8:19's offer that cessation is better showed that tasted consequence still sits beside an exit from recurrence.
 
 ## 8:15: يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا لَقِيتُمُ ٱلَّذِينَ كَفَرُوا۟ زَحْفًۭا فَلَا تُوَلُّوهُمُ ٱلْأَدْبَارَ
 
@@ -190,7 +190,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:20 reused turning-away for withdrawal from the messenger, making the exposed backs in 8:15 newly legible as a bodily form of failed reception as well as battlefield retreat.
 
 ## 8:16: وَمَن يُوَلِّهِمْ يَوْمَئِذٍۢ دُبُرَهُۥٓ إِلَّا مُتَحَرِّفًۭا لِّقِتَالٍ أَوْ مُتَحَيِّزًا إِلَىٰ فِئَةٍۢ فَقَدْ بَآءَ بِغَضَبٍۢ مِّنَ ٱللَّهِ وَمَأْوَىٰهُ جَهَنَّمُ ۖ وَبِئْسَ ٱلْمَصِيرُ
 
@@ -202,7 +202,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:20-21 transferred the retreat image into hearing and obedience, clarifying why only redirection toward combat or a faction counts as tactical: other withdrawal breaks the communicative formation.
 
 ## 8:17: فَلَمْ تَقْتُلُوهُمْ وَلَٰكِنَّ ٱللَّهَ قَتَلَهُمْ ۚ وَمَا رَمَيْتَ إِذْ رَمَيْتَ وَلَٰكِنَّ ٱللَّهَ رَمَىٰ ۚ وَلِيُبْلِىَ ٱلْمُؤْمِنِينَ مِنْهُ بَلَآءً حَسَنًا ۚ إِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌۭ
 
@@ -214,7 +214,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:20-22 made the closing `سميع` newly diagnostic: the agency correction in 8:17 is heard properly only when sound becomes compliant understanding rather than a claim of hearing.
 
 ## 8:18: ذَٰلِكُمْ وَأَنَّ ٱللَّهَ مُوهِنُ كَيْدِ ٱلْكَٰفِرِينَ
 
@@ -226,7 +226,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:19 denied that a numerous faction can avail, and 8:23 showed made-hearing followed by withdrawal; together they clarified that weakening the plot includes degrading resolve and receptive coordination.
 
 ## 8:19: إِن تَسْتَفْتِحُوا۟ فَقَدْ جَآءَكُمُ ٱلْفَتْحُ ۖ وَإِن تَنتَهُوا۟ فَهُوَ خَيْرٌۭ لَّكُمْ ۖ وَإِن تَعُودُوا۟ نَعُدْ وَلَن تُغْنِىَ عَنكُمْ فِئَتُكُمْ شَيْـًۭٔا وَلَوْ كَثُرَتْ وَأَنَّ ٱللَّهَ مَعَ ٱلْمُؤْمِنِينَ
 
@@ -238,7 +238,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:20-24 defined the offered `خير` more sharply: ending recurrence reopens the path from hearing through response to the call that gives life.
 
 ## 8:20: يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ وَلَا تَوَلَّوْا۟ عَنْهُ وَأَنتُمْ تَسْمَعُونَ
 
@@ -250,7 +250,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:21-24 progressively separated acoustic hearing, blocked response, and life-giving compliance, confirming that the fixed command treats obedience as completed reception.
 
 ## 8:21: وَلَا تَكُونُوا۟ كَٱلَّذِينَ قَالُوا۟ سَمِعْنَا وَهُمْ لَا يَسْمَعُونَ
 
@@ -262,7 +262,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:22-24 showed the end-state warned against by `لا تكونوا`: sealed input, blocked answer, and then a contrasting call whose proper reception gives life.
 
 ## 8:22: ۞ إِنَّ شَرَّ ٱلدَّوَآبِّ عِندَ ٱللَّهِ ٱلصُّمُّ ٱلْبُكْمُ ٱلَّذِينَ لَا يَعْقِلُونَ
 
@@ -274,7 +274,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:23-24 supplied the internal mechanism missing from the animal-motion image: made audibility still fails without an عقل-restraint, whereas responsive hearing opens movement toward life.
 
 ## 8:23: وَلَوْ عَلِمَ ٱللَّهُ فِيهِمْ خَيْرًۭا لَّأَسْمَعَهُمْ ۖ وَلَوْ أَسْمَعَهُمْ لَتَوَلَّوا۟ وَّهُم مُّعْرِضُونَ
 
@@ -286,7 +286,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:24 supplied the decisive counterexample to the counterfactual: hearing becomes real when it answers a call and moves toward saving benefit rather than turning its side away.
 
 ## 8:24: يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَجِيبُوا۟ لِلَّهِ وَلِلرَّسُولِ إِذَا دَعَاكُمْ لِمَا يُحْيِيكُمْ ۖ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَحُولُ بَيْنَ ٱلْمَرْءِ وَقَلْبِهِۦ وَأَنَّهُۥٓ إِلَيْهِ تُحْشَرُونَ
 
@@ -298,7 +298,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:25-28 made `يحييكم` unexpectedly communal: nonselective fitnah, remembered rescue, breached trusts, and tested assets showed that the call preserves a shared support system, not isolated vitality only.
 
 ## 8:25: وَٱتَّقُوا۟ فِتْنَةًۭ لَّا تُصِيبَنَّ ٱلَّذِينَ ظَلَمُوا۟ مِنكُمْ خَآصَّةًۭ ۖ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ
 
@@ -310,9 +310,9 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:28 explicitly named private wealth and offspring as fitnah, confirming the earlier surprise that a trial can propagate through ordinary attachments; 8:29 then supplied discernment as its protective response.
 
-## 8:26: وَٱذْكُرُوٓا۟ إِذْ أَنتُمْ قَلِيلٌۭ مُّسْتَضْعَفُونَ فِى ٱلْأَرْضِ تَخَافُونَ أَن يَتَخَطَّفَكُمُ ٱلنَّاسُ فَـَٔاوَىٰكُمْ وَأَيَّدَكم بِنَصْرِهِۦ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ لَعَلَّكُمْ تَشْكُرُونَ
+## 8:26: وَٱذْكُرُوٓا۟ إِذْ أَنتُمْ قَلِيلٌۭ مُّسْتَضْعَفُونَ فِى ٱلْأَرْضِ تَخَافُونَ أَن يَتَخَطَّفَكُمُ ٱلنَّاسُ فَـَٔاوَىٰكُمْ وَأَيَّدَكُم بِنَصْرِهِۦ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ لَعَلَّكُمْ تَشْكُرُونَ
 
 ### Activated readings
 
@@ -322,7 +322,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:28 warned that the provision just remembered can itself become a test, correcting any simple prosperity reading of gratitude; 8:29 made displayed thanks depend on discernment and guarded use.
 
 ## 8:27: يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَخُونُوا۟ ٱللَّهَ وَٱلرَّسُولَ وَتَخُونُوٓا۟ أَمَٰنَٰتِكُمْ وَأَنتُمْ تَعْلَمُونَ
 
@@ -334,7 +334,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:28 identified the pressure points of secret breach, and 8:30 displayed organized concealed plotting, making betrayal's gradual subtraction from trust more causally visible.
 
 ## 8:28: وَٱعْلَمُوٓا۟ أَنَّمَآ أَمْوَٰلُكُمْ وَأَوْلَٰدُكُمْ فِتْنَةٌۭ وَأَنَّ ٱللَّهَ عِندَهُۥٓ أَجْرٌ عَظِيمٌۭ
 
@@ -346,19 +346,19 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:29-30 turned the asset test into a decision problem under pressure: discernment must separate uses and loyalties when confinement, death, and expulsion make the nearer goods feel overwhelming.
 
-## 8:29: يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تَتَّقُوا۟ ٱللَّهَ يَجْعَل لَّكُمْ فُرْقَانًۭا وَيُكَفِّّرْ عَنكُمْ سَيِّـَٔاتِكُمْ وَيَغْفِرْ لَكُمْ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ
+## 8:29: يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تَتَّقُوا۟ ٱللَّهَ يَجْعَل لَّكُمْ فُرْقَانًۭا وَيُكَفِّرْ عَنكُمْ سَيِّـَٔاتِكُمْ وَيَغْفِرْ لَكُمْ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ
 
 ### Activated readings
 
 1. **Discernment prevents an indiscriminate trial from collapsing distinctions.** ف ر ق:B001 is distinguishing and separating, while B009 is the heart split by fear. The condition follows 8:25's nonselective fitnah and 8:28's mixed testing media, then precedes three threats in 8:30. I infer that protective caution stabilizes fear enough to separate courses that pressure makes look alike. `فُرْقَانًۭا` reads as operational discrimination under stress, not abstract information.
-2. **Two protective coverings answer exposed wrong.** In causative `يُكَفِّّرْ`, ك ف ر:B009 is covering or effacing sin; غ ف ر:B001 is protective covering and B002 shielding from consequence. The coordinated verbs follow discernment and name bad acts with س و ء:B001. I infer a two-stage mechanism: traces are effaced and the person is then shielded from their consequence. The ayah reads forgiveness as active remediation plus cover.
+2. **Two protective coverings answer exposed wrong.** In causative `يُكَفِّرْ`, ك ف ر:B009 is covering or effacing sin; غ ف ر:B001 is protective covering and B002 shielding from consequence. The coordinated verbs follow discernment and name bad acts with س و ء:B001. I infer a two-stage mechanism: traces are effaced and the person is then shielded from their consequence. The ayah reads forgiveness as active remediation plus cover.
 3. **Bounty is surplus that remains after distribution.** ف ض ل:B001 is excess or remainder after need and division, and B003 beneficence given from surplus. In the local context, wealth is a test and the opening of the surah's allocation logic remains echoed through trusts and reward. I infer that divine `ٱلْفَضْلِ` is inexhaustible excess capable of supplying discernment, effacement, and protection together. Bounty reads as a residual source beyond human accounting.
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:30-32 sharpened `فرقان` as tactical discrimination: it must parse multiple coercive routes and even a demand for punitive rain without confusing visible pressure with the governing outcome.
 
 ## 8:30: وَإِذْ يَمْكُرُ بِكَ ٱلَّذِينَ كَفَرُوا۟ لِيُثْبِتُوكَ أَوْ يَقْتُلُوكَ أَوْ يُخْرِجُوكَ ۚ وَيَمْكُرُونَ وَيَمْكُرُ ٱللَّهُ ۖ وَٱللَّهُ خَيْرُ ٱلْمَٰكِرِينَ
 
@@ -370,7 +370,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:32 unexpectedly activated the packet's irrigation branch for م ك ر through demanded sky-rain, while 8:33 corrected the analogy by showing that divine routing includes measured suspension, not automatic immediate impact.
 
 ## 8:31: وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَٰتُنَا قَالُوا۟ قَدْ سَمِعْنَا لَوْ نَشَآءُ لَقُلْنَا مِثْلَ هَٰذَآ ۙ إِنْ هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ
 
@@ -382,7 +382,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:32's self-directed challenge and 8:35's whistle-and-clap ritual confirmed that `قد سمعنا` had redirected reception into competitive and self-returning performance rather than following.
 
 ## 8:32: وَإِذْ قَالُوا۟ ٱللَّهُمَّ إِن كَانَ هَٰذَا هُوَ ٱلْحَقَّ مِنْ عِندِكَ فَأَمْطِرْ عَلَيْنَا حِجَارَةًۭ مِّنَ ٱلسَّمَآءِ أَوِ ٱئْتِنَا بِعَذَابٍ أَلِيمٍۢ
 
@@ -394,9 +394,9 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:33-34 corrected the speakers' demanded immediacy: punishment is first withheld by live relational conditions and only then justified by sustained obstruction, so their proposed test mistakes timing for truth.
 
-## 8:33: وَمَا كَانَ ٱللَّهُ لِيُعَذِّّبَهُمْ وَأَنتَ فِيهِمْ ۚ وَمَا كَانَ ٱللَّهُ مُعَذِّّبَهُمْ وَهُمْ يَسْتَغْفِرُونَ
+## 8:33: وَمَا كَانَ ٱللَّهُ لِيُعَذِّبَهُمْ وَأَنتَ فِيهِمْ ۚ وَمَا كَانَ ٱللَّهُ مُعَذِّبَهُمْ وَهُمْ يَسْتَغْفِرُونَ
 
 ### Activated readings
 
@@ -406,9 +406,9 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:34-35 showed that suspended punishment was not approval: blocking the sanctuary and reducing worship to empty sound clarified what ongoing forgiveness-seeking would have had to reverse.
 
-## 8:34: وَمَا لَهُمْ أَلَّا يُعَذِّّبَهُمُ ٱللَّهُ وَهُمْ يَصُدُّونَ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَمَا كَانُوٓا۟ أَوْلِيَآءَهُۥٓ ۚ إِنْ أَوْلِيَآؤُهُۥٓ إِلَّا ٱلْمُتَّقُونَ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ
+## 8:34: وَمَا لَهُمْ أَلَّا يُعَذِّبَهُمُ ٱللَّهُ وَهُمْ يَصُدُّونَ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَمَا كَانُوٓا۟ أَوْلِيَآءَهُۥٓ ۚ إِنْ أَوْلِيَآؤُهُۥٓ إِلَّا ٱلْمُتَّقُونَ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ
 
 ### Activated readings
 
@@ -418,7 +418,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:35 exposed the custodians' prayer as an empty acoustic loop, and 8:36 showed money financing the same blockade; together they made failed guardianship an organized function, not a title defect alone.
 
 ## 8:35: وَمَا كَانَ صَلَاتُهُمْ عِندَ ٱلْبَيْتِ إِلَّا مُكَآءًۭ وَتَصْدِيَةًۭ ۚ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ
 
@@ -430,7 +430,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:36-37 placed funded obstruction inside a sequence of depletion, sorting, and heaping, making the fixed whistle and clap newly visible as the ritual surface of a larger blocking economy.
 
 ## 8:36: إِنَّ ٱلَّذِينَ كَفَرُوا۟ يُنفِقُونَ أَمْوَٰلَهُمْ لِيَصُدُّوا۟ عَن سَبِيلِ ٱللَّهِ ۚ فَسَيُنفِقُونَهَا ثُمَّ تَكُونُ عَلَيْهِمْ حَسْرَةًۭ ثُمَّ يُغْلَبُونَ ۗ وَٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ يُحْشَرُونَ
 
@@ -442,7 +442,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:37 converted accumulated spending into a furnace-sorted losing heap, while 8:38 preserved cessation as an off-ramp; the expenditure is self-consuming but the actors are not declared unable to stop.
 
 ## 8:37: لِيَمِيزَ ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ وَيَجْعَلَ ٱلْخَبِيثَ بَعْضَهُۥ عَلَىٰ بَعْضٍۢ فَيَرْكُمَهُۥ جَمِيعًۭا فَيَجْعَلَهُۥ فِى جَهَنَّمَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
 
@@ -454,7 +454,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:38's offer of forgiveness on cessation corrected a static reading of the sorted classes: the assay reveals the present composition, but ending the course can prevent further bad accumulation.
 
 ## 8:38: قُل لِّلَّذِينَ كَفَرُوٓا۟ إِن يَنتَهُوا۟ يُغْفَرْ لَهُم مَّا قَدْ سَلَفَ وَإِن يَعُودُوا۟ فَقَدْ مَضَتْ سُنَّتُ ٱلْأَوَّلِينَ
 
@@ -466,7 +466,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:39 specified what reaching the endpoint entails, absence of coercive fitnah and undivided accountability, while 8:40 supplied protection if others still turn away.
 
 ## 8:39: وَقَٰتِلُوهُمْ حَتَّىٰ لَا تَكُونَ فِتْنَةٌۭ وَيَكُونَ ٱلدِّينُ كُلُّهُۥ لِلَّهِ ۚ فَإِنِ ٱنتَهَوْا۟ فَإِنَّ ٱللَّهَ بِمَا يَعْمَلُونَ بَصِيرٌۭ
 
@@ -478,7 +478,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:40-41 constrained the combat reading from both sides: divine guardianship replaces fear-driven overreach, and gain is immediately converted into ordered social claims after fighting ends.
 
 ## 8:40: وَإِن تَوَلَّوْا۟ فَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَوْلَىٰكُمْ ۚ نِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ
 
@@ -490,7 +490,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:41 made `المولى` and `النصير` unexpectedly distributive as well as martial: guardianship appears through a fifth routed to vulnerable relations; 8:42 then removes self-authorship through unplanned terrain.
 
 ## 8:41: ۞ وَٱعْلَمُوٓا۟ أَنَّمَا غَنِمْتُم مِّن شَىْءٍۢ فَأَنَّ لِلَّهِ خُمُسَهُۥ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱبْنِ ٱلسَّبِيلِ إِن كُنتُمْ ءَامَنتُم بِٱللَّهِ وَمَآ أَنزَلْنَا عَلَىٰ عَبْدِنَا يَوْمَ ٱلْفُرْقَانِ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ
 
@@ -502,7 +502,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:42-44 stripped the gain of autonomous ownership: geography arranged the meeting and calibrated sight enabled it, so the fiscal distinction in 8:41 rests on an event the victors did not fully compose.
 
 ## 8:42: إِذْ أَنتُم بِٱلْعُدْوَةِ ٱلدُّنْيَا وَهُم بِٱلْعُدْوَةِ ٱلْقُصْوَىٰ وَٱلرَّكْبُ أَسْفَلَ مِنكُمْ ۚ وَلَوْ تَوَاعَدتُّمْ لَٱخْتَلَفْتُمْ فِى ٱلْمِيعَٰدِ ۙ وَلَٰكِن لِّيَقْضِىَ ٱللَّهُ أَمْرًۭا كَانَ مَفْعُولًۭا لِّيَهْلِكَ مَنْ هَلَكَ عَنۢ بَيِّنَةٍۢ وَيَحْيَىٰ مَنْ حَىَّ عَنۢ بَيِّنَةٍۢ ۗ وَإِنَّ ٱللَّهَ لَسَمِيعٌ عَلِيمٌ
 
@@ -514,7 +514,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:43-44 corrected any naive equation of `بينة` with raw visual scale: dream and eyesight were calibrated, making evidence the accountable clarity of the event rather than unmediated quantity.
 
 ## 8:43: إِذْ يُرِيكَهُمُ ٱللَّهُ فِى مَنَامِكَ قَلِيلًۭا ۖ وَلَوْ أَرَىٰكَهُمْ كَثِيرًۭا لَّفَشِلْتُمْ وَلَتَنَٰزَعْتُمْ فِى ٱلْأَمْرِ وَلَٰكِنَّ ٱللَّهَ سَلَّمَ ۗ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ
 
@@ -526,7 +526,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:44 generalized the dream's scale-control to both armies, and 8:46 exposed the feared failure mechanism explicitly as internal pulling, weakness, and loss of wind-force.
 
 ## 8:44: وَإِذْ يُرِيكُمُوهُمْ إِذِ ٱلْتَقَيْتُمْ فِىٓ أَعْيُنِكُمْ قَلِيلًۭا وَيُقَلِّلُكُمْ فِىٓ أَعْيُنِهِمْ لِيَقْضِىَ ٱللَّهُ أَمْرًۭا كَانَ مَفْعُولًۭا ۗ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ
 
@@ -538,7 +538,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:45-46 showed why minimized sight mattered: it enabled encounter, but only firmness, abundant remembrance, compliant coordination, and restraint could carry the affair through.
 
 ## 8:45: يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا لَقِيتُمْ فِئَةًۭ فَٱثْبُتُوا۟ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًۭا لَّعَلَّكُمْ تُفْلِحُونَ
 
@@ -550,7 +550,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:46 supplied the exact mechanism behind hoped-for success: avoiding mutual pulling preserves wind-force; later 8:48 also warned that a visually reassuring protector can counterfeit that stability.
 
 ## 8:46: وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ وَلَا تَنَٰزَعُوا۟ فَتَفْشَلُوا۟ وَتَذْهَبَ رِيحُكُمْ ۖ وَٱصْبِرُوٓا۟ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ
 
@@ -562,7 +562,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:47-48 made `ريحكم` vulnerable to two externalized controls, public display and a false guarantee, confirming that patience must seal the group against both panic and audience-driven movement.
 
 ## 8:47: وَلَا تَكُونُوا۟ كَٱلَّذِينَ خَرَجُوا۟ مِن دِيَٰرِهِم بَطَرًۭا وَرِئَآءَ ٱلنَّاسِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ ۚ وَٱللَّهُ بِمَا يَعْمَلُونَ مُحِيطٌۭ
 
@@ -574,7 +574,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:48's beautified acts and retreating guarantor, followed by 8:49's delusion diagnosis, showed that ostentation's public gaze was part of a broader false-appearance feedback system.
 
 ## 8:48: وَإِذْ زَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ وَقَالَ لَا غَالِبَ لَكُمُ ٱلْيَوْمَ مِنَ ٱلنَّاسِ وَإِنِّى جَارٌۭ لَّكُمْ ۖ فَلَمَّا تَرَآءَتِ ٱلْفِئَتَانِ نَكَصَ عَلَىٰ عَقِبَيْهِ وَقَالَ إِنِّى بَرِىٓءٌۭ مِّنكُمْ إِنِّىٓ أَرَىٰ مَا لَا تَرَوْنَ إِنِّىٓ أَخَافُ ٱللَّهَ ۚ وَٱللَّهُ شَدِيدُ ٱلْعِقَابِ
 
@@ -586,7 +586,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:49 explicitly named deceptive appearance, confirming the beautification mechanism; 8:50 then disclosed the terminal scene hidden from the clients when their claimed protector said he saw more.
 
 ## 8:49: إِذْ يَقُولُ ٱلْمُنَٰفِقُونَ وَٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ غَرَّ هَٰٓؤُلَآءِ دِينُهُمْ ۗ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَإِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌۭ
 
@@ -598,7 +598,7 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:50 supplied the complete consequence that visible-odds reasoning missed, and 8:51 attributed it to what hands had sent ahead, decisively refuting the claim that trusting religion was mere delusion.
 
 ## 8:50: وَلَوْ تَرَىٰٓ إِذْ يَتَوَفَّى ٱلَّذِينَ كَفَرُوا۟ ۙ ٱلْمَلَٰٓئِكَةُ يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَٰرَهُمْ وَذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ
 
@@ -610,4 +610,307 @@ _Reserved for the retrospective pass._
 
 ### Retrospective surprises
 
-_Reserved for the retrospective pass._
+Later 8:51 made the front-and-rear blows read as returned consequence from acts advanced by the hands, while 8:52 placed that return inside a repeated historical course.
+
+## 8:51: ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّٰمٍۢ لِّلْعَبِيدِ
+
+### Activated readings
+
+1. **Hands send acts ahead to become encountered consequence.** ق د م:B004 is beforeward advance and precedence; ي د ي:B009 attributes earned acts to the hands. The preceding ayah exhausts front and rear at death, while 8:52-54 repeatedly describes earlier peoples being taken for their offenses. I infer that deeds are pictured as objects dispatched ahead of the actor and later met at the endpoint. `قَدَّمَتْ أَيْدِيكُمْ` reads as temporal causation made spatial.
+2. **The negation excludes misplaced consequence and withheld right.** ل ي س:B001 is present-state denial. The packet's accepted ظ ل م:B004 is doing something at the wrong concrete time or place, and B008 is withholding a right. The fixed intensive noun is denied after consequence has been attached to prior acts. I infer that the denial covers both misassignment and excess deprivation: nothing lands on the wrong bearer, and no due is withheld. The close reads as a precision claim about accountability.
+3. **Those under authority are not stripped of moral standing.** ع ب د:B001 is owned status, while B003 is worshipful service and B006 honoring. The plural `ٱلْعَبِيدِ` could foreground subjection, but the non-wronging clause preserves each servant's due. I infer that divine authority does not convert dependence into arbitrary disposability. Servanthood reads as accountable relation under power.
+
+### Retrospective surprises
+
+Later 8:52-54 confirmed that what hands advance is neither arbitrary nor isolated: culpability trails the actor, inner change governs the course, and the same operating pattern recurs historically.
+
+## 8:52: كَدَأْبِ ءَالِ فِرْعَوْنَ ۙ وَٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ فَأَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ ۗ إِنَّ ٱللَّهَ قَوِىٌّۭ شَدِيدُ ٱلْعِقَابِ
+
+### Activated readings
+
+1. **History repeats as a maintained course, not mere resemblance.** د ء ب:B001 is steady continuous striving and B002 a habitual course; ق ب ل:B002 is priorness. The likeness is anchored to `دَأْب` and then specified by the same denial-to-taking sequence. I infer that recurring outcomes arise because agents keep reproducing an operating pattern. The comparison reads behaviorally: persistence makes the present group enter a prior course.
+2. **The offense trails the actor into accountability.** ء خ ذ:B002 is taking someone to account for a fault. ذ ن ب:B001 is sin and culpable consequence, while B002 is a tail or trailing end. The causal `بِذُنُوبِهِمْ` follows the taking. I infer that the dormant tail image makes culpability the trailing part of action that remains attached until it is taken up in consequence. The phrase reads as self-carried liability.
+3. **Strength is assembled and consequence tightly bound.** ق و ي:B001 is strength like assembled rope strands. ش د د:B001 is fastening a bond and B002 hardness; ع ق ب:B007 is punitive consequence. I infer that `شَدِيدُ ٱلْعِقَابِ` describes not only painful intensity but the unloosened linkage by which accumulated strength executes consequence. The final attributes read as causal reliability.
+
+### Retrospective surprises
+
+Later 8:53 supplied the missing mediator of recurrence, change within selves, and 8:54 materialized the offense-tail as a water-channel into engulfment.
+
+## 8:53: ذَٰلِكَ بِأَنَّ ٱللَّهَ لَمْ يَكُ مُغَيِّرًۭا نِّعْمَةً أَنْعَمَهَا عَلَىٰ قَوْمٍ حَتَّىٰ يُغَيِّرُوا۟ مَا بِأَنفُسِهِمْ ۙ وَأَنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌۭ
+
+### Activated readings
+
+1. **External favor tracks internal substitution.** غ ي ر:B003 is altering a form or substituting one state for another; ن ع م:B001 is bestowed favor and pleasant condition. The same change root appears first in a negated divine participle and then in the people's active verb, with `حَتَّىٰ` linking them. I infer a directional condition: external state is not withdrawn until the group replaces its own inward operating state. The ayah reads change as response to endogenous substitution, not arbitrary historical cycling.
+2. **The relevant self is the hidden intent that generates conduct.** ن ف س:B13 is inner thought, intent, and hidden knowledge; B12 is the thing's own essence. The object is not simply the people but `مَا بِأَنفُسِهِمْ`. I infer that the causal variable is their inward decision structure, which then becomes the repeated course named around 8:52 and 8:54. The verse reads collective history as mediated through inner orientation.
+3. **Hearing and knowing make inner change publicly consequential.** س م ع:B001/B003 joins hearing with responsive uptake, and ع ل م:B001 is knowing what becomes clear. Positioned after a hidden-self condition, the attributes bridge concealed intention and observable change. I infer that no inward shift is causally invisible to the governor of favor. The close reads as assurance that the condition is tracked without relying on human display.
+
+### Retrospective surprises
+
+Later 8:54 showed the external endpoint of refused inner correction, while 8:56's recurrent covenant breach gave concrete behavioral content to what a group changes within itself.
+
+## 8:54: كَدَأْبِ ءَالِ فِرْعَوْنَ ۙ وَٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا۟ بِـَٔايَٰتِ رَبِّهِمْ فَأَهْلَكْنَٰهُم بِذُنُوبِهِمْ وَأَغْرَقْنَآ ءَالَ فِرْعَوْنَ ۚ وَكُلٌّۭ كَانُوا۟ ظَٰلِمِينَ
+
+### Activated readings
+
+1. **Denial rejects stagewise care and reverses it into ruin.** ك ذ ب:B002 is declaring signs false. ر ب ب:B002 is nurture, repair, and stagewise completion; ه ل ك:B001 is ruin and extinction. The signs are specifically `ءَايَٰتِ رَبِّهِمْ`, then destruction follows by their offenses. I infer that denying the signals of ongoing care disables the corrective relation those signals offer. Ruin reads as reversal of a refused developmental process.
+2. **Drowning completes an all-field takeover.** غ ر ق:B001 is sinking in water; B005 is immersion that occupies a whole field. The specific drowning is set inside a wider statement of destruction and followed by `وَكُلٌّۭ`, where ك ل ل:B003 is complete totality. I infer that the water image materializes consequence as a medium leaving no operative exterior. `أَغْرَقْنَآ` reads as comprehensive engulfment, not only a manner of death.
+3. **The trailing offense becomes the channel into destruction.** ذ ن ب:B001 is culpable consequence, B002 the trailing tail, and B004 the tail-channel of watercourses. The clause `بِذُنُوبِهِمْ` immediately precedes drowning. I infer a material analogy: offenses trail actions like runoff channels and conduct the actors toward the engulfing endpoint. This is an abductive bridge, but both the root branch and water sequence are packet-supplied.
+
+### Retrospective surprises
+
+Later 8:55-56 reframed `وكل كانوا ظالمين` as a recurring conduct class rather than a lineage label: continued covering and repeatedly untwisted covenants are the common form.
+
+## 8:55: إِنَّ شَرَّ ٱلدَّوَآبِّ عِندَ ٱللَّهِ ٱلَّذِينَ كَفَرُوا۟ فَهُمْ لَا يُؤْمِنُونَ
+
+### Activated readings
+
+1. **The comparison targets a habitual path, not mere creatureliness.** د ب ب:B001 is creeping movement and B005 one's way or habitual manner. The relative clause identifies covering/rejection (ك ف ر:B003), then the result clause denies trusting assent (ء م ن:B002). I infer a closed behavioral trajectory: they continue along a way that covers the signals capable of redirecting it. `ٱلدَّوَآبِّ` reads as undirected persistence.
+2. **Covering prevents transition into security and trust.** ك ف ر:B001 is material concealment and B003 rejection of truth; ء م ن:B001 is settled security and B002 trusting confirmation. The `فَهُمْ` clause makes non-belief follow from the identified covering condition. I infer that sustained concealment blocks evidence from becoming trusted orientation. The verse reads denial as a self-maintaining barrier to security.
+3. **Badness is evaluated by resistant continuity.** ش ر ر:B001 is evil or badness, while B011 is quarreling. The nearby repeated historical course (8:52-54) and repeated covenant-breaking (8:56) supply continuity and opposition. I infer that "worst" names not one isolated act but a mode that keeps reproducing resistance. The superlative reads dynamically.
+
+### Retrospective surprises
+
+Later 8:56 supplied the habitual path hidden inside the creeping comparison, and 8:58's equal-notice procedure showed that even recurrent breach must be answered without reproducing treachery.
+
+## 8:56: ٱلَّذِينَ عَٰهَدتَّ مِنْهُمْ ثُمَّ يَنقُضُونَ عَهْدَهُمْ فِى كُلِّ مَرَّةٍۢ وَهُمْ لَا يَتَّقُونَ
+
+### Activated readings
+
+1. **A covenant requires tending, not one-time formation.** ع ه د:B003 is a binding pledge or protection relation, while B001 is preserving and renewing attention over time. The first verb establishes reciprocal covenanting; the present `يَنقُضُونَ` then describes recurrent failure. I infer that a pact decays when its relational maintenance stops even if its initial formula remains remembered. `عَهْدَهُمْ` reads as an object requiring continuing care.
+2. **Breach untwists what repetition should strengthen.** ن ق ض:B001 is undoing a firm rope, knot, or covenant, and B004 relapse after repair. م ر ر:B002 is repeated occurrence, while B005 is tightly twisting a rope. The packet supplies a striking material opposition: each `مَرَّةٍ` could add a twist of reliability, but each act instead unravels it. I infer that recurrent breach turns history into progressive structural weakness.
+3. **Lack of protective caution explains the recurrence.** و ق ي:B002 is placing oneself in moral protective caution and B001 warding harm with a barrier. The circumstantial clause denies it after `فِى كُلِّ مَرَّةٍ`. I infer that no internal barrier interrupts the impulse to break the pact, so repetition remains unconstrained. The close reads as a missing control mechanism.
+
+### Retrospective surprises
+
+Later 8:57-58 revealed two ordered responses to recurring breach, deterrent memory when caught in war and open equal repudiation when betrayal is feared, clarifying that covenant failure does not erase procedural distinction.
+
+## 8:57: فَإِمَّا تَثْقَفَنَّهُمْ فِى ٱلْحَرْبِ فَشَرِّدْ بِهِم مَّنْ خَلْفَهُمْ لَعَلَّهُمْ يَذَّكَّرُونَ
+
+### Activated readings
+
+1. **Getting hold of the front group acts on a crooked wider pattern.** ث ق ف:B003 is catching sight of and taking hold; B001 is straightening what is crooked with a setting tool. The object is encountered in war, but the stated effect is directed beyond them to those behind. I infer that taking hold of one manifestation is used to correct the expected course of a larger recurrent breach pattern. The fixed verb reads as skilled interception, not accidental capture.
+2. **Deterrence transmits backward through the network.** ش ر د:B003 is deterrent punishment that drives others off; خ ل ف:B002 is spatially behind and B003 those remaining at the rear. The instrumental `بِهِم` explicitly makes one group the means of affecting another. I supply the directional arrow from observed consequence to changed conduct among those behind. The verse reads as network deterrence rather than punishment confined to the immediate combatants.
+3. **The intended endpoint is recovered memory.** ذ ك ر:B003 is bringing something to mind and B009 admonitory reminder. The purpose clause does not name destruction but possible recollection. I infer that deterrence succeeds when it restores the absent internal barrier identified in 8:56, not merely when it scatters bodies. `يَذَّكَّرُونَ` reads as the cognitive goal that limits the mechanism.
+
+### Retrospective surprises
+
+Later 8:58 corrected an unbounded reading of deterrence by requiring equal notice under suspicion; 8:59 then showed that this fairness does not mean successful betrayal can escape consequence.
+
+## 8:58: وَإِمَّا تَخَافَنَّ مِن قَوْمٍ خِيَانَةًۭ فَٱنۢبِذْ إِلَيْهِمْ عَلَىٰ سَوَآءٍ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْخَآئِنِينَ
+
+### Activated readings
+
+1. **Fear is anticipatory evidence, not yet a completed breach.** خ و ف:B001 is fearful anticipation of harm; خ و ن:B001 is secret violation and B002 gradual diminishment. The condition says `تَخَافَنَّ ... خِيَانَةًۭ`, preserving a distinction between apprehension and proven event. I infer that signs of erosion justify changing the pact relation, but not covert retaliation as though completion were certain. The verse reads risk-sensitive without collapsing suspicion into fact.
+2. **Open repudiation creates equal informational footing.** ن ب ذ:B002 is repudiating a pact openly to the other party; س و ي:B006 is fairness, equal notice, and an even meeting place. The imperative directs the casting `إِلَيْهِمْ`, not away into secrecy. I infer that declaring termination makes both parties stand in the same known legal state before conflict. `عَلَىٰ سَوَآءٍ` reads as information symmetry.
+3. **One cannot answer feared betrayal by becoming its mirror.** ح ب ب:B002 is clinging attachment or love. The divine non-love clause reuses the trait named in the condition, now generalized to all betrayers. I infer that procedural equality protects the responder from acquiring the same relational identity it fears. The close reads as a constraint on means, not only a judgment on the other party.
+
+### Retrospective surprises
+
+Later 8:59-60 showed why open repudiation is not strategic weakness: apparent escape fails, while general readiness handles known and unknown threats without covertly mirroring them.
+
+## 8:59: وَلَا يَحْسَبَنَّ ٱلَّذِينَ كَفَرُوا۟ سَبَقُوٓا۟ ۚ إِنَّهُمْ لَا يُعْجِزُونَ
+
+### Activated readings
+
+1. **Apparent lead is a faulty reckoning of the whole race.** ح س ب:B002 is supposition and mental reckoning; س ب ق:B001 is racing ahead, while B004 is outstripping another so as not to be overtaken. The first clause locates escape inside their calculation, then the second negates its effective completion. I infer that they mistake a local lead for exit from the pursuit horizon. The verse reads as correction of scale in strategic accounting.
+2. **They cannot convert distance into incapacity.** ع ج ز:B002 is eluding pursuit so the pursuer cannot catch up, while B001 is causing or attributing incapacity. The causative plural makes the intended object of their escape another's capability. I infer that successful flight would require not just moving ahead but making the governing power unable to reach them. `لَا يُعْجِزُونَ` reads as denial of that causal conversion.
+3. **Covering creates the illusion of unobserved distance.** ك ف ر:B001 is concealment and B003 rejection. In the local sequence, feared secret breach is made public in 8:58 and unknown enemies are known by Allah in 8:60. I infer that the covering disposition mistakes human loss of sight for actual escape. The terse ayah reads epistemically as well as spatially.
+
+### Retrospective surprises
+
+Later 8:60 turned the supposed lead into an input for preparation rather than panic, and 8:61 immediately revealed peace-readiness, not endless pursuit, as a possible outcome of deterrent capacity.
+
+## 8:60: وَأَعِدُّوا۟ لَهُم مَّا ٱسْتَطَعْتُم مِّن قُوَّةٍۢ وَمِن رِّبَاطِ ٱلْخَيْلِ تُرْهِبُونَ بِهِۦ عَدُوَّ ٱللَّهِ وَعَدُوَّكُمْ وَءَاخَرِينَ مِن دُونِهِمْ لَا تَعْلَمُونَهُمُ ٱللَّهُ يَعْلَمُهُمْ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍۢ فِى سَبِيلِ ٱللَّهِ يُوَفَّ إِلَيْكُمْ وَأَنتُمْ لَا تُظْلَمُونَ
+
+### Activated readings
+
+1. **Readiness is bounded by developed capacity, not a fixed quota.** ع د د:B002 is preparing equipment or stores for a coming need; ط و ع:B003 is practical capacity and B004 working oneself into ability. `مَّا ٱسْتَطَعْتُم` qualifies the open category of strength. I infer a scalable duty: current capacity sets the floor of action, while preparation expands future capacity. The command reads as capability development, not impossible maximalism.
+2. **Strength is assembled into a visible deterrent signal.** ق و ي:B001 is strength assembled like rope strands; ر ب ط:B002 is horses kept tethered in readiness; خ ي ل:B002 is the horse troop, while B001 is an imagined or projected image. ر ه ب:B002 is causing fear that drives off. I infer that heterogeneous resources are bound into readiness whose visible image changes enemy choice before contact. `تُرْهِبُونَ` reads as deterrence produced by credible assembly.
+3. **Unknown threats are met by preparation, not secret preemption.** ع د و:B003 is enemy; ء خ ر:B001 denotes others beyond the first; د و ن:B003 marks what is besides them. The epistemic contrast `لَا تَعْلَمُونَهُمُ ٱللَّهُ يَعْلَمُهُمْ` follows 8:58's equal-notice rule. I infer that uncertainty widens general readiness rather than licensing betrayal based on suspicion. The command reads as an ethical response to incomplete intelligence.
+4. **Expenditure is promised a full return without shorting.** ن ف ق:B002 is wealth going out; و ف ي:B001 is completion without shortfall; ظ ل م:B008 is withholding a right. The passive repayment and explicit non-wronging answer the cost imposed by preparation. I infer that resources leaving private custody enter an account whose return is complete even when the strategic effect is not visible. Spending reads as recoverable contribution, not disappearance.
+
+### Retrospective surprises
+
+Later 8:61 supplied the key correction to a purely warlike reading of preparation: credible force permits a sound lean toward peace; 8:62 then assigns deception-risk to reliance rather than preemptive breach.
+
+## 8:61: ۞ وَإِن جَنَحُوا۟ لِلسَّلْمِ فَٱجْنَحْ لَهَا وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ
+
+### Activated readings
+
+1. **Peace is a mirrored change of vector.** ج ن ح:B001 is leaning toward a side or direction; B002 is a wing, flank, or sheltering side. The root repeats condition and imperative, so one side's inclination is answered by a matching inclination. I infer that peace begins when opposed vectors fold toward a shared side, like wings changing a body's course. The verse reads peace as reciprocal geometry rather than passivity.
+2. **Readiness makes a sound inclination possible.** س ل م:B004 is reconciliation and peace, while B001 is soundness and safety. The preceding 8:60 has ordered credible deterrent preparation, and 8:62 immediately acknowledges possible deception. I infer that the prepared position lets the community lean without making the lean structurally unsound. `لِلسَّلْمِ` reads as a safety-bearing settlement, not disarmament based on certainty.
+3. **Reliance carries the uncertainty that agreement cannot remove.** و ك ل:B001 is handing a matter over and B002 reliance. Hearing and knowledge (س م ع:B001/B003; ع ل م:B001) close the ayah, while human actors cannot know hidden intentions completely. I infer that accepting peace transfers residual risk to one whose hearing and knowledge exceed the parties'. `تَوَكَّلْ` reads as risk delegation enabling principled action under uncertainty.
+
+### Retrospective surprises
+
+Later 8:62 confirmed that possible deception does not cancel the peace command, and 8:63 showed that the support absorbing that risk includes a divinely composed heart-relation money cannot make.
+
+## 8:62: وَإِن يُرِيدُوٓا۟ أَن يَخْدَعُوكَ فَإِنَّ حَسْبَكَ ٱللَّهُ ۚ هُوَ ٱلَّذِىٓ أَيَّدَكَ بِنَصْرِهِۦ وَبِٱلْمُؤْمِنِينَ
+
+### Activated readings
+
+1. **Hidden contrary intention does not invalidate the open peace rule.** ر و د:B001 is will and intention; خ د ع:B001 is showing other than what is hidden, and B002 a concealed recess. The conditional follows rather than precedes the command to incline in 8:61. I infer that deception is treated as residual risk to be absorbed, not as a reason to ignore every visible inclination. The ayah reads strategic awareness as compatible with procedural openness.
+2. **Sufficiency is a layered support relation.** ح س ب:B003 is enoughness. The explanatory sentence unfolds that sufficiency as reinforcement (ء ي د:B001), aid that makes prevail (ن ص ر:B001), and believers characterized by trusting assent (ء م ن:B002). I infer that `حَسْبَكَ` is not bare substitution for all means but the source's capacity to assemble multiple means. Sufficiency reads as a support architecture.
+3. **Past reinforcement becomes evidence for present risk delegation.** ء ي د:B001 is reinforcing strength, and the perfect `أَيَّدَكَ` recalls a completed support history. I infer that reliance under possible deception is grounded abductively in an observed pattern of aid, not blind optimism. The second half reads as the evidentiary basis for the first.
+
+### Retrospective surprises
+
+Later 8:63 made sufficiency more surprising and concrete: reinforcement includes non-purchasable joined hearts; 8:64 then condenses that composed body into followers who participate in support.
+
+## 8:63: وَأَلَّفَ بَيْنَ قُلُوبِهِمْ ۚ لَوْ أَنفَقْتَ مَا فِى ٱلْأَرْضِ جَمِيعًۭا مَّآ أَلَّفْتَ بَيْنَ قُلُوبِهِمْ وَلَٰكِنَّ ٱللَّهَ أَلَّفَ بَيْنَهُمْ ۚ إِنَّهُۥ عَزِيزٌ حَكِيمٌۭ
+
+### Activated readings
+
+1. **Heart-union is composition after separation.** ء ل ف:B002 is joining things into a composition and B005 familiar attachment; ب ي ن:B003 is the tie connecting parties. The root repeats in positive divine, negated human, and restored divine clauses, while the first two objects are explicitly hearts. I infer that attachment is produced by composing distinct inward faculties without erasing their separateness. `أَلَّفَ بَيْنَ` reads as construction of a relation, not emotional coincidence.
+2. **Material totality cannot purchase relational causation.** ن ف ق:B002 is expenditure; ج م ع:B001 is gathering all scattered parts into a whole; ء ر ض:B001 is the whole lower ground. The counterfactual maximizes expenditure to everything in the earth and still negates human production of the tie. I infer that money can supply conditions of cooperation but is not fungible with the causal source of inward attachment. The verse reads cohesion as a non-purchasable good.
+3. **Might and wisdom name the two requirements of durable joining.** ع ز ز:B004 is reinforcing and strengthening; ح ك م:B001 is restraining what would corrupt and B003 rightly guided knowledge. I infer that joined hearts require both force sufficient to hold the composition and judgment sufficient to restrain destructive differences. The final attributes read as functional explanations of the joining.
+
+### Retrospective surprises
+
+Later 8:64-66 showed the joined hearts becoming operational: followers form a sufficient body, exhortation activates it, and known weakness calibrates rather than dissolves its duty.
+
+## 8:64: يَٰٓأَيُّهَا ٱلنَّبِىُّ حَسْبُكَ ٱللَّهُ وَمَنِ ٱتَّبَعَكَ مِنَ ٱلْمُؤْمِنِينَ
+
+### Activated readings
+
+1. **Divine sufficiency can encompass leader and followers together.** ح س ب:B003 is sufficiency; ن ب ء:B003 is prophethood as divine informing; ت ب ع:B001 is following a person or command. On one structural reading, `وَمَنِ ٱتَّبَعَكَ` joins the followers to the addressed prophet as recipients of the same sufficiency. I infer that the informational hierarchy does not create separate support sources. The ayah reads Allah as enough for the whole following relation.
+2. **Joined followers can also be a supplied means of sufficiency.** A coexisting syntactic reading lets the believers stand alongside the divine name in relation to `حَسْبُكَ`. ت ب ع:B012 is mastery and internal consistency, and 8:62-63 has just named believers as reinforcement and their hearts as divinely joined. I infer, without disambiguating the grammar, that followers made coherent can function as one means through which sufficient support reaches the prophet. This does not make them an independent source.
+3. **Following converts trusting assent into an ordered body.** ء م ن:B002 is trusting confirmation; ت ب ع:B004 is succession in order. The partitive `مِنَ ٱلْمُؤْمِنِينَ` specifies which believers enter the support relation: those whose trust becomes following. I infer that assent is operationalized as ordered alignment behind informed leadership. The verse reads a community structure into belief.
+
+### Retrospective surprises
+
+Later 8:65-66 prevented `حسبك` from becoming abstraction: sufficiency is mediated through roused, patient followers whose burden is adjusted to their actual capacity.
+
+## 8:65: يَٰٓأَيُّهَا ٱلنَّبِىُّ حَرِّضِ ٱلْمُؤْمِنِينَ عَلَى ٱلْقِتَالِ ۚ إِن يَكُن مِّنكُمْ عِشْرُونَ صَٰبِرُونَ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنكُم مِّا۟ئَةٌۭ يَغْلِبُوٓا۟ أَلْفًۭا مِّنَ ٱلَّذِينَ كَفَرُوا۟ بِأَنَّهُمْ قَوْمٌۭ لَّا يَفْقَهُونَ
+
+### Activated readings
+
+1. **Incitement restores a force at risk of wasting.** ح ر ض:B006 is urging and rousing to action; B003 is wasting toward the edge of destruction and B005 loss of worth or combat capacity. The addressed prophet is told to act on believers before the numerical conditions are stated. I infer that exhortation converts latent but underactivated capacity into usable combat readiness. `حَرِّضِ` reads as rescue from dissipation, not emotional inflation.
+2. **Patience changes the effective value of number.** ص ب ر:B001 is self-restraint from panic; غ ل ب:B001 is overpowering force. The first ratio explicitly qualifies the twenty as patient, and the second remains in the same causal frame. I infer that number is not raw headcount: each restrained unit preserves coordination longer and therefore contributes more effective force. The ratios read as a capacity model mediated by discipline.
+3. **Lack of understanding is a tactical deficit.** ف ق ه:B001 is grasping a report or meaning. The causal `بِأَنَّهُمْ` attaches the opponents' lack of understanding to the asymmetry. I infer that inability to read purpose, command, and consequence reduces coordinated persistence even when numbers are high. Victory reads as partly epistemic rather than numerical.
+
+### Retrospective surprises
+
+Later 8:66 explicitly corrected the first numerical expectation by lightening it, proving the ratios provisional and knowledge-responsive; 8:67 then imposed a separate sequencing limit on what victory may seek.
+
+## 8:66: ٱلْـَٰٔنَ خَفَّفَ ٱللَّهُ عَنكُمْ وَعَلِمَ أَنَّ فِيكُمْ ضَعْفًۭا ۚ فَإِن يَكُن مِّنكُم مِّا۟ئَةٌۭ صَابِرَةٌۭ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنْكُمْ أَلْفٌۭ يَغْلِبُوٓا۟ أَلْفَيْنِ بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ
+
+### Activated readings
+
+1. **Lightening is calibrated response to known load-bearing weakness.** خ ف ف:B001 is reduced burden and lightness; ض ع ف:B001 is lack of strength. `ٱلْـَٰٔنَ` and `وَعَلِمَ` explicitly connect the revised ratio to present knowledge of the group's condition. I infer that obligation is adjusted to preserve sustainable obedience rather than deny weakness. The ayah reads law as responsive calibration.
+2. **A thousand is also a joined body, not a loose aggregate.** ء ل ف:B001 directly supplies the number one thousand, while B002 is joining parts into a composition. The same root formed the joined hearts in 8:63, only three ayat earlier. I infer that the numerical force is effective insofar as its units are composed by the cohesion already described. `أَلْفٌۭ` carries an activated structural reminder: aggregation without joining would not yield the stated result.
+3. **Permission prevents ratio from becoming autonomous law of force.** ء ذ ن:B004 is permission and authorization. The second victory clause adds `بِإِذْنِ ٱللَّهِ`, and the close returns to divine accompaniment of patient people. I infer that disciplined ratios describe a channel through which victory may be authorized, not a self-executing formula. The verse preserves contingency inside calibration.
+
+### Retrospective surprises
+
+Later 8:67-68 showed that accommodation of weakness is not general relaxation: premature captive-taking still draws near consequence, though a prior decree prevents contact.
+
+## 8:67: مَا كَانَ لِنَبِىٍّ أَن يَكُونَ لَهُۥٓ أَسْرَىٰ حَتَّىٰ يُثْخِنَ فِى ٱلْأَرْضِ ۚ تُرِيدُونَ عَرَضَ ٱلدُّنْيَا وَٱللَّهُ يُرِيدُ ٱلْـَٔاخِرَةَ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌۭ
+
+### Activated readings
+
+1. **Captive-taking is premature before control becomes dense and stable.** ء س ر:B001 is binding and holding captive; ث خ ن:B001 is thickness, density, and solidity, while B003 is disabling or overwhelming. The temporal `حَتَّىٰ` orders field-stabilization before accumulation of bound persons. I infer that converting opponents into captives too early diverts force from disabling the active threat. The verse reads as a sequencing rule for consolidation.
+2. **Near-world goods are lateral appearances, not the final horizon.** ع ر ض:B003 is what appears from a side and B008 goods offered in exchange; د ن و:B002 is the nearer/lower world. Against them, ء خ ر:B001 is what comes later after the first. I infer a spatial-temporal contrast: immediately visible exchange-value looms across the path and draws intention away from the later endpoint. `عَرَضَ ٱلدُّنْيَا` reads as an intercepting short horizon.
+3. **Prophetic informing does not eliminate community-level desire conflict.** ن ب ء:B003 is prophethood as divine informing; ر و د:B001 is intention. The opening assigns a norm to a prophet, then the plural `تُرِيدُونَ` contrasts collective desire with divine intention. I infer that receipt of guidance still requires the group to reorder incentives. The ayah reads authority as a channel that can be pressured by surrounding preferences.
+
+### Retrospective surprises
+
+Later 8:68 made the risk of premature taking nearly tactile, while 8:69's lawful release showed that consolidation is what transforms captured gain into permitted use.
+
+## 8:68: لَّوْلَا كِتَٰبٌۭ مِّنَ ٱللَّهِ سَبَقَ لَمَسَّكُمْ فِيمَآ أَخَذْتُمْ عَذَابٌ عَظِيمٌۭ
+
+### Activated readings
+
+1. **A prior binding inscription intercepts present consequence.** ك ت ب:B003 is inscribing as binding decree, and B001 is joining one thing firmly to another; س ب ق:B001 is preceding in an affair. The counterfactual makes the already-preceding book the condition preventing punishment. I infer that the decree joins the present taking to an earlier governing provision and therefore interrupts its otherwise direct consequence. `كِتَٰبٌۭ ... سَبَقَ` reads as temporal legal shielding.
+2. **What was taken nearly becomes what touches the taker.** ء خ ذ:B001 is taking into possession and B002 taking to account; م س س:B004 is an affliction reaching or touching someone. The conditional syntax places `فِيمَآ أَخَذْتُمْ` inside the cause of what would touch them. I infer a reversal of direction: acquisitive contact draws punitive contact back toward the possessor. The verse reads possession as a potential conduit of liability.
+3. **Greatness marks an overwhelming consequence held just outside contact.** ع ظ م:B001 is greatness, and B007 is finding something overwhelming. Combined with touch and the unrealized conditional, I infer that the prior decree does not minimize the act but holds an overwhelming effect from reaching it. `عَذَابٌ عَظِيمٌۭ` reads as measured near-contact, not empty threat.
+
+### Retrospective surprises
+
+Later 8:69 identified the preceding book's practical effect as normative unbinding, and 8:70 extended that shield into a reparative offer to the captives affected by the taking.
+
+## 8:69: فَكُلُوا۟ مِمَّا غَنِمْتُمْ حَلَٰلًۭا طَيِّبًۭا ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+
+### Activated readings
+
+1. **Gain becomes a consumable share only after restriction is untied.** غ ن م:B002 is gain or spoil. ء ك ل:B003 is an allotted consumable share, alongside B001 ingesting food; ح ل ل:B001 is untying a knot and B003 removal of prohibition. After 8:67-68's rebuke and near-consequence, `حَلَٰلًۭا` releases the gain into legitimate use. I infer that lawfulness is the operation converting possession into permitted nourishment. Eating reads as downstream of normative unbinding.
+2. **Purity excludes treacherous taking, not merely physical foulness.** ط ي ب:B001 is good, pure, and lawful; B002 is taking that is untainted by treachery. The local surah context has insisted on equal notice (8:58), preparation, peace, and proper sequencing before captives. I infer that `طَيِّبًۭا` evaluates the acquisition process as well as the consumed object. The food is wholesome because the taking has been regularized.
+3. **Permission remains enclosed by protective caution.** و ق ي:B002 is moral self-guarding; غ ف ر:B002 is forgiveness and shielding, and ر ح م:B001 mercy and tenderness. The command to eat is immediately followed by `ٱتَّقُوا۟`, then covering mercy. I infer that release from prohibition is not release from accountable handling. The ayah reads permission as guarded consumption inside a reparative relation.
+
+### Retrospective surprises
+
+Later 8:70 made wholesome consumption part of a larger reparative economy in which taken value can return better; 8:71 then guarded that openness with historical knowledge of possible betrayal.
+
+## 8:70: يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّمَن فِىٓ أَيْدِيكُم مِّنَ ٱلْأَسْرَىٰٓ إِن يَعْلَمِ ٱللَّهُ فِى قُلُوبِكُمْ خَيْرًۭا يُؤْتِكُمْ خَيْرًۭا مِّمَّآ أُخِذَ مِنكُمْ وَيَغْفِرْ لَكُمْ ۗ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+
+### Activated readings
+
+1. **Captivity places persons in custody, not outside address.** ي د ي:B004 is possession or custody; ء س ر:B001 is binding and holding captive. Yet ن ب ء:B003, prophetic informing, is directed by `قُل` to those inside the hands. I infer that physical control does not close their status as hearers capable of inward change. `فِىٓ أَيْدِيكُم` reads as accountable custody over addressable agents.
+2. **The heart can reverse the direction of taking.** ق ل ب:B001 is the inward faculty and B004 turning; ء خ ذ:B001 is taking into possession; ء ت ي:B002 is granting or bringing. The condition locates good in hearts, then moves from what was passively taken from them to what will actively be brought to them. I infer that inward reorientation reverses the flow of value. The promise reads as conversion of loss into superior receipt.
+3. **"Better" is both restored value and better selection.** خ ي ر:B001 is beneficial good, B003 choosing the better, and B005 beneficence or gift. Its repetition first names hidden quality, then a grant better than what was taken. I infer that an improved inward choice generates a return whose value exceeds the surrendered asset. `خَيْرًۭا ... خَيْرًۭا` reads as moral and material improvement linked.
+4. **Forgiveness protects the repaired exchange.** غ ف ر:B001/B002 is protective covering and forgiveness; ر ح م:B001 is beneficent tenderness. The promised better return is coordinated with forgiveness, not offered as a substitute for it. I infer that value restoration and shielding from prior consequence form one reparative package. Mercy reads as rebuilding a relation after hostile taking.
+
+### Retrospective surprises
+
+Later 8:71 prevented the promise from becoming naive: the better-return offer remains conditional under betrayal risk, while 8:72 begins constructing the alliance and treaty system able to manage such loyalty claims.
+
+## 8:71: وَإِن يُرِيدُوا۟ خِيَانَتَكَ فَقَدْ خَانُوا۟ ٱللَّهَ مِن قَبْلُ فَأَمْكَنَ مِنْهُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ
+
+### Activated readings
+
+1. **Possible future betrayal is assessed through an already observed pattern.** ر و د:B001 is intention; خ و ن:B001 is secret breach and B002 gradual diminishment. The condition preserves uncertainty about present intent, while `فَقَدْ` points to a completed prior betrayal. I infer that the earlier pattern supplies risk evidence without canceling the conditional offer of better return in 8:70. The verse reads as guarded mercy rather than naive trust or predetermined condemnation.
+2. **Prior treachery generated the condition of being enabled over.** ق ب ل:B002 is priorness; م ك ن:B005 is enablement, command, or authoritative capacity over something. The causal `فَأَمْكَنَ مِنْهُمْ` follows their former breach. I infer that treachery progressively removes the protection of a trustworthy relation until control by the betrayed side becomes possible. Enablement reads as an outcome of relational erosion.
+3. **Knowledge and judgment hold openness and caution together.** ع ل م:B001 is knowing what becomes clear; ح ك م:B001 restrains corruption and B003 is rightly guided judgment. The final attributes follow a clause combining hypothetical intention, historical evidence, and prior enablement. I infer that wise handling neither treats possibility as fact nor ignores the pattern. The close reads as a decision rule for captive relations.
+
+### Retrospective surprises
+
+Later 8:72-75 made wisdom institutionally visible: migration, shelter, reciprocal guardianship, treaty limits, later membership, and kin priority channel risk into ordered relations rather than suspicion alone.
+
+## 8:72: إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ ءَاوَوا۟ وَّنَصَرُوٓا۟ أُو۟لَٰٓئِكَ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍۢ ۚ وَٱلَّذِينَ ءَامَنُوا۟ وَلَمْ يُهَاجِرُوا۟ مَا لَكُم مِّن وَلَٰيَتِهِم مِّن شَىْءٍ حَتَّىٰ يُهَاجِرُوا۟ ۚ وَإِنِ ٱسْتَنصَرُوكُمْ فِى ٱلدِّينِ فَعَلَيْكُمُ ٱلنَّصْرُ إِلَّا عَلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌۭ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+
+### Activated readings
+
+1. **Migration severs one support relation to enter another.** ه ج ر:B002 is migration from one abode to another, while B001 is severance and separation. ج ه د:B001 is spending capacity under strain, here explicitly through wealth and selves along a path (س ب ل:B001). I infer that migration is not motion alone but costly detachment from an old protection topology. The sequence reads belief becoming materially exposed movement.
+2. **Sheltering and aid answer the migrant's two losses.** ء و ي:B001 is drawing someone into shelter; ن ص ر:B001 is aid that makes prevail. و ل ي:B003/B004 is guardianship and loyal alliance, and ب ع ض:B001 makes each side a portion related to another portion. I infer that shelter replaces lost location and aid replaces lost force, producing reciprocal protection between differentiated roles. `بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍۢ` reads as functional interdependence.
+3. **Trusting assent alone does not instantiate territorial guardianship.** ء م ن:B002 is trusting confirmation; و ل ي:B003 is assuming charge. The second believer group retains its faith label but has no share in the specified `وَلَٰيَتِهِم` until migration. I infer that this form of protection depends on entering the shared risk-and-shelter network, not inward affiliation alone. The ayah distinguishes religious identity from operational membership without erasing either.
+4. **Aid is constrained by a firm cross-group bond.** ن ص ر:B001/B002 is aid and redress; ب ي ن:B003 is the tie between parties; و ث ق:B004 is a firm covenant. A request for religious aid creates a duty, but the exception preserves the treaty joining the community to another people. I infer that obligations are not ranked by affect alone; the firm prior bond limits the mode of support. Divine sight (ب ص ر:B002) closes over how that conflict is handled.
+
+### Retrospective surprises
+
+Later 8:73 confirmed the protection network's systemic role by naming field-wide fitnah and corruption if it is not enacted; 8:75 then refined the network with inscribed kin priority.
+
+## 8:73: وَٱلَّذِينَ كَفَرُوا۟ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ ۚ إِلَّا تَفْعَلُوهُ تَكُن فِتْنَةٌۭ فِى ٱلْأَرْضِ وَفَسَادٌۭ كَبِيرٌۭ
+
+### Activated readings
+
+1. **Reciprocal alliance is a field structure shared by opposing communities.** ب ع ض:B001 is one portion of a whole; و ل ي:B004 is loyal alliance and support. The clause mirrors 8:72's exact portion-to-portion construction but changes the group's orientation. I infer that alliance is not itself the distinguishing value; its direction and governing commitments are. The verse reads conflict as interaction between organized protection networks, not isolated individuals.
+2. **Failure to enact the corresponding network lets discord propagate.** ف ع ل:B001 is bringing an act into being; ك و ن:B001 is a state occurring. ف ت ن:B006 is social discord and war; ف س د:B001 is departure from sound balance. The condition makes omission of `تَفْعَلُوهُ` lead to occurrence of fitnah and corruption in the ground. I infer that unorganized protection leaves power asymmetry to spread through the shared field. The danger reads systemically rather than privately.
+3. **"Great" describes corruption's bulk and burden.** ك ب ر:B001 is greatness in size or degree, B002 the chief bulk of an affair, and B010 burdensome heaviness. The adjective follows both discord and loss of balance. I infer that corruption becomes great by accumulating many local failures of alliance into a field-wide burden. `فَسَادٌۭ كَبِيرٌۭ` reads as scaled systemic load.
+
+### Retrospective surprises
+
+Later 8:74 restated the positive migrant-shelter circuit, and 8:75 corrected any flat alliance reading by keeping membership open to later entrants while ordering particular claims.
+
+## 8:74: وَٱلَّذِينَ ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ ءَاوَوا۟ وَّنَصَرُوٓا۟ أُو۟لَٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّۭا ۚ لَّهُم مَّغْفِرَةٌۭ وَرِزْقٌۭ كَرِيمٌۭ
+
+### Activated readings
+
+1. **Truth is made firm by complementary costly roles.** ح ق ق:B001 is firm truth and B005 making truth stand. The subject is composed of those who migrate and expend capacity (ه ج ر:B002; ج ه د:B001) and those who shelter and aid (ء و ي:B001; ن ص ر:B001). I infer that `حَقًّۭا` is verified by a complete support circuit: exposure on one side is answered by custody and force on the other. Belief reads as socially established truth.
+2. **Migration and shelter form a reversible spatial mechanism.** ه ج ر:B001 is severance and B002 migration between abodes; ء و ي:B001 draws into a sheltering point. Their coordination places leaving and receiving in one subject. I infer that movement becomes sustainable only because every severance has a destination capable of gathering it. The verse reads community formation as managed relocation.
+3. **Forgiveness and provision cover and replenish the cost-bearing network.** غ ف ر:B001 is protective covering; ر ز ق:B001 is allotted provision and B004 troop support; ك ر م:B001 is honorable generosity. After costly migration, effort, lodging, and aid, I infer that the promised pair restores what the network exposed and expended. `مَّغْفِرَةٌۭ وَرِزْقٌۭ كَرِيمٌۭ` reads as protection plus dignified replenishment.
+
+### Retrospective surprises
+
+Later 8:75 added the final surprise: the network that verifies belief remains open to later migrants, yet kinship receives a written priority inside it rather than replacing it.
+
+## 8:75: وَٱلَّذِينَ ءَامَنُوا۟ مِنۢ بَعْدُ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ مَعَكُمْ فَأُو۟لَٰٓئِكَ مِنكُمْ ۚ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍۢ فِى كِتَٰبِ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌۢ
+
+### Activated readings
+
+1. **Membership remains open to later costly alignment.** ب ع د:B002 is temporal afterness; ه ج ر:B002 migration; ج ه د:B001 expending capacity under strain. `مِنۢ بَعْدُ` is answered by `فَأُو۟لَٰٓئِكَ مِنكُمْ`. I infer that the protection network is temporally extensible: later entrants become internal through the same enacted alignment. The verse reads precedence as non-monopolizing.
+2. **Kinship is a bond whose portions receive ordered priority.** ر ح م:B002 is the kinship bond; ب ع ض:B001 is a portion of a whole; و ل ي:B008 is superior right or priority. The reciprocal portion construction from 8:72-73 is now qualified by `أَوْلَىٰ`. I infer that kinship does not erase the wider alliance network but orders claims inside it. `بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍۢ` reads as structured relational priority.
+3. **Priority is contained by the binding written order.** ك ت ب:B003 is binding decree or judgment; ك ل ل:B003 is totality; ع ل م:B001 is comprehensive knowing as things become clear. The kin rule is located `فِى كِتَٰبِ ٱللَّهِ`, then closed by knowledge of every thing. I infer that blood priority is neither intuitive favoritism nor unlimited claim; it is one inscribed relation inside a complete order. The surah closes by subordinating social allocation to known decree.
+
+### Retrospective surprises
+
+No later ayah remains in the clipped surah window, so the final relation among later entrants, kin priority, binding inscription, and comprehensive knowledge produced no further retrospective correction.

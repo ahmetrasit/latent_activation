@@ -10,7 +10,7 @@
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The full walk made the opening mercy (`ر ح م` B001) structurally concrete: 4:176 closes by disclosing exact collateral kin-duties, so womb-relation frames both the first invocation and the final allocation.
 
 ## 4:1 — يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍۢ وَٰحِدَةٍۢ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًۭا كَثِيرًۭا وَنِسَآءًۭ ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ ۚ إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًۭا
 
@@ -24,7 +24,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The later return to common human origin at 4:25 (`بَعْضُكُم مِّنۢ بَعْضٍ`) and the sex-neutral entry condition at 4:124 sharpened this creation account into distributed, non-ranked responsibility.
 
 ## 4:2 — وَءَاتُوا۟ ٱلْيَتَٰمَىٰٓ أَمْوَٰلَهُمْ ۖ وَلَا تَتَبَدَّلُوا۟ ٱلْخَبِيثَ بِٱلطَّيِّبِ ۖ وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَهُمْ إِلَىٰٓ أَمْوَٰلِكُمْ ۚ إِنَّهُۥ كَانَ حُوبًۭا كَبِيرًۭا
 
@@ -38,7 +38,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The non-assimilation rule was later generalized: 4:29 and 4:161 forbid consuming another's wealth by void means, while 4:112 shows that even guilt cannot be thrown onto another bearer.
 
 ## 4:3 — وَإِنْ خِفْتُمْ أَلَّا تُقْسِطُوا۟ فِى ٱلْيَتَٰمَىٰ فَٱنكِحُوا۟ مَا طَابَ لَكُم مِّنَ ٱلنِّسَآءِ مَثْنَىٰ وَثُلَٰثَ وَرُبَٰعَ ۖ فَإِنْ خِفْتُمْ أَلَّا تَعْدِلُوا۟ فَوَٰحِدَةً أَوْ مَا مَلَكَتْ أَيْمَٰنُكُمْ ۚ ذَٰلِكَ أَدْنَىٰٓ أَلَّا تَعُولُوا۟
 
@@ -52,7 +52,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:129 supplied the decisive constraint: inability to achieve total equality does not permit total inclination or leaving one woman suspended, confirming 4:3 as a load-limiting rule rather than an unbounded license.
 
 ## 4:4 — وَءَاتُوا۟ ٱلنِّسَآءَ صَدُقَٰتِهِنَّ نِحْلَةًۭ ۚ فَإِن طِبْنَ لَكُمْ عَن شَىْءٍۢ مِّنْهُ نَفْسًۭا فَكُلُوهُ هَنِيٓـًۭٔا مَّرِيٓـًۭٔا
 
@@ -64,7 +64,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:24 repeated the same ordering: a fixed due (`ف ر ض` B002) is secured before later mutual consent operates, confirming that willingness modifies an established floor rather than creating it retroactively.
 
 ## 4:5 — وَلَا تُؤْتُوا۟ ٱلسُّفَهَآءَ أَمْوَٰلَكُمُ ٱلَّتِى جَعَلَ ٱللَّهُ لَكُمْ قِيَٰمًۭا وَٱرْزُقُوهُمْ فِيهَا وَٱكْسُوهُمْ وَقُولُوا۟ لَهُمْ قَوْلًۭا مَّعْرُوفًۭا
 
@@ -78,7 +78,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:84's separation of personal burden from communal urging and 4:127's command to stand for orphan equity sharpened custody into accountable maintenance, never absorption of the beneficiary's entitlement.
 
 ## 4:6 — وَٱبْتَلُوا۟ ٱلْيَتَٰمَىٰ حَتَّىٰٓ إِذَا بَلَغُوا۟ ٱلنِّكَاحَ فَإِنْ ءَانَسْتُم مِّنْهُمْ رُشْدًۭا فَٱدْفَعُوٓا۟ إِلَيْهِمْ أَمْوَٰلَهُمْ ۖ وَلَا تَأْكُلُوهَآ إِسْرَافًۭا وَبِدَارًا أَن يَكْبَرُوا۟ ۚ وَمَن كَانَ غَنِيًّۭا فَلْيَسْتَعْفِفْ ۖ وَمَن كَانَ فَقِيرًۭا فَلْيَأْكُلْ بِٱلْمَعْرُوفِ ۚ فَإِذَا دَفَعْتُمْ إِلَيْهِمْ أَمْوَٰلَهُمْ فَأَشْهِدُوا۟ عَلَيْهِمْ ۚ وَكَفَىٰ بِٱللَّهِ حَسِيبًۭا
 
@@ -94,7 +94,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The later information rules confirmed this evidentiary sequence: 4:83 requires extraction before dissemination and 4:94 verification before field judgment, just as 4:6 requires tested discernment before witnessed handover.
 
 ## 4:7 — لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ مِمَّا قَلَّ مِنْهُ أَوْ كَثُرَ ۚ نَصِيبًۭا مَّفْرُوضًۭا
 
@@ -106,7 +106,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The negligible-notch justice of 4:124 and the collateral decision tree of 4:176 confirmed that little and much remain allocable dues; no social invisibility cancels a prescribed share.
 
 ## 4:8 — وَإِذَا حَضَرَ ٱلْقِسْمَةَ أُو۟لُوا۟ ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينُ فَٱرْزُقُوهُم مِّنْهُ وَقُولُوا۟ لَهُمْ قَوْلًۭا مَّعْرُوفًۭا
 
@@ -118,7 +118,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:114 later made the same discretionary layer explicit: private coordination is good when it produces charity, recognized good, or reconciliation, complementing rather than displacing fixed legal shares.
 
 ## 4:9 — وَلْيَخْشَ ٱلَّذِينَ لَوْ تَرَكُوا۟ مِنْ خَلْفِهِمْ ذُرِّيَّةًۭ ضِعَٰفًا خَافُوا۟ عَلَيْهِمْ فَلْيَتَّقُوا۟ ٱللَّهَ وَلْيَقُولُوا۟ قَوْلًۭا سَدِيدًا
 
@@ -132,7 +132,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The projected role reversal returned in 4:94's reminder that the judges once occupied the claimant's position, while 4:97-4:99 added the needed test between alleged and genuine incapacity.
 
 ## 4:10 — إِنَّ ٱلَّذِينَ يَأْكُلُونَ أَمْوَٰلَ ٱلْيَتَٰمَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِى بُطُونِهِمْ نَارًۭا ۖ وَسَيَصْلَوْنَ سَعِيرًۭا
 
@@ -146,7 +146,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:119-4:121 later exposed false gain as manifest deficiency and a shelter without exit, while 4:161 repeated wealth-consumption by void means; the consumed property already carries its consequence inward.
 
 ## 4:11 — يُوصِيكُمُ ٱللَّهُ فِىٓ أَوْلَٰدِكُمْ ۖ لِلذَّكَرِ مِثْلُ حَظِّ ٱلْأُنثَيَيْنِ ۚ فَإِن كُنَّ نِسَآءًۭ فَوْقَ ٱثْنَتَيْنِ فَلَهُنَّ ثُلُثَا مَا تَرَكَ ۖ وَإِن كَانَتْ وَٰحِدَةًۭ فَلَهَا ٱلنِّصْفُ ۚ وَلِأَبَوَيْهِ لِكُلِّ وَٰحِدٍۢ مِّنْهُمَا ٱلسُّدُسُ مِمَّا تَرَكَ إِن كَانَ لَهُۥ وَلَدٌۭ ۚ فَإِن لَّمْ يَكُن لَّهُۥ وَلَدٌۭ وَوَرِثَهُۥٓ أَبَوَاهُ فَلِأُمِّهِ ٱلثُّلُثُ ۚ فَإِن كَانَ لَهُۥٓ إِخْوَةٌۭ فَلِأُمِّهِ ٱلسُّدُسُ ۚ مِنۢ بَعْدِ وَصِيَّةٍۢ يُوصِى بِهَآ أَوْ دَيْنٍ ۗ ءَابَآؤُكُمْ وَأَبْنَآؤُكُمْ لَا تَدْرُونَ أَيُّهُمْ أَقْرَبُ لَكُمْ نَفْعًۭا ۚ فَرِيضَةًۭ مِّنَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًۭا
 
@@ -162,7 +162,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The closing ruling at 4:176 repeats the male-to-two-female comparative share under a different kin branch, showing that 4:11 is one explicit node in a wider relation-sensitive inheritance system.
 
 ## 4:12 — ۞ وَلَكُمْ نِصْفُ مَا تَرَكَ أَزْوَٰجُكُمْ إِن لَّمْ يَكُن لَّهُنَّ وَلَدٌۭ ۚ فَإِن كَانَ لَهُنَّ وَلَدٌۭ فَلَكُمُ ٱلرُّبُعُ مِمَّا تَرَكْنَ ۚ مِنۢ بَعْدِ وَصِيَّةٍۢ يُوصِينَ بِهَآ أَوْ دَيْنٍۢ ۚ وَلَهُنَّ ٱلرُّبُعُ مِمَّا تَرَكْتُمْ إِن لَّمْ يَكُن لَّكُمْ وَلَدٌۭ ۚ فَإِن كَانَ لَكُمْ وَلَدٌۭ فَلَهُنَّ ٱلثُّمُنُ مِمَّا تَرَكْتُم ۚ مِّنۢ بَعْدِ وَصِيَّةٍۢ تُوصُونَ بِهَآ أَوْ دَيْنٍۢ ۗ وَإِن كَانَ رَجُلٌۭ يُورَثُ كَلَٰلَةً أَوِ ٱمْرَأَةٌۭ وَلَهُۥٓ أَخٌ أَوْ أُخْتٌۭ فَلِكُلِّ وَٰحِدٍۢ مِّنْهُمَا ٱلسُّدُسُ ۚ فَإِن كَانُوٓا۟ أَكْثَرَ مِن ذَٰلِكَ فَهُمْ شُرَكَآءُ فِى ٱلثُّلُثِ ۚ مِنۢ بَعْدِ وَصِيَّةٍۢ يُوصَىٰ بِهَآ أَوْ دَيْنٍ غَيْرَ مُضَآرٍّۢ ۚ وَصِيَّةًۭ مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَلِيمٌ حَلِيمٌۭ
 
@@ -178,7 +178,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:176 returns specifically to `ك ل ل` B004 and resolves another collateral branch to prevent deviation, confirming that 4:12's shares and non-harm condition belong to calibrated kinship accounting.
 
 ## 4:13 — تِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ يُدْخِلْهُ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا ۚ وَذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ
 
@@ -192,7 +192,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:175 closes the guidance sequence with a straight road inside mercy and surplus; this confirmed that divine boundaries channel life-giving movement rather than functioning as static enclosure.
 
 ## 4:14 — وَمَن يَعْصِ ٱللَّهَ وَرَسُولَهُۥ وَيَتَعَدَّ حُدُودَهُۥ يُدْخِلْهُ نَارًا خَٰلِدًۭا فِيهَا وَلَهُۥ عَذَابٌۭ مُّهِينٌۭ
 
@@ -206,7 +206,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:169 later names the only remaining road as the consequence-course of sustained rejection and injustice, confirming that repeated boundary-crossing forms a destination rather than a momentary infraction.
 
 ## 4:15 — وَٱلَّٰتِى يَأْتِينَ ٱلْفَٰحِشَةَ مِن نِّسَآئِكُمْ فَٱسْتَشْهِدُوا۟ عَلَيْهِنَّ أَرْبَعَةًۭ مِّنكُمْ ۖ فَإِن شَهِدُوا۟ فَأَمْسِكُوهُنَّ فِى ٱلْبُيُوتِ حَتَّىٰ يَتَوَفَّىٰهُنَّ ٱلْمَوْتُ أَوْ يَجْعَلَ ٱللَّهُ لَهُنَّ سَبِيلًۭا
 
@@ -220,7 +220,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The later insistence on verification before lethal judgment at 4:94 and restored speech for the wronged at 4:148 sharpened 4:15's confinement as evidence-bound and explicitly provisional through its open `سَبِيل`.
 
 ## 4:16 — وَٱلَّذَانِ يَأْتِيَٰنِهَا مِنكُمْ فَـَٔاذُوهُمَا ۖ فَإِن تَابَا وَأَصْلَحَا فَأَعْرِضُوا۟ عَنْهُمَآ ۗ إِنَّ ٱللَّهَ كَانَ تَوَّابًۭا رَّحِيمًا
 
@@ -234,7 +234,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:110's direct forgiveness route and 4:146's fourfold return, repair, holdfast, and purified service confirmed that corrected direction ends punitive pursuit rather than merely reducing it.
 
 ## 4:17 — إِنَّمَا ٱلتَّوْبَةُ عَلَى ٱللَّهِ لِلَّذِينَ يَعْمَلُونَ ٱلسُّوٓءَ بِجَهَٰلَةٍۢ ثُمَّ يَتُوبُونَ مِن قَرِيبٍۢ فَأُو۟لَٰٓئِكَ يَتُوبُ ٱللَّهُ عَلَيْهِمْ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًۭا
 
@@ -248,7 +248,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The short return sequence reappears at 4:110, while 4:146 expands it into repaired conduct and undivided service; timely repentance is thus enacted reorientation, not only an utterance.
 
 ## 4:18 — وَلَيْسَتِ ٱلتَّوْبَةُ لِلَّذِينَ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ حَتَّىٰٓ إِذَا حَضَرَ أَحَدَهُمُ ٱلْمَوْتُ قَالَ إِنِّى تُبْتُ ٱلْـَٰٔنَ وَلَا ٱلَّذِينَ يَمُوتُونَ وَهُمْ كُفَّارٌ ۚ أُو۟لَٰٓئِكَ أَعْتَدْنَا لَهُمْ عَذَابًا أَلِيمًۭا
 
@@ -264,13 +264,13 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:100 supplied the decisive temporal contrast: reward becomes fixed when migration is actually begun even before arrival, whereas 4:18's death-present declaration lacks prior directional action.
 
 ## 4:19 — يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا يَحِلُّ لَكُمْ أَن تَرِثُوا۟ ٱلنِّسَآءَ كَرْهًۭا ۖ وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا۟ بِبَعْضِ مَآ ءَاتَيْتُمُوهُنَّ إِلَّآ أَن يَأْتِينَ بِفَٰحِشَةٍۢ مُّبَيِّنَةٍۢ ۚ وَعَاشِرُوهُنَّ بِٱلْمَعْرُوفِ ۚ فَإِن كَرِهْتُمُوهُنَّ فَعَسَىٰٓ أَن تَكْرَهُوا۟ شَيْـًۭٔا وَيَجْعَلَ ٱللَّهُ فِيهِ خَيْرًۭا كَثِيرًۭا
 
 ### Activated readings
 
-1. **Inheritance syntax is prevented from converting a person into property.** `تَرِثُوا` activates `و ر ث` B001, a possession passing from former holder to heir, while `ٱلنِّسَاء` anchors persons and `كَرْهًا` activates `ك ر ه` B003, coercing someone into what they dislike. Coming directly after 4:11–4:12’s lawful transfer of estates, the same inheritance root is now negated when its object is women. `لَا يَحِلُّ` activates `ح ل ل` B003, removal of prohibition, but B001’s untying image clarifies that belief does not “untie” this ban. I assign the prior estate rules the role of a category boundary: possessions pass; unwilling persons do not. The ayah reads as an explicit block on importing property succession into human relations.
+1. **Inheritance syntax is prevented from converting a person into property.** `تَرِثُوا` activates `و ر ث` B001, a possession passing from former holder to heir, while `ٱلنِّسَاء` anchors persons and `كَرْهًا` activates `ك ر ه` B003, coercing someone into what they dislike. Within this window, 4:20–4:21 protects an already transferred marital asset after intimacy and covenant, while this clause blocks treating the woman herself as passing possession. `لَا يَحِلُّ` activates `ح ل ل` B003, removal of prohibition, but B001’s untying image clarifies that belief does not “untie” this ban. I assign the protected transfer and the coerced human object opposite category roles: possessions may pass; unwilling persons do not. The ayah reads as an explicit block on importing property succession into human relations.
 
 2. **Constriction is used to squeeze property out.** `تَعْضُلُوهُنَّ` directly activates `ع ض ل` B004, severe restraint that blocks a right; B001 supplies compact flesh bound in sinew, B002 a closed matter, and B005 obstructed birth. `لِتَذْهَبُوا` activates `ذ ه ب` B006, going/departure, and `بِبَعْض` activates `ب ع ض` B001, a portion cut from a whole. I assign constriction the role of immobilizing the woman until part of her transferred asset departs with the constrainer. The causal arrow—pressure is applied to manufacture “consent” to surrender—is supplied by the purpose clause. The prohibition therefore exposes economic extraction through relational confinement, not only physical detention.
 
@@ -280,7 +280,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:128-4:130 later distinguish negotiated repair, prohibited suspension, and viable separation; together they confirm that recognized companionship cannot be maintained through coercive retention.
 
 ## 4:20 — وَإِنْ أَرَدتُّمُ ٱسْتِبْدَالَ زَوْجٍۢ مَّكَانَ زَوْجٍۢ وَءَاتَيْتُمْ إِحْدَىٰهُنَّ قِنطَارًۭا فَلَا تَأْخُذُوا۟ مِنْهُ شَيْـًٔا ۚ أَتَأْخُذُونَهُۥ بُهْتَٰنًۭا وَإِثْمًۭا مُّبِينًۭا
 
@@ -292,7 +292,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:112's nontransferable guilt and 4:135's testimony even against oneself sharpened the point: a completed marital transfer cannot be reversed by accusation serving the claimant's interest.
 
 ## 4:21 — وَكَيْفَ تَأْخُذُونَهُۥ وَقَدْ أَفْضَىٰ بَعْضُكُمْ إِلَىٰ بَعْضٍۢ وَأَخَذْنَ مِنكُم مِّيثَٰقًا غَلِيظًۭا
 
@@ -304,7 +304,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The thick covenant recurs explicitly at 4:154, while 4:105-4:112 blocks advocacy from relocating liability; together they confirm that mutual disclosure plus covenant defeats unilateral recovery of a completed transfer.
 
 ## 4:22 — وَلَا تَنكِحُوا۟ مَا نَكَحَ ءَابَآؤُكُم مِّنَ ٱلنِّسَآءِ إِلَّا مَا قَدْ سَلَفَ ۚ إِنَّهُۥ كَانَ فَٰحِشَةًۭ وَمَقْتًۭا وَسَآءَ سَبِيلًا
 
@@ -316,7 +316,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:153 later combines acknowledged post-sign breach with divine pardon and renewed warrant, confirming 4:22's prospective correction: past conduct is named without being allowed to govern the repaired rule.
 
 ## 4:23 — حُرِّمَتْ عَلَيْكُمْ أُمَّهَٰتُكُمْ وَبَنَاتُكُمْ وَأَخَوَٰتُكُمْ وَعَمَّٰتُكُمْ وَخَٰلَٰتُكُمْ وَبَنَاتُ ٱلْأَخِ وَبَنَاتُ ٱلْأُخْتِ وَأُمَّهَٰتُكُمُ ٱلَّٰتِىٓ أَرْضَعْنَكُمْ وَأَخَوَٰتُكُم مِّنَ ٱلرَّضَٰعَةِ وَأُمَّهَٰتُ نِسَآئِكُمْ وَرَبَٰٓئِبُكُمُ ٱلَّٰتِى فِى حُجُورِكُم مِّن نِّسَآئِكُمُ ٱلَّٰتِى دَخَلْتُم بِهِنَّ فَإِن لَّمْ تَكُونُوا۟ دَخَلْتُم بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَٰٓئِلُ أَبْنَآئِكُمُ ٱلَّذِينَ مِنْ أَصْلَٰبِكُمْ وَأَن تَجْمَعُوا۟ بَيْنَ ٱلْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ ۗ إِنَّ ٱللَّهَ كَانَ غَفُورًۭا رَّحِيمًۭا
 
@@ -332,7 +332,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The closing inheritance ruling at 4:176 confirmed that kinship distinctions remain active legal variables; 4:23's boundaries therefore protect relational architecture while its past-act exception prevents retroactive social destruction.
 
 ## 4:24 — ۞ وَٱلْمُحْصَنَٰتُ مِنَ ٱلنِّسَآءِ إِلَّا مَا مَلَكَتْ أَيْمَٰنُكُمْ ۖ كِتَٰبَ ٱللَّهِ عَلَيْكُمْ ۚ وَأُحِلَّ لَكُم مَّا وَرَآءَ ذَٰلِكُمْ أَن تَبْتَغُوا۟ بِأَمْوَٰلِكُم مُّحْصِنِينَ غَيْرَ مُسَٰفِحِينَ ۚ فَمَا ٱسْتَمْتَعْتُم بِهِۦ مِنْهُنَّ فَـَٔاتُوهُنَّ أُجُورَهُنَّ فَرِيضَةًۭ ۚ وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا تَرَٰضَيْتُم بِهِۦ مِنۢ بَعْدِ ٱلْفَرِيضَةِ ۚ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًۭا
 
@@ -348,7 +348,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:128's negotiated settlement clarified the same order: mutual adjustment is valid as repair only after each party's relation and due are recognized, matching consent after the fixed `ف ر ض` B002 floor.
 
 ## 4:25 — وَمَن لَّمْ يَسْتَطِعْ مِنكُمْ طَوْلًا أَن يَنكِحَ ٱلْمُحْصَنَٰتِ ٱلْمُؤْمِنَٰتِ فَمِن مَّا مَلَكَتْ أَيْمَٰنُكُم مِّن فَتَيَٰتِكُمُ ٱلْمُؤْمِنَٰتِ ۚ وَٱللَّهُ أَعْلَمُ بِإِيمَٰنِكُم ۚ بَعْضُكُم مِّنۢ بَعْضٍۢ ۚ فَٱنكِحُوهُنَّ بِإِذْنِ أَهْلِهِنَّ وَءَاتُوهُنَّ أُجُورَهُنَّ بِٱلْمَعْرُوفِ مُحْصَنَٰتٍ غَيْرَ مُسَٰفِحَٰتٍۢ وَلَا مُتَّخِذَٰتِ أَخْدَانٍۢ ۚ فَإِذَآ أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَٰحِشَةٍۢ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى ٱلْمُحْصَنَٰتِ مِنَ ٱلْعَذَابِ ۚ ذَٰلِكَ لِمَنْ خَشِىَ ٱلْعَنَتَ مِنكُمْ ۚ وَأَن تَصْبِرُوا۟ خَيْرٌۭ لَّكُمْ ۗ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
 
@@ -364,7 +364,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:124 later nests male and female actors under one faith-and-sound-work condition, confirming that 4:25's class distinctions regulate circumstance without dividing the community's common human source.
 
 ## 4:26 — يُرِيدُ ٱللَّهُ لِيُبَيِّنَ لَكُمْ وَيَهْدِيَكُمْ سُنَنَ ٱلَّذِينَ مِن قَبْلِكُمْ وَيَتُوبَ عَلَيْكُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌۭ
 
@@ -378,7 +378,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:150-4:164 sharpened the inherited-way reading: valid guidance integrates prior messengers and revelations, whereas selective acceptance manufactures a path that the text refuses to recognize.
 
 ## 4:27 — وَٱللَّهُ يُرِيدُ أَن يَتُوبَ عَلَيْكُمْ وَيُرِيدُ ٱلَّذِينَ يَتَّبِعُونَ ٱلشَّهَوَٰتِ أَن تَمِيلُوا۟ مَيْلًا عَظِيمًۭا
 
@@ -390,7 +390,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:119-4:120 later exposes the full appetite mechanism: deviation installs imagined wishes, wishes make commands actionable, and deceptive promises extend the initial inclination into conduct.
 
 ## 4:28 — يُرِيدُ ٱللَّهُ أَن يُخَفِّفَ عَنكُمْ ۚ وَخُلِقَ ٱلْإِنسَٰنُ ضَعِيفًۭا
 
@@ -402,7 +402,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The incapacity test at 4:98 and adaptive danger-prayer at 4:101-4:103 confirmed that divine lightening is proportional to created weakness while preserving the governing direction and obligation.
 
 ## 4:29 — يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَاطِلِ إِلَّآ أَن تَكُونَ تِجَارَةً عَن تَرَاضٍۢ مِّنكُمْ ۚ وَلَا تَقْتُلُوٓا۟ أَنفُسَكُمْ ۚ إِنَّ ٱللَّهَ كَانَ بِكُمْ رَحِيمًۭا
 
@@ -416,7 +416,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:85-4:86 extended the protected `بَيْن` relation into share-bearing advocacy and reciprocal greeting: social exchange may add benefit, but it may not consume another's initiative or self.
 
 ## 4:30 — وَمَن يَفْعَلْ ذَٰلِكَ عُدْوَٰنًۭا وَظُلْمًۭا فَسَوْفَ نُصْلِيهِ نَارًۭا ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا
 
@@ -428,7 +428,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:169 returns to the same ease (`ي س ر` B001) at the consequence endpoint, confirming that human aggression cannot make the matching divine return difficult or avoidable.
 
 ## 4:31 — إِن تَجْتَنِبُوا۟ كَبَآئِرَ مَا تُنْهَوْنَ عَنْهُ نُكَفِّرْ عَنكُمْ سَيِّـَٔاتِكُمْ وَنُدْخِلْكُم مُّدْخَلًۭا كَرِيمًۭا
 
@@ -442,7 +442,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:173 later separates full recompense from added bounty; this sharpened 4:31's structure as calibrated cover after major avoidance, followed by honorable entry rather than meritless erasure of all distinctions.
 
 ## 4:32 — وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ ۚ لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبْنَ ۚ وَسْـَٔلُوا۟ ٱللَّهَ مِن فَضْلِهِۦٓ ۗ إِنَّ ٱللَّهَ كَانَ بِكُلِّ شَىْءٍ عَلِيمًۭا
 
@@ -456,7 +456,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:119-4:123 supplied the strongest contrast: installed wishes and communal fantasies cannot alter act-matched return, whereas asking from divine surplus redirects comparison toward a source that can actually grant.
 
 ## 4:33 — وَلِكُلٍّۢ جَعَلْنَا مَوَالِىَ مِمَّا تَرَكَ ٱلْوَالِدَانِ وَٱلْأَقْرَبُونَ ۚ وَٱلَّذِينَ عَقَدَتْ أَيْمَانُكُمْ فَـَٔاتُوهُمْ نَصِيبَهُمْ ۚ إِنَّ ٱللَّهَ كَانَ عَلَىٰ كُلِّ شَىْءٍۢ شَهِيدًا
 
@@ -470,7 +470,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:176 closes with another exact estate relation, confirming that no remainder of property is ownerless: each transfer stays inside witnessed kinship, covenant, or assigned-share accountability.
 
 ## 4:34 — ٱلرِّجَالُ قَوَّامُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَالِهِمْ ۚ فَٱلصَّالِحَاتُ قَانِتَاتٌ حَافِظَاتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ ۚ وَٱلَّاتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ ۖ فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا ۗ إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا
 
@@ -490,7 +490,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:128-4:130 constrained the maintenance office decisively: reconciliation is bilateral, total inclination may not suspend a wife, and separation may be the sound endpoint when maintenance no longer protects.
 
 ## 4:35 — وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ إِن يُرِيدَآ إِصْلَاحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ ۗ إِنَّ ٱللَّهَ كَانَ عَلِيمًا خَبِيرًۭا
 
@@ -504,7 +504,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+The later judgment sequence at 4:58 and 4:65, plus negotiated repair at 4:128, confirmed that two-sided mediation must disentangle the interval and produce willing handover, not merely impose quiet.
 
 ## 4:36 — ۞ وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًۭٔا ۖ وَبِٱلْوَالِدَيْنِ إِحْسَانًۭا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَامَىٰ وَٱلْمَسَاكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَانُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًۭا فَخُورًا
 
@@ -520,7 +520,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:171-4:173 made the vertical-to-horizontal logic explicit: even the Messiah and near angels remain servants, while sound service receives full due and surplus instead of self-magnifying rank.
 
 ## 4:37 — ٱلَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ وَيَكْتُمُونَ مَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَأَعْتَدْنَا لِلْكَافِرِينَ عَذَابًۭا مُّهِينًۭا
 
@@ -534,7 +534,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:140's participatory seating and 4:147's gratitude sharpened concealment of bounty into a social act: withholding its visible effect aligns the keeper with rejection rather than neutral privacy.
 
 ## 4:38 — وَٱلَّذِينَ يُنفِقُونَ أَمْوَالَهُمْ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُونَ بِٱللَّهِ وَلَا بِٱلْيَوْمِ ٱلْءَاخِرِ ۗ وَمَن يَكُنِ ٱلشَّيْطَانُ لَهُۥ قَرِينًۭا فَسَآءَ قَرِينًۭا
 
@@ -548,7 +548,7 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:142's show-prayer and 4:141's outcome-dependent alliance confirmed that public expenditure can retain its form while its operative audience and reward-source have shifted away from God.
 
 ## 4:39 — وَمَاذَا عَلَيْهِمْ لَوْ ءَامَنُوا۟ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَأَنفَقُوا۟ مِمَّا رَزَقَهُمُ ٱللَّهُ ۚ وَكَانَ ٱللَّهُ بِهِمْ عَلِيمًا
 
@@ -560,4 +560,1576 @@ To be completed after the full ayah walk.
 
 ### Retrospective surprises
 
-To be completed after the full ayah walk.
+4:147 later joins gratitude and trust as the condition under which punishment has no function, confirming that expenditure from provision is recognition made operative rather than a net loss.
+
+## 4:40 — إِنَّ ٱللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍۢ ۖ وَإِن تَكُ حَسَنَةًۭ يُضَاعِفْهَا وَيُؤْتِ مِن لَّدُنْهُ أَجْرًا عَظِيمًۭا
+
+### Activated readings
+
+1. **Justice resolves down to the smallest weighable trace.** `يَظْلِم` activates `ظ ل م` B004, wrongful placement, and B008, withholding a right; `مِثْقَال` activates `ث ق ل` B004, standard weight and weighing; `ذَرَّة` activates `ذ ر ر` B001, a tiny mote or ant. The preceding giving/withholding sequence and 4:41’s witnesses make distributive accounting salient. I assign the weight the role of making even a scattered particle register and injustice the role of either displacing or suppressing it. The abductive premise is that no claim is too small to enter the scale. The ayah reads divine non-injustice as exact placement, not only absence of cruelty.
+
+2. **Good is not merely counted; it is allowed to propagate.** `حَسَنَة` activates `ح س ن` B002, beneficent action; `يُضَاعِفْهَا` activates `ض ع ف` B002, adding an equal amount or multiple; `أَجْرًا` activates `ء ج ر` B001, recompense for work; and `مِن لَّدُنْهُ` activates `ل د ن` B002, a proximal start-boundary. I assign exact weighing to the minimum guarantee, multiplication to propagation beyond equivalence, and the proximal source to an added reward originating directly from God. The inferred arrow is that beneficence generates effects beyond its initial unit and is rewarded on that expanded horizon. The asymmetry is deliberate: wrong is not inflated, while good is not confined to bare exchange.
+
+3. **Tiny scattering can become multiplied emergence.** `ذ ر ر` B002 names scattering grains and B004 gentle spreading emergence; `ض ع ف` B002 names repeated addition. Although `ذَرَّة` directly selects B001, the neighboring multiplication activates an exploratory seed-like mechanism. I assign the mote the role of a nearly invisible beginning and multiplication the role of its spread. The causal analogy is inferred rather than supplied: a beneficent act can propagate like a tiny scattered seed. This changes smallness from insignificance into latent growth.
+
+### Retrospective surprises
+
+4:124's date-notch nonloss and 4:173's full due followed by surplus confirmed both halves of 4:40: justice preserves the negligible amount before generosity multiplies good beyond equivalence.
+
+## 4:41 — فَكَيْفَ إِذَا جِئْنَا مِن كُلِّ أُمَّةٍۭ بِشَهِيدٍۢ وَجِئْنَا بِكَ عَلَىٰ هَٰٓؤُلَآءِ شَهِيدًۭا
+
+### Activated readings
+
+1. **Testimony is nested from each community to an overarching witness.** Both `جِئْنَا ... بِـ` forms activate `ج ي ء` B004, bringing or presenting; `كُلّ` activates `ك ل ل` B003, totality; `أُمَّة` activates `ء م م` B004, gathered community; and both `شَهِيد` forms activate `ش ه د` B001, presence with witnessing, and B002, testimony from knowledge. I assign each community-witness the role of local attestation and the witness “over these” the role of a second-order account. The abductive premise is that group-level narratives require a witness who can answer for the whole, while those witnesses themselves remain within a larger field. The ayah describes layered accountability rather than isolated individual observation.
+
+2. **A community’s followed way becomes what its witness must present.** `ء م م` B005 permits “religion, creed, or followed way,” and B009 a guide/exemplar followed by a community. This follows the contrasting social courses of generosity, concealment, and display in 4:36–4:39 and precedes inability to hide any report in 4:42. I assign the community not only demographic grouping but a practiced trajectory, and the witness the role of making that trajectory legible. The inferred arrow is that repeated shared conduct gathers people into an accountable moral “way.” Testimony therefore concerns patterns, not just disconnected acts.
+
+### Retrospective surprises
+
+The witness architecture expands at 4:159, where Jesus testifies over disputants, and at 4:166, where divine and angelic testimony validate revelation; 4:41 anticipates this layered replacement of self-report.
+
+## 4:42 — يَوْمَئِذٍۢ يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ وَعَصَوُا۟ ٱلرَّسُولَ لَوْ تُسَوَّىٰ بِهِمُ ٱلْأَرْضُ وَلَا يَكْتُمُونَ ٱللَّهَ حَدِيثًۭا
+
+### Activated readings
+
+1. **They wish to erase the vertical distinction between witnessable body and ground.** `يَوَدُّ` activates `و د د` B002, wishing something to occur; `تُسَوَّى` activates `س و ي` B001, equality/equivalence, B002, making even, and B009, smooth open ground; `ٱلْأَرْض` activates `ء ر ض` B001, lower ground, and B006, sticking close to it. After witnesses are brought standing in 4:41, the wish is for the earth to become level with them. I assign leveling the role of removing the exposed profile that can be singled out and testified about. The abductive premise is that indistinction from ground would function as disappearance from accountability. The image reads as desired self-erasure, not mere burial.
+
+2. **The report can no longer be sealed inside.** `يَكْتُمُون` activates `ك ت م` B001, concealing a report or testimony, B004, sealed seams, and B006, breath constricted at its outlet; `حَدِيثًا` activates `ح د ث` B003, speech/report, and B006, disclosure or bringing out. The social sequence has already shown concealment of bounty (4:37) and hidden motives under visible spending (4:38). I assign `حديث` the content pressing outward and concealment the failed seal. The inferred reversal is that witnessed reality opens every seam through which a false account had been contained. No narrative can be withheld from the knower to whom the testimony converges.
+
+3. **Covering truth ends in a wish to be covered by earth.** `كَفَرُوا` activates `ك ف ر` B003, covering/rejecting truth, grounded in B001’s concrete covering. The earth-leveling wish supplies a final material cover, while the no-concealment clause denies it. I assign prior covering the role of chosen epistemic concealment and the desired ground-cover the role of escape from its exposure. The causal relation is inferred as measure-for-measure imagery: practiced concealment produces a wish for total concealment precisely when it is unavailable.
+
+### Retrospective surprises
+
+4:108 later makes concealed night-planning surrounded by divine presence, and 4:166 supplies sufficient testimony; the wish to become level with earth cannot remove either speech or witness from account.
+
+## 4:43 — يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَارَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَامَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا
+
+### Activated readings
+
+1. **Approach requires recoverable speech and inward orientation.** `تَقْرَبُوا` activates `ق ر ب` B001, approaching; `ٱلصَّلَاة` activates `ص ل و` B003, prescribed worship; `سُكَارَى` activates `س ك ر` B001, loss of sobriety under an overpowering state, and B005, a constricting hold; `تَعْلَمُوا` activates `ع ل م` B001, knowledge, while `تَقُولُون` activates `ق و ل` B001, uttered speech. I assign intoxication the role of blocking the route between inner intent and intelligible utterance. The abductive premise is that prescribed address requires the speaker to be present to the meaning produced. The temporal `حَتَّى` therefore makes cognitive-semantic recovery, not mere clock time, the gate of approach.
+
+2. **Major impurity is spatially coded as being to the side, with passage distinguished from settlement.** `جُنُبًا` activates `ج ن ب` B003, being kept aside/distant; `عَابِرِى` activates `ع ب ر` B001, passing from one side to another; `سَبِيل` activates `س ب ل` B001, traversed way; `تَغْتَسِلُوا` activates `غ س ل` B001, washing clean by poured water. I assign the state the role of temporary lateral distance, crossing the role of transit without ritual settlement, and bathing the role of re-entry. The inferred geometry is that one may pass through a boundary while not yet occupying the worship-state it encloses. The exception governs movement, not removal of the state.
+
+3. **When water is absent, deliberate aim preserves the ritual’s directional core.** `تَجِدُوا` activates `و ج د` B001, finding, and B003, capacity/means; `مَاء` activates `م و ه` B001; `تَيَمَّمُوا` activates `ي م م` B001, deliberately aiming toward a target; `صَعِيدًا` activates `ص ع د` B004, earth surface/dust, with B001’s ascent; and `طَيِّبًا` activates `ط ي ب` B001, clean/pure. Sickness (`م ر ض` B001) and travel (`س ف ر` B003) explain lost capacity. I assign water the ordinary cleansing medium and deliberate aim toward clean earth the substitute that preserves intention, contact, and ordered action. The abductive premise is that incapacity may change material means without canceling oriented approach. The result is legal lightening made ritual.
+
+4. **Wiping resets the visible face and acting hands.** `فَٱمْسَحُوا` activates `م س ح` B001, passing the hand and wiping away a trace; `وُجُوهِكُمْ` activates `و ج ه` B001, face/front, B002, orientation, and B008, proper course; `أَيْدِيكُمْ` activates `ي د ي` B001, bodily hands, B002, power, and B009, one’s acts. I assign the face the worshipper’s direction and the hands practical agency. The inferred arrow is that the minimal substitute symbolically reorients both appearance and action when full washing is unavailable. Closing `عَفُوًّا` (`ع ف و` B001, wiping away guilt; B002, protective well-being) and `غَفُورًا` (`غ ف ر` B001/B002, protective covering/forgiveness) echoes this material erasure and cover.
+
+### Retrospective surprises
+
+4:101-4:103 confirmed the governing pattern on a larger scale: danger alters prayer's measure, grouping, and posture while knowledge, remembrance, and appointed recurrence preserve its direction.
+
+## 4:44 — أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًۭا مِّنَ ٱلْكِتَابِ يَشْتَرُونَ ٱلضَّلَالَةَ وَيُرِيدُونَ أَن تَضِلُّوا۟ ٱلسَّبِيلَ
+
+### Activated readings
+
+1. **An allotted piece of joined writing is converted through exchange into misdirection.** `أُوتُوا` activates `ء ت ي` B002, granting; `نَصِيبًا` activates `ن ص ب` B005, allotted share, with B001’s visible marker; `ٱلْكِتَاب` activates `ك ت ب` B002, joined letters/written book, and B003, binding decree. `يَشْتَرُون` activates `ش ر ي` B001, exchange through buying/selling; `ٱلضَّلَالَة` activates `ض ل ل` B001, straying from aim. I assign the book-share the role of directional capital and purchase the role of deliberately exchanging it for the opposite course. The abductive premise is that access to guidance can be instrumentalized rather than merely forgotten. The ayah reads error as a chosen transaction conducted with received knowledge.
+
+2. **They seek to make the road disappear for other travelers.** The second `تَضِلُّوا` again activates `ض ل ل` B001, going astray, but B002 adds hiding/disappearance and B003 failure to locate; `ٱلسَّبِيل` activates `س ب ل` B001, extended traversed way. `يُرِيدُون` activates `ر و د` B001, intention. I assign the path the visible course and disappearance the mechanism by which others lose it. The causal arrow is that the first group’s exchanged misguidance becomes an active project of obscuring orientation for addressees. Coming after 4:43’s deliberate aiming (`ي م م` B001), this is counter-guidance: intention used to defeat another’s aim.
+
+3. **The visual summons exposes a hidden trade.** `تَرَ` activates `ر ء ي` B001, seeing by eye or insight. It frames a transaction whose exchanged object is not material but direction. I assign insight the role of making the value-conversion visible. The abductive move is that once the hidden exchange is seen, misdirection can no longer present itself as innocent interpretation. The opening question recruits the reader as a witness after 4:41–4:42’s testimony sequence.
+
+### Retrospective surprises
+
+4:115 and 4:167 later trace chosen contrary following and obstruction to a far endpoint, confirming that purchased deviation is valuable to its sellers precisely because it propagates beyond them.
+
+## 4:45 — وَٱللَّهُ أَعْلَمُ بِأَعْدَآئِكُمْ ۚ وَكَفَىٰ بِٱللَّهِ وَلِيًّۭا وَكَفَىٰ بِٱللَّهِ نَصِيرًۭا
+
+### Activated readings
+
+1. **Complete knowledge makes one protective alliance sufficient.** `أَعْلَم` activates `ع ل م` B001, knowledge as a thing becomes clear; `أَعْدَائِكُمْ` activates `ع د و` B003, enemy/enmity, grounded in B001’s aggressive boundary-crossing. `كَفَى` twice activates `ك ف ي` B001, sufficing by taking care of a matter; `وَلِيًّا` activates `و ل ي` B004, loyal alliance/support, with B003’s protective charge; `نَصِيرًا` activates `ن ص ر` B001, aid that makes one prevail, and B002, redress after oppression. I assign knowledge the role of identifying threats that addressees cannot fully map, alliance the role of continuous protective proximity, and aid the role of active redress. The abductive premise is that a protector who both knows and can act eliminates the need to imitate the misdirectors’ hidden networks. Sufficiency is functional, not numerical rhetoric.
+
+2. **Ally and enemy are defined by what they do to boundaries.** `ع د و` B001 crosses a bound in injustice; `و ل ي` B001/B004 stays near in loyal support; `ن ص ر` B002 restores a claim after oppression. I assign the enemy outward invasive motion, the ally adjacent staying, and the helper restorative motion. The inferred geometry is that protection requires not only repelling the crosser but repairing the crossed boundary. The ayah’s two closing roles therefore answer distinct aspects of enmity.
+
+### Retrospective surprises
+
+4:139 and 4:145 expose the failure of substitute alliance: honor belongs wholly to God, and the lowest endpoint contains no prevailing helper, confirming the sufficiency asserted here.
+
+## 4:46 — مِّنَ ٱلَّذِينَ هَادُوا۟ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ وَيَقُولُونَ سَمِعْنَا وَعَصَيْنَا وَٱسْمَعْ غَيْرَ مُسْمَعٍۢ وَرَاعِنَا لَيًّۢا بِأَلْسِنَتِهِمْ وَطَعْنًۭا فِى ٱلدِّينِ ۚ وَلَوْ أَنَّهُمْ قَالُوا۟ سَمِعْنَا وَأَطَعْنَا وَٱسْمَعْ وَٱنظُرْنَا لَكَانَ خَيْرًۭا لَّهُمْ وَأَقْوَمَ وَلَٰكِن لَّعَنَهُمُ ٱللَّهُ بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًۭا
+
+### Activated readings
+
+1. **Distortion is a spatial operation on words before it is a false proposition.** `يُحَرِّفُون` activates `ح ر ف` B003, deviation/alteration of speech from its direction; `ٱلْكَلِم` activates `ك ل م` B001/B002, meaningful exchanged speech or word; `مَوَاضِعِهِ` activates `و ض ع` B001, setting something in its place. I assign each word a directional location inside an utterance and distortion the role of moving it off that location. The abductive premise is that meaning depends on relation and placement, so apparently retained words can be functionally changed by displacement. This directly continues 4:44’s project of making others lose the road.
+
+2. **Tongue-twisting turns care-language into a verbal spear.** `لَيًّا` activates `ل و ي` B001, bending/twisting, and B007, twisting tongue or speech; `بِأَلْسِنَتِهِم` activates `ل س ن` B001, speech-organ, and B006, spoken expression; `طَعْنًا` activates `ط ع ن` B002, verbal piercing with blame, grounded in B001’s spear-thrust. `رَاعِنَا` itself can activate `ر ع ي` B002, custodial care, and B004, attentive hearing. I assign the care-word a plausible outer face and twisting the mechanism that turns it into a piercing inner face. The causal move is that phonetic or contextual ambiguity lets injury pass under cover of soliciting attention. Speech becomes a concealed weapon.
+
+3. **True hearing completes itself in compliant action.** The failed formula joins `سَمِعْنَا` to `عَصَيْنَا`; `س م ع` B001 is auditory reception, but B003 is understanding and compliance, while `ع ص ي` B001 is leaving obedience. The counterfactual joins hearing to `أَطَعْنَا` (`ط و ع` B001, willing yielding), then replaces the twisted request with `ٱنظُرْنَا` (`ن ظ ر` B001, directed attention; B002, granting respite). I assign B003 of hearing the missing bridge from sound to action. The inferred premise is that hearing severed from response is semantically incomplete. The better formula restores congruence among utterance, intent, and conduct.
+
+4. **Uprightness is the opposite of both displaced words and bent tongues.** `أَقْوَم` activates `ق و م` B008, straightness/uprightness and just speech, grounded in B002’s standing. It follows `ح ر ف` B003’s deviation and `ل و ي` B001’s bend. I assign uprightness the role of keeping speech in its place and action aligned beneath it. The abductive arrow is that truthful linguistic structure permits stable social standing, whereas verbal twisting makes the relation itself crooked. The ayah evaluates wording by the course it establishes.
+
+### Retrospective surprises
+
+The later forensic sequence sharpened verbal displacement: 4:105 binds judgment to truth, 4:112 makes false accusation a new burden, and 4:157 separates confident repetition from settled knowledge.
+
+## 4:47 — يَٰٓأَيُّهَا ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَابَ ءَامِنُوا۟ بِمَا نَزَّلْنَا مُصَدِّقًۭا لِّمَا مَعَكُم مِّن قَبْلِ أَن نَّطْمِسَ وُجُوهًۭا فَنَرُدَّهَا عَلَىٰٓ أَدْبَارِهَآ أَوْ نَلْعَنَهُمْ كَمَا لَعَنَّآ أَصْحَابَ ٱلسَّبْتِ ۚ وَكَانَ أَمْرُ ٱللَّهِ مَفْعُولًا
+
+### Activated readings
+
+1. **Confirmation restores the proper placement that distortion displaced.** `نَزَّلْنَا` activates `ن ز ل` B002, bringing down scripture, and B004, placing in proper order; `مُصَدِّقًا` activates `ص د ق` B001, truth-correspondence, B002, solidity/straightness, and B004, confirmation/fulfillment; `مَعَكُم مِّن قَبْل` activates priorness (`ق ب ل` B002). Coming after words moved from their positions in 4:46, the new descent is described as corresponding to what is already with them. I assign confirmation the role of realigning two textual witnesses rather than erasing the earlier one. The abductive premise is that genuine continuity is tested by correspondence and fulfilled direction. Faith becomes recognition of fit.
+
+2. **Erased faces and rearward return literalize loss of orientation.** `نَّطْمِس` activates `ط م س` B001, wiping away a trace, B002, loss of sight, and B003, obliterating form; `وُجُوهًا` activates `و ج ه` B001, face/front, B002, orientation, and B008, proper course; `نَرُدَّهَا` activates `ر د د` B001, returning to a former state, while `أَدْبَارِهَا` activates `د ب ر` B001, rear, and B003, turning the back. I assign the face the role of forward receptivity and the rear the role of refusal/retreat. The inferred consequence is a bodily map of prior linguistic behavior: those who turned words from their course lose the organ of orientation and are returned backward. Distortion becomes disorientation.
+
+3. **A received command must become an enacted deed.** `أَمْر` activates `ء م ر` B002, directive, while `مَفْعُولًا` activates `ف ع ل` B001, an act brought into being. The previous ayah contrasted “we heard” with actual obedience. I assign command the role of articulated direction and deed the role of realized endpoint. The abductive premise is that divine speech is not suspended at utterance; its effect reaches action even when hearers refuse to enact it themselves. The closing phrase answers their speech-action split with unavoidable realization.
+
+### Retrospective surprises
+
+4:136 and 4:162 later require trust in both present and prior revelation, confirming that the addressed book's role is confirmatory integration, not displacement of the earlier source-message continuum.
+
+## 4:48 — إِنَّ ٱللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِۦ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَآءُ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَقَدِ ٱفْتَرَىٰٓ إِثْمًا عَظِيمًا
+
+### Activated readings
+
+1. **Forgiveness is a protective cover with one named structural exclusion.** Both `يَغْفِر` activate `غ ف ر` B002, shielding from consequence, grounded in B001’s protective cover; both partnership forms activate `ش ر ك` B002, associating a partner with God, grounded in B001’s sharing/mixed participation. `مَا دُون` supports `د و ن` B001, what falls below a limit, and B003, what is other than/besides. I assign forgiveness the role of enclosing wrongdoers against consequence and shirk the role of dividing the very source to whom that cover is attributed. The abductive premise is that assigning the protective source into a mixed partnership contradicts the sole relation through which the cover is sought. Other wrongs remain below or outside that structural rupture.
+
+2. **Shirk is fabricated by cutting and falsely stitching a relation.** `ٱفْتَرَى` directly activates `ف ر ي` B003, fabricating a lie; B001 supplies cutting in order to stitch/repair, while B002 supplies destructive splitting. `ش ر ك` B001 supplies mixed partnership and B008 a divided mind; `إِثْمًا` activates `ء ث م` B001, lagging from good, and `عَظِيمًا` activates `ع ظ م` B001/B004, immense or grave. I assign fabrication the role of cutting the undivided divine relation and stitching an invented partner into it. This material arrow is inferred from the branch combination. The act is “great” because the false seam reorganizes the whole source-map rather than misplacing one subordinate claim.
+
+3. **The ayah reverses 4:46’s linguistic distortion at the theological level.** `ف ر ي` B003’s fabricated statement and `ش ر ك` B002’s false association follow words being twisted from their positions. I assign verbal displacement the local technique and theological partnership its maximal product. The abductive move is that sufficiently distorted naming can relocate a created object into the divine position. Shirk reads as semantic misplacement hardened into worship.
+
+### Retrospective surprises
+
+4:116 repeats the same forgiveness boundary, and 4:171 explains its architecture through exclusive oneness: partner-association divides the very source to which forgiving return must be made.
+
+## 4:49 — أَلَمْ تَرَ إِلَى ٱلَّذِينَ يُزَكُّونَ أَنفُسَهُم ۚ بَلِ ٱللَّهُ يُزَكِّى مَن يَشَآءُ وَلَا يُظْلَمُونَ فَتِيلًا
+
+### Activated readings
+
+1. **Self-purification confuses inward self-regard with an externally tested state.** Both `يُزَكُّون/يُزَكِّى` activate `ز ك و` B001, growth/increase, and B002, purity/rectitude; `أَنفُسَهُم` activates `ن ف س` B013, inner thought/intent, and B014, self-regard and dignity. The subject shift contrasts people certifying their own inner selves with God producing or judging purification. I assign self-regard the role of interested evaluator and divine willing the role of an external growth-condition. The abductive premise is that purity, like growth, cannot be established by naming oneself grown. The ayah distinguishes self-description from actual rectification.
+
+2. **The finest twisted thread remains in the justice calculation.** `فَتِيلًا` directly activates `ف ت ل` B002, the tiny thread in a date-stone seam used for a negligible amount, grounded in B001’s twisting a rope-like strand. `يُظْلَمُون` activates `ظ ل م` B004, misplacement, and B008, withheld right. Within the window, the thread recalls 4:46’s twisted tongues (`ل و ي` B007). I assign the thread the role of the smallest reputational or moral difference and justice the role of placing it accurately. The inferred correction is that divine purification need not rely on twisted self-praise because exact judgment loses no filament. The passive promise blocks both under-crediting and self-inflation.
+
+3. **Purity is living increase, not self-certified appearance.** `ز ك و` B001’s thriving growth stands against the self-certifying sight formula here (`أَلَمْ تَرَ`) and the fabricated claim inspected in 4:50. I assign self-certification the role of surface reputation and growth the role of an internally sustained change with consequences. The abductive distinction is that real rectitude produces life beyond the claim, whereas self-certification seeks the claim without the process. This makes divine `تزكية` generative rather than merely declarative.
+
+### Retrospective surprises
+
+4:135's justice even against oneself and 4:142's outwardly correct but audience-directed prayer confirmed that self-purification claims are tested by costly alignment, not visible religious form.
+
+## 4:50 — ٱنظُرْ كَيْفَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ ۖ وَكَفَىٰ بِهِۦٓ إِثْمًۭا مُّبِينًا
+
+### Activated readings
+
+1. **The reader is asked to inspect fabrication as a method, not only reject its product.** `ٱنظُرْ` activates `ن ظ ر` B001, directing sight or insight to apprehend, and B010, examining through mutual looking/debate; `يَفْتَرُون` activates `ف ر ي` B003, fabricating a lie, with B001’s cutting-and-stitching image; `ٱلْكَذِب` activates `ك ذ ب` B001, falsehood against truth. The `كَيْفَ` construction calls attention to how the false statement is assembled, though `ك ي ف` has no accepted packet inventory. I assign insight the role of tracing cuts, joins, and substitutions in the claim. The abductive premise is that exposed construction prevents the lie from surviving on polished surface alone. The ayah trains forensic reading after 4:46’s word displacement.
+
+2. **A lie about the standard-setting source is sufficient as a manifest moral load.** `كَفَى` activates `ك ف ي` B001, sufficing/taking care of the matter; `إِثْمًا` activates `ء ث م` B001, lagging from good, and B004, loading sin; `مُبِينًا` activates `ب ي ن` B004/B005, appearing clearly and disclosing meaning. The prior ayah concerns people certifying their own purity, and the next evaluates paths while trusting false authorities. I assign the God-directed lie the role of corrupting the source by which purity and guidance are judged. The inferred arrow is that this distortion can generate many downstream errors without additional proof of each. It is therefore sufficient and self-disclosing as sin.
+
+3. **Fabrication falsely fulfills what it invents.** `ك ذ ب` B004 covers a charge proving false by failing to be carried through, while `ف ر ي` B003 supplies invention. I assign fabrication the role of presenting a made claim as already correspondent with reality. The abductive move is that false speech tries to borrow the performative force of truthful fulfillment. The imperative to look strips away that borrowed force by comparing claim and construction.
+
+### Retrospective surprises
+
+4:112 later makes accusation an added, manifest burden, while 4:157 names conjecture as the only support for a confident claim; inspection of fabrication therefore remains a causal evidence test.
+
+## 4:51 — أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًۭا مِّنَ ٱلْكِتَابِ يُؤْمِنُونَ بِٱلْجِبْتِ وَٱلطَّاغُوتِ وَيَقُولُونَ لِلَّذِينَ كَفَرُوا۟ هَٰٓؤُلَآءِ أَهْدَىٰ مِنَ ٱلَّذِينَ ءَامَنُوا۟ سَبِيلًا
+
+### Activated readings
+
+1. **An allotted textual marker is re-erected as a cultic marker.** `نَصِيبًا` directly activates `ن ص ب` B005, assigned share, with B001/B003’s upright marker; within the same inventory B002 is a stone set up for worship. `ٱلْكِتَاب` activates `ك ت ب` B002/B003, written and binding text. Yet `يُؤْمِنُون` directs `ء م ن` B002’s trusting assent toward `ٱلْجِبْت` (`ج ب ت` B002/B003, diviner and occult practice) and `ٱلطَّاغُوت` (`ط غ ي` B003, false authority/object of worship). I assign the received share the role of a legitimate sign and B002’s latent cult-stone image the role of its inversion. The abductive move is that authority received through writing is redirected to erected false objects. An allotment meant to orient becomes an idol-like marker.
+
+2. **Overflowing transgression is declared the straighter road.** `ط غ ي` B001 names rebellious overstepping and B002 overwhelming overflow; `أَهْدَى` activates `ه د ي` B001, guidance toward a way, and B002, intended course; `سَبِيلًا` activates `س ب ل` B001, traversed route. The evaluative speech calls those who cover truth (`ك ف ر` B003) more guided than believers. I assign `ط غ ي` the role of force exceeding its channel and guidance the role of channeling movement. The inferred contradiction is that an overflow is being advertised as a road. The ayah exposes political or occult power’s excess as counterfeit orientation.
+
+3. **Trust in false authority becomes a public ranking system.** `يَقُولُون` activates `ق و ل` B001, uttered speech, and B007, circulating public report; `ر ء ي` B001 frames the scene for the reader’s insight. I assign their statement the role of converting inward allegiance into public comparative legitimacy. The abductive premise is that false authority spreads when knowledgeable people certify its path as superior. The harm is not private belief alone but reputational way-making for others.
+
+### Retrospective surprises
+
+4:60 later turns false authority into a chosen adjudicative forum, and 4:139 turns it into an honor-seeking alliance; both confirm that assent to transgression is enacted source-placement.
+
+## 4:52 — أُو۟لَٰٓئِكَ ٱلَّذِينَ لَعَنَهُمُ ٱللَّهُ ۖ وَمَن يَلْعَنِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ نَصِيرًا
+
+### Activated readings
+
+1. **Expulsion from the true alliance makes compensating support unfindable.** Both curse forms activate `ل ع ن` B001, punitive expulsion and distancing from good/mercy; `تَجِد` activates `و ج د` B001, finding, and B003, capacity/means; `نَصِيرًا` activates `ن ص ر` B001, aid that makes one prevail, and B002, redress after oppression. Here the support-role cannot be found after divine distancing. I assign curse the role of removing protective proximity and helper the role that no substitute network can supply. The abductive premise is that false alliances in 4:51 cannot replace the source from which effective redress derives. Distance becomes practical helplessness.
+
+2. **Curse speech and enacted exclusion are distinguished.** `ل ع ن` B002 is cursing as speech, but B001 is actual punitive distancing. The subject here is God and the consequence is absence of a helper, making B001 structurally active. I assign the utterance not merely expressive insult but a changed relational location. The inferred arrow is that endorsement of counterfeit guidance places the endorsers outside the alliance they displaced. The ayah reads curse as social-spiritual re-positioning with material consequence.
+
+### Retrospective surprises
+
+4:145 closes the alliance sequence with no helper at the lowest depth, confirming that expulsion is relational distance whose substitute loyalties cannot reverse the final lack of aid.
+
+## 4:53 — أَمْ لَهُمْ نَصِيبٌۭ مِّنَ ٱلْمُلْكِ فَإِذًۭا لَّا يُؤْتُونَ ٱلنَّاسَ نَقِيرًا
+
+### Activated readings
+
+1. **The hypothetical possession of dominion is tested by its smallest outgoing transfer.** `نَصِيب` activates `ن ص ب` B005, assigned share; `ٱلْمُلْك` activates `م ل ك` B003, kingship/dominion, B002, ownership/disposal, and B005, mainstay; `يُؤْتُون` activates `ء ت ي` B002, granting. `نَقِيرًا` activates `ن ق ر` B003, the tiny notch on a date-stone used for a negligible amount. I assign dominion the role of disposal capacity and the notch the minimum generosity test. The inferred premise is that governance is revealed by whether power can release even an almost valueless portion to people. Their predicted refusal shows ownership collapsing into hoarding.
+
+2. **Their own claimed share produces no share for anyone else.** `ن ص ب` B005’s allotted portion stands at the opening, while `ن ق ر` B003 names the denied minimal amount at the close. Within the window, this echoes 4:49’s thread. I assign the first share the role of received authority and the second the role of another’s possible claim. The abductive reversal is that those preoccupied with their entitlement make others’ entitlements vanish below the threshold of giving. The ayah diagnoses an asymmetrical theory of allocation.
+
+3. **The date-stone notch also figures power as a hollow that should hold something.** `ن ق ر` B001/B004 supply a pecked mark or small hollow, while `م ل ك` B007 identifies water as the resource controlling settlement. Exploratorily, I assign the tiny hollow the role of the least possible reservoir for public benefit. The inferred analogy is that a dominion unable to hold and release even that much provision has no sustaining center. This is weaker than the direct negligible-amount reading but supported by the packet’s material branches.
+
+### Retrospective surprises
+
+4:124 repeats `ن ق ر` B003 as the negligible amount justice will not withhold, and 4:176 ends in exact allocation; dominion is thus tested by its smallest releasable due.
+
+## 4:54 — أَمْ يَحْسُدُونَ ٱلنَّاسَ عَلَىٰ مَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۖ فَقَدْ ءَاتَيْنَآ ءَالَ إِبْرَاهِيمَ ٱلْكِتَابَ وَٱلْحِكْمَةَ وَءَاتَيْنَٰهُم مُّلْكًا عَظِيمًۭا
+
+### Activated readings
+
+1. **Envy seeks removal; bounty is shown propagating instead.** `يَحْسُدُون` activates `ح س د` B001, wanting another’s blessing removed; B002 preserves the distinct, non-dispossessive possibility of wanting its like. Three grant forms activate `ء ت ي` B002, granting; `فَضْلِهِ` activates `ف ض ل` B001, surplus, and B003, beneficence; `ءَال` activates `ء و ل` B003, household/dependents. The historical household sequence shows book, wisdom, and dominion moving through a relational group. I assign B001-envy the role of trying to stop another’s received flow and surplus the role of a source capable of repeated grant. The abductive premise is that envy falsely models bounty as transferable only by deprivation. The ayah counters with generational propagation.
+
+2. **Book, wisdom, and dominion form a restraint mechanism for power.** `ٱلْكِتَاب` activates `ك ت ب` B003, binding decree; `ٱلْحِكْمَة` activates `ح ك م` B001, restraining corruption, and B003, rightly guided knowledge; `مُلْكًا` activates `م ل ك` B003, dominion. Their sequence places governing power after inscription and restraint. I assign book the rule, wisdom the bridle, and dominion the capacity acted upon. The bridle image is supplied directly by `ح ك م` B006; the causal ordering is my inference. The “great dominion” is therefore not naked control but power preceded by governing knowledge.
+
+3. **The alternative envy branch redirects comparison toward emulation.** `ح س د` B002 permits wishing for the like of another’s blessing without removal, and `ف ض ل` B001/B003 depicts surplus bounty. Against 4:53’s refusal to release even a minimal share, I assign B002 a dormant corrective route: another’s grant can become evidence that similar good is possible without confiscation. The abductive move is that abundance converts rivalry from removal to emulation. The question presses hearers to choose which envy mechanism governs them.
+
+### Retrospective surprises
+
+4:163's long prophetic sequence and 4:173's surplus after full recompense confirmed both dimensions of bounty: it propagates through generations and exceeds a zero-sum transfer model.
+
+## 4:55 — فَمِنْهُم مَّنْ ءَامَنَ بِهِۦ وَمِنْهُم مَّن صَدَّ عَنْهُ ۚ وَكَفَىٰ بِجَهَنَّمَ سَعِيرًا
+
+### Activated readings
+
+1. **Refusal becomes obstruction, and obstruction becomes kindling.** `ءَامَنَ` activates `ء م ن` B002, trusting assent; `صَدَّ` activates `ص د د` B001 in both its intransitive “turning away” and transitive “blocking another” scopes. The latter is activated by 4:51’s attempt to redirect allegiance, so the split is not only private reception. `سَعِيرًا` activates `س ع ر` B001, blazing fire, and B002, inflaming harm; `كَفَى` activates `ك ف ي` B001, sufficiency. I assign unbelieving refusal the first turn and active obstruction the outward propagation of that turn. The abductive arrow is that blocking access inflames a wider harm and thereby supplies its own fuel. Hell is “sufficient” because the social blaze has reached its matching material form.
+
+2. **The same group divides around one received object.** Repeated `فَمِنْهُم` partitions a common group into assent and obstruction. `ء م ن` B001 supplies settled security, while `ص د د` B005 supplies a blocking mountain. I assign the object of faith the role of a fixed directional test and the two responses opposite spatial outcomes: settlement or barrier. The inference is that possession of the same inherited resource does not determine reception; enacted relation to it does.
+
+### Retrospective surprises
+
+4:167 later repeats rejection plus active obstruction as far deviation, confirming that `ص د د` B001 extends a private turn into a route-blocking social blaze.
+
+## 4:56 — إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَاتِنَا سَوْفَ نُصْلِيهِمْ نَارًۭا كُلَّمَا نَضِجَتْ جُلُودُهُم بَدَّلْنَاهُمْ جُلُودًا غَيْرَهَا لِيَذُوقُوا۟ ٱلْعَذَابَ ۗ إِنَّ ٱللَّهَ كَانَ عَزِيزًا حَكِيمًۭا
+
+### Activated readings
+
+1. **The bodily cover is renewed so experience cannot be extinguished by completion.** `كَفَرُوا` activates `ك ف ر` B003, covering/rejecting truth, grounded in B001’s cover; `ءَايَاتِنَا` activates `ء ي ي` B003, visible signs. `جُلُود` activates `ج ل د` B001, skin as bodily covering; `نَضِجَت` activates `ن ض ج` B001, heat-effected completion; `بَدَّلْنَاهُم` activates `ب د ل` B001, replacement, and `يَذُوقُوا` activates `ذ و ق` B002, undergoing/testing an experience. I assign skin the sensory boundary, ripening its terminal loss, and replacement restoration of that boundary. The inferred arrow is that renewed covering prevents the sign-rejecter’s experience from becoming hidden through numb completion. Covering signs is answered by an inescapably receptive cover.
+
+2. **Replacement changes form while preserving the accountable subject.** `ب د ل` B001 permits one skin replacing another, while B002 permits alteration of state with substance continuing. The repeated pronouns maintain identity across the change. I assign B001 the bodily exchange and B002 the continuity that prevents substitution from becoming escape. The abductive premise is that justice tracks the responsible self through altered coverings. Closing `حَكِيمًا` (`ح ك م` B001/B003) gives the replacement a restraining/judicial role rather than uncontrolled violence.
+
+### Retrospective surprises
+
+4:108's complete encirclement of hidden planning and 4:169's unavoidable consequence-road confirmed the continuity reading: changing bodily cover cannot create an outside for the accountable subject.
+
+## 4:57 — وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّالِحَاتِ سَنُدْخِلُهُمْ جَنَّاتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَارُ خَالِدِينَ فِيهَآ أَبَدًۭا ۖ لَّهُمْ فِيهَآ أَزْوَاجٌۭ مُّطَهَّرَةٌۭ ۖ وَنُدْخِلُهُمْ ظِلًّۭا ظَلِيلًا
+
+### Activated readings
+
+1. **Sound action enters layered protection rather than repeated exposed skin.** `عَمِلُوا` activates `ع م ل` B001, intentional doing; `ٱلصَّالِحَات` activates `ص ل ح` B001, soundness against corruption. `جَنَّات` activates `ج ن ن` B003, tree-covered garden, and B008, protective cover; `مُّطَهَّرَة` activates `ط ه ر` B001, defilement removed, and B005, conduct cleansed from blame; `ظِلًّا ظَلِيلًا` twice activates `ظ ل ل` B001, shade-cover, and B004, protective shelter/patronage. The contrast with 4:56’s repeatedly replaced skin is structural. I assign sound deeds the route inward and garden, purity, and shade successive protective layers. The inference is that those who did not use covering to hide truth receive covering as safety.
+
+2. **Flow and permanence coexist without stagnation.** `تَجْرِى` activates `ج ر ي` B001, flowing, and B006, ongoing provision; `خَالِدِينَ` activates `خ ل د` B001, permanence; `أَبَدًا` activates `ء ب د` B001, enduring duration, and B006, staying without leaving. I assign flow continuous renewal and permanence stable tenure. The abductive move is that endurance here is not frozen repetition but sustained provision within secure residence. This reverses 4:56’s repetitive renewal under pain.
+
+### Retrospective surprises
+
+4:122 repeats the garden, flow, and permanence construction as a true promise, while 4:175 places the straight route inside mercy; protective covering is sustained movement, not stagnation.
+
+## 4:58 — ۞ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا۟ ٱلْأَمَانَاتِ إِلَىٰٓ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ ٱلنَّاسِ أَن تَحْكُمُوا۟ بِٱلْعَدْلِ ۚ إِنَّ ٱللَّهَ نِعِمَّا يَعِظُكُم بِهِۦٓ ۗ إِنَّ ٱللَّهَ كَانَ سَمِيعًۢا بَصِيرًا
+
+### Activated readings
+
+1. **A trust is secure only when it reaches its qualified destination.** `ٱلْأَمَانَات` activates `ء م ن` B001, settled security and entrusted things; `تُؤَدُّوا` activates `ء د ي` B001, bringing through to a destination, and B002, fulfilling a due; `أَهْلِهَا` activates `ء ه ل` B003, fitness/worthiness, with B001’s belonging. I assign the entrusted object a temporary protected passage, performance the motion, and the qualified owner the endpoint. The abductive premise is that custody does not become ownership merely through possession. Security is completed only by return to the entitled destination.
+
+2. **Judgment keeps the interval between parties evenly loaded.** Both judgment forms activate `ح ك م` B002, adjudication, and B001, restraining injustice; `بَيْنَ` activates `ب ي ن` B002, interval, and B003, connecting tie; `ٱلْعَدْل` activates `ع د ل` B001, even justice, B004, balancing load, and B005, straightening. I assign the judge the role of restraining either side from occupying the whole interval and justice the role of balancing their claims. The inferred arrow is that equal hearing prevents relational space from tilting under power. Closing `سَمِيعًا` (`س م ع` B001/B003) and `بَصِيرًا` (`ب ص ر` B001/B002) models both receptive hearing and penetrating sight.
+
+### Retrospective surprises
+
+4:105 and 4:135 later intensify the same office: entrusted judgment must be truth-bound and maintained even against self, kin, wealth, poverty, or partisan pressure.
+
+## 4:59 — يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَطِيعُوا۟ ٱللَّهَ وَأَطِيعُوا۟ ٱلرَّسُولَ وَأُو۟لِى ٱلْأَمْرِ مِنكُمْ ۖ فَإِن تَنَازَعْتُمْ فِى شَىْءٍۢ فَرُدُّوهُ إِلَى ٱللَّهِ وَٱلرَّسُولِ إِن كُنتُمْ تُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۚ ذَٰلِكَ خَيْرٌۭ وَأَحْسَنُ تَأْوِيلًا
+
+### Activated readings
+
+1. **Dispute pulls a matter out of place; referral returns it to an authoritative source.** `تَنَازَعْتُمْ` activates `ن ز ع` B006, reciprocal pulling/contention, grounded in B001, pulling something from its place. `فَرُدُّوهُ` activates `ر د د` B001, returning to a former place, and B003, returning an invalid claim for correction. I assign disputants opposite pulling forces and referral the restorative motion that prevents the thing from being torn into private possession. The abductive premise is that a shared source can re-place what competing interests have displaced. Dispute resolution is spatial restoration, not victory by the stronger pull.
+
+2. **Delegated command remains answerable to repeated primary obedience.** `أَطِيعُوا` activates `ط و ع` B001, willing compliance; it is repeated before God and the messenger, while `أُولِى ٱلْأَمْر` activates `ء و ل` B004, governing/set-right function, and `ء م ر` B003, authority-holder. When conflict occurs, return is to God and messenger, not named separately to office-holders. I assign rulers a delegated governance role inside, not above, the primary command relation. The inferred constraint is that their authority is tested by the sources to which disputes return.
+
+3. **The best interpretation is the best returned outcome.** `تَأْوِيلًا` activates `ء و ل` B002, return to outcome or final meaning, and B004, setting affairs right; `خَيْر` activates `خ ي ر` B001/B003 and `أَحْسَن` activates `ح س ن` B001/B002. I assign interpretation the role of carrying contested speech back to the consequence it produces. The abductive rule is pragmatic: the better reading is not merely verbal elegance but the one whose returned outcome is more sound and beneficial. This extends 4:58’s balanced judgment from claim-handling to interpretive outcome.
+
+### Retrospective surprises
+
+4:83 applies the same return mechanism to volatile reports, and 4:115 exposes the endpoint of following another way; referral is thus restorative placement with both epistemic and directional force.
+
+## 4:60 — أَلَمْ تَرَ إِلَى ٱلَّذِينَ يَزْعُمُونَ أَنَّهُمْ ءَامَنُوا۟ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ يُرِيدُونَ أَن يَتَحَاكَمُوٓا۟ إِلَى ٱلطَّاغُوتِ وَقَدْ أُمِرُوٓا۟ أَن يَكْفُرُوا۟ بِهِۦ وَيُرِيدُ ٱلشَّيْطَانُ أَن يُضِلَّهُمْ ضَلَالًۢا بَعِيدًۭا
+
+### Activated readings
+
+1. **The chosen forum reveals whether claimed trust is operative.** `يَزْعُمُون` activates `ز ع م` B001, uncertain or suspect claim; `ءَامَنُوا` activates `ء م ن` B002, trusting assent; `يَتَحَاكَمُوا` activates `ح ك م` B002, mutual adjudication, B001, restraint of injustice, and B005, entrusting decision; `ٱلطَّاغُوت` activates `ط غ ي` B003, false/transgressive authority. Their speech claims trust in what descended, but their dispute is entrusted elsewhere despite a command to disavow it (`ك ف ر` B005). I assign forum choice the role of enacted allegiance. The abductive premise is that trust becomes real when one lets its source restrain one’s interests under conflict. Their judicial destination falsifies their verbal claim.
+
+2. **Two intentions cooperate to produce distance.** Both `يُرِيد` activate `ر و د` B001, will: they intend false adjudication, while Satan intends their misdirection. `ٱلشَّيْطَان` activates `ش ط ن` B001, remoteness, and B003/B004, crooked opposition/rebellion; `يُضِلَّهُمْ ضَلَالًا` twice activates `ض ل ل` B001, deviation from aim; `بَعِيدًا` activates `ب ع د` B001/B003, remoteness and creating distance. I assign human forum-choice the first step and satanic intention the extending vector. The inferred arrow is cumulative agency: voluntary crooked referral is amplified into a far course. Error is not instant transport but jointly produced distance.
+
+### Retrospective surprises
+
+4:105's truth-bound adjudication and 4:144's alliance-made warrant confirmed the diagnostic: when conflict arrives, chosen forum and ally make an otherwise verbal allegiance legally visible.
+
+## 4:61 — وَإِذَا قِيلَ لَهُمْ تَعَالَوْا۟ إِلَىٰ مَآ أَنزَلَ ٱللَّهُ وَإِلَى ٱلرَّسُولِ رَأَيْتَ ٱلْمُنَافِقِينَ يَصُدُّونَ عَنكَ صُدُودًۭا
+
+### Activated readings
+
+1. **They refuse an upward invitation toward what descended.** `تَعَالَوْا` activates `ع ل و` B006, the call to come up/toward higher standing, with B001’s rising; `أَنزَل` activates `ن ز ل` B002, sending down revelation; `يَصُدُّون صُدُودًا` intensifies `ص د د` B001, turning away and blocking. I assign descent the role of making guidance accessible, the upward call the response it asks of hearers, and turning away the refusal to bridge the remaining distance. The abductive premise is that revelation’s descent does not eliminate human movement; addressees must rise toward its authority. Hypocrisy becomes refusal of that meeting.
+
+2. **The hidden exit becomes visible as emphatic withdrawal.** `ٱلْمُنَافِقِينَ` activates `ن ف ق` B004, showing one face while concealing another exit, grounded in B003’s two-exit burrow. `رَأَيْت` activates `ر ء ي` B001, visible perception, and the cognate accusative makes refusal unmistakable. I assign the faith-claim the public entrance and flight from messenger/revelation the concealed exit now exposed. The causal inference is that dispute pressure forces the hidden route into use. What was inward duplicity becomes observable direction.
+
+### Retrospective surprises
+
+The concealed exit becomes still more concrete at 4:81's night revision and 4:142's audience-directed prayer: withdrawal from messenger authority reappears inside plan and worship while public form remains intact.
+
+## 4:62 — فَكَيْفَ إِذَآ أَصَابَتْهُم مُّصِيبَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ ثُمَّ جَآءُوكَ يَحْلِفُونَ بِٱللَّهِ إِنْ أَرَدْنَآ إِلَّآ إِحْسَانًۭا وَتَوْفِيقًا
+
+### Activated readings
+
+1. **The consequence hits the target their own hands placed ahead.** Both affliction forms activate `ص و ب` B004, calamity that hits a person, grounded in B003, aiming and hitting a target. `قَدَّمَت` activates `ق د م` B004, advancing something before; `أَيْدِيهِم` activates `ي د ي` B009, one’s acts, with B002/B005’s capacity and authority. I assign their prior acts the role of projectiles sent into the future and calamity the returning hit along that line. The abductive premise is that choosing false adjudication structures later vulnerability. The ayah reads consequence as trajectory rather than arbitrary arrival.
+
+2. **The oath relabels misalignment as exact fit.** `يَحْلِفُون` activates `ح ل ف` B001, oath, and B002, binding pact; `إِحْسَانًا` activates `ح س ن` B002, beneficent action; `تَوْفِيقًا` activates `و ف ق` B001, accordant fitting, and B004, exact alignment. Yet their conduct turned from the very source designated for dispute-resolution. I assign the oath the role of binding a retrospective public story to their act and “accord” the falsely claimed outcome. The inferred mechanism is reputational repair by renaming a crooked forum as benevolent mediation. The mismatch between path and label exposes the oath.
+
+### Retrospective surprises
+
+4:141's two outcome-dependent narratives and 4:157's certainty claim built on conjecture confirmed the same repair tactic: misalignment is retrospectively relabeled as contribution, benevolence, or knowledge.
+
+## 4:63 — أُو۟لَٰٓئِكَ ٱلَّذِينَ يَعْلَمُ ٱللَّهُ مَا فِى قُلُوبِهِمْ فَأَعْرِضْ عَنْهُمْ وَعِظْهُمْ وَقُل لَّهُمْ فِىٓ أَنفُسِهِمْ قَوْلًۢا بَلِيغًۭا
+
+### Activated readings
+
+1. **Corrective speech bypasses the public face and is aimed at the inward turner.** `قُلُوبِهِم` activates `ق ل ب` B001, heart/inward faculty, and B004, turning/reversing; `فَأَعْرِض` activates `ع ر ض` B005, turning one’s side away; `وَعِظْهُمْ` activates `و ع ظ` B001, warning that softens the heart; `أَنفُسِهِم` activates `ن ف س` B013, inner intent; `بَلِيغًا` activates `ب ل غ` B004, eloquence that reaches intent, and B001/B002, reaching/conveying. I assign turning aside the role of refusing their staged oath, admonition the softening medium, and reaching speech the route into the inward self. The abductive premise is that public argument would feed performance, while targeted speech can reach the decision-center. The command is disengagement from display, not abandonment of correction.
+
+2. **God’s knowledge and human speech have different roles.** `يَعْلَم` activates `ع ل م` B001; the human messenger is not told to expose hidden contents but to speak effectively. I assign divine knowledge the diagnostic role and human admonition the interventive role. The inferred boundary is that knowing the heart is not a prerequisite for choosing speech capable of reaching it. This limits human claims to inner certainty while still requiring purposeful address.
+
+### Retrospective surprises
+
+4:114 later distinguishes reparative private counsel from corrupt secrecy, confirming 4:63's intervention: speech aimed inward can be valid when it bypasses performance to produce actual correction.
+
+## 4:64 — وَمَآ أَرْسَلْنَا مِن رَّسُولٍ إِلَّا لِيُطَاعَ بِإِذْنِ ٱللَّهِ ۚ وَلَوْ أَنَّهُمْ إِذ ظَّلَمُوٓا۟ أَنفُسَهُمْ جَآءُوكَ فَٱسْتَغْفَرُوا۟ ٱللَّهَ وَٱسْتَغْفَرَ لَهُمُ ٱلرَّسُولُ لَوَجَدُوا۟ ٱللَّهَ تَوَّابًۭا رَّحِيمًۭا
+
+### Activated readings
+
+1. **The messenger’s outward sending creates a route for the wrongdoer’s return.** `أَرْسَلْنَا/رَسُول` activate `ر س ل`’s messenger construction, while `لِيُطَاع` activates `ط و ع` B001, compliant yielding, and `بِإِذْن` activates `ء ذ ن` B004, authorization. After self-wrong (`ظ ل م` B004/B008; `ن ف س` B011/B013), `جَاءُوك` activates `ج ي ء` B001/B004, coming/presenting. I assign authorized sending the outward route and their coming back the reciprocal return along it. The abductive premise is that rejecting the messenger can be repaired only by re-entering the relation one bypassed. Obedience and repentance share a directional channel.
+
+2. **Double seeking of cover rebuilds both divine and interpersonal relations.** Both `ٱسْتَغْفَر` forms activate `غ ف ر` B002, seeking forgiveness/protective shielding, grounded in B001’s cover; one is theirs toward God and one the messenger’s on their behalf. `وَجَدُوا` activates `و ج د` B001, finding, and `رَحِيمًا` activates `ر ح م` B001, mercy. I assign the first request acknowledgment of self-wrong and the second restored messenger-solidarity. The inferred arrow is that repair must address both violated authority and bypassed relation. What they then “find” is not the false forum of 4:60 but mercy at the authorized endpoint.
+
+### Retrospective surprises
+
+4:110 generalizes the direct forgiveness route, and 4:146 expands return into repair, protective attachment, and undivided service; both relations damaged at 4:60 remain repairable through re-entry.
+
+## 4:65 — فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا۟ فِىٓ أَنفُسِهِمْ حَرَجًۭا مِّمَّا قَضَيْتَ وَيُسَلِّمُوا۟ تَسْلِيمًۭا
+
+### Activated readings
+
+1. **Adjudication must untangle an external thicket and an internal constriction.** `يُحَكِّمُوك` activates `ح ك م` B002, adjudication, and B001, restraining to set right; `شَجَرَ` activates `ش ج ر` B002, entangled dispute/speech, grounded in B001’s branching trees and B003’s interlocked spears; `بَيْنَهُمْ` activates `ب ي ن` B002/B003, relational interval and tie. `حَرَجًا` activates `ح ر ج` B001, dense entanglement, and B002, chest-tightness. I assign judgment the role of separating interlocked claims and acceptance the role of clearing the same thicket from the inward self. The abductive premise is that a formally settled dispute remains socially active if resentment preserves it internally. Faith requires both levels of disentanglement.
+
+2. **Submission is safe handover, not mere silencing.** `قَضَيْت` activates `ق ض ي` B001, decisive settlement, and B006, settling a due; `يُسَلِّمُوا تَسْلِيمًا` intensifies `س ل م` B012, handing over/consigning an affair, while B001 supplies soundness/safety and B004 reconciliation. I assign the ruling the completed determination and submission the release of private control over the contested thing. The inferred arrow is that handover ends reciprocal pulling and permits restored safety. The cognate emphasis demands a complete transfer, not outward quiet with inward retention.
+
+### Retrospective surprises
+
+4:135's ban on twisting or withdrawing testimony and 4:150's rejected middle route confirmed that complete handover cannot coexist with an inwardly retained contrary course.
+
+## 4:66 — وَلَوْ أَنَّا كَتَبْنَا عَلَيْهِمْ أَنِ ٱقْتُلُوٓا۟ أَنفُسَكُمْ أَوِ ٱخْرُجُوا۟ مِن دِيَارِكُم مَّا فَعَلُوهُ إِلَّا قَلِيلٌۭ مِّنْهُمْ ۖ وَلَوْ أَنَّهُمْ فَعَلُوا۟ مَا يُوعَظُونَ بِهِۦ لَكَانَ خَيْرًۭا لَّهُمْ وَأَشَدَّ تَثْبِيتًۭا
+
+### Activated readings
+
+1. **The counterfactual measures obedience against loss of self and dwelling.** `كَتَبْنَا` activates `ك ت ب` B003, binding decree; `ٱقْتُلُوا` activates `ق ت ل` B001, removal of life; `أَنفُسَكُمْ` activates `ن ف س` B011/B012, living selves/very selves; `ٱخْرُجُوا` activates `خ ر ج` B001, passing from within; and `دِيَارِكُم` activates `د و ر` B001, encircling residence, with B007’s attachment to home. I assign the hypothetical commands the maximum costs of biological identity and settled place. The abductive purpose is diagnostic: those resisting ordinary adjudication would rarely bear a truly total demand. The comparison strips self-presentation from obedience.
+
+2. **Enacted admonition creates firmness by fastening speech to conduct.** `فَعَلُوا` activates `ف ع ل` B001, bringing an act into being; `يُوعَظُون` activates `و ع ظ` B001, heart-softening warning; `أَشَدَّ` activates `ش د د` B001, fastening a bond, and B002, strength; `تَثْبِيتًا` activates `ث ب ت` B003, making firm, and B002, steadiness of heart/speech. I assign admonition the verbal input, action the fastening operation, and firmness the resulting stable disposition. The inferred arrow is that repeated compliance with attainable instruction strengthens more effectively than admiring hypothetical extremity. Conduct makes the inner claim stand.
+
+### Retrospective surprises
+
+4:137 later shows the opposite habituation: repeated rejection followed by increase hardens into a pathless trajectory, confirming that enacted repetition fastens direction whether toward admonition or away from it.
+
+## 4:67 — وَإِذًۭا لَّءَاتَيْنَاهُم مِّن لَّدُنَّآ أَجْرًا عَظِيمًۭا
+
+### Activated readings
+
+1. **Firm action opens a reward from a proximal source, not merely equivalent payment.** `لَآتَيْنَاهُم` activates `ء ت ي` B002, granting/bringing; `مِن لَّدُنَّا` activates `ل د ن` B002, a proximal start-boundary; `أَجْرًا` activates `ء ج ر` B001, recompense for work; `عَظِيمًا` activates `ع ظ م` B001, great magnitude. The conditional link to 4:66 makes enacted admonition the supplied cause. I assign recompense the earned relation and the proximal source the surplus origin that exceeds mechanical exchange. The abductive premise is that obedience draws the actor near enough for reward to issue directly from the giver. The ayah turns firmness into relational proximity.
+
+2. **The reward repairs rather than merely pays.** `ء ج ر` B002 supplies the image of a break knit back together, although often crookedly. In the wake of entangled dispute and internal constriction, I assign this variant image an exploratory reparative role: reward includes restored coherence after submission. The causal analogy is inferred, and the direct B001 recompense remains primary. “Great” reward can thus include healing of the split that obedience resolved.
+
+### Retrospective surprises
+
+4:146's restored company and 4:173's full recompense plus surplus sharpened the reparative branch of `ء ج ر`: reward both answers enacted work and restores coherent relation.
+
+## 4:68 — وَلَهَدَيْنَاهُمْ صِرَاطًۭا مُّسْتَقِيمًۭا
+
+### Activated readings
+
+1. **Guidance converts settled obedience into a road that keeps standing.** `هَدَيْنَاهُمْ` activates `ه د ي` B001, gentle guidance toward a way, and B002, intended course; `صِرَاطًا` activates `ص ر ط` B001, the straight road; `مُسْتَقِيمًا` activates `ق و م` B008, straightness/uprightness, grounded in B002’s standing and B009’s sustaining support. I assign guidance the leading action, the road the repeatable course, and uprightness the property that prevents collapse or sideward drift. The abductive premise is that each accepted judgment in 4:65–4:66 trains a stable trajectory beyond the immediate case. Guidance is sustained practice, not one instruction.
+
+2. **The path’s “swallowing” image makes movement irreversible in a positive sense.** `ص ر ط` B002 includes disappearing in passage or swallowing. Exploratorily, the traveler’s prior contesting self is absorbed into the straight course while `ق و م` B008 preserves orientation. The inferred mechanism is habituation: once action is repeatedly fastened to admonition, the route carries the actor rather than requiring renewed dispute at every step. This does not replace B001’s road sense but adds embodied momentum.
+
+### Retrospective surprises
+
+4:175 repeats the straight road (`ص ر ط` B001; `ق و م` B008) but places it inside mercy and bounty, confirming that habituated guidance is sustained by divine provision.
+
+## 4:69 — وَمَن يُطِعِ ٱللَّهَ وَٱلرَّسُولَ فَأُو۟لَٰٓئِكَ مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّالِحِينَ ۚ وَحَسُنَ أُو۟لَٰٓئِكَ رَفِيقًۭا
+
+### Activated readings
+
+1. **The straight road is populated by complementary truth-functions.** `يُطِع` activates `ط و ع` B001, willing compliance; `أَنْعَم` activates `ن ع م` B001, bestowed favor. `ٱلنَّبِيِّين` activates `ن ب ء` B003, divine informing; `ٱلصِّدِّيقِين` activates `ص د ق` B001, truth-correspondence, and B004, fulfillment; `ٱلشُّهَدَاء` activates `ش ه د` B001/B002, present knowledge and testimony; `ٱلصَّالِحِين` activates `ص ل ح` B001, soundness. I assign the groups the roles of receiving consequential report, embodying it truthfully, witnessing it, and making life sound by it. The abductive premise is that guidance persists through a social chain of distinct truth-practices. Obedience joins that chain.
+
+2. **Companionship turns guidance from solitary travel into gentle support.** `رَفِيقًا` activates `ر ف ق` B002, companionship/accompaniment, B001, gentle action, and B003, useful facility; `حَسُن` activates `ح س ن` B001, goodness. I assign companions the role of making the road traversable through shared presence and gentleness. The inferred arrow is that association with these groups stabilizes the firmness promised in 4:66. The destination of obedience is therefore not status alone but a sustaining company.
+
+### Retrospective surprises
+
+4:162's rooted knowledge becoming worship and transfer, and 4:165's paired good news and warning, confirmed that the road remains social through complementary truth-functions rather than one undifferentiated rank.
+
+## 4:70 — ذَٰلِكَ ٱلْفَضْلُ مِنَ ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ عَلِيمًۭا
+
+### Activated readings
+
+1. **The preceding road and company are bestowed surplus, not self-manufactured rank.** `ٱلْفَضْلُ` activates `ف ض ل` B003, beneficence/bounty, with B001's surplus beyond a base share; `كَفَىٰ` activates `ك ف ي` B001, sufficing or taking care of a matter; `عَلِيمًا` activates `ع ل م` B001, knowledge. The demonstrative assigns the whole sequence in 4:66–4:69 to divine bounty, while the sufficiency construction assigns God the role of knowing whom and how to place on that road. The abductive move is that a company differentiated by truth-functions requires knowledge beyond the aspirant's self-ranking. The ayah changes companionship from an achievement claimed by the traveler into an informed gift that exceeds claim.
+
+### Retrospective surprises
+
+4:173 finally separates full earned recompense from added `ف ض ل` B003, confirming that the road, company, and rank of 4:66-4:69 remain bounty beyond self-manufactured entitlement.
+
+## 4:71 — يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ خُذُوا۟ حِذْرَكُمْ فَٱنفِرُوا۟ ثُبَاتٍ أَوِ ٱنفِرُوا۟ جَمِيعًۭا
+
+### Activated readings
+
+1. **Caution must be taken up as deployable readiness.** `خُذُوا` activates `ء خ ذ` B001, taking into one's hand or possession; `حِذْرَكُمْ` activates `ح ذ ر` B003, guarded readiness or equipment, grounded in B001's wary guarding; `ٱنفِرُوا` activates `ن ف ر` B002, mustering and going forth for aid or war. The object construction makes caution something possessed and carried into movement rather than an inward feeling. The abductive move is that the straight road of 4:68 now meets danger and therefore requires alertness that can govern action. The reading changes faith's posture from passive security to equipped responsiveness.
+
+2. **Readiness permits both distributed and concentrated deployment.** `ثُبَاتٍ` is rooted in `ث ب ي`, for which the packet supplies no accepted branch inventory; its plural grouping construction stands opposite `جَمِيعًا`, which activates `ج م ع` B001, gathering scattered parts, and B003, concerted resolve. Repeated `ٱنفِرُوا` (`ن ف ر` B002) gives both alternatives the same mobilizing role. I infer that tactical form varies with circumstance while guarded purpose remains fixed. The ayah preserves movement in separate groups and movement as one gathered body instead of universalizing either arrangement.
+
+### Retrospective surprises
+
+4:102 later validates both deployment modes through alternating bounded groups that preserve worship and defense together; caution governs tactical variation instead of dictating one formation.
+
+## 4:72 — وَإِنَّ مِنكُمْ لَمَن لَّيُبَطِّئَنَّ فَإِنْ أَصَٰبَتْكُم مُّصِيبَةٌۭ قَالَ قَدْ أَنْعَمَ ٱللَّهُ عَلَىَّ إِذْ لَمْ أَكُن مَّعَهُمْ شَهِيدًۭا
+
+### Activated readings
+
+1. **The delayer calls non-presence a favor because self-preservation controls his valuation.** `لَيُبَطِّئَنَّ` activates `ب ط ء` B001, being slow, and B002, delaying or holding others back; `أَصَابَتْكُم مُّصِيبَةٌ` activates `ص و ب` B004, an affliction striking its target; `أَنْعَمَ` activates `ن ع م` B001, bestowed favor; `شَهِيدًا` activates `ش ه د` B001, being present as a witness. The emphatic verb assigns him both lag and retarding force, while his quotation recodes absence from the struck group as divine benefit. The abductive move is that his criterion for favor is immunity from shared exposure, a criterion the wish in 4:73 will reverse as soon as the outcome changes. The ayah exposes delay as a value system, not just slow timing.
+
+### Retrospective surprises
+
+4:141 generalizes the same opportunism: watchful noncommitment lets a speaker claim whichever side's outcome appears, confirming that absence was valued as insulation rather than principled caution.
+
+## 4:73 — وَلَئِنْ أَصَابَكُمْ فَضْلٌۭ مِّنَ ٱللَّهِ لَيَقُولَنَّ كَأَن لَّمْ تَكُنۢ بَيْنَكُمْ وَبَيْنَهُۥ مَوَدَّةٌۭ يَٰلَيْتَنِى كُنتُ مَعَهُمْ فَأَفُوزَ فَوْزًا عَظِيمًۭا
+
+### Activated readings
+
+1. **The same event-impact that justified absence now makes the delayer covet presence.** `أَصَابَكُمْ` activates `ص و ب` B003, reaching or hitting an aim; `فَضْلٌ` activates `ف ض ل` B003, bounty, and B001, surplus; `مَوَدَّةٌ` activates `و د د` B001, affection; `فَأَفُوزَ فَوْزًا` activates `ف و ز` B001, obtaining good together with escape from harm; `عَظِيمًا` activates `ع ظ م` B001, greatness. The parallel with `ص و ب` B004 in 4:72 holds the group's exposure constant while changing only its result. The estranged-sounding aside assigns affection the role of a bond he ignores until it could grant access to gain. I infer opportunism from the immediate reversal: he treats calamity as proof that absence was favor and bounty as proof that presence would have been success. Shared affection is reduced to an imagined route into surplus.
+
+### Retrospective surprises
+
+4:139's honor-seeking alliance and 4:141's retroactive contribution claims confirmed that affection becomes instrumental when proximity is desired only after it promises surplus or status.
+
+## 4:74 — ۞ فَلْيُقَٰتِلْ فِى سَبِيلِ ٱللَّهِ ٱلَّذِينَ يَشْرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا بِٱلْءَاخِرَةِ ۚ وَمَن يُقَٰتِلْ فِى سَبِيلِ ٱللَّهِ فَيُقْتَلْ أَوْ يَغْلِبْ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًۭا
+
+### Activated readings
+
+1. **Going forth rests on exchanging the nearer horizon for the later one.** `يَشْرُونَ` activates `ش ر ي` B001, exchange through selling or buying; `ٱلْحَيَوٰةَ` activates `ح ي ي` B003, life; `ٱلدُّنْيَا` activates `د ن و` B002, the nearer or first worldly side; `ٱلْءَاخِرَةِ` activates `ء خ ر` B001, what is later or other; `يُقَٰتِلْ` activates `ق ت ل` B011, reciprocal fighting; `سَبِيلِ` activates `س ب ل` B001, a traversed way. The exchange construction assigns present life the relinquished valuation and the later life the governing valuation. The abductive move is that only this reordered horizon can answer the delayer's outcome-dependent calculus in 4:72–4:73. Fighting is read as passage on a way whose worth is not exhausted by immediate survival or gain.
+
+2. **Death and victory become divergent events with one recompensive endpoint.** `فَيُقْتَلْ` activates `ق ت ل` B001, being killed, while `يَغْلِبْ` activates `غ ل ب` B001, overpowering or prevailing; `نُؤْتِيهِ` activates `ء ت ي` B002, granting; `أَجْرًا` activates `ء ج ر` B001, recompense; `عَظِيمًا` activates `ع ظ م` B001, greatness. The disjunction preserves materially opposite outcomes, but the apodosis assigns both to the same promised grant. I infer that the prior exchange has already relocated the criterion of success before battle resolves. The ayah therefore blocks both fear of death and appetite for victory from monopolizing motive.
+
+### Retrospective surprises
+
+4:95-4:96 later distinguish degrees of exertion while preserving the promised good for both classes, confirming that divergent material outcomes can share one divine recompensive horizon without becoming equal effort.
+
+## 4:75 — وَمَا لَكُمْ لَا تُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ وَٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ ٱلَّذِينَ يَقُولُونَ رَبَّنَآ أَخْرِجْنَا مِنْ هَٰذِهِ ٱلْقَرْيَةِ ٱلظَّالِمِ أَهْلُهَا وَٱجْعَل لَّنَا مِن لَّدُنكَ وَلِيًّۭا وَٱجْعَل لَّنَا مِن لَّدُنكَ نَصِيرًا
+
+### Activated readings
+
+1. **The purpose of fighting is supplied by people actively made weak, not by victory as an end in itself.** `تُقَٰتِلُونَ` activates `ق ت ل` B011, reciprocal fighting; `سَبِيلِ` activates `س ب ل` B001, a traversed way; `ٱلْمُسْتَضْعَفِينَ` activates `ض ع ف` B001, lack of strength, in a form that assigns others the role of treating these men, women, and children as weak. Their plea `أَخْرِجْنَا` activates causative `خ ر ج` B002, bringing out, while `ٱلظَّالِمِ أَهْلُهَا` activates `ظ ل م` B004, putting things out of place, and B008, withholding rights. The interrogative makes their produced vulnerability the missing cause that should move the addressees. The abductive move is that the “way” named in 4:74 receives concrete direction from those unable to make their own exit. Fighting changes from outcome-seeking to removal of imposed powerlessness.
+
+2. **The plea distinguishes protective charge from effective redress.** Repeated `وَٱجْعَل لَّنَا مِن لَّدُنكَ` activates `ج ع ل` B001, making or assigning, and `ل د ن` B002, a proximal source-boundary. `وَلِيًّا` activates `و ل ي` B003, one assuming charge, and B004, loyal support; `نَصِيرًا` activates `ن ص ر` B001, aid that enables prevailing, with B002's redress after oppression. The parallel requests assign one figure responsibility for their affair and the other the force that changes it. I infer from the lexical nonidentity that sympathy or nominal guardianship alone does not answer the plea. Rescue requires both accountable protection and aid that actually overcomes oppression.
+
+### Retrospective surprises
+
+4:97-4:100 sharpened the rescue purpose by distinguishing avoidable confinement, genuine incapacity, and enacted exit; 4:148 then preserves the wronged person's public voice rather than treating vulnerability abstractly.
+
+## 4:76 — ٱلَّذِينَ ءَامَنُوا۟ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ وَٱلَّذِينَ كَفَرُوا۟ يُقَٰتِلُونَ فِى سَبِيلِ ٱلطَّٰغُوتِ فَقَٰتِلُوٓا۟ أَوْلِيَآءَ ٱلشَّيْطَٰنِ ۖ إِنَّ كَيْدَ ٱلشَّيْطَٰنِ كَانَ ضَعِيفًا
+
+### Activated readings
+
+1. **Identical fighting forms are distinguished by the way and authority they serve.** Repeated `يُقَٰتِلُونَ` activates `ق ت ل` B011, reciprocal fighting, and repeated `سَبِيلِ` activates `س ب ل` B001, a traversed way. `ٱلطَّٰغُوتِ` activates `ط غ ي` B003, false authority or transgressive object of allegiance, grounded in B001's overstepping of bounds; `أَوْلِيَاءَ` activates `و ل ي` B004, loyal alliance; `ٱلشَّيْطَٰنِ` activates `ش ط ن` B004, a rebellious being, with B003's crooked opposition. The parallel clauses hold outward action constant and make governing allegiance the diagnostic variable. The abductive move is that 4:75's vulnerable can be defended only by asking which authority organizes force, not by sanctifying force itself. The ayah relocates moral identity from the battle-form to the path it advances.
+
+2. **The opposing alliance is weak because its force operates as contrivance rather than grounded authority.** `كَيْدَ` activates `ك ي د` B002, plotting and stratagem, against B001's forceful handling; `ضَعِيفًا` activates `ض ع ف` B001, lack of strength. The genitive construction assigns scheme as the rebellious ally's operative instrument and then denies it durable strength. I infer that such power depends on misdirection and apparent leverage, whereas the requested `نَصِيرًا` of 4:75 names aid that makes the oppressed prevail. The command to engage is therefore supported by an asymmetry of mechanisms, not a claim that opposition is absent.
+
+### Retrospective surprises
+
+4:90-4:91 provide the operational test for the two ways: withdrawal, noncombat, peace, and restrained hands remove force-warrant, while their recurrent failure makes warrant manifest.
+
+## 4:77 — أَلَمْ تَرَ إِلَى ٱلَّذِينَ قِيلَ لَهُمْ كُفُّوٓا۟ أَيْدِيَكُمْ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ فَلَمَّا كُتِبَ عَلَيْهِمُ ٱلْقِتَالُ إِذَا فَرِيقٌۭ مِّنْهُمْ يَخْشَوْنَ ٱلنَّاسَ كَخَشْيَةِ ٱللَّهِ أَوْ أَشَدَّ خَشْيَةًۭ ۚ وَقَالُوا۟ رَبَّنَا لِمَ كَتَبْتَ عَلَيْنَا ٱلْقِتَالَ لَوْلَآ أَخَّرْتَنَآ إِلَىٰٓ أَجَلٍۢ قَرِيبٍۢ ۗ قُلْ مَتَٰعُ ٱلدُّنْيَا قَلِيلٌۭ وَٱلْءَاخِرَةُ خَيْرٌۭ لِّمَنِ ٱتَّقَىٰ وَلَا تُظْلَمُونَ فَتِيلًا
+
+### Activated readings
+
+1. **Their earlier restraint does not prove readiness for costly command.** `كُفُّوا أَيْدِيَكُمْ` activates `ك ف ف` B002, withholding or restraining, with B001's physical hand as its object; `كُتِبَ عَلَيْهِمُ ٱلْقِتَالُ` activates `ك ت ب` B003, a binding prescription, and `ق ت ل` B011, reciprocal fighting. Once fighting is fixed upon them, `يَخْشَوْنَ` activates `خ ش ي` B001, fear or awe, and human beings receive fear comparable to or stronger than that directed to God. Their request `أَخَّرْتَنَا` activates `ء خ ر` B002, deferral, toward an `أَجَلٍ` (`ء ج ل` B001), fixed term, described by `ق ر ب` B001 as near. The reversal implies that restraint under one command was compatible with avoidance under the next. Obedience is diagnosed by responsiveness to changing obligation, not attachment to the safer posture.
+
+2. **The requested short delay is answered by contrasting two scales of value and exact justice.** `مَتَاعُ` activates `م ت ع` B001, benefit enjoyed and used, and B003, usable provision; `ٱلدُّنْيَا` activates `د ن و` B002, the nearer worldly side; `قَلِيلٌ` activates `ق ل ل` B001, fewness or smallness; `ٱلْءَاخِرَةُ` activates `ء خ ر` B001, what comes later; `فَتِيلًا` activates `ف ت ل` B002, the minute twisted thread in a date-stone used for a negligible amount; `تُظْلَمُونَ` activates `ظ ل م` B008, withheld right. The near term they seek belongs to the very scale declared small, whereas the later scale is paired with protection through `و ق ي` B001 and no loss even at thread-level. I infer that fear magnifies immediate exposure by mistrusting the precision of later accounting. The response corrects both time horizon and measure.
+
+### Retrospective surprises
+
+4:94 names near-world gain as a classification bias, and 4:134 locates both near and later returns with God; these later clauses confirm that fear had narrowed both time and accounting.
+
+## 4:78 — أَيْنَمَا تَكُونُوا۟ يُدْرِككُّمُ ٱلْمَوْتُ وَلَوْ كُنتُمْ فِى بُرُوجٍۢ مُّشَيَّدَةٍۢ ۗ وَإِن تُصِبْهُمْ حَسَنَةٌۭ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِ ٱللَّهِ ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۭ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِكَ ۚ قُلْ كُلٌّۭ مِّنْ عِندِ ٱللَّهِ ۖ فَمَالِ هَٰٓؤُلَآءِ ٱلْقَوْمِ لَا يَكَادُونَ يَفْقَهُونَ حَدِيثًۭا
+
+### Activated readings
+
+1. **Fortification changes location but cannot outrun death's act of catching up.** `يُدْرِككُّمُ` activates `د ر ك` B001, reaching and overtaking; `ٱلْمَوْتُ` activates `م و ت` B001, loss of life; `بُرُوجٍ` activates `ب ر ج` B001, fortified towers or palaces; `مُّشَيَّدَةٍ` activates `ش ي د` B001, a building raised and made firm. The universal location clause assigns death the pursuing role and even heightened architecture the failed evasive role. The abductive link to 4:77 is that deferral cannot turn physical shelter into exemption from the fixed term. Fear's preferred near horizon offers no ultimate control over exposure.
+
+2. **Selective attribution fails to grasp a single discourse about event provenance.** Both `تُصِبْهُمْ` clauses activate `ص و ب` B003, an event reaching its target; both claims use `عِند` (`ع ن د` B004), presence or source-proximity, but the speakers assign good to God and bad to the messenger before the correction `كُلٌّ مِّنْ عِندِ ٱللَّهِ`. `يَكَادُونَ` activates `ك و د` B002, nearly doing, under negation; `يَفْقَهُونَ` activates `ف ق ه` B001, grasping meaning; `حَدِيثًا` activates `ح د ث` B003, speech arising as report. I assign the repeated syntax the role of exposing outcome-based source switching like 4:73’s immediate reversal. The abductive move is that failure to hold good and bad occurrences within one divine event-order prevents comprehension of the report as a whole. This universal provenance sets up, rather than cancels, 4:79's second causal register.
+
+### Retrospective surprises
+
+4:111 later fixes acquired sin on the acquiring self, while 4:170 repeats unchanged divine ownership under rejection; event provenance and accountable evaluation therefore remain distinct registers.
+
+## 4:79 — مَّآ أَصَابَكَ مِنْ حَسَنَةٍۢ فَمِنَ ٱللَّهِ ۖ وَمَآ أَصَابَكَ مِن سَيِّئَةٍۢ فَمِن نَّفْسِكَ ۚ وَأَرْسَلْنَٰكَ لِلنَّاسِ رَسُولًۭا ۚ وَكَفَىٰ بِٱللَّهِ شَهِيدًۭا
+
+### Activated readings
+
+1. **Universal occurrence and accountable badness occupy distinct causal registers.** Repeated `أَصَابَكَ` activates `ص و ب` B003, reaching its target; `حَسَنَةٍ` activates `ح س ن` B001, goodness, while `سَيِّئَةٍ` activates `س و ء` B001, badness, and B002, harmful outcome. The first is assigned to God; the second is assigned `مِن نَّفْسِكَ`, where `ن ف س` B011 names the living self and B013 its inward intent. Read beside 4:78's `كُلٌّ مِّنْ عِندِ ٱللَّهِ`, the structural shift from all events to evaluative good/bad assigns God the encompassing event-order and the self the accountable mechanism by which an occurrence becomes or incurs badness. The abductive distinction preserves both statements without flattening either. The ayah changes attribution from blame-shifting to moral diagnosis within divine provenance.
+
+2. **The messenger's public commission is secured by a witness beyond fluctuating reception.** `أَرْسَلْنَٰكَ` activates `ر س ل` B001, sending forth, and `رَسُولًا` activates B002, messenger and carried message; `لِلنَّاسِ` assigns the dispatch a public human scope. `كَفَىٰ` activates `ك ف ي` B001, sufficing, and `شَهِيدًا` activates `ش ه د` B002, attesting testimony, grounded in B001's presence. The juxtaposition assigns delivery to the messenger but final attestation to God. I infer that the audience's attribution of badness to the messenger in 4:78 cannot redefine his commission. His role is to carry the message, not to become the source onto which adverse outcomes are displaced.
+
+### Retrospective surprises
+
+4:80 immediately states the retrospective boundary: obedience to the messenger mediates divine obedience, but turning away does not make him the audience's permanent keeper.
+
+## 4:80 — مَّن يُطِعِ ٱلرَّسُولَ فَقَدْ أَطَاعَ ٱللَّهَ ۖ وَمَن تَوَلَّىٰ فَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ حَفِيظًۭا
+
+### Activated readings
+
+1. **The messenger mediates obedience without receiving unlimited control over refusal.** Repeated `يُطِعِ/أَطَاعَ` activates `ط و ع` B001, pliant obedience and willing yielding; `ٱلرَّسُولَ` activates `ر س ل` B002, messenger and carried message. The perfect-result construction makes yielding to the dispatched messenger count as yielding to God. Yet `تَوَلَّىٰ` activates `و ل ي` B007, turning away, and `أَرْسَلْنَٰكَ` activates `ر س ل` B001, dispatch, while the negated `حَفِيظًا` activates `ح ف ظ` B001, appointed guarding. I assign the first clause delegated authority and the second a boundary on enforcement. The abductive move is that genuine `ط و ع` B001 cannot be manufactured by making the messenger a permanent keeper over rejecters. The ayah joins strong representational authority to a limited custodial role.
+
+### Retrospective surprises
+
+4:84 later separates the leader's own burden from urging others, and 4:166 makes divine testimony sufficient; limited custodial control preserves rather than weakens the messenger's commissioned authority.
+
+## 4:81 — وَيَقُولُونَ طَاعَةٌۭ فَإِذَا بَرَزُوا۟ مِنْ عِندِكَ بَيَّتَ طَآئِفَةٌۭ مِّنْهُمْ غَيْرَ ٱلَّذِى تَقُولُ ۖ وَٱللَّهُ يَكْتُبُ مَا يُبَيِّتُونَ ۖ فَأَعْرِضْ عَنْهُمْ وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًا
+
+### Activated readings
+
+1. **Claimed obedience is falsified by a change of plan after leaving visible proximity.** `طَاعَةٌ` activates `ط و ع` B001, willing compliance; `بَرَزُوا` activates `ب ر ز` B001, becoming exposed or emerging from concealment; `مِنْ عِندِكَ` activates `ع ن د` B004, proximity or presence; `بَيَّتَ/يُبَيِّتُونَ` activates `ب ي ت` B004, determining or planning by night; `طَائِفَةٌ` activates `ط و ف` B004, a bounded group; `غَيْرَ` activates `غ ي ر` B005, otherness and contrariety. The temporal sequence assigns their public noun “obedience” one face and their away-at-night determination another. God's `يَكْتُبُ` activates `ك ت ب` B004, entering an act in a register, so concealed revision receives a durable record. The abductive move is that obedience must retain its direction when surveillance ends; otherwise emergence merely transfers concealment from speech to plan.
+
+2. **Turning aside from the planners is paired with handing their affair to a sufficient agent.** `فَأَعْرِضْ` activates `ع ر ض` B005, turning one's side away; `تَوَكَّلْ` activates `و ك ل` B002, reliance, grounded in B001's handing a matter to another; `وَكِيلًا` activates B001, entrusted agent, and B006, one who undertakes, suffices, and guards; `كَفَىٰ` activates `ك ف ي` B001, sufficiency. The commands do not assign the messenger the hidden-policing role denied in 4:80. I infer that divine writing makes disengagement responsible rather than naive: the concealed matter is transferred to one who both knows and undertakes it. The messenger preserves his commission by refusing to let counter-planning redefine it as surveillance.
+
+### Retrospective surprises
+
+4:108 later repeats night-planning under an encompassing divine presence, and 4:109 removes proxy defense at final standing; recorded concealment can be entrusted without becoming unaccounted.
+
+## 4:82 — أَفَلَا يَتَدَبَّرُونَ ٱلْقُرْءَانَ ۚ وَلَوْ كَانَ مِنْ عِندِ غَيْرِ ٱللَّهِ لَوَجَدُوا۟ فِيهِ ٱخْتِلَٰفًۭا كَثِيرًۭا
+
+### Activated readings
+
+1. **Reflection tests the recitation by tracing its parts toward their outcomes.** `يَتَدَبَّرُونَ` activates `د ب ر` B006, managing or reflecting by considering outcomes, grounded in B001/B002's rear and end; `ٱلْقُرْءَانَ` activates `ق ر ء` B001, speech gathered into recitation, and B002, reciting. `مِنْ عِندِ` activates `ع ن د` B004, source-proximity; `غَيْرِ` activates `غ ي ر` B005, otherness; `لَوَجَدُوا` activates `و ج د` B001, finding by sense or mind; `ٱخْتِلَافًا` activates `خ ل ف` B004, parties taking contrary courses; `كَثِيرًا` activates `ك ث ر` B001, abundance. The counterfactual assigns a non-divine source the expected consequence of many mutually divergent trajectories. The abductive test is not atomized sameness but whether gathered speech remains coherent when its instructions are followed to their ends. Deliberate tracing changes recitation from heard units into an integrated source-claim.
+
+### Retrospective surprises
+
+4:150-4:166 furnished the full coherence test: distinct messengers, books, and communication modes remain integrated around one source, while selective partition produces the very contrary courses reflection predicts.
+
+## 4:83 — وَإِذَا جَآءَهُمْ أَمْرٌۭ مِّنَ ٱلْأَمْنِ أَوِ ٱلْخَوْفِ أَذَاعُوا۟ بِهِۦ ۖ وَلَوْ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُو۟لِى ٱلْأَمْرِ مِنْهُمْ لَعَلِمَهُ ٱلَّذِينَ يَسْتَنۢبِطُونَهُۥ مِنْهُمْ ۗ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَٱتَّبَعْتُمُ ٱلشَّيْطَٰنَ إِلَّا قَلِيلًۭا
+
+### Activated readings
+
+1. **Reports of safety and fear require return and extraction before public spread.** `أَمْرٌ` activates `ء م ر` B001, a matter or affair; `ٱلْأَمْنِ` activates `ء م ن` B001, settled security, and `ٱلْخَوْفِ` activates `خ و ف` B001, fearful anticipation. `أَذَاعُوا` activates `ذ ي ع` B001, public spreading or disclosure; `رَدُّوهُ` activates `ر د د` B001, sending back; `ٱلرَّسُولِ` activates `ر س ل` B002, messenger; `أُولِي ٱلْأَمْرِ` activates `ء م ر` B003, holders of authority; `يَسْتَنبِطُونَهُ` activates `ن ب ط` B002, bringing hidden information out by inquiry, grounded in B001's extracted water. The rejected sequence broadcasts an unprocessed matter; the proposed sequence returns it to qualified persons who draw out what is not immediately visible. I infer that emotionally charged news is dangerous precisely because either reassurance or alarm can outrun understanding. The ayah establishes information triage, not indiscriminate secrecy.
+
+2. **Disciplined relay is itself protection from crooked following.** `فَضْلُ` activates `ف ض ل` B003, bounty; `رَحْمَتُهُ` activates `ر ح م` B001, protective mercy; `لَٱتَّبَعْتُم` activates `ت ب ع` B001, following a path or command; `ٱلشَّيْطَانَ` activates `ش ط ن` B004, rebellious being, with B003's crooked opposition; `قَلِيلًا` activates `ق ل ل` B001, fewness. The counterfactual assigns divine bounty and mercy the role of interrupting a nearly comprehensive following. The abductive link is that uncontrolled circulation lets fear or security become a path-following mechanism before sound authority extracts its meaning. Epistemic procedure is therefore one form of mercy's protection.
+
+### Retrospective surprises
+
+4:94 repeats verification before a life-affecting field judgment, and 4:162 joins rooted knowledge to maintained practice; extraction is validated by what disciplined understanding prevents and produces.
+
+## 4:84 — فَقَٰتِلْ فِى سَبِيلِ ٱللَّهِ لَا تُكَلَّفُ إِلَّا نَفْسَكَ ۚ وَحَرِّضِ ٱلْمُؤْمِنِينَ ۖ عَسَى ٱللَّهُ أَن يَكُفَّ بَأْسَ ٱلَّذِينَ كَفَرُوا۟ ۚ وَٱللَّهُ أَشَدُّ بَأْسًۭا وَأَشَدُّ تَنكِيلًۭا
+
+### Activated readings
+
+1. **Personal burden and communal encouragement are deliberately separated.** `فَقَاتِلْ` activates `ق ت ل` B011, reciprocal fighting, on `سَبِيلِ` (`س ب ل` B001), a traversed way. `تُكَلَّفُ` activates `ك ل ف` B003, imposing or undertaking a strenuous obligation; `نَفْسَكَ` activates `ن ف س` B011, the living self; `حَرِّضِ` activates `ح ر ض` B006, urging and rousing to action; `ٱلْمُؤْمِنِينَ` activates `ء م ن` B002, trusting assent. The exception restricts imposed responsibility to the messenger's own self while the second imperative assigns him persuasion toward others. I infer that encouragement must not be confused with transferring his burden onto their selves. The ayah gives leadership a strong initiating duty but preserves willing response.
+
+2. **The hoped restraint of hostile force belongs to God, whose deterrence exceeds it.** `يَكُفَّ` activates `ك ف ف` B002, withholding or restraining; repeated `بَأْس` activates `ب ء س` B001, severe force or punishment; repeated `أَشَدُّ` activates `ش د د` B001, intensity or strength; `تَنكِيلًا` activates `ن ك ل` B003, exemplary deterrent punishment grounded in B001's restraining shackle. The structure assigns the messenger fighting and urging, but assigns restraint of the opposing force to God. The abductive move is that divine force is described not merely as greater impact but as a check that prevents recurrence. The messenger is therefore not made responsible for controlling every outcome.
+
+### Retrospective surprises
+
+4:95's disability exception and 4:102's alternating groups sharpened leadership's boundary: one agent initiates and urges, while burdens and simultaneous duties remain calibrated and distributed among actual capacities.
+
+## 4:85 — مَّن يَشْفَعْ شَفَٰعَةً حَسَنَةًۭ يَكُن لَّهُۥ نَصِيبٌۭ مِّنْهَا ۖ وَمَن يَشْفَعْ شَفَٰعَةًۭ سَيِّئَةًۭ يَكُن لَّهُۥ كِفْلٌۭ مِّنْهَا ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ مُّقِيتًۭا
+
+### Activated readings
+
+1. **Advocacy joins its agent to a downstream good or bad and therefore generates a share.** Repeated `يَشْفَعْ شَفَاعَةً` activates `ش ف ع` B002, joining another as advocate or helper, grounded in B001's addition of one thing to another. `حَسَنَةً` activates `ح س ن` B001/B002, good quality and beneficent action; its result `نَصِيبٌ` activates `ن ص ب` B005, an assigned share. `سَيِّئَةً` activates `س و ء` B001/B002, badness and harmful outcome; its result `كِفْلٌ` activates `ك ف ل` B002, a carried portion or equivalent. The parallel conditionals assign moral participation to the act of adding one's voice or aid, even when another performs the resulting deed. I infer that social influence is causally share-bearing. The differing result nouns let good read as an allotted benefit and bad as a portion one must carry.
+
+2. **Apportionment is sustained by one who stands over every consequence.** `مُّقِيتًا` activates `ق و ت` B002, the maintainer over a thing in preservation, power, witnessing, and apportionment, grounded in B001's life-sustaining provision; `كُلِّ شَيْءٍ` gives that oversight total scope. The closing clause assigns God the role that connects advocacy to exact participation. The abductive move is that indirect causation would otherwise evade accounting because its effects travel through others. Divine maintenance keeps the causal contribution visible and apportions its share.
+
+### Retrospective surprises
+
+4:105-4:112 later show advocacy's negative branch in detail: joining one's voice to betrayal does not transfer guilt but creates an additional carried share for the advocate or accuser.
+
+## 4:86 — وَإِذَا حُيِّيتُم بِتَحِيَّةٍۢ فَحَيُّوا۟ بِأَحْسَنَ مِنْهَآ أَوْ رُدُّوهَآ ۗ إِنَّ ٱللَّهَ كَانَ عَلَىٰ كُلِّ شَىْءٍ حَسِيبًا
+
+### Activated readings
+
+1. **A life-wishing approach must be answered by surplus goodness or exact return.** `حُيِّيتُم/تَحِيَّةٍ/فَحَيُّوا` activates `ح ي ي` B007, greeting as wishing life and peace. `بِأَحْسَنَ` activates `ح س ن` B001, greater goodness, with B002's beneficent action; `رُدُّوهَا` activates `ر د د` B001, returning a thing to its source. The alternatives preserve two valid response mechanisms: exceed the received greeting in good or send it back without deficit. I infer that 4:85's share-bearing social joins begin at the smallest reciprocal encounter. The ayah turns greeting from etiquette into a controlled exchange that may add benefit but may not absorb the other's initiative unanswered.
+
+2. **Divine reckoning secures reciprocity even when the exchange looks slight.** `حَسِيبًا` activates `ح س ب` B001, counting and reckoning, with B006's accountable management; `كُلِّ شَيْءٍ` again supplies total scope. The closing causal particle assigns comprehensive accounting as the reason no greeting is negligible. The abductive link is that even minute acts remain within exact reckoning. Social peace is stabilized by confidence that neither surplus good nor withheld return disappears from account.
+
+### Retrospective surprises
+
+4:148-4:149 later calibrate speech after harm: the wronged may voice it, yet visible good, hidden good, or capable pardon remain valid responses; reciprocity preserves agency without requiring escalation.
+
+## 4:87 — ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَا رَيْبَ فِيهِ ۗ وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ حَدِيثًۭا
+
+### Activated readings
+
+1. **Scattered shares and exchanges terminate in a certain gathering for standing.** `لَيَجْمَعَنَّكُمْ` activates `ج م ع` B001, gathering scattered parts into one whole, intensified by the oath-like emphasis; `يَوْمِ ٱلْقِيَامَةِ` activates `ق و م` B013, resurrection and standing; `رَيْبَ` activates `ر ي ب` B001, disturbing doubt, under absolute negation. I assign the gathering the role of bringing every dispersed agent and consequence from 4:85–4:86 into one accounting situation. The abductive move is that precise social shares require a terminal collection where indirect effects cannot remain scattered. The ayah moves reckoning from an abstract property to an assured encounter.
+
+2. **The promise's certainty rests on correspondence between divine report and reality.** `أَصْدَقُ` activates `ص د ق` B001, truth in speech corresponding to inner state and reported fact, with B004's fulfillment; `حَدِيثًا` activates `ح د ث` B003, speech arising as report. The rhetorical comparison denies any stronger source of truthful report. I infer that the gathering is not merely predicted but performatively secured by the speaker whose report fulfills. This answers the source-coherence test of 4:82 at the level of promised outcome.
+
+### Retrospective surprises
+
+4:141's final adjudication and 4:172's total muster made the gathering mechanism explicit: scattered claims, alliances, and consequences are collected at one standing where none can remain outside.
+
+## 4:88 — ۞ فَمَا لَكُمْ فِى ٱلْمُنَٰفِقِينَ فِئَتَيْنِ وَٱللَّهُ أَرْكَسَهُم بِمَا كَسَبُوٓا۟ ۚ أَتُرِيدُونَ أَن تَهْدُوا۟ مَنْ أَضَلَّ ٱللَّهُ ۖ وَمَن يُضْلِلِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ سَبِيلًۭا
+
+### Activated readings
+
+1. **The community's two factions mirror a group whose displayed face conceals an exit.** `ٱلْمُنَافِقِينَ` activates `ن ف ق` B004, showing one face while concealing another route out; `فِئَتَيْنِ` activates `ف ء ي` B003, separated groups. `أَرْكَسَهُم` activates `ر ك س` B001, turning upside down or back, and B002, falling back after escape; `بِمَا كَسَبُوا` activates `ك س ب` B001, self-acquired gain. The causal preposition assigns their own acquisition the mechanism of reversal, while the interrogative exposes divided communal diagnosis as unable to undo it. I infer that hidden double-direction propagates interpretive division around itself. The ayah redirects attention from arguing over labels to the earned reversal producing the condition.
+
+2. **Guidance cannot be supplied as a social verdict when the traversable way is absent.** `تُرِيدُونَ` activates `ر و د` B001, will or intent; `تَهْدُوا` activates `ه د ي` B001, guiding toward a way; repeated `أَضَلَّ/يُضْلِل` activates `ض ل ل` B001, deviation from aim and right course; `تَجِدَ` activates `و ج د` B001, finding; `سَبِيلًا` activates `س ب ل` B001, a traversed way. The rhetorical question opposes the observers' will to an actual path that cannot be found. The abductive move is that benevolent intention does not create the missing route while the earned mechanism remains active. Guidance requires a changed directional relation, made observable by migration in 4:89.
+
+### Retrospective surprises
+
+4:143 later names wavering as pathless disturbance, while 4:146 supplies the missing changed direction through return, repair, holdfast, and purified service; labels alone cannot guide, but enacted reorientation can.
+
+## 4:89 — وَدُّوا۟ لَوْ تَكْفُرُونَ كَمَا كَفَرُوا۟ فَتَكُونُونَ سَوَآءًۭ ۖ فَلَا تَتَّخِذُوا۟ مِنْهُمْ أَوْلِيَآءَ حَتَّىٰ يُهَاجِرُوا۟ فِى سَبِيلِ ٱللَّهِ ۚ فَإِن تَوَلَّوْا۟ فَخُذُوهُمْ وَٱقْتُلُوهُمْ حَيْثُ وَجَدتُّمُوهُمْ ۖ وَلَا تَتَّخِذُوا۟ مِنْهُمْ وَلِيًّۭا وَلَا نَصِيرًا
+
+### Activated readings
+
+1. **Their wish seeks equality by reproducing rejection, while migration supplies the missing directional test.** `وَدُّوا` activates `و د د` B002, wishing something to occur; repeated `تَكْفُرُونَ/كَفَرُوا` activates `ك ف ر` B003, covering or rejecting truth; `سَوَاءً` activates `س و ي` B001, equality. The prohibited `أَوْلِيَاءَ` activates `و ل ي` B004, loyal alliance; its temporal limit `حَتَّىٰ يُهَاجِرُوا` activates `ه ج ر` B002, migration from one abode to another, on `سَبِيلِ` (`س ب ل` B001), a traversed way. Their desired mechanism erases difference by pulling believers into their own rejection; the counter-test requires them to move bodily and relationally onto God's way. I infer that alliance is suspended until costly evidence demonstrates changed direction, not denied by an immutable group essence.
+
+2. **The force clause is conditional and locally bounded by observable hostility and explicit exceptions.** `تَوَلَّوْا` activates `و ل ي` B007, turning away; `فَخُذُوهُمْ` activates `ء خ ذ` B001, seizure; `وَٱقْتُلُوهُمْ` activates `ق ت ل` B001, killing; `حَيْثُ` activates `ح ي ث` B001, indeterminate place; the closing `وَلِيًّا وَلَا نَصِيرًا` activates `و ل ي` B003/B004, protective charge or alliance, and `ن ص ر` B001, prevailing aid. I assign force only after the stated wish, failure to migrate, and active turning away form one hostile-allegiance sequence. The abductive scope control comes from 4:90–4:91 within this ayah's focus window: treaty connection, withdrawal from fighting, offered peace, and restrained hands remove the `سَبِيل` against a person, whereas recurrent return to conflict restores explicit authorization. The reading is therefore a bounded conflict rule, not an unrestricted command against every unbeliever or hypocrite.
+
+### Retrospective surprises
+
+The immediate exceptions at 4:90-4:91 remained decisive after the full walk, and 4:144 confirmed their logic: coercive warrant must be made manifest by alliance and conduct, not inferred from group identity.
+
+## 4:90 — إِلَّا ٱلَّذِينَ يَصِلُونَ إِلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌ أَوْ جَآءُوكُمْ حَصِرَتْ صُدُورُهُمْ أَن يُقَٰتِلُوكُمْ أَوْ يُقَٰتِلُوا۟ قَوْمَهُمْ ۚ وَلَوْ شَآءَ ٱللَّهُ لَسَلَّطَهُمْ عَلَيْكُمْ فَلَقَٰتَلُوكُمْ ۚ فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًۭا
+
+### Activated readings
+
+1. **Treaty affiliation and conscientious nonparticipation open distinct exemption routes.** `يَصِلُونَ إِلَىٰ قَوْمٍ` activates `و ص ل` B003, affiliating oneself with a people, grounded in B001's joining; `مِيثَاقٌ` activates `و ث ق` B004, a firm covenant, with B002's fastening. The alternative `حَصِرَتْ صُدُورُهُمْ` activates `ح ص ر` B002, chest constriction, while `صُدُور` activates `ص د ر` B001, the bodily front; the constriction blocks willingness to fight either the believers or their own people. I assign the first exception an external covenantal bond and the second an inward refusal of both combat alignments. The abductive move is that 4:89's alliance test must recognize more than one observable structure of nonhostility. Nonparticipation need not require fighting one's former people.
+
+2. **Withdrawal, noncombat, and offered peace remove every authorized path against them.** `لَسَلَّطَهُمْ` activates `س ل ط` B001, coercive force let loose, in a counterfactual that marks their capacity to fight as divinely restrainable rather than nonexistent. `ٱعْتَزَلُوكُمْ` activates `ع ز ل` B001, withdrawing to one side; negated `يُقَاتِلُوكُمْ` activates `ق ت ل` B011, reciprocal fighting; `أَلْقَوْا` activates `ل ق ي` B005, casting something before another; `ٱلسَّلَمَ` activates `س ل م` B004, reconciliation and peace. The result denies a made `سَبِيل` (`س ب ل` B001), traversable way, against them. The three behaviors jointly assign the believers a prohibition, not mere discretion. I infer that force needs a positive warrant; peaceful conduct does not have to overcome a presumption of guilt.
+
+### Retrospective surprises
+
+4:94 adds verification before peace can be negated, and 4:148 restores the wronged person's voice; these later safeguards confirm that nonhostility removes force-warrant rather than merely recommending restraint.
+
+## 4:91 — سَتَجِدُونَ ءَاخَرِينَ يُرِيدُونَ أَن يَأْمَنُوكُمْ وَيَأْمَنُوا۟ قَوْمَهُمْ كُلَّ مَا رُدُّوٓا۟ إِلَى ٱلْفِتْنَةِ أُرْكِسُوا۟ فِيهَا ۚ فَإِن لَّمْ يَعْتَزِلُوكُمْ وَيُلْقُوٓا۟ إِلَيْكُمُ ٱلسَّلَمَ وَيَكُفُّوٓا۟ أَيْدِيَهُمْ فَخُذُوهُمْ وَٱقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ ۚ وَأُو۟لَٰئِكُمْ جَعَلْنَا لَكُمْ عَلَيْهِمْ سُلْطَٰنًۭا مُّبِينًۭا
+
+### Activated readings
+
+1. **Desired safety on both sides is discredited by recurrent re-entry into conflict.** `يُرِيدُونَ` activates `ر و د` B001, will or intention; repeated `يَأْمَنُوكُمْ/يَأْمَنُوا` activates `ء م ن` B001, settled security or safe-conduct. Yet `كُلَّ مَا رُدُّوا` activates `ر د د` B001/B010, being returned and repetition; `ٱلْفِتْنَةِ` activates `ف ت ن` B003, diversion from the right path, and B006, war or discord; `أُرْكِسُوا` activates `ر ك س` B002, falling back after escape. The repeated temporal construction assigns conduct under renewed conflict more diagnostic force than a stated wish for bilateral safety. I infer that neutrality claims fail when each test predictably reverses the claimant into active discord. The ayah distinguishes unstable convenience from the sustained nonhostility of 4:90.
+
+2. **Clear coercive warrant arises only when all three peace indicators fail.** The negated coordinated sequence activates `ع ز ل` B001, withdrawal, `ل ق ي` B005 plus `س ل م` B004, casting peace, and `ك ف ف` B002 plus `ي د ي` B001, restraining hands. Only then do `فَخُذُوهُمْ وَٱقْتُلُوهُمْ` activate `ء خ ذ` B001, seizure, and `ق ت ل` B001, killing, wherever `ثَقِفْتُمُوهُمْ` activates `ث ق ف` B003, coming upon and taking hold. `سُلْطَانًا مُّبِينًا` activates `س ل ط` B002, decisive warrant, and `ب ي ن` B004, manifest clarity. I assign the failed indicators the evidentiary role and force the consequent role. The abductive rule is the inverse of 4:90: authorization is made clear by continuing hostile conduct, not by ambiguous identity.
+
+### Retrospective surprises
+
+4:94's repeated verification and 4:144's self-manufactured manifest warrant confirmed the threshold: coercion follows a clear evidentiary sequence of recurrent conduct, never an ambiguous wish for safety.
+
+## 4:92 — وَمَا كَانَ لِمُؤْمِنٍ أَن يَقْتُلَ مُؤْمِنًا إِلَّا خَطَـًۭٔا ۚ وَمَن قَتَلَ مُؤْمِنًا خَطَـًۭٔا فَتَحْرِيرُ رَقَبَةٍۢ مُّؤْمِنَةٍۢ وَدِيَةٌۭ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦٓ إِلَّآ أَن يَصَّدَّقُوا۟ ۚ فَإِن كَانَ مِن قَوْمٍ عَدُوٍّۢ لَّكُمْ وَهُوَ مُؤْمِنٌۭ فَتَحْرِيرُ رَقَبَةٍۢ مُّؤْمِنَةٍۢ ۖ وَإِن كَانَ مِن قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌۭ فَدِيَةٌۭ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦ وَتَحْرِيرُ رَقَبَةٍۢ مُّؤْمِنَةٍۢ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ تَوْبَةًۭ مِّنَ ٱللَّهِ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًۭا
+
+### Activated readings
+
+1. **Unintended killing triggers both liberation and delivery of a family-held right.** `يَقْتُلَ/قَتَلَ` activates `ق ت ل` B001, killing; `خَطَأً` activates `خ ط ء` B001, an act missing the intended or right target. `تَحْرِيرُ` activates `ح ر ر` B002, freedom opposed to bondage, and `رَقَبَةٍ` activates `ر ق ب` B004, neck metonymically naming a person in bondage. `دِيَةٌ` activates `و د ي` B002, blood money; `مُسَلَّمَةٌ` activates `س ل م` B012, handing over so another receives; `أَهْلِهِ` activates `ء ه ل` B001, belonging or family. The paired remedies answer different ruptures: liberation restores life-capacity within the believing community, while handed-over compensation recognizes the slain person's familial bond. I infer that absence of intent changes punishment into repair but does not erase consequences.
+
+2. **Repair varies with social relation while preserving the life-restoring core.** A believer belonging to an enemy `قَوْمٍ عَدُوٍّ` activates `ع د و` B003, enmity, and receives the liberation component; belonging to a covenant people activates `و ث ق` B004 and receives both compensation and liberation. `يَصَّدَّقُوا` activates `ص د ق` B006, relinquishing a right as charity, so only the entitled family may release the compensatory claim. When means cannot be `يَجِدْ` (`و ج د` B003, capacity), `فَصِيَامُ` activates `ص و م` B001, fasting-withholding, for two `شَهْرَيْنِ` (`ش ه ر` B001), known months, `مُتَتَابِعَيْنِ` (`ت ب ع` B004), continuous in succession. The abductive mechanism is calibrated substitution: affiliation changes the external liability, inability changes its embodied form, but sustained repair remains obligatory. Divine `ع ل م` B001 and `ح ك م` B003/B004 frame that calibration as informed and firm wisdom.
+
+### Retrospective surprises
+
+4:95's harm exception and 4:98's two-part incapacity test generalized the calibration here: consequence remains real, but liability form changes with intent, affiliation, means, and available embodied capacity.
+
+## 4:93 — وَمَن يَقْتُلْ مُؤْمِنًۭا مُّتَعَمِّدًۭا فَجَزَآؤُهُۥ جَهَنَّمُ خَٰلِدًۭا فِيهَا وَغَضِبَ ٱللَّهُ عَلَيْهِ وَلَعَنَهُۥ وَأَعَدَّ لَهُۥ عَذَابًا عَظِيمًۭا
+
+### Activated readings
+
+1. **Intent transforms the previous reparative regime into matching punitive exclusion.** `يَقْتُلْ` activates `ق ت ل` B001, killing; `مُتَعَمِّدًا` activates `ع م د` B001, deliberately aiming at a thing; `جَزَاؤُهُ` activates `ج ز ي` B001, recompense matching an act. `خَالِدًا` activates `خ ل د` B001, enduring permanence; `غَضِبَ` activates `غ ض ب` B001, intensified anger rising toward retaliation; `لَعَنَهُ` activates `ل ع ن` B001, punitive expulsion and distancing; `أَعَدَّ` activates `ع د د` B002, preparing for a coming need; `عَذَابًا` activates `ع ذ ب` B005, torment. The immediate contrast with `خَطَأً` (`خ ط ء` B001) in 4:92 makes directed intention the switch in causal classification. I infer that intentional destruction of a believing life cannot be absorbed into the compensatory substitutions designed for a missed aim. The stacked consequences answer it with permanence, retaliation, exclusion, preparation, and pain rather than repair alone.
+
+### Retrospective surprises
+
+4:94 immediately names acquisitive bias and requires verification, while 4:111 fixes acquired sin on its actor; directed intention therefore remains the switch separating reparative error from self-borne destruction.
+
+## 4:94 — يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ فَتَبَيَّنُوا۟ وَلَا تَقُولُوا۟ لِمَنْ أَلْقَىٰٓ إِلَيْكُمُ ٱلسَّلَٰمَ لَسْتَ مُؤْمِنًۭا تَبْتَغُونَ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا فَعِندَ ٱللَّهِ مَغَانِمُ كَثِيرَةٌۭ ۚ كَذَٰلِكَ كُنتُم مِّن قَبْلُ فَمَنَّ ٱللَّهُ عَلَيْكُمْ فَتَبَيَّنُوٓا۟ ۚ إِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًۭا
+
+### Activated readings
+
+1. **Field movement requires verification before an offered peace can be recoded as unbelief.** `ضَرَبْتُمْ` activates `ض ر ب` B002, setting out through the land, on `سَبِيلِ` (`س ب ل` B001), a traversed way. Repeated `فَتَبَيَّنُوا` activates `ب ي ن` B004, making or becoming clear, with B005's disclosed meaning. `أَلْقَىٰ` activates `ل ق ي` B005, casting something before another, and `ٱلسَّلَامَ` activates `س ل م` B004, peace or reconciliation; `لَسْتَ` activates `ل ي س` B001, categorical present-state denial; `مُؤْمِنًا` activates `ء م ن` B002, trusting assent. The prohibition blocks combatants from treating a peace-bearing signal as evidence they may simply negate. I infer from 4:90–4:93 that misclassification at this point could convert a protected life into intentional killing. Verification is therefore a life-preserving precondition of force.
+
+2. **Near-world gain is named as the bias that corrupts classification.** `تَبْتَغُونَ` activates `ب غ ي` B001, seeking and pursuing; `عَرَضَ` activates `ع ر ض` B008, goods offered in exchange; `ٱلْحَيَوَاةِ ٱلدُّنْيَا` activates `ح ي ي` B003 and `د ن و` B002, life on the nearer side. Against this, `مَغَانِمُ` activates `غ ن م` B002, gains not previously possessed, and `كَثِيرَةٌ` activates `ك ث ر` B001, abundance, at divine `عِند` (`ع ن د` B004). `فَمَنَّ` activates `م ن ن` B003, a weighty benefaction, and the reminder `كَذَٰلِكَ كُنتُم مِّن قَبْلُ` activates `ق ب ل` B002, priorness. I assign remembered dependence on favor the role of checking acquisitive suspicion, while repeated verification brackets the whole correction. The abductive move is that one who previously needed recognition should not deny another's claim to manufacture immediate spoil. `خَبِيرًا` (`خ ب ر` B001) finally places inwardly tested knowledge over the agents' intentional `ع م ل` B001.
+
+### Retrospective surprises
+
+4:135 later requires testimony against self and interest, and 4:157 separates conjecture from certainty; verification must therefore correct both acquisitive motive and evidentiary overclaim.
+
+## 4:95 — لَّا يَسْتَوِى ٱلْقَٰعِدُونَ مِنَ ٱلْمُؤْمِنِينَ غَيْرُ أُو۟لِى ٱلضَّرَرِ وَٱلْمُجَٰهِدُونَ فِى سَبِيلِ ٱللَّهِ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ ۚ فَضَّلَ ٱللَّهُ ٱلْمُجَٰهِدِينَ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ عَلَى ٱلْقَٰعِدِينَ دَرَجَةًۭ ۚ وَكُلًّۭا وَعَدَ ٱللَّهُ ٱلْحُسْنَىٰ ۚ وَفَضَّلَ ٱللَّهُ ٱلْمُجَٰهِدِينَ عَلَى ٱلْقَٰعِدِينَ أَجْرًا عَظِيمًۭا
+
+### Activated readings
+
+1. **Unequal exertion produces unequal degree without erasing shared believing status or promise.** Negated `يَسْتَوِي` activates `س و ي` B001, equality; `ٱلْقَاعِدُونَ` activates `ق ع د` B002, staying back from action; `ٱلْمُجَاهِدُونَ` activates `ج ه د` B001, spending capacity under strain, here with `أَمْوَالِهِمْ` (`م و ل` B001), possessed wealth, and `أَنفُسِهِمْ` (`ن ف س` B011), living selves. Repeated `فَضَّلَ` activates `ف ض ل` B002, differential rank, while `دَرَجَةً` activates `د ر ج` B001/B003, a path-step or stepwise movement. Yet `كُلًّا وَعَدَ` activates `و ع د` B001, a promise opening expectation, and `ٱلْحُسْنَىٰ` activates `ح س ن` B001, the good. I assign effort the role of differentiating path-position, not of monopolizing the promise. The abductive move is that costly participation matters while membership in the promised good is not reduced to one performance tier.
+
+2. **Actual harm is excluded before the comparison is made.** `غَيْرُ` activates `غ ي ر` B005, exception and otherness; `أُولِي ٱلضَّرَرِ` activates `ض ر ر` B001, harm, adverse condition, sickness, or disability. Its placement immediately after the staying group removes constrained nonparticipation from the ordinary `ق ع د` B002 mechanism. I infer from 4:94's demand for verification and 4:98's incapacity test that visible nonmovement cannot diagnose unwillingness by itself. The ayah differentiates voluntary staying back from inability before assigning degree.
+
+### Retrospective surprises
+
+4:98's operational incapacity test confirmed the exception's importance, while 4:124's shared entry condition showed that unequal degree for exertion does not produce unequal basic access by sex or status.
+
+## 4:96 — دَرَجَٰتٍۢ مِّنْهُ وَمَغْفِرَةًۭ وَرَحْمَةًۭ ۚ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًا
+
+### Activated readings
+
+1. **The single comparative step unfolds into multiple divine steps joined to covering and mercy.** `دَرَجَاتٍ` activates `د ر ج` B003, taking step by step, grounded in B001's movement along a path; its plural expands 4:95's singular `دَرَجَةً`. `مَغْفِرَةً/غَفُورًا` activates `غ ف ر` B002, forgiveness shielding from consequence, grounded in B001's protective covering; `رَحْمَةً/رَحِيمًا` activates `ر ح م` B001, mercy and tenderness. The coordinated gifts assign exertion's reward a layered trajectory, but surround advancement with protection and compassion. The abductive move is that striving creates exposure and imperfection as well as achievement; its fitting reward therefore includes covered fault and merciful care, not rank alone.
+
+### Retrospective surprises
+
+4:173's full recompense followed by added bounty clarified these plural degrees: differentiated effort receives exact due, while forgiving cover, mercy, and surplus prevent rank from becoming self-entitlement.
+
+## 4:97 — إِنَّ ٱلَّذِينَ تَوَفَّىٰهُمُ ٱلْمَلَٰٓئِكَةُ ظَالِمِىٓ أَنفُسِهِمْ قَالُوا۟ فِيمَ كُنتُمْ ۖ قَالُوا۟ كُنَّا مُسْتَضْعَفِينَ فِى ٱلْأَرْضِ ۚ قَالُوٓا۟ أَلَمْ تَكُنْ أَرْضُ ٱللَّهِ وَٰسِعَةًۭ فَتُهَاجِرُوا۟ فِيهَا ۚ فَأُو۟لَٰٓئِكَ مَأْوَىٰهُمْ جَهَنَّمُ ۖ وَسَآءَتْ مَصِيرًا
+
+### Activated readings
+
+1. **A claim of imposed weakness fails when spacious ground made directional exit possible.** `تَوَفَّىٰهُم` activates `و ف ي` B002, receiving the soul in full at death, grounded in B001's completion; `ظَالِمِي أَنفُسِهِمْ` activates `ظ ل م` B004, misplacing, against `ن ف س` B011, their living selves. Their reply `مُسْتَضْعَفِينَ` activates `ض ع ف` B001 in the passive form of being treated as weak. The counter-question joins `أَرْضُ` (`ء ر ض` B001), ground, to `وَاسِعَةً` (`و س ع` B001), spatial room, and `فَتُهَاجِرُوا` (`ه ج ر` B002), migration between abodes. I assign available spaciousness the role of defeating this particular excuse: coercion existed, but so did a reachable exit. The abductive move is that remaining where the self cannot act rightly becomes self-misplacement when migration is genuinely possible.
+
+2. **Refusal of an available exit fixes a bad sheltering endpoint.** `مَأْوَاهُمْ` activates `ء و ي` B001, drawing into a sheltering or gathering point; `سَاءَتْ` activates `س و ء` B006, formulaic dispraise, and `مَصِيرًا` activates `ص ي ر` B001/B007, endpoint and settled destination. The consequence reverses the desired function of shelter: the place to which they finally gather is named bad. I infer that abode is morally directional in this sequence; refusing movement toward a wider field makes the final refuge correspond to the chosen confinement. The exception in 4:98 prevents this mechanism from being applied to those without means or route.
+
+### Retrospective surprises
+
+4:100 supplies the direct correction: leaving the constricted abode reveals abundant room, and reward becomes fixed at enacted departure even if death prevents physical arrival.
+
+## 4:98 — إِلَّا ٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ لَا يَسْتَطِيعُونَ حِيلَةًۭ وَلَا يَهْتَدُونَ سَبِيلًۭا
+
+### Activated readings
+
+1. **Genuine imposed weakness is diagnosed by lack of both practical device and navigable route.** `ٱلْمُسْتَضْعَفِينَ` activates `ض ع ف` B001, lack of strength produced by others; `لَا يَسْتَطِيعُونَ` activates `ط و ع` B003, practical capacity, under negation; `حِيلَةً` activates `ح و ل` B003, stratagem and capacity to manage. The second negation joins `يَهْتَدُونَ` (`ه د ي` B001), finding guidance toward a way, to `سَبِيلًا` (`س ب ل` B001), a traversable route. The two clauses assign incapacity an operational test: no effective means and no findable path. I infer that either physical/social power or directional knowledge is required for migration; lacking both exempts rather than condemns. The ayah blocks retrospective judgment from treating all immobility as chosen staying back.
+
+### Retrospective surprises
+
+4:101-4:103 later show the same justice inside danger: shortened, rotated, and posture-flexible worship preserves obligation by fitting it to actual exposure and capacity.
+
+## 4:99 — فَأُو۟لَٰٓئِكَ عَسَى ٱللَّهُ أَن يَعْفُوَ عَنْهُمْ ۚ وَكَانَ ٱللَّهُ عَفُوًّا غَفُورًۭا
+
+### Activated readings
+
+1. **Verified incapacity changes the governing response from penalty to effacement and cover.** Repeated `يَعْفُوَ/عَفُوًّا` activates `ع ف و` B001, leaving punishment and wiping away guilt; `غَفُورًا` activates `غ ف ر` B002, forgiving and shielding from consequence, grounded in B001's cover. The demonstrative points specifically to the two-part incapacity class in 4:98, and the hopeful construction avoids turning exemption into self-certified entitlement. The abductive move is that when neither device nor route exists, justice does not impute the movement available to 4:97's group. Divine response removes the penal trace and protects the constrained person from its consequence.
+
+### Retrospective surprises
+
+4:149's pairing of pardon with effective capacity confirmed that effacement is not careless exemption: divine restraint responds to verified inability while remaining an exercise of full power.
+
+## 4:100 — ۞ وَمَن يُهَاجِرْ فِى سَبِيلِ ٱللَّهِ يَجِدْ فِى ٱلْأَرْضِ مُرَٰغَمًۭا كَثِيرًۭا وَسَعَةًۭ ۚ وَمَن يَخْرُجْ مِنۢ بَيْتِهِۦ مُهَاجِرًا إِلَى ٱللَّهِ وَرَسُولِهِۦ ثُمَّ يُدْرِكْهُ ٱلْمَوْتُ فَقَدْ وَقَعَ أَجْرُهُۥ عَلَى ٱللَّهِ ۗ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۭا
+
+### Activated readings
+
+1. **Migration converts constricted ground into many places of counter-movement and room.** `يُهَاجِرْ` activates `ه ج ر` B002, migration between abodes, on `سَبِيلِ` (`س ب ل` B001), a traversed way; `يَجِدْ` activates `و ج د` B001, coming upon; `ٱلْأَرْضِ` activates `ء ر ض` B001, ground. `مُرَاغَمًا` activates `ر غ م` B004, a place of escape and room, with B003's opposition and contention; `كَثِيرًا` activates `ك ث ر` B001, abundance; `سَعَةً` activates `و س ع` B001, spaciousness. The result clause makes room something discovered through directional departure, not necessarily visible from confinement. I infer that migration contests the oppressor by denying control over the victim's entire field of action. The singular constricted setting of 4:97 opens into plural alternatives.
+
+2. **Departure fixes reward even when death prevents arrival.** `يَخْرُجْ مِن بَيْتِهِ` activates `خ ر ج` B001, emergence, from `ب ي ت` B001, sheltering dwelling; `مُهَاجِرًا إِلَى ٱللَّهِ وَرَسُولِهِ` gives that exit its destination. `يُدْرِكْهُ` activates `د ر ك` B001, overtaking; `ٱلْمَوْتُ` activates `م و ت` B001, loss of life; `وَقَعَ` activates `و ق ع` B001, falling into fixed occurrence; `أَجْرُهُ` activates `ء ج ر` B001, recompense. The perfect result fixes reward “upon God” at the point where enacted departure and death meet, despite an unfinished journey. The abductive move is that a destination-oriented act can be complete in commitment before it is complete in distance. This answers the genuinely constrained cases of 4:98 without making successful arrival the only evidence of migration.
+
+### Retrospective surprises
+
+4:114 later tests outward repair by its sought destination, and 4:173 completes earned recompense before surplus; both confirm that enacted directional commitment, not completed distance alone, fixes reward.
+
+## 4:101 — وَإِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَقْصُرُوا۟ مِنَ ٱلصَّلَوٰةِ إِنْ خِفْتُمْ أَن يَفْتِنَكُمُ ٱلَّذِينَ كَفَرُوٓا۟ ۚ إِنَّ ٱلْكَٰفِرِينَ كَانُوا۟ لَكُمْ عَدُوًّۭا مُّبِينًۭا
+
+### Activated readings
+
+1. **Danger changes the measure of prescribed worship without making its practice blameworthy.** `ضَرَبْتُمْ فِي ٱلْأَرْضِ` activates `ض ر ب` B002, setting out through the land; negated `جُنَاحٌ` activates `ج ن ح` B003, offense as a lean away from right; `تَقْصُرُوا` activates `ق ص ر` B003, shortening by omitting part; `ٱلصَّلَاةِ` activates `ص ل و` B003, prescribed worship. The condition `خِفْتُمْ` activates `خ و ف` B001, anticipation of harm, and `يَفْتِنَكُم` activates `ف ت ن` B004/B006, ordeal and violent conflict; `عَدُوًّا مُّبِينًا` activates `ع د و` B003, enemy, and `ب ي ن` B004, manifest clarity. I assign fear of a demonstrated hostile mechanism the role of calibrating form, while prayer remains the retained practice. The abductive move is that preserving worship under attack can require reducing exposure rather than insisting on an unchanged measure.
+
+### Retrospective surprises
+
+4:129's distinction between impossible total equality and prohibited total inclination confirmed the same rule: limits of capacity alter required measure without licensing abandonment of the protected function.
+
+## 4:102 — وَإِذَا كُنتَ فِيهِمْ فَأَقَمْتَ لَهُمُ ٱلصَّلَوٰةَ فَلْتَقُمْ طَآئِفَةٌۭ مِّنْهُم مَّعَكَ وَلْيَأْخُذُوٓا۟ أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا۟ فَلْيَكُونُوا۟ مِن وَرَآئِكُمْ وَلْتَأْتِ طَآئِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا۟ فَلْيُصَلُّوا۟ مَعَكَ وَلْيَأْخُذُوا۟ حِذْرَهُمْ وَأَسْلِحَتَهُمْ ۗ وَدَّ ٱلَّذِينَ كَفَرُوا۟ لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ فَيَمِيلُونَ عَلَيْكُم مَّيْلَةًۭ وَٰحِدَةًۭ ۚ وَلَا جُنَاحَ عَلَيْكُمْ إِن كَانَ بِكُمْ أَذًۭى مِّن مَّطَرٍ أَوْ كُنتُم مَّرْضَىٰٓ أَن تَضَعُوٓا۟ أَسْلِحَتَكُمْ ۖ وَخُذُوا۟ حِذْرَكُمْ ۗ إِنَّ ٱللَّهَ أَعَدَّ لِلْكَٰفِرِينَ عَذَابًۭا مُّهِينًۭا
+
+### Activated readings
+
+1. **Alternating groups let worship and guarded readiness remain active together.** `فَأَقَمْتَ/فَلْتَقُمْ` activates `ق و م` B002/B003, standing and rising to undertake; `ٱلصَّلَاةَ` activates `ص ل و` B003, prescribed worship; each `طَائِفَةٌ` activates `ط و ف` B004, a bounded group. `يَأْخُذُوا` activates `ء خ ذ` B001, taking into possession; `أَسْلِحَتَهُمْ` activates `س ل ح` B001, weaponry; `سَجَدُوا` activates `س ج د` B001, lowering in submission; `وَرَائِكُمْ` activates `و ر ي` B006, the other or rear side; `حِذْرَهُمْ` activates `ح ذ ر` B003, guarded readiness. The rotating syntax assigns one group worship with the messenger while the other occupies the protective rear, then exchanges them. I infer that collective continuity can preserve two duties that no individual can perform in full simultaneously. Distribution, not abandonment, resolves the conflict.
+
+2. **Physical gear may be set down under harm, but caution may not.** The enemy wish `تَغْفُلُونَ` activates `غ ف ل` B001/B005, a lapse of attention that can be exploited; `فَيَمِيلُونَ ... مَيْلَةً وَاحِدَةً` activates `م ي ل` B001, turning against, and `و ح د` B002, one concentrated instance. Rain `م ط ر` B001, harm `ء ذ ي` B001, or illness `م ر ض` B001 permits `تَضَعُوا` (`و ض ع` B001), setting down, the weapons, with negated `جُنَاح` (`ج ن ح` B003), blame. Yet `خُذُوا حِذْرَكُمْ` repeats `ء خ ذ` B001 plus `ح ذ ر` B003. The lexical separation assigns equipment a contingent role and vigilance an invariant one. The abductive move is that embodied limitation changes the tool, while the opponent's single concentrated opportunity makes alertness nontransferable.
+
+### Retrospective surprises
+
+4:135 later requires sustained justice under competing pressures, confirming the distributed design: stable communal duty can depend on alternating agents whose distinct positions prevent any single posture from failing the whole.
+
+## 4:103 — فَإِذَا قَضَيْتُمُ ٱلصَّلَوٰةَ فَٱذْكُرُوا۟ ٱللَّهَ قِيَٰمًۭا وَقُعُودًۭا وَعَلَىٰ جُنُوبِكُمْ ۚ فَإِذَا ٱطْمَأْنَنتُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ ۚ إِنَّ ٱلصَّلَوٰةَ كَانَتْ عَلَى ٱلْمُؤْمِنِينَ كِتَٰبًۭا مَّوْقُوتًۭا
+
+### Activated readings
+
+1. **Completion of the danger-form opens posture-independent remembrance; calm restores the established form.** `قَضَيْتُمُ` activates `ق ض ي` B004, completing an act; `ٱلصَّلَاةَ` activates `ص ل و` B003, prescribed worship; `فَٱذْكُرُوا` activates `ذ ك ر` B003/B004, bringing to mind and mentioning. `قِيَامًا` activates `ق و م` B002, standing; `قُعُودًا` activates `ق ع د` B001, sitting; `جُنُوبِكُمْ` activates `ج ن ب` B001, bodily sides. `ٱطْمَأْنَنتُمْ` activates `ط م ن` B001, settling into calm; the resulting `فَأَقِيمُوا` activates `ق و م` B003/B004, undertaking and maintaining. I assign remembrance the role of filling every posture when danger fragments ordinary form, and calm the condition for full re-establishment. Adaptation preserves continuity rather than creating a new permanent norm.
+
+2. **Prayer remains a prescribed obligation bounded by known time.** `كِتَابًا` activates `ك ت ب` B003, a binding prescription; `مَوْقُوتًا` activates `و ق ت` B002, bounded or appointed by time, grounded in B001's known measured time; `ٱلْمُؤْمِنِينَ` activates `ء م ن` B002, trusting assent. The nominal construction assigns fixed temporal structure to the practice even after emergency concessions. I infer that shortening and rotation answer circumstance inside the obligation rather than suspending it. Time-bound recurrence is what lets altered episodes return to a stable communal form.
+
+### Retrospective surprises
+
+4:137 shows repetition hardening direction, while 4:162 names maintained prayer as rooted assent's effect; appointed recurrence therefore restores stable form after temporary adaptation and trains durable orientation.
+
+## 4:104 — وَلَا تَهِنُوا۟ فِى ٱبْتِغَآءِ ٱلْقَوْمِ ۖ إِن تَكُونُوا۟ تَأْلَمُونَ فَإِنَّهُمْ يَأْلَمُونَ كَمَا تَأْلَمُونَ ۖ وَتَرْجُونَ مِنَ ٱللَّهِ مَا لَا يَرْجُونَ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا
+
+### Activated readings
+
+1. **Shared pain does not imply equal motivational resources.** `تَهِنُوا` activates `و ه ن` B001, weakness of strength and slackening of resolve; `ٱبْتِغَاءِ` activates `ب غ ي` B001, active seeking; repeated `تَأْلَمُونَ/يَأْلَمُونَ` activates `ء ل م` B001, pain and aching. The comparison deliberately equalizes embodied cost. Repeated `تَرْجُونَ/يَرْجُونَ` activates `ر ج و` B001, expectant hope, but negation makes divine hope asymmetrical. The abductive move is that pain alone cannot explain withdrawal because it burdens both sides; the differentiating mechanism is an expected outcome grounded in God that only one side possesses. Hope does not deny pain but prevents pain from dictating direction.
+
+### Retrospective surprises
+
+4:134 later locates both near and later recompense with God, and 4:173 promises full due plus surplus; this confirms hope as a real motivational resource, not denial of shared pain.
+
+## 4:105 — إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ لِتَحْكُمَ بَيْنَ ٱلنَّاسِ بِمَآ أَرَىٰكَ ٱللَّهُ ۚ وَلَا تَكُن لِّلْخَآئِنِينَ خَصِيمًۭا
+
+### Activated readings
+
+1. **The descended book supplies a truth-bound instrument of judgment, not advocacy for a favored party.** `أَنزَلْنَا` activates `ن ز ل` B002, bringing or sending down; `ٱلْكِتَابَ` activates `ك ت ب` B002, letters joined into writing and a book; `بِٱلْحَقِّ` activates `ح ق ق` B001, firm truth against falsehood. `لِتَحْكُمَ` activates `ح ك م` B002, adjudication among people; `بِمَا أَرَاكَ` activates `ر ء ي` B012, causing someone to see, grounded in B001's sight and insight. The prohibition joins `ٱلْخَائِنِينَ` (`خ و ن` B001), breakers of trust, to `خَصِيمًا` (`خ ص م` B001), an adversarial litigant. I assign revelation the role of making the right relation visible and judgment the role of applying it, while partisan contention is explicitly withheld. The abductive move is that truth can govern adjudication only if the judge refuses to turn granted sight into a weapon for betrayal.
+
+### Retrospective surprises
+
+4:135 generalizes the prohibition against partisanship: justice must stand even against self and kin and may not bend for wealth or poverty, confirming the book as restraint on advocacy.
+
+## 4:106 — وَٱسْتَغْفِرِ ٱللَّهَ ۖ إِنَّ ٱللَّهَ كَانَ غَفُورًۭا رَّحِيمًۭا
+
+### Activated readings
+
+1. **Judicial correction begins by seeking cover from the consequence of one's own error.** `ٱسْتَغْفِرِ/غَفُورًا` activates `غ ف ر` B002, seeking and granting forgiveness that shields from consequence, grounded in B001's protective cover; `رَحِيمًا` activates `ر ح م` B001, mercy and tenderness. Its placement between the ban on advocacy in 4:105 and the repeated ban in 4:107 assigns the command a corrective role for the adjudicator, not only the accused. The abductive move is that receiving truth-bound sight does not make its human user immune from misapplication. Accountability for judgment is paired with an available mechanism of return rather than defensive self-justification.
+
+### Retrospective surprises
+
+4:110 immediately universalizes this corrective route, and 4:146 gives it enacted content; the adjudicator's error is repairable by the same return mechanism required of those judged.
+
+## 4:107 — وَلَا تُجَٰدِلْ عَنِ ٱلَّذِينَ يَخْتَانُونَ أَنفُسَهُمْ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ خَوَّانًا أَثِيمًۭا
+
+### Activated readings
+
+1. **Defending betrayal adds argumentative force to an act already directed against the betrayer's own self.** `تُجَادِلْ` activates `ج د ل` B002, contentious back-and-forth disputation, grounded in B001's tight interlacing; `يَخْتَانُونَ` and `خَوَّانًا` activate `خ و ن` B001, breach of loyalty or trust; `أَنفُسَهُمْ` activates `ن ف س` B011, living selves, and B013, inward intent. `لَا يُحِبُّ` activates `ح ب ب` B002, clinging attachment, under negation; `أَثِيمًا` activates `ء ث م` B001, lagging from good. The reflexive object assigns the hidden damage to the traitor before any external verdict: apparent gain diminishes the self that acquired it. The abductive move is that advocacy cannot convert self-betrayal into benefit; it only interlaces another voice with the breach. Divine nonattachment follows the settled treacherous character, not merely a weak legal presentation.
+
+### Retrospective surprises
+
+4:112 makes the consequence exact: throwing acquired wrong onto an innocent person leaves the first burden in place and adds manifest false accusation, so advocacy compounds self-betrayal.
+
+## 4:108 — يَسْتَخْفُونَ مِنَ ٱلنَّاسِ وَلَا يَسْتَخْفُونَ مِنَ ٱللَّهِ وَهُوَ مَعَهُمْ إِذْ يُبَيِّتُونَ مَا لَا يَرْضَىٰ مِنَ ٱلْقَوْلِ ۚ وَكَانَ ٱللَّهُ بِمَا يَعْمَلُونَ مُحِيطًا
+
+### Activated readings
+
+1. **Social concealment fails against a presence that surrounds both plan and act.** Repeated `يَسْتَخْفُونَ` activates `خ ف ي` B001, covering, hiding, and keeping secret; its success is limited to people and explicitly denied with God, who is `مَعَهُمْ`. `يُبَيِّتُونَ` activates `ب ي ت` B004, determining or planning by night; `لَا يَرْضَىٰ` activates `ر ض و` B001, acceptance opposed to displeasure, under negation; `ٱلْقَوْلِ` activates `ق و ل` B001, articulated speech. `يَعْمَلُونَ` activates `ع م ل` B001, intentional doing; `مُحِيطًا` activates `ح و ط` B004, complete grasp from all sides, grounded in B001's surrounding enclosure. I assign night and secrecy the role of shrinking the human audience, but divine accompaniment and encirclement remove every outside edge. The abductive move is that concealment changes who can testify socially without changing what is present to final judgment.
+
+### Retrospective surprises
+
+4:140 later makes continued seating a form of participation, and 4:166 makes divine testimony sufficient; shrinking the human audience changes neither causal alliance nor final evidence.
+
+## 4:109 — هَٰٓأَنتُمْ هَٰٓؤُلَآءِ جَٰدَلْتُمْ عَنْهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا فَمَن يُجَٰدِلُ ٱللَّهَ عَنْهُمْ يَوْمَ ٱلْقِيَٰمَةِ أَم مَّن يَكُونُ عَلَيْهِمْ وَكِيلًۭا
+
+### Activated readings
+
+1. **Successful near-world advocacy cannot supply either argument or agency at the final standing.** Repeated `جَادَلْتُمْ/يُجَادِلُ` activates `ج د ل` B002, contentious disputation; `ٱلْحَيَوَاةِ` activates `ح ي ي` B003, living existence, and `ٱلدُّنْيَا` activates `د ن و` B002, its nearer side. `يَوْمَ ٱلْقِيَامَةِ` activates `ق و م` B013, resurrection and standing. The alternative rhetorical question asks for a `وَكِيلًا`, activating `و ك ل` B001, an agent entrusted with another's affair, and B006, one who undertakes and guards it. The temporal contrast assigns human advocates a bounded forum; neither their woven argument nor delegated management transfers into the final one. I infer from 4:108's encompassing presence that the unavailable advocate is not an evidentiary gap but the collapse of proxy defense before direct knowledge. Near-world vindication is therefore not final exoneration.
+
+### Retrospective surprises
+
+4:123 later removes every secondary guardian and prevailing helper from act-matched recompense, confirming that no proxy can carry another's acquired liability through the final standing.
+
+## 4:110 — وَمَن يَعْمَلْ سُوٓءًا أَوْ يَظْلِمْ نَفْسَهُۥ ثُمَّ يَسْتَغْفِرِ ٱللَّهَ يَجِدِ ٱللَّهَ غَفُورًۭا رَّحِيمًۭا
+
+### Activated readings
+
+1. **The wrongdoer has a direct return path that makes proxy defense unnecessary.** `يَعْمَلْ` activates `ع م ل` B001, intentional doing; `سُوءًا` activates `س و ء` B001/B002, badness and harmful outcome; `يَظْلِمْ نَفْسَهُ` activates `ظ ل م` B004, misplacing, against `ن ف س` B011, the living self. `ثُمَّ يَسْتَغْفِرِ` activates `غ ف ر` B002, seeking forgiveness and shielding from consequence; `يَجِدِ` activates `و ج د` B001, coming upon; `غَفُورًا` repeats `غ ف ر` B002 and `رَحِيمًا` activates `ر ح م` B001, mercy. The temporal sequence does not deny the act but redirects its agent from concealment and advocacy to acknowledged need for cover. The abductive move is that the self harmed by its own misplacement can meet divine forgiveness without first winning a human case. Return, not argumentative acquittal, changes the outcome.
+
+### Retrospective surprises
+
+4:146 later expands this direct path into return, repair, protective attachment, and purified service, confirming forgiveness as restored relation rather than a successful human acquittal.
+
+## 4:111 — وَمَن يَكْسِبْ إِثْمًۭا فَإِنَّمَا يَكْسِبُهُۥ عَلَىٰ نَفْسِهِۦ ۚ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًۭا
+
+### Activated readings
+
+1. **Sin is self-acquired and settles on the acquiring self.** Repeated `يَكْسِبْ/يَكْسِبُهُ` activates `ك س ب` B001, seeking and obtaining gain for oneself; `إِثْمًا` activates `ء ث م` B001, lagging from good; `عَلَىٰ نَفْسِهِ` activates `ن ف س` B011, the living self, under a construction of burden upon it. The restrictive particle assigns acquisition and liability to the same agent. I infer that the gain-like verb is deliberately inverted: what the actor sought as benefit becomes the weight that delays his own good. `عَلِيمًا` (`ع ل م` B001) and `حَكِيمًا` (`ح ك م` B003/B004) secure both knowledge and firm placement of that liability.
+
+### Retrospective surprises
+
+4:123 restates act-matched recompense against communal wishes, and 4:173 completes each earned due before surplus; acquisition remains attached to its actor under both penalty and reward.
+
+## 4:112 — وَمَن يَكْسِبْ خَطِيٓـَٔةً أَوْ إِثْمًۭا ثُمَّ يَرْمِ بِهِۦ بَرِيٓـًۭٔا فَقَدِ ٱحْتَمَلَ بُهْتَٰنًۭا وَإِثْمًۭا مُّبِينًۭا
+
+### Activated readings
+
+1. **Attempted transfer of guilt adds a carried falsehood without removing the first acquisition.** `يَكْسِبْ` activates `ك س ب` B001, self-acquisition; `خَطِيئَةً` activates `خ ط ء` B002, culpable wrongdoing, and `إِثْمًا` activates `ء ث م` B001, lag from good. `يَرْمِ` activates `ر م ي` B008, throwing accusation in speech; `بَرِيئًا` activates `ب ر ء` B002, innocence and clearance. The result `ٱحْتَمَلَ` activates `ح م ل` B003, bearing moral responsibility or sin; `بُهْتَانًا` activates `ب ه ت` B002, confounding false accusation; `مُبِينًا` activates `ب ي ن` B004, manifest clarity. The perfect result assigns the accuser a new burden precisely through the attempt to relocate the old one. The abductive move is that guilt is causally nontransferable, but accusation is a fresh act that can be added to it. Concealment therefore compounds rather than redistributes liability.
+
+### Retrospective surprises
+
+4:156's confounding accusation against Mary and 4:157's unsupported killing claim repeat the same mechanism at communal scale: speech adds liability but cannot transfer reality or guilt.
+
+## 4:113 — وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكَ وَرَحْمَتُهُۥ لَهَمَّت طَّآئِفَةٌۭ مِّنْهُمْ أَن يُضِلُّوكَ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ ۖ وَمَا يَضُرُّونَكَ مِن شَىْءٍۢ ۚ وَأَنزَلَ ٱللَّهُ عَلَيْكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَعَلَّمَكَ مَا لَمْ تَكُن تَعْلَمُ ۚ وَكَانَ فَضْلُ ٱللَّهِ عَلَيْكَ عَظِيمًۭا
+
+### Activated readings
+
+1. **The attempted misdirection is defeated by instructional bounty, not by absence of hostile resolve.** `فَضْلُ` activates `ف ض ل` B003, bounty; `رَحْمَتُهُ` activates `ر ح م` B001, mercy; `لَهَمَّت` activates `ه م م` B001, resolve forming in the self; `طَائِفَةٌ` activates `ط و ف` B004, a bounded group. Repeated `يُضِلُّوكَ/يُضِلُّونَ` activates `ض ل ل` B001, diversion from the right aim; `أَنفُسَهُمْ` activates `ن ف س` B011/B013, their selves and inward intent; negated `يَضُرُّونَكَ` activates `ض ر ر` B001, harm. `أَنزَلَ` activates `ن ز ل` B002, sending down; `ٱلْكِتَابَ` activates `ك ت ب` B002, written book; `ٱلْحِكْمَةَ` activates `ح ك م` B003, rightly guided knowledge; repeated `عَلَّمَ/تَعْلَمُ` activates `ع ل م` B001, knowledge. The counterfactual assigns book, wisdom, and teaching the protective mechanism that prevents their resolve from landing. I infer that revelation safeguards judgment by expanding discernment, while the failed scheme recoils as self-misdirection. Protection is epistemic formation, not invulnerability without learning.
+
+### Retrospective surprises
+
+4:162 later shows knowledge rooted into maintained practice, and 4:174 pairs established proof with navigational light; instructional bounty protects by forming discernment that can continue operating.
+
+## 4:114 — ۞ لَّا خَيْرَ فِى كَثِيرٍۢ مِّن نَّجْوَىٰهُمْ إِلَّا مَنْ أَمَرَ بِصَدَقَةٍ أَوْ مَعْرُوفٍ أَوْ إِصْلَٰحٍۭ بَيْنَ ٱلنَّاسِ ۚ وَمَن يَفْعَلْ ذَٰلِكَ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًۭا
+
+### Activated readings
+
+1. **Private counsel is justified by the repair it organizes, not by privacy itself.** Negated `خَيْرَ` activates `خ ي ر` B001, desired beneficial good; `كَثِيرٍ` activates `ك ث ر` B001, abundance; `نَجْوَاهُمْ` activates `ن ج و` B005, private or secret counsel. The exceptions activate `ء م ر` B002, directive, toward `صَدَقَةٍ` (`ص د ق` B006), charity or relinquished right, `مَعْرُوفٍ` (`ع ر ف` B005), recognized good, or `إِصْلَاحٍ` (`ص ل ح` B002), reconciliation between people. I assign secrecy a neutral channel and these three outcomes its functional tests: transfer benefit, establish approved conduct, or remove relational discord. The immediately preceding advocacy and accusation sequence shows secrecy protecting wrongdoing; these exceptions instead require an accepted repair-product.
+
+2. **A reparative act earns reward only when its pursuit is directed toward divine approval.** `يَفْعَلْ` activates `ف ع ل` B001, bringing an act into being; `ٱبْتِغَاءَ` activates `ب غ ي` B001, seeking and pursuing; `مَرْضَاتِ` activates `ر ض و` B002, specially sought approval; `نُؤْتِيهِ` activates `ء ت ي` B002, granting; `أَجْرًا` activates `ء ج ر` B001, recompense; `عَظِيمًا` activates `ع ظ م` B001, greatness. The purpose construction adds inward direction to outwardly beneficial content. I infer from 4:109–4:113 that even persuasive good can become self-protective advocacy; sought divine approval keeps the agent joined to repair rather than reputation. The ayah therefore tests both social effect and motivating destination.
+
+### Retrospective surprises
+
+4:148-4:149 later preserve public complaint, hidden or visible good, and pardon as distinct options; privacy is therefore evaluated by its reparative output and sought approval, not by concealment alone.
+
+## 4:115 — وَمَن يُشَاقِقِ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُ ٱلْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ نُوَلِّهِۦ مَا تَوَلَّىٰ وَنُصْلِهِۦ جَهَنَّمَ ۖ وَسَآءَتْ مَصِيرًا
+
+### Activated readings
+
+1. **Opposition after clarification becomes a chosen route that is assigned back to its chooser.** `يُشَاقِقِ` activates `ش ق ق` B004, splitting into conflict and opposition; `مِن بَعْدِ` activates `ب ع د` B002, afterness; `تَبَيَّنَ` activates `ب ي ن` B004, becoming clear; `ٱلْهُدَىٰ` activates `ه د ي` B001, guidance toward a way. `يَتَّبِعْ` activates `ت ب ع` B001, following; `غَيْرَ` activates `غ ي ر` B005, an other or contrary course; `سَبِيلِ` activates `س ب ل` B001, a traversed way. `نُوَلِّهِ مَا تَوَلَّىٰ` activates `و ل ي` B013, assigning something, together with B006/B007, turning toward or away. The temporal qualification makes clarified direction precede the split, and the reciprocal-sounding result gives the chosen orientation back as an assigned trajectory. I infer that persistent opposition becomes self-reinforcing once the alternative way is knowingly followed.
+
+2. **The chosen route terminates in exposure to fire as a bad settled endpoint.** `نُصْلِهِ` activates `ص ل ي` B003, entering or suffering fire; `سَاءَتْ` activates `س و ء` B006, formulaic dispraise; `مَصِيرًا` activates `ص ي ر` B001/B007, final endpoint and settled destination. The second result clause makes the directional imagery concrete: following another way is not merely disagreement but travel toward a terminus. The abductive move is that the “other path” derives its significance from where it carries the follower. Tracing the route to its end exposes its governing direction.
+
+### Retrospective surprises
+
+4:150's willed middle path and 4:169's sole remaining consequence-road sharpened the outcome test: a route is known by where integrated following actually carries its traveler.
+
+## 4:116 — إِنَّ ٱللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِۦ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَآءُ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَقَدْ ضَلَّ ضَلَٰلًۢا بَعِيدًا
+
+### Activated readings
+
+1. **Partner-association uniquely ruptures the source relation on which forgiving cover depends.** Repeated `يَغْفِرُ` activates `غ ف ر` B002, forgiving and shielding from consequence, grounded in B001's cover; repeated `يُشْرَكَ/يُشْرِكْ` activates `ش ر ك` B002, associating a partner with God, grounded in B001's shared participation. `مَا دُونَ ذَٰلِكَ` activates `د و ن` B001, what falls short of a limit, while divine willing activates the volitional side of `ش ي ء` B001/B002. The exception structure assigns partner-association a boundary not shared by lesser acts. The abductive move is that forgiveness restores a wrongdoer to the one divine source, whereas treating that source as divided rejects the very relation of return. `ضَلَّ ضَلَالًا` (`ض ل ل` B001) plus `بَعِيدًا` (`ب ع د` B001) makes the result not a local misstep but remote deviation.
+
+### Retrospective surprises
+
+4:171 supplies the final structural explanation: exclusive divine oneness, ownership, and agency make partner-association a rupture of source relation rather than merely one offense among others.
+
+## 4:117 — إِن يَدْعُونَ مِن دُونِهِۦٓ إِلَّآ إِنَٰثًۭا وَإِن يَدْعُونَ إِلَّا شَيْطَٰنًۭا مَّرِيدًۭا
+
+### Activated readings
+
+1. **The named objects of invocation and its operative allegiance are exposed on two levels.** Repeated `يَدْعُونَ` activates `د ع و` B001, calling to draw near by voice or speech; `مِن دُونِهِ` activates `د و ن` B003, other than or besides God; `إِنَاثًا` activates `ء ن ث` B001, females as opposed to males. The second restrictive clause identifies what the same calling reaches as `شَيْطَانًا` (`ش ط ن` B004), a rebellious being, `مَرِيدًا` (`م ر د` B003), hardened in defiance and stripped of good. I assign the first restriction the visible or named recipients and the second the allegiance mechanism animating that invocation. The abductive move is that calls directed to multiple gendered objects converge functionally on one defiant relation. Multiplicity of names therefore conceals unity of rebellious direction.
+
+### Retrospective surprises
+
+4:171 later retains Jesus' messenger, word, and sourced-spirit relations while prohibiting numerical partition; this confirms that multiple named objects can mask one rebellious direction unless predicates remain source-bound.
+
+## 4:118 — لَّعَنَهُ ٱللَّهُ ۘ وَقَالَ لَأَتَّخِذَنَّ مِنْ عِبَادِكَ نَصِيبًۭا مَّفْرُوضًۭا
+
+### Activated readings
+
+1. **The expelled rebel claims a marked share from people defined by service to God.** `لَعَنَهُ` activates `ل ع ن` B001, punitive expulsion and distancing; `لَأَتَّخِذَنَّ` activates `ء خ ذ` B001, emphatic taking into possession; `عِبَادِكَ` activates `ع ب د` B003, worship and submissive service; `نَصِيبًا` activates `ن ص ب` B005, assigned share; `مَفْرُوضًا` activates `ف ر ض` B002, bounded imposition or determination, grounded in B001's cut notch. The possessive “your servants” keeps their proper relation visible inside the rebel's claim, while “share” and “marked” present his ambition as partition. I infer that the curse does not prevent attempted recruitment; expulsion instead motivates an effort to cut out a determinate portion from another's service. The claim anticipates a mechanism of capture, which 4:119 supplies.
+
+### Retrospective surprises
+
+4:161's prohibited taking of surplus and consumption of others' wealth clarified the claimed share as extraction: rebellious capture partitions service by consuming another relation's due.
+
+## 4:119 — وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَءَامُرَنَّهُمْ فَلَيُبَتِّكُنَّ ءَاذَانَ ٱلْأَنْعَٰمِ وَلَءَامُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ ٱللَّهِ ۚ وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّۭا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًۭا مُّبِينًۭا
+
+### Activated readings
+
+1. **Capture proceeds from deviation through imagined wishes and commands into enacted severing.** `لَأُضِلَّنَّهُمْ` activates `ض ل ل` B001, diverting from right aim; `لَأُمَنِّيَنَّهُمْ` activates `م ن ي` B004, installing wishes imagined within the self; repeated `لَآمُرَنَّهُمْ` activates `ء م ر` B002, command. The human result `فَلَيُبَتِّكُنَّ` activates `ب ت ك` B001, severing or cutting from the base; `آذَانَ` activates `ء ذ ن` B001, physical ears; `ٱلْأَنْعَامِ` activates `ن ع م` B005, grazing livestock. The grammatical shift from Satan's first-person promises to their third-person acts assigns him inducement and command but assigns humans the cutting. The abductive chain is cognitive, directive, then embodied: false inward futures make destructive orders feel actionable. His claimed share is produced through recruited agency.
+
+2. **“Changing God's creation” preserves both formed-order and disposition readings.** `فَلَيُغَيِّرُنَّ` activates `غ ي ر` B003, altering form or substituting one state for another; `خَلْقَ` activates `خ ل ق` B002, originated creation, B003, complete formed shape, and B004, inner disposition or character. In the immediate concrete branch, ear-severing exemplifies alteration of created bodily form. In the broader branch, the preceding deviation and implanted wishes alter moral bearing before outward action. I retain both because the unqualified object supports created form and disposition while the local sequence visibly instantiates each. The reading changes “alteration” from an isolated bodily act into the endpoint of redirected character without dissolving its concrete referent.
+
+3. **Alliance with the rebel converts promised gain into manifest deficiency.** `يَتَّخِذِ` activates `ء خ ذ` B001, taking; `وَلِيًّا` activates `و ل ي` B004, loyal ally; `مِن دُونِ` activates `د و ن` B003, besides God; repeated `خَسِرَ خُسْرَانًا` activates `خ س ر` B001, deficiency, with B002's failed bargain; `مُبِينًا` activates `ب ي ن` B004, manifest clarity. The result reframes the supposed alliance as a transaction that reduces the ally rather than supports him. I infer that the “assigned share” Satan claims is paid out of the follower's own wholeness. What looks like expanded agency becomes visible loss.
+
+### Retrospective surprises
+
+4:123 later denies communal wishes any power over recompense, and 4:150 rejects a selectively manufactured path; implanted imagination changes conduct but cannot create the promised reality it depicts.
+
+## 4:120 — يَعِدُهُمْ وَيُمَنِّيهِمْ ۖ وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا
+
+### Activated readings
+
+1. **The rebel's promise works by supplying an imagined future whose appearance conceals its emptiness.** Repeated `يَعِدُهُمْ` activates `و ع د` B001, a spoken promise opening expectation; `يُمَنِّيهِمْ` activates `م ن ي` B004, wishing and an object imagined within the self; `ٱلشَّيْطَانُ` activates `ش ط ن` B004, rebellious being; `غُرُورًا` activates `غ ر ر` B008, deception by attractive but false appearance, with B007's unguarded trust. The restrictive clause reduces all promised content to its deceptive mechanism. I infer that the wishes in 4:119 are effective because they make an absent outcome feel internally present before command arrives. The promise changes conduct without possessing the future it depicts.
+
+### Retrospective surprises
+
+4:122 supplies the exact inverse: divine promise is both firm reality and truth-corresponding speech, and 4:123 immediately removes imagined entitlement from the causal chain.
+
+## 4:121 — أُو۟لَٰٓئِكَ مَأْوَىٰهُمْ جَهَنَّمُ وَلَا يَجِدُونَ عَنْهَا مَحِيصًۭا
+
+### Activated readings
+
+1. **The promise of imagined enlargement terminates in a shelter with no sideward exit.** `مَأْوَاهُمْ` activates `ء و ي` B001, drawing into a shelter or gathering point; negated `يَجِدُونَ` activates `و ج د` B001, finding; `مَحِيصًا` activates `ح ي ص` B001, turning aside to evade a course, and B002, a constricted bind without escape. The result gives the followers a fixed gathering place while denying the maneuver that might leave it. The abductive move is that `غ ر ر` B008 in 4:120 offered only the appearance of expanded possibility; the actual trajectory removes alternatives. False promise is exposed by its endpoint's absence of room.
+
+### Retrospective surprises
+
+4:169 later names the unavoidable consequence-road, while 4:175 offers the straight road inside mercy; the false promise's decisive defect is that it removes viable directional alternatives.
+
+## 4:122 — وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَنُدْخِلُهُمْ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۖ وَعْدَ ٱللَّهِ حَقًّۭا ۚ وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ قِيلًۭا
+
+### Activated readings
+
+1. **The true promise joins trusting assent and sound work to an enduring, flowing destination.** `آمَنُوا` activates `ء م ن` B002, trusting assent; `عَمِلُوا` activates `ع م ل` B001, intentional work; `ٱلصَّالِحَاتِ` activates `ص ل ح` B001, soundness against corruption. `سَنُدْخِلُهُمْ` activates `د خ ل` B001, causing entry; `جَنَّاتٍ` activates `ج ن ن` B003, tree-covered gardens; `تَجْرِي` activates `ج ر ي` B001, flowing; `ٱلْأَنْهَارُ` activates `ن ه ر` B001, watercourses cutting through ground; `خَالِدِينَ` activates `خ ل د` B001 and `أَبَدًا` activates `ء ب د` B001, doubled enduring permanence. Against 4:120's inward fantasy, this conditional promise assigns observable assent and action a destination with continuous movement and duration. The reading changes hope from imagined possession into a trustworthy action-path.
+
+2. **Divine promise is validated by both reality and speech-correspondence.** `وَعْدَ` activates `و ع د` B001, promise; `حَقًّا` activates `ح ق ق` B001, firm reality against falsehood; `أَصْدَقُ` activates `ص د ق` B001, speech corresponding to reported fact, with B004's fulfillment; `قِيلًا` activates `ق و ل` B001, articulated speech. The emphatic nominal phrase and rhetorical question assign the promise ontological firmness and verbal truth at once. I infer that this is the exact inverse of `غُرُورًا` (`غ ر ر` B008): appearance and outcome cannot separate in divine speech. The promise can therefore govern conduct before fulfillment without deceiving the actor.
+
+### Retrospective surprises
+
+4:173 later specifies the promised economy as full earned recompense plus added bounty, and 4:175 places its travelers inside mercy; truthful promise supports action without collapsing gift into wage.
+
+## 4:123 — لَّيْسَ بِأَمَانِيِّكُمْ وَلَآ أَمَانِىِّ أَهْلِ ٱلْكِتَٰبِ ۗ مَن يَعْمَلْ سُوٓءًۭا يُجْزَ بِهِۦ وَلَا يَجِدْ لَهُۥ مِن دُونِ ٱللَّهِ وَلِيًّۭا وَلَا نَصِيرًۭا
+
+### Activated readings
+
+1. **Neither community's imagined entitlement can replace act-matched recompense.** `لَيْسَ` activates `ل ي س` B001, categorical present-state denial; repeated `أَمَانِيِّ` activates `م ن ي` B004, wishes imagined in the self, with B013's imagined speech treated as true; `أَهْلِ ٱلْكِتَابِ` joins `ء ه ل` B001, belonging, to `ك ت ب` B002, written book. `يَعْمَلْ` activates `ع م ل` B001, intentional doing; `سُوءًا` activates `س و ء` B001/B002, badness and harmful outcome; `يُجْزَ` activates `ج ز ي` B001, recompense matching an act. The denial places the addressees' wishes and the scripture community's wishes on the same noncausal level. I infer that affiliation can orient action but cannot function as a substitute deed or cancel its return. The ayah replaces competitive group imagination with an actor-consequence rule.
+
+2. **No secondary guardian or prevailing helper can intercept that return.** Negated `يَجِدْ` activates `و ج د` B001, finding; `مِن دُونِ ٱللَّهِ` activates `د و ن` B003, other than God; `وَلِيًّا` activates `و ل ي` B003/B004, protective charge or alliance; `نَصِيرًا` activates `ن ص ر` B001, aid that makes one prevail. The paired negations remove both administrative protection and effective rescue. The abductive link is that neither litigation nor delegated agency can carry acquired badness away from its actor. Recompense remains direct.
+
+### Retrospective surprises
+
+4:124 immediately guarantees even date-notch nonloss, and 4:173 later completes every due before surplus; affiliation-wishes cannot interrupt an accounting that is both exact and generous.
+
+## 4:124 — وَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ مِن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ فَأُو۟لَٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ وَلَا يُظْلَمُونَ نَقِيرًۭا
+
+### Activated readings
+
+1. **Male and female actors enter through the same faith-and-sound-work condition.** `يَعْمَلْ` activates `ع م ل` B001, intentional doing; `ٱلصَّالِحَاتِ` activates `ص ل ح` B001, sound acts; `ذَكَرٍ` activates `ذ ك ر` B001, male, and `أُنثَىٰ` activates `ء ن ث` B001, female; `مُؤْمِنٌ` activates `ء م ن` B002, trusting assent; `يَدْخُلُونَ` activates `د خ ل` B001, entering; `ٱلْجَنَّةَ` activates `ج ن ن` B003, tree-covered garden. The sex disjunction is nested inside one conditional and receives one plural result. I infer that sex remains a visible distinction but has no branching causal role in entry: faith and sound action are the shared mechanism. This concretizes 4:123's rejection of inherited or communal wish-entitlement.
+
+2. **Justice preserves even the date-stone-notch scale of their due.** Negated `يُظْلَمُونَ` activates `ظ ل م` B008, withholding a right, and `نَقِيرًا` activates `ن ق ر` B003, the tiny notch on a date-stone used for a negligible amount. The smallest lexical measure is placed under negation, assigning exact nonloss to every qualifying actor. The abductive move is that a shared entry rule need not flatten individual work because precision extends below socially visible distinctions. Equality of access and exactness of account reinforce rather than compete.
+
+### Retrospective surprises
+
+4:176 closes with a sex-differentiated inheritance comparison, sharpening rather than undoing 4:124: male and female share one entry mechanism while particular legal relations may still assign different shares.
+
+## 4:125 — وَمَنْ أَحْسَنُ دِينًۭا مِّمَّنْ أَسْلَمَ وَجْهَهُۥ لِلَّهِ وَهُوَ مُحْسِنٌۭ وَٱتَّبَعَ مِلَّةَ إِبْرَٰهِيمَ حَنِيفًۭا ۗ وَٱتَّخَذَ ٱللَّهُ إِبْرَٰهِيمَ خَلِيلًۭا
+
+### Activated readings
+
+1. **The best religious way joins whole-person handover, beneficent action, and inherited directional practice.** `أَحْسَنُ` activates `ح س ن` B001, goodness or beauty; `دِينًا` activates `د ي ن` B001, obedience, submission, and followed law. `أَسْلَمَ` activates `س ل م` B012, handing over and consigning, with B001's movement toward soundness; `وَجْهَهُ` activates `و ج ه` B001, the outward face/front, and B002, orientation; `مُحْسِنٌ` activates `ح س ن` B002, beneficent or skillful good action. `ٱتَّبَعَ` activates `ت ب ع` B001, following; `مِلَّةَ` activates `م ل ل` B003, a professed religious way; `حَنِيفًا` activates `ح ن ف` B002, inclination toward a side. I assign the face the role of whole visible orientation, beneficence the enacted quality, and Abraham's way the traversed precedent whose inclination turns from competing directions. The abductive move is that submission becomes “best” when inward destination, outward action, and historical path converge.
+
+2. **Divine intimacy is the relational outcome of that undivided orientation.** `ٱتَّخَذَ` activates `ء خ ذ` B001, taking into relation or possession; `خَلِيلًا` activates `خ ل ل` B003, intimate friendship and companionship, grounded in B001's interstice or penetrating gap. God is the grammatical taker and Abraham the one taken as intimate. I infer that intimacy here is bestowed rather than self-claimed, answering the wish-based entitlement rejected in 4:123. The ayah changes religious excellence from impersonal compliance into a relation of chosen nearness without making that nearness the actor's possession.
+
+### Retrospective surprises
+
+4:163 later places Abraham within a broad prophetic continuum, and 4:171 binds every elevated predicate to one source; bestowed intimacy remains particular without becoming partition or self-claim.
+
+## 4:126 — وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍۢ مُّحِيطًۭا
+
+### Activated readings
+
+1. **Particular intimacy remains inside universal ownership and enclosure.** `ٱلسَّمَاوَاتِ` activates `س م و` B004, overhead skies or covering surfaces, grounded in B001's height; `ٱلْأَرْضِ` activates `ء ر ض` B001, lower ground; `كُلِّ شَيْءٍ` activates `ش ي ء` B001, every knowable thing; `مُحِيطًا` activates `ح و ط` B004, complete grasp from all sides, grounded in B001's surrounding enclosure. The repeated possession construction spans above and below, while encompassing knowledge removes an outside remainder. Its placement after 4:125 assigns Abrahamic intimacy a personal relational role but not an exclusive property boundary. I infer that chosen friendship does not reduce divine relation to favoritism because the chooser already owns and surrounds the whole field.
+
+### Retrospective surprises
+
+4:131-4:133 repeat universal ownership and derive both divine independence and human replaceability from it, confirming that no intimate relation creates an exclusive outside or divine dependency.
+
+## 4:127 — وَيَسْتَفْتُونَكَ فِى ٱلنِّسَآءِ ۖ قُلِ ٱللَّهُ يُفْتِيكُمْ فِيهِنَّ وَمَا يُتْلَىٰ عَلَيْكُمْ فِى ٱلْكِتَٰبِ فِى يَتَٰمَى ٱلنِّسَآءِ ٱلَّٰتِى لَا تُؤْتُونَهُنَّ مَا كُتِبَ لَهُنَّ وَتَرْغَبُونَ أَن تَنكِحُوهُنَّ وَٱلْمُسْتَضْعَفِينَ مِنَ ٱلْوِلْدَٰنِ وَأَن تَقُومُوا۟ لِلْيَتَٰمَىٰ بِٱلْقِسْطِ ۚ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍۢ فَإِنَّ ٱللَّهَ كَانَ بِهِۦ عَلِيمًۭا
+
+### Activated readings
+
+1. **The requested ruling returns attention to prescribed dues withheld from structurally vulnerable people.** Repeated `يَسْتَفْتُونَكَ/يُفْتِيكُمْ` activates `ف ت ي` B004, seeking and clarifying a ruling; `يُتْلَىٰ` activates `ت ل و` B001, following in recited sequence; `ٱلْكِتَابِ` activates `ك ت ب` B002, written book. `يَتَامَى ٱلنِّسَاءِ` activates `ي ت م` B001, offspring cut off from a protecting parent, with B005's woman lacking spousal protection; negated `تُؤْتُونَهُنَّ` activates `ء ت ي` B002, giving; `مَا كُتِبَ لَهُنَّ` activates `ك ت ب` B003, a binding prescription. `ٱلْمُسْتَضْعَفِينَ` activates `ض ع ف` B001, people made weak. The divine answer and prior recitation converge on what the questioners fail to deliver. I infer that valid legal inquiry is redirected from managing access to women and children toward discharging rights already fixed for them.
+
+2. **The marriage-desire construction preserves both attraction and aversion as possible mechanisms of injustice.** `تَرْغَبُونَ` activates `ر غ ب` B001, desire turning toward something or away from it; `تَنكِحُوهُنَّ` activates `ن ك ح` B002, entering a marriage contract. Without a directional preposition, the construction visibly permits eagerness to marry the orphaned women or aversion from marrying them. In the first reading, desire can motivate withholding their due to control access; in the second, aversion can motivate withholding because they are left unchosen. Both remain anchored to the fixed negation `لَا تُؤْتُونَهُنَّ مَا كُتِبَ لَهُنَّ`. The lexical openness changes the diagnosis from one motive to a two-direction test: neither attraction nor rejection licenses deprivation.
+
+3. **Standing for orphans means maintaining equity as an active support.** `تَقُومُوا` activates `ق و م` B003, rising to undertake, and B004, maintaining or guarding; `لِلْيَتَامَىٰ` repeats `ي ت م` B001; `بِٱلْقِسْطِ` activates `ق س ط` B001, justice giving each due share. `تَفْعَلُوا` activates `ف ع ل` B001, bringing an act into being; `خَيْرٍ` activates `خ ي ر` B001, beneficial good; `عَلِيمًا` activates `ع ل م` B001, knowledge. I assign equity the support by which the vulnerable are enabled to stand, rather than a merely neutral division. The abductive move is that rights become effective only when someone undertakes their maintenance; every such good remains present to divine knowledge even where beneficiaries lack social visibility.
+
+### Retrospective surprises
+
+4:135 generalizes standing for equity even against self and kin, while 4:176 ends with another clarified kin ruling; vulnerable rights require active maintenance plus exact disclosed allocation.
+
+## 4:128 — وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا ۚ وَٱلصُّلْحُ خَيْرٌۭ ۗ وَأُحْضِرَتِ ٱلْأَنفُسُ ٱلشُّحَّ ۚ وَإِن تُحْسِنُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًۭا
+
+### Activated readings
+
+1. **Feared marital alienation may be met by negotiated repair without blame.** `ٱمْرَأَةٌ` activates `م ر ء` B001, woman/person; `خَافَتْ` activates `خ و ف` B001, fearful anticipation; `بَعْلِهَا` activates `ب ع ل` B001, husband. `نُشُوزًا` activates `ن ش ز` B004, marital recalcitrance and harsh alienation, grounded in B001's rising protrusion; `إِعْرَاضًا` activates `ع ر ض` B005, turning one's side away. Negated `جُنَاح` activates `ج ن ح` B003, blame; repeated `يُصْلِحَا/صُلْحًا/ٱلصُّلْحُ` activates `ص ل ح` B002, reconciliation and settlement; `خَيْرٌ` activates `خ ي ر` B001, beneficial good. The reciprocal form assigns both spouses agency to construct a settlement before feared distance hardens. I infer that negotiated adjustment is not a deviation from justice when its function is to remove alienation; the text explicitly prefers repaired relation to unresolved claim.
+
+2. **Greedy withholding is an ever-present internal constraint on settlement.** `أُحْضِرَتِ` activates `ح ض ر` B001, being made present and near; `ٱلْأَنفُسُ` activates `ن ف س` B011/B013, living selves and inward intent; `ٱلشُّحَّ` activates `ش ح ح` B001, greedy withholding, and B002, contending to keep or win a thing. The passive construction makes acquisitive reluctance present to selves rather than assigning it to only one spouse. `تُحْسِنُوا` activates `ح س ن` B002, beneficent action; `تَتَّقُوا` activates `و ق ي` B001, protective guarding; `خَبِيرًا` activates `خ ب ر` B001, tested inward knowledge. The abductive move is that a formal settlement can still be captured by each self's resistance to loss. Beneficence and protective restraint are therefore the mechanisms that make reconciliation genuinely good under divine inward scrutiny.
+
+### Retrospective surprises
+
+4:129-4:130 supplied the outcome controls: settlement must prevent total inclination and suspension, but separation remains a valid repair when divine spaciousness can suffice each party independently.
+
+## 4:129 — وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ وَلَوْ حَرَصْتُمْ ۖ فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ ۚ وَإِن تُصْلِحُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ غَفُورًۭا رَّحِيمًۭا
+
+### Activated readings
+
+1. **Impossible total equality does not excuse controllable total inclination.** Negated `تَسْتَطِيعُوا` activates `ط و ع` B003, practical capacity; `تَعْدِلُوا` activates `ع د ل` B001, even justice, with B002's equivalence; `حَرَصْتُمْ` activates `ح ر ص` B002, intense or excessive desire. The prohibition `فَلَا تَمِيلُوا كُلَّ ٱلْمَيْلِ` repeats `م ي ل` B001, leaning or turning to one side, under totalization. `فَتَذَرُوهَا` activates `و ذ ر` B003, leaving or abandoning; `كَٱلْمُعَلَّقَةِ` activates `ع ل ق` B008, a woman suspended between marriage and release, grounded in B001's hanging attachment. The concessive structure distinguishes inward or comprehensive equality beyond capacity from conduct that abandons one partner in an unresolved state. I infer that acknowledged limitation narrows responsibility to preventable extremity; it does not dissolve it.
+
+2. **Repair and protective restraint open forgiveness for the unavoidable remainder.** `تُصْلِحُوا` activates `ص ل ح` B001/B002, making sound and reconciling; `تَتَّقُوا` activates `و ق ي` B001, guarding against harm; `غَفُورًا` activates `غ ف ر` B002, forgiving cover; `رَحِيمًا` activates `ر ح م` B001, mercy. The condition assigns active repair and restraint to the humanly controllable domain, then joins divine cover to what remains imperfect. The abductive move is that mercy meets bounded effort after total inclination is refused. This turns 4:128's negotiated reconciliation into an ongoing corrective practice rather than one final bargain.
+
+### Retrospective surprises
+
+4:130's separation clause confirmed the practical limit: protective effort governs controllable conduct and opens forgiveness for residual inequality, but may not preserve a bond by leaving one party hanging.
+
+## 4:130 — وَإِن يَتَفَرَّقَا يُغْنِ ٱللَّهُ كُلًّۭا مِّن سَعَتِهِۦ ۚ وَكَانَ ٱللَّهُ وَٰسِعًا حَكِيمًۭا
+
+### Activated readings
+
+1. **Separation can end suspension because divine spaciousness can independently suffice both parties.** `يَتَفَرَّقَا` activates `ف ر ق` B001, distinguishing and separating two things, with B002's dispersal of a pair; `يُغْنِ` activates `غ ن ي` B001, making free of need, and B002, sufficing or availing; `كُلًّا` assigns that sufficiency separately to each. `سَعَتِهِ/وَاسِعًا` activates `و س ع` B001, spaciousness, and B003, ample means; `حَكِيمًا` activates `ح ك م` B003/B004, rightly guided and firm wisdom. The conditional does not make continued union the only successful endpoint after 4:128–4:129. I infer that when reconciliation cannot prevent one person being left suspended, parting can restore two viable fields of life. Divine room replaces the fear that each can be sustained only through the damaged bond.
+
+### Retrospective surprises
+
+4:131-4:133 immediately ground this sufficiency in universal ownership, independent praise, and effective replacement-capacity; separation does not place either person beyond available divine agency.
+
+## 4:131 — وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَلَقَدْ وَصَّيْنَا ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ وَإِيَّاكُمْ أَنِ ٱتَّقُوا۟ ٱللَّهَ ۚ وَإِن تَكْفُرُوا۟ فَإِنَّ لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ غَنِيًّا حَمِيدًۭا
+
+### Activated readings
+
+1. **Protective God-consciousness is a continuous charge joined across scripture communities.** `وَصَّيْنَا` activates `و ص ي` B002, a charge joined to another person, grounded in B001's joining; `أُوتُوا` activates `ء ت ي` B002, being given; `ٱلْكِتَابَ` activates `ك ت ب` B002, written book; `مِن قَبْلِكُمْ` activates `ق ب ل` B002, priorness. `ٱتَّقُوا` activates `و ق ي` B001, protective guarding. The coordinated earlier recipients and present addressees receive one charge, making moral continuity outlast communal succession. The abductive move is that the equity and restraint of 4:127–4:130 are not local concessions but instances of a transgenerational protective directive.
+
+2. **Repeated cosmic ownership makes rejection a human loss, not a divine deprivation.** `ٱلسَّمَاوَاتِ` activates `س م و` B004, overhead skies; `ٱلْأَرْضِ` activates `ء ر ض` B001, lower ground; their possession by God is stated before and after the rejection condition. `تَكْفُرُوا` activates `ك ف ر` B003/B004, rejecting truth or covering a favor; `غَنِيًّا` activates `غ ن ي` B001, self-sufficiency without need; `حَمِيدًا` activates `ح م د` B003, the praiseworthy one of many good traits, grounded in B001's praise. The repetition encloses rejection inside unchanged ownership. I infer that obedience cannot enrich God and refusal cannot diminish Him; the charge protects the recipients rather than supplying a divine lack.
+
+### Retrospective surprises
+
+4:170 repeats the same ownership under a universal call to trust, and 4:171 derives exclusive oneness from it; the transgenerational charge protects recipients rather than supplying its owner.
+
+## 4:132 — وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًا
+
+### Activated readings
+
+1. **Universal ownership grounds sufficient agency over every separated affair.** The repeated possession of `ٱلسَّمَاوَاتِ` (`س م و` B004) and `ٱلْأَرْضِ` (`ء ر ض` B001) supplies the scope; `كَفَىٰ` activates `ك ف ي` B001, sufficing or taking care; `وَكِيلًا` activates `و ك ل` B001, an agent entrusted with an affair, and B006, one who undertakes, suffices, and guards. After 4:130's possible separation and 4:131's divine independence, the closing formula assigns every resulting need to an owner able to administer the whole field. The abductive move is that relinquishing a damaged human dependency need not produce agentless abandonment. Divine agency is sufficient precisely because no part lies outside its ownership.
+
+### Retrospective surprises
+
+4:170-4:171 confirm the agency claim at surah scale: universal ownership remains unchanged by rejection, and the one owner sufficiently undertakes the whole without offspring or divided authority.
+
+## 4:133 — إِن يَشَأْ يُذْهِبْكُمْ أَيُّهَا ٱلنَّاسُ وَيَأْتِ بِـَٔاخَرِينَ ۚ وَكَانَ ٱللَّهُ عَلَىٰ ذَٰلِكَ قَدِيرًۭا
+
+### Activated readings
+
+1. **The addressed human collectivity is replaceable within divine effective capacity.** `يَشَأْ` activates the willing side of `ش ي ء` B001/B002; `يُذْهِبْكُمْ` activates `ذ ه ب` B006, causing departure or passing away; `يَأْتِ` activates `ء ت ي` B001, coming or bringing; `بِآخَرِينَ` activates `ء خ ر` B001, others or later ones; `قَدِيرًا` activates `ق د ر` B003, capacity reaching effective control, grounded in B001's measured extent. The conditional places the present audience between possible removal and replacement rather than at history's necessary center. I infer from 4:131's repeated ownership that divine purpose is not dependent on this group's participation. Human privilege is therefore a contingent charge, not irreplaceable leverage.
+
+### Retrospective surprises
+
+4:162's faithful subgroup within a criticized community confirmed that no present collectivity is history's necessary center; divine purpose continues through responsive agents rather than inherited indispensability.
+
+## 4:134 — مَّن كَانَ يُرِيدُ ثَوَابَ ٱلدُّنْيَا فَعِندَ ٱللَّهِ ثَوَابُ ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۚ وَكَانَ ٱللَّهُ سَمِيعًۢا بَصِيرًۭا
+
+### Activated readings
+
+1. **Seeking only near-world return needlessly narrows a source that holds both horizons.** `يُرِيدُ` activates `ر و د` B001, will and intention; repeated `ثَوَابَ/ثَوَابُ` activates `ث و ب` B002, recompense returning to the doer; `ٱلدُّنْيَا` activates `د ن و` B002, the nearer worldly side; `ٱلْآخِرَةِ` activates `ء خ ر` B001, the later side; `عِندَ` activates `ع ن د` B004, source-proximity. The first clause isolates a single desired return, while the answer locates both near and later returns at God. I infer that the problem is not desire for worldly consequence itself but treating it as the whole reward field. Reorientation toward the common source expands rather than simply negates the seeker's horizon.
+
+2. **The source of both returns hears intention and sees its enactment.** `سَمِيعًا` activates `س م ع` B001, attentive hearing, with B003's understanding and compliance; `بَصِيرًا` activates `ب ص ر` B001, sight, and B002, penetrating inner insight. The paired attributes cover expressed aim and visible or inward conduct. The abductive move is that reward cannot be gamed by naming the later horizon while acting only for the nearer one. The one who holds both returns also grasps the seeker's full orientation.
+
+### Retrospective surprises
+
+4:173 later differentiates exact recompense from added bounty, confirming that seeking the common source of both horizons expands motivation without confusing worldly return, later due, and surplus gift.
+
+## 4:135 — ۞ يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ ۚ إِن يَكُنْ غَنِيًّا أَوْ فَقِيرًۭا فَٱللَّهُ أَوْلَىٰ بِهِمَا ۖ فَلَا تَتَّبِعُوا۟ ٱلْهَوَىٰٓ أَن تَعْدِلُوا۟ ۚ وَإِن تَلْوُۥٓا۟ أَوْ تُعْرِضُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًۭا
+
+### Activated readings
+
+1. **Justice must be continuously held upright even when testimony lands against the nearest interests.** `قَوَّامِينَ` activates `ق و م` B004, sustained care, maintenance, and standing over an affair; `بِٱلْقِسْطِ` activates `ق س ط` B001, justice giving each due; `شُهَدَاءَ` activates `ش ه د` B002, attesting testimony. The adverse objects progress through `أَنفُسِكُمْ` (`ن ف س` B011), selves, `ٱلْوَالِدَيْنِ` (`و ل د` B002), parents, and `ٱلْأَقْرَبِينَ` (`ق ر ب` B003), near kin. `غَنِيًّا` activates `غ ن ي` B001, wealth and independence, while `فَقِيرًا` activates `ف ق ر` B002, material need; `أَوْلَىٰ` activates `و ل ي` B008, superior right. The command assigns witnesses maintenance of equity rather than protection of a party, and assigns God the stronger claim over rich and poor alike. I infer that sympathy for poverty and deference to wealth are symmetrical threats when either replaces due placement.
+
+2. **Desire can both obstruct evenness and bend judgment aside; twisting or withdrawal remain knowable acts.** `تَتَّبِعُوا` activates `ت ب ع` B001, following; `ٱلْهَوَىٰ` activates `ه و ي` B004, self-inclination and passion. `تَعْدِلُوا` preserves `ع د ل` B001, even justice, and B006, turning aside: following desire can prevent the first by causing the second. `تَلْوُوا` activates `ل و ي` B007, twisting speech, and B006, bending judgment toward one side; `تُعْرِضُوا` activates `ع ر ض` B005, turning away; `تَعْمَلُونَ` activates `ع م ل` B001, intentional action; `خَبِيرًا` activates `خ ب ر` B001, tested inward knowledge. I assign twisting an active distortion and withdrawal a passive refusal, but both alter testimony's function. The abductive move is that no procedural posture hides motive from the one who knows the act inwardly.
+
+### Retrospective surprises
+
+4:157's contrast between conjecture and certainty and 4:166's sufficient testimony sharpened the evidentiary demand: justice must resist both interested distortion and unsupported confidence.
+
+## 4:136 — يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَٱلْكِتَٰبِ ٱلَّذِى نَزَّلَ عَلَىٰ رَسُولِهِۦ وَٱلْكِتَٰبِ ٱلَّذِىٓ أَنزَلَ مِن قَبْلُ ۚ وَمَن يَكْفُرْ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ وَٱلْيَوْمِ ٱلْءَاخِرِ فَقَدْ ضَلَّ ضَلَٰلًۢا بَعِيدًا
+
+### Activated readings
+
+1. **Believing identity must be renewed as integrated trust across source, carriers, books, and final horizon.** The address and imperative repeat `ء م ن` B002, trusting assent: those already characterized by belief are commanded to enact it. `رَسُولِهِ/رُسُلِهِ` activates `ر س ل` B002, messengers and carried messages; `ٱلْكِتَابِ/كُتُبِهِ` activates `ك ت ب` B002, written books. `نَزَّلَ` and `أَنزَلَ` both activate `ن ز ل` B002, sending down, while the intensified first form supports repeated or gradual descent and the second the prior sending as a whole; `مِن قَبْلُ` activates `ق ب ل` B002, priorness. The rejection list then includes God, angels, books, messengers, and the later day. I infer that trust is a connected architecture rather than a label possessed once: removing a carrier, text, or terminal horizon breaks the relation among the rest.
+
+2. **Component rejection produces remote directional loss.** `يَكْفُرْ` activates `ك ف ر` B003, covering or rejecting truth; repeated `ضَلَّ ضَلَالًا` activates `ض ل ل` B001, deviation from aim and guidance; `بَعِيدًا` activates `ب ع د` B001, remoteness. The perfect result makes distance the achieved state of selective rejection. The abductive move is that a linked revelatory system cannot be safely partitioned according to near interest, echoing 4:134's warning against one-horizon desire. The loss is not lack of information alone but departure from the route that integrates it.
+
+### Retrospective surprises
+
+4:150-4:164 then demonstrates the integrated architecture in full: selective partition fails, while distinct messengers, books, narratives, and communication modes remain one source-linked trust field.
+
+## 4:137 — إِنَّ ٱلَّذِينَ ءَامَنُوا۟ ثُمَّ كَفَرُوا۟ ثُمَّ ءَامَنُوا۟ ثُمَّ كَفَرُوا۟ ثُمَّ ٱزْدَادُوا۟ كُفْرًۭا لَّمْ يَكُنِ ٱللَّهُ لِيَغْفِرَ لَهُمْ وَلَا لِيَهْدِيَهُمْ سَبِيلًۢا
+
+### Activated readings
+
+1. **Repeated reversal becomes terminal when rejection is then increased as a direction.** Alternating `آمَنُوا` activates `ء م ن` B002, trusting assent, and `كَفَرُوا` activates `ك ف ر` B003, rejection; repeated `ثُمَّ` gives the oscillation ordered stages. `ٱزْدَادُوا` activates `ز ي د` B001, increase or growth, with rejection as its object. Negated `لِيَغْفِرَ` activates `غ ف ر` B002, forgiving cover; negated `لِيَهْدِيَهُمْ` activates `ه د ي` B001, guidance toward `سَبِيلًا` (`س ب ل` B001), a traversed way. The final stage differs from mere return: rejection becomes what is cultivated. I infer that cumulative increase converts instability into settled trajectory, leaving neither receptive cover nor a followed route. The ayah diagnoses directional hardening, not a single lapse in isolation.
+
+### Retrospective surprises
+
+4:146 prevents reading oscillation itself as irreversible: before rejection becomes cultivated increase, enacted return and repair can still replace divided direction and restore believing company.
+
+## 4:138 — بَشِّرِ ٱلْمُنَٰفِقِينَ بِأَنَّ لَهُمْ عَذَابًا أَلِيمًا
+
+### Activated readings
+
+1. **The form of glad tidings is reversed by painful content, exposing hypocrisy through matching speech structure.** `بَشِّرِ` activates `ب ش ر` B005, face-brightening good news by default, here qualified into irony; `ٱلْمُنَافِقِينَ` activates `ن ف ق` B004, showing one face while concealing another exit; `عَذَابًا` activates `ع ذ ب` B005, torment; `أَلِيمًا` activates `ء ل م` B002, pain-causing. The command's surface convention promises what would brighten, while its object announces pain. I infer a formally fitting exposure: recipients whose visible face and hidden direction diverge receive speech whose conventional face and actual content diverge. The irony makes their split mechanism audible before naming its consequence.
+
+### Retrospective surprises
+
+4:146's restorative exception and 4:147's denial that punishment serves an independent divine need corrected the irony's scope: painful tidings diagnose a maintained mechanism, not an immutable identity.
+
+## 4:139 — ٱلَّذِينَ يَتَّخِذُونَ ٱلْكَٰفِرِينَ أَوْلِيَآءَ مِن دُونِ ٱلْمُؤْمِنِينَ ۚ أَيَبْتَغُونَ عِندَهُمُ ٱلْعِزَّةَ فَإِنَّ ٱلْعِزَّةَ لِلَّهِ جَمِيعًۭا
+
+### Activated readings
+
+1. **Alliance fails because honor is sought at a location that does not possess its whole source.** `يَتَّخِذُونَ` activates `ء خ ذ` B001, taking; `أَوْلِيَاءَ` activates `و ل ي` B004, loyal allies; `مِن دُونِ` activates `د و ن` B003, other than, and `ٱلْمُؤْمِنِينَ` activates `ء م ن` B002, trusting assent. `أَيَبْتَغُونَ` activates `ب غ ي` B001, seeking; `عِندَهُم` activates `ع ن د` B004, presence or source-proximity; repeated `ٱلْعِزَّةَ` activates `ع ز ز` B001, might, invulnerability, and honor; `جَمِيعًا` activates `ج م ع` B009, wholeness without scattering. The rhetorical question identifies a source-location error: the allies are treated as if honor resided with them, while the result assigns its undivided whole to God. I infer that such alliance cannot deliver its sought end even if it grants temporary leverage. Dependence on a derivative holder replaces relation to the owner of the whole.
+
+### Retrospective surprises
+
+4:173 later removes every alternative protector from proud refusal, confirming that seeking honor through substitute allies mistakes temporary leverage for a source capable of final support.
+
+## 4:140 — وَقَدْ نَزَّلَ عَلَيْكُمْ فِى ٱلْكِتَٰبِ أَنْ إِذَا سَمِعْتُمْ ءَايَٰتِ ٱللَّهِ يُكْفَرُ بِهَا وَيُسْتَهْزَأُ بِهَا فَلَا تَقْعُدُوا۟ مَعَهُمْ حَتَّىٰ يَخُوضُوا۟ فِى حَدِيثٍ غَيْرِهِۦٓ ۚ إِنَّكُمْ إِذًۭا مِّثْلُهُمْ ۗ إِنَّ ٱللَّهَ جَامِعُ ٱلْمُنَٰفِقِينَ وَٱلْكَٰفِرِينَ فِى جَهَنَّمَ جَمِيعًا
+
+### Activated readings
+
+1. **Remaining seated during active rejection and mockery creates likeness through participation.** `نَزَّلَ` activates `ن ز ل` B002, sending down; `ٱلْكِتَابِ` activates `ك ت ب` B002, written book. `سَمِعْتُمْ` activates `س م ع` B001, hearing; `آيَاتِ` activates `ء ي ي` B003, visible signs and scriptural verses; `يُكْفَرُ` activates `ك ف ر` B003, rejection; `يُسْتَهْزَأُ` activates `ه ز ء` B001, mockery. Negated `تَقْعُدُوا مَعَهُمْ` activates `ق ع د` B001/B004, sitting and companionship; `مِثْلُهُمْ` activates `م ث ل` B001, likeness, with B010's following of a model. The consequence is tied to continued co-presence while those speech acts operate, not merely to hearing them occur. I infer that unbroken seating supplies social support and normalizes the modeled act, making nonparticipation itself an action requirement.
+
+2. **The boundary ends when the discourse genuinely becomes other.** `حَتَّىٰ يَخُوضُوا` activates `خ و ض` B002, entering and intermingling in talk; `حَدِيثٍ` activates `ح د ث` B003, speech arising as report or conversation; `غَيْرِهِ` activates `غ ي ر` B005, otherness. The temporal limit assigns changed discourse, not changed company-label alone, the condition for renewed sitting. `جَامِعُ/جَمِيعًا` activates `ج م ع` B001, gathering scattered persons, and B009, totality; it joins hypocrites and rejecters at the final endpoint. The abductive move is that tolerated speech can reveal the hidden alliance of 4:139 before formal identity does. Final gathering makes that enacted likeness explicit.
+
+### Retrospective surprises
+
+4:148's calibrated permission for the wronged to voice harm confirmed that speech-boundaries depend on operative discourse: one must leave active mockery, yet not silence testimony that restores a withheld right.
+
+## 4:141 — ٱلَّذِينَ يَتَرَبَّصُونَ بِكُمْ فَإِن كَانَ لَكُمْ فَتْحٌۭ مِّنَ ٱللَّهِ قَالُوٓا۟ أَلَمْ نَكُن مَّعَكُمْ وَإِن كَانَ لِلْكَٰفِرِينَ نَصِيبٌۭ قَالُوٓا۟ أَلَمْ نَسْتَحْوِذْ عَلَيْكُمْ وَنَمْنَعْكُم مِّنَ ٱلْمُؤْمِنِينَ ۚ فَٱللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلَن يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا
+
+### Activated readings
+
+1. **Watchful waiting lets opportunists narrate either side's outcome as their own contribution.** `يَتَرَبَّصُونَ` activates `ر ب ص` B001, waiting in watchful expectancy. If believers receive `فَتْحٌ`, `ف ت ح` B004 activates victory as an opened outcome, they claim shared presence; if rejecters receive a `نَصِيبٌ`, `ن ص ب` B005 activates an assigned share, they claim `نَسْتَحْوِذْ`, `ح و ذ` B003, overcoming or taking control, and `نَمْنَعْكُم`, `م ن ع` B002/B003, barring harm through protective strength. The paired questions assign them retroactive belonging to whichever result appears. I infer that waiting is their allegiance technology: they avoid prior commitment, then reinterpret proximity or restraint as causal participation. This is outcome-based self-placement rather than stable service.
+
+2. **Final judgment separates opportunistic claims from an actual traversable dominance.** `يَحْكُمُ بَيْنَكُمْ` activates `ح ك م` B002, adjudication, and `ب ي ن` B002, the interval between parties; `يَوْمَ ٱلْقِيَامَةِ` activates `ق و م` B013, resurrection and standing. Negated `يَجْعَلَ` activates `ج ع ل` B001/B002, making into being or state; `سَبِيلًا` activates `س ب ل` B001, a traversed way, for rejecters over believers. The temporal shift assigns present mixed outcomes to a provisional field and divine judgment the role of determining their final relation. The abductive move is that a temporary share cannot establish the enduring pathway the opportunists imply. Their narrative confuses event access with final authority.
+
+### Retrospective surprises
+
+4:143 names this waiting posture as pathless wavering, 4:144 makes its alliance evidentiary, and 4:172 gathers every party to one endpoint where retroactive self-placement can no longer operate.
+
+## 4:142 — إِنَّ ٱلْمُنَٰفِقِينَ يُخَٰدِعُونَ ٱللَّهَ وَهُوَ خَٰدِعُهُمْ وَإِذَا قَامُوٓا۟ إِلَى ٱلصَّلَوٰةِ قَامُوا۟ كُسَالَىٰ يُرَآءُونَ ٱلنَّاسَ وَلَا يَذْكُرُونَ ٱللَّهَ إِلَّا قَلِيلًۭا
+
+### Activated readings
+
+1. **Deception aimed at God returns as the mechanism that encloses the deceiver.** `ٱلْمُنَافِقِينَ` activates `ن ف ق` B004, a visible face with a concealed exit; repeated `يُخَادِعُونَ/خَادِعُهُمْ` activates `خ د ع` B001, showing other than what is hidden, including mutual or feigned deception. The mirrored construction reverses subject and object without changing the root. I infer that their strategy is returned rather than successfully exchanged: God lets the deceptive appearance operate until its hidden contradiction becomes the means of their exposure and consequence. They cannot conceal from the one they make the supposed target.
+
+2. **Prayer becomes performative when bodily rising serves viewers rather than remembrance.** Repeated `قَامُوا` activates `ق و م` B003, rising to undertake; `ٱلصَّلَاةِ` activates `ص ل و` B003, prescribed worship; `كُسَالَىٰ` activates `ك س ل` B001, heaviness holding one back from completion. `يُرَاءُونَ` activates `ر ء ي` B005, showing off so people see; `يَذْكُرُونَ` activates `ذ ك ر` B003/B004, bringing God to mind and mention; `قَلِيلًا` activates `ق ل ل` B001, fewness. The body outwardly rises, but sluggishness and scarce remembrance show that the act's operative audience is human sight. The abductive move is that worship's form can remain while its direction exits, reproducing `ن ف ق` B004 inside the act itself.
+
+### Retrospective surprises
+
+4:146 supplies the direct repair: purified service for God replaces prayer performed for human sight, showing that the defect lies in operative audience and divided direction, not bodily form alone.
+
+## 4:143 — مُّذَبْذَبِينَ بَيْنَ ذَٰلِكَ لَآ إِلَىٰ هَٰٓؤُلَآءِ وَلَآ إِلَىٰ هَٰٓؤُلَآءِ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ سَبِيلًۭا
+
+### Activated readings
+
+1. **Wavering between parties is not a stable middle but a pathless disturbance.** `مُذَبْذَبِينَ` activates `ذ ب ذ ب` B001, wavering disturbance or swaying; `بَيْنَ` activates `ب ي ن` B002, the interval between things. The doubled negation denies arrival toward either side. `يُضْلِلِ` activates `ض ل ل` B001, deviation from aim; negated `تَجِدَ` activates `و ج د` B001, finding; `سَبِيلًا` activates `س ب ل` B001, a traversed way. I assign the “between” position motion without destination rather than balanced independence. The abductive move is that repeated outcome-switching in 4:141 destroys the continuity by which a route becomes findable. Refusal to choose a direction becomes its own form of loss.
+
+### Retrospective surprises
+
+4:146 also supplies the missing route: return, repair, protective hold, and undivided service turn wavering into stable company, so pathlessness is conditional on maintained double-direction.
+
+## 4:144 — يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّخِذُوا۟ ٱلْكَٰفِرِينَ أَوْلِيَآءَ مِن دُونِ ٱلْمُؤْمِنِينَ ۚ أَتُرِيدُونَ أَن تَجْعَلُوا۟ لِلَّهِ عَلَيْكُمْ سُلْطَٰنًۭا مُّبِينًا
+
+### Activated readings
+
+1. **Misplaced alliance manufactures clear warrant against the chooser.** Negated `تَتَّخِذُوا` activates `ء خ ذ` B001, taking; `أَوْلِيَاءَ` activates `و ل ي` B004, loyal allies; `مِن دُونِ` activates `د و ن` B003, instead of or besides; `ٱلْمُؤْمِنِينَ` activates `ء م ن` B002, those of trusting assent. `تُرِيدُونَ` activates `ر و د` B001, will; `تَجْعَلُوا` activates `ج ع ل` B001/B002, making into being or state; `سُلْطَانًا` activates `س ل ط` B002, decisive warrant; `مُبِينًا` activates `ب ي ن` B004, manifest clarity. The rhetorical question assigns the prohibited act an evidentiary consequence: the chooser himself makes the case clear. I infer from 4:140–4:143 that repeated participation and wavering affiliation are not invisible inward ambiguity; they accumulate into an outwardly legible authorization for judgment.
+
+### Retrospective surprises
+
+4:150's attempted selective path confirms how alliance manufactures warrant, while 4:173's absence of alternate protector shows that the apparent support purchased by that evidence cannot survive consequence.
+
+## 4:145 — إِنَّ ٱلْمُنَٰفِقِينَ فِى ٱلدَّرْكِ ٱلْأَسْفَلِ مِنَ ٱلنَّارِ وَلَن تَجِدَ لَهُمْ نَصِيرًا
+
+### Activated readings
+
+1. **Hidden double-direction reaches the lowest attained depth, where no prevailing aid can be found.** `ٱلْمُنَافِقِينَ` activates `ن ف ق` B004, showing one face while concealing another exit; `ٱلدَّرْكِ` activates `د ر ك` B001, reaching or attaining, here as a nominal reached level; `ٱلْأَسْفَلِ` activates `س ف ل` B001, the place below height, with B002's degraded rank; `ٱلنَّارِ` activates `ن و ر` B002, burning fire. Negated `تَجِدَ` activates `و ج د` B001, finding; `نَصِيرًا` activates `ن ص ر` B001, aid that makes one prevail. I assign the lowest level as the endpoint of the downward social and moral oscillation in 4:140–4:144: every concealed exit becomes descent rather than escape. The abductive move is that a person who repeatedly uses allies as outcome-tools finally lacks the very helper function sought through them.
+
+### Retrospective surprises
+
+The immediate exception at 4:146 is the decisive retrospective correction: even the lowest trajectory can be interrupted before its endpoint by a coordinated, publicly legible change of relation.
+
+## 4:146 — إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَٱعْتَصَمُوا۟ بِٱللَّهِ وَأَخْلَصُوا۟ دِينَهُمْ لِلَّهِ فَأُو۟لَٰئِكَ مَعَ ٱلْمُؤْمِنِينَ ۖ وَسَوْفَ يُؤْتِ ٱللَّهُ ٱلْمُؤْمِنِينَ أَجْرًا عَظِيمًۭا
+
+### Activated readings
+
+1. **The exception replaces double-direction with return, repair, protective attachment, and undivided service.** `تَابُوا` is rooted in `ت و ب`; the packet's only accepted branch, B003, is causative “calling someone else to repent” and does not fit this intransitive form, so I retain the clause's visible return function without forcing that branch. `أَصْلَحُوا` activates `ص ل ح` B001, making sound against corruption; `ٱعْتَصَمُوا` activates `ع ص م` B001, taking a restraining hold that protects, with B002's holdfast; `أَخْلَصُوا` activates `خ ل ص` B001, purification into unmixed clarity, and B004, exclusive separation from sharing; `دِينَهُمْ` activates `د ي ن` B001, obedience and service. The coordinated perfect verbs assign change to four mutually reinforcing operations rather than verbal recategorization alone. The abductive move is that hypocrisy's hidden exit must be answered by repaired conduct, a stable hold, and service no longer divided among rival audiences.
+
+2. **Changed direction changes social company and opens the believers' reward.** `مَعَ ٱلْمُؤْمِنِينَ` activates `ء م ن` B002, trusting assent, as the new company; `يُؤْتِ` activates `ء ت ي` B002, granting; `أَجْرًا` activates `ء ج ر` B001, recompense; `عَظِيمًا` activates `ع ظ م` B001, greatness. The demonstrative result moves the repaired actors from the hypocrites' gathered endpoint in 4:145 into association with believers. I infer that sincere purification is socially legible through altered companionship, while reward is named collectively rather than as a separate second-class grant. The exception is restorative, not merely a reduced sentence.
+
+### Retrospective surprises
+
+4:147 explains why restoration is full rather than second-class, and 4:173 places repaired believers inside the same reward economy of complete due and surplus bounty.
+
+## 4:147 — مَّا يَفْعَلُ ٱللَّهُ بِعَذَابِكُمْ إِن شَكَرْتُمْ وَءَامَنتُمْ ۚ وَكَانَ ٱللَّهُ شَاكِرًا عَلِيمًۭا
+
+### Activated readings
+
+1. **Punishment is not an independent divine need once gratitude and trust replace rejection.** `يَفْعَلُ` activates `ف ع ل` B001, bringing an act into being; `بِعَذَابِكُمْ` activates `ع ذ ب` B005, punishment and pain. `شَكَرْتُمْ/شَاكِرًا` activates `ش ك ر` B001, recognizing a favor and making its effect visible; `آمَنتُمْ` activates `ء م ن` B002, trusting assent; `عَلِيمًا` activates `ع ل م` B001, knowledge. The rhetorical question denies punishment utility under the stated conditions, while the divine participle assigns God recognition of responsive good rather than dependence on it. I infer that punishment serves the consequence of rejected relation, not gratification of a lack. Gratitude makes received favor visible and trust stabilizes its source relation, removing the mechanism diagnosed in hypocrisy.
+
+### Retrospective surprises
+
+4:149 later lets good appear or remain hidden and pairs pardon with power, while 4:173 adds surplus after due; gratitude is measured by responsive effect, not publicity or divine need.
+
+## 4:148 — ۞ لَّا يُحِبُّ ٱللَّهُ ٱلْجَهْرَ بِٱلسُّوٓءِ مِنَ ٱلْقَوْلِ إِلَّا مَن ظُلِمَ ۚ وَكَانَ ٱللَّهُ سَمِيعًا عَلِيمًا
+
+### Activated readings
+
+1. **Public voicing of harmful speech is disfavored, but the wronged person is not forced into concealment.** Negated `يُحِبُّ` activates `ح ب ب` B002, clinging preference; `ٱلْجَهْرَ` activates `ج ه ر` B001, open voicing, with B002's visible manifestation; `بِٱلسُّوءِ` activates `س و ء` B001/B002, badness and harm; `ٱلْقَوْلِ` activates `ق و ل` B001, articulated speech. The exception `مَن ظُلِمَ` activates `ظ ل م` B008, one whose right was withheld, and B004, one subjected to misplacement. I assign the general rule a restraint on broadcasting harmful speech and the exception a voice-restoring role for its victim. The abductive move is that suppressing the wronged person's account would repeat the original withholding under the guise of civility. `سَمِيعًا` (`س م ع` B001) and `عَلِيمًا` (`ع ل م` B001) secure both heard complaint and known circumstance.
+
+### Retrospective surprises
+
+4:149 immediately preserves pardon as an empowered option, confirming that restored voice is authorization rather than a command to publicize or retaliate; the victim retains control over the response.
+
+## 4:149 — إِن تُبْدُوا۟ خَيْرًا أَوْ تُخْفُوهُ أَوْ تَعْفُوا۟ عَن سُوٓءٍۢ فَإِنَّ ٱللَّهَ كَانَ عَفُوًّۭا قَدِيرًا
+
+### Activated readings
+
+1. **Good remains good whether visible or hidden, while pardon transforms the received harm without denying it.** `تُبْدُوا` activates `ب د و` B001, making visibly emergent; `خَيْرًا` activates `خ ي ر` B001, beneficial good; `تُخْفُوهُ` activates `خ ف ي` B001, keeping hidden. The third alternative `تَعْفُوا` activates `ع ف و` B001, leaving deserved penalty and wiping away guilt, and `سُوءٍ` activates `س و ء` B001/B002, badness or harm. The disjunction preserves public good, secret good, and pardon as distinct valid actions. I infer that 4:148's exception authorizes the victim's speech but does not trap the victim in public retaliation; pardon is an available transformation after harm has been recognized. It is offered, not used to erase the permission to speak.
+
+2. **Pardon is paired with capacity, so restraint is not equated with powerlessness.** `عَفُوًّا` repeats `ع ف و` B001; `قَدِيرًا` activates `ق د ر` B003, capacity reaching effective control, grounded in B001's measured extent. The divine pairing presents nonpunishment alongside undiminished power. The abductive analogy is that human pardon can likewise be a controlled relinquishment of penalty rather than inability to respond. This distinguishes forgiving from the constrained silence rejected in 4:148.
+
+### Retrospective surprises
+
+No later ayah displaced the capacity reading; the full walk reinforced it through 4:173, where lack of alternate aid exposes powerlessness, whereas pardon here is chosen while effective capacity remains.
+
+## 4:150 — إِنَّ ٱلَّذِينَ يَكْفُرُونَ بِٱللَّهِ وَرُسُلِهِۦ وَيُرِيدُونَ أَن يُفَرِّقُوا۟ بَيْنَ ٱللَّهِ وَرُسُلِهِۦ وَيَقُولُونَ نُؤْمِنُ بِبَعْضٍۢ وَنَكْفُرُ بِبَعْضٍۢ وَيُرِيدُونَ أَن يَتَّخِذُوا۟ بَيْنَ ذَٰلِكَ سَبِيلًا
+
+### Activated readings
+
+1. **Selective acceptance attempts to manufacture a middle path by partitioning an integrated source-message relation.** `يَكْفُرُونَ/نَكْفُرُ` activates `ك ف ر` B003, rejecting or covering truth; `رُسُلِهِ` activates `ر س ل` B002, messengers and carried messages; repeated `يُرِيدُونَ` activates `ر و د` B001, will. `يُفَرِّقُوا` activates `ف ر ق` B001, distinguishing and separating; `بَيْنَ` activates `ب ي ن` B002, an interval; repeated `بَعْضٍ` activates `ب ع ض` B001, a portion contrasted with the whole; `نُؤْمِنُ` activates `ء م ن` B002, trusting assent; `يَتَّخِذُوا` activates `ء خ ذ` B001, taking; `سَبِيلًا` activates `س ب ل` B001, a traversed way. I assign the “some/some” speech the partitioning operation and the desired interval the imagined route it is meant to open. The abductive move is that messengers carry relation to the same source, so accepting selected carriers while rejecting others breaks the relation claimed through them. The midpoint is willed but not made traversable.
+
+### Retrospective surprises
+
+4:163-4:166 answer the willed partition with a broad, nonexhaustive messenger continuum and source-level testimony; distinction among carriers never produces a traversable middle between acceptance and rejection.
+
+## 4:151 — أُو۟لَٰٓئِكَ هُمُ ٱلْكَٰفِرُونَ حَقًّۭا ۚ وَأَعْتَدْنَا لِلْكَٰفِرِينَ عَذَابًۭا مُّهِينًۭا
+
+### Activated readings
+
+1. **The attempted compromise realizes rejection in firm truth and meets prepared abasement.** `ٱلْكَافِرُونَ` activates `ك ف ر` B003, rejecters of truth; `حَقًّا` activates `ح ق ق` B001, firm reality against falsehood. `أَعْتَدْنَا` activates `ع ت د` B001, preparing and keeping present; `عَذَابًا` activates `ع ذ ب` B005, punishment; `مُهِينًا` activates `ه و ن` B003, humiliation through contempt. The emphatic pronoun and `حَقًّا` remove the intermediate identity sought in 4:150: selective trust is not partial success but actualized rejection. I infer that its punishment targets the honor implicit in self-authorized selection; those who placed themselves above the messenger relation receive consequence that strips that false standing.
+
+### Retrospective surprises
+
+4:172-4:173 later tie proud refusal of service to painful punishment and absent aid, confirming humiliation as the matched collapse of a self-authorized rank above the messenger relation.
+
+## 4:152 — وَٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ وَلَمْ يُفَرِّقُوا۟ بَيْنَ أَحَدٍۢ مِّنْهُمْ أُو۟لَٰٓئِكَ سَوْفَ يُؤْتِيهِمْ أُجُورَهُمْ ۗ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۭا
+
+### Activated readings
+
+1. **Integrated trust refuses selective rejection without erasing distinct messengers.** `آمَنُوا` activates `ء م ن` B002, trusting assent; `رُسُلِهِ` activates `ر س ل` B002, plural messengers and messages. Negated `يُفَرِّقُوا` activates `ف ر ق` B001, separating; `بَيْنَ` activates `ب ي ن` B002, the interval among them; `أَحَدٍ` activates `ء ح د` B002, exhaustive anyone under negation. The plural and interval preserve personal distinction, while exhaustive negation prevents that distinction from becoming selective source acceptance. `يُؤْتِيهِمْ` activates `ء ت ي` B002, granting; `أُجُورَهُمْ` activates `ء ج ر` B001, their recompenses; `غَفُورًا` activates `غ ف ر` B002 and `رَحِيمًا` activates `ر ح م` B001. I infer that wholeness of trust, not sameness of messenger identity, opens the grant. Forgiving cover and mercy meet imperfect followers who keep the relation undivided.
+
+### Retrospective surprises
+
+4:163-4:166 validate this integrated trust through recurring revelation, narrated and unnarrated messengers, differentiated communication, and sufficient testimony; unity does not require flattening prophetic distinctions.
+
+## 4:153 — يَسْـَٔلُكَ أَهْلُ ٱلْكِتَٰبِ أَن تُنَزِّلَ عَلَيْهِمْ كِتَٰبًۭا مِّنَ ٱلسَّمَآءِ ۚ فَقَدْ سَأَلُوا۟ مُوسَىٰٓ أَكْبَرَ مِن ذَٰلِكَ فَقَالُوٓا۟ أَرِنَا ٱللَّهَ جَهْرَةًۭ فَأَخَذَتْهُمُ ٱلصَّٰعِقَةُ بِظُلْمِهِمْ ۚ ثُمَّ ٱتَّخَذُوا۟ ٱلْعِجْلَ مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَٰتُ فَعَفَوْنَا عَن ذَٰلِكَ ۚ وَءَاتَيْنَا مُوسَىٰ سُلْطَٰنًۭا مُّبِينًۭا
+
+### Activated readings
+
+1. **Demand for open spectacle does not produce stable trust.** Repeated `يَسْأَلُكَ/سَأَلُوا` activates `س ء ل` B001, asking or requesting; `تُنَزِّلَ` activates `ن ز ل` B002, causing a book (`ك ت ب` B002) to descend from `ٱلسَّمَاءِ` (`س م و` B004), the overhead sky. `أَكْبَرَ` activates `ك ب ر` B001, greater degree; `أَرِنَا` activates `ر ء ي` B012, make us see; `جَهْرَةً` activates `ج ه ر` B002, plain visible manifestation. `ٱلصَّاعِقَةُ` activates `ص ع ق` B002, sky-borne thunderbolt, with B003's stunning effect; `بِظُلْمِهِم` activates `ظ ل م` B004/B008, misplacement and withheld right. The historical comparison assigns the present request a known escalation-pattern: externally enlarged proof can become a demand for unmediated sight. I infer that trust cannot be secured by making the sign increasingly spectacular when the requester retains authority to set each new threshold.
+
+2. **Clear signs can still be followed by a substitute object, yet pardon and decisive warrant continue the mission.** `ٱتَّخَذُوا` activates `ء خ ذ` B001, taking; `ٱلْعِجْلَ` activates `ع ج ل` B002, calf; `مِن بَعْدِ` activates `ب ع د` B002, after; `ٱلْبَيِّنَاتُ` activates `ب ي ن` B004, clear signs. `فَعَفَوْنَا` activates `ع ف و` B001, leaving punishment and wiping guilt; `آتَيْنَا` activates `ء ت ي` B002, granting; `سُلْطَانًا` activates `س ل ط` B002, decisive proof or warrant; `مُبِينًا` repeats `ب ي ن` B004, manifest clarity. The sequence demonstrates that evidence clarity and recipient fidelity are distinct variables. The abductive move is that failure after signs does not make further authority pointless: pardon removes the terminal consequence while clear warrant equips renewed guidance.
+
+### Retrospective surprises
+
+4:166 and 4:174 later relocate validation from demanded spectacle to informed testimony, established proof, and illuminating disclosure; escalating visual thresholds are unnecessary when source and navigation are secured.
+
+## 4:154 — وَرَفَعْنَا فَوْقَهُمُ ٱلطُّورَ بِمِيثَٰقِهِمْ وَقُلْنَا لَهُمُ ٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًۭا وَقُلْنَا لَهُمْ لَا تَعْدُوا۟ فِى ٱلسَّبْتِ وَأَخَذْنَا مِنْهُم مِّيثَٰقًا غَلِيظًۭا
+
+### Activated readings
+
+1. **The covenant is made spatially and bodily weighty through elevation, humbled entry, and temporal restraint.** `رَفَعْنَا` activates `ر ف ع` B001, raising upward; `فَوْقَهُم` activates `ف و ق` B001, above in place; `ٱلطُّورَ` activates `ط و ر` B005, the Mount; repeated `مِيثَاق` activates `و ث ق` B004, firm covenant grounded in B002's fastening. `ٱدْخُلُوا` activates `د خ ل` B001, entering; `ٱلْبَابَ` activates `ب و ب` B001, door; `سُجَّدًا` activates `س ج د` B001, lowering in humble submission. Negated `تَعْدُوا` activates `ع د و` B001, overstepping a bound; `ٱلسَّبْتِ` activates `س ب ت` B003, Sabbath and cessation of work; `غَلِيظًا` activates `غ ل ظ` B003, legal intensification, with B002's severity. I assign the Mount the covenant's overhead pressure, prostration its bodily reception, and Sabbath restraint its recurring enacted boundary. The abductive move is that verbal assent is fastened into space, posture, and time so selective obedience cannot remain abstract.
+
+### Retrospective surprises
+
+4:162's maintained worship and purifying transfer, then 4:171-4:172's undivided service, confirmed that covenant becomes durable only when verbal charge is repeatedly embodied in posture, time, restraint, and giving.
+
+## 4:155 — فَبِمَا نَقْضِهِم مِّيثَٰقَهُمْ وَكُفْرِهِم بِـَٔايَٰتِ ٱللَّهِ وَقَتْلِهِمُ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّۢ وَقَوْلِهِمْ قُلُوبُنَا غُلْفٌۢ ۚ بَلْ طَبَعَ ٱللَّهُ عَلَيْهَا بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًۭا
+
+### Activated readings
+
+1. **The sealed heart is presented as consequence of accumulated covenantal breaches, not as the actors' original excuse.** `نَقْضِهِم` activates `ن ق ض` B001, undoing what was made firm; `مِيثَاقَهُمْ` activates `و ث ق` B004, firm covenant; `كُفْرِهِم` activates `ك ف ر` B003, rejection; `آيَاتِ` activates `ء ي ي` B003, visible signs. `قَتْلِهِم` activates `ق ت ل` B001, killing, of `ٱلْأَنبِيَاءَ`, activating `ن ب ء` B003, recipients of divine informing, `بِغَيْرِ حَقٍّ`, where `غ ي ر` B005 negates `ح ق ق` B002/B003, due right. The coordinated causes precede their claim `قُلُوبُنَا غُلْفٌ`, where `ق ل ب` B001 is the inward faculty and `غ ل ف` B001 a sheath around a thing. `بَلْ` then replaces their account with `طَبَعَ`, `ط ب ع` B001, divine sealing, explicitly `بِكُفْرِهِم`. I infer a feedback mechanism: repeated chosen breaches produce the closure later invoked to explain nonresponse.
+
+2. **The seal sharply restricts assent without grammatically erasing every instance.** Negated `يُؤْمِنُونَ` activates `ء م ن` B002, trusting assent, and `إِلَّا قَلِيلًا` activates `ق ل ل` B001, fewness. The exception leaves “few” visible, whether read as a few persons or little believing response, while the dominant condition remains closure. I retain both scopes because the clipped nominal exception does not specify its supplied noun. The reading changes the seal from absolute metaphysical incapacity into severe restriction whose residual exception the text does not flatten.
+
+### Retrospective surprises
+
+4:162's faithful subgroup prevents the sealing sequence from becoming a group essence, while 4:167-4:169 confirms its causal form: sustained rejection plus injustice hardens into a consequence-road.
+
+## 4:156 — وَبِكُفْرِهِمْ وَقَوْلِهِمْ عَلَىٰ مَرْيَمَ بُهْتَٰنًا عَظِيمًۭا
+
+### Activated readings
+
+1. **Rejection becomes a great burden through confounding accusation against Mary.** `بِكُفْرِهِم` activates `ك ف ر` B003, rejection of truth; `قَوْلِهِمْ` activates `ق و ل` B001, articulated speech; `بُهْتَانًا` activates `ب ه ت` B002, false accusation that confounds an innocent person; `عَظِيمًا` activates `ع ظ م` B001, greatness. The causal continuation from 4:155 adds speech-harm to covenant breach and physical killing. I infer that rejection is not confined to inward refusal; it generates a public claim whose shock attempts to relocate disgrace onto an innocent woman. The accusation tries to move the rejecters' burden onto its target.
+
+### Retrospective surprises
+
+4:157 immediately exposes unsupported confidence as conjecture, and 4:171 restores Mary and Jesus to truth-bounded relational predicates; accusation cannot determine the reality it tries to stain.
+
+## 4:157 — وَقَوْلِهِمْ إِنَّا قَتَلْنَا ٱلْمَسِيحَ عِيسَى ٱبْنَ مَرْيَمَ رَسُولَ ٱللَّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَٰكِن شُبِّهَ لَهُمْ ۚ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِيهِ لَفِى شَكٍّۢ مِّنْهُ ۚ مَا لَهُم بِهِۦ مِنْ عِلْمٍ إِلَّا ٱتِّبَاعَ ٱلظَّنِّ ۚ وَمَا قَتَلُوهُ يَقِينًۢا
+
+### Activated readings
+
+1. **The boast of killing is directly denied, while the passive resemblance clause withholds a replacement narrative.** Their `قَوْلِهِم` activates `ق و ل` B001, articulated claim; repeated `قَتَلْنَا/قَتَلُوهُ` activates `ق ت ل` B001, killing; `ٱبْنَ` activates `ب ن ي` B007, filiation; `رَسُولَ` activates `ر س ل` B002, messenger. Negated `صَلَبُوهُ` activates `ص ل ب` B005, crucifixion by fastening. `شُبِّهَ لَهُمْ` activates `ش ب ه` B001, resemblance in form or quality, and B002, ambiguity caused by similarity. Because the verb is passive and supplies no named substitute, I assign it only the role the syntax supports: likeness or likeness-induced confusion occurred for them. The abductive move is that the claimants converted uncertain appearance into confident authorship of death; the text cancels that inference without filling the unstated agent/object slot.
+
+2. **Disagreement is sustained by conjecture where settled knowledge is absent.** `ٱخْتَلَفُوا` activates `خ ل ف` B004, taking contrary courses; `شَكٍّ` activates `ش ك ك` B001, interlocked alternatives without certainty; negated `عِلْمٍ` activates `ع ل م` B001, knowledge. `ٱتِّبَاعَ` activates `ت ب ع` B001, following; `ٱلظَّنِّ` activates `ظ ن ن` B003, uncertain supposition; `يَقِينًا` activates `ي ق ن` B001, settled knowledge with doubt removed. The exception makes conjecture the only positive mechanism available to the disputants, while the final emphatic negation attaches certainty to non-killing. I infer that repetition of a claim cannot upgrade its evidentiary basis. The ayah separates confidence from knowledge by tracing what is actually followed.
+
+### Retrospective surprises
+
+4:166's source-level testimony and 4:174's proof-plus-light complete the epistemic correction: passive resemblance cannot support a filled-in substitute narrative, and repeated conjecture cannot become knowledge.
+
+## 4:158 — بَل رَّفَعَهُ ٱللَّهُ إِلَيْهِ ۚ وَكَانَ ٱللَّهُ عَزِيزًا حَكِيمًۭا
+
+### Activated readings
+
+1. **Divine elevation replaces the human killing claim as the controlling outcome.** `بَلْ` displaces the prior account; `رَفَعَهُ` activates `ر ف ع` B001, raising upward, with B002's elevation of rank; `إِلَيْهِ` gives the raising a divine destination. `عَزِيزًا` activates `ع ز ز` B001, invulnerable might, and `حَكِيمًا` activates `ح ك م` B003/B004, rightly guided, firm wisdom. I assign elevation the event that prevents the claimed human endpoint from governing the narrative. The abductive move is that divine might blocks hostile possession of the outcome, while wisdom indicates purposeful placement rather than arbitrary escape. The terse clause answers an overconfident causal claim with a different agent and direction.
+
+### Retrospective surprises
+
+4:172 immediately prevents elevation from becoming divinization: the elevated Messiah does not refuse service, so raised direction and bestowed rank remain compatible with dependent servanthood.
+
+## 4:159 — وَإِن مِّنْ أَهْلِ ٱلْكِتَٰبِ إِلَّا لَيُؤْمِنَنَّ بِهِۦ قَبْلَ مَوْتِهِۦ ۖ وَيَوْمَ ٱلْقِيَٰمَةِ يَكُونُ عَلَيْهِمْ شَهِيدًۭا
+
+### Activated readings
+
+1. **On the distributive reading, each scripture person's death becomes the boundary before compelled clarification.** `أَهْلِ ٱلْكِتَابِ` activates `ء ه ل` B001, belonging, and `ك ت ب` B002, written book; emphatic `لَيُؤْمِنَنَّ` activates `ء م ن` B002, trusting assent; `قَبْلَ` activates `ق ب ل` B002, priorness; `مَوْتِهِ` activates `م و ت` B001, loss of life. If the singular death pronoun returns distributively to each member implied by the restrictive construction, every person's death is the deadline before belief in him. I infer that uncertainty described in 4:157 cannot be carried indefinitely as neutral: death closes the period in which conjecture can masquerade as knowledge.
+
+2. **On the Jesus-antecedent reading, collective recognition precedes his death and culminates in his testimony.** The same `مَوْتِهِ` (`م و ت` B001) can return to the nearest sustained singular referent from 4:157–4:158, Jesus, making his death the shared temporal boundary for emphatic assent (`ء م ن` B002). `يَوْمَ ٱلْقِيَامَةِ` activates `ق و م` B013, resurrection and standing; `شَهِيدًا` activates `ش ه د` B002, attesting witness, grounded in B001's presence. I retain this separately because the pronoun permits it and because the witness clause keeps him as explicit singular subject. In both readings, disputed human testimony is replaced by a future assent-boundary and his final testimony over them.
+
+### Retrospective surprises
+
+4:166 expands the testimony network to God and angels, confirming that Jesus' future witness belongs to layered source-validation and final accountability rather than solitary evidentiary authority.
+
+## 4:160 — فَبِظُلْمٍۢ مِّنَ ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا عَلَيْهِمْ طَيِّبَٰتٍ أُحِلَّتْ لَهُمْ وَبِصَدِّهِمْ عَن سَبِيلِ ٱللَّهِ كَثِيرًۭا
+
+### Activated readings
+
+1. **Formerly lawful good things become barred as a consequence of injustice and repeated obstruction, not intrinsic foulness.** `بِظُلْمٍ` activates `ظ ل م` B004/B008, misplacement and withholding of rights; `ٱلَّذِينَ هَادُوا` activates `ه و د` B002, those identified with the Jewish way. `حَرَّمْنَا` activates `ح ر م` B001, forbidding and barring; `طَيِّبَاتٍ` activates `ط ي ب` B001, good, pure, wholesome things; `أُحِلَّتْ` activates `ح ل ل` B003, removal of prohibition. `بِصَدِّهِم` activates `ص د د` B001, turning aside and blocking; `سَبِيلِ` activates `س ب ل` B001, a traversed way; `كَثِيرًا` activates `ك ث ر` B001, abundance or repeated extent. The causal prepositions assign wrongdoing and extensive obstruction the mechanism of restriction, while “good things” retains their positive quality. I infer that legal barring can discipline a community's relation to goods without redefining the goods as bad in themselves.
+
+### Retrospective surprises
+
+4:161 specifies the economic mechanism behind the restriction, while 4:162 immediately isolates faithful knowers from the group verdict; consequence follows enacted obstruction and extraction, not intrinsic goods or ancestry.
+
+## 4:161 — وَأَخْذِهِمُ ٱلرِّبَوٰا۟ وَقَدْ نُهُوا۟ عَنْهُ وَأَكْلِهِمْ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَٰطِلِ ۚ وَأَعْتَدْنَا لِلْكَٰفِرِينَ مِنْهُمْ عَذَابًا أَلِيمًۭا
+
+### Activated readings
+
+1. **Economic increase becomes condemned extraction when taken against restraint and by void means.** `أَخْذِهِم` activates `ء خ ذ` B001, taking into possession; `ٱلرِّبَوَا` activates `ر ب و` B003, usurious surplus grounded in B001's increase; `نُهُوا` activates `ن ه ي` B001, being restrained from an act. `أَكْلِهِمْ` activates `ء ك ل` B004, consuming or misappropriating wealth; `أَمْوَالَ` activates `م و ل` B001, possessed property; `بِٱلْبَاطِلِ` activates `ب ط ل` B001, voidness lacking truth or stability. The coordinated acts join prohibited surplus to wealth-consumption by invalid means. I infer that the offense is not abstract numerical growth but an acquisition mechanism that makes another's property consumable despite a known boundary. `أَعْتَدْنَا` (`ع ت د` B001), prepared, and `عَذَابًا أَلِيمًا` (`ع ذ ب` B005; `ء ل م` B002), painful punishment, return that extraction to the rejecters among them rather than indiscriminately to the whole group.
+
+### Retrospective surprises
+
+4:176 closes by preventing deviation through exact kinship shares, confirming the inverse: wealth remains sound when explicit relation and due block surplus-taking from becoming void consumption.
+
+## 4:162 — لَّٰكِنِ ٱلرَّٰسِخُونَ فِى ٱلْعِلْمِ مِنْهُمْ وَٱلْمُؤْمِنُونَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ ۚ وَٱلْمُقِيمِينَ ٱلصَّلَوٰةَ ۚ وَٱلْمُؤْتُونَ ٱلزَّكَوٰةَ وَٱلْمُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ أُو۟لَٰٓئِكَ سَنُؤْتِيهِمْ أَجْرًا عَظِيمًا
+
+### Activated readings
+
+1. **Firmly rooted knowledge prevents group history from becoming an indiscriminate verdict.** The adversative `لَكِن` and `مِنْهُمْ` isolate a subgroup; `ٱلرَّاسِخُونَ` activates `ر س خ` B002, knowledge firmly rooted in the heart, grounded in B001's fixed settlement; `ٱلْعِلْمِ` activates `ع ل م` B001, knowledge. Repeated `ٱلْمُؤْمِنُونَ/يُؤْمِنُونَ` activates `ء م ن` B002, trusting assent; repeated `أُنزِلَ` activates `ن ز ل` B002, revelation sent down, both present and `مِن قَبْلِكَ` (`ق ب ل` B002), prior. The contrast assigns rootedness the capacity to receive continuity rather than partition it. I infer that stable knowledge penetrates below collective identity and produces recognition across revelations.
+
+2. **Rooted assent becomes maintained worship, purifying transfer, and later-horizon trust.** `ٱلْمُقِيمِينَ` activates `ق و م` B004, maintaining and sustaining; `ٱلصَّلَاةَ` activates `ص ل و` B003, prescribed worship; `ٱلْمُؤْتُونَ` activates `ء ت ي` B002, giving; `ٱلزَّكَاةَ` activates `ز ك و` B001/B002, growth and purification; `ٱلْيَوْمِ ٱلْآخِرِ` activates `ء خ ر` B001, the later day. `سَنُؤْتِيهِم` repeats `ء ت ي` B002 as divine granting; `أَجْرًا` activates `ء ج ر` B001 and `عَظِيمًا` activates `ع ظ م` B001. The human giving and divine giving form a reciprocal structure around maintained practice. I infer that knowledge is “rooted” when it sustains repeated embodied and economic action; reward answers that full architecture rather than ancestry.
+
+### Retrospective surprises
+
+4:163-4:166 immediately broaden the continuity that rooted assent receives, and 4:173 later promises full recompense plus surplus; the exception is integrated into the same revelation and reward architecture.
+
+## 4:163 — ۞ إِنَّآ أَوْحَيْنَآ إِلَيْكَ كَمَآ أَوْحَيْنَآ إِلَىٰ نُوحٍۢ وَٱلنَّبِيِّۦنَ مِنۢ بَعْدِهِۦ ۚ وَأَوْحَيْنَآ إِلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَعِيسَىٰ وَأَيُّوبَ وَيُونُسَ وَهَٰرُونَ وَسُلَيْمَٰنَ ۚ وَءَاتَيْنَا دَاوُۥدَ زَبُورًۭا
+
+### Activated readings
+
+1. **The present revelation is normalized by a repeated hidden-imparting mechanism across diverse prophetic lines.** Repeated `أَوْحَيْنَا` activates `و ح ي` B004, divine message and inspiration, grounded in B001's hidden imparting of knowledge; `إِلَيْكَ/إِلَىٰ` gives each act a recipient. `ٱلنَّبِيِّينَ` activates `ن ب ء` B003, recipients of divine informing; `مِن بَعْدِهِ` activates `ب ع د` B002, ordered afterness; `ٱلْأَسْبَاطِ` activates `س ب ط` B003, descendant or tribal branches. `آتَيْنَا` activates `ء ت ي` B002, giving, and `زَبُورًا` activates `ز ب ر` B003, written scripture. The comparison and long coordination assign continuity to the mode of divine initiative while preserving different persons, generations, and lineage branches. I infer that revelation's credibility does not require novelty; recurrence across dispersed recipients is its integrating signature.
+
+### Retrospective surprises
+
+4:164 makes the named sequence explicitly nonexhaustive, while 4:171 keeps Jesus' elevated predicates source-bound; recurring revelation integrates diversity without making the visible list the whole.
+
+## 4:164 — وَرُسُلًۭا قَدْ قَصَصْنَٰهُمْ عَلَيْكَ مِن قَبْلُ وَرُسُلًۭا لَّمْ نَقْصُصْهُمْ عَلَيْكَ ۚ وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمًۭا
+
+### Activated readings
+
+1. **The recounted prophetic record is explicitly nonexhaustive.** Repeated `رُسُلًا` activates `ر س ل` B002, messengers and their carried messages; `قَصَصْنَاهُمْ/نَقْصُصْهُمْ` activates `ق ص ص` B002, sequential connected recounting, grounded in B001's trace-following; `مِن قَبْلُ` activates `ق ب ل` B002, priorness. The positive and negated clauses divide messengers into those narrated and those not narrated without changing messenger status. The abductive move is that known narrative cannot define the full set of divine sending. Selective human knowledge is therefore not a license for selective belief.
+
+2. **Moses' emphasized speech encounter is particular without breaking the common messenger continuum.** `كَلَّمَ/تَكْلِيمًا` activates `ك ل م` B001, meaningful speech exchanged with an interlocutor, intensified by the cognate accusative; God is explicit subject and Moses explicit recipient. Its placement after both narrated and unnarrated messengers assigns this encounter distinctive mode, not exclusive source. I infer that unity of revelation permits differentiated forms of communication without partitioning trust. Particularity enriches the continuum rather than rivaling it.
+
+### Retrospective surprises
+
+4:165 assigns all messenger communication the shared good-news/warning purpose, and 4:166 supplies common source-testimony; Moses' distinctive speech encounter enriches rather than fragments that continuum.
+
+## 4:165 — رُّسُلًۭا مُّبَشِّرِينَ وَمُنذِرِينَ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَى ٱللَّهِ حُجَّةٌۢ بَعْدَ ٱلرُّسُلِ ۚ وَكَانَ ٱللَّهُ عَزِيزًا حَكِيمًۭا
+
+### Activated readings
+
+1. **Messenger communication combines attractive promise and cautionary warning to remove the post-message case against God.** `رُسُلًا/ٱلرُّسُلِ` activates `ر س ل` B002, messengers and carried messages; `مُبَشِّرِينَ` activates `ب ش ر` B005, face-brightening tidings; `مُنذِرِينَ` activates `ن ذ ر` B001, warning that awakens fear and caution. Negated `حُجَّةٌ` activates `ح ج ج` B003, prevailing proof or argument; `بَعْدَ` activates `ب ع د` B002, afterness. The purpose clause assigns the two speech modes complementary evidentiary roles: good news reveals the promised end, and warning discloses the danger of refusal. I infer that an accountable choice requires both attraction and caution, not threat alone. Once both arrive through messengers, lack-of-notice cannot remain a prevailing argument.
+
+2. **Might secures delivery's authority and wisdom secures its fitting form.** `عَزِيزًا` activates `ع ز ز` B001, invulnerable might, and `حَكِيمًا` activates `ح ك م` B003/B004, rightly guided knowledge and firm decisiveness. Their placement after the removed argument assigns the mission neither weakness nor arbitrary force. The abductive move is that divine might can enforce the announced outcome, while wisdom explains why communication precedes it. Judgment follows disclosed relation rather than bare capacity.
+
+### Retrospective surprises
+
+4:166 adds informed divine and angelic testimony, while 4:174 adds established proof and illuminating clarity; disclosed evidence, not bare force, is what removes the post-message argument.
+
+## 4:166 — لَّٰكِنِ ٱللَّهُ يَشْهَدُ بِمَآ أَنزَلَ إِلَيْكَ ۖ أَنزَلَهُۥ بِعِلْمِهِۦ ۖ وَٱلْمَلَٰٓئِكَةُ يَشْهَدُونَ ۚ وَكَفَىٰ بِٱللَّهِ شَهِيدًا
+
+### Activated readings
+
+1. **Divine and angelic testimony validate revelation independently of contested human reception.** Repeated `يَشْهَدُ/يَشْهَدُونَ/شَهِيدًا` activates `ش ه د` B002, attesting testimony, grounded in B001's presence; repeated `أَنزَلَ/أَنزَلَهُ` activates `ن ز ل` B002, sending down; `بِعِلْمِهِ` activates `ع ل م` B001, knowledge; `ٱلْمَلَائِكَةُ` activates `م ل ك` B001, strength and cohesive holding, within their named messenger role; `كَفَىٰ` activates `ك ف ي` B001, sufficing. The adversative shifts from whether people accept the messengers to who can attest the message's source. I infer that revelation sent “with His knowledge” carries informed provenance, while angelic testimony supplies created witnesses without making divine testimony dependent on them. The final sufficiency clause fixes validation at its originating source.
+
+### Retrospective surprises
+
+4:174 later pairs proof with navigational light, confirming the division of labor here: testimony establishes informed provenance, while illumination makes the validated message usable as a continuing route.
+
+## 4:167 — إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ قَدْ ضَلُّوا۟ ضَلَٰلًۢا بَعِيدًا
+
+### Activated readings
+
+1. **Personal rejection becomes far deviation when it also blocks others from the traversable way.** `كَفَرُوا` activates `ك ف ر` B003, rejecting or covering truth; `صَدُّوا` activates `ص د د` B001, both turning aside and transitively blocking; `سَبِيلِ` activates `س ب ل` B001, a traversed way. Repeated `ضَلُّوا ضَلَالًا` activates `ض ل ل` B001, deviation from guidance and aim; `بَعِيدًا` activates `ب ع د` B001, remoteness. The coordination joins an inward/source relation to a social obstruction mechanism. I infer that distance grows because the rejecter does not merely leave the route but interferes with its availability to others. Harm multiplies across travelers, making deviation “far” in reach as well as position.
+
+### Retrospective surprises
+
+4:168-4:169 immediately complete the trajectory: rejection joined to injustice closes ordinary guidance and leaves the consequence-road, confirming that obstruction enlarges both reach and distance.
+
+## 4:168 — إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَظَلَمُوا۟ لَمْ يَكُنِ ٱللَّهُ لِيَغْفِرَ لَهُمْ وَلَا لِيَهْدِيَهُمْ طَرِيقًا
+
+### Activated readings
+
+1. **Rejection joined to active misplacement closes forgiving cover and ordinary route-guidance.** `كَفَرُوا` activates `ك ف ر` B003, rejection; `ظَلَمُوا` activates `ظ ل م` B004/B008, misplacing and withholding right. Negated `لِيَغْفِرَ` activates `غ ف ر` B002, forgiving shield; negated `لِيَهْدِيَهُمْ` activates `ه د ي` B001, guiding toward a way; `طَرِيقًا` activates `ط ر ق` B002, an extended road or course. The pair corresponds to 4:167's rejection and obstruction: one breaks source relation, the other distorts the shared field. I infer that cover and guidance are not arbitrarily withheld from a neutral state; the actors are sustaining the mechanisms opposed to both. The exception in 4:169 identifies the only course their trajectory now supports.
+
+### Retrospective surprises
+
+4:169 names the sole remaining road, while 4:175 supplies its positive inverse inside mercy and bounty; maintained mechanism, not arbitrary exclusion, determines which route remains traversable.
+
+## 4:169 — إِلَّا طَرِيقَ جَهَنَّمَ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًۭا
+
+### Activated readings
+
+1. **The only remaining road is the consequence-course, whose duration matches the settled trajectory.** `طَرِيقَ` repeats `ط ر ق` B002, extended road, as the exception to 4:168's negated guidance; `خَالِدِينَ` activates `خ ل د` B001, enduring permanence; `أَبَدًا` activates `ء ب د` B001, emphatic lasting duration. The exception does not restore a neutral alternative but names the road to the endpoint produced by rejection and injustice. `يَسِيرًا` activates `ي س ر` B001, ease and ready possibility, and the construction places that consequence within divine capacity without strain. I infer that human obstruction cannot obstruct final judgment: the path they blocked for others does not prevent their own deeds from forming a traversable return to consequence.
+
+### Retrospective surprises
+
+4:170's renewed universal invitation prevents the consequence-road from being misread as the audience's fixed identity, while 4:175 displays the still-offered straight alternative through trust and holdfast.
+
+## 4:170 — يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَكُمُ ٱلرَّسُولُ بِٱلْحَقِّ مِن رَّبِّكُمْ فَـَٔامِنُوا۟ خَيْرًۭا لَّكُمْ ۚ وَإِن تَكْفُرُوا۟ فَإِنَّ لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًۭا
+
+### Activated readings
+
+1. **The universal call presents assent as human benefit, not relief of divine need.** `جَاءَكُم` activates `ج ي ء` B001, coming or arrival; `ٱلرَّسُولُ` activates `ر س ل` B002, messenger and carried message; `بِٱلْحَقِّ` activates `ح ق ق` B001, firm truth; `رَبِّكُمْ` activates `ر ب ب` B002, nurturing and administering toward completion, with B001's lordship. `فَآمِنُوا` activates `ء م ن` B002, trusting assent; `خَيْرًا لَّكُمْ` activates `خ ي ر` B001, benefit directed to the addressees. The rejection alternative activates `ك ف ر` B003, while the ownership of `ٱلسَّمَاوَاتِ` (`س م و` B004) and `ٱلْأَرْضِ` (`ء ر ض` B001) remains with God. I infer that the messenger's truth continues the Lord's nurturing function, but acceptance benefits the nurtured rather than completing the owner. `عَلِيمًا` (`ع ل م` B001) and `حَكِيمًا` (`ح ك م` B003/B004) make the invitation informed and fitted, not needy persuasion.
+
+### Retrospective surprises
+
+4:171-4:173 give the invitation its final architecture: one undivided owner, honored servants who do not refuse service, full recompense for sound work, and no alternate aid for pride.
+
+## 4:171 — يَٰٓأَهْلَ ٱلْكِتَٰبِ لَا تَغْلُوا۟ فِى دِينِكُمْ وَلَا تَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ ۚ إِنَّمَا ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ رَسُولُ ٱللَّهِ وَكَلِمَتُهُۥٓ أَلْقَىٰهَآ إِلَىٰ مَرْيَمَ وَرُوحٌۭ مِّنْهُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۖ وَلَا تَقُولُوا۟ ثَلَٰثَةٌ ۚ ٱنتَهُوا۟ خَيْرًۭا لَّكُمْ ۚ إِنَّمَا ٱللَّهُ إِلَٰهٌۭ وَٰحِدٌۭ ۖ سُبْحَٰنَهُۥٓ أَن يَكُونَ لَهُۥ وَلَدٌۭ ۘ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَكَفَىٰ بِٱللَّهِ وَكِيلًۭا
+
+### Activated readings
+
+1. **Religious excess turns true relational predicates into a claim the ayah explicitly bounds.** Negated `تَغْلُوا` activates `غ ل و` B002, overstepping a proper limit; `دِينِكُمْ` activates `د ي ن` B001, religious way and submission; negated `تَقُولُوا` activates `ق و ل` B001, articulated speech; `ٱلْحَقَّ` activates `ح ق ق` B001, firm truth. Jesus is then restrictedly named `رَسُولُ`, activating `ر س ل` B002, messenger; `كَلِمَتُهُ`, activating `ك ل م` B002, a meaningful divine utterance; `أَلْقَاهَا` activates `ل ق ي` B005, casting it to Mary; `رُوحٌ مِّنْهُ` activates `ر و ح` B001, life-spirit, under a source construction. I assign “messenger,” “word cast,” and “spirit from Him” distinct relational roles without converting them into independent source-beings. The abductive move is that excess begins when predicates of sending, speech, and sourced life are detached from their one origin.
+
+2. **The prohibited number is answered by exclusive oneness, transcendence from offspring, ownership, and sufficient agency.** `ثَلَاثَةٌ` activates `ث ل ث` B001, the number three; `ٱنتَهُوا` activates `ن ه ي` B001, ceasing under restraint; `خَيْرًا لَّكُمْ` activates `خ ي ر` B001, human benefit. `وَاحِدٌ` activates `و ح د` B004, God's exclusive oneness; `سُبْحَانَهُ` activates `س ب ح` B002, declaring God free and purified from an attribution; `وَلَدٌ` activates `و ل د` B001, born offspring. Possession of the skies (`س م و` B004) and earth (`ء ر ض` B001) and `كَفَىٰ ... وَكِيلًا` (`ك ف ي` B001; `و ك ل` B006) assign undivided ownership and sufficient undertaking. I infer that offspring or numerical partition would wrongly import need, derivation, or divided agency into the owner of the whole. The corrective does not erase Jesus' named relations; it keeps them dependent on one source.
+
+### Retrospective surprises
+
+4:172 immediately makes service the interpretive control on every elevated predicate, and 4:173 makes undivided trust plus sound work the route to full due and surplus rather than divine partition.
+
+## 4:172 — لَّن يَسْتَنكِفَ ٱلْمَسِيحُ أَن يَكُونَ عَبْدًۭا لِّلَّهِ وَلَا ٱلْمَلَٰٓئِكَةُ ٱلْمُقَرَّبُونَ ۚ وَمَن يَسْتَنكِفْ عَنْ عِبَادَتِهِۦ وَيَسْتَكْبِرْ فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعًۭا
+
+### Activated readings
+
+1. **Granted nearness does not convert service into indignity.** Repeated `يَسْتَنكِفَ/يَسْتَنكِفْ` activates `ن ك ف` B004, proud refusal and drawing back; `عَبْدًا/عِبَادَتِهِ` activates `ع ب د` B003, worship and submissive service. `ٱلْمَلَائِكَةُ` activates `م ل ك` B001, strength and cohesion, and `ٱلْمُقَرَّبُونَ` activates `ق ر ب` B004, privileged nearness. The Messiah and near angels are coordinated under the same negated refusal. I infer that proximity to God intensifies rather than dissolves the servant relation; pride misreads bestowed nearness as autonomous rank. This directly controls any excess reading of 4:171's elevated predicates.
+
+2. **Voluntary withdrawal from worship ends in compulsory gathering toward the same source.** `يَسْتَكْبِرْ` activates `ك ب ر` B006, self-magnification and refusal to submit; `فَسَيَحْشُرُهُمْ` activates `ح ش ر` B001, gathering while driving to a destination; `إِلَيْهِ` gives that gathering its divine endpoint; `جَمِيعًا` activates `ج م ع` B009, totality without remainder. The conditional reverses proud distancing into unavoidable approach. The abductive move is that refusal cannot create an outside to universal ownership; it only changes willing service into compelled muster.
+
+### Retrospective surprises
+
+4:173 supplies the exact two outcomes of gathering: willing service receives completed recompense and bounty, while proud withdrawal receives pain without the independent support it presumed.
+
+## 4:173 — فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۖ وَأَمَّا ٱلَّذِينَ ٱسْتَنكَفُوا۟ وَٱسْتَكْبَرُوا۟ فَيُعَذِّبُهُمْ عَذَابًا أَلِيمًۭا وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيًّۭا وَلَا نَصِيرًۭا
+
+### Activated readings
+
+1. **Faithful sound work receives both full matched recompense and unearned surplus.** `آمَنُوا` activates `ء م ن` B002, trusting assent; `عَمِلُوا` activates `ع م ل` B001, intentional work; `ٱلصَّالِحَاتِ` activates `ص ل ح` B001, sound acts. `فَيُوَفِّيهِمْ` activates `و ف ي` B001, giving in complete fullness without shortfall; `أُجُورَهُمْ` activates `ء ج ر` B001, their recompenses; `يَزِيدُهُم` activates `ز ي د` B001, adding increase; `فَضْلِهِ` activates `ف ض ل` B003, bounty, with B001's surplus. The two verbs distinguish due return from gracious addition. I infer that divine generosity does not replace exact justice: earned work is first completed in full, then bounty exceeds equivalence.
+
+2. **Proud refusal receives pain with no substitute protector or prevailing aid.** `ٱسْتَنكَفُوا` activates `ن ك ف` B004, proud drawing back; `ٱسْتَكْبَرُوا` activates `ك ب ر` B006, self-magnification; repeated `يُعَذِّبُهُمْ عَذَابًا` activates `ع ذ ب` B005, punishment; `أَلِيمًا` activates `ء ل م` B002, pain-causing. Negated `يَجِدُونَ` activates `و ج د` B001; `مِن دُونِ` activates `د و ن` B003; `وَلِيًّا` activates `و ل ي` B003/B004, protector or ally; `نَصِيرًا` activates `ن ص ر` B001, prevailing aid. I infer that pride's claim to independent standing is tested by the absence of any alternate agency at consequence. Refusing service produces no self-sufficiency.
+
+### Retrospective surprises
+
+4:175 places the straight road itself inside mercy and bounty, confirming that the surplus after full recompense is not detached reward but sustaining provision for continued approach.
+
+## 4:174 — يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَكُم بُرْهَٰنٌۭ مِّن رَّبِّكُمْ وَأَنزَلْنَآ إِلَيْكُمْ نُورًۭا مُّبِينًۭا
+
+### Activated readings
+
+1. **Established proof and sent illumination perform complementary epistemic work.** `جَاءَكُم` activates `ج ي ء` B001, arrival; `بُرْهَانٌ` activates `ب ر ه ن` B001, proof as an established argument; `رَبِّكُمْ` activates `ر ب ب` B002, nurturing administration, with B001's lordship. `أَنزَلْنَا` activates `ن ز ل` B002, sending down; `نُورًا` activates `ن و ر` B001, light and illumination; `مُبِينًا` activates `ب ي ن` B004/B005, manifest clarity and disclosed meaning. I assign proof the role of defeating contrary claims and light the role of making the field itself perceptible. The abductive move is that argument alone can establish a conclusion while illumination enables continued navigation by it. The closing universal address receives both decisive evidence and a usable seeing-condition.
+
+### Retrospective surprises
+
+4:175 immediately joins both epistemic gifts to trusting attachment and movement: proof becomes a protective hold, and light becomes a straight, divinely guided route rather than static information.
+
+## 4:175 — فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَٱعْتَصَمُوا۟ بِهِۦ فَسَيُدْخِلُهُمْ فِى رَحْمَةٍۢ مِّنْهُ وَفَضْلٍۢ وَيَهْدِيهِمْ إِلَيْهِ صِرَٰطًۭا مُّسْتَقِيمًۭا
+
+### Activated readings
+
+1. **Trusting attachment leads into mercy and surplus, then becomes a straight route toward the same source.** `آمَنُوا` activates `ء م ن` B002, trusting assent; `ٱعْتَصَمُوا` activates `ع ص م` B001, taking a restraining hold that protects, with B002's holdfast. `فَسَيُدْخِلُهُمْ` activates `د خ ل` B001, causing entry; `رَحْمَةٍ` activates `ر ح م` B001, mercy and tenderness; `فَضْلٍ` activates `ف ض ل` B003, bounty, with B001's surplus. `يَهْدِيهِمْ` activates `ه د ي` B001, guidance; `إِلَيْهِ` gives it a divine destination; `صِرَاطًا` activates `ص ر ط` B001, a road; `مُسْتَقِيمًا` activates `ق و م` B008, straightness and uprightness. The sequence assigns the hold protection, mercy and bounty the entered environment, and guidance the continuing movement. I infer that the straight path is not merely a demand placed before the traveler: divine compassion surrounds the traveler while surplus sustains motion toward its source.
+
+### Retrospective surprises
+
+4:176 gives the route a final concrete form: comprehensive knowledge guides by disclosing exact collateral duties, so mercy and bounty terminate not in abstraction but in protected kinship allocation.
+
+## 4:176 — يَسْتَفْتُونَكَ قُلِ ٱللَّهُ يُفْتِيكُمْ فِى ٱلْكَلَٰلَةِ ۚ إِنِ ٱمْرُؤٌا۟ هَلَكَ لَيْسَ لَهُۥ وَلَدٌۭ وَلَهُۥٓ أُخْتٌۭ فَلَهَا نِصْفُ مَا تَرَكَ ۚ وَهُوَ يَرِثُهَآ إِن لَّمْ يَكُن لَّهَا وَلَدٌۭ ۚ فَإِن كَانَتَا ٱثْنَتَيْنِ فَلَهُمَا ٱلثُّلُثَانِ مِمَّا تَرَكَ ۚ وَإِن كَانُوٓا۟ إِخْوَةًۭ رِّجَالًۭا وَنِسَآءًۭ فَلِلذَّكَرِ مِثْلُ حَظِّ ٱلْأُنثَيَيْنِ ۗ يُبَيِّنُ ٱللَّهُ لَكُمْ أَن تَضِلُّوا۟ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌۢ
+
+### Activated readings
+
+1. **Collateral inheritance is resolved by a branching rule activated by absence of offspring.** Repeated `يَسْتَفْتُونَكَ/يُفْتِيكُمْ` activates `ف ت ي` B004, seeking and giving a ruling; `ٱلْكَلَالَةِ` activates `ك ل ل` B004, inheritance through kin outside the parent-child line. `ٱمْرُؤٌ` activates `م ر ء` B001, a person; `هَلَكَ` activates `ه ل ك` B001, death or perishing; negated `وَلَدٌ` activates `و ل د` B001, born offspring. `أُخْتٌ/إِخْوَةً` activates `ء خ و` B001, sibling kinship. One sister receives `نِصْفُ` (`ن ص ف` B001), half, of `مَا تَرَكَ`, where `ت ر ك` B006 is the deceased's estate; a brother `يَرِثُهَا`, activating `و ر ث` B001, receives what passes from the former holder, if she has no offspring. Two sisters activate `ث ن ي` B001, one joined to one, and `ٱلثُّلُثَانِ` activates `ث ل ث` B002, two thirds. I assign absence of descendant the gate condition and sibling number/sex the subsequent branches. The ruling converts a potentially ambiguous side-relation into an explicit decision structure.
+
+2. **The mixed-sibling rule uses a stated comparative share, and divine explanation is explicitly anti-deviation.** `رِجَالًا` activates `ر ج ل` B002, male humans; `نِسَاءً` activates `ن س و` B001, women; `ٱلذَّكَرِ` activates `ذ ك ر` B001, male; `مِثْلُ` activates `م ث ل` B001, equivalence; `حَظِّ` activates `ح ظ ظ` B001, allotted share; `ٱلْأُنثَيَيْنِ` activates `ء ن ث` B001, female, and `ث ن ي` B001, two. The male share is defined relationally as the equivalent of two female shares rather than left to customary discretion. `يُبَيِّنُ` activates `ب ي ن` B005, disclosing intended meaning; `تَضِلُّوا` activates `ض ل ل` B001, deviation from the right aim; `كُلِّ شَيْءٍ` activates `ك ل ل` B003, encompassing totality, and `عَلِيمٌ` activates `ع ل م` B001, knowledge. The purpose construction makes prevention of inheritance-error the function of explanation. I infer that the surah closes by translating comprehensive knowledge into exact kinship allocation, returning abstract guidance to a concrete due.
+
+### Retrospective surprises
+
+With no later ayah remaining, the full retrospective closes the surah's circuit: 4:0-4:1 begin with mercy, common origin, and womb-watchfulness, and 4:176 converts them into exact anti-deviation kinship due.

@@ -8,7 +8,7 @@
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:3 was decisive: `ذُرِّيَّةَ` joined to `حَمَلْنَا` activated the womb scope of `ر ح م B003`, making the opening mercy generative and preserving rather than only affective.
 
 ## 17:1 — سُبْحَٰنَ ٱلَّذِىٓ أَسْرَىٰ بِعَبْدِهِۦ لَيْلًۭا مِّنَ ٱلْمَسْجِدِ ٱلْحَرَامِ إِلَى ٱلْمَسْجِدِ ٱلْأَقْصَا ٱلَّذِى بَٰرَكْنَا حَوْلَهُۥ لِنُرِيَهُۥ مِنْ ءَايَٰتِنَآ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ
 
@@ -18,7 +18,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:6 unexpectedly sharpened the journey: its connected replenishment made the flowing scope of `س ر ي B002` look like an enabling channel within a longer sequence of directed transfers.
 
 ## 17:2 — وَءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ وَجَعَلْنَٰهُ هُدًۭى لِّبَنِىٓ إِسْرَٰٓءِيلَ أَلَّا تَتَّخِذُوا۟ مِن دُونِى وَكِيلًۭا
 
@@ -28,7 +28,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:5–7 made the custodial reading visible: dispatch, restoration, and renewed entry showed that `و ك ل B006` concerns who actually undertakes and guards the guided course.
 
 ## 17:3 — ذُرِّيَّةَ مَنْ حَمَلْنَا مَعَ نُوحٍ ۚ إِنَّهُۥ كَانَ عَبْدًۭا شَكُورًۭا
 
@@ -38,7 +38,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:8's return of the mercy root after 17:4–7's ruin-and-restoration cycle confirmed that Noah's carrying is best read as preserving a remnant capable of renewed life.
 
 ## 17:4 — وَقَضَيْنَآ إِلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ فِى ٱلْكِتَٰبِ لَتُفْسِدُنَّ فِى ٱلْأَرْضِ مَرَّتَيْنِ وَلَتَعْلُنَّ عُلُوًّۭا كَبِيرًۭا
 
@@ -48,7 +48,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:7 supplied the strongest later correction: `مَا عَلَوْا۟` makes the earlier doubled rising the explicit object of dismantling, fixing corruption as a vertical regime rather than generic disorder.
 
 ## 17:5 — فَإِذَا جَآءَ وَعْدُ أُولَىٰهُمَا بَعَثْنَا عَلَيْكُمْ عِبَادًۭا لَّنَآ أُو۟لِى بَأْسٍۢ شَدِيدٍۢ فَجَاسُوا۟ خِلَٰلَ ٱلدِّيَارِ ۚ وَكَانَ وَعْدًۭا مَّفْعُولًۭا
 
@@ -58,7 +58,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:7's repeated entry and destruction showed retrospectively that the movement through `خِلَٰلَ ٱلدِّيَارِ` in 17:5 is interior penetration with a comprehensive target.
 
 ## 17:6 — ثُمَّ رَدَدْنَا لَكُمُ ٱلْكَرَّةَ عَلَيْهِمْ وَأَمْدَدْنَٰكُم بِأَمْوَٰلٍۢ وَبَنِينَ وَجَعَلْنَٰكُمْ أَكْثَرَ نَفِيرًا
 
@@ -68,7 +68,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:7 made `نَفِيرًا` operational: the restored wealth and sons in 17:6 are inputs into a body that can again enter collective conflict, not an inert abundance list.
 
 ## 17:7 — إِنْ أَحْسَنتُمْ أَحْسَنتُمْ لِأَنفُسِكُمْ ۖ وَإِنْ أَسَأْتُمْ فَلَهَا ۚ فَإِذَا جَآءَ وَعْدُ ٱلْءَاخِرَةِ لِيَسُۥٓـُٔوا۟ وُجُوهَكُمْ وَلِيَدْخُلُوا۟ ٱلْمَسْجِدَ كَمَا دَخَلُوهُ أَوَّلَ مَرَّةٍۢ وَلِيُتَبِّرُوا۟ مَا عَلَوْا۟ تَتْبِيرًا
 
@@ -78,7 +78,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:12 unexpectedly activated the fragment-image of `ت ب ر B002`: its doubled detailing/separation made 17:7's destruction look like reduction of an elevated construction into parts.
 
 ## 17:8 — عَسَىٰ رَبُّكُمْ أَن يَرْحَمَكُمْ ۚ وَإِنْ عُدتُّمْ عُدْنَا ۘ وَجَعَلْنَا جَهَنَّمَ لِلْكَٰفِرِينَ حَصِيرًا
 
@@ -88,7 +88,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:13's neck-bound record sharpened the spatial force of `ح ص ر B004`; repeated refusal ends not just in punishment but in a closure that fixes the person inside consequence.
 
 ## 17:9 — إِنَّ هَٰذَا ٱلْقُرْءَانَ يَهْدِى لِلَّتِى هِىَ أَقْوَمُ وَيُبَشِّرُ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ أَجْرًۭا كَبِيرًۭا
 
@@ -98,7 +98,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:12–14 supplied the surprise: counted time, detailed signs, and a readable personal book turned `أَقْوَمُ` into alignment across temporal and accounting systems, not only moral superiority.
 
 ## 17:10 — وَأَنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ أَعْتَدْنَا لَهُمْ عَذَابًا أَلِيمًۭا
 
@@ -108,7 +108,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:13–15 completed the preparation image: the open book, self-reckoning, and nontransferable burden show what kind of ordered readiness `ع ت د B001` contributes.
 
 ## 17:11 — وَيَدْعُ ٱلْإِنسَٰنُ بِٱلشَّرِّ دُعَآءَهُۥ بِٱلْخَيْرِ ۖ وَكَانَ ٱلْإِنسَٰنُ عَجُولًۭا
 
@@ -118,7 +118,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:12 corrected the first impression most strongly: its measured night/day cycle shows that `عَجُولًا` collapses an interval designed for discrimination and حساب.
 
 ## 17:12 — وَجَعَلْنَا ٱلَّيْلَ وَٱلنَّهَارَ ءَايَتَيْنِ ۖ فَمَحَوْنَآ ءَايَةَ ٱلَّيْلِ وَجَعَلْنَآ ءَايَةَ ٱلنَّهَارِ مُبْصِرَةًۭ لِّتَبْتَغُوا۟ فَضْلًۭا مِّن رَّبِّكُمْ وَلِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ وَكُلَّ شَىْءٍۢ فَصَّلْنَٰهُ تَفْصِيلًۭا
 
@@ -128,7 +128,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:13–14 confirmed that cosmic detailing is not only calendrical; it anticipates an attached record that is opened and read, extending legibility from sky-time to personal account.
 
 ## 17:13 — وَكُلَّ إِنسَٰنٍ أَلْزَمْنَٰهُ طَٰٓئِرَهُۥ فِى عُنُقِهِۦ ۖ وَنُخْرِجُ لَهُۥ يَوْمَ ٱلْقِيَٰمَةِ كِتَٰبًۭا يَلْقَىٰهُ مَنشُورًا
 
@@ -138,7 +138,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:14–15 made the reversal from loose `طائر` to fixed record decisive: the person must read it personally, and no other bearer can absorb its weight.
 
 ## 17:14 — ٱقْرَأْ كِتَٰبَكَ كَفَىٰ بِنَفْسِكَ ٱلْيَوْمَ عَلَيْكَ حَسِيبًۭا
 
@@ -148,7 +148,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:15 supplied the cleanest confirmation: the explicitly nontransferable burden makes `بِنَفْسِكَ ... حَسِيبًا` a self-implicating audit rather than mere adequacy of calculation.
 
 ## 17:15 — مَّنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۚ وَلَا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ ۗ وَمَا كُنَّا مُعَذِّبِينَ حَتَّىٰ نَبْعَثَ رَسُولًۭا
 
@@ -158,7 +158,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:16–17 corrected a possible collectivist overreading: a city may fall as a unit, yet divine knowledge of servants' sins preserves the individual load-bearing rule of 17:15.
 
 ## 17:16 — وَإِذَآ أَرَدْنَآ أَن نُّهْلِكَ قَرْيَةً أَمَرْنَا مُتْرَفِيهَا فَفَسَقُوا۟ فِيهَا فَحَقَّ عَلَيْهَا ٱلْقَوْلُ فَدَمَّرْنَٰهَا تَدْمِيرًۭا
 
@@ -168,7 +168,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:18 and 17:20 sharpened the social diagnosis: immediate desire and provision to both paths show how abundance can loosen elites without abundance itself constituting a verdict.
 
 ## 17:17 — وَكَمْ أَهْلَكْنَا مِنَ ٱلْقُرُونِ مِنۢ بَعْدِ نُوحٍۢ ۗ وَكَفَىٰ بِرَبِّكَ بِذُنُوبِ عِبَادِهِۦ خَبِيرًۢا بَصِيرًۭا
 
@@ -178,7 +178,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:18's desire-to-outcome sequence made the exploratory tail image of `ذ ن ب B002` more visible: deeds trail a generation into consequences even after the cohort passes.
 
 ## 17:18 — مَّن كَانَ يُرِيدُ ٱلْعَاجِلَةَ عَجَّلْنَا لَهُۥ فِيهَا مَا نَشَآءُ لِمَن نُّرِيدُ ثُمَّ جَعَلْنَا لَهُۥ جَهَنَّمَ يَصْلَىٰهَا مَذْمُومًۭا مَّدْحُورًۭا
 
@@ -188,7 +188,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:19's matched striving and 17:21's degrees exposed the shortcut mechanism retrospectively: the immediate route bypasses both proper work and stepwise ascent.
 
 ## 17:19 — وَمَنْ أَرَادَ ٱلْءَاخِرَةَ وَسَعَىٰ لَهَا سَعْيَهَا وَهُوَ مُؤْمِنٌۭ فَأُو۟لَٰٓئِكَ كَانَ سَعْيُهُم مَّشْكُورًۭا
 
@@ -198,7 +198,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:20–21 corrected any equation of acknowledgment with material receipt: both groups receive supply, while striving is separately recognized and ranks remain differentiated.
 
 ## 17:20 — كُلًّۭا نُّمِدُّ هَٰٓؤُلَآءِ وَهَٰٓؤُلَآءِ مِنْ عَطَآءِ رَبِّكَ ۚ وَمَا كَانَ عَطَآءُ رَبِّكَ مَحْظُورًا
 
@@ -208,7 +208,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:21 was the decisive later check: provision to both sides in 17:20 is not final approval because the next ayah explicitly restores graded preference and rank.
 
 ## 17:21 — ٱنظُرْ كَيْفَ فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍۢ ۚ وَلَلْءَاخِرَةُ أَكْبَرُ دَرَجَٰتٍۢ وَأَكْبَرُ تَفْضِيلًۭا
 
@@ -218,7 +218,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:24 was the surprising correction to a simple upward hierarchy: the low, sheltering wing shows that a genuine degree of excellence may be enacted through chosen lowering rather than visible elevation.
 
 ## 17:22 — لَّا تَجْعَلْ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ فَتَقْعُدَ مَذْمُومًۭا مَّخْذُولًۭا
 
@@ -228,7 +228,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:24 clarified the posture contrast: its voluntary, non-humiliating lowering is active care, whereas 17:22's sitting and weak legs are the involuntary collapse produced by failed support.
 
 ## 17:23 — ۞ وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا ۚ إِمَّا يَبْلُغَنَّ عِندَكَ ٱلْكِبَرَ أَحَدُهُمَآ أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفٍّۢ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًۭا كَرِيمًۭا
 
@@ -238,7 +238,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:24's sheltering wing and 17:28's easy word confirmed that noble speech is part of a support system; it keeps vulnerable persons socially received even when material help is delayed.
 
 ## 17:24 — وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا
 
@@ -248,7 +248,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:26 extended the wing beyond the parent-child dyad: named kinship claims showed that reciprocal shelter belongs to a wider circulation of protected relations.
 
 ## 17:25 — رَّبُّكُمْ أَعْلَمُ بِمَا فِى نُفُوسِكُمْ ۚ إِن تَكُونُوا۟ صَٰلِحِينَ فَإِنَّهُۥ كَانَ لِلْأَوَّٰبِينَ غَفُورًۭا
 
@@ -258,7 +258,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:30's closing `خَبِيرًا بَصِيرًا` echoed 17:25's divine knowledge and sharpened the reading of return as an inward trajectory assessed across repeated allocation choices.
 
 ## 17:26 — وَءَاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ وَلَا تُبَذِّرْ تَبْذِيرًا
 
@@ -268,7 +268,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:29–30 confirmed the routing model: the hand must retain repeatable capacity, and provision itself varies by measure, so targeted giving cannot be reduced to maximal outflow.
 
 ## 17:27 — إِنَّ ٱلْمُبَذِّرِينَ كَانُوٓا۟ إِخْوَٰنَ ٱلشَّيَٰطِينِ ۖ وَكَانَ ٱلشَّيْطَٰنُ لِرَبِّهِۦ كَفُورًۭا
 
@@ -278,7 +278,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:29 supplied the decisive correction: its rejection of both a chained and totally released hand shows that `تبذير` is defective placement and sustainability, not simply a large quantity spent.
 
 ## 17:28 — وَإِمَّا تُعْرِضَنَّ عَنْهُمُ ٱبْتِغَآءَ رَحْمَةٍۢ مِّن رَّبِّكَ تَرْجُوهَا فَقُل لَّهُمْ قَوْلًۭا مَّيْسُورًۭا
 
@@ -288,7 +288,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:30 confirmed the deferred-channel reading: divinely narrowed provision explains why turning aside may be temporary, while the easy word prevents constraint from becoming rejection.
 
 ## 17:29 — وَلَا تَجْعَلْ يَدَكَ مَغْلُولَةً إِلَىٰ عُنُقِكَ وَلَا تَبْسُطْهَا كُلَّ ٱلْبَسْطِ فَتَقْعُدَ مَلُومًۭا مَّحْسُورًا
 
@@ -298,7 +298,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:30 made calibrated expansion the immediate model, and 17:34 extended preserved capacity into orphan stewardship; together they confirmed that the middle protects future action.
 
 ## 17:30 — إِنَّ رَبَّكَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ إِنَّهُۥ كَانَ بِعِبَادِهِۦ خَبِيرًۢا بَصِيرًۭا
 
@@ -308,7 +308,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:31's rejection of scarcity-driven killing and 17:35's exact scale showed that divine narrowing must be read as proportioned allocation, not as evidence authorizing panic.
 
 ## 17:31 — وَلَا تَقْتُلُوٓا۟ أَوْلَٰدَكُمْ خَشْيَةَ إِمْلَٰقٍۢ ۖ نَّحْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ ۚ إِنَّ قَتْلَهُمْ كَانَ خِطْـًۭٔا كَبِيرًۭا
 
@@ -318,7 +318,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:35 retrospectively exposed the core error: fear had treated a measured present allotment as a total future deficit, so `خِطْـًٔا` is also a catastrophic mismeasurement.
 
 ## 17:32 — وَلَا تَقْرَبُوا۟ ٱلزِّنَىٰٓ ۖ إِنَّهُۥ كَانَ فَٰحِشَةًۭ وَسَآءَ سَبِيلًۭا
 
@@ -328,7 +328,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:37 made `سَبِيلًا` unexpectedly concrete: the bad approach is a walked route, aligning the sexual boundary with the later correction of how one moves over the earth.
 
 ## 17:33 — وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۗ وَمَن قُتِلَ مَظْلُومًۭا فَقَدْ جَعَلْنَا لِوَلِيِّهِۦ سُلْطَٰنًۭا فَلَا يُسْرِف فِّى ٱلْقَتْلِ ۖ إِنَّهُۥ كَانَ مَنصُورًۭا
 
@@ -338,7 +338,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:35's upright scale confirmed that redress must remain proportionate; authority that oversteps measure would reproduce the very wrong it was granted to answer.
 
 ## 17:34 — وَلَا تَقْرَبُوا۟ مَالَ ٱلْيَتِيمِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُۥ ۚ وَأَوْفُوا۟ بِٱلْعَهْدِ ۖ إِنَّ ٱلْعَهْدَ كَانَ مَسْـُٔولًۭا
 
@@ -348,7 +348,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:35–36 sharpened the trust mechanism: fullness must be measurable and every evidentiary faculty answerable, so stewardship preserves both the asset and an auditable account of handling it.
 
 ## 17:35 — وَأَوْفُوا۟ ٱلْكَيْلَ إِذَا كِلْتُمْ وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ ۚ ذَٰلِكَ خَيْرٌۭ وَأَحْسَنُ تَأْوِيلًۭا
 
@@ -358,7 +358,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:36 expanded the “better outcome” beyond commerce: accountable hearing, sight, and heart showed that exact exchange belongs to a broader architecture of answerable evidence.
 
 ## 17:36 — وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ ۚ إِنَّ ٱلسَّمْعَ وَٱلْبَصَرَ وَٱلْفُؤَادَ كُلُّ أُو۟لَٰٓئِكَ كَانَ عَنْهُ مَسْـُٔولًۭا
 
@@ -368,7 +368,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:41 supplied the most diagnostic later case: varied recitation increasing flight demonstrates how an unanswerable perceptual pipeline can turn additional traces into additional error.
 
 ## 17:37 — وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّكَ لَن تَخْرِقَ ٱلْأَرْضَ وَلَن تَبْلُغَ ٱلْجِبَالَ طُولًۭا
 
@@ -378,27 +378,27 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:38 confirmed the gait as one member of a boundary-breaking set, while 17:42's alleged gods seeking a route showed that false magnitude repeatedly produces directional error.
 
 ## 17:38 — كُلُّ ذَٰلِكَ كَانَ سَيِّئُهُۥ عِندَ رَبِّكَ مَكْرُوهًۭا
 
 ### Activated readings
 
-1. **A heterogeneous code gathered by one boundary defect.** Lexical evidence: `س و ء B002` (harm and distress) in `سَيِّئُهُۥ`, and `ك ر ه B001` (aversion opposite satisfaction) in `مَكْرُوهًا`. Structural cue: `كُلُّ ذَٰلِكَ` gathers the preceding rules on life, sexuality, property, covenant, measure, evidence, and gait; 17:39 names the collection wisdom and repeats the ban on association. Assigned role: harm identifies their shared output, and divine aversion supplies the evaluative boundary. Abductive move: the packet groups unlike acts under one demonstrative; I infer that their common mechanism is agency exceeding a protected relation or proper measure. Reading change: the summary is not a flat list of disliked items but a diagnosis of boundary-breaking conduct across multiple domains.
+1. **A heterogeneous code gathered by one boundary defect.** Lexical evidence: `س و ء B002` (harm and distress) in `سَيِّئُهُۥ`, and `ك ر ه B001` (aversion opposite satisfaction) in `مَكْرُوهًا`. Structural cue: `كُلُّ ذَٰلِكَ` gathers the locally preceding rules on life, property, covenant, measure, evidence, and gait; 17:39 names the collection wisdom and repeats the ban on association. Assigned role: harm identifies their shared output, and divine aversion supplies the evaluative boundary. Abductive move: the packet groups unlike acts under one demonstrative; I infer that their common mechanism is agency exceeding a protected relation or proper measure. Reading change: the summary is not a flat list of disliked items but a diagnosis of boundary-breaking conduct across multiple domains.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:39 named the gathered rules `حكمة`, confirming that the common defect inferred in 17:38 is a coherent restraining architecture rather than a merely editorial list.
 
 ## 17:39 — ذَٰلِكَ مِمَّآ أَوْحَىٰٓ إِلَيْكَ رَبُّكَ مِنَ ٱلْحِكْمَةِ ۗ وَلَا تَجْعَلْ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ فَتُلْقَىٰ فِى جَهَنَّمَ مَلُومًۭا مَّدْحُورًا
 
 ### Activated readings
 
-1. **Wisdom as the restraining architecture shared by ethics and worship.** Lexical evidence: `ح ك م B001` (restraining and turning back to set right) in `ٱلْحِكْمَةِ`, and `و ح ي B003` (writing and inscription) in `أَوْحَىٰٓ`. Structural cue: `ذَٰلِكَ` points back to the limits and measures of 17:34–38, while the second half returns to 17:22's ban and 17:18's blame-plus-expulsion formula; 17:42–44 then tests the logic of plural gods. Assigned role: revelation inscribes the code, and wisdom functions as its bridle, turning action from excess toward right order. Abductive move: the packet explicitly joins practical commands and monotheism; I infer that both restrain the same impulse to assign authority beyond its proper locus. Reading change: the repeated theological prohibition is the governing limit of the ethical architecture, not an unrelated addendum.
+1. **Wisdom as the restraining architecture shared by ethics and worship.** Lexical evidence: `ح ك م B001` (restraining and turning back to set right) in `ٱلْحِكْمَةِ`, and `و ح ي B003` (writing and inscription) in `أَوْحَىٰٓ`. Structural cue: `ذَٰلِكَ` points back to the limits and measures of 17:34–38, while the second half places the same restraint directly in worship; 17:42–44 then tests the logic of plural gods. Assigned role: revelation inscribes the code, and wisdom functions as its bridle, turning action from excess toward right order. Abductive move: the packet explicitly joins practical commands and monotheism; I infer that both restrain the same impulse to assign authority beyond its proper locus. Reading change: the theological prohibition is the governing limit of the ethical architecture, not an unrelated addendum.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:42–44 made the governing relation visible: plural authority collapses into dependent seeking, whereas the entire cosmos is already ordered in praise of the one Lord.
 
 ## 17:40 — أَفَأَصْفَىٰكُمْ رَبُّكُم بِٱلْبَنِينَ وَٱتَّخَذَ مِنَ ٱلْمَلَٰٓئِكَةِ إِنَٰثًا ۚ إِنَّكُمْ لَتَقُولُونَ قَوْلًا عَظِيمًۭا
 
@@ -408,7 +408,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:44 provided the sharpest reversal: universal cosmic praise exposes the speakers' selective allocation in 17:40 as a projection of their own value hierarchy, not a report about creation.
 
 ## 17:41 — وَلَقَدْ صَرَّفْنَا فِى هَٰذَا ٱلْقُرْءَانِ لِيَذَّكَّرُوا۟ وَمَا يَزِيدُهُمْ إِلَّا نُفُورًۭا
 
@@ -418,7 +418,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:45–46 supplied the missing conversion mechanism: a relational veil, heart-covers, and ear-weight explain how additional Qur'anic variation can be processed as additional flight.
 
 ## 17:42 — قُل لَّوْ كَانَ مَعَهُۥٓ ءَالِهَةٌۭ كَمَا يَقُولُونَ إِذًۭا لَّٱبْتَغَوْا۟ إِلَىٰ ذِى ٱلْعَرْشِ سَبِيلًۭا
 
@@ -428,7 +428,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:44 was decisive: when every thing already praises, the alleged gods of 17:42 cannot be independent power centers; they too would occupy a dependent route within the created order.
 
 ## 17:43 — سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يَقُولُونَ عُلُوًّۭا كَبِيرًۭا
 
@@ -438,7 +438,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:44 confirmed transcendence through universal praise, while 17:48's loss of route showed the human consequence of forcing divine height back into a competitive geometry.
 
 ## 17:44 — تُسَبِّحُ لَهُ ٱلسَّمَٰوَٰتُ ٱلسَّبْعُ وَٱلْأَرْضُ وَمَن فِيهِنَّ ۚ وَإِن مِّن شَىْءٍ إِلَّا يُسَبِّحُ بِحَمْدِهِۦ وَلَٰكِن لَّا تَفْقَهُونَ تَسْبِيحَهُمْ ۗ إِنَّهُۥ كَانَ حَلِيمًا غَفُورًۭا
 
@@ -448,7 +448,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:45–46 corrected any assumption that `لَا تَفْقَهُونَ` means creation is mute: the later partition and weighted ears locate the failure squarely in human reception.
 
 ## 17:45 — وَإِذَا قَرَأْتَ ٱلْقُرْءَانَ جَعَلْنَا بَيْنَكَ وَبَيْنَ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ حِجَابًۭا مَّسْتُورًۭا
 
@@ -458,7 +458,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:46 mapped the veil onto specific organs, confirming that the hidden partition of 17:45 is realized as a layered failure of hearing, integration, and bodily orientation.
 
 ## 17:46 — وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ ءَاذَانِهِمْ وَقْرًۭا ۚ وَإِذَا ذَكَرْتَ رَبَّكَ فِى ٱلْقُرْءَانِ وَحْدَهُۥ وَلَّوْا۟ عَلَىٰٓ أَدْبَٰرِهِمْ نُفُورًۭا
 
@@ -468,7 +468,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:47 added the retrospective surprise: private counsel supplies a social cover around the sensory covers, so retreat is produced by coalition-framed listening as well as blocked organs.
 
 ## 17:47 — نَّحْنُ أَعْلَمُ بِمَا يَسْتَمِعُونَ بِهِۦٓ إِذْ يَسْتَمِعُونَ إِلَيْكَ وَإِذْ هُمْ نَجْوَىٰٓ إِذْ يَقُولُ ٱلظَّٰلِمُونَ إِن تَتَّبِعُونَ إِلَّا رَجُلًۭا مَّسْحُورًا
 
@@ -478,7 +478,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:48–49 showed the filter's downstream output: “bewitched” becomes a family of path-destroying representations, including the claim that fragmented bodies cannot return.
 
 ## 17:48 — ٱنظُرْ كَيْفَ ضَرَبُوا۟ لَكَ ٱلْأَمْثَالَ فَضَلُّوا۟ فَلَا يَسْتَطِيعُونَ سَبِيلًۭا
 
@@ -488,7 +488,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:49–51 supplied the concrete bad maps, and 17:52 supplied their correction: a single effective call creates the route of return the objectors declared unavailable.
 
 ## 17:49 — وَقَالُوٓا۟ أَءِذَا كُنَّا عِظَٰمًۭا وَرُفَٰتًا أَءِنَّا لَمَبْعُوثُونَ خَلْقًۭا جَدِيدًۭا
 
@@ -498,7 +498,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:52 was the decisive later activation: immediate answering by the formerly dispersed made `ب ع ث B001` read as responsive reorganization, not only renewed material motion.
 
 ## 17:50 — ۞ قُلْ كُونُوا۟ حِجَارَةً أَوْ حَدِيدًا
 
@@ -508,7 +508,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:51's appeal to first formation and 17:52's group response showed that neither density nor resistance matters once the relevant power is originary and vocative.
 
 ## 17:51 — أَوْ خَلْقًۭا مِّمَّا يَكْبُرُ فِى صُدُورِكُمْ ۚ فَسَيَقُولُونَ مَن يُعِيدُنَا ۖ قُلِ ٱلَّذِى فَطَرَكُمْ أَوَّلَ مَرَّةٍۢ ۚ فَسَيُنْغِضُونَ إِلَيْكَ رُءُوسَهُمْ وَيَقُولُونَ مَتَىٰ هُوَ ۖ قُلْ عَسَىٰٓ أَن يَكُونَ قَرِيبًۭا
 
@@ -518,7 +518,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:52 converted the question “who returns us?” into an enacted call-and-answer, and 17:56 later reinforced that no alleged intermediary owns either removal or transformation.
 
 ## 17:52 — يَوْمَ يَدْعُوكُمْ فَتَسْتَجِيبُونَ بِحَمْدِهِۦ وَتَظُنُّونَ إِن لَّبِثْتُمْ إِلَّا قَلِيلًۭا
 
@@ -528,17 +528,17 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:53 supplied a surprising analogue: speech can also reorganize a living group, but unlike the resurrection call it must be carefully chosen because the interval can be exploited for discord.
 
 ## 17:53 — وَقُل لِّعِبَادِى يَقُولُوا۟ ٱلَّتِى هِىَ أَحْسَنُ ۚ إِنَّ ٱلشَّيْطَٰنَ يَنزَغُ بَيْنَهُمْ ۚ إِنَّ ٱلشَّيْطَٰنَ كَانَ لِلْإِنسَٰنِ عَدُوًّۭا مُّبِينًۭا
 
 ### Activated readings
 
-1. **Skillful speech prevents the interval from becoming a conflict channel.** Lexical evidence: `ح س ن B002` (beneficent or skillful good action) in `أَحْسَنُ`, `ن ز غ B001` (corrupting relations and inciting discord) in `يَنزَغُ`, and `ب ي ن B002` (the interval and middle between things) in `بَيْنَهُمْ`. Structural cue: 17:47–51 displays labels and examples that make a route impossible, 17:52 shows a call producing coordinated response, and 17:54 limits the messenger's custodial role. Assigned role: the best saying is a skilled relational act; incitement exploits the interval between persons and converts it into separation. Abductive move: the packet locates satanic action `between them`; I infer that speech quality either seals or widens that opening. Reading change: choosing the best expression is conflict infrastructure: it blocks an adversary from weaponizing the social gap.
+1. **Skillful speech prevents the interval from becoming a conflict channel.** Lexical evidence: `ح س ن B002` (beneficent or skillful good action) in `أَحْسَنُ`, `ن ز غ B001` (corrupting relations and inciting discord) in `يَنزَغُ`, and `ب ي ن B002` (the interval and middle between things) in `بَيْنَهُمْ`. Structural cue: 17:48–51 displays examples and objections that make a route impossible, 17:52 shows a call producing coordinated response, and 17:54 limits the messenger's custodial role. Assigned role: the best saying is a skilled relational act; incitement exploits the interval between persons and converts it into separation. Abductive move: the packet locates satanic action `between them`; I infer that speech quality either seals or widens that opening. Reading change: choosing the best expression is conflict infrastructure: it blocks an adversary from weaponizing the social gap.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:54 corrected a possible managerial overreading: the command to improve speech operates through address, since the messenger is explicitly not appointed as custodial controller over hearers.
 
 ## 17:54 — رَّبُّكُمْ أَعْلَمُ بِكُمْ ۖ إِن يَشَأْ يَرْحَمْكُمْ أَوْ إِن يَشَأْ يُعَذِّبْكُمْ ۚ وَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ وَكِيلًۭا
 
@@ -548,7 +548,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:56 and 17:59 sharpened the role boundary from two sides: neither invoked figures nor visible signs compel outcomes, so messengerhood remains warning and address rather than sovereign management.
 
 ## 17:55 — وَرَبُّكَ أَعْلَمُ بِمَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَلَقَدْ فَضَّلْنَا بَعْضَ ٱلنَّبِيِّۦنَ عَلَىٰ بَعْضٍۢ ۖ وَءَاتَيْنَا دَاوُۥدَ زَبُورًۭا
 
@@ -558,7 +558,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:56–57 made the differentiation safe from deification: preferred prophets and gifted texts remain within a system where every invoked figure lacks disposal and seeks nearness to the Lord.
 
 ## 17:56 — قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِهِۦ فَلَا يَمْلِكُونَ كَشْفَ ٱلضُّرِّ عَنكُمْ وَلَا تَحْوِيلًا
 
@@ -568,7 +568,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:57 was decisive: the invoked figures' own search for means and comparative nearness confirms operational dependence more strongly than the bare negation of their power in 17:56.
 
 ## 17:57 — أُو۟لَٰٓئِكَ ٱلَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ رَحْمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓ ۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُورًۭا
 
@@ -578,7 +578,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:58's written communal limits and 17:60's assay imagery sharpened hope and fear into route-governing orientations within an already comprehended field, not uncertainty about who controls it.
 
 ## 17:58 — وَإِن مِّن قَرْيَةٍ إِلَّا نَحْنُ مُهْلِكُوهَا قَبْلَ يَوْمِ ٱلْقِيَٰمَةِ أَوْ مُعَذِّبُوهَا عَذَابًۭا شَدِيدًۭا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَٰبِ مَسْطُورًۭا
 
@@ -588,7 +588,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:59 made the ledger historically diagnostic, and 17:63's “full” recompense confirmed that inscription preserves consequence without loss rather than merely forecasting catastrophe.
 
 ## 17:59 — وَمَا مَنَعَنَآ أَن نُّرْسِلَ بِٱلْءَايَٰتِ إِلَّآ أَن كَذَّبَ بِهَا ٱلْأَوَّلُونَ ۚ وَءَاتَيْنَا ثَمُودَ ٱلنَّاقَةَ مُبْصِرَةًۭ فَظَلَمُوا۟ بِهَا ۚ وَمَا نُرْسِلُ بِٱلْءَايَٰتِ إِلَّا تَخْوِيفًۭا
 
@@ -598,7 +598,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:60 explicitly called vision and tree a trial, confirming that the warning function of signs is to expose response rather than force a predetermined act of assent.
 
 ## 17:60 — وَإِذْ قُلْنَا لَكَ إِنَّ رَبَّكَ أَحَاطَ بِٱلنَّاسِ ۚ وَمَا جَعَلْنَا ٱلرُّءْيَا ٱلَّتِىٓ أَرَيْنَٰكَ إِلَّا فِتْنَةًۭ لِّلنَّاسِ وَٱلشَّجَرَةَ ٱلْمَلْعُونَةَ فِى ٱلْقُرْءَانِ ۚ وَنُخَوِّفُهُمْ فَمَا يَزِيدُهُمْ إِلَّا طُغْيَٰنًۭا كَبِيرًۭا
 
@@ -608,7 +608,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:61–65 completed the assay: Iblis's refusal, campaign, and sharply limited authority show what the trial reveals while correcting any deterministic reading of divine enclosure.
 
 ## 17:61 — وَإِذْ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ قَالَ ءَأَسْجُدُ لِمَنْ خَلَقْتَ طِينًۭا
 
@@ -618,7 +618,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:62's explicit `كَرَّمْتَ` was the decisive correction to Iblis's material valuation: the very next ayah names the conferred rank that raw clay cannot measure.
 
 ## 17:62 — قَالَ أَرَءَيْتَكَ هَٰذَا ٱلَّذِى كَرَّمْتَ عَلَىَّ لَئِنْ أَخَّرْتَنِ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَأَحْتَنِكَنَّ ذُرِّيَّتَهُۥٓ إِلَّا قَلِيلًۭا
 
@@ -628,7 +628,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:64 operationalized the bridle image: voice, mounted and foot forces, partnership, and promise function as multiple reins for redirecting the descendants' conduct.
 
 ## 17:63 — قَالَ ٱذْهَبْ فَمَن تَبِعَكَ مِنْهُمْ فَإِنَّ جَهَنَّمَ جَزَآؤُكُمْ جَزَآءًۭ مَّوْفُورًۭا
 
@@ -638,7 +638,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:65 corrected any coercive reading of following: satanic dominion is denied, so the stepwise tracking of 17:63 remains responsible adhesion rather than forced capture.
 
 ## 17:64 — وَٱسْتَفْزِزْ مَنِ ٱسْتَطَعْتَ مِنْهُم بِصَوْتِكَ وَأَجْلِبْ عَلَيْهِم بِخَيْلِكَ وَرَجِلِكَ وَشَارِكْهُمْ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ وَعِدْهُمْ ۚ وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا
 
@@ -648,7 +648,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:65 set the jurisdictional limit, and 17:67 showed why it matters: the campaign can shape choices under pressure but cannot erase the servant's capacity to turn or cover a favor.
 
 ## 17:65 — إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌۭ ۚ وَكَفَىٰ بِرَبِّكَ وَكِيلًۭا
 
@@ -658,7 +658,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:67 confirmed that guarded agency still permits ingratitude, while 17:70's conferred honor showed that protection equips responsibility rather than guaranteeing its successful use.
 
 ## 17:66 — رَّبُّكُمُ ٱلَّذِى يُزْجِى لَكُمُ ٱلْفُلْكَ فِى ٱلْبَحْرِ لِتَبْتَغُوا۟ مِن فَضْلِهِۦٓ ۚ إِنَّهُۥ كَانَ بِكُمْ رَحِيمًۭا
 
@@ -668,7 +668,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:67–69 made the exposure unmistakable, and 17:70's repeated carrying confirmed retrospectively that mercy lies in enabled passage through danger rather than abolition of danger.
 
 ## 17:67 — وَإِذَا مَسَّكُمُ ٱلضُّرُّ فِى ٱلْبَحْرِ ضَلَّ مَن تَدْعُونَ إِلَّآ إِيَّاهُ ۖ فَلَمَّا نَجَّىٰكُمْ إِلَى ٱلْبَرِّ أَعْرَضْتُمْ ۚ وَكَانَ ٱلْإِنسَٰنُ كَفُورًا
 
@@ -678,7 +678,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:68–70 corrected the post-rescue remapping: neither land nor sea supplies independent security; both are media inside the same divine act of carrying.
 
 ## 17:68 — أَفَأَمِنتُمْ أَن يَخْسِفَ بِكُمْ جَانِبَ ٱلْبَرِّ أَوْ يُرْسِلَ عَلَيْكُمْ حَاصِبًۭا ثُمَّ لَا تَجِدُوا۟ لَكُمْ وَكِيلًا
 
@@ -688,7 +688,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:69 supplied the sea-side counterpart and 17:70 gathered both media under one carrier, confirming that `جَانِبَ ٱلْبَرِّ` is only a contingent flank, not a secure outside.
 
 ## 17:69 — أَمْ أَمِنتُمْ أَن يُعِيدَكُمْ فِيهِ تَارَةً أُخْرَىٰ فَيُرْسِلَ عَلَيْكُمْ قَاصِفًۭا مِّنَ ٱلرِّيحِ فَيُغْرِقَكُم بِمَا كَفَرْتُمْ ۙ ثُمَّ لَا تَجِدُوا۟ لَكُمْ عَلَيْنَا بِهِۦ تَبِيعًۭا
 
@@ -698,7 +698,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:70 corrected the apparent autonomy of repeated voyaging by attributing all land/sea carrying to God, and 17:71 restored the personal account that no external claimant can displace.
 
 ## 17:70 — ۞ وَلَقَدْ كَرَّمْنَا بَنِىٓ ءَادَمَ وَحَمَلْنَٰهُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ وَرَزَقْنَٰهُم مِّنَ ٱلطَّيِّبَٰتِ وَفَضَّلْنَٰهُمْ عَلَىٰ كَثِيرٍۢ مِّمَّنْ خَلَقْنَا تَفْضِيلًۭا
 
@@ -708,7 +708,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:71 was decisive: the individual book and thread-fine justice make bestowed human mobility and rank answerable, correcting any reading of honor as unrestricted privilege.
 
 ## 17:71 — يَوْمَ نَدْعُوا۟ كُلَّ أُنَاسٍۭ بِإِمَٰمِهِمْ ۖ فَمَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ فَأُو۟لَٰٓئِكَ يَقْرَءُونَ كِتَٰبَهُمْ وَلَا يُظْلَمُونَ فَتِيلًۭا
 
@@ -718,7 +718,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:72–73 showed how social orientation reaches the personal book: blindness of route and pressure to alter revelation reveal that an imam is an adopted vector, not a label without behavioral force.
 
 ## 17:72 — وَمَن كَانَ فِى هَٰذِهِۦٓ أَعْمَىٰ فَهُوَ فِى ٱلْءَاخِرَةِ أَعْمَىٰ وَأَضَلُّ سَبِيلًۭا
 
@@ -728,7 +728,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:77 made the route language concrete: the invariant messenger-pattern supplies the stable way against which the compounded straying of 17:72 can be measured.
 
 ## 17:73 — وَإِن كَادُوا۟ لَيَفْتِنُونَكَ عَنِ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ لِتَفْتَرِىَ عَلَيْنَا غَيْرَهُۥ ۖ وَإِذًۭا لَّٱتَّخَذُوكَ خَلِيلًۭا
 
@@ -738,7 +738,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:74 exposed the first physical lean, and 17:76 showed the transaction's escalation from textual compromise to territorial coercion when the offered intimacy fails.
 
 ## 17:74 — وَلَوْلَآ أَن ثَبَّتْنَٰكَ لَقَدْ كِدتَّ تَرْكَنُ إِلَيْهِمْ شَيْـًۭٔا قَلِيلًا
 
@@ -748,7 +748,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:75 confirmed that the danger lies in support-transfer rather than size, while 17:79's stable `مَقَامًا` supplied the opposite image of a station granted without leaning toward the pressure group.
 
 ## 17:75 — إِذًۭا لَّأَذَقْنَٰكَ ضِعْفَ ٱلْحَيَوٰةِ وَضِعْفَ ٱلْمَمَاتِ ثُمَّ لَا تَجِدُ لَكَ عَلَيْنَا نَصِيرًۭا
 
@@ -758,7 +758,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:77's invariant historical rule and 17:80's request for divinely sourced aid explained the absent helper: compromised trust cannot manufacture support against the source of the pattern.
 
 ## 17:76 — وَإِن كَادُوا۟ لَيَسْتَفِزُّونَكَ مِنَ ٱلْأَرْضِ لِيُخْرِجُوكَ مِنْهَا ۖ وَإِذًۭا لَّا يَلْبَثُونَ خِلَٰفَكَ إِلَّا قَلِيلًۭا
 
@@ -768,7 +768,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:77 explicitly confirmed the boomerang as a recurring messenger-pattern, while 17:80–81 reframed forced exit within truthful passage and truth's own arrival.
 
 ## 17:77 — سُنَّةَ مَن قَدْ أَرْسَلْنَا قَبْلَكَ مِن رُّسُلِنَا ۖ وَلَا تَجِدُ لِسُنَّتِنَا تَحْوِيلًا
 
@@ -778,7 +778,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:78–80 supplied the messenger's constructive response to the invariant route: stable prayer-times, voluntary waking, and truthful thresholds preserve orientation within history's pressure.
 
 ## 17:78 — أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ ۖ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًۭا
 
@@ -788,7 +788,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:79–80 sharpened the threshold model through waking and entry/exit, and 17:83 later showed by contrast how an unstable person loses orientation under changing conditions.
 
 ## 17:79 — وَمِنَ ٱلَّيْلِ فَتَهَجَّدْ بِهِۦ نَافِلَةًۭ لَّكَ عَسَىٰٓ أَن يَبْعَثَكَ رَبُّكَ مَقَامًۭا مَّحْمُودًۭا
 
@@ -798,7 +798,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:80 supplied the nearest analogue: truthful entry and exit turn the night's voluntary departure from stillness into practice for movement that retains integrity.
 
 ## 17:80 — وَقُل رَّبِّ أَدْخِلْنِى مُدْخَلَ صِدْقٍۢ وَأَخْرِجْنِى مُخْرَجَ صِدْقٍۢ وَٱجْعَل لِّى مِن لَّدُنكَ سُلْطَٰنًۭا نَّصِيرًۭا
 
@@ -808,7 +808,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:81 made the directional symmetry explicit: truth enters as falsehood exits, confirming that the doubled `صِدْقٍ` concerns integrity of movement across both sides of a threshold.
 
 ## 17:81 — وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَٰطِلُ ۚ إِنَّ ٱلْبَٰطِلَ كَانَ زَهُوقًۭا
 
@@ -818,7 +818,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:82 concretized truth's arrival as Qur'anic descent, while 17:86's possible removal showed that its persistence is not inertia; falsehood vanishes intrinsically, but truth's presence is actively preserved.
 
 ## 17:82 — وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌۭ وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًۭا
 
@@ -828,7 +828,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:84 supplied the missing branch condition by naming each receiver's `شاكلة`, and 17:86–87 confirmed that the healing source itself remains mercy even though effects diverge.
 
 ## 17:83 — وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ ۖ وَإِذَا مَسَّهُ ٱلشَّرُّ كَانَ يَـُٔوسًۭا
 
@@ -838,7 +838,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:84 was the decisive retrospective explanation: the paired reactions to favor and harm are not isolated moods but outputs of a shaping disposition.
 
 ## 17:84 — قُلْ كُلٌّۭ يَعْمَلُ عَلَىٰ شَاكِلَتِهِۦ فَرَبُّكُمْ أَعْلَمُ بِمَنْ هُوَ أَهْدَىٰ سَبِيلًۭا
 
@@ -848,7 +848,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:89 confirmed the configuration model at scale: exhaustive variation still yields refusal, showing that added representational forms do not bypass the receiver's patterned way of acting.
 
 ## 17:85 — وَيَسْـَٔلُونَكَ عَنِ ٱلرُّوحِ ۖ قُلِ ٱلرُّوحُ مِنْ أَمْرِ رَبِّى وَمَآ أُوتِيتُم مِّنَ ٱلْعِلْمِ إِلَّا قَلِيلًۭا
 
@@ -858,7 +858,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:86's removable revelation and 17:88's irreproducibility made “little knowledge” concrete: neither possession nor collective production closes the gap to the divine command-source.
 
 ## 17:86 — وَلَئِن شِئْنَا لَنَذْهَبَنَّ بِٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ ثُمَّ لَا تَجِدُ لَكَ بِهِۦ عَلَيْنَا وَكِيلًا
 
@@ -868,7 +868,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:87 supplied the explicit correction: mercy, not an independent guardian, is what prevents the possible departure; 17:88 then showed that no coalition could replace what left.
 
 ## 17:87 — إِلَّا رَحْمَةًۭ مِّن رَّبِّكَ ۚ إِنَّ فَضْلَهُۥ كَانَ عَلَيْكَ كَبِيرًۭا
 
@@ -878,7 +878,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:88 confirmed that the favor is surplus beyond claim: even total human-jinn aggregation and mutual backing cannot manufacture the preserved gift.
 
 ## 17:88 — قُل لَّئِنِ ٱجْتَمَعَتِ ٱلْإِنسُ وَٱلْجِنُّ عَلَىٰٓ أَن يَأْتُوا۟ بِمِثْلِ هَٰذَا ٱلْقُرْءَانِ لَا يَأْتُونَ بِمِثْلِهِۦ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍۢ ظَهِيرًۭا
 
@@ -888,7 +888,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:89's internal variety showed that inimitability is compatible with many forms, and 17:93's demand for a descending readable book exposed the category error of treating source as reproducible packaging.
 
 ## 17:89 — وَلَقَدْ صَرَّفْنَا لِلنَّاسِ فِى هَٰذَا ٱلْقُرْءَانِ مِن كُلِّ مَثَلٍۢ فَأَبَىٰٓ أَكْثَرُ ٱلنَّاسِ إِلَّا كُفُورًۭا
 
@@ -898,7 +898,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:90–94 supplied the retrospective proof: successive water, garden, sky, ascent, and messenger conditions show active refusal continually relocating its stated obstacle.
 
 ## 17:90 — وَقَالُوا۟ لَن نُّؤْمِنَ لَكَ حَتَّىٰ تَفْجُرَ لَنَا مِنَ ٱلْأَرْضِ يَنۢبُوعًا
 
@@ -908,4 +908,218 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+17:91–93 escalated the condition from useful spring to total vertical control, and 17:95 answered with messenger ecology; together they confirmed that the demand was governance of proof, not missing evidence.
+
+## 17:91 — أَوْ تَكُونَ لَكَ جَنَّةٌۭ مِّن نَّخِيلٍۢ وَعِنَبٍۢ فَتُفَجِّرَ ٱلْأَنْهَٰرَ خِلَٰلَهَا تَفْجِيرًا
+
+### Activated readings
+
+1. **Proof demanded as owned productive infrastructure.** Lexical evidence: `ج ن ن B003` (tree-covered garden) in `جَنَّةٌ`, `ف ج ر B001` (wide splitting and outflow) in doubled `فَتُفَجِّرَ/تَفْجِيرًا`, `ن ه ر B001` (river cutting the ground with flowing water) in `ٱلْأَنْهَٰرَ`, and `خ ل ل B001` (interstice between things) in `خِلَٰلَهَا`. Structural cue: 17:90 asks for one spring `لَنَا`; this ayah enlarges it into a possessed enclosure with productive trees and an engineered water network, before 17:92–93 escalates to sky-control and ascent. Assigned role: the garden encloses value, rivers cut distributive channels, and interstices carry water through the whole asset. Abductive move: the packet supplies ownership `لَكَ` and hydraulic detail; I infer that the demanded sign is being evaluated as controllable infrastructure. Reading change: the request tests prophecy by possession and utility, not simply by perceptual clarity.
+
+### Retrospective surprises
+
+17:92's move from productive enclosure to falling sky was the surprise: contradictory utility and catastrophe demands reveal that controlled manifestation, not benefit, is the stable objective.
+
+## 17:92 — أَوْ تُسْقِطَ ٱلسَّمَآءَ كَمَا زَعَمْتَ عَلَيْنَا كِسَفًا أَوْ تَأْتِىَ بِٱللَّهِ وَٱلْمَلَٰٓئِكَةِ قَبِيلًا
+
+### Activated readings
+
+1. **The demand shifts from benefiting under the world to controlling its vertical order.** Lexical evidence: `س ق ط B001` (falling or being cast downward) in `تُسْقِطَ`, `س م و B004` (overhead sky and cover) in `ٱلسَّمَآءَ`, `ك س ف B004` (a detached piece from a body or sky) in `كِسَفًا`, `ز ع م B001` (uncertain claim) in `زَعَمْتَ`, and `ق ب ل B009` (a mutually facing group) in `قَبِيلًا`. Structural cue: 17:90–91 requests beneficial water and garden; now the protective overhead is fragmented onto them or God and angels must be brought face-to-face, before 17:93 demands vertical ascent and document delivery. Assigned role: falling reverses the sky's cover, fragments materialize the threat, and facing abolishes mediated distance. Abductive move: the requests contradict ordinary benefit; I infer that the constant aim is command over how proof appears, not a stable evidentiary need. Reading change: escalation reveals a sovereignty test: the messenger must manipulate both catastrophe and divine presence on demand.
+
+### Retrospective surprises
+
+17:93 declared even ascent insufficient without a customized document, confirming that the face-to-face demand of 17:92 is structurally movable rather than satisfiable.
+
+## 17:93 — أَوْ يَكُونَ لَكَ بَيْتٌۭ مِّن زُخْرُفٍ أَوْ تَرْقَىٰ فِى ٱلسَّمَآءِ وَلَن نُّؤْمِنَ لِرُقِيِّكَ حَتَّىٰ تُنَزِّلَ عَلَيْنَا كِتَٰبًۭا نَّقْرَؤُهُۥ ۗ قُلْ سُبْحَانَ رَبِّى هَلْ كُنتُ إِلَّا بَشَرًۭا رَّسُولًۭا
+
+### Activated readings
+
+1. **A demanded vertical credential chain meets an embodied role boundary.** Lexical evidence: `ز خ ر ف B002` (gold) in `زُخْرُفٍ`, `ر ق ي B001` (ascent by stair or ladder) in `تَرْقَىٰ/رُقِيِّكَ`, `ن ز ل B002` (bringing or sending down) in `تُنَزِّلَ`, `ك ت ب B002` (joining letters into a written book) in `كِتَٰبًا`, `ب ش ر B002` (human as visibly skinned being) in `بَشَرًا`, and `ر س ل B002` (messenger and message) in `رَّسُولًا`. Structural cue: after material property and sky-control in 17:90–92, even ascent is declared insufficient without a descending readable object; 17:94–95 then explains why messenger embodiment matches the receiving population. Assigned role: ascent and descent construct their certification pipeline, while visible humanity and messengerhood delimit the actual office. Abductive move: repeated `حَتَّىٰ` shows movable conditions; I infer that no performed credential would satisfy a demand structured to retain control. Reading change: `بَشَرًا رَّسُولًا` rejects the imposed role of cosmic impresario while affirming embodied transmission.
+
+### Retrospective surprises
+
+17:94–95 directly corrected the demanded credential chain: an embodied envoy is the fitted interface for embodied receivers, and 17:98 shows that a readable formula alone would not repair refusal.
+
+## 17:94 — وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤْمِنُوٓا۟ إِذْ جَآءَهُمُ ٱلْهُدَىٰٓ إِلَّآ أَن قَالُوٓا۟ أَبَعَثَ ٱللَّهُ بَشَرًۭا رَّسُولًۭا
+
+### Activated readings
+
+1. **Visible humanity becomes the barrier to receiving guidance.** Lexical evidence: `م ن ع B002` (a barrier between a person and what he seeks) in `مَنَعَ`, `ء م ن B002` (trusting assent) in `يُؤْمِنُوا۟`, `ب ع ث B002` (dispatching and directing someone) in `أَبَعَثَ`, `ب ش ر B002` (human as visibly skinned being) in `بَشَرًا`, and `ر س ل B002` (messenger and message) in `رَّسُولًا`. Structural cue: 17:93 answers spectacle-demands by naming the human messenger; this ayah identifies that category as the objection, while 17:95 tests the counterfactual ecology of an angel population. Assigned role: dispatch supplies authorized movement, but visible skin is misread as incompatible with message-bearing and blocks assent. Abductive move: guidance has already arrived; I infer that the barrier is a prior theory about what a carrier should be, not absence of content. Reading change: disbelief becomes a medium-category error that rejects a message because its envoy shares the receivers' embodiment.
+
+### Retrospective surprises
+
+17:95's angelic-earth counterfactual was decisive: messenger kind follows the receivers' settled ecology, dissolving the claim that visible humanity disqualifies transmission.
+
+## 17:95 — قُل لَّوْ كَانَ فِى ٱلْأَرْضِ مَلَٰٓئِكَةٌۭ يَمْشُونَ مُطْمَئِنِّينَ لَنَزَّلْنَا عَلَيْهِم مِّنَ ٱلسَّمَآءِ مَلَكًۭا رَّسُولًۭا
+
+### Activated readings
+
+1. **Messenger embodiment is fitted to the receiver's settled habitat.** Lexical evidence: `م ش ي B001` (walking and movement) in `يَمْشُونَ`, `ط م ن B001` (settling into calm) in `مُطْمَئِنِّينَ`, `ن ز ل B002` (bringing or sending down) in `لَنَزَّلْنَا`, and `ر س ل B002` (messenger and message) in `رَّسُولًا`. Structural cue: 17:94 treats humanity as the barrier; this counterfactual keeps earth, walking, settlement, descent, and envoy in one relation, while 17:96 shifts proof to the sender's witness. Assigned role: walking and settled residence define the receiving ecology; descent inserts a messenger of matching kind into it. Abductive move: the angelic-earth scenario is supplied; I infer a medium-fit principle from the conditional matching. Reading change: the human messenger is not a concession beneath an angelic ideal but the appropriate interface for humans established on earth.
+
+### Retrospective surprises
+
+17:96 shifted validation from medium to sufficient witness, and 17:100's human hoarding contrast further warned that creaturely custody is a poor measure of divine sending.
+
+## 17:96 — قُلْ كَفَىٰ بِٱللَّهِ شَهِيدًۢا بَيْنِى وَبَيْنَكُمْ ۚ إِنَّهُۥ كَانَ بِعِبَادِهِۦ خَبِيرًۢا بَصِيرًۭا
+
+### Activated readings
+
+1. **Divine witnessing bridges the disputed messenger relation.** Lexical evidence: `ك ف ي B001` (sufficing by taking care of a matter) in `كَفَىٰ`, `ش ه د B002` (testifying from knowledge) in `شَهِيدًا`, `ب ي ن B003` (the tie or connection between parties) in doubled `بَيْنِى وَبَيْنَكُمْ`, `خ ب ر B001` (knowledge by report and tested inner knowledge) in `خَبِيرًا`, and `ب ص ر B002` (inner sight) in `بَصِيرًا`. Structural cue: 17:91–95 demands externally controlled credentials and disputes the envoy's medium; this ayah places sufficient testimony in the interval, while 17:97 turns to the consequences of guidance and blocked perception. Assigned role: witness supplies adjudicating presence, tested knowledge reaches inner states, and sight verifies servants beyond performed spectacle. Abductive move: the relational dispute is supplied; I infer that comprehensive knowledge makes the witness sufficient where the parties' demanded tests are unstable. Reading change: validation moves from requester-controlled display to a witness who knows both messenger and audience from within.
+
+### Retrospective surprises
+
+17:97's closed sensory channels and 17:101's clear signs showed why tested inner knowledge matters: abundant outward evidence can coexist with a deliberately blocked receiving system.
+
+## 17:97 — وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًۭا وَبُكْمًۭا وَصُمًّۭا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَٰهُمْ سَعِيرًۭا
+
+### Activated readings
+
+1. **Rejected orientation becomes an inverted, closed bodily interface.** Lexical evidence: `ح ش ر B001` (gathering and driving a group to a destination) in `نَحْشُرُهُمْ`, `و ج ه B002` (orientation and direction) in `وُجُوهِهِمْ`, `ع م ي B002` (blindness of insight) in `عُمْيًا`, `ب ك م B002` (inability to articulate or answer properly) in `بُكْمًا`, and `ص م م B002` (stopping an opening and leaving no gap) in `صُمًّا`. Structural cue: 17:93–95 rejects the embodied messenger, 17:96 supplies an all-seeing witness, and 17:98 identifies denial of signs as cause. Assigned role: gathering drives the group, faces become the surface of locomotion, and the three closed channels embody failed reception and response. Abductive move: the packet gives bodily inversion after guidance/straying; I infer that the destination manifests the perceptual orientation cultivated before it. Reading change: punishment externalizes epistemic closure as a body unable to see, answer, hear, or walk in proper orientation.
+
+2. **Extinction triggers replenished combustion.** Lexical evidence: `خ ب و B001` (fire going out), `ز ي د B001` (increase and growth), and `س ع ر B001` (fire kindling and blazing) in `كُلَّمَا خَبَتْ زِدْنَٰهُمْ سَعِيرًا`. Structural cue: the repeated conditional creates a cycle at the end of the gathering sequence. Assigned role: subsiding fire is the trigger, increase supplies new fuel-state, and blazing restores intensity. Abductive move: the trigger-to-renewal arrow is explicit; I infer a negative-feedback loop that prevents extinguishment from becoming release. Reading change: hell is represented as dynamically self-renewing confinement, not a single finite burn.
+
+### Retrospective surprises
+
+17:98 explicitly named rejection of signs as cause, and 17:102's `بَصَآئِرَ` confirmed that the inverted body externalizes a prior refusal of inner sight.
+
+## 17:98 — ذَٰلِكَ جَزَآؤُهُم بِأَنَّهُمْ كَفَرُوا۟ بِـَٔايَٰتِنَا وَقَالُوٓا۟ أَءِذَا كُنَّا عِظَٰمًۭا وَرُفَٰتًا أَءِنَّا لَمَبْعُوثُونَ خَلْقًۭا جَدِيدًا
+
+### Activated readings
+
+1. **Matching recompense answers a fragmentation model that covered the signs.** Lexical evidence: `ج ز ي B001` (recompense matching an act) in `جَزَآؤُهُم`, `ك ف ر B003` (covering or rejecting truth) in `كَفَرُوا۟`, `ر ف ت B001` (breaking into scattered fragments) in `رُفَٰتًا`, `ب ع ث B001` (rousing a still thing into motion) in `مَبْعُوثُونَ`, `خ ل ق B001` (measuring and proportioning) in `خَلْقًا`, and `ج د د B004` (newness after cutting) in `جَدِيدًا`. Structural cue: 17:97 embodies blocked channels and gathering, this ayah names denial as cause, and 17:99 answers with creation of heavens and earth; 17:101–102 soon calls prior signs clear insights. Assigned role: covering suppresses sign-evidence, fragmentation supplies the impossibility-model, and matching recompense returns that chosen closure as experienced result. Abductive move: `بِأَنَّهُمْ` supplies causation; I infer that the punishment matches the epistemic act by making denied reassembly unavoidable. Reading change: the resurrection objection is not incidental speech but the operative model whose rejection of signs structures the recompense.
+
+### Retrospective surprises
+
+17:99 supplied the decisive correction to the fragmentation model: creation of heavens and earth makes re-proportioning like bodies the smaller analogical case, not an unprecedented operation.
+
+## 17:99 — ۞ أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ قَادِرٌ عَلَىٰٓ أَن يَخْلُقَ مِثْلَهُمْ وَجَعَلَ لَهُمْ أَجَلًۭا لَّا رَيْبَ فِيهِ فَأَبَى ٱلظَّٰلِمُونَ إِلَّا كُفُورًۭا
+
+### Activated readings
+
+1. **Creation-scale sight should infer capacity, but refusal blocks the analogy.** Lexical evidence: `ر ء ي B001` (seeing by eye or insight) in `يَرَوْا۟`, `خ ل ق B001` (measuring and proportioning) in repeated `خَلَقَ/يَخْلُقَ`, `ق د ر B003` (capacity reaching effective control) in `قَادِرٌ`, `م ث ل B001` (likeness and counterpart) in `مِثْلَهُمْ`, `ء ج ل B001` (fixed term or appointed limit) in `أَجَلًا`, `ر ي ب B001` (disturbing doubt) in negated `رَيْبَ`, and `ء ب ي B001` (active refusal) in `فَأَبَى`. Structural cue: 17:98 asks whether fragments can be re-proportioned; this ayah scales the precedent to heavens and earth, sets a fixed term, and 17:100 contrasts divine mercy with human constriction. Assigned role: sight supplies evidence, prior proportioning supplies analogy, capacity carries it to a counterpart, and the term fixes realization. Abductive move: the analogy is packet-supplied; I infer that greater demonstrated scope warrants the lesser re-creation inference. Reading change: doubt persists not from missing precedent but from active refusal to let visible creation function analogically.
+
+### Retrospective surprises
+
+17:101–102 showed refusal persisting through clear, known signs, while 17:104's appointed mixed gathering confirmed that the fixed term governs eventual re-creation despite that refusal.
+
+## 17:100 — قُل لَّوْ أَنتُمْ تَمْلِكُونَ خَزَآئِنَ رَحْمَةِ رَبِّىٓ إِذًۭا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَٰنُ قَتُورًۭا
+
+### Activated readings
+
+1. **Human ownership converts mercy's store into a closed stock.** Lexical evidence: `م ل ك B002` (ownership and disposal) in `تَمْلِكُونَ`, `خ ز ن B001` (storing and safeguarding) in `خَزَآئِنَ`, `ر ح م B001` (mercy and tenderness) in `رَحْمَةِ`, `م س ك B002` (withholding in miserliness) in `لَّأَمْسَكْتُمْ`, `ن ف ق B002` (wealth going out as expenditure) in `ٱلْإِنفَاقِ`, and `ق ت ر B001` (stinting and narrowing) in `قَتُورًا`. Structural cue: 17:99 presents vast creative capacity and a fixed term; this counterfactual inserts human custody, while 17:101–105 shows signs, deliverance, settlement, and truthful descent continuing to be given. Assigned role: treasury holds potential distribution, ownership grants disposal, fear interprets outflow as depletion, and stinting narrows the channel. Abductive move: the fear-to-withholding arrow is explicit; I infer that human possessiveness falsely models mercy as exhaustible stock. Reading change: the critique targets an economy of custody that closes circulation precisely because it cannot trust replenishing abundance.
+
+### Retrospective surprises
+
+17:101–105 supplied the counter-image to hoarding: signs are given, a people are delivered and settled, and truth descends, so divine mercy continues to issue where imagined human custody would close the store.
+
+## 17:101 — وَلَقَدْ ءَاتَيْنَا مُوسَىٰ تِسْعَ ءَايَٰتٍۭ بَيِّنَٰتٍۢ ۖ فَسْـَٔلْ بَنِىٓ إِسْرَٰٓءِيلَ إِذْ جَآءَهُمْ فَقَالَ لَهُۥ فِرْعَوْنُ إِنِّى لَأَظُنُّكَ يَٰمُوسَىٰ مَسْحُورًۭا
+
+### Activated readings
+
+1. **Visible multiplicity still fails when recoded as deception.** Lexical evidence: `ت س ع B001` (the number nine) in `تِسْعَ`, `ء ي ي B003` (a visible sign) in `ءَايَٰتٍ`, `ب ي ن B004` (appearance and becoming clear) in `بَيِّنَٰتٍ`, and `س ح ر B002` (magic as diversion and deception) in `مَسْحُورًا`. Structural cue: 17:96 establishes sufficient witness, 17:97–99 diagnoses closed perception despite creation-scale evidence, and 17:102 says Pharaoh knew the signs' source and calls them insights. Assigned role: number supplies repeated evidence, visibility and clarity make it available, while the magic label diverts that evidence into suspicion of the messenger. Abductive move: the packet preserves communal verification through `فَسْـَٔلْ بَنِىٓ إِسْرَٰٓءِيلَ`; I infer that the label functions to override rather than answer public memory. Reading change: a plurality of clear signs does not compel assent when an interpretive frame can recode their carrier as deceived.
+
+### Retrospective surprises
+
+17:102 supplied the crucial correction: Pharaoh is addressed as already knowing the signs' source, so the magic label in 17:101 is strategic recoding rather than innocent perceptual failure.
+
+## 17:102 — قَالَ لَقَدْ عَلِمْتَ مَآ أَنزَلَ هَٰٓؤُلَآءِ إِلَّا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ بَصَآئِرَ وَإِنِّى لَأَظُنُّكَ يَٰفِرْعَوْنُ مَثْبُورًۭا
+
+### Activated readings
+
+1. **Signs become culpable insight when knowledge and refusal coexist.** Lexical evidence: `ع ل م B001` (knowing as a thing becomes clear) in `عَلِمْتَ`, `ن ز ل B002` (bringing or sending down) in `أَنزَلَ`, `ب ص ر B002` (inner sight) in `بَصَآئِرَ`, and `ث ب ر B002` (ruin and perdition) in `مَثْبُورًا`. Structural cue: 17:101 gives nine clear visible signs yet records the magic accusation; this ayah directly attributes knowledge to Pharaoh, and 17:103 realizes attempted expulsion as drowning before 17:104 gives the land to those expelled. Assigned role: descent supplies the signs, inner sight supplies their intended cognitive function, known source removes innocent ambiguity, and ruin names the resulting endpoint. Abductive move: the ayah asserts knowledge but not its psychological suppression; I infer that the preceding deceptive label is strategic refusal rather than lack of recognition. Reading change: Pharaoh's doom is linked to knowledge resisted, making the signs instruments of disclosed culpability as well as information.
+
+### Retrospective surprises
+
+17:103 realized `ث ب ر B002` immediately as the ruin of the one who tried to expel others, while 17:107's learned prostration supplied the opposite response to recognized descent.
+
+## 17:103 — فَأَرَادَ أَن يَسْتَفِزَّهُم مِّنَ ٱلْأَرْضِ فَأَغْرَقْنَٰهُ وَمَن مَّعَهُۥ جَمِيعًۭا
+
+### Activated readings
+
+1. **Attempted territorial loosening rebounds as total removal.** Lexical evidence: `ف ز ز B001` (lightness that unsettles) in `يَسْتَفِزَّهُم`, `غ ر ق B002` (killing by drowning) in `فَأَغْرَقْنَٰهُ`, and `ج م ع B001` (gathering scattered parts into one collected whole) in `جَمِيعًا`. Structural cue: 17:101–102 moves from signs to knowing refusal; here the intended removal from land is followed immediately by the agent and his whole support-group entering water, while 17:104 settles the targeted people on the land. Assigned role: unsettling tries to detach a population from ground, gathering concentrates the opposing coalition, and drowning removes that coalition from breathable terrain. Abductive move: the reversal is sequenced but not mechanically explained; I infer from 17:104 that the failed expulsion clears the land for those targeted. Reading change: the judgment precisely inverts the territorial project: the one trying to unseat a people is himself comprehensively displaced.
+
+### Retrospective surprises
+
+17:104 completed the territorial inversion: after the expelling coalition is drowned, the targeted people are explicitly told to settle the land.
+
+## 17:104 — وَقُلْنَا مِنۢ بَعْدِهِۦ لِبَنِىٓ إِسْرَٰٓءِيلَ ٱسْكُنُوا۟ ٱلْأَرْضَ فَإِذَا جَآءَ وَعْدُ ٱلْءَاخِرَةِ جِئْنَا بِكُمْ لَفِيفًۭا
+
+### Activated readings
+
+1. **Settlement is a stable interval before mixed regathering.** Lexical evidence: `س ك ن B002` (dwelling and settlement) in `ٱسْكُنُوا۟`, `و ع د B003` (an appointed time or place) in `وَعْدُ`, and `ل ف ف B003` (mixed gathering) in `لَفِيفًا`. Structural cue: 17:103 removes the expelling coalition; `مِنۢ بَعْدِهِۦ` then opens dwelling, but `فَإِذَا` carries that stability toward a later arrival and gathering; 17:105–106 shifts to truthful, paced descent. Assigned role: settlement suspends displacement, appointment limits that phase, and mixed gathering wraps dispersed members into a heterogeneous collective. Abductive move: the packet supplies the temporal sequence; I infer that land-tenure is real but penultimate rather than final isolation. Reading change: the ayah moves from secured habitation to eschatological recomposition, holding settlement and later mixed assembly in one spatial cycle.
+
+### Retrospective surprises
+
+17:108's declaration that the promise is enacted confirmed that the appointment in 17:104 is not a loose forecast; settlement remains an interval inside a word moving toward act.
+
+## 17:105 — وَبِٱلْحَقِّ أَنزَلْنَٰهُ وَبِٱلْحَقِّ نَزَلَ ۗ وَمَآ أَرْسَلْنَٰكَ إِلَّا مُبَشِّرًۭا وَنَذِيرًۭا
+
+### Activated readings
+
+1. **Truth preserved from source through arrival, then differentiated as address.** Lexical evidence: `ح ق ق B001` (firm truth against falsehood) in doubled `بِٱلْحَقِّ`, `ن ز ل B002` (bringing down) and `ن ز ل B001` (descent and alighting) in `أَنزَلْنَٰهُ/نَزَلَ`, `ر س ل B001` (being sent forth) in `أَرْسَلْنَٰكَ`, `ب ش ر B005` (face-brightening tidings) in `مُبَشِّرًا`, and `ن ذ ر B001` (warning that awakens caution) in `نَذِيرًا`. Structural cue: 17:101–102 contrasts clear signs with deceptive recoding; this ayah repeats truth on both sides of transmission, and 17:106 describes its segmented delivery before 17:107–109 shows receptive response. Assigned role: causative descent secures origin, intransitive descent secures arrival, and the messenger differentiates the same truth into hope and caution. Abductive move: the double prepositional phrase supplies continuity; I infer that no distortion enters between sending and landing. Reading change: messengerhood is a truth-preserving transmission function with two audience-facing outputs, not control over response.
+
+### Retrospective surprises
+
+17:106–109 supplied the transmission test: segmented delivery produces recognition, prostration, speech, and tears, confirming that good news and warning are differentiated effects of one truth-preserving descent.
+
+## 17:106 — وَقُرْءَانًۭا فَرَقْنَٰهُ لِتَقْرَأَهُۥ عَلَى ٱلنَّاسِ عَلَىٰ مُكْثٍۢ وَنَزَّلْنَٰهُ تَنزِيلًۭا
+
+### Activated readings
+
+1. **Segmentation, pause, and recitation form a reception architecture.** Lexical evidence: `ف ر ق B001` (distinguishing and separating two things) in `فَرَقْنَٰهُ`, `ق ر ء B001` (gathering speech into recitation) in `قُرْءَانًا/لِتَقْرَأَهُ`, `م ك ث B002` (deliberate composure without haste) in `مُكْثٍ`, and `ن ز ل B002` (bringing down) in `نَزَّلْنَٰهُ تَنزِيلًا`. Structural cue: 17:105 guarantees truthful descent; this ayah separates the text and regathers it in voiced sequence over intervals, while 17:107–109 traces recitation into prostration, speech, tears, and increased humility. Assigned role: separation makes units distinguishable, recitation recomposes them for hearers, and pause gives each delivery time to settle. Abductive move: the purpose clause and paced construction are supplied; I infer that temporal spacing enables embodied assimilation rather than mere data transfer. Reading change: gradual revelation is a designed processing rhythm in which division and gathering cooperate.
+
+### Retrospective surprises
+
+17:107–109 validated the reception architecture through its bodily output, and 17:110 extended calibration from temporal pacing to acoustic pacing in prayer.
+
+## 17:107 — قُلْ ءَامِنُوا۟ بِهِۦٓ أَوْ لَا تُؤْمِنُوٓا۟ ۚ إِنَّ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ مِن قَبْلِهِۦٓ إِذَا يُتْلَىٰ عَلَيْهِمْ يَخِرُّونَ لِلْأَذْقَانِ سُجَّدًۭا
+
+### Activated readings
+
+1. **Sequential recitation converts prior knowledge into bodily descent.** Lexical evidence: `ت ل و B001` (following in sequence) in `يُتْلَىٰ`, `خ ر ر B001` (falling with a rumbling drop) in `يَخِرُّونَ`, `ذ ق ن B001` (chin as the meeting place of the jaws) in `لِلْأَذْقَانِ`, `س ج د B001` (lowering in humble submission) in `سُجَّدًا`, and `ع ل م B001` (knowing as something becomes clear) in `ٱلْعِلْمَ`. Structural cue: 17:105–106 provides truthful, paced recitation; those already given knowledge respond at once, and 17:108–109 unfolds their speech, renewed falling, tears, and increased humility. Assigned role: sequence delivers the text, prior knowledge recognizes it, and falling transfers recognition into the body's upper front. Abductive move: the recitation-to-fall relation is explicit; I infer that knowledge configures the receiver for this embodied recognition. Reading change: belief is not only assent stated by the tongue but a reorientation that lowers the body's highest conversational point.
+
+### Retrospective surprises
+
+17:109 was the decisive later development: the fall repeats with tears and increased humility, showing that the first prostration begins a cumulative response rather than exhausting it.
+
+## 17:108 — وَيَقُولُونَ سُبْحَٰنَ رَبِّنَآ إِن كَانَ وَعْدُ رَبِّنَا لَمَفْعُولًۭا
+
+### Activated readings
+
+1. **The promise is recognized as speech that has entered act.** Lexical evidence: `س ب ح B002` (purification and declaring free) in `سُبْحَٰنَ`, `و ع د B001` (a spoken promise that opens expectation) in `وَعْدُ`, and `ف ع ل B001` (bringing an act into being) in `مَفْعُولًا`. Structural cue: 17:104 names the final promise, 17:105–106 brings truth down in paced form, and 17:107 makes the knowledgeable fall upon hearing it; 17:109 intensifies the response. Assigned role: promise opens a future horizon, `مفعول` marks that horizon as enacted, and tasbih removes the Lord from failure or mismatch. Abductive move: the listeners state fulfillment; I infer that recognized correspondence between prior promise and present recitation causes their praise. Reading change: their declaration reads as verification of a word-to-act transition, not a generic liturgical formula.
+
+### Retrospective surprises
+
+17:109 showed the recognized word-to-act correspondence deepening bodily humility, and 17:111's final praise broadened that recognition into a full statement of divine independence.
+
+## 17:109 — وَيَخِرُّونَ لِلْأَذْقَانِ يَبْكُونَ وَيَزِيدُهُمْ خُشُوعًۭا ۩
+
+### Activated readings
+
+1. **Embodied response becomes a positive feedback loop of lowering.** Lexical evidence: `خ ر ر B001` (falling with a rumbling drop) in `يَخِرُّونَ`, `ذ ق ن B001` (chin as jaw-meeting point) in `لِلْأَذْقَانِ`, `ب ك ي B001` (weeping through grief, tears, and sound) in `يَبْكُونَ`, `ز ي د B001` (increase and growth) in `يَزِيدُهُمْ`, and `خ ش ع B001` (low humble submission) in `خُشُوعًا`. Structural cue: 17:107 begins the fall, 17:108 supplies recognized fulfillment, and this ayah repeats the fall while adding tears and increase; 17:110 then calibrates prayer's audible channel. Assigned role: falling lowers posture, tears externalize affect, and increase feeds the response back into deeper humility. Abductive move: the grammatical cause of increase is not named; I infer from sequence that recitation, recognition, and repeated embodied surrender mutually reinforce it. Reading change: humility is a growing state produced through recurrent body, voice, and affect, not a single static posture.
+
+### Retrospective surprises
+
+17:110 corrected any equation of tears and sound with unregulated intensity: the growing humility is carried into a prayer voice deliberately sought between acoustic extremes.
+
+## 17:110 — قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ ۖ أَيًّۭا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًۭا
+
+### Activated readings
+
+1. **Multiple designations converge on one called referent.** Lexical evidence: `د ع و B001` (calling to draw near by voice or speech) in three call-forms, `س م و B005` (name as raised designation) in `ٱلْأَسْمَآءُ`, `ر ح م B001` (mercy and tenderness) in `ٱلرَّحْمَٰنَ`, and `ح س ن B001` (goodness or beauty opposed to ugliness) in `ٱلْحُسْنَىٰ`. Structural cue: `ٱللَّهَ أَوِ ... ٱلرَّحْمَٰنَ` varies the designation, but singular `فَلَهُ` gathers every best name; 17:108–109 has just shown praise and prayerful response, and 17:111 removes partner and shared rule. Assigned role: names raise distinct access-designations, while the singular possessor prevents referential multiplication. Abductive move: the grammar supplies convergence; I infer that lexical plurality expands address without partitioning the addressee. Reading change: name-variation becomes richness of approach to one Lord, not evidence for multiple divine centers.
+
+2. **Prayer as a calibrated acoustic path.** Lexical evidence: `ج ه ر B001` (open voicing) in `تَجْهَرْ`, `خ ف ت B001` (secret or lowered speech) in `تُخَافِتْ`, `ب غ ي B001` (seeking and pursuing) in `ٱبْتَغِ`, `ب ي ن B011` (an intermediate state between two ends) in `بَيْنَ`, and `س ب ل B001` (extended traversed way) in `سَبِيلًا`. Structural cue: 17:106 paces recitation, 17:107–109 joins heard sequence to bodily and vocal response, and the command now negates both acoustic extremes. Assigned role: open voicing risks overexposure, lowering risks inaudibility, and the intermediate route preserves communicative prayer. Abductive move: the verse commands search rather than giving a fixed volume; I infer context-sensitive calibration between the ends. Reading change: the middle is a dynamic signal path, not a numerical compromise.
+
+### Retrospective surprises
+
+17:111 confirmed both readings: its partnerless dominion gathers the names under one referent, and its command to magnify after vocal calibration shows that greatness is not loudness.
+
+## 17:111 — وَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا
+
+### Activated readings
+
+1. **Greatness as structural independence rather than vocal magnitude.** Lexical evidence: `ح م د B001` (praise opposite blame) in `ٱلْحَمْدُ`, `ش ر ك B001` (sharing and partnership) in `شَرِيكٌ`, `م ل ك B003` (kingship and dominion) in `ٱلْمُلْكِ`, `و ل ي B004` (loyal alliance and support) in `وَلِىٌّ`, `ذ ل ل B001` (abasement under overpowering) in `ٱلذُّلِّ`, and `ك ب ر B001` (greatness opposite smallness) in `كَبِّرْهُ تَكْبِيرًا`. Structural cue: 17:110 first calibrates prayer away from loudness and gathers many names under one possessor; this ayah then negates lineage, shared dominion, and compensatory alliance before commanding magnification. Assigned role: the three negations remove genealogical continuation, divided rule, and support required by weakness; praise affirms the resulting independence. Abductive move: the packet places conceptual negations after acoustic calibration; I infer that true magnification concerns dependency-structure rather than volume. Reading change: `تَكْبِيرًا` culminates the surah by enlarging the understanding of divine independence, not by merely intensifying sound.
+
+### Retrospective surprises
+
+No later ayah exists within the clipped focus window; the retrospective pass found no later surprise beyond 17:111's own closing independence structure.

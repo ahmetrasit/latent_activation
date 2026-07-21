@@ -8,7 +8,7 @@
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:1-3 made the doubled mercy unexpectedly procedural: it governs a firm/detailed message whose warning opens into forgiveness, timed benefit, and bounty.
 
 ## 11:1 - الٓر ۚ كِتَٰبٌ أُحْكِمَتْ ءَايَٰتُهُۥ ثُمَّ فُصِّلَتْ مِن لَّدُنْ حَكِيمٍ خَبِيرٍ
 
@@ -20,7 +20,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:6 supplied the surprise: its clear book of creature stations activated `ك ت ب` `B004`, so the fixed `كِتَاب` also became a state-register rather than only a written composition.
 
 ## 11:2 - أَلَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ ۚ إِنَّنِى لَكُم مِّنْهُ نَذِيرٌۭ وَبَشِيرٌۭ
 
@@ -30,7 +30,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:3 sharpened the paired messenger roles by distributing good use/bounty and punishment, confirming warning and tidings as the two feedback directions of exclusive service.
 
 ## 11:3 - وَأَنِ ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ يُمَتِّعْكُم مَّتَٰعًا حَسَنًا إِلَىٰٓ أَجَلٍۢ مُّسَمًّىۭ وَيُؤْتِ كُلَّ ذِى فَضْلٍۢ فَضْلَهُۥ ۖ وَإِن تَوَلَّوْا۟ فَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍۢ كَبِيرٍ
 
@@ -40,7 +40,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:8 unexpectedly made `أَجَلٍ مُّسَمًّى` administratively exact: a deferred consequence is held only to a counted span, not an undefined future.
 
 ## 11:4 - إِلَى ٱللَّهِ مَرْجِعُكُمْ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ
 
@@ -50,7 +50,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:6-9 made return more than afterlife movement: fixed/deposited locations, raising, delayed arrival, and extracted mercy all became trajectories converging under the fixed ayah's control claim.
 
 ## 11:5 - أَلَآ إِنَّهُمْ يَثْنُونَ صُدُورَهُمْ لِيَسْتَخْفُوا۟ مِنْهُ ۚ أَلَا حِينَ يَسْتَغْشُونَ ثِيَابَهُمْ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ
 
@@ -60,7 +60,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:6's known settlement/deposit states corrected any purely visual reading of concealment: relocating or covering a body does not relocate it outside the register of knowledge.
 
 ## 11:6 - ۞ وَمَا مِن دَآبَّةٍۢ فِى ٱلْأَرْضِ إِلَّا عَلَى ٱللَّهِ رِزْقُهَا وَيَعْلَمُ مُسْتَقَرَّهَا وَمُسْتَوْدَعَهَا ۚ كُلٌّۭ فِى كِتَٰبٍۢ مُّبِينٍۢ
 
@@ -70,7 +70,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:7-8 added the surprising temporal dimension: testing, resurrection, and a counted delay turn the creature register into a state-and-time ledger, not a static inventory.
 
 ## 11:7 - وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍۢ وَكَانَ عَرْشُهُۥ عَلَى ٱلْمَآءِ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًۭا ۗ وَلَئِن قُلْتَ إِنَّكُم مَّبْعُوثُونَ مِنۢ بَعْدِ ٱلْمَوْتِ لَيَقُولَنَّ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّا سِحْرٌۭ مُّبِينٌۭ
 
@@ -80,7 +80,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:9-11 revealed the test variable: the decisive disclosure is how work and character respond to mercy's withdrawal and return, not merely what the created arena contains.
 
 ## 11:8 - وَلَئِنْ أَخَّرْنَا عَنْهُمُ ٱلْعَذَابَ إِلَىٰٓ أُمَّةٍۢ مَّعْدُودَةٍۢ لَّيَقُولُنَّ مَا يَحْبِسُهُۥٓ ۗ أَلَا يَوْمَ يَأْتِيهِمْ لَيْسَ مَصْرُوفًا عَنْهُمْ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ
 
@@ -90,7 +90,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:10's claim that bad conditions had gone repeated the same present-state error, confirming that delay or absence is being mistaken for final causal closure.
 
 ## 11:9 - وَلَئِنْ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةًۭ ثُمَّ نَزَعْنَٰهَا مِنْهُ إِنَّهُۥ لَيَـُٔوسٌۭ كَفُورٌۭ
 
@@ -100,7 +100,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:11 supplied the corrective surprise: self-restraint preserves a memory and horizon beyond the latest extraction, showing that despair is not forced by change itself.
 
 ## 11:10 - وَلَئِنْ أَذَقْنَٰهُ نَعْمَآءَ بَعْدَ ضَرَّآءَ مَسَّتْهُ لَيَقُولَنَّ ذَهَبَ ٱلسَّيِّـَٔاتُ عَنِّىٓ ۚ إِنَّهُۥ لَفَرِحٌۭ فَخُورٌ
 
@@ -110,7 +110,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:15 made the boast look like premature settlement: near-world intention can receive immediate payout, explaining why a temporary departure of harm is falsely claimed as final success.
 
 ## 11:11 - إِلَّا ٱلَّذِينَ صَبَرُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ لَهُم مَّغْفِرَةٌۭ وَأَجْرٌۭ كَبِيرٌۭ
 
@@ -120,7 +120,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:15-16 clarified durability by contrast: full immediate payout can still become void downstream, whereas restrained sound work preserves a return beyond the visible state.
 
 ## 11:12 - فَلَعَلَّكَ تَارِكٌۢ بَعْضَ مَا يُوحَىٰٓ إِلَيْكَ وَضَآئِقٌۢ بِهِۦ صَدْرُكَ أَن يَقُولُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ كَنزٌ أَوْ جَآءَ مَعَهُۥ مَلَكٌ ۚ إِنَّمَآ أَنتَ نَذِيرٌۭ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ وَكِيلٌ
 
@@ -130,7 +130,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:13-14 answered the pressure with a production test and source-knowledge, while 11:17's witness-chain made omission newly visible as a break in transmission integrity.
 
 ## 11:13 - أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ فَأْتُوا۟ بِعَشْرِ سُوَرٍۢ مِّثْلِهِۦ مُفْتَرَيَٰتٍۢ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ
 
@@ -140,7 +140,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:18's public presentation of fabricators sharpened the challenge: failed reproducibility is not merely aesthetic defeat but evidence that enters an accountability forum.
 
 ## 11:14 - فَإِلَّمْ يَسْتَجِيبُوا۟ لَكُمْ فَٱعْلَمُوٓا۟ أَنَّمَآ أُنزِلَ بِعِلْمِ ٱللَّهِ وَأَن لَّآ إِلَٰهَ إِلَّا هُوَ ۖ فَهَلْ أَنتُم مُّسْلِمُونَ
 
@@ -150,7 +150,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:17-18 added an evidentiary surprise: source-knowledge is corroborated by a witness relay and public testimony, so the unanswered challenge sits inside a broader proof-chain.
 
 ## 11:15 - مَن كَانَ يُرِيدُ ٱلْحَيَوٰةَ ٱلدُّنْيَا وَزِينَتَهَا نُوَفِّّ إِلَيْهِمْ أَعْمَٰلَهُمْ فِيهَا وَهُمْ فِيهَا لَا يُبْخَسُونَ
 
@@ -160,7 +160,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:16 supplied the central surprise: complete, unshorted payment can coexist with total downstream nullity, confirming that domain and durability are separate accounting variables.
 
 ## 11:16 - أُو۟لَٰٓئِكَ ٱلَّذِينَ لَيْسَ لَهُمْ فِى ٱلْءَاخِرَةِ إِلَّا ٱلنَّارُ ۖ وَحَبِطَ مَا صَنَعُوا۟ فِيهَا وَبَٰطِلٌۭ مَّا كَانُوا۟ يَعْمَلُونَ
 
@@ -170,7 +170,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:17's clear proof and witness supplied the missing durability criterion, while 11:21's loss of the self showed what the apparently swollen production had actually consumed.
 
 ## 11:17 - أَفَمَن كَانَ عَلَىٰ بَيِّنَةٍۢ مِّن رَّبِّهِۦ وَيَتْلُوهُۥ شَاهِدٌۭ مِّنْهُ وَمِن قَبْلِهِۦ كِتَٰبُ مُوسَىٰٓ إِمَامًۭا وَرَحْمَةً ۚ أُو۟لَٰٓئِكَ يُؤْمِنُونَ بِهِۦ ۚ وَمَن يَكْفُرْ بِهِۦ مِنَ ٱلْأَحْزَابِ فَٱلنَّارُ مَوْعِدُهُۥ ۚ فَلَا تَكُ فِى مِرْيَةٍۢ مِّنْهُ ۚ إِنَّهُ ٱلْحَقُّ مِن رَّبِّكَ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يُؤْمِنُونَ
 
@@ -180,7 +180,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:20's inability to hear or see made the witness relay unexpectedly sensory-ethical: evidence can be present and sequential while the receiver's uptake capacity has been disabled.
 
 ## 11:18 - وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا ۚ أُو۟لَٰٓئِكَ يُعْرَضُونَ عَلَىٰ رَبِّهِمْ وَيَقُولُ ٱلْأَشْهَٰدُ هَٰٓؤُلَآءِ ٱلَّذِينَ كَذَبُوا۟ عَلَىٰ رَبِّهِمْ ۚ أَلَا لَعْنَةُ ٱللَّهِ عَلَى ٱلظَّٰلِمِينَ
 
@@ -190,7 +190,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:23's low-ground receptivity sharpened the contrast: witnessed liars are expelled outward, whereas those who lower themselves toward their Lord gain lasting companionship.
 
 ## 11:19 - ٱلَّذِينَ يَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًۭا وَهُم بِٱلْءَاخِرَةِ هُمْ كَٰفِرُونَ
 
@@ -200,7 +200,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:24 made the path mechanism explicit as perception: bending the route culminates in blind/deaf functioning, not merely a wrong verbal description.
 
 ## 11:20 - أُو۟لَٰٓئِكَ لَمْ يَكُونُوا۟ مُعْجِزِينَ فِى ٱلْأَرْضِ وَمَا كَانَ لَهُم مِّن دُونِ ٱللَّهِ مِنْ أَوْلِيَآءَ ۘ يُضَٰعَفُ لَهُمُ ٱلْعَذَابُ ۚ مَا كَانُوا۟ يَسْتَطِيعُونَ ٱلسَّمْعَ وَمَا كَانُوا۟ يُبْصِرُونَ
 
@@ -210,7 +210,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:24 confirmed that the incapacity is functional: the comparison opposes refusal-to-hear and blindness to compliant hearing and sight, not simple sensory equipment.
 
 ## 11:21 - أُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ
 
@@ -220,7 +220,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:23-24 revealed the lost asset's positive counterpart: durable companionship and functioning perception are what the self-liquidating account can no longer access.
 
 ## 11:22 - لَا جَرَمَ أَنَّهُمْ فِى ٱلْءَاخِرَةِ هُمُ ٱلْأَخْسَرُونَ
 
@@ -230,7 +230,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:27 unexpectedly repeated maximal loss as misvaluation: the elite rank low-status followers as evidence against truth, reproducing the faulty accounting that the verdict closes.
 
 ## 11:23 - إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَأَخْبَتُوٓا۟ إِلَىٰ رَبِّهِمْ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَٰلِدُونَ
 
@@ -240,7 +240,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:27-28 sharpened `أَخْبَتُوا` as willing receptivity: elite contempt obscures mercy, and the mercy cannot be forced onto an averse receiver.
 
 ## 11:24 - ۞ مَثَلُ ٱلْفَرِيقَيْنِ كَٱلْأَعْمَىٰ وَٱلْأَصَمِّ وَٱلْبَصِيرِ وَٱلسَّمِيعِ ۚ هَلْ يَسْتَوِيَانِ مَثَلًا ۚ أَفَلَا تَذَكَّرُونَ
 
@@ -250,7 +250,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:27-28 enacted the parable: repeated claims to see coexist with obscured mercy, showing eyesight without the receiving function named by the fixed comparison.
 ## 11:25 - وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦٓ إِنِّى لَكُمْ نَذِيرٌۭ مُّبِينٌ
 
 ### Activated readings
@@ -259,7 +259,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:27's immediate status-filter was the surprise: a signal can be explicitly clear and still be rejected because the receiver admits only elite-shaped evidence.
 
 ## 11:26 - أَن لَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ ۖ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ أَلِيمٍۢ
 
@@ -269,7 +269,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:29-30 made worship's exposure test social: expelling believers to satisfy elites would itself place Noah beyond any human aid against God.
 
 ## 11:27 - فَقَالَ ٱلْمَلَأُ ٱلَّذِينَ كَفَرُوا۟ مِن قَوْمِهِۦ مَا نَرَىٰكَ إِلَّا بَشَرًۭا مِّثْلَنَا وَمَا نَرَىٰكَ ٱتَّبَعَكَ إِلَّا ٱلَّذِينَ هُمْ أَرَاذِلُنَا بَادِىَ ٱلرَّأْىِ وَمَا نَرَىٰ لَكُمْ عَلَيْنَا مِن فَضْلٍۭ بَلْ نَظُنُّكُمْ كَٰذِبِينَ
 
@@ -279,7 +279,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:28 and 11:31 named the filter's failure from both sides: mercy is obscured to them, and their eyes have no jurisdiction to forecast another person's good.
 
 ## 11:28 - قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍۢ مِّن رَّبِّى وَءَاتَىٰنِى رَحْمَةًۭ مِّنْ عِندِهِۦ فَعُمِّيَتْ عَلَيْكُمْ أَنُلْزِمُكُمُوهَا وَأَنتُمْ لَهَا كَٰرِهُونَ
 
@@ -289,7 +289,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:31's contemptuous eyes and 11:32's demand for punishment confirmed that aversion replaces receptive seeing with status judgment and spectacle-demand.
 
 ## 11:29 - وَيَٰقَوْمِ لَآ أَسْـَٔلُكُمْ عَلَيْهِ مَالًا ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱللَّهِ ۚ وَمَآ أَنَا۠ بِطَارِدِ ٱلَّذِينَ ءَامَنُوٓا۟ ۚ إِنَّهُم مُّلَٰقُوا۟ رَبِّهِمْ وَلَٰكِنِّىٓ أَرَىٰكُمْ قَوْمًۭا تَجْهَلُونَ
 
@@ -299,7 +299,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:31 supplied the strongest correction: God's knowledge of inner selves, not elite eyes, grounds the believers' standing and makes their future meeting independent of social price.
 
 ## 11:30 - وَيَٰقَوْمِ مَن يَنصُرُنِى مِنَ ٱللَّهِ إِن طَرَدتُّهُمْ ۚ أَفَلَا تَذَكَّرُونَ
 
@@ -309,7 +309,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:34 showed the same agency limit in another form: Noah cannot manufacture benefit through sincere counsel, just as the crowd cannot supply aid against God.
 
 ## 11:31 - وَلَآ أَقُولُ لَكُمْ عِندِى خَزَآئِنُ ٱللَّهِ وَلَآ أَعْلَمُ ٱلْغَيْبَ وَلَآ أَقُولُ إِنِّى مَلَكٌۭ وَلَآ أَقُولُ لِلَّذِينَ تَزْدَرِىٓ أَعْيُنُكُمْ لَن يُؤْتِيَهُمُ ٱللَّهُ خَيْرًا ۖ ٱللَّهُ أَعْلَمُ بِمَا فِىٓ أَنفُسِهِمْ ۖ إِنِّىٓ إِذًۭا لَّمِنَ ٱلظَّٰلِمِينَ
 
@@ -319,7 +319,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:36 surprisingly vindicated the boundary: the future limit of belief is disclosed by revelation, not by Noah claiming native access to the unseen.
 
 ## 11:32 - قَالُوا۟ يَٰنُوحُ قَدْ جَٰدَلْتَنَا فَأَكْثَرْتَ جِدَٰلَنَا فَأْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلصَّٰدِقِينَ
 
@@ -329,7 +329,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:37 turned the demanded event into a supervised material build: the requested proof was already taking shape outside the challengers' control.
 
 ## 11:33 - قَالَ إِنَّمَا يَأْتِيكُم بِهِ ٱللَّهُ إِن شَآءَ وَمَآ أَنتُم بِمُعْجِزِينَ
 
@@ -339,7 +339,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:37-38 made divine arrival operational before it became visible: supervised construction proceeds while the requesters remain unable to control either timing or escape.
 
 ## 11:34 - وَلَا يَنفَعُكُمْ نُصْحِىٓ إِنْ أَرَدتُّ أَنْ أَنصَحَ لَكُمْ إِن كَانَ ٱللَّهُ يُرِيدُ أَن يُغْوِيَكُمْ ۚ هُوَ رَبُّكُمْ وَإِلَيْهِ تُرْجَعُونَ
 
@@ -349,7 +349,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:38 supplied the behavioral image of dark confusion: mockery blocks benefit even while the survival mechanism is visibly taking shape.
 
 ## 11:35 - أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ إِنِ ٱفْتَرَيْتُهُۥ فَعَلَىَّ إِجْرَامِى وَأَنَا۠ بَرِىٓءٌۭ مِّمَّا تُجْرِمُونَ
 
@@ -359,7 +359,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:40's prior-word exclusion confirmed the liability firewall: even inside one household and one flood, responsibility is not pooled by proximity.
 
 ## 11:36 - وَأُوحِىَ إِلَىٰ نُوحٍ أَنَّهُۥ لَن يُؤْمِنَ مِن قَوْمِكَ إِلَّا مَن قَدْ ءَامَنَ فَلَا تَبْتَـِٔسْ بِمَا كَانُوا۟ يَفْعَلُونَ
 
@@ -369,7 +369,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:37's immediate craft command confirmed the phase transition: closed recruitment frees attention for preservation work rather than further argument.
 
 ## 11:37 - وَٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۚ إِنَّهُم مُّغْرَقُونَ
 
@@ -379,7 +379,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:42's mountain-like waves validated the engineering reading by revealing the vessel's actual design load and why supervised craft mattered.
 
 ## 11:38 - وَيَصْنَعُ ٱلْفُلْكَ وَكُلَّمَا مَرَّ عَلَيْهِ مَلَأٌۭ مِّن قَوْمِهِۦ سَخِرُوا۟ مِنْهُ ۚ قَالَ إِن تَسْخَرُوا۟ مِنَّا فَإِنَّا نَسْخَرُ مِنكُمْ كَمَا تَسْخَرُونَ
 
@@ -389,7 +389,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:43 completed the expertise reversal: the elite's stable mountain-model fails while the mocked moving vessel supplies the effective shelter.
 
 ## 11:39 - فَسَوْفَ تَعْلَمُونَ مَن يَأْتِيهِ عَذَابٌۭ يُخْزِيهِ وَيَحِلُّ عَلَيْهِ عَذَابٌۭ مُّقِيمٌ
 
@@ -399,7 +399,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:44 materialized both stages: command arrives and exposes the mockers' error, then the affair completes and the ship settles into a new residence.
 
 ## 11:40 - حَتَّىٰٓ إِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ قُلْنَا ٱحْمِلْ فِيهَا مِن كُلٍّۢ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ وَمَنْ ءَامَنَ ۚ وَمَآ ءَامَنَ مَعَهُۥٓ إِلَّا قَلِيلٌۭ
 
@@ -409,7 +409,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:45 exposed the exception's purpose: Noah's kinship appeal shows why the prior-word exclusion was a governing boundary rather than an aside.
 
 ## 11:41 - ۞ وَقَالَ ٱرْكَبُوا۟ فِيهَا بِسْمِ ٱللَّهِ مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ إِنَّ رَبِّى لَغَفُورٌۭ رَّحِيمٌۭ
 
@@ -419,7 +419,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:44 confirmed that mooring is as commanded as motion, while 11:46 showed that mercy's enclosure is not an automatic biological privilege.
 
 ## 11:42 - وَهِىَ تَجْرِى بِهِمْ فِى مَوْجٍۢ كَٱلْجِبَالِ وَنَادَىٰ نُوحٌ ٱبْنَهُۥ وَكَانَ فِى مَعْزِلٍۢ يَٰبُنَىَّ ٱرْكَب مَّعَنَا وَلَا تَكُن مَّعَ ٱلْكَٰفِرِينَ
 
@@ -429,7 +429,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:46 turned the son's physical `مَعْزِل` into a categorical fact: being set aside from the vessel had already embodied being outside the operative household.
 
 ## 11:43 - قَالَ سَـَٔاوِىٓ إِلَىٰ جَبَلٍۢ يَعْصِمُنِى مِنَ ٱلْمَآءِ ۚ قَالَ لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ ۚ وَحَالَ بَيْنَهُمَا ٱلْمَوْجُ فَكَانَ مِنَ ٱلْمُغْرَقِينَ
 
@@ -439,7 +439,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:44 corrected terrain-based protection decisively: sky, ground, and water all reverse on command, so no fixed feature possesses independent sheltering force.
 
 ## 11:44 - وَقِيلَ يَٰٓأَرْضُ ٱبْلَعِى مَآءَكِ وَيَٰسَمَآءُ أَقْلِعِى وَغِيضَ ٱلْمَآءُ وَقُضِىَ ٱلْأَمْرُ وَٱسْتَوَتْ عَلَى ٱلْجُودِىِّ ۖ وَقِيلَ بُعْدًۭا لِّلْقَوْمِ ٱلظَّٰلِمِينَ
 
@@ -449,7 +449,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:48 made shutdown constructive: after water is removed and the vessel settles, controlled descent opens safety, blessing, and renewed habitation.
 
 ## 11:45 - وَنَادَىٰ نُوحٌۭ رَّبَّهُۥ فَقَالَ رَبِّ إِنَّ ٱبْنِى مِنْ أَهْلِى وَإِنَّ وَعْدَكَ ٱلْحَقُّ وَأَنتَ أَحْكَمُ ٱلْحَٰكِمِينَ
 
@@ -459,7 +459,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:46 directly corrected Noah's hidden premise, and 11:50's new brother relation further showed that kin language marks proximity without guaranteeing aligned belonging.
 
 ## 11:46 - قَالَ يَٰنُوحُ إِنَّهُۥ لَيْسَ مِنْ أَهْلِكَ ۖ إِنَّهُۥ عَمَلٌ غَيْرُ صَٰلِحٍۢ ۖ فَلَا تَسْـَٔلْنِ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ ۖ إِنِّىٓ أَعِظُكَ أَن تَكُونَ مِنَ ٱلْجَٰهِلِينَ
 
@@ -469,7 +469,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:48's communities from those with Noah showed that continuity remains collective but differentiated, confirming that operative belonging is not reducible to blood.
 
 ## 11:47 - قَالَ رَبِّ إِنِّىٓ أَعُوذُ بِكَ أَنْ أَسْـَٔلَكَ مَا لَيْسَ لِى بِهِۦ عِلْمٌۭ ۖ وَإِلَّا تَغْفِرْ لِى وَتَرْحَمْنِىٓ أَكُن مِّنَ ٱلْخَٰسِرِينَ
 
@@ -479,7 +479,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:48's peaceful descent showed the result of the corrected refuge: epistemic restraint reopens movement and habitation after the failed mountain refuge.
 
 ## 11:48 - قِيلَ يَٰنُوحُ ٱهْبِطْ بِسَلَٰمٍۢ مِّنَّا وَبَرَكَٰتٍ عَلَيْكَ وَعَلَىٰٓ أُمَمٍۢ مِّمَّن مَّعَكَ ۚ وَأُمَمٌۭ سَنُمَتِّعُهُمْ ثُمَّ يَمَسُّهُم مِّنَّا عَذَابٌ أَلِيمٌۭ
 
@@ -489,7 +489,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:52's released rain and added strength materialized the blessing trajectory, while 11:53's refusal showed how a preserved community can still enter the other branch.
 
 ## 11:49 - تِلْكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهَآ إِلَيْكَ ۖ مَا كُنتَ تَعْلَمُهَآ أَنتَ وَلَا قَوْمُكَ مِن قَبْلِ هَٰذَا ۖ فَٱصْبِرْ ۖ إِنَّ ٱلْعَٰقِبَةَ لِلْمُتَّقِينَ
 
@@ -499,7 +499,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:50-54 immediately replayed warning, nonpayment, rejection, and causal misattribution, showing that the flood outcome is a reusable training pattern rather than closure.
 
 ## 11:50 - وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًۭا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ ۖ إِنْ أَنتُمْ إِلَّا مُفْتَرُونَ
 
@@ -509,7 +509,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:53 made the kin correction explicit: Hud's speech as their brother is rejected because inherited gods outrank relational proximity.
 
 ## 11:51 - يَٰقَوْمِ لَآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱلَّذِى فَطَرَنِىٓ ۚ أَفَلَا تَعْقِلُونَ
 
@@ -519,7 +519,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:56 extended `فَطَرَنِى` from origination to ongoing control: the originator also holds every creature's forelock, strengthening the independence claim.
 
 ## 11:52 - وَيَٰقَوْمِ ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًۭا وَيَزِدْكُمْ قُوَّةً إِلَىٰ قُوَّتِكُمْ وَلَا تَتَوَلَّوْا۟ مُجْرِمِينَ
 
@@ -529,7 +529,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:57 corrected any entitlement reading of added strength: a people can be replaced without harming the source, so capacity is stewardship rather than immunity.
 
 ## 11:53 - قَالُوا۟ يَٰهُودُ مَا جِئْتَنَا بِبَيِّنَةٍۢ وَمَا نَحْنُ بِتَارِكِىٓ ءَالِهَتِنَا عَن قَوْلِكَ وَمَا نَحْنُ لَكَ بِمُؤْمِنِينَ
 
@@ -539,7 +539,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:56-58 supplied the excluded evidence: universal control and mercy-based rescue are relational and causal signs their precommitment had ruled out in advance.
 
 ## 11:54 - إِن نَّقُولُ إِلَّا ٱعْتَرَىٰكَ بَعْضُ ءَالِهَتِنَا بِسُوٓءٍۢ ۗ قَالَ إِنِّىٓ أُشْهِدُ ٱللَّهَ وَٱشْهَدُوٓا۟ أَنِّى بَرِىٓءٌۭ مِّمَّا تُشْرِكُونَ
 
@@ -549,7 +549,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:59 identified the effective rival power: not the alleged strike of the gods, but following the command of every coercive, resistant ruler.
 
 ## 11:55 - مِن دُونِهِۦ ۖ فَكِيدُونِى جَمِيعًۭا ثُمَّ لَا تُنظِرُونِ
 
@@ -559,7 +559,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:56 explained the challenge's confidence: every member of the invited coalition is already under the same forelock-hold.
 
 ## 11:56 - إِنِّى تَوَكَّلْتُ عَلَى ٱللَّهِ رَبِّى وَرَبِّكُم ۚ مَّا مِن دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ بِنَاصِيَتِهَآ ۚ إِنَّ رَبِّى عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
 
@@ -569,7 +569,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:61 broadened the straight path into accountable habitation: universal creature-control is paired with originating people from land and commissioning them to cultivate it.
 
 ## 11:57 - فَإِن تَوَلَّوْا۟ فَقَدْ أَبْلَغْتُكُم مَّآ أُرْسِلْتُ بِهِۦٓ إِلَيْكُمْ ۚ وَيَسْتَخْلِفُ رَبِّى قَوْمًا غَيْرَكُمْ وَلَا تَضُرُّونَهُۥ شَيْـًٔا ۚ إِنَّ رَبِّى عَلَىٰ كُلِّ شَىْءٍ حَفِيظٌۭ
 
@@ -579,7 +579,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:61 made succession constructive: replacement is not mere deletion but the raising of another people into inhabited stewardship.
 
 ## 11:58 - وَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا هُودًۭا وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ بِرَحْمَةٍۢ مِّنَّا وَنَجَّيْنَٰهُم مِّنْ عَذَابٍ غَلِيظٍۢ
 
@@ -589,7 +589,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:60's attached curse mirrored the rescue's separation: the two groups leave the event with opposite relations following them.
 
 ## 11:59 - وَتِلْكَ عَادٌۭ ۖ جَحَدُوا۟ بِـَٔايَٰتِ رَبِّهِمْ وَعَصَوْا۟ رُسُلَهُۥ وَٱتَّبَعُوٓا۟ أَمْرَ كُلِّ جَبَّارٍ عَنِيدٍۢ
 
@@ -599,7 +599,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:64's protected, freely grazing sign supplied the opposite authority model: a visible divine directive asks restraint rather than obedience to coercion.
 
 ## 11:60 - وَأُتْبِعُوا۟ فِى هَٰذِهِ ٱلدُّنْيَا لَعْنَةًۭ وَيَوْمَ ٱلْقِيَٰمَةِ ۗ أَلَآ إِنَّ عَادًۭا كَفَرُوا۟ رَبَّهُمْ ۗ أَلَا بُعْدًۭا لِّعَادٍۢ قَوْمِ هُودٍۢ
 
@@ -609,7 +609,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:65's three-day term made punitive distance temporally traceable: the consequence follows them through a counted final occupancy.
 
 ## 11:61 - ۞ وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًۭا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ هُوَ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَٱسْتَعْمَرَكُمْ فِيهَا فَٱسْتَغْفِرُوهُ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى قَرِيبٌۭ مُّجِيبٌۭ
 
@@ -619,4 +619,624 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+Later 11:64 supplied the concrete stewardship test: a creature from the land must be allowed access to God's land without harmful domination.
+
+## 11:62 - قَالُوا۟ يَٰصَٰلِحُ قَدْ كُنتَ فِينَا مَرْجُوًّۭا قَبْلَ هَٰذَآ ۖ أَتَنْهَىٰنَآ أَن نَّعْبُدَ مَا يَعْبُدُ ءَابَآؤُنَا وَإِنَّنَا لَفِى شَكٍّۢ مِّمَّا تَدْعُونَآ إِلَيْهِ مُرِيبٍۢ
+
+### Activated readings
+
+1. **Social hope collapses when inherited worship is restrained.** **Lexical evidence:** `ر ج و` `B001` anchors expectant hope; `ق ب ل` `B002` anchors priorness; `ن ه ي` `B001` anchors restraint from an act; `ع ب د` `B003` anchors worship; `أ ب و` `B001` anchors parental lineage; `ش ك ك` `B001` anchors interlocked alternatives without certainty; `د ع و` `B001` anchors calling near; and `ر ي ب` `B001` anchors disturbing doubt. **Structural cue and role:** Salih's former social promise is explicitly located before his prohibition; ancestral service and the new call then lock together as competing paths, producing disturbance. **Abductive move:** I infer that the group's earlier valuation of Salih was conditional on his preserving inherited practice. **Reading change:** their doubt reads as a status-defense triggered by reform, not as an unchanged lack of information.
+
+### Retrospective surprises
+
+Later 11:64's visible sign failed to dissolve doubt, and 11:65 showed uncertainty converting into decisive violence; the problem was not lack of perceptible evidence.
+
+## 11:63 - قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍۢ مِّن رَّبِّى وَءَاتَىٰنِى مِنْهُ رَحْمَةًۭ فَمَن يَنصُرُنِى مِنَ ٱللَّهِ إِنْ عَصَيْتُهُۥ ۖ فَمَا تَزِيدُونَنِى غَيْرَ تَخْسِيرٍۢ
+
+### Activated readings
+
+1. **The crowd's offered gain is negative-value capital.** **Lexical evidence:** `ب ي ن` `B004` anchors clear proof; `ر ح م` `B001` anchors mercy; `ن ص ر` `B001` anchors aid that makes prevail; `ع ص ي` `B001` anchors leaving obedience; `ز ي د` `B001` anchors increase; `غ ي ر` `B005` anchors exception/otherness; and `خ س ر` `B002` anchors trade loss. **Structural cue and role:** clear proof and mercy establish Salih's asset position; obeying the crowd would remove divine aid, so everything they can add is explicitly converted into further loss. **Abductive move:** I infer that social acceptance is a liability when purchased by disobedience to the source of protection. **Reading change:** the answer becomes a comparison of incompatible balance sheets: their increase cannot compensate for the aid it would forfeit.
+
+### Retrospective surprises
+
+Later 11:65's three-day `تَمَتَّعُوا` exposed the crowd's offered increase as radically short-term, and 11:68 confirmed the loss by erasing their dwelling.
+
+## 11:64 - وَيَٰقَوْمِ هَٰذِهِۦ نَاقَةُ ٱللَّهِ لَكُمْ ءَايَةًۭ فَذَرُوهَا تَأْكُلْ فِىٓ أَرْضِ ٱللَّهِ وَلَا تَمَسُّوهَا بِسُوٓءٍۢ فَيَأْخُذَكُمْ عَذَابٌۭ قَرِيبٌۭ
+
+### Activated readings
+
+1. **A visible sign tests non-interference in shared land.** **Lexical evidence:** `ن و ق` `B002` anchors the she-camel; `أ ي ي` `B003` anchors a visible sign; `و ذ ر` `B003` anchors leaving something be; `أ ك ل` `B001` anchors eating; `أ ر ض` `B001` anchors ground; `م س س` `B004` anchors being touched by an effect; `س و ء` `B002` anchors harm; `أ خ ذ` `B002` anchors taking to account; and `ق ر ب` `B001` anchors nearness. **Structural cue and role:** the sign is not only seen; it must be allowed to feed freely, with harmful contact prohibited and near seizure attached to breach. **Abductive move:** I infer that restraint toward vulnerable life operationalizes the land-habitation covenant of 11:61. **Reading change:** the she-camel reads as an ecological access test in which non-domination, rather than spectacle, is the required response to the sign.
+
+### Retrospective surprises
+
+Later 11:65 made touching with harm materially exact as a disabling cut, while 11:69's offered food supplied the opposite relation to vulnerable animal life.
+
+## 11:65 - فَعَقَرُوهَا فَقَالَ تَمَتَّعُوا۟ فِى دَارِكُمْ ثَلَٰثَةَ أَيَّامٍۢ ۖ ذَٰلِكَ وَعْدٌ غَيْرُ مَكْذُوبٍۢ
+
+### Activated readings
+
+1. **Disabling the sign converts habitation into a countdown lease.** **Lexical evidence:** `ع ق ر` `B002` anchors cutting an animal down; `م ت ع` `B001` anchors benefit enjoyed and used; `د و ر` `B007` activates attachment to residence in `دَارِكُمْ`; `ث ل ث` `B001` anchors three; `ي و م` `B001` anchors day; `و ع د` `B003` anchors an appointed time; and `ك ذ ب` `B001` anchors falsehood. **Structural cue and role:** the prohibited harmful touch becomes a disabling cut; immediately, open-ended dwelling is reduced to three countable days and a promise insulated from falsification. **Abductive move:** I infer that violating the land-access covenant terminates their stewardship tenancy but grants a fixed notice interval. **Reading change:** `تَمَتَّعُوا` reads as terminal occupancy, not generous enjoyment.
+
+### Retrospective surprises
+
+Later 11:67-68 fulfilled both dimensions of the countdown: bodies collapse inside the named dwellings, then the people's very history of dwelling is denied.
+
+## 11:66 - فَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا صَٰلِحًۭا وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ بِرَحْمَةٍۢ مِّنَّا وَمِنْ خِزْىِ يَوْمِئِذٍ ۗ إِنَّ رَبَّكَ هُوَ ٱلْقَوِىُّ ٱلْعَزِيزُ
+
+### Activated readings
+
+1. **Selective extraction requires force beyond group cohesion.** **Lexical evidence:** `ج ي ء` `B001` anchors arrival; `ن ج و` `B001` anchors deliverance by separation; `ر ح م` `B001` anchors mercy; `خ ز ي` `B001` anchors exposure and rejection; `ق و ي` `B001` anchors assembled strength like rope strands; and `ع ز ز` `B001` anchors might and inaccessible honor. **Structural cue and role:** mercy separates Salih and the assenting group both from destruction and from that day's exposure; the closing strength/might pair names the capacity enabling discrimination inside a collective event. **Abductive move:** I infer that selective rescue requires force sufficient to break group-level consequence without sweeping the protected into it. **Reading change:** deliverance reads as an exact extraction performed by superior cohesion, not fortunate escape from an indiscriminate disaster.
+
+### Retrospective surprises
+
+Later 11:67 confirmed selective extraction by showing the cry take only those left in the dwellings, while 11:69 contrasted destructive arrival with messengers bearing good news.
+
+## 11:67 - وَأَخَذَ ٱلَّذِينَ ظَلَمُوا۟ ٱلصَّيْحَةُ فَأَصْبَحُوا۟ فِى دِيَٰرِهِمْ جَٰثِمِينَ
+
+### Activated readings
+
+1. **A terrifying signal arrests a moving society into low fixed bodies.** **Lexical evidence:** `أ خ ذ` `B007` (a condition taking hold in the body) activates through `أَخَذَ`; `ص ي ح` `B002` anchors a terrifying cry; `ص ب ح` `B010` anchors becoming with `فَأَصْبَحُوا`; `د و ر` `B007` anchors attachment to residence; and `ج ث م` `B001` anchors clinging low and staying in place. **Structural cue and role:** the cry takes them, and by morning the active inhabitants of the three-day interval have become low, immobile forms inside their own dwellings. **Abductive move:** I infer that the acoustic event is the causal switch from social motion to bodily arrest. **Reading change:** punishment reads as an abrupt state transition whose result is spatially displayed where they expected continued use.
+
+### Retrospective surprises
+
+Later 11:68 intensified bodily arrest into historical erasure: fixed forms remain in houses, yet settled habitation is treated as though it never existed.
+
+## 11:68 - كَأَن لَّمْ يَغْنَوْا۟ فِيهَآ ۗ أَلَآ إِنَّ ثَمُودَا۟ كَفَرُوا۟ رَبَّهُمْ ۗ أَلَا بُعْدًۭا لِّثَمُودَ
+
+### Activated readings
+
+1. **Historical occupancy is erased even while dwellings remain.** **Lexical evidence:** `غ ن ي` `B004` anchors settled dwelling or having been in a place; `ك ف ر` `B003` anchors rejection of truth; `ر ب ب` `B001` anchors lordship; and `ب ع د` `B004` anchors being far off as ruin. **Structural cue and role:** 11:67 leaves bodies in their houses, but this ayah denies the more durable predicate that they ever dwelt there and then imposes distance. **Abductive move:** I infer that habitation requires living continuity and maintained relation, not mere structures or bodily residue. **Reading change:** the destruction reads as erasure of a people's claim on place and history, not only termination of individual lives.
+
+### Retrospective surprises
+
+Later 11:69-73 supplied the positive counterimage of dwelling: quick hospitality and household blessing make habitation relational and generative, not merely spatial.
+
+## 11:69 - وَلَقَدْ جَآءَتْ رُسُلُنَآ إِبْرَٰهِيمَ بِٱلْبُشْرَىٰ قَالُوا۟ سَلَٰمًۭا ۖ قَالَ سَلَٰمٌۭ ۖ فَمَا لَبِثَ أَن جَآءَ بِعِجْلٍ حَنِيذٍۢ
+
+### Activated readings
+
+1. **Hospitality functions as a material peace-handshake.** **Lexical evidence:** `ج ي ء` `B001` anchors repeated arrival; `ر س ل` `B002` anchors messengers; `ب ش ر` `B005` anchors face-brightening tidings; `س ل م` `B001` anchors safety; `ل ب ث` `B002` anchors delay; `ع ج ل` `B002` anchors calf; and `ح ن ذ` `B001` anchors hot-stone roasting. **Structural cue and role:** verbal peace is exchanged, then Abraham minimizes delay and answers it with prepared food; 11:70 tests whether the visitors' hands complete that exchange. **Abductive move:** I infer that reciprocal eating would ratify the announced safe guest relation. **Reading change:** the meal reads as a diagnostic handshake translating speech into embodied mutuality, not as incidental generosity.
+
+### Retrospective surprises
+
+Later 11:70 broke the expected reciprocity when hands did not reach the food, confirming that the meal functioned as a test of peaceful guest status.
+
+## 11:70 - فَلَمَّا رَءَآ أَيْدِيَهُمْ لَا تَصِلُ إِلَيْهِ نَكِرَهُمْ وَأَوْجَسَ مِنْهُمْ خِيفَةًۭ ۚ قَالُوا۟ لَا تَخَفْ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمِ لُوطٍۢ
+
+### Activated readings
+
+1. **A broken exchange protocol generates rational fear.** **Lexical evidence:** `ر أ ي` `B001` anchors seeing; `ي د ي` `B001` anchors bodily hands; `و ص ل` `B002` anchors coming through to a destination; `ن ك ر` `B001` anchors the contrary of recognition; `و ج س` `B002` anchors an inward occurrence of fear; `خ و ف` `B001` anchors anticipated harm; and `ر س ل` `B002` anchors being sent. **Structural cue and role:** hands fail to reach the offered food, so the peace-handshake of 11:69 remains materially incomplete; nonrecognition and inward fear follow until speech reclassifies the visitors and their mission. **Abductive move:** I infer that refusal to eat normally signals hostile or non-guest status. **Reading change:** Abraham's fear reads as an inference from a violated hospitality protocol, not as ungrounded emotion.
+
+### Retrospective surprises
+
+Later 11:71-73 reversed nonrecognition completely: the feared strangers become bearers of multigenerational household blessing.
+
+## 11:71 - وَٱمْرَأَتُهُۥ قَآئِمَةٌۭ فَضَحِكَتْ فَبَشَّرْنَٰهَا بِإِسْحَٰقَ وَمِن وَرَآءِ إِسْحَٰقَ يَعْقُوبَ
+
+### Activated readings
+
+1. **Released fear opens a two-generation continuity line.** **Lexical evidence:** `م ر ء` `B001` anchors the woman; `ق و م` `B002` anchors upright standing; `ض ح ك` `B003` anchors joy or wonder expressed as laughter; `ب ش ر` `B005` anchors face-brightening tidings; and `و ر ي` `B007` anchors the grandchild coming after the child in `وَرَاءِ`. **Structural cue and role:** the standing witness moves from the fear scene into laughter, and the good news extends from a child to a child-after-child. **Abductive move:** I infer that the visitors' reclassification releases tension and makes room for reception of an otherwise impossible future continuity. **Reading change:** laughter becomes the pivot that converts broken guest expectation into expanding lineage, not an isolated reaction.
+
+### Retrospective surprises
+
+Later 11:72 verbalized the surprise held in the laughter, and 11:73 resolved it by naming mercy and fixed growing blessing as the causal source.
+
+## 11:72 - قَالَتْ يَٰوَيْلَتَىٰٓ ءَأَلِدُ وَأَنَا۠ عَجُوزٌۭ وَهَٰذَا بَعْلِى شَيْخًا ۖ إِنَّ هَٰذَا لَشَىْءٌ عَجِيبٌۭ
+
+### Activated readings
+
+1. **Two exhausted generative constraints expose the missing cause.** **Lexical evidence:** `و ل د` `B003` anchors birth and delivery; `ع ج ز` `B003` anchors old age in `عَجُوز`; `ب ع ل` `B001` anchors husband; `ش ي خ` `B001` anchors elderhood; `ش ي ء` `B001` anchors a knowable thing; and `ع ج ب` `B001` anchors wonder at the unfamiliar. **Structural cue and role:** her old age and her husband's elderhood are separately named before the announced birth is classified as wondrous. **Abductive move:** I infer that ordinary generative capacity appears exhausted on both sides, leaving a causal gap that the next ayah must fill. **Reading change:** the exclamation reads as an explicit constraint model rather than simple surprise.
+
+### Retrospective surprises
+
+Later 11:73 filled the causal gap with divine affair, mercy, and blessing; 11:77 then showed the same messengers carrying a destructive mission elsewhere.
+
+## 11:73 - قَالُوٓا۟ أَتَعْجَبِينَ مِنْ أَمْرِ ٱللَّهِ ۖ رَحْمَتُ ٱللَّهِ وَبَرَكَٰتُهُۥ عَلَيْكُمْ أَهْلَ ٱلْبَيْتِ ۚ إِنَّهُۥ حَمِيدٌۭ مَّجِيدٌۭ
+
+### Activated readings
+
+1. **Fixed, growing good supplies the cause of household continuity.** **Lexical evidence:** `ع ج ب` `B001` anchors wonder; `أ م ر` `B001` anchors the divine affair; `ر ح م` `B001` anchors mercy; `ب ر ك` `B004` anchors fixed, growing good; `أ ه ل` `B001` anchors close belonging; `ب ي ت` `B002` anchors household and family; `ح م د` `B003` anchors the praiseworthy one of many good traits; and `م ج د` `B001` anchors noble, generous rank. **Structural cue and role:** the reply relocates causality from the aged couple to divine affair, then places mercy and growth over the household as the mechanism. **Abductive move:** I infer that blessing is not a polite wish here but a durable generative supply capable of exceeding natural household limits. **Reading change:** the formula reads as the causal answer to 11:72's constraint problem.
+
+### Retrospective surprises
+
+Later 11:78 placed another household under pressure: Lot's appeal to purer kinship and guest protection showed that household blessing entails public protective responsibility.
+
+## 11:74 - فَلَمَّا ذَهَبَ عَنْ إِبْرَٰهِيمَ ٱلرَّوْعُ وَجَآءَتْهُ ٱلْبُشْرَىٰ يُجَٰدِلُنَا فِى قَوْمِ لُوطٍ
+
+### Activated readings
+
+1. **Reassurance releases capacity for compassionate disputation.** **Lexical evidence:** `ذ ه ب` `B006` anchors departure; `ر و ع` `B001` anchors fright; `ج ي ء` `B001` anchors arrival; `ب ش ر` `B005` anchors good tidings; `ج د ل` `B002` anchors contentious disputation; and `ق و م` `B001` anchors Lot's people. **Structural cue and role:** fright departs and good news arrives before Abraham begins disputing about another community; the affective reversal therefore precedes outward advocacy. **Abductive move:** I infer that restored security frees attention and moral capacity that fear had occupied. **Reading change:** the disputation reads as compassion enabled by reassurance, not as defiance disconnected from the visitors' prior treatment of him.
+
+### Retrospective surprises
+
+Later 11:75 named forbearance and tenderness as the motive of disputation, while 11:76 marked the point where even disciplined compassion must yield to arrived command.
+
+## 11:75 - إِنَّ إِبْرَٰهِيمَ لَحَلِيمٌ أَوَّٰهٌۭ مُّنِيبٌۭ
+
+### Activated readings
+
+1. **Three dispositions form an intercession engine.** **Lexical evidence:** `ح ل م` `B001` anchors restraint and forbearance; `أ و ه` `B002` anchors an oft-supplicating tender person; and `ن و ب` `B001` anchors habitual return and recurring turn. **Structural cue and role:** these qualities immediately explain 11:74's disputation and stand before 11:76's command to stop: restraint prevents reactive closure, tenderness registers another group's danger, and repeated return directs that concern back to God. **Abductive move:** I infer that advocacy persists because feeling is disciplined rather than impulsive and because the matter is repeatedly resubmitted rather than seized. **Reading change:** the adjectives become a causal profile of compassionate intercession, not three ornamental praises.
+
+### Retrospective surprises
+
+Later 11:76 supplied the limiting surprise: habitual return does not mean endless negotiation once the affair has crossed into non-repelled execution.
+
+## 11:76 - يَٰٓإِبْرَٰهِيمُ أَعْرِضْ عَنْ هَٰذَآ ۖ إِنَّهُۥ قَدْ جَآءَ أَمْرُ رَبِّكَ ۖ وَإِنَّهُمْ ءَاتِيهِمْ عَذَابٌ غَيْرُ مَرْدُودٍۢ
+
+### Activated readings
+
+1. **Arrival of command marks the end of negotiable time.** **Lexical evidence:** `ع ر ض` `B005` anchors turning one's side away; `ج ي ء` `B001` anchors arrival; `أ م ر` `B001` anchors the affair; `أ ت ي` `B001` anchors punishment coming to them; `غ ي ر` `B005` anchors negating otherness; and `ر د د` `B002` anchors repelling. **Structural cue and role:** Abraham is told to turn aside because the command has already arrived, and the punishment is characterized by absence of any repelling path. **Abductive move:** I infer that argument can matter before execution but cannot reopen a trajectory once ruling has entered its operational phase. **Reading change:** the refusal reads as a phase boundary rather than an unexplained rebuff of virtuous compassion.
+
+### Retrospective surprises
+
+Later 11:81 operationalized the closure: debate stops, but selective evacuation remains possible through a precise movement command.
+
+## 11:77 - وَلَمَّا جَآءَتْ رُسُلُنَا لُوطًۭا سِىٓءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًۭا وَقَالَ هَٰذَا يَوْمٌ عَصِيبٌۭ
+
+### Activated readings
+
+1. **Guest-protection demand exceeds Lot's available reach.** **Lexical evidence:** `ج ي ء` `B001` anchors arrival; `ر س ل` `B002` anchors messengers; `س و ء` `B002` anchors distress; `ض ي ق` `B002` anchors chest constriction; `ذ ر ع` `B004` anchors capacity as one's reach; `ي و م` `B003` anchors a severe occasion; and `ع ص ب` `B005` anchors a harsh, constricting affair. **Structural cue and role:** the same visitors who brought expansive birth-news now produce narrowed reach because Lot anticipates the crowd's pressure; bodily constriction and arm-measure jointly quantify inadequate protective capacity. **Abductive move:** I infer that guest duty plus hostile social force exceeds every means he can presently extend. **Reading change:** the distress reads as a capacity calculation under an enclosing day, not merely a mood.
+
+### Retrospective surprises
+
+Later 11:80 explicitly translated narrowed reach into a wish for strength or strong support, and 11:81 revealed that support was already present in the messengers.
+
+## 11:78 - وَجَآءَهُۥ قَوْمُهُۥ يُهْرَعُونَ إِلَيْهِ وَمِن قَبْلُ كَانُوا۟ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ ۚ قَالَ يَٰقَوْمِ هَٰٓؤُلَآءِ بَنَاتِى هُنَّ أَطْهَرُ لَكُمْ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ فِى ضَيْفِىٓ ۖ أَلَيْسَ مِنكُمْ رَجُلٌۭ رَّشِيدٌۭ
+
+### Activated readings
+
+1. **Habitual wrongdoing becomes crowd momentum that overruns judgment.** **Lexical evidence:** `ه ر ع` `B001` anchors being driven into haste; `ع م ل` `B001` anchors repeated work; `س و ء` `B001` anchors badness; `ب ن ي` `B007` anchors filiation in `بَنَاتِى`; `ط ه ر` `B005` anchors cleansing conduct from blame; `و ق ي` `B002` anchors protective caution; `خ ز ي` `B001` anchors public humiliation; `ض ي ف` `B002` anchors the guest; and `ر ش د` `B002` anchors sound judgment. **Structural cue and role:** prior bad practice feeds present driven haste, while Lot counters with a purer relation, caution, guest protection, and a request for one sound decision-maker. **Abductive move:** I infer that repeated conduct has become collective momentum that bypasses deliberation. **Reading change:** the scene reads as institutional loss of braking capacity, not only a collection of individual desires.
+
+### Retrospective surprises
+
+Later 11:83's marked stones supplied the external judgment absent from the crowd, answering Lot's question whether any soundly judging man remained.
+
+## 11:79 - قَالُوا۟ لَقَدْ عَلِمْتَ مَا لَنَا فِى بَنَاتِكَ مِنْ حَقٍّۢ وَإِنَّكَ لَتَعْلَمُ مَا نُرِيدُ
+
+### Activated readings
+
+1. **Legal knowledge is recruited to clear the route for desire.** **Lexical evidence:** repeated `ع ل م` `B001` anchors known clarity; `ح ق ق` `B003` anchors a particular owned right or claim; and `ر و د` `B001` anchors will and intention. **Structural cue and role:** they invoke shared knowledge twice: first to deny a claim in the daughters, then to insist that Lot knows their intended object. **Abductive move:** I infer that legal vocabulary is being used instrumentally to eliminate the offered alternative, while the intention itself is exempted from moral evaluation. **Reading change:** the answer reads as captured reasoning in which knowledge and right serve desire rather than restrain it.
+
+### Retrospective surprises
+
+Later 11:84 opened a new cycle around worship, rights, and commercial measure, exposing by contrast how the crowd had used `حَقّ` to serve intention rather than equity.
+
+## 11:80 - قَالَ لَوْ أَنَّ لِى بِكُمْ قُوَّةً أَوْ ءَاوِىٓ إِلَىٰ رُكْنٍۢ شَدِيدٍۢ
+
+### Activated readings
+
+1. **Protection requires either internal cohesion or an external load-bearing side.** **Lexical evidence:** `ق و ي` `B001` anchors assembled strength like rope strands; `أ و ي` `B001` anchors drawing into shelter; `ر ك ن` `B001` anchors a strong side or support; and `ش د د` `B002` anchors intensity of strength and hardness. **Structural cue and role:** Lot presents two alternatives in parallel: enough strength “through you” or refuge into a hard support beyond them. **Abductive move:** I infer that social protection can be generated by a coalition of strands or supplied by a stronger structural side when coalition fails. **Reading change:** the wish reads as a compact engineering model of support under load, sharpening the previous ayah's absence of a sound man.
+
+### Retrospective surprises
+
+Later 11:81 revealed the unseen strong support, and 11:82 showed its superior load-bearing power by reversing the whole city's upper and lower.
+
+## 11:81 - قَالُوا۟ يَٰلُوطُ إِنَّا رُسُلُ رَبِّكَ لَن يَصِلُوٓا۟ إِلَيْكَ ۖ فَأَسْرِ بِأَهْلِكَ بِقِطْعٍۢ مِّنَ ٱلَّيْلِ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ إِلَّا ٱمْرَأَتَكَ ۖ إِنَّهُۥ مُصِيبُهَا مَآ أَصَابَهُمْ ۚ إِنَّ مَوْعِدَهُمُ ٱلصُّبْحُ ۚ أَلَيْسَ ٱلصُّبْحُ بِقَرِيبٍۢ
+
+### Activated readings
+
+1. **Invisible support becomes a timed, directional evacuation protocol.** **Lexical evidence:** `ر س ل` `B002` anchors messengers; `و ص ل` `B002` anchors reaching a destination; `س ر ي` `B001` anchors night travel; `أ ه ل` `B001` anchors household; `ق ط ع` `B002` anchors a separated portion; `ل ي ل` `B001` anchors night; `ل ف ت` `B004` anchors turning toward what is not faced; `ص و ب` `B004` anchors an affliction hitting; `و ع د` `B003` anchors appointed time; and `ص ب ح` `B001` anchors dawn. **Structural cue and role:** enemy reach is blocked, family movement is specified through a cut of night, backward turning is prohibited, and the strike has a morning appointment. **Abductive move:** I infer that survival requires uninterrupted directional discipline until a scheduled boundary. **Reading change:** rescue reads as exact movement control, not a general promise of safety.
+
+### Retrospective surprises
+
+Later 11:82 explained the need for uninterrupted direction: the city's orientation itself is reversed, so delay or backward attachment remains inside the target system.
+
+## 11:82 - فَلَمَّا جَآءَ أَمْرُنَا جَعَلْنَا عَٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةًۭ مِّن سِجِّيلٍۢ مَّنضُودٍۢ
+
+### Activated readings
+
+1. **Moral reversal is materialized as spatial inversion and ordered descent.** **Lexical evidence:** `ج ي ء` `B001` anchors arrival; `ج ع ل` `B002` anchors turning something into a state; `ع ل و` `B005` anchors the upper side; `س ف ل` `B001` anchors lowness; `م ط ر` `B002` anchors punishment-rain; `ح ج ر` `B003` anchors hard stone; `س ج ل` `B004` activates the record that gathers and secures in `سِجِّيل`; and `ن ض د` `B001` anchors ordered stacking. **Structural cue and role:** upper becomes lower while a record-like, ordered stone mass descends from above. **Abductive move:** I infer that the physical city is made to embody a prior inversion of judgment, and the ordered material implies administration rather than random collapse. **Reading change:** destruction reads as engineered reversal with indexed delivery.
+
+### Retrospective surprises
+
+Later 11:83's `مُّسَوَّمَة` confirmed that the ordered descent was indexed and allocated, not random material violence.
+
+## 11:83 - مُّسَوَّمَةً عِندَ رَبِّكَ ۖ وَمَا هِىَ مِنَ ٱلظَّٰلِمِينَ بِبَعِيدٍۢ
+
+### Activated readings
+
+1. **Marked material turns a past event into a standing allocation warning.** **Lexical evidence:** `س و م` `B004` anchors a distinguishing mark; `ع ن د` `B004` anchors proximity and presence; `ر ب ب` `B001` anchors authority; and `ب ع د` `B001` anchors remoteness opposite nearness. **Structural cue and role:** the stones are differentiated and held “at” the Lord, while distance from future wrongdoers is explicitly denied; 11:84-85 immediately supply a new form of injustice through measure and weight. **Abductive move:** I infer that marks imply recipient allocation and that retained proximity makes the inventory portable beyond the narrated city. **Reading change:** the ayah reads as an available, addressable consequence system rather than a closed historical epilogue.
+
+### Retrospective surprises
+
+Later 11:84-85 immediately instantiated not-distant wrongdoing through commercial shorting and land corruption, carrying the marked warning into a new social mechanism.
+
+## 11:84 - ۞ وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًۭا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ وَلَا تَنقُصُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ ۚ إِنِّىٓ أَرَىٰكُم بِخَيْرٍۢ وَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍۢ مُّحِيطٍۢ
+
+### Activated readings
+
+1. **Cultic allegiance and market measurement form one exposure system.** **Lexical evidence:** `أ خ و` `B001` anchors kin proximity; `ع ب د` `B003` anchors worship; `ن ق ص` `B001` anchors loss of part; `ك ي ل` `B001` anchors measured food; `و ز ن` `B001` anchors measurement by weight; `خ ي ر` `B001` anchors present good; `خ و ف` `B001` anchors anticipation; and `ح و ط` `B006` anchors overwhelming encirclement. **Structural cue and role:** exclusive service is immediately coupled to unshorted measure and weight; visible prosperity is then set against risk of a day that surrounds. **Abductive move:** I infer that commercial shorting reveals a rival practical authority over value, so worship and exchange cannot be separated. **Reading change:** the ayah reads as an integrated accountability system in which market distortion creates collective enclosure.
+
+### Retrospective surprises
+
+Later 11:85 made encirclement systemic: short measure spreads into corruption of land; 11:89 then linked that mechanism to the surrounding outcomes of earlier peoples.
+
+## 11:85 - وَيَٰقَوْمِ أَوْفُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ بِٱلْقِسْطِ ۖ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ
+
+### Activated readings
+
+1. **Transaction-level shortfalls aggregate into land-wide imbalance.** **Lexical evidence:** `و ف ي` `B001` anchors complete fullness; `ك ي ل` `B001` anchors measure; `و ز ن` `B001` anchors weight; `ق س ط` `B001` anchors justice and equity; `ب خ س` `B001` anchors diminishing what is due; `ش ي ء` `B001` anchors knowable things; `ع ث و` `B001` anchors corruption spreading in land; and `ف س د` `B001` anchors departure from sound balance. **Structural cue and role:** full instruments preserve each person's things, while repeated diminution is linked directly to spreading corruption in the ground. **Abductive move:** I infer that small asymmetric extractions compound across exchange networks until they alter the whole social ecology. **Reading change:** the commands read as anti-corruption infrastructure, not only honest-shop rules.
+
+### Retrospective surprises
+
+Later 11:86 supplied the positive accounting surprise: just exchange leaves a better residue, so fullness is not opposed to remainder but produces the right kind of it.
+
+## 11:86 - بَقِيَّتُ ٱللَّهِ خَيْرٌۭ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ ۚ وَمَآ أَنَا۠ عَلَيْكُم بِحَفِيظٍۢ
+
+### Activated readings
+
+1. **Honest residue has greater durable value than extracted surplus.** **Lexical evidence:** `ب ق ي` `B002` anchors a remaining portion or residue; `خ ي ر` `B001` anchors what all incline toward as good; `أ م ن` `B002` anchors trusting assent; and `ح ف ظ` `B001` anchors preserving and guarding. **Structural cue and role:** after full measure and prohibition of shorting, the remainder is assigned to God and called better; the messenger then denies being an external guard over the traders. **Abductive move:** I infer that the residue's value depends on freely trusted restraint, not on surveillance that merely forces compliance. **Reading change:** the phrase becomes a residual-value principle: what remains after justice carries more durable good than what is added by taking others' due.
+
+### Retrospective surprises
+
+Later 11:88 embodied the remainder as good provision plus reform, while 11:91's admitted non-understanding showed why the messenger cannot function as coercive guard.
+
+## 11:87 - قَالُوا۟ يَٰشُعَيْبُ أَصَلَوٰتُكَ تَأْمُرُكَ أَن نَّتْرُكَ مَا يَعْبُدُ ءَابَآؤُنَآ أَوْ أَن نَّفْعَلَ فِىٓ أَمْوَٰلِنَا مَا نَشَٰٓؤُا۟ ۖ إِنَّكَ لَأَنتَ ٱلْحَلِيمُ ٱلرَّشِيدُ
+
+### Activated readings
+
+1. **Their sarcasm reveals prayer as a regulator of both cult and property.** **Lexical evidence:** `ص ل و` `B003` anchors prescribed worship; `أ م ر` `B002` anchors command; `ت ر ك` `B001` anchors letting go; `ع ب د` `B003` anchors ancestral worship; `أ ب و` `B001` anchors fathers; `ف ع ل` `B001` anchors enacted conduct; `م و ل` `B001` anchors wealth; `ش ي ء` `B001` is active through its accepted willing variant in `نَشَاء`; `ح ل م` `B001` anchors forbearance; and `ر ش د` `B002` anchors sound judgment. **Structural cue and role:** prayer is accused of causing both cultic abandonment and limits on wealth action. **Abductive move:** I infer that they perceive property discretion as worship-like sovereignty and therefore experience ritual as an illegitimate public regulator. **Reading change:** the mockery discloses the very integration of worship and economics that 11:84-85 asserted.
+
+### Retrospective surprises
+
+Later 11:88 confirmed the public reach they mocked: Shuaib joins prohibition, personal market integrity, and reform in one prayer-grounded control loop.
+
+## 11:88 - قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍۢ مِّن رَّبِّى وَرَزَقَنِى مِنْهُ رِزْقًا حَسَنًۭا ۚ وَمَآ أُرِيدُ أَنْ أُخَالِفَكُمْ إِلَىٰ مَآ أَنْهَىٰكُمْ عَنْهُ ۚ إِنْ أُرِيدُ إِلَّا ٱلْإِصْلَٰحَ مَا ٱسْتَطَعْتُ ۚ وَمَا تَوْفِيقِىٓ إِلَّا بِٱللَّهِ ۚ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ
+
+### Activated readings
+
+1. **Material independence, congruent conduct, and bounded capacity form a reform loop.** **Lexical evidence:** `ب ي ن` `B004` anchors clarity; `ر ز ق` `B001` anchors allotted provision; `ح س ن` `B001` anchors good quality; `ر و د` `B001` anchors intention; `خ ل ف` `B004` anchors taking a way other than another's in `أُخَالِفَكُمْ`; `ن ه ي` `B001` anchors restraint; `ص ل ح` `B001` anchors soundness; `ط و ع` `B003` anchors capacity; `و ف ق` `B001` anchors accordant fitting; `و ك ل` `B002` anchors reliance; and `ن و ب` `B001` anchors repeated return. **Structural cue and role:** good provision removes incentive to violate his own prohibition; reform is limited to capacity, while successful fitting is assigned to God. **Abductive move:** I infer that independence supports integrity, but integrity does not confer ownership of outcomes. **Reading change:** the speech reads as a closed-loop reform discipline rather than a claim of personal efficacy.
+
+### Retrospective surprises
+
+Later 11:92's placing God behind their backs unexpectedly mirrored `أُخَالِفَكُمْ`: Shuaib refuses a rear route to prohibited gain, while the crowd relegates God to the rear.
+
+## 11:89 - وَيَٰقَوْمِ لَا يَجْرِمَنَّكُمْ شِقَاقِىٓ أَن يُصِيبَكُم مِّثْلُ مَآ أَصَابَ قَوْمَ نُوحٍ أَوْ قَوْمَ هُودٍ أَوْ قَوْمَ صَٰلِحٍۢ ۚ وَمَا قَوْمُ لُوطٍۢ مِّنكُم بِبَعِيدٍۢ
+
+### Activated readings
+
+1. **Factional opposition can reproduce an older causal pattern.** **Lexical evidence:** `ج ر م` `B003` anchors causing another to incur; `ش ق ق` `B004` anchors a group splitting in conflict; `ص و ب` `B004` anchors an affliction that hits; `م ث ل` `B001` anchors likeness; `ق و م` `B001` anchors each people; and `ب ع د` `B001` anchors remoteness opposite nearness. **Structural cue and role:** Shuaib's social split is warned not to become the cause that makes prior peoples' outcomes strike them; Lot's people are made spatially “not far.” **Abductive move:** I infer that distinct histories can instantiate the same mechanism when opposition assumes the same functional structure. **Reading change:** historical comparison becomes recurrence-risk analysis, not decorative analogy.
+
+### Retrospective surprises
+
+Later 11:94 reproduced the warned pattern within five ayat: mercy separates one group and the cry takes the other, validating recurrence rather than analogy alone.
+
+## 11:90 - وَٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى رَحِيمٌۭ وَدُودٌۭ
+
+### Activated readings
+
+1. **Repair addresses alienation as well as liability.** **Lexical evidence:** `غ ف ر` `B002` anchors forgiving and shielding from consequence; `ر ب ب` `B002` activates repair, nurture, and completion in `رَبَّكُمْ`; `ر ح م` `B001` anchors mercy and tenderness; and `و د د` `B001` anchors affection and loving attachment. **Structural cue and role:** the appeal follows commercial corruption and factional hostility; consequence-covering is therefore paired with tenderness and affection, not left as a merely legal cancellation. **Abductive move:** I infer that return can reverse both incurred loss and the relational distance that sustained it. **Reading change:** the ayah reads as restoration of a bond and social orientation, not only release from penalty.
+
+### Retrospective surprises
+
+Later 11:94 made mercy operational as selective deliverance, while 11:95 showed the unaccepted alternative as relational and spatial erasure.
+
+## 11:91 - قَالُوا۟ يَٰشُعَيْبُ مَا نَفْقَهُ كَثِيرًۭا مِّمَّا تَقُولُ وَإِنَّا لَنَرَىٰكَ فِينَا ضَعِيفًۭا ۖ وَلَوْلَا رَهْطُكَ لَرَجَمْنَٰكَ ۖ وَمَآ أَنتَ عَلَيْنَا بِعَزِيزٍۢ
+
+### Activated readings
+
+1. **Reception is weighted by visible coercive backing.** **Lexical evidence:** `ف ق ه` `B001` anchors grasping and understanding; `ك ث ر` `B001` anchors abundance; `ق و ل` `B001` anchors speech; `ر أ ي` `B001` anchors seeing; `ض ع ف` `B001` anchors lack of strength; `ر ه ط` `B001` anchors a close male band; and `ع ز ز` `B001` anchors might and honor. **Structural cue and role:** the crowd pairs low comprehension with visual assessment of Shuaib as weak; only his clan band restrains their threatened violence, while he himself carries no social might over them. **Abductive move:** I infer that speech is granted weight only when backed by a force-bearing group. **Reading change:** “we do not understand” reads less as semantic failure than as power-conditioned refusal to register unbacked speech.
+
+### Retrospective surprises
+
+Later 11:92 exposed the power-weighting directly: the crowd has made the clan more honored than God; 11:96's overpowering proof then contrasts evidence with social force.
+
+## 11:92 - قَالَ يَٰقَوْمِ أَرَهْطِىٓ أَعَزُّ عَلَيْكُم مِّنَ ٱللَّهِ وَٱتَّخَذْتُمُوهُ وَرَآءَكُمْ ظِهْرِيًّا ۖ إِنَّ رَبِّى بِمَا تَعْمَلُونَ مُحِيطٌۭ
+
+### Activated readings
+
+1. **A front/back authority diagram exposes social inversion.** **Lexical evidence:** `ر ه ط` `B001` anchors the male band; `ع ز ز` `B001` anchors might and honor; `أ خ ذ` `B010` anchors taking something for oneself in `ٱتَّخَذْتُمُوهُ`; `و ر ي` `B006` anchors the far side or behind; `ظ ه ر` `B012` anchors putting behind one's back; `ع م ل` `B001` anchors work; and `ح و ط` `B004` anchors complete grasp in knowledge. **Structural cue and role:** the clan is placed in the honored protective foreground while God is made a taken thing behind the back; encompassing knowledge then surrounds the entire spatial ranking. **Abductive move:** I infer that perceived social proximity determines practical allegiance. **Reading change:** the rebuke reads as a map of displaced authority, not only a comparison of whom they respect more.
+
+### Retrospective surprises
+
+Later 11:97 repeated the same displacement at state scale: Pharaoh's visible command occupies the foreground and is followed despite lacking sound judgment.
+
+## 11:93 - وَيَٰقَوْمِ ٱعْمَلُوا۟ عَلَىٰ مَكَانَتِكُمْ إِنِّى عَٰمِلٌۭ ۖ سَوْفَ تَعْلَمُونَ مَن يَأْتِيهِ عَذَابٌۭ يُخْزِيهِ وَمَنْ هُوَ كَٰذِبٌۭ ۖ وَٱرْتَقِبُوٓا۟ إِنِّى مَعَكُمْ رَقِيبٌۭ
+
+### Activated readings
+
+1. **Parallel action is submitted to a shared observation horizon.** **Lexical evidence:** repeated `ع م ل` `B001` anchors intentional work; `ك و ن` `B002` anchors place, position, or rank in `مَكَانَتِكُمْ`; `ع ل م` `B001` anchors future disclosure; `أ ت ي` `B001` anchors arrival; `خ ز ي` `B001` anchors exposure; `ك ذ ب` `B001` anchors falsehood; `ر ق ب` `B001` anchors watchful waiting; and `B009` anchors a watcher waiting on another. **Structural cue and role:** both parties continue from their positions and both wait; future arrival will expose which work-system produces humiliation and which claim was false. **Abductive move:** I infer that time functions as the common adjudicator when immediate argument is power-blocked. **Reading change:** the challenge reads as a parallel monitored experiment rather than reciprocal threat alone.
+
+### Retrospective surprises
+
+Later 11:94 supplied the experiment's result immediately, and 11:98 generalized station-to-destination by showing Pharaoh lead his people into fire.
+
+## 11:94 - وَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا شُعَيْبًۭا وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ بِرَحْمَةٍۢ مِّنَّا وَأَخَذَتِ ٱلَّذِينَ ظَلَمُوا۟ ٱلصَّيْحَةُ فَأَصْبَحُوا۟ فِى دِيَٰرِهِمْ جَٰثِمِينَ
+
+### Activated readings
+
+1. **One arriving command sorts by separation and seizure.** **Lexical evidence:** `ج ي ء` `B001` anchors arrival; `أ م ر` `B001` anchors the affair; `ن ج و` `B001` anchors deliverance by separation; `ر ح م` `B001` anchors mercy; `أ خ ذ` `B007` anchors a condition taking hold; `ص ي ح` `B002` anchors a terrifying cry; `ص ب ح` `B010` anchors becoming; and `ج ث م` `B001` anchors clinging low and fixed. **Structural cue and role:** the command sends mercy as a separating operation toward one group and the cry as a seizing operation toward the other, with morning displaying the sorted result. **Abductive move:** I infer that the event carries differentiated routing rather than indiscriminate force. **Reading change:** catastrophe reads as a population-sorting mechanism in which mercy and seizure are coordinated outputs of the same arrival.
+
+### Retrospective surprises
+
+Later 11:94 supplied the sorting immediately, 11:95 erased one group's occupancy, and 11:98 showed another following-relation carrying its consequence across domains.
+
+## 11:95 - كَأَن لَّمْ يَغْنَوْا۟ فِيهَآ ۗ أَلَا بُعْدًۭا لِّمَدْيَنَ كَمَا بَعِدَتْ ثَمُودُ
+
+### Activated readings
+
+1. **Erased occupancy becomes a cross-society control pattern.** **Lexical evidence:** `غ ن ي` `B004` anchors settled dwelling; `ب ع د` `B004` anchors ruinous distance in both clauses; and `م ث ل` `B001` activates likeness through `كَمَا`. **Structural cue and role:** Midian's former habitation is denied and its distance is explicitly made like Thamud's, compressing distinct local histories into one result. **Abductive move:** I infer that the repeated causal form, not group identity, is the comparison's relevant variable. **Reading change:** the formula reads as a comparative control showing reproducibility of outcome across societies, not merely a repeated curse.
+
+### Retrospective surprises
+
+Later 11:100 generalized the comparison into standing and harvested settlement states, making erased occupancy one class in a larger historical inventory.
+
+## 11:96 - وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِـَٔايَٰتِنَا وَسُلْطَٰنٍۢ مُّبِينٍ
+
+### Activated readings
+
+1. **Visible signs arrive with counter-authority capable of confronting power.** **Lexical evidence:** `ر س ل` `B002` anchors messenger and message; `أ ي ي` `B003` anchors visible signs; `س ل ط` `B002` anchors overpowering proof; and `ب ي ن` `B004` anchors becoming manifest. **Structural cue and role:** after 11:91-92 made social force the crowd's measure of speech, Moses is sent not only with signs but with proof carrying its own overpowering authority; 11:97 tests it against Pharaoh's command structure. **Abductive move:** I infer that proof must be able to enter an institution organized by coercive force without becoming mere counter-coercion. **Reading change:** `سُلْطَانٍ مُّبِينٍ` reads as an evidentiary counter-authority, not an ornamental synonym for miracle.
+
+### Retrospective surprises
+
+Later 11:97 supplied the surprise that forceful proof does not mechanically compel uptake: an organized elite can still route itself through Pharaoh's command.
+
+## 11:97 - إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ فَٱتَّبَعُوٓا۟ أَمْرَ فِرْعَوْنَ ۖ وَمَآ أَمْرُ فِرْعَوْنَ بِرَشِيدٍۢ
+
+### Activated readings
+
+1. **Efficient compliance can follow an unsound route.** **Lexical evidence:** `م ل أ` `B002` anchors Pharaoh's assembled elite; `ت ب ع` `B001` anchors following; repeated `أ م ر` `B002` anchors command; and `ر ش د` `B002` anchors sound judgment in handling an affair. **Structural cue and role:** the elite receive manifest proof but follow Pharaoh's directive; the directive is evaluated not as absent or weak but as lacking sound management. **Abductive move:** I infer that an ordered command chain can coordinate action efficiently while setting the wrong destination. **Reading change:** the ayah shifts attention from a foolish individual to a functioning but misdirected authority pipeline.
+
+### Retrospective surprises
+
+Later 11:98 made not-soundly-guided spatially exact: the command chain efficiently advances the people to the wrong arrival point.
+
+## 11:98 - يَقْدُمُ قَوْمَهُۥ يَوْمَ ٱلْقِيَٰمَةِ فَأَوْرَدَهُمُ ٱلنَّارَ ۖ وَبِئْسَ ٱلْوِرْدُ ٱلْمَوْرُودُ
+
+### Activated readings
+
+1. **Political leadership corrupts a provisioning route into fire-arrival.** **Lexical evidence:** `ق د م` `B004` anchors beforeward advance and precedence; `ق و م` `B001` anchors his people and `B013` resurrection in `ٱلْقِيَٰمَة`; repeated `و ر د` `B001` anchors arriving at a destination; `ن و ر` `B002` anchors burning fire; and `ب أ س` `B004` anchors the blame formula. **Structural cue and role:** the leader advances before the people and then makes them arrive; the repeated water-route verb culminates perversely in fire. **Abductive move:** I infer that followers' destination is set by the leader whose command they trailed in 11:97, as a water-leader sets the herd's arrival point. **Reading change:** the scene reads as corrupted provisioning and navigation, not only afterlife procession.
+
+### Retrospective surprises
+
+Later 11:99 renamed the expected support as a blameworthy gift, showing that the corrupted route also corrupts what leadership gives its followers.
+
+## 11:99 - وَأُتْبِعُوا۟ فِى هَٰذِهِۦ لَعْنَةًۭ وَيَوْمَ ٱلْقِيَٰمَةِ ۚ بِئْسَ ٱلرِّفْدُ ٱلْمَرْفُودُ
+
+### Activated readings
+
+1. **Corrupt patronage returns as toxic aid.** **Lexical evidence:** `ت ب ع` `B001` anchors being followed; `ل ع ن` `B001` anchors punitive distance; `ق و م` `B013` anchors resurrection; `ب أ س` `B004` anchors blame; and repeated `ر ف د` `B001` anchors help by giving. **Structural cue and role:** curse follows them in the present domain and at resurrection, while the aid handed to them is itself condemned; this reverses the protective support expected from Pharaoh's rule. **Abductive move:** I infer that benefits received from a corrupt authority carry its destination and become attached liabilities. **Reading change:** the ayah reads as a toxic-aid chain in which patronage survives as consequence rather than protection.
+
+### Retrospective surprises
+
+Later 11:100-102 showed the material installments of toxic aid: settlements become harvested, substitute gods add ruin, and the final seizure remains strong.
+
+## 11:100 - ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْقُرَىٰ نَقُصُّهُۥ عَلَيْكَ ۖ مِنْهَا قَآئِمٌۭ وَحَصِيدٌۭ
+
+### Activated readings
+
+1. **Narrative becomes a field inventory of settlement states.** **Lexical evidence:** `ن ب أ` `B002` anchors reported news; `ق ر ي` `B001` anchors people gathered in settlements; `ق ص ص` `B002` anchors sequential recounting; `ق و م` `B002` anchors upright standing; and `ح ص د` `B001` anchors harvest cutting. **Structural cue and role:** the recounted settlements are classified by visible condition, some still upright and some harvested, after repeated accounts of erased occupancy and political following. **Abductive move:** I infer that narrative follows traces in order to preserve comparative evidence about the states produced by different social trajectories. **Reading change:** the stories read as a survey of historical outcomes rather than a collection arranged only for recollection.
+
+### Retrospective surprises
+
+Later 11:102 named the harvesting agent as repeated divine seizure, while 11:103 converted the inventory into a sign for prospective fear.
+
+## 11:101 - وَمَا ظَلَمْنَٰهُمْ وَلَٰكِن ظَلَمُوٓا۟ أَنفُسَهُمْ ۖ فَمَآ أَغْنَتْ عَنْهُمْ ءَالِهَتُهُمُ ٱلَّتِى يَدْعُونَ مِن دُونِ ٱللَّهِ مِن شَىْءٍۢ لَّمَّا جَآءَ أَمْرُ رَبِّكَ ۖ وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍۢ
+
+### Activated readings
+
+1. **Substitute supports compound loss at the terminal test.** **Lexical evidence:** `ن ف س` `B011` anchors the soul-self; `غ ن ي` `B002` anchors sufficing and availing; `أ ل ه` `B001` anchors worshipped objects; `د ع و` `B001` anchors calling; `د و ن` `B003` anchors what is besides; `ج ي ء` `B001` anchors arrival; `أ م ر` `B001` anchors the affair; `ز ي د` `B001` anchors increase; `غ ي ر` `B005` anchors exception; and `ت ب ب` `B001` anchors loss and ruin. **Structural cue and role:** invoked gods fail precisely when command arrives and, rather than leaving the account neutral, add only ruin. **Abductive move:** I infer that maintaining substitute supports consumes the self's agency and resources while offering no terminal protection. **Reading change:** failed intercession becomes a compounding-loss mechanism, not simple absence of help.
+
+### Retrospective surprises
+
+Later 11:102 supplied the terminal test's force, and 11:106 embodied the resulting ruin as a respiratory cycle in fire rather than an abstract balance-sheet loss.
+
+## 11:102 - وَكَذَٰلِكَ أَخْذُ رَبِّكَ إِذَآ أَخَذَ ٱلْقُرَىٰ وَهِىَ ظَٰلِمَةٌ ۚ إِنَّ أَخْذَهُۥٓ أَلِيمٌۭ شَدِيدٌ
+
+### Activated readings
+
+1. **Repeated seizure is generalized into a settlement-capture rule.** **Lexical evidence:** repeated `أ خ ذ` `B002` anchors taking to account for a fault; `ر ب ب` `B001` anchors authority; `ق ر ي` `B001` anchors settlements; `أ ل م` `B002` anchors causing pain; and `ش د د` `B002` anchors intensity of strength and hardness. **Structural cue and role:** the demonstrative comparison gathers prior town outcomes into one recurring action, and repetition of `أَخْذ` moves from event to method before qualifying its force. **Abductive move:** I infer that long-tolerated collective systems remain fully capturable and that delay does not loosen the eventual hold. **Reading change:** the ayah reads as a general rule of forceful collective account-taking, not merely summary of one historical punishment.
+
+### Retrospective surprises
+
+Later 11:103 made the generalized seizure a visible sign, 11:104 explained its delay as counted, and 11:107 showed its resulting state as actively sustained.
+
+## 11:103 - إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّمَنْ خَافَ عَذَابَ ٱلْءَاخِرَةِ ۚ ذَٰلِكَ يَوْمٌۭ مَّجْمُوعٌۭ لَّهُ ٱلنَّاسُ وَذَٰلِكَ يَوْمٌۭ مَّشْهُودٌۭ
+
+### Activated readings
+
+1. **Historical traces become prospective evidence through fear.** **Lexical evidence:** `أ ي ي` `B003` anchors a visible sign; `خ و ف` `B001` anchors fearful anticipation; `ع ذ ب` `B005` anchors punishment; `أ خ ر` `B001` anchors the later domain; `ي و م` `B003` anchors a severe occasion; `ج م ع` `B004` anchors a gathering-place/day; and `ش ه د` `B001` anchors presence with witnessing. **Structural cue and role:** prior settlement seizure is a sign specifically for one who anticipates later punishment; the later day is then defined by gathered people and witnessed presence. **Abductive move:** I infer that fear turns backward-looking ruins into forward-looking evidence because it models one's own possible convergence there. **Reading change:** the final day reads less as a date than as a public event architecture of assembly and exposure.
+
+### Retrospective surprises
+
+Later 11:105 added the forum's key control: gathered presence does not permit uncontrolled self-speech; testimony operates only by authorization.
+
+## 11:104 - وَمَا نُؤَخِّرُهُۥٓ إِلَّا لِأَجَلٍۢ مَّعْدُودٍۢ
+
+### Activated readings
+
+1. **Delay is a scheduled restraint, not loss of control.** **Lexical evidence:** `أ خ ر` `B002` anchors postponing to a later time; `أ ج ل` `B001` anchors a fixed appointed limit; and `ع د د` `B003` anchors a prescribed counted term. **Structural cue and role:** the gathered, witnessed day of 11:103 is held back only by a counted endpoint; 11:105 immediately shows that arrival changes permissions and classifications. **Abductive move:** I infer that a fixed endpoint can authorize an interval without weakening certainty or control. **Reading change:** the terse ayah becomes a scheduling statement: non-arrival measures the remaining count, not inability to produce the event.
+
+### Retrospective surprises
+
+Later 11:105 confirmed the boundary effect: at arrival, speech permissions and outcome categories change immediately, so the prior interval was genuinely scheduled.
+
+## 11:105 - يَوْمَ يَأْتِ لَا تَكَلَّمُ نَفْسٌ إِلَّا بِإِذْنِهِۦ ۚ فَمِنْهُمْ شَقِىٌّۭ وَسَعِيدٌۭ
+
+### Activated readings
+
+1. **Arrival converts autonomous speech into authorized testimony.** **Lexical evidence:** `ي و م` `B003` anchors the event-day; `أ ت ي` `B001` anchors arrival; `ك ل م` `B001` anchors meaningful speech exchanged with an interlocutor; `ن ف س` `B011` anchors each living soul-self; `أ ذ ن` `B004` anchors permission; `ش ق و` `B002` anchors hardship; and `س ع د` `B001` anchors good fortune and happiness. **Structural cue and role:** once the counted day arrives, no self controls its own speech channel; permission gates participation before the population separates into two conditions. **Abductive move:** I infer that gathered judgment requires regulated testimony rather than unbounded self-presentation. **Reading change:** the silence clause reads as evidentiary governance, not muteness, and the two outcomes emerge inside that controlled forum.
+
+### Retrospective surprises
+
+Later 11:106-108 turned the two labels into environments and bodily or provisioning processes, while 11:110 explained why present disagreement can persist before that authorization boundary.
+
+## 11:106 - فَأَمَّا ٱلَّذِينَ شَقُوا۟ فَفِى ٱلنَّارِ لَهُمْ فِيهَا زَفِيرٌۭ وَشَهِيقٌ
+
+### Activated readings
+
+1. **Hardship takes over the body's respiratory cycle.** **Lexical evidence:** `ش ق و` `B002` anchors hardship and strenuous suffering; `ن و ر` `B002` anchors burning fire; `ز ف ر` `B002` anchors heavy breath and harsh sound; and `ش ه ق` `B002` anchors inhaled breath and high cry. **Structural cue and role:** the wretched condition is located in fire and then embodied as alternating outward and inward breath, a self-renewing pair rather than a single cry. **Abductive move:** I infer that the environment controls the most basic bodily rhythm, making suffering recurrent from within. **Reading change:** punishment reads as an involuntary respiratory process, not a static placement in a painful location.
+
+### Retrospective surprises
+
+Later 11:107's `مَا دَامَت` extends the breathing cycle through duration, and 11:111's full recompense frames it as an exact returned outcome.
+
+## 11:107 - خَٰلِدِينَ فِيهَا مَا دَامَتِ ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ إِلَّا مَا شَآءَ رَبُّكَ ۚ إِنَّ رَبَّكَ فَعَّالٌۭ لِّمَا يُرِيدُ
+
+### Activated readings
+
+1. **Duration remains an actively governed relation.** **Lexical evidence:** `خ ل د` `B001` anchors enduring permanence; `د و م` `B001` anchors stable continuance; `س م و` `B004` anchors the heavens as overhead expanse; `أ ر ض` `B001` anchors ground; `ش ي ء` `B001` is active through its accepted willing variant in `شَاء`; `ف ع ل` `B001` anchors bringing an act into being; and `ر و د` `B001` anchors will in `يُرِيدُ`. **Structural cue and role:** permanence is expressed through cosmic continuance but then explicitly remains under willing, followed by an intensive doer formula. **Abductive move:** I infer that enduring state persists because it is continuously enacted, not because it becomes independent of its governor. **Reading change:** the duration clause reads as sustained sovereignty rather than a limit imposed on sovereignty.
+
+### Retrospective surprises
+
+Later 11:108 repeated the willing exception over the opposite outcome and added an uncut gift, confirming that sovereignty can actively sustain distinct enduring states.
+
+## 11:108 - ۞ وَأَمَّا ٱلَّذِينَ سُعِدُوا۟ فَفِى ٱلْجَنَّةِ خَٰلِدِينَ فِيهَا مَا دَامَتِ ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ إِلَّا مَا شَآءَ رَبُّكَ ۖ عَطَآءً غَيْرَ مَجْذُوذٍۢ
+
+### Activated readings
+
+1. **Permanence is maintained as unsevered supply.** **Lexical evidence:** `س ع د` `B001` anchors good fortune; `ج ن ن` `B003` anchors the tree-covered garden; `خ ل د` `B001` anchors permanence; `د و م` `B001` anchors continuance; `ع ط و` `B002` anchors handing over and giving; `غ ي ر` `B005` anchors negation; and `ج ذ ذ` `B001` anchors severing and breaking off. **Structural cue and role:** the cosmic duration formula is followed not by inert possession but by a gift defined through absence of cutting. **Abductive move:** I infer that continued giving is the mechanism sustaining continued residence. **Reading change:** reward reads as an uninterrupted provisioning relation, not a one-time object that happens to last.
+
+### Retrospective surprises
+
+Later 11:109's undiminished assigned share supplied a dark accounting parallel, while 11:113's fire-contact showed the alternative continuity created by affiliation.
+
+## 11:109 - فَلَا تَكُ فِى مِرْيَةٍۢ مِّمَّا يَعْبُدُ هَٰٓؤُلَآءِ ۚ مَا يَعْبُدُونَ إِلَّا كَمَا يَعْبُدُ ءَابَآؤُهُم مِّن قَبْلُ ۚ وَإِنَّا لَمُوَفُّوهُمْ نَصِيبَهُمْ غَيْرَ مَنقُوصٍۢ
+
+### Activated readings
+
+1. **Inherited repetition carries an undiminished account, not validation.** **Lexical evidence:** `م ر ي` `B004` anchors doubt and hesitation; repeated `ع ب د` `B003` anchors worship; `أ ب و` `B001` anchors fathers; `ق ب ل` `B002` anchors priorness; `و ف ي` `B001` anchors complete fullness; `ن ص ب` `B005` anchors an assigned share in `نَصِيبَهُمْ`; `غ ي ر` `B005` anchors negation; and `ن ق ص` `B001` anchors decrease. **Structural cue and role:** present worship is explained by ancestral repetition, then every assigned share is promised in full without reduction. **Abductive move:** I infer that continuity of practice transmits liability and habit but supplies no truth criterion; exact settlement answers the repeated action. **Reading change:** the ayah reads as an undiminished accounting of inherited conduct, not as a vague threat to traditionalists.
+
+### Retrospective surprises
+
+Later 11:110 explained why shares are not settled immediately through a prior word, 11:111 guaranteed full payment, and 11:114 supplied a present mechanism by which good acts remove bad.
+
+## 11:110 - وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ فَٱخْتُلِفَ فِيهِ ۚ وَلَوْلَا كَلِمَةٌۭ سَبَقَتْ مِن رَّبِّكَ لَقُضِىَ بَيْنَهُمْ ۚ وَإِنَّهُمْ لَفِى شَكٍّۢ مِّنْهُ مُرِيبٍۢ
+
+### Activated readings
+
+1. **A prior word holds adjudication open while paths diverge.** **Lexical evidence:** `أ ت ي` `B002` anchors granting; `ك ت ب` `B002` anchors the written book; `خ ل ف` `B004` anchors each taking a different way; `ك ل م` `B002` anchors a meaningful utterance; `س ب ق` `B001` anchors precedence; `ق ض ي` `B001` anchors decisive ruling; `ب ي ن` `B002` anchors the interval between parties; `ش ك ك` `B001` anchors interlocked uncertainty; and `ر ي ب` `B001` anchors disturbing doubt. **Structural cue and role:** the granted book becomes a site of divergent routes, but a word that preceded the dispute delays separation by judgment. **Abductive move:** I infer that deferred adjudication permits disagreement to persist without making it authoritative. **Reading change:** the verse reads as a controlled deferral model explaining how guidance, divergence, and unsettled doubt coexist.
+
+### Retrospective surprises
+
+Later 11:112 answered divergent paths with commanded straightness, while 11:114's recurring prayer supplied a practice for maintaining that line during deferral.
+
+## 11:111 - وَإِنَّ كُلًّۭا لَّمَّا لَيُوَفِّيَنَّهُمْ رَبُّكَ أَعْمَٰلَهُمْ ۚ إِنَّهُۥ بِمَا يَعْمَلُونَ خَبِيرٌۭ
+
+### Activated readings
+
+1. **Comprehensive inner-aware accounting closes the gaps left by delay.** **Lexical evidence:** `ك ل ل` `B003` anchors totality and completeness; `و ف ي` `B001` anchors full payment without shortfall; `ر ب ب` `B001` anchors governing authority; repeated `ع م ل` `B001` anchors intentional work; and `خ ب ر` `B001` anchors knowledge by tested inner acquaintance. **Structural cue and role:** emphatic totality and emphatic full payment follow the unresolved disagreement of 11:110, while tested knowledge connects every work to its eventual return. **Abductive move:** I infer that exact settlement requires observation extending beyond visible outcomes into the operative quality of action. **Reading change:** the ayah becomes a no-loss accounting guarantee that explains why deferred judgment does not mean missing records.
+
+### Retrospective surprises
+
+Later 11:115 confirmed the positive no-loss side by denying loss of good-doers' recompense, while 11:116 showed that socially restraining work also enters the account.
+
+## 11:112 - فَٱسْتَقِمْ كَمَآ أُمِرْتَ وَمَن تَابَ مَعَكَ وَلَا تَطْغَوْا۟ ۚ إِنَّهُۥ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+
+### Activated readings
+
+1. **Straightness is disciplined movement inside a visible boundary.** **Lexical evidence:** `ق و م` `B008` anchors straightness and uprightness in `فَٱسْتَقِمْ`; `أ م ر` `B002` anchors command; `ط غ ي` `B001` anchors overstepping the bound in rebellion; `ع م ل` `B001` anchors intentional work; and `ب ص ر` `B001` anchors seeing. **Structural cue and role:** after disagreement, delayed judgment, and guaranteed accounting, the response is neither forced uniformity nor passivity but holding a commanded line together without crossing it, under observation. **Abductive move:** I infer that an unresolved interval requires stable orientation rather than prediction of immediate outcomes. **Reading change:** steadfastness reads as boundary-controlled collective movement, not a static personal state.
+
+### Retrospective surprises
+
+Later 11:113 identified the first geometric failure as inclination toward wrongdoers, and 11:117 showed the collective counterpart: active reform keeps settlements from ruin.
+
+## 11:113 - وَلَا تَرْكَنُوٓا۟ إِلَى ٱلَّذِينَ ظَلَمُوا۟ فَتَمَسَّكُمُ ٱلنَّارُ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِنْ أَوْلِيَآءَ ثُمَّ لَا تُنصَرُونَ
+
+### Activated readings
+
+1. **Inclination creates an exposure path before full imitation.** **Lexical evidence:** `ر ك ن` `B002` anchors inclining and settling toward something; `م س س` `B004` anchors being touched by an effect; `ن و ر` `B002` anchors burning fire; `د و ن` `B003` anchors substitutes besides God; `و ل ي` `B004` anchors allied support; and `ن ص ر` `B001` anchors aid that makes prevail. **Structural cue and role:** a slight settling toward wrongdoers is followed causally by fire-contact, then by collapse of substitute alliances and aid. **Abductive move:** I infer that affiliation transmits exposure through network proximity even before conduct is fully copied. **Reading change:** the prohibition reads as a relational risk boundary: leaning is already a functional connection with downstream consequences.
+
+### Retrospective surprises
+
+Later 11:116 showed the downstream network state of inclination: wrongdoers follow boundary-releasing luxury until corruption loses its restraining residue.
+
+## 11:114 - وَأَقِمِ ٱلصَّلَوٰةَ طَرَفَىِ ٱلنَّهَارِ وَزُلَفًۭا مِّنَ ٱلَّيْلِ ۚ إِنَّ ٱلْحَسَنَٰتِ يُذْهِبْنَ ٱلسَّيِّـَٔاتِ ۚ ذَٰلِكَ ذِكْرَىٰ لِلذَّٰكِرِينَ
+
+### Activated readings
+
+1. **Scheduled worship forms an error-correction cycle.** **Lexical evidence:** `ق و م` `B003` anchors rising to undertake a matter in `أَقِم`; `ص ل و` `B003` anchors prescribed worship; `ط ر ف` `B001` anchors temporal edges; `ن ه ر` `B002` anchors day opening with light; `ز ل ف` `B003` anchors near portions of night; `ح س ن` `B002` anchors beneficent action; `ذ ه ب` `B006` anchors departure; `س و ء` `B001` anchors badness; and `ذ ك ر` `B009` anchors reminder. **Structural cue and role:** prayer is fixed at recurring day/night boundaries, and good acts are assigned the directional role of making bad effects depart. **Abductive move:** I infer that scheduled recurrence interrupts and clears accumulated deviation. **Reading change:** the timetable reads as periodic maintenance of the straight line commanded in 11:112.
+
+### Retrospective surprises
+
+Later 11:116 made the cycle's social extension visible: periodic personal correction is insufficient without a remnant that restrains corruption in the land.
+
+## 11:115 - وَٱصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ
+
+### Activated readings
+
+1. **Patience bridges the latency between good work and preserved return.** **Lexical evidence:** `ص ب ر` `B001` anchors self-restraint from panic; `ض ي ع` `B001` anchors losing or causing loss; `أ ج ر` `B001` anchors recompense for work; and `ح س ن` `B002` anchors beneficent good action. **Structural cue and role:** the imperative follows scheduled correction and precedes the search for reforming remnants; non-loss of recompense supplies the reason to maintain good action without immediate visible settlement. **Abductive move:** I infer that patience prevents delayed return from being misread as vanished value. **Reading change:** endurance reads as an anti-loss temporal mechanism sustaining reform work through an unclosed accounting interval.
+
+### Retrospective surprises
+
+Later 11:120 explicitly supplied the patience mechanism: messenger-stories steady the heart so delayed recompense is not mistaken for lost work.
+
+## 11:116 - فَلَوْلَا كَانَ مِنَ ٱلْقُرُونِ مِن قَبْلِكُمْ أُو۟لُوا۟ بَقِيَّةٍۢ يَنْهَوْنَ عَنِ ٱلْفَسَادِ فِى ٱلْأَرْضِ إِلَّا قَلِيلًۭا مِّمَّنْ أَنجَيْنَا مِنْهُمْ ۗ وَٱتَّبَعَ ٱلَّذِينَ ظَلَمُوا۟ مَآ أُتْرِفُوا۟ فِيهِ وَكَانُوا۟ مُجْرِمِينَ
+
+### Activated readings
+
+1. **Civilizational survival depends on a restraining residue.** **Lexical evidence:** `ق ر ن` `B005` anchors people joined in one generation; `ب ق ي` `B002` anchors a remaining portion; `ن ه ي` `B001` anchors restraint from an act; `ف س د` `B001` anchors systemic corruption; `أ ر ض` `B001` anchors land; `ق ل ل` `B001` anchors fewness; `ن ج و` `B001` anchors rescue by separation; `ت ب ع` `B001` anchors following; `ت ر ف` `B001` anchors luxury that lets a person loose; and `ج ر م` `B004` anchors offense. **Structural cue and role:** only a small rescued residue actively blocks corruption, while the majority follows boundary-releasing luxury. **Abductive move:** I infer that social systems require a surviving counter-power capable of restraint, not merely privately sound individuals. **Reading change:** the lament becomes a civilizational failure model centered on missing institutional brakes.
+
+### Retrospective surprises
+
+Later 11:117 confirmed the remnant's protective function at settlement scale, while 11:120 showed how narratives stabilize future restrainers.
+
+## 11:117 - وَمَا كَانَ رَبُّكَ لِيُهْلِكَ ٱلْقُرَىٰ بِظُلْمٍۢ وَأَهْلُهَا مُصْلِحُونَ
+
+### Activated readings
+
+1. **Active repair protects a settlement from collective ruin.** **Lexical evidence:** `ر ب ب` `B002` activates repair and nurture; `ه ل ك` `B001` anchors ruin and extinction; `ق ر ي` `B001` anchors gathered settlements; `أ ه ل` `B001` anchors people bound by belonging; and `ص ل ح` `B002` anchors reconciliation and settlement between people in `مُصْلِحُونَ`. **Structural cue and role:** the prior ayah identifies rare restrainers; this one states the settlement-level effect of active repair rather than mere private soundness. **Abductive move:** I infer that distributed correction interrupts enough corrupt transmission to block collective collapse. **Reading change:** the protection threshold reads as maintained reforming capacity, not passive innocence or total uniformity.
+
+### Retrospective surprises
+
+Later 11:118 supplied the surprise that protection cannot require sameness: persistent difference remains, so reform is active coordination within plurality.
+
+## 11:118 - وَلَوْ شَآءَ رَبُّكَ لَجَعَلَ ٱلنَّاسَ أُمَّةًۭ وَٰحِدَةًۭ ۖ وَلَا يَزَالُونَ مُخْتَلِفِينَ
+
+### Activated readings
+
+1. **Persistent divergence exists inside, not outside, governing will.** **Lexical evidence:** `ش ي ء` `B001` is active through its accepted willing variant in `شَاء`; `ج ع ل` `B002` anchors making into a state; `أ م م` `B004` anchors a community; `و ح د` `B005` anchors being one in a shared respect; `ز ي ل` `B003` anchors continuance in `لَا يَزَالُونَ`; and `خ ل ف` `B004` anchors parties taking different ways. **Structural cue and role:** possible imposed unity is contrasted with ongoing divergence, immediately after reform rather than sameness is named as protection. **Abductive move:** I infer that non-uniformity is permitted within control and therefore cannot itself prove failed governance. **Reading change:** the ayah reads as a designed condition for accountable difference, not simply a lament that people disagree.
+
+### Retrospective surprises
+
+Later 11:119 showed mercy holding an exception within difference, and 11:123 confirmed that all divergent affairs still return to one comprehensive governance.
+
+## 11:119 - إِلَّا مَن رَّحِمَ رَبُّكَ ۚ وَلِذَٰلِكَ خَلَقَهُمْ ۗ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ
+
+### Activated readings
+
+1. **Mercy and completed settlement bound persistent plurality.** **Lexical evidence:** `ر ح م` `B001` anchors mercy; `ر ب ب` `B002` activates nurture; `خ ل ق` `B002` anchors originating; `ت م م` `B001` anchors full completion; `ك ل م` `B002` anchors the decisive utterance; `م ل أ` `B001` anchors fullness matching a container; `ج ن ن` `B005` anchors hidden spirit beings; and `ج م ع` `B009` anchors wholeness without scattering. **Structural cue and role:** mercy forms an exception within continuing difference, while creation and a completed word frame an eventual all-inclusive filling. **Abductive move:** I infer that permitted plurality can yield differentiated outcomes without allowing any class of agents to escape final settlement. **Reading change:** the ayah reads as bounded plurality under complete administration, preserving both mercy and exhaustive accounting without merging them.
+
+### Retrospective surprises
+
+Later 11:120 made mercy practically visible as heart-stabilizing report, while 11:123's total return confirmed that plurality remains inside completed settlement.
+
+## 11:120 - وَكُلًّۭا نَّقُصُّ عَلَيْكَ مِنْ أَنۢبَآءِ ٱلرُّسُلِ مَا نُثَبِّتُ بِهِۦ فُؤَادَكَ ۚ وَجَآءَكَ فِى هَٰذِهِ ٱلْحَقُّ وَمَوْعِظَةٌۭ وَذِكْرَىٰ لِلْمُؤْمِنِينَ
+
+### Activated readings
+
+1. **Sequential reports operate as an affective stabilization system.** **Lexical evidence:** `ك ل ل` `B003` anchors totality; `ق ص ص` `B002` anchors sequential recounting; `ن ب أ` `B002` anchors reported news; `ر س ل` `B002` anchors messengers; `ث ب ت` `B003` anchors making firm; `ف أ د` `B002` anchors the heart as inner kindling; `ج ي ء` `B001` anchors arrival; `ح ق ق` `B001` anchors truth; `و ع ظ` `B001` anchors heart-softening warning; and `ذ ك ر` `B009` anchors reminder. **Structural cue and role:** stories are selected by what they do to the receiving heart, while truth, admonition, and reminder arrive together through them. **Abductive move:** I infer that repeated causal outcomes stabilize present agency by reheating and resetting the heart's orientation. **Reading change:** the surah's narratives read as an active control system for endurance, not only information about prior messengers.
+
+### Retrospective surprises
+
+Later 11:121-122 enacted stabilization as continued work and waiting, and 11:123 supplied the hidden but fully observed endpoint that makes such steadiness rational.
+
+## 11:121 - وَقُل لِّلَّذِينَ لَا يُؤْمِنُونَ ٱعْمَلُوا۟ عَلَىٰ مَكَانَتِكُمْ إِنَّا عَٰمِلُونَ
+
+### Activated readings
+
+1. **Incompatible commitments are allowed to run in parallel.** **Lexical evidence:** `ق و ل` `B001` anchors the directed statement; `أ م ن` `B002` anchors withheld assent; repeated `ع م ل` `B001` anchors intentional work; and `ك و ن` `B002` anchors place, position, or rank in `مَكَانَتِكُمْ`. **Structural cue and role:** after stories stabilize one side, the non-assenting side is told to continue from its own station while the speaker's community also continues working. **Abductive move:** I infer that lack of consensus does not suspend agency; each orientation is permitted to produce its own observable output. **Reading change:** the command reads as a controlled comparison of action systems, not merely a taunt.
+
+### Retrospective surprises
+
+Later 11:122 made the experiment temporally symmetrical through reciprocal waiting, while 11:123 denied that either side's work falls outside observation.
+
+## 11:122 - وَٱنتَظِرُوٓا۟ إِنَّا مُنتَظِرُونَ
+
+### Activated readings
+
+1. **Reciprocal waiting equalizes posture while withholding control of schedule.** **Lexical evidence:** repeated `ن ظ ر` `B002` anchors watching for the time and granting respite. **Structural cue and role:** both parties have just been set to work from their positions; now both wait under the same verb, with neither given power to force arrival. **Abductive move:** I infer that temporal symmetry exposes the different reliance underlying outwardly identical waiting. **Reading change:** the terse command becomes a test of temporal allegiance rather than an empty pause between action and outcome.
+
+### Retrospective surprises
+
+Later 11:123 supplied the causal meaning of waiting: the schedule lies in the hidden domain, every affair returns, and trust rather than timing-control distinguishes the posture.
+
+## 11:123 - وَلِلَّهِ غَيْبُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَإِلَيْهِ يُرْجَعُ ٱلْأَمْرُ كُلُّهُۥ فَٱعْبُدْهُ وَتَوَكَّلْ عَلَيْهِ ۚ وَمَا رَبُّكَ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ
+
+### Activated readings
+
+1. **Hidden outcome, total return, service, and trust close one action-observation loop.** **Lexical evidence:** `غ ي ب` `B001` anchors what is hidden from sight or knowledge; `س م و` `B004` anchors the heavens; `أ ر ض` `B001` anchors ground; `ر ج ع` `B001` anchors return; `أ م ر` `B001` anchors the affair; `ك ل ل` `B003` anchors totality; `ع ب د` `B003` anchors worship and obedience; `و ك ل` `B002` anchors reliance; `غ ف ل` `B001` anchors heedlessness that drops a thing from attention; and `ع م ل` `B001` anchors work. **Structural cue and role:** 11:121-122 leave both parties acting and waiting; the closing ayah assigns hidden state and every returning affair to God, then derives service and trust while denying any observational lapse. **Abductive move:** I infer that comprehensive return plus uninterrupted attention makes trust rational despite hidden timing. **Reading change:** the ending reads as closure of the surah's action, waiting, observation, and settlement system.
+
+### Retrospective surprises
+
+No later ayah exists at the clipped surah boundary, so no later retrospective activation emerged.

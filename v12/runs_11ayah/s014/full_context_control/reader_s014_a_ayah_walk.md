@@ -9,7 +9,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:0 -->
+14:5 was the decisive later surprise: its exact darkness-to-light extraction turned the doubled `ر ح م B001` from a general opening quality into an enacted rescue pattern, while its signs made `بِسْمِ` look like a governing designation over the mission.
 
 ## 14:1 — الٓر ۚ كِتَٰبٌ أَنزَلْنَٰهُ إِلَيْكَ لِتُخْرِجَ ٱلنَّاسَ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ بِإِذْنِ رَبِّهِمْ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ
 
@@ -21,7 +21,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:1 -->
+14:5 repeated the full extraction formula, and 14:6 supplied its social rescue instance. Together they corrected an initially textual reading of `كِتَاب` toward an operative mandate and sharpened `نُور` as an orienting marker.
 
 ## 14:2 — ٱللَّهِ ٱلَّذِى لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَوَيْلٌۭ لِّلْكَٰفِرِينَ مِنْ عَذَابٍۢ شَدِيدٍ
 
@@ -33,7 +33,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:2 -->
+14:7 supplied the surprise by placing gratitude, kufr, punishment, and `شَدِيد` in one balanced conditional. That later construction activated favor-covering (`ك ف ر B004`) and the firmly attached consequence (`ش د د B001`).
 
 ## 14:3 — ٱلَّذِينَ يَسْتَحِبُّونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا عَلَى ٱلْءَاخِرَةِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًا ۚ أُو۟لَٰٓئِكَ فِى ضَلَٰلٍۭ بَعِيدٍۢ
 
@@ -45,7 +45,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:3 -->
+14:4-5 made the path more than a broad moral theme: local-language clarification, visible signs, and repeated light supplied an actual signal that the fixed blocking and bending can obstruct. No still later ayah inside this focus window required a separate correction.
 
 ## 14:4 — وَمَآ أَرْسَلْنَا مِن رَّسُولٍ إِلَّا بِلِسَانِ قَوْمِهِۦ لِيُبَيِّنَ لَهُمْ ۖ فَيُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ
 
@@ -57,7 +57,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:4 -->
+14:9 was the strongest retrospective activation: the hand-mouth rejection showed how an offered language-channel can be physically closed, making `ض ل ل B002` as disappearance of the guidance-signal newly concrete.
 
 ## 14:5 — وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِـَٔايَٰتِنَآ أَنْ أَخْرِجْ قَوْمَكَ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ وَذَكِّرْهُم بِأَيَّىٰمِ ٱللَّهِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّكُلِّ صَبَّارٍۢ شَكُورٍۢ
 
@@ -69,7 +69,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:5 -->
+14:6-7 changed the ending pair most sharply. The mixed ordeal/benefaction of `بَلَاء`, followed by gratitude versus covering, showed why patience and gratitude function as capacities for reading event-days rather than generic virtues.
 
 ## 14:6 — وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ أَنجَىٰكُم مِّنْ ءَالِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ وَيُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌۭ مِّن رَّبِّكُمْ عَظِيمٌۭ
 
@@ -81,7 +81,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:6 -->
+14:7 retrospectively split the mixed `ذَٰلِكُم` into disclosed response paths, while 14:11 returned to divine favor and authorization. These later ayat preserved both `ب ل و B002` ordeal and `ب ل و B003` benefaction instead of forcing one gloss.
 
 ## 14:7 — وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌۭ
 
@@ -93,7 +93,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:7 -->
+14:11 unexpectedly reused `ء ذ ن` as authorization. That later institutional use sharpened `تَأَذَّنَ` as public promulgation, while 14:8's self-sufficiency corrected any transactional reading of gratitude and increase.
 
 ## 14:8 — وَقَالَ مُوسَىٰٓ إِن تَكْفُرُوٓا۟ أَنتُمْ وَمَن فِى ٱلْأَرْضِ جَمِيعًۭا فَإِنَّ ٱللَّهَ لَغَنِىٌّ حَمِيدٌ
 
@@ -105,7 +105,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:8 -->
+14:9 expanded the single hypothetical total into generations of actual communities. That later historical spread made `جَمِيعًا` function as a maximal coalition test and confirmed that accumulated nonrecognition does not produce divine need.
 
 ## 14:9 — أَلَمْ يَأْتِكُمْ نَبَؤُا۟ ٱلَّذِينَ مِن قَبْلِكُمْ قَوْمِ نُوحٍۢ وَعَادٍۢ وَثَمُودَ ۛ وَٱلَّذِينَ مِنۢ بَعْدِهِمْ ۛ لَا يَعْلَمُهُمْ إِلَّا ٱللَّهُ ۚ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ فَرَدُّوٓا۟ أَيْدِيَهُمْ فِىٓ أَفْوَٰهِهِمْ وَقَالُوٓا۟ إِنَّا كَفَرْنَا بِمَآ أُرْسِلْتُم بِهِۦ وَإِنَّا لَفِى شَكٍّۢ مِّمَّا تَدْعُونَنَآ إِلَيْهِ مُرِيبٍۢ
 
@@ -117,7 +117,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:9 -->
+14:10-11 prolonged the failed proof exchange, and 14:13 escalated refusal into expulsion. Retrospectively, the hand-mouth gesture became the first bodily closure in a sequence that moves from rejected communication to coercive route control.
 
 ## 14:10 — ۞ قَالَتْ رُسُلُهُمْ أَفِى ٱللَّهِ شَكٌّۭ فَاطِرِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ يَدْعُوكُمْ لِيَغْفِرَ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرَكُمْ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى ۚ قَالُوٓا۟ إِنْ أَنتُمْ إِلَّا بَشَرٌۭ مِّثْلُنَا تُرِيدُونَ أَن تَصُدُّونَا عَمَّا كَانَ يَعْبُدُ ءَابَآؤُنَا فَأْتُونَا بِسُلْطَٰنٍۢ مُّبِينٍۢ
 
@@ -129,7 +129,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:10 -->
+14:13 made the coercive-force branch of `سُلْطَان` visible when the opponents themselves threatened expulsion; 14:15 then activated `ف ط ر B001` by turning the dispute toward adjudicative opening. These later cues preserved proof and force as separate readings.
 
 ## 14:11 — قَالَتْ لَهُمْ رُسُلُهُمْ إِن نَّحْنُ إِلَّا بَشَرٌۭ مِّثْلُكُمْ وَلَٰكِنَّ ٱللَّهَ يَمُنُّ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ وَمَا كَانَ لَنَآ أَن نَّأْتِيَكُم بِسُلْطَٰنٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ
 
@@ -141,7 +141,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:11 -->
+14:12's triple reliance confirmed that delegated proof leads to handoff of outcome, not abandonment of action. The coercive ultimatum in 14:13 then clarified by contrast why the messengers disclaim autonomous `سُلْطَان`.
 
 ## 14:12 — وَمَا لَنَآ أَلَّا نَتَوَكَّلَ عَلَى ٱللَّهِ وَقَدْ هَدَىٰنَا سُبُلَنَا ۚ وَلَنَصْبِرَنَّ عَلَىٰ مَآ ءَاذَيْتُمُونَا ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُتَوَكِّلُونَ
 
@@ -153,7 +153,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:12 -->
+14:13-14 supplied the surprise: one side tries to force exit or return, while the divine answer assigns later settlement. That reversal made reliance a division of causal labor and made plural guided ways contrast with a coerced communal track.
 
 ## 14:13 — وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِرُسُلِهِمْ لَنُخْرِجَنَّكُم مِّنْ أَرْضِنَآ أَوْ لَتَعُودُنَّ فِى مِلَّتِنَا ۖ فَأَوْحَىٰٓ إِلَيْهِمْ رَبُّهُمْ لَنُهْلِكَنَّ ٱلظَّٰلِمِينَ
 
@@ -165,7 +165,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:13 -->
+14:14 immediately reversed forced removal into assigned settlement. It therefore confirmed that `لَنُخْرِجَنَّكُم` is not merely movement but a contested claim to govern route, belonging, and destination.
 
 ## 14:14 — وَلَنُسْكِنَنَّكُمُ ٱلْأَرْضَ مِنۢ بَعْدِهِمْ ۚ ذَٰلِكَ لِمَنْ خَافَ مَقَامِى وَخَافَ وَعِيدِ
 
@@ -177,7 +177,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:14 -->
+14:18's ash scattered without control sharpened settlement as repaired stability, and 14:19's replacement creation made `مِن بَعْدِهِمْ` part of a broader succession mechanism. These were later activations, not independent themes.
 
 ## 14:15 — وَٱسْتَفْتَحُوا۟ وَخَابَ كُلُّ جَبَّارٍ عَنِيدٍۢ
 
@@ -189,7 +189,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:15 -->
+14:16-18 materialized the opposite of the opening sought: recursive punishment, blocked passage, and dispersed works. That later sequence fixed `خَابَ` as deprivation of the requested outcome and exposed coercion as unable to secure victory.
 
 ## 14:16 — مِّن وَرَآئِهِۦ جَهَنَّمُ وَيُسْقَىٰ مِن مَّآءٍۢ صَدِيدٍۢ
 
@@ -201,7 +201,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:16 -->
+14:17 supplied both retrospective surprises: it repeated `وَرَاء` after an initial ordeal, creating a recursive horizon, and its failed swallowing activated `س ق ي B010` as forced internalization of aversion.
 
 ## 14:17 — يَتَجَرَّعُهُۥ وَلَا يَكَادُ يُسِيغُهُۥ وَيَأْتِيهِ ٱلْمَوْتُ مِن كُلِّ مَكَانٍۢ وَمَا هُوَ بِمَيِّتٍۢ ۖ وَمِن وَرَآئِهِۦ عَذَابٌ غَلِيظٌۭ
 
@@ -213,7 +213,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:17 -->
+14:21's no-escape bind and 14:22's unavailable answering aid expanded the throat-level blockage into a complete no-exit system. They confirmed that the near-swallowing sequence models suspended passage rather than one isolated bodily pain.
 
 ## 14:18 — مَّثَلُ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ ۖ أَعْمَٰلُهُمْ كَرَمَادٍ ٱشْتَدَّتْ بِهِ ٱلرِّيحُ فِى يَوْمٍ عَاصِفٍۢ ۖ لَّا يَقْدِرُونَ مِمَّا كَسَبُوا۟ عَلَىٰ شَىْءٍۢ ۚ ذَٰلِكَ هُوَ ٱلضَّلَٰلُ ٱلْبَعِيدُ
 
@@ -225,7 +225,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:18 -->
+14:19-22 supplied a graded comparison of effective control: divine replacement is not difficult, leaders cannot avail, and Satan has no coercive authority. That later sequence made the negated `ق د ر B003` specifically a failure to retain effects.
 
 ## 14:19 — أَلَمْ تَرَ أَنَّ ٱللَّهَ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَأْتِ بِخَلْقٍۢ جَدِيدٍۢ
 
@@ -237,7 +237,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:19 -->
+14:24 was the decisive five-ayah-edge surprise. Its fixed root, elevated branch, and coherent vertical structure activated creation as proportioned architecture (`خ ل ق B001`) and truth as tight fit (`ح ق ق B010/B011`).
 
 ## 14:20 — وَمَا ذَٰلِكَ عَلَى ٱللَّهِ بِعَزِيزٍۢ
 
@@ -248,7 +248,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:20 -->
+14:21-22 exposed every creaturely support relation as unable to save, activating the exploratory “no reinforcement needed” reading of `ع ز ز B004`. The ordered garden and fruit in 14:23-25 then showed the replacement outcome as fully accessible.
 
 ## 14:21 — وَبَرَزُوا۟ لِلَّهِ جَمِيعًۭا فَقَالَ ٱلضُّعَفَٰٓؤُا۟ لِلَّذِينَ ٱسْتَكْبَرُوٓا۟ إِنَّا كُنَّا لَكُمْ تَبَعًۭا فَهَلْ أَنتُم مُّغْنُونَ عَنَّا مِنْ عَذَابِ ٱللَّهِ مِن شَىْءٍۢ ۚ قَالُوا۟ لَوْ هَدَىٰنَا ٱللَّهُ لَهَدَيْنَٰكُمْ ۖ سَوَآءٌ عَلَيْنَآ أَجَزِعْنَآ أَمْ صَبَرْنَا مَا لَنَا مِن مَّحِيصٍۢ
 
@@ -260,7 +260,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:21 -->
+14:22 corrected the followers' attempted liability transfer by denying coercion and returning blame to respondents. It made `تَبَعًا` an incurred relation, while 14:23's peaceful greeting exposed the opposite kind of social bond.
 
 ## 14:22 — وَقَالَ ٱلشَّيْطَٰنُ لَمَّا قُضِىَ ٱلْأَمْرُ إِنَّ ٱللَّهَ وَعَدَكُمْ وَعْدَ ٱلْحَقِّ وَوَعَدتُّكُمْ فَأَخْلَفْتُكُمْ ۖ وَمَا كَانَ لِىَ عَلَيْكُم مِّن سُلْطَٰنٍ إِلَّآ أَن دَعَوْتُكُمْ فَٱسْتَجَبْتُمْ لِى ۖ فَلَا تَلُومُونِى وَلُومُوٓا۟ أَنفُسَكُم ۖ مَّآ أَنَا۠ بِمُصْرِخِكُمْ وَمَآ أَنتُم بِمُصْرِخِىَّ ۖ إِنِّى كَفَرْتُ بِمَآ أَشْرَكْتُمُونِ مِن قَبْلُ ۗ إِنَّ ٱلظَّٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌۭ
 
@@ -273,7 +273,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:22 -->
+14:23-27 unexpectedly gave the true promise material form: garden, flow, fixed root, recurrent fruit, and stabilizing saying. That productive sequence clarified promise-failure as failure to reach an opened expectation's appointment.
 
 ## 14:23 — وَأُدْخِلَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا بِإِذْنِ رَبِّهِمْ ۖ تَحِيَّتُهُمْ فِيهَا سَلَٰمٌ
 
@@ -286,7 +286,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:23 -->
+14:24-27 unpacked the garden into root, branch, fruit, and stabilization. Those later ayat activated `ج ن ن B003` as a functioning tree-covered ecology and `خ ل د B002` as attached staying, not duration alone.
 
 ## 14:24 — أَلَمْ تَرَ كَيْفَ ضَرَبَ ٱللَّهُ مَثَلًۭا كَلِمَةًۭ طَيِّبَةًۭ كَشَجَرَةٍۢ طَيِّبَةٍ أَصْلُهَا ثَابِتٌۭ وَفَرْعُهَا فِى ٱلسَّمَآءِ
 
@@ -298,7 +298,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:24 -->
+14:25 supplied yield and mnemonic purpose, while 14:26 reversed root, quality, and settlement and 14:27 named stabilization explicitly. The later sequence confirmed that the word-tree is a causal architecture whose quality propagates.
 
 ## 14:25 — تُؤْتِىٓ أُكُلَهَا كُلَّ حِينٍۭ بِإِذْنِ رَبِّهَا ۗ وَيَضْرِبُ ٱللَّهُ ٱلْأَمْثَالَ لِلنَّاسِ لَعَلَّهُمْ يَتَذَكَّرُونَ
 
@@ -310,7 +310,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:25 -->
+14:28-30 showed favor becoming covering and temporary enjoyment moving toward fire. Retrospectively, this made remembrance the parable's usable fruit: failure of uptake is followed by exactly the inversion the example was meant to prevent.
 
 ## 14:26 — وَمَثَلُ كَلِمَةٍ خَبِيثَةٍۢ كَشَجَرَةٍ خَبِيثَةٍ ٱجْتُثَّتْ مِن فَوْقِ ٱلْأَرْضِ مَا لَهَا مِن قَرَارٍۢ
 
@@ -322,7 +322,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:26 -->
+14:29 delivered the sharpest surprise by calling hell `ٱلْقَرَار` after the foul tree had none. The later bad settlement converted lost rootedness into forced fixation, while 14:30's fire supported the dross activation of `خ ب ث B002`.
 
 ## 14:27 — يُثَبِّتُ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ بِٱلْقَوْلِ ٱلثَّابِتِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْءَاخِرَةِ ۖ وَيُضِلُّ ٱللَّهُ ٱلظَّٰلِمِينَ ۚ وَيَفْعَلُ ٱللَّهُ مَا يَشَآءُ
 
@@ -335,7 +335,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:27 -->
+14:28-30 made the disappearance reading of `يُضِلُّ` concrete through transformed favor, ruinous settlement, and route diversion. At the far edge, 14:32's coordinated provision system showed what a stabilized order can sustain.
 
 ## 14:28 — ۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ بَدَّلُوا۟ نِعْمَتَ ٱللَّهِ كُفْرًۭا وَأَحَلُّوا۟ قَوْمَهُمْ دَارَ ٱلْبَوَارِ
 
@@ -347,7 +347,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:28 -->
+14:29 immediately completed `أَحَلُّوا` as a bad settlement, but 14:32-33 supplied the larger surprise: the “favor” being converted is an integrated water, fruit, transport, river, and time system rather than a single benefit.
 
 ## 14:29 — جَهَنَّمَ يَصْلَوْنَهَا ۖ وَبِئْسَ ٱلْقَرَارُ
 
@@ -358,7 +358,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:29 -->
+14:32-34 retrospectively supplied the material counter-environment of water, fruit, rivers, cycles, and innumerable favor. That later abundance made `يَصْلَوْنَهَا` read as exposure to an anti-ecology rather than heat in isolation.
 
 ## 14:30 — وَجَعَلُوا۟ لِلَّهِ أَندَادًۭا لِّيُضِلُّوا۟ عَن سَبِيلِهِۦ ۗ قُلْ تَمَتَّعُوا۟ فَإِنَّ مَصِيرَكُمْ إِلَى ٱلنَّارِ
 
@@ -370,7 +370,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:30 -->
+14:32-34 attributed an active provision network to God, and 14:35 reduced the rivals to idol-bodies. These later ayat exposed `أَندَادًا` as manufactured parity without equivalent causal work.
 
 ## 14:31 — قُل لِّعِبَادِىَ ٱلَّذِينَ ءَامَنُوا۟ يُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُنفِقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّۭا وَعَلَانِيَةًۭ مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌۭ لَّا بَيْعٌۭ فِيهِ وَلَا خِلَٰلٌ
 
@@ -383,7 +383,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:31 -->
+14:32-34 supplied the incoming provision network that makes expenditure a return-flow, while 14:33's night/day alternation sharpened secret/public giving as one practice across visibility modes.
 
 ## 14:32 — ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًۭا لَّكُمْ ۖ وَسَخَّرَ لَكُمُ ٱلْفُلْكَ لِتَجْرِىَ فِى ٱلْبَحْرِ بِأَمْرِهِۦ ۖ وَسَخَّرَ لَكُمُ ٱلْأَنْهَٰرَ
 
@@ -396,7 +396,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:32 -->
+14:33 extended `سَخَّرَ` from ship and rivers to persistent celestial and temporal service. At the five-ayah edge, 14:37's uncultivated valley made the descent-extraction pipeline newly legible as infrastructure that can compensate for local lack.
 
 ## 14:33 — وَسَخَّرَ لَكُمُ ٱلشَّمْسَ وَٱلْقَمَرَ دَآئِبَيْنِ ۖ وَسَخَّرَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ
 
@@ -408,7 +408,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:33 -->
+14:38 repeated the hidden/manifest binary at the far edge of the window. That later epistemic pair confirmed that night/day are not only time units but a governed framework for inward and outward action.
 
 ## 14:34 — وَءَاتَىٰكُم مِّن كُلِّ مَا سَأَلْتُمُوهُ ۚ وَإِن تَعُدُّوا۟ نِعْمَتَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱلْإِنسَٰنَ لَظَلُومٌۭ كَفَّارٌۭ
 
@@ -420,7 +420,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:34 -->
+14:37's request for fruit and 14:39's gifted sons plus heard prayer made the grant-request arc concrete. They also expanded the uncountable network from material supply into settlement, attraction, lineage, and response.
 
 ## 14:35 — وَإِذْ قَالَ إِبْرَٰهِيمُ رَبِّ ٱجْعَلْ هَٰذَا ٱلْبَلَدَ ءَامِنًۭا وَٱجْنُبْنِى وَبَنِىَّ أَن نَّعْبُدَ ٱلْأَصْنَامَ
 
@@ -433,7 +433,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:35 -->
+14:36 showed the idol-bodies actively redirecting many, while 14:37-40 unfolded secure habitation as prayer, attraction, fruit, gift, and intergenerational maintenance. Those later ayat changed “safe city” into coordinated habitat and confirmed the lineage risk.
 
 ## 14:36 — رَبِّ إِنَّهُنَّ أَضْلَلْنَ كَثِيرًۭا مِّنَ ٱلنَّاسِ ۖ فَمَن تَبِعَنِى فَإِنَّهُۥ مِنِّى ۖ وَمَنْ عَصَانِى فَإِنَّكَ غَفُورٌۭ رَّحِيمٌۭ
 
@@ -446,7 +446,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:36 -->
+14:37 supplied a counter-pull when hearts were asked to incline and move, making misguidance a competition of attractions and activating the exploratory sway of `ن و س B001`. By 14:41, the widening prayer to parents and believers confirmed mercy's kinship-repair scope.
 
 ## 14:37 — رَّبَّنَآ إِنِّىٓ أَسْكَنتُ مِن ذُرِّيَّتِى بِوَادٍ غَيْرِ ذِى زَرْعٍ عِندَ بَيْتِكَ ٱلْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ فَٱجْعَلْ أَفْـِٔدَةًۭ مِّنَ ٱلنَّاسِ تَهْوِىٓ إِلَيْهِمْ وَٱرْزُقْهُم مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَشْكُرُونَ
 
@@ -459,7 +459,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:37 -->
+14:39 concretized the broader fruit-of-benefit reading through gifted children and heard prayer. It also confirmed that provision in a barren setting can show its effect through lineage and response, reinforcing `ش ك ر B002`.
 
 ## 14:38 — رَبَّنَآ إِنَّكَ تَعْلَمُ مَا نُخْفِى وَمَا نُعْلِنُ ۗ وَمَا يَخْفَىٰ عَلَى ٱللَّهِ مِن شَىْءٍۢ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ
 
@@ -471,7 +471,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:38 -->
+14:42 denied heedlessness and 14:43 exposed both fixed gaze and emptied heart. Those later ayat confirmed that divine knowledge spans outward perception and hidden interior, not merely secret statements.
 
 ## 14:39 — ٱلْحَمْدُ لِلَّهِ ٱلَّذِى وَهَبَ لِى عَلَى ٱلْكِبَرِ إِسْمَٰعِيلَ وَإِسْحَٰقَ ۚ إِنَّ رَبِّى لَسَمِيعُ ٱلدُّعَآءِ
 
@@ -483,7 +483,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:39 -->
+14:40's explicit request for acceptance sharpened hearing into efficacious reception. At the window edge, 14:44's belated promise to answer the divine call showed why response timing matters and corrected an acoustic-only reading of `سَمِيع`.
 
 ## 14:40 — رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى ۚ رَبَّنَا وَتَقَبَّلْ دُعَآءِ
 
@@ -495,7 +495,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:40 -->
+14:44 supplied the decisive contrast: wrongdoers offer response only after punishment arrives. That later failure made `تَقَبَّلْ` the timely conversion of prayer into effect and strengthened the durable-practice reading of the request.
 
 ## 14:41 — رَبَّنَا ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ ٱلْحِسَابُ
 
@@ -507,7 +507,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:41 -->
+14:42-44 made the account “stand” bodily: delay resolves into fixed gaze, hollowed heart, and a failed request for more time. The later embodiment activated `ق و م B013` beyond a calendar label.
 
 ## 14:42 — وَلَا تَحْسَبَنَّ ٱللَّهَ غَٰفِلًا عَمَّا يَعْمَلُ ٱلظَّٰلِمُونَ ۚ إِنَّمَا يُؤَخِّرُهُمْ لِيَوْمٍۢ تَشْخَصُ فِيهِ ٱلْأَبْصَٰرُ
 
@@ -519,7 +519,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:42 -->
+14:43 expanded the fixed gaze into a complete failed feedback loop, while 14:46 placed the schemes `عِندَ ٱللَّه` and 14:47 denied promise-failure. Together they corrected postponement into retained, fully present accounting rather than omission.
 
 ## 14:43 — مُهْطِعِينَ مُقْنِعِى رُءُوسِهِمْ لَا يَرْتَدُّ إِلَيْهِمْ طَرْفُهُمْ ۖ وَأَفْـِٔدَتُهُمْ هَوَآءٌۭ
 
@@ -531,7 +531,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:43 -->
+14:46's potentially moving mountains and 14:48's actually transformed earth and heavens supplied the surprising larger frame. They made the raised, nonreturning posture anticipate loss of ordinary spatial coordinates.
 
 ## 14:44 — وَأَنذِرِ ٱلنَّاسَ يَوْمَ يَأْتِيهِمُ ٱلْعَذَابُ فَيَقُولُ ٱلَّذِينَ ظَلَمُوا۟ رَبَّنَآ أَخِّرْنَآ إِلَىٰٓ أَجَلٍۢ قَرِيبٍۢ نُّجِبْ دَعْوَتَكَ وَنَتَّبِعِ ٱلرُّسُلَ ۗ أَوَلَمْ تَكُونُوٓا۟ أَقْسَمْتُم مِّن قَبْلُ مَا لَكُم مِّن زَوَالٍۢ
 
@@ -544,7 +544,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:44 -->
+14:46 and 14:48 overturned the prior no-departure oath through attempted mountain movement and actual world transformation. By 14:49 the warned subjects were visibly bound, confirming `ء ت ي B011` as being overtaken rather than mere arrival.
 
 ## 14:45 — وَسَكَنتُمْ فِى مَسَٰكِنِ ٱلَّذِينَ ظَلَمُوٓا۟ أَنفُسَهُمْ وَتَبَيَّنَ لَكُمْ كَيْفَ فَعَلْنَا بِهِمْ وَضَرَبْنَا لَكُمُ ٱلْأَمْثَالَ
 
@@ -556,7 +556,7 @@
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:45 -->
+14:46 placed hidden schemes within divine presence, and 14:48-50 turned the lesson into visible transformed ground, bodies, bonds, garments, and faces. These later scenes confirmed that the examples are materially inspectable mechanisms.
 
 ## 14:46 — وَقَدْ مَكَرُوا۟ مَكْرَهُمْ وَعِندَ ٱللَّهِ مَكْرُهُمْ وَإِن كَانَ مَكْرُهُمْ لِتَزُولَ مِنْهُ ٱلْجِبَالُ
 
@@ -569,7 +569,7 @@ No `م ك ر` branch is retained as an activated lexical reading: its accepted p
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:46 -->
+14:48 supplied the crucial correction: human schemes are only measured against moving solid masses, whereas divine action actually remaps earth and sky. 14:51's accounting then confirmed that “with God” assigns custody and eventual processing.
 
 ## 14:47 — فَلَا تَحْسَبَنَّ ٱللَّهَ مُخْلِفَ وَعْدِهِۦ رُسُلَهُۥٓ ۗ إِنَّ ٱللَّهَ عَزِيزٌۭ ذُو ٱنتِقَامٍۢ
 
@@ -582,7 +582,7 @@ No `م ك ر` branch is retained as an activated lexical reading: its accepted p
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:47 -->
+14:48-51 enacted the paired epithet as transformation, subduing exposure, binding, covering, and matching recompense. 14:52 then named the whole sequence a conveyed warning, confirming that promise enforcement also preserves the messenger-message channel.
 
 ## 14:48 — يَوْمَ تُبَدَّلُ ٱلْأَرْضُ غَيْرَ ٱلْأَرْضِ وَٱلسَّمَٰوَٰتُ ۖ وَبَرَزُوا۟ لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ
 
@@ -594,7 +594,7 @@ No `م ك ر` branch is retained as an activated lexical reading: its accepted p
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:48 -->
+14:49-50 supplied the unexpected exposure-cover reversal: visible bound bodies are re-covered by combustible garments and fire, not restored to concealment. 14:51 then assigned the transformed scene its accounting purpose.
 
 ## 14:49 — وَتَرَى ٱلْمُجْرِمِينَ يَوْمَئِذٍۢ مُّقَرَّنِينَ فِى ٱلْأَصْفَادِ
 
@@ -606,7 +606,7 @@ No `م ك ر` branch is retained as an activated lexical reading: its accepted p
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:49 -->
+14:51 was the decisive later activation: “what each self earned” exposed `ج ر م B003` as incurred outcome, not merely a static criminal category. 14:50's fitted bodily covering also confirmed the forced-binding mechanism.
 
 ## 14:50 — سَرَابِيلُهُم مِّن قَطِرَانٍۢ وَتَغْشَىٰ وُجُوهَهُمُ ٱلنَّارُ
 
@@ -618,7 +618,7 @@ No `م ك ر` branch is retained as an activated lexical reading: its accepted p
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:50 -->
+14:51's matching recompense made the pitch garment and fire-cover read as fitted consequences rather than arbitrary spectacle. 14:52's warning purpose preserved the illumination branch of `ن و ر`: the cover remains communicatively visible.
 
 ## 14:51 — لِيَجْزِىَ ٱللَّهُ كُلَّ نَفْسٍۢ مَّا كَسَبَتْ ۚ إِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ
 
@@ -630,7 +630,7 @@ No `م ك ر` branch is retained as an activated lexical reading: its accepted p
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:51 -->
+14:52 retrospectively recast rapid accounting and its visible results as sufficient conveyed material for warning, knowledge, and remembrance. No additional causal correction arose beyond that final communicative role.
 
 ## 14:52 — هَٰذَا بَلَٰغٌۭ لِّلنَّاسِ وَلِيُنذَرُوا۟ بِهِۦ وَلِيَعْلَمُوٓا۟ أَنَّمَا هُوَ إِلَٰهٌۭ وَٰحِدٌۭ وَلِيَذَّكَّرَ أُو۟لُوا۟ ٱلْأَلْبَٰبِ
 
@@ -643,4 +643,4 @@ No `م ك ر` branch is retained as an activated lexical reading: its accepted p
 
 ### Retrospective surprises
 
-<!-- RETROSPECTIVE 14:52 -->
+No later ayah exists inside the clipped focus window. The retrospective therefore added no later surprise; the retained readings arise from the fixed sequence and the preceding five ayat only.

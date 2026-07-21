@@ -10,7 +10,7 @@
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:4–5 unexpectedly activated both controls at once: birth/ancestry sharpened the exploratory womb image, while the mouth-produced claim showed why raised designation matters.
 
 ## 18:1 — ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَنزَلَ عَلَىٰ عَبْدِهِ ٱلْكِتَٰبَ وَلَمْ يَجْعَل لَّهُۥ عِوَجَا ۜ
 
@@ -20,7 +20,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:2 supplied the exact upright counter-form, and 18:4–5 showed that the crookedness being corrected can inhabit theological speech.
 
 ## 18:2 — قَيِّمًۭا لِّيُنذِرَ بَأْسًۭا شَدِيدًۭا مِّن لَّدُنْهُ وَيُبَشِّرَ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ أَجْرًا حَسَنًۭا
 
@@ -30,7 +30,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:3 made the book’s guardianship durable, while 18:4–5 showed its upright ordering working across opposite announced outcomes and false claims.
 
 ## 18:3 — مَّٰكِثِينَ فِيهِ أَبَدًۭا
 
@@ -40,7 +40,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:7–8 supplied the surprise: earth’s attractive surface is removable, so `مَاكِثِينَ` became residence of a different material order.
 
 ## 18:4 — وَيُنذِرَ ٱلَّذِينَ قَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًۭا
 
@@ -50,7 +50,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:5 decisively relocated generation to the speakers’ mouths; the claimed `وَلَد` became a produced derivative utterance rather than a divine product.
 
 ## 18:5 — مَّا لَهُم بِهِۦ مِنْ عِلْمٍۢ وَلَا لِءَابَآئِهِمْ ۚ كَبُرَتْ كَلِمَةًۭ تَخْرُجُ مِنْ أَفْوَٰهِهِمْ ۚ إِن يَقُولُونَ إِلَّا كَذِبًۭا
 
@@ -60,7 +60,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:6 made the dormant wound branch visible: the mouth-emitted word is followed immediately by threatened self-destruction in grief.
 
 ## 18:6 — فَلَعَلَّكَ بَٰخِعٌۭ نَّفْسَكَ عَلَىٰٓ ءَاثَٰرِهِمْ إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا ٱلْحَدِيثِ أَسَفًا
 
@@ -70,7 +70,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:7 corrected the apparent nobility of exhaustive grief by relocating full effort into evaluated action.
 
 ## 18:7 — إِنَّا جَعَلْنَا مَا عَلَى ٱلْأَرْضِ زِينَةًۭ لَّهَا لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًۭا
 
@@ -80,7 +80,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:8 revealed that the beautifying layer can be deliberately stripped, confirming adornment as test apparatus rather than stable value.
 
 ## 18:8 — وَإِنَّا لَجَٰعِلُونَ مَا عَلَيْهَا صَعِيدًۭا جُرُزًا
 
@@ -90,7 +90,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:9 unexpectedly followed total surface-stripping with selective preservation, so barrenness became stage-clearance rather than the end of signs.
 
 ## 18:9 — أَمْ حَسِبْتَ أَنَّ أَصْحَٰبَ ٱلْكَهْفِ وَٱلرَّقِيمِ كَانُوا۟ مِنْ ءَايَٰتِنَا عَجَبًا
 
@@ -100,7 +100,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:11–12 activated the inscription as a counting device through `عَدَدًا` and `أَحْصَىٰ`, not merely an unexplained companion-name for the cave.
 
 ## 18:10 — إِذْ أَوَى ٱلْفِتْيَةُ إِلَى ٱلْكَهْفِ فَقَالُوا۟ رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًۭا
 
@@ -110,7 +110,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:11–14 made refuge progressively sensory, temporal, and inward: ears are withheld, bodies raised, and hearts fastened.
 
 ## 18:11 — فَضَرَبْنَا عَلَىٰٓ ءَاذَانِهِمْ فِى ٱلْكَهْفِ سِنِينَ عَدَدًۭا
 
@@ -120,7 +120,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:12’s awakening corrected any static reading of the ear-strike, and 18:14 supplied the parallel operation of fastening hearts.
 
 ## 18:12 — ثُمَّ بَعَثْنَٰهُمْ لِنَعْلَمَ أَىُّ ٱلْحِزْبَيْنِ أَحْصَىٰ لِمَا لَبِثُوٓا۟ أَمَدًۭا
 
@@ -130,7 +130,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:13’s truthful sequential account and 18:17’s mapped solar course broadened reckoning from number alone to ordered trace.
 
 ## 18:13 — نَّحْنُ نَقُصُّ عَلَيْكَ نَبَأَهُم بِٱلْحَقِّ ۚ إِنَّهُمْ فِتْيَةٌ ءَامَنُوا۟ بِرَبِّهِمْ وَزِدْنَٰهُمْ هُدًۭى
 
@@ -140,7 +140,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:17 supplied the strongest later surprise: truthful narration itself behaves like following a right/left path around the preserved bodies.
 
 ## 18:14 — وَرَبَطْنَا عَلَىٰ قُلُوبِهِمْ إِذْ قَامُوا۟ فَقَالُوا۟ رَبُّنَا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ لَن نَّدْعُوَا۟ مِن دُونِهِۦٓ إِلَٰهًۭا ۖ لَّقَدْ قُلْنَآ إِذًۭا شَطَطًا
 
@@ -150,7 +150,8 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:17–18 made the contrast exact: sun and bodies turn across sides while the fastened inward faculty remains aligned.
+
 ## 18:15 — هَٰٓؤُلَآءِ قَوْمُنَا ٱتَّخَذُوا۟ مِن دُونِهِۦٓ ءَالِهَةًۭ ۖ لَّوْلَا يَأْتُونَ عَلَيْهِم بِسُلْطَٰنٍۭ بَيِّنٍۢ ۖ فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًۭا
 
 ### Activated readings
@@ -159,7 +160,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:20 activated the coercive-force branch of `س ل ط`, exposing domination as the practical substitute for the missing proof demanded here.
 
 ## 18:16 — وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًۭا
 
@@ -169,7 +170,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:19’s raising and 18:21’s public discovery showed mercy spreading through revival into social evidence.
 
 ## 18:17 — ۞ وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍۢ مِّنْهُ ۚ ذَٰلِكَ مِنْ ءَايَٰتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّۭا مُّرْشِدًۭا
 
@@ -179,7 +180,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:19’s silver unexpectedly activated the advance/credit branch, making the sun’s side-passage resemble measured provision rather than avoidance alone.
 
 ## 18:18 — وَتَحْسَبُهُمْ أَيْقَاظًۭا وَهُمْ رُقُودٌۭ ۚ وَنُقَلِّبُهُمْ ذَاتَ ٱلْيَمِينِ وَذَاتَ ٱلشِّمَالِ ۖ وَكَلْبُهُم بَٰسِطٌۭ ذِرَاعَيْهِ بِٱلْوَصِيدِ ۚ لَوِ ٱطَّلَعْتَ عَلَيْهِمْ لَوَلَّيْتَ مِنْهُمْ فِرَارًۭا وَلَمُلِئْتَ مِنْهُمْ رُعْبًۭا
 
@@ -189,7 +190,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:19’s awakening confirmed that the repeated bodily reversals preserve rather than destabilize; 18:21 extended preservation into public proof.
 
 ## 18:19 — وَكَذَٰلِكَ بَعَثْنَٰهُمْ لِيَتَسَآءَلُوا۟ بَيْنَهُمْ ۚ قَالَ قَآئِلٌۭ مِّنْهُمْ كَمْ لَبِثْتُمْ ۖ قَالُوا۟ لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍۢ ۚ قَالُوا۟ رَبُّكُمْ أَعْلَمُ بِمَا لَبِثْتُمْ فَٱبْعَثُوٓا۟ أَحَدَكُم بِوَرِقِكُمْ هَٰذِهِۦٓ إِلَى ٱلْمَدِينَةِ فَلْيَنظُرْ أَيُّهَآ أَزْكَىٰ طَعَامًۭا فَلْيَأْتِكُم بِرِزْقٍۢ مِّنْهُ وَلْيَتَلَطَّفْ وَلَا يُشْعِرَنَّ بِكُمْ أَحَدًا
 
@@ -201,7 +202,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:20 supplied the reason for subtle movement, while 18:21 corrected the assumption that concealment itself was the final aim.
 
 ## 18:20 — إِنَّهُمْ إِن يَظْهَرُوا۟ عَلَيْكُمْ يَرْجُمُوكُمْ أَوْ يُعِيدُوكُمْ فِى مِلَّتِهِمْ وَلَن تُفْلِحُوٓا۟ إِذًا أَبَدًۭا
 
@@ -211,7 +212,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:22 reused `ر ج م` for conjecture, retrospectively joining threatened bodily pelting to unsupported verbal projection.
 
 ## 18:21 — وَكَذَٰلِكَ أَعْثَرْنَا عَلَيْهِمْ لِيَعْلَمُوٓا۟ أَنَّ وَعْدَ ٱللَّهِ حَقٌّۭ وَأَنَّ ٱلسَّاعَةَ لَا رَيْبَ فِيهَآ إِذْ يَتَنَٰزَعُونَ بَيْنَهُمْ أَمْرَهُمْ ۖ فَقَالُوا۟ ٱبْنُوا۟ عَلَيْهِم بُنْيَٰنًۭا ۖ رَّبُّهُمْ أَعْلَمُ بِهِمْ ۚ قَالَ ٱلَّذِينَ غَلَبُوا۟ عَلَىٰٓ أَمْرِهِمْ لَنَتَّخِذَنَّ عَلَيْهِم مَّسْجِدًۭا
 
@@ -221,7 +222,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:22 showed the danger after discovery: hidden truth can be revealed yet immediately repackaged as unsupported enumeration.
 
 ## 18:22 — سَيَقُولُونَ ثَلَٰثَةٌۭ رَّابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌۭ سَادِسُهُمْ كَلْبُهُمْ رَجْمًۢا بِٱلْغَيْبِ ۖ وَيَقُولُونَ سَبْعَةٌۭ وَثَامِنُهُمْ كَلْبُهُمْ ۚ قُل رَّبِّىٓ أَعْلَمُ بِعِدَّتِهِم مَّا يَعْلَمُهُمْ إِلَّا قَلِيلٌۭ ۗ فَلَا تُمَارِ فِيهِمْ إِلَّا مِرَآءًۭ ظَٰهِرًۭا وَلَا تَسْتَفْتِ فِيهِم مِّنْهُمْ أَحَدًۭا
 
@@ -233,7 +234,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:23–24 extended the warning from guessed past counts to confident future claims, confirming that the issue is speech outrunning knowledge.
 
 ## 18:23 — وَلَا تَقُولَنَّ لِشَا۟ىْءٍ إِنِّى فَاعِلٌۭ ذَٰلِكَ غَدًا
 
@@ -243,7 +244,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:24 subjected tomorrow to divine willing, and 18:28 surprisingly returned the same root as recurring morning practice.
 
 ## 18:24 — إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ وَٱذْكُر رَّبَّكَ إِذَا نَسِيتَ وَقُلْ عَسَىٰٓ أَن يَهْدِيَنِ رَبِّى لِأَقْرَبَ مِنْ هَٰذَا رَشَدًۭا
 
@@ -253,7 +254,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:25–28 connected forgetting to disputed duration, divine knowledge, stable recitation, and disciplined remembrance, making the repair practical as well as cognitive.
 
 ## 18:25 — وَلَبِثُوا۟ فِى كَهْفِهِمْ ثَلَٰثَ مِا۟ئَةٍۢ سِنِينَ وَٱزْدَادُوا۟ تِسْعًۭا
 
@@ -263,7 +264,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:26’s correction `ٱللَّهُ أَعْلَمُ` prevented the precise number from becoming another possession of the counters.
 
 ## 18:26 — قُلِ ٱللَّهُ أَعْلَمُ بِمَا لَبِثُوا۟ ۖ لَهُۥ غَيْبُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ أَبْصِرْ بِهِۦ وَأَسْمِعْ ۚ مَا لَهُم مِّن دُونِهِۦ مِن وَلِىٍّۢ وَلَا يُشْرِكُ فِى حُكْمِهِۦٓ أَحَدًۭا
 
@@ -273,7 +274,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:27–28 moved complete sight from claim to practice: revealed words are recited and the human gaze is kept from overreaching.
 
 ## 18:27 — وَٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِن كِتَابِ رَبِّكَ ۖ لَا مُبَدِّلَ لِكَلِمَٰتِهِۦ وَلَن تَجِدَ مِن دُونِهِۦ مُلْتَحَدًۭا
 
@@ -283,7 +284,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:28’s forbidden eye-deviation and 18:29’s inescapable enclosure sharpened `مُلْتَحَدًا` as both semantic and spatial evasion.
 
 ## 18:28 — وَٱصْبِرْ نَفْسَكَ مَعَ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَا تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُۥ عَن ذِكْرِنَا وَٱتَّبَعَ هَوَىٰهُ وَكَانَ أَمْرُهُۥ فُرُطًۭا
 
@@ -293,7 +294,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:29–31 showed the consequence of attention’s allocation: one enclosure burns while preserved work becomes a supportive lodging.
 
 ## 18:29 — وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍۢ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا
 
@@ -303,7 +304,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:31 reused `مُرْتَفَقًا` for genuine support, and 18:32 supplied a productive enclosure, making the fixed pavilion an exact anti-hospitality structure.
 
 ## 18:30 — إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ إِنَّا لَا نُضِيعُ أَجْرَ مَنْ أَحْسَنَ عَمَلًا
 
@@ -313,7 +314,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:31–33 unexpectedly realized the dormant estate and livelihood branches: retained reward becomes an inhabited, cultivated holding.
 
 ## 18:31 — أُو۟لَٰٓئِكَ لَهُمْ جَنَّٰتُ عَدْنٍۢ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍۢ وَيَلْبَسُونَ ثِيَابًا خُضْرًۭا مِّن سُندُسٍۢ وَإِسْتَبْرَقٍۢ مُّتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ ۚ نِعْمَ ٱلثَّوَابُ وَحَسُنَتْ مُرْتَفَقًۭا
 
@@ -323,7 +324,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:32–33 widened bodily leaning-support into ecological support, where boundary, crop, and river jointly make rest habitable.
 
 ## 18:32 — ۞ وَٱضْرِبْ لَهُم مَّثَلًۭا رَّجُلَيْنِ جَعَلْنَا لِأَحَدِهِمَا جَنَّتَيْنِ مِنْ أَعْنَٰبٍۢ وَحَفَفْنَٰهُمَا بِنَخْلٍۢ وَجَعَلْنَا بَيْنَهُمَا زَرْعًۭا
 
@@ -333,7 +334,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:33’s through-flow confirmed the enclosure’s productive role, while 18:35 exposed the owner’s mistake of reading supported containment as autonomy.
 
 ## 18:33 — كِلْتَا ٱلْجَنَّتَيْنِ ءَاتَتْ أُكُلَهَا وَلَمْ تَظْلِم مِّنْهُ شَيْـًۭٔا ۚ وَفَجَّرْنَا خِلَٰلَهُمَا نَهَرًۭا
 
@@ -343,7 +344,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:35 reused `ظ ل م` for the owner’s self-relation, turning the garden’s non-withholding into an unexpectedly moral comparison.
 
 ## 18:34 — وَكَانَ لَهُۥ ثَمَرٌۭ فَقَالَ لِصَٰحِبِهِۦ وَهُوَ يُحَاوِرُهُۥٓ أَنَا۠ أَكْثَرُ مِنكَ مَالًۭا وَأَعَزُّ نَفَرًۭا
 
@@ -353,7 +354,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:36’s `مُنقَلَبًا` and 18:37’s return to material origin activated the reversal latent inside the dialogue.
 
 ## 18:35 — وَدَخَلَ جَنَّتَهُۥ وَهُوَ ظَالِمٌۭ لِّنَفْسِهِۦ قَالَ مَآ أَظُنُّ أَن تَبِيدَ هَٰذِهِۦٓ أَبَدًۭا
 
@@ -363,7 +364,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:40 supplied the dormant landscape image exactly: the enclosed garden can become exposed, slippery waste.
 
 ## 18:36 — وَمَآ أَظُنُّ ٱلسَّاعَةَ قَآئِمَةًۭ وَلَئِن رُّدِدتُّ إِلَىٰ رَبِّى لَأَجِدَنَّ خَيْرًۭا مِّنْهَا مُنقَلَبًۭا
 
@@ -373,7 +374,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:37 returned the claimant to his origin, and 18:40 projected real state-reversal onto the garden he merely copied into the future.
 
 ## 18:37 — قَالَ لَهُۥ صَاحِبُهُۥ وَهُوَ يُحَاوِرُهُۥٓ أَكَفَرْتَ بِٱلَّذِى خَلَقَكَ مِن تُرَابٍۢ ثُمَّ مِن نُّطْفَةٍۢ ثُمَّ سَوَّىٰكَ رَجُلًۭا
 
@@ -383,7 +384,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:40–42 removed surface, water, and structure in sequence, confirming that the human `نُطْفَة` and garden belong to one contingent water economy.
 
 ## 18:38 — لَّٰكِنَّا۠ هُوَ ٱللَّهُ رَبِّى وَلَآ أُشْرِكُ بِرَبِّىٓ أَحَدًۭا
 
@@ -393,7 +394,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:42’s regret explicitly named partnership as the causal error, validating the distinction between ordinary companionship and ultimate attribution.
 
 ## 18:39 — وَلَوْلَآ إِذْ دَخَلْتَ جَنَّتَكَ قُلْتَ مَا شَآءَ ٱللَّهُ لَا قُوَّةَ إِلَّا بِٱللَّهِ ۚ إِن تَرَنِ أَنَا۠ أَقَلَّ مِنكَ مَالًۭا وَوَلَدًۭا
 
@@ -403,7 +404,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:40–43 dismantled the rope strand by strand—ground, water, structure, and faction—making assembled dependence visible.
 
 ## 18:40 — فَعَسَىٰ رَبِّىٓ أَن يُؤْتِيَنِ خَيْرًۭا مِّن جَنَّتِكَ وَيُرْسِلَ عَلَيْهَا حُسْبَانًۭا مِّنَ ٱلسَّمَآءِ فَتُصْبِحَ صَعِيدًۭا زَلَقًا
 
@@ -413,7 +414,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:42 realized the counter-account, 18:44 named true outcome, and 18:45 generalized the audit into a complete life-cycle.
 
 ## 18:41 — أَوْ يُصْبِحَ مَآؤُهَا غَوْرًۭا فَلَن تَسْتَطِيعَ لَهُۥ طَلَبًۭا
 
@@ -423,7 +424,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:42’s hollow collapse and 18:45’s descending-water cycle activated `غَوْرًا` as spatial inaccessibility rather than annihilation.
 
 ## 18:42 — وَأُحِيطَ بِثَمَرِهِۦ فَأَصْبَحَ يُقَلِّبُ كَفَّيْهِ عَلَىٰ مَآ أَنفَقَ فِيهَا وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَيَقُولُ يَٰلَيْتَنِى لَمْ أُشْرِكْ بِرَبِّىٓ أَحَدًۭا
 
@@ -433,17 +434,17 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:43 removed social support, and 18:47 repeated the same exposure at earth-scale; the ruin became a miniature of universal stripping.
 
 ## 18:43 — وَلَمْ تَكُن لَّهُۥ فِئَةٌۭ يَنصُرُونَهُۥ مِن دُونِ ٱللَّهِ وَمَا كَانَ مُنتَصِرًا
 
 ### Activated readings
 
-1. **The separated faction fails before universal gathering.** `ف ء ي/B003` is a separated group of people. The owner had boasted of the stronger `نَفَر` (18:34), but his productive enclosure has collapsed (18:42); 18:47–48 then gathers everyone and arrays them in a single row. I infer that factional separation creates the illusion of independent support only while the larger gathering is hidden. `فِئَة` reads as a provisional partition whose inability to save reveals the false scale of his social calculation.
+1. **The separated faction fails before universal gathering.** `ف ء ي/B003` is a separated group of people. The productive enclosure has collapsed in 18:42 and no faction can reverse it here; 18:47–48 then gathers everyone and arrays them in a single row. I infer that factional separation creates the illusion of independent support only while the larger gathering is hidden. `فِئَة` reads as a provisional partition whose inability to save reveals the false scale of social calculation.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:47–48 replaced the failed faction with exhaustive gathering and one row, confirming that its support depended on provisional separation.
 
 ## 18:44 — هُنَالِكَ ٱلْوَلَٰيَةُ لِلَّهِ ٱلْحَقِّ ۚ هُوَ خَيْرٌۭ ثَوَابًۭا وَخَيْرٌ عُقْبًۭا
 
@@ -453,7 +454,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:45–49 unfolded outcome as a sequence from material decay through durable residue to exhaustive presentation and record.
 
 ## 18:45 — وَٱضْرِبْ لَهُم مَّثَلَ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ فَأَصْبَحَ هَشِيمًۭا تَذْرُوهُ ٱلرِّيَٰحُ ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ مُّقْتَدِرًا
 
@@ -463,7 +464,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:47’s exposed landscape and 18:49’s present record showed fragments re-entering a larger order rather than simply vanishing.
 
 ## 18:46 — ٱلْمَالُ وَٱلْبَنُونَ زِينَةُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًۭا وَخَيْرٌ أَمَلًۭا
 
@@ -473,7 +474,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:49 made the surviving residue concrete: works are retained as present, individually retrievable entries.
 
 ## 18:47 — وَيَوْمَ نُسَيِّرُ ٱلْجِبَالَ وَتَرَى ٱلْأَرْضَ بَارِزَةًۭ وَحَشَرْنَٰهُمْ فَلَمْ نُغَادِرْ مِنْهُمْ أَحَدًۭا
 
@@ -483,7 +484,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:48’s row and 18:49’s no-omission book confirmed that removing rough terrain is the spatial form of exhaustive inclusion.
 
 ## 18:48 — وَعُرِضُوا۟ عَلَىٰ رَبِّكَ صَفًّۭا لَّقَدْ جِئْتُمُونَا كَمَا خَلَقْنَٰكُمْ أَوَّلَ مَرَّةٍۭ ۚ بَلْ زَعَمْتُمْ أَلَّن نَّجْعَلَ لَكُم مَّوْعِدًۭا
 
@@ -493,7 +494,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:49 serialized deeds immediately after bodies, while 18:50’s single exception showed how one departure becomes individually exposed within a collective.
 
 ## 18:49 — وَوُضِعَ ٱلْكِتَٰبُ فَتَرَى ٱلْمُجْرِمِينَ مُشْفِقِينَ مِمَّا فِيهِ وَيَقُولُونَ يَٰوَيْلَتَنَا مَالِ هَٰذَا ٱلْكِتَٰبِ لَا يُغَادِرُ صَغِيرَةًۭ وَلَا كَبِيرَةً إِلَّآ أَحْصَىٰهَا ۚ وَوَجَدُوا۟ مَا عَمِلُوا۟ حَاضِرًۭا ۗ وَلَا يَظْلِمُ رَبُّكَ أَحَدًۭا
 
@@ -503,7 +504,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:50–52 separated false ally, non-witness, and unresponsive partner one by one, extending exhaustive counting into relational audit.
 
 ## 18:50 — وَإِذْ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ كَانَ مِنَ ٱلْجِنِّ فَفَسَقَ عَنْ أَمْرِ رَبِّهِۦٓ ۗ أَفَتَتَّخِذُونَهُۥ وَذُرِّيَّتَهُۥٓ أَوْلِيَآءَ مِن دُونِى وَهُمْ لَكُمْ عَدُوٌّۢ ۚ بِئْسَ لِلظَّٰلِمِينَ بَدَلًۭا
 
@@ -513,7 +514,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:51 denied the departing figure any creation-knowledge, and 18:52 showed his allied role failing under an actual call.
 
 ## 18:51 — ۞ مَّآ أَشْهَدتُّهُمْ خَلْقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلَا خَلْقَ أَنفُسِهِمْ وَمَا كُنتُ مُتَّخِذَ ٱلْمُضِلِّينَ عَضُدًۭا
 
@@ -523,7 +524,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:52’s unanswered summons provided the practical test: a supposed supporting arm cannot answer or bridge the relation it claims to bear.
 
 ## 18:52 — وَيَوْمَ يَقُولُ نَادُوا۟ شُرَكَآءِىَ ٱلَّذِينَ زَعَمْتُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا۟ لَهُمْ وَجَعَلْنَا بَيْنَهُم مَّوْبِقًۭا
 
@@ -533,7 +534,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:53’s absent `مَصْرِفًا` showed that the separating interval is also detention; the relational gap itself has become inescapable.
 
 ## 18:53 — وَرَءَا ٱلْمُجْرِمُونَ ٱلنَّارَ فَظَنُّوٓا۟ أَنَّهُم مُّوَاقِعُوهَا وَلَمْ يَجِدُوا۟ عَنْهَا مَصْرِفًۭا
 
@@ -543,7 +544,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:54’s repeated turning of examples sharpened the surprise: many earlier redirections existed before the final route closed.
 
 ## 18:54 — وَلَقَدْ صَرَّفْنَا فِى هَٰذَا ٱلْقُرْءَانِ لِلنَّاسِ مِن كُلِّ مَثَلٍۢ ۚ وَكَانَ ٱلْإِنسَٰنُ أَكْثَرَ شَىْءٍۢ جَدَلًۭا
 
@@ -553,7 +554,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:56 made the rope image operational—the disputants twist falsehood into a medium intended to make truth lose footing.
 
 ## 18:55 — وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤْمِنُوٓا۟ إِذْ جَآءَهُمُ ٱلْهُدَىٰ وَيَسْتَغْفِرُوا۟ رَبَّهُمْ إِلَّآ أَن تَأْتِيَهُمْ سُنَّةُ ٱلْأَوَّلِينَ أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ قُبُلًۭا
 
@@ -563,7 +564,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:56–57 showed warning already present but converted into dispute and perceptual cover, explaining why only direct confrontation remains acceptable.
 
 ## 18:56 — وَمَا نُرْسِلُ ٱلْمُرْسَلِينَ إِلَّا مُبَشِّرِينَ وَمُنذِرِينَ ۚ وَيُجَٰدِلُ ٱلَّذِينَ كَفَرُوا۟ بِٱلْبَٰطِلِ لِيُدْحِضُوا۟ بِهِ ٱلْحَقَّ ۖ وَٱتَّخَذُوٓا۟ ءَايَٰتِى وَمَآ أُنذِرُوا۟ هُزُوًۭا
 
@@ -573,7 +574,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:57 supplied the maintained sensory cover, and 18:59 supplied the eventual loss of standing that the attempted slippage cannot prevent.
 
 ## 18:57 — وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَٰتِ رَبِّهِۦ فَأَعْرَضَ عَنْهَا وَنَسِىَ مَا قَدَّمَتْ يَدَاهُ ۚ إِنَّا جَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ ءَاذَانِهِمْ وَقْرًۭا ۖ وَإِن تَدْعُهُمْ إِلَى ٱلْهُدَىٰ فَلَن يَهْتَدُوٓا۟ إِذًا أَبَدًۭا
 
@@ -583,7 +584,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:58 surprisingly restored covering as mercy: unlike 18:57’s insulation, forgiving cover preserves response-time rather than blocking access.
 
 ## 18:58 — وَرَبُّكَ ٱلْغَفُورُ ذُو ٱلرَّحْمَةِ ۖ لَوْ يُؤَاخِذُهُم بِمَا كَسَبُوا۟ لَعَجَّلَ لَهُمُ ٱلْعَذَابَ ۚ بَل لَّهُم مَّوْعِدٌۭ لَّن يَجِدُوا۟ مِن دُونِهِۦ مَوْئِلًۭا
 
@@ -593,7 +594,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:59 confirmed timed consequence, while 18:63 showed a missed marker recoverable within delayed travel, sharpening mercy as usable interval.
 
 ## 18:59 — وَتِلْكَ ٱلْقُرَىٰٓ أَهْلَكْنَٰهُمْ لَمَّا ظَلَمُوا۟ وَجَعَلْنَا لِمَهْلِكِهِم مَّوْعِدًۭا
 
@@ -603,7 +604,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:60–62 shifted from ruined settlements to a traveler who can still heed bodily fatigue after passing a boundary, clarifying ruin as uncorrected overshoot.
 
 ## 18:60 — وَإِذْ قَالَ مُوسَىٰ لِفَتَىٰهُ لَآ أَبْرَحُ حَتَّىٰٓ أَبْلُغَ مَجْمَعَ ٱلْبَحْرَيْنِ أَوْ أَمْضِىَ حُقُبًۭا
 
@@ -613,7 +614,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:61–64 supplied the correction: the journey’s age-long horizon is ended not by more forward persistence but by a forgotten carried sign and retracing.
 
 ## 18:61 — فَلَمَّا بَلَغَا مَجْمَعَ بَيْنِهِمَا نَسِيَا حُوتَهُمَا فَٱتَّخَذَ سَبِيلَهُۥ فِى ٱلْبَحْرِ سَرَبًۭا
 
@@ -623,7 +624,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:63 named the route wondrous and 18:64 made it navigational, confirming that the fluid passage had preserved enough trace to reverse travel.
 
 ## 18:62 — فَلَمَّا جَاوَزَا قَالَ لِفَتَىٰهُ ءَاتِنَا غَدَآءَنَا لَقَدْ لَقِينَا مِن سَفَرِنَا هَٰذَا نَصَبًۭا
 
@@ -633,7 +634,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:63’s recovered memory and 18:64’s return showed bodily fatigue functioning as the marker attention had failed to register.
 
 ## 18:63 — قَالَ أَرَءَيْتَ إِذْ أَوَيْنَآ إِلَى ٱلصَّخْرَةِ فَإِنِّى نَسِيتُ ٱلْحُوتَ وَمَآ أَنسَىٰنِيهُ إِلَّا ٱلشَّيْطَٰنُ أَنْ أَذْكُرَهُۥ ۚ وَٱتَّخَذَ سَبِيلَهُۥ فِى ٱلْبَحْرِ عَجَبًۭا
 
@@ -643,7 +644,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:64 converted the rock-index into reverse movement, and 18:65 confirmed its accuracy by the sought encounter.
 
 ## 18:64 — قَالَ ذَٰلِكَ مَا كُنَّا نَبْغِ ۚ فَٱرْتَدَّا عَلَىٰٓ ءَاثَارِهِمَا قَصَصًۭا
 
@@ -653,7 +654,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:65’s finding and 18:66’s request to follow showed narrated retracing becoming the next pedagogical path.
 
 ## 18:65 — فَوَجَدَا عَبْدًۭا مِّنْ عِبَادِنَآ ءَاتَيْنَٰهُ رَحْمَةًۭ مِّنْ عِندِنَا وَعَلَّمْنَٰهُ مِن لَّدُنَّا عِلْمًۭا
 
@@ -663,7 +664,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:66–70 unexpectedly showed that source-near knowledge still requires mediated teaching, restraint, agreement, and controlled disclosure.
 
 ## 18:66 — قَالَ لَهُۥ مُوسَىٰ هَلْ أَتَّبِعُكَ عَلَىٰٓ أَن تُعَلِّمَنِ مِمَّا عُلِّمْتَ رُشْدًۭا
 
@@ -673,7 +674,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:67–70 defined the requested judgment procedurally, and 18:71 supplied the first act whose visible defect resists surface evaluation.
 
 ## 18:67 — قَالَ إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًۭا
 
@@ -683,7 +684,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:68 made the restraint explicitly epistemic, while 18:71–72 immediately demonstrated the impulse to close causation before the report.
 
 ## 18:68 — وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِۦ خُبْرًۭا
 
@@ -693,7 +694,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:71–73 supplied the live case: event, premature purpose-attribution, correction, and excuse occur before causal enclosure is available.
 
 ## 18:69 — قَالَ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ صَابِرًۭا وَلَآ أَعْصِى لَكَ أَمْرًۭا
 
@@ -703,7 +704,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:70’s rule and the two objections in 18:71–74 turned the future obedience claim into an observable sequence rather than a self-description.
 
 ## 18:70 — قَالَ فَإِنِ ٱتَّبَعْتَنِى فَلَا تَسْـَٔلْنِى عَن شَىْءٍ حَتَّىٰٓ أُحْدِثَ لَكَ مِنْهُ ذِكْرًۭا
 
@@ -713,7 +714,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:71–75 preserved the exact event-before-report asymmetry; every intervention before disclosure showed why the sequencing rule mattered.
 
 ## 18:71 — فَٱنطَلَقَا حَتَّىٰٓ إِذَا رَكِبَا فِى ٱلسَّفِينَةِ خَرَقَهَا ۖ قَالَ أَخَرَقْتَهَا لِتُغْرِقَ أَهْلَهَا لَقَدْ جِئْتَ شَيْـًٔا إِمْرًۭا
 
@@ -723,7 +724,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:72–76 reinforced the procedural failure but supplied no explanation within this ayah’s +5 horizon, so the clumsiness activation remains explicitly exploratory here.
 
 ## 18:72 — قَالَ أَلَمْ أَقُلْ إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًۭا
 
@@ -733,7 +734,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:73–76 showed capacity being renegotiated through excuse and a final condition, confirming that it belongs to compliance with the relation.
 
 ## 18:73 — قَالَ لَا تُؤَاخِذْنِى بِمَا نَسِيتُ وَلَا تُرْهِقْنِى مِنْ أَمْرِى عُسْرًۭا
 
@@ -743,7 +744,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:74–76 increased the interpretive pressure and then formalized a stopping rule, showing why proportional relief could only be temporary.
 
 ## 18:74 — فَٱنطَلَقَا حَتَّىٰٓ إِذَا لَقِيَا غُلَٰمًۭا فَقَتَلَهُۥ قَالَ أَقَتَلْتَ نَفْسًۭا زَكِيَّةًۢ بِغَيْرِ نَفْسٍۢ لَّقَدْ جِئْتَ شَيْـًۭٔا نُّكْرًۭا
 
@@ -753,7 +754,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:78–79 confirmed the recognition layer: a previously terrible-looking intervention acquires an unseen protective arc when interpretation begins.
 
 ## 18:75 — ۞ قَالَ أَلَمْ أَقُل لَّكَ إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًۭا
 
@@ -763,7 +764,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:76 turned the repeated diagnosis into a termination test, and 18:78–79 showed the withheld explanation arriving only after that test failed.
 
 ## 18:76 — قَالَ إِن سَأَلْتُكَ عَن شَىْءٍۭ بَعْدَهَا فَلَا تُصَٰحِبْنِى ۖ قَدْ بَلَغْتَ مِن لَّدُنِّى عُذْرًۭا
 
@@ -773,7 +774,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:77 triggered the agreed limit, 18:78 separated the companions, and 18:79–81 made explanation the teacher’s final justified act.
 
 ## 18:77 — فَٱنطَلَقَا حَتَّىٰٓ إِذَآ أَتَيَآ أَهْلَ قَرْيَةٍ ٱسْتَطْعَمَآ أَهْلَهَا فَأَبَوْا۟ أَن يُضَيِّفُوهُمَا فَوَجَدَا فِيهَا جِدَارًۭا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُۥ ۖ قَالَ لَوْ شِئْتَ لَتَّخَذْتَ عَلَيْهِ أَجْرًۭا
 
@@ -783,7 +784,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:78 announced separation, but 18:82 surprisingly showed that the unpaid wall-work was deferred hospitality for orphans rather than service to the refusing town.
 
 ## 18:78 — قَالَ هَٰذَا فِرَاقُ بَيْنِى وَبَيْنِكَ ۚ سَأُنَبِّئُكَ بِتَأْوِيلِ مَا لَمْ تَسْتَطِع عَّلَيْهِ صَبْرًا
 
@@ -793,7 +794,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:79–82 completed the promised reverse walk through all three acts, confirming interpretation as restoration of causal outcomes.
 
 ## 18:79 — أَمَّا ٱلسَّفِينَةُ فَكَانَتْ لِمَسَٰكِينَ يَعْمَلُونَ فِى ٱلْبَحْرِ فَأَرَدتُّ أَنْ أَعِيبَهَا وَكَانَ وَرَآءَهُم مَّلِكٌۭ يَأْخُذُ كُلَّ سَفِينَةٍ غَصْبًۭا
 
@@ -803,7 +804,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:80–82 repeated hidden causal arcs and ended with `وَمَا فَعَلْتُهُ عَنْ أَمْرِي`, clarifying that tactical defect was authorized rather than private cleverness.
 
 ## 18:80 — وَأَمَّا ٱلْغُلَٰمُ فَكَانَ أَبَوَاهُ مُؤْمِنَيْنِ فَخَشِينَآ أَن يُرْهِقَهُمَا طُغْيَٰنًۭا وَكُفْرًۭا
 
@@ -813,7 +814,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:81’s replacement disclosed the feared burden’s relational counterfactual: the parents’ future is altered through a different bond.
 
 ## 18:81 — فَأَرَدْنَآ أَن يُبْدِلَهُمَا رَبُّهُمَا خَيْرًۭا مِّنْهُ زَكَوٰةًۭ وَأَقْرَبَ رُحْمًۭا
 
@@ -823,7 +824,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:82’s orphan–father provision broadened mercy beyond immediate affection into intergenerational protection, reinforcing the kinship mechanism.
 
 ## 18:82 — وَأَمَّا ٱلْجِدَارُ فَكَانَ لِغُلَٰمَيْنِ يَتِيمَيْنِ فِى ٱلْمَدِينَةِ وَكَانَ تَحْتَهُۥ كَنزٌۭ لَّهُمَا وَكَانَ أَبُوهُمَا صَٰلِحًۭا فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةًۭ مِّن رَّبِّكَ ۚ وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى ۚ ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًۭا
 
@@ -833,17 +834,17 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+No later ayah in 18:83–87 added a grounded branch activation to the fixed treasure mechanism; 18:82 closes its own causal account before the next narrative begins.
 
 ## 18:83 — وَيَسْـَٔلُونَكَ عَن ذِى ٱلْقَرْنَيْنِ ۖ قُلْ سَأَتْلُوا۟ عَلَيْكُم مِّنْهُ ذِكْرًا
 
 ### Activated readings
 
-1. **A title that joins opposed endpoints.** `ق ر ن/B006` supplies strong horn-like projections and includes the title form, while `ق ر ن/B001` is joining one thing to another. The announced account sends its figure to sunset (18:86), then repeats the means toward sunrise (18:89–90), and later toward the space between two barriers. I infer that the paired projection image organizes a capacity to connect extremes under one itinerary. `ذِي ٱلْقَرْنَيْنِ` reads functionally as an endpoint-joining role, without requiring a biographical identification.
+1. **A paired title organizing opposed policy branches.** `ق ر ن/B006` supplies strong horn-like projections and includes the title form, while `ق ر ن/B001` is joining one thing to another. The announced account grants broad enablement (18:84), follows a means (18:85), and at the sunset encounter presents two alternatives whose punitive and beneficent branches are realized in 18:86–88. I infer that the paired projection image organizes the capacity to hold divergent responses inside one governed itinerary. `ذِي ٱلْقَرْنَيْنِ` reads functionally as a role joining opposed policy branches, without requiring a biographical identification.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:84–86 activated the title through enablement, a followed connection, and arrival at one extreme; the title began functioning as itinerary rather than ornament.
 
 ## 18:84 — إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًۭا
 
@@ -853,7 +854,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:85 enacted the first connection, and 18:89 repeated it exactly, proving that `سَبَبًا` is a reusable means rather than a possessed object.
 
 ## 18:85 — فَأَتْبَعَ سَبَبًا
 
@@ -863,7 +864,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:86 supplied arrival, while 18:89–90 repeated pursuit and arrival at the opposite endpoint, confirming the stepwise method.
 
 ## 18:86 — حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا
 
@@ -873,7 +874,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:87–88 turned situated seeing into differentiated responsibility, and 18:89 showed that the encounter remains one station in a longer route.
 
 ## 18:87 — قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًۭا نُّكْرًۭا
 
@@ -883,7 +884,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:88 bounded local punishment with its opposite administrative mode, and 18:89 resumed travel, preventing the ruler’s role from becoming final.
 
 ## 18:88 — وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ ۖ وَسَنَقُولُ لَهُۥ مِنْ أَمْرِنَا يُسْرًۭا
 
@@ -893,7 +894,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:89–90 made ease visible in the narrative’s own light transition from completed governance into renewed movement and encounter.
 
 ## 18:89 — ثُمَّ أَتْبَعَ سَبَبًا
 
@@ -903,7 +904,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:90 gave the next endpoint, while 18:92–94 repeated the method into a harder communication and protection problem, confirming procedural transfer.
 
 ## 18:90 — حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًۭا
 
@@ -913,7 +914,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:93–95 supplied the surprise: a later people explicitly seek the protective intermediary absent from the sun-exposed people here.
 
 ## 18:91 — كَذَٰلِكَ وَقَدْ أَحَطْنَا بِمَا لَدَيْهِ خُبْرًۭا
 
@@ -923,7 +924,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:92–96 unfolded route, language limit, request, cooperation, and material detail inside the divine knowledge-enclosure named here.
 
 ## 18:92 — ثُمَّ أَتْبَعَ سَبَبًا
 
@@ -933,7 +934,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:93–96 confirmed the domain shift: the followed means terminates not merely in arrival but in translating a social threat into construction.
 
 ## 18:93 — حَتَّىٰٓ إِذَا بَلَغَ بَيْنَ ٱلسَّدَّيْنِ وَجَدَ مِن دُونِهِمَا قَوْمًۭا لَّا يَكَادُونَ يَفْقَهُونَ قَوْلًۭا
 
@@ -943,7 +944,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:94–97 joined difficult speech to specification, building, and successful blockage, validating the paired communicative/topographic branch activation.
 
 ## 18:94 — قَالُوا۟ يَٰذَا ٱلْقَرْنَيْنِ إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا
 
@@ -953,7 +954,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:95–97 corrected the proposed payment into shared force and material contribution, then verified that participatory output actually closes both routes.
 
 ## 18:95 — قَالَ مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا
 
@@ -963,7 +964,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:96–98 realized cloth-like mending as fused layers, denied passage, and a barrier whose useful life remains bounded by promise.
 
 ## 18:96 — ءَاتُونِى زُبَرَ ٱلْحَدِيدِ ۖ حَتَّىٰٓ إِذَا سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا
 
@@ -973,7 +974,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:97 confirmed that the fused interfaces resist both ascent and perforation; 18:98–99 then revealed that even successful continuity is temporally limited.
 
 ## 18:97 — فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا
 
@@ -983,7 +984,7 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:98’s promised leveling and 18:99’s immediate surge showed that denied route-production is temporary containment, not absolute impossibility.
 
 ## 18:98 — قَالَ هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ ۖ وَكَانَ وَعْدُ رَبِّى حَقًّۭا
 
@@ -993,4 +994,124 @@ Pending retrospective pass.
 
 ### Retrospective surprises
 
-Pending retrospective pass.
+18:99 directly activated `د ك ك/B008`: once leveling occurs, the held populations crowd and intermix like waves.
+
+## 18:99 — ۞ وَتَرَكْنَا بَعْضَهُمْ يَوْمَئِذٍۢ يَمُوجُ فِى بَعْضٍۢ ۖ وَنُفِخَ فِى ٱلصُّورِ فَجَمَعْنَٰهُمْ جَمْعًۭا
+
+### Activated readings
+
+1. **Unordered intermingling converted into total gathering.** `م و ج/B001` is surging wave-like turbulence and people intermingling; `ن ف خ/B001` includes blowing the trumpet. The barrier’s future leveling in 18:98 releases the first motion, then the trumpet separates the clauses and `جَمَعْنَاهُمْ جَمْعًا` imposes a second, comprehensive organization. I infer a phase change from crowd-generated turbulence to summons-generated assembly. `يَمُوجُ فِي بَعْضٍ` reads as uncontrolled mixing that is not yet true gathering.
+
+### Retrospective surprises
+
+18:100’s formal display confirmed that trumpet-gathering is ordered presentation, categorically different from the preceding wave-motion.
+
+## 18:100 — وَعَرَضْنَا جَهَنَّمَ يَوْمَئِذٍۢ لِّلْكَٰفِرِينَ عَرْضًا
+
+### Activated readings
+
+1. **Forced presentation defeats selective perception.** `ع ر ض/B002` is presenting a thing to view, and the cognate verb-object repetition makes display emphatic; `ع ر ض/B001` adds breadth. The gathered population in 18:99 supplies the audience, 18:101 immediately says their eyes had been under a cover, and 18:103–105 announces loss and weighs failed work. I infer that the broad display is the inverse of their prior filtered attention. `عَرَضْنَا ... عَرْضًا` reads as compulsory evidentiary exposure.
+
+### Retrospective surprises
+
+18:101 supplied the exact counter-condition: emphatic broad display confronts eyes that had inhabited a cover.
+
+## 18:101 — ٱلَّذِينَ كَانَتْ أَعْيُنُهُمْ فِى غِطَآءٍ عَن ذِكْرِى وَكَانُوا۟ لَا يَسْتَطِيعُونَ سَمْعًا
+
+### Activated readings
+
+1. **Ignorance maintained as a sensory cover.** `غ ط و/B001` is a covering screen; `غ ط و/B005` is a cover of ignorance. The prior ayah forces hell into view, while 18:102 exposes their false ally calculation and 18:104 says they suppose their making is good. I infer that covered sight and disabled hearing are not isolated deficits but the perceptual mechanism that lets mistaken evaluation persist. `فِي غِطَاءٍ عَن ذِكْرِي` reads as an inhabited filtering condition, not momentary inattention.
+
+### Retrospective surprises
+
+18:102 exposed the false ally calculation and 18:104 the false craft calculation, showing one perceptual cover sustaining errors across worship and work.
+
+## 18:102 — أَفَحَسِبَ ٱلَّذِينَ كَفَرُوٓا۟ أَن يَتَّخِذُوا۟ عِبَادِى مِن دُونِىٓ أَوْلِيَآءَ ۚ إِنَّآ أَعْتَدْنَا جَهَنَّمَ لِلْكَٰفِرِينَ نُزُلًۭا
+
+### Activated readings
+
+1. **Hospitality category retained while its host–guest relation is reversed.** `ن ز ل/B005` is guest-provision prepared for a lodger, including provision of fire or paradise. Here false ally-taking ends in hell as `نُزُلًا`; exactly five ayat later, 18:107 gives the same noun to believers in the gardens of Paradise. I infer that both outcomes are prepared receptions, differentiated by whom one treated as patron and how one worked. The fixed `نُزُلًا` reads as accusatory anti-hospitality rather than a neutral synonym for destination.
+
+### Retrospective surprises
+
+18:107’s identical `نُزُلًا` supplied the decisive retrospective contrast: the same hospitality category can encode opposite prepared receptions.
+
+## 18:103 — قُلْ هَلْ نُنَبِّئُكُم بِٱلْأَخْسَرِينَ أَعْمَٰلًا
+
+### Activated readings
+
+1. **Work evaluated as a losing transaction and deficient measure.** `خ س ر/B002` is trade loss; `خ س ر/B003` is shorting measure and weight, under broad deficiency `B001`. The next ayah supplies energetic striving and self-assessed good manufacture, 18:105 gives those works no weight, and 18:106 names their recompense. I infer that the workers expend real activity but produce no returnable value under the governing measure. `ٱلْأَخْسَرِينَ أَعْمَالًا` reads as maximal conversion failure, not simple inactivity.
+
+### Retrospective surprises
+
+18:104 supplied active, self-approved manufacture and 18:105 removed its weight, realizing trade loss as failed value-conversion.
+
+## 18:104 — ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا
+
+### Activated readings
+
+1. **Craft judged by self-presentation instead of outcome.** `ص ن ع/B001` is bringing about a made action, `ص ن ع/B002` artisan skill, and `ص ن ع/B004` affected outward refinement. The workers’ `يَحْسَبُونَ` supplies self-reckoning; 18:105 removes weight from the resulting works, while 18:109 places finite material media against inexhaustible divine words. I infer that visible finish and felt skill have become the metric for a process whose direction is lost. `يُحْسِنُونَ صُنْعًا` reads as polished manufacture severed from valid specification.
+
+### Retrospective surprises
+
+18:105’s zero weight corrected outward craft, and 18:109’s medium-versus-word scale showed how radically human workmanship can mismeasure its specification.
+
+## 18:105 — أُو۟لَٰٓئِكَ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ رَبِّهِمْ وَلِقَآئِهِۦ فَحَبِطَتْ أَعْمَٰلُهُمْ فَلَا نُقِيمُ لَهُمْ يَوْمَ ٱلْقِيَٰمَةِ وَزْنًۭا
+
+### Activated readings
+
+1. **Apparent bulk collapses into zero weight.** The accepted `ح ب ط/B001` is belly swelling from harmful grazing until destruction approaches; the fixed ayah immediately denies the works any `وَزْنًا`. The prior ayah supplies confident good workmanship, and 18:106 supplies the resulting recompense, while 18:107 contrasts genuinely habitable reward. Exploratorily, I infer that misdirected acts can accumulate visible volume while metabolizing into harm rather than value. `حَبِطَتْ أَعْمَالُهُمْ` reads as pathological inflation exposed by weighing, not mere disappearance.
+
+### Retrospective surprises
+
+18:106 named the attentional error behind the swelling, while 18:107 contrasted it with work that becomes genuinely sustaining lodging.
+
+## 18:106 — ذَٰلِكَ جَزَآؤُهُمْ جَهَنَّمُ بِمَا كَفَرُوا۟ وَٱتَّخَذُوٓا۟ ءَايَٰتِى وَرُسُلِى هُزُوًا
+
+### Activated readings
+
+1. **Mockery as a conversion of evidence into disposable spectacle.** `ه ز ء/B001` is mockery and derision. The covered perception of 18:101, false ally calculation of 18:102, and self-certified craft of 18:104–105 show the mechanism around the fixed act: signs and messengers are received, but assigned a non-directive entertainment role. I infer that derision is an attentional transformation that prevents evidence from bearing weight. `ٱتَّخَذُوا ... هُزُوًا` reads as deliberate repurposing of warning, not simple failure to understand it.
+
+### Retrospective surprises
+
+18:107–110 answered derision with reception, permanence, inexhaustible words, and actionable revelation, restoring signs to directive use.
+
+## 18:107 — إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ كَانَتْ لَهُمْ جَنَّٰتُ ٱلْفِرْدَوْسِ نُزُلًا
+
+### Activated readings
+
+1. **Righteous work becomes fitting guest-provision.** `ن ز ل/B005` is prepared hospitality for a guest. Five ayat earlier, hell was `نُزُلًا` for those who took false patrons (18:102); 18:103–106 then distinguishes losing work, weightless manufacture, and mockery before this positive work–lodging relation. I infer that action configures what kind of reception fits the arriving person. The gardens read as prepared, sustaining hospitality rather than merely a prize-object.
+
+### Retrospective surprises
+
+18:108 made the hospitality internally stable, and 18:109–110 tied that stability to inexhaustible words received as guidance and work.
+
+## 18:108 — خَٰلِدِينَ فِيهَا لَا يَبْغُونَ عَنْهَا حِوَلًۭا
+
+### Activated readings
+
+1. **Permanence includes absence of motivational transfer.** `ح و ل/B001` is turning, changing, or transferring from a state, while `ح و ل/B009` is a person’s state or condition. `خَالِدِينَ` supplies duration, but the negated desire for `حِوَلًا` adds stable fit; 18:109 then contrasts exhausted media with unexhausted words, and 18:110 directs hope toward encounter and fitting work. I infer that the lodging endures not only because it cannot end but because its inhabitants have no unmet condition pushing them elsewhere. The ayah reads as permanence without internal displacement.
+
+### Retrospective surprises
+
+18:109 grounded non-transfer in inexhaustibility, and 18:110 redirected desire toward encounter through fitting action rather than change of lodging.
+
+## 18:109 — قُل لَّوْ كَانَ ٱلْبَحْرُ مِدَادًۭا لِّكَلِمَٰتِ رَبِّى لَنَفِدَ ٱلْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَٰتُ رَبِّى وَلَوْ جِئْنَا بِمِثْلِهِۦ مَدَدًۭا
+
+### Activated readings
+
+1. **A medium can be replenished yet remain finite relative to its message.** `م د د/B005` is an inkwell supplying ink to a pen, overtly activated in `مِدَادًا`; `م د د/B003` is water fed by more water, and `B002` connected increase that supplies another. The sea is consumed as writing supply, a matching sea extends it, yet the words remain prior in endurance; 18:108 has just denied transfer from enduring lodging and 18:110 presents one concise revealed directive. I infer that adding media increases transmission capacity without bounding the source-content. The ayah reads as a resource-scaling argument about inexhaustible meaning.
+
+### Retrospective surprises
+
+18:110 supplied the final surprise: inexhaustible words can arrive through one shared human receiver as a concise, imitable program of worship and work.
+
+## 18:110 — قُلْ إِنَّمَآ أَنَا۠ بَشَرٌۭ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ ۖ فَمَن كَانَ يَرْجُوا۟ لِقَآءَ رَبِّهِۦ فَلْيَعْمَلْ عَمَلًۭا صَٰلِحًۭا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِۦٓ أَحَدًۢا
+
+### Activated readings
+
+1. **Shared human surface, differentiated reception.** `ب ش ر/B002` is the human as a visibly skinned being, grounded in `ب ش ر/B001`, the visible outer skin or surface. `مِثْلُكُمْ` equalizes the speaker’s human substrate with the audience, while `يُوحَىٰ إِلَيَّ` identifies reception of the inexhaustible words just described in 18:109; the result is translated into work and non-partnered worship. I infer that revelation changes informational role without changing species or material surface. `أَنَا بَشَرٌ مِثْلُكُمْ` reads as an anti-deification boundary that makes exemplary action imitable.
+
+### Retrospective surprises
+
+No later ayah exists in the clipped focus window; the final reading remains anchored to the fixed contrast between shared humanity and differentiated revelation.

@@ -56,7 +56,7 @@ Later 19:6-7 sharpened `وليا`: inheritance made charge and succession explic
 
 ### Activated readings
 
-1. **Inheritance as ethical-devotional continuity.** `و ر ث/B003` allows inherited knowledge, scripture, or virtue, alongside transferred possession in `و ر ث/B001`; `ء و ل/B003` supplies household, and `ر ض و/B001` acceptance. The next ayat give the child a unique designation, then book and judgment (19:7, 12), while 19:11 establishes communal worship. Those contextual elements are packet-supplied; I infer that approval governs what kind of succession is sought. The double `يرث` reads as transmission of a cultivated vocation through the household, not property transfer alone.
+1. **Inheritance as ethical-devotional continuity.** `و ر ث/B003` allows inherited knowledge, scripture, or virtue, alongside transferred possession in `و ر ث/B001`; `ء و ل/B003` supplies household, and `ر ض و/B001` acceptance. The next ayat give the child a unique designation (19:7), while 19:11 establishes communal worship. Those contextual elements are packet-supplied; I infer that approval governs what kind of succession is sought. The double `يرث` reads as transmission of a cultivated vocation through the household, not property transfer alone.
 
 ### Retrospective surprises
 
@@ -210,7 +210,7 @@ Later 19:21-22 supplied the missing causal route without undoing the denial: dec
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:24-26 made the decided mercy materially diagnostic: stream, fruit, eating, drinking, and settled sight reveal completion as a sustaining chain rather than a bare endpoint.
 
 ## 19:22 | ۞ فَحَمَلَتْهُ فَٱنتَبَذَتْ بِهِۦ مَكَانًۭا قَصِيًّۭا
 
@@ -220,7 +220,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:27 completed the root reversal: the same `ح م ل` moves from inward pregnancy in remoteness to outward carrying before the group, turning concealment toward testimony.
 
 ## 19:23 | فَأَجَآءَهَا ٱلْمَخَاضُ إِلَىٰ جِذْعِ ٱلنَّخْلَةِ قَالَتْ يَٰلَيْتَنِى مِتُّ قَبْلَ هَٰذَا وَكُنتُ نَسْيًۭا مَّنسِيًّۭا
 
@@ -230,7 +230,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:24-25 reversed `نسيا منسيا`: voice, stream, and fresh gathered dates make the apparent cast-off place a concentrated site of attention and provision.
 
 ## 19:24 | فَنَادَىٰهَا مِن تَحْتِهَآ أَلَّا تَحْزَنِى قَدْ جَعَلَ رَبُّكِ تَحْتَكِ سَرِيًّۭا
 
@@ -240,7 +240,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:25-26 confirmed that `سريا` is operational relief: the lower resource becomes shaken fruit, food, drink, and bodily settling rather than remaining verbal consolation.
 
 ## 19:25 | وَهُزِّىٓ إِلَيْكِ بِجِذْعِ ٱلنَّخْلَةِ تُسَٰقِطْ عَلَيْكِ رُطَبًۭا جَنِيًّۭا
 
@@ -250,7 +250,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:26-27 made the restored agency consequential: nourishment and eye-settling prepare Mary to return carrying the evidence into public confrontation.
 
 ## 19:26 | فَكُلِى وَٱشْرَبِى وَقَرِّى عَيْنًۭا ۖ فَإِمَّا تَرَيِنَّ مِنَ ٱلْبَشَرِ أَحَدًۭا فَقُولِىٓ إِنِّى نَذَرْتُ لِلرَّحْمَٰنِ صَوْمًۭا فَلَنْ أُكَلِّمَ ٱلْيَوْمَ إِنسِيًّۭا
 
@@ -260,7 +260,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:29-30 supplied the surprise that validates the vow: Mary's gesture does not end testimony but hands speech to the child, making silence a channel-allocation rule.
 
 ## 19:27 | فَأَتَتْ بِهِۦ قَوْمَهَا تَحْمِلُهُۥ ۖ قَالُوا۟ يَٰمَرْيَمُ لَقَدْ جِئْتِ شَيْـًۭٔا فَرِيًّۭا
 
@@ -272,7 +272,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:30 retrospectively split `فريا` more sharply: the child's speech defeats the fabrication reading while intensifying the extraordinary-event reading.
 
 ## 19:28 | يَٰٓأُخْتَ هَٰرُونَ مَا كَانَ أَبُوكِ ٱمْرَأَ سَوْءٍۢ وَمَا كَانَتْ أُمُّكِ بَغِيًّۭا
 
@@ -282,7 +282,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:30-32 corrected the community's genealogical inference: the child identifies as God's servant and explicitly restores his maternal relation through filial kindness.
 
 ## 19:29 | فَأَشَارَتْ إِلَيْهِ ۖ قَالُوا۟ كَيْفَ نُكَلِّمُ مَن كَانَ فِى ٱلْمَهْدِ صَبِيًّۭا
 
@@ -292,7 +292,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:30 immediately confirmed the procedural reading: the seemingly impossible interlocutor answers, so Mary's pointing was successful designation of the witness rather than deflection.
 
 ## 19:30 | قَالَ إِنِّى عَبْدُ ٱللَّهِ ءَاتَىٰنِىَ ٱلْكِتَٰبَ وَجَعَلَنِى نَبِيًّۭا
 
@@ -302,7 +302,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:35 made the opening identity clause decisive: creation by command and denial of divine offspring show why granted book and prophecy remain inside `عبد الله`.
 
 ## 19:31 | وَجَعَلَنِى مُبَارَكًا أَيْنَ مَا كُنتُ وَأَوْصَٰنِى بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ مَا دُمْتُ حَيًّۭا
 
@@ -312,7 +312,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:36 clarified the destination of the mobile practices: prayer and growth-giving enact worship along the straight shared Lord-servant alignment.
 
 ## 19:32 | وَبَرًّۢا بِوَٰلِدَتِى وَلَمْ يَجْعَلْنِى جَبَّارًۭا شَقِيًّۭا
 
@@ -322,7 +322,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:34 made maternal repair publicly explicit through “son of Mary,” while the ensuing contention shows why that restoration had to avoid coercive imposition.
 
 ## 19:33 | وَٱلسَّلَٰمُ عَلَىَّ يَوْمَ وُلِدتُّ وَيَوْمَ أَمُوتُ وَيَوْمَ أُبْعَثُ حَيًّۭا
 
@@ -332,7 +332,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:34 supplied the retrospective anchor for lifecycle integrity: `قول الحق` fixes the identity whose continuity the three event-days traverse.
 
 ## 19:34 | ذَٰلِكَ عِيسَى ٱبْنُ مَرْيَمَ ۚ قَوْلَ ٱلْحَقِّ ٱلَّذِى فِيهِ يَمْتَرُونَ
 
@@ -342,7 +342,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:35 clarified that the contentious issue is not filiation in general but its direction: “son of Mary” stands, while divine acquisition of offspring is rejected.
 
 ## 19:35 | مَا كَانَ لِلَّهِ أَن يَتَّخِذَ مِن وَلَدٍۢ ۖ سُبْحَٰنَهُۥٓ ۚ إِذَا قَضَىٰٓ أَمْرًۭا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ
 
@@ -352,7 +352,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:40 added an unexpected ownership correction: the one who ultimately inherits earth and occupants has no succession need that offspring would answer.
 
 ## 19:36 | وَإِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
 
@@ -362,7 +362,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:37 made straightness relationally visible by negation: factions “take different ways,” showing that shared worship is what prevents the common line from splitting.
 
 ## 19:37 | فَٱخْتَلَفَ ٱلْأَحْزَابُ مِنۢ بَيْنِهِمْ ۖ فَوَيْلٌۭ لِّلَّذِينَ كَفَرُوا۟ مِن مَّشْهَدِ يَوْمٍ عَظِيمٍ
 
@@ -372,7 +372,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:38 activated `مشهد` as corrected perception: those divided in the present become acutely hearing and seeing when compelled into future presence.
 
 ## 19:38 | أَسْمِعْ بِهِمْ وَأَبْصِرْ يَوْمَ يَأْتُونَنَا ۖ لَٰكِنِ ٱلظَّٰلِمُونَ ٱلْيَوْمَ فِى ضَلَٰلٍۢ مُّبِينٍۢ
 
@@ -382,7 +382,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:39 clarified why future acuity is tragic: the affair is already completed, so belated hearing and sight produce uncovering as regret rather than guidance.
 
 ## 19:39 | وَأَنذِرْهُمْ يَوْمَ ٱلْحَسْرَةِ إِذْ قُضِىَ ٱلْأَمْرُ وَهُمْ فِى غَفْلَةٍۢ وَهُمْ لَا يُؤْمِنُونَ
 
@@ -392,7 +392,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:40 made closure spatial and proprietary: completion culminates in earth and occupants returning, sharpening warning as the last intervention before all claims expire.
 
 ## 19:40 | إِنَّا نَحْنُ نَرِثُ ٱلْأَرْضَ وَمَنْ عَلَيْهَا وَإِلَيْنَا يُرْجَعُونَ
 
@@ -402,7 +402,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:42 supplied a local test of false possession: worshipped objects cannot hear, see, or avail, so they cannot interrupt the return of holders and holdings.
 
 ## 19:41 | وَٱذْكُرْ فِى ٱلْكِتَٰبِ إِبْرَٰهِيمَ ۚ إِنَّهُۥ كَانَ صِدِّيقًۭا نَّبِيًّا
 
@@ -412,7 +412,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:46 made `صديقا` costly rather than honorific: the sustained filial truth-speaking culminates in threat, yet its direction does not bend.
 
 ## 19:42 | إِذْ قَالَ لِأَبِيهِ يَٰٓأَبَتِ لِمَ تَعْبُدُ مَا لَا يَسْمَعُ وَلَا يُبْصِرُ وَلَا يُغْنِى عَنكَ شَيْـًۭٔا
 
@@ -422,7 +422,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:47 supplied the decisive contrast to nonresponsive gods: Abraham's Lord is `حفيا`, actively caring, so hearing/seeing/availing form a coherent relational test.
 
 ## 19:43 | يَٰٓأَبَتِ إِنِّى قَدْ جَآءَنِى مِنَ ٱلْعِلْمِ مَا لَمْ يَأْتِكَ فَٱتَّبِعْنِىٓ أَهْدِكَ صِرَٰطًۭا سَوِيًّۭا
 
@@ -432,7 +432,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:46 sharpened the gentleness branch by opposition: stepwise guidance is answered with restraint, pelting, and expulsion, exposing two incompatible authority mechanisms.
 
 ## 19:44 | يَٰٓأَبَتِ لَا تَعْبُدِ ٱلشَّيْطَٰنَ ۖ إِنَّ ٱلشَّيْطَٰنَ كَانَ لِلرَّحْمَٰنِ عَصِيًّۭا
 
@@ -442,7 +442,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:45 made the obedience chain explicitly relational: disobedience culminates in becoming the remote rebel's `ولي`, not merely copying one isolated act.
 
 ## 19:45 | يَٰٓأَبَتِ إِنِّىٓ أَخَافُ أَن يَمَسَّكَ عَذَابٌۭ مِّنَ ٱلرَّحْمَٰنِ فَتَكُونَ لِلشَّيْطَٰنِ وَلِيًّۭا
 
@@ -452,7 +452,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:47 made deprivation-from-mercy newly visible: divine care and protective forgiveness are exactly what alliance with remoteness risks losing.
 
 ## 19:46 | قَالَ أَرَاغِبٌ أَنتَ عَنْ ءَالِهَتِى يَٰٓإِبْرَٰهِيمُ ۖ لَئِن لَّمْ تَنتَهِ لَأَرْجُمَنَّكَ ۖ وَٱهْجُرْنِى مَلِيًّۭا
 
@@ -462,7 +462,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:47-48 reversed the father's coercive separation: Abraham answers with safety and then chooses his own withdrawal, converting expulsion into non-retaliatory relational rerouting.
 
 ## 19:47 | قَالَ سَلَٰمٌ عَلَيْكَ ۖ سَأَسْتَغْفِرُ لَكَ رَبِّىٓ ۖ إِنَّهُۥ كَانَ بِى حَفِيًّۭا
 
@@ -472,7 +472,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:49 confirmed the enabling force of experienced care: after peaceful release and withdrawal, loss is answered by gifted kin and prophetic continuity.
 
 ## 19:48 | وَأَعْتَزِلُكُمْ وَمَا تَدْعُونَ مِن دُونِ ٱللَّهِ وَأَدْعُوا۟ رَبِّى عَسَىٰٓ أَلَّآ أَكُونَ بِدُعَآءِ رَبِّى شَقِيًّۭا
 
@@ -482,7 +482,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:49 supplied the surprising result of rerouting: solitary withdrawal is immediately followed by unbargained kinship, so direct calling proves socially generative rather than barren.
 
 ## 19:49 | فَلَمَّا ٱعْتَزَلَهُمْ وَمَا يَعْبُدُونَ مِن دُونِ ٱللَّهِ وَهَبْنَا لَهُۥٓ إِسْحَٰقَ وَيَعْقُوبَ ۖ وَكُلًّۭا جَعَلْنَا نَبِيًّۭا
 
@@ -492,17 +492,17 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:50 made the reconstitution larger than replacement kin: mercy also gives an elevated truthful language, allowing the new relation to persist publicly.
 
 ## 19:50 | وَوَهَبْنَا لَهُم مِّن رَّحْمَتِنَا وَجَعَلْنَا لَهُمْ لِسَانَ صِدْقٍ عَلِيًّۭا
 
 ### Activated readings
 
-1. **Mercy extending kinship into elevated public speech.** `و ه ب/B001` supplies unbargained giving; `ر ح م/B002` supplies kinship and `ر ح م/B001` mercy. `ل س ن/B006` is language/spoken expression and `ل س ن/B008` message conveyed by tongue; `ص د ق/B001` is truth in speech, while `ع ل و/B002` is high rank. The following sequence repeatedly commands “mention in the book” for Moses, Ishmael, and Idris (19:51, 54, 56). The packet supplies that durable speech-chain; I infer it realizes the high truthful tongue. Mercy thus produces both family and transmissible renown.
+1. **Mercy extending kinship into elevated public speech.** `و ه ب/B001` supplies unbargained giving; `ر ح م/B002` supplies kinship and `ر ح م/B001` mercy. `ل س ن/B006` is language/spoken expression and `ل س ن/B008` message conveyed by tongue; `ص د ق/B001` is truth in speech, while `ع ل و/B002` is high rank. The following sequence repeatedly commands “mention in the book” for Moses and Ishmael (19:51, 54). The packet supplies that durable speech-chain; I infer it realizes the high truthful tongue. Mercy thus produces both family and transmissible renown.
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:51 and 19:54 began the repeated written mentions that realize `لسان صدق`: elevated speech becomes an archive of named prophetic lives.
 
 ## 19:51 | وَٱذْكُرْ فِى ٱلْكِتَٰبِ مُوسَىٰٓ ۚ إِنَّهُۥ كَانَ مُخْلَصًۭا وَكَانَ رَسُولًۭا نَّبِيًّۭا
 
@@ -512,7 +512,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:52-53 made purification operational: privileged private counsel becomes a channel that then expands through the gift of a prophetic brother.
 
 ## 19:52 | وَنَٰدَيْنَٰهُ مِن جَانِبِ ٱلطُّورِ ٱلْأَيْمَنِ وَقَرَّبْنَٰهُ نَجِيًّۭا
 
@@ -522,7 +522,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:53 corrected any self-enclosed reading of private nearness: the confidential relation produces a brother-supported public vocation.
 
 ## 19:53 | وَوَهَبْنَا لَهُۥ مِن رَّحْمَتِنَآ أَخَاهُ هَٰرُونَ نَبِيًّۭا
 
@@ -532,7 +532,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:54-55 made kin-support transmissive rather than merely comforting: prophetic brotherhood opens into promise-keeping and cultivation of household worship.
 
 ## 19:54 | وَٱذْكُرْ فِى ٱلْكِتَٰبِ إِسْمَٰعِيلَ ۚ إِنَّهُۥ كَانَ صَادِقَ ٱلْوَعْدِ وَكَانَ رَسُولًۭا نَّبِيًّۭا
 
@@ -542,7 +542,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:59 supplied the negative test: successors can lose prayer, so `صادق الوعد` names maintained continuity rather than automatic lineage.
 
 ## 19:55 | وَكَانَ يَأْمُرُ أَهْلَهُۥ بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ وَكَانَ عِندَ رَبِّهِۦ مَرْضِيًّۭا
 
@@ -552,7 +552,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:59 made the household mechanism unexpectedly urgent: once prayer is no longer cultivated, succession remains nominal but its orienting practice disappears.
 
 ## 19:56 | وَٱذْكُرْ فِى ٱلْكِتَٰبِ إِدْرِيسَ ۚ إِنَّهُۥ كَانَ صِدِّيقًۭا نَّبِيًّۭا
 
@@ -562,17 +562,17 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:58-59 confirmed the archival-node reading by contrast: truthful prophets form a responsive chain, whereas the next chain inherits position but not prayer.
 
 ## 19:57 | وَرَفَعْنَٰهُ مَكَانًا عَلِيًّا
 
 ### Activated readings
 
-1. **Elevation validated by responsive lowering.** `ر ف ع/B001` supplies upward raising and `ر ف ع/B002` high rank; `ك و ن/B002` supplies place or rank, and `ع ل و/B001-B002` physical and social height. The triple elevation is followed by the chosen prophets falling in prostration and weeping in 19:58. The packet supplies height and humble descent; I infer that the latter discloses the function of the former. The high place reads as granted rank that intensifies responsiveness, not self-magnifying distance.
+1. **Elevation validated by responsive lowering.** `ر ف ع/B001` supplies upward raising and `ر ف ع/B002` high rank; `ك و ن/B002` supplies place or rank, while `ع ل و/B001` gives physical height and `ع ل و/B002` social height. The triple elevation is followed by the chosen prophets falling in prostration and weeping in 19:58. The packet supplies height and humble descent; I infer that the latter discloses the function of the former. The high place reads as granted rank that intensifies responsiveness, not self-magnifying distance.
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:58 supplied the surprising downward verification of elevation: those granted favor fall in prostration, so height culminates in humble responsiveness.
 
 ## 19:58 | أُو۟لَٰٓئِكَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ مِن ذُرِّيَّةِ ءَادَمَ وَمِمَّنْ حَمَلْنَا مَعَ نُوحٍۢ وَمِن ذُرِّيَّةِ إِبْرَٰهِيمَ وَإِسْرَٰٓءِيلَ وَمِمَّنْ هَدَيْنَا وَٱجْتَبَيْنَآ ۚ إِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَٰتُ ٱلرَّحْمَٰنِ خَرُّوا۟ سُجَّدًۭا وَبُكِيًّۭا ۩
 
@@ -582,7 +582,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:59 corrected ancestry as the sufficient mechanism: the direct successor contrast proves that recitation-triggered submission, not descent alone, carries favor.
 
 ## 19:59 | ۞ فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ يَلْقَوْنَ غَيًّا
 
@@ -592,7 +592,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:60-63 showed that the failure is reversible but not genealogically: trust, sound work, entry, and guarded inheritance rebuild the trajectory through practice.
 
 ## 19:60 | إِلَّا مَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحًۭا فَأُو۟لَٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ وَلَا يُظْلَمُونَ شَيْـًۭٔا
 
@@ -602,7 +602,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:63 clarified the destination as allotted inheritance: repaired action does not merely avoid loss but qualifies the servant for a newly distributed continuity.
 
 ## 19:61 | جَنَّٰتِ عَدْنٍ ٱلَّتِى وَعَدَ ٱلرَّحْمَٰنُ عِبَادَهُۥ بِٱلْغَيْبِ ۚ إِنَّهُۥ كَانَ وَعْدُهُۥ مَأْتِيًّۭا
 
@@ -612,7 +612,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:62-64 made the approaching promise concrete and reliable: ordered hearing, provision, inheritance, and the denial of forgetting give hidden arrival a lived structure.
 
 ## 19:62 | لَّا يَسْمَعُونَ فِيهَا لَغْوًا إِلَّا سَلَٰمًۭا ۖ وَلَهُمْ رِزْقُهُمْ فِيهَا بُكْرَةًۭ وَعَشِيًّۭا
 
@@ -622,7 +622,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:64 retrospectively secured the recurring provision: the Lord's non-forgetting turns morning-evening order into dependable allotment rather than decorative rhythm.
 
 ## 19:63 | تِلْكَ ٱلْجَنَّةُ ٱلَّتِى نُورِثُ مِنْ عِبَادِنَا مَن كَانَ تَقِيًّۭا
 
@@ -632,17 +632,17 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:65 clarified `تقيا` as sustained worshipful restraint; guarded inheritance is not a passive trait but perseverance within the Lord-servant relation.
 
 ## 19:64 | وَمَا نَتَنَزَّلُ إِلَّا بِأَمْرِ رَبِّكَ ۖ لَهُۥ مَا بَيْنَ أَيْدِينَا وَمَا خَلْفَنَا وَمَا بَيْنَ ذَٰلِكَ ۚ وَمَا كَانَ رَبُّكَ نَسِيًّۭا
 
 ### Activated readings
 
-1. **Delay held inside commanded order.** `ن ز ل/B001` supplies descent and `ن ز ل/B004` placement in proper order; `ء م ر/B002` is command and `ر ب ب/B001-B002` authority with nurture. `ب ي ن/B002` supplies intervals, `ي د ي/B008` what is before the hands, and `خ ل ف/B002` what is behind. `ن س ي/B001` is forgetting and `ن س ي/B002` leaving/abandoning. The packet encloses every temporal-spatial interval before denying omission; I infer that delayed descent is scheduled, not neglect. “Not forgetful” also reads as “not abandoning.”
+1. **Delay held inside commanded order.** `ن ز ل/B001` supplies descent and `ن ز ل/B004` placement in proper order; `ء م ر/B002` is command, `ر ب ب/B001` authority, and `ر ب ب/B002` nurture. `ب ي ن/B002` supplies intervals, `ي د ي/B008` what is before the hands, and `خ ل ف/B002` what is behind. `ن س ي/B001` is forgetting and `ن س ي/B002` leaving/abandoning. The packet encloses every temporal-spatial interval before denying omission; I infer that delayed descent is scheduled, not neglect. “Not forgetful” also reads as “not abandoning.”
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:65-67 exposed the practical pressure behind the timing claim: perseverance is commanded precisely because humans mistake delayed resurrection for forgotten resurrection.
 
 ## 19:65 | رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا فَٱعْبُدْهُ وَٱصْطَبِرْ لِعِبَٰدَتِهِۦ ۚ هَلْ تَعْلَمُ لَهُۥ سَمِيًّۭا
 
@@ -654,7 +654,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:67-68 made unmatched lordship causally visible: the one who originated the human can gather all humans and remote rebels, leaving no rival domain or namesake.
 
 ## 19:66 | وَيَقُولُ ٱلْإِنسَٰنُ أَءِذَا مَا مِتُّ لَسَوْفَ أُخْرَجُ حَيًّا
 
@@ -664,7 +664,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:67 supplied the direct correction to sealed-death imagery: prior origination from no thing is already a stronger passage from non-presence into living presence.
 
 ## 19:67 | أَوَلَا يَذْكُرُ ٱلْإِنسَٰنُ أَنَّا خَلَقْنَٰهُ مِن قَبْلُ وَلَمْ يَكُ شَيْـًۭٔا
 
@@ -674,7 +674,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:68 turned remembered analogy into staged event: gathering and compelled presence show the second emergence as an operation, not only an argument.
 
 ## 19:68 | فَوَرَبِّكَ لَنَحْشُرَنَّهُمْ وَٱلشَّيَٰطِينَ ثُمَّ لَنُحْضِرَنَّهُمْ حَوْلَ جَهَنَّمَ جِثِيًّۭا
 
@@ -684,7 +684,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:69-72 filled the judicial geometry with procedure: extraction, ranking, universal approach, and rescue make the ring a sorting site rather than a static crowd.
 
 ## 19:69 | ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّۭا
 
@@ -694,7 +694,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:70-72 confirmed the unbundling: knowledge ranks fitness for exposure, then deliverance separates the guarded while the others remain kneeling.
 
 ## 19:70 | ثُمَّ لَنَحْنُ أَعْلَمُ بِٱلَّذِينَ هُمْ أَوْلَىٰ بِهَا صِلِيًّۭا
 
@@ -704,7 +704,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:71-72 corrected `أولى` away from uniform fate: all approach, but only some remain, so priority concerns fitness for exposure rather than mere arrival.
 
 ## 19:71 | وَإِن مِّنكُمْ إِلَّا وَارِدُهَا ۚ كَانَ عَلَىٰ رَبِّكَ حَتْمًۭا مَّقْضِيًّۭا
 
@@ -714,7 +714,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:72 supplied the required distinction: immediate rescue after universal `ورود` proves that the binding decree fixes encounter, not identical permanent residence.
 
 ## 19:72 | ثُمَّ نُنَجِّى ٱلَّذِينَ ٱتَّقَوا۟ وَّنَذَرُ ٱلظَّٰلِمِينَ فِيهَا جِثِيًّۭا
 
@@ -724,7 +724,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:73-74 made the sorting criterion retrospectively social: present station and council can look superior, yet appearance has no power to prevent the final separation.
 
 ## 19:73 | وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَٰتُنَا بَيِّنَٰتٍۢ قَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوٓا۟ أَىُّ ٱلْفَرِيقَيْنِ خَيْرٌۭ مَّقَامًۭا وَأَحْسَنُ نَدِيًّۭا
 
@@ -734,7 +734,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:74 directly broke the substituted metric: earlier generations possessed still better furnishings and appearance but were destroyed, so display cannot adjudicate signs.
 
 ## 19:74 | وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَحْسَنُ أَثَٰثًۭا وَرِءْيًۭا
 
@@ -744,17 +744,17 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:75-76 replaced the visual snapshot with trajectory: extended misguidance ends in exposure, while guided increase yields enduring, returning good.
 
 ## 19:75 | قُلْ مَن كَانَ فِى ٱلضَّلَٰلَةِ فَلْيَمْدُدْ لَهُ ٱلرَّحْمَٰنُ مَدًّا ۚ حَتَّىٰٓ إِذَا رَأَوْا۟ مَا يُوعَدُونَ إِمَّا ٱلْعَذَابَ وَإِمَّا ٱلسَّاعَةَ فَسَيَعْلَمُونَ مَنْ هُوَ شَرٌّۭ مَّكَانًۭا وَأَضْعَفُ جُندًۭا
 
 ### Activated readings
 
-1. **Extension as diagnostic runway, not approval.** `ض ل ل/B001` supplies straying; `م د د/B004` is extended time/respite and `م د د/B002` connected increase. `ر ح م/B001` supplies mercy, `و ع د/B001-B002` promise or threat, `ش ر ر/B001` evil, `ض ع ف/B001` weakness, and `ج ن د/B001` a gathered force. Present status is allowed to lengthen until sight and knowledge reverse its valuation; 19:79 reuses `م د د` for extended punishment. The packet supplies both extensions; I infer that delay exposes trajectory rather than certifying favor.
+1. **Extension as diagnostic runway, not approval.** `ض ل ل/B001` supplies straying; `م د د/B004` is extended time/respite and `م د د/B002` connected increase. `ر ح م/B001` supplies mercy, `و ع د/B001` promise, `و ع د/B002` threat, `ش ر ر/B001` evil, `ض ع ف/B001` weakness, and `ج ن د/B001` a gathered force. Present status is allowed to lengthen until sight and knowledge reverse its valuation; 19:79 reuses `م د د` for extended punishment. The packet supplies both extensions; I infer that delay exposes trajectory rather than certifying favor.
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:79 made the extension's direction unmistakable: the same `م د د` lengthens punishment, correcting any assumption that respite from mercy signals approval.
 
 ## 19:76 | وَيَزِيدُ ٱللَّهُ ٱلَّذِينَ ٱهْتَدَوْا۟ هُدًۭى ۗ وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًۭا وَخَيْرٌۭ مَّرَدًّا
 
@@ -764,7 +764,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:80 sharpened “return” by contrast: durable sound work returns as good, whereas unsupported claims return stripped of wealth, offspring, and accompaniment.
 
 ## 19:77 | أَفَرَءَيْتَ ٱلَّذِى كَفَرَ بِـَٔايَٰتِنَا وَقَالَ لَأُوتَيَنَّ مَالًۭا وَوَلَدًا
 
@@ -774,7 +774,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:78-80 exposed every missing warrant: no unseen access or covenant appears; instead the claim is written, its objects inherited away, and the claimant arrives alone.
 
 ## 19:78 | أَطَّلَعَ ٱلْغَيْبَ أَمِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًۭا
 
@@ -784,7 +784,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:79 corrected both proposed routes by outcome: what follows is not disclosed knowledge or protected pledge but inscription of the unsupported saying as liability.
 
 ## 19:79 | كَلَّا ۚ سَنَكْتُبُ مَا يَقُولُ وَنَمُدُّ لَهُۥ مِنَ ٱلْعَذَابِ مَدًّۭا
 
@@ -794,7 +794,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:84 made the written liability part of a wider accounting mechanism: consequence is not only lengthened but exactly enumerated to its term.
 
 ## 19:80 | وَنَرِثُهُۥ مَا يَقُولُ وَيَأْتِينَا فَرْدًۭا
 
@@ -804,7 +804,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:81-82 deepened the solitude: the gods recruited for strength become opponents, while 19:85 shows that valid collectivity must be gathered as a delegation to mercy.
 
 ## 19:81 | وَٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ ءَالِهَةًۭ لِّيَكُونُوا۟ لَهُمْ عِزًّۭا
 
@@ -814,7 +814,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:82 immediately reversed the reinforcement model: the recruited gods do not merely fail to strengthen but actively occupy the contrary side.
 
 ## 19:82 | كَلَّا ۚ سَيَكْفُرُونَ بِعِبَادَتِهِمْ وَيَكُونُونَ عَلَيْهِمْ ضِدًّا
 
@@ -824,7 +824,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:87 supplied the valid relational alternative: support is possible only as covenant-authorized advocacy, not through worship that reverses into disavowal.
 
 ## 19:83 | أَلَمْ تَرَ أَنَّآ أَرْسَلْنَا ٱلشَّيَٰطِينَ عَلَى ٱلْكَٰفِرِينَ تَؤُزُّهُمْ أَزًّۭا
 
@@ -834,7 +834,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:84 corrected any autonomous-force reading of the agitation: every pulse unfolds inside an exact count, and 19:85-86 channels the result into scheduled processions.
 
 ## 19:84 | فَلَا تَعْجَلْ عَلَيْهِمْ ۖ إِنَّمَا نَعُدُّ لَهُمْ عَدًّۭا
 
@@ -844,7 +844,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:85-86 made counted delay procedural: its endpoint is not vague waiting but two differentiated, orderly movements toward their destinations.
 
 ## 19:85 | يَوْمَ نَحْشُرُ ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَٰنِ وَفْدًۭا
 
@@ -854,7 +854,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:86 made the dignity of `وفدا` legible by reversal: guarded people approach as a delegation, whereas offenders require external driving in successive groups.
 
 ## 19:86 | وَنَسُوقُ ٱلْمُجْرِمِينَ إِلَىٰ جَهَنَّمَ وِرْدًۭا
 
@@ -864,7 +864,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:87 showed what the driven lack at arrival: no owned advocacy can interrupt the earned trajectory; only an authorized covenant can join a helper to a case.
 
 ## 19:87 | لَّا يَمْلِكُونَ ٱلشَّفَٰعَةَ إِلَّا مَنِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًۭا
 
@@ -874,7 +874,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:88-92 exposed false filiation as a counterfeit access mechanism: reproductive privilege is asserted where only covenant-authorized relation can operate.
 
 ## 19:88 | وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًۭا
 
@@ -884,7 +884,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:90 and 19:93 supplied the full correction: the fabricated kinship nearly unbuilds the cosmos, while universal servanthood restores one coherent relation across it.
 
 ## 19:89 | لَّقَدْ جِئْتُمْ شَيْـًٔا إِدًّۭا
 
@@ -894,7 +894,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:90 confirmed the introduced-object reading: heavens, earth, and mountains respond as structures under stress, giving the brought claim material consequences.
 
 ## 19:90 | تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِنْهُ وَتَنشَقُّ ٱلْأَرْضُ وَتَخِرُّ ٱلْجِبَالُ هَدًّا
 
@@ -904,7 +904,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:91 identified the exact structural trigger as a lineage claim, and 19:93 supplied servant-arrival as the relation that prevents the near de-creation.
 
 ## 19:91 | أَن دَعَوْا۟ لِلرَّحْمَٰنِ وَلَدًۭا
 
@@ -914,17 +914,17 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:92-93 corrected the claimed affiliation in two steps: it is categorically unfit, then replaced by every being's dependent approach to mercy.
 
 ## 19:92 | وَمَا يَنۢبَغِى لِلرَّحْمَٰنِ أَن يَتَّخِذَ وَلَدًا
 
 ### Activated readings
 
-1. **Not merely forbidden but relationally unfit.** `ب غ ي/B002` supplies fittingness or becoming possible. `ر ح م/B001` is mercy/tenderness, with `ر ح م/B002-B003` kinship and womb; `ء خ ذ/B010` is taking something for oneself and `و ل د/B001` born offspring. The next ayah makes every being in the heavens and earth arrive as a servant. The packet supplies the proposed parent-child relation and the universal Lord-servant relation; I infer categorical incompatibility. `ما ينبغي` says reproductive acquisition cannot fit the latter structure, not only that it has been prohibited.
+1. **Not merely forbidden but relationally unfit.** `ب غ ي/B002` supplies fittingness or becoming possible. `ر ح م/B001` is mercy/tenderness, `ر ح م/B002` kinship, and `ر ح م/B003` the womb; `ء خ ذ/B010` is taking something for oneself and `و ل د/B001` born offspring. The next ayah makes every being in the heavens and earth arrive as a servant. The packet supplies the proposed parent-child relation and the universal Lord-servant relation; I infer categorical incompatibility. `ما ينبغي` says reproductive acquisition cannot fit the latter structure, not only that it has been prohibited.
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:93 made the incompatibility visible rather than abstract: universal servanthood leaves no exceptional reproductive class inside the heavens-earth totality.
 
 ## 19:93 | إِن كُلُّ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ إِلَّآ ءَاتِى ٱلرَّحْمَٰنِ عَبْدًۭا
 
@@ -934,7 +934,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:94-96 refined universal dependence: each servant is exactly individuated and arrives alone, yet mercy can subsequently create valid affection without filiation.
 
 ## 19:94 | لَّقَدْ أَحْصَىٰهُمْ وَعَدَّهُمْ عَدًّۭا
 
@@ -944,7 +944,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:95-96 showed why exact individuation is not permanent isolation: solitary accountability comes first, then sound action becomes the basis for made attachment.
 
 ## 19:95 | وَكُلُّهُمْ ءَاتِيهِ يَوْمَ ٱلْقِيَٰمَةِ فَرْدًا
 
@@ -954,17 +954,17 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:96 corrected `فردا` from absolute loneliness to accountable singularity: after unsupported ties are stripped, mercy can grant a sound, non-genealogical bond.
 
 ## 19:96 | إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَٰنُ وُدًّۭا
 
 ### Activated readings
 
-1. **Made affection replacing fabricated filiation.** `ء م ن/B002` supplies trusting assent, `ع م ل/B001` intentional work, and `ص ل ح/B001` soundness. `ج ع ل/B002` is transition into a state; `ر ح م/B001` supplies mercy and `و د د/B001` loving attachment. The false child relation of 19:88-92 is followed by universal solitary servanthood, then this newly made bond. The packet supplies both relation-models; I infer that trust and sound action are the route through which mercy creates attachment without genealogy. `ودا` is granted social-affective connection, not inherited privilege.
+1. **Made affection replacing fabricated filiation.** `ء م ن/B002` supplies trusting assent, `ع م ل/B001` intentional work, and `ص ل ح/B001` soundness. `ج ع ل/B002` is transition into a state; `ر ح م/B001` supplies mercy and `و د د/B001` loving attachment. The child relation restated and rejected in 19:91-92 is followed by universal solitary servanthood, then this newly made bond. The packet supplies both relation-models; I infer that trust and sound action are the route through which mercy creates attachment without genealogy. `ودا` is granted social-affective connection, not inherited privilege.
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:97 supplied a communicative medium for made relation: eased language carries brightening news to guarded hearers while exposing resistance in contentious ones.
 
 ## 19:97 | فَإِنَّمَا يَسَّرْنَٰهُ بِلِسَانِكَ لِتُبَشِّرَ بِهِ ٱلْمُتَّقِينَ وَتُنذِرَ بِهِۦ قَوْمًۭا لُّدًّۭا
 
@@ -974,7 +974,7 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+Later 19:98 made reception's stakes acoustically final: contentious refusal of accessible warning can end in a generation from which not even faint sound remains.
 
 ## 19:98 | وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هَلْ تُحِسُّ مِنْهُم مِّنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزًۢا
 
@@ -984,4 +984,4 @@ _Pending retrospective pass._
 
 ### Retrospective surprises
 
-_Pending retrospective pass._
+No later ayah exists within the clipped surah window, so the retrospective pass found no later activation beyond the ayah's own terminal acoustic closure.
