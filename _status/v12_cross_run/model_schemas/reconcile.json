@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "decisions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "claim_id": {"type": "string", "minLength": 1},
+          "action": {
+            "type": "string",
+            "enum": ["keep", "reject", "defer", "conflict"]
+          },
+          "reason": {"type": "string", "minLength": 1}
+        },
+        "required": ["claim_id", "action", "reason"]
+      }
+    }
+  },
+  "required": ["decisions"]
+}

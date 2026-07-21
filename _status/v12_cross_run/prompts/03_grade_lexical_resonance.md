@@ -59,6 +59,11 @@ For each evidence item:
 Root identity alone is insufficient for `direct` or
 `contextually_activated`.
 
+`direct` and `contextually_activated` both require `form_fit` and
+`construction_fit` to be `exact` or `compatible`. If either gate is `mismatch`
+or `unknown`, use `analogical_resonance` when its full gate passes; otherwise
+use `unlicensed`. Never label an item `direct` while recording a failed fit.
+
 ## Resonance Eligibility Gate
 
 An analogical resonance requires:
@@ -100,6 +105,9 @@ the total or strength bucket; the orchestrator calculates both.
 
 ## Translation Rule
 
+- Only evidence whose `occurrence_ref` is the fixed claim ayah may receive
+  `governing` or `modifier`. Every support-ayah occurrence is `none`, even when
+  its lexical status is `direct` in its own construction.
 - `direct`: `governing`, `modifier`, or `none` according to claim relation;
 - `contextually_activated`: `modifier` or `none`;
 - `analogical_resonance`: always `none`;
@@ -111,4 +119,6 @@ the total or strength bucket; the orchestrator calculates both.
 - Every primary lexical floor is present.
 - Every resonance score is arithmetically correct.
 - Every analogy and unlicensed row is blocked from translation.
+- Every support-ayah row is blocked from translation.
+- Every direct/contextual row passes both form and construction gates.
 - The structural validator passes.

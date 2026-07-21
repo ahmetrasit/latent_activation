@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "claim_id": {"type": "string", "minLength": 1},
+          "occurrence_ref": {
+            "type": "string",
+            "pattern": "^[1-9][0-9]*:[0-9]+$"
+          },
+          "word_index": {"type": "integer", "minimum": 1},
+          "root": {"type": "string", "minLength": 1},
+          "branch": {"type": "string", "pattern": "^B[0-9]{3}$"},
+          "evidence_role": {
+            "type": "string",
+            "enum": [
+              "lexical_anchor",
+              "context_support",
+              "target_root_resonance",
+              "counterevidence"
+            ]
+          },
+          "form_fit": {
+            "type": "string",
+            "enum": ["exact", "compatible", "mismatch", "unknown"]
+          },
+          "construction_fit": {
+            "type": "string",
+            "enum": ["exact", "compatible", "mismatch", "unknown"]
+          },
+          "lexical_status": {
+            "type": "string",
+            "enum": [
+              "direct",
+              "contextually_activated",
+              "analogical_resonance",
+              "unlicensed"
+            ]
+          },
+          "translation_role": {
+            "type": "string",
+            "enum": ["governing", "modifier", "none"]
+          },
+          "resonance_eligible": {
+            "type": "string",
+            "enum": ["yes", "no", "not_applicable"]
+          },
+          "trigger_score": {"type": ["integer", "null"], "minimum": 0, "maximum": 2},
+          "proximity_score": {"type": ["integer", "null"], "minimum": 0, "maximum": 2},
+          "structure_score": {"type": ["integer", "null"], "minimum": 0, "maximum": 2},
+          "reading_gain_score": {"type": ["integer", "null"], "minimum": 0, "maximum": 2},
+          "robustness_score": {"type": ["integer", "null"], "minimum": 0, "maximum": 2},
+          "support_refs": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^[1-9][0-9]*:[0-9]+$"}
+          },
+          "linguistic_support_ids": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^(sx|co)-[A-Za-z0-9_-]+$"}
+          },
+          "counterevidence": {"type": "string"},
+          "decision_reason": {"type": "string", "minLength": 1}
+        },
+        "required": [
+          "claim_id",
+          "occurrence_ref",
+          "word_index",
+          "root",
+          "branch",
+          "evidence_role",
+          "form_fit",
+          "construction_fit",
+          "lexical_status",
+          "translation_role",
+          "resonance_eligible",
+          "trigger_score",
+          "proximity_score",
+          "structure_score",
+          "reading_gain_score",
+          "robustness_score",
+          "support_refs",
+          "linguistic_support_ids",
+          "counterevidence",
+          "decision_reason"
+        ]
+      }
+    }
+  },
+  "required": ["evidence"]
+}
