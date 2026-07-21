@@ -5,3 +5,7 @@ __pycache__/
 # These local resource databases exceed GitHub's normal 100 MB file limit.
 # Use Git LFS or an external artifact store if they need to be published.
 resources/*.sqlite
+
+# Uncompressed corpus path inventories can exceed GitHub's 100 MB file limit.
+# Keep the generated .jsonl.gz archives as the portable copies.
+network/v3/experiments/corpus_neo_min5/*/paths/semantic_path_candidates.jsonl
