@@ -15,6 +15,15 @@ draft contains only `ayah_ref` plus one flat `findings` array. Do not copy,
 rewrite, improve, summarize, or otherwise emit the baseline: deterministic
 finalization injects it verbatim from the hash-bound roster.
 
+Serialize the draft and self-audit as canonical compact UTF-8 JSON: one line
+per complete document, separators `,` and `:`, no insignificant whitespace,
+plus one final newline. These are schema-bound JSON documents, not JSONL.
+
+The roster may contain a canonical ayah absent from both analytical readers
+because it has no rooted activation (for example `2:1`). Emit that roster ayah
+with `findings: []`. Do not omit it, invent a finding, or treat the absence as a
+source-coverage failure.
+
 ## Governing distinction
 
 The baseline is the fixed ayah's ordinary target-language translation. A finding is

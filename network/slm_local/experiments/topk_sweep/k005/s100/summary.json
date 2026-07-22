@@ -1,0 +1,243 @@
+{
+  "version": "slm_local_qnet_channel_adapter_v0",
+  "surah": 100,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "../quran-slm/artifacts/surah_networks_global/s100",
+    "surah_resource_dir": "../quran-slm/artifacts/corpus_network/surah_resources/s100",
+    "catalog_branch_count": 169,
+    "affinity_shape": [
+      169,
+      169
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "existing keywords/themes only"
+  },
+  "parameters": {
+    "top_k": 5,
+    "skip_n": 1
+  },
+  "counts": {
+    "slm_edges": 2485,
+    "raw_edges_written": false,
+    "channels_total": 7,
+    "stable_channels": 6,
+    "mixed_channels": 0,
+    "weak_channels": 1
+  },
+  "channels": [
+    {
+      "channel_id": "D03",
+      "status": "stable",
+      "label": "conflict / redress / judgment / restraint",
+      "stability_score": 0.8899,
+      "anchor_edge_count": 40,
+      "bridge_edge_count": 313,
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "roots": [
+        "ث و ر",
+        "ج م ع",
+        "خ ب ر",
+        "ر ب ب",
+        "ش د د",
+        "ش ه د",
+        "ص ب ح",
+        "ص د ر",
+        "ع د و",
+        "غ ي ر",
+        "ك ن د",
+        "ن ق ع",
+        "و س ط"
+      ],
+      "unique_branch_count": 21
+    },
+    {
+      "channel_id": "D06",
+      "status": "stable",
+      "label": "water / growth / fertility / barrenness",
+      "stability_score": 0.8884,
+      "anchor_edge_count": 121,
+      "bridge_edge_count": 441,
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ث و ر",
+        "ج م ع",
+        "ح ب ب",
+        "ح ص ل",
+        "خ ب ر",
+        "ر ب ب",
+        "ص ب ح",
+        "ص د ر",
+        "ع د و",
+        "ع ل م",
+        "غ ي ر",
+        "ق د ح",
+        "ك ن د",
+        "ن ق ع"
+      ],
+      "unique_branch_count": 32
+    },
+    {
+      "channel_id": "D01",
+      "status": "stable",
+      "label": "motion / force / incursion / center",
+      "stability_score": 0.8641,
+      "anchor_edge_count": 51,
+      "bridge_edge_count": 355,
+      "ayahs": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11
+      ],
+      "roots": [
+        "ث و ر",
+        "ج م ع",
+        "ح ب ب",
+        "ر ب ب",
+        "ش د د",
+        "ص ب ح",
+        "ص د ر",
+        "ض ب ح",
+        "ع د و",
+        "ن ق ع",
+        "و س ط"
+      ],
+      "unique_branch_count": 23
+    },
+    {
+      "channel_id": "D04",
+      "status": "stable",
+      "label": "favor / wealth / attachment / ingratitude",
+      "stability_score": 0.8404,
+      "anchor_edge_count": 33,
+      "bridge_edge_count": 234,
+      "ayahs": [
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ن س",
+        "ب ع ث ر",
+        "ح ب ب",
+        "خ ي ر",
+        "ر ب ب",
+        "ش د د",
+        "ص د ر",
+        "غ ي ر",
+        "ق د ح",
+        "ك ن د",
+        "ن ق ع"
+      ],
+      "unique_branch_count": 15
+    },
+    {
+      "channel_id": "D05",
+      "status": "stable",
+      "label": "concealment / extraction / knowledge / testimony",
+      "stability_score": 0.8377,
+      "anchor_edge_count": 32,
+      "bridge_edge_count": 200,
+      "ayahs": [
+        2,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "roots": [
+        "ء ن س",
+        "ب ع ث ر",
+        "ث و ر",
+        "ح ص ل",
+        "خ ب ر",
+        "ر ب ب",
+        "ش ه د",
+        "ص د ر",
+        "ع ل م",
+        "ق ب ر",
+        "ن ق ع",
+        "و ر ي"
+      ],
+      "unique_branch_count": 14
+    },
+    {
+      "channel_id": "D02",
+      "status": "stable",
+      "label": "fire / ignition / light / daybreak",
+      "stability_score": 0.7387,
+      "anchor_edge_count": 31,
+      "bridge_edge_count": 223,
+      "ayahs": [
+        1,
+        2,
+        3,
+        5,
+        8
+      ],
+      "roots": [
+        "ج م ع",
+        "ح ب ب",
+        "ش د د",
+        "ص ب ح",
+        "ض ب ح",
+        "ق د ح",
+        "و ر ي"
+      ],
+      "unique_branch_count": 16
+    },
+    {
+      "channel_id": "D08",
+      "status": "weak",
+      "label": "authority / obedience / hierarchy",
+      "stability_score": 0.4411,
+      "anchor_edge_count": 3,
+      "bridge_edge_count": 58,
+      "ayahs": [
+        5,
+        6,
+        10,
+        11
+      ],
+      "roots": [
+        "ر ب ب",
+        "ص د ر",
+        "و س ط"
+      ],
+      "unique_branch_count": 4
+    }
+  ]
+}

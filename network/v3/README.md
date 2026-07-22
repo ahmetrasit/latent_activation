@@ -32,7 +32,8 @@ It also reads Qnet labels from `../quran-roots`:
 1. Build a branch-level top-k graph from the SLM affinity matrix.
 2. Mine ego-neighborhood clusters without semantic domain gates.
 3. Optionally restrict to an ayah range before mining.
-4. Require each candidate to span at least 3 roots and 3 ayahs by default.
+4. Require each direct-discovery candidate to span at least 3 roots and 3 ayahs
+   by default; the whole-corpus runner supplies its adaptive corpus policy.
 5. Score candidates by graph cohesion, edge density, reciprocal support, strong-rank ratio, root diversity, and ayah span.
 6. Attach Qnet facets as `label_hint` and `top_facets` after the cluster already exists.
 7. Deduplicate near-identical candidates by branch/root/ayah overlap and subset containment.
@@ -44,14 +45,24 @@ Both consolidation layers preserve branch meanings; they group repeated graph ob
 
 ## Whole-corpus generation and resume
 
-The current no-cap corpus run uses a five-ayah minimum where possible, the
-Neo ensemble network, one surah at a time, and stage-level checkpoints:
+The current no-cap corpus run uses the canonical surah ayah count to compute
+`max(min(ceil(0.10 * canonical_ayah_count), 10), 4)`, together with the Neo
+ensemble network and stage-level checkpoints:
 
 ```bash
 python3 network/v3/run_corpus_candidates.py
 ```
 
-Outputs go to `network/v3/experiments/corpus_neo_min5/s001…s114`; completed
+The runner defaults to one worker. Audited short-surah ranges can use bounded
+parallelism; for example, the high-surah batch can use four workers while
+excluding the canonical three-ayah surahs:
+
+```bash
+python3 network/v3/run_corpus_candidates.py --start-surah 80 --end-surah 114 \
+  --workers 4 --skip-three-ayah-surahs
+```
+
+Outputs go to `network/v3/experiments/corpus_neo_adaptive/s001…s114`; completed
 stage summaries are reused, failures are recorded and skipped, and no review
 agents are launched by the runner.
 
@@ -129,14 +140,14 @@ Dense families can miss a channel when its branches form a connected script rath
 ```bash
 python3 network/v3/assemble_semantic_paths.py \
   --surah 1 \
-  --min-ayahs 5 \
+  --min-ayahs 4 \
   --path-limit 0 \
   --network-artifact-dir artifacts/surah_networks_global_ensemble \
-  --family-input-dir network/v3/experiments/corpus_neo_min5 \
-  --output-dir network/v3/experiments/corpus_neo_min5
+  --family-input-dir network/v3/experiments/corpus_neo_adaptive \
+  --output-dir network/v3/experiments/corpus_neo_adaptive
 
 python3 network/v3/consolidate_semantic_paths.py \
-  --input-dir network/v3/experiments/corpus_neo_min5/s001/paths
+  --input-dir network/v3/experiments/corpus_neo_adaptive/s001/paths
 ```
 
 Generation remains label-free: it searches the production SLM affinity graph using reciprocal rank support, distinct roots, and ayah coverage, while Qnet facets are attached only afterward as review labels.

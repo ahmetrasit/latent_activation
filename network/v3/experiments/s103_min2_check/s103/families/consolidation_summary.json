@@ -1,0 +1,48 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "network/v3/experiments/s103_min2_check/s103",
+  "output_dir": "network/v3/experiments/s103_min2_check/s103/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 9,
+    "similarity_edges": 20,
+    "families": 2,
+    "family_size_buckets": {
+      "medium_5_14": 1,
+      "small_2_4": 1
+    },
+    "structural_type_counts": {
+      "distributed": 2
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.631,
+      "label_hint": "exchange / economy_property/commerce_exchange / dealing / liability",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 3,
+      "root_count": 9,
+      "branch_count": 46
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.5502,
+      "label_hint": "plant / tribe / thirst / ghassan",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 3,
+      "root_count": 8,
+      "branch_count": 35
+    }
+  ]
+}

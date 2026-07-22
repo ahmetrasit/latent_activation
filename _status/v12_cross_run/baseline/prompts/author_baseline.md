@@ -4,6 +4,10 @@ You own the assigned target-language baseline scope. Read only the paths named
 in the assignment: the language-neutral baseline methodology, one target
 language profile, the frozen Arabic source, the frozen QAC database, the
 baseline schema, the validator, and your checkpoint for this same artifact.
+Verify every supplied input hash before using it. If `read_existing_output` is
+false, do not open or transform the existing output path; generate the assigned
+scope afresh. A checkpoint is resumable working state, not part of the final
+artifact.
 
 Do not read branch inventories, latent-activation findings, retrospective
 findings, v12/v11/v3 reader or publication outputs, tafsir, web sources,
@@ -43,6 +47,9 @@ downstream baseline input.
 
 Synthetic ayah-zero Basmalahs are never authored independently. They alias the
 approved canonical `1:1` baseline and QAC references downstream.
+Author every canonical QAC ayah in the assigned surah, including an ayah with
+no lexical root or no analytical-reader section. Rootlessness never permits an
+ayah omission.
 
 ## Validation and audit
 
@@ -54,7 +61,10 @@ direction. Reread again only for target-language clarity and profile
 consistency.
 
 The deliverable must contain exactly the schema fields. Keep review discussion
-outside it. A pilot is not a canonical freeze.
+outside it. Serialize the complete deliverable as canonical compact UTF-8 JSON:
+one line, separators `,` and `:`, no insignificant whitespace, plus one final
+newline. It is one schema-bound JSON document, not JSONL. A pilot is not a
+canonical freeze.
 
 ## Generated-artifact boundary
 

@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 
 from validate_target_language_baseline import BaselineValidationError, validate
-from workflow_common import atomic_write_json, read_json, sha256_file
+from workflow_common import atomic_write_compact_json, read_json, sha256_file
 
 
 def parse_args() -> argparse.Namespace:
@@ -65,7 +65,7 @@ def freeze(
         },
         "validation": report,
     }
-    atomic_write_json(output_path.resolve(), manifest)
+    atomic_write_compact_json(output_path.resolve(), manifest)
     return manifest
 
 

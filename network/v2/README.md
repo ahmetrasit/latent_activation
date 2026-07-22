@@ -1,5 +1,10 @@
 # network/v2 — channel stability scorer
 
+Legacy note: this was an S1-only consolidation experiment and is not the current
+production workflow.
+
+For new runs, use `network/slm_local/`.
+
 This layer tests whether v1 review groups compress into stable channel
 candidates.
 

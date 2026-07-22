@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 from workflow_common import (
-    atomic_write_json,
+    atomic_write_compact_json,
     atomic_write_text,
     read_tsv,
     sha256_file,
@@ -28,6 +28,17 @@ SCRIPT_ROOT = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_ROOT.parents[2]
 QAC_PATH = REPO_ROOT / "resources" / "qac.sqlite"
 ATTACHMENTS_PATH = REPO_ROOT / "resources" / "attachments.tsv"
+BRANCH_DB_PATH = REPO_ROOT / "resources" / "furuq_v4.sqlite"
+
+SOURCE_TOKEN_FIELDS = (
+    "source_token_id",
+    "ayah_ref",
+    "source_token_index",
+    "surface_ar",
+    "word_ids",
+    "qac_word_refs",
+    "binding_status",
+)
 
 WORD_FIELDS = (
     "word_id",
@@ -67,6 +78,13 @@ MORPHEME_FIELDS = (
     "gender",
     "number",
     "grammatical_case",
+)
+
+WORD_ROOT_FIELDS = (
+    "word_id",
+    "morpheme_ids",
+    "root_id",
+    "binding_status",
 )
 
 ATTACHMENT_UNIT_FIELDS = (
@@ -212,6 +230,170 @@ def packet_word_tokens(text_ar: str) -> list[str]:
     ]
 
 
+def align_source_tokens_to_qac_words(
+    target_ref: str,
+    source_tokens: list[str],
+    qac_words: list[sqlite3.Row],
+) -> list[dict[str, str]]:
+    """Cross-walk displayed whitespace tokens to QAC orthographic words.
+
+    Most spans are one-to-one. The aligner also preserves cases where either
+    representation groups a surface differently, such as 37:130 where the
+    displayed `إِلْ يَاسِينَ` tokens form one QAC proper-name word.
+    """
+    rows: list[dict[str, str]] = []
+    source_index = 0
+    qac_index = 0
+    while source_index < len(source_tokens) and qac_index < len(qac_words):
+        source_start = source_index
+        qac_start = qac_index
+        source_surface = canonical_arabic(source_tokens[source_index])
+        qac_surface = canonical_arabic(str(qac_words[qac_index]["surface_ar"]))
+        source_index += 1
+        qac_index += 1
+
+        while source_surface != qac_surface:
+            if qac_surface.startswith(source_surface) and source_index < len(source_tokens):
+                source_surface += canonical_arabic(source_tokens[source_index])
+                source_index += 1
+                continue
+            if source_surface.startswith(qac_surface) and qac_index < len(qac_words):
+                qac_surface += canonical_arabic(str(qac_words[qac_index]["surface_ar"]))
+                qac_index += 1
+                continue
+            raise BindingError(
+                f"{target_ref}: displayed/QAC token alignment failed at "
+                f"source token {source_start + 1} and QAC word {qac_start + 1}"
+            )
+
+        source_span = source_tokens[source_start:source_index]
+        qac_span = qac_words[qac_start:qac_index]
+        if len(source_span) == 1 and len(qac_span) == 1:
+            status = "one_to_one"
+        elif len(source_span) > 1 and len(qac_span) == 1:
+            status = "many_source_to_one_qac"
+        elif len(source_span) == 1 and len(qac_span) > 1:
+            status = "one_source_to_many_qac"
+        else:
+            status = "many_to_many"
+        word_ids = ";".join(
+            word_id_for(target_ref, int(word["word_index"])) for word in qac_span
+        )
+        qac_word_refs = ";".join(str(word["qac_word_ref"]) for word in qac_span)
+        for offset, surface in enumerate(source_span):
+            token_index = source_start + offset + 1
+            rows.append(
+                {
+                    "source_token_id": (
+                        f"t-{word_id_for(target_ref, token_index).removeprefix('w-')}"
+                    ),
+                    "ayah_ref": target_ref,
+                    "source_token_index": str(token_index),
+                    "surface_ar": surface,
+                    "word_ids": word_ids,
+                    "qac_word_refs": qac_word_refs,
+                    "binding_status": status,
+                }
+            )
+
+    if source_index != len(source_tokens) or qac_index != len(qac_words):
+        raise BindingError(
+            f"{target_ref}: displayed/QAC token alignment ended with unmatched items "
+            f"({len(source_tokens) - source_index} source, {len(qac_words) - qac_index} QAC)"
+        )
+    return rows
+
+
+def normalized_root_spelling(value: str) -> str:
+    return " ".join(str(value or "").split())
+
+
+def load_root_id_registry() -> dict[str, dict[str, list[str]]]:
+    """Load exact source spellings before lossy normalized fallbacks.
+
+    `roots.root_norm` is not unique: distinct source roots can collapse onto the
+    same normalized spelling. QAC roots should therefore match the original
+    `source_root_norm` first, which resolves cases such as ج ي ء versus ج ي أ
+    without making an arbitrary choice.
+    """
+    registries: dict[str, dict[str, list[str]]] = {
+        "source": defaultdict(list),
+        "normalized": defaultdict(list),
+        "canonical": defaultdict(list),
+    }
+    with closing(connect_readonly(BRANCH_DB_PATH)) as connection:
+        for row in connection.execute(
+            """
+            SELECT root_id, root_norm, source_root_norm
+            FROM roots
+            ORDER BY root_norm, source_root_norm, root_id
+            """
+        ):
+            root_id = str(row["root_id"])
+            keys = {
+                "source": normalized_root_spelling(row["source_root_norm"]),
+                "normalized": normalized_root_spelling(row["root_norm"]),
+                "canonical": canonical_root(str(row["root_norm"])),
+            }
+            for registry_name, key in keys.items():
+                if root_id not in registries[registry_name][key]:
+                    registries[registry_name][key].append(root_id)
+    return {name: dict(values) for name, values in registries.items()}
+
+
+def build_word_roots(
+    morphemes: list[dict[str, str]],
+    root_registry: dict[str, dict[str, list[str]]],
+) -> tuple[list[dict[str, str]], list[str]]:
+    by_word_root: dict[tuple[str, str], list[str]] = defaultdict(list)
+    for morpheme in morphemes:
+        raw_root = str(morpheme.get("root", ""))
+        if not raw_root:
+            continue
+        key = (morpheme["word_id"], normalized_root_spelling(raw_root))
+        if morpheme["morpheme_id"] not in by_word_root[key]:
+            by_word_root[key].append(morpheme["morpheme_id"])
+
+    rows: list[dict[str, str]] = []
+    warnings: list[str] = []
+    for (word_id, root_spelling), morpheme_ids in sorted(by_word_root.items()):
+        root_ids = root_registry["source"].get(root_spelling, [])
+        resolution = "source_exact"
+        if not root_ids:
+            root_ids = root_registry["normalized"].get(root_spelling, [])
+            resolution = "normalized_exact"
+        if not root_ids:
+            root_ids = root_registry["canonical"].get(
+                canonical_root(root_spelling), []
+            )
+            resolution = "canonical_fallback"
+        if not root_ids:
+            warnings.append(
+                f"{word_id}: QAC root {root_spelling!r} has no database root_id"
+            )
+            continue
+        status = (
+            f"resolved_{resolution}"
+            if len(root_ids) == 1
+            else f"ambiguous_{resolution}"
+        )
+        if len(root_ids) > 1:
+            warnings.append(
+                f"{word_id}: QAC root {root_spelling!r} resolves to multiple "
+                f"root_ids via {resolution}: {','.join(root_ids)}"
+            )
+        for root_id in root_ids:
+            rows.append(
+                {
+                    "word_id": word_id,
+                    "morpheme_ids": ";".join(morpheme_ids),
+                    "root_id": root_id,
+                    "binding_status": status,
+                }
+            )
+    return rows, warnings
+
+
 def write_table(path: Path, fields: tuple[str, ...], rows: Iterable[dict[str, Any]]) -> None:
     lines = ["\t".join(fields)]
     for row in rows:
@@ -330,9 +512,11 @@ def build_words_and_morphemes(
 ) -> tuple[
     list[dict[str, str]],
     list[dict[str, str]],
+    list[dict[str, str]],
     dict[str, dict[int, dict[str, str]]],
     dict[str, str],
 ]:
+    source_token_rows: list[dict[str, str]] = []
     word_rows: list[dict[str, str]] = []
     morpheme_rows: list[dict[str, str]] = []
     words_by_ref: dict[str, dict[int, dict[str, str]]] = {}
@@ -348,20 +532,14 @@ def build_words_and_morphemes(
 
         qac_words = source_words[source_ref]
         surface_tokens = packet_word_tokens(str(ayah["text_ar"]))
-        if len(qac_words) != len(surface_tokens):
-            raise BindingError(
-                f"{target_ref}: packet has {len(surface_tokens)} words but QAC has {len(qac_words)}"
-            )
+        source_token_rows.extend(
+            align_source_tokens_to_qac_words(target_ref, surface_tokens, qac_words)
+        )
 
         target_index: dict[int, dict[str, str]] = {}
-        for qac_word, packet_surface in zip(qac_words, surface_tokens):
+        for qac_word in qac_words:
             word_index = int(qac_word["word_index"])
             qac_surface = str(qac_word["surface_ar"])
-            if canonical_arabic(qac_surface) != canonical_arabic(packet_surface):
-                raise BindingError(
-                    f"{target_ref} word {word_index}: packet/QAC surface mismatch "
-                    f"{packet_surface!r} != {qac_surface!r}"
-                )
             pieces = by_word[word_index]
             stems = [row for row in pieces if str(row["morpheme_role"]) == "STEM"] or pieces
             word_id = word_id_for(target_ref, word_index)
@@ -431,7 +609,7 @@ def build_words_and_morphemes(
                         f"{target_ref} word {word_index}: packet root {occurrence['root']!r} "
                         "does not resolve to QAC"
                     )
-    return word_rows, morpheme_rows, words_by_ref, source_by_target
+    return source_token_rows, word_rows, morpheme_rows, words_by_ref, source_by_target
 
 
 def build_derived_attachment_units(
@@ -996,9 +1174,13 @@ def build(workspace: Path, packet_override: Path | None = None) -> dict[str, Any
     }
     with closing(connect_readonly(QAC_PATH)) as connection:
         source_words, source_morphemes = load_source_rows(connection, source_refs)
-        words, morphemes, words_by_ref, source_by_target = build_words_and_morphemes(
-            packet, source_words, source_morphemes
-        )
+        (
+            source_tokens,
+            words,
+            morphemes,
+            words_by_ref,
+            source_by_target,
+        ) = build_words_and_morphemes(packet, source_words, source_morphemes)
         _, derived_units_by_ref = build_derived_attachment_units(
             words_by_ref, morphemes, source_by_target
         )
@@ -1017,13 +1199,17 @@ def build(workspace: Path, packet_override: Path | None = None) -> dict[str, Any
             morphemes,
             derived_units_by_ref,
         )
-        warnings = unit_warnings + syntax_warnings
+        root_registry = load_root_id_registry()
+        word_roots, root_warnings = build_word_roots(morphemes, root_registry)
+        warnings = unit_warnings + syntax_warnings + root_warnings
         cooccurrences = build_cooccurrences(connection, words_by_ref, source_by_target)
 
     output_root = workspace / "linguistic"
     output_root.mkdir(parents=True, exist_ok=True)
+    write_table(output_root / "source_tokens.tsv", SOURCE_TOKEN_FIELDS, source_tokens)
     write_table(output_root / "words.tsv", WORD_FIELDS, words)
     write_table(output_root / "morphemes.tsv", MORPHEME_FIELDS, morphemes)
+    write_table(output_root / "word_roots.tsv", WORD_ROOT_FIELDS, word_roots)
     write_table(
         output_root / "attachment_units.tsv",
         ATTACHMENT_UNIT_FIELDS,
@@ -1042,25 +1228,45 @@ def build(workspace: Path, packet_override: Path | None = None) -> dict[str, Any
         "qac_sha256": sha256_file(QAC_PATH),
         "attachments_path": ATTACHMENTS_PATH.relative_to(REPO_ROOT).as_posix(),
         "attachments_sha256": sha256_file(ATTACHMENTS_PATH),
+        "branch_db_path": BRANCH_DB_PATH.relative_to(REPO_ROOT).as_posix(),
+        "branch_db_sha256": sha256_file(BRANCH_DB_PATH),
         "counts": {
+            "source_tokens": len(source_tokens),
             "words": len(words),
             "morphemes": len(morphemes),
+            "word_roots": len(word_roots),
             "attachment_units": len(attachment_units),
             "syntax_edges": len(syntax),
             "root_cooccurrences": len(cooccurrences),
             "existing_evidence_bindings_enriched": enriched_evidence,
         },
-        "target_to_qac_ref": source_by_target,
+        "target_to_qac_ref_overrides": {
+            target: source
+            for target, source in source_by_target.items()
+            if target != source
+        },
         "warnings": warnings,
     }
-    atomic_write_json(output_root / "manifest.json", manifest)
+    atomic_write_compact_json(output_root / "manifest.json", manifest)
     return manifest
 
 
 def main() -> int:
     args = parse_args()
     manifest = build(args.workspace, args.packet)
-    print(json.dumps(manifest, ensure_ascii=False, indent=2))
+    manifest_path = args.workspace.resolve() / "linguistic" / "manifest.json"
+    print(
+        json.dumps(
+            {
+                "manifest": manifest_path.relative_to(REPO_ROOT).as_posix(),
+                "state": "ready" if not manifest["warnings"] else "review_required",
+                "counts": manifest["counts"],
+                "warning_count": len(manifest["warnings"]),
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
     return 0 if not manifest["warnings"] else 1
 
 

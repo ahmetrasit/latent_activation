@@ -1,0 +1,366 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 1,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "../quran-slm/artifacts/surah_networks_global/s001",
+    "surah_resource_dir": "../quran-slm/artifacts/corpus_network/surah_resources/s001",
+    "catalog_branch_count": 144,
+    "affinity_shape": [
+      144,
+      144
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.05209744,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "candidate_limit": 40,
+    "minimum_filter": ">=3 roots and >=5 ayahs"
+  },
+  "counts": {
+    "graph_edges": 932,
+    "raw_candidates": 134,
+    "deduped_candidates": 40
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8623,
+      "label_hint": "herd / stance / gambling / leader",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 8,
+      "branch_count": 15,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8457,
+      "label_hint": "body_health_life/reproduction_birth / herd / family / stance",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 9,
+      "branch_count": 16,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8361,
+      "label_hint": "governance / hierarchy / property / ownership",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 9,
+      "branch_count": 15,
+      "edge_count": 30
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8357,
+      "label_hint": "comfort / substitution / education / welfare",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C005",
+      "channel_score": 0.8354,
+      "label_hint": "tool / gambling / leader / hide",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "root_count": 8,
+      "branch_count": 15,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C006",
+      "channel_score": 0.8351,
+      "label_hint": "herd / stance / leader / leg",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "root_count": 8,
+      "branch_count": 14,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C007",
+      "channel_score": 0.8347,
+      "label_hint": "comfort / substitution / inflammation / cognition_perception/knowledge_learning",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C008",
+      "channel_score": 0.8247,
+      "label_hint": "body_health_life/reproduction_birth / family / stance / gambling",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 8,
+      "branch_count": 16,
+      "edge_count": 19
+    },
+    {
+      "candidate_id": "C009",
+      "channel_score": 0.8221,
+      "label_hint": "herd / submission / zoology / goal",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 14,
+      "branch_count": 17,
+      "edge_count": 20
+    },
+    {
+      "candidate_id": "C010",
+      "channel_score": 0.8211,
+      "label_hint": "blessing / honor / kinship_society/hospitality_welfare / benefaction",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 22
+    },
+    {
+      "candidate_id": "C011",
+      "channel_score": 0.8198,
+      "label_hint": "hierarchy / governance / ownership / dominion",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 9,
+      "branch_count": 17,
+      "edge_count": 31
+    },
+    {
+      "candidate_id": "C012",
+      "channel_score": 0.8197,
+      "label_hint": "ritual_belief/religion_worship / submission / devotion / obedience",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C013",
+      "channel_score": 0.8196,
+      "label_hint": "comfort / ethics / praise / education",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C014",
+      "channel_score": 0.8158,
+      "label_hint": "care / cattle / material / comfort",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 21
+    },
+    {
+      "candidate_id": "C015",
+      "channel_score": 0.8152,
+      "label_hint": "time_measure_quantity/time / history / conflict_security/conflict / duration",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "root_count": 9,
+      "branch_count": 12,
+      "edge_count": 11
+    },
+    {
+      "candidate_id": "C016",
+      "channel_score": 0.8141,
+      "label_hint": "stance / leader / travel / leg",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 26
+    },
+    {
+      "candidate_id": "C017",
+      "channel_score": 0.8118,
+      "label_hint": "conflict_security/conflict / ritual_belief/religion_worship / opposition / submission",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C018",
+      "channel_score": 0.8086,
+      "label_hint": "comfort / ritual_belief/religion_worship / submission / devotion",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 10,
+      "branch_count": 17,
+      "edge_count": 32
+    },
+    {
+      "candidate_id": "C019",
+      "channel_score": 0.8054,
+      "label_hint": "hierarchy / ritual_belief/religion_worship / submission / devotion",
+      "ayahs": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 8,
+      "branch_count": 17,
+      "edge_count": 23
+    },
+    {
+      "candidate_id": "C020",
+      "channel_score": 0.8042,
+      "label_hint": "body_health_life/reproduction_birth / marriage / stance / womb",
+      "ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "root_count": 10,
+      "branch_count": 15,
+      "edge_count": 16
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": "v3_label_free_graph_channel_discovery_v0",
+  "surah": 103,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "../quran-slm/artifacts/surah_networks_global/s103",
+    "surah_resource_dir": "../quran-slm/artifacts/corpus_network/surah_resources/s103",
+    "catalog_branch_count": 77,
+    "eligible_branch_count": 77,
+    "affinity_shape": [
+      77,
+      77
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "descriptive labels only; not used as candidate gates"
+  },
+  "parameters": {
+    "top_k": 10,
+    "ayah_from": null,
+    "ayah_to": null,
+    "ego_k": 8,
+    "min_affinity": 0.0,
+    "edge_affinity_floor": 0.05381945,
+    "edge_floor_quantile": 0.35,
+    "expand_min_links": 2,
+    "dedupe_jaccard": 0.72,
+    "subset_overlap": 0.85,
+    "candidate_limit": 0,
+    "minimum_filter": ">=3 roots and >=3 ayahs"
+  },
+  "counts": {
+    "graph_edges": 490,
+    "raw_candidates": 54,
+    "deduped_candidates": 4
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "C001",
+      "channel_score": 0.8569,
+      "label_hint": "law_governance/authority_governance / justice / compatibility / liability",
+      "ayahs": [
+        1,
+        2,
+        3
+      ],
+      "root_count": 7,
+      "branch_count": 17,
+      "edge_count": 35
+    },
+    {
+      "candidate_id": "C002",
+      "channel_score": 0.8407,
+      "label_hint": "thirst / compatibility / medicine / tribe",
+      "ayahs": [
+        1,
+        2,
+        3
+      ],
+      "root_count": 6,
+      "branch_count": 14,
+      "edge_count": 18
+    },
+    {
+      "candidate_id": "C003",
+      "channel_score": 0.8062,
+      "label_hint": "justice / entitlement / claim / livelihood",
+      "ayahs": [
+        1,
+        2,
+        3
+      ],
+      "root_count": 5,
+      "branch_count": 17,
+      "edge_count": 27
+    },
+    {
+      "candidate_id": "C004",
+      "channel_score": 0.8053,
+      "label_hint": "thirst / claim / inheritance / liability",
+      "ayahs": [
+        1,
+        2,
+        3
+      ],
+      "root_count": 6,
+      "branch_count": 17,
+      "edge_count": 25
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "protocol": {"const": "v12-cross-run-anchor-repair-v1"},
+    "exception_ledger_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "branch_database_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "resolutions": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "anchor_key": {"type": "string", "pattern": "^a-s[0-9]{3}-[0-9]{4}$"},
+              "resolution": {"const": "resolved"},
+              "root_id": {"type": "string", "pattern": "^root_[0-9]{6}$"},
+              "branch_id": {"type": "string", "pattern": "^B[0-9]{3}$"},
+              "reason": {"type": "string", "minLength": 1}
+            },
+            "required": ["anchor_key", "resolution", "root_id", "branch_id", "reason"]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "anchor_key": {"type": "string", "pattern": "^a-s[0-9]{3}-[0-9]{4}$"},
+              "resolution": {"enum": ["unresolved", "meaning_change"]},
+              "reason": {"type": "string", "minLength": 1}
+            },
+            "required": ["anchor_key", "resolution", "reason"]
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "protocol",
+    "exception_ledger_sha256",
+    "branch_database_sha256",
+    "resolutions"
+  ]
+}

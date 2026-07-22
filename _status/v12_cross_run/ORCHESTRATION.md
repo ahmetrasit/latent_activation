@@ -1,271 +1,354 @@
-# v12 Cross-Run Whole-Surah Publication Specification
+# v12 Cross-Run v3 Orchestration Specification
 
-This is the normative target workflow for combining canonical regular v12 and
-±5 v12 findings. The root orchestrator follows this document, prepares files,
-and spawns whole-surah agents. Scripts never spawn agents and there is no
-workflow CLI.
+This is the normative cold-start workflow for publishing v12 contextual-root
+findings against a fixed ordinary target-language baseline. v2 files remain
+historical calibration artifacts; never run v2 package, prompt, or finalizer
+commands for v3 production.
 
-The current staged extract/normalize/grade/publish prompts, schemas, and task
-helpers are legacy calibration machinery. They do not define production after
-this specification.
+## 1. Publication contract
 
-## 1. Objective
+Every publication ayah contains:
 
-For one surah, consolidate the two already-generated and already-audited v12
-readings into a compact publication structure:
+- its immutable ordinary target-language baseline;
+- one flat `findings` array containing only what contextual or retrospective
+  v12 activation adds to or changes in that baseline;
+- one grade per finding: `strong`, `weak`, or `reject`;
+- anchors materialized as `[qac_word_ref, root_id, branch_ids]`.
 
-- one or more primary contextual findings per ayah;
-- one or more secondary contextual findings per ayah;
-- exact `root_id` + `branch_id` anchors for every finding;
-- one finding-level grade for every secondary: `strong`, `weak`, or `reject`.
+Pure baseline restatements are omitted before grading. A genuine proposed delta
+is retained even when graded `reject`. Lexical overlap with the baseline is not
+itself grounds for omission.
 
-There is no translation-eligibility task, lexical-status classification,
-branch-level grade, unlicensed category, exploratory output category, or
-separate rejected collection.
+The publication agent writes only semantic findings with compact anchor keys.
+Deterministic finalization injects the baseline and materializes public anchors.
+Generated artifacts are never hand-edited, manually minified, renamed, or
+repaired. Correct the responsible prompt, profile, schema, assignment, or
+script; then regenerate every hash-dependent output.
 
-Every non-primary finding becomes a secondary finding. A secondary graded
-`reject` remains fully stored as an ordinary secondary row; the grade is a
-recommendation, not deletion.
+## 2. Cold-start invariants
 
-## 2. Source Status and Authority
+Operate from the repository root on `main`. Do not create another branch. Do
+not infer inputs or state from conversation history.
 
-The source families are complete:
+The canonical source families already exist for S001-S114:
 
-- canonical regular v12: S001-S114;
-- ±5 v12: S001-S114.
+- regular v12: `v12/runs/s###/full_context_control/`;
+- ±5 v12: `v12/runs_11ayah/s###/full_context_control/`.
 
-No new v12 reader runs are required for this integration workflow.
+The target language is selected by a BCP-47 profile. Turkish uses
+`_status/v12_cross_run/baseline/language_profiles/tr.json`.
 
-The agent may use only the assigned whole-surah package:
+All generated v3 JSON is canonical compact UTF-8: one complete object on one
+line, separators `,` and `:`, no insignificant whitespace, and one trailing
+newline. These files are JSON, not JSONL.
 
-- the selected canonical regular v12 analytical output;
-- the selected ±5 v12 analytical output;
-- the matching `full_context_packet.json`;
-- the deterministic QAC/attachment linguistic cache;
-- the publication prompt and output contract.
+Final publications are isolated in
+`_status/v12_cross_run/output/<language>/`. That directory contains publication
+JSON files only. The exact filename is
+`<surah>_ayah_findings_publication.json`.
 
-Do not add tafsir, translations, web material, older project analyses, or other
-surahs' unpublished work.
+## 3. Coverage authority
 
-## 3. Whole-Surah File Access
+The project-owned ordinary baseline and canonical Quran source control
+publication ayah coverage. Analytical packets and readers control only which
+ayat have v12 findings.
 
-Mirror the successful v12 input pattern. Give the agent paths to the complete
-surah files; do not serialize their contents into a giant task envelope and do
-not create one agent task per ayah.
+Therefore a canonical ayah absent from both readers still appears with its
+baseline and `findings: []`. S2 is the required test: its packet contains 286
+analytical rows (`2:0`, `2:2` through `2:286`) and omits rootless `2:1`. Its
+publication must contain 287 rows: synthetic `2:0` plus canonical `2:1` through
+`2:286`.
 
-A package index may record paths and hashes, but it is only an index. The agent
-opens the whole files and reads the sections it needs whenever it needs them.
-File size is not equivalent to initial prompt tokens.
+QAC has no `N:0` IDs. A synthetic Basmalah aliases the canonical `1:1`
+baseline and its `1:1:*` QAC word references. S9 has no synthetic Basmalah.
+Every other canonical ayah is authored in its own surah baseline, including an
+ayah with no lexical root.
 
-Typical package paths are:
+## 4. Minimal agent assignments
+
+Every semantic agent receives exactly two entry-point paths:
 
 ```text
-v12/runs/s###/full_context_packet.json
-v12/runs/s###/full_context_control/<selected-reader-output>.md
-v12/runs_11ayah/s###/full_context_control/<selected-reader-output>.md
-_status/v12_cross_run/s###/linguistic/manifest.json
-_status/v12_cross_run/s###/linguistic/words.tsv
-_status/v12_cross_run/s###/linguistic/morphemes.tsv
-_status/v12_cross_run/s###/linguistic/attachment_units.tsv
-_status/v12_cross_run/s###/linguistic/syntax_edges.tsv
+Prompt: `PROMPT_PATH`
+Input bundle: `INPUT_BUNDLE_PATH`
 ```
 
-The agent owns the entire surah and processes ayat in surah order. It may write
-its surah output incrementally, as v12 did, but it may not delegate individual
-ayat to other agents.
+Do not copy prompt text, source excerpts, baseline rows, schemas, summaries,
+grading guidance, or coordinator commentary into the task. A resume receives
+the same two paths. One agent owns one complete surah; never delegate individual
+ayat.
 
-## 4. Deterministic Preparation
+Baseline-author prompt:
 
-Before spawning the publisher, the orchestrator performs only mechanical work:
+```text
+_status/v12_cross_run/baseline/prompts/author_baseline.md
+```
 
-1. select the two canonical reader outputs and record their hashes;
-2. verify that both outputs and the packet belong to the same surah;
-3. build or refresh the linguistic cache;
-4. resolve and validate the already-assigned `root_id` + `branch_id` anchors;
-5. create the small package index containing file paths and hashes.
+Publisher prompt:
 
-Run the existing binder:
+```text
+_status/v12_cross_run/prompts/publish_whole_surah_v3.md
+```
+
+Anchor-repair prompt, only when exceptions exist:
+
+```text
+_status/v12_cross_run/prompts/repair_anchor_exceptions.md
+```
+
+## 5. Exact S2 cold-test runbook
+
+### 5.1 Build the baseline-author input bundle
+
+Run:
+
+```bash
+python3 _status/v12_cross_run/scripts/build_target_language_baseline_assignment.py \
+  2 \
+  --language tr \
+  --arabic /Volumes/OZTURK/_projects/quran-roots/quran/complete-quran.txt \
+  --qac /Volumes/OZTURK/_projects/quran-roots/_corpus/qac/qac.sqlite
+```
+
+This creates only the assignment, not the translation:
+
+```text
+_status/v12_cross_run/s002/baseline_assignment.tr.json
+```
+
+The builder fails if the supplied Arabic or QAC source differs byte-for-byte
+from the project-owned downstream mirror. It hash-binds the author prompt,
+methodology, language profile, Arabic source, QAC database, schema, and
+validator, and declares the generated baseline output:
+
+```text
+_status/v12_cross_run/baseline/artifacts/quran-tr-baseline-v1-s002.json
+```
+
+### 5.2 Run one cold baseline author
+
+Give the baseline author only:
+
+```text
+Prompt: `_status/v12_cross_run/baseline/prompts/author_baseline.md`
+Input bundle: `_status/v12_cross_run/s002/baseline_assignment.tr.json`
+```
+
+The author may checkpoint only at the assignment's checkpoint path. The final
+artifact contains exactly `language` and `ayat`; each ayah contains only
+`ayah_ref`, `baseline_text`, and target tuples
+`[surface, [qac_word_ref, ...]]`. It contains no notes, target-language IDs,
+offsets, alignment groups, morpheme ledgers, statuses, or audit prose.
+
+The initial assignment has `read_existing_output: false`; the author must not
+read or transform a pre-existing output. To resume an interrupted author, rerun
+the assignment builder with `--resume`, then give the replacement author the
+same two paths.
+
+### 5.3 Validate the S2 baseline
+
+Run the exact `validation_command` stored in the assignment, or equivalently:
+
+```bash
+python3 _status/v12_cross_run/scripts/validate_target_language_baseline.py \
+  _status/v12_cross_run/baseline/artifacts/quran-tr-baseline-v1-s002.json \
+  --surah 2 \
+  --qac /Volumes/OZTURK/_projects/quran-roots/_corpus/qac/qac.sqlite
+```
+
+Required result:
+
+- 286 canonical baseline ayat;
+- every Turkish token has one or more valid same-ayah QAC word references;
+- the union covers every S2 QAC word with no missing or foreign ID;
+- compact serialization passes.
+
+Structural validity does not certify Turkish quality. Complete the baseline
+author's Arabic/QAC fidelity and Turkish-language review before packaging.
+
+### 5.4 Build deterministic linguistic bindings
+
+Run:
 
 ```bash
 python3 _status/v12_cross_run/scripts/build_linguistic_bindings.py \
-  _status/v12_cross_run/s###
+  _status/v12_cross_run/s002 \
+  --packet v12/runs/s002/full_context_packet.json
 ```
 
-`build_linguistic_bindings.py` is the authority for:
+Do not give the linguistic cache to the publisher. It is coordinator-only and
+is used during final anchor materialization. Any blocking binding warning must
+be resolved mechanically before final close.
 
-- stable QAC word IDs;
-- QAC morpheme IDs and morphology;
-- mapping synthetic packet refs to QAC refs;
-- attachment-unit to QAC word/morpheme alignment;
-- attachment syntax-edge endpoints;
-- binding status and unresolved warnings.
+### 5.5 Build the v3 publication package
 
-Attachment indices are never treated as QAC indices. The script cross-walks
-them through position, normalized surface, root, sequence, and clitic evidence.
-The publication agent does not perform, repair, or reinterpret this alignment.
+Run:
 
-## 5. Agent Roles
+```bash
+python3 _status/v12_cross_run/scripts/build_publication_package_v3.py \
+  2 \
+  --baseline \
+    _status/v12_cross_run/baseline/artifacts/quran-tr-baseline-v1-s002.json \
+  --basmalah-baseline \
+    _status/v12_cross_run/baseline/artifacts/quran-tr-baseline-v1-s001-pilot.json
+```
 
-### Agent A — whole-surah publisher
+The package builder validates both baselines, binds their combined hash, checks
+both complete readers against the analytical packet, adds canonical rootless
+ayat from `resources/quran/complete-quran.txt`, resolves cited branches, and
+writes:
 
-Agent A reads the complete package and directly writes the final publication
-structure. It performs the necessary consolidation internally; extraction,
-normalization, and branch grading are not separate stages or outputs.
+```text
+_status/v12_cross_run/s002/package_index.v3.json
+```
 
-For every ayah, Agent A must:
-
-1. retain the existing primary contextual readings as primary;
-2. merge only genuinely duplicate contextual readings;
-3. convert every non-primary or exploratory reading into secondary;
-4. preserve distinct contextual readings as distinct findings;
-5. copy or combine the already-assigned root/branch anchors;
-6. grade every secondary `strong`, `weak`, or `reject`;
-7. write the complete surah output.
-
-Agent A does not emit source-finding IDs, lexical labels, translation roles,
-branch roles, evidentiary scores, or intermediate claims.
-
-### Agent B — whole-surah integration reviewer
-
-Agent B reviews the complete proposed publication, not the original findings
-from scratch. Its narrow checks are:
-
-- all ayat with source findings are represented;
-- distinct contextual readings were not over-merged;
-- true contextual duplicates were not needlessly repeated;
-- every anchor resolves to an assigned `root_id` + `branch_id`;
-- primary findings have no grade;
-- every secondary has exactly one allowed grade;
-- `reject` secondaries remain fully present.
-
-Agent B returns a concise issue list. If a material issue exists, Agent A gets
-one repair pass over the whole surah. Agent B does not invent new readings or
-reclassify branches.
-
-## 6. Publication Output
-
-The logical output for each ayah is:
+The S2 package coverage must be:
 
 ```json
-{
-  "ayah_ref": "1:6",
-  "primary": [
-    {
-      "text": "contextual reading",
-      "anchors": [
-        {"root_id": "root_000000", "branch_id": "B001"}
-      ]
-    }
-  ],
-  "secondary": [
-    {
-      "text": "distinct contextual reading",
-      "grade": "strong",
-      "anchors": [
-        {"root_id": "root_000000", "branch_id": "B005"}
-      ]
-    },
-    {
-      "text": "retained but not recommended for default display",
-      "grade": "reject",
-      "anchors": [
-        {"root_id": "root_000001", "branch_id": "B003"}
-      ]
-    }
-  ]
-}
+{"ayah_count":287,"analytical_ayah_count":286,"baseline_ayah_count":287,"standard_heading_count":286,"wide_heading_count":286}
 ```
 
-Rules:
+Do not launch the publisher unless package `state` is `ready` or
+`ready_with_anchor_exceptions` and these counts match.
 
-- multiple primary and multiple secondary findings are allowed;
-- primary findings do not have a grade;
-- every secondary has exactly one grade;
-- a `reject` secondary has the same full structure as `strong` and `weak`;
-- anchors contain only `root_id` and `branch_id`;
-- branch anchors receive no context-independent labels;
-- no source-finding IDs are copied into the publication output;
-- original v12 files remain the source provenance;
-- downstream row IDs, if needed, are assigned mechanically after publication.
+### 5.6 Run one cold whole-surah publisher
 
-## 7. Contextual Deduplication
+Give the publisher only:
 
-Deduplication is based on contextual-reading equivalence, never branch overlap.
+```text
+Prompt: `_status/v12_cross_run/prompts/publish_whole_surah_v3.md`
+Input bundle: `_status/v12_cross_run/s002/package_index.v3.json`
+```
 
-Merge only when two findings express the same:
+The publisher may read only `publisher_inputs` plus its same-package draft
+while auditing/resuming. It must not read `coordinator_only`, v2 publications,
+other surahs, tafsir, web sources, or existing Turkish Quran translations.
 
-- fixed-ayah reading;
-- contextual mechanism;
-- structural or causal relationship;
-- substantive change in how the ayah is understood.
+It writes both declared files:
 
-Consequences:
+```text
+_status/v12_cross_run/s002/publication.v3.draft.json
+_status/v12_cross_run/s002/self_audit.v3.json
+```
 
-- same branches + different contextual readings = separate findings;
-- different branches + the same contextual reading = merge is allowed, with
-  the anchors combined;
-- similar topic + different mechanism = separate findings;
-- paraphrase or compatible elaboration of the same mechanism = merge.
+The draft contains every roster ayah exactly once and in order. `2:1` must have
+`findings: []`. The second pass reopens both readers, the saved draft, and each
+baseline row; it removes baseline-only prose, restores missed activated or
+retrospective deltas, preserves distinct findings, retains rejects, and binds
+the stable draft hash.
 
-When uncertain, preserve separate findings. Avoiding semantic loss is more
-important than minimizing row count.
+### 5.7 Repair anchor exceptions only if present
 
-## 8. Secondary Grades
+If `anchor_summary.review_anchor_keys` and
+`malformed_or_unattached_occurrences` are both zero, skip this step.
 
-The grade belongs to the complete contextual finding, not to any branch.
+Otherwise collect the completed S2 exceptions:
 
-- `strong`: clear anchored mechanism that materially organizes or changes the
-  reading;
-- `weak`: distinct anchored reading with limited, indirect, or tentative force;
-- `reject`: retained in full, but Agent A recommends that it not appear in the
-  default publication layer.
+```bash
+python3 _status/v12_cross_run/scripts/collect_anchor_exceptions_v3.py --surah 2
+```
 
-`Reject` never authorizes deletion and never creates a third output category.
+Give one repair agent only:
 
-## 9. Mechanical Close
+```text
+Prompt: `_status/v12_cross_run/prompts/repair_anchor_exceptions.md`
+Input bundle: `_status/v12_cross_run/anchor_exceptions.json`
+```
 
-After Agent A and, when used, Agent B finish, deterministic checks verify only:
+The ledger names the branch database, repair schema, and output path. A repair
+may only identify an existing root/branch pair. `unresolved` blocks the affected
+surah. `meaning_change` returns the affected ayah to the publisher; it is never
+silently materialized.
 
-1. the output has the assigned surah and valid ordered ayah refs;
-2. primary and secondary structures match the publication contract;
-3. every secondary grade is `strong`, `weak`, or `reject`;
-4. primary findings contain no grade;
-5. every anchor resolves in the assigned packet/inventory snapshot;
-6. every QAC/attachment binding warning is resolved or explicitly surfaced;
-7. no forbidden source IDs, translation roles, or branch labels appear.
+### 5.8 Finalize mechanically
 
-The orchestrator then commits the complete surah output atomically and derives
-any downstream TSV/database views mechanically. No separate lexical audit or
-translation audit is part of this workflow.
+With no exceptions:
 
-## 10. Parallelism and Resume
+```bash
+python3 _status/v12_cross_run/scripts/finalize_publication_v3.py \
+  _status/v12_cross_run/s002
+```
 
-- The independently owned unit is one whole surah.
-- Never spawn separate workers for its ayat.
-- Different surahs may run in parallel.
-- One publisher owns a surah from its first ayah through its final ayah.
-- Incremental writes are recovery checkpoints, not separate agent tasks.
-- If the publisher dies, a replacement receives the whole package and the
-  partial output, reviews the existing work, and owns completion of the surah.
+With a completed repair ledger:
 
-## 11. Legacy S1 Calibration
+```bash
+python3 _status/v12_cross_run/scripts/finalize_publication_v3.py \
+  _status/v12_cross_run/s002 \
+  --repair-ledger _status/v12_cross_run/anchor_repair.json
+```
 
-The existing S1 TSV ledger and ayah-scoped task artifacts document the earlier
-calibration design. Preserve them as history, but do not resume the prepared
-ayah-level normalization or grading tasks.
+Finalization verifies every package hash, draft/audit binding, roster row,
+grade, anchor key, database branch, and fixed-ayah QAC occurrence. It injects
+the baseline verbatim and writes only this publication into the clean output
+space:
 
-The first production test is a fresh whole-surah S1 direct-publication pass
-under this specification. It may consult the canonical v12 inputs, not the
-legacy classifications, as its analytical source.
+```text
+_status/v12_cross_run/output/tr/2_ayah_findings_publication.json
+```
 
-## 12. Completion
+Drafts, audits, manifests, ledgers, logs, assignments, and derived TSVs remain
+outside the output directory.
 
-A surah is complete when:
+### 5.9 Required S2 acceptance checks
 
-- Agent A has processed the whole surah;
-- each contextual reading is represented as primary or secondary;
-- contextual duplicates are consolidated without collapsing distinct readings;
-- every finding has valid root/branch anchors;
-- every secondary has a grade, including fully retained `reject` findings;
-- the mechanical QAC/attachment cache has no unresolved blocking warning;
-- the final surah output passes the compact structural checks.
+Run:
+
+```bash
+test "$(wc -l < \
+  _status/v12_cross_run/output/tr/2_ayah_findings_publication.json)" -eq 1
+
+jq -e '
+  .protocol == "v12-cross-run-publication-v3" and
+  .language == "tr" and
+  .surah == 2 and
+  (.ayat | length) == 287 and
+  ([.ayat[].ayah_ref] | length == (unique | length)) and
+  ([.ayat[] | select(.ayah_ref == "2:1") | .findings] == [[]]) and
+  (all(.ayat[].findings[];
+    (.grade == "strong" or .grade == "weak" or .grade == "reject") and
+    (.anchors | length > 0)))
+' _status/v12_cross_run/output/tr/2_ayah_findings_publication.json
+
+find _status/v12_cross_run/output/tr \
+  -maxdepth 1 -mindepth 1 \
+  \( ! -type f -o \
+  -type f ! -name '*_ayah_findings_publication.json' \)
+```
+
+The final `find` command must print nothing. Also inspect the Turkish findings
+ayah by ayah for baseline restatement, English leakage, flattened multi-claim
+prose, missed retrospective activation, and grade/anchor mismatch. A mechanical
+pass alone does not promote the S2 pilot to production.
+
+## 6. Resume and invalidation
+
+- Never resume from a draft whose package inputs or baseline hash changed.
+- A baseline wording or token-map change requires baseline regeneration,
+  package regeneration, publisher regeneration, audit regeneration, and final
+  close.
+- A publisher-prompt, language-profile, reader, roster, or anchor-map change
+  requires package regeneration and a fresh publisher/audit run.
+- A purely identifying anchor repair does not require semantic regeneration.
+- A meaning-changing repair invalidates the affected ayah and its audit.
+- Reformatting, renaming, or relocating generated files is a workflow change;
+  never patch the artifact directly.
+
+## 7. General production expansion
+
+After S1 and S2 receive editorial approval, repeat the same baseline assignment,
+validation, package, publisher, repair, and finalization sequence for every
+surah. Surah baselines are independent canonical shards. Synthetic Basmalahs
+always reuse the approved S1 `1:1` baseline through `--basmalah-baseline`.
+
+Corpus production is ready only when:
+
+- all 6,236 canonical ayat have validated ordinary target-language baselines;
+- all 114 final publication files exist under the clean language directory;
+- every final file is compact JSON with the required filename;
+- publication coverage includes rootless ayat and the permitted synthetic
+  Basmalah rows;
+- every finding is a target-language baseline delta with one allowed grade;
+- every public anchor resolves to a same-ayah QAC word, stable root, and one or
+  more branch IDs;
+- every final manifest and downstream database import reconciles file hashes,
+  ayah counts, finding counts, and anchor counts.

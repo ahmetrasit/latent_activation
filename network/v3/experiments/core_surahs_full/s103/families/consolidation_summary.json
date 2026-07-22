@@ -1,0 +1,37 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "network/v3/experiments/core_surahs_full/s103",
+  "output_dir": "network/v3/experiments/core_surahs_full/s103/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 4,
+    "similarity_edges": 4,
+    "families": 1,
+    "family_size_buckets": {
+      "small_2_4": 1
+    },
+    "structural_type_counts": {
+      "distributed": 1
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.5843,
+      "label_hint": "thirst / justice / compatibility / exchange",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 3,
+      "root_count": 8,
+      "branch_count": 44
+    }
+  ]
+}

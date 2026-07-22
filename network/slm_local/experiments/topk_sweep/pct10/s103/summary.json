@@ -1,0 +1,78 @@
+{
+  "version": "slm_local_qnet_channel_adapter_v0",
+  "surah": 103,
+  "inputs": {
+    "slm_algorithm_version": "surah-local-ar-conditional-v1",
+    "network_artifact_dir": "../quran-slm/artifacts/surah_networks_global/s103",
+    "surah_resource_dir": "../quran-slm/artifacts/corpus_network/surah_resources/s103",
+    "catalog_branch_count": 77,
+    "affinity_shape": [
+      77,
+      77
+    ],
+    "affinity_dtype": "<f4",
+    "qnet_policy": "existing keywords/themes only"
+  },
+  "parameters": {
+    "top_k": 7,
+    "skip_n": 1
+  },
+  "counts": {
+    "slm_edges": 692,
+    "raw_edges_written": false,
+    "channels_total": 2,
+    "stable_channels": 2,
+    "mixed_channels": 0,
+    "weak_channels": 0
+  },
+  "channels": [
+    {
+      "channel_id": "D04",
+      "status": "stable",
+      "label": "favor / wealth / attachment / ingratitude",
+      "stability_score": 0.8761,
+      "anchor_edge_count": 34,
+      "bridge_edge_count": 83,
+      "ayahs": [
+        1,
+        2,
+        3
+      ],
+      "roots": [
+        "ء ن س",
+        "ح ق ق",
+        "خ س ر",
+        "ص ب ر",
+        "ص ل ح",
+        "ع ص ر",
+        "ع م ل",
+        "و ص ي"
+      ],
+      "unique_branch_count": 13
+    },
+    {
+      "channel_id": "D03",
+      "status": "stable",
+      "label": "conflict / redress / judgment / restraint",
+      "stability_score": 0.8653,
+      "anchor_edge_count": 59,
+      "bridge_edge_count": 92,
+      "ayahs": [
+        1,
+        2,
+        3
+      ],
+      "roots": [
+        "ء م ن",
+        "ح ق ق",
+        "خ س ر",
+        "ص ب ر",
+        "ص ل ح",
+        "ع ص ر",
+        "ع م ل",
+        "و ص ي"
+      ],
+      "unique_branch_count": 21
+    }
+  ]
+}

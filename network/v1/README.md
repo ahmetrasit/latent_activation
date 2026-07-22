@@ -1,5 +1,10 @@
 # network/v1 — Qnet-enriched review index
 
+Legacy note: this was an S1-only experiment and is not the current production
+workflow.
+
+For new runs, use `network/slm_local/`.
+
 This layer uses existing Qnet bridge themes and raw keywords as global facets
 for the S1 candidate package.
 

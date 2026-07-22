@@ -6,9 +6,6 @@ __pycache__/
 # Use Git LFS or an external artifact store if they need to be published.
 resources/*.sqlite
 
-# Uncompressed corpus path inventories can exceed GitHub's 100 MB file limit.
-# Keep the generated .jsonl.gz archives as the portable copies.
-network/v3/experiments/corpus_neo_min5/*/paths/semantic_path_candidates.jsonl
-network/v3/experiments/corpus_neo_min5/.corpus_candidates.lock
-network/v3/experiments/corpus_neo_min5/corpus_run_state.json
-network/v3/experiments/corpus_neo_min5/*/stage_failure.json
+# Generated Network v3 corpus runs are large, reproducible local artifacts.
+network/v3/experiments/corpus_neo_adaptive/
+network/v3/experiments/corpus_neo_min5/

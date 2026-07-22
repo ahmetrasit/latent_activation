@@ -779,10 +779,12 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
     output_dir = Path(args.output_dir) / surah_tag
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    catalog = read_json(source_repo / "artifacts/surah_networks" / surah_tag / "catalog.json")
-    report = read_json(source_repo / "artifacts/surah_networks" / surah_tag / "build_report.json")
-    affinity, shape, dtype = read_npy_2d(source_repo / "artifacts/surah_networks" / surah_tag / "affinity.npy")
-    branch_rows = load_branches(source_repo / "resources/surahs" / surah_tag / "branches_ar.tsv")
+    network_dir = source_repo / args.network_artifact_dir / surah_tag
+    resource_dir = source_repo / args.surah_resource_dir / surah_tag
+    catalog = read_json(network_dir / "catalog.json")
+    report = read_json(network_dir / "build_report.json")
+    affinity, shape, dtype = read_npy_2d(network_dir / "affinity.npy")
+    branch_rows = load_branches(resource_dir / "branches_ar.tsv")
 
     keywords, keyword_idf = load_qnet_keywords(
         qnet_repo / "_corpus/activation/Qnet/v2/network/incidence_full/branch_keywords.tsv"
@@ -809,7 +811,8 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
     ]
     channels.sort(key=lambda row: ({"stable": 0, "mixed": 1, "weak": 2}[row["status"]], -row["stability_score"], row["channel_id"]))
 
-    write_jsonl(output_dir / "slm_edges.jsonl", edges)
+    if not args.no_raw_edges:
+        write_jsonl(output_dir / "slm_edges.jsonl", edges)
     write_jsonl(output_dir / "domain_channel_candidates.jsonl", channels)
     write_channel_tsv(output_dir / "domain_channel_candidates.tsv", channels)
 
@@ -818,6 +821,8 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
         "surah": args.surah,
         "inputs": {
             "slm_algorithm_version": report.get("algorithm_version"),
+            "network_artifact_dir": str(network_dir),
+            "surah_resource_dir": str(resource_dir),
             "catalog_branch_count": len(catalog["branches"]),
             "affinity_shape": shape,
             "affinity_dtype": dtype,
@@ -826,6 +831,7 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
         "parameters": {"top_k": args.top_k, "skip_n": catalog.get("policy", {}).get("skip_n", args.skip_n)},
         "counts": {
             "slm_edges": len(edges),
+            "raw_edges_written": not args.no_raw_edges,
             "channels_total": len(channels),
             "stable_channels": sum(1 for row in channels if row["status"] == "stable"),
             "mixed_channels": sum(1 for row in channels if row["status"] == "mixed"),
@@ -855,9 +861,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--surah", type=int, required=True)
     parser.add_argument("--quran-slm", default="../quran-slm")
     parser.add_argument("--quran-roots", default="../quran-roots")
+    parser.add_argument("--network-artifact-dir", default="artifacts/surah_networks_global")
+    parser.add_argument("--surah-resource-dir", default="artifacts/corpus_network/surah_resources")
     parser.add_argument("--output-dir", default="network/slm_local/output")
     parser.add_argument("--top-k", type=int, default=10)
     parser.add_argument("--skip-n", type=int, default=1)
+    parser.add_argument("--no-raw-edges", action="store_true")
     return parser.parse_args()
 
 

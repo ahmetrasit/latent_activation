@@ -14,7 +14,9 @@ calibration and are not the production output contract.
 ```
 
 - `surah`: integer surah number;
-- `ayat`: every processed ayah in packet order.
+- `ayat`: exactly every packet ayah, once each and in packet order. It must
+  equal the compact ayah roster; a row is required even when its `findings`
+  array is empty.
 
 The agent does not emit run provenance or source-finding IDs. The orchestrator
 records source file paths and hashes outside the publication content.
@@ -24,44 +26,25 @@ records source file paths and hashes outside the publication content.
 ```json
 {
   "ayah_ref": "1:6",
-  "primary": [],
-  "secondary": []
+  "findings": []
 }
 ```
 
 - `ayah_ref`: fixed ayah reference;
-- `primary`: zero or more primary contextual findings;
-- `secondary`: zero or more non-primary contextual findings.
+- `findings`: zero or more contextual findings with one common structure.
 
-All source findings must be represented substantively in one of these two
-collections. Exploratory source findings become secondary.
+All substantive source findings must be represented without forcing a
+primary/secondary hierarchy. Exploratory findings remain ordinary findings and
+are distinguished by grade.
 
-## Primary Finding
-
-```json
-{
-  "text": "contextual reading",
-  "anchors": [
-    {"root_id": "root_000000", "branch_id": "B001"}
-  ]
-}
-```
-
-Required fields:
-
-- `text`: publication-ready contextual reading;
-- `anchors`: one or more assigned root/branch anchors.
-
-A primary finding has no grade.
-
-## Secondary Finding
+## Finalized Finding
 
 ```json
 {
   "text": "contextual reading",
   "grade": "strong",
   "anchors": [
-    {"root_id": "root_000000", "branch_id": "B005"}
+    ["1:6:1", "root_000000", ["B001"]]
   ]
 }
 ```
@@ -70,28 +53,62 @@ Required fields:
 
 - `text`: publication-ready contextual reading;
 - `grade`: `strong`, `weak`, or `reject`;
-- `anchors`: one or more assigned root/branch anchors.
+- `anchors`: one or more materialized
+  `[qac_word_ref, root_id, branch_ids]` rows. The semantic draft carries the
+  corresponding compact anchor-key array instead.
 
-`Reject` is a retained secondary grade. It does not create a rejected
-collection and never removes the finding's text or anchors.
+`Reject` is a retained finding grade. It does not create a rejected collection
+and never removes the finding's text or anchors.
 
 ## Anchor
 
+Agent A uses compact anchor keys in its semantic draft:
+
 ```json
-{"root_id": "root_000000", "branch_id": "B001"}
+"anchors": ["a0001", "a0002"]
 ```
 
-Only these fields belong to an anchor:
+The agent-facing map is a column-described array of atomic rows. Independent
+parallel arrays are forbidden because insertion, omission, or sorting can
+silently associate the wrong root and branch.
 
-- `root_id`: stable root inventory identifier;
-- `branch_id`: branch identifier within that root.
+After global exception repair, deterministic materialization replaces each key
+with the public anchor form:
+
+```json
+["1:6:1", "root_000000", ["B001"]]
+```
+
+Anchor tuple slots are:
+
+- slot 0: QAC word reference in sentence order;
+- slot 1: stable database `root_id` mechanically bound to that QAC word;
+- slot 2: one or more branch IDs from that root used by the finding.
+
+Only rooted QAC words actually anchoring the finding are emitted. The final
+publication does not contain a complete QAC word spine, unrooted words, unused
+roots, or context-only anchors. Multiple used branches for one QAC word/root
+are grouped in slot 2. When the same rooted word occurs more than once in the
+ayah, a root-level source citation expands deterministically to each matching
+QAC occurrence.
+
+Surrounding-ayah roots may activate a finding and remain part of its prose, but
+they are not publication anchors for the fixed ayah. Finalization filters those
+contextual citation keys. A finding with no remaining fixed-ayah anchor fails
+close and must be reviewed.
 
 Anchors do not carry lexical status, translation role, evidence role,
 resonance class, confidence, or any other context-independent label. A branch
 may contribute differently to different contextual readings.
 
-The orchestrator validates anchors mechanically against the assigned packet and
-accepted inventory snapshot.
+The orchestrator validates anchors mechanically against the complete assigned
+`branch_images` snapshot. Branch `status` and `contaminated` metadata neither
+remove an anchor nor affect a finding's presence or grade.
+
+Malformed, nonexistent, or ambiguous source citations remain stable keys and
+enter a coordinator-side exception ledger. When used as fixed-ayah anchors they
+remain in the semantic draft and do not pause Agent A. A final publication
+cannot contain an unresolved used key.
 
 ## Contextual Deduplication
 
@@ -114,7 +131,7 @@ The agent output must not contain:
 - translation eligibility or translation roles;
 - direct/contextual/analogical/unlicensed labels;
 - branch-level grades or roles;
-- a third exploratory or rejected collection;
+- primary/secondary roles or a separate exploratory/rejected collection;
 - evidence-score components;
 - agent-assigned QAC or attachment IDs.
 
@@ -126,31 +143,46 @@ publication is complete.
 The linguistic cache is separate from the publication content and is generated
 by `scripts/build_linguistic_bindings.py`.
 
+- `source_tokens.tsv`: every whitespace-delimited Arabic token from packet text
+  with a stable token ID and its one-to-one or many-to-one QAC `word_id`
+  crosswalk;
 - `words.tsv`: QAC-aligned orthographic words and stable `word_id` values;
 - `morphemes.tsv`: QAC segments, morphology, and stable `morpheme_id` values;
+- `word_roots.tsv`: normalized one-row-per-word/root bindings from QAC roots to
+  stable database `root_id` values; words with no QAC root remain represented
+  in `words.tsv` and receive no invented root;
 - `attachment_units.tsv`: observed attachment units cross-walked to QAC words
   and morphemes;
 - `syntax_edges.tsv`: attachment edges with resolved QAC endpoints;
 - `root_cooccurrences.tsv`: mechanical descriptive root-pair counts;
-- `manifest.json`: resource hashes, target-to-QAC ref mapping, counts, protocol,
-  and unresolved warnings.
+- `manifest.json`: resource hashes, non-identity target-to-QAC ref overrides,
+  counts, protocol, and unresolved warnings;
+- `finding_word_branches.tsv`: post-publication rows expanding each finalized
+  QAC/root anchor's branch list into exact finding/QAC/root/branch links.
 
 Attachment and QAC index equality is never assumed. Alignment uses position,
 normalized surface, root, sequence, and clitic evidence. Binding statuses
 preserve word-only and fallback cautions; unresolved endpoints remain explicit.
+Displayed-token and QAC-word equality is also never assumed: multiple displayed
+tokens may bind to one QAC word, but every displayed token must have a row.
 
-The agent reads this cache as needed but never creates or repairs its IDs.
+The coordinator uses this cache for mechanical and downstream checks. It is not
+part of the publisher-visible package, and the agent never creates or repairs
+its IDs.
 
 ## Minimal Validation
 
 The final surah output must satisfy:
 
 - one valid surah number;
-- unique, ordered ayah refs belonging to the surah;
-- arrays named only `primary` and `secondary` at finding level;
+- ayah refs exactly equal to the assigned packet roster, with no omission,
+  duplicate, extra ref, or reordering;
+- one `findings` array per ayah;
 - nonempty finding text and anchors;
-- no grade on primary;
-- exactly one allowed grade on every secondary;
-- every anchor resolves to the assigned root/branch inventory;
+- exactly one allowed grade on every finding;
+- every anchor resolves to the complete assigned root/branch snapshot and an
+  actual rooted QAC word in the fixed ayah;
+- anchors contain only `[qac_word_ref, root_id, branch_ids]` rows for roots used
+  by that finding;
 - no forbidden publication fields;
 - no unresolved blocking linguistic warnings.

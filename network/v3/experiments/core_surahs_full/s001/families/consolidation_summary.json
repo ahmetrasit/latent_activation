@@ -1,0 +1,99 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "network/v3/experiments/core_surahs_full/s001",
+  "output_dir": "network/v3/experiments/core_surahs_full/s001/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 74,
+    "similarity_edges": 231,
+    "families": 7,
+    "family_size_buckets": {
+      "medium_5_14": 4,
+      "small_2_4": 1,
+      "large_15_plus": 2
+    },
+    "structural_type_counts": {
+      "distributed": 7
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.6358,
+      "label_hint": "honor / protectiveness / body_health_life/reproduction_birth / posture",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 7,
+      "root_count": 16,
+      "branch_count": 41
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.5545,
+      "label_hint": "judgment / duration / comfort / residence",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 6,
+      "root_count": 15,
+      "branch_count": 46
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.5161,
+      "label_hint": "comfort / settlement / substitution / care",
+      "member_count": 12,
+      "structural_type": "distributed",
+      "ayah_count": 7,
+      "root_count": 18,
+      "branch_count": 79
+    },
+    {
+      "family_id": "F004",
+      "family_score": 0.4955,
+      "label_hint": "honor / blessing / commitment / vision",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 5,
+      "root_count": 13,
+      "branch_count": 46
+    },
+    {
+      "family_id": "F005",
+      "family_score": 0.4845,
+      "label_hint": "body_health_life/reproduction_birth / family / leader / posture",
+      "member_count": 19,
+      "structural_type": "distributed",
+      "ayah_count": 7,
+      "root_count": 18,
+      "branch_count": 101
+    },
+    {
+      "family_id": "F006",
+      "family_score": 0.4691,
+      "label_hint": "hierarchy / ownership / governance / comfort",
+      "member_count": 12,
+      "structural_type": "distributed",
+      "ayah_count": 6,
+      "root_count": 16,
+      "branch_count": 74
+    },
+    {
+      "family_id": "F007",
+      "family_score": 0.4577,
+      "label_hint": "ritual_belief/religion_worship / honor / devotion / religion",
+      "member_count": 17,
+      "structural_type": "distributed",
+      "ayah_count": 7,
+      "root_count": 18,
+      "branch_count": 93
+    }
+  ]
+}

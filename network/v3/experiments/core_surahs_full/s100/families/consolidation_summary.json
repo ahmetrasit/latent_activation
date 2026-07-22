@@ -1,0 +1,160 @@
+{
+  "version": "v3_branch_preserving_family_consolidation_v0",
+  "input_dir": "network/v3/experiments/core_surahs_full/s100",
+  "output_dir": "network/v3/experiments/core_surahs_full/s100/families",
+  "parameters": {
+    "mutual_k": 8,
+    "min_similarity": 0.2,
+    "containment_similarity": 0.75,
+    "label_rounds": 40,
+    "window_size": 5,
+    "window_step": 3,
+    "no_hard_output_target": true
+  },
+  "counts": {
+    "candidates": 118,
+    "similarity_edges": 361,
+    "families": 13,
+    "family_size_buckets": {
+      "medium_5_14": 6,
+      "small_2_4": 3,
+      "singleton": 1,
+      "large_15_plus": 3
+    },
+    "structural_type_counts": {
+      "distributed": 13
+    }
+  },
+  "top_families": [
+    {
+      "family_id": "F001",
+      "family_score": 0.6595,
+      "label_hint": "politics / alliance / welfare / aggression",
+      "member_count": 5,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 20,
+      "branch_count": 39
+    },
+    {
+      "family_id": "F002",
+      "family_score": 0.618,
+      "label_hint": "burial / death / storage / solid",
+      "member_count": 3,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 17,
+      "branch_count": 35
+    },
+    {
+      "family_id": "F003",
+      "family_score": 0.5872,
+      "label_hint": "running / locomotion / warfare / foe",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 16,
+      "branch_count": 32
+    },
+    {
+      "family_id": "F004",
+      "family_score": 0.5866,
+      "label_hint": "selection / balance / benefit / excellence",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 10,
+      "root_count": 21,
+      "branch_count": 53
+    },
+    {
+      "family_id": "F005",
+      "family_score": 0.5578,
+      "label_hint": "knowledge / epistemology / report / evidence",
+      "member_count": 7,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 21,
+      "branch_count": 56
+    },
+    {
+      "family_id": "F006",
+      "family_score": 0.5532,
+      "label_hint": "plant / ecology / agriculture / storage",
+      "member_count": 10,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 22,
+      "branch_count": 65
+    },
+    {
+      "family_id": "F007",
+      "family_score": 0.5494,
+      "label_hint": "infection / aggregation / sweetness / presence",
+      "member_count": 1,
+      "structural_type": "distributed",
+      "ayah_count": 10,
+      "root_count": 11,
+      "branch_count": 17
+    },
+    {
+      "family_id": "F008",
+      "family_score": 0.5431,
+      "label_hint": "soil / fire / ecology / growth",
+      "member_count": 4,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 18,
+      "branch_count": 37
+    },
+    {
+      "family_id": "F009",
+      "family_score": 0.538,
+      "label_hint": "division / aggregation / solid / top",
+      "member_count": 14,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 23,
+      "branch_count": 76
+    },
+    {
+      "family_id": "F010",
+      "family_score": 0.5178,
+      "label_hint": "animal_life/wildlife / honor / alliance / ornithology",
+      "member_count": 8,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 23,
+      "branch_count": 66
+    },
+    {
+      "family_id": "F011",
+      "family_score": 0.5018,
+      "label_hint": "water / surface / alliance / basin",
+      "member_count": 21,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 23,
+      "branch_count": 115
+    },
+    {
+      "family_id": "F012",
+      "family_score": 0.4861,
+      "label_hint": "fire / light / spark / energy",
+      "member_count": 17,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 21,
+      "branch_count": 86
+    },
+    {
+      "family_id": "F013",
+      "family_score": 0.474,
+      "label_hint": "aggregation / result / gathering / community",
+      "member_count": 17,
+      "structural_type": "distributed",
+      "ayah_count": 11,
+      "root_count": 23,
+      "branch_count": 90
+    }
+  ]
+}

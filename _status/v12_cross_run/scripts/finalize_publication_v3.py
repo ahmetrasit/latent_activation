@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -16,7 +17,12 @@ from finalize_publication import (
     validate_database_anchors,
     write_word_branch_view,
 )
-from workflow_common import REPO_ROOT, atomic_write_json, read_json, sha256_file
+from workflow_common import (
+    REPO_ROOT,
+    atomic_write_compact_json,
+    require_compact_json,
+    sha256_file,
+)
 
 
 AUDIT_CHECKS = {
@@ -27,6 +33,8 @@ AUDIT_CHECKS = {
     "fixed_ayah_anchors",
     "valid_grades",
 }
+PUBLICATION_OUTPUT_ROOT = REPO_ROOT / "_status" / "v12_cross_run" / "output"
+PUBLICATION_FILENAME_RE = re.compile(r"^[1-9][0-9]*_ayah_findings_publication\.json$")
 
 
 def parse_args() -> argparse.Namespace:
@@ -115,18 +123,52 @@ def finalize(
 ) -> dict[str, Any]:
     workspace = workspace.resolve()
     index_path = (package_index_path or workspace / "package_index.v3.json").resolve()
-    index = read_json(index_path)
+    index = require_compact_json(index_path)
     if index.get("protocol") != "v12-cross-run-publication-package-v3":
         raise FinalizationError("package index does not use publication-package-v3")
     surah = int(index["surah"])
     language = str(index["language"])
     baseline_sha256 = str(index["baseline_sha256"])
+    expected_final_path = (
+        PUBLICATION_OUTPUT_ROOT
+        / language
+        / f"{surah}_ayah_findings_publication.json"
+    ).resolve()
+    legacy_output_path = (
+        PUBLICATION_OUTPUT_ROOT
+        / language
+        / f"{surah}_aya_findings_publication.json"
+    ).resolve()
+    declared_final_path = (REPO_ROOT / index["final_output"]).resolve()
+    if declared_final_path != expected_final_path:
+        raise FinalizationError(
+            "final publication path differs from the clean output contract"
+        )
+    output_directory = expected_final_path.parent
+    if output_directory.exists():
+        invalid_entries = sorted(
+            entry.name
+            for entry in output_directory.iterdir()
+            if (
+                entry.resolve() != legacy_output_path
+                and (
+                    not entry.is_file()
+                    or PUBLICATION_FILENAME_RE.fullmatch(entry.name) is None
+                )
+            )
+        )
+        if invalid_entries:
+            raise FinalizationError(
+                f"publication output directory contains non-output entries: {invalid_entries}"
+            )
     for raw_path, expected_hash in index["hashes"].items():
         path = REPO_ROOT / raw_path
         if not path.exists() or sha256_file(path) != expected_hash:
             raise FinalizationError(f"package input missing or hash-drifted: {raw_path}")
 
-    roster_doc = read_json(REPO_ROOT / index["publisher_inputs"]["ayah_roster"])
+    roster_doc = require_compact_json(
+        REPO_ROOT / index["publisher_inputs"]["ayah_roster"]
+    )
     if (
         roster_doc.get("protocol") != "v12-cross-run-ayah-roster-v3"
         or roster_doc.get("language") != language
@@ -140,19 +182,23 @@ def finalize(
     baseline_by_ref = {row[0]: row[3] for row in roster_rows}
 
     draft_path = REPO_ROOT / index["draft_output"]
-    draft = read_json(draft_path)
+    draft = require_compact_json(draft_path)
     used_keys = validate_draft(draft, surah, language, roster)
     audit_path = REPO_ROOT / index["self_audit_output"]
     validate_audit(
-        read_json(audit_path), draft_path, baseline_sha256, language, roster
+        require_compact_json(audit_path), draft_path, baseline_sha256, language, roster
     )
 
-    anchor_doc = read_json(REPO_ROOT / index["publisher_inputs"]["anchor_map"])
+    anchor_doc = require_compact_json(
+        REPO_ROOT / index["publisher_inputs"]["anchor_map"]
+    )
     anchors = {row[0]: row for row in anchor_doc["rows"]}
     if not used_keys <= set(anchors):
         raise FinalizationError(f"draft contains unknown anchor keys: {sorted(used_keys-set(anchors))}")
     db_path = Path(index["coordinator_only"]["branch_database"])
     db_path = db_path if db_path.is_absolute() else REPO_ROOT / db_path
+    if repair_path is not None:
+        require_compact_json(repair_path)
     repairs = load_repairs(repair_path, db_path)
     resolved: dict[str, tuple[str, str]] = {}
     unresolved: list[str] = []
@@ -211,8 +257,8 @@ def finalize(
             )
         final["ayat"].append(output_ayah)
 
-    final_path = REPO_ROOT / index["final_output"]
-    atomic_write_json(final_path, final)
+    final_path = expected_final_path
+    atomic_write_compact_json(final_path, final)
     view_path, view_rows = write_word_branch_view(
         REPO_ROOT / index["word_branch_output"], final, word_id_by_binding
     )
@@ -237,7 +283,12 @@ def finalize(
             "finding_word_branch_rows": view_rows,
         },
     }
-    atomic_write_json(REPO_ROOT / index["final_manifest_output"], manifest)
+    atomic_write_compact_json(REPO_ROOT / index["final_manifest_output"], manifest)
+    legacy_final_path = workspace / "publication.v3.json"
+    if legacy_final_path.exists() and legacy_final_path.resolve() != final_path:
+        legacy_final_path.unlink()
+    if legacy_output_path.exists() and legacy_output_path != final_path:
+        legacy_output_path.unlink()
     return manifest
 
 

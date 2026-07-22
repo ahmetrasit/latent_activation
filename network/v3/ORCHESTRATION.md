@@ -6,9 +6,10 @@ it does not classify evidence into the eight predefined `slm_local` domains.
 ## Scope and safety
 
 - Read `../quran-slm` and `../quran-roots`; never modify either sibling repo.
-- Write corpus outputs only under `network/v3/experiments/corpus_neo_min5/`.
-- Run exactly one surah at a time because uncapped long-surah runs can consume
-  more than 10 GB of memory.
+- Write corpus outputs only under `network/v3/experiments/corpus_neo_adaptive/`.
+- Default to one surah at a time because uncapped long-surah generation is
+  resource intensive even though sparse consolidation is now memory bounded.
+  Bounded parallelism may be used for audited short-surah ranges.
 - Do not launch review agents during corpus generation.
 - Before starting or resuming, make sure another v3 corpus process is not
   already active; the runner lock prevents duplicate runner instances, but it
@@ -19,8 +20,8 @@ it does not classify evidence into the eight predefined `slm_local` domains.
 - Network: `../quran-slm/artifacts/surah_networks_global_ensemble/s001…s114`.
 - Dense candidate cap: none (`--candidate-limit 0`).
 - Sparse path cap: none (`--path-limit 0`).
-- Minimum ayah span: 5, except a three- or four-ayah surah uses its full length.
-- Output: `network/v3/experiments/corpus_neo_min5/s###/`.
+- Minimum ayah span: `max(min(ceil(0.10 * canonical_ayah_count), 10), 4)`.
+- Output: `network/v3/experiments/corpus_neo_adaptive/s###/`.
 - Failure handling: record the failed stage, skip that surah, and continue.
 - Review handling: generate families only; agent adjudication happens later.
 
@@ -46,11 +47,18 @@ Useful controls:
 python3 network/v3/run_corpus_candidates.py --start-surah 3
 python3 network/v3/run_corpus_candidates.py --start-surah 30 --end-surah 57
 python3 network/v3/run_corpus_candidates.py --start-surah 2 --end-surah 2 --retry-failures
+python3 network/v3/run_corpus_candidates.py --start-surah 80 --end-surah 114 \
+  --workers 4 --skip-three-ayah-surahs
 python3 network/v3/run_corpus_candidates.py --dry-run
 ```
 
-Do not split ranges among concurrent workers; range controls exist for manual
-resume and diagnosis, not parallel generation.
+`--workers N` runs at most `N` surahs concurrently while keeping each surah's
+four stages sequential. Use more than one worker only after checking available
+memory and the catalog sizes in that range. Do not launch multiple runner
+processes; the single runner owns the output lock and coordinates its workers.
+
+`--skip-three-ayah-surahs` reads the canonical catalog and excludes S103, S108,
+and S110 before creating their output directories.
 
 ## Stage checkpoints
 
@@ -65,10 +73,11 @@ An interrupted stage may leave partial files; rerunning is safe because the
 missing final summary causes that stage to be rebuilt while completed earlier
 stages remain untouched.
 
-S2 is a known exception: its uncapped assembly produced 190,625 deduplicated
-paths, but sparse consolidation exited `137` under memory pressure; preserve
-its completed dense and sparse-assembly checkpoints and leave its failure
-marker in place until a more memory-efficient consolidator is available.
+S2 was the largest historical exception: its uncapped assembly produced
+190,625 deduplicated paths and the old all-pairs consolidator exited `137`.
+The memory-bounded consolidator now completes it with 685,764 similarity edges
+and 25,617 path families; the obsolete failure marker is retained only as
+`stage_failure.pre_memory_fix.json` for audit.
 
 The runner appends command attempts to `dense.log`, `dense_consolidate.log`,
 `sparse.log`, and `sparse_consolidate.log`, and writes aggregate progress to
@@ -81,10 +90,15 @@ Use the same output root and Neo ensemble as the corpus runner:
 ```bash
 S=100
 TAG=$(printf 's%03d' "$S")
-OUT=network/v3/experiments/corpus_neo_min5
+OUT=network/v3/experiments/corpus_neo_adaptive
+CATALOG=../quran-slm/artifacts/surah_networks_global_ensemble/$TAG/catalog.json
+AYAH_COUNT=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["ayah_max"])' "$CATALOG")
+MIN_AYAHS=$(( (AYAH_COUNT + 9) / 10 ))
+if [ "$MIN_AYAHS" -lt 4 ]; then MIN_AYAHS=4; fi
+if [ "$MIN_AYAHS" -gt 10 ]; then MIN_AYAHS=10; fi
 
 python3 network/v3/discover_surah_channels.py \
-  --surah "$S" --min-ayahs 5 --candidate-limit 0 \
+  --surah "$S" --min-ayahs "$MIN_AYAHS" --candidate-limit 0 \
   --network-artifact-dir artifacts/surah_networks_global_ensemble \
   --output-dir "$OUT"
 
@@ -92,7 +106,7 @@ python3 network/v3/consolidate_channel_families.py \
   --input-dir "$OUT/$TAG"
 
 python3 network/v3/assemble_semantic_paths.py \
-  --surah "$S" --min-ayahs 5 --path-limit 0 \
+  --surah "$S" --min-ayahs "$MIN_AYAHS" --path-limit 0 \
   --network-artifact-dir artifacts/surah_networks_global_ensemble \
   --family-input-dir "$OUT" --output-dir "$OUT"
 
@@ -100,8 +114,9 @@ python3 network/v3/consolidate_semantic_paths.py \
   --input-dir "$OUT/$TAG/paths"
 ```
 
-For a surah shorter than five ayat, replace `--min-ayahs 5` with its full ayah
-count; the corpus runner does this automatically.
+The corpus runner performs this calculation automatically. Without an explicit
+skip, a three-ayah surah receives the minimum value `4` and yields no qualifying
+channel. Pass `--skip-three-ayah-surahs` when those surahs must not be rebuilt.
 
 ## Blind review inputs
 

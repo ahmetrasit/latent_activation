@@ -95,6 +95,24 @@ def atomic_write_json(path: Path, value: Any) -> None:
     )
 
 
+def compact_json_text(value: Any) -> str:
+    return json.dumps(
+        value, ensure_ascii=False, separators=(",", ":"), sort_keys=False
+    ) + "\n"
+
+
+def atomic_write_compact_json(path: Path, value: Any) -> None:
+    atomic_write_text(path, compact_json_text(value))
+
+
+def require_compact_json(path: Path) -> Any:
+    raw = path.read_text(encoding="utf-8")
+    value = json.loads(raw)
+    if raw != compact_json_text(value):
+        raise ValueError(f"generated JSON is not canonical compact JSON: {path}")
+    return value
+
+
 def read_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 

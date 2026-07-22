@@ -1,6 +1,6 @@
 # Project Status Workspace
 
-Last updated: 2026-07-21
+Last updated: 2026-07-22
 
 This directory is the durable control point for the v12 cross-run publication
 workflow. It does not replace canonical v12 sources or downstream prose.
@@ -13,13 +13,22 @@ consolidation is whole-surah and direct:
 ```text
 mechanical package
   -> whole-surah publisher
-  -> whole-surah integration reviewer
-  -> deterministic close
+  -> publisher self-audit
+  -> global surgical anchor repair
+  -> deterministic materialization and close
 ```
 
-The publisher produces primary and secondary contextual findings directly.
+The publisher produces primary and secondary contextual findings directly,
+using compact anchor keys in its semantic draft. The finalizer expands those
+keys to public `root_id` + `branch_id` anchors after the global exception pass.
+Every packet ayah appears exactly once in packet order, even if both finding
+arrays are empty. The publisher sees the two source outputs plus a compact
+ayah roster and cited-anchor map; the full packet and linguistic cache stay
+coordinator-side.
 Every secondary receives `strong`, `weak`, or `reject`; a `reject` secondary is
 still retained in full. Branch anchors contain only `root_id` and `branch_id`.
+After drafting, the same publisher performs a separate ayah-by-ayah source
+coverage and integration audit before deterministic close.
 
 There is no production translation-eligibility step, branch classification,
 source-finding-ID output, or separate rejected category. Contextual readings
@@ -38,6 +47,6 @@ this work.
 - [implementation status](v12_cross_run/STATUS.md);
 - [publication schema](v12_cross_run/schema/SCHEMA.md).
 
-The existing S1 ayah-scoped artifacts are legacy calibration. Documentation now
-records the replacement design; code and operational schemas have not yet been
-changed.
+The existing S1 ayah-scoped artifacts are legacy calibration. The replacement
+package builder, binder extensions, Agent A/repair contracts, and finalizer are
+implemented; S1 and S2 model-run trials are the next production gate.

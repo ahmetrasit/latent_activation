@@ -1,0 +1,47 @@
+{
+  "protocol": "v12-cross-run-publication-package-v2",
+  "surah": 1,
+  "variant": "5.6-sol-high",
+  "state": "ready",
+  "publisher_inputs": {
+    "standard_reader": "v12/runs/s001/full_context_control/reader_s001_b_ayah_walk.md",
+    "wide_reader": "v12/runs_11ayah/s001/full_context_control/reader_s001_a_ayah_walk.md",
+    "ayah_roster": "_status/v12_cross_run/s001/ayah_roster.json",
+    "anchor_map": "_status/v12_cross_run/s001/anchor_map.json",
+    "prompt": "_status/v12_cross_run/prompts/publish_whole_surah.md",
+    "output_schema": "_status/v12_cross_run/model_schemas/publication_draft.json"
+  },
+  "coordinator_only": {
+    "packet": "v12/runs/s001/full_context_packet.json",
+    "anchor_occurrences": "_status/v12_cross_run/s001/anchor_occurrences.json",
+    "branch_database": "resources/furuq_v4.sqlite"
+  },
+  "hashes": {
+    "v12/runs/s001/full_context_control/reader_s001_b_ayah_walk.md": "50213e11b4d0da010ce0e8c0eb7fa95fdc0e436de840cec6701b366a99a17b0d",
+    "v12/runs_11ayah/s001/full_context_control/reader_s001_a_ayah_walk.md": "56ae6284fd1671a4172115b579d9b47beb2921b02154b4373d129a71a2a80c49",
+    "v12/runs/s001/full_context_packet.json": "529be94f3ec0723d35a0461f1c4d5f12466b59eb61b373aba59a51a87f8de1ad",
+    "_status/v12_cross_run/s001/ayah_roster.json": "02f4bba04d8d3ecb0e118f4a9585a612f682a14c929f6923e9513dd523fcd5d3",
+    "_status/v12_cross_run/s001/anchor_map.json": "786c4ed7fef1a2b5235c39677a3e7c582534609f58acdab17305f6689832332b",
+    "_status/v12_cross_run/s001/anchor_occurrences.json": "936e8ca3697f83c117053cd155771e46b1b78f82835ae419fae4622c328b742c",
+    "resources/furuq_v4.sqlite": "318d7128a3b434d815eed0f0f926b7b79cd0c64a34566255c22288c5af87fca2",
+    "_status/v12_cross_run/prompts/publish_whole_surah.md": "e2454fb9cd444b9d7f77951337241a45f9baa7aa8e060115455ed4d4c5c2fa33",
+    "_status/v12_cross_run/model_schemas/publication_draft.json": "3ba2d6cd0d6abff39abc18de1a10958866006490a9b6d5fa8b103fe7cb32b8be"
+  },
+  "coverage": {
+    "ayah_count": 7,
+    "standard_heading_count": 7,
+    "wide_heading_count": 7
+  },
+  "anchor_summary": {
+    "citation_occurrences": 214,
+    "unique_anchor_keys": 66,
+    "resolved_anchor_keys": 66,
+    "review_anchor_keys": 0,
+    "malformed_or_unattached_occurrences": 0
+  },
+  "draft_output": "_status/v12_cross_run/s001/publication.5.6-sol-high.draft.json",
+  "self_audit_output": "_status/v12_cross_run/s001/self_audit.5.6-sol-high.json",
+  "final_output": "_status/v12_cross_run/s001/publication.5.6-sol-high.json",
+  "final_manifest_output": "_status/v12_cross_run/s001/publication_manifest.5.6-sol-high.json",
+  "word_branch_output": "_status/v12_cross_run/s001/derived/finding_word_branches.5.6-sol-high.tsv"
+}

@@ -13,6 +13,8 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
+from workflow_common import compact_json_text
+
 
 class BaselineValidationError(RuntimeError):
     pass
@@ -191,7 +193,12 @@ def validate(
 ) -> dict[str, Any]:
     baseline_path = baseline_path.resolve()
     qac_path = qac_path.resolve()
-    document = json.loads(baseline_path.read_text(encoding="utf-8"))
+    raw_document = baseline_path.read_text(encoding="utf-8")
+    document = json.loads(raw_document)
+    if raw_document != compact_json_text(document):
+        raise BaselineValidationError(
+            "baseline: generated artifact must be canonical compact JSON"
+        )
     root = require_keys(document, {"language", "ayat"}, "baseline")
     language = root["language"]
     if not isinstance(language, str) or LANGUAGE_RE.fullmatch(language) is None:
