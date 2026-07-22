@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "protocol": {"const": "v12-cross-run-self-audit-v3"},
+    "draft_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "baseline_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "language": {"type": "string", "pattern": "^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"},
+    "checked_ayah_refs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[1-9][0-9]*:[0-9]+$"}
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "target_language_only": {"const": true},
+        "baseline_delta_only": {"const": true},
+        "activated_and_retrospective_coverage": {"const": true},
+        "atomic_findings": {"const": true},
+        "fixed_ayah_anchors": {"const": true},
+        "valid_grades": {"const": true}
+      },
+      "required": [
+        "target_language_only",
+        "baseline_delta_only",
+        "activated_and_retrospective_coverage",
+        "atomic_findings",
+        "fixed_ayah_anchors",
+        "valid_grades"
+      ]
+    },
+    "completed": {"const": true}
+  },
+  "required": [
+    "protocol",
+    "draft_sha256",
+    "baseline_sha256",
+    "language",
+    "checked_ayah_refs",
+    "checks",
+    "completed"
+  ]
+}

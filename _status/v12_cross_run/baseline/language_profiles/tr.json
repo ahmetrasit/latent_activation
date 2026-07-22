@@ -1,0 +1,54 @@
+{
+  "protocol": "target-language-profile-v1",
+  "language": "tr",
+  "name": "Ordinary modern Turkish",
+  "normalization": "NFC",
+  "tokenization": {
+    "unit": "orthographic_word",
+    "punctuation": "excluded_with_codepoint_spans_preserved_in_baseline",
+    "internal_apostrophe": "retain",
+    "internal_hyphen": "retain_when_orthographic"
+  },
+  "register": {
+    "target": "ordinary_modern",
+    "avoid": [
+      "archaic_Ottoman_technicality",
+      "translationese",
+      "commentary",
+      "explanatory_parentheses",
+      "latent_branch_imagery"
+    ]
+  },
+  "loanwords": {
+    "principle": "retain_only_when_established_clear_and_more_precise_than_a_forced_replacement",
+    "retain_when_contextually_appropriate": [
+      "Allah",
+      "Rab",
+      "Kur'an",
+      "namaz",
+      "zekât",
+      "hac",
+      "Ramazan"
+    ],
+    "prefer_plain_contextual_rendering": {
+      "hidayet": "doğru yola iletme",
+      "mağfiret": "bağışlama",
+      "mümin": "inanan",
+      "müttaki": "Allah'a karşı gelmekten sakınan"
+    },
+    "avoid_as_default": [
+      "mücrim",
+      "müstağni",
+      "müstakim",
+      "mukabele",
+      "mükâfat"
+    ],
+    "context_rule": "No Arabic lemma has a mandatory one-to-one Turkish replacement; local sense and grammar control wording."
+  },
+  "editorial_tests": [
+    "An ordinary Turkish reader can understand the sentence without specialist religious vocabulary.",
+    "Replacing or retaining a loanword does not narrow or expand the Arabic improperly.",
+    "The wording states the ordinary proposition without commentary or latent activation.",
+    "Speaker, addressee, agency, negation, and direction remain explicit where Arabic makes them explicit."
+  ]
+}
