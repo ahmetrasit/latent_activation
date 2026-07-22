@@ -16,6 +16,18 @@ synthesis work. Later synthesis experiments should consider using them to
 compose a higher-level prose layer from `v11` and `v12` outputs, rather than
 treating those newer outputs as the final publication form by themselves.
 
+## v12 Turkish Baseline Status (2026-07-22)
+
+The Turkish ordinary target-language baseline files are complete for all 114
+surahs. S1 uses the accepted pilot artifact, and S2-S114 have generated
+surah-level baseline artifacts and checkpoints under `_status/v12_cross_run/`.
+
+The full baseline set has passed structural validation against the frozen QAC
+database with `validated_count=114` and `failed_count=0`. The v12 cross-run
+workflow is ready for the next steps documented under `_status/`, especially
+the package, publication, audit, and finalization runbooks in
+`_status/v12_cross_run/`.
+
 ## Dictionary and Quran-SLM Integration Status (2026-07-21)
 
 For dictionary candidate discovery, use the comprehensive `v11` QNet audit and
