@@ -25,7 +25,42 @@ it does not classify evidence into the eight predefined `slm_local` domains.
 - Failure handling: record the failed stage, skip that surah, and continue.
 - Review handling: generate families only; agent adjudication happens later.
 
-## Resume the whole corpus
+## Current checkpoint status (2026-07-22)
+
+The adaptive corpus has 94 fully completed surahs:
+
+- S1 and S8.
+- S20 through S102.
+- S104 through S107, S109, and S111 through S114.
+
+The three canonical three-ayah surahs, S103, S108, and S110, are intentionally
+excluded and are not pending work.
+
+Seventeen surahs remain: S2 through S7 and S9 through S19. Their checkpoints
+are:
+
+- S2 and S15 through S19: no completed stages.
+- S3 through S7: dense discovery and dense consolidation are complete; sparse
+  assembly was killed with return code `-9` during the six-worker run. Their
+  `stage_failure.json` files are genuine resource-failure records.
+- S9 through S13: both dense stages are complete; sparse assembly was stopped
+  by the user before its summary checkpoint was written.
+- S14: dense discovery is complete; dense consolidation was stopped before its
+  summary checkpoint was written.
+
+Run every remaining surah with exactly one worker. Do not use parallel workers
+for this range: six-worker sparse assembly produced the S3–S7 OOM failures.
+
+```bash
+python3 network/v3/run_corpus_candidates.py \
+  --start-surah 2 --end-surah 19 --workers 1 --retry-failures
+```
+
+The runner will reuse every completed stage, retry the genuine S3–S7 failure
+markers, skip completed S8, and resume or start the other pending surahs. The
+same command is safe to rerun after an interruption.
+
+## General resume behavior
 
 From the repository root run:
 
@@ -33,9 +68,10 @@ From the repository root run:
 python3 network/v3/run_corpus_candidates.py
 ```
 
-The runner processes S1 through S114 sequentially and resumes at stage level;
-existing completion markers are authoritative, so already completed work is
-not regenerated.
+The runner processes S1 through S114 sequentially by default and resumes at
+stage level; existing completion markers are authoritative, so already
+completed work is not regenerated. For the current pending inventory, use the
+single-worker S2–S19 command above rather than a whole-corpus invocation.
 
 A `s###/stage_failure.json` marker prevents a known resource failure from being
 retried on every ordinary resume; retry one deliberately only with
@@ -53,9 +89,10 @@ python3 network/v3/run_corpus_candidates.py --dry-run
 ```
 
 `--workers N` runs at most `N` surahs concurrently while keeping each surah's
-four stages sequential. Use more than one worker only after checking available
-memory and the catalog sizes in that range. Do not launch multiple runner
-processes; the single runner owns the output lock and coordinates its workers.
+four stages sequential. Parallelism was used for already completed shorter
+ranges, but must not be used for the remaining S2–S19 work. Do not launch
+multiple runner processes; the single runner owns the output lock and
+coordinates its workers.
 
 `--skip-three-ayah-surahs` reads the canonical catalog and excludes S103, S108,
 and S110 before creating their output directories.
@@ -73,11 +110,13 @@ An interrupted stage may leave partial files; rerunning is safe because the
 missing final summary causes that stage to be rebuilt while completed earlier
 stages remain untouched.
 
-S2 was the largest historical exception: its uncapped assembly produced
+S2 was the largest historical min-5 exception: its uncapped assembly produced
 190,625 deduplicated paths and the old all-pairs consolidator exited `137`.
-The memory-bounded consolidator now completes it with 685,764 similarity edges
-and 25,617 path families; the obsolete failure marker is retained only as
-`stage_failure.pre_memory_fix.json` for audit.
+The memory-bounded consolidator completed that historical checkpoint with
+685,764 similarity edges and 25,617 path families; the obsolete failure marker
+is retained only as `stage_failure.pre_memory_fix.json` for audit. The current
+adaptive S2 build, which uses `min_ayahs=10`, is still pending and must run
+alone as the first item in the single-worker remaining range.
 
 The runner appends command attempts to `dense.log`, `dense_consolidate.log`,
 `sparse.log`, and `sparse_consolidate.log`, and writes aggregate progress to

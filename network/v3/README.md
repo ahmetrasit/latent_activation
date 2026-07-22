@@ -49,18 +49,23 @@ The current no-cap corpus run uses the canonical surah ayah count to compute
 `max(min(ceil(0.10 * canonical_ayah_count), 10), 4)`, together with the Neo
 ensemble network and stage-level checkpoints:
 
+As of 2026-07-22, 94 surahs are fully complete: S1, S8, S20–S102,
+S104–S107, S109, and S111–S114. S103, S108, and S110 are intentionally
+excluded because they contain only three canonical ayahs. The remaining 17
+surahs are S2–S7 and S9–S19.
+
+Run the remaining set with exactly one worker:
+
 ```bash
-python3 network/v3/run_corpus_candidates.py
+python3 network/v3/run_corpus_candidates.py \
+  --start-surah 2 --end-surah 19 --workers 1 --retry-failures
 ```
 
-The runner defaults to one worker. Audited short-surah ranges can use bounded
-parallelism; for example, the high-surah batch can use four workers while
-excluding the canonical three-ayah surahs:
-
-```bash
-python3 network/v3/run_corpus_candidates.py --start-surah 80 --end-surah 114 \
-  --workers 4 --skip-three-ayah-surahs
-```
+S3–S7 retain genuine `-9` sparse-assembly failure markers from a six-worker
+run, so `--retry-failures` is required. S9–S13 have both dense checkpoints,
+S14 has its dense-discovery checkpoint, and S2/S15–S19 have no completed
+stages. The runner reuses these checkpoints and skips already completed S8.
+Do not use parallel workers for the remaining range.
 
 Outputs go to `network/v3/experiments/corpus_neo_adaptive/s001…s114`; completed
 stage summaries are reused, failures are recorded and skipped, and no review
