@@ -66,8 +66,9 @@ against current Furūq branch boundaries before a distinction is published.
 Once Quran-SLM is rebuilt, its candidates can be added to the four affected
 master entries in a later editorial enrichment pass.
 
-`resources/furuq_v4.sqlite` is the older 18,781-clean-card input (SHA-256
-`318d7128a3b434d815eed0f0f926b7b79cd0c64a34566255c22288c5af87fca2`).
+`resources/furuq_v4.sqlite` is the older 18,781-clean-card input plus the
+QAC-only `ك ي ف` root-registry row needed by v12 finalization (SHA-256
+`01b46c9afaca3be76fd57dcc40c43c01011213c526cc90be887000767277fb6c`).
 The canonical input for a rebuild is
 `../dictionary/data/working/furuq_v4.sqlite` (SHA-256
 `1099db0d56515d2eb3e8d72f104f2e338c2c9a8c1fa6abbb046406d3b327e722`),
