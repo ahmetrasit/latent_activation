@@ -111,10 +111,10 @@ Their worker IDs were:
 - S009: `019f8d73-0f6b-7181-8c93-c0daeb7192e8`;
 - S036: `019f8d1b-1c01-7c30-9d6b-f603d2073768`.
 
-Close these worker sessions after the final commit is pushed. Continue using
-the multi-agent connector only; do not use `codex exec` for worker spawning.
-Production semantic workers use `gpt-5.6-sol` with high reasoning effort and
-no priority or service-tier override.
+These worker sessions are closed. Continue using the multi-agent connector only;
+do not use `codex exec` for worker spawning. Production semantic workers use
+`gpt-5.6-sol` with high reasoning effort and no priority or service-tier
+override.
 
 ## Current Implementation State
 
@@ -143,13 +143,13 @@ Verified:
 - 90 keys across 29 surahs require surgical review; 54 source occurrences are
   malformed or omit a machine-associated root.
 
-Still to execute before corpus close:
+Corpus close is complete:
 
-1. commit and push the final S005, S009, and S036 artifacts plus this status
-   update;
-2. close the completed S005, S009, and S036 worker sessions;
-3. run a full corpus reconciliation over output counts, manifest hashes, ayah
-   coverage, finding counts, and anchor materialization.
+- final S005, S009, and S036 artifacts plus status documentation are committed
+  and pushed;
+- completed publication and QA worker sessions are closed;
+- full corpus reconciliation passed over output counts, manifest hashes, ayah
+  coverage, finding counts, and anchor materialization.
 
 ## Publisher-Visible Size Audit
 
@@ -162,22 +162,23 @@ one ayah at a time, so the complete file set need not be active context at once.
 
 Do not resume the prepared S1 ayah tasks. They belong to the superseded design.
 
-## Next Resume Steps
+## Current Resume Point
 
-1. Verify the final commit containing S005, S009, and S036 is present on
-   `main`.
-2. Confirm no publication worker sessions remain open.
-3. Run the full 114-file corpus close audit:
+The Turkish v3 publication corpus is closed. Resume from downstream prose,
+dictionary, import, or presentation work rather than from publication
+orchestration.
 
-   - every expected output file exists exactly once;
-   - `_status/v12_cross_run/output/tr/` contains only
-     `*_ayah_findings_publication.json` files;
-   - every final file is compact one-line JSON;
-   - each final manifest hash matches its final publication and derived TSV;
-   - aggregate ayah, finding, anchor-row, and branch-link counts reconcile.
+The full 114-file corpus close audit verified:
+
+- every expected output file exists exactly once;
+- `_status/v12_cross_run/output/tr/` contains only
+  `*_ayah_findings_publication.json` files;
+- every final file is compact one-line JSON;
+- each final manifest hash matches its final publication and derived TSV;
+- aggregate ayah, finding, anchor-row, and branch-link counts reconcile.
 
 ## Production Readiness
 
 The deterministic contract is implemented and has been exercised across the
-complete Turkish publication run. Production readiness now depends on the full
-corpus close audit over all 114 final publication files.
+complete Turkish publication run. The Turkish v3 publication corpus is
+production-ready as a finalized artifact set.

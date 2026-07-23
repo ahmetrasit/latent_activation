@@ -1,14 +1,14 @@
 # S1 Cross-Run Decisions
 
-Last updated: 2026-07-21
+Last updated: 2026-07-23
 
 ## Phase Status
 
 - Phase 0 — provenance: complete.
 - Phase 1 — atomic source extraction: complete; 80 findings retained.
 - Ayah 1:6 — normalization through closed audit: complete.
-- Remaining S1 ayahs — normalization and adjudication: pending.
-- Corpus handoff: pending S1 and representative-surah calibration.
+- Remaining S1 ayahs — superseded by whole-surah v3 publication close.
+- Corpus handoff: complete through the 114-surah Turkish v3 publication corpus.
 
 ## D001 — TSVs are canonical
 

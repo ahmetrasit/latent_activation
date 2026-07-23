@@ -1,6 +1,6 @@
 # v12 Cross-Run Publication Workflow
 
-Status: deterministic workflow implemented; S1/S2 Agent A trials pending
+Status: deterministic workflow implemented; Turkish v3 publication corpus closed
 
 Scope: canonical regular v12 plus ±5 v12, both complete for S001-S114
 
@@ -59,5 +59,5 @@ agents.
 ## Legacy S1
 
 The current S1 ayah-scoped ledger is a historical calibration. Do not resume
-its prepared ayah tasks. The first new test is one fresh whole-surah S1
-publication followed by S2 as the largest input case.
+its prepared ayah tasks. The whole-surah publication pattern has completed
+across S001-S114, including S2 as the largest practical input case.

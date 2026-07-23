@@ -28,54 +28,44 @@ database with `validated_count=114` and `failed_count=0`.
 The Turkish v3 publication run is complete: all 114 final publication files
 exist under `_status/v12_cross_run/output/tr/`.
 
-Next steps:
-
-1. run the full 114-surah corpus close audit over final outputs, manifests,
-   ayah counts, finding counts, and anchor materialization;
-2. reconcile the final publication corpus with downstream import requirements;
-3. keep `_status/v12_cross_run/output/tr/` limited to final
-   `*_ayah_findings_publication.json` files only.
+The full 114-surah corpus close audit and downstream import reconciliation are
+complete. `_status/v12_cross_run/output/tr/` remains reserved for final
+`*_ayah_findings_publication.json` files only.
 
 The durable resume record is `_status/v12_cross_run/STATUS.md`. The normative
 runbook remains `_status/v12_cross_run/ORCHESTRATION.md`.
 
-## Dictionary and Quran-SLM Integration Status (2026-07-21)
+## Dictionary and Quran-SLM Integration Status (2026-07-23)
 
 For dictionary candidate discovery, use the comprehensive `v11` QNet audit and
 fix records as the integration authority. This is distinct from the semantic
 neighbor matrices in `../quran-slm`.
 
-An audit of both Quran-SLM global baseline/Neo pairs found that their rank
-artifacts are internally consistent but their shared catalogs predate four
-currently accepted, clean branch cards:
+The earlier Quran-SLM catalog gap for four accepted, clean branch cards is
+closed:
 
 - `root_000086/B011`
 - `root_000086/B012`
 - `root_000086/B014`
 - `root_001697/B002`
 
-These are **missing branch cards within already represented QAC-attested
-roots**, not missing roots and not Furūq-only roots. Because a Neo overlay uses
-its baseline catalog, it cannot recover an omitted card. The Qurʾan/QAC
-corpus-only pair must grow from 10,928 to 10,932 cards, and the combined
-Qurʾan/QAC + Furūq pair from 18,781 to 18,785. The Furūq-only catalog remains
+The Qurʾan/QAC corpus-only pair now includes 10,932 cards, and the combined
+Qurʾan/QAC + Furūq pair includes 18,785 cards. The Furūq-only catalog remains
 7,853 cards; root counts do not change.
 
-This gap does not block initial dictionary authoring. QNet remains a candidate
-discovery fallback, with different coverage for the four cards:
+QNet fallback coverage for those four cards is no longer a blocking production
+gap. The historical fallback map remains:
 
 | Focus card | Available QNet fallback |
 | --- | --- |
 | `root_000086/B011` | Exact port in the frozen snapshot: 8 core keywords, 8 bridge keywords, and 5 themes |
 | `root_000086/B012` | Exact port in the frozen snapshot: 7 core keywords, 9 bridge keywords, and 6 themes |
-| `root_001697/B002` | Exact thematic assignment in the comprehensive `v11` post-fix record; not yet in the frozen dictionary QNet database |
+| `root_001697/B002` | Exact thematic assignment in the comprehensive `v11` post-fix record |
 | `root_000086/B014` | No exact QNet port; only the represented root's QNet neighborhood and themes may be used as indirect candidates |
 
 QNet is a nomination source, not a substitute score for a missing Quran-SLM
 row. Indirect candidates must remain provenance-labeled and must be checked
 against current Furūq branch boundaries before a distinction is published.
-Once Quran-SLM is rebuilt, its candidates can be added to the four affected
-master entries in a later editorial enrichment pass.
 
 `resources/furuq_v4.sqlite` is the older 18,781-clean-card input plus QAC-only
 root-registry rows needed by v12 finalization (SHA-256
@@ -92,11 +82,9 @@ The comprehensive QNet completion record is
 It records a target state of 11,741 nodes and 74,615 branch-theme memberships,
 including 448 completed branch ports across 305 roots. The follow-up
 [`v11/audits/qnet-fk-repair-2026-07-19.json`](v11/audits/qnet-fk-repair-2026-07-19.json)
-repairs 52 bridge/theme foreign-key gaps. The absolute QNet output path recorded
-by those audits is not present in this checkout. Initial dictionary work can use
-the fallback policy above, but materialize and freeze the audited post-fix
-database before treating its repaired ports as an automated production QNet
-source; do not treat an older local QNet database as equivalent.
+repairs 52 bridge/theme foreign-key gaps. The audited post-fix QNet database has
+been materialized/frozen for production use; do not treat an older local QNet
+database as equivalent.
 
 ## Prose Architecture
 
