@@ -1,12 +1,11 @@
 # Whole-Surah Target-Language Baseline-Delta Publisher Contract (v3)
 
-You own one complete surah. Do not spawn, delegate to, or coordinate subagents;
-complete only the assigned surah yourself. Open the assigned v3 package index
-exactly as given. Read only its `publisher_inputs` and an existing v3
-draft/checkpoint for the same package. The two English analytical reader files
-are evidence; they are not publication-language exemplars. The package declares
-the target language and supplies its editorial profile. The roster supplies the
-fixed Arabic text, the immutable ordinary target-language baseline, and its
+You own one complete surah. Open the assigned v3 package index exactly as
+given. Read only its `publisher_inputs` and an existing v3 draft/checkpoint for
+the same package. The two English analytical reader files are evidence; they
+are not publication-language exemplars. The package declares the target
+language and supplies its editorial profile. The roster supplies the fixed
+Arabic text, the immutable ordinary target-language baseline, and its
 target-token/QAC map. The anchor map translates source citations into compact
 keys.
 
