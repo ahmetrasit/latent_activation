@@ -1,7 +1,7 @@
 # Prose Architecture
 
-This folder documents the target prose model for turning latent activation
-findings into Turkish user-facing reading layers.
+This folder documents the target prose model for turning lexical, dictionary,
+ayah-level, and network findings into Turkish user-facing reading layers.
 
 The core principle is:
 
@@ -9,9 +9,9 @@ The core principle is:
 Ayah first, channel later, evidence underneath.
 ```
 
-Do not treat the final prose as one monolithic essay. Build a canonical
-claim-and-evidence model first, then render different prose layers for different
-use cases.
+Do not treat the final prose as one monolithic essay, and do not merge every
+source into one undifferentiated finding pool. Build a canonical integration
+model first, then render different prose layers for different use cases.
 
 ## Problem
 
@@ -152,11 +152,41 @@ Two levels are useful:
 2. Technical details:
 
    ```text
-   roots, lemmas, branch IDs, v11/v12/v3 provenance, candidate bridges,
-   confidence/status, rejected alternatives
+   roots, lemmas, branch IDs, dictionary gloss choices, word-analysis topic IDs,
+   v11/v12_cross_run/v3/network provenance, confidence/status, rejected
+   alternatives
    ```
 
 This layer should not be auto-spoken in the normal listening flow.
+
+## Integration Model
+
+Each source keeps a distinct job. The prose layer reconciles them; it does not
+let one source silently overwrite another.
+
+```text
+dictionary    -> target-language gloss policy and branch-safe wording
+word_analysis -> per-word reader payoff from curated CRITICAL topics
+v12_cross_run -> curated ayah-level findings and publication anchors
+slm_local     -> cheap surah/pericope channel candidates and navigation priors
+v11           -> high-recall discovery reservoir
+v3            -> passage synthesis and prose rhythm support
+```
+
+The integrator should produce explicit records before prose:
+
+- word-gloss binding: the selected Turkish render/gloss range for each relevant
+  word/root/branch, backed by `../dictionary`;
+- word-payoff record: the validated `../word_analysis` word prose/topic payoff
+  and any ayah-commentary paragraph available for the ayah;
+- ayah claim: the accepted v12_cross_run publication finding or baseline
+  reading;
+- channel claim: reviewed `slm_local`, v11, or v3 passage/network movement;
+- evidence edge: the exact reason two records are allowed to support the same
+  rendered claim.
+
+This prevents a Frankenstein artifact: source material is normalized into typed
+records, conflicts are surfaced, and prose is rendered only from accepted records.
 
 ## Canonical Content Model
 
@@ -185,8 +215,12 @@ Fields:
 - exact word or phrase anchor;
 - supporting ayah anchors;
 - lexical/root/branch relation;
+- selected target-language gloss and dictionary entry/projection pointer when
+  available;
+- word-analysis topic/commentary pointer when available;
 - explanation of how it supports the claim;
-- provenance: `v11`, `v12`, `v3`;
+- provenance: `dictionary`, `word_analysis`, `v11`, `v12_cross_run`, `v3`,
+  `slm_local`;
 - editorial notes and counterevidence.
 
 ### Channel
@@ -203,6 +237,38 @@ Fields:
 
 ## Workflow Roles
 
+### Dictionary
+
+Use as the target-language lexical authority.
+
+Dictionary entries and projections contribute:
+
+- language-specific selected glosses and contextual glosses;
+- concept definitions, branch images, and what-is / what-is-not boundaries;
+- loss/addition/collision notes for Turkish render choices;
+- term/loanword handling and transliteration policy.
+
+Do not use dictionary entries to create new ayah claims by themselves. They
+control wording and lexical boundaries for claims established by v12_cross_run,
+word_analysis, or reviewed network evidence.
+
+### Word Analysis
+
+Use as the per-word reader-payoff layer.
+
+`../word_analysis` contributes:
+
+- validated word-level prose for each critical word;
+- surviving, narrowed, rejected, and dropped CRITICAL topic decisions;
+- local gloss ranges and root gloss ranges;
+- ayah-level commentary generated from the validated word output.
+
+Do not treat word_analysis as the same thing as v12_cross_run anchors, QAC
+attachments, or `finding_word_branches.tsv`. Those artifacts bind claims to
+words. Word_analysis explains what a reader can notice inside each word once
+CRITICAL topics have been curated against QAC, attachment, contextual, and V4
+evidence.
+
 ### v11
 
 Use as the high-recall discovery reservoir.
@@ -218,11 +284,11 @@ Do not use v11 Turkish prose as the source of truth. Use source artifacts such
 as final reports, mechanism files, secondary expansion files, and discovery
 ranking.
 
-### v12
+### v12_cross_run
 
 Use as the ayah-attached analytical control.
 
-v12 contributes:
+v12_cross_run contributes:
 
 - primary ayah thesis;
 - fixed-ayah anchoring;
@@ -230,7 +296,7 @@ v12 contributes:
 - retrospective surprises;
 - local context effects.
 
-v12 should be the primary source for `Dinle` and `Derinleş`.
+v12_cross_run should be the primary source for `Dinle` and `Derinleş`.
 
 ### v3
 
@@ -248,7 +314,8 @@ Do not use v3 publication prose as an exhaustive discovery source. Prefer
 
 ## Coverage Rule
 
-Every accepted finding from v11, v12, or v3 must be assigned one placement:
+Every accepted finding or source topic from dictionary, word_analysis, v11,
+v12_cross_run, v3, or `slm_local` must be assigned one placement:
 
 ```text
 spoken_core
@@ -310,7 +377,7 @@ Rules:
    A v11 surprise should enter `Dinle` only if it helps the user understand the
    focused ayah. Otherwise it belongs in a channel or evidence layer.
 
-4. Do not let v12 ayah anchoring prevent passage-level discovery.
+4. Do not let v12_cross_run ayah anchoring prevent passage-level discovery.
 
    Some findings are real only at pericope/surah scale. They should be served as
    channels, not forced into one ayah.
