@@ -76,7 +76,8 @@ Input bundle: `INPUT_BUNDLE_PATH`
 Do not copy prompt text, source excerpts, baseline rows, schemas, summaries,
 grading guidance, or coordinator commentary into the task. A resume receives
 the same two paths. One agent owns one complete surah; never delegate individual
-ayat.
+ayat. Surah agents must not spawn, delegate to, or coordinate subagents. Only
+the coordinator starts or closes agents.
 
 Agent runtime selection is coordinator-side only. Production semantic agents use
 `gpt-5.6-sol` with high reasoning effort. Set only the model and
