@@ -170,6 +170,7 @@ word_analysis -> per-word reader payoff from curated CRITICAL topics
 v12_cross_run -> curated ayah-level findings and publication anchors
 slm_local     -> cheap surah/pericope channel candidates and navigation priors
 v11           -> high-recall discovery reservoir
+neo_inter_surah -> similar-axis checks across other surahs
 v3            -> passage synthesis and prose rhythm support
 ```
 
@@ -181,7 +182,8 @@ The integrator should produce explicit records before prose:
   and any ayah-commentary paragraph available for the ayah;
 - ayah claim: the accepted v12_cross_run publication finding or baseline
   reading;
-- channel claim: reviewed `slm_local`, v11, or v3 passage/network movement;
+- channel claim: reviewed `slm_local`, v11, neo_inter_surah, or v3
+  passage/network movement;
 - evidence edge: the exact reason two records are allowed to support the same
   rendered claim.
 
@@ -219,8 +221,8 @@ Fields:
   available;
 - word-analysis topic/commentary pointer when available;
 - explanation of how it supports the claim;
-- provenance: `dictionary`, `word_analysis`, `v11`, `v12_cross_run`, `v3`,
-  `slm_local`;
+- provenance: `dictionary`, `word_analysis`, `v11`, `v12_cross_run`,
+  `neo_inter_surah`, `v3`, `slm_local`;
 - editorial notes and counterevidence.
 
 ### Channel
@@ -284,6 +286,24 @@ Do not use v11 Turkish prose as the source of truth. Use source artifacts such
 as final reports, mechanism files, secondary expansion files, and discovery
 ranking.
 
+### Neo Inter-Surah
+
+Use as the inter-surah similar-axis checker.
+
+Neo inter-surah analysis contributes:
+
+- whether a target surah/pericope channel has similar branch/root/path axes in
+  other surahs;
+- cross-surah corroboration for a reviewed channel;
+- warnings when a proposed local channel is probably a generic corpus pattern;
+- navigation candidates from one surah channel to comparable axes elsewhere.
+
+Do not use Neo inter-surah similarity as standalone proof for an ayah reading.
+It checks whether an already local claim has corpus relatives. It may strengthen
+`Kanallar`, provide `İzini Sür` evidence, or create cross-surah navigation, but
+it must not overwrite dictionary wording, word_analysis payoff, or
+v12_cross_run ayah claims.
+
 ### v12_cross_run
 
 Use as the ayah-attached analytical control.
@@ -315,7 +335,8 @@ Do not use v3 publication prose as an exhaustive discovery source. Prefer
 ## Coverage Rule
 
 Every accepted finding or source topic from dictionary, word_analysis, v11,
-v12_cross_run, v3, or `slm_local` must be assigned one placement:
+v12_cross_run, neo_inter_surah, v3, or `slm_local` must be assigned one
+placement:
 
 ```text
 spoken_core
