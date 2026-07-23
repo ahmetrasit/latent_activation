@@ -16,17 +16,28 @@ synthesis work. Later synthesis experiments should consider using them to
 compose a higher-level prose layer from `v11` and `v12` outputs, rather than
 treating those newer outputs as the final publication form by themselves.
 
-## v12 Turkish Baseline Status (2026-07-22)
+## v12 Turkish Publication Status (2026-07-23)
 
 The Turkish ordinary target-language baseline files are complete for all 114
 surahs. S1 uses the accepted pilot artifact, and S2-S114 have generated
 surah-level baseline artifacts and checkpoints under `_status/v12_cross_run/`.
 
 The full baseline set has passed structural validation against the frozen QAC
-database with `validated_count=114` and `failed_count=0`. The v12 cross-run
-workflow is ready for the next steps documented under `_status/`, especially
-the package, publication, audit, and finalization runbooks in
-`_status/v12_cross_run/`.
+database with `validated_count=114` and `failed_count=0`.
+
+The Turkish v3 publication run is complete: all 114 final publication files
+exist under `_status/v12_cross_run/output/tr/`.
+
+Next steps:
+
+1. run the full 114-surah corpus close audit over final outputs, manifests,
+   ayah counts, finding counts, and anchor materialization;
+2. reconcile the final publication corpus with downstream import requirements;
+3. keep `_status/v12_cross_run/output/tr/` limited to final
+   `*_ayah_findings_publication.json` files only.
+
+The durable resume record is `_status/v12_cross_run/STATUS.md`. The normative
+runbook remains `_status/v12_cross_run/ORCHESTRATION.md`.
 
 ## Dictionary and Quran-SLM Integration Status (2026-07-21)
 

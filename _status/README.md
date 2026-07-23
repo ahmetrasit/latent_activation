@@ -1,6 +1,6 @@
 # Project Status Workspace
 
-Last updated: 2026-07-22
+Last updated: 2026-07-23
 
 This directory is the durable control point for the v12 cross-run publication
 workflow. It does not replace canonical v12 sources or downstream prose.
@@ -49,4 +49,8 @@ this work.
 
 The existing S1 ayah-scoped artifacts are legacy calibration. The replacement
 package builder, binder extensions, Agent A/repair contracts, and finalizer are
-implemented; S1 and S2 model-run trials are the next production gate.
+implemented and have been exercised in the Turkish v3 publication run.
+
+Current resume point: all 114 Turkish final publication files are present under
+`v12_cross_run/output/tr/`. See
+[implementation status](v12_cross_run/STATUS.md) for corpus close-audit steps.

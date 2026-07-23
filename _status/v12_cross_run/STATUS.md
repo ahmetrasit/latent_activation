@@ -1,6 +1,6 @@
 # v12 Cross-Run Publication Status
 
-Checkpoint: 2026-07-22
+Checkpoint: 2026-07-23
 
 Read [ORCHESTRATION.md](ORCHESTRATION.md) first when resuming. It contains the
 current whole-surah direct-publication design.
@@ -82,6 +82,40 @@ currently materialized under this workspace.
 This work remains script-owned and coordinator-side. The publication agent
 does not consume, create, or align QAC and attachment identifiers.
 
+## Current Turkish Publication State
+
+As of this checkpoint, the Turkish v3 publication run has all 114 final
+publication files under `_status/v12_cross_run/output/tr/`.
+
+Complete and pushed:
+
+- S001-S009;
+- S010-S035;
+- S036;
+- S037-S114.
+
+No surah remains unfinalized.
+
+The final three completed publications were:
+
+- S005: 121 ayat, 190 findings, publication SHA-256
+  `f0fc70834a72d3ab8ea163c657cc6b1437a14d7b4d99b90a14044506a33bf7f0`;
+- S009: 129 ayat, 220 findings, publication SHA-256
+  `d9b3f75ea675142650e517a6daed4f761b942a5b0ce422419a4bbc3b5b19f3f7`;
+- S036: 84 ayat, 194 findings, publication SHA-256
+  `71b1958ac3dc0e9bda76806a0b08de8d9beab431f90327b4c45eb08933d899b7`.
+
+Their worker IDs were:
+
+- S005: `019f8d73-10af-78c2-a7da-f495fc6b6fbe`;
+- S009: `019f8d73-0f6b-7181-8c93-c0daeb7192e8`;
+- S036: `019f8d1b-1c01-7c30-9d6b-f603d2073768`.
+
+Close these worker sessions after the final commit is pushed. Continue using
+the multi-agent connector only; do not use `codex exec` for worker spawning.
+Production semantic workers use `gpt-5.6-sol` with high reasoning effort and
+no priority or service-tier override.
+
 ## Current Implementation State
 
 Implemented now:
@@ -109,13 +143,13 @@ Verified:
 - 90 keys across 29 surahs require surgical review; 54 source occurrences are
   malformed or omit a machine-associated root.
 
-Still to execute before production:
+Still to execute before corpus close:
 
-1. run Agent A on fresh whole-surah S1 and S2 packages;
-2. validate actual model output and resume behavior;
-3. resolve the eight missing QAC root-registry entries and any binder warnings;
-4. run the global anchor repair after all desired drafts;
-5. quarantine legacy production helpers only after output parity is demonstrated.
+1. commit and push the final S005, S009, and S036 artifacts plus this status
+   update;
+2. close the completed S005, S009, and S036 worker sessions;
+3. run a full corpus reconciliation over output counts, manifest hashes, ayah
+   coverage, finding counts, and anchor materialization.
 
 ## Publisher-Visible Size Audit
 
@@ -128,27 +162,22 @@ one ayah at a time, so the complete file set need not be active context at once.
 
 Do not resume the prepared S1 ayah tasks. They belong to the superseded design.
 
-## Next Test
+## Next Resume Steps
 
-After the implementation is aligned with the new documentation:
+1. Verify the final commit containing S005, S009, and S036 is present on
+   `main`.
+2. Confirm no publication worker sessions remain open.
+3. Run the full 114-file corpus close audit:
 
-1. build/refresh S1 linguistic bindings mechanically;
-2. give Agent A the complete S1 source package;
-3. have Agent A write the complete S1 publication;
-4. have Agent A reread both sources against the saved draft ayah by ayah and
-   correct its self-audit findings in place;
-5. record self-audit completion against the semantic draft hash;
-6. resolve any exception keys through the repair ledger;
-7. materialize and validate final anchors and linguistic bindings;
-8. commit the whole S1 result atomically.
-
-After S1 closes, test the same whole-surah pattern on S2. S2 is the largest
-practical input case and should use file access and incremental output, not
-ayah-agent sharding.
+   - every expected output file exists exactly once;
+   - `_status/v12_cross_run/output/tr/` contains only
+     `*_ayah_findings_publication.json` files;
+   - every final file is compact one-line JSON;
+   - each final manifest hash matches its final publication and derived TSV;
+   - aggregate ayah, finding, anchor-row, and branch-link counts reconcile.
 
 ## Production Readiness
 
-The deterministic contract is implemented and its corpus-wide source/anchor
-discovery passes. Production readiness now depends on the S1/S2 Agent A trials,
-closing the known root-registry/binder warnings, and exercising the global
-repair plus finalizer on real audited drafts.
+The deterministic contract is implemented and has been exercised across the
+complete Turkish publication run. Production readiness now depends on the full
+corpus close audit over all 114 final publication files.
