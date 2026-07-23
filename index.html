@@ -2,41 +2,28 @@
 <html lang="tr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0f172a">
-  <meta name="description" content="Latent Activation araştırma projesinin Türkçe ses kütüphanesi.">
-  <title>Latent Activation Ses Kütüphanesi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff1e5">
+  <meta name="description" content="v12 cross-run Türkçe yayın bulguları için statik GitHub Pages okuyucusu.">
+  <title>v12 Cross-Run Turkish Reader</title>
   <style>
     :root {
-      color-scheme: light dark;
-      --bg: #f4f7fb;
-      --surface: rgba(255,255,255,.88);
-      --surface-solid: #ffffff;
-      --text: #152033;
-      --muted: #667085;
-      --border: rgba(16,24,40,.12);
-      --accent: #2c5d87;
-      --accent-strong: #173f63;
-      --accent-soft: #e9f1f8;
-      --available: #177245;
-      --shadow: 0 12px 36px rgba(16,24,40,.10);
-      --player-height: 152px;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #09111f;
-        --surface: rgba(17,27,45,.90);
-        --surface-solid: #111b2d;
-        --text: #eef4fb;
-        --muted: #a7b2c5;
-        --border: rgba(255,255,255,.12);
-        --accent: #9bc7ea;
-        --accent-strong: #d8ecfb;
-        --accent-soft: #18344d;
-        --available: #6bd6a0;
-        --shadow: 0 18px 50px rgba(0,0,0,.34);
-      }
+      color-scheme: light;
+      --paper: #fff1e5;
+      --paper-deep: #f2dfce;
+      --ink: #262a33;
+      --muted: #66605c;
+      --rule: #d8c3ad;
+      --rule-strong: #b9a48f;
+      --accent: #990f3d;
+      --accent-dark: #7d0a31;
+      --teal: #0d7680;
+      --gold: #b3862c;
+      --green: #2f6f4e;
+      --white: #fffaf3;
+      --shadow: 0 18px 42px rgba(38, 42, 51, .12);
+      --serif: Georgia, "Times New Roman", Times, serif;
+      --sans: Metric, "Helvetica Neue", Arial, sans-serif;
     }
 
     * { box-sizing: border-box; }
@@ -44,1146 +31,767 @@
     body {
       margin: 0;
       min-height: 100vh;
-      background:
-        radial-gradient(circle at 15% -10%, rgba(79,132,177,.18), transparent 32rem),
-        var(--bg);
-      color: var(--text);
-      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      padding-bottom: calc(env(safe-area-inset-bottom) + 28px);
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      line-height: 1.45;
     }
 
     button, input, select { font: inherit; }
-    button, a { -webkit-tap-highlight-color: transparent; }
+    button { cursor: pointer; }
 
-    .shell {
-      width: min(1080px, calc(100% - 28px));
+    .masthead {
+      border-bottom: 1px solid var(--ink);
+      background: var(--paper);
+    }
+
+    .masthead-inner {
+      width: min(1320px, calc(100% - 28px));
       margin: 0 auto;
+      padding: 22px 0 16px;
     }
 
-    header {
-      padding: 42px 0 22px;
-    }
-
-    .eyebrow {
+    .kicker {
       margin: 0 0 8px;
       color: var(--accent);
-      font-size: .78rem;
+      font-size: .74rem;
       font-weight: 800;
-      letter-spacing: .12em;
+      letter-spacing: .08em;
       text-transform: uppercase;
     }
 
     h1 {
       margin: 0;
-      max-width: 780px;
-      font-family: ui-serif, Georgia, serif;
-      font-size: clamp(2.25rem, 8vw, 4.8rem);
-      line-height: .98;
-      letter-spacing: -.045em;
+      font-family: var(--serif);
+      font-size: clamp(2.1rem, 7vw, 5.9rem);
+      font-weight: 700;
+      line-height: .9;
+      letter-spacing: -.03em;
     }
 
-    .subtitle {
-      max-width: 660px;
-      margin: 16px 0 0;
+    .dek {
+      max-width: 780px;
+      margin: 14px 0 0;
       color: var(--muted);
-      font-size: clamp(1rem, 3vw, 1.2rem);
-      line-height: 1.55;
+      font-family: var(--serif);
+      font-size: clamp(1.05rem, 2.2vw, 1.32rem);
+    }
+
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .stat {
+      display: inline-flex;
+      gap: 8px;
+      align-items: baseline;
+      min-height: 32px;
+      padding: 5px 10px;
+      border: 1px solid var(--rule);
+      background: rgba(255, 250, 243, .5);
+      font-size: .88rem;
+      font-weight: 700;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .app {
+      width: min(1320px, calc(100% - 28px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1fr);
+      gap: 28px;
+      padding: 24px 0 42px;
+    }
+
+    .rail {
+      position: sticky;
+      top: 0;
+      align-self: start;
+      max-height: 100vh;
+      padding: 0 0 24px;
+      overflow: auto;
     }
 
     .toolbar {
-      position: sticky;
-      top: 0;
-      z-index: 20;
       display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
       gap: 10px;
-      padding: 10px 0;
-      background: color-mix(in srgb, var(--bg) 86%, transparent);
-      backdrop-filter: blur(18px);
-      -webkit-backdrop-filter: blur(18px);
+      padding-bottom: 14px;
+      background: var(--paper);
     }
 
-    .search-wrap {
-      position: relative;
+    .search {
+      width: 100%;
+      height: 42px;
+      border: 1px solid var(--rule-strong);
+      border-radius: 0;
+      background: var(--white);
+      color: var(--ink);
+      padding: 0 11px;
+      outline: none;
     }
 
-    .search-wrap span {
-      position: absolute;
-      left: 15px;
-      top: 50%;
-      transform: translateY(-50%);
-      pointer-events: none;
-      opacity: .62;
+    .search:focus {
+      border-color: var(--accent);
+      box-shadow: inset 0 -2px 0 var(--accent);
     }
 
-    input[type="search"] {
+    .select-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    select {
+      min-width: 0;
+      height: 38px;
+      border: 1px solid var(--rule-strong);
+      border-radius: 0;
+      background: var(--white);
+      color: var(--ink);
+      padding: 0 8px;
+    }
+
+    .surah-list {
+      display: grid;
+      border-top: 1px solid var(--rule-strong);
+    }
+
+    .surah-button {
+      display: grid;
+      grid-template-columns: 44px minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 10px;
       width: 100%;
       min-height: 48px;
-      border: 1px solid var(--border);
-      border-radius: 15px;
-      background: var(--surface);
-      color: var(--text);
-      padding: 0 16px 0 43px;
-      outline: none;
-      box-shadow: 0 5px 18px rgba(16,24,40,.04);
+      border: 0;
+      border-bottom: 1px solid var(--rule);
+      background: transparent;
+      color: var(--ink);
+      padding: 7px 4px;
+      text-align: left;
     }
 
-    input[type="search"]:focus {
-      border-color: var(--accent);
-      box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 18%, transparent);
+    .surah-button:hover,
+    .surah-button.active {
+      background: var(--paper-deep);
     }
 
-    .filter-button, .soft-button, .primary-button, .icon-button {
-      border: 1px solid var(--border);
-      border-radius: 15px;
-      background: var(--surface);
-      color: var(--text);
-      min-height: 48px;
-      padding: 0 15px;
-      font-weight: 750;
-      cursor: pointer;
+    .surah-no {
+      font-variant-numeric: tabular-nums;
+      color: var(--accent);
+      font-weight: 800;
     }
 
-    .filter-button[aria-pressed="true"],
-    .primary-button {
-      border-color: var(--accent);
-      background: var(--accent);
-      color: #fff;
+    .surah-name {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-family: var(--serif);
+      font-weight: 700;
     }
 
-    @media (prefers-color-scheme: dark) {
-      .filter-button[aria-pressed="true"],
-      .primary-button {
-        color: #07111c;
-      }
+    .surah-count {
+      color: var(--muted);
+      font-size: .78rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
     }
 
-    .status-row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 10px;
-      align-items: center;
-      margin: 13px 0 18px;
+    .reader {
+      min-width: 0;
+    }
+
+    .reader-top {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 18px;
+      align-items: end;
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 14px;
+      margin-bottom: 18px;
+    }
+
+    .surah-title {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(2rem, 4.6vw, 4rem);
+      line-height: .96;
+      letter-spacing: -.02em;
+    }
+
+    .meta {
+      margin-top: 8px;
       color: var(--muted);
       font-size: .92rem;
     }
 
-    .resume-banner {
-      display: none;
-      align-items: center;
-      justify-content: space-between;
-      gap: 14px;
-      margin: 8px 0 18px;
-      padding: 15px;
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      background: var(--surface);
-      box-shadow: var(--shadow);
-    }
-
-    .resume-banner.visible { display: flex; }
-    .resume-banner strong { display: block; }
-    .resume-banner small { color: var(--muted); }
-
-    .surah-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-      gap: 11px;
-      padding-bottom: 44px;
-    }
-
-    .surah-card {
-      position: relative;
-      display: grid;
-      grid-template-columns: 48px 1fr;
-      gap: 12px;
-      align-items: center;
-      min-height: 86px;
-      width: 100%;
-      padding: 14px;
-      text-align: left;
-      color: var(--text);
-      border: 1px solid var(--border);
-      border-radius: 19px;
-      background: var(--surface);
-      box-shadow: 0 5px 20px rgba(16,24,40,.04);
-      cursor: pointer;
-      transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
-    }
-
-    .surah-card:active { transform: scale(.985); }
-    .surah-card.available:hover {
-      border-color: color-mix(in srgb, var(--accent) 58%, var(--border));
-      box-shadow: var(--shadow);
-      transform: translateY(-2px);
-    }
-    .surah-card.unavailable {
-      cursor: default;
-      opacity: .58;
-    }
-
-    .number {
-      display: grid;
-      place-items: center;
-      width: 48px;
-      height: 48px;
-      border-radius: 16px;
-      background: var(--accent-soft);
-      color: var(--accent-strong);
-      font-weight: 850;
-      font-variant-numeric: tabular-nums;
-    }
-
-    .surah-card strong {
-      display: block;
-      line-height: 1.2;
-    }
-
-    .availability {
-      display: block;
-      margin-top: 7px;
-      color: var(--muted);
-      font-size: .78rem;
-      font-weight: 700;
-    }
-
-    .available .availability { color: var(--available); }
-
-    .detail-view { display: none; padding-bottom: 50px; }
-    .detail-view.visible { display: block; }
-    .library-view.hidden { display: none; }
-
-    .detail-top {
-      padding: 25px 0 16px;
-    }
-
-    .back-button {
-      display: inline-flex;
-      align-items: center;
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
       gap: 8px;
-      border: 0;
-      background: transparent;
-      color: var(--accent);
-      font-weight: 800;
-      padding: 10px 0;
-      cursor: pointer;
     }
 
-    .detail-heading {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 16px;
-      align-items: flex-end;
-      margin-top: 12px;
-    }
-
-    .detail-heading h2 {
-      margin: 0;
-      font-family: ui-serif, Georgia, serif;
-      font-size: clamp(2rem, 7vw, 3.8rem);
-      letter-spacing: -.04em;
-      line-height: 1;
-    }
-
-    .detail-heading p {
-      margin: 8px 0 0;
-      color: var(--muted);
-    }
-
-    .detail-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 9px;
-    }
-
-    .soft-button, .primary-button {
+    .link-button,
+    .nav-button {
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      min-height: 36px;
+      border: 1px solid var(--ink);
+      background: var(--paper);
+      color: var(--ink);
+      padding: 0 10px;
       text-decoration: none;
-    }
-
-    .track-list {
-      display: grid;
-      gap: 8px;
-      margin-top: 19px;
-    }
-
-    .track-row {
-      display: grid;
-      grid-template-columns: 46px minmax(0,1fr) auto;
-      gap: 11px;
-      align-items: center;
-      width: 100%;
-      padding: 11px;
-      border: 1px solid var(--border);
-      border-radius: 17px;
-      background: var(--surface);
-      color: var(--text);
-      text-align: left;
-      font: inherit;
-      cursor: pointer;
-      -webkit-appearance: none;
-      appearance: none;
-    }
-
-    .track-row:active { transform: scale(.993); }
-    .track-row:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); }
-
-    .play-track {
-      display: grid;
-      place-items: center;
-      width: 42px;
-      height: 42px;
-      border-radius: 50%;
-      background: var(--accent-soft);
-      color: var(--accent-strong);
-      font-size: 1rem;
-      cursor: pointer;
-    }
-
-    .track-row.playing {
-      border-color: var(--accent);
-      box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 12%, transparent);
-    }
-
-    .track-title {
-      min-width: 0;
-      font-weight: 730;
-      overflow-wrap: anywhere;
-    }
-
-    .track-file {
-      display: block;
-      color: var(--muted);
-      font-size: .75rem;
-      margin-top: 4px;
-      font-weight: 500;
-    }
-
-    .track-action {
-      color: var(--accent);
       font-size: .86rem;
-      font-weight: 850;
-      white-space: nowrap;
-      padding: 10px 7px;
+      font-weight: 800;
     }
 
-    .empty, .error-box {
-      padding: 24px;
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      background: var(--surface);
-      color: var(--muted);
-      line-height: 1.55;
+    .link-button:hover,
+    .nav-button:hover:not(:disabled) {
+      background: var(--ink);
+      color: var(--paper);
     }
 
-    .error-box { color: #b42318; }
-
-    .player {
-      position: fixed;
-      z-index: 50;
-      left: 50%;
-      bottom: max(10px, env(safe-area-inset-bottom));
-      width: min(760px, calc(100% - 20px));
-      transform: translate(-50%, calc(100% + 50px));
-      opacity: 0;
-      pointer-events: none;
-      padding: 13px 14px;
-      border: 1px solid var(--border);
-      border-radius: 23px;
-      background: color-mix(in srgb, var(--surface-solid) 94%, transparent);
-      box-shadow: 0 18px 60px rgba(0,0,0,.24);
-      backdrop-filter: blur(22px);
-      -webkit-backdrop-filter: blur(22px);
-      transition: transform .25s ease, opacity .25s ease;
+    .nav-button:disabled {
+      cursor: default;
+      opacity: .42;
     }
 
-    .player.visible {
-      transform: translate(-50%, 0);
-      opacity: 1;
-      pointer-events: auto;
+    .ayah-nav {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      margin: 18px 0;
+      padding: 10px;
+      border: 1px solid var(--rule);
+      background: rgba(255, 250, 243, .58);
     }
 
-    .now-playing {
-      display: flex;
-      justify-content: space-between;
+    .range-wrap {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
       gap: 12px;
       align-items: center;
-      margin-bottom: 8px;
     }
 
-    .now-playing-text {
-      min-width: 0;
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--accent);
     }
 
-    .now-playing-text strong {
-      display: block;
-      overflow: hidden;
-      text-overflow: ellipsis;
+    .position {
+      color: var(--muted);
+      font-size: .86rem;
+      font-weight: 800;
+      font-variant-numeric: tabular-nums;
       white-space: nowrap;
     }
 
-    .now-playing-text small {
+    .ayah {
+      display: grid;
+      grid-template-columns: 112px minmax(0, 1fr);
+      gap: 24px;
+      min-height: 500px;
+      border-top: 1px solid var(--rule-strong);
+      border-bottom: 1px solid var(--rule-strong);
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .ayah-side {
+      border-right: 1px solid var(--rule);
+      padding: 22px 14px;
+      background: var(--paper-deep);
+    }
+
+    .ayah-ref {
+      font-family: var(--serif);
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .ayah-kind {
+      margin-top: 8px;
       color: var(--muted);
+      font-size: .76rem;
+      font-weight: 800;
+      text-transform: uppercase;
     }
 
-    .player audio {
-      width: 100%;
-      height: 44px;
+    .ayah-main {
+      min-width: 0;
+      padding: 24px 24px 28px 0;
     }
 
-    .player-controls {
+    .baseline-label,
+    .findings-label {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: .74rem;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .baseline {
+      margin: 0;
+      max-width: 900px;
+      font-family: var(--serif);
+      font-size: clamp(1.45rem, 3.1vw, 2.35rem);
+      line-height: 1.18;
+    }
+
+    .tokens {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 7px;
+      gap: 5px;
+      margin-top: 16px;
     }
 
-    .player-group {
-      display: flex;
-      align-items: center;
-      gap: 7px;
+    .token {
+      border: 1px solid var(--rule);
+      background: var(--paper);
+      padding: 3px 6px;
+      color: var(--muted);
+      font-size: .78rem;
     }
 
-    .icon-button {
-      min-height: 38px;
-      border-radius: 12px;
-      padding: 0 12px;
+    .findings {
+      margin-top: 28px;
+      display: grid;
+      gap: 12px;
     }
 
-    select {
-      min-height: 38px;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      background: var(--surface-solid);
-      color: var(--text);
-      padding: 0 8px;
+    .finding {
+      display: grid;
+      grid-template-columns: 92px minmax(0, 1fr);
+      gap: 14px;
+      border-top: 1px solid var(--rule);
+      padding-top: 13px;
     }
 
-    .toggle-label {
+    .grade {
+      align-self: start;
       display: inline-flex;
-      align-items: center;
-      gap: 7px;
-      font-size: .82rem;
-      color: var(--muted);
-      font-weight: 700;
+      justify-content: center;
+      min-width: 76px;
+      border: 1px solid var(--ink);
+      padding: 4px 7px;
+      font-size: .75rem;
+      font-weight: 900;
+      text-transform: uppercase;
     }
 
-    .zip-status {
-      width: 100%;
+    .grade.strong { background: var(--ink); color: var(--paper); }
+    .grade.weak { border-color: var(--gold); color: #6f5215; background: #f5e6be; }
+    .grade.reject { border-color: var(--accent); color: var(--accent); background: #f8d6de; }
+
+    .finding-text {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: 1.12rem;
+      line-height: 1.42;
+    }
+
+    .anchors {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
       margin-top: 9px;
+    }
+
+    .anchor {
+      display: inline-flex;
+      gap: 5px;
+      border: 1px solid var(--rule);
+      background: var(--paper);
+      padding: 3px 6px;
       color: var(--muted);
-      font-size: .84rem;
+      font-size: .75rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
     }
 
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0,0,0,0);
-      white-space: nowrap;
-      border: 0;
+    .empty {
+      border-top: 1px solid var(--rule);
+      padding-top: 13px;
+      color: var(--muted);
+      font-family: var(--serif);
+      font-size: 1.05rem;
     }
 
-    @media (max-width: 560px) {
-      header { padding-top: 30px; }
-      .toolbar { grid-template-columns: 1fr; }
-      .filter-button { width: 100%; }
-      .surah-grid { grid-template-columns: 1fr; }
-      .detail-actions { width: 100%; }
-      .detail-actions > * { flex: 1 1 140px; }
-      .track-row { grid-template-columns: 43px minmax(0,1fr) auto; }
-      .track-action { padding-right: 2px; }
-      .resume-banner { align-items: flex-start; flex-direction: column; }
-      .player-controls { align-items: stretch; }
-      .player-group { justify-content: space-between; flex: 1 1 100%; }
+    .footer-note {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: .86rem;
     }
 
-    body.has-player { padding-bottom: calc(var(--player-height) + env(safe-area-inset-bottom)); }
+    .error {
+      border: 2px solid var(--accent);
+      background: #f8d6de;
+      padding: 16px;
+      font-weight: 800;
+    }
+
+    @media (max-width: 860px) {
+      .app {
+        display: block;
+      }
+
+      .rail {
+        position: static;
+        max-height: none;
+        margin-bottom: 18px;
+      }
+
+      .surah-list {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 1px;
+        border: 1px solid var(--rule);
+        background: var(--rule);
+      }
+
+      .surah-button {
+        min-height: 44px;
+        border: 0;
+        background: var(--paper);
+      }
+
+      .reader-top {
+        grid-template-columns: 1fr;
+      }
+
+      .links {
+        justify-content: flex-start;
+      }
+
+      .ayah {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+
+      .ayah-side {
+        border-right: 0;
+        border-bottom: 1px solid var(--rule);
+        padding: 16px;
+      }
+
+      .ayah-main {
+        padding: 18px 16px 24px;
+      }
+
+      .finding {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+    }
   </style>
 </head>
 <body>
-  <main class="shell">
-    <section id="libraryView" class="library-view">
-      <header>
-        <p class="eyebrow">Latent Activation</p>
-        <h1>Ses Kütüphanesi</h1>
-        <p class="subtitle">Latent Activation araştırma projesinin sesli yayınlarını dinleyin. Yeni sûrelerin MP3 klasörleri depoya eklendiğinde burada otomatik olarak görünür.</p>
-      </header>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <p class="kicker">v12 cross-run</p>
+      <h1>Turkish publication reader</h1>
+      <p class="dek">Ayah-level baseline text and contextual-root findings, rendered from the committed final JSON corpus.</p>
+      <div class="stats" id="stats">
+        <span class="stat"><b>Loading</b><span>corpus</span></span>
+      </div>
+    </div>
+  </header>
 
+  <main class="app">
+    <aside class="rail">
       <div class="toolbar">
-        <label class="search-wrap">
-          <span aria-hidden="true">⌕</span>
-          <span class="sr-only">Sûrelerde ara</span>
-          <input id="searchInput" type="search" placeholder="Numara veya sûre adına göre ara" autocomplete="off">
-        </label>
-        <button id="availableToggle" class="filter-button" type="button" aria-pressed="false">Yalnızca hazır olanlar</button>
-      </div>
-
-      <div id="resumeBanner" class="resume-banner">
-        <div>
-          <strong id="resumeTitle">Dinlemeye devam et</strong>
-          <small id="resumeSubtitle"></small>
+        <input class="search" id="search" type="search" placeholder="Surah, ayah, text, root" autocomplete="off">
+        <div class="select-row">
+          <select id="gradeFilter" aria-label="Grade filter">
+            <option value="all">All grades</option>
+            <option value="strong">Strong</option>
+            <option value="weak">Weak</option>
+            <option value="reject">Reject</option>
+            <option value="empty">No findings</option>
+          </select>
+          <select id="surahSelect" aria-label="Surah select"></select>
         </div>
-        <button id="resumeButton" class="primary-button" type="button">Devam et</button>
       </div>
+      <nav class="surah-list" id="surahList" aria-label="Surah list"></nav>
+    </aside>
 
-      <div class="status-row">
-        <span id="statusText">Ses dosyaları kontrol ediliyor…</span>
-        <span id="apiNote"></span>
-      </div>
-
-      <div id="surahGrid" class="surah-grid" aria-live="polite"></div>
-    </section>
-
-    <section id="detailView" class="detail-view">
-      <div class="detail-top">
-        <button id="backButton" class="back-button" type="button">← Tüm sûreler</button>
-        <div class="detail-heading">
-          <div>
-            <p id="detailEyebrow" class="eyebrow">Sûre</p>
-            <h2 id="detailTitle"></h2>
-            <p id="detailMeta"></p>
-          </div>
-          <div class="detail-actions">
-            <a id="githubFolderLink" class="soft-button" target="_blank" rel="noopener">GitHub klasörünü aç</a>
-            <button id="zipButton" class="primary-button" type="button">Tümünü ZIP olarak indir</button>
-          </div>
-        </div>
-        <div id="zipStatus" class="zip-status" aria-live="polite"></div>
-      </div>
-      <div id="trackList" class="track-list"></div>
+    <section class="reader" id="reader" aria-live="polite">
+      <div class="error">Loading publication corpus...</div>
     </section>
   </main>
 
-  <aside id="player" class="player" aria-label="Ses oynatıcı">
-    <div class="now-playing">
-      <div class="now-playing-text">
-        <strong id="nowPlayingTitle">Bir bölüm seçin</strong>
-        <small id="nowPlayingSurah"></small>
-      </div>
-    </div>
-    <audio id="audio" controls preload="metadata" playsinline controlslist="nodownload"></audio>
-    <div class="player-controls">
-      <div class="player-group">
-        <button id="prevButton" class="icon-button" type="button">Önceki</button>
-        <button id="nextButton" class="icon-button" type="button">Sonraki</button>
-      </div>
-      <div class="player-group">
-        <label class="toggle-label">
-          Hız
-          <select id="speedSelect" aria-label="Oynatma hızı">
-            <option value="0.75">0.75×</option>
-            <option value="1">1×</option>
-            <option value="1.25">1.25×</option>
-            <option value="1.5">1.5×</option>
-            <option value="1.75">1.75×</option>
-            <option value="2">2×</option>
-          </select>
-        </label>
-        <label class="toggle-label">
-          <input id="autoNext" type="checkbox" checked>
-          Otomatik devam
-        </label>
-      </div>
-    </div>
-  </aside>
-
   <script>
-    "use strict";
-
-    const CONFIG = {
-      owner: "ahmetrasit",
-      repo: "latent_activation",
-      branch: "main",
-      audioRoot: "_audio/audio",
-      cacheMinutes: 30
-    };
-
-    const SURAH_NAMES = [
-      "Fâtiha","Bakara","Âl-i İmrân","Nisâ","Mâide","En'âm","A'râf","Enfâl","Tevbe","Yûnus",
-      "Hûd","Yûsuf","Ra'd","İbrâhim","Hicr","Nahl","İsrâ","Kehf","Meryem","Tâhâ",
-      "Enbiyâ","Hac","Mü'minûn","Nûr","Furkân","Şuarâ","Neml","Kasas","Ankebût","Rûm",
-      "Lokmân","Secde","Ahzâb","Sebe","Fâtır","Yâsîn","Sâffât","Sâd","Zümer","Gâfir",
-      "Fussilet","Şûrâ","Zuhruf","Duhân","Câsiye","Ahkâf","Muhammed","Fetih","Hucurât","Kâf",
-      "Zâriyât","Tûr","Necm","Kamer","Rahmân","Vâkıa","Hadîd","Mücâdele","Haşr","Mümtehine",
-      "Saff","Cuma","Münâfikûn","Tegâbün","Talâk","Tahrîm","Mülk","Kalem","Hâkka","Meâric",
-      "Nûh","Cin","Müzzemmil","Müddessir","Kıyâmet","İnsan","Mürselât","Nebe","Nâziât","Abese",
-      "Tekvîr","İnfitâr","Mutaffifîn","İnşikâk","Bürûc","Târık","A'lâ","Gâşiye","Fecr","Beled",
-      "Şems","Leyl","Duhâ","İnşirâh","Tîn","Alak","Kadr","Beyyine","Zilzâl","Âdiyât",
-      "Kâria","Tekâsür","Asr","Hümeze","Fîl","Kureyş","Mâûn","Kevser","Kâfirûn","Nasr",
-      "Tebbet (Mesed)","İhlâs","Felak","Nâs"
-    ];
-
-    const surahs = SURAH_NAMES.map((name, index) => ({
-      number: index + 1,
-      code: `S${String(index + 1).padStart(3, "0")}`,
-      name,
-      available: false
-    }));
+    const SURAHS = [
+      "Fatiha","Bakara","Al-i İmran","Nisa","Maide","Enam","Araf","Enfal","Tevbe","Yunus","Hud","Yusuf","Rad","İbrahim","Hicr","Nahl","İsra","Kehf","Meryem","Taha","Enbiya","Hac","Muminun","Nur","Furkan","Şuara","Neml","Kasas","Ankebut","Rum","Lokman","Secde","Ahzab","Sebe","Fatır","Yasin","Saffat","Sad","Zumer","Mumin","Fussilet","Şura","Zuhruf","Duhan","Casiye","Ahkaf","Muhammed","Fetih","Hucurat","Kaf","Zariyat","Tur","Necm","Kamer","Rahman","Vakia","Hadid","Mucadele","Haşr","Mumtehine","Saff","Cuma","Munafikun","Tegabun","Talak","Tahrim","Mulk","Kalem","Hakka","Mearic","Nuh","Cin","Muzzemmil","Muddessir","Kıyamet","İnsan","Murselat","Nebe","Naziat","Abese","Tekvir","İnfitar","Mutaffifin","İnşikak","Buruc","Tarık","Ala","Gaşiye","Fecr","Beled","Şems","Leyl","Duha","İnşirah","Tin","Alak","Kadir","Beyyine","Zilzal","Adiyat","Karia","Tekasur","Asr","Humeze","Fil","Kureyş","Maun","Kevser","Kafirun","Nasr","Tebbet","İhlas","Felak","Nas"
+    ].map((name, i) => ({ n: i + 1, name }));
 
     const state = {
+      corpus: new Map(),
+      currentSurah: 1,
+      currentAyah: 0,
       query: "",
-      availableOnly: false,
-      currentSurah: null,
-      tracks: [],
-      currentTrackIndex: -1,
-      availableCodes: new Set()
+      grade: "all"
     };
 
-    const els = {
-      libraryView: document.getElementById("libraryView"),
-      detailView: document.getElementById("detailView"),
-      searchInput: document.getElementById("searchInput"),
-      availableToggle: document.getElementById("availableToggle"),
-      statusText: document.getElementById("statusText"),
-      apiNote: document.getElementById("apiNote"),
-      surahGrid: document.getElementById("surahGrid"),
-      backButton: document.getElementById("backButton"),
-      detailEyebrow: document.getElementById("detailEyebrow"),
-      detailTitle: document.getElementById("detailTitle"),
-      detailMeta: document.getElementById("detailMeta"),
-      githubFolderLink: document.getElementById("githubFolderLink"),
-      zipButton: document.getElementById("zipButton"),
-      zipStatus: document.getElementById("zipStatus"),
-      trackList: document.getElementById("trackList"),
-      player: document.getElementById("player"),
-      audio: document.getElementById("audio"),
-      nowPlayingTitle: document.getElementById("nowPlayingTitle"),
-      nowPlayingSurah: document.getElementById("nowPlayingSurah"),
-      prevButton: document.getElementById("prevButton"),
-      nextButton: document.getElementById("nextButton"),
-      speedSelect: document.getElementById("speedSelect"),
-      autoNext: document.getElementById("autoNext"),
-      resumeBanner: document.getElementById("resumeBanner"),
-      resumeTitle: document.getElementById("resumeTitle"),
-      resumeSubtitle: document.getElementById("resumeSubtitle"),
-      resumeButton: document.getElementById("resumeButton")
-    };
+    const $ = (id) => document.getElementById(id);
+    const outputPath = (n) => `_status/v12_cross_run/output/tr/${n}_ayah_findings_publication.json`;
+    const workspacePath = (n, file) => `_status/v12_cross_run/s${String(n).padStart(3, "0")}/${file}`;
 
-    function apiUrl(path) {
-      const encodedPath = path.split("/").map(encodeURIComponent).join("/");
-      return `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/contents/${encodedPath}?ref=${encodeURIComponent(CONFIG.branch)}`;
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      }[char]));
     }
 
-    function githubFolderUrl(path) {
-      return `https://github.com/${CONFIG.owner}/${CONFIG.repo}/tree/${CONFIG.branch}/${path}`;
+    function gradeLabel(grade) {
+      return grade === "strong" ? "Strong" : grade === "weak" ? "Weak" : "Reject";
     }
 
-    function rawFileUrl(path) {
-      const encodedPath = path.split("/").map(encodeURIComponent).join("/");
-      return `https://raw.githubusercontent.com/${CONFIG.owner}/${CONFIG.repo}/${encodeURIComponent(CONFIG.branch)}/${encodedPath}`;
-    }
-
-    function cacheGet(key) {
-      try {
-        const raw = localStorage.getItem(key);
-        if (!raw) return null;
-        const value = JSON.parse(raw);
-        const maxAge = CONFIG.cacheMinutes * 60 * 1000;
-        if (!value.savedAt || Date.now() - value.savedAt > maxAge) {
-          localStorage.removeItem(key);
-          return null;
-        }
-        return value.data;
-      } catch {
-        return null;
-      }
-    }
-
-    function cacheSet(key, data) {
-      try {
-        localStorage.setItem(key, JSON.stringify({ savedAt: Date.now(), data }));
-      } catch {
-        // Private browsing or a full storage quota should not break playback.
-      }
-    }
-
-    async function fetchJson(url) {
-      const response = await fetch(url, {
-        headers: { "Accept": "application/vnd.github+json" }
-      });
-      if (!response.ok) {
-        const rateRemaining = response.headers.get("x-ratelimit-remaining");
-        if (response.status === 403 && rateRemaining === "0") {
-          throw new Error("GitHub’ın herkese açık API sınırına ulaşıldı. Daha sonra yeniden deneyin; mevcut önbellek kullanılmaya devam edebilir.");
-        }
-        if (response.status === 404) {
-          throw new Error("Beklenen ses klasörü bulunamadı.");
-        }
-        throw new Error(`GitHub ${response.status} durum kodunu döndürdü.`);
-      }
-      return response.json();
-    }
-
-    async function discoverAvailableSurahs() {
-      const cacheKey = "la-audio-root-v1";
-      let entries = cacheGet(cacheKey);
-
-      try {
-        if (!entries) {
-          entries = await fetchJson(apiUrl(CONFIG.audioRoot));
-          cacheSet(cacheKey, entries);
-        }
-
-        state.availableCodes = new Set(
-          entries
-            .filter(item => item.type === "dir" && /^S\d{3}$/.test(item.name))
-            .map(item => item.name)
-        );
-
-        surahs.forEach(surah => {
-          surah.available = state.availableCodes.has(surah.code);
-        });
-
-        const count = surahs.filter(surah => surah.available).length;
-        els.statusText.textContent = `114 sûreden ${count} tanesinin ses klasörü hazır.`;
-        els.apiNote.textContent = "Liste otomatik olarak yenilenir.";
-      } catch (error) {
-        els.statusText.textContent = "Ses kütüphanesi yenilenemedi.";
-        els.apiNote.textContent = error.message;
-      }
-
-      renderSurahs();
-      showResume();
-    }
-
-    function renderSurahs() {
-      const normalizedQuery = state.query.trim().toLowerCase();
-      const filtered = surahs.filter(surah => {
-        const matchesQuery =
-          !normalizedQuery ||
-          surah.name.toLowerCase().includes(normalizedQuery) ||
-          String(surah.number).includes(normalizedQuery) ||
-          surah.code.toLowerCase().includes(normalizedQuery);
-        const matchesAvailability = !state.availableOnly || surah.available;
-        return matchesQuery && matchesAvailability;
-      });
-
-      els.surahGrid.replaceChildren();
-
-      if (!filtered.length) {
-        const empty = document.createElement("div");
-        empty.className = "empty";
-        empty.textContent = "Bu aramayla eşleşen sûre bulunamadı.";
-        els.surahGrid.append(empty);
-        return;
-      }
-
-      filtered.forEach(surah => {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = `surah-card ${surah.available ? "available" : "unavailable"}`;
-        button.disabled = !surah.available;
-        button.setAttribute("aria-label", surah.available
-          ? `${surah.number}. sûreyi aç: ${surah.name}`
-          : `${surah.number}. sûre, ${surah.name}; yakında`
-        );
-
-        const number = document.createElement("span");
-        number.className = "number";
-        number.textContent = String(surah.number).padStart(3, "0");
-
-        const copy = document.createElement("span");
-        const title = document.createElement("strong");
-        title.textContent = surah.name;
-        const availability = document.createElement("span");
-        availability.className = "availability";
-        availability.textContent = surah.available ? "Ses hazır · Dinle" : "Yakında";
-        copy.append(title, availability);
-
-        button.append(number, copy);
-        if (surah.available) {
-          button.addEventListener("click", () => openSurah(surah));
-        }
-        els.surahGrid.append(button);
+    function flattenSurah(data) {
+      return data.ayat.map((ayah) => {
+        const findingText = ayah.findings.map((f) => f.text).join(" ");
+        const anchors = ayah.findings
+          .flatMap((f) => f.anchors)
+          .map((a) => `${a[0]} ${a[1]} ${a[2].join(" ")}`)
+          .join(" ");
+        return `${ayah.ayah_ref} ${ayah.baseline.text} ${findingText} ${anchors}`.toLocaleLowerCase("tr");
       });
     }
 
-    async function openSurah(surah, requestedTrackName = null, requestedTime = 0) {
-      state.currentSurah = surah;
-      state.currentTrackIndex = -1;
-      state.tracks = [];
+    async function loadCorpus() {
+      const responses = await Promise.all(SURAHS.map(async ({ n }) => {
+        const response = await fetch(outputPath(n), { cache: "no-store" });
+        if (!response.ok) throw new Error(`S${String(n).padStart(3, "0")} could not load`);
+        const data = await response.json();
+        data._search = flattenSurah(data);
+        state.corpus.set(n, data);
+        return data;
+      }));
+      return responses;
+    }
 
-      els.libraryView.classList.add("hidden");
-      els.detailView.classList.add("visible");
-      els.detailEyebrow.textContent = `Sûre ${String(surah.number).padStart(3, "0")}`;
-      els.detailTitle.textContent = surah.name;
-      els.detailMeta.textContent = "MP3 bölümleri yükleniyor…";
-      els.githubFolderLink.href = githubFolderUrl(`${CONFIG.audioRoot}/${surah.code}/sections/mp3`);
-      els.trackList.innerHTML = '<div class="empty">Ses dosyaları yükleniyor…</div>';
-      els.zipStatus.textContent = "";
-      window.scrollTo({ top: 0, behavior: "auto" });
+    function getVisibleAyahIndexes(data) {
+      const q = state.query.trim().toLocaleLowerCase("tr");
+      return data.ayat
+        .map((ayah, index) => ({ ayah, index }))
+        .filter(({ ayah, index }) => {
+          if (state.grade === "empty" && ayah.findings.length !== 0) return false;
+          if (state.grade !== "all" && state.grade !== "empty" && !ayah.findings.some((f) => f.grade === state.grade)) return false;
+          if (q && !data._search[index].includes(q)) return false;
+          return true;
+        })
+        .map(({ index }) => index);
+    }
 
-      try {
-        const path = `${CONFIG.audioRoot}/${surah.code}/sections/mp3`;
-        const cacheKey = `la-tracks-${surah.code}-v1`;
-        let entries = cacheGet(cacheKey);
-
-        if (!entries) {
-          entries = await fetchJson(apiUrl(path));
-          cacheSet(cacheKey, entries);
-        }
-
-        const manifestCacheKey = `la-manifest-${surah.code}-v1`;
-        let manifest = cacheGet(manifestCacheKey);
-        if (!manifest) {
-          try {
-            manifest = await fetchJson(rawFileUrl(`${CONFIG.audioRoot}/${surah.code}/manifest.json`));
-            cacheSet(manifestCacheKey, manifest);
-          } catch (error) {
-            console.warn(`${surah.code} manifest başlıkları alınamadı; dosya adları kullanılacak.`, error);
-            manifest = null;
+    function renderStats() {
+      const loaded = state.corpus.size;
+      let ayat = 0, findings = 0, strong = 0, weak = 0, reject = 0;
+      for (const data of state.corpus.values()) {
+        ayat += data.ayat.length;
+        for (const ayah of data.ayat) {
+          findings += ayah.findings.length;
+          for (const finding of ayah.findings) {
+            if (finding.grade === "strong") strong += 1;
+            if (finding.grade === "weak") weak += 1;
+            if (finding.grade === "reject") reject += 1;
           }
         }
+      }
+      $("stats").innerHTML = [
+        ["Surahs", `${loaded}/114`],
+        ["Ayah rows", ayat.toLocaleString("en-US")],
+        ["Findings", findings.toLocaleString("en-US")],
+        ["Strong", strong.toLocaleString("en-US")],
+        ["Weak", weak.toLocaleString("en-US")],
+        ["Reject", reject.toLocaleString("en-US")]
+      ].map(([label, value]) => `<span class="stat"><b>${value}</b><span>${label}</span></span>`).join("");
+    }
 
-        const sectionMetadata = new Map(
-          (Array.isArray(manifest?.sections) ? manifest.sections : [])
-            .filter(section => section && typeof section.mp3 === "string")
-            .map(section => [section.mp3.split("/").pop(), section])
-        );
+    function renderSurahControls() {
+      $("surahSelect").innerHTML = SURAHS
+        .map(({ n, name }) => `<option value="${n}">${n}. ${escapeHtml(name)}</option>`)
+        .join("");
 
-        state.tracks = entries
-          .filter(item => item.type === "file" && /\.mp3$/i.test(item.name))
-          .map(item => {
-            const metadata = sectionMetadata.get(item.name) || {};
-            return {
-              name: item.name,
-              url: item.download_url,
-              size: item.size,
-              title: typeof metadata.title === "string" ? metadata.title.trim() : "",
-              sectionIndex: metadata.sectionIndex != null && Number.isFinite(Number(metadata.sectionIndex))
-                ? Number(metadata.sectionIndex)
-                : null,
-              durationSeconds: metadata.durationSeconds != null && Number.isFinite(Number(metadata.durationSeconds))
-                ? Number(metadata.durationSeconds)
-                : null
-            };
-          })
-          .sort((a, b) => {
-            if (a.sectionIndex !== null && b.sectionIndex !== null) return a.sectionIndex - b.sectionIndex;
-            return a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: "base" });
-          });
+      $("surahList").innerHTML = SURAHS.map(({ n, name }) => {
+        const data = state.corpus.get(n);
+        const findings = data ? data.ayat.reduce((sum, ayah) => sum + ayah.findings.length, 0) : 0;
+        return `<button class="surah-button${n === state.currentSurah ? " active" : ""}" data-surah="${n}">
+          <span class="surah-no">${String(n).padStart(3, "0")}</span>
+          <span class="surah-name">${escapeHtml(name)}</span>
+          <span class="surah-count">${findings}</span>
+        </button>`;
+      }).join("");
 
-        const titledCount = state.tracks.filter(track => track.title).length;
-        els.detailMeta.textContent = titledCount
-          ? `${state.tracks.length} sesli bölüm · ${titledCount} bölüm başlığı`
-          : `${state.tracks.length} MP3 bölümü`;
-        renderTracks();
+      $("surahSelect").value = String(state.currentSurah);
+    }
 
-        if (requestedTrackName) {
-          const index = state.tracks.findIndex(track => track.name === requestedTrackName);
-          if (index >= 0) {
-            await playTrack(index, requestedTime);
-          }
+    function renderReader() {
+      const data = state.corpus.get(state.currentSurah);
+      if (!data) return;
+
+      const surah = SURAHS[state.currentSurah - 1];
+      const visible = getVisibleAyahIndexes(data);
+      if (!visible.includes(state.currentAyah)) state.currentAyah = visible[0] ?? 0;
+      const visiblePosition = Math.max(0, visible.indexOf(state.currentAyah));
+      const ayah = data.ayat[state.currentAyah];
+      const previous = visible[visiblePosition - 1];
+      const next = visible[visiblePosition + 1];
+      const totalFindings = data.ayat.reduce((sum, item) => sum + item.findings.length, 0);
+
+      $("reader").innerHTML = `
+        <div class="reader-top">
+          <div>
+            <h2 class="surah-title">${state.currentSurah}. ${escapeHtml(surah.name)}</h2>
+            <div class="meta">${data.ayat.length} ayah row · ${totalFindings} findings · ${visible.length} visible</div>
+          </div>
+          <div class="links">
+            <a class="link-button" href="${outputPath(state.currentSurah)}">final JSON</a>
+            <a class="link-button" href="${workspacePath(state.currentSurah, "publication_manifest.v3.json")}">manifest</a>
+            <a class="link-button" href="${workspacePath(state.currentSurah, "publication.v3.draft.json")}">draft</a>
+            <a class="link-button" href="${workspacePath(state.currentSurah, "self_audit.v3.json")}">audit</a>
+          </div>
+        </div>
+
+        <div class="ayah-nav">
+          <button class="nav-button" id="prevAyah" ${previous === undefined ? "disabled" : ""}>Previous</button>
+          <div class="range-wrap">
+            <input id="ayahRange" type="range" min="0" max="${Math.max(0, visible.length - 1)}" value="${visiblePosition}" ${visible.length ? "" : "disabled"}>
+            <span class="position">${visible.length ? visiblePosition + 1 : 0}/${visible.length}</span>
+          </div>
+          <button class="nav-button" id="nextAyah" ${next === undefined ? "disabled" : ""}>Next</button>
+        </div>
+
+        ${visible.length ? renderAyah(ayah) : `<div class="error">No ayah matches the current filters.</div>`}
+
+        <div class="footer-note">Source: ${escapeHtml(outputPath(state.currentSurah))}</div>
+      `;
+
+      $("prevAyah")?.addEventListener("click", () => {
+        if (previous !== undefined) {
+          state.currentAyah = previous;
+          renderReader();
         }
-      } catch (error) {
-        els.detailMeta.textContent = "Ses kullanılamıyor";
-        els.trackList.innerHTML = "";
-        const box = document.createElement("div");
-        box.className = "error-box";
-        box.textContent = error.message;
-        els.trackList.append(box);
-      }
-    }
-
-    function cleanTrackTitle(filename) {
-      const withoutExtension = filename.replace(/\.mp3$/i, "");
-      const spaced = withoutExtension.replace(/[_-]+/g, " ").replace(/\s+/g, " ").trim();
-      return spaced || filename;
-    }
-
-    function displayTrackTitle(track) {
-      return track?.title || cleanTrackTitle(track?.name || "MP3");
-    }
-
-    function formatBytes(bytes) {
-      if (!Number.isFinite(bytes) || bytes <= 0) return "";
-      const units = ["B", "KB", "MB", "GB"];
-      const index = Math.min(Math.floor(Math.log(bytes) / Math.log(1024)), units.length - 1);
-      return `${(bytes / Math.pow(1024, index)).toFixed(index === 0 ? 0 : 1)} ${units[index]}`;
-    }
-
-    function renderTracks() {
-      els.trackList.replaceChildren();
-
-      if (!state.tracks.length) {
-        const empty = document.createElement("div");
-        empty.className = "empty";
-        empty.textContent = "Bu klasörde MP3 dosyası bulunamadı.";
-        els.trackList.append(empty);
-        return;
-      }
-
-      state.tracks.forEach((track, index) => {
-        const row = document.createElement("button");
-        row.type = "button";
-        row.className = "track-row";
-        row.dataset.trackIndex = String(index);
-        row.setAttribute("aria-label", `Oynat: ${displayTrackTitle(track)}`);
-        row.addEventListener("click", () => playTrack(index));
-
-        const play = document.createElement("span");
-        play.className = "play-track";
-        play.setAttribute("aria-hidden", "true");
-        play.textContent = "▶";
-
-        const copy = document.createElement("span");
-        const title = document.createElement("span");
-        title.className = "track-title";
-        title.textContent = displayTrackTitle(track);
-        const file = document.createElement("span");
-        file.className = "track-file";
-        const sectionLabel = track.sectionIndex !== null ? `Bölüm ${track.sectionIndex}` : "";
-        const durationLabel = track.durationSeconds !== null ? formatTime(track.durationSeconds) : "";
-        file.textContent = [sectionLabel, durationLabel, track.name, formatBytes(track.size)].filter(Boolean).join(" · ");
-        copy.append(title, file);
-
-        const action = document.createElement("span");
-        action.className = "track-action";
-        action.textContent = "Oynat";
-
-        row.append(play, copy, action);
-        els.trackList.append(row);
       });
-
-      updatePlayingRow();
-    }
-
-    async function playTrack(index, startTime = 0) {
-      const track = state.tracks[index];
-      if (!track || !state.currentSurah) return;
-
-      const sameTrack = state.currentTrackIndex === index && els.audio.src === track.url;
-      if (sameTrack && !els.audio.paused) {
-        els.audio.pause();
-        return;
-      }
-
-      state.currentTrackIndex = index;
-
-      if (!sameTrack) {
-        els.audio.src = track.url;
-        els.audio.load();
-      }
-
-      els.nowPlayingTitle.textContent = displayTrackTitle(track);
-      els.nowPlayingSurah.textContent = `${state.currentSurah.number}. sûre · ${state.currentSurah.name}`;
-      els.player.classList.add("visible");
-      document.body.classList.add("has-player");
-      updatePlayingRow();
-
-      if (startTime > 0) {
-        const setTime = () => {
-          if (Number.isFinite(els.audio.duration)) {
-            els.audio.currentTime = Math.min(startTime, Math.max(0, els.audio.duration - 1));
-          } else {
-            els.audio.currentTime = startTime;
-          }
-        };
-        if (els.audio.readyState >= 1) setTime();
-        else els.audio.addEventListener("loadedmetadata", setTime, { once: true });
-      }
-
-      try {
-        await els.audio.play();
-      } catch (error) {
-        els.nowPlayingTitle.textContent = "Oynatma başlatılamadı";
-        els.nowPlayingSurah.textContent = "Oynat düğmesine yeniden dokunun.";
-        console.error(error);
-      }
-      saveProgress();
-    }
-
-    function updatePlayingRow() {
-      document.querySelectorAll(".track-row").forEach(row => {
-        const active = Number(row.dataset.trackIndex) === state.currentTrackIndex;
-        row.classList.toggle("playing", active);
-        const icon = row.querySelector(".play-track");
-        const action = row.querySelector(".track-action");
-        const isPlaying = active && !els.audio.paused;
-        if (icon) icon.textContent = isPlaying ? "❚❚" : "▶";
-        if (action) action.textContent = isPlaying ? "Duraklat" : "Oynat";
-        row.setAttribute("aria-label", `${isPlaying ? "Duraklat" : "Oynat"}: ${row.querySelector(".track-title")?.textContent || "MP3"}`);
-        row.setAttribute("aria-pressed", String(isPlaying));
-      });
-    }
-
-    function playAdjacent(offset) {
-      if (!state.tracks.length) return;
-      const nextIndex = state.currentTrackIndex + offset;
-      if (nextIndex >= 0 && nextIndex < state.tracks.length) {
-        playTrack(nextIndex);
-      }
-    }
-
-    function saveProgress() {
-      if (!state.currentSurah || state.currentTrackIndex < 0) return;
-      const track = state.tracks[state.currentTrackIndex];
-      if (!track) return;
-      try {
-        localStorage.setItem("la-audio-progress-v1", JSON.stringify({
-          surahCode: state.currentSurah.code,
-          trackName: track.name,
-          trackTitle: displayTrackTitle(track),
-          time: Number.isFinite(els.audio.currentTime) ? els.audio.currentTime : 0,
-          rate: els.audio.playbackRate,
-          savedAt: Date.now()
-        }));
-      } catch {
-        // Playback should continue even when local storage is unavailable.
-      }
-    }
-
-    function readProgress() {
-      try {
-        return JSON.parse(localStorage.getItem("la-audio-progress-v1") || "null");
-      } catch {
-        return null;
-      }
-    }
-
-    function showResume() {
-      const progress = readProgress();
-      if (!progress || !state.availableCodes.has(progress.surahCode)) return;
-
-      const surah = surahs.find(item => item.code === progress.surahCode);
-      if (!surah) return;
-
-      els.resumeTitle.textContent = `${surah.name} sûresine devam et`;
-      els.resumeSubtitle.textContent = `${progress.trackTitle || cleanTrackTitle(progress.trackName)} · ${formatTime(progress.time)}`;
-      els.resumeButton.onclick = () => {
-        els.speedSelect.value = String(progress.rate || 1);
-        els.audio.playbackRate = Number(progress.rate || 1);
-        openSurah(surah, progress.trackName, progress.time || 0);
-      };
-      els.resumeBanner.classList.add("visible");
-    }
-
-    function formatTime(seconds) {
-      const safe = Math.max(0, Number(seconds) || 0);
-      const minutes = Math.floor(safe / 60);
-      const remaining = Math.floor(safe % 60);
-      return `${minutes}:${String(remaining).padStart(2, "0")}`;
-    }
-
-    function closeDetail() {
-      els.detailView.classList.remove("visible");
-      els.libraryView.classList.remove("hidden");
-      window.scrollTo({ top: 0, behavior: "auto" });
-    }
-
-    async function ensureJSZip() {
-      if (window.JSZip) return;
-      await new Promise((resolve, reject) => {
-        const script = document.createElement("script");
-        script.src = "https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js";
-        script.onload = resolve;
-        script.onerror = () => reject(new Error("ZIP oluşturma bileşeni yüklenemedi."));
-        document.head.append(script);
-      });
-    }
-
-    async function downloadCurrentSurahAsZip() {
-      if (!state.currentSurah || !state.tracks.length) return;
-
-      els.zipButton.disabled = true;
-      els.zipStatus.textContent = "ZIP hazırlanıyor… Bu sayfayı açık tutun.";
-
-      try {
-        await ensureJSZip();
-        const zip = new JSZip();
-        const folder = zip.folder(`${state.currentSurah.code}-${state.currentSurah.name.replace(/[^a-z0-9]+/gi, "-")}-mp3`);
-
-        for (let index = 0; index < state.tracks.length; index += 1) {
-          const track = state.tracks[index];
-          els.zipStatus.textContent = `${state.tracks.length} dosyadan ${index + 1}. dosya alınıyor: ${track.name}`;
-          const response = await fetch(track.url);
-          if (!response.ok) throw new Error(`${track.name} alınamadı.`);
-          folder.file(track.name, await response.blob());
+      $("nextAyah")?.addEventListener("click", () => {
+        if (next !== undefined) {
+          state.currentAyah = next;
+          renderReader();
         }
+      });
+      $("ayahRange")?.addEventListener("input", (event) => {
+        state.currentAyah = visible[Number(event.target.value)];
+        renderReader();
+      });
+    }
 
-        els.zipStatus.textContent = "Dosyalar sıkıştırılıyor…";
-        const blob = await zip.generateAsync(
-          { type: "blob", compression: "STORE" },
-          metadata => {
-            els.zipStatus.textContent = `Dosyalar sıkıştırılıyor… ${Math.round(metadata.percent)}%`;
-          }
-        );
+    function renderAyah(ayah) {
+      const isSynthetic = ayah.ayah_ref.endsWith(":0");
+      const tokens = ayah.baseline.target_tokens || [];
+      return `
+        <article class="ayah">
+          <aside class="ayah-side">
+            <div class="ayah-ref">${escapeHtml(ayah.ayah_ref)}</div>
+            <div class="ayah-kind">${isSynthetic ? "Basmalah" : "Ayah"}</div>
+          </aside>
+          <div class="ayah-main">
+            <p class="baseline-label">Baseline</p>
+            <p class="baseline">${escapeHtml(ayah.baseline.text)}</p>
+            <div class="tokens">
+              ${tokens.map(([surface, refs]) => `<span class="token">${escapeHtml(surface)} · ${escapeHtml(refs.join(","))}</span>`).join("")}
+            </div>
 
-        const objectUrl = URL.createObjectURL(blob);
-        const link = document.createElement("a");
-        link.href = objectUrl;
-        link.download = `${state.currentSurah.code}-sections-mp3.zip`;
-        document.body.append(link);
-        link.click();
-        link.remove();
-        setTimeout(() => URL.revokeObjectURL(objectUrl), 60_000);
-        els.zipStatus.textContent = "ZIP oluşturuldu. iPhone’da Safari İndirilenler bölümünü veya Dosyalar uygulamasını kontrol edin.";
+            <div class="findings">
+              <p class="findings-label">Findings</p>
+              ${ayah.findings.length ? ayah.findings.map(renderFinding).join("") : `<div class="empty">No contextual findings for this ayah.</div>`}
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderFinding(finding) {
+      return `
+        <section class="finding">
+          <span class="grade ${escapeHtml(finding.grade)}">${gradeLabel(finding.grade)}</span>
+          <div>
+            <p class="finding-text">${escapeHtml(finding.text)}</p>
+            <div class="anchors">
+              ${finding.anchors.map((anchor) => `<span class="anchor"><b>${escapeHtml(anchor[0])}</b><span>${escapeHtml(anchor[1])}</span><span>${escapeHtml(anchor[2].join("+"))}</span></span>`).join("")}
+            </div>
+          </div>
+        </section>
+      `;
+    }
+
+    function bindEvents() {
+      $("search").addEventListener("input", (event) => {
+        state.query = event.target.value;
+        renderReader();
+      });
+      $("gradeFilter").addEventListener("change", (event) => {
+        state.grade = event.target.value;
+        renderReader();
+      });
+      $("surahSelect").addEventListener("change", (event) => {
+        setSurah(Number(event.target.value));
+      });
+      $("surahList").addEventListener("click", (event) => {
+        const button = event.target.closest("[data-surah]");
+        if (button) setSurah(Number(button.dataset.surah));
+      });
+      window.addEventListener("keydown", (event) => {
+        if (event.target.matches("input, select, textarea")) return;
+        const data = state.corpus.get(state.currentSurah);
+        if (!data) return;
+        const visible = getVisibleAyahIndexes(data);
+        const pos = visible.indexOf(state.currentAyah);
+        if (event.key === "ArrowLeft" && pos > 0) {
+          state.currentAyah = visible[pos - 1];
+          renderReader();
+        }
+        if (event.key === "ArrowRight" && pos < visible.length - 1) {
+          state.currentAyah = visible[pos + 1];
+          renderReader();
+        }
+      });
+    }
+
+    function setSurah(n) {
+      state.currentSurah = n;
+      state.currentAyah = 0;
+      renderSurahControls();
+      renderReader();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    async function init() {
+      try {
+        await loadCorpus();
+        renderStats();
+        renderSurahControls();
+        bindEvents();
+        renderReader();
       } catch (error) {
-        els.zipStatus.textContent = `${error.message} Çok büyük ses kümelerinin bilgisayardan indirilmesi gerekebilir.`;
-      } finally {
-        els.zipButton.disabled = false;
+        $("reader").innerHTML = `<div class="error">${escapeHtml(error.message)}. GitHub Pages must serve underscore directories; this repo includes .nojekyll for that.</div>`;
       }
     }
 
-    els.searchInput.addEventListener("input", event => {
-      state.query = event.target.value;
-      renderSurahs();
-    });
-
-    els.availableToggle.addEventListener("click", () => {
-      state.availableOnly = !state.availableOnly;
-      els.availableToggle.setAttribute("aria-pressed", String(state.availableOnly));
-      renderSurahs();
-    });
-
-    els.backButton.addEventListener("click", closeDetail);
-    els.prevButton.addEventListener("click", () => playAdjacent(-1));
-    els.nextButton.addEventListener("click", () => playAdjacent(1));
-    els.zipButton.addEventListener("click", downloadCurrentSurahAsZip);
-
-    els.speedSelect.addEventListener("change", () => {
-      els.audio.playbackRate = Number(els.speedSelect.value);
-      saveProgress();
-    });
-
-    els.audio.addEventListener("play", updatePlayingRow);
-    els.audio.addEventListener("pause", () => {
-      updatePlayingRow();
-      saveProgress();
-    });
-    els.audio.addEventListener("ended", () => {
-      saveProgress();
-      if (els.autoNext.checked) playAdjacent(1);
-    });
-    els.audio.addEventListener("ratechange", () => {
-      if (String(els.audio.playbackRate) !== els.speedSelect.value) {
-        els.speedSelect.value = String(els.audio.playbackRate);
-      }
-    });
-
-    let lastProgressSave = 0;
-    els.audio.addEventListener("timeupdate", () => {
-      if (Date.now() - lastProgressSave > 5000) {
-        lastProgressSave = Date.now();
-        saveProgress();
-      }
-    });
-
-    document.addEventListener("visibilitychange", () => {
-      if (document.hidden) saveProgress();
-    });
-
-    discoverAvailableSurahs();
+    init();
   </script>
 </body>
 </html>
