@@ -78,6 +78,12 @@ grading guidance, or coordinator commentary into the task. A resume receives
 the same two paths. One agent owns one complete surah; never delegate individual
 ayat.
 
+Agent runtime selection is coordinator-side only. Production semantic agents use
+`gpt-5.6-sol` with high reasoning effort. Set only the model and
+reasoning-effort fields; do not request an elevated or priority service tier
+for baseline authors, publishers, repair agents, or batch production agents.
+Use the default service tier.
+
 Baseline-author prompt:
 
 ```text
