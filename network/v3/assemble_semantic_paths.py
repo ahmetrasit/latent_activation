@@ -435,7 +435,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--surah", type=int, required=True)
     parser.add_argument("--quran-slm", default="../quran-slm")
     parser.add_argument("--quran-roots", default="../quran-roots")
-    parser.add_argument("--network-artifact-dir", default="artifacts/surah_networks_global")
+    parser.add_argument("--network-artifact-dir", default="artifacts/surah_networks_global_ensemble")
     parser.add_argument("--surah-resource-dir", default="artifacts/corpus_network/surah_resources")
     parser.add_argument("--family-input-dir", help="optional v3 output base containing s###/families")
     parser.add_argument("--output-dir", default="network/v3/output")

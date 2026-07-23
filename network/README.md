@@ -90,13 +90,17 @@ Use `network/v3/` when the goal is open-ended channel discovery rather than
 checking support for the predefined `slm_local` domains.
 
 ```bash
-python3 network/v3/run_corpus_candidates.py
+python3 network/v3/run_corpus_candidates.py --skip-three-ayah-surahs
 ```
 
-The corpus runner uses the Neo ensemble, a five-ayah minimum where possible,
-no candidate/path caps, stage-level resume, and exactly one surah worker at a
-time; outputs go to `network/v3/experiments/corpus_neo_min5/` and no agents are
-launched during generation.
+The current adaptive corpus package is complete under
+`network/v3/experiments/corpus_neo_adaptive/`: all 111 eligible surahs have
+dense candidates, dense families, sparse paths, and sparse path families. S103,
+S108, and S110 are intentionally excluded because they contain only three
+canonical ayahs. The runner uses the Neo ensemble, no candidate/path caps,
+stage-level resume, and the adaptive minimum ayah span
+`max(min(ceil(0.10 * canonical_ayah_count), 10), 4)`. No agents are launched
+during generation.
 
 `v3` first mines graph clusters from the surah-local SLM network, attaches Qnet
 facets as labels, consolidates dense families, and separately assembles sparse
