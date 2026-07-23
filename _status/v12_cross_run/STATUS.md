@@ -73,12 +73,11 @@ tokens to 77,852 QAC words and 128,976 morphemes.
 
 The branch database is not a complete QAC root registry. Exact
 `source_root_norm` matching resolves normalized-root collisions without an
-arbitrary choice. The `ك ي ف` root is now covered by a QAC-only registry row.
-Seven QAC roots covering nine word occurrences still have no database
-`root_id`: `ل ف و` (3), plus the singletons `ء د د`, `ث ب ي`, `س ن ه`,
-`ش م ز`, `ق ض ض`, and `ل و ت`. These remain explicit coordinator warnings
-until the root registry is extended. S1 and S10 linguistic caches are currently
-materialized under this workspace.
+arbitrary choice, and normalized/canonical fallback covers many remaining
+spelling differences. The previously blocking binder-warning roots are now
+covered by QAC-only registry rows: `ك ي ف`, `ل ف و`, `ء د د`, `ث ب ي`,
+`س ن ه`, `ش م ز`, `ق ض ض`, and `ل و ت`. S1 and S10 linguistic caches are
+currently materialized under this workspace.
 
 This work remains script-owned and coordinator-side. The publication agent
 does not consume, create, or align QAC and attachment identifiers.
