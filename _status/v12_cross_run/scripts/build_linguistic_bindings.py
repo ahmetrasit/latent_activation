@@ -827,6 +827,16 @@ def resolve_endpoint_morpheme(
         candidates = [piece for piece in pieces if piece["pos"] in {"P", "PRP"}]
         if len(candidates) == 1:
             return candidates[0]
+    surface_keys = canonical_surface_variants(raw.get(f"{prefix}_surface", ""))
+    if surface_keys:
+        candidates = [
+            piece
+            for piece in pieces
+            if canonical_surface_variants(piece["surface_ar"]).intersection(surface_keys)
+            or canonical_surface_variants(piece["lemma_ar"]).intersection(surface_keys)
+        ]
+        if len(candidates) == 1:
+            return candidates[0]
     if root:
         candidates = [piece for piece in pieces if canonical_root(piece["root"]) == root]
         if len(candidates) == 1:
@@ -869,6 +879,11 @@ def resolve_attachment_word(
 ) -> tuple[dict[str, str] | None, str]:
     word_index = position_map.get(position)
     if word_index is None:
+        derived = derived_units.get(position)
+        if derived is not None:
+            for word in words.values():
+                if word["word_id"] == derived["word_id"]:
+                    return word, "derived_morpheme_unit"
         return None, "unresolved"
     word = words[word_index]
     derived = derived_units.get(position)
