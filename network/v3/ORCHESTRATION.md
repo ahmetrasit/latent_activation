@@ -24,41 +24,46 @@ it does not classify evidence into the eight predefined `slm_local` domains.
 - Output: `network/v3/experiments/corpus_neo_adaptive/s###/`.
 - Failure handling: record the failed stage, skip that surah, and continue.
 - Review handling: generate families only; agent adjudication happens later.
+  Review-agent spawns must leave priority tier / `service_tier` unset.
 
-## Current checkpoint status (2026-07-22)
+## Current checkpoint status (2026-07-23)
 
-The adaptive corpus has 94 fully completed surahs:
+The adaptive corpus is generated for all 111 eligible surahs:
 
-- S1 and S8.
-- S20 through S102.
-- S104 through S107, S109, and S111 through S114.
+- S1 through S102.
+- S104 through S107.
+- S109.
+- S111 through S114.
 
 The three canonical three-ayah surahs, S103, S108, and S110, are intentionally
 excluded and are not pending work.
 
-Seventeen surahs remain: S2 through S7 and S9 through S19. Their checkpoints
-are:
+Completion is defined by the four final summaries for each eligible surah:
 
-- S2 and S15 through S19: no completed stages.
-- S3 through S7: dense discovery and dense consolidation are complete; sparse
-  assembly was killed with return code `-9` during the six-worker run. Their
-  `stage_failure.json` files are genuine resource-failure records.
-- S9 through S13: both dense stages are complete; sparse assembly was stopped
-  by the user before its summary checkpoint was written.
-- S14: dense discovery is complete; dense consolidation was stopped before its
-  summary checkpoint was written.
+1. Dense discovery: `s###/summary.json`.
+2. Dense consolidation: `s###/families/consolidation_summary.json`.
+3. Sparse assembly: `s###/paths/path_summary.json`.
+4. Sparse consolidation: `s###/paths/path_families/path_family_summary.json`.
 
-Run every remaining surah with exactly one worker. Do not use parallel workers
-for this range: six-worker sparse assembly produced the S3–S7 OOM failures.
+Current aggregate generated counts:
+
+- 89,199 dense candidates.
+- 11,572 dense families.
+- 4,157,715 sparse paths.
+- 457,281 sparse path families.
+
+No corpus-generation stages are currently pending. The next project step is
+blind hierarchical review/adjudication using hydrated review bundles.
+
+For an ordinary verification or resume pass, run:
 
 ```bash
-python3 network/v3/run_corpus_candidates.py \
-  --start-surah 2 --end-surah 19 --workers 1 --retry-failures
+python3 network/v3/run_corpus_candidates.py --skip-three-ayah-surahs
 ```
 
-The runner will reuse every completed stage, retry the genuine S3–S7 failure
-markers, skip completed S8, and resume or start the other pending surahs. The
-same command is safe to rerun after an interruption.
+Historical `stage_failure.user_stop.json` markers may remain in S9 through S14
+from the 2026-07-22 interrupted run, but they are superseded by the final
+summary checkpoints and are retained only as audit records.
 
 ## General resume behavior
 
@@ -70,8 +75,8 @@ python3 network/v3/run_corpus_candidates.py
 
 The runner processes S1 through S114 sequentially by default and resumes at
 stage level; existing completion markers are authoritative, so already
-completed work is not regenerated. For the current pending inventory, use the
-single-worker S2–S19 command above rather than a whole-corpus invocation.
+completed work is not regenerated. Use `--skip-three-ayah-surahs` for normal
+whole-corpus verification so S103, S108, and S110 are not rebuilt.
 
 A `s###/stage_failure.json` marker prevents a known resource failure from being
 retried on every ordinary resume; retry one deliberately only with
@@ -89,10 +94,9 @@ python3 network/v3/run_corpus_candidates.py --dry-run
 ```
 
 `--workers N` runs at most `N` surahs concurrently while keeping each surah's
-four stages sequential. Parallelism was used for already completed shorter
-ranges, but must not be used for the remaining S2–S19 work. Do not launch
-multiple runner processes; the single runner owns the output lock and
-coordinates its workers.
+four stages sequential. Use one worker for long-surah rebuilds unless the range
+has been audited for memory use. Do not launch multiple runner processes; the
+single runner owns the output lock and coordinates its workers.
 
 `--skip-three-ayah-surahs` reads the canonical catalog and excludes S103, S108,
 and S110 before creating their output directories.
@@ -115,8 +119,8 @@ S2 was the largest historical min-5 exception: its uncapped assembly produced
 The memory-bounded consolidator completed that historical checkpoint with
 685,764 similarity edges and 25,617 path families; the obsolete failure marker
 is retained only as `stage_failure.pre_memory_fix.json` for audit. The current
-adaptive S2 build, which uses `min_ayahs=10`, is still pending and must run
-alone as the first item in the single-worker remaining range.
+adaptive S2 build uses `min_ayahs=10` and is complete in
+`network/v3/experiments/corpus_neo_adaptive/s002/`.
 
 The runner appends command attempts to `dense.log`, `dense_consolidate.log`,
 `sparse.log`, and `sparse_consolidate.log`, and writes aggregate progress to
@@ -159,33 +163,53 @@ channel. Pass `--skip-three-ayah-surahs` when those surahs must not be rebuilt.
 
 ## Blind review inputs
 
-After generation is complete, give a blind reviewer only these compact queues:
+After generation is complete, build the hydrated review bundle:
 
-- `s###/families/review_queue.tsv`.
-- `s###/paths/path_families/path_family_review_queue.tsv`.
+```bash
+python3 network/v3/build_review_bundle.py --surah-tag s###
+```
+
+Give a blind reviewer only `s###/review_bundle.json`. It contains unique branch
+records with `branch_image_ar` and `what_is_ar`, surface ayah/root-token
+context, compact support summaries, and dense/sparse candidate-family
+references.
 
 Do not give the reviewer gold findings, old channel lists, or predefined domain
 targets during the first pass.
 
+The first-pass prototype runbook is `network/v3/REVIEW_ORCHESTRATION.md`.
+The reusable prompt is `network/v3/prompts/blind_candidate_review.md`.
+
 ## Blind review prompt
 
 ```text
-Use only the supplied review queues; do not inspect gold findings or prior reports.
-Discover reasonable semantic channels, allowing either a dense repeated theme or a sparse progression through different semantic roles.
-Consolidate related F/PF rows into channels and report title, supporting IDs, selected root:branch evidence, ayah span, construction, confidence, and reading type.
-Reject dictionary-side-sense noise and do not assume every family is valid.
+Use only the supplied review bundle; do not inspect gold findings or prior reports.
+Extract atomic motifs before clustering. Build subchannels through a one-scene test, consolidate parent channels only through explicit semantic invariants, and name resonance bridges between otherwise distinct subchannels.
+Preserve coherent rare images as surprise probes. Do not flatten the report into one accepted-channel list and do not cap the number of parents, subchannels, bridges, or probes.
+Surface coherent lexical imagery when the supplied branch evidence supports it. This is discovery and synthesis, not audit, grading, validation, or caution work.
 ```
 
 ## Required review report
 
-For every accepted channel report its title, supporting F/PF IDs, selected
-root:branch evidence, distinct root and branch counts, ayah span, one-sentence
-construction, confidence, and reading type (`primary`, `latent/lexical`, or
-`mixed`).
+For every parent channel report its semantic invariant, surface anchor,
+supporting F/PF IDs, subchannels, bridge relations, lexical resonances,
+surprise probes, branch evidence, ayah span, coherent prose synthesis, and
+confidence dimensions. Confidence is reported separately for nucleus coherence,
+evidence breadth, bridge clarity, and distinctness.
 
-Also report rejected noise classes, plausible fragmented channels, and any
-accepted channel that depends on an inferred bridge absent from the supplied
-construction paths.
+For every subchannel report its one-scene frame, atomic motifs, root:branch
+evidence, surface token/root context, supporting rows, evidence breadth, reading
+type (`surface-primary`, `latent/lexical`, or `mixed`), and coherent prose
+synthesis. The prose should explain the scene or process, not list evidence as
+a catalog.
+
+Prototype reports are written to `network/v3/reviews/s###/reader_a_pilot.md`. There
+is no artificial length limit. Cite F/PF IDs and branch evidence, but do not
+copy full queue rows, file inventories, command transcripts, or audit records.
+Do not summarize so strongly that concrete branch images supporting a parent,
+subchannel, bridge, or surprise probe are lost. Do not demote coherent latent
+lexical imagery merely because it is concrete, surprising, or not visible in
+the surface translation.
 
 ## Large files
 

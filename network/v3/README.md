@@ -49,23 +49,38 @@ The current no-cap corpus run uses the canonical surah ayah count to compute
 `max(min(ceil(0.10 * canonical_ayah_count), 10), 4)`, together with the Neo
 ensemble network and stage-level checkpoints:
 
-As of 2026-07-22, 94 surahs are fully complete: S1, S8, S20–S102,
-S104–S107, S109, and S111–S114. S103, S108, and S110 are intentionally
-excluded because they contain only three canonical ayahs. The remaining 17
-surahs are S2–S7 and S9–S19.
+As of 2026-07-23, generation is complete for all 111 eligible surahs. S103,
+S108, and S110 are intentionally excluded because they contain only three
+canonical ayahs and cannot satisfy the minimum span policy.
 
-Run the remaining set with exactly one worker:
+Completion is defined by the four stage-summary checkpoints for each eligible
+`s###` directory:
+
+- `summary.json`
+- `families/consolidation_summary.json`
+- `paths/path_summary.json`
+- `paths/path_families/path_family_summary.json`
+
+Current aggregate counts under `network/v3/experiments/corpus_neo_adaptive/`:
+
+- 89,199 dense candidates
+- 11,572 dense families
+- 4,157,715 sparse paths
+- 457,281 sparse path families
+
+For an ordinary resume or verification run, use:
+
+```bash
+python3 network/v3/run_corpus_candidates.py --skip-three-ayah-surahs
+```
+
+If any stage must be deliberately rebuilt after removing its final summary,
+run a narrow single-worker range. For example:
 
 ```bash
 python3 network/v3/run_corpus_candidates.py \
   --start-surah 2 --end-surah 19 --workers 1 --retry-failures
 ```
-
-S3–S7 retain genuine `-9` sparse-assembly failure markers from a six-worker
-run, so `--retry-failures` is required. S9–S13 have both dense checkpoints,
-S14 has its dense-discovery checkpoint, and S2/S15–S19 have no completed
-stages. The runner reuses these checkpoints and skips already completed S8.
-Do not use parallel workers for the remaining range.
 
 Outputs go to `network/v3/experiments/corpus_neo_adaptive/s001…s114`; completed
 stage summaries are reused, failures are recorded and skipped, and no review
@@ -73,6 +88,9 @@ agents are launched by the runner.
 
 See `network/v3/ORCHESTRATION.md` before starting or resuming, especially to
 avoid launching a second worker while an older corpus process is active.
+
+The remaining project work is blind hierarchical review/adjudication using
+hydrated review bundles, not more corpus generation.
 
 ## Candidate discovery
 
@@ -126,7 +144,8 @@ Family outputs are written under `families/`:
 - `channel_families.jsonl`: branch-preserving family cards.
 - `candidate_family_membership.tsv`: every candidate-to-family assignment.
 - `family_branch_inventory.tsv`: core/optional/rare branch inventory.
-- `review_queue.tsv`: ranked compact family review queue.
+- `review_queue.tsv`: ranked compact family review queue retained as an
+  intermediate artifact.
 - `passage_windows.json`: ayah windows used for similarity profiles.
 - `consolidation_summary.json`: counts and top-family metadata.
 
@@ -160,26 +179,37 @@ Generation remains label-free: it searches the production SLM affinity graph usi
 Path outputs:
 
 - `semantic_path_candidates.jsonl`: complete branch paths and attachment edges.
-- `path_review_queue.tsv`: compact ungrouped path queue.
+- `path_review_queue.tsv`: compact ungrouped path queue retained as an
+  intermediate artifact.
 - `path_summary.json`: parameters and counts.
 
 Consolidated outputs under `path_families/`:
 
 - `semantic_path_families.jsonl`: complete path-family cards with branch alternatives by root.
-- `path_family_review_queue.tsv`: compact blind-review package with branch-level ayah routing and representative/variant edge constructions.
+- `path_family_review_queue.tsv`: compact path-family queue retained as an
+  intermediate artifact.
 - `path_similarity_edges.tsv`: evidence for path consolidation.
 - `path_family_summary.json`: parameters and counts.
 
 The dense-family and sparse-path passes are complementary: repeated-theme channels should survive the former, while route-like, causal, or role-progressive channels should survive the latter.
 
-## Current validation
+Build `s###/review_bundle.json` with `build_review_bundle.py` before blind
+review. The bundle references each branch once, hydrates it from
+`furuq_v4.sqlite` with `branch_image_ar` and `what_is_ar`, adds surface
+ayah/root-token context from `resources/qac_root_ayah.tsv`, and includes compact
+support summaries for independent rows, roots, ayahs, paths, and reused edges.
+
+## Current prototype review
 
 The Neo no-cap S1 path run produced 106,509 raw states, 5,598 deduplicated
-paths, and 221 path families in a review queue of about 50K tokens.
+paths, and 221 path families.
 
-A fresh blind agent using only that queue recovered 11 reasonable primary or latent channels, including the extended road/travel architecture, while rejecting recurrent anatomical, animal, and tool-sense noise.
-
-The road architecture was recovered across related proposals rather than as one automatic nine-root card: worship/help → rectitude, paving → straight road, guidance ↔ straying, sign → guidance, praiseworthy goal → road, and walking/travel extensions.
+A first blind bundle run showed that a flat accepted-channel list can hide
+important concrete images inside broad summaries. The review prompt now requires
+hierarchical output: atomic motifs, subchannels, parent channels, resonance
+bridges, lexical resonances, and surprise probes. Reports have no artificial
+length cap or count limit, and examples should come from the supplied bundle
+rather than from prior pilot findings.
 
 The same Neo settings ran on S100 without S1-specific rules, producing 2,558
 deduplicated paths and 126 path families.
