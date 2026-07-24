@@ -192,6 +192,18 @@ of the cited evidence roots from `surface_context`. Do not use the union of all
 ayahs attached to a supporting row when some of those ayahs do not contribute
 branch evidence to the channel.
 
+When you finish, report branch coverage in your completion message, not inside
+the Markdown report. Calculate coverage mechanically as:
+
+1. Count the unique branch IDs in the bundle's top-level `branches` table. Each
+   `branches[].id` value has the form `root:B###`; this is the denominator.
+2. Count the unique `root:B###` branch IDs you cited in the Markdown report's
+   active motifs; this is the numerator. Count each branch at most once even if
+   it appears in multiple subchannels.
+3. Coverage percent is `100 * cited_unique_branch_count / bundle_branch_count`.
+
+Report the numerator, denominator, and percent in the completion message.
+
 Report format:
 
 ```markdown

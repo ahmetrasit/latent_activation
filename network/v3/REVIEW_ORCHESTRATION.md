@@ -25,6 +25,43 @@ No other files are review inputs.
 When spawning review agents, do not set a priority tier or `service_tier`.
 Leave service tier unset and let the agent runtime use its default scheduling.
 
+## Pericope-scoped launch
+
+Before spawning a review agent, check
+`network/v3/pericopes/surah_pericopes.jsonl` for rows matching the target
+surah. If rows exist, include those pericope boundaries in the agent's first
+message. The pericope file is an orchestration input; the review agent should
+still receive only the review bundle, the blind-review prompt, and the
+pericope intervals copied into its task message.
+
+Use this launch language, with the target intervals substituted:
+
+```text
+First pass: build pericope-local channels for these intervals:
+
+- P1: AYAH_FROM-AYAH_TO
+- P2: AYAH_FROM-AYAH_TO
+...
+
+Keep every parent/subchannel and its active ayah anchors within one interval;
+do not form cross-pericope or whole-surah channels yet. Do not flatten the
+surah into one motif bucket or chase coverage by packing unrelated branches
+into oversized subchannels. Split materially different scenes, active senses,
+operations, or outcomes.
+```
+
+For surahs with defined pericopes, use a second-stage cross-pericope check
+after the first report is written. Send the same agent this message:
+
+```text
+Freeze the pericope-local findings. Now check for channels spanning pericope
+boundaries or the whole surah. Add one only when its bridge is justified by a
+shared semantic invariant, repeated scene signature, causal sequence, role
+progression, contrast, or reversal, not loose topical overlap. For each, name
+the pericopes spanned and the bridge. Preserve local findings; clarify them
+only when the bridge requires it.
+```
+
 ## Output
 
 Write one Markdown report:
@@ -91,3 +128,16 @@ A prototype review is complete when `reader_a_pilot.md`:
 - surfaces coherent latent lexical imagery instead of demoting it for being
   surprising, concrete, or absent from surface translation;
 - keeps the report as discovery output, not an audit or grading record.
+
+## Post-review coverage check
+
+After each report is written, and after the second-stage cross-pericope check
+for surahs with defined pericopes, mechanically compute unique cited
+`root:B###` branch IDs in `reader_a_pilot.md` and compare them with the
+bundle's `branches` table. If cited branch coverage is less than 90%, send the
+same agent this message verbatim:
+
+```text
+you failed to do a comprehensive task and rather seem to generate poor performance - you visited only a limited number of
+  candidates. what's the root cause for that. if you are confident, can you do a better job this time?
+```
