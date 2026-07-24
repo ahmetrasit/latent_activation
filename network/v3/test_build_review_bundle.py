@@ -1,8 +1,13 @@
 import json
 import sqlite3
+import sys
 import tempfile
 import unittest
 from pathlib import Path
+
+V3_DIR = Path(__file__).resolve().parent
+if str(V3_DIR) not in sys.path:
+    sys.path.insert(0, str(V3_DIR))
 
 from build_review_bundle import build_bundle
 
@@ -71,6 +76,7 @@ class ReviewBundleTest(unittest.TestCase):
                 connection.execute(
                     """
                     CREATE TABLE branch_images (
+                        root_id TEXT,
                         root_norm TEXT,
                         branch_id TEXT,
                         branch_image_ar TEXT,
@@ -79,8 +85,9 @@ class ReviewBundleTest(unittest.TestCase):
                     """
                 )
                 connection.execute(
-                    "INSERT INTO branch_images VALUES (?, ?, ?, ?)",
+                    "INSERT INTO branch_images VALUES (?, ?, ?, ?, ?)",
                     (
+                        "root_1",
                         "ق و م",
                         "B012",
                         "آلة قائمة",
@@ -99,7 +106,12 @@ class ReviewBundleTest(unittest.TestCase):
                 bundle["branches"],
                 [
                     {
-                        "id": "ق و م:B012",
+                        "id": "quranic:root_1:B012",
+                        "node_id": "quranic:root_1:B012",
+                        "root_id": "root_1",
+                        "root": "ق و م",
+                        "branch_id": "B012",
+                        "citation_ref": "ق و م:B012",
                         "ayahs": [6],
                         "branch_image_ar": "آلة قائمة",
                         "what_is_ar": "البكرة أو أداتها عند البئر",
@@ -137,11 +149,11 @@ class ReviewBundleTest(unittest.TestCase):
             )
             self.assertEqual(
                 bundle["dense_families"][0]["branches"]["core"],
-                ["ق و م:B012"],
+                ["quranic:root_1:B012"],
             )
             self.assertEqual(
                 bundle["sparse_path_families"][0]["branches"]["core"],
-                ["ق و م:B012"],
+                ["quranic:root_1:B012"],
             )
 
     def test_bundle_adds_surface_context_from_qac_rows(self) -> None:
@@ -193,6 +205,7 @@ class ReviewBundleTest(unittest.TestCase):
                 connection.execute(
                     """
                     CREATE TABLE branch_images (
+                        root_id TEXT,
                         root_norm TEXT,
                         branch_id TEXT,
                         branch_image_ar TEXT,
@@ -201,8 +214,9 @@ class ReviewBundleTest(unittest.TestCase):
                     """
                 )
                 connection.execute(
-                    "INSERT INTO branch_images VALUES (?, ?, ?, ?)",
+                    "INSERT INTO branch_images VALUES (?, ?, ?, ?, ?)",
                     (
+                        "root_1",
                         "ق و م",
                         "B012",
                         "آلة قائمة",
@@ -288,6 +302,197 @@ class ReviewBundleTest(unittest.TestCase):
                     }
                 ],
             )
+
+    def test_bundle_keeps_distinct_node_ids_with_same_citation_ref(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            tmp_path = Path(directory)
+            dense_path = tmp_path / "dense.jsonl"
+            sparse_path = tmp_path / "sparse.jsonl"
+            database = tmp_path / "furuq.sqlite"
+            left = {
+                "node_id": "quranic:root_1:B003",
+                "root": "ج ي ء",
+                "branch_id": "B003",
+                "ayahs": [2],
+                "image_ar": "compressed left",
+            }
+            right = {
+                "node_id": "quranic:root_2:B003",
+                "root": "ج ي ء",
+                "branch_id": "B003",
+                "ayahs": [3],
+                "image_ar": "compressed right",
+            }
+            write_jsonl(
+                dense_path,
+                [
+                    {
+                        "family_id": "F001",
+                        "family_score": 0.5,
+                        "label_hint": "arrival",
+                        "structural_type": "distributed",
+                        "member_count": 1,
+                        "ayahs": [2, 3],
+                        "core_branches": [left, right],
+                        "optional_branches": [],
+                        "rare_branches": [],
+                    }
+                ],
+            )
+            write_jsonl(sparse_path, [])
+            with sqlite3.connect(database) as connection:
+                connection.execute(
+                    """
+                    CREATE TABLE branch_images (
+                        root_id TEXT,
+                        root_norm TEXT,
+                        branch_id TEXT,
+                        branch_image_ar TEXT,
+                        what_is_ar TEXT
+                    )
+                    """
+                )
+                connection.executemany(
+                    "INSERT INTO branch_images VALUES (?, ?, ?, ?, ?)",
+                    [
+                        ("root_1", "ج ي ء", "B003", "مجيء حسي", "قدوم محسوس"),
+                        ("root_2", "ج ي ء", "B003", "مجيء معنوي", "وقوع أمر"),
+                    ],
+                )
+
+            bundle = build_bundle(
+                surah_tag="s001",
+                dense_path=dense_path,
+                sparse_path=sparse_path,
+                database=database,
+            )
+
+            self.assertEqual(
+                [row["id"] for row in bundle["branches"]],
+                ["quranic:root_1:B003", "quranic:root_2:B003"],
+            )
+            self.assertEqual(
+                [row["branch_image_ar"] for row in bundle["branches"]],
+                ["مجيء حسي", "مجيء معنوي"],
+            )
+            self.assertEqual(
+                bundle["dense_families"][0]["branches"]["core"],
+                ["quranic:root_1:B003", "quranic:root_2:B003"],
+            )
+
+    def test_bundle_rejects_missing_qac_context_file(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            tmp_path = Path(directory)
+            dense_path = tmp_path / "dense.jsonl"
+            sparse_path = tmp_path / "sparse.jsonl"
+            database = tmp_path / "furuq.sqlite"
+            branch = {
+                "node_id": "quranic:root_1:B012",
+                "root": "ق و م",
+                "branch_id": "B012",
+                "ayahs": [6],
+                "image_ar": "compressed",
+            }
+            write_jsonl(
+                dense_path,
+                [
+                    {
+                        "family_id": "F001",
+                        "family_score": 0.5,
+                        "label_hint": "tool",
+                        "structural_type": "distributed",
+                        "member_count": 1,
+                        "ayahs": [6],
+                        "core_branches": [branch],
+                        "optional_branches": [],
+                        "rare_branches": [],
+                    }
+                ],
+            )
+            write_jsonl(sparse_path, [])
+            with sqlite3.connect(database) as connection:
+                connection.execute(
+                    """
+                    CREATE TABLE branch_images (
+                        root_id TEXT,
+                        root_norm TEXT,
+                        branch_id TEXT,
+                        branch_image_ar TEXT,
+                        what_is_ar TEXT
+                    )
+                    """
+                )
+                connection.execute(
+                    "INSERT INTO branch_images VALUES (?, ?, ?, ?, ?)",
+                    ("root_1", "ق و م", "B012", "آلة قائمة", "البكرة أو أداتها"),
+                )
+
+            with self.assertRaises(FileNotFoundError):
+                build_bundle(
+                    surah_tag="s001",
+                    dense_path=dense_path,
+                    sparse_path=sparse_path,
+                    database=database,
+                    qac_root_ayah_path=tmp_path / "missing.tsv",
+                )
+
+    def test_bundle_rejects_ambiguous_legacy_db_aliases(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            tmp_path = Path(directory)
+            dense_path = tmp_path / "dense.jsonl"
+            sparse_path = tmp_path / "sparse.jsonl"
+            database = tmp_path / "furuq.sqlite"
+            branch = {
+                "node_id": "quranic:root_1:B003",
+                "root": "ج ي ء",
+                "branch_id": "B003",
+                "ayahs": [2],
+                "image_ar": "compressed",
+            }
+            write_jsonl(
+                dense_path,
+                [
+                    {
+                        "family_id": "F001",
+                        "family_score": 0.5,
+                        "label_hint": "arrival",
+                        "structural_type": "distributed",
+                        "member_count": 1,
+                        "ayahs": [2],
+                        "core_branches": [branch],
+                        "optional_branches": [],
+                        "rare_branches": [],
+                    }
+                ],
+            )
+            write_jsonl(sparse_path, [])
+            with sqlite3.connect(database) as connection:
+                connection.execute(
+                    """
+                    CREATE TABLE branch_images (
+                        root_norm TEXT,
+                        branch_id TEXT,
+                        branch_image_ar TEXT,
+                        what_is_ar TEXT
+                    )
+                    """
+                )
+                connection.executemany(
+                    "INSERT INTO branch_images VALUES (?, ?, ?, ?)",
+                    [
+                        ("ج ي ء", "B003", "مجيء حسي", "قدوم محسوس"),
+                        ("ج ي ء", "B003", "مجيء معنوي", "وقوع أمر"),
+                    ],
+                )
+
+            with self.assertRaises(ValueError) as context:
+                build_bundle(
+                    surah_tag="s001",
+                    dense_path=dense_path,
+                    sparse_path=sparse_path,
+                    database=database,
+                )
+            self.assertIn("ambiguous branch rows", str(context.exception))
 
 
 if __name__ == "__main__":

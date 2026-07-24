@@ -38,7 +38,44 @@ def read_json(path: Path) -> dict[str, Any]:
 
 
 def write_json(path: Path, value: Any) -> None:
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_name(f".{path.name}.tmp")
+    tmp_path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    tmp_path.replace(path)
+
+
+def valid_json_marker(path: Path) -> bool:
+    if not path.exists():
+        return False
+    try:
+        read_json(path)
+    except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+        return False
+    return True
+
+
+def runner_failure_detail(surah: int, error: BaseException) -> dict[str, Any]:
+    return {
+        "surah": surah,
+        "stage": "runner",
+        "reason": f"{type(error).__name__}: {error}",
+        "recorded_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+    }
+
+
+def persist_runner_failure(
+    output_dir: Path,
+    surah: int,
+    detail: dict[str, Any],
+    *,
+    dry_run: bool,
+) -> None:
+    status_print(f"s{surah:03d} FAIL stage='runner' reason={detail['reason']}")
+    if not dry_run:
+        write_json(output_dir / f"s{surah:03d}" / "stage_failure.json", detail)
 
 
 def run_stage(name: str, command: list[str], log_path: Path, dry_run: bool) -> int:
@@ -153,9 +190,13 @@ def process_surah(
     dry_run: bool,
 ) -> tuple[str, dict[str, Any] | None]:
     tag = f"s{surah:03d}"
+    surah_dir = output_dir / tag
+    failure_marker = surah_dir / "stage_failure.json"
     catalog_path = quran_slm / network_artifact_dir / tag / "catalog.json"
     if not catalog_path.exists():
         failure = {"surah": surah, "stage": "catalog", "reason": f"missing {catalog_path}"}
+        if not dry_run:
+            write_json(failure_marker, failure)
         status_print(f"{tag} FAIL catalog missing")
         return "failed", failure
 
@@ -165,18 +206,10 @@ def process_surah(
         return "skipped", {"surah": surah, "reason": "canonical_ayahs=3"}
 
     effective_min = adaptive_min_ayahs(ayah_max)
-    surah_dir = output_dir / tag
     surah_dir.mkdir(parents=True, exist_ok=True)
-    failure_marker = surah_dir / "stage_failure.json"
     status_print(f"{tag} START ayahs={ayah_max} min_ayahs={effective_min}")
 
-    if failure_marker.exists() and not retry_failures:
-        known_failure = read_json(failure_marker)
-        failure = {"surah": surah, "stage": "known failure", "detail": known_failure}
-        status_print(f"{tag} SKIP known_failure={failure_marker}")
-        return "failed", failure
-
-    for name, marker, log_path, command in stage_specs(
+    specs = stage_specs(
         surah=surah,
         min_ayahs=effective_min,
         output_dir=output_dir,
@@ -184,8 +217,22 @@ def process_surah(
         quran_roots=quran_roots,
         network_artifact_dir=network_artifact_dir,
         surah_resource_dir=surah_resource_dir,
-    ):
-        if marker.exists():
+    )
+
+    if all(valid_json_marker(marker) for _name, marker, _log_path, _command in specs):
+        if not dry_run:
+            failure_marker.unlink(missing_ok=True)
+        status_print(f"{tag} DONE checkpoints complete")
+        return "completed", None
+
+    if failure_marker.exists() and not retry_failures:
+        known_failure = read_json(failure_marker)
+        failure = {"surah": surah, "stage": "known failure", "detail": known_failure}
+        status_print(f"{tag} SKIP known_failure={failure_marker}")
+        return "failed", failure
+
+    for name, marker, log_path, command in specs:
+        if valid_json_marker(marker):
             status_print(f"  {tag} {name}: SKIP checkpoint={marker}")
             continue
         returncode = run_stage(f"{tag} {name}", command, log_path, dry_run)
@@ -217,6 +264,11 @@ def main() -> int:
         raise SystemExit("--stop-on-error is only supported with --workers 1")
 
     output_dir = (REPO_ROOT / args.output_dir).resolve()
+    allowed_output_root = (
+        REPO_ROOT / "network/v3/experiments/corpus_neo_adaptive"
+    ).resolve()
+    if output_dir != allowed_output_root:
+        raise SystemExit(f"--output-dir must be {allowed_output_root}")
     quran_slm = (REPO_ROOT / args.quran_slm).resolve()
     quran_roots = (REPO_ROOT / args.quran_roots).resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -282,7 +334,17 @@ def main() -> int:
         surahs = range(args.start_surah, args.end_surah + 1)
         if args.workers == 1:
             for surah in surahs:
-                status, detail = process_surah(surah=surah, **process_kwargs)
+                try:
+                    status, detail = process_surah(surah=surah, **process_kwargs)
+                except Exception as error:
+                    detail = runner_failure_detail(surah, error)
+                    persist_runner_failure(
+                        output_dir,
+                        surah,
+                        detail,
+                        dry_run=args.dry_run,
+                    )
+                    status = "failed"
                 failed = record_result(status, detail, surah)
                 if failed and args.stop_on_error:
                     break
@@ -297,20 +359,14 @@ def main() -> int:
                     try:
                         status, detail = future.result()
                     except Exception as error:
-                        detail = {
-                            "surah": surah,
-                            "stage": "runner",
-                            "reason": f"{type(error).__name__}: {error}",
-                            "recorded_at": dt.datetime.now(dt.timezone.utc).isoformat(),
-                        }
+                        detail = runner_failure_detail(surah, error)
                         status = "failed"
-                        status_print(
-                            f"s{surah:03d} FAIL stage='runner' reason={detail['reason']}"
+                        persist_runner_failure(
+                            output_dir,
+                            surah,
+                            detail,
+                            dry_run=args.dry_run,
                         )
-                        if not args.dry_run:
-                            surah_dir = output_dir / f"s{surah:03d}"
-                            surah_dir.mkdir(parents=True, exist_ok=True)
-                            write_json(surah_dir / "stage_failure.json", detail)
                     record_result(status, detail, surah)
 
         if args.dry_run:

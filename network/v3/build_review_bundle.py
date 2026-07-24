@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import collections
 import csv
 import json
 import sqlite3
@@ -11,13 +12,30 @@ from pathlib import Path
 from typing import Any, Iterable
 
 
+def root_id_from_node_id(node_id: str) -> str:
+    parts = node_id.split(":")
+    if len(parts) >= 3:
+        return parts[-2]
+    return node_id
+
+
 def read_jsonl(path: Path) -> list[dict[str, Any]]:
     with path.open(encoding="utf-8") as handle:
         return [json.loads(line) for line in handle if line.strip()]
 
 
+def write_json_atomic(path: Path, value: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_name(f".{path.name}.tmp")
+    tmp_path.write_text(
+        json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8",
+    )
+    tmp_path.replace(path)
+
+
 def branch_ref(branch: dict[str, Any]) -> str:
-    return f"{branch['root']}:{branch['branch_id']}"
+    return str(branch.get("node_id") or f"{branch['root']}:{branch['branch_id']}")
 
 
 def register_branch(
@@ -29,8 +47,11 @@ def register_branch(
         ref,
         {
             "id": ref,
+            "node_id": branch.get("node_id", ref),
+            "root_id": root_id_from_node_id(str(branch.get("node_id", ref))),
             "root": branch["root"],
             "branch_id": branch["branch_id"],
+            "citation_ref": f"{branch['root']}:{branch['branch_id']}",
             "ayahs": set(),
         },
     )
@@ -163,17 +184,50 @@ def hydrate_branches(
     branches: dict[str, dict[str, Any]],
 ) -> list[dict[str, Any]]:
     with sqlite3.connect(database) as connection:
-        details = {
-            f"{root}:{branch_id}": (branch_image_ar, what_is_ar)
-            for root, branch_id, branch_image_ar, what_is_ar in connection.execute(
+        columns = {
+            row[1]
+            for row in connection.execute("PRAGMA table_info(branch_images)")
+        }
+        has_root_id = "root_id" in columns
+        if has_root_id:
+            select = """
+                SELECT root_id, branch_id, branch_image_ar, what_is_ar
+                FROM branch_images
                 """
+        else:
+            select = """
                 SELECT root_norm, branch_id, branch_image_ar, what_is_ar
                 FROM branch_images
                 """
+        details: dict[str, tuple[str, str]] = {}
+        duplicate_detail_keys: set[str] = set()
+        for root, branch_id, branch_image_ar, what_is_ar in connection.execute(select):
+            key = f"{root}:{branch_id}"
+            if key in details:
+                duplicate_detail_keys.add(key)
+            details[key] = (branch_image_ar, what_is_ar)
+        if duplicate_detail_keys and not has_root_id:
+            preview = ", ".join(sorted(duplicate_detail_keys)[:10])
+            raise ValueError(
+                f"{database} lacks root_id and has ambiguous branch rows: {preview}"
             )
-        }
 
-    missing = sorted(set(branches) - set(details))
+    detail_keys = {}
+    for ref, row in branches.items():
+        detail_keys[ref] = (
+            f"{row['root_id']}:{row['branch_id']}"
+            if has_root_id
+            else row["citation_ref"]
+        )
+    if not has_root_id:
+        alias_counts = collections.Counter(row["citation_ref"] for row in branches.values())
+        ambiguous = sorted(alias for alias, count in alias_counts.items() if count > 1)
+        if ambiguous:
+            preview = ", ".join(ambiguous[:10])
+            raise ValueError(
+                f"{database} lacks root_id and cannot hydrate ambiguous branches: {preview}"
+            )
+    missing = sorted(ref for ref, key in detail_keys.items() if key not in details)
     if missing:
         preview = ", ".join(missing[:10])
         raise ValueError(f"branch details missing from {database}: {preview}")
@@ -181,10 +235,15 @@ def hydrate_branches(
     output = []
     for ref in sorted(branches):
         row = branches[ref]
-        branch_image_ar, what_is_ar = details[ref]
+        branch_image_ar, what_is_ar = details[detail_keys[ref]]
         output.append(
             {
                 "id": ref,
+                "node_id": row["node_id"],
+                "root_id": row["root_id"],
+                "root": row["root"],
+                "branch_id": row["branch_id"],
+                "citation_ref": row["citation_ref"],
                 "ayahs": sorted(row["ayahs"]),
                 "branch_image_ar": branch_image_ar,
                 "what_is_ar": what_is_ar,
@@ -202,12 +261,12 @@ def split_field(value: str) -> list[str]:
 def read_qac_context(
     path: Path,
     surah_number: int,
-    branch_refs: set[str],
+    branch_roots: set[str],
 ) -> dict[str, Any]:
     if not path.exists():
-        return {"ayahs": [], "root_occurrences": []}
+        raise FileNotFoundError(f"QAC root-ayah context missing: {path}")
 
-    wanted_roots = {ref.split(":", 1)[0] for ref in branch_refs}
+    wanted_roots = set(branch_roots)
     ayahs: dict[int, dict[str, Any]] = {}
     occurrences = []
     with path.open(encoding="utf-8", newline="") as handle:
@@ -248,11 +307,20 @@ def read_qac_context(
                 }
             )
 
+    seen_roots = {row["root"] for row in occurrences}
+    missing_roots = sorted(wanted_roots - seen_roots)
+
     return {
         "ayahs": [ayahs[key] for key in sorted(ayahs)],
         "root_occurrences": sorted(
             occurrences, key=lambda row: (row["ayah"], row["root"])
         ),
+        "root_coverage": {
+            "wanted_root_count": len(wanted_roots),
+            "covered_root_count": len(seen_roots),
+            "missing_roots": missing_roots,
+            "complete": not missing_roots,
+        },
     }
 
 
@@ -267,10 +335,10 @@ def build_bundle(
     branches: dict[str, dict[str, Any]] = {}
     dense = dense_review_rows(read_jsonl(dense_path), branches)
     sparse = sparse_review_rows(read_jsonl(sparse_path), branches)
-    branch_refs = set(branches)
+    branch_roots = {row["root"] for row in branches.values()}
     surah_number = int(surah_tag.removeprefix("s"))
     surface_context = (
-        read_qac_context(qac_root_ayah_path, surah_number, branch_refs)
+        read_qac_context(qac_root_ayah_path, surah_number, branch_roots)
         if qac_root_ayah_path is not None
         else {"ayahs": [], "root_occurrences": []}
     )
@@ -313,10 +381,7 @@ def main() -> None:
         qac_root_ayah_path=Path(args.qac_root_ayah),
     )
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(
-        json.dumps(bundle, ensure_ascii=False, separators=(",", ":")) + "\n",
-        encoding="utf-8",
-    )
+    write_json_atomic(output, bundle)
     print(output)
 
 

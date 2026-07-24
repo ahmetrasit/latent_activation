@@ -30,6 +30,16 @@ def write_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
             handle.write("\n")
 
 
+def write_json_atomic(path: Path, value: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_name(f".{path.name}.tmp")
+    tmp_path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    tmp_path.replace(path)
+
+
 def read_npy_flat(path: Path) -> tuple[list[float], tuple[int, int], str]:
     data = path.read_bytes()
     if not data.startswith(b"\x93NUMPY"):
@@ -488,7 +498,7 @@ def dedupe_candidates(
             root_containment = containment(signature["roots"], existing["roots"])
             ayah_containment = containment(signature["ayahs"], existing["ayahs"])
             if (
-                branch_overlap >= 0.60
+                branch_overlap >= max_jaccard
                 or (root_overlap >= 0.75 and ayah_overlap >= 0.75)
                 or (
                     branch_containment >= subset_overlap
@@ -684,7 +694,7 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
             for row in candidates[:20]
         ],
     }
-    (output_dir / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_json_atomic(output_dir / "summary.json", summary)
     return summary
 
 

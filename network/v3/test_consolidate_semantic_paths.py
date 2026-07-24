@@ -6,7 +6,9 @@ import math
 import os
 import subprocess
 import sys
+import tempfile
 import threading
+import unittest
 from pathlib import Path
 
 
@@ -15,6 +17,8 @@ if str(V3_DIR) not in sys.path:
     sys.path.insert(0, str(V3_DIR))
 
 import consolidate_semantic_paths as subject
+import consolidate_channel_families as dense_subject
+import discover_surah_channels as discover_subject
 import run_corpus_candidates as runner
 from consolidate_channel_families import idf_weights, weighted_jaccard
 
@@ -83,15 +87,10 @@ def legacy_similarity_edges(
     branch_weights = idf_weights([row["branches"] for row in by_id.values()])
     edge_weights = idf_weights([row["edges"] for row in by_id.values()])
     root_weights = idf_weights([row["roots"] for row in by_id.values()])
-    postings: dict[str, list[str]] = collections.defaultdict(list)
-    for path_id, row in by_id.items():
-        for node_id in row["branches"]:
-            postings[node_id].append(path_id)
     possible_pairs = {
-        tuple(sorted((left, right)))
-        for path_ids in postings.values()
-        for left_index, left in enumerate(path_ids)
-        for right in path_ids[left_index + 1 :]
+        tuple(sorted((left, right), key=subject.path_sort_key))
+        for left_index, left in enumerate(by_id)
+        for right in list(by_id)[left_index + 1 :]
     }
     nearest: dict[str, list[tuple[float, str, dict[str, float]]]] = (
         collections.defaultdict(list)
@@ -174,9 +173,17 @@ def legacy_families(
         graph[edge["right"]].append((edge["left"], float(edge["score"])))
     paths_by_id = {path["path_id"]: path for path in paths}
     families = [
-        subject.family_record(index, sorted(member_ids), paths_by_id, graph)
+        subject.family_record(
+            index, sorted(member_ids, key=subject.path_sort_key), paths_by_id, graph
+        )
         for index, (_label, member_ids) in enumerate(
-            sorted(members.items(), key=lambda item: (-len(item[1]), min(item[1]))),
+            sorted(
+                members.items(),
+                key=lambda item: (
+                    -len(item[1]),
+                    min(subject.path_sort_key(path_id) for path_id in item[1]),
+                ),
+            ),
             start=1,
         )
     ]
@@ -242,6 +249,96 @@ def test_index_rejects_duplicate_path_ids(tmp_path: Path) -> None:
         assert "duplicate path_id" in str(error)
     else:
         raise AssertionError("duplicate path IDs must be rejected")
+
+
+def test_sparse_consolidation_evaluates_root_ayah_only_pairs() -> None:
+    left = path_row(
+        1,
+        [
+            ("q:r1:B001", "r1", 1),
+            ("q:r2:B001", "r2", 2),
+        ],
+    )
+    right = path_row(
+        2,
+        [
+            ("q:r1:B002", "r1", 1),
+            ("q:r2:B002", "r2", 2),
+        ],
+    )
+    edges = subject.build_similarity_edges(
+        [left, right],
+        mutual_k=1,
+        min_similarity=0.16,
+        containment_threshold=0.65,
+    )
+    assert edges == [
+        {
+            "left": "P0001",
+            "right": "P0002",
+            "score": 0.2,
+            "edge_jaccard": 0.0,
+            "branch_jaccard": 0.0,
+            "root_jaccard": 1.0,
+            "ayah_jaccard": 1.0,
+            "branch_containment": 0.0,
+            "edge_containment": 0.0,
+            "edge_type": "mutual_knn",
+        }
+    ]
+
+
+def test_path_sort_key_orders_wide_ids_numerically() -> None:
+    assert sorted(["P9999", "P10000", "P000002"], key=subject.path_sort_key) == [
+        "P000002",
+        "P9999",
+        "P10000",
+    ]
+
+
+def test_discovery_dedupe_honors_configured_branch_jaccard() -> None:
+    def candidate(index: int, branch_ids: list[str]) -> dict[str, object]:
+        return {
+            "candidate_id": f"raw_{index}",
+            "channel_score": 1.0 - index / 100,
+            "edge_count": 2,
+            "roots": [f"r{item}" for item in branch_ids],
+            "ayahs": [index],
+            "branches": [
+                {"node_id": f"q:r{item}:B001"} for item in branch_ids
+            ],
+        }
+
+    rows = [
+        candidate(1, ["1", "2", "3", "4"]),
+        candidate(2, ["1", "2", "3", "5"]),
+    ]
+    assert len(
+        discover_subject.dedupe_candidates(
+            rows, max_jaccard=0.60, subset_overlap=0.85, limit=0
+        )
+    ) == 1
+    assert len(
+        discover_subject.dedupe_candidates(
+            rows, max_jaccard=0.72, subset_overlap=0.85, limit=0
+        )
+    ) == 2
+
+
+def test_dense_consolidation_rejects_invalid_window_parameters() -> None:
+    try:
+        dense_subject.build_windows([], window_size=0, window_step=1)
+    except ValueError as error:
+        assert "window_size" in str(error)
+    else:
+        raise AssertionError("window_size <= 0 must be rejected")
+
+    try:
+        dense_subject.build_windows([], window_size=1, window_step=0)
+    except ValueError as error:
+        assert "window_step" in str(error)
+    else:
+        raise AssertionError("window_step <= 0 must be rejected")
 
 
 def test_adaptive_min_ayahs_boundaries() -> None:
@@ -402,6 +499,139 @@ def test_parallel_runner_records_unexpected_worker_exception(
         }
     ]
     assert (output_dir / "s002/stage_failure.json").is_file()
+
+
+def test_sequential_runner_records_unexpected_worker_exception(
+    tmp_path: Path, monkeypatch
+) -> None:
+    runner_root = tmp_path / "latent_activation"
+    runner_root.mkdir()
+
+    def fake_process_surah(*, surah: int, **_kwargs):
+        if surah == 2:
+            raise OSError("synthetic sequential error")
+        return "completed", None
+
+    monkeypatch.setattr(runner, "REPO_ROOT", runner_root)
+    monkeypatch.setattr(runner, "process_surah", fake_process_surah)
+    monkeypatch.setattr(
+        sys,
+        "argv",
+        [
+            "run_corpus_candidates.py",
+            "--start-surah",
+            "1",
+            "--end-surah",
+            "3",
+        ],
+    )
+    assert runner.main() == 1
+    output_dir = runner_root / "network/v3/experiments/corpus_neo_adaptive"
+    state = json.loads((output_dir / "corpus_run_state.json").read_text())
+    assert state["completed_this_run"] == [1, 3]
+    assert state["failures_this_run"] == [
+        {
+            "surah": 2,
+            "stage": "runner",
+            "reason": "OSError: synthetic sequential error",
+            "recorded_at": state["failures_this_run"][0]["recorded_at"],
+        }
+    ]
+    assert (output_dir / "s002/stage_failure.json").is_file()
+
+
+def test_process_surah_treats_complete_checkpoints_as_authoritative(
+    tmp_path: Path,
+) -> None:
+    output_dir = tmp_path / "network/v3/experiments/corpus_neo_adaptive"
+    quran_slm = tmp_path / "quran-slm"
+    catalog = quran_slm / "artifacts/surah_networks_global_ensemble/s002/catalog.json"
+    catalog.parent.mkdir(parents=True)
+    catalog.write_text('{"ayah_max": 7}', encoding="utf-8")
+    surah_dir = output_dir / "s002"
+    for relative in (
+        "summary.json",
+        "families/consolidation_summary.json",
+        "paths/path_summary.json",
+        "paths/path_families/path_family_summary.json",
+    ):
+        path = surah_dir / relative
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text('{"ok": true}', encoding="utf-8")
+    failure_marker = surah_dir / "stage_failure.json"
+    failure_marker.write_text('{"surah": 2, "stage": "old"}', encoding="utf-8")
+
+    status, detail = runner.process_surah(
+        surah=2,
+        output_dir=output_dir,
+        quran_slm=quran_slm,
+        quran_roots=tmp_path / "quran-roots",
+        network_artifact_dir="artifacts/surah_networks_global_ensemble",
+        surah_resource_dir="artifacts/corpus_network/surah_resources",
+        retry_failures=False,
+        skip_three_ayah_surahs=False,
+        dry_run=False,
+    )
+
+    assert (status, detail) == ("completed", None)
+    assert not failure_marker.exists()
+
+
+def test_valid_json_marker_rejects_truncated_checkpoint(tmp_path: Path) -> None:
+    marker = tmp_path / "summary.json"
+    marker.write_text('{"ok":', encoding="utf-8")
+    assert not runner.valid_json_marker(marker)
+
+
+class WorkflowRegressionUnittest(unittest.TestCase):
+    def test_sparse_consolidation_evaluates_root_ayah_only_pairs(self) -> None:
+        test_sparse_consolidation_evaluates_root_ayah_only_pairs()
+
+    def test_path_sort_key_orders_wide_ids_numerically(self) -> None:
+        test_path_sort_key_orders_wide_ids_numerically()
+
+    def test_discovery_dedupe_honors_configured_branch_jaccard(self) -> None:
+        test_discovery_dedupe_honors_configured_branch_jaccard()
+
+    def test_dense_consolidation_rejects_invalid_window_parameters(self) -> None:
+        test_dense_consolidation_rejects_invalid_window_parameters()
+
+    def test_valid_json_marker_rejects_truncated_checkpoint(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            test_valid_json_marker_rejects_truncated_checkpoint(Path(directory))
+
+    def test_process_surah_treats_complete_checkpoints_as_authoritative(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            test_process_surah_treats_complete_checkpoints_as_authoritative(
+                Path(directory)
+            )
+
+    def test_runner_rejects_non_adaptive_output_dir(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            runner_root = Path(directory) / "latent_activation"
+            runner_root.mkdir()
+            old_root = runner.REPO_ROOT
+            old_argv = sys.argv
+            try:
+                runner.REPO_ROOT = runner_root
+                sys.argv = [
+                    "run_corpus_candidates.py",
+                    "--start-surah",
+                    "1",
+                    "--end-surah",
+                    "1",
+                    "--output-dir",
+                    "network/v3/experiments/corpus_neo_min5",
+                ]
+                with self.assertRaises(SystemExit) as context:
+                    runner.main()
+                self.assertIn(
+                    "network/v3/experiments/corpus_neo_adaptive",
+                    str(context.exception),
+                )
+            finally:
+                runner.REPO_ROOT = old_root
+                sys.argv = old_argv
 
 
 def test_consolidation_is_independent_of_python_hash_seed(tmp_path: Path) -> None:

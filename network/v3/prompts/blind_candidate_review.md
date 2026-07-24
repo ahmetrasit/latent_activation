@@ -14,16 +14,21 @@ inventory is complete. Afterward, use family labels only as a recall check,
 never as primary evidence or as the starting vocabulary for channel names.
 Judge by micro-motif coherence, surface context, root/ayah coverage, and
 whether dense or sparse constructions make semantic sense. Resolve family
-branch IDs against the bundle's unique `branches` table. Read
-`branch_image_ar` and `what_is_ar` together as the branch evidence. Use
-`surface_context` to understand Arabic ayah text, exact root/token usage, and
-surface anchors without exposing gold channels.
+branch IDs against the bundle's unique `branches` table. Use `branches[].id`
+as the exact citation ID; `citation_ref` is a readable `root:B###` alias and
+is not unique by itself. Read `branch_image_ar` and `what_is_ar` together as
+the branch evidence. Use `surface_context` to understand Arabic ayah text,
+exact root/token usage, and surface anchors without exposing gold channels.
+If `surface_context.root_coverage.missing_roots` is nonempty, do not invent
+surface anchors for those roots; use only their branch evidence and mark ayah
+anchors as unavailable for that motif.
 
 Treat data-attested lexical imagery as review evidence. Do not demote a channel
-merely because it is latent, surprising, concrete, or not visible in the surface
-translation. If the bundle shows coherent branch evidence across rows,
-roots, or ayahs, surface it as a candidate channel. This is a discovery and
-extraction task, not an audit, grading, validation, or caution task.
+merely because it is latent, surprising, concrete, or not visible in the
+surface translation. Prefer channels whose surprising reach supports,
+materializes, reframes, or usefully pressures the primary reading; do not
+substitute a surface summary or lexical-domain catalog. This is a discovery
+and synthesis task, not an audit, grading, validation, or caution task.
 
 Core ontology:
 
@@ -60,8 +65,8 @@ Task:
    materially in entity, action, function, relation, semantic role, or scene
    participation, represent them as separate micro-motifs sharing the branch
    ID. Give every micro-motif a stable local identifier such as
-   `root:B###/m01`; the suffix is review-local provenance, not a new bundle ID.
-   Do not split mere synonyms or invent distinctions, but do split
+   `BRANCH_ID/m01`; the suffix is review-local provenance, not a new bundle
+   ID. Do not split mere synonyms or invent distinctions, but do split
    source-attested alternatives that could belong to different scenes,
    processes, mechanisms, social frames, or discourse relations. Do not start
    by naming broad domains.
@@ -145,8 +150,8 @@ Task:
     standalone subchannel, bridge, lexical resonance, surprise probe, or
     residual class. Reserve residual status for material that remains
     unintelligible after reading its branch evidence; weak, overlapping, reused,
-    or unexpected material must remain visible elsewhere. This assignment is an
-    internal discovery ledger, not a required set of output sections.
+    or unexpected material must remain recorded internally. This assignment is
+    an internal discovery ledger, not a required set of output sections.
 
 Output a Markdown report to:
 
@@ -196,13 +201,15 @@ When you finish, report branch coverage in your completion message, not inside
 the Markdown report. Calculate coverage mechanically as:
 
 1. Count the unique branch IDs in the bundle's top-level `branches` table. Each
-   `branches[].id` value has the form `root:B###`; this is the denominator.
-2. Count the unique `root:B###` branch IDs you cited in the Markdown report's
-   active motifs; this is the numerator. Count each branch at most once even if
-   it appears in multiple subchannels.
+   `branches[].id` value is the exact unique branch ID; this is the denominator.
+2. Count the unique exact `branches[].id` values you cited in the Markdown
+   report's active motifs; this is the numerator. Count each branch at most once
+   even if it appears in multiple subchannels. Do not count `citation_ref`
+   aliases unless the exact branch ID is also present.
 3. Coverage percent is `100 * cited_unique_branch_count / bundle_branch_count`.
 
 Report the numerator, denominator, and percent in the completion message.
+Coverage is diagnostic only; never enlarge channels to raise it.
 
 Report format:
 
@@ -220,7 +227,7 @@ Report format:
 #### Subchannel A. Short Subchannel Title
 - Reading type: surface-primary | latent/lexical | mixed
 - Scene or process:
-- Active motifs: concise names with root:B###/m## identifiers
+- Active motifs: concise names with exact BRANCH_ID/m## identifiers
 - Ayah anchors: actual surface occurrences of cited evidence roots
 - Synthesis: coherent explanatory prose showing how the motifs form one scene,
   process, mechanism, social frame, or discourse relation; include the
@@ -231,7 +238,7 @@ Report format:
 ### S1. Standalone Subchannel Title
 - Reading type: surface-primary | latent/lexical | mixed
 - Scene or process:
-- Active motifs: concise names with root:B###/m## identifiers
+- Active motifs: concise names with exact BRANCH_ID/m## identifiers
 - Ayah anchors: actual surface occurrences of cited evidence roots
 - Synthesis:
 ```

@@ -32,6 +32,16 @@ from discover_surah_channels import (
 )
 
 
+def write_json_atomic(path: Path, value: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_name(f".{path.name}.tmp")
+    tmp_path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    tmp_path.replace(path)
+
+
 def rank_graph(
     catalog: dict[str, Any],
     affinity: list[float],
@@ -223,7 +233,7 @@ def path_record(
     return {
         "path_id": "pending",
         "label_hint": " / ".join(label_terms) if label_terms else "unlabeled semantic path",
-        "path_score": round(float(state["search_score"]), 4),
+        "path_score": float(state["search_score"]),
         "mean_edge_strength": round(sum(strengths) / max(1, len(strengths)), 6),
         "weakest_edge_strength": round(min(strengths, default=0.0), 6),
         "seed_node_id": branches[state["seed"]]["node_id"],
@@ -283,7 +293,7 @@ def dedupe_paths(rows: list[dict[str, Any]], *, branch_jaccard: float, branch_co
                 break
         if duplicate:
             continue
-        row = {**row, "path_id": f"P{len(kept)+1:04d}"}
+        row = {**row, "path_id": f"P{len(kept)+1:06d}"}
         kept.append(row)
         signatures.append({"branches": branches, "edges": edges, "roots": roots})
         kept_index = len(signatures) - 1
@@ -319,7 +329,7 @@ def write_review_queue(path: Path, rows: list[dict[str, Any]]) -> None:
             writer.writerow([
                 rank,
                 row["path_id"],
-                row["path_score"],
+                round(float(row["path_score"]), 4),
                 row["label_hint"],
                 ",".join(map(str, row["ayahs"])),
                 " ".join(row["roots"]),
@@ -418,7 +428,7 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
         "top_paths": [
             {
                 "path_id": row["path_id"],
-                "path_score": row["path_score"],
+                "path_score": round(float(row["path_score"]), 4),
                 "label_hint": row["label_hint"],
                 "ayahs": row["ayahs"],
                 "roots": row["roots"],
@@ -426,7 +436,7 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
             for row in paths[:30]
         ],
     }
-    (output_dir / "path_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_json_atomic(output_dir / "path_summary.json", summary)
     return summary
 
 

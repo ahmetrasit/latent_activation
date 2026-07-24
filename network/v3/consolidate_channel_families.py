@@ -29,19 +29,33 @@ def write_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
             handle.write("\n")
 
 
+def write_json_atomic(path: Path, value: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_name(f".{path.name}.tmp")
+    tmp_path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    tmp_path.replace(path)
+
+
 def weighted_jaccard(left: set[str], right: set[str], weights: dict[str, float]) -> float:
     if not left and not right:
         return 0.0
     union = left | right
     intersection = left & right
-    denom = sum(weights.get(item, 1.0) for item in union)
-    return sum(weights.get(item, 1.0) for item in intersection) / denom if denom else 0.0
+    denom = math.fsum(weights.get(item, 1.0) for item in sorted(union))
+    numer = math.fsum(weights.get(item, 1.0) for item in sorted(intersection))
+    return numer / denom if denom else 0.0
 
 
 def weighted_containment(left: set[str], right: set[str], weights: dict[str, float]) -> float:
-    smaller = left if sum(weights.get(item, 1.0) for item in left) <= sum(weights.get(item, 1.0) for item in right) else right
-    denom = sum(weights.get(item, 1.0) for item in smaller)
-    return sum(weights.get(item, 1.0) for item in (left & right)) / denom if denom else 0.0
+    left_weight = math.fsum(weights.get(item, 1.0) for item in sorted(left))
+    right_weight = math.fsum(weights.get(item, 1.0) for item in sorted(right))
+    smaller = left if left_weight <= right_weight else right
+    denom = min(left_weight, right_weight)
+    numer = math.fsum(weights.get(item, 1.0) for item in sorted(left & right))
+    return numer / denom if denom else 0.0
 
 
 def cosine(left: list[float], right: list[float]) -> float:
@@ -92,6 +106,10 @@ def candidate_features(candidate: dict[str, Any], windows: list[dict[str, int]])
 
 
 def build_windows(candidates: list[dict[str, Any]], *, window_size: int, window_step: int) -> list[dict[str, int]]:
+    if window_size < 1:
+        raise ValueError("window_size must be positive")
+    if window_step < 1:
+        raise ValueError("window_step must be positive")
     ayahs = sorted({int(ayah) for candidate in candidates for ayah in candidate["ayahs"]})
     if not ayahs:
         return []
@@ -544,7 +562,7 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
     write_membership_tsv(output_dir / "candidate_family_membership.tsv", families)
     write_branch_inventory_tsv(output_dir / "family_branch_inventory.tsv", families)
     write_review_queue_tsv(output_dir / "review_queue.tsv", families)
-    (output_dir / "passage_windows.json").write_text(json.dumps(windows, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_json_atomic(output_dir / "passage_windows.json", windows)
 
     size_counts = collections.Counter(
         "singleton" if family["member_count"] == 1 else "small_2_4" if family["member_count"] <= 4 else "medium_5_14" if family["member_count"] <= 14 else "large_15_plus"
@@ -585,7 +603,7 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
             for family in families[:30]
         ],
     }
-    (output_dir / "consolidation_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_json_atomic(output_dir / "consolidation_summary.json", summary)
     return summary
 
 

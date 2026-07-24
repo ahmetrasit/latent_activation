@@ -27,6 +27,24 @@ def read_jsonl(path: Path) -> list[dict[str, Any]]:
     return rows
 
 
+def write_json_atomic(path: Path, value: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_name(f".{path.name}.tmp")
+    tmp_path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    tmp_path.replace(path)
+
+
+def path_sort_key(path_id: str) -> tuple[int, str]:
+    suffix = path_id[1:] if path_id.startswith("P") else path_id
+    try:
+        return int(suffix), path_id
+    except ValueError:
+        return 10**12, path_id
+
+
 def features(path: dict[str, Any]) -> dict[str, set[str]]:
     return {
         "branches": {branch["node_id"] for branch in path["branches"]},
@@ -96,8 +114,14 @@ def index_jsonl(path: Path) -> tuple[list[PathFeatures], dict[str, array]]:
             seen_ids.add(row.path_id)
             index = len(indexed)
             indexed.append(row)
-            for branch in row.branches:
-                postings[branch].append(index)
+            for kind, values in (
+                ("branch", row.branches),
+                ("edge", row.edges),
+                ("root", row.roots),
+                ("ayah", row.ayahs),
+            ):
+                for value in values:
+                    postings[f"{kind}:{value}"].append(index)
     return indexed, dict(postings)
 
 
@@ -130,8 +154,14 @@ def build_similarity_edges(
     indexed = [compact_features(path, pools) for path in paths]
     postings: dict[str, array] = collections.defaultdict(lambda: array("I"))
     for index, row in enumerate(indexed):
-        for branch in row.branches:
-            postings[branch].append(index)
+        for kind, values in (
+            ("branch", row.branches),
+            ("edge", row.edges),
+            ("root", row.roots),
+            ("ayah", row.ayahs),
+        ):
+            for value in values:
+                postings[f"{kind}:{value}"].append(index)
     return build_similarity_edges_indexed(
         indexed,
         dict(postings),
@@ -171,7 +201,7 @@ def edge_record_from_metrics(
     metrics: dict[str, float],
     edge_type: str,
 ) -> dict[str, Any]:
-    left_id, right_id = sorted((left.path_id, right.path_id))
+    left_id, right_id = sorted((left.path_id, right.path_id), key=path_sort_key)
     return {
         "left": left_id,
         "right": right_id,
@@ -195,7 +225,10 @@ def build_similarity_edges_indexed(
     edge_weights = idf_weights([row.edges for row in indexed])
     root_weights = idf_weights([row.roots for row in indexed])
     lexical_rank = {
-        path_id: rank for rank, path_id in enumerate(sorted(row.path_id for row in indexed))
+        path_id: rank
+        for rank, path_id in enumerate(
+            sorted((row.path_id for row in indexed), key=path_sort_key)
+        )
     }
     nearest: list[list[tuple[float, int, int]]] = [[] for _row in indexed]
     contained_edges: dict[tuple[int, int], dict[str, Any]] = {}
@@ -212,10 +245,16 @@ def build_similarity_edges_indexed(
 
     for left_index, left in enumerate(indexed):
         candidates: set[int] = set()
-        for branch in left.branches:
-            branch_postings = postings[branch]
-            start = bisect.bisect_right(branch_postings, left_index)
-            candidates.update(branch_postings[start:])
+        for kind, values in (
+            ("branch", left.branches),
+            ("edge", left.edges),
+            ("root", left.roots),
+            ("ayah", left.ayahs),
+        ):
+            for value in values:
+                feature_postings = postings[f"{kind}:{value}"]
+                start = bisect.bisect_right(feature_postings, left_index)
+                candidates.update(feature_postings[start:])
         for right_index in candidates:
             right = indexed[right_index]
             metrics = pair_metrics(left, right, branch_weights, edge_weights, root_weights)
@@ -246,7 +285,13 @@ def build_similarity_edges_indexed(
                 )
 
     edges = list(edges_by_pair.values())
-    edges.sort(key=lambda row: (-row["score"], row["left"], row["right"]))
+    edges.sort(
+        key=lambda row: (
+            -row["score"],
+            path_sort_key(row["left"]),
+            path_sort_key(row["right"]),
+        )
+    )
     return edges
 
 
@@ -340,7 +385,7 @@ def family_record(index: int, member_ids: list[str], paths_by_id: dict[str, dict
             }
             for path_id in construction_ids
         ],
-        "path_ids": sorted(member_ids),
+        "path_ids": sorted(member_ids, key=path_sort_key),
         "ayahs": sorted(ayahs),
         "roots": sorted(roots),
         "root_count": len(roots),
@@ -372,12 +417,16 @@ def plan_families(
     ordered_labels = [
         label
         for label, _member_ids in sorted(
-            members.items(), key=lambda item: (-len(item[1]), min(item[1]))
+            members.items(),
+            key=lambda item: (
+                -len(item[1]),
+                min(path_sort_key(path_id) for path_id in item[1]),
+            ),
         )
     ]
     plans: dict[str, dict[str, Any]] = {}
     for index, label in enumerate(ordered_labels, start=1):
-        member_ids = sorted(members[label])
+        member_ids = sorted(members[label], key=path_sort_key)
         member_set = set(member_ids)
         representative_id = max(
             member_ids,
@@ -450,7 +499,7 @@ def streamed_family_records(
         for label in ordered_labels
     }
     with source_path.open("rb") as handle:
-        for indexed_path in sorted(indexed, key=lambda row: row.path_id):
+        for indexed_path in sorted(indexed, key=lambda row: path_sort_key(row.path_id)):
             handle.seek(indexed_path.source_offset)
             path = json.loads(handle.readline())
             path_id = str(path["path_id"])
@@ -630,7 +679,7 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
             for row in families[:30]
         ],
     }
-    (output_dir / "path_family_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_json_atomic(output_dir / "path_family_summary.json", summary)
     return summary
 
 

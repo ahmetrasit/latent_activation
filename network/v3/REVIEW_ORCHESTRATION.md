@@ -44,22 +44,40 @@ First pass: build pericope-local channels for these intervals:
 ...
 
 Keep every parent/subchannel and its active ayah anchors within one interval;
-do not form cross-pericope or whole-surah channels yet. Do not flatten the
-surah into one motif bucket or chase coverage by packing unrelated branches
-into oversized subchannels. Split materially different scenes, active senses,
-operations, or outcomes.
+do not form cross-pericope channels yet. Build tight local scenes, split
+different senses or operations, and do not pack motifs for coverage. Retain
+channels whose latent activation supports, materializes, reframes, or usefully
+pressures the primary reading, not surface summary alone.
 ```
 
-For surahs with defined pericopes, use a second-stage cross-pericope check
-after the first report is written. Send the same agent this message:
+## Whole-surah lexical-surprise sweep
+
+For any surah with defined pericopes, run a separate lexical-surprise recall
+sweep after the pericope-local report is written and before cross-pericope
+synthesis. The pericope file excludes very short surahs, so this staged sweep
+does not apply when no pericope rows exist. Send the same agent this message:
 
 ```text
-Freeze the pericope-local findings. Now check for channels spanning pericope
-boundaries or the whole surah. Add one only when its bridge is justified by a
-shared semantic invariant, repeated scene signature, causal sequence, role
-progression, contrast, or reversal, not loose topical overlap. For each, name
-the pericopes spanned and the bridge. Preserve local findings; clarify them
-only when the bridge requires it.
+Freeze the pericope-local findings. Now run a separate whole-surah
+lexical-surprise sweep for compact concrete clusters not yet represented, such
+as source-attested practices, objects, tools, instruments, rites, games,
+body/food/craft/animal/social micro-scenes, or other concrete motifs. Add one
+only when its motifs form a complete scene and its activation supports,
+materializes, reframes, or usefully pressures a primary surah reading; state
+that effect in the synthesis. Prefer standalone subchannels. Do not make
+generic domain buckets or add motifs for visible coverage.
+```
+
+For surahs with defined pericopes, use a final cross-pericope check after the
+local-scene and lexical-surprise passes. Send the same agent this message:
+
+```text
+Freeze the pericope-local and lexical-surprise findings. Now check for channels
+spanning pericope boundaries or the whole surah. Add one only when its bridge
+is a shared invariant, repeated scene signature, causal sequence, role
+progression, contrast, or reversal, not loose topic. Name the pericopes and
+bridge. Give each scene one canonical placement; do not duplicate local
+findings to express a whole-surah theme.
 ```
 
 ## Output
@@ -72,19 +90,14 @@ network/v3/reviews/s###/reader_a_pilot.md
 
 The report must contain first-pass discovery findings in hierarchical form:
 
-- atomic motifs;
 - parent channels;
-- subchannels;
-- resonance bridges;
-- lexical resonances;
-- surprise probes;
-- residual motifs only when they do not form a coherent probe.
+- their nested subchannels; and
+- standalone subchannels that do not defensibly share a parent invariant.
 
-There is no limit on the number of parents, subchannels, bridges, or probes,
-and no artificial length cap. The report should be as detailed as the supplied
-evidence requires. Do not include copied queue rows, file inventories, command
-transcripts, full candidate data, grading language, validation cautions, or
-audit records.
+Working ledgers and coverage accounting stay internal. There is no channel
+quota, but report length must follow scene-complete findings rather than
+visible branch coverage. Do not include copied queue rows, file inventories,
+command transcripts, full candidate data, grading language, or audit records.
 
 ## Pilot Command
 
@@ -113,31 +126,34 @@ Write the report to:
 
 A prototype review is complete when `reader_a_pilot.md`:
 
-- uses only `F###` and `PF###` row IDs as source pointers;
-- inventories atomic motifs before clustering into broad domains;
-- organizes findings into parent channels, subchannels, resonance bridges, and
-  surprise probes instead of one flat accepted-channel list;
-- gives root:branch evidence without copying rows;
-- includes material branch images that belong to a cited channel, without
-  carrying unrelated row tails into the report;
-- explains each parent/subchannel/bridge in coherent prose rather than as a
-  catalog of findings;
-- assigns confidence by nucleus coherence, evidence breadth, bridge clarity,
-  and distinctness;
-- preserves coherent rare images as surprise probes instead of discarding them;
-- surfaces coherent latent lexical imagery instead of demoting it for being
-  surprising, concrete, or absent from surface translation;
+- builds one-scene subchannels before parent consolidation;
+- gives exact `branches[].id` evidence without copying rows or relying only on
+  non-unique `citation_ref` aliases;
+- includes only active branch senses that participate in the stated scene;
+- makes the surprising reach support, materialize, reframe, or usefully
+  pressure the primary reading;
+- keeps concrete latent scenes compact and gives each one canonical placement;
 - keeps the report as discovery output, not an audit or grading record.
 
-## Post-review coverage check
+## Post-review recall and coverage diagnostic
 
-After each report is written, and after the second-stage cross-pericope check
-for surahs with defined pericopes, mechanically compute unique cited
-`root:B###` branch IDs in `reader_a_pilot.md` and compare them with the
-bundle's `branches` table. If cited branch coverage is less than 90%, send the
-same agent this message verbatim:
+After the final staged pass is complete, mechanically compute unique exact
+`branches[].id` values cited in `reader_a_pilot.md` and compare them with the
+bundle's `branches` table. Do not count non-unique `citation_ref` aliases
+unless the exact branch ID is also present.
+
+Coverage is diagnostic, not an acceptance threshold. The lexical-surprise
+sweep controls recall; never enlarge channels or create domain catalogs merely
+to raise the percentage.
+
+If exact cited branch coverage is below 50%, send the same agent this message:
 
 ```text
-you failed to do a comprehensive task and rather seem to generate poor performance - you visited only a limited number of
-  candidates. what's the root cause for that. if you are confident, can you do a better job this time?
+Your exact branch coverage is below 50%. Do not inflate channels or create
+domain buckets to raise the percentage. Re-open the uncited bundle branches and
+perform an underharvest check: add only compact, scene-complete findings whose
+active motifs support, materialize, reframe, or usefully pressure a primary
+surah reading. If omitted branches remain unsuitable, leave them omitted rather
+than stuffing them into existing channels. Report the new numerator,
+denominator, and percent when finished.
 ```
