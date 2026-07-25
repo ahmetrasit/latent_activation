@@ -396,3 +396,31 @@
 - Active motifs: enslaved status `quranic:root_000586:B003/m01`; written installment contract for manumission `quranic:root_001283:B005/m01`; standard dry measure `quranic:root_001407:B006/m01`; known weighed measure `quranic:root_001449:B005/m01`; manumission triggered after the owner's death `quranic:root_000458:B007/m01`.
 - Ayah anchors: P1, 52:2 - ك ت ب; P1, 52:3 - ر ق ق; P2, 52:22 - م د د; P2, 52:27 - م ن ن; P3, 52:30 - م ن ن; P3, 52:49 - د ب ر.
 - Synthesis: Bridge (P1 -> P2 -> P3): the shared legal invariant is a status reversal held in abeyance until a stated future condition, with a contrast between measured contractual performance and release triggered by death. P1 supplies the bound person and written instrument, P2 supplies installment measurement, and P3 carries measurement into the terminal alternative. This role progression usefully pressures the surah's sequence of decree, individual earning, and final judgment: accountable action has determinate weight, but release cannot be improvised, bought from the messenger, or altered by plotting; it occurs only under the governing condition.
+
+### S12. Powdered Poison and Bodily Wasting
+- Reading type: latent/lexical
+- Scene or process: A powdered substance becomes the vehicle for lethal poison placed in food or introduced into the body, after which the victim wastes away.
+- Active motifs: powdered aromatic substance `quranic:root_000511:B003/m01`; lethal poison entering the body or food `quranic:root_000743:B002/m01`; bodily wasting and emaciation `quranic:root_001347:B004/m01`.
+- Ayah anchors: 52:21 - ذ ر ر, ل ح ق; 52:27 - س م م.
+- Synthesis: Poison turns provision into an inward route of harm, with wasting as its visible bodily result. This materializes protection from the punishment of al-samum in 52:27 as rescue from a penetrating toxin, and it sharpens the contrast with P2's protected food supply: what enters the blessed body nourishes rather than secretly consumes it.
+
+### S13. Incision, Suppuration, and Flesh Closure
+- Reading type: latent/lexical
+- Scene or process: An incision reaches living flesh; pus gathers and can corrupt the lesion, while the counter-process is the flesh closing and healing.
+- Active motifs: cutting flesh and incising a wound `quranic:root_001638:B002/m01`; wound reaching flesh and closing in healing `quranic:root_001348:B008/m01`; pus extending through a wound `quranic:root_001407:B007/m01`; ulcer festering with pus `quranic:root_000025:B011/m01`.
+- Ayah anchors: 52:22 - ل ح م, م د د; 52:36 - ء ر ض; 52:45 - و ذ ر.
+- Synthesis: The scene follows one injury into opposed outcomes: tissue can knit shut, or hidden suppuration can advance into visible corruption. It usefully pressures the apparent delay of 52:45-47, because deferred encounter need not mean inactive harm; punishment can already be developing like an untreated wound, while P2's protected provision aligns with the bodily alternative of closure and repair.
+
+### S14. Battle Turns Into the Combatant's Death Struggle
+- Reading type: latent/lexical
+- Scene or process: A contest framed as war enters violent collision, blazes into killing, reduces the slain to flesh, and terminates in the soul's struggle and death throes.
+- Active motifs: war and combat `quranic:root_001334:B004/m01`; battle clash and striking the enemy `quranic:root_001675:B005/m01`; battle blazing with severe killing `quranic:root_000225:B002/m01`; killing until the slain become flesh `quranic:root_001348:B004/m01`; soul struggling to leave the body `quranic:root_001334:B003/m01`; death throes `quranic:root_001489:B016/m01`.
+- Ayah anchors: 52:7 - و ق ع; 52:18 - ج ح م; 52:22 - ل ح م; 52:23 - ن ز ع; 52:42 and 52:46 - ك ي د.
+- Synthesis: The same ك ي د root reverses the combatant's role: the word-field moves from waging war to the soul's losing struggle to depart. The sequence materializes the failure of plotting in 52:42-46 as a battle whose makers cannot control its final encounter; strategic aggression collapses into the plotters' own bodily defeat.
+
+### S15. Meat Preservation Between Nourishment and Spoilage
+- Reading type: mixed
+- Scene or process: Meat is stripped from bone and laid out in rows in the sun or over coals for use or travel, but its intended nourishment remains vulnerable to turning and stench.
+- Active motifs: stripping meat from bone `quranic:root_001348:B009/m01`; meat arrayed for drying or travel `quranic:root_000871:B003/m01`; meat changing and becoming foul `quranic:root_000406:B004/m01`; food building bodily flesh `quranic:root_000156:B010/m01`.
+- Ayah anchors: 52:20 - ص ف ف; 52:22 - ل ح م; 52:37 - خ ز ن; 52:39 - ب ن ي.
+- Synthesis: Ordinary meat requires extraction, arrangement, heat, and vigilance against decay before it can build the body. This reframes the desired meat supplied in 52:22 as provision freed from processing burden and spoilage risk, so P2's abundance is not only quantity but nourishment delivered without the ordinary route through labor and corruption.

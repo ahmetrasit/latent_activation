@@ -407,3 +407,52 @@
 - Active motifs: extracting from concealment (`quranic:root_000400:B002/m01`); safety and integrity (`quranic:root_000737:B001/m01`); forcible seizure (`quranic:root_000018:B001/m02`); capture (`quranic:root_000018:B003/m01`); casting away (`quranic:root_001466:B001/m01`); sea (`quranic:root_001697:B003/m01`).
 - Ayah anchors: P2 51:35 `أَخْرَجْ` (خ ر ج); P2 51:36 `مُسْلِمِينَ` (س ل م); P3 51:40 `أَخَذْ` (ء خ ذ), `نَبَذْ` (ن ب ذ), `يَمِّ` (ي م م).
 - Synthesis: The bridge is a reversal in removal's function. P2 takes protected occupants out of a condemned place toward safety; P3 takes the culpable ruler and his force out of their position and casts them into destruction. Judgment sorts by movement, but rescue and punishment assign opposite destinations to the removed object.
+
+### S11. Whole Surah: Death, Shroud, Grave-House, and Estate
+- Reading type: latent/lexical
+- Scene or process: Death releases a person from life, the body is covered and interred in a grave understood as a house, and property remains behind as an estate.
+- Active motifs: death expressed as being given rest (`quranic:root_000609:B016/m01`); shrouding and interring the dead (`quranic:root_000266:B009/m01`); grave as burial place (`quranic:root_000266:B009/m02`); grave called a house (`quranic:root_000166:B007/m01`); estate left by the dead (`quranic:root_000180:B006/m01`).
+- Ayah anchors: 51:15 `جَنَّٰتٍ` (ج ن ن); 51:36 `بَيْتٍ` (ب ي ت); 51:37 `تَرَكْ` (ت ر ك); 51:39,52 `مَجْنُونٌ` (ج ن ن); 51:41 `رِّيحَ` (ر و ح); 51:56 `جِنَّ` (ج ن ن).
+- Synthesis: Release, covering, burial place, and inheritance form one mortuary sequence in which body and possession separate. It usefully pressures the surah's scenes of ruined households and approaching account: a grave may become the body's last terrestrial house and wealth may pass on, but neither operation settles the promised reckoning or erases the trace left for later witnesses.
+
+### S12. Whole Surah: A Right Documented and Restored
+- Reading type: latent/lexical
+- Scene or process: A claimant's right is embodied in a title deed, recognized as the claimant's priority, and returned to its holder.
+- Active motifs: deed certifying a right (`quranic:root_000516:B008/m01`); priority and entitlement (`quranic:root_001684:B008/m01`); restoring a right to its owner (`quranic:root_000609:B006/m01`).
+- Ayah anchors: 51:39 `تَوَلَّىٰ` (و ل ي); 51:41 `رِّيحَ` (ر و ح); 51:49 `تَذَكَّرُ` (ذ ك ر); 51:54 `تَوَلَّ` (و ل ي); 51:55 `ذَكِّرْ/ذِّكْرَىٰ` (ذ ك ر).
+- Synthesis: Record, entitlement, and restitution make a compact legal recovery process. This materializes the right acknowledged in wealth at 51:19 and the coming account at 51:6 as more than voluntary generosity: the share has the force of a documented title whose proper outcome is restoration to the person entitled to it.
+
+### S13. Whole Surah: From Proposal to Wedding House
+- Reading type: latent/lexical
+- Scene or process: A suitor requests marriage, a dowry establishes material obligation, the bride is prepared with a scented face coating, and the groom's entry under a wedding pavilion establishes a new household.
+- Active motifs: marriage proposal (`quranic:root_000421:B002/m01`); woman's dowry (`quranic:root_000852:B007/m01`); saffron or perfume coating on a bride's face (`quranic:root_001105:B011/m01`); groom entering his bride under an erected pavilion (`quranic:root_000156:B006/m01`); marriage as establishment of a house (`quranic:root_000166:B010/m01`).
+- Ayah anchors: 51:5 `صَادِقٌ` (ص د ق); 51:11 `غَمْرَةٍ` (غ م ر); 51:31 `خَطْبُ` (خ ط ب); 51:36 `بَيْتٍ` (ب ي ت); 51:47 `بَنَيْ` (ب ن ي).
+- Synthesis: Request, transfer, bodily preparation, entry, and residence form a complete social transition from two parties to one household. The scene materializes the surah's created pairing and promised child as a social as well as biological order: counterpart relation becomes public commitment, costly obligation, and a house capable of carrying lineage.
+
+### S14. Whole Surah: Date Infusion Prepared and Drunk
+- Reading type: latent/lexical
+- Scene or process: Dates or raisins are dropped into a vessel and covered with water, the drink rests overnight, its surface develops lees or bubbles, and it is taken from a small cup in measured draughts until thirst ends.
+- Active motifs: date or raisin infusion made in a water-filled vessel (`quranic:root_001466:B006/m01`); liquid kept or cooled overnight in its container (`quranic:root_000166:B006/m01`); beverage lees or surface bubbles (`quranic:root_001143:B009/m01`); small cup holding little drink (`quranic:root_001105:B009/m01`); draught measured by breaths (`quranic:root_001533:B006/m01`); thirst ended by drinking (`quranic:root_000856:B008/m01`).
+- Ayah anchors: 51:11 `غَمْرَةٍ` (غ م ر); 51:21 `أَنفُسِ` (ن ف س); 51:29 `صَرَّةٍ` (ص ر ر); 51:36 `بَيْتٍ` (ب ي ت); 51:40 `نَبَذْ` (ن ب ذ); 51:48 `فَرَشْ` (ف ر ش).
+- Synthesis: Ingredient, vessel, waiting time, visible surface change, drinking measure, and bodily outcome make one preparation-and-consumption practice. It materializes hospitality and provision as processes serving embodied thirst, while usefully sharpening the surah's asymmetries of consumption: humans require prepared liquid and repeated draughts, whereas the messengers' untouched meal and the Provider's non-need suspend the ordinary recipient role.
+
+### S15. Whole Surah: Fitting, Honing, and Polishing a Weapon
+- Reading type: latent/lexical
+- Scene or process: A craftsperson seats a point in its shaft, hones iron on stone, finishes the blade's surface, and produces a weapon whose edge and spine retain their hardness.
+- Active motifs: fitting a spearpoint into its shaft (`quranic:root_000051:B011/m01`); honing iron, knife, or sword on stone (`quranic:root_001675:B009/m01`); long sharp arrowhead or blade (`quranic:root_000732:B006/m01`); polishing a sword (`quranic:root_000299:B007/m01`); hard keen iron or blade (`quranic:root_000516:B002/m01`); solid exposed spine of sword or arrow (`quranic:root_001396:B002/m01`).
+- Ayah anchors: 51:4,44 `أَمْرًا/أَمْرِ` (ء م ر); 51:6 `وَٰقِعٌ` (و ق ع); 51:24 `حَدِيثُ` (ح د ث); 51:38 `سُلْطَٰنٍ` (س ل ط); 51:49,55 `تَذَكَّرُ/ذَكِّرْ/ذِّكْرَىٰ` (ذ ك ر); 51:58 `مَتِينُ` (م ت ن).
+- Synthesis: Point, shaft, abrasive, finish, edge, and spine form a bounded manufacture-and-maintenance scene. It usefully pressures the surah's language of authority and strength: a ruler's coercive force depends on fitted parts, abrasive work, and maintained hardness, whereas the Provider's strength and the elemental judgments require no crafted implement to remain effective.
+
+### S16. Whole Surah: A Lie Becomes Public Talk
+- Reading type: latent/lexical
+- Scene or process: A falsehood is fabricated, enters circulation as common talk, is carried between people to provoke discord, attacks a person's reputation, and leaves that person as a story repeated by others.
+- Active motifs: fabricated falsehood (`quranic:root_000434:B007/m01`); news renewed through conversation (`quranic:root_000299:B003/m01`); tale-bearing that sows discord (`quranic:root_000043:B009/m01`); backbiting and reputational attack (`quranic:root_001675:B013/m01`); person becoming public story (`quranic:root_000299:B004/m01`).
+- Ayah anchors: 51:6 `وَٰقِعٌ` (و ق ع); 51:24 `حَدِيثُ` (ح د ث); 51:27 `تَأْكُلُ` (ء ك ل); 51:49,56 `خَلَقْ` (خ ل ق).
+- Synthesis: Fabrication becomes a social transmission chain with maker, circulating utterance, carrier, injured reputation, and durable public outcome. This reframes P1's conflicting speech and P3's inherited “magician or madman” formula as the mechanics of rumor, while the truthful promise and corrective reminder oppose that chain with speech whose recurrence restores reality rather than manufacturing notoriety.
+
+### S17. Whole Surah: Testing a Bow before the Hunt
+- Reading type: latent/lexical
+- Scene or process: A hunter inspects the gap between bow and string, draws the string to test tension, sets out, waits until prey comes within reach, and uses the calibrated hunting tool to obtain food.
+- Active motifs: bowstring clinging dangerously close to the bow (`quranic:root_000156:B005/m01`); bowstring standing away from the bow's belly (`quranic:root_000170:B008/m01`); testing a bow by drawing its string (`quranic:root_000526:B003/m01`); hunters setting out (`quranic:root_000745:B006/m01`); prey coming within reach (`quranic:root_000421:B005/m01`); bow or trained raptor that feeds its owner (`quranic:root_000934:B006/m01`).
+- Ayah anchors: 51:7,22-23,47 `سَّمَآءِ/سَّمَآءَ` (س م و); 51:14 `ذُوقُ` (ذ و ق); 51:31 `خَطْبُ` (خ ط ب); 51:38,50-51 `مُّبِينٍ/مُّبِينٌ` (ب ي ن); 51:47 `بَنَيْ` (ب ن ي); 51:57 `يُطْعِمُ` (ط ع م).
+- Synthesis: Tool condition, calibration, departure, opportunity, strike, and subsistence outcome form one hunting process. It materializes provision as something a human seeker reaches only through tested tension and favorable timing; the closing declaration of the Provider thereby gains contrast with an agent whose food depends on equipment, pursuit, and prey entering range.

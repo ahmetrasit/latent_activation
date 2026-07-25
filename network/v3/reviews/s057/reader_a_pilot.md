@@ -325,3 +325,171 @@
 - Active motifs: withholding possessions from where they are due `quranic:root_000089:B001/m01`; command and imposed obligation `quranic:root_000051:B002/m01`; turning away `quranic:root_001684:B007/m01`; wealth and imagined self-sufficiency `quranic:root_001110:B001/m01`; true sufficiency `quranic:root_001110:B002/m01`; praise opposed to blame `quranic:root_000355:B001/m01`
 - Ayah anchors: 57:24 `yabkhaluna`, `yamuruna`, `yatawalla`, `al-ghaniyyu`, `al-hamidu`
 - Synthesis: Withholding is not confined to a closed hand; it recruits others by turning refusal into instruction. The one who withdraws behaves as if wealth made the self independent, but the closing names transfer sufficiency and praise away from the hoarder to the source that needs no retained possession.
+
+### S3. Whole-Surah Wedding Transfer
+- Reading type: latent/lexical
+- Scene or process: A marriage is contracted, its dower is transferred, the bride is conveyed to the husband, and entry beneath the wedding pavilion establishes a new household.
+- Active motifs: taking a spouse and becoming a household `quranic:root_000064:B002/m01`; marriage contract and espousal `quranic:root_001444:B004/m01`; bridal dower `quranic:root_000852:B007/m01`; bride conveyed to her husband `quranic:root_001583:B006/m01`; building upon one's wife and entering beneath the wedding pavilion `quranic:root_000156:B006/m01`
+- Ayah anchors: 57:2 `al-mulku`; 57:18 `al-mussaddiqina`; 57:26 `muhtadin`; 57:27 `ibni`; 57:29 `ahlu`
+- Synthesis: Contract, payment, conveyance, and entry form one ordered transfer into household. The scene makes the surah's kingdom, truthful giving, guidance, lineage, and people-of-the-book vocabulary concrete as covenantal incorporation: bounty establishes obligations and a durable household rather than merely enlarging private possession.
+
+### S4. Whole-Surah Embodied Prayer
+- Reading type: latent/lexical
+- Scene or process: A call gathers worshippers, who orient toward a prayer direction, stand bodily in devotion, and count repeated praise on beads.
+- Active motifs: the call "come to prayer" `quranic:root_000383:B009/m01`; worship through praise and prayer `quranic:root_000666:B001/m01`; beads used to count praise `quranic:root_000666:B006/m01`; prayer direction toward which worshippers turn `quranic:root_001198:B005/m01`; bodily standing in prayer or remembrance `quranic:root_001273:B002/m01`
+- Ayah anchors: 57:1 `sabbaha`; 57:17 `yuhyi`; 57:22 `qabli`; 57:25 `yaquma`
+- Synthesis: The call, orientation, posture, and counting instrument make praise a repeatable embodied rite. This materializes the surah's opening cosmic praise and its command that people stand in equity as disciplined alignment, while pressing devotion away from unstructured withdrawal and toward a shared, directed practice.
+
+### S5. Whole-Surah Marked-Lot Game
+- Reading type: latent/lexical
+- Scene or process: Smooth marked lots are gathered in a leather receptacle, including a named fifth arrow; players draw for portions of a slaughtered camel, and a winning lot emerges for its owner.
+- Active motifs: a smoothed arrow or lot `quranic:root_000434:B008/m01`; a mark distinguishing a lot `quranic:root_001040:B002/m01`; leather receptacle holding gambling arrows `quranic:root_000532:B010/m01`; the fifth gambling arrow `quranic:root_001533:B016/m01`; arrow-game and division of camel portions `quranic:root_001694:B007/m01`; winning when one's lot comes out `quranic:root_001186:B001/m01`
+- Ayah anchors: 57:4 `khalaqa`, `yalamu`; 57:8 `rabbi`; 57:12 `al-fawzu`; 57:14 `anfusakum`; 57:22 `yasirun`
+- Synthesis: The container, differentiated implements, draw, and allocated meat constitute a specific game of chance rather than a generic play motif. It usefully pressures the surah's worldly play, numerical rivalry, gains, and emotional exultation: what looks like a lucky share drawn for the self is set against events already inscribed before they arrive, and the surah's great success is no random winning lot.
+
+### S6. Whole-Surah Leather Water-Skin
+- Reading type: latent/lexical
+- Scene or process: A surface is stripped into hide, its hair is retained, a measured tanning dose treats the pelt, and stitched panels produce the side of a useful water-skin.
+- Active motifs: stripping skin from a surface `quranic:root_000120:B004/m01`; hair-on hide retained during skinning or tanning `quranic:root_000844:B006/m01`; a small measured dose of tanning agent `quranic:root_001533:B007/m01`; sewing hide to hide along a thick edge `quranic:root_000121:B006/m01`; leather side-panel of a water-skin `quranic:root_001536:B002/m01`
+- Ayah anchors: 57:4 `basirun`; 57:12 `bushra`; 57:14 `anfusakum`; 57:19 `ashabu`; 57:25 `manafiu`
+- Synthesis: The operations proceed from exposed surface to treated material and finally to a joined vessel. This reframes the surah's self-assay and promised benefit as craft transformation: usefulness is produced by measured treatment, selective retention, and repaired joining, not by leaving the original surface untouched.
+
+### S7. Whole-Surah Layered Camel Rig
+- Reading type: latent/lexical
+- Scene or process: An under-saddle cloth, belly girth, level riding pad, pillion wrap, and raised howdah are layered onto a load-bearing mount.
+- Active motifs: girth fastened beneath a camel's belly `quranic:root_000128:B006/m01`; cloth placed beneath a saddle `quranic:root_001684:B011/m01`; level riding pad on a camel's back `quranic:root_000766:B010/m01`; wrapped cloth supporting a pillion rider `quranic:root_001309:B003/m01`; mount and carried riding equipment `quranic:root_000970:B005/m01`; raised howdah for a woman on a camel `quranic:root_001000:B005/m01`
+- Ayah anchors: 57:3 `al-batinu`, `al-zahiru`; 57:4 `istawa`, `al-arshi`; 57:15 `mawlakum`; 57:28 `kiflayni`
+- Synthesis: The rig is a precise assembly: inner strap, outer back, leveling layer, adjacent underlay, second rider's share, and raised enclosure distribute weight so travel can continue. It materializes the surah's path, race, walking light, and double portion as supported passage, while recasting throne, inside and outside, equality, and guardianship as load-bearing relations rather than isolated abstractions.
+
+### S8. Whole-Surah Cooperative Well Drawing
+- Reading type: latent/lexical
+- Scene or process: A water-rich shaft is timbered at its mouth, water carriers take alternating turns at the draw, and the waterers drink from a full bucket.
+- Active motifs: well shaft before or after lining `quranic:root_001248:B007/m01`; deep store of well water `quranic:root_001040:B005/m01`; timbered well mouth and platform for the drawer `quranic:root_001000:B004/m01`; circulating water carrier `quranic:root_000163:B006/m01`; water drawers succeeding one another by turns `quranic:root_000433:B011/m01`; waterers drinking from a full bucket `quranic:root_001274:B005/m01`
+- Ayah anchors: 57:4 `al-arshi`, `yalamu`; 57:7 `mustakhlafina`; 57:13 `babun`; 57:16 `qulubuhum`; 57:25 `qawiyyun`
+- Synthesis: Shaft, stored water, built platform, rotating labor, and shared bucket form a complete extraction practice. The scene materializes descent and ascent, opening, succession, strength, and bounty as cooperative access to a hidden reserve: succession means taking a turn at drawing and transmitting provision, not owning the source.
+
+### S9. Whole-Surah Ordered Hive and Honey
+- Reading type: latent/lexical
+- Scene or process: A bee leader orders a following colony whose secretion becomes honey, remains in wax comb before pressing, and thickens into a mixed, settled product.
+- Active motifs: bee leader followed by the rest `quranic:root_001444:B008/m01`; bee secretion as honey `quranic:root_001358:B003/m01`; honey held in wax comb before pressing `quranic:root_000822:B007/m01`; thick mixed honey or comb `quranic:root_000906:B015/m01`; honey curdling and settling at its endpoint `quranic:root_000067:B005/m01`
+- Ayah anchors: 57:2 `al-mulku`; 57:3 `al-awwalu`; 57:13 `duriba`; 57:19 `al-shuhadau`; 57:20 `laibun`
+- Synthesis: Leadership, animal production, comb, pressing, and thickening form one ordered food process. This reframes the surah's kingdom, following, witness, and bounty as productive coordination: authority culminates in a stored, shareable yield, and the apparent play-root contains disciplined animal labor rather than empty diversion.
+
+### S10. Whole-Surah Burial Into Concealment
+- Reading type: latent/lexical
+- Scene or process: A completed death is marked by laying the body on its right side, covering it with shroud and grave, and removing it from sight through burial.
+- Active motifs: one completed state of death `quranic:root_001454:B008/m01`; laying the dead on the right side `quranic:root_001698:B007/m01`; shrouding and covering the dead in a grave `quranic:root_000266:B009/m01`; hiding a body through burial `quranic:root_001117:B009/m01`
+- Ayah anchors: 57:2 `yumitu`; 57:12 `bi-aymanihim`, `jannatun`; 57:25 `bil-ghaybi`
+- Synthesis: Orientation, wrapping, grave, and disappearance form a complete interment sequence. It materializes the surah's life-death and seen-unseen axes: the body is deliberately placed on the right and then progressively covered, sharpening the difference between a protective covering that preserves a living person and burial covering that records completed mortality.
+
+### S11. Whole-Surah Fracture Set Straight
+- Reading type: latent/lexical
+- Scene or process: A solid bone is fractured, set and allowed to heal, then judged by whether crookedness has been corrected into straight, stable integrity.
+- Active motifs: solid bone `quranic:root_001029:B005/m01`; setting a fracture that may heal crooked `quranic:root_000015:B002/m01`; straightening and completion after crookedness `quranic:root_000766:B002/m01`; solidity and evenness `quranic:root_000852:B002/m01`
+- Ayah anchors: 57:4 `istawa`; 57:7 `ajrun`; 57:10 `yastawi`, `azamu`; 57:18 `al-mussaddiqina`
+- Synthesis: Bone, break, setting, and restored alignment form a compact orthopedic process. The scene reframes the surah's reward, equality, truthfulness, and upright justice as reparative labor: recompense is not merely payment but the work of restoring a damaged structure until it can bear weight in a sound relation.
+
+### S12. Cross-Pericope Bridge: Descent Installs Capacity
+- Reading type: mixed
+- Scene or process: P1 (57:1-15) remains canonical at "Descending Signs Conduct an Extraction"; P2 (57:16-29) remains canonical at "Dormant Ground Receives Life and Meaning" and "The Message Establishes a Public Balance." Bridge (repeated causal sequence and role progression): delivery from above places a capacity into progressively larger receivers.
+- Active motifs: bridge hinges only: delivering a thing downward to its receiver `quranic:root_001492:B002/m01`; placing a delivered thing in its proper station `quranic:root_001492:B004/m01`
+- Ayah anchors: 57:9 `yunazzilu`; 57:16 `nazala`; 57:25 `anzalna`
+- Synthesis: The local extraction, ground-revival, and justice scenes retain their canonical placements. Their bridge is the repeated descent operation: signs install orientation in persons, truth activates heart and earth, and book, balance, and iron install public capacity. The receiver progresses from person to substrate to polity, while the invariant remains an externally delivered power made effective by proper placement.
+
+### S13. Cross-Pericope Bridge: Light Is Granted, Not Borrowed
+- Reading type: mixed
+- Scene or process: P1 (57:1-15) remains canonical at "Issued Light Marks a Moving Front" and "Borrowed Fire Reverses the Seeker"; P2 (57:16-29) remains canonical at "Belief Stands as Testimony" and "Double Provision Becomes a Walking Beacon." Bridge (contrast and role progression): attempted lateral borrowing fails, whereas granted light becomes durable locomotion.
+- Active motifs: bridge hinges only: light or good borrowed from another `quranic:root_001196:B002/m01`; light `quranic:root_001564:B001/m01`; beacon or landmark `quranic:root_001564:B005/m01`; walking `quranic:root_001427:B001/m01`
+- Ayah anchors: 57:13 `nantaqbis`, `nurin`; 57:19 `nuruhum`; 57:28 `nuran`, `tamshuna`
+- Synthesis: The bridge reverses the acquisition role. In P1, an excluded seeker tries to tap a peer's already issued light after separation; in P2, truthful standing and mercy precede a light assigned to its own bearer. What cannot be borrowed sideways is granted as a beacon and converted into forward movement.
+
+### S14. Cross-Pericope Bridge: Possession Is a Relay
+- Reading type: mixed
+- Scene or process: P1 (57:1-15) remains canonical at "The Successor-Held Estate" and "Cut Capital Returns Enlarged"; P2 (57:16-29) remains canonical at "Charity Acts as Fulfilled Credit," "Bounty Resides in the Giving Hand," and "Commanded Withholding." Bridge (shared invariant, role progression, and reversal): a holder receives value, releases it, and passes it onward, while withholding arrests the relay.
+- Active motifs: bridge hinges only: a later holder succeeding an earlier one `quranic:root_000433:B001/m01`; ownership transferred without contract or effort `quranic:root_001639:B002/m01`; a cut portion advanced for return `quranic:root_001217:B003/m01`; handover `quranic:root_001693:B007/m01`; withholding possessions from where they are due `quranic:root_000089:B001/m01`
+- Ayah anchors: 57:7 `mustakhlafina`; 57:10 `mirathu`; 57:11 `yuqridu`; 57:18 `aqradu`; 57:24 `yabkhaluna`; 57:29 `bi-yadi`
+- Synthesis: The bridge assigns possession a temporal role rather than restating the local financial scenes. Value reaches a successor, is cut loose as credit, and remains available for handover from the owning hand; the holder is one station in its movement. Withholding is the exact reversal because it converts a relay position into a false endpoint.
+
+### S15. Cross-Pericope Bridge: Covenant Must Become Care
+- Reading type: mixed
+- Scene or process: P1 (57:1-15) remains canonical at "A Summons Secures the Inward Bond"; P2 (57:16-29) remains canonical at "Messengers Follow an Inherited Track" and "Invented Discipline Lacks a Shepherd." Bridge (role progression and reversal): a bond first taken must later be transmitted and actively maintained, while failed care undoes its intended continuity.
+- Active motifs: bridge hinges only: confirmed covenant `quranic:root_001623:B004/m01`; following a trace in sequence `quranic:root_001247:B001/m01`; preserving and caring for a covenant `quranic:root_000574:B006/m01`; a truth or due that must be guarded `quranic:root_000347:B007/m01`
+- Ayah anchors: 57:8 `mithaqakum`; 57:27 `qaffayna`, `haqqa`, `riayatiha`
+- Synthesis: The bridge is a temporal progression in covenant roles. P1 establishes the bond at reception; P2 asks later carriers to follow its trace and preserve its due. Monastic failure is therefore not a separate topic but a reversal of covenant completion: initiation occurred, yet shepherding did not sustain what had been undertaken.
+
+### S16. Cross-Pericope Bridge: Boundary Function Reverses
+- Reading type: mixed
+- Scene or process: P1 (57:1-15) remains canonical at "The Wall Sorts Mercy From Pain"; P2 (57:16-29) remains canonical at "Covering Blocks Truth and Light" and "Covering Protects the Offender." Bridge (repeated scene signature and role reversal): a boundary's moral effect changes according to what it excludes and from whom.
+- Active motifs: bridge hinges only: elevated surrounding wall `quranic:root_000758:B002/m01`; physical inside `quranic:root_000128:B001/m01`; exterior opposed to the inside `quranic:root_000970:B002/m01`; obstructing truth through disbelief `quranic:root_001307:B003/m01`; a cover that protects `quranic:root_001096:B001/m01`; covering a sin and protecting its bearer `quranic:root_001096:B002/m01`
+- Ayah anchors: 57:13 `bisurin`, `batinuhu`, `zahiruhu`; 57:19 `kafaru`; 57:20-21 `maghfirah`; 57:28 `yaghfir`
+- Synthesis: P1's wall sorts persons by placing mercy and pain on opposite sides. P2 repeats the interface but reverses its object: disbelief puts a cover between the person and truth, while forgiveness puts a cover between offense and the person. The bridge is therefore not generic enclosure but a precise reversal in which side of the boundary receives protection.
+
+### S17. Whole-Surah Infected Wound Under Treatment
+- Reading type: latent/lexical
+- Scene or process: A boil breaks the body's surface, pus collects, corruption spreads through the wound, and a practitioner treats and sutures it; apparent improvement may relapse before recovery.
+- Active motifs: boil or ulcer emerging from the body `quranic:root_000400:B004/m01`; pus collected in a wound `quranic:root_000282:B003/m01`; wound swelling and spreading into corruption `quranic:root_000138:B004/m01`; medical treatment and suturing `quranic:root_000034:B001/m01`; relapse after apparent improvement `quranic:root_001096:B004/m01`; recovery from illness `quranic:root_000099:B003/m01`
+- Ayah anchors: 57:4 `yakhruju`; 57:9 `yukhrija`; 57:14 `jaa`; 57:27 `ibtighaa`; 57:23 `tasa`; 57:20-21 `maghfirah`; 57:28 `yaghfir`, `ghafurun`; 57:22 `nabraaha`
+- Synthesis: Emergence, suppuration, spread, suturing, relapse, and recovery form one clinical cycle. It reframes the surah's hardened heart, revived ground, forgiveness, and failed care as wound management: concealment of damage is not healing, apparent improvement may reverse, and restoration requires treatment sustained until corruption no longer advances.
+
+### S18. Whole-Surah Birth Requires Reception and Aftercare
+- Reading type: latent/lexical
+- Scene or process: A mother delivers, a midwife receives the child into her hands, blood and afterbirth emerge, and retained afterbirth or uterine pain calls for continued care.
+- Active motifs: delivery of a child `quranic:root_001683:B003/m01`; midwife receiving the newborn into her hands `quranic:root_001198:B007/m01`; blood and afterbirth emerging with birth `quranic:root_000822:B006/m01`; postpartum uterine pain or retained afterbirth `quranic:root_000552:B004/m01`
+- Ayah anchors: 57:20 `awladi`; 57:10 `qabli`; 57:13 `qibalihim`; 57:16 `qablu`; 57:22 `qabli`; 57:19 `al-shuhadau`; 57:9 `rahimun`; 57:13, 57:27 `rahmah`; 57:28 `rahmatihi`, `rahimun`
+- Synthesis: Delivery is not self-completing: another person receives the new life, and the maternal body remains vulnerable after the child appears. The scene materializes prophetic lineage and successor transmission as an embodied passage requiring reception and aftercare, while the mercy root reaches into the injured womb and makes care integral to continuity.
+
+### S19. Whole-Surah Bereaved Dam Accepts a Foster Calf
+- Reading type: latent/lexical
+- Scene or process: After a dam loses her offspring, a rolled cloth is used in a fostering procedure that induces her to accept and foster another's calf.
+- Active motifs: parent or dam bereaved of offspring `quranic:root_001454:B005/m01`; rolled cloth used in camel fostering `quranic:root_000468:B007/m01`; induced acceptance of another dam's young `quranic:root_000468:B007/m02`
+- Ayah anchors: 57:2 `yumitu`; 57:17 `mawtiha`; 57:10 `darajatan`
+- Synthesis: Death breaks biological succession, but a precise husbandry intervention redirects maternal care toward a surviving dependent. This usefully pressures the surah's lineage and shepherding sequence: continuity need not rest on origin alone, because deliberate care can sustain a life outside its first line of descent.
+
+### S20. Whole-Surah Worn Cloth Is Reworked
+- Reading type: latent/lexical
+- Scene or process: A garment loses its nap and tears through use; the worn place is repaired, old cloth is reworked after unraveling, and a tight weave restores integrity.
+- Active motifs: cloth worn, torn, and stripped of its nap `quranic:root_000434:B009/m01`; repair at a worn place `quranic:root_000433:B007/m01`; cloth reworked after unraveling or wear `quranic:root_000544:B015/m01`; tight and sound weaving `quranic:root_000347:B010/m01`
+- Ayah anchors: 57:4 `khalaqa`; 57:7 `mustakhlafina`; 57:5 `turjau`; 57:13 `irjiu`; 57:16 `al-haqqi`; 57:27 `haqqa`
+- Synthesis: Wear, localized repair, reworking, and tight weaving form one textile-restoration process. The scene pressures the surah's account of adornment collapsing into debris: transience remains real, but damaged material can still be responsibly remade into a sound structure rather than abandoned at the first sign of decay.
+
+### S21. Whole-Surah Guest Meal Comes Off the Fire
+- Reading type: latent/lexical
+- Scene or process: A butcher-cook tends a covered pot until the meat and rendered fat reach doneness, then uses a cloth to lift the hot vessel and serves prepared provision to an arriving guest.
+- Active motifs: cooking pot `quranic:root_001205:B007/m01`; butcher-cook overseeing slaughter and cooking `quranic:root_001205:B007/m02`; rendered fat rising from the meat `quranic:root_000064:B006/m01`; food reaching doneness `quranic:root_000063:B003/m01`; lid covering the pot `quranic:root_001294:B005/m01`; cloth used to remove a hot pot `quranic:root_000248:B007/m01`; prepared food for an arriving guest `quranic:root_001492:B005/m01`
+- Ayah anchors: 57:2 `qadirun`; 57:29 `yaqdiru`, `ahlu`; 57:16 `yani`; 57:11, 57:18 `karimun`; 57:7, 57:26-28 forms of `jaala`; 57:4, 57:9, 57:16, 57:25 forms of `nazala`
+- Synthesis: Vessel, cook, fat, lid, measured doneness, heat cloth, and guest provision make bounty a prepared act of hospitality. Descent and arrival are thereby reframed as a host-receiver relation: provision becomes useful through timed heat, protective covering, skilled handling, and release to the newcomer rather than through possession of ingredients alone.
+
+### S22. Whole-Surah Spent Light Becomes a Tattooed Record
+- Reading type: latent/lexical
+- Scene or process: Soot from a fat-fed wick is used as pigment on punctured skin, and the dark lines are retraced to renew the inscription.
+- Active motifs: wick or fat soot used as tattoo pigment `quranic:root_001564:B008/m01`; puncturing skin and dusting it with soot `quranic:root_001564:B008/m02`; retracing and reblackening tattoo lines `quranic:root_000544:B009/m01`
+- Ayah anchors: 57:9, 57:12-13, 57:19, 57:28 forms of `nur`; 57:15 `al-naru`; 57:5 `turjau`; 57:13 `irjiu`
+- Synthesis: A source of flame leaves dark residue that is driven into the body and periodically renewed as a fixed surface record. This reverses the surah's walking light: illumination enables movement, whereas spent light becomes a static ornamental mark, pressing visible inscription to be distinguished from the living guidance it can only imitate.
+
+### S23. Whole-Surah Written Installments Purchase Freedom
+- Reading type: latent/lexical
+- Scene or process: An enslaved person enters a written manumission contract, earns successive portions of the stipulated price, and crosses into the legal clientage created by emancipation.
+- Active motifs: enslaved and saleable person `quranic:root_000973:B001/m01`; written contract with staged payments leading to manumission `quranic:root_001283:B005/m01`; labor and earnings applied to one's own freedom price `quranic:root_000709:B005/m01`; legal clientage following emancipation `quranic:root_001684:B005/m01`
+- Ayah anchors: 57:9 `abdihi`; 57:16, 57:22, 57:25-27, 57:29 forms of `kitab`; 57:12 `yasa`; 57:15 `mawlakum`; 57:24 `yatawalla`
+- Synthesis: Contract, scheduled debt, labor, and changed status form a complete emancipation mechanism. It makes writing and credit instruments of release while time and agency remain, and thereby sharpens the surah's final no-ransom custody: an obligation can mediate freedom before the terminal settlement, but no deferred purchase remains once that custody closes.
+
+### S24. Whole-Surah Irrigation Routes Water Into Reserve
+- Reading type: latent/lexical
+- Scene or process: Water is released from an outlet, directed through a channel, held in a basin, and replenished by feeder gullies arriving from a distance.
+- Active motifs: water outlet opened toward crops `quranic:root_001124:B005/m01`; channel directing flow into a basin `quranic:root_000009:B004/m01`; catch basin retaining water for days `quranic:root_000018:B006/m01`; distant feeder gullies supplying a pool `quranic:root_001510:B007/m01`
+- Ayah anchors: 57:10 `al-fathi`; 57:16, 57:21, 57:23, 57:27-29 forms of `ata`; 57:8 `akhadha`; 57:15 `yukhadu`; 57:25 `yansuruhu`
+- Synthesis: Outlet, channel, reservoir, and feeder form a compact distribution system distinct from drawing water out of a well. It materializes descent, revived ground, support, and transferred bounty as routed flow: provision serves a field or settlement when it is released, guided, retained, and replenished rather than arrested at its source.
+
+### S25. Whole-Surah Overdriven Mount Strands the Rider
+- Reading type: latent/lexical
+- Scene or process: A rider mounts and presses an intense pace that overburdens the animal's back, disrupts its gait, and leaves the exhausted mount unable to continue, in contrast with easy travel.
+- Active motifs: mounting and riding an animal `quranic:root_001000:B011/m01`; punishing travel that loads the weak beyond capacity `quranic:root_000347:B012/m01`; an animal changing gait in motion `quranic:root_000544:B008/m01`; exhausted or disabled mount stranding its rider `quranic:root_000094:B004/m01`; easy and supple gait `quranic:root_000563:B003/m01`
+- Ayah anchors: 57:4 `al-arshi`; 57:16 `al-haqqi`; 57:27 `haqqa`, `ibtadauha`; 57:5 `turjau`; 57:13 `irjiu`; 57:7-8, 57:19, 57:21, 57:25-28 forms of `rasul`
+- Synthesis: Mounting, excessive pace, gait disruption, and stoppage form a causal travel failure, with easy motion as its functional contrast. The scene usefully pressures the command to race and the promise of walking light: urgency without regard for a carrier's capacity can terminate the journey, while sustained passage requires disciplined pace and care for what bears the load.
+
+### S26. Whole-Surah Widowhood Limits Adornment
+- Reading type: latent/lexical
+- Scene or process: After her husband's death, a widow suspends ornament and dye, assumes mourning dress, and returns from the marital household to her kin.
+- Active motifs: widow's mourning abstention and mourning clothes `quranic:root_000002:B007/m01`; return to one's family after a husband's death `quranic:root_000544:B004/m01`
+- Ayah anchors: 57:25 `al-hadida`; 57:5 `turjau`; 57:13 `irjiu`
+- Synthesis: Mourning imposes a social limit on display and marks a household transition through death and return. Because the rite arises under the same root as iron and boundary, it reframes the surah's hard limit as disciplined restraint, while pressing worldly adornment to acknowledge mortality rather than continue as uninterrupted self-display.

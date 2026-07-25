@@ -357,6 +357,108 @@
 - Ayah anchors: 54:55 `مقعد`, `صدق`, `عند`, `مليك`, `مقتدر`.
 - Synthesis: The final seat is credible because its truth is spatially joined to the sovereign capacity that sustains it.
 
+### 16. P1-P4 - Earlier Descriptions Become Judgment States
+- Semantic invariant: A term first used as accusation, abstraction, or forecast returns in a later pericope as an objective condition fixed by judgment.
+- Surface relation: direct; P1 54:2-3, P2 54:19 and 54:24, P3 54:38, and P4 54:47 supply repeated roots and expressions.
+- Surprising reach: The surah makes provisional language anticipatory: speakers and events eventually inhabit the states that earlier words only alleged or announced.
+
+#### Subchannel A. P1 -> P2 same-root reversal: continuous moves from claim to event
+- Reading type: mixed
+- Scene or process: P1 attaches persistence to a dismissive magic claim; P2 transfers the same form to the adverse day in which the wind arrives.
+- Active motifs: deceptive diversion `quranic:root_000682:B002/m01`; P1 sustained-passage label `quranic:root_001414:B001/m01`; ill-omened day `quranic:root_001480:B001/m01`; P2 sustained passage `quranic:root_001414:B001/m02`.
+- Ayah anchors: 54:2 `سحر`, `مستمر`; 54:19 `نحس`, `مستمر`.
+- Synthesis: The P1-P2 bridge is a same-root role reversal. What observers call continuously manipulative becomes objectively continuous adversity, transferring persistence from their dismissal to the event they cannot dismiss.
+
+#### Subchannel B. P1 -> P3 causal realization: settlement becomes sentence
+- Reading type: surface-primary
+- Scene or process: P1 announces that every affair has a place of settlement; P3 names the morning punishment as the settled result.
+- Active motifs: affair or state `quranic:root_000051:B001/m01`; P1 settlement or stabilization `quranic:root_001215:B003/m02`; punishment `quranic:root_000994:B005/m02`; P3 fixed and settled condition `quranic:root_001215:B003/m01`.
+- Ayah anchors: 54:3 `أمر`, `مستقر`; 54:38 `عذاب`, `مستقر`.
+- Synthesis: The P1-P3 bridge is causal realization: an abstract rule of settlement becomes a concrete sentence. The later punishment does not merely follow the forecast; it supplies the affair's fixed terminus.
+
+#### Subchannel C. P2 -> P4 role reversal: error and burning return to the speakers
+- Reading type: surface-primary
+- Scene or process: P2 speakers classify following one human as deviation and inner burning; P4 applies the same paired expression to the criminals and opens its fire sense.
+- Active motifs: P2 deviation `quranic:root_000913:B001/m01`; P2 madness or inner heat `quranic:root_000708:B004/m01`; P4 deviation `quranic:root_000913:B001/m02`; P4 inner burning `quranic:root_000708:B004/m03`; blazing fire `quranic:root_000708:B001/m01`.
+- Ayah anchors: 54:24 and 54:47 `ضلال`, `سعر`.
+- Synthesis: The P2-P4 bridge is a role reversal in diagnosis. The stigma aimed at the messenger's followers returns as the accusers' actual state, while `سعر` passes from a charge of derangement into the heat of judgment.
+
+### 17. Whole-surah - Ritual Redirection and Counter-Rite
+- Semantic invariant: Hidden influence is managed through objects or rites that seize, redirect, diagnose, or release the affected person.
+- Surface relation: indirect; 54:2, 54:7, 54:9, 54:12-14, 54:37, 54:42, and 54:48 carry the roots for seeing, magic, madness, eyes, seizure, spreading, and touch.
+- Surprising reach: The concrete ritual frame clarifies what the surah's accusations presume: signs and messengers are classified as covert manipulations, even though the actual reversal of sight and agency arrives openly in judgment.
+
+#### Subchannel A. A gaze is captured and redirected by charms
+- Reading type: latent/lexical
+- Scene or process: An injurious gaze is countered or exploited by a binding charm that takes hold of the eye or will, while a facing bead turns one person toward another.
+- Active motifs: evil-eye affliction `quranic:root_001069:B004/m01`; binding spell or amulet `quranic:root_000018:B004/m01`; face-turning bead `quranic:root_001198:B016/m01`; magic as deceptive redirection `quranic:root_000682:B002/m01`.
+- Ayah anchors: 54:2 `يروا`, `سحر`; 54:9 `قبلهم`; 54:12, 54:14, and 54:37 `عيونا`/`بأعيننا`/`أعينهم`; 54:42 `فأخذناهم`.
+- Synthesis: This object-and-operation scene materializes the manipulation alleged by `سحر`: a charm constrains attention and a bead redirects a face. The surah pressures that diagnosis because no concealed object compels the observers; they turn away from an exposed sign by their own response.
+
+#### Subchannel B. Possession diagnosis meets a releasing rite
+- Reading type: latent/lexical
+- Scene or process: A jinn apparition supplies divination or treatment, intrusive touch is diagnosed as madness, and a counter-spell is applied to release the afflicted person.
+- Active motifs: jinn apparition associated with divination or medicine `quranic:root_000531:B008/m01`; touch construed as possession or madness `quranic:root_001423:B003/m01`; mind covered by madness `quranic:root_000266:B006/m01`; counter-spell or treatment that removes affliction `quranic:root_001503:B008/m01`.
+- Ayah anchors: 54:2 `يروا`; 54:7 `منتشر`; 54:9 `مجنون`; 54:48 `مس`.
+- Synthesis: The rite gives a concrete diagnostic background to the madness charge against the messenger. It also reverses that charge: the warning does not require an exorcistic cure, while the deniers' final contact with judgment admits no counter-rite that can disperse it.
+
+### 18. Whole-surah - Managed Herd Circulation
+- Semantic invariant: A herd remains viable through directed group movement between scouted pasture, water, and return.
+- Surface relation: indirect; 54:1, 54:7, 54:9-10, 54:19, 54:27-29, 54:31, 54:34, 54:37, and 54:55 carry the movement, drinking, leadership, and return roots.
+- Surprising reach: Pastoral order supplies a concrete model for the surah's collective motion: sending, gathering, allotted drinking, and return are coordinated until a community violates the rhythm that sustains it.
+
+#### Subchannel A. A scout and lead animal order the grazing herd
+- Reading type: latent/lexical
+- Scene or process: A scout seeks pasture, a lead animal sets direction, the herd moves out in successive groups, and sheep spread to graze at night.
+- Active motifs: pasture scout `quranic:root_000610:B003/m01`; herd or cattle group `quranic:root_000532:B014/m01`; successive groups sent to pasture or water `quranic:root_000563:B005/m01`; lead animal followed by the herd `quranic:root_001444:B008/m01`; sheep spreading for night grazing `quranic:root_001503:B006/m01`.
+- Ayah anchors: 54:7 `منتشر`; 54:10 `ربه`; 54:19, 54:27, 54:31, and 54:34 `أرسلنا`/`مرسلو`; 54:37 `راودوه`; 54:55 `مليك`.
+- Synthesis: The scene makes collective movement directional rather than random: reconnaissance precedes release, leadership sets the line, and separate groups remain one managed herd. This materially pressures the surah's crowds and collectives, whose apparent mass never places them outside a governing direction.
+
+#### Subchannel B. Night watering completes a pasture-return circuit
+- Reading type: latent/lexical
+- Scene or process: Animals are driven toward water at night, watered at the mouth in a drinking cohort, moved to nearby pasture, and brought back after ranging.
+- Active motifs: night drive toward a watering place `quranic:root_001212:B008/m01`; drawing water at camels' mouths `quranic:root_001198:B014/m01`; drinking cohort or shared watering group `quranic:root_000783:B003/m01`; livestock circuit between water and pasture `quranic:root_001486:B006/m01`; ranging back and forth in pasture `quranic:root_000610:B004/m01`; evening return of livestock `quranic:root_000609:B005/m01`.
+- Ayah anchors: 54:1 `اقتربت`; 54:9 `قبلهم`; 54:19 `ريحا`; 54:28 `شرب`; 54:29 `فنادوا`; 54:37 `راودوه`.
+- Synthesis: The P2 drinking share belongs to a larger husbandry rhythm in which access, movement, and return are interdependent. Violating the attended turn therefore breaks more than a quota: it tears the communal circuit that converts water into continued life.
+
+### 19. Whole-surah - Hide Converted into Portable Water
+- Semantic invariant: An animal hide becomes a reliable water vessel through removal, joining, fine stitching, seasoning, and leak control.
+- Surface relation: indirect; 54:1, 54:7, 54:12, 54:14, 54:28-29, 54:34, 54:37, 54:50, and 54:53 carry the roots for proximity, sight, drinking, companionship, rescue, and smallness.
+- Surprising reach: The craft materializes the difference between possessing water and controlling access to it: portable provision depends on carefully maintained boundaries, whereas the flood opens boundaries and the final rivers flow without scarcity.
+
+#### Subchannel A. A pelt is removed, matched, and finely stitched
+- Reading type: latent/lexical
+- Scene or process: A hide is skinned, retained as prepared leather, joined panel to panel, and closed with the small stitching used for a water bag.
+- Active motifs: skinning and extracting a hide `quranic:root_001476:B003/m01`; prepared hide retaining its hair `quranic:root_000844:B006/m01`; joining two hide panels by stitching `quranic:root_000121:B006/m01`; fine stitching of a water bag `quranic:root_000865:B004/m01`.
+- Ayah anchors: 54:7 and 54:50 `أبصارهم`/`بالبصر`; 54:29 `صاحبهم`; 54:34 `نجيناهم`; 54:53 `صغير`.
+- Synthesis: The vessel begins as an opened animal surface and becomes useful by exact reclosure. That conversion usefully reframes the surah's protected carriers and enclosures: survival depends not on enclosure alone but on a boundary fitted to the substance it must hold.
+
+#### Subchannel B. Water seasons the bag and seals its vulnerable eye
+- Reading type: latent/lexical
+- Scene or process: The stitched bag is treated with clay and water to improve taste and close its seams; any thin spot or eye is tested by whether it leaks or seals when wetted.
+- Active motifs: portable water bag `quranic:root_001212:B009/m01`; seasoning and sealing a water bag with clay and water `quranic:root_000783:B013/m01`; leaking or sealable eye in a hide vessel `quranic:root_001069:B007/m01`.
+- Ayah anchors: 54:1 `اقتربت`; 54:12, 54:14, and 54:37 `عيونا`/`بأعيننا`/`أعينهم`; 54:28 `شرب`.
+- Synthesis: Water is both contents and test medium: it exposes a defective seam and helps close it. The mechanism sharpens the surah's water contrasts, where measured access requires maintained containment but judgmental water defeats every ordinary vessel.
+
+### 20. Whole-surah - Palm Growth and Harvest Residue
+- Semantic invariant: Cultivated life moves from wetted ground and new growth through flowering and ripening to cutting and residual gleanings.
+- Surface relation: indirect; 54:7, 54:12, 54:20, 54:47-49, 54:52, and 54:54 carry the earth, spreading, palm, crime, water, fire, and garden roots.
+- Surprising reach: The full cultivation cycle turns the surah's plant images into outcomes rather than decoration: protected growth culminates in gardens, while judged communities are interrupted at the cutting and residue stages.
+
+#### Subchannel A. Rain revives ground into a flowering palm stand
+- Reading type: latent/lexical
+- Scene or process: Soft fertile ground receives moisture, dry pasture greens again, young palms establish themselves, and mature trees flower.
+- Active motifs: soft fertile soil `quranic:root_000025:B002/m01`; dry pasture revived by rain `quranic:root_001503:B004/m01`; young palm shoots `quranic:root_000831:B008/m01`; palm tree `quranic:root_001483:B001/m01`; flowering tree `quranic:root_001564:B004/m01`.
+- Ayah anchors: 54:6, 54:49, and 54:52 `شيء`; 54:7 `منتشر`; 54:12 `الأرض`; 54:20 `نخل`; 54:48 `النار`.
+- Synthesis: This growth sequence provides the positive process absent from the uprooted trunks and brittle brush. It reframes the final gardens as life maintained through every stage, not merely a static reward landscape.
+
+#### Subchannel B. Ripened fruit is cut and leaves dry gleanings
+- Reading type: latent/lexical
+- Scene or process: Fruit remains covered while it fills and ripens, then the palm crop is cut, leaving fallen dates, kernels, and dry remnants for gleaning.
+- Active motifs: sheath covering fruit or palm spathe `quranic:root_001307:B010/m01`; fruit filling and ripening with moisture `quranic:root_001458:B006/m01`; cutting and harvesting palm fruit `quranic:root_000239:B001/m01`; fallen or dried harvest remnants `quranic:root_000239:B002/m01`.
+- Ayah anchors: 54:8, 54:14, and 54:43 `الكافرون`/`كفر`/`كفاركم`; 54:11, 54:12, and 54:28 `ماء`; 54:47 `المجرمين`.
+- Synthesis: The harvest scene makes cutting produce a visible remainder. It usefully pressures the judgment imagery: the communities compared with uprooted palms and crushed brush are not gathered as fruit but left as the residue by which a later people can recognize what occurred.
+
 ## Standalone Subchannels
 
 ### S1. P1 - Desire tracks itself into a settled outcome
@@ -456,3 +558,59 @@
 - Active motifs: gathering place, day, or call `quranic:root_000259:B004/m01`; collection and assembly `quranic:root_001210:B001/m01`; standing station `quranic:root_001273:B006/m01`; al-Muhassab or the place of the pebble-casting stations `quranic:root_000325:B006/m01`; Dhu al-Qadah as the month of ceasing travel before pilgrimage `quranic:root_001244:B014/m01`.
 - Ayah anchors: 54:9 and 54:33 `قوم`; 54:17, 54:22, 54:32, and 54:40 `القرآن`; 54:34 `حاصبا`; 54:44-45 `جمع`; 54:55 `مقعد`.
 - Synthesis: The rite reframes the Lot scene by inversion: at pilgrimage a gathered body stands at a marked place and casts pebbles, whereas in 54:34 the gathered community receives a stone-bearing storm. The reversal turns an ordered sacred assembly into judgment.
+
+### S15. P2-P4 bridge - Rejected singularity defeats collective force
+- Reading type: mixed
+- Scene or process: P2 rejects one human and is ended by one cry; P3's self-assured collective breaks; P4 locates decisive efficacy in one command.
+- Active motifs: human messenger `quranic:root_000120:B002/m01`; rejected singular individual `quranic:root_001631:B001/m02`; singular destructive cry `quranic:root_001631:B001/m01`; army or collective `quranic:root_000259:B002/m01`; broken battle line `quranic:root_001590:B002/m01`; indivisible singular command `quranic:root_001631:B001/m03`; unified direction `quranic:root_001631:B005/m01`.
+- Ayah anchors: 54:24 `بشرا`, `واحدا`; 54:31 `صيحة`, `واحدة`; 54:44-45 `جمع`, `سيهزم`; 54:50 `أمرنا`, `واحدة`.
+- Synthesis: The P2-P4 bridge is a role progression and singular-versus-collective reversal. Singularity first appears insufficient, then proves sufficient in cry and command, while claimed strength in numbers collapses. Efficacy belongs not to count but to the source and unified direction of the act.
+
+### S16. P1-P3 bridge - Under Our eyes, then eyes erased
+- Reading type: surface-primary
+- Scene or process: P1 places the rescued vessel under protective sight; P3 removes sight from aggressors who seek the guests.
+- Active motifs: protective oversight `quranic:root_001069:B003/m01`; eye `quranic:root_001069:B001/m01`; direct seeing `quranic:root_001069:B002/m01`; extinguished sight `quranic:root_000950:B002/m01`.
+- Ayah anchors: 54:14 `بأعيننا`; 54:37 `أعينهم`, `طمسنا`.
+- Synthesis: The P1-P3 bridge is a polarity of sight: being under the divine eye marks preservation, whereas turning one's own eyes toward predation ends in the erasure of sight. The shared organ changes from an instrument of care to the site of judgment.
+
+### S17. P1-P3 bridge - Eased remembrance before the difficult Day
+- Reading type: mixed
+- Scene or process: P1 names the summoned Day difficult, while P1-P3 repeatedly present recitation and remembrance as made easy beforehand.
+- Active motifs: difficult day `quranic:root_001012:B001/m01`; repeated easing after difficulty `quranic:root_001694:B001/m03`; repeated recitation `quranic:root_001210:B002/m03`; repeated reminder-token `quranic:root_000516:B009/m04`.
+- Ayah anchors: 54:8 `يوم`, `عسر`; 54:17, 54:22, 54:32, and 54:40 `يسرنا`, `القرآن`, `للذكر`.
+- Synthesis: The P1-P3 bridge is a direct ease-difficulty contrast with causal pressure. Facilitated recitation offers a present route into remembrance; refusal leaves the summoned Day to be encountered as difficulty rather than as an unannounced outcome.
+
+### S18. Whole-surah - Night watcher tracks lunar stations
+- Reading type: latent/lexical
+- Scene or process: A wakeful observer follows the moon through its nightly stations, watches al-Dabaran trail the Pleiades, and compares a counterpart star by opposed rising and setting.
+- Active motifs: moon entering a nightly station `quranic:root_000018:B008/m01`; wakefulness under moonlight `quranic:root_001255:B009/m01`; al-Dabaran following the Pleiades `quranic:root_000458:B013/m01`; counterpart star marked by opposed rising and setting `quranic:root_000584:B007/m01`; encircling lunar mansion or crown `quranic:root_001315:B005/m01`.
+- Ayah anchors: 54:1 `القمر`; 54:3, 54:28, 54:42, 54:49, 54:52, and 54:53 `كل`; 54:27 `فارتقبهم`; 54:42 `فأخذناهم`; 54:45 `الدبر`.
+- Synthesis: The observing practice materializes celestial time as ordered recurrence rather than spectacle. The split moon and approaching Hour stand against a calibrated sky whose stations can be watched night by night, sharpening the claim that creation and its appointed end both proceed by measure.
+
+### S19. Whole-surah - Sawing and sealing the rescue vessel
+- Reading type: latent/lexical
+- Scene or process: Wood is cut by a toothed saw, sawdust falls as boards are prepared, the planks are fastened into a hull, and the finished vessel is coated with pitch.
+- Active motifs: sawing wood with a toothed tool `quranic:root_000035:B003/m01`; sawing wood and its fallen sawdust `quranic:root_001503:B005/m01`; broad construction plank `quranic:root_001384:B003/m01`; fasteners joining ship planks `quranic:root_000474:B002/m01`; pitch-coated or tarred ship `quranic:root_000973:B005/m01`.
+- Ayah anchors: 54:7 `منتشر`; 54:9 `عبدنا`; 54:13 `ألواح`, `دسر`; 54:25-26 `أشر`.
+- Synthesis: The workshop supplies the production sequence behind `ذات ألواح ودسر`. Rescue is thereby materialized not as an abstract conveyance but as prepared material, waste-producing labor, structural joining, and waterproofing fitted before the waters arrive.
+
+### S20. Whole-surah - Fire assay reveals material quality
+- Reading type: mixed
+- Scene or process: A hard fire-striking stone kindles fuel, metal pieces are exposed to blaze for assay, and heated copper and smoke register the transformation.
+- Active motifs: hard white stone that strikes fire `quranic:root_001416:B002/m01`; fuel cast into a fire `quranic:root_000325:B004/m01`; blazing and kindling `quranic:root_000708:B001/m01`; assay of metal or person by fire `quranic:root_001128:B001/m01`; compact iron piece or lump `quranic:root_000621:B002/m01`; red copper `quranic:root_001480:B004/m01`; smoke without flame `quranic:root_001480:B005/m01`.
+- Ayah anchors: 54:19 `نحس`; 54:24 and 54:47 `سعر`; 54:27 `فتنة`; 54:34 `حاصبا`; 54:36 `فتماروا`; 54:43 and 54:52 `الزبر`.
+- Synthesis: The assay supplies an exact mechanism linking trial to fire: heat does not invent material quality but exposes it under pressure. This reframes the P2 test and P4 burning as successive disclosures, with final contact making inward culpability materially undeniable.
+
+### S21. Whole-surah - Written debt claim and surety
+- Reading type: latent/lexical
+- Scene or process: A claimant pursues an outstanding right, produces its written instrument, seeks payment, and relies on a surety until judgment settles the obligation.
+- Active motifs: claimant pursuing a right or debt `quranic:root_000175:B005/m01`; written deed establishing a right `quranic:root_000516:B008/m01`; collection and satisfaction of debt `quranic:root_000244:B003/m01`; surety bearing liability or damages `quranic:root_000357:B004/m01`; judicial settlement between parties `quranic:root_000348:B002/m01`.
+- Ayah anchors: 54:3 and 54:24 `اتبعوا`/`نتبعه`; 54:5 `حكمة`; 54:13 `حملناه`; 54:14 and 54:35 `جزاء`/`نجزي`; 54:15, 54:17, 54:22, 54:25, 54:32, 54:40, and 54:51 `مدكر`/`الذكر`.
+- Synthesis: The claim scene gives documentary force to the surah's books: writing establishes liability, a surety bears it, and judgment converts record into settlement. It therefore reverses the hope for a prior written discharge in 54:43; the operative document supports the claim rather than erasing it.
+
+### S22. Whole-surah - Market valuation fixes price and payment
+- Reading type: latent/lexical
+- Scene or process: Goods enter an active market, are appraised and assigned a price, then pass through present cash, deferred credit, or resale at disclosed cost.
+- Active motifs: merchandise or worldly goods `quranic:root_001001:B008/m01`; active and circulating market `quranic:root_001273:B018/m01`; appraisal and valuation `quranic:root_001273:B010/m01`; market price `quranic:root_000708:B003/m01`; cash on hand `quranic:root_001069:B011/m01`; credit sale yielding present cash `quranic:root_001069:B012/m01`; resale at a known original price `quranic:root_001684:B014/m01`.
+- Ayah anchors: 54:2 `يعرضوا`; 54:6 and 54:45 `تول`/`يولون`; 54:9 and 54:33 `قوم`; 54:12, 54:14, and 54:37 `عيونا`/`بأعيننا`/`أعينهم`; 54:24 and 54:47 `سعر`.
+- Synthesis: Valuation turns heterogeneous goods into explicit liabilities and equivalences, materializing the surah's insistence on measure and exhaustive accounting. Yet final `سعر` is not a negotiable quotation: no collective demand, deferred payment, or resale can alter the settled reckoning.

@@ -28,6 +28,13 @@
 - Ayah anchors: 61:8 `يُرِيدُ` (ر و د); 61:5 and 61:7 forms of `قَوْم` (ق و م); 61:11 `تُجَٰهِدُ` (ج ه د) and `أَنفُسِ` (ن ف س); surface anchor unavailable for ء ل ي
 - Synthesis: The scene separates wanting, undertaking, and expending capacity. The hostile will of 61:8 and the believers' exertion in 61:11 are competing trajectories of intention; only the latter recruits the whole self and converts latent power into sustained action.
 
+#### Subchannel D. Inner Word Passed to the Hand
+- Reading type: mixed
+- Scene or process: Intention forms within the heart and self, becomes an unspoken statement, passes through the tongue, and is finally owned as a deed of the hands.
+- Active motifs: heart as the faculty of understanding `quranic:root_001248:B001/m02`; inward reason and intention `quranic:root_001533:B013/m01`; statement formed but not voiced `quranic:root_001272:B012/m01`; tongue as the instrument of speech `quranic:root_001272:B002/m01`; enacted work `quranic:root_001167:B001/m01`; deed attributed to one's hands `quranic:root_001693:B009/m01`
+- Ayah anchors: 61:5 `قُلُوبَ` (ق ل ب); 61:11 `أَنفُسِ` (ن ف س); 61:2-3, 61:5-6, and 61:14 forms of `ق و ل`; 61:2-3 forms of `ف ع ل`; 61:6 `يَدَىَّ` (ي د ي)
+- Synthesis: Saying and doing are stages in a single agency chain. The inward self frames a word, the tongue exposes it, and the hand receives responsibility for what follows. The rebuke of 61:2-3 therefore reaches behind audible speech to intention and forward into the bodily authorship of action.
+
 ### 2. Guided Orientation and Perception
 - Semantic invariant: A destination becomes reachable when signs, direction, bodily orientation, and perception converge; deviation breaks that convergence.
 - Surface relation: direct; guidance, path, deviation, arrival, and nearness are explicit in 61:5-7, 61:9-11, and 61:13.
@@ -35,31 +42,52 @@
 
 #### Subchannel A. The Waymarked Road
 - Reading type: mixed
-- Scene or process: A traveler is gently directed by a route, its identifying marks, a leading guide, and a visible beacon.
-- Active motifs: gentle direction to road and truth `quranic:root_001583:B001/m01`; settled direction and manner of proceeding `quranic:root_001583:B002/m01`; indication by a recognizable sign `quranic:root_000484:B001/m01`; traversable route `quranic:root_000672:B001/m01`; waymark or boundary sign `quranic:root_001040:B002/m01`; guiding beacon `quranic:root_001564:B005/m01`; grooves and branches of a road `quranic:root_000791:B005/m01`
-- Ayah anchors: 61:5, 61:7, and 61:9 forms of `ه د ي`; 61:10 `أَدُلُّ` (د ل ل); 61:4 and 61:11 `سَبِيلِ` (س ب ل); 61:5 and 61:11 `تَعْلَمُ` (ع ل م); 61:8 `نُور` (ن و ر); 61:9 `مُشْرِكُونَ` (ش ر ك)
-- Synthesis: Guidance is assembled as a navigable environment: a road supplies continuity, marks make it legible, a leader fixes its forward edge, and a beacon remains visible at distance. The invitation to a saving trade in 61:10 thus also functions as route disclosure rather than merely instruction.
+- Scene or process: A traveler enters a public route, meets its junctions and endpoint, and is gently directed by identifying marks, a leading vanguard, and a visible beacon.
+- Active motifs: gentle direction to road and truth `quranic:root_001583:B001/m01`; settled direction and manner of proceeding `quranic:root_001583:B002/m01`; guide or vanguard at the leading edge `quranic:root_001583:B003/m01`; indication by a recognizable sign `quranic:root_000484:B001/m01`; traversable route `quranic:root_000672:B001/m01`; travelers who use the road `quranic:root_000672:B002/m01`; public road, junction, and final limit `quranic:root_000009:B010/m01`; waymark or boundary sign `quranic:root_001040:B002/m01`; guiding beacon `quranic:root_001564:B005/m01`; grooves and branches of a road `quranic:root_000791:B005/m01`
+- Ayah anchors: 61:5, 61:7, and 61:9 forms of `ه د ي`; 61:10 `أَدُلُّ` (د ل ل); 61:4 and 61:11 `سَبِيلِ` (س ب ل); 61:6 `يَأْتِى` (ء ت ي); 61:5 and 61:11 `تَعْلَمُ` (ع ل م); 61:8 `نُور` (ن و ر); 61:9 `مُشْرِكُونَ` (ش ر ك)
+- Synthesis: Guidance is assembled as a navigable environment: travelers supply the participants, a public road and its junctions supply continuity and choice, marks make it legible, and a vanguard fixes its forward edge. The invitation to a saving trade in 61:10 thus functions as route disclosure toward a known limit, not merely as instruction.
 
-#### Subchannel B. Deviation Fixed Into the Heart
+#### Subchannel B. Course Abandoned Beyond Its Limit
 - Reading type: surface-primary
-- Scene or process: A traveler knowingly inclines away from the straight line; the chosen lean is then established as a persistent orientation, and the heart itself is turned.
-- Active motifs: inclination away from straightness `quranic:root_000658:B001/m01`; establishing another's deviation `quranic:root_000658:B004/m01`; resisting known truth `quranic:root_001052:B001/m01`; leaving the common direction for a side `quranic:root_001052:B002/m01`; straight and balanced course `quranic:root_001273:B008/m01`; turning a thing from one face to another `quranic:root_001248:B004/m01`
-- Ayah anchors: 61:5 `زَاغُ` and `أَزَاغَ` (ز ي غ), `قَوْمِ` (ق و م), and `قُلُوبَ` (ق ل ب); 61:3 `عِندَ` (ع ن د)
-- Synthesis: The two forms of deviation in 61:5 become a causal sequence. First comes a willful sideward departure despite knowledge; then the deviation is made stable, as though the heart has been physically turned onto another bearing. Straightness is consequently a maintained orientation, not a passive location.
+- Scene or process: A traveler resists a known straight course, inclines toward its side, reaches a bank or margin, and passes beyond it until departure becomes hostile transgression.
+- Active motifs: inclination away from straightness `quranic:root_000658:B001/m01`; resisting known truth `quranic:root_001052:B001/m01`; leaving the common direction for a side `quranic:root_001052:B002/m01`; straight and balanced course `quranic:root_001273:B008/m01`; bank or lateral boundary `quranic:root_000993:B009/m01`; passing beyond the intended object `quranic:root_000993:B004/m01`; overstepping a limit in aggression `quranic:root_000993:B001/m01`
+- Ayah anchors: 61:5 `زَاغُ` (ز ي غ) and `قَوْمِ` (ق و م); 61:3 `عِندَ` (ع ن د); 61:14 `عَدُوِّ` (ع د و)
+- Synthesis: Deviation develops by degrees: resistance breaks orientation, a sideward lean reaches the route's margin, and crossing that margin turns divergence into aggression. The enemy of 61:14 is thus reframed as one whose relation to the right course is defined by exceeded limits, not mere distance.
 
-#### Subchannel C. The Eye That Stands but Does Not See
+#### Subchannel C. Hidden Heart Turned at Its Core
+- Reading type: mixed
+- Scene or process: The heart lies concealed in the chest as a center of understanding; deviation reaches that hidden core, turns its orientation, and settles there like an illness.
+- Active motifs: anatomical heart `quranic:root_001248:B001/m01`; heart as the faculty of understanding `quranic:root_001248:B001/m02`; pure interior core `quranic:root_001248:B002/m01`; hidden heart within the breast `quranic:root_000266:B010/m01`; turning a thing from one face to another `quranic:root_001248:B004/m01`; establishing another's deviation `quranic:root_000658:B004/m01`; disease lodged in the heart `quranic:root_001248:B011/m01`
+- Ayah anchors: 61:5 `قُلُوبَ` (ق ل ب) and `أَزَاغَ` (ز ي غ); 61:12 `جَنَّٰت` (ج ن ن)
+- Synthesis: The causative movement in 61:5 is localized inside the body. A faculty meant to understand is physically reoriented at its concealed center, and repeated deviation acquires the persistence of disease. This separates the traveler's outward departure from the inward condition that the departure produces.
+
+#### Subchannel D. The Eye That Stands but Does Not See
 - Reading type: latent/lexical
 - Scene or process: An outwardly present eye can be bright, protruding, filmed, fatigued, or structurally intact while its sight has departed.
 - Active motifs: high-contrast eye `quranic:root_000369:B001/m01`; moving defect within the eye `quranic:root_000610:B007/m01`; intact-looking eye deprived of sight `quranic:root_001273:B021/m01`; protruding visible eye `quranic:root_000970:B009/m01`; woven film over the eye `quranic:root_000672:B010/m01`; gaze inclining and failing `quranic:root_000658:B002/m01`
 - Ayah anchors: 61:14 `حَوَارِيُّونَ` (ح و ر); 61:8 `يُرِيدُ` (ر و د); 61:5 and 61:7 forms of `قَوْم` (ق و م); 61:9 and 61:14 forms of `ظ ه ر`; 61:4 and 61:11 `سَبِيلِ` (س ب ل); 61:5 forms of `ز ي غ`
 - Synthesis: The scene presses the difference between manifestation and apprehension. An eye may remain visibly in place while a film, fatigue, or inner defect disables sight. That bodily contrast reframes the rejection of clear signs in 61:6: evidence can be outwardly manifest without becoming inwardly seen.
 
-#### Subchannel D. Arrival After and Near
+#### Subchannel E. Distance Closed Into Presence
 - Reading type: mixed
-- Scene or process: Something expected becomes prepared, comes after a predecessor, is brought into presence, and approaches its appointed time.
-- Active motifs: arrival and reaching `quranic:root_000009:B001/m01`; an affair becoming accessible and prepared `quranic:root_000009:B003/m01`; coming into presence `quranic:root_000281:B001/m01`; bringing something forward `quranic:root_000281:B004/m01`; succession after what precedes `quranic:root_000131:B002/m01`; temporal nearness of an awaited event `quranic:root_001212:B002/m01`
-- Ayah anchors: 61:6 `يَأْتِى` (ء ت ي), `جَآءَ` (ج ي ء), and `بَعْدِ` (ب ع د); 61:13 `قَرِيبٌ` (ق ر ب)
-- Synthesis: Arrival is not a single instant but a sequence of readiness, succession, approach, and presentation. The messenger announced after Jesus and the near opening of 61:13 share this directed temporality: what is promised advances from prepared possibility into presence.
+- Scene or process: Separation places an object at a distance; directed approach closes the interval until arrival becomes immediate presence.
+- Active motifs: spatial or relational remoteness `quranic:root_000131:B001/m01`; actively putting distance between two sides `quranic:root_000131:B003/m01`; spatial and relational nearness `quranic:root_001212:B001/m01`; presence beside or before an object `quranic:root_001052:B004/m01`; arrival and reaching `quranic:root_000009:B001/m01`
+- Ayah anchors: 61:6 `بَعْدِ` (ب ع د) and `يَأْتِى` (ء ت ي); 61:13 `قَرِيبٌ` (ق ر ب); 61:3 `عِندَ` (ع ن د)
+- Synthesis: Nearness is the result of a changed relation, not merely a short measurement. Distance can be imposed, approach reverses it, and arrival converts remoteness into presence. The messenger's coming in 61:6 and the near opening of 61:13 consequently share a geometry of a closing interval.
+
+#### Subchannel F. Matter Examined Until Known
+- Reading type: mixed
+- Scene or process: An unknown matter is found, turned over from every side, retained without a written aid, and resolved through accurate knowledge and judgment.
+- Active motifs: disclosure of a thing to the knower `quranic:root_001040:B001/m01`; finding out and reaching knowledge `quranic:root_000970:B008/m01`; turning an affair outside and inside for examination `quranic:root_000970:B018/m01`; retention by heart without a book `quranic:root_000970:B019/m01`; wisdom as knowledge that reaches the right judgment `quranic:root_000348:B003/m01`
+- Ayah anchors: 61:5 and 61:11 forms of `ع ل م`; 61:9 and 61:14 forms of `ظ ه ر`; 61:1 `حَكِيمُ` (ح ك م)
+- Synthesis: Knowing is staged as inquiry rather than passive possession. Discovery brings the matter within reach, examination rotates it through multiple faces, memory holds it, and wisdom fixes the fitting judgment. This process intensifies the culpability of rejecting the clear signs in 61:6 after they have become examinable.
+
+#### Subchannel G. Succession From Before to After
+- Reading type: mixed
+- Scene or process: A prior object stands before a bearer; a later event is prepared, follows its predecessor, approaches its time, and is brought into presence.
+- Active motifs: what stands ahead or immediately before `quranic:root_001693:B008/m01`; an affair becoming accessible and prepared `quranic:root_000009:B003/m01`; coming into presence `quranic:root_000281:B001/m01`; bringing something forward `quranic:root_000281:B004/m01`; succession after what precedes `quranic:root_000131:B002/m01`; temporal nearness of an awaited event `quranic:root_001212:B002/m01`
+- Ayah anchors: 61:6 `يَدَىَّ` (ي د ي), `يَأْتِى` (ء ت ي), `جَآءَ` (ج ي ء), and `بَعْدِ` (ب ع د); 61:13 `قَرِيبٌ` (ق ر ب)
+- Synthesis: Succession is oriented from both sides. The Torah stands before Jesus as prior testimony, while the announced messenger comes after him; preparation and temporal approach then move the later term into presence. The near opening of 61:13 occupies the same forward-moving sequence.
 
 ### 3. Covering, Opening, and Manifestation
 - Semantic invariant: Boundaries regulate exposure: a cover can obstruct, protect, or erase an effect, while opening and light reverse concealment.
@@ -80,21 +108,35 @@
 - Ayah anchors: 61:8 `كَٰفِرُونَ` and 61:14 `كَفَرَت` (ك ف ر); 61:12 `جَنَّٰت` (ج ن ن); 61:6 forms of `ب ي ن`; 61:9 `يُظْهِرَ` and 61:14 `ظَٰهِرِينَ` (ظ ه ر); 61:13 `فَتْحٌ` (ف ت ح)
 - Synthesis: Denial acts as a cover placed over an already present object, not as the object's absence. Disclosure reverses that operation through clarity, exposure, and an opening of understanding. The movement from veiling to dominance connects the clear signs of 61:6 with the promised manifestation of 61:9 and 61:14.
 
-#### Subchannel C. Layered Protection
+#### Subchannel C. Gate, Key, and Interior Store
+- Reading type: latent/lexical
+- Scene or process: A closed entrance is reached with the proper key, opened into a wider passage, crossed, and made to disclose the store held within.
+- Active motifs: closed entrance widening open `quranic:root_001124:B001/m01`; key that gives access to what is shut `quranic:root_001124:B006/m01`; entry into an interior `quranic:root_000464:B001/m01`; opened treasury or repository `quranic:root_001124:B007/m01`
+- Ayah anchors: 61:13 `فَتْحٌ` (ف ت ح); 61:12 `يُدْخِلْ` (د خ ل)
+- Synthesis: Opening is a complete access mechanism. The key answers a closure, widening makes passage possible, entry crosses the boundary, and the interior yields what had been stored out of reach. This reframes the opening of 61:13 as access to a previously blocked good, not only victory over an opponent.
+
+#### Subchannel D. Layered Protection
 - Reading type: latent/lexical
 - Scene or process: A vulnerable body or possession is enclosed by shield, head covering, weapon cover, leather shelter, netted tent, and guarding barrier.
 - Active motifs: defensive shield `quranic:root_000266:B008/m01`; protective head covering `quranic:root_001096:B001/m01`; weapon-covering layer `quranic:root_001307:B001/m01`; leather shelter `quranic:root_000156:B004/m01`; thin protective tent `quranic:root_001315:B006/m01`; guarding barrier `quranic:root_000071:B002/m01`
 - Ayah anchors: 61:12 `جَنَّٰت` (ج ن ن) and `يَغْفِرْ` (غ ف ر); 61:8 `كَٰفِرُونَ` and 61:14 `كَفَرَت` (ك ف ر); 61:4, 61:6, and 61:14 forms of `ب ن ي`; 61:9 `كُلِّ` (ك ل ل); 61:14 `أَيَّدْ` (ء ي د)
 - Synthesis: Protection is built by nested surfaces rather than a single wall. Shield, covering, shelter, and barrier each intercept an incoming force at a different distance from the body. This latent defensive architecture reinforces the surah's compact formation and promised dwellings without collapsing them into one object.
 
-#### Subchannel D. Offense Covered and Its Effect Stopped
+#### Subchannel E. Fortified Perimeter and Night Watch
+- Reading type: latent/lexical
+- Scene or process: A fortified wall encloses a refuge while a custodian circles its perimeter at night and maintains a barrier against entry.
+- Active motifs: fortified wall around a place `quranic:root_000957:B010/m01`; night guard circling on patrol `quranic:root_000957:B005/m01`; custody and sustained guardianship `quranic:root_001273:B004/m01`; concealed place of refuge `quranic:root_000266:B017/m01`; guarding barrier `quranic:root_000071:B002/m01`
+- Ayah anchors: 61:14 forms of `ط و ف` and `أَيَّدْ` (ء ي د); 61:5 and 61:7 forms of `قَوْم` (ق و م); 61:12 `جَنَّٰت` (ج ن ن)
+- Synthesis: Protection here is active and territorial rather than worn on the body. The wall fixes a perimeter, the patrol repeatedly inspects it, guardianship sustains the duty, and the refuge preserves an interior. The scene extends the surah's collective support into watchfulness that keeps a protected space viable.
+
+#### Subchannel F. Offense Covered and Its Effect Stopped
 - Reading type: surface-primary
 - Scene or process: An offense exposes its bearer to painful consequence; forgiveness covers the offense, while expiation makes it as though it had not been enacted.
 - Active motifs: culpable offense `quranic:root_000521:B001/m01`; forgiveness that shields the offender from consequence `quranic:root_001096:B002/m01`; expiation by covering an offense `quranic:root_001307:B009/m01`; punitive pain `quranic:root_000994:B005/m01`; grave offense with enlarged consequence `quranic:root_001281:B007/m01`
 - Ayah anchors: 61:12 `ذُنُوبَ` (ذ ن ب) and `يَغْفِرْ` (غ ف ر); 61:8 `كَٰفِرُونَ` and 61:14 `كَفَرَت` (ك ف ر); 61:10 `عَذَابٍ` (ع ذ ب); 61:3 `كَبُرَ` (ك ب ر)
 - Synthesis: Forgiveness is a causal interruption: the offense remains identifiable, but the cover prevents its punitive effect from reaching the bearer. Expiation intensifies the image by making the deed functionally disappear, setting the rescue promised in 61:10-12 against the enlarged moral weight of 61:3.
 
-#### Subchannel E. Dawn Breathing Through Night
+#### Subchannel G. Dawn Breathing Through Night
 - Reading type: latent/lexical
 - Scene or process: Night covers the field, pre-dawn forms its threshold, first signs appear, and daylight opens as though taking a breath.
 - Active motifs: night enveloping what lies beneath it `quranic:root_000266:B002/m01`; pre-dawn interval `quranic:root_000682:B004/m01`; first visible signs `quranic:root_000120:B007/m01`; first light of morning `quranic:root_000839:B001/m01`; dawn expanding like an exhalation `quranic:root_001533:B009/m01`; day opening in light `quranic:root_001559:B002/m01`
@@ -102,9 +144,9 @@
 - Synthesis: Manifestation unfolds by degrees rather than appearing all at once. Night's cover thins into a threshold, anticipatory signs become visible, and day expands into the opened field. This temporal scene gives the completed light of 61:8 a latent process of emergence.
 
 ### 4. Collective Force Under Opposition
-- Semantic invariant: A dispersed population becomes effective force by differentiating sides, aligning bodies, reinforcing one another, and converting contest into dominance.
+- Semantic invariant: A dispersed population becomes effective force by differentiating sides, aligning bodies, reinforcing one another, and converting contest into dominance; that force fails when internal bonds reverse.
 - Surface relation: direct; 61:4 depicts an aligned fighting structure, and 61:13-14 move from supporters and opposing factions to reinforcement and victory.
-- Surprising reach: Collective strength is simultaneously social, architectural, and anatomical: people can function as courses of masonry, supporting backs, joined ribs, and assisting hands.
+- Surprising reach: Collective strength is simultaneously social, architectural, and anatomical: people can function as courses of masonry, supporting backs, joined ribs, and assisting hands, while turned backs make the same formation fall apart.
 
 #### Subchannel A. Crowd Differentiated Into Factions
 - Reading type: mixed
@@ -120,21 +162,35 @@
 - Ayah anchors: 61:4 `صَفًّا` (ص ف ف), `بُنْيَٰنٌ` (ب ن ي), and `مَّرْصُوصٌ` (ر ص ص); 61:1 `حَكِيمُ` (ح ك م); 61:12 `جَنَّٰت` (ج ن ن)
 - Synthesis: The row is transformed from a visual arrangement into an engineered body. Joining creates the frame, pressure removes gaps, lead secures interfaces, and rib-like members distribute load. The anatomical reach makes the formation organic without weakening its architectural precision.
 
-#### Subchannel C. Opponents Meet as Counterparts
+#### Subchannel C. Formation Unbound From Within
+- Reading type: latent/lexical
+- Scene or process: A joined company separates, members turn their backs on one another, mutual affiliation is disavowed, and connected parts fall in sequence.
+- Active motifs: separation after union `quranic:root_000170:B001/m01`; mutual back-turning `quranic:root_000970:B022/m01`; parties disowning one another `quranic:root_001307:B005/m01`; one part collapsing after another `quranic:root_000478:B005/m01`
+- Ayah anchors: 61:6 forms of `ب ي ن`; 61:9 and 61:14 forms of `ظ ه ر`; 61:8 `كَٰفِرُونَ` and 61:14 `كَفَرَت` (ك ف ر); 61:7 `يُدْعَىٰ` (د ع و)
+- Synthesis: The compact rank has an exact negative process. Separation breaks contact, turned backs withdraw mutual support, disavowal cancels affiliation, and failure then propagates from one member to the next. This makes the disciples' answer in 61:14 structurally decisive: declared support prevents a social body from unbinding internally.
+
+#### Subchannel D. Opponents Meet as Counterparts
 - Reading type: mixed
 - Scene or process: Hostile counterparts face one another, enter mutual combat, and sustain a contest in which each side acts against a matched rival.
 - Active motifs: mutual combat `quranic:root_001200:B011/m01`; reciprocal confrontation `quranic:root_001273:B014/m01`; declared enemy and enmity `quranic:root_000993:B003/m01`; rival counterpart `quranic:root_001200:B008/m01`; feud ignited among people `quranic:root_001564:B007/m01`; far-reaching hostility `quranic:root_000131:B010/m01`
 - Ayah anchors: 61:4 `يُقَٰتِلُ` (ق ت ل); 61:5 and 61:7 forms of `قَوْم` (ق و م); 61:14 `عَدُوِّ` (ع د و); 61:8 forms of `نُور` (ن و ر); 61:6 `بَعْدِ` (ب ع د)
 - Synthesis: Combat is framed as a relation between counterparts, not as isolated violence. Enmity supplies durable orientation, confrontation brings the sides into contact, and mutual fighting activates the relation. This makes the disciplined rank of 61:4 a response to a structured opposing side.
 
-#### Subchannel D. A Network of Backs, Hands, and Helpers
+#### Subchannel E. Charge Carried Into Mortal Risk
+- Reading type: mixed
+- Scene or process: A fighter commits to a charge, proves its truth by carrying through to contact, becomes exposed to death, and stakes the self in the lethal outcome of combat.
+- Active motifs: mutual combat `quranic:root_001200:B011/m01`; charge proved true or false by follow-through `quranic:root_001290:B004/m01`; exposing a person to killing `quranic:root_001200:B005/m01`; killing as removal of life `quranic:root_001200:B001/m01`; desperate self-exposure as though to die `quranic:root_001200:B012/m01`
+- Ayah anchors: 61:4 `يُقَٰتِلُ` (ق ت ل); 61:7 `كَذِبَ` (ك ذ ب)
+- Synthesis: Combat tests correspondence under irreversible pressure. A charge is called true only when it does not stop before contact; follow-through then exposes the fighter to death and turns commitment into a stake of the self. This martial sense gives the surah's opening contrast between saying and doing a lethal edge.
+
+#### Subchannel F. A Network of Backs, Hands, and Helpers
 - Reading type: mixed
 - Scene or process: Supporters reinforce a vulnerable side through helping roles figured as a strengthening hand and a back that bears force.
 - Active motifs: disciple-helper `quranic:root_000369:B003/m01`; aid that makes a side prevail `quranic:root_001510:B001/m01`; assisting and protective hand `quranic:root_001693:B016/m01`; strength gained from a backing helper `quranic:root_000970:B006/m01`; active reinforcement `quranic:root_000071:B001/m01`; strengthening one member with another `quranic:root_001008:B004/m01`
 - Ayah anchors: 61:14 `حَوَارِيُّونَ` (ح و ر), forms of `ن ص ر`, `أَيَّدْ` (ء ي د), and `ظَٰهِرِينَ` (ظ ه ر); 61:13 `نَصْرٌ` (ن ص ر); 61:6 `يَدَىَّ` (ي د ي); 61:1 `عَزِيزُ` (ع ز ز)
 - Synthesis: Alliance becomes a distributed support mechanism. One person functions as another's back, another as a protective hand, and reinforcement increases the load the whole can bear. The disciples' verbal answer in 61:14 therefore enters the same structural field as the compacted rank.
 
-#### Subchannel E. Victory as Opening and Rising Above
+#### Subchannel G. Victory as Opening and Rising Above
 - Reading type: mixed
 - Scene or process: Aid opens a blocked contest, rescue separates a side from danger, and the supported party rises above its opponent.
 - Active motifs: victory as an opening `quranic:root_001124:B004/m01`; successful escape with the good attained `quranic:root_001186:B001/m01`; rising above and gaining mastery `quranic:root_000970:B007/m01`; overpowering an opponent `quranic:root_001008:B002/m01`; outmatching a rival `quranic:root_001281:B011/m01`; prevailing through repeated arrival `quranic:root_000281:B002/m01`
@@ -155,10 +211,10 @@
 
 #### Subchannel B. Outlet, Channel, and River Network
 - Reading type: mixed
-- Scene or process: Collected water is released through a mouth, directed into channels, carried along valley tails, and joined by tributaries in a flowing river system.
-- Active motifs: directed water conduit `quranic:root_000009:B004/m01`; catchment hollow `quranic:root_000281:B003/m01`; valley-tail channels `quranic:root_000521:B004/m01`; water breaking from an outlet `quranic:root_001124:B005/m01`; river mouth or outlet `quranic:root_001190:B004/m01`; river cutting a channel through earth `quranic:root_001559:B001/m01`; distant tributaries entering a basin `quranic:root_001510:B007/m01`; continuous flow `quranic:root_000240:B001/m01`
-- Ayah anchors: 61:6 forms of `ء ت ي` and `ج ي ء`; 61:12 `ذُنُوبَ` (ذ ن ب), `أَنْهَٰرُ` (ن ه ر), and `تَجْرِى` (ج ر ي); 61:13 `فَتْحٌ` (ف ت ح) and `نَصْرٌ` (ن ص ر); 61:8 `أَفْوَٰهِ` (ف و ه)
-- Synthesis: The rivers of 61:12 are expanded into a functional network rather than a static landscape. Basin, outlet, channel, tributary, and current form a causal chain in which stored pressure becomes directed abundance. The “opening” of 61:13 resonates with the outlet that lets water reach cultivated ground.
+- Scene or process: Earth breaks open into springs, collected water widens an outlet, enters channels, travels along valley tails, and joins tributaries in a flowing river system.
+- Active motifs: directed water conduit `quranic:root_000009:B004/m01`; catchment hollow `quranic:root_000281:B003/m01`; earth bursting open with springs `quranic:root_001150:B005/m01`; valley-tail channels `quranic:root_000521:B004/m01`; water breaking from an outlet `quranic:root_001124:B005/m01`; opening widened until flow begins `quranic:root_001559:B003/m01`; river mouth or outlet `quranic:root_001190:B004/m01`; river cutting a channel through earth `quranic:root_001559:B001/m01`; distant tributaries entering a basin `quranic:root_001510:B007/m01`; continuous flow `quranic:root_000240:B001/m01`
+- Ayah anchors: 61:6 forms of `ء ت ي` and `ج ي ء`; 61:7 `ٱفْتَرَىٰ` (ف ر ي); 61:12 `ذُنُوبَ` (ذ ن ب), `أَنْهَٰرُ` (ن ه ر), and `تَجْرِى` (ج ر ي); 61:13 `فَتْحٌ` (ف ت ح) and `نَصْرٌ` (ن ص ر); 61:8 `أَفْوَٰهِ` (ف و ه)
+- Synthesis: The rivers of 61:12 are expanded into a functional network rather than a static landscape. Rupture, widening, basin, outlet, channel, tributary, and current form a causal chain in which stored pressure becomes directed abundance. The opening of 61:13 resonates with the aperture that enlarges until water can reach cultivated ground.
 
 #### Subchannel C. Raft, Skiff, and Stabilizing Stern
 - Reading type: latent/lexical
@@ -219,28 +275,42 @@
 - Ayah anchors: 61:10 `تِجَٰرَةٍ` (ت ج ر), `تُنجِي` (ن ج و), and `أَدُلُّ` (د ل ل); 61:11 `أَمْوَٰلِ` (م و ل) and `خَيْرٌ` (خ ي ر); 61:12 `فَوْزُ` (ف و ز)
 - Synthesis: The trade metaphor is a complete transaction scene, not only a comparison. Guidance identifies the opportunity, wealth is exposed as capital, practiced action executes the exchange, and rescue is the realized return. Profit is measured by separation from punishment and acquisition of durable good.
 
-#### Subchannel B. Credit, Income, and Hand-to-Hand Payment
+#### Subchannel B. Goods Enter a Brisk Market
+- Reading type: latent/lexical
+- Scene or process: A trader brings saleable stock to a recognized marketplace, the goods receive a valuation, demand makes the stock move, and the market becomes active.
+- Active motifs: trade seeking profit `quranic:root_000176:B001/m01`; place to which trade is brought `quranic:root_000176:B002/m01`; she-camel that sells readily when offered `quranic:root_000176:B003/m01`; valuation of goods `quranic:root_001273:B010/m01`; market becoming brisk `quranic:root_001273:B018/m01`
+- Ayah anchors: 61:10 `تِجَٰرَةٍ` (ت ج ر); 61:5 and 61:7 forms of `قَوْم` (ق و م)
+- Synthesis: The offered trade of 61:10 is placed inside an operating market rather than left as an abstract bargain. A venue gathers participants, valuation makes comparison possible, and demand converts offered stock into a completed sale. The ready-selling animal materializes the invitation as something whose worth becomes evident when properly presented.
+
+#### Subchannel C. Credit, Income, and Hand-to-Hand Payment
 - Reading type: latent/lexical
 - Scene or process: Wealth enters as income, may be advanced on credit, receives a valuation, and is discharged through immediate payment or a recognized due.
 - Active motifs: financial debt and deferred sale `quranic:root_000504:B003/m01`; incoming revenue `quranic:root_000464:B006/m01`; advance payment `quranic:root_000737:B005/m01`; hand-to-hand settlement `quranic:root_001693:B007/m01`; valuation of goods `quranic:root_001273:B010/m01`; tribute or assessed payment `quranic:root_000009:B008/m01`; alms or financial due `quranic:root_000852:B006/m01`
 - Ayah anchors: 61:9 forms of `دِين` (د ي ن); 61:12 `يُدْخِلْ` (د خ ل); 61:7 `إِسْلَٰمِ` (س ل م); 61:6 `يَدَىَّ` (ي د ي), `يَأْتِى` (ء ت ي), and `مُّصَدِّقًا` (ص د ق); 61:5 and 61:7 forms of `قَوْم` (ق و م)
 - Synthesis: The latent economy distinguishes time and direction: income enters, credit postpones settlement, advance payment reverses that timing, valuation fixes equivalence, and hand-to-hand exchange closes the obligation. This pressures the saving trade to be read as accountable commitment rather than costless assent.
 
-#### Subchannel C. Gift Without Counterpayment
+#### Subchannel D. Obligation Brought to Account
+- Reading type: mixed
+- Scene or process: A binding due is brought into the adjudicator's presence, evasion closes, an account is taken, and each party receives the assigned recompense or punitive share.
+- Active motifs: binding obligation and fixed entitlement `quranic:root_000347:B002/m01`; accounting, judgment, and recompense `quranic:root_000504:B002/m01`; presence before the deciding authority `quranic:root_001052:B004/m01`; absence of an escape or alternative `quranic:root_001052:B005/m01`; allotted share, especially of punishment `quranic:root_000521:B006/m01`; judicial decision `quranic:root_000348:B002/m01`
+- Ayah anchors: 61:9 `حَقِّ` (ح ق ق) and forms of `دِين` (د ي ن); 61:3 `عِندَ` (ع ن د); 61:12 `ذُنُوبَ` (ذ ن ب); 61:1 `حَكِيمُ` (ح ك م)
+- Synthesis: Accounting converts a moral or commercial obligation into an unavoidable settlement. Presence removes distance, judgment determines what is due, and recompense assigns the resulting share. This gives the surah's trade, painful punishment, forgiveness, and great attainment a common frame of liabilities and returns finally brought to account.
+
+#### Subchannel E. Gift Without Counterpayment
 - Reading type: latent/lexical
 - Scene or process: A benefit is brought forward and placed in another's hand as grace, generous provision, or affectionate gift rather than bargained return.
 - Active motifs: giving and presentation `quranic:root_000009:B002/m01`; gratuitous grant `quranic:root_000076:B012/m01`; generosity and gift `quranic:root_000452:B005/m01`; willing and easy giving `quranic:root_000563:B010/m01`; aid as bestowal `quranic:root_001510:B005/m01`; beneficent hand `quranic:root_001693:B003/m01`; affectionate gift `quranic:root_001583:B004/m01`
 - Ayah anchors: 61:6 `يَأْتِى` (ء ت ي), `يَدَىَّ` (ي د ي), and forms of `ر س ل` and `ه د ي`; 61:11 `خَيْرٌ` (خ ي ر) and `رَسُولِ` (ر س ل); 61:13-14 forms of `ن ص ر`; surface anchor unavailable for ء ل ي
 - Synthesis: Gift is distinguished from trade by the absence of counterpayment. The donor brings the benefit into reach, the hand marks receipt, and generous willingness determines the transfer's quality. Divine aid can therefore resonate simultaneously as victory and unbargained bestowal.
 
-#### Subchannel D. Claim Tested by Judgment
+#### Subchannel F. Claim Tested by Judgment
 - Reading type: latent/lexical
 - Scene or process: Parties assert ownership, contest the same right, submit possession and evidence to judgment, and receive a separating verdict.
 - Active motifs: privately held right `quranic:root_000347:B003/m01`; rival claims to truth or entitlement `quranic:root_000347:B004/m01`; asserted right or affiliation `quranic:root_000478:B002/m01`; co-owned share `quranic:root_000791:B001/m01`; withholding another's right `quranic:root_000967:B008/m01`; possessive hand `quranic:root_001693:B004/m01`; judicial decision `quranic:root_000348:B002/m01`; judgment that opens a closed dispute `quranic:root_001124:B003/m01`
 - Ayah anchors: 61:9 `حَقِّ` (ح ق ق) and `مُشْرِكُونَ` (ش ر ك); 61:7 `يُدْعَىٰ` (د ع و) and forms of `ظ ل م`; 61:6 `يَدَىَّ` (ي د ي); 61:1 `حَكِيمُ` (ح ك م); 61:13 `فَتْحٌ` (ف ت ح)
 - Synthesis: A claim becomes valid only after it survives contest, evidence, and judgment. Possession by the hand is not enough when another right has been withheld; the verdict must open the dispute and separate legitimate share from wrongful control. This legal scene gives truth and right institutional as well as doctrinal force.
 
-#### Subchannel E. Grievance Carried to Redress
+#### Subchannel G. Grievance Carried to Redress
 - Reading type: latent/lexical
 - Scene or process: An injured party voices a grievance, petitions authority, receives protection, and is restored against the wrongdoer.
 - Active motifs: grievance seeking equity `quranic:root_000967:B003/m01`; petition to authority for vindication `quranic:root_000993:B005/m01`; recovery of the oppressed party's due `quranic:root_001510:B002/m01`; protective assisting hand `quranic:root_001693:B016/m01`; restraint of wrongdoing `quranic:root_000348:B001/m01`; withholding that prevents further harm `quranic:root_000994:B003/m01`
@@ -248,25 +318,39 @@
 - Synthesis: Redress is a directed social process: complaint travels upward, authority restrains the aggressor, and aid returns the injured party to an equitable position. The same root that names support in 61:13-14 can thus mean the concrete restoration of someone denied a right.
 
 ### 8. Message and Response
-- Semantic invariant: Communication becomes socially effective when a bearer carries it, a recipient answers it, and its truth survives distortion.
+- Semantic invariant: Communication becomes socially effective when a bearer and public signs make an identity legible, a receiving community answers, and the message's truth survives distortion.
 - Surface relation: direct; messengers, speech, clear signs, accusation of magic, lying, invitation, and the disciples' answer structure 61:2-9 and 61:14.
-- Surprising reach: A message can travel as a carried object, circulate as public report, turn into reciprocal dialogue, or be counterfeited like a misleadingly patterned cloth.
+- Surprising reach: A message can travel as a carried object, make a foreign bearer socially present, circulate through name and reputation, turn into reciprocal dialogue, or be counterfeited like a misleadingly patterned cloth.
 
 #### Subchannel A. The Carried and Clarified Message
 - Reading type: mixed
 - Scene or process: A delegated bearer transports a statement, opens its meaning through speech or sign, and releases it into public circulation.
-- Active motifs: messenger-bearer `quranic:root_000563:B002/m01`; carried message `quranic:root_000563:B002/m02`; delegated representative `quranic:root_000240:B003/m01`; authoritative speaker `quranic:root_001272:B004/m01`; clarification by word or sign `quranic:root_000170:B005/m01`; speech issuing through the mouth `quranic:root_001190:B003/m01`; report circulating among people `quranic:root_001272:B007/m01`; truthful statement `quranic:root_000852:B001/m01`
+- Active motifs: dispatch and release from restraint `quranic:root_000563:B001/m01`; messenger-bearer `quranic:root_000563:B002/m01`; carried message `quranic:root_000563:B002/m02`; delegated representative `quranic:root_000240:B003/m01`; authoritative speaker `quranic:root_001272:B004/m01`; clarification by word or sign `quranic:root_000170:B005/m01`; speech issuing through the mouth `quranic:root_001190:B003/m01`; report circulating among people `quranic:root_001272:B007/m01`; truthful statement `quranic:root_000852:B001/m01`
 - Ayah anchors: 61:5, 61:6, 61:9, and 61:11 forms of `ر س ل`; 61:12 `تَجْرِى` (ج ر ي); 61:2-3, 61:5-6, and 61:14 forms of `ق و ل`; 61:6 forms of `ب ي ن` and `مُّصَدِّقًا` (ص د ق); 61:8 `أَفْوَٰهِ` (ف و ه)
-- Synthesis: The message is assembled from role-separated parts: origin, bearer, utterance, clarifying medium, and social circulation. This prevents “messenger” from collapsing into “speech”; the bearer transports what clarification then makes publicly legible.
+- Synthesis: The message is assembled from role-separated parts: dispatch, bearer, carried content, utterance, clarifying medium, and social circulation. This prevents “messenger” from collapsing into “speech”; release initiates the movement, the bearer transports it, and clarification makes it publicly legible.
 
-#### Subchannel B. Call, Reply, and Deliberation
+#### Subchannel B. Name and Sign Made Public
 - Reading type: mixed
-- Scene or process: A voice draws recipients toward a position, they answer, and reciprocal speech develops into deliberation or private counsel.
-- Active motifs: vocal summons and invitation `quranic:root_000478:B001/m01`; reply and reciprocal dialogue `quranic:root_000369:B006/m01`; negotiation over an affair `quranic:root_001272:B009/m01`; confidential counsel `quranic:root_001476:B005/m01`; answering a caller `quranic:root_001573:B003/m01`; speech obstructed by repeated sounds `quranic:root_000188:B005/m01`
-- Ayah anchors: 61:7 `يُدْعَىٰ` (د ع و); 61:14 forms of `حَوَارِيُّونَ` (ح و ر) and `قَالَ` (ق و ل); 61:10 `تُنجِي` (ن ج و); 61:8 `مُتِمُّ` (ت م م); surface anchor unavailable for ه ا ء
-- Synthesis: The disciples' response in 61:14 completes a call-and-answer scene rather than merely adding another quotation. Summons changes orientation, reply establishes alignment, and dialogue allows a group to negotiate its role. The latent stutter marks the opposite condition, where sound recurs without successful transfer.
+- Scene or process: A name fixes a referent, signs clarify it, the bearer rises into public visibility, and a good reputation travels beyond the original utterance.
+- Active motifs: naming that makes identity known `quranic:root_000745:B005/m01`; indication by a recognizable sign `quranic:root_000484:B001/m01`; clarification through word or sign `quranic:root_000170:B005/m01`; a thing's condition speaking its meaning `quranic:root_001272:B014/m01`; elevated figure visible from afar `quranic:root_000745:B002/m01`; good reputation spreading publicly `quranic:root_000745:B008/m01`
+- Ayah anchors: 61:1 `سَّمَٰوَٰتِ` and 61:6 `ٱسْمُ` (س م و); 61:10 `أَدُلُّ` (د ل ل); 61:6 forms of `ب ي ن`; 61:2-3, 61:5-6, and 61:14 forms of `ق و ل`
+- Synthesis: Ahmad's announced name in 61:6 functions as a public sign before the named messenger arrives. Designation fixes identity, clear signs make the designation readable, and reputation extends that legibility through the community. Even an object's condition can “speak,” so evidence need not depend on an ungrounded verbal claim.
 
-#### Subchannel C. Counterfeit and Redirecting Discourse
+#### Subchannel C. Call, Reply, and Deliberation
+- Reading type: mixed
+- Scene or process: A voice draws recipients toward a position, they answer, exchange correspondence, keep pace in conversation, and develop reciprocal speech into deliberation or private counsel.
+- Active motifs: vocal summons and invitation `quranic:root_000478:B001/m01`; reply and reciprocal dialogue `quranic:root_000369:B006/m01`; reciprocal correspondence `quranic:root_000563:B008/m01`; accompanying another in conversation `quranic:root_000240:B007/m01`; negotiation over an affair `quranic:root_001272:B009/m01`; confidential counsel `quranic:root_001476:B005/m01`; answering a caller `quranic:root_001573:B003/m01`; speech obstructed by repeated sounds `quranic:root_000188:B005/m01`
+- Ayah anchors: 61:7 `يُدْعَىٰ` (د ع و); 61:14 forms of `حَوَارِيُّونَ` (ح و ر) and `قَالَ` (ق و ل); 61:5, 61:6, 61:9, and 61:11 forms of `ر س ل`; 61:12 `تَجْرِى` (ج ر ي); 61:10 `تُنجِي` (ن ج و); 61:8 `مُتِمُّ` (ت م م); surface anchor unavailable for ه ا ء
+- Synthesis: The disciples' response in 61:14 completes a call-and-answer scene rather than merely adding another quotation. Summons changes orientation, correspondence sustains exchange, and keeping pace in speech allows a group to negotiate its role. The latent stutter marks the opposite condition, where sound recurs without successful transfer.
+
+#### Subchannel D. Stranger Received or Kept Apart
+- Reading type: latent/lexical
+- Scene or process: A foreign bearer enters a people not his own, mixes with the host group, and is either joined to them by a social bond or held apart through separation.
+- Active motifs: foreigner entering another people `quranic:root_000009:B006/m01`; stranger figured as a son of the land `quranic:root_000025:B004/m01`; outsider mixing into a group's affairs `quranic:root_000464:B005/m01`; bond connecting separate parties `quranic:root_000170:B003/m01`; separation after contact `quranic:root_000170:B001/m01`
+- Ayah anchors: 61:6 `يَأْتِى` (ء ت ي) and forms of `ب ي ن`; 61:1 `أَرْضِ` (ء ر ض); 61:12 `يُدْخِلْ` (د خ ل)
+- Synthesis: A messenger's arrival is also a test of communal boundaries. Entry makes the bearer physically present, but reception determines whether presence becomes relation or estrangement. The accusations in 61:5-7 and the disciples' affiliation in 61:14 become opposite social outcomes for a bearer who addresses a people from a position they may treat as alien.
+
+#### Subchannel E. Counterfeit and Redirecting Discourse
 - Reading type: mixed
 - Scene or process: Speech diverts attention, attributes what was never said, fabricates a form without precedent, and presents a surface that misstates its underlying condition.
 - Active motifs: deceptive redirection by magic or rhetoric `quranic:root_000682:B002/m01`; falsely attributing words `quranic:root_001272:B005/m01`; declaring another false `quranic:root_001290:B002/m01`; invented lie `quranic:root_001150:B003/m01`; fabricated composition `quranic:root_001167:B004/m01`; patterned cloth whose surface deceives `quranic:root_001290:B009/m01`
@@ -390,6 +474,32 @@
 - Active motifs: glad news that opens the skin with joy `quranic:root_000120:B005/m01`; open and pleasant countenance `quranic:root_000120:B006/m01`; anticipatory first signs `quranic:root_000120:B007/m01`; relief from constriction `quranic:root_001533:B002/m01`; opening that dispels distress `quranic:root_001124:B008/m02`
 - Ayah anchors: 61:6 `مُبَشِّرًا` and 61:13 `بَشِّرِ` (ب ش ر); 61:11 `أَنفُسِ` (ن ف س); 61:13 `فَتْحٌ` (ف ت ح)
 - Synthesis: Good news is temporally prior but bodily effective in the present. It supplies first signs of what is coming, loosens constriction, and makes joy visible on the face. The command to announce victory in 61:13 thus begins materializing the promised outcome before its arrival.
+
+### 13. Glorification as Answered Alignment
+- Semantic invariant: What proceeds from God is rightly answered when voice, posture, obedience, gratitude, and created motion align toward their source.
+- Surface relation: direct; 61:1 places glorification in the heavens and earth, while 61:8-9 contrast denial with God's completed light and true religion.
+- Surprising reach: Praise is not confined to words: it can stand upright in worship, acknowledge a gift instead of covering it, and move through the cosmos as continuous running.
+
+#### Subchannel A. Praise Enacted as Obedience
+- Reading type: surface-primary
+- Scene or process: A worshipper stands, directs devotion to its proper object, declares that object free of defect, and turns praise into prayer, thanksgiving, and obedient conduct.
+- Active motifs: devotional worship `quranic:root_000047:B001/m01`; object of worship `quranic:root_000047:B001/m02`; glorification as worship, prayer, and thanksgiving `quranic:root_000666:B001/m01`; declaring God transcendent and free of defect `quranic:root_000666:B002/m01`; obedience and religious submission `quranic:root_000504:B001/m01`; standing in prayer or remembrance `quranic:root_001273:B002/m01`
+- Ayah anchors: 61:1, 61:3-8, 61:11, and 61:13-14 forms of `ء ل ه`; 61:1 `سَبَّحَ` (س ب ح); 61:9 forms of `دِين` (د ي ن); 61:5 and 61:7 forms of `قَوْم` (ق و م)
+- Synthesis: The opening glorification is given bodily and social form. The worshipper's stance supports vocal praise, transcendence fixes its object, and obedience carries the act beyond utterance. This makes the surah's criticism of words without deeds applicable even to praise: glorification reaches completion when conduct assumes its direction.
+
+#### Subchannel B. Gift Acknowledged or Covered
+- Reading type: mixed
+- Scene or process: A benefit is presented as an unearned favor; the recipient either answers it with thanksgiving or covers the favor by refusing acknowledgment.
+- Active motifs: blessings and favors `quranic:root_000076:B006/m01`; gratuitous grant `quranic:root_000076:B012/m01`; giving and presentation `quranic:root_000009:B002/m01`; thanksgiving within glorification `quranic:root_000666:B001/m01`; denial that covers a blessing `quranic:root_001307:B004/m01`
+- Ayah anchors: 61:6 `يَأْتِى` (ء ت ي); 61:1 `سَبَّحَ` (س ب ح); 61:8 `كَٰفِرُونَ` and 61:14 `كَفَرَت` (ك ف ر); surface anchor unavailable for ء ل ي
+- Synthesis: Gratitude and denial are opposite responses to the same transfer. Presentation places the favor within reach, thanksgiving makes its source visible, and ingratitude hides precisely what has been received. The attempt to extinguish God's light in 61:8 can therefore resonate as covering a benefit whose presence has already been disclosed.
+
+#### Subchannel C. Creation Released Into Its Courses
+- Reading type: latent/lexical
+- Scene or process: The heavens arch above the earth while celestial and created bodies are released into sustained swimming, running, and flowing through their appointed field.
+- Active motifs: earth lying below the heavens `quranic:root_000025:B001/m01`; overhead heavens `quranic:root_000745:B004/m01`; swimming and celestial running `quranic:root_000666:B004/m01`; dispatch and release into motion `quranic:root_000563:B001/m01`; continuous running and flow `quranic:root_000240:B001/m01`
+- Ayah anchors: 61:1 `أَرْضِ` (ء ر ض), `سَّمَٰوَٰتِ` (س م و), and `سَبَّحَ` (س ب ح); 61:5, 61:6, 61:9, and 61:11 forms of `ر س ل`; 61:12 `تَجْرِى` (ج ر ي)
+- Synthesis: The lexical movement from glorifying to swimming gives cosmic praise a kinematic form. Sky and earth establish the field, release initiates motion, and running sustains it without stasis. Messenger and river imagery then enter the same ordered circulation: revelation is dispatched and promised water flows within a creation already moving in praise.
 
 ## Standalone Subchannels
 

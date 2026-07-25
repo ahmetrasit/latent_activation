@@ -547,3 +547,178 @@
 - Active motifs: blessings or benefits `quranic:root_000048:B004/m01`; sharp debate `quranic:root_001416:B003/m01`; doubt `quranic:root_001416:B004/m01`; wrangling `quranic:root_001609:B009/m01`; wonder `quranic:root_000984:B001/m01`.
 - Ayah anchors: 53:53 (ه و ي); 53:55 (ء ل و, م ر ي); 53:59 (ع ج ب).
 - Synthesis: The question about favors is activated as a contested-benefit scene: what should elicit recognition is instead converted into argumentative resistance.
+
+### S8. Racehorses are aligned, released, and checked
+- Reading type: latent/lexical
+- Scene or process: An unridden horse is led to a starting cord, aligned with the field, released by lengthening the rein, and tested for straightness, stride, hoof placement, and sound footing.
+- Active motifs: race-start cord `quranic:root_001269:B006/m01`; line-up point `quranic:root_001269:B006/m02`; leading an unridden horse `quranic:root_001519:B005/m01`; extending the rein to increase speed `quranic:root_000151:B007/m01`; broad rapid stride `quranic:root_001647:B006/m01`; matching hind and fore hoofprints `quranic:root_000347:B014/m01`; sideways running that resists straightening `quranic:root_001001:B012/m01`; protecting a painful hoof `quranic:root_001677:B003/m01`.
+- Ayah anchors: 53:3 (ن ط ق); 53:9 (ق و س); 53:28 (ح ق ق); 53:29 (ع ر ض); 53:30 (ب ل غ); 53:32 (و س ع, و ق ي).
+- Synthesis: This materializes the surah's measured course as race discipline: alignment precedes speed, straight running is distinguishable from lateral deviation, and even strong forward motion remains accountable to precise footing.
+
+### S9. An intact-looking eye can misregister what it sees
+- Reading type: mixed
+- Scene or process: A visible pupil remains in place while a roving defect or woven film degrades perception from distortion, through double vision, to an eye whose globe remains intact after sight is gone.
+- Active motifs: reflected human image in the pupil `quranic:root_000059:B005/m01`; roving eye defect `quranic:root_000610:B007/m01`; woven film over the eye `quranic:root_000672:B010/m01`; seeing one object as two `quranic:root_000802:B006/m01`; intact visible eye globe `quranic:root_001273:B021/m01`; lost sight despite intact appearance `quranic:root_001273:B021/m02`.
+- Ayah anchors: 53:24, 53:39 (ء ن س); 53:26 (ش ف ع); 53:29 (ر و د); 53:30 (س ب ل); 53:52 (ق و م).
+- Synthesis: This usefully pressures the witness language of 53:11-18: the mere presence of an eye or image does not guarantee a faithful report, so the insistence that sight neither drifted nor exceeded its bound becomes a concrete reliability condition.
+
+### S10. Marked gaming arrows allocate shares by chance
+- Reading type: latent/lexical
+- Scene or process: A set of gaming arrows is kept in a leather holder, including a specifically ranked fifth arrow, and used in a procedure that divides portions and can assign a third share.
+- Active motifs: leather holder for gaming arrows `quranic:root_000532:B010/m01`; collected set of lots `quranic:root_000532:B010/m02`; fifth maysir arrow `quranic:root_001533:B016/m01`; division into shares `quranic:root_001226:B003/m01`; third portion `quranic:root_000203:B002/m01`.
+- Ayah anchors: 53:18, 53:23, 53:30, 53:32, 53:42, 53:49, 53:55 (ر ب ب); 53:20 (ث ل ث); 53:22 (ق س م); 53:23, 53:32 (ن ف س).
+- Synthesis: This reframes the disputed apportionment at 53:19-28 as a chance-allocation apparatus: a named lot can produce a share, but neither its label nor its desired outcome supplies the proof that the passage demands.
+
+### S11. A hunting party must verify the kill
+- Reading type: latent/lexical
+- Scene or process: Hunters set out, prepare a trapping pit, pursue quarry that runs and then stops to look behind, and finally inspect the struck animal to determine whether it has actually died.
+- Active motifs: setting out to hunt `quranic:root_000745:B006/m01`; hunter's trapping pit `quranic:root_001116:B004/m01`; quarry running a course `quranic:root_001290:B007/m01`; quarry stopping to look back `quranic:root_001290:B007/m02`; inspecting whether the quarry died `quranic:root_001454:B014/m01`; confirmed death `quranic:root_001454:B014/m02`.
+- Ayah anchors: 53:2 (غ و ي); 53:11 (ك ذ ب); 53:23, 53:26-27, 53:31 (س م و); 53:44 (م و ت).
+- Synthesis: This materializes the surah's contrast between conjecture and warranted perception: movement, disappearance, or a successful strike is not enough, because the outcome still has to be observed and verified.
+
+### S12. Marriage joins pair, contract, and escorted transition
+- Reading type: mixed
+- Scene or process: Two people stand in a marital pair, a marriage contract establishes the relation, and the bride is escorted to her spouse as the contract takes social effect.
+- Active motifs: marital spouse relation `quranic:root_000652:B002/m01`; marriage contract `quranic:root_001444:B004/m01`; bride as participant `quranic:root_001583:B006/m01`; escorting the bride to her spouse `quranic:root_001583:B006/m02`.
+- Ayah anchors: 53:23, 53:30 (ه د ي); 53:26-27 (م ل ك); 53:45 (ز و ج).
+- Synthesis: This supports the creation of pairs at 53:45 by materializing pairing as an enacted relation, while usefully pressuring the mere assignment of gendered names at 53:27: a label alone does not perform the relation that contract and transition establish.
+
+### S13. A slave earns the price of release
+- Reading type: mixed
+- Scene or process: A person held in slavery performs remunerated work toward the price of the neck, settles the remaining due, gains release, and enters the legal patronage created by manumission.
+- Active motifs: enslavement `quranic:root_000973:B004/m01`; labor toward one's own price `quranic:root_000709:B005/m01`; unpaid balance of the redemption price `quranic:root_000709:B005/m02`; release when the price is met `quranic:root_000709:B005/m03`; debt settlement `quranic:root_000244:B003/m01`; patronage after manumission `quranic:root_001684:B005/m02`.
+- Ayah anchors: 53:10, 53:62 (ع ب د); 53:29, 53:33 (و ل ي); 53:31, 53:41 (ج ز ي); 53:39-40 (س ع ي).
+- Synthesis: This materializes 53:39-41 as a status-changing settlement: the person's own striving generates the payment, and full discharge of the due produces release rather than a transferable reward.
+
+### S14. The dead are shrouded, carried, and hidden in a grave
+- Reading type: mixed
+- Scene or process: The dead body is covered in a shroud, raised on a bier, carried to a grave, and placed below sight.
+- Active motifs: bier or funeral carrier `quranic:root_000067:B008/m03`; object carried aloft `quranic:root_001042:B008/m01`; covering the dead `quranic:root_000266:B009/m01`; shroud `quranic:root_000266:B009/m02`; grave `quranic:root_000266:B009/m03`; burial below sight `quranic:root_001117:B009/m01`.
+- Ayah anchors: 53:7 (ع ل و); 53:15, 53:32 (ج ن ن); 53:25, 53:50, 53:56 (ء و ل); 53:35 (غ ي ب).
+- Synthesis: This materializes the interval between causing death at 53:44 and producing the later arising at 53:47: burial is a deliberate concealment of the body, so renewed emergence answers a concrete passage below sight rather than an abstract cessation.
+
+### S15. A drink is reduced, rested, and taken by measured sips
+- Reading type: latent/lexical
+- Scene or process: Fire heats a covered cooking place until two-thirds of a drink are gone; the remaining third is transferred to a large vessel, rested until it improves, and consumed in paced sips.
+- Active motifs: cooking fire and heat `quranic:root_001122:B001/m01`; oven cover `quranic:root_001669:B005/m01`; drink reduced until one third remains `quranic:root_000203:B008/m01`; storage vessel `quranic:root_000067:B010/m01`; resting the drink for days `quranic:root_000067:B010/m02`; improved drink after resting `quranic:root_000067:B010/m03`; large jar `quranic:root_001251:B003/m01`; sip `quranic:root_001533:B006/m01`; pause between sips `quranic:root_001533:B006/m02`.
+- Ayah anchors: 53:11 (ف ء د); 53:20 (ث ل ث); 53:23, 53:32 (ن ف س); 53:25, 53:50, 53:56 (ء و ل); 53:34 (ق ل ل); 53:37, 53:41 (و ف ي).
+- Synthesis: This usefully pressures the surah's disputed “third” by making a third an exact remainder produced through observable loss and controlled handling, unlike the self-serving share assignment at 53:21-22.
+
+### S16. A well-made cloth can lie by its appearance
+- Reading type: mixed
+- Scene or process: Cloth is tightly woven, given its first fold, dyed or ornamented so that its appearance misstates its condition, and displayed for inspection or sale.
+- Active motifs: tightly woven cloth `quranic:root_000347:B010/m01`; first fold of a cloth `quranic:root_001226:B007/m01`; dyed or ornamented cloth `quranic:root_001290:B009/m01`; cloth that lies by its condition `quranic:root_001290:B009/m02`; merchandise displayed for inspection `quranic:root_001001:B002/m01`.
+- Ayah anchors: 53:11 (ك ذ ب); 53:22 (ق س م); 53:28 (ح ق ق); 53:29 (ع ر ض).
+- Synthesis: This usefully pressures the claim that the heart did not belie what it saw: a polished surface can itself “lie,” so reliable witnessing requires correspondence between appearance and underlying condition, not visual attractiveness alone.
+
+### S17. Supplication joins invocation, “amen,” and tears
+- Reading type: mixed
+- Scene or process: A worshiper invokes the divine name, asks for response by saying “amen,” and gives the plea bodily force through tears and a voiced cry.
+- Active motifs: divine name in invocation `quranic:root_000047:B002/m01`; saying “amen” `quranic:root_000054:B003/m01`; request for response `quranic:root_000054:B003/m02`; tears `quranic:root_000147:B001/m02`; voiced weeping `quranic:root_000147:B001/m03`.
+- Ayah anchors: 53:23, 53:25-26, 53:31, 53:58, 53:62 (ء ل ه); 53:27 (ء م ن); 53:43, 53:60 (ب ك ي).
+- Synthesis: This supports the closing call to worship and the rebuke for laughing rather than weeping by reframing tears as directed supplication: affect becomes speech seeking an answer rather than an undirected display.
+
+### S18. A vow is discharged through sanctuary offering and worship
+- Reading type: mixed
+- Scene or process: A person assumes a vow, dedicates and sends an offering to the sanctuary, and completes the act at a prayer place through worship.
+- Active motifs: self-imposed vow `quranic:root_001488:B002/m01`; sanctuary offering `quranic:root_001583:B005/m01`; sending the offering `quranic:root_001583:B005/m02`; prayer place `quranic:root_000675:B002/m01`; worship `quranic:root_000973:B003/m01`.
+- Ayah anchors: 53:10, 53:62 (ع ب د); 53:23, 53:30 (ه د ي); 53:56 (ن ذ ر); 53:62 (س ج د).
+- Synthesis: This materializes the final command to worship as an enacted obligation involving declared commitment, dedicated property, movement toward a sacred destination, and bodily completion.
+
+### S19. Armed opponents descend into a duel
+- Reading type: latent/lexical
+- Scene or process: Opponents prepare shield and war gear, descend together to the fighting ground, stand against one another, and exchange a sword blow.
+- Active motifs: mutual descent for a duel `quranic:root_001492:B007/m01`; standing against an opponent `quranic:root_001273:B014/m01`; war gear `quranic:root_001643:B003/m01`; shield `quranic:root_000121:B005/m01`; warrior not frightened by battle `quranic:root_001390:B004/m01`; sword blow `quranic:root_001088:B006/m01`.
+- Ayah anchors: 53:13, 53:23 (ن ز ل); 53:16, 53:54 (غ ش و); 53:17 (ب ص ر); 53:38 (و ز ر); 53:39, 53:58 (ل ي س); 53:52 (ق و م).
+- Synthesis: This reframes the surah's closing posture as a role reversal: the body that stands against an opponent in resistant parity is finally commanded to lower itself in worship, while the destroyed peoples show the terminal cost of sustained opposition.
+
+### S20. Perfume is prepared and applied as gendered presentation
+- Reading type: latent/lexical
+- Scene or process: Aromatic wood is heated, a gender-coded perfume mixture is prepared, and the scent is applied to produce an outward social presentation.
+- Active motifs: incense wood `quranic:root_001058:B010/m02`; heating perfume `quranic:root_000973:B012/m01`; perfume associated with women `quranic:root_000058:B007/m01`; perfume mixture `quranic:root_000434:B010/m01`; applying perfume `quranic:root_000434:B010/m02`.
+- Ayah anchors: 53:10, 53:62 (ع ب د); 53:21, 53:27, 53:45 (ء ن ث); 53:45 (خ ل ق); 53:50 (ع و د).
+- Synthesis: This usefully pressures the female naming at 53:27 by distinguishing a gender-coded presentation that is materially prepared and applied from evidence about what an unseen being is.
+
+### S21. Daylight opens, reaches its meridian, and declines (P1, P2, P4; causal-sequence bridge)
+- Reading type: latent/lexical
+- Scene or process: Dawn opens, daylight rises into its prime, the sun reaches the standing point of noon, and then inclines into decline.
+- Active motifs: opening of dawn `quranic:root_001533:B009/m01`; rising daylight `quranic:root_000782:B005/m01`; prime of day `quranic:root_001281:B013/m01`; standing noon or meridian `quranic:root_001273:B017/m01`; solar inclination and decline `quranic:root_000658:B003/m01`.
+- Ayah anchors: 53:5 (ش د د); 53:17 (ز ي غ); 53:18, 53:32 (ك ب ر); 53:23, 53:32 (ن ف س); 53:52 (ق و م).
+- Synthesis: The P1-P2-P4 bridge is the causal sequence dawn opening -> rising day -> meridian -> decline. It reframes the surah's celestial witnessing and approaching event as temporally calibrated movement: position and change, rather than impression, disclose where the observer stands in the cycle.
+
+### S22. A shared property is valued, preempted, and transferred (P1-P3; causal-sequence and legal-role bridge)
+- Reading type: latent/lexical
+- Scene or process: A resident remains in a shared house while the co-owners value and bid for one another's shares, a neighboring owner invokes preemption, and the property is transferred at a known price.
+- Active motifs: resident fixed in a house `quranic:root_001267:B005/m01`; co-owner bidding until one buys the other shares `quranic:root_001274:B004/m01`; neighbor's priority to annex a sold share `quranic:root_000802:B003/m01`; resale or transfer at a known price `quranic:root_001684:B014/m01`.
+- Ayah anchors: 53:5 (ق و ي); 53:9 (ق و ب); 53:26 (ش ف ع); 53:29, 53:33 (و ل ي).
+- Synthesis: The P1-P3 bridge is a legal-role progression from resident and co-owners, through valuation and preemption, to purchaser and transfer. It usefully pressures the arbitrary apportionment in 53:19-28: a share becomes enforceable through identified ownership, valuation, priority, and a known price, not through naming or desire.
+
+### S23. A poem is metered, circulated, and found corruptible (P1-P4; repeated-scene-signature and contrast bridge)
+- Reading type: latent/lexical
+- Scene or process: A poet composes metrical verse and sends praise or satire to another person, while the meter or the truth of the performance can fail.
+- Active motifs: metrical poetry and the poet's craft `quranic:root_000798:B007/m01`; prosodic meter `quranic:root_001001:B014/m01`; metrical or rhyme defect `quranic:root_001274:B002/m01`; presenting praise or satire in verse `quranic:root_001583:B011/m01`; fabrication turned away from truth `quranic:root_000041:B002/m01`.
+- Ayah anchors: 53:5 (ق و ي); 53:23, 53:30 (ه د ي); 53:29 (ع ر ض); 53:49 (ش ع ر); 53:53 (ء ف ك).
+- Synthesis: The P1-P4 bridge is a repeated scene signature of composition, formal checking, social circulation, and possible fabrication. The contrast usefully pressures 53:3-4: meter and circulation can coexist with formal or semantic corruption, so they cannot supply the warrant that revelation receives from its source and faithful transmission.
+
+### S24. A head wound deteriorates and incurs assessed compensation (P2-P4; causal-sequence and role-progression bridge)
+- Reading type: latent/lexical
+- Scene or process: A penetrating head wound reaches the brain, gathers pus, swells or relapses after improvement, and becomes an injury for which compensation is legally assessed.
+- Active motifs: cranial wound reaching the brain `quranic:root_000053:B003/m01`; penetrating wound reaching a body cavity or the brain `quranic:root_001518:B005/m01`; pus gathered in a wound or abscess `quranic:root_000281:B006/m01`; swelling in a wound `quranic:root_000739:B007/m01`; relapse of a wound after improvement `quranic:root_001096:B004/m01`; obligatory compensation for a wound `quranic:root_001488:B003/m01`.
+- Ayah anchors: 53:23 (ج ي ء); 53:32 (ء م م, غ ف ر); 53:46 (ن ط ف); 53:56 (ن ذ ر); 53:61 (س م د).
+- Synthesis: The P2-P4 bridge is the causal and legal progression injury -> complication -> assessed due. It materializes the surah's insistence that action reaches full recompense: bodily harm creates a concrete liability rather than a burden that another person can casually absorb.
+
+### S25. Known weights verify an exactly balanced coin (P2-P4; exact-measure bridge)
+- Reading type: latent/lexical
+- Scene or process: A working weight standard and a known unit are applied to a dinar, which passes only when it equals one mithqal without tipping the balance.
+- Active motifs: mana as a working weight standard `quranic:root_001450:B006/m01`; uqiyya as a known unit `quranic:root_001677:B004/m01`; dinar weighing exactly one mithqal `quranic:root_001273:B015/m01`; no overbalance `quranic:root_001273:B015/m02`.
+- Ayah anchors: 53:24, 53:46 (م ن ي); 53:32 (و ق ي); 53:52 (ق و م).
+- Synthesis: The P2-P4 bridge is the invariant benchmark -> known unit -> balance check. It materializes the full recompense of 53:39-41 as an auditable measure whose exactness is established against standards rather than estimated from wish or self-assessment.
+
+### S26. A beautiful green tree bears bitter tanning fruit (P1, P4; object-property bridge)
+- Reading type: latent/lexical
+- Scene or process: An alaa tree presents attractive green foliage while its taste is bitter and its fruiting load supplies material for tanning.
+- Active motifs: beautiful tree `quranic:root_000048:B005/m01`; bitter taste `quranic:root_000048:B005/m02`; green leaved alaa tree `quranic:root_000076:B005/m01`; fruiting load used for tanning `quranic:root_000076:B005/m02`; bitterness in a plant `quranic:root_001414:B003/m01`.
+- Ayah anchors: 53:6 (م ر ر); 53:55 (ء ل و); ء ل ي is unavailable in `surface_context.root_occurrences` (bundle ayahs 53:10, 53:42, 53:55).
+- Synthesis: The P1-P4 bridge is one object's stable property sequence: attractive appearance, bitter taste, and practical use. It usefully pressures the question about favors at 53:55 because benefit need not coincide with immediate sweetness; a bitter fruit can still materialize a productive grant.
+
+### S27. A cloth test distinguishes menstruation from purity (P1-P3; diagnostic-evidence bridge)
+- Reading type: latent/lexical
+- Scene or process: A private menstrual state leaves yellow or white residue on a cloth, which is inspected to distinguish menstruation from purity while the bodily site remains concealed.
+- Active motifs: concealed pudendum or womb `quranic:root_000383:B011/m01`; yellow or white discharge `quranic:root_000531:B007/m01`; cloth test for menstruation versus purity `quranic:root_000531:B007/m02`; preserving modesty through covering `quranic:root_001265:B003/m01`.
+- Ayah anchors: 53:11-13, 53:18-19, 53:33, 53:35, 53:40 (ر ء ي); 53:29, 53:44 (ح ي ي); 53:48 (ق ن ي).
+- Synthesis: The P1-P3 bridge is a diagnostic invariant in which a hidden state becomes classifiable through an external trace. It materializes the warning not to declare oneself pure at 53:32: purity is distinguished by discriminating evidence rather than secured by self-assertion.
+
+### S28. A chick breaks from the egg and leaves the shell empty (P1: 53:1-18)
+- Reading type: latent/lexical
+- Scene or process: The egg splits, the chick exits in an irreversible separation, and the former enclosure remains empty.
+- Active motifs: splitting egg shell `quranic:root_001267:B003/m01`; irreversible separation after exit `quranic:root_001267:B003/m02`; chick outside the egg `quranic:root_001274:B006/m01`; emptied shell `quranic:root_001274:B006/m02`.
+- Ayah anchors: 53:5 (ق و ي); 53:9 (ق و ب).
+- Synthesis: Hatching gives the later arising of 53:47 a compact material analogue: living form ruptures a sealed enclosure and leaves its prior container empty, so emergence is a change of state rather than continued concealment.
+
+### S29. An enslaved woman is forced to earn an imposed sexual quota (P2-P3; causal and responsibility bridge)
+- Reading type: latent/lexical
+- Scene or process: An owner imposes a revenue quota on an enslaved young woman and requires her to meet it through prostitution.
+- Active motifs: enslaved young woman `quranic:root_000053:B014/m01`; owner-imposed quota `quranic:root_000709:B007/m01`; coerced sexual earnings `quranic:root_000709:B007/m02`.
+- Ayah anchors: 53:32 (ء م م); 53:39-40 (س ع ي).
+- Synthesis: The P2-P3 bridge is the causal sequence status constraint -> imposed quota -> extracted earnings. This usefully pressures 53:38-41 by distinguishing a victim's coerced proceeds from freely directed striving and by keeping responsibility with the agent who imposes the extraction.
+
+### S30. A harmful gaze marks the viewed body with affliction (P2: 53:19-32)
+- Reading type: latent/lexical
+- Scene or process: In a source-attested harmful-eye scene, a gazer fixes on a target, the eye is understood to strike with harm, and bodily affliction appears.
+- Active motifs: gaze cast to afflict a viewed target `quranic:root_001533:B003/m01`; harmful eye striking with evil `quranic:root_001378:B007/m01`; bodily affliction or skin disease `quranic:root_000755:B003/m01`.
+- Ayah anchors: 53:23, 53:32 (ن ف س); 53:31 (س و ء); 53:32 (ل م م).
+- Synthesis: This usefully pressures the visual witness of 53:11-18 by contrasting receptive, bounded seeing with a gaze construed as acting upon and injuring its object. Reliable witnessing is thereby distinguished from projection onto what is viewed.
+
+### S31. An attendant apparition culminates in a temporary swoon (P1-P4; causal-sequence and contrast bridge)
+- Reading type: latent/lexical
+- Scene or process: An attendant jinni follows and appears to a person, touch covers reason, consciousness collapses into a seizure or swoon, and the person later recovers.
+- Active motifs: attendant jinni `quranic:root_000175:B010/m01`; appearing jinni `quranic:root_000531:B008/m01`; jinn touch and incipient madness `quranic:root_001378:B004/m01`; reason covered by madness `quranic:root_000266:B006/m01`; understanding covered in a swoon `quranic:root_001088:B005/m01`; temporary seizure or swoon followed by recovery `quranic:root_001454:B009/m01`.
+- Ayah anchors: 53:11-13, 53:18-19, 53:33, 53:35, 53:40 (ر ء ي); 53:15, 53:32 (ج ن ن); 53:16, 53:54 (غ ش و); 53:23, 53:28 (ت ب ع); 53:32 (ل م م); 53:44 (م و ت).
+- Synthesis: The P1-P4 bridge is a causal sequence apparition -> touch -> covered understanding -> collapse -> recovery, set in contrast with the opening's stable witness. It sharpens the primary reading by distinguishing bounded, coherent disclosure from a transient episode defined by impaired awareness.
+
+### S32. A son becomes his father's companion and later recalls youth (P1, P4; role-progression bridge)
+- Reading type: latent/lexical
+- Scene or process: A son reaches full bodily and mental maturity, becomes capable of companionship with his father, and in old age identifies himself by looking back on his youth.
+- Active motifs: son maturing into his father's companion `quranic:root_000844:B005/m01`; completed bodily and mental youth `quranic:root_000766:B005/m01`; mature strength, judgment, and experience `quranic:root_000782:B004/m01`; elder defined by recalling former youth `quranic:root_001332:B005/m01`.
+- Ayah anchors: 53:2 (ص ح ب); 53:5 (ش د د); 53:6 (س و ي); 53:9, 53:52 (ك و ن).
+- Synthesis: The P1-P4 bridge is the role progression dependent son -> mature companion -> retrospective elder. It reframes “your companion” at 53:2 as an accountable human relation grounded in matured reason and materializes the lifetime across which striving becomes retrospectively legible.

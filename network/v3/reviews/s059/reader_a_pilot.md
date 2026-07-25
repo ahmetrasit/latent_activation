@@ -156,6 +156,25 @@
 - Ayah anchors: 59:24 `خَٰلِقُ` (خ ل ق), `بَارِئُ` (ب ر ء), `مُصَوِّرُ` (ص و ر), `أَسْمَآءُ` (س م و), `حُسْنَىٰ` (ح س ن), `حَكِيمُ` (ح ك م).
 - Synthesis: Creation is activated as a craft process rather than an undifferentiated event. Measure precedes production; origination supplies the creature; balanced form makes the result visible; and the name gives that formed reality a sign by which it is known. Beauty and secure exactness describe the quality of the completed passage from potential measure to legible form.
 
+### 8. P1-P2 Affiliation Proven Under Displacement
+- Semantic invariant: Affiliation becomes real only when the word "brother" aligns with an inwardly repaired relation and a costly response to another's displacement; speech that preserves escape from that cost produces counterfeit kinship.
+- Surface relation: direct; P1 59:8-10 (`أُخْرِجُ`, `مُهَٰجِرِينَ`, `يُؤْثِرُ`, `إِخْوَٰنِ`, `غِلًّا`) and P2 59:11-12 (`إِخْوَٰنِ`, `نَخْرُجَ`, `نَنصُرَ`, `كَٰذِبُونَ`, `أَدْبَٰرَ`).
+- Surprising reach: The pericope boundary places two declarations of `إِخْوَٰنِ` next to each other, then tests them through opposite interiors and opposite responses to expulsion.
+
+#### Subchannel A. The Same Brotherhood Word, Opposite Interiors
+- Reading type: mixed
+- Scene or process: P1 (59:10) and P2 (59:11); bridge: a repeated brotherhood-declaration signature reverses from speech that repairs its inward relation to speech constructed with a concealed exit.
+- Active motifs: sibling kinship (`quranic:root_000020:B001/m01`); spoken utterance (`quranic:root_001272:B001/m01`); covering a fault and shielding its bearer from its effect (`quranic:root_001096:B002/m01`); rancor lodged within the breast (`quranic:root_001102:B005/m01`); a displayed entrance with a hidden outlet (`quranic:root_001537:B004/m01`); falsehood opposed to truth (`quranic:root_001290:B001/m01`).
+- Ayah anchors: 59:10 `يَقُولُ` (ق و ل), `إِخْوَٰنِ` (ء خ و), `ٱغْفِرْ` (غ ف ر), `غِلًّا` (غ ل ل); 59:11 `نَافَقُ` (ن ف ق), `يَقُولُ` (ق و ل), `إِخْوَٰنِ` (ء خ و), `كَٰذِبُونَ` (ك ذ ب).
+- Synthesis: The bridge is the repeated social speech act "our brothers." In P1, the utterance asks that prior fault be covered and hidden rancor removed, bringing the interior into agreement with the kinship word. In P2, the same kinship word fronts a pledge whose structure retains a hidden outlet and is named false. The reversal makes correspondence among speech, heart, and action the surah's test of genuine brotherhood.
+
+#### Subchannel B. Receiving the Expelled versus Promising Co-Exit
+- Reading type: mixed
+- Scene or process: P1 (59:8-9) and P2 (59:11-12); bridge: the same displacement-response role frame reverses from receiving actual expellees into an abode to promising threatened expellees a shared departure and then withholding it.
+- Active motifs: passage from inside to outside (`quranic:root_000400:B001/m01`); migration between abodes (`quranic:root_001578:B002/m01`); prepared dwelling (`quranic:root_000161:B001/m01`); choosing another in preference (`quranic:root_000011:B005/m01`); aid that makes another prevail (`quranic:root_001510:B001/m01`); turning the back in retreat (`quranic:root_000458:B003/m01`); withdrawal and refusal (`quranic:root_001684:B007/m01`).
+- Ayah anchors: 59:8 `أُخْرِجُ` (خ ر ج), `مُهَٰجِرِينَ` (ه ج ر); 59:9 `هَاجَرَ` (ه ج ر), `تَبَوَّ` (ب و ء), `يُؤْثِرُ` (ء ث ر); 59:11-12 `أُخْرِجْ/نَخْرُجَ/أُخْرِجُ/يَخْرُجُ` (خ ر ج), `نَنصُرَ/يَنصُرُ/نَّصَرُ/يُنصَرُ` (ن ص ر); 59:12 `أَدْبَٰرَ` (د ب ر), `يُوَلُّ` (و ل ي).
+- Synthesis: P1 answers completed expulsion with emplacement: migrants are received into a prepared dwelling through another-preference. P2 answers possible expulsion with a verbal mirror, "we will go out with you," but aid and movement reverse into backs and withdrawal. The shared role frame therefore distinguishes costly reception, which gives displacement a new endpoint, from performative symmetry that abandons the displaced when its cost arrives.
+
 ## Standalone Subchannels
 
 ### S1. P1 The Fortress That Manufactures Its Own Breach
@@ -185,3 +204,94 @@
 - Active motifs: lower ground opposite the sky (`quranic:root_000025:B001/m01`); the overhead sky and canopy (`quranic:root_000745:B004/m01`); swimming, running, and celestial motion (`quranic:root_000666:B004/m01`); transcendence from defect (`quranic:root_000666:B002/m01`); irresistible strength (`quranic:root_001008:B001/m01`); wisdom as right judgment (`quranic:root_000348:B003/m01`).
 - Ayah anchors: 59:23 `سُبْحَٰنَ` (س ب ح), `عَزِيزُ` (ع ز ز); 59:24 `أَرْضِ` (ء ر ض), `سَّمَٰوَٰتِ` (س م و), `يُسَبِّحُ` (س ب ح), `عَزِيزُ` (ع ز ز), `حَكِيمُ` (ح ك م).
 - Synthesis: The closing praise reactivates the same moving field locally within P2, now after the names of governance, repair, creation, and form. Swimming and celestial running make response kinetic: upper and lower creation do not merely bear marks of the names but enact ordered movement under their force and wisdom.
+
+### S5. The Guest Pot
+- Reading type: latent/lexical
+- Scene or process: A host cooks rich food in a pot, handles the hot vessel with a cloth, sets the gathered meal before a guest, and brings the act of reception to completion in tasting.
+- Active motifs: melted fat or oil rising over a cooking pot (`quranic:root_000064:B006/m01`); cooking pot, broth, and cook (`quranic:root_001205:B007/m01`); heat-protective cloth for lowering the pot (`quranic:root_000248:B007/m01`); feeding a guest with gathered food (`quranic:root_001222:B003/m01`); tasting food by mouth (`quranic:root_000526:B001/m01`).
+- Ayah anchors: 59:2 `أَهْلِ` (ء ه ل); 59:6 `قَدِيرٌ` (ق د ر); 59:7 `أَهْلِ` (ء ه ل), `قُرَىٰ` (ق ر ي); 59:10 `تَجْعَلْ` (ج ع ل); 59:11 `أَهْلِ` (ء ه ل); 59:14 `قُرًى` (ق ر ي); 59:15 `ذَاقُ` (ذ و ق).
+- Synthesis: Fat, vessel, cook, heat-cloth, guest portion, and taste form a single hosting workflow. It materializes the preference of 59:9 as expenditure of food and skilled labor under conditions of need: hospitality is not sentiment but the conversion of held provision into something another person can consume. The scene also sharpens the later reversal in 59:15, where tasting no longer completes beneficent reception but makes one's own harmful consequence bodily present.
+
+### S6. The Arrow Case and the Losing Lot
+- Reading type: latent/lexical
+- Scene or process: Gaming arrows are kept together, a named fifth lot enters the draw, and the result separates the lot that comes out for its owner from the losing arrow and forfeited stake.
+- Active motifs: leather case containing gaming arrows (`quranic:root_000532:B010/m01`); the fifth arrow of the maysir draw (`quranic:root_001533:B016/m01`); winning lot emerging for its owner (`quranic:root_001186:B001/m02`); losing lot and property lost by gambling (`quranic:root_000458:B019/m01`).
+- Ayah anchors: 59:9 `أَنفُسِ/نَفْسِ` (ن ف س); 59:10 `رَبَّ` (ر ب ب); 59:12 `أَدْبَٰرَ` (د ب ر); 59:16 `رَبَّ` (ر ب ب); 59:18 `نَفْسٌ` (ن ف س); 59:19 `أَنفُسَ` (ن ف س); 59:20 `فَآئِزُونَ` (ف و ز).
+- Synthesis: The container, specified arrow, draw, winning issue, and losing stake complete one game of lots. This reframes the hypocrites' side-switching calculation as a wager on whoever appears likely to prevail, with the turned-back ally activated as the losing lot. Yet 59:18-20 deny that final attainment is random: work is deliberately sent ahead and its outcome follows it, so genuine `فوز` is moral causation rather than a fortunate draw.
+
+### S7. The Carried Body and Its Covered House
+- Reading type: latent/lexical
+- Scene or process: A dead body is carried on a bier, covered with a shroud, hidden by interment, and placed in a grave understood as its house.
+- Active motifs: bier or carrying frame for the dead (`quranic:root_000067:B008/m01`); shroud and grave covering the dead (`quranic:root_000266:B009/m01`); burial as concealment in a grave (`quranic:root_001117:B009/m01`); grave as the dead person's house (`quranic:root_000166:B007/m01`).
+- Ayah anchors: 59:2 `أَوَّلِ/أُو۟لِى` (ء و ل), `بُيُوتَ` (ب ي ت); 59:20 `جَنَّةِ` (ج ن ن); 59:22 `غَيْبِ` (غ ي ب).
+- Synthesis: Bier, shroud, burial, and grave-house form a complete passage from carried body to covered dwelling. The scene pressures the surah's confidence in houses and fortifications: the dwellings from which people are expelled cannot be permanent security, while the grave becomes an unavoidable final "house." It thereby gives concrete mortality to 59:18-20, where what is sent ahead determines the abiding environment beyond present possession.
+
+### S8. The Child Received from Concealment
+- Reading type: latent/lexical
+- Scene or process: A fetus remains screened inside its mother, birth draws near, a midwife receives the emerging child into her hands, and blood or afterbirth makes the completed delivery visible.
+- Active motifs: fetus concealed in the mother's belly (`quranic:root_000266:B007/m01`); birth drawing near (`quranic:root_001212:B012/m01`); midwife receiving the child into her hand (`quranic:root_001198:B007/m01`); blood or afterbirth emerging with the newborn (`quranic:root_000822:B006/m01`).
+- Ayah anchors: 59:7 `قُرْبَىٰ` (ق ر ب); 59:9 `قَبْلِ` (ق ب ل); 59:11 `يَشْهَدُ` (ش ه د); 59:15 `قَرِيبًا` (ق ر ب), `قَبْلِ` (ق ب ل); 59:20 `جَنَّةِ` (ج ن ن); 59:22 `شَّهَٰدَةِ` (ش ه د).
+- Synthesis: Concealment, nearness, reception, and visible afterbirth form one birth process. It materializes the surah's movement from hiddenness to witnessed form as an arrival into another person's care, not exposure alone. That scene usefully reframes the later arrivals of 59:10 and its language of mercy and siblinghood: what comes after is incorporated when an established community receives it as new life.
+
+### S9. The Adze in the Hand
+- Reading type: latent/lexical
+- Scene or process: A hand grips a handled cutting tool, its edge hews wood, and the iron eventually loses the sharpness with which the work began.
+- Active motifs: axe handle as the hand's interface with the tool (`quranic:root_001693:B013/m01`); cutting implement and sharpened edge (`quranic:root_001240:B014/m01`); iron adze used to hew wood (`quranic:root_001207:B008/m01`); iron edge becoming dull after sharpness (`quranic:root_001191:B009/m01`).
+- Ayah anchors: 59:2 `أَيْدِي/أَيْدِى` (ي د ي); 59:5 `قَطَعْ` (ق ط ع); 59:6-7 `أَفَآءَ` (ف ي ء); 59:18 `قَدَّمَتْ` (ق د م).
+- Synthesis: Handle, cutting edge, wood-hewing adze, and eventual dullness form one tool-use cycle. It materializes both the authorized cutting of palms in 59:5 and the destruction of houses by their occupants' own hands in 59:2. The same hand-tool capacity can execute governed intervention or self-demolition; its moral meaning lies in the direction and authorization of agency, not in cutting power by itself.
+
+### S10. A Cavalry Apparatus Left Idle
+- Reading type: mixed
+- Scene or process: Horses are bridled and padded beneath the saddle, riders mount, and the animals are urged into a rapid expeditionary gait.
+- Active motifs: horses and horsemen (`quranic:root_000454:B002/m01`); bridle encircling the jaws and checking the run (`quranic:root_000348:B006/m01`); pad placed beneath the saddle (`quranic:root_001684:B011/m01`); riding, mount, and saddle equipment (`quranic:root_000589:B001/m01`); rider urging a mount into rapid gait (`quranic:root_001628:B001/m01`).
+- Ayah anchors: 59:1 `حَكِيمُ` (ح ك م); 59:6 `خَيْلٍ` (خ ي ل), `رِكَابٍ` (ر ك ب), `أَوْجَفْ` (و ج ف); 59:12 `يُوَلُّ` (و ل ي); 59:24 `حَكِيمُ` (ح ك م).
+- Synthesis: Horse, bridle, saddle pad, rider, and driven gait supply the full material apparatus of a mounted expedition. In 59:6 that apparatus is invoked through negation: no cavalry effort produced the returned property. The scene therefore supports the primary `fayʾ` reading by separating acquisition from a rider's labor or conquest, preparing the governed redistribution of 59:7 rather than a combatant's claim to spoils.
+
+### S11. P1-P2 Hardness Under Decisive Impact
+- Reading type: mixed
+- Scene or process: P1 (59:2) and P2 (59:21); bridge: a repeated hard-structure/decisive-impact signature becomes a contrast between terror that turns inhabitants against their enclosure and revelation that makes elevated matter yield in awe.
+- Active motifs: fortified enclosure (`quranic:root_000331:B001/m01`); a projectile cast from outside (`quranic:root_001209:B001/m01`); fear and panic (`quranic:root_000572:B001/m01`); deed authored by one's own hands (`quranic:root_001693:B009/m01`); elevated solid mass (`quranic:root_000217:B001/m01`); descent and delivery from above (`quranic:root_001492:B002/m01`); opening a fissure in solid matter (`quranic:root_000850:B001/m01`); fear joined to awe (`quranic:root_000413:B001/m01`).
+- Ayah anchors: 59:2 `حُصُونُ` (ح ص ن), `قَذَفَ` (ق ذ ف), `رُّعْبَ` (ر ع ب), `أَيْدِي/أَيْدِى` (ي د ي); 59:21 `جَبَلٍ` (ج ب ل), `أَنزَلْ` (ن ز ل), `مُّتَصَدِّعًا` (ص د ع), `خَشْيَةِ` (خ ش ي).
+- Synthesis: Both pericopes place apparent solidity under a force that exposes its true response. In P1, the fortress remains the trusted shell while terror enters its occupants and their own hands unmake the shelter. In P2, revelation descends and the mountain itself lowers and fissures from awe. The contrast supports the surah's primary warning about false security: integrity is not refusal to break, but yielding rightly to truth before inward panic converts hardness into self-destruction.
+
+### S12. P1 The Assessed Revenue Payment
+- Reading type: latent/lexical
+- Scene or process: Revenue from fixed property is assessed as a levy, made into a prescribed outgoing payment, weighed by a known unit coin by coin, and delivered.
+- Active motifs: recurring yield from fixed property (`quranic:root_001102:B011/m01`); levy imposed on a person or land (`quranic:root_000906:B010/m01`); money outgoing on a known assignment (`quranic:root_000400:B003/m01`); known unit weight for coin or oil (`quranic:root_001677:B004/m01`); coins weighed and extracted one by one (`quranic:root_000974:B009/m01`); tribute delivered by its payer (`quranic:root_000009:B008/m01`).
+- Ayah anchors: 59:2 `أَتَىٰ` (ء ت ي), `أَخْرَجَ/يَخْرُجُ` (خ ر ج), `ٱعْتَبِرُ` (ع ب ر); 59:7 `ءَاتَىٰ` (ء ت ي), `ٱتَّقُ` (و ق ي); 59:8 `أُخْرِجُ` (خ ر ج); 59:9 `أُوتُ` (ء ت ي), `يُوقَ` (و ق ي); 59:10 `غِلًّا` (غ ل ل); 59:11 `أُخْرِجْ/نَخْرُجَ` (خ ر ج); 59:12 `أُخْرِجُ/يَخْرُجُ` (خ ر ج); 59:18 `ٱتَّقُ` (و ق ي); 59:21 `نَضْرِبُ` (ض ر ب).
+- Synthesis: The sequence gives transferred wealth an administrative form: an identifiable yield becomes a liability, receives a standard measure, leaves the payer in counted units, and reaches a receiver. It does not turn `fayʾ` into a tax; it materializes the accountable, governed character of the transfer in 59:6-7. Returned wealth is thereby pressed away from unmeasured seizure or private spoil and toward a public route whose measure and destination can be answered for.
+
+### S13. P1-P2 The Storm That Gathers by Displacing
+- Reading type: mixed
+- Scene or process: P1 (59:2) and P2 (59:15, 21); bridge: a weather-disaster causal sequence joins gathering by forced displacement to a heavy consequence that descends and overwhelms.
+- Active motifs: heavy, large-dropped rain (`quranic:root_001619:B001/m01`); severe rain and a flood overpowering its valley (`quranic:root_001008:B008/m01`); calamity descending upon a people (`quranic:root_001492:B006/m01`); a harsh season driving people into towns and stripping their wealth (`quranic:root_000324:B002/m01`).
+- Ayah anchors: 59:1 `عَزِيزُ` (ع ز ز); 59:2 `حَشْرِ` (ح ش ر); 59:15 `وَبَالَ` (و ب ل); 59:21 `أَنزَلْ` (ن ز ل); 59:23-24 `عَزِيزُ` (ع ز ز).
+- Synthesis: Heavy rain becomes an overpowering flood, the flood becomes a descending calamity, and the calamity gathers by driving a population from open land into towns while removing its wealth. This causal bridge materializes `حشر` in P1 as collection through displacement rather than aggregation alone, then lets the rain-weight of `وبال` in P2 name consequence as something that falls, sweeps, and carries away. Exile and property loss thus become the social geometry of an overwhelming storm.
+
+### S14. P1-P2 The Firestick That Withholds Its Spark
+- Reading type: latent/lexical
+- Scene or process: P1 (59:9) and P2 (59:11-17); bridge: an ignition-and-aid signature moves from a stick that withholds latent fire to promised support that fails, before fire becomes the shared outcome.
+- Active motifs: a firestick that does not yield fire (`quranic:root_000778:B003/m01`); latent fire brought out of a firestick (`quranic:root_001642:B002/m01`); a successfully kindled stick as aid and support (`quranic:root_001642:B003/m01`); blazing fire (`quranic:root_001564:B002/m01`).
+- Ayah anchors: 59:3 `نَّارِ` (ن و ر); 59:9 `شُحَّ` (ش ح ح); 59:14 `وَرَآءِ` (و ر ي); 59:17 `نَّارِ` (ن و ر); 59:20 `نَّارِ` (ن و ر).
+- Synthesis: A firestick is useful only when what lies latent in it can be struck into transmissible flame; the successful stick therefore also names counsel, aid, and defense. The withholding stick gives `شح` a material operation in P1, while P2 supplies its social realization: allies present themselves as stored support but produce no effective spark when struck by danger. The final fire reverses their control of ignition. What they would not kindle as aid becomes the environment they share as consequence.
+
+### S15. P1-P2 The Covered Seed That Breaks Ground
+- Reading type: latent/lexical
+- Scene or process: P1 (59:9) and P2 (59:16, 18, 21); bridge: one cultivation cycle links success, purposeful work, covering, and fissure through the invariant sequence of preparing land, burying seed, and receiving a sprout.
+- Active motifs: field plots prepared for cultivation (`quranic:root_000458:B015/m01`); sharecropping for a known portion of the yield (`quranic:root_000387:B003/m01`); the farmer splitting earth for sowing (`quranic:root_001175:B003/m01`); seed covered with soil (`quranic:root_001307:B008/m01`); a plant splitting the earth as it emerges (`quranic:root_000850:B003/m01`).
+- Ayah anchors: 59:2 `كَفَرُ` (ك ف ر); 59:9 `مُفْلِحُونَ` (ف ل ح); 59:11 `كَفَرُ` (ك ف ر); 59:12 `أَدْبَٰرَ` (د ب ر); 59:16 `ٱكْفُرْ/كَفَرَ` (ك ف ر); 59:18 `خَبِيرٌۢ` (خ ب ر); 59:21 `مُّتَصَدِّعًا` (ص د ع).
+- Synthesis: The cultivator partitions the field, accepts a defined share of its future yield, cuts the ground, covers seed, and waits for growth to reopen the surface. This process makes the `مفلحون` of 59:9 successful cultivators: their present self-restraint prepares a later emergence rather than consuming every available good. Across P2, the same process pressures two other roots. Purposeful work has a deferred yield, while covering becomes productive only when it protects a seed rather than suppressing truth; the final fissure is the visible sign that rightly buried potential has answered preparation.
+
+### S16. P1 The Household Raised on Sparse Supports
+- Reading type: latent/lexical
+- Scene or process: A household inhabits a hut of reeds or branches whose roof is carried by crossed sticks and a central pole.
+- Active motifs: household members identified with their house (`quranic:root_000166:B002/m01`); a sparse hut made from reeds or branches (`quranic:root_000414:B004/m01`); crossed sticks supporting the head of the house-pole (`quranic:root_001222:B008/m01`).
+- Ayah anchors: 59:2 `بُيُوتَ` (ب ي ت); 59:7 `قُرَىٰ` (ق ر ي); 59:9 `خَصَاصَةٌ` (خ ص ص); 59:14 `قُرًى` (ق ر ي).
+- Synthesis: `خصاصة` becomes not only an inward lack but a visible dwelling: a lightly roofed hut whose few pieces must bear one another around a supporting pole. This construction materializes P1's reconstituted household at the scale of minimum shelter. It also reverses the surah's failed-fortress logic: belonging can hold in a materially sparse house when its members function as mutual supports, while massive defenses cannot preserve a household whose center has come apart.
+
+### S17. P1-P2 The Fixed Wage for Completed Work
+- Reading type: latent/lexical
+- Scene or process: P1 (59:5-7) and P2 (59:18); bridge: a labor-and-recompense invariant contrasts property received without cavalry work with the future return attached to deliberate work.
+- Active motifs: a contract fixing specified work and pay (`quranic:root_001240:B024/m01`); compensation assigned for a task (`quranic:root_000248:B005/m01`); the worker's earned wage (`quranic:root_001046:B004/m01`).
+- Ayah anchors: 59:5 `قَطَعْ` (ق ط ع); 59:10 `تَجْعَلْ` (ج ع ل); 59:18 `تَعْمَلُ` (ع م ل).
+- Synthesis: Contract, specified task, and wage form a complete remuneration relation: payment answers performed labor under an agreed term. In P1, the explicit absence of cavalry exertion in 59:6 blocks the returned property from being treated as a fighter's wage, leaving its route to the governed distribution of 59:7. P2 restores the work-return relation at the moral horizon: what the self deliberately sends ahead is precisely what can answer it tomorrow.

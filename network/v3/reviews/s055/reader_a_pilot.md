@@ -461,3 +461,52 @@
 - Active motifs: death expressed as release or rest `quranic:root_000609:B016/m01`; covering the dead `quranic:root_000266:B009/m01`; burial shroud `quranic:root_000266:B009/m02`; grave and interment `quranic:root_000266:B009/m03`; canopy or cupola over a grave `quranic:root_001315:B006/m01`.
 - Ayah anchors: 55:12 `رَّيْحَانُ` (ر و ح); 55:15 `جَآنَّ`, 55:33 `جِنِّ`, 55:39, 55:56, and 55:74 `جَآنٌّ`, 55:46 and 55:62 `جَنَّتَانِ`, and 55:54 `جَنَّتَيْنِ` (ج ن ن); 55:26 `كُلُّ`, 55:29 `كُلَّ`, and 55:52 `كُلِّ` (ك ل ل).
 - Synthesis: This sequence materializes "everyone upon it is passing" as the full social handling of a body, not an abstract statement of impermanence. Covering and burial move the dead from visibility into concealment, sharpening the contrast with the divine Face that remains and with the gardens whose covering signifies living shelter rather than a grave.
+
+### S14. P1-P3-P4 Measured Administration and Enforceable Settlement
+- Reading type: latent/lexical
+- Scene or process: Public conduct is inspected against a considered standard, a case is elevated to officials who know the parties, litigants gain access to authority, and the authority's order is carried out through custodial administration, including discharge of a public financial obligation.
+- Active motifs: practical public accounting `quranic:root_000318:B006/m01`; municipal inspector who checks wrongdoing `quranic:root_000318:B006/m02`; settled and weighty deliberation `quranic:root_001645:B005/m01`; presenting a person or case to a ruler `quranic:root_000582:B004/m01`; local official acquainted with the community `quranic:root_001002:B006/m01`; litigants reaching the judge `quranic:root_001531:B005/m01`; execution of an order or document `quranic:root_001531:B002/m01`; sustained custodial administration `quranic:root_001273:B004/m01`; financial levy discharging an obligation `quranic:root_000244:B004/m01`.
+- Ayah anchors: 55:5 `حُسْبَانٍ` (ح س ب); 55:7 `رَفَعَ` (ر ف ع); 55:7 `مِيزَانَ`, 55:8 `مِيزَانِ`, and 55:9 `وَزْنَ`/`مِيزَانَ` (و ز ن); 55:9 `أَقِيمُ` and 55:46 `مَقَامَ` (ق و م); 55:33 `تَنفُذُ`/`ٱنفُذُ` (ن ف ذ); 55:41 `يُعْرَفُ` (ع ر ف); 55:60 `جَزَآءُ` (ج ز ي).
+- Synthesis: Bridge: P1 to P3 to P4, a causal sequence and role progression from measured oversight, through recognized jurisdiction, to enforceable settlement. The shared invariant is that order becomes effective when a standard passes through accountable roles into an executed outcome; this social mechanism materializes the surah's primary movement from balance, through recognition without interrogation, to recompense.
+
+### S15. Recovering Lost Property by Description and Report
+- Reading type: latent/lexical
+- Scene or process: A found object is publicly announced and described while inquiries are made, reports are circulated, and successive leads are tracked until a claimant can recognize it.
+- Active motifs: seeking news by inquiry `quranic:root_000318:B010/m01`; publicizing and transmitting a report `quranic:root_000582:B005/m01`; announcing found property `quranic:root_001002:B008/m01`; identification by description `quranic:root_001002:B008/m02`; tracking news through repeated inquiry `quranic:root_001480:B008/m01`.
+- Ayah anchors: 55:5 `حُسْبَانٍ` (ح س ب); 55:7 `رَفَعَ` (ر ف ع); 55:35 `نُحَاسٌ` (ن ح س); 55:41 `يُعْرَفُ` (ع ر ف).
+- Synthesis: Ordinary recovery requires a chain of announcement, description, inquiry, circulation, and recognition. That complete procedure usefully pressures P3's judgment scene by contrast: sinners are recognized immediately by their marks and need not be questioned, so bodily evidence replaces the social apparatus normally needed to establish identity.
+
+### S16. Milking at the Threshold of Birth
+- Reading type: latent/lexical
+- Scene or process: An animal near parturition produces rich milk; a milker approaches from the designated side, and the udder may retain the milk, release it in repeated yield, or cease to supply what was expected.
+- Active motifs: approaching parturition `quranic:root_000493:B004/m01`; rich milk before birth `quranic:root_001174:B004/m01`; milker positioned on a designated side `quranic:root_000170:B009/m01`; milk retained in the udder `quranic:root_000582:B007/m01`; repeated flow and yield of milk `quranic:root_000563:B006/m01`; low milk and weakness `quranic:root_000497:B006/m01`; expected milk that fails to continue `quranic:root_001290:B006/m01`.
+- Ayah anchors: 55:4 `بَيَانَ`, 55:20 `بَيْنَ`, and 55:44 `بَيْنَ` (ب ي ن); 55:7 `رَفَعَ` (ر ف ع); 55:11, 55:52, and 55:68 `فَٰكِهَةٌ`/`فَٰكِهَةٍ` (ف ك ه); 55:13, 55:16, 55:18, 55:21, 55:23, 55:25, 55:28, 55:30, 55:32, 55:34, 55:36, 55:38, 55:40, 55:42-43, 55:45, 55:47, 55:49, 55:51, 55:53, 55:55, 55:57, 55:59, 55:61, 55:63, 55:65, 55:67, 55:69, 55:71, 55:73, 55:75, and 55:77 `تُكَذِّبَ`/`يُكَذِّبُ` (ك ذ ب); 55:35 `يُرْسَلُ` (ر س ل); 55:37 `دِّهَانِ` (د ه ن); 55:54 `دَانٍ` (د ن و).
+- Synthesis: The scene materializes creation and provision as an embodied yield that has timing, an animal source, a human operator, and variable release. Retention, scarcity, and milk that "lies" by failing to continue sharpen the repeated acknowledgment test: dependable provision is an actively sustained benefit, not an automatic property of the source.
+
+### S17. Treating an Infected Wound
+- Reading type: latent/lexical
+- Scene or process: A patient presents persistent local pain and a wound that swells, spreads, and suppurates; a practitioner identifies the condition and treats it with costus and a thick medicinal coating.
+- Active motifs: persistent pain in a body part `quranic:root_001273:B019/m01`; wound swelling and spreading into corruption `quranic:root_000138:B004/m01`; suppurating ulcer `quranic:root_000025:B011/m01`; practitioner or physician `quranic:root_001002:B012/m01`; costus used as medicine `quranic:root_001224:B006/m02`; thick medicinal coating `quranic:root_000532:B006/m01`.
+- Ayah anchors: 55:9 `قِسْطِ` (ق س ط); 55:9 `أَقِيمُ` and 55:46 `مَقَامَ` (ق و م); 55:10 `أَرْضَ`, 55:29 and 55:33 `أَرْضِ` (ء ر ض); 55:13, 55:16-18, 55:21, 55:23, 55:25, 55:27-28, 55:30, 55:32, 55:34, 55:36, 55:38, 55:40, 55:42, 55:45-47, 55:49, 55:51, 55:53, 55:55, 55:57, 55:59, 55:61, 55:63, 55:65, 55:67, 55:69, 55:71, 55:73, 55:75, and 55:77-78 `رَبِّ`/`رَبُّ` (ر ب ب); 55:20 `يَبْغِيَ` (ب غ ي); 55:41 `يُعْرَفُ` (ع ر ف).
+- Synthesis: This treatment scene reframes P3's recognized bodies and punitive liquids as an anti-treatment. Ordinary care identifies a spreading lesion and applies medicine to arrest corruption; judgment instead exposes the body's condition and subjects it to a circuit that aggravates rather than repairs.
+
+### S18. Bargaining a Commodity Sale Across Cash and Credit
+- Reading type: latent/lexical
+- Scene or process: A merchant, represented by an oil seller, presents stock; parties negotiate and appraise its price, payment is arranged as cash or deferred credit, and remaining goods may be sold in bulk without measurement, exposing capital to loss.
+- Active motifs: oil merchant `quranic:root_000497:B010/m01`; bargaining and stated price `quranic:root_000764:B001/m01`; immediate cash payment `quranic:root_001069:B011/m01`; purchase on credit or deferred payment `quranic:root_001069:B012/m01`; appraisal and pricing of goods `quranic:root_001273:B010/m01`; bulk sale without measure `quranic:root_001238:B011/m01`; reduction of capital through trade loss `quranic:root_001657:B004/m01`.
+- Ayah anchors: 55:7 and 55:10 `وَضَعَ` (و ض ع); 55:9 `أَقِيمُ` and 55:46 `مَقَامَ` (ق و م); 55:33 `أَقْطَارِ` (ق ط ر); 55:37 `دِّهَانِ` (د ه ن); 55:41 `سِيمَٰ` (س و م); 55:50 and 55:66 `عَيْنَانِ` (ع ي ن).
+- Synthesis: The transaction materializes the balance command as a vulnerable commercial practice: value must be appraised, price negotiated, payment timed, and stock measured. A bulk shortcut and capital loss show what happens when exact measure is displaced, while cash and credit clarify the temporal dimension of an obligation awaiting settlement.
+
+### S19. Gift Exchange Under Rivalry and Expected Return
+- Reading type: latent/lexical
+- Scene or process: Donors bestow goods in a social exchange where openhanded giving, rivalry in generosity, a gift designed to obtain reward or praise, and the receiver's pleased acceptance coexist.
+- Active motifs: openhanded giving `quranic:root_000563:B010/m01`; bestowal of good `quranic:root_001510:B005/m01`; rivalry in generosity `quranic:root_001294:B006/m01`; gift offered to obtain reward or praise `quranic:root_001294:B008/m01`; response of pleased acceptance `quranic:root_001294:B009/m01`.
+- Ayah anchors: 55:27 and 55:78 `إِكْرَامِ` (ك ر م); 55:35 `يُرْسَلُ` (ر س ل); 55:35 `تَنتَصِرَ` (ن ص ر).
+- Synthesis: The social frame distinguishes generosity from strategic exchange. It usefully pressures the refrain and P4's recompense: an answer to real beneficence differs from a prestige payment engineered by a competitive giver, even when both outwardly take the form of gift and response.
+
+### S20. Tanning and Red-Finishing a Hide
+- Reading type: latent/lexical
+- Scene or process: Tannin-bearing plant material and red resin are prepared for a hide, which is tanned, colored, coated, and repaired as its surface begins to fissure.
+- Active motifs: tannin-bearing plant `quranic:root_000076:B005/m01`; red resin and dye from a tree `quranic:root_001077:B015/m01`; tanned and reddened hide `quranic:root_000369:B004/m01`; fissuring of the hide `quranic:root_000369:B004/m02`; thick treatment used to repair leather `quranic:root_000532:B006/m02`.
+- Ayah anchors: 55:13, 55:16-18, 55:21, 55:23, 55:25, 55:27-28, 55:30, 55:32, 55:34, 55:36, 55:38, 55:40, 55:42, 55:45-47, 55:49, 55:51, 55:53, 55:55, 55:57, 55:59, 55:61, 55:63, 55:65, 55:67, 55:69, 55:71, 55:73, 55:75, and 55:77-78 `رَبِّ`/`رَبُّ` (ر ب ب); 55:17 `مَغْرِبَيْنِ` (غ ر ب); 55:72 `حُورٌ` (ح و ر); no surface ayah anchor is available for `quranic:root_000076:B005`.
+- Synthesis: The craft materializes P3's rose-red sky as a transformation of surface: plant-derived color, coating, and cracking become one unstable material state. In contrast with the stable lined and patterned furnishings of the gardens, the fissured red hide supplies a tactile model for a sky whose apparent fabric is coming apart.

@@ -5,13 +5,13 @@
 ### 1. Bonds, Separation, and Reversal
 - Semantic invariant: A relation acts as a bond whose ethical force depends on whom it joins, opposes, retains, or releases.
 - Surface relation: direct; 60:1-4 and 60:7-11 anchor enemies and allies (`عَدُوِّي`, `أَوْلِيَآءَ`), affection and aversion (`مَوَدَّةِ`, `بَغْضَآءُ`), kin (`أَرْحَامُ`), spouses (`أَزْوَٰجُ`), and retained marital bonds (`تُمْسِكُوا۟ بِعِصَمِ`).
-- Surprising reach: The social distinctions are materialized as knots, cords, grips, contracts, and reversible or final separation.
+- Surprising reach: The social distinctions are materialized as orientation, distance, knots, cords, grips, contracts, and a relation deliberately remade after estrangement.
 
 #### Subchannel A. Affection Becoming Alliance or Enmity
 - Reading type: mixed
 - Scene or process: Inward attachment becomes an outward alignment through alliance, aid, and backing, while aversion produces the opposite camp.
-- Active motifs: heart-love `quranic:root_000286:B002/m01`; affection `quranic:root_001634:B001/m01`; protective alliance `quranic:root_001684:B004/m01`; helping hand `quranic:root_001693:B016/m01`; rear support `quranic:root_000970:B016/m01`; enemy-role `quranic:root_000993:B003/m01`; aversion `quranic:root_000136:B001/m01`.
-- Ayah anchors: `ح ب ب` at 60:8 (`يُحِبُّ`); `و د د` at 60:1, 60:2, 60:7 (`مَوَدَّةِ`, `وَدُّوا۟`, `مَّوَدَّةً`); `و ل ي` at 60:1, 60:6, 60:9, 60:13 (`أَوْلِيَآءَ`, `يَتَوَلَّ`, `تَوَلَّوْهُمْ`, `تَتَوَلَّوْا۟`); `ي د ي` at 60:2, 60:12 (`أَيْدِيَهُمْ`, `أَيْدِيهِنَّ`); `ظ ه ر` at 60:9 (`ظَٰهَرُوا۟`); `ع د و` at 60:1, 60:2, 60:4, 60:7 (enemy forms); `ب غ ض` at 60:4 (`ٱلْبَغْضَآءُ`).
+- Active motifs: heart-love `quranic:root_000286:B002/m01`; affection `quranic:root_001634:B001/m01`; protective alliance `quranic:root_001684:B004/m01`; helping hand `quranic:root_001693:B016/m01`; rear support `quranic:root_000970:B016/m01`; enemy-role `quranic:root_000993:B003/m01`; aversion `quranic:root_000136:B001/m01`; openly declared enmity `quranic:root_000097:B004/m01`.
+- Ayah anchors: `ح ب ب` at 60:8 (`يُحِبُّ`); `و د د` at 60:1, 60:2, 60:7 (`مَوَدَّةِ`, `وَدُّوا۟`, `مَّوَدَّةً`); `و ل ي` at 60:1, 60:6, 60:9, 60:13 (`أَوْلِيَآءَ`, `يَتَوَلَّ`, `تَوَلَّوْهُمْ`, `تَتَوَلَّوْا۟`); `ي د ي` at 60:2, 60:12 (`أَيْدِيَهُمْ`, `أَيْدِيهِنَّ`); `ظ ه ر` at 60:9 (`ظَٰهَرُوا۟`); `ع د و` at 60:1, 60:2, 60:4, 60:7 (enemy forms); `ب غ ض` at 60:4 (`ٱلْبَغْضَآءُ`); `ب د و` at 60:4 (`بَدَا`).
 - Synthesis: Love is not left as private sentiment. It acquires hands, protectors, and rear support, becoming a practical alliance; aversion likewise takes the social shape of an enemy camp. This makes the surah's distinction between kindness and prohibited alignment a question of what attachment is made to do.
 
 #### Subchannel B. Kinship Without Protective Merger
@@ -35,24 +35,38 @@
 - Ayah anchors: `ع ص م` at 60:10 (`بِعِصَمِ`); `م س ك` at 60:10 (`تُمْسِكُوا۟`); `ح ل ل` at 60:10 (`حِلٌّ`, `يَحِلُّونَ`).
 - Synthesis: The marital instruction is materially reframed as a hand-cord mechanism. Protection and detention share the same grip until lawful release changes its value; untying identifies the exact operation by which retention ends.
 
+#### Subchannel E. Turning Toward, Drawing Near, and Disavowal
+- Reading type: mixed
+- Scene or process: Affiliation is enacted by closing distance and turning toward another party; repudiation reverses the orientation, opens a gap, and withdraws the prior relation.
+- Active motifs: proximity without an intervening gap `quranic:root_001684:B001/m01`; legal affiliation by kinship, clientage, or neighborhood `quranic:root_001684:B005/m01`; turning toward a party `quranic:root_001684:B006/m01`; turning away in withdrawal `quranic:root_001684:B007/m01`; disavowal and distancing `quranic:root_000099:B002/m01`; separation after connection `quranic:root_000170:B001/m01`; relational abandonment `quranic:root_001578:B001/m01`.
+- Ayah anchors: `و ل ي` at 60:1, 60:6, 60:9, 60:13 (affiliation and turning forms); `ب ر ء` at 60:4 (`بُرَءَٰٓؤُا۟`); `ب ي ن` at 60:3, 60:4, 60:7, 60:10, 60:12 (`بَيْنَ`); `ه ج ر` at 60:10 (`مُهَٰجِرَٰتٍ`).
+- Synthesis: Alliance and disavowal become changes of bodily and spatial orientation. Nearness, legal attachment, and a face turned toward another constitute affiliation; repudiation does not merely negate feeling but creates distance and ends continuity.
+
+#### Subchannel F. Making a New Relational State
+- Reading type: mixed
+- Scene or process: A presently hostile relation is deliberately rendered into another state through capacity, measured action, changing circumstances, and the emergence of a new disposition.
+- Active motifs: bringing something into being `quranic:root_000248:B001/m01`; rendering it into a new condition `quranic:root_000248:B002/m01`; emergence of a changed opinion `quranic:root_000097:B003/m01`; circulation of circumstances `quranic:root_000499:B003/m01`; return toward a former state `quranic:root_000544:B001/m01`; effective capacity `quranic:root_001205:B003/m01`; measured planning `quranic:root_001205:B005/m01`; wishing for an outcome `quranic:root_001634:B002/m01`.
+- Ayah anchors: `ج ع ل` at 60:5, 60:7 (`تَجْعَلْنَا`, `يَجْعَلَ`); `ب د و` at 60:4 (`بَدَا`); `د و ر` at 60:8, 60:9 (`دِيَٰرِكُمْ`); `ر ج ع` at 60:10 (`تَرْجِعُوهُنَّ`); `ق د ر` at 60:7 (`قَدِيرٌ`); `و د د` at 60:1, 60:2, 60:7 (`مَوَدَّةِ`, `وَدُّوا۟`, `مَّوَدَّةً`).
+- Synthesis: The prospect in 60:7 is a state-making process, not passive sentimentality. Capacity and measured action operate amid changing circumstances until a new disposition can emerge, while the wish motif preserves the difference between desiring reconciliation and having the power to produce it.
+
 ### 2. Concealment, Disclosure, and Proof
 - Semantic invariant: Hidden material becomes actionable through controlled disclosure, transmission, testing, and recognition, while fabrication counterfeits that evidentiary passage.
 - Surface relation: direct; 60:1 opposes secrecy and declaration (`أَخْفَيْتُم`, `أَعْلَنتُم`), 60:10 commands examination (`فَٱمْتَحِنُوهُنَّ`) and invokes knowledge (`أَعْلَمُ`, `عَلِمْتُمُوهُنَّ`), and 60:12 names fabricated accusation (`بُهْتَٰنٍ يَفْتَرِينَهُ`).
-- Surprising reach: The discourse unfolds as an evidentiary system with hidden interiors, thresholds, assays, recognizable traces, carriers, and counterfeit reports.
+- Surprising reach: The discourse unfolds as an evidentiary system with hidden interiors, covert appropriation, thresholds, fire-assay, recognizable traces, authoritative carriers, and counterfeit reports.
 
 #### Subchannel A. Hidden Interior and Public Emergence
 - Reading type: mixed
 - Scene or process: Content is kept inside or behind a cover, crosses a visible-hidden threshold, and emerges into public view.
-- Active motifs: concealment `quranic:root_000428:B001/m01`; secret interior `quranic:root_000697:B001/m01`; visible entrance with hidden exit `quranic:root_001537:B004/m01`; covering from view `quranic:root_001307:B001/m01`; public manifestation `quranic:root_001041:B001/m01`; disclosure between parties `quranic:root_000170:B004/m01`.
-- Ayah anchors: `خ ف ي` at 60:1 (`أَخْفَيْتُمْ`); `س ر ر` at 60:1 (`تُسِرُّونَ`); `ن ف ق` at 60:10, 60:11 (`أَنفَقُوا۟`, `أَنفَقْتُمْ`); `ك ف ر` at 60:1, 60:2, 60:4, 60:5, 60:10, 60:11, 60:13 (disbelief forms); `ع ل ن` at 60:1 (`أَعْلَنتُمْ`); `ب ي ن` at 60:3, 60:4, 60:7, 60:10, 60:12 (`بَيْنَ`).
-- Synthesis: Secret alignment is rendered as content housed behind a cover and moved through a threshold. The opposing pole is not merely speech but manifestation: what was interior becomes visible between parties and can then bear social consequence.
+- Active motifs: concealment `quranic:root_000428:B001/m01`; secret interior `quranic:root_000697:B001/m01`; covert listening `quranic:root_000700:B002/m01`; slipping away unseen `quranic:root_000700:B004/m01`; visible entrance with hidden exit `quranic:root_001537:B004/m01`; covering from view `quranic:root_001307:B001/m01`; public manifestation `quranic:root_001041:B001/m01`; disclosure between parties `quranic:root_000170:B004/m01`.
+- Ayah anchors: `خ ف ي` at 60:1 (`أَخْفَيْتُمْ`); `س ر ر` at 60:1 (`تُسِرُّونَ`); `س ر ق` at 60:12 (`يَسْرِقْنَ`); `ن ف ق` at 60:10, 60:11 (`أَنفَقُوا۟`, `أَنفَقْتُمْ`); `ك ف ر` at 60:1, 60:2, 60:4, 60:5, 60:10, 60:11, 60:13 (disbelief forms); `ع ل ن` at 60:1 (`أَعْلَنتُمْ`); `ب ي ن` at 60:3, 60:4, 60:7, 60:10, 60:12 (`بَيْنَ`).
+- Synthesis: Secret alignment is rendered as content housed behind a cover and moved through a threshold. Covert listening and unseen withdrawal extend unauthorized taking beyond property to sound and presence; the opposing pole is manifestation, where what was interior becomes visible between parties and bears consequence.
 
 #### Subchannel B. Assay, Refinement, and Recognition
 - Reading type: mixed
-- Scene or process: An uncertain claimant is tested like material under assay; the test exposes the interior, separates impurity, and leaves recognizable evidence.
-- Active motifs: assay of material or person `quranic:root_001128:B001/m01`; heart-revealing examination `quranic:root_001403:B001/m01`; purification by testing `quranic:root_001403:B002/m01`; inward discernment `quranic:root_000121:B002/m01`; recognition by trace `quranic:root_001002:B003/m01`; established knowledge `quranic:root_001040:B001/m01`.
-- Ayah anchors: `ف ت ن` at 60:5 (`فِتْنَةً`); `م ح ن` at 60:10 (`فَٱمْتَحِنُوهُنَّ`); `ب ص ر` at 60:3 (`بَصِيرٌ`); `ع ر ف` at 60:12 (`مَعْرُوفٍ`); `ع ل م` at 60:1, 60:10 (`أَعْلَمُ`, `عَلِمْتُمُوهُنَّ`, `عَلِيمٌ`).
-- Synthesis: Examination in 60:10 becomes an assay rather than a demand for bare assertion. Testing reveals an interior, refinement separates what is mixed, and a trace permits recognition; divine knowledge remains the horizon against which human findings operate.
+- Scene or process: An uncertain profession of faith is tested like material under fire-assay; the ordeal exposes the interior, separates impurity, and leaves recognizable evidence.
+- Active motifs: heart-assent and belief `quranic:root_000054:B002/m01`; assay of material or person `quranic:root_001128:B001/m01`; fire that alters the tested material `quranic:root_001128:B002/m01`; ordeal as examination `quranic:root_001128:B004/m01`; heart-revealing examination `quranic:root_001403:B001/m01`; purification by testing `quranic:root_001403:B002/m01`; inward discernment `quranic:root_000121:B002/m01`; recognition by trace `quranic:root_001002:B003/m01`; established knowledge `quranic:root_001040:B001/m01`.
+- Ayah anchors: `ء م ن` at 60:1, 60:4, 60:10, 60:11, 60:12, 60:13 (faith forms); `ف ت ن` at 60:5 (`فِتْنَةً`); `م ح ن` at 60:10 (`فَٱمْتَحِنُوهُنَّ`); `ب ص ر` at 60:3 (`بَصِيرٌ`); `ع ر ف` at 60:12 (`مَعْرُوفٍ`); `ع ل م` at 60:1, 60:10 (`أَعْلَمُ`, `عَلِمْتُمُوهُنَّ`, `عَلِيمٌ`).
+- Synthesis: Examination in 60:10 becomes an assay rather than a demand for bare assertion. Faith is the claimed interior, ordeal supplies heat, testing reveals and refines what is mixed, and a trace permits recognition; divine knowledge remains the horizon against which human findings operate.
 
 #### Subchannel C. Carried Message and Received Utterance
 - Reading type: mixed
@@ -68,10 +82,31 @@
 - Ayah anchors: `ب ه ت` at 60:12 (`بُهْتَٰنٍ`); `ف ر ي` at 60:12 (`يَفْتَرِينَهُ`); `ف ع ل` at 60:1 (`يَفْعَلْهُ`); `ق و ل` at 60:4 (`قَالُوا۟`, `قَوْلَ`); `ن ب ء` at 60:12 (`ٱلنَّبِىُّ`).
 - Synthesis: Fabrication mirrors the message channel while reversing its truth condition. It constructs an event, assigns speech or authority to it, and sends the counterfeit through the same social pathways by which a genuine report would become actionable.
 
-### 3. Covering, Erasure, and Interment
-- Semantic invariant: Covering removes a person or deed from exposure, either protectively by cancelling consequence or finally by placing the body in a hidden dwelling.
-- Surface relation: direct; forgiveness is requested or granted at 60:4-5, 60:7, and 60:12 (`ٱغْفِرْ`, `غَفُورٌ`, `ٱسْتَغْفِرْ`), while 60:13 names the inhabitants of graves (`أَصْحَٰبِ ٱلْقُبُورِ`).
-- Surprising reach: Pardon and burial share a topology of covering, but one restores moral standing while the other closes bodily visibility and worldly return.
+#### Subchannel E. Authoritative Report and Public Circulation
+- Reading type: mixed
+- Scene or process: A consequential report originates with an authorized envoy, takes linguistic form, and circulates beyond its first delivery.
+- Active motifs: consequential reported news `quranic:root_001464:B002/m01`; prophet as divine envoy `quranic:root_001464:B003/m01`; language carrying word, report, or message `quranic:root_001355:B006/m01`; report circulating among people `quranic:root_001272:B007/m01`.
+- Ayah anchors: `ن ب ء` at 60:12 (`ٱلنَّبِىُّ`); `ل س ن` at 60:2 (`أَلْسِنَتَهُم`); `ق و ل` at 60:4 (`قَالُوا۟`, `قَوْلَ`).
+- Synthesis: Authority and circulation are separate stages. Prophetic mediation establishes the report's source, language gives it transmissible form, and public repetition extends its reach; this is the genuine counterpart against which fabricated attribution in 60:12 can be recognized.
+
+#### Subchannel F. Truth Established as Binding
+- Reading type: mixed
+- Scene or process: A claim is tested against reality, established by evidence and sound judgment, and converted from assertion into an obligation that binds conduct.
+- Active motifs: truth matching reality `quranic:root_000347:B001/m01`; binding entitlement or obligation `quranic:root_000347:B002/m01`; proof that manifests truth `quranic:root_000347:B005/m01`; accurate wisdom `quranic:root_000348:B003/m01`; established knowledge `quranic:root_001040:B001/m01`.
+- Ayah anchors: `ح ق ق` at 60:1 (`ٱلْحَقِّ`); `ح ك م` at 60:5, 60:10 (`حَكِيمٌ`, `حُكْمُ`, `يَحْكُمُ`); `ع ل م` at 60:1, 60:10 (knowledge forms).
+- Synthesis: Truth proceeds from correspondence to demonstration and then to norm. What matches reality is shown, wise knowledge interprets the showing, and the established claim becomes binding, linking the surah's invocation of truth to its concrete judgments.
+
+#### Subchannel G. Concealing Truth and Favor
+- Reading type: mixed
+- Scene or process: Truth or received benefit reaches manifestation, but the recipient covers it, converting concealment into denial or ingratitude.
+- Active motifs: truth matching reality `quranic:root_000347:B001/m01`; public manifestation `quranic:root_001041:B001/m01`; covering and denying truth `quranic:root_001307:B003/m01`; covering a favor through ingratitude `quranic:root_001307:B004/m01`.
+- Ayah anchors: `ح ق ق` at 60:1 (`ٱلْحَقِّ`); `ع ل ن` at 60:1 (`أَعْلَنتُمْ`); `ك ف ر` at 60:1, 60:2, 60:4, 60:5, 60:10, 60:11, 60:13 (disbelief forms).
+- Synthesis: Denial is a visibility operation rather than mere absence of belief. A truth or favor has arrived and could be acknowledged, but covering suppresses its claim and turns reception into refusal, clarifying the latent action inside the surah's repeated disbelief vocabulary.
+
+### 3. Covering, Interment, and Final Exposure
+- Semantic invariant: Covering changes present exposure, but its effects diverge: pardon cancels a fault's consequence, burial hides a body, and final rising restores the person to an ultimate horizon.
+- Surface relation: direct; forgiveness appears at 60:4-5, 60:7, and 60:12, the Day of Rising at 60:3 (`يَوْمَ ٱلْقِيَٰمَةِ`), the afterlife at 60:6 and 60:13 (`ٱلْءَاخِرَ`, `ٱلْءَاخِرَةِ`), and graves at 60:13 (`أَصْحَٰبِ ٱلْقُبُورِ`).
+- Surprising reach: Pardon and burial share a topology of covering, while resurrection prevents hiddenness from being mistaken for final absence.
 
 #### Subchannel A. Protective Covering of Fault
 - Reading type: mixed
@@ -87,29 +122,57 @@
 - Ayah anchors: `ق ب ر` at 60:13 (`ٱلْقُبُورِ`); `ض ل ل` at 60:1 (`ضَلَّ`); `ك ف ر` at 60:1, 60:2, 60:4, 60:5, 60:10, 60:11, 60:13 (disbelief forms); `ص ي ر` at 60:4 (`ٱلْمَصِيرُ`).
 - Synthesis: The closing grave image expands into a spatial sequence of disappearance, enclosure, isolation, and destination. It gives concrete depth to the final comparison in 60:13: hopelessness is aligned with a dwelling from which ordinary visibility and return have ceased.
 
+#### Subchannel C. Rising into the Final Horizon
+- Reading type: mixed
+- Scene or process: What has entered hidden dwelling persists until a later horizon, rises to standing, and reaches its final outcome.
+- Active motifs: the later and final horizon `quranic:root_000019:B001/m01`; resurrection and standing `quranic:root_001273:B013/m01`; final becoming and outcome `quranic:root_000897:B001/m01`; permanence through time `quranic:root_000004:B001/m01`; burial `quranic:root_001195:B001/m01`.
+- Ayah anchors: `ء خ ر` at 60:6, 60:13 (`ٱلْءَاخِرَ`, `ٱلْءَاخِرَةِ`); `ق و م` at 60:3, 60:4, 60:13 (`ٱلْقِيَٰمَةِ`, `قَوْمِ`, `قَوْمًا`); `ص ي ر` at 60:4 (`ٱلْمَصِيرُ`); `ء ب د` at 60:4 (`أَبَدًا`); `ق ب ر` at 60:13 (`ٱلْقُبُورِ`).
+- Synthesis: Burial is a hidden interval rather than the final operation. Persistence, laterness, rising, and outcome restore temporal depth to the grave comparison, so the despair of 60:13 is exposed as a failure to expect the final standing.
+
 ### 4. Pledged Submission and Delegated Care
-- Semantic invariant: Authority is transferred through a pledged submission and then exercised as entrusted custody, representation, or protection.
+- Semantic invariant: Authority is accepted through pledged submission, embodied in accountable action, entrusted through custody, and delimited by exclusive lordship.
 - Surface relation: direct; 60:12 stages the pledge (`يُبَايِعْنَكَ`, `فَبَايِعْهُنَّ`) and obedience (`وَلَا يَعْصِينَكَ`), while 60:4 voices worship and entrustment (`تَعْبُدُونَ`, `تَوَكَّلْنَا`), and 60:1, 60:6, 60:9, 60:13 regulate protective affiliation.
-- Surprising reach: Allegiance appears not only as affiliation but as a handover of agency, followed by the duties of a custodian or deputy.
+- Surprising reach: Allegiance appears as a handover of agency whose success depends on trustworthy custody and whose failure appears as mutual deferral, rival ownership, or an unauthorized partner.
 
 #### Subchannel A. Pledge and Obedient Submission
 - Reading type: mixed
 - Scene or process: A party enters an undertaking, places itself under a rule, and confirms the transfer through hand, posture, and obedience.
-- Active motifs: pledge of obedience `quranic:root_000169:B003/m01`; obedience to an order `quranic:root_000504:B001/m01`; worshipful submission `quranic:root_000973:B003/m01`; submissive posture `quranic:root_001332:B004/m01`; surrendered or guaranteeing hand `quranic:root_001693:B006/m01`; breach by disobedience `quranic:root_001022:B001/m01`.
-- Ayah anchors: `ب ي ع` at 60:12 (`يُبَايِعْنَكَ`, `فَبَايِعْهُنَّ`); `د ي ن` at 60:8, 60:9 (`ٱلدِّينِ`); `ع ب د` at 60:4 (`تَعْبُدُونَ`); `ك و ن` at 60:1, 60:2, 60:4, 60:6 (forms of being); `ي د ي` at 60:2, 60:12 (`أَيْدِيَهُمْ`, `أَيْدِيهِنَّ`); `ع ص ي` at 60:12 (`يَعْصِينَكَ`).
+- Active motifs: pledge of obedience `quranic:root_000169:B003/m01`; obedience to an order `quranic:root_000504:B001/m01`; recognized good conduct `quranic:root_001002:B005/m01`; worshipful submission `quranic:root_000973:B003/m01`; submissive posture `quranic:root_001332:B004/m01`; surrendered or guaranteeing hand `quranic:root_001693:B006/m01`; breach by disobedience `quranic:root_001022:B001/m01`.
+- Ayah anchors: `ب ي ع` at 60:12 (`يُبَايِعْنَكَ`, `فَبَايِعْهُنَّ`); `د ي ن` at 60:8, 60:9 (`ٱلدِّينِ`); `ع ر ف` at 60:12 (`مَعْرُوفٍ`); `ع ب د` at 60:4 (`تَعْبُدُونَ`); `ك و ن` at 60:1, 60:2, 60:4, 60:6 (forms of being); `ي د ي` at 60:2, 60:12 (`أَيْدِيَهُمْ`, `أَيْدِيهِنَّ`); `ع ص ي` at 60:12 (`يَعْصِينَكَ`).
 - Synthesis: The pledge gathers speech, hand, posture, and conduct into one act of submission. Obedience sustains the undertaking after the ceremonial moment, while disobedience names the operation by which the transferred authority is refused.
 
 #### Subchannel B. Entrustment, Custody, and Deputation
 - Reading type: mixed
 - Scene or process: Something vulnerable is entrusted to an overseer, who guards it directly or acts through a custodian, guarantor, or deputy.
-- Active motifs: protective oversight `quranic:root_001684:B003/m01`; care and guardianship `quranic:root_001273:B004/m01`; entrusting an affair `quranic:root_001681:B001/m01`; appointed custodian `quranic:root_001681:B006/m01`; guaranteeing presence `quranic:root_001332:B003/m01`; deputy or substitute `quranic:root_001562:B002/m01`.
-- Ayah anchors: `و ل ي` at 60:1, 60:6, 60:9, 60:13 (affiliation forms); `ق و م` at 60:3, 60:4, 60:13 (`ٱلْقِيَٰمَةِ`, `قَوْمِ`, `قَوْمًا`); `و ك ل` at 60:4 (`تَوَكَّلْنَا`); `ك و ن` at 60:1, 60:2, 60:4, 60:6 (forms of being); `ن و ب` at 60:4 (`أَنَبْنَا`).
-- Synthesis: Entrustment turns dependence into an ordered custody relation. The protector's role can be embodied by an overseer, guaranteed by presence, or delegated to a substitute, sharpening the difference between reliance on God and transferring protective agency to a hostile affiliation.
+- Active motifs: entrusted security or deposit `quranic:root_000054:B001/m01`; protective oversight `quranic:root_001684:B003/m01`; care and guardianship `quranic:root_001273:B004/m01`; entrusting an affair `quranic:root_001681:B001/m01`; appointed custodian `quranic:root_001681:B006/m01`; guaranteeing presence `quranic:root_001332:B003/m01`; deputy or substitute `quranic:root_001562:B002/m01`.
+- Ayah anchors: `ء م ن` at 60:1, 60:4, 60:10, 60:11, 60:12, 60:13 (faith forms); `و ل ي` at 60:1, 60:6, 60:9, 60:13 (affiliation forms); `ق و م` at 60:3, 60:4, 60:13 (`ٱلْقِيَٰمَةِ`, `قَوْمِ`, `قَوْمًا`); `و ك ل` at 60:4 (`تَوَكَّلْنَا`); `ك و ن` at 60:1, 60:2, 60:4, 60:6 (forms of being); `ن و ب` at 60:4 (`أَنَبْنَا`).
+- Synthesis: Entrustment turns dependence into an ordered custody relation. A secured deposit, overseer, guarantor, custodian, and deputy distinguish accountable delegation from merely transferring protective agency to another party.
+
+#### Subchannel C. Reliance and Failed Mutual Deferral
+- Reading type: mixed
+- Scene or process: A person relies on another for an affair; reliance becomes failure when incapacity is concealed or each party leaves responsibility to the other.
+- Active motifs: entrusting an affair `quranic:root_001681:B001/m01`; reliance on another `quranic:root_001681:B002/m01`; incapable dependent who abandons his own affair `quranic:root_001681:B003/m01`; mutual reliance that leaves the task undone `quranic:root_001681:B004/m01`.
+- Ayah anchors: `و ك ل` at 60:4 (`تَوَكَّلْنَا`).
+- Synthesis: Reliance is separated from passivity. Proper entrustment assigns an affair to a capable bearer; helpless dependence and reciprocal deferral dissolve agency, sharpening the prayer's `تَوَكَّلْنَا` as directed reliance rather than abandonment of responsibility.
+
+#### Subchannel D. Hand as Agency and Accountable Act
+- Reading type: mixed
+- Scene or process: The bodily hand extends into force, possession, authority, and deed, making agency visible and attributable.
+- Active motifs: bodily hand `quranic:root_001693:B001/m01`; effective force `quranic:root_001693:B002/m01`; possessed object held in hand `quranic:root_001693:B004/m01`; authority expressed by the upper hand `quranic:root_001693:B005/m01`; deed attributed to one's hands `quranic:root_001693:B009/m01`; intentional work `quranic:root_001046:B001/m01`; pledged or guaranteeing hand `quranic:root_001693:B006/m01`.
+- Ayah anchors: `ي د ي` at 60:2, 60:12 (`أَيْدِيَهُمْ`, `أَيْدِيهِنَّ`); `ع م ل` at 60:3 (`تَعْمَلُونَ`).
+- Synthesis: The hand is simultaneously limb, capacity, possession, authority, and attributable action. That transformation connects hostile hands in 60:2 with the pledged women in 60:12: bodily agency can execute aggression, transfer commitment, or bear responsibility for a fabricated deed.
+
+#### Subchannel E. Exclusive Lordship and Rival Ownership
+- Reading type: mixed
+- Scene or process: A sovereign claim admits no co-owner; introducing a partner divides authority, while worship and enslavement identify who possesses the right to command.
+- Active motifs: divine oneness without partner `quranic:root_001631:B004/m01`; shared partnership or co-ownership `quranic:root_000791:B001/m01`; assigning a partner to God `quranic:root_000791:B002/m01`; owned servant `quranic:root_000973:B001/m01`; reduction to servitude `quranic:root_000973:B004/m01`; ownership and disposal `quranic:root_001444:B002/m01`; sovereignty and rule `quranic:root_001444:B003/m01`; worshipful submission `quranic:root_000973:B003/m01`.
+- Ayah anchors: `و ح د` at 60:4 (`وَحْدَهُ`); `ش ر ك` at 60:12 (`يُشْرِكْنَ`); `ع ب د` at 60:4 (`تَعْبُدُونَ`); `م ل ك` at 60:4 (`أَمْلِكُ`).
+- Synthesis: Monotheism is rendered through the legal mechanics of undivided ownership. Partnership divides a claim, servitude locates command, and sovereignty identifies the ultimate possessor; the pledge against association therefore protects the integrity of agency already handed over in worship.
 
 ### 5. Valuation, Restitution, and Judgment
-- Semantic invariant: A disrupted exchange is repaired by identifying value, restoring an equivalent, and adjudicating competing claims.
-- Surface relation: direct; 60:10 orders reciprocal claims for expenditure (`مَآ أَنفَقُوا۟`, `مَآ أَنفَقْتُمْ`) and gives judgment (`حُكْمُ ٱللَّهِ يَحْكُمُ`), while 60:11 restores the equivalent of what was spent (`مِّثْلَ مَآ أَنفَقُوا۟`).
-- Surprising reach: Marital displacement activates a market, accounting, and courtroom process in which attached financial rights are valued and balanced.
+- Semantic invariant: A claim or exchange is governed by just measure; breach appears as deviation or withheld right, and repair proceeds through valuation, equivalent restoration, discharge, and judgment.
+- Surface relation: direct; 60:8-9 contrast equitable dealing and wrongdoing (`تُقْسِطُوا۟`, `ٱلظَّٰلِمُونَ`), 60:10 orders reciprocal expenditure claims and gives judgment, and 60:11 restores the equivalent of what was spent (`مِّثْلَ مَآ أَنفَقُوا۟`).
+- Surprising reach: Marital displacement activates a market, claims desk, and courtroom process in which attached rights are priced, requested, discharged, and balanced.
 
 #### Subchannel A. Exchange, Pricing, and Replacement
 - Reading type: mixed
@@ -132,16 +195,37 @@
 - Ayah anchors: `ح ك م` at 60:5, 60:10 (`حَكِيمٌ`, `حُكْمُ`, `يَحْكُمُ`); `ف ص ل` at 60:3 (`يَفْصِلُ`); `ق س ط` at 60:8 (`تُقْسِطُوا۟`, `ٱلْمُقْسِطِينَ`); `ح ق ق` at 60:1 (`ٱلْحَقِّ`); `ظ ل م` at 60:9 (`ٱلظَّٰلِمُونَ`); `ع ق ب` at 60:11 (`فَعَاقَبْتُمْ`).
 - Synthesis: Judgment is a sequence of separation, weighing, review, and assignment rather than a single verdict. That latent courtroom gives institutional shape to the reciprocal questions and compensations in 60:10-11.
 
+#### Subchannel D. Prohibition, Liability, and Legal Discharge
+- Reading type: mixed
+- Scene or process: A rule restrains an act, identifies liability when the boundary is crossed, and removes the bar or discharges the right when permission is established.
+- Active motifs: fault and liability `quranic:root_000263:B003/m01`; dissolution of a prohibition `quranic:root_000351:B003/m01`; release from debt, guarantee, or partnership `quranic:root_000099:B004/m01`; prohibitory restraint `quranic:root_001560:B001/m01`; reason that restrains ugly action `quranic:root_001560:B003/m01`; prevention of wrong for correction `quranic:root_000348:B001/m01`.
+- Ayah anchors: `ج ن ح` at 60:10 (`جُنَاحَ`); `ح ل ل` at 60:10 (`حِلٌّ`, `يَحِلُّونَ`); `ب ر ء` at 60:4 (`بُرَءَٰٓؤُا۟`); `ن ه ي` at 60:8, 60:9 (`يَنْهَىٰكُمُ`); `ح ك م` at 60:5, 60:10 (wisdom and judgment forms).
+- Synthesis: The repeated legal formulas operate as a boundary mechanism. Prohibition blocks an act, liability names the breach, and lawful release removes either the bar or the attached claim; `لَا جُنَاحَ` therefore marks a completed discharge rather than mere absence of concern.
+
+#### Subchannel E. Claim Lodged and Satisfied
+- Reading type: mixed
+- Scene or process: A claimant states a request, identifies the thing sought, and receives satisfaction through an account, debt settlement, or negotiated dealing.
+- Active motifs: lodging a request `quranic:root_000661:B001/m01`; the object sought `quranic:root_000661:B002/m01`; satisfying a claim `quranic:root_000661:B003/m01`; account and recompense `quranic:root_000504:B002/m01`; financial debt `quranic:root_000504:B003/m01`; transaction between parties `quranic:root_001046:B005/m01`; measured amount `quranic:root_001224:B007/m01`.
+- Ayah anchors: `س ء ل` at 60:10 (`وَسْـَٔلُوا۟`, `وَلْيَسْـَٔلُوا۟`); `د ي ن` at 60:8, 60:9 (`ٱلدِّينِ`); `ع م ل` at 60:3 (`تَعْمَلُونَ`); `ق س ط` at 60:8 (`تُقْسِطُوا۟`, `ٱلْمُقْسِطِينَ`).
+- Synthesis: Asking and payment are joined by a procedural middle. The sought object must be named, the account or debt recognized, and dealing completed so the request is actually satisfied, clarifying the reciprocal imperatives of 60:10 as enforceable claims rather than informal appeals.
+
+#### Subchannel F. Transgression as Misplacement and Withheld Right
+- Reading type: mixed
+- Scene or process: An agent leaves the upright measure, crosses a limit, puts an act in the wrong place or time, and prevents another from receiving a due right.
+- Active motifs: aggression by crossing the limit `quranic:root_000993:B001/m01`; overreach from truth into wrong `quranic:root_000138:B003/m01`; deviation from the just line `quranic:root_001224:B002/m01`; placing an act in the wrong time or place `quranic:root_000967:B004/m01`; withholding another's right `quranic:root_000967:B008/m01`.
+- Ayah anchors: `ع د و` at 60:1, 60:2, 60:4, 60:7 (enemy forms); `ب غ ي` at 60:1 (`ٱبْتِغَآءَ`); `ق س ط` at 60:8 (`تُقْسِطُوا۟`, `ٱلْمُقْسِطِينَ`); `ظ ل م` at 60:9 (`ٱلظَّٰلِمُونَ`).
+- Synthesis: Wrongdoing is mapped as progressive displacement. The agent departs from straight measure, crosses the boundary, misplaces action, and finally obstructs a right; this gives operational content to the verdict of wrongdoing in 60:9.
+
 ### 6. Route, Conveyance, and Resettlement
 - Semantic invariant: Movement between communities requires a legible route, fitted conveyance, sustained gait, and a transition from departure to new residence.
 - Surface relation: direct; 60:1 names the path (`سَوَآءَ ٱلسَّبِيلِ`), 60:8-10 name expulsion, dwellings, and migration (`يُخْرِجُوكُم`, `دِيَٰرِكُمْ`, `مُهَٰجِرَٰتٍ`), and 60:10 regulates return (`تَرْجِعُوهُنَّ`).
-- Surprising reach: Migration expands into a complete travel system of road marks, difficult passes, tack, animal gait, emptied houses, and settlement.
+- Surprising reach: Migration expands into a complete travel system of road marks, straying and search, difficult passes, tack, overloaded gait, emptied houses, and settlement.
 
 #### Subchannel A. Marked Road Through Difficult Ground
 - Reading type: mixed
 - Scene or process: Travelers enter a route at a crossing, follow its ruts and markers, negotiate a difficult pass, and approach by an outer road.
-- Active motifs: road `quranic:root_000672:B001/m01`; travelers `quranic:root_000672:B002/m01`; route or crossroads `quranic:root_000009:B010/m01`; road ruts `quranic:root_000791:B005/m01`; worked or trodden road `quranic:root_001046:B011/m01`; route marker `quranic:root_001040:B002/m01`; difficult pass `quranic:root_001033:B012/m01`; outskirts route `quranic:root_000970:B015/m01`.
-- Ayah anchors: `س ب ل` at 60:1 (`ٱلسَّبِيلِ`); `ء ت ي` at 60:10, 60:11, 60:12 (coming and giving forms); `ش ر ك` at 60:12 (`يُشْرِكْنَ`); `ع م ل` at 60:3 (`تَعْمَلُونَ`); `ع ل م` at 60:1, 60:10 (knowledge forms); `ع ق ب` at 60:11 (`فَعَاقَبْتُمْ`); `ظ ه ر` at 60:9 (`ظَٰهَرُوا۟`).
+- Active motifs: road `quranic:root_000672:B001/m01`; travelers `quranic:root_000672:B002/m01`; route or crossroads `quranic:root_000009:B010/m01`; road ruts `quranic:root_000791:B005/m01`; worked or trodden road `quranic:root_001046:B011/m01`; equitable central path `quranic:root_000766:B006/m01`; route marker `quranic:root_001040:B002/m01`; difficult pass `quranic:root_001033:B012/m01`; outskirts route `quranic:root_000970:B015/m01`.
+- Ayah anchors: `س ب ل` at 60:1 (`ٱلسَّبِيلِ`); `ء ت ي` at 60:10, 60:11, 60:12 (coming and giving forms); `ش ر ك` at 60:12 (`يُشْرِكْنَ`); `ع م ل` at 60:3 (`تَعْمَلُونَ`); `س و ي` at 60:1 (`سَوَآءَ`); `ع ل م` at 60:1, 60:10 (knowledge forms); `ع ق ب` at 60:11 (`فَعَاقَبْتُمْ`); `ظ ه ر` at 60:9 (`ظَٰهَرُوا۟`).
 - Synthesis: The singular moral path acquires terrain and navigation. Ruts show prior passage, markers stabilize direction, and the difficult pass makes deviation or perseverance spatially intelligible for those moving between hostile jurisdictions.
 
 #### Subchannel B. Saddle and Travel Assembly
@@ -161,9 +245,23 @@
 #### Subchannel D. Departure, Empty House, and New Residence
 - Reading type: mixed
 - Scene or process: A migrant exits an old dwelling, leaves it empty, crosses a separating boundary, and takes up residence elsewhere.
-- Active motifs: migration `quranic:root_001578:B002/m01`; exit `quranic:root_000400:B001/m01`; departure across a boundary `quranic:root_001159:B010/m01`; settling after movement `quranic:root_000351:B002/m01`; residence `quranic:root_001273:B006/m01`; emptied house `quranic:root_000004:B003/m01`; inhabitant of a dwelling `quranic:root_000499:B007/m01`.
-- Ayah anchors: `ه ج ر` at 60:10 (`مُهَٰجِرَٰتٍ`); `خ ر ج` at 60:1, 60:8, 60:9 (exit and expulsion forms); `ف ص ل` at 60:3 (`يَفْصِلُ`); `ح ل ل` at 60:10 (`حِلٌّ`, `يَحِلُّونَ`); `ق و م` at 60:3, 60:4, 60:13 (`ٱلْقِيَٰمَةِ`, `قَوْمِ`, `قَوْمًا`); `ء ب د` at 60:4 (`أَبَدًا`); `د و ر` at 60:8, 60:9 (`دِيَٰرِكُمْ`).
+- Active motifs: migration `quranic:root_001578:B002/m01`; exit `quranic:root_000400:B001/m01`; departure across a boundary `quranic:root_001159:B010/m01`; going away `quranic:root_000522:B006/m01`; settling after movement `quranic:root_000351:B002/m01`; residence `quranic:root_001273:B006/m01`; emptied house `quranic:root_000004:B003/m01`; inhabitant of a dwelling `quranic:root_000499:B007/m01`.
+- Ayah anchors: `ه ج ر` at 60:10 (`مُهَٰجِرَٰتٍ`); `خ ر ج` at 60:1, 60:8, 60:9 (exit and expulsion forms); `ف ص ل` at 60:3 (`يَفْصِلُ`); `ذ ه ب` at 60:11 (`ذَهَبَتْ`); `ح ل ل` at 60:10 (`حِلٌّ`, `يَحِلُّونَ`); `ق و م` at 60:3, 60:4, 60:13 (`ٱلْقِيَٰمَةِ`, `قَوْمِ`, `قَوْمًا`); `ء ب د` at 60:4 (`أَبَدًا`); `د و ر` at 60:8, 60:9 (`دِيَٰرِكُمْ`).
 - Synthesis: Departure and settlement are treated as one spatial transformation. The emptied house records what expulsion costs, while the new inhabitant and residence show migration as the reconstitution of dwelling after communal separation.
+
+#### Subchannel E. Straying and Recovery by Marks
+- Reading type: mixed
+- Scene or process: A traveler or animal departs from the intended road, becomes a lost possession, and is recovered through a known marker and public description.
+- Active motifs: deviation from the intended path `quranic:root_000913:B001/m01`; stray animal without a known owner-location `quranic:root_000913:B005/m01`; identifying and announcing a lost possession `quranic:root_001002:B008/m01`; route marker `quranic:root_001040:B002/m01`; equitable central path `quranic:root_000766:B006/m01`.
+- Ayah anchors: `ض ل ل` at 60:1 (`ضَلَّ`); `ع ر ف` at 60:12 (`مَعْرُوفٍ`); `ع ل م` at 60:1, 60:10 (knowledge forms); `س و ي` at 60:1 (`سَوَآءَ`).
+- Synthesis: `ضَلَّ سَوَآءَ ٱلسَّبِيلِ` becomes a lost-and-found scene. Departure from the central route produces not only error but dislocation; recognizable marks and public description show what recovery would require after orientation has been lost.
+
+#### Subchannel F. Load Beyond Capacity
+- Reading type: mixed
+- Scene or process: Foot travelers and a pack animal carry a demanding load until gait, back, and ribs register the point at which exertion becomes damaging.
+- Active motifs: exertion to the limit under hardship `quranic:root_000268:B001/m01`; loading a person or animal beyond capacity `quranic:root_000268:B003/m01`; ribs broken by a heavy load `quranic:root_000263:B005/m01`; back-exhausting travel `quranic:root_000347:B012/m01`; load-bearing mount `quranic:root_000970:B005/m01`; travelers proceeding on foot `quranic:root_001046:B012/m01`; pedestrian endurance without a mount `quranic:root_000546:B003/m01`.
+- Ayah anchors: `ج ه د` at 60:1 (`جِهَٰدًا`); `ج ن ح` at 60:10 (`جُنَاحَ`); `ح ق ق` at 60:1 (`ٱلْحَقِّ`); `ظ ه ر` at 60:9 (`ظَٰهَرُوا۟`); `ع م ل` at 60:3 (`تَعْمَلُونَ`); `ر ج ل` at 60:12 (`أَرْجُلِهِنَّ`).
+- Synthesis: Exertion is distinguished from destructive overloading. Foot travel and the pack mount materialize migration's burden, while injured ribs and an exhausted back mark the threshold where demanding endurance exceeds the bearer rather than advancing the journey.
 
 ### 7. Gestation, Sustenance, and Weaning
 - Semantic invariant: A dependent life is carried, brought forth, sustained through bodily flow, and eventually separated without abandoning care.
@@ -263,9 +361,9 @@
 - Synthesis: Withering supplies a temporal distinction between present barrenness and final loss. Evergreen persistence and seasonal regrowth make the possibility of changed affection in 60:7 intelligible without collapsing the surah's present boundaries.
 
 ### 11. Weapon, Grapple, and Formation
-- Semantic invariant: Conflict becomes effective through prepared tools, bodily seizure, and coordinated spatial support.
+- Semantic invariant: Conflict becomes effective through prepared tools, bodily seizure, hostile speech, and coordinated spatial support.
 - Surface relation: direct; 60:2 describes capture and hostile hands (`يَثْقَفُوكُمْ`, `أَيْدِيَهُمْ`), while 60:8-9 and 60:12 repeatedly use fighting and killing forms (`يُقَٰتِلُوكُمْ`, `قَٰتَلُوكُمْ`, `يَقْتُلْنَ`).
-- Surprising reach: Hostility is not an abstract label but an assembled combat system of straightened shafts, bindings, armor, clinches, flanks, standards, and rear support.
+- Surprising reach: Hostility is not an abstract label but an assembled combat system of straightened shafts, bindings, armor, clinches, extended hands, weaponized tongues, flanks, standards, and rear support.
 
 #### Subchannel A. Spear Preparation and Strike
 - Reading type: latent/lexical
@@ -288,11 +386,84 @@
 - Ayah anchors: `ج ن ح` at 60:10 (`جُنَاحَ`); `ع ق ب` at 60:11 (`فَعَاقَبْتُمْ`); `ع ل م` at 60:1, 60:10 (knowledge forms); `ب غ ي` at 60:1 (`ٱبْتِغَآءَ`); `ظ ه ر` at 60:9 (`ظَٰهَرُوا۟`).
 - Synthesis: A standard makes collective orientation visible, while flank, vanguard, and rear support distribute the force spatially. This scene sharpens the practical meaning of `ظَٰهَرُوا۟` in 60:9: support from behind is part of the hostile action, not merely sympathy beside it.
 
-## Standalone Subchannels
+#### Subchannel D. Hostile Hands and Tongues
+- Reading type: mixed
+- Scene or process: Aggression reaches outward through a bodily hand and an unrestrained tongue, making physical and verbal harm parallel instruments.
+- Active motifs: hand extended for attack `quranic:root_000116:B004/m01`; unrestrained tongue and face `quranic:root_000116:B005/m01`; tongue as bodily speech-organ `quranic:root_001355:B001/m01`; taking hold of another by verbal attack `quranic:root_001355:B002/m01`; ugly or evil expression `quranic:root_000755:B001/m01`; inflicted harm and distress `quranic:root_000755:B002/m01`; bodily hand `quranic:root_001693:B001/m01`.
+- Ayah anchors: `ب س ط` at 60:2 (`يَبْسُطُوا۟`); `ل س ن` at 60:2 (`أَلْسِنَتَهُم`); `س و ء` at 60:2 (`بِٱلسُّوٓءِ`); `ي د ي` at 60:2, 60:12 (`أَيْدِيَهُمْ`, `أَيْدِيهِنَّ`).
+- Synthesis: The paired hands and tongues of 60:2 form one attack scene. Extension gives aggression reach, the hand supplies physical force, and the tongue takes hold through injurious speech, so verbal hostility is structurally parallel to bodily assault.
 
-### S1. Invocation and Answer
+### 12. Household Continuity and Protection of Lineage
+- Semantic invariant: Household continuity depends on a lawful pairing boundary and on preserving the life that proceeds from parents and nurture.
+- Surface relation: direct; 60:10 regulates lawful marriage (`تَنكِحُوهُنَّ`), and 60:12 rejects adultery and child-killing (`يَزْنِينَ`, `يَقْتُلْنَ أَوْلَٰدَهُنَّ`).
+- Surprising reach: The pledge protects lineage at both ends, governing the relation through which a child may arise and refusing the destruction of the dependent life after birth.
+
+#### Subchannel A. Sexual Fidelity and Lawful Pairing
+- Reading type: mixed
+- Scene or process: Sexual union is placed inside a recognized pairing and marital status; zina and prostitution breach that frame and destabilize lineage.
+- Active motifs: zina as illicit intercourse `quranic:root_000648:B001/m01`; prostitution and illicit lineage `quranic:root_000138:B005/m01`; intercourse `quranic:root_001548:B001/m01`; established marital status `quranic:root_001548:B004/m01`; joining one party as the other's spouse `quranic:root_000652:B003/m01`; paired counterpart `quranic:root_000652:B001/m01`.
+- Ayah anchors: `ز ن ي` at 60:12 (`يَزْنِينَ`); `ب غ ي` at 60:1 (`ٱبْتِغَآءَ`); `ن ك ح` at 60:10 (`تَنكِحُوهُنَّ`); `ز و ج` at 60:11 (`أَزْوَٰجِكُمْ`, `أَزْوَٰجُهُم`).
+- Synthesis: Pairing, marital status, and sexual union form the positive frame against which zina is a breach. The prostitution branch adds the consequence for descent, making the pledge's sexual boundary a protection of recognizable lineage rather than an isolated prohibition.
+
+#### Subchannel B. Parents, Newborn, and Preservation of Life
+- Reading type: mixed
+- Scene or process: Parents receive a newly born dependent, sustain it through gradual nurture, and refuse either direct killing or exposure to lethal risk.
+- Active motifs: parenthood through birth `quranic:root_001683:B002/m01`; newborn child `quranic:root_001683:B004/m01`; child or offspring `quranic:root_001683:B001/m01`; fatherly generation and raising `quranic:root_000007:B001/m01`; gradual nurture and repair `quranic:root_000532:B002/m01`; taking life `quranic:root_001200:B001/m01`; exposing another to death `quranic:root_001200:B005/m01`.
+- Ayah anchors: `و ل د` at 60:3, 60:12 (`أَوْلَٰدُكُمْ`, `أَوْلَٰدَهُنَّ`); `ء ب و` at 60:4 (`أَبِيهِ`); `ر ب ب` at 60:1, 60:4, 60:5 (`رَبِّكُمْ`, `رَبَّنَا`); `ق ت ل` at 60:8, 60:9, 60:12 (fighting and killing forms).
+- Synthesis: The child is not an abstract descendant but a newborn whose survival depends on parental presence and incremental care. Direct killing and exposure are two routes to the same broken outcome, so the pledge protects the entire nurture relation.
+
+### 13. Divine Approval, Petition, and Sufficiency
+- Semantic invariant: Human action and prayer are directed toward divine approval, while the addressee's sufficiency, power, mercy, and praiseworthiness ground the possibility of response.
+- Surface relation: direct; 60:1 names the pursuit of divine approval (`ٱبْتِغَآءَ مَرْضَاتِى`), 60:4-5 voice petition, 60:5-7 name might, praise, sufficiency, power, forgiveness, and mercy, and 60:13 names divine anger.
+- Surprising reach: Approval unfolds as a social process of seeking and placation, whereas prayer rests on an asymmetry: the petitioner needs an answer from one who needs nothing from the petitioner.
+
+#### Subchannel A. Seeking Approval and Removing Displeasure
+- Reading type: mixed
+- Scene or process: An agent seeks another's approval, attempts to remove displeasure, and moves the relation toward mutual satisfaction rather than anger.
+- Active motifs: directed seeking `quranic:root_000138:B001/m01`; approval as the desired goal `quranic:root_000569:B002/m01`; mutual satisfaction `quranic:root_000569:B003/m01`; placation that removes displeasure `quranic:root_000569:B004/m01`; finding a deed praiseworthy after examination `quranic:root_000355:B002/m01`; anger rising toward requital `quranic:root_001092:B001/m01`.
+- Ayah anchors: `ب غ ي` at 60:1 (`ٱبْتِغَآءَ`); `ر ض و` at 60:1 (`مَرْضَاتِى`); `ح م د` at 60:6 (`ٱلْحَمِيدُ`); `غ ض ب` at 60:13 (`غَضِبَ`).
+- Synthesis: Seeking approval is a relational operation with a governing target. Placation attempts to remove displeasure, mutual satisfaction names reconciliation, and tested praiseworthiness concerns the deed's fitness; divine anger supplies the opposing endpoint against which `مَرْضَاتِى` directs action.
+
+#### Subchannel B. Invocation and Answer
 - Reading type: mixed
 - Scene or process: A speaker invokes the divine name and lordship, seeks a confirming response, and asks that fault be covered.
 - Active motifs: divine name in invocation `quranic:root_000047:B002/m01`; requested confirming answer `quranic:root_000054:B003/m01`; invoked lordship `quranic:root_000532:B001/m01`; forgiving cover `quranic:root_001096:B002/m01`.
 - Ayah anchors: `ء ل ه` at 60:1, 60:3, 60:4, 60:6, 60:7, 60:8, 60:9, 60:10, 60:11, 60:12, 60:13 (Allah forms); `ء م ن` at 60:1, 60:4, 60:10, 60:11, 60:12, 60:13 (faith forms); `ر ب ب` at 60:1, 60:4, 60:5 (`رَبِّكُمْ`, `رَبَّنَا`); `غ ف ر` at 60:4, 60:5, 60:7, 60:12 (forgiveness forms).
 - Synthesis: The prayers of 60:4-5 gather address, lordship, hoped-for answer, and forgiving cover into one speech act. The latent response motif makes invocation dialogical: dependence is voiced toward an authority expected to hear, answer, and alter the supplicant's exposed condition.
+
+#### Subchannel C. Praised Sufficiency and Responsive Capacity
+- Reading type: mixed
+- Scene or process: One who lacks no resource possesses the strength to suffice another, answer need with mercy, and remain praiseworthy in the act.
+- Active motifs: praise for a good act `quranic:root_000355:B001/m01`; the praiseworthy one `quranic:root_000355:B003/m01`; self-sufficiency and freedom from need `quranic:root_001110:B001/m01`; sufficing another `quranic:root_001110:B002/m01`; strength after weakness `quranic:root_001008:B001/m01`; merciful care `quranic:root_000552:B001/m01`.
+- Ayah anchors: `ح م د` at 60:6 (`ٱلْحَمِيدُ`); `غ ن ي` at 60:6 (`ٱلْغَنِىُّ`); `ع ز ز` at 60:5 (`ٱلْعَزِيزُ`); `ر ح م` at 60:3, 60:7, 60:12 (`أَرْحَامُكُمْ`, `رَّحِيمٌ`).
+- Synthesis: Sufficiency is not mere possession but capacity that can meet another's lack without acquiring a reciprocal need. Strength supplies efficacy, mercy directs it toward care, and praise names the fitting response to such provision.
+
+#### Subchannel D. Return, Admission, and Reorientation
+- Reading type: mixed
+- Scene or process: A person turns back from a prior course, acknowledges what is owed, and repeatedly returns to an orientation of obedience and worship.
+- Active motifs: return from a wrong or abandoned course `quranic:root_000544:B003/m01`; admission of what is upon oneself `quranic:root_001002:B009/m01`; recurrent return and repentance `quranic:root_001562:B001/m01`; obedience to an order `quranic:root_000504:B001/m01`; worshipful submission `quranic:root_000973:B003/m01`.
+- Ayah anchors: `ر ج ع` at 60:10 (`تَرْجِعُوهُنَّ`); `ع ر ف` at 60:12 (`مَعْرُوفٍ`); `ن و ب` at 60:4 (`أَنَبْنَا`); `د ي ن` at 60:8, 60:9 (`ٱلدِّينِ`); `ع ب د` at 60:4 (`تَعْبُدُونَ`).
+- Synthesis: Return is moral and directional, not merely spatial. Admission identifies the prior obligation, repentance makes the turn repeatable, and obedience and worship give the new orientation a stable destination, unfolding the movement compressed in `إِلَيْكَ أَنَبْنَا`.
+
+## Standalone Subchannels
+
+### S1. Embodied Exemplarity
+- Reading type: mixed
+- Scene or process: A good model is presented, observed, taken as a pattern, and reproduced in the follower's conduct as an instructive example.
+- Active motifs: exemplar followed in another's condition `quranic:root_000034:B003/m01`; adopting another group's conduct and form `quranic:root_000018:B009/m01`; emulating a pattern `quranic:root_001397:B010/m01`; example as lesson and sign `quranic:root_001397:B011/m01`; good and desirable form `quranic:root_000323:B001/m01`; beneficent action beyond bare justice `quranic:root_000323:B002/m01`.
+- Ayah anchors: `ء س و` at 60:4, 60:6 (`أُسْوَةٌ`); `ء خ ذ` at 60:1 (`تَتَّخِذُوا۟`); `م ث ل` at 60:11 (`مِّثْلَ`); `ح س ن` at 60:4, 60:6 (`حَسَنَةٌ`).
+- Synthesis: The repeated `أُسْوَةٌ حَسَنَةٌ` becomes a transmission mechanism. Goodness qualifies both the presented form and the action it generates; observation becomes imitation, and imitation makes the example legible in a new actor rather than leaving it as remembered biography.
+
+### S2. Hope, Delay, and Settled Despair
+- Reading type: mixed
+- Scene or process: The heart expects a desired future through delay and changing conditions, while despair closes that horizon before the final outcome.
+- Active motifs: hopeful expectation `quranic:root_000548:B001/m01`; wishing for an outcome `quranic:root_001634:B002/m01`; deferral to a later time `quranic:root_000019:B002/m01`; severance of hope `quranic:root_001690:B001/m01`; final becoming and outcome `quranic:root_000897:B001/m01`.
+- Ayah anchors: `ر ج و` at 60:6 (`يَرْجُوا۟`); `و د د` at 60:1, 60:2, 60:7 (`مَوَدَّةِ`, `وَدُّوا۟`, `مَّوَدَّةً`); `ء خ ر` at 60:6, 60:13 (`ٱلْءَاخِرَ`, `ٱلْءَاخِرَةِ`); `ي ء س` at 60:13 (`يَئِسُوا۟`, `يَئِسَ`); `ص ي ر` at 60:4 (`ٱلْمَصِيرُ`).
+- Synthesis: Hope and despair are opposing temporal postures. Wish names the desired change, delay leaves time for it, and final outcome prevents delay from becoming endless; the closing comparison condemns despair because it treats the future horizon as already severed.
+
+### S3. Protective Boundary and Self-Placement
+- Reading type: mixed
+- Scene or process: A vulnerable person places a barrier between self and harm, enters protective cover, and is held within that defended boundary.
+- Active motifs: barrier that repels harm `quranic:root_001677:B001/m01`; placing oneself in protection `quranic:root_001677:B002/m01`; protective holding `quranic:root_001021:B001/m01`; preserving cover `quranic:root_001096:B001/m01`; shield or armor `quranic:root_000121:B005/m01`; holding within a boundary `quranic:root_001424:B001/m01`.
+- Ayah anchors: `و ق ي` at 60:11 (`وَٱتَّقُوا۟`); `ع ص م` at 60:10 (`بِعِصَمِ`); `غ ف ر` at 60:4, 60:5, 60:7, 60:12 (forgiveness forms); `ب ص ر` at 60:3 (`بَصِيرٌ`); `م س ك` at 60:10 (`تُمْسِكُوا۟`).
+- Synthesis: `وَٱتَّقُوا۟ ٱللَّهَ` is materialized as deliberate self-placement behind a defense. Barrier, cover, shield, and holding distinguish active protection from simple fear, while the shared grip links moral guarding to the surah's regulation of bonds.

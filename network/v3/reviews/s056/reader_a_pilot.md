@@ -333,6 +333,25 @@
 - Ayah anchors: 56:95 `حَقُّ`, `يَقِينِ`; 56:96 `سَبِّحْ`, `ٱسْمِ`, `رَبِّ`, `عَظِيمِ`
 - Synthesis: Classification closes as epistemic and liturgical certainty. Its reality is fixed, doubt is removed, and the appropriate response is to name the Lord, magnify the scale of the order, and clear its source of defect.
 
+### 14. P1-P5 Directed Transmission from Disclosure to Arrival
+- Semantic invariant: What is sent becomes effective through a directed chain from source and disclosure through carrier, channel, marked route, and intended reception.
+- Surface relation: indirect; P1 regulates what is heard and said at 56:25-26, P2 contributes the elevation lexeme at 56:34, P3 names dispatch at resurrection and a known appointment at 56:47-50, P4 repeatedly stages seeing and recognition at 56:58-71, and P5 presents sent-down discourse beside the death threshold at 56:75-83.
+- Surprising reach: Oral publication and physical courier movement share one delivery architecture; the wish that unwelcome news be heard without reaching its subject isolates failed arrival as the reversal of successful transmission.
+
+#### Subchannel A. A report is released, heard, and blocked from its subject
+- Reading type: mixed
+- Scene or process: A report is disclosed, broadcast from its source, and made audible to others, while paired formulas seek to prevent the unwelcome news from reaching the person concerned.
+- Active motifs: disclosure and public showing `quranic:root_000299:B006/m01`; broadcasting a report from its speaker `quranic:root_000582:B005/m01`; causing another to hear `quranic:root_000741:B004/m01`; wish that bad news be heard but not reach its subject `quranic:root_000741:B011/m01`, `quranic:root_000151:B009/m01`
+- Ayah anchors: 56:3 `رَّافِعَةٌ`; 56:25 `يَسْمَعُ`; 56:34 `مَّرْفُوعَةٍ`; 56:81 `حَدِيثِ`; 56:83 `بَلَغَتِ`
+- Synthesis: Across P1, P2, and P5, the bridge is a causal transmission sequence: disclosure, broadcast, caused hearing, and attempted non-arrival. Human agents may try to control whether ordinary news reaches its addressee; that failed-delivery formula usefully pressures the primary reading, in which neither the discourse nor the report enacted at death can be kept from its terminal subject.
+
+#### Subchannel B. Scout, courier, and marked route
+- Reading type: mixed
+- Scene or process: A scout gathers intelligence, a dispatcher sends a messenger, the courier travels a road, and visible markers, standards, and a beacon guide the movement to its destination.
+- Active motifs: scout or spy sent to gather news `quranic:root_001069:B005/m01`; dispatching a messenger or force toward a purpose `quranic:root_000129:B002/m01`; courier and postal movement along a road `quranic:root_000103:B004/m01`; road marker and distinguishing boundary `quranic:root_001040:B002/m01`; raised visible standard `quranic:root_000531:B011/m01`; beacon or landmark guiding the route `quranic:root_001564:B005/m01`
+- Ayah anchors: 56:18 `مَّعِينٍ`; 56:22 `عِينٌ`; 56:44 `بَارِدٍ`; 56:47 `مَبْعُوثُونَ`; 56:50 `مَّعْلُومٍ`; 56:58, 56:63, 56:68, 56:71 `رَءَيْ`; 56:61 `تَعْلَمُ`; 56:62 `عَلِمْ`; 56:71 `نَّارَ`; 56:76 `تَعْلَمُ`; 56:80 `عَٰلَمِينَ`
+- Synthesis: Across P1, P3, P4, and P5, the bridge is a role progression: observer, dispatcher, carrier, route marker, and visible destination. The scene materializes resurrection's dispatch and the surah's transmission language as movement with an assigned end, not diffuse motion or a message without an addressee.
+
 ## Standalone Subchannels
 
 ### S1. P1 Mounted Approach to an Inexhaustible Water Source
@@ -446,3 +465,101 @@
 - Active motifs: polishing a sword clear of rust `quranic:root_000299:B007/m01`; sword scabbard or leather sheath `quranic:root_001212:B010/m01`; short sword concealed beneath a garment `quranic:root_000819:B005/m01`; reaching for and drawing the weapon `quranic:root_000544:B010/m01`
 - Ayah anchors: 56:11 `مُقَرَّبُونَ`; 56:41 `شِّمَالِ`; 56:81 `حَدِيثِ`; 56:85 `أَقْرَبُ`; 56:87 `تَرْجِعُ`; 56:88 `مُقَرَّبِينَ`
 - Synthesis: Polishing, enclosure, concealed carriage, and deliberate access form one weapon-handling sequence. It reframes P5's protected-book and contact sequence as controlled access to a prepared edge: enclosure preserves rather than neutralizes force, deepening the contrast between a guarded, potent discourse and its dismissive treatment.
+
+### S17. P1-P5 The Approaching Event Casts Its Shadow
+- Reading type: mixed
+- Scene or process: An event draws near and throws its shadow ahead of itself; darkness covers the route, the night road becomes forbidding, the appointed interval ripens, and approach resolves into presence.
+- Active motifs: promise, account, or hour approaching as a thing reaches its end `quranic:root_001212:B002/m01`; approaching event or person casting a shadow `quranic:root_000966:B005/m01`; night covering a thing in darkness `quranic:root_000266:B002/m01`; dangerous night roads one refrains from entering `quranic:root_000313:B009/m01`; appointed need or time coming or being delayed `quranic:root_001210:B005/m01`; need or event drawing near and becoming present `quranic:root_000001:B006/m01`
+- Ayah anchors: 56:11 `مُقَرَّبُونَ`; 56:12 `جَنَّٰتِ`; 56:30 `ظِلٍّ`; 56:42 `حَمِيمٍ`; 56:43 `يَحْمُومٍ`, `ظِلٍّ`; 56:54 `حَمِيمِ`; 56:65 `ظَلْ`; 56:67 `مَحْرُومُونَ`; 56:77 `قُرْءَانٌ`; 56:85 `أَقْرَبُ`; 56:88 `مُقَرَّبِينَ`; 56:89 `جَنَّتُ`; 56:93 `حَمِيمٍ`
+- Synthesis: Across P1, P2, P3, P4, and P5, the bridge is a repeated approach signature: temporal nearness becomes an environmental shadow, constrains movement, and ends as unavoidable presence. The activation reframes the opening Event as an arrival already structuring the surah before it is fully present, while P5 repeats the same signature as death draws close.
+
+### S18. P1-P4-P5 Convalescence and the Irreversible Threshold
+- Reading type: mixed
+- Scene or process: Illness reaches a severe point, the patient turns toward improvement, and health returns after wasting; terminal death provides the contrasting threshold from which observers cannot restore the person.
+- Active motifs: illness becoming severe `quranic:root_000151:B008/m01`; patient convalescing and turning toward improvement `quranic:root_001397:B012/m01`; recovery and health after wasting `quranic:root_000152:B003/m01`
+- Ayah anchors: 56:23 `أَمْثَٰلِ`; 56:61 `أَمْثَٰلَ`; 56:83 `بَلَغَتِ`; unavailable for `quranic:root_000152:B003/m01` because root `ب ل ل` is missing from surface root coverage
+- Synthesis: Across P1, P4, and P5, the bridge is a contrastive reversal: crisis can turn into convalescence and restored health, whereas the deathbed challenge at 56:83-87 defeats every attempted return. The medical trajectory materializes what makes the terminal boundary decisive by distinguishing it from a severe but reversible bodily state.
+
+### S19. P1/P3/P4/P5 False Charge, Immediate Seizure, and Surety
+- Reading type: mixed
+- Scene or process: Eating or drinking is falsely attributed to another person, an authority rules arbitrarily, action follows without delay, the accused is seized, and another person stands as surety.
+- Active motifs: false charge of eating and enabling another against the accused `quranic:root_000043:B010/m01`; false charge of drinking or another unperformed act `quranic:root_000783:B010/m01`; arbitrary rule over another person `quranic:root_001272:B010/m01`; acting without delay `quranic:root_001290:B005/m01`; taking a person captive `quranic:root_000737:B013/m01`; standing surety for another `quranic:root_001332:B003/m01`
+- Ayah anchors: 56:2 `كَاذِبَةٌ`; 56:6 `كَانَتْ`; 56:7 `كُن`; 56:24 `كَانُ`; 56:26 `قِيلًا`, `سَلَٰمًا`; 56:45-46 `كَانُ`; 56:47 `يَقُولُ`, `كَانُ`, `كُ`; 56:49 `قُلْ`; 56:51 `مُكَذِّبُونَ`; 56:52 `ءَاكِلُونَ`; 56:54 `شَٰرِبُونَ`; 56:55 `شَٰرِبُونَ`, `شُرْبَ`; 56:68 `تَشْرَبُ`; 56:82 `تُكَذِّبُ`; 56:86-87 `كُن`; 56:88 `كَانَ`; 56:90 `كَانَ`; 56:91 `سَلَٰمٌ`; 56:92 `مُكَذِّبِينَ`, `كَانَ`
+- Synthesis: Across P1, P3, P4, and P5, the bridge is a causal forensic sequence and role progression: accuser, self-authorized judge, captive, and guarantor. The scene usefully pressures the surah's final judgment by contrast: human accusation can invent conduct and seize immediately, whereas the closing classification is grounded in certain truth and cannot be evaded through a surety.
+
+### S20. P1-P5 Death Turns a Person into Circulating Reputation
+- Reading type: mixed
+- Scene or process: After a person's death, public talk turns that person into a circulating story that can be repeated, used as an example, mocked, or attacked in absence.
+- Active motifs: one manner or state of death `quranic:root_001454:B008/m01`; public talk circulating among people `quranic:root_001272:B007/m01`; person becoming a story or report among people `quranic:root_000299:B004/m01`; fault-finding and backbiting a person `quranic:root_001675:B013/m01`; making sport of people's honor `quranic:root_001174:B007/m01`
+- Ayah anchors: 56:1 `وَقَعَتِ`, `وَاقِعَةُ`; 56:2 `وَقْعَتِ`; 56:20 `فَٰكِهَةٍ`; 56:26 `قِيلًا`; 56:32 `فَٰكِهَةٍ`; 56:47 `يَقُولُ`, `مِتْ`; 56:49 `قُلْ`; 56:60 `مَوْتَ`; 56:65 `تَفَكَّهُ`; 56:75 `مَوَٰقِعِ`; 56:81 `حَدِيثِ`
+- Synthesis: Across P1, P2, P3, P4, and P5, the bridge is a role reversal: the mortal speaker becomes the absent object of other people's speech. This unstable, attackable afterlife in reputation usefully contrasts with the surah's terminal classification, where reception is fixed by certain truth rather than by whatever account the living circulate.
+
+### S21. Scheduled Milking from Udder to Vessels
+- Reading type: latent/lexical
+- Scene or process: A milch camel's teats are secured, pasture fills the udder, a milking time is appointed, the calf is called gently to induce letdown, a milker takes the specified side, and three vessels receive the yield.
+- Active motifs: cord tied around a camel's teats `quranic:root_000856:B001/m01`; full udder and abundant milk after pasture `quranic:root_000810:B003/m01`; setting a specific milking time `quranic:root_000382:B003/m01`; gently calling the calf to induce milk letdown `quranic:root_000115:B002/m01`; one of two milkers approaching from a specified side `quranic:root_000170:B009/m01`; camel filling three vessels at milking `quranic:root_000203:B005/m01`
+- Ayah anchors: 56:5 `بُسَّتِ`, `بَسًّا`; 56:7 `ثَلَٰثَةً`; 56:46 `يُصِرُّ`; 56:60 `بَيْنَ`; 56:70 `تَشْكُرُ`; 56:84 `حِينَئِذٍ`
+- Synthesis: Restraint, pasture, timing, induced letdown, bodily position, and filled vessels make one extraction procedure. It materializes the provision and agency arguments of P1 and P4: people can schedule, coax, and collect milk, but they do not make the pasture, udder, or abundance on which the yield depends.
+
+### S22. Consecration, Offering, and Release at Mina
+- Reading type: mixed
+- Scene or process: A pilgrim enters the protected sanctuary in consecration, assumes the pilgrim garment, gathers at the appointed stations, presents an offering, and reaches the designated place at Mina where shaving closes the rite.
+- Active motifs: sanctuary and its protected spatial rights `quranic:root_000313:B003/m01`; entering consecration for pilgrimage `quranic:root_000313:B004/m01`; consecrated pilgrim's garment `quranic:root_000313:B010/m01`; gathering at Muzdalifah or during the days at Mina `quranic:root_000259:B004/m01`; sacrificial offering made to seek nearness `quranic:root_001212:B005/m01`; designated place and day for shaving at Mina `quranic:root_000350:B013/m01`; shaving and removing the hair `quranic:root_000350:B002/m01`
+- Ayah anchors: 56:11 `مُقَرَّبُونَ`; 56:50 `مَجْمُوعُونَ`; 56:67 `مَحْرُومُونَ`; 56:83 `حُلْقُومَ`; 56:85 `أَقْرَبُ`; 56:88 `مُقَرَّبِينَ`
+- Synthesis: Bounded entry, changed dress, appointed gathering, offering, and shaving form a complete passage into and out of ritual consecration. The sequence materializes P5's protected contact, appointment, and nearness, while usefully pressing the distinction between nearness pursued through a human rite and the final nearness granted by sovereign reception.
+
+### S23. Written Manumission by Instalments
+- Reading type: mixed
+- Scene or process: An enslaved person and owner set scheduled payments for freedom, complete and sign the document, enter the corresponding debtor-creditor relation, face collection of what is due, and reach release when the liability can be discharged.
+- Active motifs: contract for freedom through scheduled instalments `quranic:root_001283:B005/m01`; signature or notation completing a document `quranic:root_001675:B011/m01`; reciprocal attachment of debtor and creditor `quranic:root_001081:B002/m01`; demanding and collecting a debt `quranic:root_000244:B003/m01`; solvency and capacity to discharge what is due `quranic:root_001441:B008/m01`
+- Ayah anchors: 56:1 `وَقَعَتِ`, `وَاقِعَةُ`; 56:2 `وَقْعَتِ`; 56:24 `جَزَآءًۢ`; 56:53 `مَالِـُٔونَ`; 56:66 `مُغْرَمُونَ`; 56:75 `مَوَٰقِعِ`; 56:78 `كِتَٰبٍ`
+- Synthesis: Written terms, signature, attached liability, collection, and discharge form a complete legal-economic release mechanism. It usefully pressures P5's `غَيْرَ مَدِينِينَ`: human bondage can end through documented payments, but terminal subjection cannot be bought out, renegotiated, or reversed by returning the departing life.
+
+### S24. Wine Cup with Song and Percussion
+- Reading type: mixed
+- Scene or process: Wine is served in a cup while a singer and percussion or pipes furnish the drinking gathering's sound.
+- Active motifs: wine `quranic:root_000609:B015/m01`; drinking from a cup `quranic:root_001328:B005/m01`; pleasant song or singer `quranic:root_000741:B007/m01`; drum, tambour, or pipes `quranic:root_001328:B002/m01`
+- Ayah anchors: 56:18 `أَكْوَابٍ`; 56:25 `يَسْمَعُ`; 56:89 `رَوْحٌ`, `رَيْحَانٌ`
+- Synthesis: Drink, vessel, singer, and instrument constitute one concrete entertainment scene. It usefully contrasts with P1's circulating cups and disciplined soundscape: the heavenly company retains service and fellowship while removing the intoxication, headache, idle speech, and sin that accompany the ordinary drinking performance.
+
+### S25. Trained Falconry from Jesses to Verified Quarry
+- Reading type: mixed
+- Scene or process: A falcon is held by its leg jesses, the equipped hunters set out, the bird takes game that becomes meat and ration, and the struck quarry is checked to determine whether it has died.
+- Active motifs: falcon or hawk `quranic:root_001040:B006/m01`; leather or string jesses fastened to a raptor's legs `quranic:root_000671:B003/m01`; hunters setting out with hunting gear `quranic:root_000745:B006/m01`; game serving as meat for the hunter and ration for the falcon `quranic:root_001348:B003/m01`; checking whether struck quarry has died `quranic:root_001454:B014/m01`
+- Ayah anchors: 56:10 `سَّٰبِقُونَ`, `سَّٰبِقُونَ`; 56:21 `لَحْمِ`; 56:47 `مِتْ`; 56:50 `مَّعْلُومٍ`; 56:60 `مَسْبُوقِينَ`, `مَوْتَ`; 56:61 `تَعْلَمُ`; 56:62 `عَلِمْ`; 56:74 `ٱسْمِ`; 56:76 `تَعْلَمُ`; 56:80 `عَٰلَمِينَ`; 56:96 `ٱسْمِ`
+- Synthesis: Bird, restraint, equipped pursuit, captured game, and death verification make a complete hunting operation. It materializes P1's bird meat by contrast: ordinary provision requires control, pursuit, killing, and inspection, whereas the selected meat of the garden arrives without that predatory labor chain.
+
+### S26. Chief Mariner Directs a Sail Crossing
+- Reading type: latent/lexical
+- Scene or process: A chief mariner directs a ship and its tender, the sail is hoisted, vessels approach or depart, and the crew crosses the water boundary.
+- Active motifs: chief of sailors `quranic:root_000532:B017/m01`; small boat or tender accompanying larger ships `quranic:root_001212:B011/m01`; hoisting a ship's sail `quranic:root_001502:B001/m01`; ships approaching and departing `quranic:root_001502:B008/m01`; crossing a river or other water `quranic:root_001240:B003/m01`
+- Ayah anchors: 56:11 `مُقَرَّبُونَ`; 56:33 `مَقْطُوعَةٍ`; 56:35 `أَنشَأْ`, `إِنشَآءً`; 56:61 `نُنشِئَ`; 56:62 `نَّشْأَةَ`; 56:72 `أَنشَأْ`, `مُنشِـُٔونَ`; 56:74 `رَبِّ`; 56:80 `رَّبِّ`; 56:85 `أَقْرَبُ`; 56:88 `مُقَرَّبِينَ`; 56:96 `رَبِّ`
+- Synthesis: Command, tender, raised sail, vessel movement, and crossing form one navigated passage. The scene materializes an ordinary boundary made traversable by craft and direction, thereby usefully contrasting with P5's death boundary, which nearby witnesses can neither cross nor reverse.
+
+### S27. Deep Wound from Penetration to Healing
+- Reading type: mixed
+- Scene or process: A wound penetrates to the layer over skull or bone, blood drains until the injured person weakens, pus develops, and new flesh closes the injury.
+- Active motifs: wound or stab reaching the layer over skull or bone `quranic:root_001143:B011/m01`; blood draining until weakness `quranic:root_001491:B002/m01`; wound developing or extending pus `quranic:root_001407:B007/m01`; wound reaching flesh and then re-fleshing, closing, or healing `quranic:root_001348:B008/m01`
+- Ayah anchors: 56:19 `يُنزِفُ`; 56:21 `لَحْمِ`; 56:30 `مَّمْدُودٍ`; 56:34 `فُرُشٍ`
+- Synthesis: Penetration, blood loss, suppuration, and granulation form a complete progression from injury toward repair. It supports the creation and restoration argument by making severe bodily renewal concrete, while contrasting that repairable state with P5's terminal threshold, beyond which ordinary healing does not return life.
+
+### S28. Shaded Rain Pool as a Natural Mirror
+- Reading type: mixed
+- Scene or process: Rainwater collects in a rock depression or ground basin, tree shade preserves the small pool, and its crystal-clear surface reflects the viewer's visible appearance.
+- Active motifs: rock depression or newly dug well catching rainwater `quranic:root_000434:B011/m01`; basin or patch of ground holding water `quranic:root_001675:B008/m01`; shaded water beneath trees or a small pool `quranic:root_000966:B008/m01`; crystal-like or mirror-like clarity `quranic:root_001458:B007/m01`; mirror and visible appearance `quranic:root_000531:B006/m01`
+- Ayah anchors: 56:1 `وَقَعَتِ`, `وَاقِعَةُ`; 56:2 `وَقْعَتِ`; 56:30 `ظِلٍّ`; 56:31 `مَآءٍ`; 56:43 `ظِلٍّ`; 56:57 `خَلَقْ`; 56:58 `رَءَيْ`; 56:59 `تَخْلُقُ`, `خَٰلِقُونَ`; 56:63 `رَءَيْ`; 56:65 `ظَلْ`; 56:68 `رَءَيْ`, `مَآءَ`; 56:71 `رَءَيْ`; 56:75 `مَوَٰقِعِ`
+- Synthesis: Catchment, shade, clarity, reflection, and appearance make one natural optical scene. It reframes P4's repeated "Have you seen?" questions: a surface can make effects visible while concealing their source, so the interrogation presses beyond appearance toward the agency that produces water, growth, and fire.
+
+### S29. Termite-Damaged Support, Collapse, and Repair
+- Reading type: latent/lexical
+- Scene or process: Termites eat an interlocked wooden support, the structure loses integrity and collapses, and an order is given to repair what broke.
+- Active motifs: interlocked or load-bearing wood used in a door, well, bed, or house `quranic:root_000777:B004/m01`; termite eating wood `quranic:root_000025:B010/m01`; house or other thing losing structure and collapsing `quranic:root_000204:B004/m01`; ordering repair of a broken or collapsed thing `quranic:root_000204:B007/m01`
+- Ayah anchors: 56:4 `أَرْضُ`; 56:13 `ثُلَّةٌ`; 56:39 `ثُلَّةٌ`; 56:40 `ثُلَّةٌ`; 56:52 `شَجَرٍ`; 56:72 `شَجَرَتَ`
+- Synthesis: Hidden infestation, failed support, collapse, and commissioned repair form one material failure sequence. It supplies a human-scale analogue for P1's impact and P4's replacement argument: ordinary collapse can be diagnosed and repaired, but the total Event and the recreation of the dead exceed structural maintenance.
+
+### S30. Heated Bath, Depilation, and Perfuming
+- Reading type: mixed
+- Scene or process: Water is heated in a bathhouse vessel, the body is washed, a lime depilatory is applied, perfume is ground on a broad stone, and the prepared fragrance is spread on the body.
+- Active motifs: built bathhouse and small vessel for heating water `quranic:root_000001:B013/m01`; purifying water and its cleansing vessel or tool `quranic:root_000953:B004/m01`; lime depilatory coating `quranic:root_001564:B009/m01`; broad stone used to pound perfume `quranic:root_000880:B009/m01`; prepared perfume mixture applied as a coating `quranic:root_000434:B010/m01`
+- Ayah anchors: 56:42 `حَمِيمٍ`; 56:43 `يَحْمُومٍ`; 56:54 `حَمِيمِ`; 56:57 `خَلَقْ`; 56:59 `تَخْلُقُ`, `خَٰلِقُونَ`; 56:71 `نَّارَ`; 56:79 `مُطَهَّرُونَ`; 56:93 `حَمِيمٍ`; 56:94 `تَصْلِيَةُ`
+- Synthesis: Heated water, washing, depilation, grinding, and anointing make a complete body-care sequence. It materializes P5's purity and fragrant reception as effects humans ordinarily manufacture with heat, vessels, minerals, and tools, while the final rest, purity, and fragrance are received rather than produced.

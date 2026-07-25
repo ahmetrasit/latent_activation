@@ -367,3 +367,73 @@
 - Active motifs: an arrow's nock and its placement on the bowstring `quranic:root_001188:B009/m01`; fine arrow feathers or a light arrow `quranic:root_000324:B006/m02`; weak or misaligned arrow feathers `quranic:root_001360:B002/m01`; an arrow rising beyond its target `quranic:root_000945:B010/m01`; an arrow passing or falling behind the target `quranic:root_000458:B018/m01`
 - Ayah anchors: 50:6 `فَوْقَهُمْ`; 50:10 `طَلْعٌ`; 50:38 `لُّغُوبٍ`; 50:40 `أَدْبَٰرَ`; 50:44 `حَشْرٌ`
 - Synthesis: Direction depends on fitted components: an arrow can be light and balanced, weakened by bad feathers, or driven past its mark. The scene usefully pressures the surah's directional claims by contrast, since death, the cry, warning, and judgment reach their appointed subjects without the deviation, defect, or overshoot that can spoil a human shot.
+
+### S7. P1-P2-P3 Role Progression: Contested Truth Becomes Effective Event
+- Reading type: mixed
+- Scene or process: P1 to P2 to P3. Bridge: a repeated truth-bearing scene signature changes the role of truth from disputed content, to an encountered condition, to a causally effective signal.
+- Active motifs: truth matching reality `quranic:root_000347:B001/m01`; truth becoming due or binding `quranic:root_000347:B002/m01`; denying something as a lie `quranic:root_001290:B002/m01`; arrival `quranic:root_000281:B001/m01`; a terrifying cry `quranic:root_000895:B002/m01`; bringing what is hidden outward `quranic:root_000400:B002/m01`
+- Ayah anchors: P1, 50:5 `كَذَّبُوا بِٱلْحَقِّ`; P2, 50:19 `جَآءَتْ سَكْرَةُ ٱلْمَوْتِ بِٱلْحَقِّ`; P3, 50:42 `يَسْمَعُونَ ٱلصَّيْحَةَ بِٱلْحَقِّ ذَٰلِكَ يَوْمُ ٱلْخُرُوجِ`
+- Synthesis: In P1, truth can still be treated as an object of speech and called false. In P2, the same truth-marker qualifies death's arrival, so truth is no longer merely argued about but encountered as a condition. In P3, it qualifies a cry whose result is outward emergence. The bridge is this increase in causal force: denial cannot keep truth at the level of contested discourse because the surah progressively gives it event, sound, and material outcome.
+
+### S8. P1-P3 Reversal: Earth Changes from Subtractor to Releaser
+- Reading type: mixed
+- Scene or process: P1 to P3. Bridge: the same material setting undergoes a role reversal, first diminishing what is placed within it and later opening to release a gathered population.
+- Active motifs: earth as the lower material field `quranic:root_000025:B001/m01`; loss or subtraction `quranic:root_001542:B001/m01`; splitting or opening `quranic:root_000807:B001/m01`; outward passage `quranic:root_000400:B001/m01`; gathering a group to a destination `quranic:root_000324:B001/m01`
+- Ayah anchors: P1, 50:4 `تَنقُصُ ٱلْأَرْضُ`; P3, 50:42 `يَوْمُ ٱلْخُرُوجِ`; P3, 50:44 `تَشَقَّقُ ٱلْأَرْضُ عَنْهُمْ سِرَاعًا ذَٰلِكَ حَشْرٌ عَلَيْنَا يَسِيرٌ`
+- Synthesis: P1 assigns earth an inward operation: it receives bodies and subtracts from their available matter. P3 reverses that operation without changing the medium: earth splits from around them, outward passage replaces diminution, and separated occupants become a gathered body. The bridge materializes resurrection as a change in the earth's function, from enclosing and reducing to opening and delivering.
+
+### S9. P1-P2-P3 Causal Bridge: Warning Moves from Notice to Event to Reminder
+- Reading type: mixed
+- Scene or process: P1 to P2 to P3. Bridge: warning follows a causal role progression from dispatched notice, to appointed event and prior judicial notice, then returns as present address that can awaken caution.
+- Active motifs: a messenger or carried message `quranic:root_000563:B002/m01`; a threat or warning `quranic:root_001662:B002/m01`; an appointed time or place `quranic:root_001662:B003/m01`; breath sent into an instrument `quranic:root_001529:B001/m01`; a horn `quranic:root_000891:B004/m01`; advancing or preceding `quranic:root_001207:B004/m01`; a reminder that restores presence `quranic:root_000516:B009/m01`; awakening fear that prompts caution `quranic:root_000447:B002/m01`
+- Ayah anchors: P1, 50:14 `كَذَّبَ ٱلرُّسُلَ فَحَقَّ وَعِيدِ`; P2, 50:20 `نُفِخَ فِى ٱلصُّورِ ذَٰلِكَ يَوْمُ ٱلْوَعِيدِ`; P2, 50:28 `قَدَّمْتُ إِلَيْكُم بِٱلْوَعِيدِ`; P3, 50:45 `فَذَكِّرْ بِٱلْقُرْءَانِ مَن يَخَافُ وَعِيدِ`
+- Synthesis: P1 locates warning in the messenger-recipient relation and shows it becoming due through rejection. P2 gives that warning an appointed day, activates it through the horn, and treats its earlier delivery as prior notice in judgment. P3 turns the depicted future back toward the present hearer through reminder and caution. The bridge makes judgment neither accidental nor unannounced: notice precedes event, remains evidentially available, and is renewed before the hearer's response is fixed.
+
+### S10. Whole-surah: Official Register, Inkwell, and Identifying Mark
+- Reading type: latent/lexical
+- Scene or process: An identifying mark makes its bearer distinguishable, writing clarifies the intended identity, an inkwell supplies the pen, and a name is entered into an official register.
+- Active motifs: a distinguishing mark or guiding sign `quranic:root_001040:B002/m01`; disclosure of meaning through writing, speech, or sign `quranic:root_000170:B005/m01`; entering a name in an official register or roll `quranic:root_001283:B004/m01`; an inkwell supplying a pen with ink `quranic:root_001407:B005/m01`
+- Ayah anchors: 50:4 `عَلِمْنَا`, `كِتَٰبٌ`; 50:7 `مَدَدْنَٰهَا`; 50:38 `بَيْنَهُمَا`
+- Synthesis: The preserved record acquires a concrete production sequence: identity is marked, meaning is made legible, ink sustains inscription, and the name is assigned a stable place in the roll. This supports the surah's answer to material loss by showing how a record can preserve not merely undifferentiated data but a recoverable, individually identified subject.
+
+### S11. Whole-surah: Written Surety and Personal Guarantee
+- Reading type: latent/lexical
+- Scene or process: A guarantor remains attached to the guaranteed party, a written undertaking names the assumed obligation, and a recognized community representative stands as witness and surety.
+- Active motifs: bearing a guarantee and remaining with the guaranteed party `quranic:root_000840:B003/m01`; guaranteeing another person through an undertaking or written bond `quranic:root_001198:B008/m01`; standing surety over a person `quranic:root_001332:B003/m01`; a community representative who serves as witness or guarantor `quranic:root_001539:B007/m01`
+- Ayah anchors: 50:27 `كَانَ`; 50:36 `قَبْلَ`, `نَقَّبُوا`; 50:39 `فَٱصْبِرْ`
+- Synthesis: Surety is a formal social mechanism, not mere companionship: obligation is expressly assumed, fixed in writing, and backed by a recognized representative. This usefully pressures the companion's defense in the judgment scene. Proximity alone does not create a valid transfer of liability, and the accused cannot acquire a guarantor after responsibility has already been fixed.
+
+### S12. Whole-surah: Appraisal, Advance, and Bargained Price
+- Reading type: latent/lexical
+- Scene or process: Goods reach a market, their value is appraised, a contract is bound, an advance is paid, and the buyer seeks a reduction in the agreed price.
+- Active motifs: a marketplace where goods are brought for sale `quranic:root_000762:B005/m01`; valuation, appraisal, and pricing of goods `quranic:root_001273:B010/m01`; binding and strengthening a contract `quranic:root_000782:B001/m01`; an advance or prepaid price in a sale `quranic:root_000737:B005/m01`; a buyer asking that the price be reduced `quranic:root_001542:B004/m01`
+- Ayah anchors: 50:4 `تَنقُصُ`; 50:14 `قَوْمُ`; 50:21 `سَآئِقٌ`; 50:26 `شَّدِيدِ`; 50:34 `سَلَٰمٍ`
+- Synthesis: The transaction allows value to be assessed, terms secured, payment advanced, and price contested. It therefore sharpens the surah's judicial contrast: the final word is not a market quotation, the assigned outcome is not open to bargaining, and no late request can discount or substitute what the record has made due.
+
+### S13. Whole-surah: Hidden Hunter, Heart Strike, and Verification
+- Reading type: latent/lexical
+- Scene or process: A hunter goes out, watches unseen from a blind, strikes the quarry at the heart, and then inspects it to determine whether death has occurred.
+- Active motifs: going out in pursuit of game `quranic:root_000745:B006/m01`; a screen behind which a hunter or archer hides `quranic:root_000584:B011/m01`; striking or being struck in the heart `quranic:root_001248:B016/m01`; inspecting wounded game to verify whether it has died `quranic:root_001454:B014/m01`
+- Ayah anchors: 50:6 `ٱلسَّمَآءِ`; 50:18 `رَقِيبٌ`; 50:33 `قَلْبٍ`; 50:43 `نُمِيتُ`
+- Synthesis: The quarry's inability to see the concealed watcher does not interrupt observation, impact, or verification. This role structure usefully pressures the surah's heedlessness and surveillance scenes: being unaware of the watcher is not being unwatched, and death is an observed outcome rather than an uncertainty that permits escape.
+
+### S14. Whole-surah: Main Vessel, Tender, and Anchor
+- Reading type: latent/lexical
+- Scene or process: A chief sailor directs a pitched vessel, a small tender remains available for its needs, and an anchor arrests the movement of the larger craft.
+- Active motifs: the chief of a ship's sailors `quranic:root_000532:B017/m01`; a pitched or tar-coated ship `quranic:root_000973:B005/m01`; a small tender accompanying a larger vessel `quranic:root_001212:B011/m01`; a ship's mooring and anchor `quranic:root_000564:B002/m01`
+- Ayah anchors: 50:7 `رَوَٰسِىَ`; 50:8 `عَبْدٍ`; 50:16 `أَقْرَبُ`; 50:27 `رَبَّ`
+- Synthesis: The maritime assembly distinguishes propulsion and support from the operation that ends drift. Captain and tender sustain navigation, but the anchor changes a moving vessel into a fixed one. This materializes the surah's mountains as stabilizers: their firmness is not inert mass alone but an anchoring function that holds an extended earth in place.
+
+### S15. Whole-surah: Night Watering, Satiety, and Return
+- Reading type: latent/lexical
+- Scene or process: A herd travels toward water, reaches the watering place, drinks while water is drawn at its mouths, fills to satiety, gives a thirsty animal another turn, and moves to nearby pasture before returning.
+- Active motifs: night travel or urgent movement toward a watering place `quranic:root_001212:B008/m01`; arrival at water or the route to a watering place `quranic:root_001640:B001/m01`; drawing water at the mouths of drinking camels `quranic:root_001198:B014/m01`; drinking or filling a waterskin to satiety `quranic:root_000286:B006/m01`; returning a thirsty camel to the trough for another drink `quranic:root_000464:B007/m01`; moving from water to nearby pasture and then returning `quranic:root_001486:B006/m01`
+- Ayah anchors: 50:9 `حَبَّ`; 50:12 `قَبْلَهُمْ`; 50:16 `أَقْرَبُ`, `ٱلْوَرِيدِ`; 50:34 `ٱدْخُلُوهَا`; 50:41 `يُنَادِ`
+- Synthesis: Water provision becomes a regulated cycle of approach, arrival, filling, accommodation, grazing, and return. This supports the surah's rain and recurrence readings by showing provision sustaining movement beyond the first drink. It also contrasts with Hell's unending request for more: embodied creatures can reach satiety and re-enter a life cycle, while the consuming vessel cannot complete its intake.
+
+### S16. Whole-surah: Spark, Bellows, and Growing Flame
+- Reading type: latent/lexical
+- Scene or process: Fire-bearing wood is struck, weak sparks appear, bellows direct air into the ignition, and the fire develops into an intense flame.
+- Active motifs: weak sparks that give little usable fire `quranic:root_000286:B011/m01`; wood suited to striking and producing abundant fire `quranic:root_001398:B005/m01`; blowing air into a fire with bellows `quranic:root_001529:B001/m02`; a bright, intense, or smokeless flame `quranic:root_001411:B003/m01`
+- Ayah anchors: 50:1 `مَجِيدِ`; 50:5 `مَّرِيجٍ`; 50:9 `حَبَّ`; 50:20 `نُفِخَ`
+- Synthesis: Combustion advances through material and directed input: suitable wood yields sparks, air feeds them, and flame intensifies. This materially reframes Hell's request for more as the operating appetite of fire, while the bellows sense of directed breath resonates with the horn blast as another moment when an otherwise latent process is activated by air.
