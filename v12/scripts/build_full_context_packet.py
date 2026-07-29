@@ -21,6 +21,7 @@ from build_packets import (
     load_ayat,
     ordered_unique,
     parse_refs,
+    resolve_root_ids,
     sha256,
 )
 
@@ -76,37 +77,46 @@ def load_branches_with_missing(
         temp_db.flush()
         connection = sqlite3.connect(temp_db.name)
         connection.row_factory = sqlite3.Row
-        placeholders = ",".join("?" for _ in roots)
-        query = f"""
-            SELECT root_norm, root_id, source_path, branch_id,
-                   branch_image_ar, branch_image_en, what_is_ar, what_is_en
-            FROM branch_images
-            WHERE root_norm IN ({placeholders})
-              AND status = 'accepted'
-              AND contaminated = 'no'
-            ORDER BY root_norm, CAST(SUBSTR(branch_id, 2) AS INTEGER), id
-        """
-        for row in connection.execute(query, roots):
-            append_branch_row(
-                branches[row["root_norm"]],
-                {
-                    "branch_id": row["branch_id"],
-                    "image_ar": row["branch_image_ar"],
-                    "image_en": row["branch_image_en"],
-                    "scope_ar": row["what_is_ar"],
-                    "scope_en": row["what_is_en"],
-                    "variants": [
-                        {
-                            "root_id": row["root_id"],
-                            "source_path": row["source_path"],
-                            "image_ar": row["branch_image_ar"],
-                            "image_en": row["branch_image_en"],
-                            "scope_ar": row["what_is_ar"],
-                            "scope_en": row["what_is_en"],
-                        }
-                    ],
-                }
-            )
+        root_ids_by_root = resolve_root_ids(connection, roots)
+        root_by_id = {
+            root_id: root
+            for root, root_ids in root_ids_by_root.items()
+            for root_id in root_ids
+        }
+        root_ids = sorted(root_by_id)
+        if root_ids:
+            placeholders = ",".join("?" for _ in root_ids)
+            query = f"""
+                SELECT root_id, source_path, branch_id,
+                       branch_image_ar, branch_image_en, what_is_ar, what_is_en
+                FROM branch_images
+                WHERE root_id IN ({placeholders})
+                  AND status = 'accepted'
+                  AND contaminated = 'no'
+                ORDER BY root_id, CAST(SUBSTR(branch_id, 2) AS INTEGER), id
+            """
+            for row in connection.execute(query, root_ids):
+                root = root_by_id[row["root_id"]]
+                append_branch_row(
+                    branches[root],
+                    {
+                        "branch_id": row["branch_id"],
+                        "image_ar": row["branch_image_ar"],
+                        "image_en": row["branch_image_en"],
+                        "scope_ar": row["what_is_ar"],
+                        "scope_en": row["what_is_en"],
+                        "variants": [
+                            {
+                                "root_id": row["root_id"],
+                                "source_path": row["source_path"],
+                                "image_ar": row["branch_image_ar"],
+                                "image_en": row["branch_image_en"],
+                                "scope_ar": row["what_is_ar"],
+                                "scope_en": row["what_is_en"],
+                            }
+                        ],
+                    }
+                )
         connection.close()
 
     missing = [root for root in roots if not branches[root]]

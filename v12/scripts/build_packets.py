@@ -11,6 +11,7 @@ import json
 import shutil
 import sqlite3
 import tempfile
+import unicodedata
 from collections import defaultdict
 from pathlib import Path
 from typing import Any, Iterable
@@ -55,6 +56,88 @@ def ordered_unique(items: Iterable[str]) -> list[str]:
             seen.add(item)
             result.append(item)
     return result
+
+
+def normalized_root(value: str) -> str:
+    root = " ".join(str(value or "").split())
+    if " " not in root and 3 <= len(root) <= 4 and all(
+        "\u0621" <= character <= "\u064a" for character in root
+    ):
+        return " ".join(root)
+    return root
+
+
+def canonical_arabic(value: str) -> str:
+    normalized = unicodedata.normalize("NFKD", value or "")
+    output: list[str] = []
+    for character in normalized:
+        if unicodedata.category(character) in {"Mn", "Me", "Cf"}:
+            continue
+        if character == "ـ":
+            continue
+        output.append(
+            {
+                "آ": "ا",
+                "أ": "ا",
+                "إ": "ا",
+                "ٱ": "ا",
+                "ى": "ي",
+                "ؤ": "و",
+                "ئ": "ي",
+            }.get(character, character)
+        )
+    return "".join(output).replace(" ", "")
+
+
+def canonical_root(value: str) -> str:
+    return canonical_arabic(value).replace("ء", "ا")
+
+
+def append_unique(index: dict[str, list[str]], key: str, value: str) -> None:
+    if value not in index[key]:
+        index[key].append(value)
+
+
+def resolve_root_ids(
+    connection: sqlite3.Connection,
+    roots: Iterable[str],
+) -> dict[str, list[str]]:
+    by_source: dict[str, list[str]] = defaultdict(list)
+    by_normalized: dict[str, list[str]] = defaultdict(list)
+    by_canonical: dict[str, list[str]] = defaultdict(list)
+    for row in connection.execute(
+        """
+        SELECT root_id, root_norm, source_root_norm
+        FROM roots
+        ORDER BY root_norm, source_root_norm, root_id
+        """
+    ):
+        root_id = str(row["root_id"])
+        norm = normalized_root(str(row["root_norm"]))
+        append_unique(by_source, normalized_root(str(row["source_root_norm"])), root_id)
+        append_unique(by_normalized, norm, root_id)
+        append_unique(by_canonical, canonical_root(norm), root_id)
+
+    resolved: dict[str, list[str]] = {}
+    ambiguous: dict[str, list[str]] = {}
+    for root in roots:
+        root_norm = normalized_root(root)
+        root_ids = by_source.get(root_norm, [])
+        if not root_ids:
+            root_ids = by_normalized.get(root_norm, [])
+        if not root_ids:
+            root_ids = by_canonical.get(canonical_root(root_norm), [])
+        if len(root_ids) > 1:
+            ambiguous[root] = root_ids
+        resolved[root] = root_ids
+
+    if ambiguous:
+        detail = "; ".join(
+            f"{root}: {','.join(root_ids)}"
+            for root, root_ids in sorted(ambiguous.items())
+        )
+        raise ValueError(f"ambiguous furuq root_id resolution: {detail}")
+    return resolved
 
 
 def load_ayat(qac_path: Path, wanted_refs: set[str]) -> dict[str, dict[str, Any]]:
@@ -106,26 +189,35 @@ def load_branches(branch_db_gz: Path, roots: set[str]) -> dict[str, list[dict[st
         temp_db.flush()
         connection = sqlite3.connect(temp_db.name)
         connection.row_factory = sqlite3.Row
-        placeholders = ",".join("?" for _ in roots)
-        query = f"""
-            SELECT root_norm, branch_id, branch_image_ar, branch_image_en,
-                   what_is_ar, what_is_en
-            FROM branch_images
-            WHERE root_norm IN ({placeholders})
-              AND status = 'accepted'
-              AND contaminated = 'no'
-            ORDER BY root_norm, CAST(SUBSTR(branch_id, 2) AS INTEGER)
-        """
-        for row in connection.execute(query, sorted(roots)):
-            branches[row["root_norm"]].append(
-                {
-                    "branch_id": row["branch_id"],
-                    "image_ar": row["branch_image_ar"],
-                    "image_en": row["branch_image_en"],
-                    "scope_ar": row["what_is_ar"],
-                    "scope_en": row["what_is_en"],
-                }
-            )
+        root_ids_by_root = resolve_root_ids(connection, sorted(roots))
+        root_by_id = {
+            root_id: root
+            for root, root_ids in root_ids_by_root.items()
+            for root_id in root_ids
+        }
+        root_ids = sorted(root_by_id)
+        if root_ids:
+            placeholders = ",".join("?" for _ in root_ids)
+            query = f"""
+                SELECT root_id, branch_id, branch_image_ar, branch_image_en,
+                       what_is_ar, what_is_en
+                FROM branch_images
+                WHERE root_id IN ({placeholders})
+                  AND status = 'accepted'
+                  AND contaminated = 'no'
+                ORDER BY root_id, CAST(SUBSTR(branch_id, 2) AS INTEGER), id
+            """
+            for row in connection.execute(query, root_ids):
+                root = root_by_id[row["root_id"]]
+                branches[root].append(
+                    {
+                        "branch_id": row["branch_id"],
+                        "image_ar": row["branch_image_ar"],
+                        "image_en": row["branch_image_en"],
+                        "scope_ar": row["what_is_ar"],
+                        "scope_en": row["what_is_en"],
+                    }
+                )
         connection.close()
 
     absent = [root for root, records in branches.items() if not records]
