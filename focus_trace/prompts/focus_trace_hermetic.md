@@ -95,6 +95,7 @@ For context-triggered deltas, every non-focus citation must include:
 - `source_ref`;
 - `root`;
 - `source_phrase_ar`;
+- `mapped_root_id`;
 - `branch_id`;
 - `branch_image_ar`;
 - the role that branch image plays in the mechanism.
@@ -102,6 +103,13 @@ For context-triggered deltas, every non-focus citation must include:
 Use the exact `source_phrase_ar` supplied by the packet. If a context root has
 no branch inventory, you may cite its source phrase as a structural cue, but do
 not invent a branch ID or branch image for it.
+
+QAC roots are resolved to Furuq root IDs before you receive the packet. If a QAC
+root maps to multiple Furuq roots, all mapped roots and all accepted,
+non-contaminated branch inventories are present. Branch IDs are local to a
+Furuq root, so cite `mapped_root_id` with every `branch_id`. Do not collapse a
+split root to the dominant target only. Non-dominant mapped roots are legitimate
+activation material when they visibly change the focus reading.
 
 If a branch entry contains `variants`, the same packet branch ID represents
 multiple accepted source rows. You may cite the shared branch ID, but be clear
@@ -122,7 +130,7 @@ focus_trace/schemas/focus-trace-response.schema.json
 The top-level `protocol` must be:
 
 ```text
-focus-trace-hermetic-response-v2
+focus-trace-hermetic-response-v3
 ```
 
 Use this order:

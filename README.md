@@ -16,6 +16,11 @@ synthesis work. Later synthesis experiments should consider using them to
 compose a higher-level prose layer from `v11` and `v12` outputs, rather than
 treating those newer outputs as the final publication form by themselves.
 
+`focus_trace/` is the standalone Hermetic Focus Trace workflow. It was added to
+recover the surprising, changed-reading effect of the old staged focus runs and
+the S100 `reader_m` walk at lower whole-Quran cost. See
+[`focus_trace/INTEGRATION.md`](focus_trace/INTEGRATION.md).
+
 ## v12 Turkish Publication Status (2026-07-23)
 
 The Turkish ordinary target-language baseline files are complete for all 114

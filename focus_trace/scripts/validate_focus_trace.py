@@ -18,16 +18,19 @@ if str(V12_SCRIPTS) not in sys.path:
 from build_packets import REPO_ROOT, ordered_unique, sha256
 
 
-PACKET_PROTOCOL = "focus-trace-hermetic-packet-v1"
+PACKET_PROTOCOL = "focus-trace-hermetic-packet-v2"
+PACKET_PROTOCOL_V1 = "focus-trace-hermetic-packet-v1"
 LEGACY_PACKET_PROTOCOL = "v12-hermetic-focus-trace-packet-v1"
-PACKET_PROTOCOLS = {PACKET_PROTOCOL, LEGACY_PACKET_PROTOCOL}
+PACKET_PROTOCOLS = {PACKET_PROTOCOL, PACKET_PROTOCOL_V1, LEGACY_PACKET_PROTOCOL}
 RESPONSE_PROTOCOL_V1 = "focus-trace-hermetic-response-v1"
 RESPONSE_PROTOCOL_V2 = "focus-trace-hermetic-response-v2"
+RESPONSE_PROTOCOL_V3 = "focus-trace-hermetic-response-v3"
 LEGACY_RESPONSE_PROTOCOL_V1 = "v12-hermetic-focus-trace-response-v1"
 LEGACY_RESPONSE_PROTOCOL_V2 = "v12-hermetic-focus-trace-response-v2"
 RESPONSE_PROTOCOLS = {
     RESPONSE_PROTOCOL_V1,
     RESPONSE_PROTOCOL_V2,
+    RESPONSE_PROTOCOL_V3,
     LEGACY_RESPONSE_PROTOCOL_V1,
     LEGACY_RESPONSE_PROTOCOL_V2,
 }
@@ -82,6 +85,21 @@ def require_branch_id(value: Any, label: str) -> str:
     ):
         raise ValueError(f"{label}: invalid branch ID")
     return branch_id
+
+
+def require_root_id(value: Any, label: str) -> str:
+    root_id = require_string(value, label)
+    if not root_id.startswith("root_") or len(root_id) != 11 or not root_id[5:].isdigit():
+        raise ValueError(f"{label}: invalid mapped root ID")
+    return root_id
+
+
+def require_int(value: Any, label: str, *, minimum: int | None = None) -> int:
+    if not isinstance(value, int):
+        raise ValueError(f"{label}: expected integer")
+    if minimum is not None and value < minimum:
+        raise ValueError(f"{label}: expected integer >= {minimum}")
+    return value
 
 
 def ayah_roots(ayah: dict[str, Any]) -> list[str]:
@@ -166,7 +184,72 @@ def validate_source_phrase(
         raise ValueError(f"{label}: source phrase does not match packet occurrence for {source_ref}/{root}")
 
 
-def validate_branch(branch: dict[str, Any], label: str, *, focus: bool) -> None:
+def validate_root_mapping(mapping: dict[str, Any], label: str) -> str:
+    require_keys(
+        mapping,
+        {
+            "qac_root",
+            "mapping_status",
+            "qac_total_occurrences",
+            "matched_occurrences",
+            "unmapped_reason",
+            "targets",
+        },
+        label,
+    )
+    qac_root = require_string(mapping["qac_root"], f"{label}.qac_root")
+    require_string(mapping["mapping_status"], f"{label}.mapping_status")
+    if mapping["qac_total_occurrences"] is not None:
+        require_int(mapping["qac_total_occurrences"], f"{label}.qac_total_occurrences", minimum=0)
+    require_int(mapping["matched_occurrences"], f"{label}.matched_occurrences", minimum=0)
+    if not isinstance(mapping["unmapped_reason"], str):
+        raise ValueError(f"{label}.unmapped_reason: expected string")
+    seen_ranks: set[int] = set()
+    for target_index, target in enumerate(require_list(mapping["targets"], f"{label}.targets")):
+        target_label = f"{label}.targets[{target_index}]"
+        record = require_object(target, target_label)
+        require_keys(
+            record,
+            {
+                "target_rank",
+                "furuq_root_id",
+                "furuq_root_norm",
+                "furuq_source_root_norm",
+                "furuq_resolution",
+                "target_occurrences",
+                "is_dominant",
+            },
+            target_label,
+        )
+        rank = require_int(record["target_rank"], f"{target_label}.target_rank", minimum=1)
+        if rank in seen_ranks:
+            raise ValueError(f"{label}.targets has duplicate target_rank {rank}")
+        seen_ranks.add(rank)
+        require_root_id(record["furuq_root_id"], f"{target_label}.furuq_root_id")
+        require_string(record["furuq_root_norm"], f"{target_label}.furuq_root_norm")
+        require_string(record["furuq_source_root_norm"], f"{target_label}.furuq_source_root_norm")
+        require_string(record["furuq_resolution"], f"{target_label}.furuq_resolution")
+        require_int(record["target_occurrences"], f"{target_label}.target_occurrences", minimum=0)
+        if not isinstance(record["is_dominant"], bool):
+            raise ValueError(f"{target_label}.is_dominant: expected boolean")
+    return qac_root
+
+
+def validate_branch(
+    branch: dict[str, Any],
+    label: str,
+    *,
+    focus: bool,
+    require_mapping: bool,
+) -> None:
+    if require_mapping:
+        require_root_id(branch.get("mapped_root_id"), f"{label}.mapped_root_id")
+        require_string(branch.get("mapped_root_norm"), f"{label}.mapped_root_norm")
+        require_string(branch.get("mapped_source_root_norm"), f"{label}.mapped_source_root_norm")
+        require_int(branch.get("mapped_target_rank"), f"{label}.mapped_target_rank", minimum=1)
+        require_int(branch.get("mapped_target_occurrences"), f"{label}.mapped_target_occurrences", minimum=0)
+        if not isinstance(branch.get("mapped_is_dominant"), bool):
+            raise ValueError(f"{label}.mapped_is_dominant: expected boolean")
     require_branch_id(branch.get("branch_id"), f"{label}.branch_id")
     require_string(branch.get("branch_image_ar"), f"{label}.branch_image_ar")
     if focus:
@@ -178,6 +261,7 @@ def validate_branch(branch: dict[str, Any], label: str, *, focus: bool) -> None:
 def validate_packet(packet: dict[str, Any]) -> None:
     if packet.get("protocol") not in PACKET_PROTOCOLS:
         raise ValueError(f"packet protocol is not one of {sorted(PACKET_PROTOCOLS)}")
+    require_mapping = packet.get("protocol") == PACKET_PROTOCOL
     focus_ref = require_string(packet.get("focus_ref"), "packet.focus_ref")
     window = require_list(packet.get("window"), "packet.window", non_empty=True)
     if focus_ref not in window:
@@ -198,7 +282,17 @@ def validate_packet(packet: dict[str, Any]) -> None:
 
     focus_roots = ayah_roots(focus_ayah)
     context_roots = ordered_unique(root for ayah in context_ayat for root in ayah_roots(ayah))
+    all_roots = ordered_unique([*focus_roots, *context_roots])
     occurrences = source_occurrence_index(packet)
+
+    if require_mapping:
+        root_mappings = require_list(packet.get("root_mappings"), "packet.root_mappings")
+        actual_mapping_roots = [
+            validate_root_mapping(require_object(mapping, f"root_mappings[{mapping_index}]"), f"root_mappings[{mapping_index}]")
+            for mapping_index, mapping in enumerate(root_mappings)
+        ]
+        if actual_mapping_roots != all_roots:
+            raise ValueError("root_mappings do not match packet root order")
 
     focus_inventories = require_list(
         packet.get("focus_branch_inventories"),
@@ -209,16 +303,23 @@ def validate_packet(packet: dict[str, Any]) -> None:
         raise ValueError("duplicate root in focus_branch_inventories")
     for inventory_index, inventory in enumerate(focus_inventories):
         label = f"focus_branch_inventories[{inventory_index}]"
-        require_keys(inventory, {"root", "source_phrases", "branches"}, label)
+        required = {"root", "source_phrases", "branches"}
+        if require_mapping:
+            required.add("root_mapping")
+        require_keys(inventory, required, label)
         root = require_string(inventory["root"], f"{label}.root")
         if root not in focus_roots:
             raise ValueError(f"{label}.root is not in focus ayah: {root}")
+        if require_mapping:
+            mapping_root = validate_root_mapping(require_object(inventory["root_mapping"], f"{label}.root_mapping"), f"{label}.root_mapping")
+            if mapping_root != root:
+                raise ValueError(f"{label}.root_mapping.qac_root does not match root")
         for phrase_index, phrase in enumerate(require_list(inventory["source_phrases"], f"{label}.source_phrases", non_empty=True)):
             validate_source_phrase(require_object(phrase, f"{label}.source_phrases[{phrase_index}]"), f"{label}.source_phrases[{phrase_index}]", allowed_refs, root, occurrences)
             if phrase["source_ref"] != focus_ref:
                 raise ValueError(f"{label}.source_phrases[{phrase_index}] is not from focus_ref")
         for branch_index, branch in enumerate(require_list(inventory["branches"], f"{label}.branches", non_empty=True)):
-            validate_branch(require_object(branch, f"{label}.branches[{branch_index}]"), f"{label}.branches[{branch_index}]", focus=True)
+            validate_branch(require_object(branch, f"{label}.branches[{branch_index}]"), f"{label}.branches[{branch_index}]", focus=True, require_mapping=require_mapping)
 
     context_cues = require_list(packet.get("context_root_cues"), "packet.context_root_cues")
     actual_context_roots = [require_string(item.get("root"), "context root") for item in context_cues]
@@ -226,16 +327,23 @@ def validate_packet(packet: dict[str, Any]) -> None:
         raise ValueError("duplicate root in context_root_cues")
     for cue_index, cue in enumerate(context_cues):
         label = f"context_root_cues[{cue_index}]"
-        require_keys(cue, {"root", "source_phrases", "branch_inventory_mode", "branches"}, label)
+        required = {"root", "source_phrases", "branch_inventory_mode", "branches"}
+        if require_mapping:
+            required.add("root_mapping")
+        require_keys(cue, required, label)
         root = require_string(cue["root"], f"{label}.root")
         if root not in context_roots:
             raise ValueError(f"{label}.root is not in context ayat: {root}")
+        if require_mapping:
+            mapping_root = validate_root_mapping(require_object(cue["root_mapping"], f"{label}.root_mapping"), f"{label}.root_mapping")
+            if mapping_root != root:
+                raise ValueError(f"{label}.root_mapping.qac_root does not match root")
         for phrase_index, phrase in enumerate(require_list(cue["source_phrases"], f"{label}.source_phrases", non_empty=True)):
             validate_source_phrase(require_object(phrase, f"{label}.source_phrases[{phrase_index}]"), f"{label}.source_phrases[{phrase_index}]", allowed_refs, root, occurrences)
             if phrase["source_ref"] == focus_ref:
                 raise ValueError(f"{label}.source_phrases[{phrase_index}] unexpectedly cites focus_ref")
         for branch_index, branch in enumerate(require_list(cue["branches"], f"{label}.branches", non_empty=True)):
-            validate_branch(require_object(branch, f"{label}.branches[{branch_index}]"), f"{label}.branches[{branch_index}]", focus=False)
+            validate_branch(require_object(branch, f"{label}.branches[{branch_index}]"), f"{label}.branches[{branch_index}]", focus=False, require_mapping=require_mapping)
 
     missing = require_list(packet.get("missing_branch_inventories", []), "packet.missing_branch_inventories")
     missing_roots = [require_string(item.get("root"), "missing root") for item in missing]
@@ -243,7 +351,14 @@ def validate_packet(packet: dict[str, Any]) -> None:
         raise ValueError("duplicate root in missing_branch_inventories")
     for missing_index, item in enumerate(missing):
         label = f"missing_branch_inventories[{missing_index}]"
-        require_keys(item, {"root", "refs", "source_phrases", "reason"}, label)
+        required = {"root", "refs", "source_phrases", "reason"}
+        if require_mapping:
+            required.add("root_mapping")
+        require_keys(item, required, label)
+        if require_mapping:
+            mapping_root = validate_root_mapping(require_object(item["root_mapping"], f"{label}.root_mapping"), f"{label}.root_mapping")
+            if mapping_root != item["root"]:
+                raise ValueError(f"{label}.root_mapping.qac_root does not match root")
         refs = require_list(item["refs"], f"{label}.refs", non_empty=True)
         for ref in refs:
             if ref not in allowed_refs:
@@ -271,55 +386,80 @@ def validate_packet(packet: dict[str, Any]) -> None:
 def packet_citations(
     packet: dict[str, Any],
     collections: tuple[str, ...],
-) -> tuple[dict[str, dict[str, str]], set[tuple[str, str, str]]]:
+) -> tuple[
+    dict[str, dict[str, str]],
+    dict[str, dict[tuple[str, str], str]],
+    set[tuple[str, str, str]],
+]:
     branches: dict[str, dict[str, str]] = {}
+    mapped_branches: dict[str, dict[tuple[str, str], str]] = {}
     phrases: set[tuple[str, str, str]] = set()
     for collection in collections:
         for inventory in packet.get(collection, []):
             root = inventory["root"]
-            branches.setdefault(root, {}).update(
-                {
-                    branch["branch_id"]: branch["branch_image_ar"]
-                    for branch in inventory["branches"]
-                }
-            )
+            branches.setdefault(root, {})
+            mapped_branches.setdefault(root, {})
+            for branch in inventory["branches"]:
+                branch_id = branch["branch_id"]
+                branches[root][branch_id] = branch["branch_image_ar"]
+                mapped_root_id = branch.get("mapped_root_id")
+                if mapped_root_id:
+                    mapped_branches[root][(mapped_root_id, branch_id)] = branch["branch_image_ar"]
             for phrase in inventory["source_phrases"]:
                 phrases.add((phrase["source_ref"], root, phrase["source_phrase_ar"]))
-    return branches, phrases
+    return branches, mapped_branches, phrases
 
 
 def validate_trace_entry(
     trace: dict[str, Any],
     label: str,
     branches: dict[str, dict[str, str]],
+    mapped_branches: dict[str, dict[tuple[str, str], str]],
     phrases: set[tuple[str, str, str]],
+    require_mapped_root_id: bool,
 ) -> None:
+    required = {
+        "source_ref",
+        "root",
+        "source_phrase_ar",
+        "branch_id",
+        "branch_image_ar",
+        "literal_contribution",
+        "assigned_role",
+    }
+    if require_mapped_root_id:
+        required.add("mapped_root_id")
     require_keys(
         trace,
-        {
-            "source_ref",
-            "root",
-            "source_phrase_ar",
-            "branch_id",
-            "branch_image_ar",
-            "literal_contribution",
-            "assigned_role",
-        },
+        required,
         label,
     )
     source_ref = require_string(trace["source_ref"], f"{label}.source_ref")
     root = require_string(trace["root"], f"{label}.root")
     phrase = require_string(trace["source_phrase_ar"], f"{label}.source_phrase_ar")
     branch_id = require_branch_id(trace["branch_id"], f"{label}.branch_id")
+    mapped_root_id = trace.get("mapped_root_id")
+    if mapped_root_id is not None:
+        mapped_root_id = require_root_id(mapped_root_id, f"{label}.mapped_root_id")
     branch_image_ar = require_string(trace["branch_image_ar"], f"{label}.branch_image_ar")
     require_string(trace["literal_contribution"], f"{label}.literal_contribution")
     require_string(trace["assigned_role"], f"{label}.assigned_role")
     if root not in branches:
         raise ValueError(f"{label}: root {root!r} has no branch inventory in packet")
-    if branch_id not in branches[root]:
-        raise ValueError(f"{label}: branch {root}/{branch_id} was not in packet")
-    if branch_image_ar != branches[root][branch_id]:
-        raise ValueError(f"{label}: branch_image_ar does not match packet branch {root}/{branch_id}")
+    if mapped_root_id is not None:
+        branch_key = (mapped_root_id, branch_id)
+        if branch_key not in mapped_branches.get(root, {}):
+            raise ValueError(f"{label}: branch {root}/{mapped_root_id}/{branch_id} was not in packet")
+        if branch_image_ar != mapped_branches[root][branch_key]:
+            raise ValueError(
+                f"{label}: branch_image_ar does not match packet branch "
+                f"{root}/{mapped_root_id}/{branch_id}"
+            )
+    else:
+        if branch_id not in branches[root]:
+            raise ValueError(f"{label}: branch {root}/{branch_id} was not in packet")
+        if branch_image_ar != branches[root][branch_id]:
+            raise ValueError(f"{label}: branch_image_ar does not match packet branch {root}/{branch_id}")
     if (source_ref, root, phrase) not in phrases:
         raise ValueError(f"{label}: source phrase was not in packet for {source_ref}/{root}")
 
@@ -335,7 +475,9 @@ def validate_baseline_model(
     model: dict[str, Any],
     label: str,
     branches: dict[str, dict[str, str]],
+    mapped_branches: dict[str, dict[tuple[str, str], str]],
     phrases: set[tuple[str, str, str]],
+    require_mapped_root_id: bool,
 ) -> str:
     allowed_keys = {
         "model_id",
@@ -360,7 +502,7 @@ def validate_baseline_model(
     require_string(model["focus_anchor"], f"{label}.focus_anchor")
     require_string(model["mechanism"], f"{label}.mechanism")
     for trace_index, trace in enumerate(require_list(model["activation_trace"], f"{label}.activation_trace", non_empty=True)):
-        validate_trace_entry(require_object(trace, f"{label}.activation_trace[{trace_index}]"), f"{label}.activation_trace[{trace_index}]", branches, phrases)
+        validate_trace_entry(require_object(trace, f"{label}.activation_trace[{trace_index}]"), f"{label}.activation_trace[{trace_index}]", branches, mapped_branches, phrases, require_mapped_root_id)
     validate_changed_reading(model["changed_reading"], f"{label}.changed_reading")
     return model_id
 
@@ -369,9 +511,11 @@ def validate_context_delta(
     delta: dict[str, Any],
     label: str,
     branches: dict[str, dict[str, str]],
+    mapped_branches: dict[str, dict[tuple[str, str], str]],
     phrases: set[tuple[str, str, str]],
     context_refs: set[str],
     context_roots: set[str],
+    require_mapped_root_id: bool,
 ) -> str:
     allowed_keys = {
         "model_id",
@@ -410,7 +554,7 @@ def validate_context_delta(
             raise ValueError(f"{label}.trigger_roots contains root outside context: {root}")
     require_string(delta["mechanism"], f"{label}.mechanism")
     for trace_index, trace in enumerate(require_list(delta["activation_trace"], f"{label}.activation_trace", non_empty=True)):
-        validate_trace_entry(require_object(trace, f"{label}.activation_trace[{trace_index}]"), f"{label}.activation_trace[{trace_index}]", branches, phrases)
+        validate_trace_entry(require_object(trace, f"{label}.activation_trace[{trace_index}]"), f"{label}.activation_trace[{trace_index}]", branches, mapped_branches, phrases, require_mapped_root_id)
     require_list(delta["structural_cues"], f"{label}.structural_cues", non_empty=True)
     for move_index, move in enumerate(require_list(delta["abductive_moves"], f"{label}.abductive_moves")):
         move_label = f"{label}.abductive_moves[{move_index}]"
@@ -430,7 +574,9 @@ def validate_surprising_valid_outlier(
     outlier: dict[str, Any],
     label: str,
     branches: dict[str, dict[str, str]],
+    mapped_branches: dict[str, dict[tuple[str, str], str]],
     phrases: set[tuple[str, str, str]],
+    require_mapped_root_id: bool,
 ) -> str:
     allowed_keys = {
         "outlier_id",
@@ -450,7 +596,7 @@ def validate_surprising_valid_outlier(
     require_string(outlier["why_still_valid"], f"{label}.why_still_valid")
     require_string(outlier["focus_anchor"], f"{label}.focus_anchor")
     for trace_index, trace in enumerate(require_list(outlier["activation_trace"], f"{label}.activation_trace", non_empty=True)):
-        validate_trace_entry(require_object(trace, f"{label}.activation_trace[{trace_index}]"), f"{label}.activation_trace[{trace_index}]", branches, phrases)
+        validate_trace_entry(require_object(trace, f"{label}.activation_trace[{trace_index}]"), f"{label}.activation_trace[{trace_index}]", branches, mapped_branches, phrases, require_mapped_root_id)
     validate_changed_reading(outlier["changed_reading"], f"{label}.changed_reading")
     require_string(outlier["rendering_caution"], f"{label}.rendering_caution")
     return outlier_id
@@ -465,14 +611,15 @@ def validate_response(packet: dict[str, Any], response: dict[str, Any]) -> None:
         )
     if response.get("focus_ref") != packet["focus_ref"]:
         raise ValueError("response focus_ref does not match packet")
+    require_mapped_root_id = protocol == RESPONSE_PROTOCOL_V3
     require_string(response.get("reader_id"), "response.reader_id")
     hermeticity = require_object(response.get("hermeticity"), "response.hermeticity")
     require_keys(hermeticity, {"method", "limitations"}, "response.hermeticity")
     require_string(hermeticity["method"], "response.hermeticity.method")
     require_string(hermeticity["limitations"], "response.hermeticity.limitations")
 
-    focus_branches, focus_phrases = packet_citations(packet, ("focus_branch_inventories",))
-    all_branches, all_phrases = packet_citations(
+    focus_branches, focus_mapped_branches, focus_phrases = packet_citations(packet, ("focus_branch_inventories",))
+    all_branches, all_mapped_branches, all_phrases = packet_citations(
         packet,
         ("focus_branch_inventories", "context_root_cues"),
     )
@@ -484,7 +631,9 @@ def validate_response(packet: dict[str, Any], response: dict[str, Any]) -> None:
             require_object(model, f"baseline_models[{index}]"),
             f"baseline_models[{index}]",
             focus_branches,
+            focus_mapped_branches,
             focus_phrases,
+            require_mapped_root_id,
         )
         if model_id in model_ids:
             raise ValueError(f"duplicate model_id: {model_id}")
@@ -494,16 +643,18 @@ def validate_response(packet: dict[str, Any], response: dict[str, Any]) -> None:
             require_object(delta, f"context_deltas[{index}]"),
             f"context_deltas[{index}]",
             all_branches,
+            all_mapped_branches,
             all_phrases,
             context_refs,
             context_roots,
+            require_mapped_root_id,
         )
         if model_id in model_ids:
             raise ValueError(f"duplicate model_id: {model_id}")
         model_ids.add(model_id)
     outlier_ids: set[str] = set()
     outliers = response.get("surprising_valid_outliers", [])
-    if protocol in {RESPONSE_PROTOCOL_V2, LEGACY_RESPONSE_PROTOCOL_V2}:
+    if protocol in {RESPONSE_PROTOCOL_V2, RESPONSE_PROTOCOL_V3, LEGACY_RESPONSE_PROTOCOL_V2}:
         outliers = require_list(
             response.get("surprising_valid_outliers"),
             "response.surprising_valid_outliers",
@@ -515,7 +666,9 @@ def validate_response(packet: dict[str, Any], response: dict[str, Any]) -> None:
             require_object(outlier, f"surprising_valid_outliers[{index}]"),
             f"surprising_valid_outliers[{index}]",
             all_branches,
+            all_mapped_branches,
             all_phrases,
+            require_mapped_root_id,
         )
         if outlier_id in outlier_ids:
             raise ValueError(f"duplicate outlier_id: {outlier_id}")

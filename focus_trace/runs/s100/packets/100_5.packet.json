@@ -1,0 +1,4328 @@
+{
+  "protocol": "focus-trace-hermetic-packet-v2",
+  "focus_ref": "100:5",
+  "window": [
+    "100:1",
+    "100:2",
+    "100:3",
+    "100:4",
+    "100:5",
+    "100:6",
+    "100:7",
+    "100:8",
+    "100:9",
+    "100:10",
+    "100:11"
+  ],
+  "context_order": [
+    "100:1",
+    "100:2",
+    "100:3",
+    "100:4",
+    "100:6",
+    "100:7",
+    "100:8",
+    "100:9",
+    "100:10",
+    "100:11"
+  ],
+  "ayah_count": 11,
+  "model_profile": {
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "max"
+  },
+  "selection_policy": {
+    "window_policy": "The coordinator selects a fixed window. Roots are never selected or pruned by the reader.",
+    "focus_root_policy": "All roots occurring in the focus ayah are included in first-seen focus order with full accepted, non-contaminated branch inventories.",
+    "context_root_policy": "All roots occurring in non-focus context ayat are included in packet order and root order. Each occurrence includes source_phrase_ar.",
+    "non_focus_branch_policy": "Every context root with an accepted inventory includes all branch IDs in 'images' mode; this always includes branch_image_ar.",
+    "root_mapping_policy": "QAC roots are resolved through qac-furuq-v4-root-map.sqlite.gz. If a QAC root maps to multiple Furuq root_ids, every mapped root and its accepted, non-contaminated branches are included in target_rank order. Branch IDs are root-local, so reader citations must pair branch_id with mapped_root_id.",
+    "source_phrase_policy": "source_phrase_ar is deterministically derived from QAC surfaces_ar for the root occurrence in that source ayah."
+  },
+  "root_mappings": [
+    {
+      "qac_root": "و س ط",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 5,
+      "matched_occurrences": 5,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_001646",
+          "furuq_root_norm": "و س ط",
+          "furuq_source_root_norm": "و س ط",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 5,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ج م ع",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 129,
+      "matched_occurrences": 128,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000259",
+          "furuq_root_norm": "ج م ع",
+          "furuq_source_root_norm": "ج م ع",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 128,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ع د و",
+      "mapping_status": "split",
+      "qac_total_occurrences": 106,
+      "matched_occurrences": 77,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000993",
+          "furuq_root_norm": "ع د و",
+          "furuq_source_root_norm": "ع د و",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 68,
+          "is_dominant": true
+        },
+        {
+          "target_rank": 2,
+          "furuq_root_id": "root_000989",
+          "furuq_root_norm": "ع د د",
+          "furuq_source_root_norm": "ع د د",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 5,
+          "is_dominant": false
+        },
+        {
+          "target_rank": 3,
+          "furuq_root_id": "root_001058",
+          "furuq_root_norm": "ع و د",
+          "furuq_source_root_norm": "ع و د",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 4,
+          "is_dominant": false
+        }
+      ]
+    },
+    {
+      "qac_root": "ض ب ح",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 1,
+      "matched_occurrences": 1,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000901",
+          "furuq_root_norm": "ض ب ح",
+          "furuq_source_root_norm": "ض ب ح",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 1,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "و ر ي",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 32,
+      "matched_occurrences": 29,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_001642",
+          "furuq_root_norm": "و ر ي",
+          "furuq_source_root_norm": "و ر ي",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 29,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ق د ح",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 1,
+      "matched_occurrences": 1,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_001203",
+          "furuq_root_norm": "ق د ح",
+          "furuq_source_root_norm": "ق د ح",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 1,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "غ ي ر",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 154,
+      "matched_occurrences": 150,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_001119",
+          "furuq_root_norm": "غ ي ر",
+          "furuq_source_root_norm": "غ ي ر",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 150,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ص ب ح",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 45,
+      "matched_occurrences": 41,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000839",
+          "furuq_root_norm": "ص ب ح",
+          "furuq_source_root_norm": "ص ب ح",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 41,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ث و ر",
+      "mapping_status": "split",
+      "qac_total_occurrences": 5,
+      "matched_occurrences": 5,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000210",
+          "furuq_root_norm": "ث و ر",
+          "furuq_source_root_norm": "ث و ر",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 4,
+          "is_dominant": true
+        },
+        {
+          "target_rank": 2,
+          "furuq_root_id": "root_000011",
+          "furuq_root_norm": "ء ث ر",
+          "furuq_source_root_norm": "أ ث ر",
+          "furuq_resolution": "root_norm_unique",
+          "target_occurrences": 1,
+          "is_dominant": false
+        }
+      ]
+    },
+    {
+      "qac_root": "ن ق ع",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 1,
+      "matched_occurrences": 1,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_001544",
+          "furuq_root_norm": "ن ق ع",
+          "furuq_source_root_norm": "ن ق ع",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 1,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ء ن س",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 97,
+      "matched_occurrences": 28,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000059",
+          "furuq_root_norm": "ء ن س",
+          "furuq_source_root_norm": "أ ن س",
+          "furuq_resolution": "root_norm_unique",
+          "target_occurrences": 28,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ر ب ب",
+      "mapping_status": "split",
+      "qac_total_occurrences": 980,
+      "matched_occurrences": 971,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000532",
+          "furuq_root_norm": "ر ب ب",
+          "furuq_source_root_norm": "ر ب ب",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 970,
+          "is_dominant": true
+        },
+        {
+          "target_rank": 2,
+          "furuq_root_id": "root_000537",
+          "furuq_root_norm": "ر ب و",
+          "furuq_source_root_norm": "ر ب و",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 1,
+          "is_dominant": false
+        }
+      ]
+    },
+    {
+      "qac_root": "ك ن د",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 1,
+      "matched_occurrences": 1,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_001321",
+          "furuq_root_norm": "ك ن د",
+          "furuq_source_root_norm": "ك ن د",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 1,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ش ه د",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 160,
+      "matched_occurrences": 139,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000822",
+          "furuq_root_norm": "ش ه د",
+          "furuq_source_root_norm": "ش ه د",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 139,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ح ب ب",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 95,
+      "matched_occurrences": 74,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000286",
+          "furuq_root_norm": "ح ب ب",
+          "furuq_source_root_norm": "ح ب ب",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 74,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "خ ي ر",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 196,
+      "matched_occurrences": 184,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000452",
+          "furuq_root_norm": "خ ي ر",
+          "furuq_source_root_norm": "خ ي ر",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 184,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ش د د",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 102,
+      "matched_occurrences": 101,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000782",
+          "furuq_root_norm": "ش د د",
+          "furuq_source_root_norm": "ش د د",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 101,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ع ل م",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 854,
+      "matched_occurrences": 771,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_001040",
+          "furuq_root_norm": "ع ل م",
+          "furuq_source_root_norm": "ع ل م",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 771,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ب ع ث ر",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 2,
+      "matched_occurrences": 2,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000130",
+          "furuq_root_norm": "ب ع ث ر",
+          "furuq_source_root_norm": "ب ع ث ر",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 2,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ق ب ر",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 8,
+      "matched_occurrences": 8,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_001195",
+          "furuq_root_norm": "ق ب ر",
+          "furuq_source_root_norm": "ق ب ر",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 8,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ح ص ل",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 1,
+      "matched_occurrences": 1,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000330",
+          "furuq_root_norm": "ح ص ل",
+          "furuq_source_root_norm": "ح ص ل",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 1,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "ص د ر",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 46,
+      "matched_occurrences": 46,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000849",
+          "furuq_root_norm": "ص د ر",
+          "furuq_source_root_norm": "ص د ر",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 46,
+          "is_dominant": true
+        }
+      ]
+    },
+    {
+      "qac_root": "خ ب ر",
+      "mapping_status": "unique",
+      "qac_total_occurrences": 52,
+      "matched_occurrences": 52,
+      "unmapped_reason": "",
+      "targets": [
+        {
+          "target_rank": 1,
+          "furuq_root_id": "root_000387",
+          "furuq_root_norm": "خ ب ر",
+          "furuq_source_root_norm": "خ ب ر",
+          "furuq_resolution": "source_root_norm",
+          "target_occurrences": 52,
+          "is_dominant": true
+        }
+      ]
+    }
+  ],
+  "focus_ayah": {
+    "ref": "100:5",
+    "text_ar": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+    "text_norm_ar": "فوسطن به جمعا",
+    "root_sequence": [
+      "و س ط",
+      "ج م ع"
+    ],
+    "root_occurrences": [
+      {
+        "root": "و س ط",
+        "occurrence_count": 1,
+        "word_indices": [
+          "1"
+        ],
+        "surfaces_ar": [
+          "وَسَطْ"
+        ],
+        "lemmas_ar": [
+          "وَسَطْ"
+        ],
+        "pos_tags": [
+          "V"
+        ]
+      },
+      {
+        "root": "ج م ع",
+        "occurrence_count": 1,
+        "word_indices": [
+          "3"
+        ],
+        "surfaces_ar": [
+          "جَمْعًا"
+        ],
+        "lemmas_ar": [
+          "جَمْع"
+        ],
+        "pos_tags": [
+          "N"
+        ]
+      }
+    ]
+  },
+  "context_ayat": [
+    {
+      "ref": "100:1",
+      "text_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+      "text_norm_ar": "والعديت ضبحا",
+      "root_sequence": [
+        "ع د و",
+        "ض ب ح"
+      ],
+      "root_occurrences": [
+        {
+          "root": "ع د و",
+          "occurrence_count": 1,
+          "word_indices": [
+            "1"
+          ],
+          "surfaces_ar": [
+            "عَٰدِيَٰتِ"
+          ],
+          "lemmas_ar": [
+            "عَٰدِيَٰت"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        },
+        {
+          "root": "ض ب ح",
+          "occurrence_count": 1,
+          "word_indices": [
+            "2"
+          ],
+          "surfaces_ar": [
+            "ضَبْحًا"
+          ],
+          "lemmas_ar": [
+            "ضَبْح"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "100:2",
+      "text_ar": "فَٱلْمُورِيَٰتِ قَدْحًۭا",
+      "text_norm_ar": "فالموريت قدحا",
+      "root_sequence": [
+        "و ر ي",
+        "ق د ح"
+      ],
+      "root_occurrences": [
+        {
+          "root": "و ر ي",
+          "occurrence_count": 1,
+          "word_indices": [
+            "1"
+          ],
+          "surfaces_ar": [
+            "مُورِيَٰتِ"
+          ],
+          "lemmas_ar": [
+            "مُورِيَٰت"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        },
+        {
+          "root": "ق د ح",
+          "occurrence_count": 1,
+          "word_indices": [
+            "2"
+          ],
+          "surfaces_ar": [
+            "قَدْحًا"
+          ],
+          "lemmas_ar": [
+            "قَدْح"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "100:3",
+      "text_ar": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
+      "text_norm_ar": "فالمغيرت صبحا",
+      "root_sequence": [
+        "غ ي ر",
+        "ص ب ح"
+      ],
+      "root_occurrences": [
+        {
+          "root": "غ ي ر",
+          "occurrence_count": 1,
+          "word_indices": [
+            "1"
+          ],
+          "surfaces_ar": [
+            "مُغِيرَٰتِ"
+          ],
+          "lemmas_ar": [
+            "مُغِيرَٰت"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        },
+        {
+          "root": "ص ب ح",
+          "occurrence_count": 1,
+          "word_indices": [
+            "2"
+          ],
+          "surfaces_ar": [
+            "صُبْحًا"
+          ],
+          "lemmas_ar": [
+            "صُبْح"
+          ],
+          "pos_tags": [
+            "T"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "100:4",
+      "text_ar": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
+      "text_norm_ar": "فاثرن به نقعا",
+      "root_sequence": [
+        "ث و ر",
+        "ن ق ع"
+      ],
+      "root_occurrences": [
+        {
+          "root": "ث و ر",
+          "occurrence_count": 1,
+          "word_indices": [
+            "1"
+          ],
+          "surfaces_ar": [
+            "أَثَرْ"
+          ],
+          "lemmas_ar": [
+            "أَثَارُ"
+          ],
+          "pos_tags": [
+            "V"
+          ]
+        },
+        {
+          "root": "ن ق ع",
+          "occurrence_count": 1,
+          "word_indices": [
+            "3"
+          ],
+          "surfaces_ar": [
+            "نَقْعًا"
+          ],
+          "lemmas_ar": [
+            "نَقْع"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "100:6",
+      "text_ar": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ",
+      "text_norm_ar": "ان الانسن لربه لكنود",
+      "root_sequence": [
+        "ء ن س",
+        "ر ب ب",
+        "ك ن د"
+      ],
+      "root_occurrences": [
+        {
+          "root": "ء ن س",
+          "occurrence_count": 1,
+          "word_indices": [
+            "2"
+          ],
+          "surfaces_ar": [
+            "إِنسَٰنَ"
+          ],
+          "lemmas_ar": [
+            "إِنسَٰن"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        },
+        {
+          "root": "ر ب ب",
+          "occurrence_count": 1,
+          "word_indices": [
+            "3"
+          ],
+          "surfaces_ar": [
+            "رَبِّ"
+          ],
+          "lemmas_ar": [
+            "رَبّ"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        },
+        {
+          "root": "ك ن د",
+          "occurrence_count": 1,
+          "word_indices": [
+            "4"
+          ],
+          "surfaces_ar": [
+            "كَنُودٌ"
+          ],
+          "lemmas_ar": [
+            "كَنُود"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "100:7",
+      "text_ar": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ",
+      "text_norm_ar": "وانه علي ذلك لشهيد",
+      "root_sequence": [
+        "ش ه د"
+      ],
+      "root_occurrences": [
+        {
+          "root": "ش ه د",
+          "occurrence_count": 1,
+          "word_indices": [
+            "4"
+          ],
+          "surfaces_ar": [
+            "شَهِيدٌ"
+          ],
+          "lemmas_ar": [
+            "شَهِيد"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "100:8",
+      "text_ar": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+      "text_norm_ar": "وانه لحب الخير لشديد",
+      "root_sequence": [
+        "ح ب ب",
+        "خ ي ر",
+        "ش د د"
+      ],
+      "root_occurrences": [
+        {
+          "root": "ح ب ب",
+          "occurrence_count": 1,
+          "word_indices": [
+            "2"
+          ],
+          "surfaces_ar": [
+            "حُبِّ"
+          ],
+          "lemmas_ar": [
+            "حُبّ"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        },
+        {
+          "root": "خ ي ر",
+          "occurrence_count": 1,
+          "word_indices": [
+            "3"
+          ],
+          "surfaces_ar": [
+            "خَيْرِ"
+          ],
+          "lemmas_ar": [
+            "خَيْر"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        },
+        {
+          "root": "ش د د",
+          "occurrence_count": 1,
+          "word_indices": [
+            "4"
+          ],
+          "surfaces_ar": [
+            "شَدِيدٌ"
+          ],
+          "lemmas_ar": [
+            "شَدِيد"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "100:9",
+      "text_ar": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+      "text_norm_ar": "افلا يعلم اذا بعثر ما في القبور",
+      "root_sequence": [
+        "ع ل م",
+        "ب ع ث ر",
+        "ق ب ر"
+      ],
+      "root_occurrences": [
+        {
+          "root": "ع ل م",
+          "occurrence_count": 1,
+          "word_indices": [
+            "2"
+          ],
+          "surfaces_ar": [
+            "يَعْلَمُ"
+          ],
+          "lemmas_ar": [
+            "عَلِمَ"
+          ],
+          "pos_tags": [
+            "V"
+          ]
+        },
+        {
+          "root": "ب ع ث ر",
+          "occurrence_count": 1,
+          "word_indices": [
+            "4"
+          ],
+          "surfaces_ar": [
+            "بُعْثِرَ"
+          ],
+          "lemmas_ar": [
+            "بُعْثِرَ"
+          ],
+          "pos_tags": [
+            "V"
+          ]
+        },
+        {
+          "root": "ق ب ر",
+          "occurrence_count": 1,
+          "word_indices": [
+            "7"
+          ],
+          "surfaces_ar": [
+            "قُبُورِ"
+          ],
+          "lemmas_ar": [
+            "قَبْر"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "100:10",
+      "text_ar": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+      "text_norm_ar": "وحصل ما في الصدور",
+      "root_sequence": [
+        "ح ص ل",
+        "ص د ر"
+      ],
+      "root_occurrences": [
+        {
+          "root": "ح ص ل",
+          "occurrence_count": 1,
+          "word_indices": [
+            "1"
+          ],
+          "surfaces_ar": [
+            "حُصِّلَ"
+          ],
+          "lemmas_ar": [
+            "حُصِّلَ"
+          ],
+          "pos_tags": [
+            "V"
+          ]
+        },
+        {
+          "root": "ص د ر",
+          "occurrence_count": 1,
+          "word_indices": [
+            "4"
+          ],
+          "surfaces_ar": [
+            "صُّدُورِ"
+          ],
+          "lemmas_ar": [
+            "صَدْر"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "100:11",
+      "text_ar": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ",
+      "text_norm_ar": "ان ربهم بهم يومئذ لخبير",
+      "root_sequence": [
+        "ر ب ب",
+        "خ ب ر"
+      ],
+      "root_occurrences": [
+        {
+          "root": "ر ب ب",
+          "occurrence_count": 1,
+          "word_indices": [
+            "2"
+          ],
+          "surfaces_ar": [
+            "رَبَّ"
+          ],
+          "lemmas_ar": [
+            "رَبّ"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        },
+        {
+          "root": "خ ب ر",
+          "occurrence_count": 1,
+          "word_indices": [
+            "5"
+          ],
+          "surfaces_ar": [
+            "خَبِيرٌۢ"
+          ],
+          "lemmas_ar": [
+            "خَبِير"
+          ],
+          "pos_tags": [
+            "N"
+          ]
+        }
+      ]
+    }
+  ],
+  "focus_branch_inventories": [
+    {
+      "root": "و س ط",
+      "root_mapping": {
+        "qac_root": "و س ط",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 5,
+        "matched_occurrences": 5,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_001646",
+            "furuq_root_norm": "و س ط",
+            "furuq_source_root_norm": "و س ط",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 5,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:5",
+          "source_phrase_ar": "وَسَطْ",
+          "source_surfaces_ar": [
+            "وَسَطْ"
+          ],
+          "source_word_indices": [
+            "1"
+          ],
+          "source_lemmas_ar": [
+            "وَسَطْ"
+          ],
+          "source_pos_tags": [
+            "V"
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "mapped_root_id": "root_001646",
+          "mapped_root_norm": "و س ط",
+          "mapped_source_root_norm": "و س ط",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 5,
+          "branch_id": "B001",
+          "branch_image_ar": "العدل والخيار في موضع الوسط",
+          "branch_image_en": "just and choice balance at the middle",
+          "scope_ar": "يدخل فيه الوسط بمعنى العدل والخيار والقصد المصون عن الإفراط والتفريط، ومنه أمة وسطا، وأوسط القوم أو وسيط الحسب بمعنى خيارهم وأرفعهم محلا.",
+          "scope_en": "It includes middle as justice, choice excellence, and guarded moderation between excess and deficiency, including ummah wasat and the noblest or best-placed person among a people.",
+          "variants": [
+            {
+              "root_id": "root_001646",
+              "source_path": "v4/outputs/pass2_branches/root_001646.branches.tsv",
+              "branch_image_ar": "العدل والخيار في موضع الوسط",
+              "branch_image_en": "just and choice balance at the middle",
+              "scope_ar": "يدخل فيه الوسط بمعنى العدل والخيار والقصد المصون عن الإفراط والتفريط، ومنه أمة وسطا، وأوسط القوم أو وسيط الحسب بمعنى خيارهم وأرفعهم محلا.",
+              "scope_en": "It includes middle as justice, choice excellence, and guarded moderation between excess and deficiency, including ummah wasat and the noblest or best-placed person among a people."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_001646",
+          "mapped_root_norm": "و س ط",
+          "mapped_source_root_norm": "و س ط",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 5,
+          "branch_id": "B002",
+          "branch_image_ar": "موضع الوسط بين الأطراف",
+          "branch_image_en": "central position between sides",
+          "scope_ar": "يدخل فيه وسط الشيء أو الدار أو الرأس أو القوم، وما كان بين طرفين أو بين أجزاء مرتبة، وواسطة القلادة والأصبع الوسطى والصلاة الوسطى، واسم واسط إذا علل بالوقوع بين موضعين.",
+          "scope_en": "It includes the physical or ordered middle of a thing, house, head, group, or sequence, the middle gem of a necklace, the middle finger, the middle prayer, and Wasit when explained as named for being between two places.",
+          "variants": [
+            {
+              "root_id": "root_001646",
+              "source_path": "v4/outputs/pass2_branches/root_001646.branches.tsv",
+              "branch_image_ar": "موضع الوسط بين الأطراف",
+              "branch_image_en": "central position between sides",
+              "scope_ar": "يدخل فيه وسط الشيء أو الدار أو الرأس أو القوم، وما كان بين طرفين أو بين أجزاء مرتبة، وواسطة القلادة والأصبع الوسطى والصلاة الوسطى، واسم واسط إذا علل بالوقوع بين موضعين.",
+              "scope_en": "It includes the physical or ordered middle of a thing, house, head, group, or sequence, the middle gem of a necklace, the middle finger, the middle prayer, and Wasit when explained as named for being between two places."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_001646",
+          "mapped_root_norm": "و س ط",
+          "mapped_source_root_norm": "و س ط",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 5,
+          "branch_id": "B003",
+          "branch_image_ar": "الدخول أو الجعل في الوسط",
+          "branch_image_en": "entering or setting in the middle",
+          "scope_ar": "يدخل فيه وسط القوم أو أوسطهم أو توسطهم إذا دخل وسطهم، والتوسيط بمعنى جعل الشيء في الوسط.",
+          "scope_en": "It includes entering into the middle of a group and causing or placing something in the middle.",
+          "variants": [
+            {
+              "root_id": "root_001646",
+              "source_path": "v4/outputs/pass2_branches/root_001646.branches.tsv",
+              "branch_image_ar": "الدخول أو الجعل في الوسط",
+              "branch_image_en": "entering or setting in the middle",
+              "scope_ar": "يدخل فيه وسط القوم أو أوسطهم أو توسطهم إذا دخل وسطهم، والتوسيط بمعنى جعل الشيء في الوسط.",
+              "scope_en": "It includes entering into the middle of a group and causing or placing something in the middle."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_001646",
+          "mapped_root_norm": "و س ط",
+          "mapped_source_root_norm": "و س ط",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 5,
+          "branch_id": "B004",
+          "branch_image_ar": "مرتبة وسطى بين الجيد والرديء",
+          "branch_image_en": "middling rank between good and bad",
+          "scope_ar": "يدخل فيه وصف الشيء أو الرجل بأنه وسط أي بين الجيد والرديء أو خارج عن حد الخير بحسب طرفي المقابلة.",
+          "scope_en": "It includes a thing or person described as middling, between good and bad, or below the level of real excellence depending on the endpoints.",
+          "variants": [
+            {
+              "root_id": "root_001646",
+              "source_path": "v4/outputs/pass2_branches/root_001646.branches.tsv",
+              "branch_image_ar": "مرتبة وسطى بين الجيد والرديء",
+              "branch_image_en": "middling rank between good and bad",
+              "scope_ar": "يدخل فيه وصف الشيء أو الرجل بأنه وسط أي بين الجيد والرديء أو خارج عن حد الخير بحسب طرفي المقابلة.",
+              "scope_en": "It includes a thing or person described as middling, between good and bad, or below the level of real excellence depending on the endpoints."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_001646",
+          "mapped_root_norm": "و س ط",
+          "mapped_source_root_norm": "و س ط",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 5,
+          "branch_id": "B005",
+          "branch_image_ar": "الوساطة بين الناس",
+          "branch_image_en": "mediation between people",
+          "scope_ar": "يدخل فيه التوسط بين الناس بمعنى الوساطة والسعي بين الأطراف.",
+          "scope_en": "It includes mediation between people, acting between parties.",
+          "variants": [
+            {
+              "root_id": "root_001646",
+              "source_path": "v4/outputs/pass2_branches/root_001646.branches.tsv",
+              "branch_image_ar": "الوساطة بين الناس",
+              "branch_image_en": "mediation between people",
+              "scope_ar": "يدخل فيه التوسط بين الناس بمعنى الوساطة والسعي بين الأطراف.",
+              "scope_en": "It includes mediation between people, acting between parties."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_001646",
+          "mapped_root_norm": "و س ط",
+          "mapped_source_root_norm": "و س ط",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 5,
+          "branch_id": "B006",
+          "branch_image_ar": "قطع الشيء نصفين",
+          "branch_image_en": "cutting a thing in half",
+          "scope_ar": "يدخل فيه التوسيط بمعنى قطع الشيء نصفين.",
+          "scope_en": "It includes tawshit as cutting something into two halves.",
+          "variants": [
+            {
+              "root_id": "root_001646",
+              "source_path": "v4/outputs/pass2_branches/root_001646.branches.tsv",
+              "branch_image_ar": "قطع الشيء نصفين",
+              "branch_image_en": "cutting a thing in half",
+              "scope_ar": "يدخل فيه التوسيط بمعنى قطع الشيء نصفين.",
+              "scope_en": "It includes tawshit as cutting something into two halves."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": "ج م ع",
+      "root_mapping": {
+        "qac_root": "ج م ع",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 129,
+        "matched_occurrences": 128,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000259",
+            "furuq_root_norm": "ج م ع",
+            "furuq_source_root_norm": "ج م ع",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 128,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:5",
+          "source_phrase_ar": "جَمْعًا",
+          "source_surfaces_ar": [
+            "جَمْعًا"
+          ],
+          "source_word_indices": [
+            "3"
+          ],
+          "source_lemmas_ar": [
+            "جَمْع"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B001",
+          "branch_image_ar": "ضم المتفرق حتى يصير شيئا مجموعا",
+          "branch_image_en": "gathering scattered parts into one collected whole",
+          "scope_ar": "يدخل فيه جمع الشيء أو المال أو القوم، وجعل المتفرق جميعا، وما جمع من مواضع شتى كنهب مجمع.",
+          "scope_en": "It covers collecting a thing, wealth, or people, making scattered things into a whole, and material gathered from many places such as collected plunder.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "ضم المتفرق حتى يصير شيئا مجموعا",
+              "branch_image_en": "gathering scattered parts into one collected whole",
+              "scope_ar": "يدخل فيه جمع الشيء أو المال أو القوم، وجعل المتفرق جميعا، وما جمع من مواضع شتى كنهب مجمع.",
+              "scope_en": "It covers collecting a thing, wealth, or people, making scattered things into a whole, and material gathered from many places such as collected plunder."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B002",
+          "branch_image_ar": "جماعة اجتمعت أو أخلاط ضمتها الجهة",
+          "branch_image_en": "assembled group or mixed multitude",
+          "scope_ar": "يدخل فيه الجمع والجموع والجميع والجماعة والجماع إذا أريد بها جماعة الناس أو أخلاطهم أو الجيش.",
+          "scope_en": "It covers jamʿ, jumūʿ, jamīʿ, jamāʿah, and jamāʿ when they mean an assembled body, mixed people, or an army.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "جماعة اجتمعت أو أخلاط ضمتها الجهة",
+              "branch_image_en": "assembled group or mixed multitude",
+              "scope_ar": "يدخل فيه الجمع والجموع والجميع والجماعة والجماع إذا أريد بها جماعة الناس أو أخلاطهم أو الجيش.",
+              "scope_en": "It covers jamʿ, jumūʿ, jamīʿ, jamāʿah, and jamāʿ when they mean an assembled body, mixed people, or an army."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B003",
+          "branch_image_ar": "عزم محكم جمع الرأي بعد تفرقه",
+          "branch_image_en": "concerted resolve that gathers thought into one decision",
+          "scope_ar": "يدخل فيه أجمع على الأمر، أجمع الأمر أو الكيد، الإجماع بمعنى الإعداد والعزيمة والإحكام، واجتماع الآراء على تدبير.",
+          "scope_en": "It covers resolving upon a matter, concerting an affair or plan, firm preparation, and opinions gathered into one decision.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "عزم محكم جمع الرأي بعد تفرقه",
+              "branch_image_en": "concerted resolve that gathers thought into one decision",
+              "scope_ar": "يدخل فيه أجمع على الأمر، أجمع الأمر أو الكيد، الإجماع بمعنى الإعداد والعزيمة والإحكام، واجتماع الآراء على تدبير.",
+              "scope_en": "It covers resolving upon a matter, concerting an affair or plan, firm preparation, and opinions gathered into one decision."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B004",
+          "branch_image_ar": "موضع أو يوم أو نداء يجمع الناس",
+          "branch_image_en": "gathering-place, gathering-day, or summons",
+          "scope_ar": "يدخل فيه المجمع والموضع الذي يجتمع فيه الناس، وجمع للمزدلفة أو أيام منى، ويوم الجمعة ويوم الجمع، والمسجد الجامع، ونداء الصلاة جامعة، وفلاة مجمعة.",
+          "scope_en": "It covers a place where people gather, Jamʿ as a pilgrimage location or days, Friday and the Day of Gathering, the congregational mosque, a summons to communal prayer, and a desert that keeps people together.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "موضع أو يوم أو نداء يجمع الناس",
+              "branch_image_en": "gathering-place, gathering-day, or summons",
+              "scope_ar": "يدخل فيه المجمع والموضع الذي يجتمع فيه الناس، وجمع للمزدلفة أو أيام منى، ويوم الجمعة ويوم الجمع، والمسجد الجامع، ونداء الصلاة جامعة، وفلاة مجمعة.",
+              "scope_en": "It covers a place where people gather, Jamʿ as a pilgrimage location or days, Friday and the Day of Gathering, the congregational mosque, a summons to communal prayer, and a desert that keeps people together."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B005",
+          "branch_image_ar": "قبضة الكف إذا ضمت الأصابع",
+          "branch_image_en": "the clenched hollow of the hand",
+          "scope_ar": "يدخل فيه جمع الكف، الضرب بجمع الكف، ملء الجمع، والقبضة أو جمعة التمر.",
+          "scope_en": "It covers the gathered palm or fist, striking with the gathered palm, a palmful, and a handful of dates.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "قبضة الكف إذا ضمت الأصابع",
+              "branch_image_en": "the clenched hollow of the hand",
+              "scope_ar": "يدخل فيه جمع الكف، الضرب بجمع الكف، ملء الجمع، والقبضة أو جمعة التمر.",
+              "scope_en": "It covers the gathered palm or fist, striking with the gathered palm, a palmful, and a handful of dates."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B006",
+          "branch_image_ar": "اتصال الجماع والمجامعة",
+          "branch_image_en": "sexual joining or intercourse",
+          "scope_ar": "يدخل فيه الجماع كناية عن النكاح، والمجامعة بمعنى المباضعة.",
+          "scope_en": "It covers jamāʿ as a euphemism for sexual intercourse and mujāmaʿah as copulation.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "اتصال الجماع والمجامعة",
+              "branch_image_en": "sexual joining or intercourse",
+              "scope_ar": "يدخل فيه الجماع كناية عن النكاح، والمجامعة بمعنى المباضعة.",
+              "scope_en": "It covers jamāʿ as a euphemism for sexual intercourse and mujāmaʿah as copulation."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B007",
+          "branch_image_ar": "حال المرأة أو الأنثى التي بقي حملها أو عذرها معها",
+          "branch_image_en": "a female state of retained pregnancy or virgin intactness",
+          "scope_ar": "يدخل فيه ماتت المرأة بجمع أي وولدها في بطنها، أو عذراء لم تمسس، وفلانة عند زوجها بجمع إذا لم يصل إليها، وأتان جامع إذا حملت أول ما تحمل.",
+          "scope_en": "It covers the idiom of a woman dying with her child in her womb, a virgin or wife not yet reached, and a she-ass first becoming pregnant.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "حال المرأة أو الأنثى التي بقي حملها أو عذرها معها",
+              "branch_image_en": "a female state of retained pregnancy or virgin intactness",
+              "scope_ar": "يدخل فيه ماتت المرأة بجمع أي وولدها في بطنها، أو عذراء لم تمسس، وفلانة عند زوجها بجمع إذا لم يصل إليها، وأتان جامع إذا حملت أول ما تحمل.",
+              "scope_en": "It covers the idiom of a woman dying with her child in her womb, a virgin or wife not yet reached, and a she-ass first becoming pregnant."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B008",
+          "branch_image_ar": "القيد الذي يجمع اليدين إلى العنق",
+          "branch_image_en": "a restraint that gathers the hands to the neck",
+          "scope_ar": "يدخل فيه الجامعة والجوامع بمعنى الأغلال.",
+          "scope_en": "It covers al-jāmiʿah and al-jawāmiʿ as shackles or restraints.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "القيد الذي يجمع اليدين إلى العنق",
+              "branch_image_en": "a restraint that gathers the hands to the neck",
+              "scope_ar": "يدخل فيه الجامعة والجوامع بمعنى الأغلال.",
+              "scope_en": "It covers al-jāmiʿah and al-jawāmiʿ as shackles or restraints."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B009",
+          "branch_image_ar": "اكتمال الشيء كله بلا تفرق أو نقص",
+          "branch_image_en": "wholeness without scattering or loss",
+          "scope_ar": "يدخل فيه جمعاء للبهيمة التي لم يذهب من بدنها شيء، وجميع وأجمعون وجمع في التوكيد والكلية، والرجل المجتمع أو الجميع في خلقه، والجارية جمعت الثياب.",
+          "scope_en": "It covers intactness, totality and emphatic allness, a fully formed man, and a girl reaching the stage of wearing full garments.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "اكتمال الشيء كله بلا تفرق أو نقص",
+              "branch_image_en": "wholeness without scattering or loss",
+              "scope_ar": "يدخل فيه جمعاء للبهيمة التي لم يذهب من بدنها شيء، وجميع وأجمعون وجمع في التوكيد والكلية، والرجل المجتمع أو الجميع في خلقه، والجارية جمعت الثياب.",
+              "scope_en": "It covers intactness, totality and emphatic allness, a fully formed man, and a girl reaching the stage of wearing full garments."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B010",
+          "branch_image_ar": "استجماع القوة أو السير حتى تتلاحق أجزاؤه",
+          "branch_image_en": "gathering force or motion until it is concentrated",
+          "scope_ar": "يدخل فيه استجمع الفرس جريا، واستجمع السيل، واستجمع الأمر للمرء أي تهيأ له واجتمع.",
+          "scope_en": "It covers a horse gathering speed, a flood gathering from every place, and a person's affairs coming together or being prepared.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "استجماع القوة أو السير حتى تتلاحق أجزاؤه",
+              "branch_image_en": "gathering force or motion until it is concentrated",
+              "scope_ar": "يدخل فيه استجمع الفرس جريا، واستجمع السيل، واستجمع الأمر للمرء أي تهيأ له واجتمع.",
+              "scope_en": "It covers a horse gathering speed, a flood gathering from every place, and a person's affairs coming together or being prepared."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B011",
+          "branch_image_ar": "نخل دقل اجتمع من النوى لا يعرف اسمه",
+          "branch_image_en": "seed-grown date-palms of unnamed kind",
+          "scope_ar": "يدخل فيه الجمع بمعنى الدقل أو كل لون من النخل خرج من النوى ولا يعرف اسمه.",
+          "scope_en": "It covers al-jamʿ as inferior or seed-grown date-palms whose specific variety is not known.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "نخل دقل اجتمع من النوى لا يعرف اسمه",
+              "branch_image_en": "seed-grown date-palms of unnamed kind",
+              "scope_ar": "يدخل فيه الجمع بمعنى الدقل أو كل لون من النخل خرج من النوى ولا يعرف اسمه.",
+              "scope_en": "It covers al-jamʿ as inferior or seed-grown date-palms whose specific variety is not known."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B012",
+          "branch_image_ar": "عظم الشيء كأنه جامع ممتلئ",
+          "branch_image_en": "greatness or largeness as a gathered fullness",
+          "scope_ar": "يدخل فيه قدر جماع أو جامعة بمعنى القدر العظيمة.",
+          "scope_en": "It covers a pot called jamāʿ or jāmiʿah because it is large.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "عظم الشيء كأنه جامع ممتلئ",
+              "branch_image_en": "greatness or largeness as a gathered fullness",
+              "scope_ar": "يدخل فيه قدر جماع أو جامعة بمعنى القدر العظيمة.",
+              "scope_en": "It covers a pot called jamāʿ or jāmiʿah because it is large."
+            }
+          ]
+        },
+        {
+          "mapped_root_id": "root_000259",
+          "mapped_root_norm": "ج م ع",
+          "mapped_source_root_norm": "ج م ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 128,
+          "branch_id": "B013",
+          "branch_image_ar": "ممالأة واجتماع مع غيرك على أمر",
+          "branch_image_en": "joining with another in support of a matter",
+          "scope_ar": "يدخل فيه جامعت الرجل على الأمر إذا مالأته عليه، وجامعه على أمر إذا اجتمع معه.",
+          "scope_en": "It covers joining another person in support of or agreement over a matter.",
+          "variants": [
+            {
+              "root_id": "root_000259",
+              "source_path": "v4/outputs/pass2_branches/root_000259.branches.tsv",
+              "branch_image_ar": "ممالأة واجتماع مع غيرك على أمر",
+              "branch_image_en": "joining with another in support of a matter",
+              "scope_ar": "يدخل فيه جامعت الرجل على الأمر إذا مالأته عليه، وجامعه على أمر إذا اجتمع معه.",
+              "scope_en": "It covers joining another person in support of or agreement over a matter."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "context_root_cues": [
+    {
+      "root": "ع د و",
+      "root_mapping": {
+        "qac_root": "ع د و",
+        "mapping_status": "split",
+        "qac_total_occurrences": 106,
+        "matched_occurrences": 77,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000993",
+            "furuq_root_norm": "ع د و",
+            "furuq_source_root_norm": "ع د و",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 68,
+            "is_dominant": true
+          },
+          {
+            "target_rank": 2,
+            "furuq_root_id": "root_000989",
+            "furuq_root_norm": "ع د د",
+            "furuq_source_root_norm": "ع د د",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 5,
+            "is_dominant": false
+          },
+          {
+            "target_rank": 3,
+            "furuq_root_id": "root_001058",
+            "furuq_root_norm": "ع و د",
+            "furuq_source_root_norm": "ع و د",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 4,
+            "is_dominant": false
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:1",
+          "source_phrase_ar": "عَٰدِيَٰتِ",
+          "source_surfaces_ar": [
+            "عَٰدِيَٰتِ"
+          ],
+          "source_word_indices": [
+            "1"
+          ],
+          "source_lemmas_ar": [
+            "عَٰدِيَٰت"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000993",
+          "mapped_root_norm": "ع د و",
+          "mapped_source_root_norm": "ع د و",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 68,
+          "branch_id": "B001",
+          "branch_image_ar": "مجاوزة الحد والظلم"
+        },
+        {
+          "mapped_root_id": "root_000993",
+          "mapped_root_norm": "ع د و",
+          "mapped_source_root_norm": "ع د و",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 68,
+          "branch_id": "B002",
+          "branch_image_ar": "العَدْو والحَضْر"
+        },
+        {
+          "mapped_root_id": "root_000993",
+          "mapped_root_norm": "ع د و",
+          "mapped_source_root_norm": "ع د و",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 68,
+          "branch_id": "B003",
+          "branch_image_ar": "العَدُوّ والعداوة"
+        },
+        {
+          "mapped_root_id": "root_000993",
+          "mapped_root_norm": "ع د و",
+          "mapped_source_root_norm": "ع د و",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 68,
+          "branch_id": "B004",
+          "branch_image_ar": "المجاوزة والاستثناء والصرف"
+        },
+        {
+          "mapped_root_id": "root_000993",
+          "mapped_root_norm": "ع د و",
+          "mapped_source_root_norm": "ع د و",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 68,
+          "branch_id": "B005",
+          "branch_image_ar": "العَدْوى في طلب الإنصاف"
+        },
+        {
+          "mapped_root_id": "root_000993",
+          "mapped_root_norm": "ع د و",
+          "mapped_source_root_norm": "ع د و",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 68,
+          "branch_id": "B006",
+          "branch_image_ar": "العَدْوى في انتقال الداء"
+        },
+        {
+          "mapped_root_id": "root_000993",
+          "mapped_root_norm": "ع د و",
+          "mapped_source_root_norm": "ع د و",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 68,
+          "branch_id": "B007",
+          "branch_image_ar": "العَوادي والعادية الشاغلة"
+        },
+        {
+          "mapped_root_id": "root_000993",
+          "mapped_root_norm": "ع د و",
+          "mapped_source_root_norm": "ع د و",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 68,
+          "branch_id": "B008",
+          "branch_image_ar": "العِداء في تعاقب الصيد"
+        },
+        {
+          "mapped_root_id": "root_000993",
+          "mapped_root_norm": "ع د و",
+          "mapped_source_root_norm": "ع د و",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 68,
+          "branch_id": "B009",
+          "branch_image_ar": "العَداء والعُدوة في الجانب والطوار"
+        },
+        {
+          "mapped_root_id": "root_000993",
+          "mapped_root_norm": "ع د و",
+          "mapped_source_root_norm": "ع د و",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 68,
+          "branch_id": "B010",
+          "branch_image_ar": "العَدْواء في صلابة المكان واضطرابه"
+        },
+        {
+          "mapped_root_id": "root_000993",
+          "mapped_root_norm": "ع د و",
+          "mapped_source_root_norm": "ع د و",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 68,
+          "branch_id": "B011",
+          "branch_image_ar": "العَدَوِيّة من نبات الصيف"
+        },
+        {
+          "mapped_root_id": "root_000993",
+          "mapped_root_norm": "ع د و",
+          "mapped_source_root_norm": "ع د و",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 68,
+          "branch_id": "B012",
+          "branch_image_ar": "العَنْدَأْوَة في الالتواء والعسر"
+        },
+        {
+          "mapped_root_id": "root_000989",
+          "mapped_root_norm": "ع د د",
+          "mapped_source_root_norm": "ع د د",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 5,
+          "branch_id": "B001",
+          "branch_image_ar": "إحصاء المعدود"
+        },
+        {
+          "mapped_root_id": "root_000989",
+          "mapped_root_norm": "ع د د",
+          "mapped_source_root_norm": "ع د د",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 5,
+          "branch_id": "B002",
+          "branch_image_ar": "تهيئة العدة"
+        },
+        {
+          "mapped_root_id": "root_000989",
+          "mapped_root_norm": "ع د د",
+          "mapped_source_root_norm": "ع د د",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 5,
+          "branch_id": "B003",
+          "branch_image_ar": "مدة العدة المعدودة"
+        },
+        {
+          "mapped_root_id": "root_000989",
+          "mapped_root_norm": "ع د د",
+          "mapped_source_root_norm": "ع د د",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 5,
+          "branch_id": "B004",
+          "branch_image_ar": "الماء العد"
+        },
+        {
+          "mapped_root_id": "root_000989",
+          "mapped_root_norm": "ع د د",
+          "mapped_source_root_norm": "ع د د",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 5,
+          "branch_id": "B005",
+          "branch_image_ar": "عداد الوقت ومعاودته"
+        },
+        {
+          "mapped_root_id": "root_000989",
+          "mapped_root_norm": "ع د د",
+          "mapped_source_root_norm": "ع د د",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 5,
+          "branch_id": "B006",
+          "branch_image_ar": "نظير يعد مع غيره"
+        },
+        {
+          "mapped_root_id": "root_001058",
+          "mapped_root_norm": "ع و د",
+          "mapped_source_root_norm": "ع و د",
+          "mapped_target_rank": 3,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B001",
+          "branch_image_ar": "رجوع بعد انصراف وتثنية بعد بدء"
+        },
+        {
+          "mapped_root_id": "root_001058",
+          "mapped_root_norm": "ع و د",
+          "mapped_source_root_norm": "ع و د",
+          "mapped_target_rank": 3,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B002",
+          "branch_image_ar": "مصير ومرجع ومعاد"
+        },
+        {
+          "mapped_root_id": "root_001058",
+          "mapped_root_norm": "ع و د",
+          "mapped_source_root_norm": "ع و د",
+          "mapped_target_rank": 3,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B003",
+          "branch_image_ar": "سكوت لا يبدئ ولا يعيد"
+        },
+        {
+          "mapped_root_id": "root_001058",
+          "mapped_root_norm": "ع و د",
+          "mapped_source_root_norm": "ع و د",
+          "mapped_target_rank": 3,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B004",
+          "branch_image_ar": "عادة ودرَبة ومواظبة"
+        },
+        {
+          "mapped_root_id": "root_001058",
+          "mapped_root_norm": "ع و د",
+          "mapped_source_root_norm": "ع و د",
+          "mapped_target_rank": 3,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B005",
+          "branch_image_ar": "عيادة ومعادة وزيارة راجعة"
+        },
+        {
+          "mapped_root_id": "root_001058",
+          "mapped_root_norm": "ع و د",
+          "mapped_source_root_norm": "ع و د",
+          "mapped_target_rank": 3,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B006",
+          "branch_image_ar": "عائدة ومعروف يرجع"
+        },
+        {
+          "mapped_root_id": "root_001058",
+          "mapped_root_norm": "ع و د",
+          "mapped_source_root_norm": "ع و د",
+          "mapped_target_rank": 3,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B007",
+          "branch_image_ar": "عيد وحال يعاود"
+        },
+        {
+          "mapped_root_id": "root_001058",
+          "mapped_root_norm": "ع و د",
+          "mapped_source_root_norm": "ع و د",
+          "mapped_target_rank": 3,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B008",
+          "branch_image_ar": "عود مسن فيه بقايا قوة"
+        },
+        {
+          "mapped_root_id": "root_001058",
+          "mapped_root_norm": "ع و د",
+          "mapped_source_root_norm": "ع و د",
+          "mapped_target_rank": 3,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B009",
+          "branch_image_ar": "قدم وطريق عود"
+        },
+        {
+          "mapped_root_id": "root_001058",
+          "mapped_root_norm": "ع و د",
+          "mapped_source_root_norm": "ع و د",
+          "mapped_target_rank": 3,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B010",
+          "branch_image_ar": "عود من خشب وطيب وآلة"
+        },
+        {
+          "mapped_root_id": "root_001058",
+          "mapped_root_norm": "ع و د",
+          "mapped_source_root_norm": "ع و د",
+          "mapped_target_rank": 3,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B012",
+          "branch_image_ar": "عاد وأعلام منسوبة إليها"
+        }
+      ]
+    },
+    {
+      "root": "ض ب ح",
+      "root_mapping": {
+        "qac_root": "ض ب ح",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 1,
+        "matched_occurrences": 1,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000901",
+            "furuq_root_norm": "ض ب ح",
+            "furuq_source_root_norm": "ض ب ح",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 1,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:1",
+          "source_phrase_ar": "ضَبْحًا",
+          "source_surfaces_ar": [
+            "ضَبْحًا"
+          ],
+          "source_word_indices": [
+            "2"
+          ],
+          "source_lemmas_ar": [
+            "ضَبْح"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000901",
+          "mapped_root_norm": "ض ب ح",
+          "mapped_source_root_norm": "ض ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B001",
+          "branch_image_ar": "صوت الضباح"
+        },
+        {
+          "mapped_root_id": "root_000901",
+          "mapped_root_norm": "ض ب ح",
+          "mapped_source_root_norm": "ض ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B002",
+          "branch_image_ar": "عدو ممدود الضبعين"
+        },
+        {
+          "mapped_root_id": "root_000901",
+          "mapped_root_norm": "ض ب ح",
+          "mapped_source_root_norm": "ض ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B003",
+          "branch_image_ar": "إحراق أعالي العود"
+        },
+        {
+          "mapped_root_id": "root_000901",
+          "mapped_root_norm": "ض ب ح",
+          "mapped_source_root_norm": "ض ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B004",
+          "branch_image_ar": "تغير اللون إلى السواد"
+        },
+        {
+          "mapped_root_id": "root_000901",
+          "mapped_root_norm": "ض ب ح",
+          "mapped_source_root_norm": "ض ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B005",
+          "branch_image_ar": "الرماد"
+        }
+      ]
+    },
+    {
+      "root": "و ر ي",
+      "root_mapping": {
+        "qac_root": "و ر ي",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 32,
+        "matched_occurrences": 29,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_001642",
+            "furuq_root_norm": "و ر ي",
+            "furuq_source_root_norm": "و ر ي",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 29,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:2",
+          "source_phrase_ar": "مُورِيَٰتِ",
+          "source_surfaces_ar": [
+            "مُورِيَٰتِ"
+          ],
+          "source_word_indices": [
+            "1"
+          ],
+          "source_lemmas_ar": [
+            "مُورِيَٰت"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_001642",
+          "mapped_root_norm": "و ر ي",
+          "mapped_source_root_norm": "و ر ي",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 29,
+          "branch_id": "B001",
+          "branch_image_ar": "داء يأكل الجوف أو يصيب الرئة"
+        },
+        {
+          "mapped_root_id": "root_001642",
+          "mapped_root_norm": "و ر ي",
+          "mapped_source_root_norm": "و ر ي",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 29,
+          "branch_id": "B002",
+          "branch_image_ar": "نار كامنة تخرج من الزند"
+        },
+        {
+          "mapped_root_id": "root_001642",
+          "mapped_root_norm": "و ر ي",
+          "mapped_source_root_norm": "و ر ي",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 29,
+          "branch_id": "B003",
+          "branch_image_ar": "زند يقدح نجاحا أو نصرة"
+        },
+        {
+          "mapped_root_id": "root_001642",
+          "mapped_root_norm": "و ر ي",
+          "mapped_source_root_norm": "و ر ي",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 29,
+          "branch_id": "B004",
+          "branch_image_ar": "شحم وار وسمن ظاهر"
+        },
+        {
+          "mapped_root_id": "root_001642",
+          "mapped_root_norm": "و ر ي",
+          "mapped_source_root_norm": "و ر ي",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 29,
+          "branch_id": "B005",
+          "branch_image_ar": "ستر الشيء وجعله وراء الظهور"
+        },
+        {
+          "mapped_root_id": "root_001642",
+          "mapped_root_norm": "و ر ي",
+          "mapped_source_root_norm": "و ر ي",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 29,
+          "branch_id": "B006",
+          "branch_image_ar": "الجانب الوراء: خلف أو أمام أو سوى"
+        },
+        {
+          "mapped_root_id": "root_001642",
+          "mapped_root_norm": "و ر ي",
+          "mapped_source_root_norm": "و ر ي",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 29,
+          "branch_id": "B007",
+          "branch_image_ar": "ولد الولد يأتي من وراء الابن"
+        },
+        {
+          "mapped_root_id": "root_001642",
+          "mapped_root_norm": "و ر ي",
+          "mapped_source_root_norm": "و ر ي",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 29,
+          "branch_id": "B008",
+          "branch_image_ar": "الورى: الخلق على ظهر الأرض"
+        }
+      ]
+    },
+    {
+      "root": "ق د ح",
+      "root_mapping": {
+        "qac_root": "ق د ح",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 1,
+        "matched_occurrences": 1,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_001203",
+            "furuq_root_norm": "ق د ح",
+            "furuq_source_root_norm": "ق د ح",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 1,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:2",
+          "source_phrase_ar": "قَدْحًا",
+          "source_surfaces_ar": [
+            "قَدْحًا"
+          ],
+          "source_word_indices": [
+            "2"
+          ],
+          "source_lemmas_ar": [
+            "قَدْح"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_001203",
+          "mapped_root_norm": "ق د ح",
+          "mapped_source_root_norm": "ق د ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B001",
+          "branch_image_ar": "إيراء النار بالقدح"
+        },
+        {
+          "mapped_root_id": "root_001203",
+          "mapped_root_norm": "ق د ح",
+          "mapped_source_root_norm": "ق د ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B002",
+          "branch_image_ar": "نقر الشيء وعيبه"
+        },
+        {
+          "mapped_root_id": "root_001203",
+          "mapped_root_norm": "ق د ح",
+          "mapped_source_root_norm": "ق د ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B003",
+          "branch_image_ar": "طعن في النسب"
+        },
+        {
+          "mapped_root_id": "root_001203",
+          "mapped_root_norm": "ق د ح",
+          "mapped_source_root_norm": "ق د ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B004",
+          "branch_image_ar": "أكال الشجر والسن"
+        },
+        {
+          "mapped_root_id": "root_001203",
+          "mapped_root_norm": "ق د ح",
+          "mapped_source_root_norm": "ق د ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B005",
+          "branch_image_ar": "غرف ما في القدر"
+        },
+        {
+          "mapped_root_id": "root_001203",
+          "mapped_root_norm": "ق د ح",
+          "mapped_source_root_norm": "ق د ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B006",
+          "branch_image_ar": "قدح الشرب"
+        },
+        {
+          "mapped_root_id": "root_001203",
+          "mapped_root_norm": "ق د ح",
+          "mapped_source_root_norm": "ق د ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B007",
+          "branch_image_ar": "عود السهم والقدح في الميسر"
+        },
+        {
+          "mapped_root_id": "root_001203",
+          "mapped_root_norm": "ق د ح",
+          "mapped_source_root_norm": "ق د ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B008",
+          "branch_image_ar": "ضمر الفرس وغؤور العين"
+        },
+        {
+          "mapped_root_id": "root_001203",
+          "mapped_root_norm": "ق د ح",
+          "mapped_source_root_norm": "ق د ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B009",
+          "branch_image_ar": "رخص أطراف النبت"
+        },
+        {
+          "mapped_root_id": "root_001203",
+          "mapped_root_norm": "ق د ح",
+          "mapped_source_root_norm": "ق د ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B010",
+          "branch_image_ar": "اقتداح الأمر بالنظر والتدبير"
+        }
+      ]
+    },
+    {
+      "root": "غ ي ر",
+      "root_mapping": {
+        "qac_root": "غ ي ر",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 154,
+        "matched_occurrences": 150,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_001119",
+            "furuq_root_norm": "غ ي ر",
+            "furuq_source_root_norm": "غ ي ر",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 150,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:3",
+          "source_phrase_ar": "مُغِيرَٰتِ",
+          "source_surfaces_ar": [
+            "مُغِيرَٰتِ"
+          ],
+          "source_word_indices": [
+            "1"
+          ],
+          "source_lemmas_ar": [
+            "مُغِيرَٰت"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_001119",
+          "mapped_root_norm": "غ ي ر",
+          "mapped_source_root_norm": "غ ي ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 150,
+          "branch_id": "B001",
+          "branch_image_ar": "الصلاح والمنفعة بالميرة والسقي والإصلاح"
+        },
+        {
+          "mapped_root_id": "root_001119",
+          "mapped_root_norm": "غ ي ر",
+          "mapped_source_root_norm": "غ ي ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 150,
+          "branch_id": "B002",
+          "branch_image_ar": "الغَيْر في الدية"
+        },
+        {
+          "mapped_root_id": "root_001119",
+          "mapped_root_norm": "غ ي ر",
+          "mapped_source_root_norm": "غ ي ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 150,
+          "branch_id": "B003",
+          "branch_image_ar": "تغيير الصورة أو إبدال الشيء بغيره"
+        },
+        {
+          "mapped_root_id": "root_001119",
+          "mapped_root_norm": "غ ي ر",
+          "mapped_source_root_norm": "غ ي ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 150,
+          "branch_id": "B004",
+          "branch_image_ar": "الغَيْرة على الأهل"
+        },
+        {
+          "mapped_root_id": "root_001119",
+          "mapped_root_norm": "غ ي ر",
+          "mapped_source_root_norm": "غ ي ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 150,
+          "branch_id": "B005",
+          "branch_image_ar": "السوى والخلاف والاستثناء والنفي"
+        }
+      ]
+    },
+    {
+      "root": "ص ب ح",
+      "root_mapping": {
+        "qac_root": "ص ب ح",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 45,
+        "matched_occurrences": 41,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000839",
+            "furuq_root_norm": "ص ب ح",
+            "furuq_source_root_norm": "ص ب ح",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 41,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:3",
+          "source_phrase_ar": "صُبْحًا",
+          "source_surfaces_ar": [
+            "صُبْحًا"
+          ],
+          "source_word_indices": [
+            "2"
+          ],
+          "source_lemmas_ar": [
+            "صُبْح"
+          ],
+          "source_pos_tags": [
+            "T"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000839",
+          "mapped_root_norm": "ص ب ح",
+          "mapped_source_root_norm": "ص ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 41,
+          "branch_id": "B001",
+          "branch_image_ar": "الصبح وأول النهار"
+        },
+        {
+          "mapped_root_id": "root_000839",
+          "mapped_root_norm": "ص ب ح",
+          "mapped_source_root_norm": "ص ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 41,
+          "branch_id": "B002",
+          "branch_image_ar": "الإتيان صباحا"
+        },
+        {
+          "mapped_root_id": "root_000839",
+          "mapped_root_norm": "ص ب ح",
+          "mapped_source_root_norm": "ص ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 41,
+          "branch_id": "B003",
+          "branch_image_ar": "الصبوح"
+        },
+        {
+          "mapped_root_id": "root_000839",
+          "mapped_root_norm": "ص ب ح",
+          "mapped_source_root_norm": "ص ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 41,
+          "branch_id": "B004",
+          "branch_image_ar": "يوم الصباح"
+        },
+        {
+          "mapped_root_id": "root_000839",
+          "mapped_root_norm": "ص ب ح",
+          "mapped_source_root_norm": "ص ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 41,
+          "branch_id": "B005",
+          "branch_image_ar": "المصباح والسراج"
+        },
+        {
+          "mapped_root_id": "root_000839",
+          "mapped_root_norm": "ص ب ح",
+          "mapped_source_root_norm": "ص ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 41,
+          "branch_id": "B006",
+          "branch_image_ar": "الصُّبْحة والصباحة"
+        },
+        {
+          "mapped_root_id": "root_000839",
+          "mapped_root_norm": "ص ب ح",
+          "mapped_source_root_norm": "ص ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 41,
+          "branch_id": "B007",
+          "branch_image_ar": "الصُّبْحة نوما"
+        },
+        {
+          "mapped_root_id": "root_000839",
+          "mapped_root_norm": "ص ب ح",
+          "mapped_source_root_norm": "ص ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 41,
+          "branch_id": "B008",
+          "branch_image_ar": "الناقة المصباح"
+        },
+        {
+          "mapped_root_id": "root_000839",
+          "mapped_root_norm": "ص ب ح",
+          "mapped_source_root_norm": "ص ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 41,
+          "branch_id": "B009",
+          "branch_image_ar": "ظروف الصباح"
+        },
+        {
+          "mapped_root_id": "root_000839",
+          "mapped_root_norm": "ص ب ح",
+          "mapped_source_root_norm": "ص ب ح",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 41,
+          "branch_id": "B010",
+          "branch_image_ar": "أصبح بمعنى صار"
+        }
+      ]
+    },
+    {
+      "root": "ث و ر",
+      "root_mapping": {
+        "qac_root": "ث و ر",
+        "mapping_status": "split",
+        "qac_total_occurrences": 5,
+        "matched_occurrences": 5,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000210",
+            "furuq_root_norm": "ث و ر",
+            "furuq_source_root_norm": "ث و ر",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 4,
+            "is_dominant": true
+          },
+          {
+            "target_rank": 2,
+            "furuq_root_id": "root_000011",
+            "furuq_root_norm": "ء ث ر",
+            "furuq_source_root_norm": "أ ث ر",
+            "furuq_resolution": "root_norm_unique",
+            "target_occurrences": 1,
+            "is_dominant": false
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:4",
+          "source_phrase_ar": "أَثَرْ",
+          "source_surfaces_ar": [
+            "أَثَرْ"
+          ],
+          "source_word_indices": [
+            "1"
+          ],
+          "source_lemmas_ar": [
+            "أَثَارُ"
+          ],
+          "source_pos_tags": [
+            "V"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000210",
+          "mapped_root_norm": "ث و ر",
+          "mapped_source_root_norm": "ث و ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B001",
+          "branch_image_ar": "انبعاث الشيء وانتشاره ظاهرا"
+        },
+        {
+          "mapped_root_id": "root_000210",
+          "mapped_root_norm": "ث و ر",
+          "mapped_source_root_norm": "ث و ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B002",
+          "branch_image_ar": "إثارة الشيء وتحريكه من موضعه"
+        },
+        {
+          "mapped_root_id": "root_000210",
+          "mapped_root_norm": "ث و ر",
+          "mapped_source_root_norm": "ث و ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B003",
+          "branch_image_ar": "هيجان إلى مواجهة أو غضب"
+        },
+        {
+          "mapped_root_id": "root_000210",
+          "mapped_root_norm": "ث و ر",
+          "mapped_source_root_norm": "ث و ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B004",
+          "branch_image_ar": "الثور: ذكر البقر"
+        },
+        {
+          "mapped_root_id": "root_000210",
+          "mapped_root_norm": "ث و ر",
+          "mapped_source_root_norm": "ث و ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B005",
+          "branch_image_ar": "ثورة الأقط: قطعة جامدة"
+        },
+        {
+          "mapped_root_id": "root_000210",
+          "mapped_root_norm": "ث و ر",
+          "mapped_source_root_norm": "ث و ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B006",
+          "branch_image_ar": "ثور اسما لمكان أو قوم أو برج"
+        },
+        {
+          "mapped_root_id": "root_000210",
+          "mapped_root_norm": "ث و ر",
+          "mapped_source_root_norm": "ث و ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 4,
+          "branch_id": "B007",
+          "branch_image_ar": "ثور الماء: طحلب يعلو السطح"
+        },
+        {
+          "mapped_root_id": "root_000011",
+          "mapped_root_norm": "ء ث ر",
+          "mapped_source_root_norm": "أ ث ر",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B001",
+          "branch_image_ar": "تقديم الشيء في البدء أو الاختيار"
+        },
+        {
+          "mapped_root_id": "root_000011",
+          "mapped_root_norm": "ء ث ر",
+          "mapped_source_root_norm": "أ ث ر",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B002",
+          "branch_image_ar": "نقل الخبر حتى يصير مأثورا"
+        },
+        {
+          "mapped_root_id": "root_000011",
+          "mapped_root_norm": "ء ث ر",
+          "mapped_source_root_norm": "أ ث ر",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B003",
+          "branch_image_ar": "علامة باقية تدل على ما كان"
+        },
+        {
+          "mapped_root_id": "root_000011",
+          "mapped_root_norm": "ء ث ر",
+          "mapped_source_root_norm": "أ ث ر",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B004",
+          "branch_image_ar": "السير على إثر سابق"
+        },
+        {
+          "mapped_root_id": "root_000011",
+          "mapped_root_norm": "ء ث ر",
+          "mapped_source_root_norm": "أ ث ر",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B005",
+          "branch_image_ar": "تفضيل الغير أو الشيء بالاختيار"
+        },
+        {
+          "mapped_root_id": "root_000011",
+          "mapped_root_norm": "ء ث ر",
+          "mapped_source_root_norm": "أ ث ر",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B006",
+          "branch_image_ar": "استبداد المرء بالشيء لنفسه"
+        },
+        {
+          "mapped_root_id": "root_000011",
+          "mapped_root_norm": "ء ث ر",
+          "mapped_source_root_norm": "أ ث ر",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B007",
+          "branch_image_ar": "أثر السيف في لمعانه أو ضربته"
+        },
+        {
+          "mapped_root_id": "root_000011",
+          "mapped_root_norm": "ء ث ر",
+          "mapped_source_root_norm": "أ ث ر",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B008",
+          "branch_image_ar": "وسم خف البعير ليتبع أثره"
+        },
+        {
+          "mapped_root_id": "root_000011",
+          "mapped_root_norm": "ء ث ر",
+          "mapped_source_root_norm": "أ ث ر",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B009",
+          "branch_image_ar": "بقية دسم قديم أو خلاصة سمن"
+        },
+        {
+          "mapped_root_id": "root_000011",
+          "mapped_root_norm": "ء ث ر",
+          "mapped_source_root_norm": "أ ث ر",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B011",
+          "branch_image_ar": "حذق الشيء بالممارسة"
+        },
+        {
+          "mapped_root_id": "root_000011",
+          "mapped_root_norm": "ء ث ر",
+          "mapped_source_root_norm": "أ ث ر",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B012",
+          "branch_image_ar": "كيس يشد على ضرع العنز"
+        }
+      ]
+    },
+    {
+      "root": "ن ق ع",
+      "root_mapping": {
+        "qac_root": "ن ق ع",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 1,
+        "matched_occurrences": 1,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_001544",
+            "furuq_root_norm": "ن ق ع",
+            "furuq_source_root_norm": "ن ق ع",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 1,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:4",
+          "source_phrase_ar": "نَقْعًا",
+          "source_surfaces_ar": [
+            "نَقْعًا"
+          ],
+          "source_word_indices": [
+            "3"
+          ],
+          "source_lemmas_ar": [
+            "نَقْع"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_001544",
+          "mapped_root_norm": "ن ق ع",
+          "mapped_source_root_norm": "ن ق ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B001",
+          "branch_image_ar": "استقرار الماء وما ينقع فيه"
+        },
+        {
+          "mapped_root_id": "root_001544",
+          "mapped_root_norm": "ن ق ع",
+          "mapped_source_root_norm": "ن ق ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B002",
+          "branch_image_ar": "ماء ينقع الغلة ويروي"
+        },
+        {
+          "mapped_root_id": "root_001544",
+          "mapped_root_norm": "ن ق ع",
+          "mapped_source_root_norm": "ن ق ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B003",
+          "branch_image_ar": "نقيعة طعام أو نحر أو لبن"
+        },
+        {
+          "mapped_root_id": "root_001544",
+          "mapped_root_norm": "ن ق ع",
+          "mapped_source_root_norm": "ن ق ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B004",
+          "branch_image_ar": "نقع الغبار المثار"
+        },
+        {
+          "mapped_root_id": "root_001544",
+          "mapped_root_norm": "ن ق ع",
+          "mapped_source_root_norm": "ن ق ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B005",
+          "branch_image_ar": "نقع الصوت المرتفع"
+        },
+        {
+          "mapped_root_id": "root_001544",
+          "mapped_root_norm": "ن ق ع",
+          "mapped_source_root_norm": "ن ق ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B006",
+          "branch_image_ar": "سم ناقع ثابت أو قاتل"
+        },
+        {
+          "mapped_root_id": "root_001544",
+          "mapped_root_norm": "ن ق ع",
+          "mapped_source_root_norm": "ن ق ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B007",
+          "branch_image_ar": "نقاع الأرض القيعان السهلة"
+        },
+        {
+          "mapped_root_id": "root_001544",
+          "mapped_root_norm": "ن ق ع",
+          "mapped_source_root_norm": "ن ق ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B008",
+          "branch_image_ar": "شراب بأنقع مجرب للموارد"
+        },
+        {
+          "mapped_root_id": "root_001544",
+          "mapped_root_norm": "ن ق ع",
+          "mapped_source_root_norm": "ن ق ع",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B009",
+          "branch_image_ar": "نقعه بالشتم القبيح"
+        }
+      ]
+    },
+    {
+      "root": "ء ن س",
+      "root_mapping": {
+        "qac_root": "ء ن س",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 97,
+        "matched_occurrences": 28,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000059",
+            "furuq_root_norm": "ء ن س",
+            "furuq_source_root_norm": "أ ن س",
+            "furuq_resolution": "root_norm_unique",
+            "target_occurrences": 28,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:6",
+          "source_phrase_ar": "إِنسَٰنَ",
+          "source_surfaces_ar": [
+            "إِنسَٰنَ"
+          ],
+          "source_word_indices": [
+            "2"
+          ],
+          "source_lemmas_ar": [
+            "إِنسَٰن"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000059",
+          "mapped_root_norm": "ء ن س",
+          "mapped_source_root_norm": "أ ن س",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 28,
+          "branch_id": "B001",
+          "branch_image_ar": "ظهور الإنسان المخالف للتوحش والجن"
+        },
+        {
+          "mapped_root_id": "root_000059",
+          "mapped_root_norm": "ء ن س",
+          "mapped_source_root_norm": "أ ن س",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 28,
+          "branch_id": "B002",
+          "branch_image_ar": "إيناس الشيء برؤية أو إحساس أو سماع"
+        },
+        {
+          "mapped_root_id": "root_000059",
+          "mapped_root_norm": "ء ن س",
+          "mapped_source_root_norm": "أ ن س",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 28,
+          "branch_id": "B003",
+          "branch_image_ar": "الأنس الذي يزيل الوحشة"
+        },
+        {
+          "mapped_root_id": "root_000059",
+          "mapped_root_norm": "ء ن س",
+          "mapped_source_root_norm": "أ ن س",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 28,
+          "branch_id": "B004",
+          "branch_image_ar": "الجانب الإنسي المقبل على الإنسان"
+        },
+        {
+          "mapped_root_id": "root_000059",
+          "mapped_root_norm": "ء ن س",
+          "mapped_source_root_norm": "أ ن س",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 28,
+          "branch_id": "B005",
+          "branch_image_ar": "إنسان العين وصورة الإنسان في السواد"
+        },
+        {
+          "mapped_root_id": "root_000059",
+          "mapped_root_norm": "ء ن س",
+          "mapped_source_root_norm": "أ ن س",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 28,
+          "branch_id": "B006",
+          "branch_image_ar": "ابن الإنس للنفس والصفوة"
+        }
+      ]
+    },
+    {
+      "root": "ر ب ب",
+      "root_mapping": {
+        "qac_root": "ر ب ب",
+        "mapping_status": "split",
+        "qac_total_occurrences": 980,
+        "matched_occurrences": 971,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000532",
+            "furuq_root_norm": "ر ب ب",
+            "furuq_source_root_norm": "ر ب ب",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 970,
+            "is_dominant": true
+          },
+          {
+            "target_rank": 2,
+            "furuq_root_id": "root_000537",
+            "furuq_root_norm": "ر ب و",
+            "furuq_source_root_norm": "ر ب و",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 1,
+            "is_dominant": false
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:6",
+          "source_phrase_ar": "رَبِّ",
+          "source_surfaces_ar": [
+            "رَبِّ"
+          ],
+          "source_word_indices": [
+            "3"
+          ],
+          "source_lemmas_ar": [
+            "رَبّ"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        },
+        {
+          "source_ref": "100:11",
+          "source_phrase_ar": "رَبَّ",
+          "source_surfaces_ar": [
+            "رَبَّ"
+          ],
+          "source_word_indices": [
+            "2"
+          ],
+          "source_lemmas_ar": [
+            "رَبّ"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B001",
+          "branch_image_ar": "ربوبية وملك وسيادة"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B002",
+          "branch_image_ar": "إصلاح وتربية وإتمام"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B003",
+          "branch_image_ar": "علم رباني"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B004",
+          "branch_image_ar": "ربة وجماعات كثيرة"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B005",
+          "branch_image_ar": "ربيب وربيبة ورابة"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B006",
+          "branch_image_ar": "رُبّ خاثر وإصلاح به"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B007",
+          "branch_image_ar": "لزوم وإقامة ودوام"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B008",
+          "branch_image_ar": "رباب السحاب"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B009",
+          "branch_image_ar": "شاة رُبّى وحداثة"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B010",
+          "branch_image_ar": "ربابة تجمع القداح"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B011",
+          "branch_image_ar": "ربابة عهد وميثاق"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B012",
+          "branch_image_ar": "ربة نبات"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B013",
+          "branch_image_ar": "ماء رَبَب كثير"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B014",
+          "branch_image_ar": "رَبْرَب قطيع"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B015",
+          "branch_image_ar": "حرف رب وربما"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B016",
+          "branch_image_ar": "رُبَى حاجة وعقدة ونعمة"
+        },
+        {
+          "mapped_root_id": "root_000532",
+          "mapped_root_norm": "ر ب ب",
+          "mapped_source_root_norm": "ر ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 970,
+          "branch_id": "B017",
+          "branch_image_ar": "رباني الملاحين"
+        },
+        {
+          "mapped_root_id": "root_000537",
+          "mapped_root_norm": "ر ب و",
+          "mapped_source_root_norm": "ر ب و",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B001",
+          "branch_image_ar": "زيادة وعلو"
+        },
+        {
+          "mapped_root_id": "root_000537",
+          "mapped_root_norm": "ر ب و",
+          "mapped_source_root_norm": "ر ب و",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B002",
+          "branch_image_ar": "أرض مرتفعة"
+        },
+        {
+          "mapped_root_id": "root_000537",
+          "mapped_root_norm": "ر ب و",
+          "mapped_source_root_norm": "ر ب و",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B003",
+          "branch_image_ar": "زيادة الربا في المعاملة"
+        },
+        {
+          "mapped_root_id": "root_000537",
+          "mapped_root_norm": "ر ب و",
+          "mapped_source_root_norm": "ر ب و",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B004",
+          "branch_image_ar": "تصعد النفس وانتفاخه"
+        },
+        {
+          "mapped_root_id": "root_000537",
+          "mapped_root_norm": "ر ب و",
+          "mapped_source_root_norm": "ر ب و",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B005",
+          "branch_image_ar": "تغذية ونشوء"
+        },
+        {
+          "mapped_root_id": "root_000537",
+          "mapped_root_norm": "ر ب و",
+          "mapped_source_root_norm": "ر ب و",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B006",
+          "branch_image_ar": "نتوء أصل الفخذ"
+        },
+        {
+          "mapped_root_id": "root_000537",
+          "mapped_root_norm": "ر ب و",
+          "mapped_source_root_norm": "ر ب و",
+          "mapped_target_rank": 2,
+          "mapped_is_dominant": false,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B007",
+          "branch_image_ar": "أهل البيت من بني الأعمام"
+        }
+      ]
+    },
+    {
+      "root": "ك ن د",
+      "root_mapping": {
+        "qac_root": "ك ن د",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 1,
+        "matched_occurrences": 1,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_001321",
+            "furuq_root_norm": "ك ن د",
+            "furuq_source_root_norm": "ك ن د",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 1,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:6",
+          "source_phrase_ar": "كَنُودٌ",
+          "source_surfaces_ar": [
+            "كَنُودٌ"
+          ],
+          "source_word_indices": [
+            "4"
+          ],
+          "source_lemmas_ar": [
+            "كَنُود"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_001321",
+          "mapped_root_norm": "ك ن د",
+          "mapped_source_root_norm": "ك ن د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B001",
+          "branch_image_ar": "القطع والانفصال"
+        },
+        {
+          "mapped_root_id": "root_001321",
+          "mapped_root_norm": "ك ن د",
+          "mapped_source_root_norm": "ك ن د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B002",
+          "branch_image_ar": "كفران النعمة والمودة"
+        },
+        {
+          "mapped_root_id": "root_001321",
+          "mapped_root_norm": "ك ن د",
+          "mapped_source_root_norm": "ك ن د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B003",
+          "branch_image_ar": "الأرض التي لا تنبت"
+        },
+        {
+          "mapped_root_id": "root_001321",
+          "mapped_root_norm": "ك ن د",
+          "mapped_source_root_norm": "ك ن د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B004",
+          "branch_image_ar": "اسم كندة"
+        }
+      ]
+    },
+    {
+      "root": "ش ه د",
+      "root_mapping": {
+        "qac_root": "ش ه د",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 160,
+        "matched_occurrences": 139,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000822",
+            "furuq_root_norm": "ش ه د",
+            "furuq_source_root_norm": "ش ه د",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 139,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:7",
+          "source_phrase_ar": "شَهِيدٌ",
+          "source_surfaces_ar": [
+            "شَهِيدٌ"
+          ],
+          "source_word_indices": [
+            "4"
+          ],
+          "source_lemmas_ar": [
+            "شَهِيد"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000822",
+          "mapped_root_norm": "ش ه د",
+          "mapped_source_root_norm": "ش ه د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 139,
+          "branch_id": "B001",
+          "branch_image_ar": "الحضور مع المشاهدة"
+        },
+        {
+          "mapped_root_id": "root_000822",
+          "mapped_root_norm": "ش ه د",
+          "mapped_source_root_norm": "ش ه د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 139,
+          "branch_id": "B002",
+          "branch_image_ar": "البيان بعلم"
+        },
+        {
+          "mapped_root_id": "root_000822",
+          "mapped_root_norm": "ش ه د",
+          "mapped_source_root_norm": "ش ه د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 139,
+          "branch_id": "B005",
+          "branch_image_ar": "اللسان الشاهد"
+        },
+        {
+          "mapped_root_id": "root_000822",
+          "mapped_root_norm": "ش ه د",
+          "mapped_source_root_norm": "ش ه د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 139,
+          "branch_id": "B006",
+          "branch_image_ar": "الخارج عند الولادة والإدراك"
+        },
+        {
+          "mapped_root_id": "root_000822",
+          "mapped_root_norm": "ش ه د",
+          "mapped_source_root_norm": "ش ه د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 139,
+          "branch_id": "B007",
+          "branch_image_ar": "الشَّهْد في الشمع"
+        },
+        {
+          "mapped_root_id": "root_000822",
+          "mapped_root_norm": "ش ه د",
+          "mapped_source_root_norm": "ش ه د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 139,
+          "branch_id": "B008",
+          "branch_image_ar": "العلامة الشاهدة"
+        }
+      ]
+    },
+    {
+      "root": "ح ب ب",
+      "root_mapping": {
+        "qac_root": "ح ب ب",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 95,
+        "matched_occurrences": 74,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000286",
+            "furuq_root_norm": "ح ب ب",
+            "furuq_source_root_norm": "ح ب ب",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 74,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:8",
+          "source_phrase_ar": "حُبِّ",
+          "source_surfaces_ar": [
+            "حُبِّ"
+          ],
+          "source_word_indices": [
+            "2"
+          ],
+          "source_lemmas_ar": [
+            "حُبّ"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000286",
+          "mapped_root_norm": "ح ب ب",
+          "mapped_source_root_norm": "ح ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 74,
+          "branch_id": "B001",
+          "branch_image_ar": "الحبة التي تنبت وتحمل الحب"
+        },
+        {
+          "mapped_root_id": "root_000286",
+          "mapped_root_norm": "ح ب ب",
+          "mapped_source_root_norm": "ح ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 74,
+          "branch_id": "B002",
+          "branch_image_ar": "المحبة الملازمة للقلب"
+        },
+        {
+          "mapped_root_id": "root_000286",
+          "mapped_root_norm": "ح ب ب",
+          "mapped_source_root_norm": "ح ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 74,
+          "branch_id": "B003",
+          "branch_image_ar": "صيغة المدح وغاية الرغبة"
+        },
+        {
+          "mapped_root_id": "root_000286",
+          "mapped_root_norm": "ح ب ب",
+          "mapped_source_root_norm": "ح ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 74,
+          "branch_id": "B004",
+          "branch_image_ar": "حبة القلب سويداؤه"
+        },
+        {
+          "mapped_root_id": "root_000286",
+          "mapped_root_norm": "ح ب ب",
+          "mapped_source_root_norm": "ح ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 74,
+          "branch_id": "B005",
+          "branch_image_ar": "البعير يلزم مكانه من عجز"
+        },
+        {
+          "mapped_root_id": "root_000286",
+          "mapped_root_norm": "ح ب ب",
+          "mapped_source_root_norm": "ح ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 74,
+          "branch_id": "B006",
+          "branch_image_ar": "الري حتى الامتلاء"
+        },
+        {
+          "mapped_root_id": "root_000286",
+          "mapped_root_norm": "ح ب ب",
+          "mapped_source_root_norm": "ح ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 74,
+          "branch_id": "B007",
+          "branch_image_ar": "الحب جرة عظيمة أو موضعها"
+        },
+        {
+          "mapped_root_id": "root_000286",
+          "mapped_root_norm": "ح ب ب",
+          "mapped_source_root_norm": "ح ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 74,
+          "branch_id": "B008",
+          "branch_image_ar": "حباب الماء فقاقيعه وطرائقه"
+        },
+        {
+          "mapped_root_id": "root_000286",
+          "mapped_root_norm": "ح ب ب",
+          "mapped_source_root_norm": "ح ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 74,
+          "branch_id": "B009",
+          "branch_image_ar": "حبب الأسنان انتظام كالدرر"
+        },
+        {
+          "mapped_root_id": "root_000286",
+          "mapped_root_norm": "ح ب ب",
+          "mapped_source_root_norm": "ح ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 74,
+          "branch_id": "B010",
+          "branch_image_ar": "الحبحاب الصغير القصير"
+        },
+        {
+          "mapped_root_id": "root_000286",
+          "mapped_root_norm": "ح ب ب",
+          "mapped_source_root_norm": "ح ب ب",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 74,
+          "branch_id": "B011",
+          "branch_image_ar": "نار الحباحب شرر لا ينتفع به"
+        }
+      ]
+    },
+    {
+      "root": "خ ي ر",
+      "root_mapping": {
+        "qac_root": "خ ي ر",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 196,
+        "matched_occurrences": 184,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000452",
+            "furuq_root_norm": "خ ي ر",
+            "furuq_source_root_norm": "خ ي ر",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 184,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:8",
+          "source_phrase_ar": "خَيْرِ",
+          "source_surfaces_ar": [
+            "خَيْرِ"
+          ],
+          "source_word_indices": [
+            "3"
+          ],
+          "source_lemmas_ar": [
+            "خَيْر"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000452",
+          "mapped_root_norm": "خ ي ر",
+          "mapped_source_root_norm": "خ ي ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 184,
+          "branch_id": "B001",
+          "branch_image_ar": "الميل إلى الخير النافع"
+        },
+        {
+          "mapped_root_id": "root_000452",
+          "mapped_root_norm": "خ ي ر",
+          "mapped_source_root_norm": "خ ي ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 184,
+          "branch_id": "B002",
+          "branch_image_ar": "فضل الصلاح والاصطفاء"
+        },
+        {
+          "mapped_root_id": "root_000452",
+          "mapped_root_norm": "خ ي ر",
+          "mapped_source_root_norm": "خ ي ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 184,
+          "branch_id": "B003",
+          "branch_image_ar": "طلب الخير بالاختيار والاستخارة"
+        },
+        {
+          "mapped_root_id": "root_000452",
+          "mapped_root_norm": "خ ي ر",
+          "mapped_source_root_norm": "خ ي ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 184,
+          "branch_id": "B005",
+          "branch_image_ar": "الكرم والهبة"
+        },
+        {
+          "mapped_root_id": "root_000452",
+          "mapped_root_norm": "خ ي ر",
+          "mapped_source_root_norm": "خ ي ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 184,
+          "branch_id": "B006",
+          "branch_image_ar": "استدراج الحيوان من جحره"
+        }
+      ]
+    },
+    {
+      "root": "ش د د",
+      "root_mapping": {
+        "qac_root": "ش د د",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 102,
+        "matched_occurrences": 101,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000782",
+            "furuq_root_norm": "ش د د",
+            "furuq_source_root_norm": "ش د د",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 101,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:8",
+          "source_phrase_ar": "شَدِيدٌ",
+          "source_surfaces_ar": [
+            "شَدِيدٌ"
+          ],
+          "source_word_indices": [
+            "4"
+          ],
+          "source_lemmas_ar": [
+            "شَدِيد"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000782",
+          "mapped_root_norm": "ش د د",
+          "mapped_source_root_norm": "ش د د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 101,
+          "branch_id": "B001",
+          "branch_image_ar": "شد العقد والوثاق"
+        },
+        {
+          "mapped_root_id": "root_000782",
+          "mapped_root_norm": "ش د د",
+          "mapped_source_root_norm": "ش د د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 101,
+          "branch_id": "B002",
+          "branch_image_ar": "شدة القوة والصلابة"
+        },
+        {
+          "mapped_root_id": "root_000782",
+          "mapped_root_norm": "ش د د",
+          "mapped_source_root_norm": "ش د د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 101,
+          "branch_id": "B003",
+          "branch_image_ar": "شد الحملة والعدو"
+        },
+        {
+          "mapped_root_id": "root_000782",
+          "mapped_root_norm": "ش د د",
+          "mapped_source_root_norm": "ش د د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 101,
+          "branch_id": "B004",
+          "branch_image_ar": "بلوغ الأشد"
+        },
+        {
+          "mapped_root_id": "root_000782",
+          "mapped_root_norm": "ش د د",
+          "mapped_source_root_norm": "ش د د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 101,
+          "branch_id": "B005",
+          "branch_image_ar": "شد النهار وارتفاعه"
+        },
+        {
+          "mapped_root_id": "root_000782",
+          "mapped_root_norm": "ش د د",
+          "mapped_source_root_norm": "ش د د",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 101,
+          "branch_id": "B006",
+          "branch_image_ar": "شدة البخل"
+        }
+      ]
+    },
+    {
+      "root": "ع ل م",
+      "root_mapping": {
+        "qac_root": "ع ل م",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 854,
+        "matched_occurrences": 771,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_001040",
+            "furuq_root_norm": "ع ل م",
+            "furuq_source_root_norm": "ع ل م",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 771,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:9",
+          "source_phrase_ar": "يَعْلَمُ",
+          "source_surfaces_ar": [
+            "يَعْلَمُ"
+          ],
+          "source_word_indices": [
+            "2"
+          ],
+          "source_lemmas_ar": [
+            "عَلِمَ"
+          ],
+          "source_pos_tags": [
+            "V"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_001040",
+          "mapped_root_norm": "ع ل م",
+          "mapped_source_root_norm": "ع ل م",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 771,
+          "branch_id": "B001",
+          "branch_image_ar": "انكشاف الشيء للعارف"
+        },
+        {
+          "mapped_root_id": "root_001040",
+          "mapped_root_norm": "ع ل م",
+          "mapped_source_root_norm": "ع ل م",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 771,
+          "branch_id": "B002",
+          "branch_image_ar": "أثر يميز الشيء ويهدي إليه"
+        },
+        {
+          "mapped_root_id": "root_001040",
+          "mapped_root_norm": "ع ل م",
+          "mapped_source_root_norm": "ع ل م",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 771,
+          "branch_id": "B004",
+          "branch_image_ar": "شق ظاهر في الشفة العليا"
+        },
+        {
+          "mapped_root_id": "root_001040",
+          "mapped_root_norm": "ع ل م",
+          "mapped_source_root_norm": "ع ل م",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 771,
+          "branch_id": "B005",
+          "branch_image_ar": "ماء كثير مجتمع في عيلم"
+        },
+        {
+          "mapped_root_id": "root_001040",
+          "mapped_root_norm": "ع ل م",
+          "mapped_source_root_norm": "ع ل م",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 771,
+          "branch_id": "B006",
+          "branch_image_ar": "طائر جارح يسمى العلام"
+        },
+        {
+          "mapped_root_id": "root_001040",
+          "mapped_root_norm": "ع ل م",
+          "mapped_source_root_norm": "ع ل م",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 771,
+          "branch_id": "B007",
+          "branch_image_ar": "ذكر الضباع يسمى العيلام"
+        }
+      ]
+    },
+    {
+      "root": "ب ع ث ر",
+      "root_mapping": {
+        "qac_root": "ب ع ث ر",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 2,
+        "matched_occurrences": 2,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000130",
+            "furuq_root_norm": "ب ع ث ر",
+            "furuq_source_root_norm": "ب ع ث ر",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 2,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:9",
+          "source_phrase_ar": "بُعْثِرَ",
+          "source_surfaces_ar": [
+            "بُعْثِرَ"
+          ],
+          "source_word_indices": [
+            "4"
+          ],
+          "source_lemmas_ar": [
+            "بُعْثِرَ"
+          ],
+          "source_pos_tags": [
+            "V"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000130",
+          "mapped_root_norm": "ب ع ث ر",
+          "mapped_source_root_norm": "ب ع ث ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 2,
+          "branch_id": "B001",
+          "branch_image_ar": "قلب التراب وكشف المدفون"
+        },
+        {
+          "mapped_root_id": "root_000130",
+          "mapped_root_norm": "ب ع ث ر",
+          "mapped_source_root_norm": "ب ع ث ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 2,
+          "branch_id": "B002",
+          "branch_image_ar": "تبديد المتاع وقلب بعضه على بعض"
+        },
+        {
+          "mapped_root_id": "root_000130",
+          "mapped_root_norm": "ب ع ث ر",
+          "mapped_source_root_norm": "ب ع ث ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 2,
+          "branch_id": "B003",
+          "branch_image_ar": "هدم الحوض وقلب أسفله أعلاه"
+        }
+      ]
+    },
+    {
+      "root": "ق ب ر",
+      "root_mapping": {
+        "qac_root": "ق ب ر",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 8,
+        "matched_occurrences": 8,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_001195",
+            "furuq_root_norm": "ق ب ر",
+            "furuq_source_root_norm": "ق ب ر",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 8,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:9",
+          "source_phrase_ar": "قُبُورِ",
+          "source_surfaces_ar": [
+            "قُبُورِ"
+          ],
+          "source_word_indices": [
+            "7"
+          ],
+          "source_lemmas_ar": [
+            "قَبْر"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_001195",
+          "mapped_root_norm": "ق ب ر",
+          "mapped_source_root_norm": "ق ب ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 8,
+          "branch_id": "B001",
+          "branch_image_ar": "مواراة الميت في القبر"
+        },
+        {
+          "mapped_root_id": "root_001195",
+          "mapped_root_norm": "ق ب ر",
+          "mapped_source_root_norm": "ق ب ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 8,
+          "branch_id": "B002",
+          "branch_image_ar": "غموض الشيء وتطامنه"
+        },
+        {
+          "mapped_root_id": "root_001195",
+          "mapped_root_norm": "ق ب ر",
+          "mapped_source_root_norm": "ق ب ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 8,
+          "branch_id": "B003",
+          "branch_image_ar": "القُبَّرة الطائر"
+        },
+        {
+          "mapped_root_id": "root_001195",
+          "mapped_root_norm": "ق ب ر",
+          "mapped_source_root_norm": "ق ب ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 8,
+          "branch_id": "B004",
+          "branch_image_ar": "طرف الأنف في الغضب"
+        }
+      ]
+    },
+    {
+      "root": "ح ص ل",
+      "root_mapping": {
+        "qac_root": "ح ص ل",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 1,
+        "matched_occurrences": 1,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000330",
+            "furuq_root_norm": "ح ص ل",
+            "furuq_source_root_norm": "ح ص ل",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 1,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:10",
+          "source_phrase_ar": "حُصِّلَ",
+          "source_surfaces_ar": [
+            "حُصِّلَ"
+          ],
+          "source_word_indices": [
+            "1"
+          ],
+          "source_lemmas_ar": [
+            "حُصِّلَ"
+          ],
+          "source_pos_tags": [
+            "V"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000330",
+          "mapped_root_norm": "ح ص ل",
+          "mapped_source_root_norm": "ح ص ل",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B001",
+          "branch_image_ar": "جمع الشيء حتى يظهر حاصله"
+        },
+        {
+          "mapped_root_id": "root_000330",
+          "mapped_root_norm": "ح ص ل",
+          "mapped_source_root_norm": "ح ص ل",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B002",
+          "branch_image_ar": "استخراج اللب أو النفيس من غلافه"
+        },
+        {
+          "mapped_root_id": "root_000330",
+          "mapped_root_norm": "ح ص ل",
+          "mapped_source_root_norm": "ح ص ل",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B003",
+          "branch_image_ar": "البقية والحثالة بعد الرفع أو الفصل"
+        },
+        {
+          "mapped_root_id": "root_000330",
+          "mapped_root_norm": "ح ص ل",
+          "mapped_source_root_norm": "ح ص ل",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B004",
+          "branch_image_ar": "موضع يجتمع فيه الطعام في جوف الطائر"
+        },
+        {
+          "mapped_root_id": "root_000330",
+          "mapped_root_norm": "ح ص ل",
+          "mapped_source_root_norm": "ح ص ل",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 1,
+          "branch_id": "B005",
+          "branch_image_ar": "بلح حصل من النخلة قبل اشتداده"
+        }
+      ]
+    },
+    {
+      "root": "ص د ر",
+      "root_mapping": {
+        "qac_root": "ص د ر",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 46,
+        "matched_occurrences": 46,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000849",
+            "furuq_root_norm": "ص د ر",
+            "furuq_source_root_norm": "ص د ر",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 46,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:10",
+          "source_phrase_ar": "صُّدُورِ",
+          "source_surfaces_ar": [
+            "صُّدُورِ"
+          ],
+          "source_word_indices": [
+            "4"
+          ],
+          "source_lemmas_ar": [
+            "صَدْر"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000849",
+          "mapped_root_norm": "ص د ر",
+          "mapped_source_root_norm": "ص د ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 46,
+          "branch_id": "B001",
+          "branch_image_ar": "الصدر الجارحة وما يتصل بها"
+        },
+        {
+          "mapped_root_id": "root_000849",
+          "mapped_root_norm": "ص د ر",
+          "mapped_source_root_norm": "ص د ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 46,
+          "branch_id": "B002",
+          "branch_image_ar": "المقدّم والأعلى والأول"
+        },
+        {
+          "mapped_root_id": "root_000849",
+          "mapped_root_norm": "ص د ر",
+          "mapped_source_root_norm": "ص د ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 46,
+          "branch_id": "B003",
+          "branch_image_ar": "الصُّدور عن المورد"
+        },
+        {
+          "mapped_root_id": "root_000849",
+          "mapped_root_norm": "ص د ر",
+          "mapped_source_root_norm": "ص د ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 46,
+          "branch_id": "B004",
+          "branch_image_ar": "الأصل الذي تصدر عنه الأفعال"
+        },
+        {
+          "mapped_root_id": "root_000849",
+          "mapped_root_norm": "ص د ر",
+          "mapped_source_root_norm": "ص د ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 46,
+          "branch_id": "B005",
+          "branch_image_ar": "المصادرة على مال"
+        },
+        {
+          "mapped_root_id": "root_000849",
+          "mapped_root_norm": "ص د ر",
+          "mapped_source_root_norm": "ص د ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 46,
+          "branch_id": "B006",
+          "branch_image_ar": "الطائفة من الشيء"
+        }
+      ]
+    },
+    {
+      "root": "خ ب ر",
+      "root_mapping": {
+        "qac_root": "خ ب ر",
+        "mapping_status": "unique",
+        "qac_total_occurrences": 52,
+        "matched_occurrences": 52,
+        "unmapped_reason": "",
+        "targets": [
+          {
+            "target_rank": 1,
+            "furuq_root_id": "root_000387",
+            "furuq_root_norm": "خ ب ر",
+            "furuq_source_root_norm": "خ ب ر",
+            "furuq_resolution": "source_root_norm",
+            "target_occurrences": 52,
+            "is_dominant": true
+          }
+        ]
+      },
+      "source_phrases": [
+        {
+          "source_ref": "100:11",
+          "source_phrase_ar": "خَبِيرٌۢ",
+          "source_surfaces_ar": [
+            "خَبِيرٌۢ"
+          ],
+          "source_word_indices": [
+            "5"
+          ],
+          "source_lemmas_ar": [
+            "خَبِير"
+          ],
+          "source_pos_tags": [
+            "N"
+          ]
+        }
+      ],
+      "branch_inventory_mode": "images",
+      "branches": [
+        {
+          "mapped_root_id": "root_000387",
+          "mapped_root_norm": "خ ب ر",
+          "mapped_source_root_norm": "خ ب ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 52,
+          "branch_id": "B001",
+          "branch_image_ar": "العلم بالخبر وباطن الأمر"
+        },
+        {
+          "mapped_root_id": "root_000387",
+          "mapped_root_norm": "خ ب ر",
+          "mapped_source_root_norm": "خ ب ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 52,
+          "branch_id": "B002",
+          "branch_image_ar": "لين الأرض ومائها"
+        },
+        {
+          "mapped_root_id": "root_000387",
+          "mapped_root_norm": "خ ب ر",
+          "mapped_source_root_norm": "خ ب ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 52,
+          "branch_id": "B003",
+          "branch_image_ar": "إصلاح الأرض بالمخابرة"
+        },
+        {
+          "mapped_root_id": "root_000387",
+          "mapped_root_norm": "خ ب ر",
+          "mapped_source_root_norm": "خ ب ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 52,
+          "branch_id": "B004",
+          "branch_image_ar": "الغزر في المزادة والناقة"
+        },
+        {
+          "mapped_root_id": "root_000387",
+          "mapped_root_norm": "خ ب ر",
+          "mapped_source_root_norm": "خ ب ر",
+          "mapped_target_rank": 1,
+          "mapped_is_dominant": true,
+          "mapped_target_occurrences": 52,
+          "branch_id": "B005",
+          "branch_image_ar": "اللِّين في النبات والوبر والزبد"
+        }
+      ]
+    }
+  ],
+  "missing_branch_inventories": [],
+  "provenance": {
+    "branch_filter": {
+      "status": "accepted",
+      "contaminated": "no",
+      "origin_corpus": [
+        "furuq",
+        "quranic"
+      ]
+    },
+    "missing_mapped_targets": [],
+    "resource_sha256": {
+      "resources/qac_root_ayah.tsv": "be694bc26a6ec261f16037e08be1d62a0dcc8d9154c9f6c5f267a338b91cf3ad",
+      "resources/furuq_v4.sqlite.gz": "c11d76a37d2fc02dba092e298eded84c527e7d5efa1d24a12ac550e34d7cab56",
+      "/Users/ahmetrasit/projects/quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz": "415d0f14f3f1d6b49fd2fd574d24495090ece1af3f01210998b0bc1eb7b11296"
+    },
+    "synthetic_ayat": []
+  }
+}

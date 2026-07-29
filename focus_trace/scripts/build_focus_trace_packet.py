@@ -6,18 +6,22 @@ from __future__ import annotations
 import argparse
 import copy
 import csv
+import gzip
 import json
+import shutil
+import sqlite3
 import sys
+import tempfile
 from pathlib import Path
 from typing import Any, Iterable
 
 WORKFLOW_ROOT = Path(__file__).resolve().parents[1]
 LATENT_ROOT = WORKFLOW_ROOT.parent
+PROJECTS_ROOT = LATENT_ROOT.parent
 V12_SCRIPTS = LATENT_ROOT / "v12" / "scripts"
 if str(V12_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(V12_SCRIPTS))
 
-from build_full_context_packet import load_branches_with_missing
 from build_packets import (
     DEFAULT_BRANCH_DB,
     DEFAULT_QAC,
@@ -31,7 +35,14 @@ from build_packets import (
 
 BASMALAH_TEMPLATE_REF = "1:1"
 BASMALAH_EXCLUDED_SURAHS = {9}
-PROTOCOL = "focus-trace-hermetic-packet-v1"
+DEFAULT_QAC_FURUQ_ROOT_MAP = (
+    PROJECTS_ROOT
+    / "quran-data"
+    / "data"
+    / "bridges"
+    / "qac-furuq-v4-root-map.sqlite.gz"
+)
+PROTOCOL = "focus-trace-hermetic-packet-v2"
 
 
 def parse_ref(raw: str) -> str:
@@ -204,8 +215,217 @@ def refs_by_root(ayat: Iterable[dict[str, Any]]) -> dict[str, list[str]]:
     return refs
 
 
+def bool_from_sql(value: Any) -> bool:
+    return value in {1, "1", True, "true", "yes"}
+
+
+def root_mapping_summary(mapping: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "qac_root": mapping["qac_root"],
+        "mapping_status": mapping["mapping_status"],
+        "qac_total_occurrences": mapping["qac_total_occurrences"],
+        "matched_occurrences": mapping["matched_occurrences"],
+        "unmapped_reason": mapping["unmapped_reason"],
+        "targets": [
+            {
+                "target_rank": target["target_rank"],
+                "furuq_root_id": target["furuq_root_id"],
+                "furuq_root_norm": target["furuq_root_norm"],
+                "furuq_source_root_norm": target["furuq_source_root_norm"],
+                "furuq_resolution": target["furuq_resolution"],
+                "target_occurrences": target["target_occurrences"],
+                "is_dominant": target["is_dominant"],
+            }
+            for target in mapping["targets"]
+        ],
+    }
+
+
+def load_root_mappings(
+    root_map_db_gz: Path,
+    roots: list[str],
+) -> dict[str, dict[str, Any]]:
+    mappings: dict[str, dict[str, Any]] = {
+        root: {
+            "qac_root": root,
+            "mapping_status": "missing_in_root_map",
+            "qac_total_occurrences": None,
+            "matched_occurrences": 0,
+            "unmapped_reason": "root not present in qac-furuq-v4-root-map",
+            "targets": [],
+        }
+        for root in roots
+    }
+    if not roots:
+        return mappings
+
+    with tempfile.NamedTemporaryFile(suffix=".sqlite") as temp_db:
+        with gzip.open(root_map_db_gz, "rb") as source:
+            shutil.copyfileobj(source, temp_db)
+        temp_db.flush()
+        connection = sqlite3.connect(temp_db.name)
+        connection.row_factory = sqlite3.Row
+        placeholders = ",".join("?" for _ in roots)
+        query = f"""
+            SELECT qac_root_norm, mapping_status, qac_total_occurrences,
+                   matched_occurrences, target_rank, frozen_root_norm,
+                   furuq_root_id, furuq_root_norm, furuq_source_root_norm,
+                   furuq_resolution, target_occurrences, is_dominant,
+                   has_furuq_root, unmapped_reason
+            FROM qac_to_furuq
+            WHERE qac_root_norm IN ({placeholders})
+            ORDER BY qac_root_norm, target_rank
+        """
+        for row in connection.execute(query, roots):
+            record = mappings[row["qac_root_norm"]]
+            record["mapping_status"] = row["mapping_status"]
+            record["qac_total_occurrences"] = row["qac_total_occurrences"]
+            record["matched_occurrences"] = row["matched_occurrences"]
+            record["unmapped_reason"] = row["unmapped_reason"] or ""
+            if not bool_from_sql(row["has_furuq_root"]):
+                continue
+            record["targets"].append(
+                {
+                    "target_rank": int(row["target_rank"]),
+                    "frozen_root_norm": row["frozen_root_norm"],
+                    "furuq_root_id": row["furuq_root_id"],
+                    "furuq_root_norm": row["furuq_root_norm"],
+                    "furuq_source_root_norm": row["furuq_source_root_norm"],
+                    "furuq_resolution": row["furuq_resolution"],
+                    "target_occurrences": int(row["target_occurrences"] or 0),
+                    "is_dominant": bool_from_sql(row["is_dominant"]),
+                }
+            )
+        connection.close()
+    return mappings
+
+
+def combine_variant_field(branch: dict[str, Any], field: str) -> str:
+    values = ordered_unique(
+        variant[field]
+        for variant in branch["variants"]
+        if variant.get(field)
+    )
+    if len(values) == 1:
+        return values[0]
+    return "\n".join(f"{index}. {value}" for index, value in enumerate(values, start=1))
+
+
+def append_mapped_branch_row(branches: list[dict[str, Any]], row: dict[str, Any]) -> None:
+    for branch in branches:
+        if (
+            branch["mapped_root_id"] == row["mapped_root_id"]
+            and branch["branch_id"] == row["branch_id"]
+        ):
+            branch["variants"].extend(row["variants"])
+            for field in ("image_ar", "image_en", "scope_ar", "scope_en"):
+                branch[field] = combine_variant_field(branch, field)
+            return
+    branches.append(row)
+
+
+def load_branches_for_mapped_roots(
+    branch_db_gz: Path,
+    root_mappings: dict[str, dict[str, Any]],
+) -> tuple[dict[str, list[dict[str, Any]]], list[str], list[dict[str, Any]]]:
+    branches: dict[str, list[dict[str, Any]]] = {
+        qac_root: [] for qac_root in root_mappings
+    }
+    targets_by_root_id: dict[str, list[tuple[str, dict[str, Any]]]] = {}
+    for qac_root, mapping in root_mappings.items():
+        for target in mapping["targets"]:
+            targets_by_root_id.setdefault(target["furuq_root_id"], []).append(
+                (qac_root, target)
+            )
+
+    if not targets_by_root_id:
+        return branches, list(root_mappings), []
+
+    branch_rows_by_root_id: dict[str, list[sqlite3.Row]] = {
+        root_id: [] for root_id in targets_by_root_id
+    }
+    with tempfile.NamedTemporaryFile(suffix=".sqlite") as temp_db:
+        with gzip.open(branch_db_gz, "rb") as source:
+            shutil.copyfileobj(source, temp_db)
+        temp_db.flush()
+        connection = sqlite3.connect(temp_db.name)
+        connection.row_factory = sqlite3.Row
+        root_ids = sorted(targets_by_root_id)
+        placeholders = ",".join("?" for _ in root_ids)
+        query = f"""
+            SELECT root_norm, root_id, source_path, branch_id,
+                   branch_image_ar, branch_image_en, what_is_ar, what_is_en
+            FROM branch_images
+            WHERE root_id IN ({placeholders})
+              AND status = 'accepted'
+              AND contaminated = 'no'
+            ORDER BY root_id, CAST(SUBSTR(branch_id, 2) AS INTEGER), id
+        """
+        for row in connection.execute(query, root_ids):
+            branch_rows_by_root_id[row["root_id"]].append(row)
+        connection.close()
+
+    for qac_root, mapping in root_mappings.items():
+        for target in mapping["targets"]:
+            rows = branch_rows_by_root_id.get(target["furuq_root_id"], [])
+            for row in rows:
+                append_mapped_branch_row(
+                    branches[qac_root],
+                    {
+                        "mapped_root_id": target["furuq_root_id"],
+                        "mapped_root_norm": target["furuq_root_norm"],
+                        "mapped_source_root_norm": target["furuq_source_root_norm"],
+                        "mapped_target_rank": target["target_rank"],
+                        "mapped_is_dominant": target["is_dominant"],
+                        "mapped_target_occurrences": target["target_occurrences"],
+                        "branch_id": row["branch_id"],
+                        "image_ar": row["branch_image_ar"],
+                        "image_en": row["branch_image_en"],
+                        "scope_ar": row["what_is_ar"],
+                        "scope_en": row["what_is_en"],
+                        "variants": [
+                            {
+                                "root_id": row["root_id"],
+                                "source_path": row["source_path"],
+                                "image_ar": row["branch_image_ar"],
+                                "image_en": row["branch_image_en"],
+                                "scope_ar": row["what_is_ar"],
+                                "scope_en": row["what_is_en"],
+                            }
+                        ],
+                    },
+                )
+
+    missing = [qac_root for qac_root, items in branches.items() if not items]
+    target_missing = []
+    for qac_root, mapping in root_mappings.items():
+        for target in mapping["targets"]:
+            if not branch_rows_by_root_id.get(target["furuq_root_id"]):
+                target_missing.append(
+                    {
+                        "qac_root": qac_root,
+                        "furuq_root_id": target["furuq_root_id"],
+                        "furuq_root_norm": target["furuq_root_norm"],
+                        "reason": "no accepted, non-contaminated branch rows for mapped root_id",
+                    }
+                )
+    return branches, missing, target_missing
+
+
+def branch_mapping_fields(branch: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "mapped_root_id": branch["mapped_root_id"],
+        "mapped_root_norm": branch["mapped_root_norm"],
+        "mapped_source_root_norm": branch["mapped_source_root_norm"],
+        "mapped_target_rank": branch["mapped_target_rank"],
+        "mapped_is_dominant": branch["mapped_is_dominant"],
+        "mapped_target_occurrences": branch["mapped_target_occurrences"],
+    }
+
+
 def focus_branch(branch: dict[str, Any]) -> dict[str, Any]:
     result = {
+        **branch_mapping_fields(branch),
         "branch_id": branch["branch_id"],
         "branch_image_ar": branch["image_ar"],
         "branch_image_en": branch["image_en"],
@@ -229,6 +449,7 @@ def focus_branch(branch: dict[str, Any]) -> dict[str, Any]:
 
 def compact_branch(branch: dict[str, Any], mode: str) -> dict[str, Any]:
     result = {
+        **branch_mapping_fields(branch),
         "branch_id": branch["branch_id"],
         "branch_image_ar": branch["image_ar"],
     }
@@ -256,6 +477,7 @@ def main() -> None:
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--qac", type=Path, default=DEFAULT_QAC)
     parser.add_argument("--branches", type=Path, default=DEFAULT_BRANCH_DB)
+    parser.add_argument("--root-map", type=Path, default=DEFAULT_QAC_FURUQ_ROOT_MAP)
     parser.add_argument(
         "--include-basmalah",
         action="store_true",
@@ -274,7 +496,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    for path in (args.qac, args.branches):
+    for path in (args.qac, args.branches, args.root_map):
         if not path.is_file():
             parser.error(f"resource not found: {path}")
 
@@ -299,7 +521,11 @@ def main() -> None:
     focus_roots = first_seen_roots([focus_ayah])
     context_roots = first_seen_roots(context_ayat)
     all_roots = ordered_packet_roots([focus_ayah], context_ayat)
-    branches, missing_roots = load_branches_with_missing(args.branches, all_roots)
+    root_mappings = load_root_mappings(args.root_map, all_roots)
+    branches, missing_roots, missing_mapped_targets = load_branches_for_mapped_roots(
+        args.branches,
+        root_mappings,
+    )
     if args.strict_branches and missing_roots:
         raise ValueError(
             "no accepted, non-contaminated branch inventory for roots: "
@@ -309,7 +535,7 @@ def main() -> None:
     refs_for_missing = refs_by_root(ayat)
     resource_hashes = {
         resource_key(path): sha256(path)
-        for path in (args.qac, args.branches)
+        for path in (args.qac, args.branches, args.root_map)
     }
 
     packet = {
@@ -339,16 +565,27 @@ def main() -> None:
                 f"Every context root with an accepted inventory includes all branch IDs "
                 f"in {args.non_focus_branch_mode!r} mode; this always includes branch_image_ar."
             ),
+            "root_mapping_policy": (
+                "QAC roots are resolved through qac-furuq-v4-root-map.sqlite.gz. "
+                "If a QAC root maps to multiple Furuq root_ids, every mapped root "
+                "and its accepted, non-contaminated branches are included in "
+                "target_rank order. Branch IDs are root-local, so reader citations "
+                "must pair branch_id with mapped_root_id."
+            ),
             "source_phrase_policy": (
                 "source_phrase_ar is deterministically derived from QAC surfaces_ar "
                 "for the root occurrence in that source ayah."
             ),
         },
+        "root_mappings": [
+            root_mapping_summary(root_mappings[root]) for root in all_roots
+        ],
         "focus_ayah": focus_ayah,
         "context_ayat": context_ayat,
         "focus_branch_inventories": [
             {
                 "root": root,
+                "root_mapping": root_mapping_summary(root_mappings[root]),
                 "source_phrases": source_phrases([focus_ayah], root),
                 "branches": [focus_branch(branch) for branch in branches[root]],
             }
@@ -358,6 +595,7 @@ def main() -> None:
         "context_root_cues": [
             {
                 "root": root,
+                "root_mapping": root_mapping_summary(root_mappings[root]),
                 "source_phrases": source_phrases(context_ayat, root),
                 "branch_inventory_mode": args.non_focus_branch_mode,
                 "branches": [
@@ -371,6 +609,7 @@ def main() -> None:
         "missing_branch_inventories": [
             {
                 "root": root,
+                "root_mapping": root_mapping_summary(root_mappings[root]),
                 "refs": refs_for_missing[root],
                 "source_phrases": source_phrases(ayat, root),
                 "reason": "no accepted, non-contaminated branch inventory in resource",
@@ -383,6 +622,7 @@ def main() -> None:
                 "contaminated": "no",
                 "origin_corpus": ["furuq", "quranic"],
             },
+            "missing_mapped_targets": missing_mapped_targets,
             "resource_sha256": resource_hashes,
             "synthetic_ayat": [
                 {

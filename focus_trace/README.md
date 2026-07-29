@@ -6,6 +6,9 @@ This is a standalone one-call focus workflow. It reconstructs the useful part
 of the old staged focus runs without putting new prompt, schema, or script
 files under `v12/`.
 
+See [`INTEGRATION.md`](INTEGRATION.md) for why this exists, how it differs from
+`reader_m_ayah_walk.md`, and how `prose_generation` consumes it in Layer 2.
+
 It is not a strict blind staged transcript. The reader receives one sealed
 packet, first writes a focus-only baseline, then records context-triggered
 changes. The prompt is discovery-first: it asks for surprise, latent
@@ -61,9 +64,15 @@ python3 focus_trace/scripts/validate_focus_trace.py \
 
 The packet builder uses deterministic selection:
 
+- root identity: QAC roots are resolved through
+  `../quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz`; when a QAC root
+  maps to multiple Furuq roots, every mapped `root_id` and its branches are
+  included;
 - focus roots: every root in the focus ayah, first-seen order, full branch
   inventories;
 - context roots: every root in the selected non-focus ayat, packet order, with
   `source_phrase_ar` for each occurrence;
 - context branches: every accepted, non-contaminated branch ID in compact mode,
-  always including `branch_image_ar`.
+  always including `branch_image_ar`;
+- branch citations: `branch_id` is root-local, so reader responses must cite it
+  with `mapped_root_id`.
