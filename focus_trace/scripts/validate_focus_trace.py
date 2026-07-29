@@ -833,6 +833,7 @@ def validate_response(packet: dict[str, Any], response: dict[str, Any]) -> None:
             "protocol",
             "reader_id",
             "focus_ref",
+            "rootless_focus",
             "trace_kind",
             "baseline_models",
             "context_deltas",
@@ -840,10 +841,12 @@ def validate_response(packet: dict[str, Any], response: dict[str, Any]) -> None:
             "discarded_or_unchanged",
             "summary",
         }
-        required_top_level = allowed_top_level - {"discarded_or_unchanged"}
+        required_top_level = allowed_top_level - {"discarded_or_unchanged", "rootless_focus"}
         require_keys(response, required_top_level, "response", allowed=allowed_top_level)
         if response.get("trace_kind") != "reconstructed":
             raise ValueError("response.trace_kind must be reconstructed")
+        if "rootless_focus" in response and response["rootless_focus"] is not True:
+            raise ValueError("response.rootless_focus must be true when present")
     else:
         hermeticity = require_object(response.get("hermeticity"), "response.hermeticity")
         require_keys(hermeticity, {"method", "limitations"}, "response.hermeticity")
@@ -858,6 +861,11 @@ def validate_response(packet: dict[str, Any], response: dict[str, Any]) -> None:
     context_refs = set(packet["context_order"])
     context_roots = {cue["root"] for cue in packet.get("context_root_cues", [])}
     rootless_focus = is_rootless_ayah(packet["focus_ayah"])
+    if compact_response:
+        if rootless_focus and response.get("rootless_focus") is not True:
+            raise ValueError("rootless focus response must set rootless_focus true")
+        if not rootless_focus and "rootless_focus" in response:
+            raise ValueError("rooted focus response must not set rootless_focus")
     model_ids: set[str] = set()
     baseline_models = require_list(
         response.get("baseline_models"),
