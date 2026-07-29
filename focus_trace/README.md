@@ -54,6 +54,19 @@ model: gpt-5.6-sol
 reasoning_effort: max
 ```
 
+Agent orchestration:
+
+- spawn one worker per focus ayah output;
+- give each worker only the prompt, schema, and its assigned packet;
+- set `agent_type: worker`, `model: gpt-5.6-sol`, `reasoning_effort: max`,
+  `service_tier: priority`, and `fork_context: false`;
+- each worker owns exactly one response path under
+  `focus_trace/runs/sNNN/readers/<reader_id>/`;
+- the reader call is hermetic: no follow-up reveal messages or staged context
+  messages;
+- if a worker is interrupted, validate any existing output before resuming or
+  replacing it.
+
 Validate a response:
 
 ```bash

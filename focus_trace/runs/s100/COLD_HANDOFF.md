@@ -32,6 +32,59 @@ If some files are missing, create only the missing files. Each model call should
 receive exactly the prompt, schema, and its assigned packet. The method is
 hermetic: do not send follow-up reveal messages.
 
+## Spawn / Orchestration Contract
+
+Spawn one worker per missing ayah output. Do not give one worker the whole
+surah. Do not ask a worker to compare quality or rebuild bundles while it is
+writing a focus response.
+
+For Codex multi-agent runs, use:
+
+```text
+agent_type: worker
+model: gpt-5.6-sol
+reasoning_effort: max
+service_tier: priority
+fork_context: false
+```
+
+Worker ownership is one output file only:
+
+```text
+focus_trace/runs/s100/readers/reader_hft_a/{S}_{A}.focus_trace.json
+```
+
+Assignment template:
+
+```text
+Work in /Users/ahmetrasit/projects/latent_activation.
+
+Read:
+- focus_trace/prompts/focus_trace_hermetic.md
+- focus_trace/schemas/focus-trace-response.schema.json
+- focus_trace/runs/s100/packets/{S}_{A}.packet.json
+
+Generate focus ayah {S}:{A} only. Write valid JSON to:
+focus_trace/runs/s100/readers/reader_hft_a/{S}_{A}.focus_trace.json
+
+Use response protocol focus-trace-hermetic-response-v3. Preserve surprise,
+latent activation, changed readings, abductive moves, and multiple coexisting
+readings. Do not behave as a conservative audit reader. Every branch citation
+must include mapped_root_id with branch_id.
+
+Validate:
+python3 -B focus_trace/scripts/validate_focus_trace.py \
+  focus_trace/runs/s100/packets/{S}_{A}.packet.json \
+  focus_trace/runs/s100/readers/reader_hft_a/{S}_{A}.focus_trace.json
+
+Do not edit any other file.
+```
+
+If an agent is interrupted or closed before writing its file, either resume it
+and resend the same assignment or spawn a replacement for that ayah. Before
+restarting an ayah, check whether its output file already exists; if it exists,
+validate it instead of overwriting it.
+
 ## Validate Reader Outputs
 
 From `../latent_activation`:
