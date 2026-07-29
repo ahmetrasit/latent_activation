@@ -134,25 +134,50 @@ The focus ayah is rootless in this packet: QAC supplies no rooted morphemes for
 the focus words. Still analyze the focus ayah within the given packet context,
 using ordinary model knowledge of the focus words where needed. Do not fabricate
 root, mapped_root_id, or branch_id citations for the rootless focus words.
-Baseline activation_trace may be empty only for this rootless focus case. Any
-non-empty branch citation must still resolve to a branch actually present in the
-packet.
+Set top-level `rootless_focus` to `true` in the response. Baseline
+activation_trace may be empty only for this rootless focus case. Any non-empty
+branch citation must still resolve to a branch actually present in the packet.
 ```
 
 Rootless context ayat are retained as text-only context. They may inform the
 reader's prose analysis, but they cannot by themselves supply `trigger_roots` or
 branch-cited activation trace entries.
 
-## Packet generation
+## Pericope-based packet generation
 
-Generate one packet per focus ayah with a whole-surah window:
+Generate one packet per focus ayah with a pericope window, not a whole-surah
+window. The normative pericope inventory is:
+
+```text
+../quran-data/data/analysis/channels/network-v3/pericopes/surah_pericopes.jsonl
+```
+
+Each JSONL row supplies:
+
+```text
+surah, pericope, ayah_from, ayah_to, label
+```
+
+Treat each pericope as the packet window for every focus ayah inside that
+pericope. In other words, if S2 has sixteen reference pericopes, S2 is not one
+reader window; each reference pericope is handled as its own local window.
+
+For each focus ayah `<S>:<A>`, expand the containing pericope range into an
+ordered ayah-ref list and generate:
 
 ```bash
 python3 focus_trace/scripts/build_focus_trace_packet.py \
   --focus <S>:<A> \
-  --surah-window \
+  --window <S>:<FROM>,<S>:<FROM+1>,...,<S>:<TO> \
   --output focus_trace/runs/s<S>/packets/<S>_<A>.packet.json
 ```
+
+Do not use `--surah-window` for pericope-scoped production runs.
+
+Rootless ayat in a pericope are expected and are not missing-data errors. Keep
+them in the packet when the packet format supports text-only/rootless ayat, and
+follow the rootless-focus instructions above for rootless focus jobs. Do not
+invent roots or branch citations for rootless focus words.
 
 Validate each packet before spawning a worker:
 
@@ -170,12 +195,53 @@ The packet builder uses:
 Resource paths in packet provenance must stay repo-relative where possible.
 Generated packets must not be written under `../quran-data`.
 
+Packet provenance must record the pericope source row, including at minimum the
+pericope source path, `surah`, `pericope`, `ayah_from`, `ayah_to`, and `label`.
+
 Branch policy for this HFT workflow:
 
 - include all `contaminated = 'no'` branch rows;
 - ignore `status` for inclusion, so both `accepted` and `review` rows are
   available;
 - exclude every `contaminated = 'yes'` row.
+
+## Oversized pericope fragmentation
+
+Use reference pericopes first. Fragment only when the generated packets for a
+reference pericope prove too large.
+
+Generation-time size policy:
+
+1. Generate or simulate every focus packet for the reference pericope.
+2. Measure the compact JSON packet size after generation.
+3. If every packet in that reference pericope is `<= 500 KiB`, keep the
+   reference pericope unchanged.
+4. If any packet in that reference pericope is `> 500 KiB`, fragment that
+   reference pericope into smaller contiguous semantic windows and regenerate
+   only that pericope's packets from the fragments.
+5. Re-measure the fragmented packets. Continue fragmenting only the windows
+   that still produce packets over `500 KiB`.
+
+Fragmentation rules:
+
+- preserve the reference pericope as the parent boundary; never pull ayat from
+  outside the source pericope merely to reduce size;
+- prefer semantic discourse boundaries over fixed-size chopping;
+- keep fragments contiguous, ordered, and non-overlapping;
+- cover every ayah from the parent pericope exactly once, except for any
+  rootless/text-only handling required by the packet format;
+- record both the parent reference pericope and the fragment range in packet
+  provenance;
+- if a single-focus packet remains over `500 KiB`, report it as intrinsically
+  oversized under the current packet schema rather than dropping branch
+  inventory or weakening validation.
+
+For S2, this policy means the first reference pericope `2:1-20` can remain
+whole, while later reference pericopes should be fragmented only because their
+measured packets exceed `500 KiB`. Fragmenting should follow local discourse
+units such as Adam narrative, Israelite episodes, qiblah, fasting, hajj,
+marriage/divorce, spending/usury/debt, and final creed, not arbitrary equal
+chunks.
 
 ## Current production queue
 
@@ -210,10 +276,10 @@ Within each surah, process ayat in numeric ayah order.
 For an approximately 80-job first batch:
 
 - exact 80th item: `89:28`;
-- whole-surah boundary after S89: 82 jobs.
+- surah boundary after S89: 82 jobs.
 
-Prefer the whole-surah boundary unless there is a capacity reason to stop at
-exactly 80.
+Prefer the surah boundary unless there is a capacity reason to stop at exactly
+80. This is a queue boundary only; packet windows are still pericope-scoped.
 
 ## Post-worker validation
 
