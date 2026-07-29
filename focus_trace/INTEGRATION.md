@@ -50,7 +50,7 @@ The packet root policy is deterministic:
 
 Split roots are not reduced to their dominant Furuq target. If one QAC root maps
 to multiple Furuq `root_id` values, the packet includes every mapped target and
-every accepted, non-contaminated branch inventory for those targets. Since
+every non-contaminated branch inventory for those targets. Since
 `branch_id` values are local to each Furuq root, reader responses cite
 `mapped_root_id` with every `branch_id`. The bridge is stored in `quran-data`,
 but generation remains here; `quran-data` is frozen data storage.

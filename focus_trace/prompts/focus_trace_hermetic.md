@@ -120,14 +120,14 @@ branchless structural cues may support that delta but may not be its only
 trigger.
 
 QAC roots are resolved to Furuq root IDs before you receive the packet. If a QAC
-root maps to multiple Furuq roots, all mapped roots and all accepted,
-non-contaminated branch inventories are present. Branch IDs are local to a
+root maps to multiple Furuq roots, all mapped roots and all non-contaminated
+branch inventories are present. Branch IDs are local to a
 Furuq root, so cite `mapped_root_id` with every `branch_id`. Do not collapse a
 split root to the dominant target only. Non-dominant mapped roots are legitimate
 activation material when they visibly change the focus reading.
 
 If a branch entry contains `variants`, the same packet branch ID represents
-multiple accepted source rows. You may cite the shared branch ID, but be clear
+multiple non-contaminated source rows. You may cite the shared branch ID, but be clear
 which image or scope is doing the work.
 
 Whenever you infer that one element causes, enables, blocks, reveals, preserves,

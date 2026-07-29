@@ -355,7 +355,6 @@ def load_branches_for_mapped_roots(
                    branch_image_ar, branch_image_en, what_is_ar, what_is_en
             FROM branch_images
             WHERE root_id IN ({placeholders})
-              AND status = 'accepted'
               AND contaminated = 'no'
             ORDER BY root_id, CAST(SUBSTR(branch_id, 2) AS INTEGER), id
         """
@@ -404,7 +403,7 @@ def load_branches_for_mapped_roots(
                         "qac_root": qac_root,
                         "furuq_root_id": target["furuq_root_id"],
                         "furuq_root_norm": target["furuq_root_norm"],
-                        "reason": "no accepted, non-contaminated branch rows for mapped root_id",
+                        "reason": "no non-contaminated branch rows for mapped root_id",
                     }
                 )
     return branches, missing, target_missing
@@ -490,7 +489,7 @@ def main() -> None:
     parser.add_argument(
         "--strict-branches",
         action="store_true",
-        help="fail if any packet root lacks an accepted, non-contaminated branch inventory",
+        help="fail if any packet root lacks a non-contaminated branch inventory",
     )
     args = parser.parse_args()
 
@@ -526,7 +525,7 @@ def main() -> None:
     )
     if args.strict_branches and missing_roots:
         raise ValueError(
-            "no accepted, non-contaminated branch inventory for roots: "
+            "no non-contaminated branch inventory for roots: "
             f"{missing_roots}"
         )
 
@@ -553,20 +552,20 @@ def main() -> None:
             ),
             "focus_root_policy": (
                 "All roots occurring in the focus ayah are included in first-seen "
-                "focus order with full accepted, non-contaminated branch inventories."
+                "focus order with full non-contaminated branch inventories."
             ),
             "context_root_policy": (
                 "All roots occurring in non-focus context ayat are included in "
                 "packet order and root order. Each occurrence includes source_phrase_ar."
             ),
             "non_focus_branch_policy": (
-                f"Every context root with an accepted inventory includes all branch IDs "
+                f"Every context root with a non-contaminated inventory includes all branch IDs "
                 f"in {args.non_focus_branch_mode!r} mode; this always includes branch_image_ar."
             ),
             "root_mapping_policy": (
                 "QAC roots are resolved through qac-furuq-v4-root-map.sqlite.gz. "
                 "If a QAC root maps to multiple Furuq root_ids, every mapped root "
-                "and its accepted, non-contaminated branches are included in "
+                "and its non-contaminated branches are included in "
                 "target_rank order. Branch IDs are root-local, so reader citations "
                 "must pair branch_id with mapped_root_id."
             ),
@@ -610,13 +609,13 @@ def main() -> None:
                 "root_mapping": root_mapping_summary(root_mappings[root]),
                 "refs": refs_for_missing[root],
                 "source_phrases": source_phrases(ayat, root),
-                "reason": "no accepted, non-contaminated branch inventory in resource",
+                "reason": "no non-contaminated branch inventory in resource",
             }
             for root in missing_roots
         ],
         "provenance": {
             "branch_filter": {
-                "status": "accepted",
+                "status": "any",
                 "contaminated": "no",
                 "origin_corpus": ["furuq", "quranic"],
             },

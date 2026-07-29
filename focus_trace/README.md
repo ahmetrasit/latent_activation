@@ -93,7 +93,7 @@ The packet builder uses deterministic selection:
   inventories;
 - context roots: every root in the selected non-focus ayat, packet order, with
   `source_phrase_ar` for each occurrence;
-- context branches: every accepted, non-contaminated branch ID in compact mode,
+- context branches: every non-contaminated branch ID in compact mode,
   always including `branch_image_ar`;
 - branch citations: `branch_id` is root-local, so reader responses must cite it
   with `mapped_root_id`.
