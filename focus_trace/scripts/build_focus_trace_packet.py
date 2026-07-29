@@ -27,6 +27,7 @@ from build_packets import (
     DEFAULT_BRANCH_DB,
     DEFAULT_QAC,
     REPO_ROOT,
+    canonical_arabic,
     load_ayat,
     ordered_unique,
     parse_refs,
@@ -43,7 +44,9 @@ DEFAULT_QAC_FURUQ_ROOT_MAP = (
     / "bridges"
     / "qac-furuq-v4-root-map.sqlite.gz"
 )
+DEFAULT_QURAN_DIR = REPO_ROOT / "resources" / "quran"
 PROTOCOL = "focus-trace-hermetic-packet-v2"
+ROOTLESS_REASON = "QAC has no rooted morphemes for this ayah"
 
 
 def parse_ref(raw: str) -> str:
@@ -86,7 +89,78 @@ def output_in_quran_data(path: Path) -> bool:
     return "quran-data" in path.resolve().parts
 
 
-def numbered_refs_for_surah(qac_path: Path, surah: int) -> list[str]:
+def quran_surah_path(quran_dir: Path, surah: int) -> Path:
+    return quran_dir / f"surah_{surah}.json"
+
+
+def load_quran_surah(quran_dir: Path, surah: int) -> dict[int, str]:
+    path = quran_surah_path(quran_dir, surah)
+    if not path.is_file():
+        raise ValueError(f"Quran surah resource not found: {path}")
+    with path.open(encoding="utf-8") as handle:
+        data = json.load(handle)
+    verses = data.get("verse")
+    if not isinstance(verses, dict):
+        raise ValueError(f"{path}: missing verse object")
+    count = int(data.get("count", 0))
+    ayat: dict[int, str] = {}
+    for ayah in range(1, count + 1):
+        key = f"verse_{ayah}"
+        text = verses.get(key)
+        if not isinstance(text, str) or not text.strip():
+            raise ValueError(f"{path}: missing text for {key}")
+        ayat[ayah] = text
+    if not ayat:
+        raise ValueError(f"{path}: no numbered ayat found")
+    return ayat
+
+
+def numbered_refs_for_surah(quran_dir: Path, surah: int) -> list[str]:
+    ayat = load_quran_surah(quran_dir, surah)
+    return [f"{surah}:{ayah}" for ayah in sorted(ayat)]
+
+
+def qac_refs_present(qac_path: Path, refs: set[str]) -> set[str]:
+    if not refs:
+        return set()
+    present: set[str] = set()
+    with qac_path.open(encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle, delimiter="\t")
+        for row in reader:
+            ref = row["ayah_ref"]
+            if ref in refs:
+                present.add(ref)
+    return present
+
+
+def rootless_ayah(quran_dir: Path, ref: str) -> dict[str, Any]:
+    surah = surah_of(ref)
+    ayah = ayah_of(ref)
+    text = load_quran_surah(quran_dir, surah).get(ayah)
+    if text is None:
+        raise ValueError(f"Quran text missing for rootless ayah {ref}")
+    return {
+        "ref": ref,
+        "text_ar": text,
+        "text_norm_ar": canonical_arabic(text),
+        "root_sequence": [],
+        "root_occurrences": [],
+        "rootless": True,
+        "rootless_reason": ROOTLESS_REASON,
+    }
+
+
+def validate_window_refs(quran_dir: Path, focus_ref: str, window: list[str]) -> None:
+    surah = surah_of(focus_ref)
+    canonical_refs = set(numbered_refs_for_surah(quran_dir, surah))
+    for ref in window:
+        if is_basmalah_ref(ref):
+            continue
+        if ref not in canonical_refs:
+            raise ValueError(f"window ref is not in Quran surah resource: {ref}")
+
+
+def rooted_numbered_refs_for_surah(qac_path: Path, surah: int) -> list[str]:
     prefix = f"{surah}:"
     refs: set[str] = set()
     with qac_path.open(encoding="utf-8", newline="") as handle:
@@ -114,14 +188,14 @@ def add_basmalah_if_requested(
 
 
 def window_for_radius(
-    qac_path: Path,
+    quran_dir: Path,
     focus_ref: str,
     radius: int,
     include_basmalah: bool,
 ) -> list[str]:
     surah = surah_of(focus_ref)
     focus_ayah = ayah_of(focus_ref)
-    refs = numbered_refs_for_surah(qac_path, surah)
+    refs = numbered_refs_for_surah(quran_dir, surah)
     numbers = [ayah_of(ref) for ref in refs]
     start = max(min(numbers), focus_ayah - radius)
     end = min(max(numbers), focus_ayah + radius)
@@ -131,10 +205,10 @@ def window_for_radius(
     return window
 
 
-def window_for_surah(qac_path: Path, focus_ref: str, include_basmalah: bool) -> list[str]:
+def window_for_surah(quran_dir: Path, focus_ref: str, include_basmalah: bool) -> list[str]:
     surah = surah_of(focus_ref)
     return add_basmalah_if_requested(
-        numbered_refs_for_surah(qac_path, surah),
+        numbered_refs_for_surah(quran_dir, surah),
         surah,
         include_basmalah,
     )
@@ -147,15 +221,19 @@ def make_basmalah_ayah(template: dict[str, Any], target_ref: str) -> dict[str, A
     return ayah
 
 
-def load_window_ayat(qac_path: Path, window: list[str]) -> dict[str, dict[str, Any]]:
+def load_window_ayat(qac_path: Path, quran_dir: Path, window: list[str]) -> dict[str, dict[str, Any]]:
     basmalah_refs = [ref for ref in window if is_basmalah_ref(ref)]
     real_refs = [ref for ref in window if not is_basmalah_ref(ref)]
-    load_refs = set(real_refs)
+    qac_present = qac_refs_present(qac_path, set(real_refs))
+    load_refs = set(qac_present)
     if basmalah_refs:
         load_refs.add(BASMALAH_TEMPLATE_REF)
     ayat = load_ayat(qac_path, load_refs)
     for ref in basmalah_refs:
         ayat[ref] = make_basmalah_ayah(ayat[BASMALAH_TEMPLATE_REF], ref)
+    for ref in real_refs:
+        if ref not in ayat:
+            ayat[ref] = rootless_ayah(quran_dir, ref)
     return ayat
 
 
@@ -473,6 +551,7 @@ def main() -> None:
     context.add_argument("--radius", type=parse_radius, help="use N ayat before and after the focus ayah")
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--qac", type=Path, default=DEFAULT_QAC)
+    parser.add_argument("--quran-dir", type=Path, default=DEFAULT_QURAN_DIR)
     parser.add_argument("--branches", type=Path, default=DEFAULT_BRANCH_DB)
     parser.add_argument("--root-map", type=Path, default=DEFAULT_QAC_FURUQ_ROOT_MAP)
     parser.add_argument(
@@ -496,13 +575,20 @@ def main() -> None:
     for path in (args.qac, args.branches, args.root_map):
         if not path.is_file():
             parser.error(f"resource not found: {path}")
+    if not args.quran_dir.is_dir():
+        parser.error(f"resource directory not found: {args.quran_dir}")
+    quran_path = quran_surah_path(args.quran_dir, surah_of(args.focus))
 
     if args.window:
         window = args.window
+        try:
+            validate_window_refs(args.quran_dir, args.focus, window)
+        except ValueError as error:
+            parser.error(str(error))
     elif args.surah_window:
-        window = window_for_surah(args.qac, args.focus, args.include_basmalah)
+        window = window_for_surah(args.quran_dir, args.focus, args.include_basmalah)
     else:
-        window = window_for_radius(args.qac, args.focus, args.radius, args.include_basmalah)
+        window = window_for_radius(args.quran_dir, args.focus, args.radius, args.include_basmalah)
 
     if args.focus not in window:
         parser.error("--focus must be present in the selected window")
@@ -511,7 +597,7 @@ def main() -> None:
     if output_in_quran_data(args.output):
         parser.error("--output must not write generated data under quran-data")
 
-    ayat_by_ref = load_window_ayat(args.qac, window)
+    ayat_by_ref = load_window_ayat(args.qac, args.quran_dir, window)
     ayat = [ayat_by_ref[ref] for ref in window]
     focus_ayah = ayat_by_ref[args.focus]
     context_ayat = [ayah for ayah in ayat if ayah["ref"] != args.focus]
@@ -532,8 +618,16 @@ def main() -> None:
     refs_for_missing = refs_by_root(ayat)
     resource_hashes = {
         resource_key(path): sha256(path)
-        for path in (args.qac, args.branches, args.root_map)
+        for path in (args.qac, args.branches, args.root_map, quran_path)
     }
+    rootless_ayat = [
+        {
+            "ref": ayah["ref"],
+            "reason": ayah["rootless_reason"],
+        }
+        for ayah in ayat
+        if ayah.get("rootless") is True
+    ]
 
     packet = {
         "protocol": PROTOCOL,
@@ -556,7 +650,9 @@ def main() -> None:
             ),
             "context_root_policy": (
                 "All roots occurring in non-focus context ayat are included in "
-                "packet order and root order. Each occurrence includes source_phrase_ar."
+                "packet order and root order. Each occurrence includes source_phrase_ar. "
+                "Rootless context ayat are retained as text-only context and have no "
+                "branch-citable roots."
             ),
             "non_focus_branch_policy": (
                 f"Every context root with a non-contaminated inventory includes all branch IDs "
@@ -620,6 +716,7 @@ def main() -> None:
                 "origin_corpus": ["furuq", "quranic"],
             },
             "missing_mapped_targets": missing_mapped_targets,
+            "rootless_ayat": rootless_ayat,
             "resource_sha256": resource_hashes,
             "synthetic_ayat": [
                 {
