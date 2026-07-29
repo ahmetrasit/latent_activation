@@ -116,6 +116,33 @@ python3 -B focus_trace/scripts/validate_focus_trace.py \
 Do not edit any other file.
 ```
 
+## Rootless focus ayat
+
+Some ayat exist in the Quran text but have no QAC-rooted morphemes. These
+packets mark the focus ayah with:
+
+```text
+rootless: true
+root_occurrences: []
+```
+
+Do not skip these jobs. For a rootless focus ayah, add this heads-up to the
+worker assignment:
+
+```text
+The focus ayah is rootless in this packet: QAC supplies no rooted morphemes for
+the focus words. Still analyze the focus ayah within the given packet context,
+using ordinary model knowledge of the focus words where needed. Do not fabricate
+root, mapped_root_id, or branch_id citations for the rootless focus words.
+Baseline activation_trace may be empty only for this rootless focus case. Any
+non-empty branch citation must still resolve to a branch actually present in the
+packet.
+```
+
+Rootless context ayat are retained as text-only context. They may inform the
+reader's prose analysis, but they cannot by themselves supply `trigger_roots` or
+branch-cited activation trace entries.
+
 ## Packet generation
 
 Generate one packet per focus ayah with a whole-surah window:
