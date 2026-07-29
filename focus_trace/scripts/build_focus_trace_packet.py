@@ -8,6 +8,7 @@ import copy
 import csv
 import gzip
 import json
+import os
 import shutil
 import sqlite3
 import sys
@@ -78,10 +79,7 @@ def is_basmalah_ref(ref: str) -> bool:
 
 def resource_key(path: Path) -> str:
     resolved = path.resolve()
-    try:
-        return str(resolved.relative_to(REPO_ROOT))
-    except ValueError:
-        return str(resolved)
+    return os.path.relpath(resolved, REPO_ROOT)
 
 
 def output_in_quran_data(path: Path) -> bool:
@@ -638,7 +636,7 @@ def main() -> None:
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(
-        json.dumps(packet, ensure_ascii=False, indent=2) + "\n",
+        json.dumps(packet, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
     )
     print(f"focus-trace packet: {args.output}")

@@ -44,7 +44,6 @@ For Codex multi-agent runs, use:
 agent_type: worker
 model: gpt-5.6-sol
 reasoning_effort: max
-service_tier: priority
 fork_context: false
 ```
 
@@ -57,7 +56,7 @@ focus_trace/runs/s100/readers/reader_hft_a/{S}_{A}.focus_trace.json
 Assignment template:
 
 ```text
-Work in /Users/ahmetrasit/projects/latent_activation.
+Work in the `latent_activation` repository root.
 
 Read:
 - focus_trace/prompts/focus_trace_hermetic.md
@@ -67,10 +66,20 @@ Read:
 Generate focus ayah {S}:{A} only. Write valid JSON to:
 focus_trace/runs/s100/readers/reader_hft_a/{S}_{A}.focus_trace.json
 
-Use response protocol focus-trace-hermetic-response-v3. Preserve surprise,
-latent activation, changed readings, abductive moves, and multiple coexisting
-readings. Do not behave as a conservative audit reader. Every branch citation
-must include mapped_root_id with branch_id.
+Use response protocol focus-trace-hermetic-response-v4. Preserve surprise,
+latent activation, changed readings, abductive reasoning, and multiple
+coexisting readings. Do not behave as a conservative audit reader. Every branch
+citation must include `source_ref`, `root`, `source_word_indices`,
+`mapped_root_id`, `branch_id`, and `role`. Do not repeat `source_phrase_ar`,
+`branch_image_ar`, or `mapped_root_norm` in v4 outputs; these resolve from the
+packet.
+
+Compact the stored JSON before validation:
+jq -c . \
+  focus_trace/runs/s100/readers/reader_hft_a/{S}_{A}.focus_trace.json \
+  > /tmp/{S}_{A}.focus_trace.compact.json && \
+  mv /tmp/{S}_{A}.focus_trace.compact.json \
+  focus_trace/runs/s100/readers/reader_hft_a/{S}_{A}.focus_trace.json
 
 Validate:
 python3 -B focus_trace/scripts/validate_focus_trace.py \
@@ -161,7 +170,7 @@ Judge the new focus outputs on:
 - surprise;
 - latent activation;
 - changed readings;
-- abductive moves;
+- abductive reasoning;
 - multiple coexisting readings;
 - whether Layer 2 prose can use the material without flattening it.
 

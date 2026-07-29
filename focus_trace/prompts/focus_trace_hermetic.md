@@ -39,7 +39,7 @@ one response.
 
 Because the packet contains the focus ayah and its context at the same time,
 your output is a reconstructed focus trace, not a strict blind staged discovery
-log. Keep that distinction explicit in `hermeticity.limitations`.
+log. Record this with `trace_kind: "reconstructed"`.
 
 ## Reader Posture
 
@@ -88,21 +88,36 @@ what makes it still worth carrying.
 
 ## Required Evidence Discipline
 
-For focus-only baseline models, cite exact focus roots and branch IDs.
-
-For context-triggered deltas, every non-focus citation must include:
+For every `activation_trace` entry, whether baseline, context delta, or outlier,
+use exactly this compact resolvable citation shape:
 
 - `source_ref`;
 - `root`;
-- `source_phrase_ar`;
+- `source_word_indices`;
 - `mapped_root_id`;
 - `branch_id`;
-- `branch_image_ar`;
-- the role that branch image plays in the mechanism.
+- `role`.
 
-Use the exact `source_phrase_ar` supplied by the packet. If a context root has
-no branch inventory, you may cite its source phrase as a structural cue, but do
-not invent a branch ID or branch image for it.
+For context-triggered deltas, every non-focus citation must include the compact
+resolvable citation key:
+
+- `source_ref`;
+- `root`;
+- `source_word_indices`;
+- `mapped_root_id`;
+- `branch_id`;
+- `role`, a concise sentence explaining the cited branch image's contribution
+  to the mechanism.
+
+Do not repeat `source_phrase_ar`, `branch_image_ar`, or `mapped_root_norm` in
+the response. The validator and downstream loader resolve those from the packet
+using `source_ref`, `root`, `source_word_indices`, `mapped_root_id`, and
+`branch_id`. Use the exact `source_word_indices` supplied by the packet. If a
+context root has no branch inventory, cite it only as a `structural_cues` item
+rather than inventing a branch ID. In v4, a retained `context_delta` must still
+include at least one branch-backed context citation in `activation_trace`;
+branchless structural cues may support that delta but may not be its only
+trigger.
 
 QAC roots are resolved to Furuq root IDs before you receive the packet. If a QAC
 root maps to multiple Furuq roots, all mapped roots and all accepted,
@@ -118,6 +133,9 @@ which image or scope is doing the work.
 Whenever you infer that one element causes, enables, blocks, reveals, preserves,
 or reverses another, distinguish the elements supplied by the packet from the
 directional arrow supplied by you. Such moves are allowed. Hidden moves are not.
+Use `reader_inference` for this distinction in each context delta. Keep it
+short, but include: what the packet supplies, the reader-supplied assumption or
+arrow, and any materially live alternative.
 
 ## Output
 
@@ -130,19 +148,36 @@ focus_trace/schemas/focus-trace-response.schema.json
 The top-level `protocol` must be:
 
 ```text
-focus-trace-hermetic-response-v3
+focus-trace-hermetic-response-v4
 ```
 
 Use this order:
 
-1. `reader_id`
-2. `focus_ref`
-3. `hermeticity`
-4. `baseline_models`
-5. `context_deltas`
-6. `surprising_valid_outliers`
-7. `discarded_or_unchanged`
-8. `summary`
+1. `protocol`
+2. `reader_id`
+3. `focus_ref`
+4. `trace_kind`
+5. `baseline_models`
+6. `context_deltas`
+7. `surprising_valid_outliers`
+8. optional `discarded_or_unchanged`
+9. `summary`
+
+For v4 compact output:
+
+- omit baseline `status`; membership in `baseline_models` implies it;
+- use one trace `role` field instead of separate `literal_contribution` and
+  `assigned_role`; this must combine the branch image's literal contribution
+  and its functional role in the mechanism;
+- use one `reader_inference` string instead of `abductive_moves`;
+- omit `trigger_refs` by default; if included, they must exactly match the
+  non-focus citations in `activation_trace`;
+- omit `minimal_triggers`, `ablation`, and `discarded_or_unchanged` unless a
+  debug note materially changes confidence or status;
+- for outliers, use one `containment` field instead of separate
+  `why_surprising`, `why_still_valid`, and `rendering_caution`; it must state
+  why the outlier is surprising, why it remains anchored or valid, and how
+  downstream prose should qualify it.
 
 Every `model_id` value must be unique across both `baseline_models` and
 `context_deltas`. If a context delta revises a baseline model, use a related but
@@ -157,3 +192,7 @@ proper containment.
 Keep fields concise and diagnostic. The goal is not a catalog of every branch;
 the goal is to recover the surprising changed-reading trace that whole-surah
 reader prose tends to collapse.
+
+After writing valid JSON, compact the stored output with `jq -c` before final
+validation. The compaction is formatting-only: it must not change any field or
+value. If compacting fails, fix the JSON and compact again before validating.

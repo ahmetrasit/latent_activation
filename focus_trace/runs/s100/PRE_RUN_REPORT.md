@@ -1,15 +1,16 @@
 # S100 Hermetic Focus Trace Pre-Run Report
 
-Status: packets generated and validated; reader agents not run yet.
+Status: packets compacted and validated; primary `reader_hft_a` outputs are now
+generated and validated.
 
-Reason reader outputs are absent: the coordinator was instructed not to spawn
-agents yet. The S100 packet layer is ready for `gpt-5.6-sol` max readers once
-agent execution is re-enabled.
+This file began as the pre-run report. It has been updated after the compact
+JSON optimization so its packet sizes and input estimates match the current
+files.
 
 ## Packet Contract
 
 - packet protocol: `focus-trace-hermetic-packet-v2`
-- response protocol expected by prompt/schema: `focus-trace-hermetic-response-v3`
+- response protocol expected by prompt/schema: `focus-trace-hermetic-response-v4`
 - model profile: `gpt-5.6-sol`, `reasoning_effort: max`
 - root identity source:
   `../quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz`
@@ -36,24 +37,30 @@ Each packet contains the three S100 split-root mappings and records
 ## Packet Size / Input Estimate
 
 The estimate uses the local commentary tooling convention of bytes / 4. Fixed
-reader prompt + schema cost is 12,931 bytes, about 3,232 tokens.
+reader prompt + compact schema cost is 12,045 bytes, about 3,011 tokens.
+
+Existing `reader_hft_a` outputs are response-v3. New comparison outputs should
+use response-v4. The Python validator accepts both protocols.
 
 | focus | packet bytes | estimated input tokens |
 | --- | ---: | ---: |
-| 100:1 | 163,430 | 44,090 |
-| 100:2 | 145,121 | 39,513 |
-| 100:3 | 142,661 | 38,898 |
-| 100:4 | 157,607 | 42,634 |
-| 100:5 | 149,200 | 40,532 |
-| 100:6 | 173,769 | 46,675 |
-| 100:7 | 134,267 | 36,799 |
-| 100:8 | 150,259 | 40,797 |
-| 100:9 | 141,916 | 38,711 |
-| 100:10 | 140,445 | 38,344 |
-| 100:11 | 168,142 | 45,268 |
+| 100:1 | 113,200 | 31,311 |
+| 100:2 | 97,787 | 27,458 |
+| 100:3 | 95,870 | 26,978 |
+| 100:4 | 108,644 | 30,172 |
+| 100:5 | 101,685 | 28,432 |
+| 100:6 | 120,465 | 33,127 |
+| 100:7 | 89,063 | 25,277 |
+| 100:8 | 102,243 | 28,572 |
+| 100:9 | 95,529 | 26,893 |
+| 100:10 | 94,378 | 26,605 |
+| 100:11 | 115,701 | 31,936 |
 
-Total packet bytes: 1,666,817. Estimated total input for one reader across all
-11 S100 ayat: about 452,264 tokens.
+Total packet bytes: 1,134,565. Estimated total input for one reader across all
+11 S100 ayat: about 316,761 tokens.
+
+Compared with the original pretty-printed JSON packets, compact JSON removes
+532,252 packet bytes, about 31.9% of packet storage/input overhead.
 
 ## Reader_M Baseline
 
@@ -66,9 +73,9 @@ Trace against that standard, not merely against a generic surah-wide summary.
 
 ## Commentary Integration State
 
-`prose_generation` now loads this run as `v12_focus_trace_hermetic`. While only
-packets exist, ayah bundles record `packet_present: true` and `present: false`.
-After reader JSON is generated, the bundle will load reader outputs under
+`prose_generation` now loads this run as `v12_focus_trace_hermetic`. With
+validated reader JSON present, rebuilt ayah bundles should record
+`packet_present: true`, `present: true`, and load reader outputs under
 `v12_focus_trace_hermetic.readers`.
 
 To keep Layer 2 prompts cost-effective, `root_lexicon` lists every mapped split

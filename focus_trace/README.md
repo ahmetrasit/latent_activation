@@ -59,9 +59,11 @@ Agent orchestration:
 - spawn one worker per focus ayah output;
 - give each worker only the prompt, schema, and its assigned packet;
 - set `agent_type: worker`, `model: gpt-5.6-sol`, `reasoning_effort: max`,
-  `service_tier: priority`, and `fork_context: false`;
+  and `fork_context: false`;
 - each worker owns exactly one response path under
   `focus_trace/runs/sNNN/readers/<reader_id>/`;
+- after writing JSON, each worker runs `jq -c` on its own output file before
+  validation so stored reader artifacts are token-efficient;
 - the reader call is hermetic: no follow-up reveal messages or staged context
   messages;
 - if a worker is interrupted, validate any existing output before resuming or
@@ -70,6 +72,12 @@ Agent orchestration:
 Validate a response:
 
 ```bash
+jq -c . \
+  focus_trace/runs/s100/readers/reader_a/100_1.focus_trace.json \
+  > /tmp/100_1.focus_trace.compact.json && \
+  mv /tmp/100_1.focus_trace.compact.json \
+  focus_trace/runs/s100/readers/reader_a/100_1.focus_trace.json
+
 python3 focus_trace/scripts/validate_focus_trace.py \
   focus_trace/runs/s100/packets/100_1.packet.json \
   focus_trace/runs/s100/readers/reader_a/100_1.focus_trace.json

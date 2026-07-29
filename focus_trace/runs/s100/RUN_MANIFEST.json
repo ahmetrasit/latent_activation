@@ -1,10 +1,10 @@
 {
   "workflow": "Hermetic Focus Trace",
   "surah": 100,
-  "status": "packets_ready_reader_outputs_absent",
+  "status": "existing_reader_outputs_validated_v3_new_schema_v4_ready",
   "agent_execution": {
-    "enabled": false,
-    "reason": "coordinator instruction: do not spawn agents yet"
+    "enabled": true,
+    "reason": "reader_hft_a S100 v3 outputs generated; compact JSON applied; v4 schema ready for new comparison outputs"
   },
   "model_profile": {
     "model": "gpt-5.6-sol",
@@ -12,16 +12,16 @@
   },
   "prompt": {
     "path": "focus_trace/prompts/focus_trace_hermetic.md",
-    "bytes": 6017,
-    "sha256": "0add1425000dab46f6567fd79277bf87d45b459d104ccdc61b8873fc040fbfa3"
+    "bytes": 7967,
+    "sha256": "7b72d6e2ebb6f14d1e683ec278c473d83a430516b9f0e09a9eaf6be6d2db6920"
   },
   "schema": {
     "path": "focus_trace/schemas/focus-trace-response.schema.json",
-    "bytes": 6914,
-    "sha256": "d3a67ee9dbab62b5250654b3898af17695928855ee2854321142259e26c6b0cc"
+    "bytes": 4078,
+    "sha256": "06e2e1c8185be4fd4944ec43428a33a40898704c52fd77589b7bb702a6844b04"
   },
   "packet_protocol": "focus-trace-hermetic-packet-v2",
-  "response_protocol": "focus-trace-hermetic-response-v3",
+  "response_protocol": "focus-trace-hermetic-response-v4",
   "root_map": {
     "path": "../quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
     "sha256": "415d0f14f3f1d6b49fd2fd574d24495090ece1af3f01210998b0bc1eb7b11296",
@@ -37,9 +37,9 @@
       "focus_ref": "100:1",
       "packet_path": "focus_trace/runs/s100/packets/100_1.packet.json",
       "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_1.focus_trace.json",
-      "bytes": 163430,
-      "sha256": "045a560b7c724bd13d896b9290fcbd5c291fb6b2cf21bc8ce028411149807c9c",
-      "estimated_input_tokens": 44090,
+      "bytes": 113200,
+      "sha256": "40046c1a5073ad3775443965d5177a584bb65b95414cdb3f812da43f0c05b452",
+      "estimated_input_tokens": 31311,
       "root_mappings": 23,
       "split_root_mappings": 3
     },
@@ -47,9 +47,9 @@
       "focus_ref": "100:2",
       "packet_path": "focus_trace/runs/s100/packets/100_2.packet.json",
       "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_2.focus_trace.json",
-      "bytes": 145121,
-      "sha256": "ebbaa15003af76d402b066e6f5f008297c8afa79a7de351104cd5773bb395806",
-      "estimated_input_tokens": 39513,
+      "bytes": 97787,
+      "sha256": "2fe5f1f3df9af969c0e50f65d2b36b8b5344a3a64bacbcbea67aba37c6871ac7",
+      "estimated_input_tokens": 27458,
       "root_mappings": 23,
       "split_root_mappings": 3
     },
@@ -57,9 +57,9 @@
       "focus_ref": "100:3",
       "packet_path": "focus_trace/runs/s100/packets/100_3.packet.json",
       "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_3.focus_trace.json",
-      "bytes": 142661,
-      "sha256": "c5d1d8e27b7dd8bf43fb20ea8cce38c4556bc67fd98a9b70c3a984bf70a6e226",
-      "estimated_input_tokens": 38898,
+      "bytes": 95870,
+      "sha256": "c77521c5fe9d0d00d3c0e062eef764374db89e43d0ad366f4e0cbf655db93d21",
+      "estimated_input_tokens": 26978,
       "root_mappings": 23,
       "split_root_mappings": 3
     },
@@ -67,9 +67,9 @@
       "focus_ref": "100:4",
       "packet_path": "focus_trace/runs/s100/packets/100_4.packet.json",
       "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_4.focus_trace.json",
-      "bytes": 157607,
-      "sha256": "7a0981d78fca8797273c88cf59a7fb393cb2963b455c235c03a4fe417a1c88a3",
-      "estimated_input_tokens": 42634,
+      "bytes": 108644,
+      "sha256": "3f546fd30b98a60c091f90ea3aac19d73da8277bfd65745197d70280f7507995",
+      "estimated_input_tokens": 30172,
       "root_mappings": 23,
       "split_root_mappings": 3
     },
@@ -77,9 +77,9 @@
       "focus_ref": "100:5",
       "packet_path": "focus_trace/runs/s100/packets/100_5.packet.json",
       "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_5.focus_trace.json",
-      "bytes": 149200,
-      "sha256": "0bdf4c64c93756449ef8186aa548e5066a955ed848f83b8c7ebb50d9e96f37d5",
-      "estimated_input_tokens": 40532,
+      "bytes": 101685,
+      "sha256": "f7a0834f802f883c5b0fdfc7cb3f3ae1054804041cdb3b1633e914b6067f56de",
+      "estimated_input_tokens": 28432,
       "root_mappings": 23,
       "split_root_mappings": 3
     },
@@ -87,9 +87,9 @@
       "focus_ref": "100:6",
       "packet_path": "focus_trace/runs/s100/packets/100_6.packet.json",
       "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_6.focus_trace.json",
-      "bytes": 173769,
-      "sha256": "b21321d5c73f44ee488e9e34e489784b438ade56793e3391ded9eeff45b701e4",
-      "estimated_input_tokens": 46675,
+      "bytes": 120465,
+      "sha256": "05195beadbbcc6df49628be51afdbc26334c8cd37d7a88cc7917271039b4a231",
+      "estimated_input_tokens": 33127,
       "root_mappings": 23,
       "split_root_mappings": 3
     },
@@ -97,9 +97,9 @@
       "focus_ref": "100:7",
       "packet_path": "focus_trace/runs/s100/packets/100_7.packet.json",
       "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_7.focus_trace.json",
-      "bytes": 134267,
-      "sha256": "404c18e35390e2ed8bca59d8aba6e596027632fc88de20e9da868b97386e6267",
-      "estimated_input_tokens": 36799,
+      "bytes": 89063,
+      "sha256": "29164a2f1142aeda8253c2d8c8da42f615c8eedb813cfcc5dc3a3119b4ee0bf1",
+      "estimated_input_tokens": 25277,
       "root_mappings": 23,
       "split_root_mappings": 3
     },
@@ -107,9 +107,9 @@
       "focus_ref": "100:8",
       "packet_path": "focus_trace/runs/s100/packets/100_8.packet.json",
       "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_8.focus_trace.json",
-      "bytes": 150259,
-      "sha256": "d48beef85df3862cf1a8a2d4ff8b94c1fb2a0755ec97f694887383d7b9fa81c0",
-      "estimated_input_tokens": 40797,
+      "bytes": 102243,
+      "sha256": "56507e006d41bf2140b78f8684a6f9823ed7ea10608d730292bc7383625a951f",
+      "estimated_input_tokens": 28572,
       "root_mappings": 23,
       "split_root_mappings": 3
     },
@@ -117,9 +117,9 @@
       "focus_ref": "100:9",
       "packet_path": "focus_trace/runs/s100/packets/100_9.packet.json",
       "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_9.focus_trace.json",
-      "bytes": 141916,
-      "sha256": "a2ab7c096cde1736422480859a7e46dfbaaff3173f0379471f27f08b21b2d8c3",
-      "estimated_input_tokens": 38711,
+      "bytes": 95529,
+      "sha256": "c4ab183bad80e7f48f7ab26a90d2c104d22e0fcfa0d5e36d7c2a1572316ed3a0",
+      "estimated_input_tokens": 26893,
       "root_mappings": 23,
       "split_root_mappings": 3
     },
@@ -127,9 +127,9 @@
       "focus_ref": "100:10",
       "packet_path": "focus_trace/runs/s100/packets/100_10.packet.json",
       "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_10.focus_trace.json",
-      "bytes": 140445,
-      "sha256": "d7646ce8ed915b82a76004b856b078ccff4a1df9d76e4b65c6af7127737b52bf",
-      "estimated_input_tokens": 38344,
+      "bytes": 94378,
+      "sha256": "7db7046bb0d9295ab84057f449b598a6fc258557849fb74e8a012eaeebd1383d",
+      "estimated_input_tokens": 26605,
       "root_mappings": 23,
       "split_root_mappings": 3
     },
@@ -137,20 +137,32 @@
       "focus_ref": "100:11",
       "packet_path": "focus_trace/runs/s100/packets/100_11.packet.json",
       "expected_response_path": "focus_trace/runs/s100/readers/reader_hft_a/100_11.focus_trace.json",
-      "bytes": 168142,
-      "sha256": "bc13ae656afe6fa1141fea2cdd6bf8ac6727c7ed1f525090257977b644d85e26",
-      "estimated_input_tokens": 45268,
+      "bytes": 115701,
+      "sha256": "1c1bacce1f09619d844f79d0c954f9ece985cb41b47108cfe1ebd6db0570dd4c",
+      "estimated_input_tokens": 31936,
       "root_mappings": 23,
       "split_root_mappings": 3
     }
   ],
   "totals": {
-    "packet_bytes": 1666817,
-    "estimated_input_tokens_one_reader": 452264
+    "packet_bytes": 1134565,
+    "estimated_input_tokens_one_reader": 316761
   },
   "validation": {
     "packet_validator": "focus_trace/scripts/validate_focus_trace.py",
     "all_packets_validated": true,
-    "response_validation_required_before_bundle_consumption": true
-  }
+    "response_validation_required_before_bundle_consumption": true,
+    "all_reader_outputs_validated": true
+  },
+  "optimization": {
+    "json_format": "compact",
+    "applied_to": [
+      "focus_trace/schemas/focus-trace-response.schema.json",
+      "focus_trace/runs/s100/packets/*.packet.json",
+      "focus_trace/runs/s100/readers/reader_hft_a/*.focus_trace.json"
+    ],
+    "response_protocol_v4": "compact source-word-indexed ID trace citations for new outputs; validator remains backward-compatible with v3 existing outputs"
+  },
+  "existing_reader_output_protocol": "focus-trace-hermetic-response-v3",
+  "new_response_protocol": "focus-trace-hermetic-response-v4"
 }
