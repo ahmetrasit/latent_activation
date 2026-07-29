@@ -1,0 +1,220 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://latent-activation.local/focus-trace-response.schema.json",
+  "title": "Hermetic focus trace response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "protocol",
+    "reader_id",
+    "focus_ref",
+    "hermeticity",
+    "baseline_models",
+    "context_deltas",
+    "surprising_valid_outliers",
+    "discarded_or_unchanged",
+    "summary"
+  ],
+  "properties": {
+    "protocol": {"const": "focus-trace-hermetic-response-v2"},
+    "reader_id": {"type": "string", "minLength": 1},
+    "focus_ref": {"type": "string", "pattern": "^[0-9]+:[0-9]+$"},
+    "hermeticity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "limitations"],
+      "properties": {
+        "method": {"type": "string", "minLength": 1},
+        "limitations": {"type": "string", "minLength": 1}
+      }
+    },
+    "baseline_models": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/baseline_model"}
+    },
+    "context_deltas": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/context_delta"}
+    },
+    "surprising_valid_outliers": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/surprising_valid_outlier"}
+    },
+    "discarded_or_unchanged": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["strongest_changes", "what_was_special", "remaining_uncertainties"],
+      "properties": {
+        "strongest_changes": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "what_was_special": {"type": "string", "minLength": 1},
+        "remaining_uncertainties": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "baseline_model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_id",
+        "status",
+        "confidence",
+        "focus_anchor",
+        "mechanism",
+        "activation_trace",
+        "changed_reading"
+      ],
+      "properties": {
+        "model_id": {"type": "string", "minLength": 1},
+        "status": {"const": "baseline"},
+        "confidence": {"enum": ["strong", "medium", "exploratory"]},
+        "focus_anchor": {"type": "string", "minLength": 1},
+        "mechanism": {"type": "string", "minLength": 1},
+        "activation_trace": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/trace_entry"}
+        },
+        "changed_reading": {"$ref": "#/$defs/changed_reading"}
+      }
+    },
+    "context_delta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_id",
+        "status",
+        "confidence",
+        "trigger_refs",
+        "trigger_roots",
+        "mechanism",
+        "activation_trace",
+        "structural_cues",
+        "abductive_moves",
+        "changed_reading",
+        "minimal_triggers",
+        "ablation"
+      ],
+      "properties": {
+        "model_id": {"type": "string", "minLength": 1},
+        "status": {
+          "enum": ["new", "strengthened", "weakened", "revised", "discarded"]
+        },
+        "confidence": {"enum": ["strong", "medium", "exploratory"]},
+        "trigger_refs": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^[0-9]+:[0-9]+$"},
+          "minItems": 1
+        },
+        "trigger_roots": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "minItems": 1
+        },
+        "mechanism": {"type": "string", "minLength": 1},
+        "activation_trace": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/trace_entry"},
+          "minItems": 1
+        },
+        "structural_cues": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 1
+        },
+        "abductive_moves": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/abductive_move"}
+        },
+        "changed_reading": {"$ref": "#/$defs/changed_reading"},
+        "minimal_triggers": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "ablation": {"type": "string", "minLength": 1}
+      }
+    },
+    "surprising_valid_outlier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "outlier_id",
+        "confidence",
+        "why_surprising",
+        "why_still_valid",
+        "focus_anchor",
+        "activation_trace",
+        "changed_reading",
+        "rendering_caution"
+      ],
+      "properties": {
+        "outlier_id": {"type": "string", "minLength": 1},
+        "confidence": {"enum": ["medium", "exploratory"]},
+        "why_surprising": {"type": "string", "minLength": 1},
+        "why_still_valid": {"type": "string", "minLength": 1},
+        "focus_anchor": {"type": "string", "minLength": 1},
+        "activation_trace": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/trace_entry"},
+          "minItems": 1
+        },
+        "changed_reading": {"$ref": "#/$defs/changed_reading"},
+        "rendering_caution": {"type": "string", "minLength": 1}
+      }
+    },
+    "trace_entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_ref",
+        "root",
+        "source_phrase_ar",
+        "branch_id",
+        "branch_image_ar",
+        "literal_contribution",
+        "assigned_role"
+      ],
+      "properties": {
+        "source_ref": {"type": "string", "pattern": "^[0-9]+:[0-9]+$"},
+        "root": {"type": "string", "minLength": 1},
+        "source_phrase_ar": {"type": "string", "minLength": 1},
+        "branch_id": {"type": "string", "pattern": "^B[0-9]{3}$"},
+        "branch_image_ar": {"type": "string", "minLength": 1},
+        "literal_contribution": {"type": "string", "minLength": 1},
+        "assigned_role": {"type": "string", "minLength": 1}
+      }
+    },
+    "abductive_move": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["assumption", "packet_supplies", "reader_infers", "alternatives"],
+      "properties": {
+        "assumption": {"type": "string", "minLength": 1},
+        "packet_supplies": {"type": "string", "minLength": 1},
+        "reader_infers": {"type": "string", "minLength": 1},
+        "alternatives": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "changed_reading": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["before", "after"],
+      "properties": {
+        "before": {"type": "string", "minLength": 1},
+        "after": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}
