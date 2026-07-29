@@ -104,8 +104,30 @@ def require_int(value: Any, label: str, *, minimum: int | None = None) -> int:
     return value
 
 
+def is_rootless_ayah(ayah: dict[str, Any]) -> bool:
+    return ayah.get("rootless") is True
+
+
 def ayah_roots(ayah: dict[str, Any]) -> list[str]:
-    occurrences = require_list(ayah.get("root_occurrences"), f"{ayah.get('ref')}.root_occurrences", non_empty=True)
+    ref = require_string(ayah.get("ref"), "ayah.ref")
+    rootless = is_rootless_ayah(ayah)
+    occurrences = require_list(
+        ayah.get("root_occurrences"),
+        f"{ref}.root_occurrences",
+        non_empty=not rootless,
+    )
+    root_sequence = require_list(
+        ayah.get("root_sequence"),
+        f"{ref}.root_sequence",
+        non_empty=not rootless,
+    )
+    if rootless:
+        require_string(ayah.get("rootless_reason"), f"{ref}.rootless_reason")
+        if occurrences or root_sequence:
+            raise ValueError(f"{ref}: rootless ayah must have empty root arrays")
+        return []
+    if "rootless" in ayah:
+        raise ValueError(f"{ref}: rootless flag is only allowed when true")
     return ordered_unique(require_string(occurrence.get("root"), "occurrence.root") for occurrence in occurrences)
 
 
@@ -141,7 +163,12 @@ def source_occurrence_index(packet: dict[str, Any]) -> dict[tuple[str, str], set
     ayat = [packet["focus_ayah"], *packet["context_ayat"]]
     for ayah in ayat:
         ref = ayah["ref"]
-        for occurrence in require_list(ayah.get("root_occurrences"), f"{ref}.root_occurrences", non_empty=True):
+        rootless = is_rootless_ayah(ayah)
+        for occurrence in require_list(
+            ayah.get("root_occurrences"),
+            f"{ref}.root_occurrences",
+            non_empty=not rootless,
+        ):
             root = require_string(occurrence.get("root"), f"{ref}.root_occurrences.root")
             index.setdefault((ref, root), set()).add(occurrence_key(occurrence))
     return index
@@ -618,6 +645,7 @@ def validate_baseline_model(
     source_keys: set[tuple[str, str, tuple[str, ...]]],
     require_mapped_root_id: bool,
     compact_response: bool,
+    rootless_focus: bool,
 ) -> str:
     allowed_keys = {
         "model_id",
@@ -642,7 +670,14 @@ def validate_baseline_model(
         raise ValueError(f"{label}.confidence has invalid value")
     require_string(model["focus_anchor"], f"{label}.focus_anchor")
     require_string(model["mechanism"], f"{label}.mechanism")
-    for trace_index, trace in enumerate(require_list(model["activation_trace"], f"{label}.activation_trace", non_empty=True)):
+    allow_empty_trace = compact_response and rootless_focus
+    for trace_index, trace in enumerate(
+        require_list(
+            model["activation_trace"],
+            f"{label}.activation_trace",
+            non_empty=not allow_empty_trace,
+        )
+    ):
         validate_trace_entry(require_object(trace, f"{label}.activation_trace[{trace_index}]"), f"{label}.activation_trace[{trace_index}]", branches, mapped_branches, phrases, source_keys, require_mapped_root_id, compact_response)
     validate_changed_reading(model["changed_reading"], f"{label}.changed_reading")
     return model_id
@@ -822,6 +857,7 @@ def validate_response(packet: dict[str, Any], response: dict[str, Any]) -> None:
     )
     context_refs = set(packet["context_order"])
     context_roots = {cue["root"] for cue in packet.get("context_root_cues", [])}
+    rootless_focus = is_rootless_ayah(packet["focus_ayah"])
     model_ids: set[str] = set()
     baseline_models = require_list(
         response.get("baseline_models"),
@@ -838,6 +874,7 @@ def validate_response(packet: dict[str, Any], response: dict[str, Any]) -> None:
             focus_source_keys,
             require_mapped_root_id,
             compact_response,
+            rootless_focus,
         )
         if model_id in model_ids:
             raise ValueError(f"duplicate model_id: {model_id}")
