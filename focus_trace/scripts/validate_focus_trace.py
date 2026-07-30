@@ -16,12 +16,16 @@ if str(V12_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(V12_SCRIPTS))
 
 from build_packets import REPO_ROOT, ordered_unique, sha256
+from build_pericope_focus_trace_packet import (  # noqa: E402
+    PROTOCOL as LEAN_PACKET_PROTOCOL,
+    validate_lean_packet,
+)
 
 
 PACKET_PROTOCOL = "focus-trace-hermetic-packet-v2"
 PACKET_PROTOCOL_V1 = "focus-trace-hermetic-packet-v1"
 LEGACY_PACKET_PROTOCOL = "v12-hermetic-focus-trace-packet-v1"
-PACKET_PROTOCOLS = {PACKET_PROTOCOL, PACKET_PROTOCOL_V1, LEGACY_PACKET_PROTOCOL}
+PACKET_PROTOCOLS = {PACKET_PROTOCOL, PACKET_PROTOCOL_V1, LEGACY_PACKET_PROTOCOL, LEAN_PACKET_PROTOCOL}
 RESPONSE_PROTOCOL_V1 = "focus-trace-hermetic-response-v1"
 RESPONSE_PROTOCOL_V2 = "focus-trace-hermetic-response-v2"
 RESPONSE_PROTOCOL_V3 = "focus-trace-hermetic-response-v3"
@@ -363,6 +367,9 @@ def register_branch_key(
 def validate_packet(packet: dict[str, Any]) -> None:
     if packet.get("protocol") not in PACKET_PROTOCOLS:
         raise ValueError(f"packet protocol is not one of {sorted(PACKET_PROTOCOLS)}")
+    if packet.get("protocol") == LEAN_PACKET_PROTOCOL:
+        validate_lean_packet(packet)
+        return
     require_mapping = packet.get("protocol") == PACKET_PROTOCOL
     focus_ref = require_string(packet.get("focus_ref"), "packet.focus_ref")
     window = require_list(packet.get("window"), "packet.window", non_empty=True)
@@ -533,20 +540,55 @@ def packet_citations(
     mapped_branches: dict[str, dict[tuple[str, str], str]] = {}
     phrases: set[tuple[str, str, str]] = set()
     source_keys: set[tuple[str, str, tuple[str, ...]]] = set()
+    roots_with_inventory: set[str] = set()
     for collection in collections:
         for inventory in packet.get(collection, []):
             root = inventory["root"]
+            roots_with_inventory.add(root)
             branches.setdefault(root, {})
             mapped_branches.setdefault(root, {})
-            for branch in inventory["branches"]:
+            for branch in inventory.get("branches", []):
                 branch_id = branch["branch_id"]
                 branches[root][branch_id] = branch["branch_image_ar"]
                 mapped_root_id = branch.get("mapped_root_id")
                 if mapped_root_id:
                     mapped_branches[root][(mapped_root_id, branch_id)] = branch["branch_image_ar"]
-            for phrase in inventory["source_phrases"]:
-                phrases.add((phrase["source_ref"], root, phrase["source_phrase_ar"]))
-                source_keys.add((phrase["source_ref"], root, tuple(phrase["source_word_indices"])))
+            for target in inventory.get("targets", []):
+                mapped_root_id = require_root_id(
+                    target.get("mapped_root_id"),
+                    f"{collection}.{root}.targets.mapped_root_id",
+                )
+                require_string(
+                    target.get("mapped_root_norm"),
+                    f"{collection}.{root}.targets.mapped_root_norm",
+                )
+                for branch in target.get("branches", []):
+                    branch_id = branch["branch_id"]
+                    branches[root].setdefault(branch_id, branch["branch_image_ar"])
+                    mapped_branches[root][(mapped_root_id, branch_id)] = branch["branch_image_ar"]
+            for phrase in inventory.get("source_phrases", []):
+                source_ref = phrase.get("source_ref")
+                word_indices = phrase.get("source_word_indices")
+                if source_ref and word_indices is not None:
+                    phrases.add((source_ref, root, phrase["source_phrase_ar"]))
+                    source_keys.add((source_ref, root, tuple(word_indices)))
+    allowed_source_refs = (
+        {packet["focus_ref"]}
+        if collections == ("focus_branch_inventories",)
+        else set(packet["window"])
+    )
+    for ayah in [packet["focus_ayah"], *packet.get("context_ayat", [])]:
+        source_ref = ayah["ref"]
+        if source_ref not in allowed_source_refs:
+            continue
+        for occurrence in ayah.get("root_occurrences", []):
+            root = occurrence.get("root")
+            if root not in roots_with_inventory:
+                continue
+            word_indices = tuple(occurrence.get("word_indices", []))
+            phrase = occurrence_phrase(occurrence)
+            phrases.add((source_ref, root, phrase))
+            source_keys.add((source_ref, root, word_indices))
     return branches, mapped_branches, phrases, source_keys
 
 
@@ -859,7 +901,14 @@ def validate_response(packet: dict[str, Any], response: dict[str, Any]) -> None:
         ("focus_branch_inventories", "context_root_cues"),
     )
     context_refs = set(packet["context_order"])
-    context_roots = {cue["root"] for cue in packet.get("context_root_cues", [])}
+    if packet.get("protocol") == LEAN_PACKET_PROTOCOL:
+        context_roots = {
+            root
+            for ayah in packet.get("context_ayat", [])
+            for root in ayah_roots(ayah)
+        }
+    else:
+        context_roots = {cue["root"] for cue in packet.get("context_root_cues", [])}
     rootless_focus = is_rootless_ayah(packet["focus_ayah"])
     if compact_response:
         if rootless_focus and response.get("rootless_focus") is not True:

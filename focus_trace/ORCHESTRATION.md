@@ -166,7 +166,7 @@ For each focus ayah `<S>:<A>`, expand the containing pericope range into an
 ordered ayah-ref list and generate:
 
 ```bash
-python3 focus_trace/scripts/build_focus_trace_packet.py \
+python3 focus_trace/scripts/build_pericope_focus_trace_packet.py \
   --focus <S>:<A> \
   --window <S>:<FROM>,<S>:<FROM+1>,...,<S>:<TO> \
   --output focus_trace/runs/s<S>/packets/<S>_<A>.packet.json
@@ -192,11 +192,11 @@ The packet builder uses:
 ../quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz
 ```
 
-Resource paths in packet provenance must stay repo-relative where possible.
 Generated packets must not be written under `../quran-data`.
 
-Packet provenance must record the pericope source row, including at minimum the
-pericope source path, `surah`, `pericope`, `ayah_from`, `ayah_to`, and `label`.
+Pericope source rows, resource hashes, packet-size measurements, and other
+audit/provenance details are recorded in coordinator reports, not in lean reader
+packets.
 
 Branch policy for this HFT workflow:
 
@@ -204,6 +204,100 @@ Branch policy for this HFT workflow:
 - ignore `status` for inclusion, so both `accepted` and `review` rows are
   available;
 - exclude every `contaminated = 'yes'` row.
+
+### Lean pericope packet schema
+
+Pericope-scoped production packets use the lean schema:
+
+```text
+focus-trace-pericope-lean-v1
+```
+
+The lean packet keeps only information needed by the Arabic
+semantic/linguistic reader task. Audit, provenance, ranking-method, resource
+hash, English, and debug fields are excluded from reader packets and belong in
+coordinator reports when needed.
+
+Top-level packet fields:
+
+```text
+protocol, focus_ref, window, context_order, ayah_count,
+focus_ayah, context_ayat, surah_text,
+focus_branch_inventories, context_root_cues, remote_orientation
+```
+
+Text policy:
+
+- keep original Arabic `text_ar`;
+- remove `text_norm_ar` from ayah records and full-surah text;
+- keep root morphology on `focus_ayah` and `context_ayat`;
+- keep full-surah Arabic text as `{ref, text_ar}` only.
+
+Branch inventory policy:
+
+- keep no English fields;
+- keep no source paths, variants, branch ranks, dominance flags, occurrence
+  totals, mapping diagnostics, or full root-mapping objects;
+- because `branch_id` is local to a mapped Furuq root, every branch inventory
+  must preserve compact mapped-target identity;
+- group branches under mapped targets instead of repeating mapped identity on
+  every branch.
+
+Focus branch shape:
+
+```json
+{
+  "root": "ق و ل",
+  "source_phrases": [{"source_phrase_ar": "..."}],
+  "targets": [
+    {
+      "mapped_root_id": "root_001272",
+      "mapped_root_norm": "ق و ل",
+      "branches": [
+        {
+          "branch_id": "B001",
+          "branch_image_ar": "...",
+          "scope_ar": "..."
+        }
+      ]
+    }
+  ]
+}
+```
+
+Context and remote branch shapes are the same target grouping, but their branch
+records keep only:
+
+```text
+branch_id, branch_image_ar
+```
+
+Context-root policy:
+
+- omit context `source_phrases`; the retained `context_ayat.root_occurrences`
+  are the authoritative occurrence/source-word record;
+- omit context cue records whose root already appears in
+  `focus_branch_inventories`; those context occurrences still remain in
+  `context_ayat.root_occurrences`, and their branch inventory resolves through
+  the focus inventory;
+- a reader may use focus inventory branches for same-root context activations
+  when the source occurrence is present in `context_ayat.root_occurrences`.
+
+Remote orientation policy:
+
+- remote material is orientation-only and not branch-citable;
+- keep one section-level marker:
+
+```json
+{"citable": false}
+```
+
+- keep `refs`, the same-surah ayat for which extra orientation/root material is
+  supplied;
+- every remote root cue must keep `source_refs`, so the reader can see which
+  remote ayat anchor that root cue;
+- strip all remote ranking, method, selection evidence, labels, scores, and
+  reader-policy prose.
 
 ## Oversized pericope fragmentation
 
@@ -242,6 +336,54 @@ measured packets exceed `500 KiB`. Fragmenting should follow local discourse
 units such as Adam narrative, Israelite episodes, qiblah, fasting, hajj,
 marriage/divorce, spending/usury/debt, and final creed, not arbitrary equal
 chunks.
+
+## S2-S79 Packet Scope
+
+For the current S2-S79 package-building pass, use lean canonical pericope
+packets only for these surahs:
+
+```text
+S2-S12,
+S14-S30,
+S33-S34,
+S36-S43,
+S51,
+S54,
+S56
+```
+
+Compact range form:
+
+```text
+2-12,14-30,33-34,36-43,51,54,56
+```
+
+Agents can identify these as pericope-based because their packet windows must
+come from:
+
+```text
+../quran-data/data/analysis/channels/network-v3/pericopes/surah_pericopes.jsonl
+```
+
+and their generation report should record:
+
+```text
+window_mode: pericope
+packet_schema: pericope-lean
+fragment_dense_pericopes: false
+```
+
+The following S2-S79 surahs are whole-surah lean packets, not pericope packets:
+
+```text
+S13, S31, S32, S35, S44-S50,
+S52-S53,
+S55,
+S57-S79 except S56
+```
+
+Do not infer packet scope only from surah number. Check this section first, then
+check the generation report for the packet set being used.
 
 ## Current production queue
 

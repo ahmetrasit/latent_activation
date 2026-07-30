@@ -47,6 +47,7 @@ DEFAULT_QAC_FURUQ_ROOT_MAP = (
 DEFAULT_QURAN_DIR = REPO_ROOT / "resources" / "quran"
 PROTOCOL = "focus-trace-hermetic-packet-v2"
 ROOTLESS_REASON = "QAC has no rooted morphemes for this ayah"
+OUT_OF_WINDOW_BRANCH_MODES = {"none", "branch_image_ar", "what_is_ar", "both"}
 
 
 def parse_ref(raw: str) -> str:
@@ -147,6 +148,21 @@ def rootless_ayah(quran_dir: Path, ref: str) -> dict[str, Any]:
         "root_occurrences": [],
         "rootless": True,
         "rootless_reason": ROOTLESS_REASON,
+    }
+
+
+def surah_text_context(quran_dir: Path, surah: int) -> dict[str, Any]:
+    ayat = load_quran_surah(quran_dir, surah)
+    return {
+        "surah": surah,
+        "ayat": [
+            {
+                "ref": f"{surah}:{ayah}",
+                "text_ar": text,
+                "text_norm_ar": canonical_arabic(text),
+            }
+            for ayah, text in sorted(ayat.items())
+        ],
     }
 
 
@@ -538,6 +554,18 @@ def compact_branch(branch: dict[str, Any], mode: str) -> dict[str, Any]:
     return result
 
 
+def out_of_window_branch(branch: dict[str, Any], mode: str) -> dict[str, Any]:
+    result = {
+        **branch_mapping_fields(branch),
+        "branch_id": branch["branch_id"],
+    }
+    if mode in {"branch_image_ar", "both"}:
+        result["branch_image_ar"] = branch["image_ar"]
+    if mode in {"what_is_ar", "both"}:
+        result["what_is_ar"] = branch["scope_ar"]
+    return result
+
+
 def ordered_packet_roots(focus_ayat: list[dict[str, Any]], context_ayat: list[dict[str, Any]]) -> list[str]:
     return ordered_unique([*first_seen_roots(focus_ayat), *first_seen_roots(context_ayat)])
 
@@ -564,6 +592,15 @@ def main() -> None:
         choices=["images", "images_en", "full"],
         default="images",
         help="branch detail shared for context roots; all modes include branch_image_ar",
+    )
+    parser.add_argument(
+        "--out-of-window-branch-mode",
+        choices=sorted(OUT_OF_WINDOW_BRANCH_MODES),
+        default="none",
+        help=(
+            "optional branch detail for roots that occur elsewhere in the same surah "
+            "but not in the packet window; these cues are structural and non-citable"
+        ),
     )
     parser.add_argument(
         "--strict-branches",
@@ -604,18 +641,41 @@ def main() -> None:
     focus_roots = first_seen_roots([focus_ayah])
     context_roots = first_seen_roots(context_ayat)
     all_roots = ordered_packet_roots([focus_ayah], context_ayat)
-    root_mappings = load_root_mappings(args.root_map, all_roots)
+    surah_refs = numbered_refs_for_surah(args.quran_dir, surah_of(args.focus))
+    out_of_window_refs = [ref for ref in surah_refs if ref not in set(window)]
+    out_of_window_ayat_by_ref = (
+        load_window_ayat(args.qac, args.quran_dir, out_of_window_refs)
+        if args.out_of_window_branch_mode != "none" and out_of_window_refs
+        else {}
+    )
+    out_of_window_ayat = [
+        out_of_window_ayat_by_ref[ref]
+        for ref in out_of_window_refs
+        if ref in out_of_window_ayat_by_ref
+    ]
+    packet_roots = set(all_roots)
+    out_of_window_roots = [
+        root
+        for root in first_seen_roots(out_of_window_ayat)
+        if root not in packet_roots
+    ]
+    root_mappings = load_root_mappings(
+        args.root_map,
+        ordered_unique([*all_roots, *out_of_window_roots]),
+    )
     branches, missing_roots, missing_mapped_targets = load_branches_for_mapped_roots(
         args.branches,
         root_mappings,
     )
-    if args.strict_branches and missing_roots:
+    packet_missing_roots = [root for root in all_roots if root in set(missing_roots)]
+    if args.strict_branches and packet_missing_roots:
         raise ValueError(
             "no non-contaminated branch inventory for roots: "
-            f"{missing_roots}"
+            f"{packet_missing_roots}"
         )
 
     refs_for_missing = refs_by_root(ayat)
+    out_of_window_refs_for_root = refs_by_root(out_of_window_ayat)
     resource_hashes = {
         resource_key(path): sha256(path)
         for path in (args.qac, args.branches, args.root_map, quran_path)
@@ -657,6 +717,12 @@ def main() -> None:
             "non_focus_branch_policy": (
                 f"Every context root with a non-contaminated inventory includes all branch IDs "
                 f"in {args.non_focus_branch_mode!r} mode; this always includes branch_image_ar."
+            ),
+            "out_of_window_root_policy": (
+                "The packet always includes full surah text. Roots that occur outside "
+                "the packet window may be included as structural, non-citable cues "
+                f"in {args.out_of_window_branch_mode!r} mode. Reader branch citations "
+                "must still resolve from focus_branch_inventories or context_root_cues."
             ),
             "root_mapping_policy": (
                 "QAC roots are resolved through qac-furuq-v4-root-map.sqlite.gz. "
@@ -707,7 +773,24 @@ def main() -> None:
                 "source_phrases": source_phrases(ayat, root),
                 "reason": "no non-contaminated branch inventory in resource",
             }
-            for root in missing_roots
+            for root in packet_missing_roots
+        ],
+        "surah_text": surah_text_context(args.quran_dir, surah_of(args.focus)),
+        "out_of_window_root_cues": [
+            {
+                "root": root,
+                "root_mapping": root_mapping_summary(root_mappings[root]),
+                "source_refs": out_of_window_refs_for_root[root],
+                "branch_inventory_mode": args.out_of_window_branch_mode,
+                "orientation_only": True,
+                "citable": False,
+                "branches": [
+                    out_of_window_branch(branch, args.out_of_window_branch_mode)
+                    for branch in branches[root]
+                ],
+            }
+            for root in out_of_window_roots
+            if branches[root]
         ],
         "provenance": {
             "branch_filter": {
@@ -716,6 +799,15 @@ def main() -> None:
                 "origin_corpus": ["furuq", "quranic"],
             },
             "missing_mapped_targets": missing_mapped_targets,
+            "out_of_window_roots": {
+                "branch_inventory_mode": args.out_of_window_branch_mode,
+                "roots_with_branch_cues": [
+                    root for root in out_of_window_roots if branches[root]
+                ],
+                "missing_branch_inventory_roots": [
+                    root for root in out_of_window_roots if not branches[root]
+                ],
+            },
             "rootless_ayat": rootless_ayat,
             "resource_sha256": resource_hashes,
             "synthetic_ayat": [

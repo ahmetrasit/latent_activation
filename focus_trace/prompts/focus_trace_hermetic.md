@@ -126,6 +126,16 @@ Furuq root, so cite `mapped_root_id` with every `branch_id`. Do not collapse a
 split root to the dominant target only. Non-dominant mapped roots are legitimate
 activation material when they visibly change the focus reading.
 
+If the packet protocol is `focus-trace-pericope-lean-v1`, branch inventories are
+grouped under `targets` instead of repeating mapped identity on every branch.
+Resolve each branch citation from `root -> targets[].mapped_root_id ->
+branches[].branch_id`. In this lean schema, `context_ayat.root_occurrences` is
+the authoritative source-occurrence record. A context occurrence whose root is
+already present in `focus_branch_inventories` may use that focus inventory for
+branch resolution even when that root is omitted from `context_root_cues`.
+`remote_orientation` is not branch-citable when it says `citable: false`; use it
+only to orient candidate readings, never as a citation source.
+
 If a branch entry contains `variants`, the same packet branch ID represents
 multiple non-contaminated source rows. You may cite the shared branch ID, but be clear
 which image or scope is doing the work.
