@@ -17,10 +17,11 @@ import numpy as np
 
 
 ARTIFACT_SHAPE = "ayah-target-list-v1"
-ALGORITHM_VERSION = "neo-reviewed-target-union-v1"
+ALGORITHM_VERSION = "neo-reviewed-target-union-v2"
 COLLECTION_SCHEMA_VERSION = "ayah-target-list-collection-v1"
 NEO_RRF_OFFSET = 10.0
 NEO_LIMIT = 50
+NEO_MIN_AFFINITY = 0.003
 ACCEPTED_REVIEW_STRENGTHS = ("strong", "medium")
 ACCEPTED_REVIEW_STRENGTH_SET = frozenset(ACCEPTED_REVIEW_STRENGTHS)
 KNOWN_REVIEW_STRENGTHS = frozenset(
@@ -233,7 +234,7 @@ class NeoIndex:
         return tuple(nodes)
 
     def neo_neighbor_refs(self, focus_ref: str) -> tuple[str, ...]:
-        """Return the top 50 same-surah refs; scores remain internal."""
+        """Return up to 50 qualified same-surah refs; scores remain internal."""
 
         focus = self.by_ref[focus_ref]
         candidate_indices = np.asarray(
@@ -260,8 +261,13 @@ class NeoIndex:
             + np.float32(1.0)
             / (np.float32(NEO_RRF_OFFSET) + incoming[supported].astype(np.float32))
         )
-        order = np.lexsort((indices, -scores))[:NEO_LIMIT]
-        return tuple(self.nodes[int(indices[position])].ayah_ref for position in order)
+        order = np.lexsort((indices, -scores))
+        qualified = order[scores[order] >= np.float32(NEO_MIN_AFFINITY)][
+            :NEO_LIMIT
+        ]
+        return tuple(
+            self.nodes[int(indices[position])].ayah_ref for position in qualified
+        )
 
     def exact_same_surah_repetitions(self, focus_ref: str) -> tuple[str, ...]:
         focus = self.by_ref[focus_ref]
@@ -407,6 +413,7 @@ def generation_contract(neo: NeoIndex) -> dict[str, Any]:
         "artifact_shape": ARTIFACT_SHAPE,
         "algorithm_version": ALGORITHM_VERSION,
         "neo_limit": NEO_LIMIT,
+        "neo_min_symmetric_rrf_affinity": NEO_MIN_AFFINITY,
         "neo_candidate_scope": "same surah, excluding self and exact repetitions",
         "exact_repetition_scope": "same surah",
         "reviewed_strengths": list(ACCEPTED_REVIEW_STRENGTHS),

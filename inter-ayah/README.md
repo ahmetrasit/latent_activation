@@ -5,8 +5,8 @@ ayah. It does not read packet or pericope definitions.
 
 The target set is the deduplicated union of:
 
-1. the top 50 same-surah candidates under raw NEO symmetric reciprocal-rank
-   affinity;
+1. up to 50 same-surah candidates with raw NEO symmetric reciprocal-rank
+   affinity of at least `0.003`;
 2. exact normalized repetitions in the same surah; and
 3. every canonical ayah retained as `strong` or `medium` by
    `../quran-slm/inter-ayah/outputs`.

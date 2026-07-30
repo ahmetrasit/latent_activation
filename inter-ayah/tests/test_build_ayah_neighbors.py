@@ -115,6 +115,20 @@ def test_neo_cutoff_is_exactly_50_with_stable_ties() -> None:
     assert selected == tuple(f"2:{ayah_number}" for ayah_number in range(2, 52))
 
 
+def test_neo_affinity_threshold_does_not_force_weak_neighbors() -> None:
+    nodes = (ayah(0, "2:1"), ayah(1, "2:2"), ayah(2, "2:3"))
+    ranks = np.zeros((3, 3), dtype=np.uint16)
+    ranks[0, 1], ranks[1, 0] = 20, 30
+    ranks[0, 2], ranks[2, 0] = 500, 4000
+    neo = subject.NeoIndex.__new__(subject.NeoIndex)
+    neo.nodes = nodes
+    neo.by_ref = {node.ayah_ref: node for node in nodes}
+    neo.refs_by_surah = {2: tuple(node.ayah_ref for node in nodes)}
+    neo.ranks = ranks
+
+    assert neo.neo_neighbor_refs("2:1") == ("2:2",)
+
+
 def test_build_artifact_emits_only_focus_and_quran_order_targets(
     tmp_path: Path,
 ) -> None:
