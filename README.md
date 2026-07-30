@@ -21,6 +21,41 @@ recover the surprising, changed-reading effect of the old staged focus runs and
 the S100 `reader_m` walk at lower whole-Quran cost. See
 [`focus_trace/INTEGRATION.md`](focus_trace/INTEGRATION.md).
 
+## Hermetic Focus Trace Input Bundles (S2-S79)
+
+All S2-S79 focus-ayah input bundles are ready under
+`focus_trace/runs/s<S>/packets/` using packet protocol
+`focus-trace-pericope-lean-v1`.
+
+The current prepared scope contains 5,751 packet inputs:
+
+- 4,466 ayat in canonical pericope windows;
+- 1,285 ayat in whole-surah windows.
+
+Pericope-based surahs:
+
+```text
+S2-S12, S14-S30, S33-S34, S36-S43, S51, S54, S56
+```
+
+Compact range form:
+
+```text
+2-12,14-30,33-34,36-43,51,54,56
+```
+
+Whole-surah-window surahs:
+
+```text
+S13, S31-S32, S35, S44-S50, S52-S53, S55, S57-S79
+```
+
+Pericope windows come from
+`../quran-data/data/analysis/channels/network-v3/pericopes/surah_pericopes.jsonl`.
+Generation reports are stored at
+`focus_trace/runs/pericope_lean_remaining_canonical_packet_size_report.json`
+and `focus_trace/runs/surah_lean_s2_s79_packet_size_report.json`.
+
 ## v12 Turkish Publication Status (2026-07-23)
 
 The Turkish ordinary target-language baseline files are complete for all 114

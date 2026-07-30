@@ -16,29 +16,71 @@ activation, changed reading, abductive moves, and multiple coexisting readings.
 Odd but anchored activations should be carried under
 `surprising_valid_outliers`, not discarded just because they are exploratory.
 
-Build a whole-surah packet for `100:1`:
+## Prepared S2-S79 Inputs
 
-```bash
-python3 focus_trace/scripts/build_focus_trace_packet.py \
-  --focus 100:1 \
-  --surah-window \
-  --output focus_trace/runs/s100/packets/100_1.packet.json
+All S2-S79 focus-ayah input bundles are ready under
+`focus_trace/runs/s<S>/packets/` using packet protocol
+`focus-trace-pericope-lean-v1`.
+
+The prepared set contains 5,751 packet inputs:
+
+- 4,466 ayat in canonical pericope windows;
+- 1,285 ayat in whole-surah windows.
+
+Pericope-based surahs:
+
+```text
+S2-S12, S14-S30, S33-S34, S36-S43, S51, S54, S56
 ```
 
-For a fixed local window:
+Compact range form:
+
+```text
+2-12,14-30,33-34,36-43,51,54,56
+```
+
+Whole-surah-window surahs:
+
+```text
+S13, S31-S32, S35, S44-S50, S52-S53, S55, S57-S79
+```
+
+Pericope windows come from
+`../quran-data/data/analysis/channels/network-v3/pericopes/surah_pericopes.jsonl`.
+Do not infer packet scope from surah number alone; use the lists above and the
+generation reports:
+
+- `focus_trace/runs/pericope_lean_remaining_canonical_packet_size_report.json`
+- `focus_trace/runs/surah_lean_s2_s79_packet_size_report.json`
+
+## Building Packets
+
+Build a lean packet for a fixed pericope/window:
 
 ```bash
-python3 focus_trace/scripts/build_focus_trace_packet.py \
-  --focus 100:1 \
-  --radius 5 \
-  --output focus_trace/runs/s100/packets/100_1.radius5.packet.json
+python3 focus_trace/scripts/build_pericope_focus_trace_packet.py \
+  --focus 2:1 \
+  --window 2:1,2:2,2:3,2:4,2:5,2:6,2:7,2:8,2:9,2:10,2:11,2:12,2:13,2:14,2:15,2:16,2:17,2:18,2:19,2:20 \
+  --output focus_trace/runs/s2/packets/2_1.packet.json
+```
+
+Build lean whole-surah-window packets only for surahs listed as whole-surah
+scope above:
+
+```bash
+python3 focus_trace/scripts/generate_pericope_packets.py \
+  --window-mode surah \
+  --surah-list 13 \
+  --overwrite \
+  --validate \
+  --report focus_trace/runs/surah_lean_s13_packet_size_report.json
 ```
 
 Validate a packet:
 
 ```bash
 python3 focus_trace/scripts/validate_focus_trace.py \
-  focus_trace/runs/s100/packets/100_1.packet.json
+  focus_trace/runs/s2/packets/2_1.packet.json
 ```
 
 Reader inputs:
@@ -73,14 +115,14 @@ Validate a response:
 
 ```bash
 jq -c . \
-  focus_trace/runs/s100/readers/reader_a/100_1.focus_trace.json \
-  > /tmp/100_1.focus_trace.compact.json && \
-  mv /tmp/100_1.focus_trace.compact.json \
-  focus_trace/runs/s100/readers/reader_a/100_1.focus_trace.json
+  focus_trace/runs/s2/readers/reader_hft_a/2_1.focus_trace.json \
+  > /tmp/2_1.focus_trace.compact.json && \
+  mv /tmp/2_1.focus_trace.compact.json \
+  focus_trace/runs/s2/readers/reader_hft_a/2_1.focus_trace.json
 
 python3 focus_trace/scripts/validate_focus_trace.py \
-  focus_trace/runs/s100/packets/100_1.packet.json \
-  focus_trace/runs/s100/readers/reader_a/100_1.focus_trace.json
+  focus_trace/runs/s2/packets/2_1.packet.json \
+  focus_trace/runs/s2/readers/reader_hft_a/2_1.focus_trace.json
 ```
 
 The packet builder uses deterministic selection:
@@ -90,10 +132,16 @@ The packet builder uses deterministic selection:
   maps to multiple Furuq roots, every mapped `root_id` and its branches are
   included;
 - focus roots: every root in the focus ayah, first-seen order, full branch
-  inventories;
-- context roots: every root in the selected non-focus ayat, packet order, with
-  `source_phrase_ar` for each occurrence;
-- context branches: every non-contaminated branch ID in compact mode,
-  always including `branch_image_ar`;
+  inventories, with `source_phrase_ar` retained only for the focus ayah;
+- context ayat: original Arabic text plus root occurrences; no duplicate
+  normalized Arabic text;
+- context root cues: non-focus roots that are not already present in focus
+  inventories, with compact Arabic branch inventories only;
+- remote orientation: same-surah orientation-only refs and selected root cues,
+  marked `citable: false`;
 - branch citations: `branch_id` is root-local, so reader responses must cite it
   with `mapped_root_id`.
+
+Lean reader packets exclude English fields, source paths, ranking/provenance
+details, audit metadata, normalized-Arabic duplicates, and branch diagnostics.
+Those belong in coordinator reports when needed.

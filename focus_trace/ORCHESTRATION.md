@@ -390,38 +390,33 @@ check the generation report for the packet set being used.
 Current prepared scope:
 
 ```text
-S1 + S87-S114
+S2-S79
 ```
 
 Total packet inputs:
 
 ```text
-295 ayat
+5,751 ayat
 ```
 
-If preserving already completed S100 reader outputs, remaining new reader jobs:
+Packet split:
 
 ```text
-284 ayat
+4,466 ayat in canonical pericope windows
+1,285 ayat in whole-surah windows
 ```
 
 Queue order:
 
-1. S1
-2. S87
-3. S88
-4. S89
-5. continue through S114
+1. S2
+2. S3
+3. continue in numeric surah order through S79
 
 Within each surah, process ayat in numeric ayah order.
 
-For an approximately 80-job first batch:
-
-- exact 80th item: `89:28`;
-- surah boundary after S89: 82 jobs.
-
-Prefer the surah boundary unless there is a capacity reason to stop at exactly
-80. This is a queue boundary only; packet windows are still pericope-scoped.
+Packet scope is already materialized in the packet files. Use the S2-S79 packet
+scope section above to identify which surahs are canonical pericope-window jobs
+and which are whole-surah-window jobs.
 
 ## Post-worker validation
 
