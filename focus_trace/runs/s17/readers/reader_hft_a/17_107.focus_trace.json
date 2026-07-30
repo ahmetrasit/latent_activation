@@ -1,0 +1,640 @@
+{
+  "protocol": "focus-trace-hermetic-response-v4",
+  "reader_id": "reader_hft_a",
+  "focus_ref": "17:107",
+  "trace_kind": "reconstructed",
+  "baseline_models": [
+    {
+      "model_id": "b_received_knowledge_becomes_posture",
+      "confidence": "strong",
+      "focus_anchor": "ءَامِنُوا۟ بِهِۦٓ أَوْ لَا تُؤْمِنُوٓا۟ ... أُوتُوا۟ ٱلْعِلْمَ ... يُتْلَىٰ عَلَيْهِمْ يَخِرُّونَ لِلْأَذْقَانِ سُجَّدًا",
+      "mechanism": "The opening polarity leaves assent unforced, then shifts to people whose knowledge was given. When recitation reaches them as a following sequence, disclosure passes into an uncontrolled face-first descent that is completed as prostration.",
+      "activation_trace": [
+        {
+          "source_ref": "17:107",
+          "root": "ء م ن",
+          "source_word_indices": ["2", "6"],
+          "mapped_root_id": "root_000054",
+          "branch_id": "B002",
+          "role": "Heart-settling assent supplies the belief polarity without making the present audience's choice the truth criterion."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ء ت ي",
+          "source_word_indices": ["9"],
+          "mapped_root_id": "root_000009",
+          "branch_id": "B002",
+          "role": "Giving rather than self-production makes knowledge a received charge."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ع ل م",
+          "source_word_indices": ["10"],
+          "mapped_root_id": "root_001040",
+          "branch_id": "B001",
+          "role": "Disclosure to a knower supplies the cognitive state that the bodily response tests."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ت ل و",
+          "source_word_indices": ["14"],
+          "mapped_root_id": "root_000186",
+          "branch_id": "B001",
+          "role": "Following and succession make recitation an arriving sequence, not a static possession."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "خ ر ر",
+          "source_word_indices": ["16"],
+          "mapped_root_id": "root_000402",
+          "branch_id": "B001",
+          "role": "A disturbed, sounding fall converts inward recognition into loss of upright bodily control."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ذ ق ن",
+          "source_word_indices": ["17"],
+          "mapped_root_id": "root_000515",
+          "branch_id": "B001",
+          "role": "The jaw junction specifies a face-first contact point rather than an abstract attitude."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "س ج د",
+          "source_word_indices": ["18"],
+          "mapped_root_id": "root_000675",
+          "branch_id": "B001",
+          "role": "Self-lowering gives the fall its prostrative and obedient function."
+        }
+      ],
+      "changed_reading": {
+        "before": "An exhortation reporting that informed people believe and bow.",
+        "after": "Assent is not coerced; the diagnostic sign of received knowledge is that renewed recitation crosses from disclosure into whole-body, face-first yielding."
+      }
+    },
+    {
+      "model_id": "b_prior_witness_outside_present_vote",
+      "confidence": "strong",
+      "focus_anchor": "قُلْ ... ءَامِنُوا۟ بِهِۦٓ أَوْ لَا تُؤْمِنُوٓا۟ ... ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ مِن قَبْلِهِۦٓ",
+      "mechanism": "The commanded utterance voices both possible responses, then relocates evidentiary weight from the immediate addressees to recipients situated before it. Their embodied response functions as a witness that the current audience cannot create or cancel by voting yes or no.",
+      "activation_trace": [
+        {
+          "source_ref": "17:107",
+          "root": "ق و ل",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_001272",
+          "branch_id": "B001",
+          "role": "Pronounced speech publicly frames both alternatives instead of silently negotiating for assent."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ء م ن",
+          "source_word_indices": ["2", "6"],
+          "mapped_root_id": "root_000054",
+          "branch_id": "B002",
+          "role": "Settled confirmation names the response that may be given or withheld."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ء ت ي",
+          "source_word_indices": ["9"],
+          "mapped_root_id": "root_000009",
+          "branch_id": "B002",
+          "role": "The giving image marks the prior witnesses as recipients rather than owners of the evidence."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ع ل م",
+          "source_word_indices": ["10"],
+          "mapped_root_id": "root_001040",
+          "branch_id": "B001",
+          "role": "Known disclosure supplies the witnesses' competence."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ق ب ل",
+          "source_word_indices": ["12"],
+          "mapped_root_id": "root_001198",
+          "branch_id": "B002",
+          "role": "Temporal precedence places their testimony outside the immediate audience's reaction."
+        }
+      ],
+      "changed_reading": {
+        "before": "A binary appeal whose success depends on the present audience believing.",
+        "after": "The present audience may assent or refuse without controlling the claim; prior recipients provide an independent embodied witness."
+      }
+    }
+  ],
+  "context_deltas": [
+    {
+      "model_id": "d_faceward_fall_bifurcates",
+      "status": "revised",
+      "confidence": "medium",
+      "trigger_roots": ["و ج ه", "ع م ي", "ب ك م", "ص م م"],
+      "mechanism": "The earlier faceward gathering is paired with lost sight, speech, and hearing; the focus instead pairs faceward descent with received recitation, knowledge, and prostration. Bodily lowering therefore bifurcates into imposed sensory disorientation and responsive reorientation.",
+      "activation_trace": [
+        {
+          "source_ref": "17:97",
+          "root": "و ج ه",
+          "source_word_indices": ["18"],
+          "mapped_root_id": "root_001630",
+          "branch_id": "B001",
+          "role": "The face as bodily front becomes the surface of an imposed gathering, furnishing the negative spatial analogue."
+        },
+        {
+          "source_ref": "17:97",
+          "root": "ع م ي",
+          "source_word_indices": ["19"],
+          "mapped_root_id": "root_001049",
+          "branch_id": "B001",
+          "role": "Loss of sight makes that faceward orientation perceptually closed."
+        },
+        {
+          "source_ref": "17:97",
+          "root": "ب ك م",
+          "source_word_indices": ["20"],
+          "mapped_root_id": "root_000145",
+          "branch_id": "B001",
+          "role": "Blocked speech removes the answering voice from the punitive configuration."
+        },
+        {
+          "source_ref": "17:97",
+          "root": "ص م م",
+          "source_word_indices": ["21"],
+          "mapped_root_id": "root_000884",
+          "branch_id": "B001",
+          "role": "Absent hearing blocks the receptive channel that is active in the focus."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ت ل و",
+          "source_word_indices": ["14"],
+          "mapped_root_id": "root_000186",
+          "branch_id": "B001",
+          "role": "Successive recitation supplies the received signal in the positive configuration."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "خ ر ر",
+          "source_word_indices": ["16"],
+          "mapped_root_id": "root_000402",
+          "branch_id": "B001",
+          "role": "The sounding fall keeps the shared downward geometry while changing its cause."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "س ج د",
+          "source_word_indices": ["18"],
+          "mapped_root_id": "root_000675",
+          "branch_id": "B001",
+          "role": "Responsive self-lowering changes faceward descent from penalty into worship."
+        }
+      ],
+      "structural_cues": [
+        "17:97 opens the window with gathering on faces plus blindness, muteness, and deafness; 17:107 answers with recitation received by knowers who descend on their chins."
+      ],
+      "reader_inference": "The packet supplies parallel faceward bodily orientations with opposite sensory states; I infer a deliberate contrast between closed and receptive descent. A live alternative is that 17:97 is only punitive background and does not directly pattern the focus posture.",
+      "changed_reading": {
+        "before": "Falling on the chins is simply an emphatic description of prostration.",
+        "after": "It is the receptive counterpart to punitive faceward disorientation: the same bodily axis becomes either sensory closure or knowledgeable reorientation."
+      }
+    },
+    {
+      "model_id": "d_knowledge_must_remain_receptive",
+      "status": "revised",
+      "confidence": "strong",
+      "trigger_roots": ["ء ب ي", "ع ل م", "ب ص ر"],
+      "mechanism": "The context attributes knowledge and inner-sight signs to an opponent who still refuses and resists. This prevents the focus phrase from equating information with surrender: being given knowledge names a receptive, answerable relation whose test is what happens when the disclosure is recited again.",
+      "activation_trace": [
+        {
+          "source_ref": "17:99",
+          "root": "ء ب ي",
+          "source_word_indices": ["20"],
+          "mapped_root_id": "root_000008",
+          "branch_id": "B001",
+          "role": "Refusal supplies the possibility that recognized evidence can still meet active nonacceptance."
+        },
+        {
+          "source_ref": "17:102",
+          "root": "ع ل م",
+          "source_word_indices": ["3"],
+          "mapped_root_id": "root_001040",
+          "branch_id": "B001",
+          "role": "Explicit knowing without ensuing surrender separates cognition from operative receptivity."
+        },
+        {
+          "source_ref": "17:102",
+          "root": "ب ص ر",
+          "source_word_indices": ["11"],
+          "mapped_root_id": "root_000121",
+          "branch_id": "B002",
+          "role": "Heart-sight intensifies the evidence available while leaving the response problem unresolved."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ء ت ي",
+          "source_word_indices": ["9"],
+          "mapped_root_id": "root_000009",
+          "branch_id": "B002",
+          "role": "Knowledge as a gift implies reception and accountability, not bare possession."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "خ ر ر",
+          "source_word_indices": ["16"],
+          "mapped_root_id": "root_000402",
+          "branch_id": "B001",
+          "role": "The bodily fall supplies the observable difference between acknowledged data and yielding knowledge."
+        }
+      ],
+      "structural_cues": [
+        "17:101-103 sequence clear signs, the accusation of enchantment, 'you knew,' inner-sight signs, and attempted displacement; 17:107 instead uses the passive 'were given knowledge' followed by descent."
+      ],
+      "reader_inference": "The packet supplies attributed knowledge without surrender and received knowledge with surrender; I infer two modes of relation to known signs. The alternative is a contrast only between different people, with no semantic pressure on the kind of knowledge."
+      ,
+      "changed_reading": {
+        "before": "Those with more information naturally accept the recitation.",
+        "after": "The ayah distinguishes possession of recognized evidence from knowledge that remains receivable; only the latter is reactivated by recitation into bodily answer."
+      }
+    },
+    {
+      "model_id": "d_descent_propagates_through_recitation",
+      "status": "strengthened",
+      "confidence": "strong",
+      "trigger_roots": ["ن ز ل", "ق ر ء", "ف ر ق", "م ك ث"],
+      "mechanism": "Truth descends and is made to descend, the recitation is distributed into parts, and it is read with measured waiting. The focus body's fall then completes the same directional transmission: staged textual descent propagates through paced recitation as staged human descent.",
+      "activation_trace": [
+        {
+          "source_ref": "17:105",
+          "root": "ن ز ل",
+          "source_word_indices": ["2", "4"],
+          "mapped_root_id": "root_001492",
+          "branch_id": "B001",
+          "role": "Repeated downward arrival establishes the transmission's vertical direction."
+        },
+        {
+          "source_ref": "17:106",
+          "root": "ف ر ق",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_001148",
+          "branch_id": "B002",
+          "role": "Distribution into parts stages the descent rather than delivering it as one undifferentiated block."
+        },
+        {
+          "source_ref": "17:106",
+          "root": "ق ر ء",
+          "source_word_indices": ["1", "3"],
+          "mapped_root_id": "root_001210",
+          "branch_id": "B002",
+          "role": "Reading and recitation provide the human transmission medium for the distributed text."
+        },
+        {
+          "source_ref": "17:106",
+          "root": "م ك ث",
+          "source_word_indices": ["7"],
+          "mapped_root_id": "root_001437",
+          "branch_id": "B002",
+          "role": "Unhurried gravity supplies the pacing by which successive portions can work."
+        },
+        {
+          "source_ref": "17:106",
+          "root": "ن ز ل",
+          "source_word_indices": ["8", "9"],
+          "mapped_root_id": "root_001492",
+          "branch_id": "B002",
+          "role": "Caused delivery reinforces descent as an ongoing operation."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ت ل و",
+          "source_word_indices": ["14"],
+          "mapped_root_id": "root_000186",
+          "branch_id": "B001",
+          "role": "Following sequence connects paced delivery to each fresh act of recitation."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "خ ر ر",
+          "source_word_indices": ["16"],
+          "mapped_root_id": "root_000402",
+          "branch_id": "B001",
+          "role": "The listener's downward fall becomes the terminal embodied leg of the movement."
+        }
+      ],
+      "structural_cues": [
+        "17:105-107 forms an uninterrupted sequence: descent in truth, distributed and paced reading, then the hearers' fall."
+      ],
+      "reader_inference": "The packet supplies repeated descent, partition, pacing, recitation, and bodily falling; I infer directional continuity across those events. The alternative is a causal response to content with no meaningful vertical or staged correspondence.",
+      "changed_reading": {
+        "before": "The hearers bow because the recited content persuades them.",
+        "after": "Their bodies complete the delivery pattern: truth descends in measured portions, follows through recitation, and produces a corresponding descent in the receiver."
+      }
+    },
+    {
+      "model_id": "d_fall_is_recursive_affective_learning",
+      "status": "revised",
+      "confidence": "strong",
+      "trigger_roots": ["ق و ل", "خ ر ر", "ذ ق ن", "ب ك ي", "ز ي د", "خ ش ع"],
+      "mechanism": "The next ayat answer the recitation with speech, repeat the fall-on-chins construction, add tears, and make humility increase. The focus fall is therefore not a terminal reflex but one turn in a feedback loop: hearing, verbal acknowledgment, renewed descent, affective release, and deepened receptivity.",
+      "activation_trace": [
+        {
+          "source_ref": "17:108",
+          "root": "ق و ل",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_001272",
+          "branch_id": "B001",
+          "role": "Pronounced response shows that the receivers return the recited sound as their own speech."
+        },
+        {
+          "source_ref": "17:109",
+          "root": "خ ر ر",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_000402",
+          "branch_id": "B001",
+          "role": "The sounding fall is repeated, making descent iterative rather than exhausted in 17:107."
+        },
+        {
+          "source_ref": "17:109",
+          "root": "ذ ق ن",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_000515",
+          "branch_id": "B001",
+          "role": "The same jaw contact point preserves exact bodily continuity across the repetition."
+        },
+        {
+          "source_ref": "17:109",
+          "root": "ب ك ي",
+          "source_word_indices": ["3"],
+          "mapped_root_id": "root_000147",
+          "branch_id": "B001",
+          "role": "Tears, grief, and voice add affective discharge to the bodily descent."
+        },
+        {
+          "source_ref": "17:109",
+          "root": "ز ي د",
+          "source_word_indices": ["4"],
+          "mapped_root_id": "root_000657",
+          "branch_id": "B001",
+          "role": "Growth makes humility an accumulating effect rather than a fixed trait."
+        },
+        {
+          "source_ref": "17:109",
+          "root": "خ ش ع",
+          "source_word_indices": ["5"],
+          "mapped_root_id": "root_000412",
+          "branch_id": "B001",
+          "role": "Inward lowliness names the deepened state produced through the repeated response."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ت ل و",
+          "source_word_indices": ["14"],
+          "mapped_root_id": "root_000186",
+          "branch_id": "B001",
+          "role": "Successive recitation supplies repeated input to the loop."
+        }
+      ],
+      "structural_cues": [
+        "17:108 inserts their spoken acknowledgment between the first fall in 17:107 and the repeated fall with tears and increased humility in 17:109."
+      ],
+      "reader_inference": "The packet supplies exact bodily repetition plus speech, tears, and increase; I infer a recursive learning process in which enactment deepens receptivity. The alternative is rhetorical restatement that intensifies one event without temporal iteration.",
+      "changed_reading": {
+        "before": "The fall is a single instantaneous sign that belief has already arrived.",
+        "after": "The fall participates in learning: repeated reception and enactment feed back into tears and increasing humility."
+      }
+    },
+    {
+      "model_id": "d_recitation_is_a_calibrated_vocal_path",
+      "status": "new",
+      "confidence": "medium",
+      "trigger_roots": ["د ع و", "ج ه ر", "خ ف ت", "س ب ل"],
+      "mechanism": "The neighboring instruction rejects both maximal projection and inaudible withdrawal in prayer, then commands seeking a traversable middle path. Coupled with utterance and sound-following-sound in the focus, recitation becomes a calibrated vocal practice whose embodied force depends on transmissible measure rather than sheer volume.",
+      "activation_trace": [
+        {
+          "source_ref": "17:110",
+          "root": "د ع و",
+          "source_word_indices": ["2", "5", "9"],
+          "mapped_root_id": "root_000478",
+          "branch_id": "B001",
+          "role": "Calling by speech establishes voiced address as the surrounding practice."
+        },
+        {
+          "source_ref": "17:110",
+          "root": "ج ه ر",
+          "source_word_indices": ["14"],
+          "mapped_root_id": "root_000269",
+          "branch_id": "B001",
+          "role": "Publicly raised sound supplies the excessive upper vocal bound."
+        },
+        {
+          "source_ref": "17:110",
+          "root": "خ ف ت",
+          "source_word_indices": ["17"],
+          "mapped_root_id": "root_000425",
+          "branch_id": "B001",
+          "role": "Lowered secret speech supplies the excessive lower vocal bound."
+        },
+        {
+          "source_ref": "17:110",
+          "root": "س ب ل",
+          "source_word_indices": ["22"],
+          "mapped_root_id": "root_000672",
+          "branch_id": "B001",
+          "role": "A traversable extended path turns the middle register into a practiced route."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ق و ل",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_001272",
+          "branch_id": "B001",
+          "role": "Pronounced utterance anchors the focus in performed speech."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ت ل و",
+          "source_word_indices": ["14"],
+          "mapped_root_id": "root_000186",
+          "branch_id": "B007",
+          "role": "One sound following another activates the recitation's serial acoustic texture."
+        }
+      ],
+      "structural_cues": [
+        "17:110 immediately follows the two falling ayat and uses paired prohibitions plus 'between that' to define a vocal interval."
+      ],
+      "reader_inference": "The packet supplies utterance, serial sound, two prohibited volume extremes, and a middle path; I infer that vocal calibration belongs to the mechanism of reception. The alternative is that 17:110 regulates prayer independently and does not explain the focus response.",
+      "changed_reading": {
+        "before": "Recitation matters only as semantic content, with voice serving as a neutral carrier.",
+        "after": "Recitation is a measured vocal path: serial, audible, and restrained enough to be received bodily without becoming display or disappearance."
+      }
+    },
+    {
+      "model_id": "d_lowering_without_abjection",
+      "status": "revised",
+      "confidence": "medium",
+      "trigger_roots": ["ذ ل ل", "ك ب ر"],
+      "mechanism": "The closing ayah denies that God needs an ally because of abjection and commands magnification. This bounds the focus prostration: downward posture is not coerced degradation but a yielding that simultaneously enlarges the one addressed.",
+      "activation_trace": [
+        {
+          "source_ref": "17:111",
+          "root": "ذ ل ل",
+          "source_word_indices": ["19"],
+          "mapped_root_id": "root_000519",
+          "branch_id": "B001",
+          "role": "Brokenness under coercion supplies the abject condition explicitly denied as a divine need."
+        },
+        {
+          "source_ref": "17:111",
+          "root": "ذ ل ل",
+          "source_word_indices": ["19"],
+          "mapped_root_id": "root_000519",
+          "branch_id": "B002",
+          "role": "Gentle yielding without disgrace supplies a live non-abject counterpart for the worshipper's lowering."
+        },
+        {
+          "source_ref": "17:111",
+          "root": "ك ب ر",
+          "source_word_indices": ["20", "21"],
+          "mapped_root_id": "root_001281",
+          "branch_id": "B003",
+          "role": "Making great within the breast gives upward valuation as the answer to downward posture."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "س ج د",
+          "source_word_indices": ["18"],
+          "mapped_root_id": "root_000675",
+          "branch_id": "B001",
+          "role": "Self-lowering anchors the distinction in the focus act of prostration."
+        }
+      ],
+      "structural_cues": [
+        "The window closes by placing negated dependency 'from abasement' beside an intensified command to magnify."
+      ],
+      "reader_inference": "The packet supplies coerced abjection, a non-disgracing yielding branch, magnification, and focus prostration; I infer that the coda distinguishes worshipful lowering from degradation. The alternative is that 17:111 speaks only about divine independence, leaving the manner of human prostration unstated.",
+      "changed_reading": {
+        "before": "Prostration is self-abasement before superior power.",
+        "after": "The body lowers without becoming abject; its descent is the embodied correlate of magnifying the one who lacks no partner or protective ally."
+      }
+    }
+  ],
+  "surprising_valid_outliers": [
+    {
+      "outlier_id": "o_jaw_as_speech_hinge",
+      "confidence": "exploratory",
+      "containment": "This is surprising because the chin branch is anatomical, not a lexical claim about speech. It remains anchored because the ayah begins with pronounced saying, moves through serial recitation, and lands specifically at the junction of the jaws; downstream prose should present it only as embodied wordplay, not as the primary lexical sense.",
+      "focus_anchor": "The movement from قُلْ and يُتْلَىٰ to يَخِرُّونَ لِلْأَذْقَانِ",
+      "activation_trace": [
+        {
+          "source_ref": "17:107",
+          "root": "ق و ل",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_001272",
+          "branch_id": "B001",
+          "role": "Articulated saying opens a speech-saturated sequence."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ت ل و",
+          "source_word_indices": ["14"],
+          "mapped_root_id": "root_000186",
+          "branch_id": "B007",
+          "role": "Sound following sound carries that sequence toward the listener's body."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ذ ق ن",
+          "source_word_indices": ["17"],
+          "mapped_root_id": "root_000515",
+          "branch_id": "B001",
+          "role": "The junction of the jaws supplies an anatomical hinge where speaking identity is brought down."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "خ ر ر",
+          "source_word_indices": ["16"],
+          "mapped_root_id": "root_000402",
+          "branch_id": "B001",
+          "role": "Uncontrolled descent disarms the previously deciding and speaking posture."
+        }
+      ],
+      "changed_reading": {
+        "before": "The chin is only a vivid substitute for the face in prostration.",
+        "after": "Exploratorily, recited speech reaches and topples the bodily hinge of speech, turning the deciding mouth into a yielded jaw."
+      }
+    },
+    {
+      "outlier_id": "o_received_knowledge_against_hoarding",
+      "confidence": "exploratory",
+      "containment": "This cross-domain activation moves from mercy treasuries and expenditure to knowledge, so it should not be rendered as direct equivalence. It remains valid because the focus explicitly makes knowledge something given and recited onward, while 17:100 imagines human possession as withholding; downstream prose should qualify it as an anti-hoarding analogy for reception.",
+      "focus_anchor": "أُوتُوا۟ ٱلْعِلْمَ ... يُتْلَىٰ عَلَيْهِمْ",
+      "activation_trace": [
+        {
+          "source_ref": "17:100",
+          "root": "خ ز ن",
+          "source_word_indices": ["5"],
+          "mapped_root_id": "root_000406",
+          "branch_id": "B001",
+          "role": "Guarded storage supplies the possessive enclosure against which received knowledge is tested."
+        },
+        {
+          "source_ref": "17:100",
+          "root": "م س ك",
+          "source_word_indices": ["9"],
+          "mapped_root_id": "root_001424",
+          "branch_id": "B002",
+          "role": "Withholding wealth from stinginess supplies the blocked-circulation mechanism."
+        },
+        {
+          "source_ref": "17:100",
+          "root": "ن ف ق",
+          "source_word_indices": ["11"],
+          "mapped_root_id": "root_001537",
+          "branch_id": "B002",
+          "role": "Outgoing expenditure names the release that possessive fear resists."
+        },
+        {
+          "source_ref": "17:100",
+          "root": "ق ت ر",
+          "source_word_indices": ["14"],
+          "mapped_root_id": "root_001199",
+          "branch_id": "B001",
+          "role": "Constriction and reduction characterize the human hoarding posture."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ء ت ي",
+          "source_word_indices": ["9"],
+          "mapped_root_id": "root_000009",
+          "branch_id": "B002",
+          "role": "Knowledge arrives by giving, opposing the fantasy of self-owned reserves."
+        },
+        {
+          "source_ref": "17:107",
+          "root": "ت ل و",
+          "source_word_indices": ["14"],
+          "mapped_root_id": "root_000186",
+          "branch_id": "B001",
+          "role": "Successive recitation keeps the received gift in circulation."
+        }
+      ],
+      "changed_reading": {
+        "before": "Those given knowledge are an elite defined by possessing a reserve of information.",
+        "after": "Exploratorily, they are anti-hoarders: knowledge remains gift and circulation, and their bodily yielding is the opposite of constrictive possession."
+      }
+    }
+  ],
+  "summary": {
+    "strongest_changes": [
+      "The context prevents 'knowledge' from meaning bare recognized information: the decisive form is received knowledge that remains answerable to renewed recitation.",
+      "Descent, partition, measured reading, and bodily falling form a staged transmission in which the receivers' bodies complete the text's downward movement.",
+      "The repeated fall with speech, tears, increase, and humility turns prostration from a terminal proof into a recursive mode of learning."
+    ],
+    "what_was_special": "The focus binds epistemology to posture with unusual precision: a non-coercive belief polarity, knowledge as gift, serial recitation, and a sounding fall onto the jaw. Its window repeatedly tests whether downwardness is punitive or receptive, degrading or magnifying, instantaneous or cumulative.",
+    "remaining_uncertainties": [
+      "The vertical continuity between revelation's descent and the hearers' fall may be deliberate sequence-patterning or only an evocative reader-supplied arrow.",
+      "The repetition in 17:109 may describe a renewed temporal fall or rhetorically elaborate the same event.",
+      "The jaw-as-speech-hinge and anti-hoarding readings are anchored analogies but remain branch-distant and should stay explicitly exploratory."
+    ]
+  }
+}
