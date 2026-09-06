@@ -1,164 +1,157 @@
 # Hermetic Focus Trace v2
 
-An isolated replacement candidate, not a change to `../focus_trace/`. The workflow
-is still **one packet → one reader → one response**. No ensemble, staged reveals,
-automatic frontier escalation, or automatic corpus rerun. Preparation, validation,
-and export are offline, standard-library Python commands; none launches a model.
+An isolated workflow under `focus_trace_v2/`; the original `focus_trace/` and
+prose_generation V5 are unchanged. The workflow remains **one packet → one reader
+→ one response**. Preparation, validation, and export are offline. They never
+launch a model, retry a reader, or automatically promote results.
 
-## What changed
+## Restored v1 reader contract
 
-- One source projection for focus AND context: full Arabic images/scopes, paired
-  source variants, all mapped targets, and brief missing-inventory notices.
-  English glosses are retained. Each mapped inventory appears once, and only
-  exactly repeated source rows are deduplicated. Distinct root forms are preserved;
-  identical root labels and normalized duplicates of ayah text are not repeated.
-- Reader inputs contain linguistic evidence and the minimal citation identifiers,
-  not source paths, mapping ranks/dominance flags, match totals, coverage counts,
-  technical failure codes, hashes, or reader/run IDs. The complete source snapshot
-  and all audit metadata remain available to the coordinator, not to the reader.
-- Text-backed baselines and structural-only context deltas are legal. All retained
-  findings need an exact focus-text anchor. Exploratory and competing readings
-  remain first-class; deterministic validation does not judge semantic quality.
-- The coordinator freezes and hashes packet, prompt, schema, and source snapshot.
-  It attaches input identity and reader/run bookkeeping to the evidence export;
-  the reader neither receives nor echoes that metadata.
-  Every retained citation is resolved in the export, including context branches,
-  with no ranking or pruning. Old responses are not retroactively bound or repaired.
-- Coordinator default: `gpt-5.6-luna`, `max`. Sol max and Astra max are explicit
-  comparison options, never automatic fallbacks. Profiles are outside the semantic
-  prompt and packet so comparisons can use identical inputs.
+The working discovery prompt and response schema are byte-for-byte copies of:
 
-This reuses only the old read-only source loaders (and their `v12` resource loader),
-not old packet projection, response validation, prompts, or run orchestration.
-Source and builder file hashes are recorded for provenance. Source files must
-remain stable during preparation. Keep these shared loaders available while using
-v2; this is an isolated workflow, not a standalone distribution of the databases.
+- `focus_trace/prompts/focus_trace_hermetic.md`
+- `focus_trace/schemas/focus-trace-response.schema.json`
 
-## Prepare
+New preparation checks this equality before creating a job. It restores v1's
+discovery-first posture, focus-only baseline, root-led contextual activation,
+competing readings, outliers, before/after changes, confidence and delta states,
+and discovery-oriented summary. There is no v2 semantic rewrite or extra
+qualification requirement layered over that contract.
+
+The unchanged template defaults to **gpt-5.6-sol / max**. An explicitly requested
+comparison profile changes only the prompt's `model` / `reasoning_effort` block;
+all discovery instructions remain identical. The frozen prompt and requested
+launch profile must agree. No service tier is specified, and preparation does
+not authorize a model run or fallback.
+
+The packet again presents `focus_ayah`, `focus_branch_inventories`,
+`context_ayat`, and `context_root_cues`. Focus inventories follow focus-root
+order; context cues follow first occurrence in the context, excluding roots
+already available through the focus inventory. Every mapped target is retained.
+
+## Data fixes remain
+
+Both focus and context retain full paired Arabic images/scopes, English glosses,
+and every distinct non-contaminated source variant. No linguistic data is trimmed
+to fit a model. Full QAC occurrences, distinct mapped root forms, and source gaps
+are preserved. The original source snapshot remains coordinator-only.
+
+The restored packet uses v1's grouped-target layout, not its old lossy lean
+projection. In particular, **do not run the old lean-packet validator**, which
+forbids the restored English fields. Use the v2 validator below; it compares the
+reader packet against the complete frozen source projection. The response schema
+and response semantics are v1, including its branch-backed context requirement.
+
+Source paths, mapping ranks, coverage counters, hashes, and execution records
+stay outside the linguistic packet. V1's packet protocol and QAC-gap markers are
+retained for compatibility. A QAC gap does not establish morphological
+rootlessness. The required response `protocol` and assigned `reader_id` follow
+the original response contract; readers are not asked to echo input hashes.
+
+V1 citations name a mapped root and branch, not a selected source variant.
+Exports therefore retain **all source variants belonging to that citation** and
+the reader's explanation. They never silently select the first variant. V1's
+free-text structural cues are preserved verbatim, without inventing exact
+machine-resolved quotations or references.
+
+### Known strict-v1 limitation
+
+A rooted focus with no branch inventory cannot satisfy v1's required
+branch-backed baseline. Preparation stops explicitly in that case rather than
+inventing a branch, borrowing context into the baseline, or calling the focus
+rootless. **83:1 currently hits this limit because ط ف ف has no mapped target.**
+Furuq already contains its ten non-contaminated branches (`root_000940`), but the
+upstream bridge misses the QAC/frozen-corpus surface match. This is disconnected
+existing evidence, not an absent lexical entry. Repairing the upstream bridge
+needs a separate decision; the completed 83:1 comparison artifacts are unchanged.
+
+## Prepare a new job — offline
 
 From the repository root:
 
 ```bash
-python3 focus_trace_v2/workflow.py prepare --ayah 29:38 --run pilot-luna-clean
-python3 focus_trace_v2/workflow.py validate focus_trace_v2/runs/pilot-luna-clean/29_38 --inputs-only
+python3 focus_trace_v2/workflow.py prepare --ayah 29:38 --run v1-compatible-sol
+python3 focus_trace_v2/workflow.py validate focus_trace_v2/runs/v1-compatible-sol/29_38 --inputs-only
 ```
 
-By default, preparation reads only the corresponding legacy packet's window and
-optional non-citable remote orientation snapshot. It rebuilds all citable evidence
-from current resources. It never reads legacy reader responses. The old window
-source is hashed and recorded; remote snapshots are not newly validated lexical
-evidence. Alternatively supply `--window-from PATH` or an explicit window:
+Preparation reuses only the legacy packet's window and non-citable remote
+orientation, never its reader response. It rebuilds citable evidence from current
+resources. Alternatively supply `--window 29:1-69` or `--window-from PATH`.
+Sources must remain stable during preparation. Existing job directories are
+never overwritten, including partially prepared jobs; use a new run name.
+
+New jobs use `hft-v2-job-v3` and freeze the paths named by the original prompt:
+
+```text
+prompt.md
+focus_trace_packet.json
+focus_trace/schemas/focus-trace-response.schema.json
+```
+
+The coordinator-only files are `job.json` and `source.packet.json`. The output
+is `response.json`. The coordinator supplies the assigned `reader_id` from the
+job when launching a reader.
+
+## Run only with explicit generation approval
+
+Give a fresh-context reader only its frozen prompt, packet, schema, assigned
+reader ID, and output path. Never show prior outputs, gold readings, coordinator
+interpretations, or other readers' work. Deliver the complete packet; page
+through it with existing read-only tools if necessary. Check actual context fit
+including instructions and output allowance. Do not shrink linguistic evidence.
+
+The optional inline launcher delivers the same complete frozen files, pins
+the requested model and effort, omits a service tier, and disables unrelated tools:
 
 ```bash
-python3 focus_trace_v2/workflow.py prepare --ayah 83:1 --window 83:1-36 --run pilot-luna-clean
-python3 focus_trace_v2/workflow.py prepare --ayah 29:38 --run pilot-sol-clean --model gpt-5.6-sol
+python3 focus_trace_v2/run_inline_reader.py focus_trace_v2/runs/v1-compatible-sol/29_38 --inspect
+# Omit --inspect only after generation is approved.
 ```
 
-Use the same window and source versions for comparisons. `--window` accepts
-comma-separated refs and same-surah ranges. Synthetic `S:0` basmalah is allowed
-inside windows for surahs other than 1 and 9, never as the focus. Out-of-window
-Arabic remains orientation-only. An explicit window does not import old remote
-orientation cues; use the same selection mode across compared jobs.
+`--inspect` makes no model call and writes no files. In inline mode the model
+returns JSON and the coordinator performs v1's formatting-only compaction.
+The original model text remains in the event log. Malformed JSON is not repaired;
+there are no automatic semantic retries. Launch settings, input hashes, runtime
+events, and completion status remain outside the semantic packet.
 
-Each new job has three reader files: `packet.json`, `prompt.md`, and
-`response.schema.json`. Two other files are coordinator-only: `job.json` and the
-complete `source.packet.json`. There is no reader assignment/hash-copying file.
-All outputs live under `focus_trace_v2/runs/<run>/<surah>_<ayah>/`. Preparation
-refuses an existing job, including a partial one: use a new run name. There is no
-overwrite flag. Missing source inventories are visible gaps, not fatal conditions;
-missing files, malformed coverage, or inconsistent resources fail preparation.
-The flat remote-orientation shape used by existing lean packets is projected
-without audit labels. Unrecognized remote fields stop preparation for review
-instead of being silently dropped.
-
-Original `runs/pilot-luna/` jobs are preserved with their frozen prompt/schema
-and remain valid. Their job protocol is `hft-v2-job-v1`; newly prepared jobs use
-`hft-v2-job-v2`. Use `pilot-luna-clean` for the metadata-free reader inputs.
-
-## Run one reader (only when generation is approved)
-
-The coordinator launches one fresh-context worker per job with the exact model
-and `max` effort in `job.json`. Give it only the three reader files listed above
-(exclude `job.json` and `source.packet.json`) and ownership of that job's
-`response.json`. Do not fork the
-coordinator's conversation or show old outputs, target interpretations, or model
-comparison hints. If the requested model/effort is unavailable, stop; do not
-silently substitute. Do not ask the reader to manage files beyond its response.
-
-Deliver the complete frozen packet, not a truncated shell preview. When using
-file-reading tools, instruct the worker to page through all ayat, mappings, and
-inventory variants with read-only commands (for example `jq` slices), checking
-array lengths so nothing is skipped. Reading with existing commands is allowed;
-writing helper scripts is not. Check that complete input plus output allowance
-fits the selected model's context. Do not silently trim inventories or summarize
-away scopes to make a job fit; stop and resolve the scope explicitly instead.
-
-The receipt records the **requested** profile, not proof of which model ran:
-`execution_verified: false` is intentional. The coordinator must keep actual
-runtime/session metadata separately and verify it before drawing model-quality
-conclusions. Input hashes detect changed sealed files; citation checks reject
-incompatible evidence. Neither proves honest metadata or that a model truly read
-every source. This is a reconstructed trace,
-not a blind staged experiment.
-The coordinator owns the response path and binds that response to the sealed job
-when exporting. Do not copy an unrelated response into a job: without reader-echoed
-hashes, a same-focus response from another job is not distinguishable by content
-validation alone. Keep actual launch/session metadata to establish execution;
-the export's `binding: coordinator_job_directory` is not proof of model execution.
-
-After the worker finishes:
+After an approved reader finishes:
 
 ```bash
-python3 focus_trace_v2/workflow.py validate focus_trace_v2/runs/pilot-luna-clean/29_38
-python3 focus_trace_v2/workflow.py export focus_trace_v2/runs/pilot-luna-clean/29_38
+python3 focus_trace_v2/workflow.py validate focus_trace_v2/runs/v1-compatible-sol/29_38
+python3 focus_trace_v2/workflow.py export focus_trace_v2/runs/v1-compatible-sol/29_38
 ```
 
-Validation checks JSON shape, frozen file hashes, ayah/root/target/variant coverage
-in the coordinator source snapshot, exact equality with its reader projection,
-all citation identities, exact quotations and occurrence indices, focus-only
-baseline evidence, and actual context triggers. It fails if a response is absent
-unless `--inputs-only` is specified; even then, an existing response is checked.
-The small built-in schema checker supports only the keywords used in the supplied
-schema and fails on unknown keywords. It is not a general JSON Schema library.
+Validation checks the frozen hashes, complete source projection, original response
+schema, focus-only baseline citations, real branch-backed context triggers, and
+exact occurrence/root/branch identities. It does not grade interpretation.
+Export retains the entire response and resolves every branch citation to its
+complete source variants. It refuses to replace differing evidence.
 
-If a response is invalid or a worker is interrupted, preserve the artifact and
-diagnostic. Do not automatically pay for another semantic run. Investigate the
-smallest repair; never relabel the response or its coordinator binding to pretend
-it used a different packet. Frozen inputs should not be edited, reformatted, or replaced. Changing
-working prompt/schema templates does not invalidate previously frozen jobs.
+The receipt's `execution_verified: false` records that requested settings and
+hashes are not proof of model execution. Keep actual runtime records separately.
+Do not copy an older response into a new job or relabel an old result as a new run.
 
-`evidence.json` retains the entire response and resolves every retained branch
-to the exact source variant, mapping target, full source ayah, and QAC occurrence
-from the verified coordinator snapshot; structural cues
-receive their full source ayah too. Export is idempotent for identical content
-and refuses to replace differing evidence. The export is an explicit future
-integration boundary, **not yet an input understood by prose_generation V5**.
-No V5 loader, defaults, legacy runs, or existing artifacts are changed. Do not
-copy this new protocol into legacy reader directories. Promotion requires a
-separate opt-in V5 adapter after the pilot; rollback today is simply not using v2.
+## Existing jobs and integration
 
-## Verify and decide
+Frozen `hft-v2-job-v1` and `hft-v2-job-v2` jobs still use their own original
+packet, prompt, schema, and response contracts. Changing the working templates
+does not rewrite or invalidate them. All 20 completed comparison responses and
+their evidence exports remain unchanged. Their findings describe the earlier
+v2 prompt, **not** the restored v1 prompt.
+
+The original v1 files, production runs, and V5 loader/defaults are untouched.
+The new evidence export is still an opt-in future integration boundary; it is not
+automatically consumed by prose_generation V5.
+
+## Offline verification
 
 ```bash
-python3 -m unittest discover -s focus_trace_v2/tests -v
+python3 -B -m unittest discover -s focus_trace_v2/tests -v
 ```
 
-Tests cover missing inventories, split mappings, distinct variants, corruption,
-branchless reasoning, source resolution, metadata exclusion, full Arabic/English
-retention, original frozen-job compatibility, and existing-resource 29:38 / 83:1
-regressions. The latter use local data only and skip if resources are unavailable.
-Synthetic test findings are not model outputs or semantic-quality evidence.
-
-Next, with approval, run a small paired Luna-max/Sol-max pilot on identical sealed
-inputs. Include 29:38, 83:1, split/variant-heavy cases, and some ordinary ayat. Judge
-anchored discovery recall, competing readings, scope fidelity, inference limits,
-and actual cost—not just JSON validity. Do not assume corrected data proves Luna
-matches Sol or that legacy reader outputs recover omissions without rereading.
-Complete packets are larger than legacy lean packets; shared inventories reduce
-duplication, but actual end-to-end token cost still needs measurement in the pilot.
-
-The short, model-independent prompt follows the emphasis on lean instructions
-without dropping task requirements in [OpenAI's GPT-5.6 prompting guidance](https://developers.openai.com/api/docs/guides/prompt-guidance-gpt-5p6).
-The configured candidate follows the user's requested profile;
-[Luna's model documentation](https://developers.openai.com/api/docs/models/gpt-5.6-luna)
-lists `max` effort support. These docs do not establish quality parity for HFT.
+Tests cover original prompt/schema equality, new v1-compatible preparation and
+responses, full linguistic retention, split targets and variants, rootless
+annotation rules, the explicit 83:1 limitation, citation failures, model-profile
+conflicts, no-overwrite behavior, original v1 response-validator compatibility,
+and byte-identical regeneration of all 20 existing evidence exports. Synthetic
+test responses are not model output or quality evidence.

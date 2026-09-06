@@ -1,0 +1,602 @@
+{
+  "focus_ref": "100:1",
+  "trace_kind": "reconstructed",
+  "baseline_models": [
+    {
+      "model_id": "baseline_running_with_audible_breath",
+      "reading": "The focus presents an oath-image of feminine-plural runners, most naturally racing horses within the supplied scopes, moving at speed while their breath is audibly labored.",
+      "status": "supported",
+      "focus_anchor": {
+        "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+        "role": "The definite feminine-plural participle names the agents by their running, and the following accusative supplies the sound or manner of that motion."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:1",
+          "root": "ع د و",
+          "source_word_indices": [
+            "1"
+          ],
+          "mapped_root_id": "root_000993",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "This branch explicitly covers running and hastening, including a horse's run, and grounds the ordinary kinetic sense of ٱلْعَٰدِيَٰتِ."
+        },
+        {
+          "source_ref": "100:1",
+          "root": "ض ب ح",
+          "source_word_indices": [
+            "2"
+          ],
+          "mapped_root_id": "root_000901",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The supplied image includes the audible breathing or mouth-sound of horses while running, making exerted breath part of the scene."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "100:1",
+          "quote_ar": "ضَبْحًۭا",
+          "role": "The postposed accusative is a manner or event-noun-like specification: these runners are apprehended through the panting sound of their action."
+        }
+      ],
+      "mechanism": "Agentive naming by motion and a bodily sound-specification combine speed with exertion: the focus does not merely name runners but renders their running audible.",
+      "changed_reading": null,
+      "reader_inference": "The packet directly supplies running and horse-breath images. Taking the unnamed runners specifically as horses is strongly favored by their intersection, but the focus text itself does not state the species; other running agents remain a grammatically live, less specific alternative.",
+      "containment": "This baseline supports running with audible panting. It does not by itself establish a raid, a moral valuation, a historical referent, or any figurative application."
+    }
+  ],
+  "context_deltas": [
+    {
+      "model_id": "delta_opening_phase_of_a_continuous_charge",
+      "reading": "Ayat 100:2-5 extend the focus into one rapidly linked operation: panting motion is followed by struck fire, a dawn incursion, raised dust, and entry into the middle of an assembled group. The focus becomes the propulsive first phase of a coordinated charge rather than an isolated picture of speed.",
+      "status": "supported",
+      "focus_anchor": {
+        "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+        "role": "The running and panting agents introduced here provide the continuing feminine-plural subject and the initial energy of the sequence."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:1",
+          "root": "ع د و",
+          "source_word_indices": [
+            "1"
+          ],
+          "mapped_root_id": "root_000993",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "Running and hastening supply the opening movement that the following clauses develop."
+        },
+        {
+          "source_ref": "100:1",
+          "root": "ض ب ح",
+          "source_word_indices": [
+            "2"
+          ],
+          "mapped_root_id": "root_000901",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "Audible running-breath makes the opening phase bodily and forceful rather than merely positional."
+        },
+        {
+          "source_ref": "100:2",
+          "root": "ق د ح",
+          "source_word_indices": [
+            "2"
+          ],
+          "mapped_root_id": "root_001203",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "Its fire-striking image supplies the next material consequence of the movement."
+        },
+        {
+          "source_ref": "100:3",
+          "root": "ص ب ح",
+          "source_word_indices": [
+            "2"
+          ],
+          "mapped_root_id": "root_000839",
+          "branch_id": "B004",
+          "variant_id": "V001",
+          "role": "The branch specifically includes a morning raid and dawn attack, situating the continued motion as incursion."
+        },
+        {
+          "source_ref": "100:4",
+          "root": "ن ق ع",
+          "source_word_indices": [
+            "3"
+          ],
+          "mapped_root_id": "root_001544",
+          "branch_id": "B004",
+          "variant_id": "V001",
+          "role": "Raised or stirred dust is the visible wake of the advancing agents."
+        },
+        {
+          "source_ref": "100:5",
+          "root": "و س ط",
+          "source_word_indices": [
+            "1"
+          ],
+          "mapped_root_id": "root_001646",
+          "branch_id": "B003",
+          "variant_id": "V001",
+          "role": "Entering into the middle supplies the operation's culminating spatial penetration."
+        },
+        {
+          "source_ref": "100:5",
+          "root": "ج م ع",
+          "source_word_indices": [
+            "3"
+          ],
+          "mapped_root_id": "root_000259",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The assembled-group image identifies what is penetrated as a gathered body or multitude."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "100:2",
+          "quote_ar": "فَٱلْمُورِيَٰتِ قَدْحًۭا",
+          "role": "The initial فَ and matching feminine-plural participle attach fire-striking closely to the focus agents."
+        },
+        {
+          "source_ref": "100:3",
+          "quote_ar": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
+          "role": "A second فَ-linked feminine-plural participle continues the same momentum into a dawn incursion."
+        },
+        {
+          "source_ref": "100:4",
+          "quote_ar": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
+          "role": "The sequence shifts from participles to a feminine-plural finite verb while retaining the agents and showing their effect."
+        },
+        {
+          "source_ref": "100:5",
+          "quote_ar": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+          "role": "The final فَ-linked feminine-plural verb carries the same agents to the sequence's endpoint inside a gathering."
+        }
+      ],
+      "mechanism": "Repeated فَ plus feminine-plural agreement creates rapid causal and temporal succession. Each new material image converts the focus's raw speed into an operation with ignition, timing, wake, and target.",
+      "changed_reading": {
+        "before": "Swift runners pant audibly in a self-contained oath-image.",
+        "after": "Their panting run is the opening propulsion of a continuous dawn charge that culminates inside an assembled body."
+      },
+      "reader_inference": "The morphology, sequencing, and branch images are packet-supplied. Treating all five ayat as one continuous event is the most economical reconstruction, though a formally possible alternative is a coordinated series of related oath-images rather than a single narrated sortie.",
+      "containment": "The sequence supports a coordinated incursion but does not identify a historical battle, owner, rider, destination, or named group. The specific identification of the agents remains bounded by the baseline's unnamed-subject limitation."
+    },
+    {
+      "model_id": "delta_running_shaded_as_hostile_overstepping",
+      "reading": "The dawn-incursion and center-penetration context activates a morally charged branch of the focus root: the runners can be heard not only as fast movers but as possible oversteppers moving into aggression.",
+      "status": "exploratory",
+      "focus_anchor": {
+        "quote_ar": "ٱلْعَٰدِيَٰتِ",
+        "role": "This root-bearing participle retains the ordinary run sense while permitting the packet's distinct overstepping-and-aggression branch to become contextually audible."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:1",
+          "root": "ع د و",
+          "source_word_indices": [
+            "1"
+          ],
+          "mapped_root_id": "root_000993",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The branch supplies overstepping a bound into injustice and includes attacking or raiding when it exceeds right."
+        },
+        {
+          "source_ref": "100:3",
+          "root": "ص ب ح",
+          "source_word_indices": [
+            "2"
+          ],
+          "mapped_root_id": "root_000839",
+          "branch_id": "B004",
+          "variant_id": "V001",
+          "role": "The explicit morning-raid image makes the aggressive possibility relevant rather than a free lexical association."
+        },
+        {
+          "source_ref": "100:5",
+          "root": "و س ط",
+          "source_word_indices": [
+            "1"
+          ],
+          "mapped_root_id": "root_001646",
+          "branch_id": "B003",
+          "variant_id": "V001",
+          "role": "Entry into the middle gives the possible boundary-crossing sense a concrete spatial mechanism."
+        },
+        {
+          "source_ref": "100:5",
+          "root": "ج م ع",
+          "source_word_indices": [
+            "3"
+          ],
+          "mapped_root_id": "root_000259",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The assembled group supplies a social target into which the agents penetrate."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "100:3",
+          "quote_ar": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
+          "role": "The raiding construction is the contextual selector for an aggressive shade in the earlier root."
+        },
+        {
+          "source_ref": "100:5",
+          "quote_ar": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+          "role": "Movement into the center of a gathered body realizes crossing from approach to incursion."
+        }
+      ],
+      "mechanism": "A later raid and penetration select a normally secondary branch already mapped at the focus occurrence, so lexical running acquires a possible social and ethical direction without losing its kinetic sense.",
+      "changed_reading": {
+        "before": "The focus describes morally unmarked running at speed.",
+        "after": "The same running may also be heard as boundary-crossing aggression within a raid."
+      },
+      "reader_inference": "The packet supplies both the overstepping branch and the raid/entry images. The further judgment that this incursion is unjust is not stated: an incursion can be legitimate, and B001 itself conditions its moral sense on overstepping right. That unresolved condition makes this exploratory.",
+      "containment": "Do not replace the ordinary translation with 'transgressors' or assign guilt to the agents. Downstream prose may present only a context-activated ambiguity between running and aggressive overstepping."
+    },
+    {
+      "model_id": "delta_exertion_as_counterimage_to_human_attachment",
+      "reading": "The human diagnosis in 100:6-8 turns the runners' audible expenditure of breath into a possible counter-image: strenuous outward motion stands beside a human who is ungrateful toward his Lord and intensely attached to desired good.",
+      "status": "exploratory",
+      "focus_anchor": {
+        "quote_ar": "ضَبْحًۭا",
+        "role": "The audible breath embodies costly exertion and provides the physical pole of the later rhetorical contrast."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:1",
+          "root": "ض ب ح",
+          "source_word_indices": [
+            "2"
+          ],
+          "mapped_root_id": "root_000901",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "Audible breath under running makes exertion perceptible rather than inferred abstractly."
+        },
+        {
+          "source_ref": "100:6",
+          "root": "ر ب ب",
+          "source_word_indices": [
+            "3"
+          ],
+          "mapped_root_id": "root_000532",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "Lordship, ownership, and authority establish the relation toward which the human's conduct is judged."
+        },
+        {
+          "source_ref": "100:6",
+          "root": "ك ن د",
+          "source_word_indices": [
+            "4"
+          ],
+          "mapped_root_id": "root_001321",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The ingratitude branch includes forgetting favors, self-serving behavior, and withholding support, supplying the ethical diagnosis."
+        },
+        {
+          "source_ref": "100:8",
+          "root": "ح ب ب",
+          "source_word_indices": [
+            "2"
+          ],
+          "mapped_root_id": "root_000286",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "Love as clinging attachment supplies the inward fixation set beside the runners' outward expenditure."
+        },
+        {
+          "source_ref": "100:8",
+          "root": "خ ي ر",
+          "source_word_indices": [
+            "3"
+          ],
+          "mapped_root_id": "root_000452",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The object is broadly what is desired as good, beneficial, or preferable; the branch does not force a narrower material referent."
+        },
+        {
+          "source_ref": "100:8",
+          "root": "ش د د",
+          "source_word_indices": [
+            "4"
+          ],
+          "mapped_root_id": "root_000782",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "Intensity and firmness give the attachment its exceptional force."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "100:6",
+          "quote_ar": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ",
+          "role": "After the completed charge, the emphatic human proposition supplies the moral claim to which the opening imagery can function rhetorically."
+        },
+        {
+          "source_ref": "100:8",
+          "quote_ar": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+          "role": "This clause locates a competing intensity in the human's attachment to desired good."
+        }
+      ],
+      "mechanism": "Juxtaposition converts bodily exertion into a measure for inner orientation: the opening agents visibly spend breath in motion, while the later human is described through relational ingratitude and forceful attachment.",
+      "changed_reading": {
+        "before": "Panting is a sensory detail that authenticates speed and effort.",
+        "after": "Panting can also work as the physical counter-image against which human ingratitude and clinging desire are exposed."
+      },
+      "reader_inference": "The packet supplies exerted breath, lordship, ingratitude, attachment, good, and intensity. The contrastive direction is reader-supplied from their juxtaposition; the text does not say that the runners are loyal, selfless, or morally superior, and it does not specify that ٱلْخَيْرِ here is wealth. A non-contrastive alternative is that the oath-scene simply intensifies the ensuing assertion.",
+      "containment": "State this as a rhetorical counter-image, not an allegorical equation or a moral biography of the runners. Keep 'desired good' broad and do not import a specific possession, rider-master relation, or doctrine of animal virtue."
+    },
+    {
+      "model_id": "delta_panting_as_early_disclosure",
+      "reading": "The later sequence of witness, extraction of what is in the breasts, and inward knowledge lets the focus's panting function as an early audible disclosure: bodily sound makes an otherwise hidden drive knowable before the text explicitly turns to testimony and interior exposure.",
+      "status": "exploratory",
+      "focus_anchor": {
+        "quote_ar": "ضَبْحًۭا",
+        "role": "Panting is an outwardly perceptible effect of interior exertion and therefore can become the first disclosure-image in the sequence."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:1",
+          "root": "ض ب ح",
+          "source_word_indices": [
+            "2"
+          ],
+          "mapped_root_id": "root_000901",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The focus supplies an audible breath-sound by which exertion becomes externally detectable."
+        },
+        {
+          "source_ref": "100:7",
+          "root": "ش ه د",
+          "source_word_indices": [
+            "4"
+          ],
+          "mapped_root_id": "root_000822",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "Testifying from knowledge and making something known explicitly introduce an evidentiary register."
+        },
+        {
+          "source_ref": "100:10",
+          "root": "ح ص ل",
+          "source_word_indices": [
+            "1"
+          ],
+          "mapped_root_id": "root_000330",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "Collection until the outcome is clear, including revealing what is in breasts, supplies the later act of disclosed result."
+        },
+        {
+          "source_ref": "100:10",
+          "root": "ص د ر",
+          "source_word_indices": [
+            "4"
+          ],
+          "mapped_root_id": "root_000849",
+          "branch_id": "B004",
+          "variant_id": "V001",
+          "role": "The source-from-which-actions-issue image gives the exposed interior a directional relation to outward action."
+        },
+        {
+          "source_ref": "100:11",
+          "root": "خ ب ر",
+          "source_word_indices": [
+            "5"
+          ],
+          "mapped_root_id": "root_000387",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "Knowledge of the inner reality closes the progression from perceptible sign to complete inward knowledge."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "100:7",
+          "quote_ar": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ",
+          "role": "The emphatic witness-clause introduces explicit testimony after the opening's sensory evidence."
+        },
+        {
+          "source_ref": "100:10",
+          "quote_ar": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+          "role": "What had been interior is brought to an articulated result, making concealment versus disclosure central."
+        },
+        {
+          "source_ref": "100:11",
+          "quote_ar": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ",
+          "role": "The closing assertion places complete knowledge over the now-exposed persons."
+        }
+      ],
+      "mechanism": "A sensory-to-epistemic progression links audible bodily effect, witness, extraction of interior content, and tested inward knowledge. The focus is reread as the sequence's first instance of an inside becoming legible outside.",
+      "changed_reading": {
+        "before": "The panting is vivid acoustic accompaniment to running.",
+        "after": "The panting is also an incipient sign that externalizes hidden exertion, anticipating later witness and exposure."
+      },
+      "reader_inference": "The sound, witness, breast-content, and inner-knowledge elements are supplied. Treating them as one disclosure motif is reader synthesis; the focus does not lexically call breath testimony, and the later human interior need not be analogous to the runners' physiology. The alternative is simple sensory vividness followed by a separate epistemic conclusion.",
+      "containment": "Use 'anticipates' or 'can function as,' never 'means testimony.' The claim concerns a formal disclosure pattern, not identity between animal exertion and the moral contents of human breasts."
+    }
+  ],
+  "surprising_valid_outliers": [
+    {
+      "model_id": "outlier_forward_motion_folded_into_return",
+      "reading": "A distinct mapped ع و د branch permits a faint return-and-repetition resonance inside the focus's forward running. When 100:9 overturns what is in the graves, the initial motion can be heard experimentally as movement folded into renewed emergence rather than as a strictly one-way charge.",
+      "status": "exploratory",
+      "focus_anchor": {
+        "quote_ar": "ٱلْعَٰدِيَٰتِ",
+        "role": "The occurrence's unranked mappings include a separately labeled ع و د target whose return image can be activated without displacing the direct ع د و run sense."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:1",
+          "root": "ع د و",
+          "source_word_indices": [
+            "1"
+          ],
+          "mapped_root_id": "root_001058",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The mapped branch supplies returning after departure, doing again, recurrence, and repeated engagement; its distinct root form makes it a resonance rather than the ordinary parse."
+        },
+        {
+          "source_ref": "100:9",
+          "root": "ب ع ث ر",
+          "source_word_indices": [
+            "4"
+          ],
+          "mapped_root_id": "root_000130",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "Upturning earth and bringing out buried contents supplies the contextual emergence that activates return-like motion."
+        },
+        {
+          "source_ref": "100:9",
+          "root": "ق ب ر",
+          "source_word_indices": [
+            "7"
+          ],
+          "mapped_root_id": "root_001195",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The grave as the dead person's resting place establishes the state from which the contents are brought out."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "100:9",
+          "quote_ar": "إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+          "role": "The conditional scene reverses enclosure by bringing buried contents into motion and view."
+        }
+      ],
+      "mechanism": "The packet's unranked cross-form mapping supplies return/repetition at the focus; the later reversal of burial supplies a contextual event capable of waking that dormant directional image.",
+      "changed_reading": {
+        "before": "The runners enact linear forward motion.",
+        "after": "At a highly exploratory level, their forward motion can echo recurrence or return when the buried are later brought out."
+      },
+      "reader_inference": "The ع د و occurrence-to-root_001058 mapping and its labeled ع و د form are packet-supplied, as is the grave-upturning scene. Connecting distinct root forms semantically and construing emergence as return are reader-supplied. The ordinary alternative is that ع و د is irrelevant here and the focus carries only running.",
+      "containment": "This is surprising because it bends a forward-running image toward return through an explicitly distinct, unranked mapped form. It must never be used to claim that ٱلْعَٰدِيَٰتِ is etymologically from ع و د, that return is its translation, or that the focus alone states the later event."
+    },
+    {
+      "model_id": "outlier_panting_charge_as_acquisitive_appetite",
+      "reading": "A less ordinary branch path lets the panting charge externalize acquisitive appetite: entry into جَمْعًا can glance toward gathered material or plunder, after which the text names intense love of desired good and offers a severe-to-miserly shade.",
+      "status": "exploratory",
+      "focus_anchor": {
+        "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+        "role": "The breath-driven run supplies the embodied urgency that this outlier reads as desire propelled into action."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:1",
+          "root": "ع د و",
+          "source_word_indices": [
+            "1"
+          ],
+          "mapped_root_id": "root_000993",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "Running and hastening provide the kinetic vehicle for the proposed appetite image."
+        },
+        {
+          "source_ref": "100:1",
+          "root": "ض ب ح",
+          "source_word_indices": [
+            "2"
+          ],
+          "mapped_root_id": "root_000901",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "Audible breath makes urgency and expenditure bodily visible to the ear."
+        },
+        {
+          "source_ref": "100:5",
+          "root": "ج م ع",
+          "source_word_indices": [
+            "3"
+          ],
+          "mapped_root_id": "root_000259",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "This distinct branch covers gathering scattered material into a whole and explicitly includes collected plunder, enabling an acquisitive rather than solely social reading of the endpoint."
+        },
+        {
+          "source_ref": "100:8",
+          "root": "ح ب ب",
+          "source_word_indices": [
+            "2"
+          ],
+          "mapped_root_id": "root_000286",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "Clinging attachment supplies the psychological propulsion proposed behind the physical charge."
+        },
+        {
+          "source_ref": "100:8",
+          "root": "خ ي ر",
+          "source_word_indices": [
+            "3"
+          ],
+          "mapped_root_id": "root_000452",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The generally desired good or benefit supplies the object of attachment without fixing it as wealth."
+        },
+        {
+          "source_ref": "100:8",
+          "root": "ش د د",
+          "source_word_indices": [
+            "4"
+          ],
+          "mapped_root_id": "root_000782",
+          "branch_id": "B006",
+          "variant_id": "V001",
+          "role": "The inventory's marked use of severity for miserliness supplies the final acquisitive shade, though ordinary intensity remains more immediate."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "100:5",
+          "quote_ar": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+          "role": "This endpoint can grammatically denote entry into an assembled body; the outlier tests the inventory's alternative collection image without denying that ordinary construction."
+        },
+        {
+          "source_ref": "100:8",
+          "quote_ar": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+          "role": "The later clause explicitly joins attachment, desired good, and severity, providing the psychological context for the re-reading."
+        }
+      ],
+      "mechanism": "A material-to-psychological chain links urgent bodily motion, a branch where gathering includes plunder, and the later cluster of attachment, desired good, and a possible miserly shade. This recasts the focus's speed as desire made kinetic.",
+      "changed_reading": {
+        "before": "The panting run serves a physical or tactical charge.",
+        "after": "It can, very tentatively, embody acquisitive appetite rushing toward what may be gathered."
+      },
+      "reader_inference": "Every lexical image is packet-supplied, but their causal direction is reader-supplied and deliberately branch-distant. The structurally immediate alternatives are that جَمْعًا is an assembled group, شَدِيدٌ denotes intensity, and ٱلْخَيْرِ remains general good; none requires plunder, wealth, or miserliness.",
+      "containment": "This is surprising because it psychologicalizes a concrete charge by combining secondary branches across separated ayat. Retain it only as a possible echo; never assert that the raid seeks loot, that ٱلْخَيْرِ means wealth here, or that miserliness is the required sense of شَدِيدٌ."
+    }
+  ],
+  "summary": {
+    "ordinary_reading": "The focus's stable ordinary reading is a vivid oath-image of swiftly running agents, most plausibly horses in the supplied branch intersection, whose exerted breath is audibly panting.",
+    "coexisting_readings": [
+      "Ayat 100:2-5 securely extend the focus into the opening phase of a tightly sequenced dawn charge: fire-striking, dust-raising, and entry into an assembled group.",
+      "The raid context can additionally activate the focus root's aggressive-overstepping branch, but whether the incursion is unjust remains unresolved.",
+      "The move to human ingratitude and intense attachment permits the runners' expenditure of breath to function as a rhetorical counter-image, without asserting that the runners themselves are morally exemplary.",
+      "Witness, disclosed breast-content, and inward knowledge permit panting to anticipate an outside sign of an inside drive; this remains a formal analogy rather than a lexical meaning.",
+      "The return/repetition and acquisitive-appetite readings are valid only as surprising, branch-distant resonances and remain subordinate to the ordinary run sense and the direct sequence."
+    ],
+    "unresolved_limits": [
+      "The focus never names the runners' species, riders, owner, target, or historical occasion; the horse identification is supported by intersecting branch scopes rather than an explicit noun.",
+      "The packet's mapped targets are unranked. In particular, the separately labeled ع و د and ع د د forms mapped from ع د و cannot be promoted to the focus's etymology or ordinary sense.",
+      "The precise rhetorical relation between the opening charge and the human propositions is not explicitly labeled; comparison, contrast, exemplification, and simple oath-to-claim intensification remain live at different levels.",
+      "The text and supplied branches do not force ٱلْخَيْرِ to mean wealth, جَمْعًا to mean plunder, شَدِيدٌ to mean miserly, or the raid to be unjust.",
+      "The packet records no source gaps. The remaining uncertainty comes from unnamed referents, unranked branch selection, and reader-supplied causal or rhetorical direction rather than missing listed source material."
+    ]
+  }
+}

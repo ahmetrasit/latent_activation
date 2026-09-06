@@ -12,6 +12,31 @@ from unittest import mock
 from focus_trace_v2 import workflow as w
 
 
+def write_previous_job(job_dir, packet, source_files, *, model="gpt-5.6-luna", reasoning_effort="max",
+                       reader_id="reader_hft_v2_a", selection=None):
+    """Test-only fixture for already-frozen pre-restoration jobs, never a launcher."""
+    w.require(model in w.MODELS, "unsupported model profile")
+    w.require(reasoning_effort in w.REASONING_EFFORTS, "unsupported reasoning effort")
+    w.validate_packet(packet)
+    archive = w.WORKFLOW_ROOT / "runs/pilot-luna-clean/29_38"
+    job = w.read_json(archive / "job.json")
+    files = {"packet.json": w.json_bytes(w.reader_packet(packet)), "source.packet.json": w.json_bytes(packet),
+             "prompt.md": (archive / "prompt.md").read_bytes(),
+             "response.schema.json": (archive / "response.schema.json").read_bytes()}
+    job.update(protocol=w.PREVIOUS_JOB_PROTOCOL, response_protocol=w.PREVIOUS_RESPONSE_PROTOCOL,
+               focus_ref=packet["focus_ref"], reader_id=reader_id, source_files=source_files,
+               requested_profile={"model": model, "reasoning_effort": reasoning_effort},
+               source_packet_sha256=w.digest(files["source.packet.json"]),
+               input_identity={"packet_sha256": w.digest(files["packet.json"]),
+                               "prompt_sha256": w.digest(files["prompt.md"]),
+                               "schema_sha256": w.digest(files["response.schema.json"])})
+    files["job.json"] = w.json_bytes(job)
+    job_dir.mkdir(parents=True, exist_ok=False)
+    for name, data in files.items():
+        (job_dir / name).write_bytes(data)
+    return job
+
+
 def target(root_id, rank=1):
     return {"target_rank": rank, "frozen_root_norm": "fixture", "furuq_root_id": root_id,
             "furuq_root_norm": "fixture", "furuq_source_root_norm": "fixture",
@@ -86,7 +111,7 @@ class WorkflowTests(unittest.TestCase):
         self.root = Path(self.temp.name)
         self.job_dir = self.root / "runs" / "fixture" / "2_1"
         self.packet = fixture_packet()
-        self.job = w.write_job(self.job_dir, self.packet, [])
+        self.job = write_previous_job(self.job_dir, self.packet, [])
         self.reader_packet = w.read_json(self.job_dir / "packet.json")
         self.schema = w.read_json(self.job_dir / "response.schema.json")
         self.response = response_for(self.packet, self.job)
@@ -259,7 +284,7 @@ class WorkflowTests(unittest.TestCase):
 
     def test_no_overwrite_and_missing_response_does_not_pass(self):
         with self.assertRaises(FileExistsError):
-            w.write_job(self.job_dir, self.packet, [])
+            write_previous_job(self.job_dir, self.packet, [])
         self.assertIsNone(w.load_job(self.job_dir, require_response=False)[2])
         with self.assertRaises(FileNotFoundError):
             w.load_job(self.job_dir)
@@ -269,7 +294,7 @@ class WorkflowTests(unittest.TestCase):
 
     def test_model_profile_outside_frozen_reader_inputs(self):
         other_dir = self.root / "runs" / "sol" / "2_1"
-        other = w.write_job(other_dir, self.packet, [], model="gpt-5.6-sol")
+        other = write_previous_job(other_dir, self.packet, [], model="gpt-5.6-sol")
         self.assertEqual(other["input_identity"], self.job["input_identity"])
         for filename in ["packet.json", "prompt.md", "response.schema.json"]:
             self.assertEqual((self.job_dir / filename).read_bytes(), (other_dir / filename).read_bytes())
@@ -280,6 +305,26 @@ class WorkflowTests(unittest.TestCase):
     def test_template_changes_do_not_change_frozen_job(self):
         with mock.patch.object(w, "WORKFLOW_ROOT", self.root / "nonexistent-templates"):
             w.load_job(self.job_dir, require_response=False)
+
+    def test_comparison_profiles_keep_identical_reader_inputs(self):
+        profiles = [("gpt-5.6-luna", "max"), ("gpt-5.6-terra", "max"),
+                    ("gpt-5.6-sol", "max"), ("gpt-6-astra", "medium"), ("gpt-6-astra", "max")]
+        for model, effort in profiles:
+            with self.subTest(model=model, effort=effort):
+                job_dir = self.root / f"{model}-{effort}"
+                job = write_previous_job(job_dir, self.packet, [], model=model, reasoning_effort=effort)
+                self.assertEqual(job["requested_profile"], {"model": model, "reasoning_effort": effort})
+                self.assertNotIn("service_tier", job["requested_profile"])
+                self.assertEqual(job["input_identity"], self.job["input_identity"])
+                w.load_job(job_dir, require_response=False)
+
+    def test_invalid_profile_fails_before_creating_job(self):
+        for model, effort in [("unavailable", "max"), ("gpt-6-astra", "unsupported")]:
+            with self.subTest(model=model, effort=effort):
+                job_dir = self.root / "invalid-profile"
+                with self.assertRaises(ValueError):
+                    write_previous_job(job_dir, self.packet, [], model=model, reasoning_effort=effort)
+                self.assertFalse(job_dir.exists())
 
     def test_reader_has_no_audit_metadata_but_coordinator_keeps_it(self):
         banned = {"protocol", "source_path", "root_id", "text_norm_ar", "rootless_reason", "mapping_status",
@@ -492,7 +537,7 @@ class ResourceRegressions(unittest.TestCase):
         self.assertIn("ط ف ف", {g["qac_root"] for g in packet["source_gaps"]["roots_without_branches"]})
         with tempfile.TemporaryDirectory(prefix="hft-v2-83-1-") as temp:
             job_dir = Path(temp) / "83_1"
-            job = w.write_job(job_dir, packet, files)
+            job = write_previous_job(job_dir, packet, files)
             response = response_for(packet, job)
             schema = w.read_json(job_dir / "response.schema.json")
             w.validate_response(response, packet, job, schema)
@@ -510,7 +555,7 @@ class ResourceRegressions(unittest.TestCase):
         with tempfile.TemporaryDirectory(prefix="hft-v2-e2e-") as temp:
             root = Path(temp)
             job_dir = root / "runs" / "fixture" / "29_38"
-            job = w.write_job(job_dir, packet, files)
+            job = write_previous_job(job_dir, packet, files)
             response = response_for(packet, job)
             response["baseline_models"][0]["activation_trace"] = [{"source_ref": "29:38", "root": "س ب ل",
                 "source_word_indices": ["14"], "mapped_root_id": "root_000672", "branch_id": "B010",

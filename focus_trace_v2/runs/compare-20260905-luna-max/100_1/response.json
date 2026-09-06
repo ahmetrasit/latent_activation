@@ -1,0 +1,472 @@
+{
+  "focus_ref": "100:1",
+  "trace_kind": "reconstructed",
+  "baseline_models": [
+    {
+      "model_id": "baseline_running_breath",
+      "reading": "A compact scene of runners whose audible breath marks the running.",
+      "status": "supported",
+      "focus_anchor": {
+        "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+        "role": "The focus directly couples a feminine plural motion image with a breath-sound image."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:1",
+          "root": "ع د و",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_000993",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The supplied running-and-hastening image supplies the ordinary action."
+        },
+        {
+          "source_ref": "100:1",
+          "root": "ض ب ح",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_000901",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The supplied breath-sound scope makes the second word an audible consequence of running."
+        }
+      ],
+      "structural_cues": [],
+      "mechanism": "The adjacent focus forms join locomotion to its bodily sound, yielding a concrete running-and-panting baseline without requiring an identified agent.",
+      "changed_reading": null,
+      "reader_inference": "The motion and breath images are packet-supplied and their local relation needs no additional assumption. Whether the runners are animals, people, or an unspecified group remains live.",
+      "containment": "Keep this as a scene-level ordinary reading; do not supply a species, event, or historical referent absent from the focus."
+    }
+  ],
+  "context_deltas": [
+    {
+      "model_id": "delta_kinetic_sequence",
+      "reading": "The running-and-panting scene sharpens into a coordinated sequence of kindled fire, a dawn-raid image, raised dust, and entry into a gathered group.",
+      "status": "supported",
+      "focus_anchor": {
+        "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+        "role": "The focus supplies the moving, breathing starting point that the following action clauses intensify."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:2",
+          "root": "و ر ي",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_001642",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The hidden-fire-emerging image extends the focus's exertion into ignition."
+        },
+        {
+          "source_ref": "100:2",
+          "root": "ق د ح",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_001203",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The striking-and-kindling image supplies the immediate spark action."
+        },
+        {
+          "source_ref": "100:3",
+          "root": "ص ب ح",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_000839",
+          "branch_id": "B004",
+          "variant_id": "V001",
+          "role": "The supplied morning branch includes the dawn-raid image."
+        },
+        {
+          "source_ref": "100:4",
+          "root": "ث و ر",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_000210",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The bursting-and-spreading image makes dust visibly rise."
+        },
+        {
+          "source_ref": "100:4",
+          "root": "ن ق ع",
+          "source_word_indices": ["3"],
+          "mapped_root_id": "root_001544",
+          "branch_id": "B004",
+          "variant_id": "V001",
+          "role": "The supplied raised-dust image names the visible plume."
+        },
+        {
+          "source_ref": "100:5",
+          "root": "و س ط",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_001646",
+          "branch_id": "B003",
+          "variant_id": "V001",
+          "role": "The entering-or-setting-in-the-middle image gives the movement a destination."
+        },
+        {
+          "source_ref": "100:5",
+          "root": "ج م ع",
+          "source_word_indices": ["3"],
+          "mapped_root_id": "root_000259",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The assembled-group image supplies the gathered setting."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "100:1",
+          "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+          "role": "Focus endpoint: motion and breath establish the initial kinetic image."
+        },
+        {
+          "source_ref": "100:2",
+          "quote_ar": "فَٱلْمُورِيَٰتِ قَدْحًۭا",
+          "role": "The فـ-linked clause adds striking and fire immediately after the focus."
+        },
+        {
+          "source_ref": "100:3",
+          "quote_ar": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
+          "role": "A further فـ-linked clause places the action in a morning image."
+        },
+        {
+          "source_ref": "100:4",
+          "quote_ar": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
+          "role": "The next clause supplies the stirred-dust consequence."
+        },
+        {
+          "source_ref": "100:5",
+          "quote_ar": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+          "role": "The sequence culminates in entering a gathered setting."
+        }
+      ],
+      "mechanism": "Repeated فـ-linked action clauses and the supplied fire, dust, middle, and gathering images let the focus's run be read as one escalating operation rather than an isolated motion word.",
+      "changed_reading": {
+        "before": "The focus is a concrete running-and-panting scene with unspecified agents.",
+        "after": "Within the window it becomes the opening movement of a coordinated, fire-lit charge that raises dust and penetrates a gathered group."
+      },
+      "reader_inference": "The packet supplies the branch images and their window order; I infer a single coordinated sequence from their adjacency and the repeated فـ. The agents, literal causality, and raid nuance are not independently established by every root, so a generic kinetic reading remains live.",
+      "containment": "Treat this as contextual sharpening, not proof that the focus names horses, a battlefield, or a historical event; qualify it as an image-level reading."
+    },
+    {
+      "model_id": "delta_moral_pivot",
+      "reading": "The external exertion becomes a kinetic foil for an asserted human disposition: ingratitude toward the Lord, witnessed as such, alongside intense attachment to good or benefit.",
+      "status": "supported",
+      "focus_anchor": {
+        "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+        "role": "The focus supplies outward force and exertion for the later human assertion to reinterpret."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:6",
+          "root": "ك ن د",
+          "source_word_indices": ["4"],
+          "mapped_root_id": "root_001321",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The supplied ingratitude image gives the human assertion its moral direction."
+        },
+        {
+          "source_ref": "100:8",
+          "root": "ح ب ب",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_000286",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The clinging-love image supplies the attachment relation."
+        },
+        {
+          "source_ref": "100:8",
+          "root": "خ ي ر",
+          "source_word_indices": ["3"],
+          "mapped_root_id": "root_000452",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The general-good image supplies what the attachment is directed toward."
+        },
+        {
+          "source_ref": "100:8",
+          "root": "ش د د",
+          "source_word_indices": ["4"],
+          "mapped_root_id": "root_000782",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The intensity-of-strength image supplies the degree of that attachment."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "100:1",
+          "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+          "role": "Focus endpoint: visible exertion is the image being recast."
+        },
+        {
+          "source_ref": "100:6",
+          "quote_ar": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ",
+          "role": "The إِنَّ assertion marks the turn from external action to a human relational judgment."
+        },
+        {
+          "source_ref": "100:7",
+          "quote_ar": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ",
+          "role": "The following assertion frames the disposition as witnessed or manifest."
+        },
+        {
+          "source_ref": "100:8",
+          "quote_ar": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+          "role": "The final clause in this pivot specifies intense attachment to good."
+        }
+      ],
+      "mechanism": "The window moves from a visible, forceful sequence to إِنَّ-framed claims about الإنسان and his relations; that turn makes the focus's exertion available as a foil for moral intensity rather than only bodily motion.",
+      "changed_reading": {
+        "before": "The focus depicts runners and their breath as an external physical event.",
+        "after": "The focus's force becomes the kinetic foil for human ingratitude toward the Lord and intense attachment to good or benefit."
+      },
+      "reader_inference": "The moral and attachment images are packet-supplied. I infer a foil/recasting relation from the abrupt sequence and conjunctions; the text does not require that the focus agents be human or that the focus itself name ingratitude.",
+      "containment": "Keep this contextual relation coexisting with the ordinary physical reading; do not turn it into a claim about a specific person's motive or a fixed gloss for الخير."
+    },
+    {
+      "model_id": "delta_disclosure_accountability",
+      "reading": "The outer scene is placed under disclosure: buried contents and what is in the chests are brought out, and the Lord is knowledgeable about them.",
+      "status": "supported",
+      "focus_anchor": {
+        "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+        "role": "The focus supplies an outwardly visible action that the later disclosure sequence can place under scrutiny."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:9",
+          "root": "ب ع ث ر",
+          "source_word_indices": ["4"],
+          "mapped_root_id": "root_000130",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The upturning-and-uncovering image supplies disclosure of buried contents."
+        },
+        {
+          "source_ref": "100:9",
+          "root": "ق ب ر",
+          "source_word_indices": ["7"],
+          "mapped_root_id": "root_001195",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The hiddenness-and-inward-sinking image makes the buried material a concealed interior."
+        },
+        {
+          "source_ref": "100:10",
+          "root": "ح ص ل",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_000330",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The extracting-inner-value image extends uncovering to what is contained within."
+        },
+        {
+          "source_ref": "100:10",
+          "root": "ص د ر",
+          "source_word_indices": ["4"],
+          "mapped_root_id": "root_000849",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The anatomical chest image supplies the bodily interior whose contents are exposed."
+        },
+        {
+          "source_ref": "100:11",
+          "root": "خ ب ر",
+          "source_word_indices": ["5"],
+          "mapped_root_id": "root_000387",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The inner-tested-knowledge image supplies detailed knowledge of those concerned."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "100:1",
+          "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+          "role": "Focus endpoint: visible exertion precedes the disclosure turn."
+        },
+        {
+          "source_ref": "100:9",
+          "quote_ar": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+          "role": "The question and conditional disclosure turn attention to what is concealed in graves."
+        },
+        {
+          "source_ref": "100:10",
+          "quote_ar": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+          "role": "The next clause parallels grave disclosure with extraction from chests."
+        },
+        {
+          "source_ref": "100:11",
+          "quote_ar": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ",
+          "role": "The closing assertion supplies the Lord's knowledge as the endpoint."
+        }
+      ],
+      "mechanism": "The sequence moves from active surface events to passive uncovering and finally to explicit knowledge; this outer-to-inner reversal lets the focus function as the opening edge of a disclosure frame.",
+      "changed_reading": {
+        "before": "The focus is an outward scene of running and audible breath.",
+        "after": "The focus is the visible opening of a window in which concealed contents, including inner contents, are exposed to the Lord's knowledge."
+      },
+      "reader_inference": "The packet supplies buriedness, uncovering, chest, and inner-knowledge images and their ordered texts. I infer an outer-to-inner accountability relation; the packet does not prove that the focus action causes the later disclosure or identify its agents.",
+      "containment": "Use this as a contextual disclosure reading, not as a claim that the focus explicitly states judgment, resurrection, or a particular scene; retain the literal kinetic baseline."
+    }
+  ],
+  "surprising_valid_outliers": [
+    {
+      "model_id": "outlier_ethical_overstepping",
+      "reading": "Exploratory ethical-raid image: the focus's runners can be oversteppers or raiders whose panting belongs to transgression, not merely locomotion.",
+      "status": "exploratory",
+      "focus_anchor": {
+        "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+        "role": "The focus anchor is returned to by selecting an ethical branch for العاديات while retaining the breath image."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:1",
+          "root": "ع د و",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_000993",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The supplied overstepping-into-injustice image permits an ethical sense of the moving agents."
+        },
+        {
+          "source_ref": "100:1",
+          "root": "ض ب ح",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_000901",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The supplied breath-sound image keeps the transgression embodied and effortful."
+        },
+        {
+          "source_ref": "100:3",
+          "root": "ص ب ح",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_000839",
+          "branch_id": "B004",
+          "variant_id": "V001",
+          "role": "The supplied morning branch includes a raid image that can activate the ethical branch."
+        },
+        {
+          "source_ref": "100:6",
+          "root": "ك ن د",
+          "source_word_indices": ["4"],
+          "mapped_root_id": "root_001321",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The later supplied ingratitude image keeps an ethical reading live."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "100:1",
+          "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+          "role": "Focus endpoint: the exact moving-and-breathing phrase is the site of the branch shift."
+        },
+        {
+          "source_ref": "100:3",
+          "quote_ar": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
+          "role": "The immediate sequence contains a dawn-raid image in the supplied morning scope."
+        },
+        {
+          "source_ref": "100:6",
+          "quote_ar": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ",
+          "role": "The later moral assertion supplies a second end of the ethical activation."
+        }
+      ],
+      "mechanism": "Choosing the transgression branch for ع د و, then linking the supplied dawn-raid and ingratitude images, turns the focus's exertion into bodily evidence of overstepping.",
+      "changed_reading": {
+        "before": "The focus most directly depicts running with audible breath.",
+        "after": "The same phrase can evoke morally overstepping raiders whose physical effort is part of an ethically charged scene."
+      },
+      "reader_inference": "The overstepping, raid, breath, and ingratitude elements are packet-supplied; I infer their ethical linkage by selecting a non-default branch and following the window. The ordinary running branch remains live, and the text does not state that the action is unjust.",
+      "containment": "This is surprising because a concrete motion noun is carried into an ethical domain. Mark it exploratory and say 'can evoke' rather than asserting sinful agents, a raid, or a moral cause."
+    },
+    {
+      "model_id": "outlier_material_scorching",
+      "reading": "Exploratory material-fire image: ضَبْحًۭا can evoke scorching or blackening, with the focus's movement immediately answered by fire-kindling.",
+      "status": "exploratory",
+      "focus_anchor": {
+        "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+        "role": "The focus anchor is retained while the second word takes its supplied fire-touched branch."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "100:1",
+          "root": "ع د و",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_000993",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The supplied movement image keeps the material reading dynamic."
+        },
+        {
+          "source_ref": "100:1",
+          "root": "ض ب ح",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_000901",
+          "branch_id": "B003",
+          "variant_id": "V001",
+          "role": "The supplied scorching-of-wood image shifts ضبحا from breath sound to fire-marked material."
+        },
+        {
+          "source_ref": "100:1",
+          "root": "ض ب ح",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_000901",
+          "branch_id": "B004",
+          "variant_id": "V001",
+          "role": "The supplied blackening image supplies the visible result of heat."
+        },
+        {
+          "source_ref": "100:2",
+          "root": "و ر ي",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_001642",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The supplied hidden-fire-emerging image provides the adjacent fire bridge."
+        },
+        {
+          "source_ref": "100:2",
+          "root": "ق د ح",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_001203",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The supplied striking-to-kindling image reinforces the material heat reading."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "100:1",
+          "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+          "role": "Focus endpoint: the second word is the site of the cross-domain activation."
+        },
+        {
+          "source_ref": "100:2",
+          "quote_ar": "فَٱلْمُورِيَٰتِ قَدْحًۭا",
+          "role": "The immediately following fire-and-striking clause supplies the contextual trigger."
+        }
+      ],
+      "mechanism": "The focus's supplied scorching and blackening variants form an image-level bridge to the next ayah's hidden-fire and kindling branches, allowing motion plus heat to coexist as a material scene.",
+      "changed_reading": {
+        "before": "The focus is ordinarily read as running accompanied by breath sound.",
+        "after": "The focus can instead evoke moving, fire-touched material that is scorched or blackened as kindling follows."
+      },
+      "reader_inference": "Scorching, blackening, hidden fire, and kindling are packet-supplied; I infer their cross-domain activation from the adjacent sequence. The ordinary breath branch remains live, and no text says that the focus agents are objects or that the second ayah literally modifies the first.",
+      "containment": "This is a branch-distant exploratory outlier, surprising because the dominant focus image is bodily sound. Qualify it as an evocative possibility, not a selected literal referent."
+    }
+  ],
+  "summary": {
+    "ordinary_reading": "The ordinary focus is a compact scene of runners whose audible breath marks their running, with no supplied identity for the runners.",
+    "coexisting_readings": [
+      "The following clauses sharpen that scene into a coordinated kinetic sequence of kindling, dawn-raid imagery, raised dust, and entry into a gathered group.",
+      "The later assertions can make the outer exertion a foil for human ingratitude and intense attachment to good, then move from visible action to disclosure of buried and inner contents under divine knowledge.",
+      "The ethical overstepping/raid and material scorching/blackening readings remain live exploratory alternatives because their branch images are anchored in the focus and activated by nearby context."
+    ],
+    "unresolved_limits": [
+      "All mapped variants are unranked; the packet does not identify the agents, historical setting, or an explicit causal relation across the clauses.",
+      "No source gaps are recorded, but the غ ي ر mapping itself supplies no raid branch here; the dawn-raid nuance is carried by the ص ب ح branch and sequence and must not be promoted to certainty.",
+      "The focus-to-context relations are reconstructed inferences from adjacency, branch images, and sequence, not claims imported from outside evidence."
+    ]
+  }
+}

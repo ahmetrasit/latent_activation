@@ -20,16 +20,23 @@ sources = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(sources)
 
 PACKET_PROTOCOL = "hft-v2-packet-v1"
-RESPONSE_PROTOCOL = "hft-v2-response-v2"
-JOB_PROTOCOL = "hft-v2-job-v2"
+RESPONSE_PROTOCOL = "focus-trace-hermetic-response-v4"
+JOB_PROTOCOL = "hft-v2-job-v3"
+PREVIOUS_RESPONSE_PROTOCOL = "hft-v2-response-v2"
+PREVIOUS_JOB_PROTOCOL = "hft-v2-job-v2"
 LEGACY_JOB_PROTOCOL = "hft-v2-job-v1"
+V1_PACKET_PROTOCOL = "focus-trace-pericope-lean-v1"
+V1_PROMPT = REPO_ROOT / "focus_trace/prompts/focus_trace_hermetic.md"
+V1_SCHEMA = REPO_ROOT / "focus_trace/schemas/focus-trace-response.schema.json"
 EVIDENCE_PROTOCOL = "hft-v2-evidence-v1"
-MODELS = ("gpt-5.6-luna", "gpt-5.6-sol", "gpt-6-astra")
+MODELS = ("gpt-5.6-luna", "gpt-5.6-terra", "gpt-5.6-sol", "gpt-6-astra")
+REASONING_EFFORTS = ("medium", "max")
 SECTIONS = ("baseline_models", "context_deltas", "surprising_valid_outliers")
 VARIANT_FIELDS = ("root_id", "source_path", "image_ar", "image_en", "scope_ar", "scope_en")
 LINGUISTIC_VARIANT_FIELDS = ("image_ar", "image_en", "scope_ar", "scope_en")
 SCHEMA_KEYWORDS = {"$schema", "$id", "$defs", "$ref", "title", "description", "type", "const", "enum",
-                   "properties", "required", "additionalProperties", "items", "minItems", "uniqueItems", "minLength", "pattern"}
+                   "properties", "required", "additionalProperties", "items", "minItems", "uniqueItems", "minLength", "pattern",
+                   "allOf", "if", "then", "not"}
 
 
 def require(condition: bool, message: str) -> None:
@@ -259,7 +266,89 @@ def reader_packet(source_packet: dict) -> dict:
             "orientation": reader_orientation(source_packet["orientation"])}
 
 
+def v1_reader_packet(source_packet: dict) -> dict:
+    """Restore v1's focus-first/root-cue layout without its lossy lean projection.
+
+    Source images/scopes remain paired, including every English gloss and split
+    target. Source paths, mapping ranks, and coverage bookkeeping stay outside.
+    """
+    clean = reader_packet(source_packet)
+    ayat = {ayah["ref"]: ayah for ayah in clean["ayat"]}
+    for original in source_packet["ayat"]:
+        if not original["root_occurrences"]:
+            # These are v1's QAC-gap markers, not a claim of morphological
+            # rootlessness. Keep the source's explicit qualification.
+            ayat[original["ref"]].update(rootless=True, rootless_reason=original["rootless_reason"])
+    focus = ayat[clean["focus_ref"]]
+    context = [ayah for ayah in clean["ayat"] if ayah["ref"] != clean["focus_ref"]]
+    mappings = {mapping["qac_root"]: mapping for mapping in clean["root_mappings"]}
+    source_mappings = {mapping["qac_root"]: mapping for mapping in source_packet["root_mappings"]}
+    inventory = {inv["mapped_root_id"]: inv["branches"] for inv in clean["branch_inventory"]}
+
+    def root_inventory(root: str) -> dict:
+        targets = []
+        for target, original in zip(mappings[root]["targets"], source_mappings[root]["targets"]):
+            item = {"mapped_root_id": target["furuq_root_id"],
+                    "mapped_root_norm": original.get("furuq_root_norm") or root, "branches": []}
+            if target.get("root_forms_ar"):
+                item["root_forms_ar"] = copy.deepcopy(target["root_forms_ar"])
+            for branch in inventory.get(target["furuq_root_id"], []):
+                variants = [{"branch_image_ar": variant["image_ar"], "branch_image_en": variant["image_en"],
+                             "scope_ar": variant["scope_ar"], "scope_en": variant["scope_en"]}
+                            for variant in branch["variants"]]
+                entry = {"branch_id": branch["branch_id"]}
+                if len(variants) == 1:
+                    entry.update(variants[0])
+                else:
+                    # The v1 prompt permits a shared branch ID with distinct
+                    # variants. Never manufacture one merged scope or gloss.
+                    entry.update(branch_image_ar=variants[0]["branch_image_ar"], variants=variants)
+                item["branches"].append(entry)
+            targets.append(item)
+        return {"root": root, "targets": targets}
+
+    focus_inventories = []
+    for occurrence in focus["root_occurrences"]:
+        item = root_inventory(occurrence["root"])
+        item["source_phrases"] = [{"source_phrase_ar": " ".join(occurrence["surfaces_ar"])}]
+        focus_inventories.append(item)
+    focus_roots = set(focus["root_sequence"])
+    context_roots = dict.fromkeys(root for ayah in context for root in ayah["root_sequence"] if root not in focus_roots)
+    orientation = clean["orientation"]
+    remote = {"citable": False, "refs": orientation.get("remote_refs", []),
+              "root_cues": orientation.get("root_cues", []),
+              "out_of_window_ayat": orientation["out_of_window_ayat"]}
+    return {"protocol": V1_PACKET_PROTOCOL, "focus_ref": clean["focus_ref"], "window": clean["window"],
+            "focus_ayah": focus, "context_ayat": context,
+            "context_order": [ayah["ref"] for ayah in context],
+            "focus_branch_inventories": focus_inventories,
+            "context_root_cues": [root_inventory(root) for root in context_roots],
+            "remote_orientation": remote, "source_gaps": clean["source_gaps"]}
+
+
+def reader_filenames(job: dict) -> tuple[str, str]:
+    """Use the paths named by the frozen prompt; never rewrite old job inputs."""
+    if job["protocol"] == JOB_PROTOCOL:
+        return "focus_trace_packet.json", "focus_trace/schemas/focus-trace-response.schema.json"
+    return "packet.json", "response.schema.json"
+
+
 def packet_index(packet: dict) -> tuple[dict, dict, dict]:
+    if packet.get("protocol") == V1_PACKET_PROTOCOL:
+        ayat = {ayah["ref"]: ayah for ayah in [packet["focus_ayah"], *packet["context_ayat"]]}
+        mappings, variants = {}, {}
+        for item in [*packet["focus_branch_inventories"], *packet["context_root_cues"]]:
+            mappings[item["root"]] = {"qac_root": item["root"], "targets": [
+                {"furuq_root_id": target["mapped_root_id"]} for target in item["targets"]]}
+            for target in item["targets"]:
+                for branch in target["branches"]:
+                    for i, row in enumerate(branch.get("variants", [branch]), 1):
+                        key = (target["mapped_root_id"], branch["branch_id"], f"V{i:03d}")
+                        value = {"variant_id": key[2], "image_ar": row["branch_image_ar"],
+                                 "image_en": row["branch_image_en"], "scope_ar": row["scope_ar"], "scope_en": row["scope_en"]}
+                        require(key not in variants or variants[key] == value, "inconsistent shared branch variants")
+                        variants[key] = value
+        return ayat, mappings, variants
     ayat = {ayah["ref"]: ayah for ayah in packet["ayat"]}
     mappings = {mapping["qac_root"]: mapping for mapping in packet["root_mappings"]}
     variants = {(inv["mapped_root_id"], branch["branch_id"], variant["variant_id"]): variant
@@ -344,6 +433,11 @@ def check_schema_keywords(schema: dict) -> None:
             check_schema_keywords(child)
     if "items" in schema:
         check_schema_keywords(schema["items"])
+    for keyword in ("if", "then", "not"):
+        if keyword in schema:
+            check_schema_keywords(schema[keyword])
+    for child in schema.get("allOf", []):
+        check_schema_keywords(child)
 
 
 def validate_shape(value: Any, schema: dict, root: dict | None = None, path: str = "response") -> None:
@@ -359,6 +453,23 @@ def validate_shape(value: Any, schema: dict, root: dict | None = None, path: str
         require(set(schema) == {"$ref"} and schema["$ref"].startswith("#/$defs/"), f"{path}: unsupported schema ref")
         validate_shape(value, root["$defs"][schema["$ref"].split("/")[-1]], root, path)
         return
+    for child in schema.get("allOf", []):
+        validate_shape(value, child, root, path)
+    if "not" in schema:
+        try:
+            validate_shape(value, schema["not"], root, path)
+        except ValueError:
+            pass
+        else:
+            raise ValueError(f"{path}: forbidden schema condition")
+    if "if" in schema:
+        try:
+            validate_shape(value, schema["if"], root, path)
+        except ValueError:
+            pass
+        else:
+            if "then" in schema:
+                validate_shape(value, schema["then"], root, path)
     if "type" in schema:
         types = schema["type"] if isinstance(schema["type"], list) else [schema["type"]]
         checks = {"object": isinstance(value, dict), "array": isinstance(value, list),
@@ -400,6 +511,15 @@ def resolve_branch(citation: dict, index: tuple[dict, dict, dict]) -> dict:
     target = next((t for t in mappings.get(root, {}).get("targets", [])
                    if t["furuq_root_id"] == citation["mapped_root_id"]), None)
     require(target is not None, f"mapped root is not a target of {root}")
+    if "variant_id" not in citation:
+        matches = [variant for key, variant in variants.items()
+                   if key[:2] == (citation["mapped_root_id"], citation["branch_id"])]
+        require(matches, f"unknown branch: {citation['mapped_root_id']}/{citation['branch_id']}")
+        # A v1 citation identifies the branch, not a machine-selected variant.
+        # Preserve ALL candidate rows and the reader's role; never guess V001.
+        return {"citation": copy.deepcopy(citation), "source_ayah_ar": ayat[ref]["text_ar"],
+                "source_occurrence": copy.deepcopy(occurrence), "mapping_target": copy.deepcopy(target),
+                "variants": copy.deepcopy(matches)}
     key = (citation["mapped_root_id"], citation["branch_id"], citation["variant_id"])
     require(key in variants, f"unknown branch variant: {key}")
     return {"citation": copy.deepcopy(citation), "source_ayah_ar": ayat[ref]["text_ar"],
@@ -410,6 +530,9 @@ def resolve_branch(citation: dict, index: tuple[dict, dict, dict]) -> dict:
 def validate_response(response: dict, packet: dict, job: dict, schema: dict) -> None:
     validate_shape(response, schema)
     require(response["focus_ref"] == packet["focus_ref"], "response focus mismatch")
+    if job["protocol"] == JOB_PROTOCOL:
+        validate_v1_response(response, packet, job)
+        return
     if job["protocol"] == LEGACY_JOB_PROTOCOL:
         require(response["reader_id"] == job["reader_id"], "response reader mismatch")
         require(response["input_identity"] == job["input_identity"], "response is not bound to these frozen inputs")
@@ -444,23 +567,78 @@ def validate_response(response: dict, packet: dict, job: dict, schema: dict) -> 
                 require(finding["status"] == "exploratory", "outliers must remain exploratory")
 
 
-def write_job(job_dir: Path, packet: dict, source_files: list, *, model: str = MODELS[0],
-              reader_id: str = "reader_hft_v2_a", selection: dict | None = None) -> dict:
+def validate_v1_response(response: dict, packet: dict, job: dict) -> None:
+    """V1's response semantics, without v2's extra finding/quotation requirements."""
+    require(response["protocol"] == RESPONSE_PROTOCOL, "response protocol mismatch")
+    require(response["reader_id"] == job["reader_id"], "response reader mismatch")
+    index = packet_index(packet)
+    focus = packet["focus_ref"]
+    rootless = not index[0][focus]["root_occurrences"]
+    require("rootless_focus" not in response or response["rootless_focus"] is True,
+            "rootless_focus must be true when present")
+    require((response.get("rootless_focus") is True) == rootless, "rootless_focus must match QAC annotation gap")
+    model_ids, outlier_ids = set(), set()
+    for section in SECTIONS:
+        for finding in response[section]:
+            is_outlier = section == "surprising_valid_outliers"
+            identifier = finding["outlier_id" if is_outlier else "model_id"]
+            seen = outlier_ids if is_outlier else model_ids
+            require(identifier not in seen, "duplicate finding ID")
+            seen.add(identifier)
+            context_refs, context_roots = set(), set()
+            for citation in finding["activation_trace"]:
+                resolve_branch(citation, index)
+                ref = citation["source_ref"]
+                if section == "baseline_models":
+                    require(ref == focus, "baseline cites context")
+                if ref != focus:
+                    context_refs.add(ref)
+                    context_roots.add(citation["root"])
+            if section == "context_deltas":
+                require(context_refs, "v1 context delta needs a branch-backed context citation")
+                require(set(finding["trigger_roots"]) == context_roots, "trigger_roots do not match context citations")
+                if "trigger_refs" in finding:
+                    require(set(finding["trigger_refs"]) == context_refs, "trigger_refs do not match context citations")
+
+
+def profile_prompt(prompt: bytes, model: str, reasoning_effort: str) -> bytes:
+    """Change only the coordinator's explicit profile block, never discovery text."""
+    require(model in MODELS, "unsupported model profile")
+    require(reasoning_effort in REASONING_EFFORTS, "unsupported reasoning effort")
+    original = b"model: gpt-5.6-sol\nreasoning_effort: max\n"
+    require(prompt.count(original) == 1, "original v1 profile block is missing or ambiguous")
+    requested = f"model: {model}\nreasoning_effort: {reasoning_effort}\n".encode("utf-8")
+    return prompt.replace(original, requested, 1)
+
+
+def write_job(job_dir: Path, packet: dict, source_files: list, *, model: str = "gpt-5.6-sol",
+              reasoning_effort: str = "max", reader_id: str = "reader_hft_a",
+              selection: dict | None = None) -> dict:
     """Freeze a NEW job. Refuse every overwrite, including partial prior preparation."""
     require(model in MODELS, "unsupported model profile")
+    require(reasoning_effort in REASONING_EFFORTS, "unsupported reasoning effort")
     require(re.fullmatch(r"[A-Za-z0-9_-]+", reader_id) is not None, "unsafe reader ID")
     validate_packet(packet)
     prompt = (WORKFLOW_ROOT / "prompts/discovery.md").read_bytes()
     schema = (WORKFLOW_ROOT / "schemas/response.schema.json").read_bytes()
-    frozen = {"packet.json": json_bytes(reader_packet(packet)), "source.packet.json": json_bytes(packet),
-              "prompt.md": prompt, "response.schema.json": schema}
-    identity = {"packet_sha256": digest(frozen["packet.json"]), "prompt_sha256": digest(prompt), "schema_sha256": digest(schema)}
+    require(prompt == V1_PROMPT.read_bytes(), "v1 discovery prompt must remain unchanged")
+    require(schema == V1_SCHEMA.read_bytes(), "v1 response schema must remain unchanged")
+    prompt = profile_prompt(prompt, model, reasoning_effort)
+    projected = v1_reader_packet(packet)
+    focus = projected["focus_ayah"]
+    require(not focus["root_occurrences"] or any(target["branches"] for item in projected["focus_branch_inventories"]
+            for target in item["targets"]),
+            "v1 requires a branch-backed baseline, but the rooted focus has no branch inventory; do not invent a branch or label it rootless")
+    packet_name, schema_name = reader_filenames({"protocol": JOB_PROTOCOL})
+    frozen = {packet_name: json_bytes(projected), "source.packet.json": json_bytes(packet),
+              "prompt.md": prompt, schema_name: schema}
+    identity = {"packet_sha256": digest(frozen[packet_name]), "prompt_sha256": digest(prompt), "schema_sha256": digest(schema)}
     job = {
         "protocol": JOB_PROTOCOL,
         "response_protocol": RESPONSE_PROTOCOL,
         "focus_ref": packet["focus_ref"],
         "reader_id": reader_id,
-        "requested_profile": {"model": model, "reasoning_effort": "max"},
+        "requested_profile": {"model": model, "reasoning_effort": reasoning_effort},
         "execution_verified": False,
         "input_identity": identity,
         "source_packet_sha256": digest(frozen["source.packet.json"]),
@@ -471,18 +649,21 @@ def write_job(job_dir: Path, packet: dict, source_files: list, *, model: str = M
     frozen["job.json"] = json_bytes(job)
     job_dir.mkdir(parents=True, exist_ok=False)
     for name, data in frozen.items():
-        with (job_dir / name).open("xb") as handle:
+        path = job_dir / name
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("xb") as handle:
             handle.write(data)
     return job
 
 
 def load_job(job_dir: Path, *, require_response: bool = True) -> tuple[dict, dict, dict | None]:
     job = read_json(job_dir / "job.json")
-    require(job["protocol"] in {JOB_PROTOCOL, LEGACY_JOB_PROTOCOL}, "not an HFT v2 job")
+    require(job["protocol"] in {JOB_PROTOCOL, PREVIOUS_JOB_PROTOCOL, LEGACY_JOB_PROTOCOL}, "not an HFT v2 job")
     require(set(job["input_identity"]) == {"packet_sha256", "prompt_sha256", "schema_sha256"}, "incomplete input identity")
-    for filename, key in (("packet.json", "packet_sha256"), ("prompt.md", "prompt_sha256"), ("response.schema.json", "schema_sha256")):
+    packet_name, schema_name = reader_filenames(job)
+    for filename, key in ((packet_name, "packet_sha256"), ("prompt.md", "prompt_sha256"), (schema_name, "schema_sha256")):
         require(digest((job_dir / filename).read_bytes()) == job["input_identity"][key], f"frozen input changed: {filename}")
-    packet = read_json(job_dir / "packet.json")
+    packet = read_json(job_dir / packet_name)
     if job["protocol"] == LEGACY_JOB_PROTOCOL:
         assignment = read_json(job_dir / "assignment.json")
         require(assignment == {"focus_ref": job["focus_ref"], "reader_id": job["reader_id"],
@@ -493,14 +674,23 @@ def load_job(job_dir: Path, *, require_response: bool = True) -> tuple[dict, dic
         require(digest(source_path.read_bytes()) == job["source_packet_sha256"], "frozen input changed: source.packet.json")
         source_packet = read_json(source_path)
         validate_packet(source_packet)
-        require(packet == reader_packet(source_packet), "reader packet differs from complete source projection")
-        require(job["response_protocol"] == RESPONSE_PROTOCOL, "unexpected coordinator response protocol")
+        projection = v1_reader_packet if job["protocol"] == JOB_PROTOCOL else reader_packet
+        require(packet == projection(source_packet), "reader packet differs from complete source projection")
+        expected_protocol = RESPONSE_PROTOCOL if job["protocol"] == JOB_PROTOCOL else PREVIOUS_RESPONSE_PROTOCOL
+        require(job["response_protocol"] == expected_protocol, "unexpected coordinator response protocol")
+        if job["protocol"] == JOB_PROTOCOL:
+            profile = job["requested_profile"]
+            require(profile["model"] in MODELS and profile["reasoning_effort"] in REASONING_EFFORTS,
+                    "unsupported frozen profile")
+            block = f"model: {profile['model']}\nreasoning_effort: {profile['reasoning_effort']}\n".encode("utf-8")
+            require((job_dir / "prompt.md").read_bytes().count(block) == 1,
+                    "frozen prompt profile does not match requested runtime profile")
     require(job["focus_ref"] == packet["focus_ref"], "job focus mismatch")
     response = None
     response_path = job_dir / "response.json"
     if require_response or response_path.exists():
         response = read_json(response_path)
-        validate_response(response, packet, job, read_json(job_dir / "response.schema.json"))
+        validate_response(response, packet, job, read_json(job_dir / schema_name))
     return job, packet, response
 
 
@@ -511,10 +701,11 @@ def evidence_payload(job: dict, packet: dict, response: dict) -> dict:
     for section in SECTIONS:
         for finding in response[section]:
             resolved.append({
-                "section": section, "model_id": finding["model_id"],
+                "section": section, "model_id": finding.get("model_id", finding.get("outlier_id")),
                 "focus_ayah_ar": index[0][packet["focus_ref"]]["text_ar"],
                 "branches": [resolve_branch(citation, index) for citation in finding["activation_trace"]],
-                "structural_cues": [{"citation": copy.deepcopy(citation),
+                "structural_cues": copy.deepcopy(finding.get("structural_cues", [])) if job["protocol"] == JOB_PROTOCOL else [
+                                    {"citation": copy.deepcopy(citation),
                                      "source_ayah_ar": index[0][citation["source_ref"]]["text_ar"]}
                                     for citation in finding["structural_cues"]],
             })
@@ -535,9 +726,9 @@ def export_job(job_dir: Path) -> Path:
     output = job_dir / "evidence.json"
     # Resolve provenance from the verified coordinator snapshot, never ask the
     # reader to repeat it. Preserve old export behavior for already-frozen jobs.
-    source_packet = read_json(job_dir / "source.packet.json") if job["protocol"] == JOB_PROTOCOL else packet
+    source_packet = read_json(job_dir / "source.packet.json") if job["protocol"] != LEGACY_JOB_PROTOCOL else packet
     evidence = evidence_payload(job, source_packet, response)
-    if job["protocol"] == JOB_PROTOCOL:
+    if job["protocol"] != LEGACY_JOB_PROTOCOL:
         evidence.update(reader_id=job["reader_id"], response_protocol=job["response_protocol"],
                         source_packet_sha256=job["source_packet_sha256"], binding="coordinator_job_directory")
     data = json_bytes(evidence)
@@ -554,12 +745,13 @@ def main() -> None:
     commands = parser.add_subparsers(dest="command", required=True)
     prepare = commands.add_parser("prepare", help="prepare inputs only; never launch a model")
     prepare.add_argument("--ayah", required=True)
-    prepare.add_argument("--run", required=True, help="new run name, e.g. pilot-luna")
+    prepare.add_argument("--run", required=True, help="new run name, e.g. v1-compatible-sol")
     scope = prepare.add_mutually_exclusive_group()
     scope.add_argument("--window", help="e.g. 29:1-69 or 29:35,29:36,29:37,29:38")
     scope.add_argument("--window-from", type=Path, help="reuse only an old packet's window and non-citable remote orientation")
-    prepare.add_argument("--model", choices=MODELS, default=MODELS[0])
-    prepare.add_argument("--reader-id", default="reader_hft_v2_a")
+    prepare.add_argument("--model", choices=MODELS, default="gpt-5.6-sol")
+    prepare.add_argument("--reasoning-effort", choices=REASONING_EFFORTS, default="max")
+    prepare.add_argument("--reader-id", default="reader_hft_a")
     validate = commands.add_parser("validate", help="validate frozen inputs AND response")
     validate.add_argument("job_dir", type=Path)
     validate.add_argument("--inputs-only", action="store_true", help="allow no response; still check it if one exists")
@@ -588,10 +780,11 @@ def main() -> None:
                 require(old_path.read_bytes() == old_data, "window source changed during preparation")
                 selection = {"mode": "legacy_window_only", "path": str(old_path.resolve()), "sha256": digest(old_data)}
             packet, source_files = build_packet(focus, window, remote_orientation=remote)
-            job = write_job(job_dir, packet, source_files, model=args.model, reader_id=args.reader_id, selection=selection)
+            job = write_job(job_dir, packet, source_files, model=args.model,
+                            reasoning_effort=args.reasoning_effort, reader_id=args.reader_id, selection=selection)
             load_job(job_dir, require_response=False)
             print(json.dumps({"prepared": str(job_dir), "profile": job["requested_profile"],
-                              "packet_bytes": (job_dir / "packet.json").stat().st_size,
+                              "packet_bytes": (job_dir / reader_filenames(job)[0]).stat().st_size,
                               "source_gaps": packet["source_gaps"]}, ensure_ascii=False))
         elif args.command == "validate":
             _, packet, response = load_job(args.job_dir, require_response=not args.inputs_only)

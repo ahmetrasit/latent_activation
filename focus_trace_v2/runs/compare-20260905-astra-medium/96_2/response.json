@@ -1,0 +1,207 @@
+{
+  "focus_ref": "96:2",
+  "trace_kind": "reconstructed",
+  "baseline_models": [
+    {
+      "model_id": "B1",
+      "reading": "He created the human from ʿalaq: bodily originating from clotted or adhering generative material.",
+      "status": "supported",
+      "focus_anchor": {"quote_ar": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ", "role": "The verb makes the human its object and min introduces the material or originating condition."},
+      "activation_trace": [
+        {"source_ref": "96:2", "root": "خ ل ق", "source_word_indices": ["1"], "mapped_root_id": "root_000434", "branch_id": "B002", "variant_id": "V001", "role": "Originating a thing, including bringing one thing into being from another, fits the verb and min construction."},
+        {"source_ref": "96:2", "root": "ء ن س", "source_word_indices": ["2"], "mapped_root_id": "root_000059", "branch_id": "B001", "variant_id": "V001", "role": "The human-person or human-group scope supports generic humanity."},
+        {"source_ref": "96:2", "root": "ع ل ق", "source_word_indices": ["4"], "mapped_root_id": "root_001039", "branch_id": "B003", "variant_id": "V001", "role": "Thick or congealed blood and its piece provide the ordinary material sense; the paired leech scope supplies an attachment image, not a separate assertion of animal ancestry."},
+        {"source_ref": "96:2", "root": "ع ل ق", "source_word_indices": ["4"], "mapped_root_id": "root_001039", "branch_id": "B009", "variant_id": "V001", "role": "Conception taking hold supports a generative setting for the material image."}
+      ],
+      "structural_cues": [],
+      "mechanism": "A formed human is traced back through min to a materially different beginning. The supplied blood and conception scopes converge on bodily generation.",
+      "changed_reading": null,
+      "reader_inference": "The text supplies creation, humanity, and origin from ʿalaq; the inventory supplies the blood, leech, and conception scopes. Identifying this as a generative beginning connects those elements. The isolated focus leaves the implicit subject unnamed; it does not specify an anatomical stage or distinguish collective material from plural units.",
+      "containment": "Keep the ordinary creation reading primary. Do not turn the inventory's leech example into a literal claim or use the verse to assert modern embryological precision."
+    },
+    {
+      "model_id": "B2",
+      "reading": "The human's beginning carries an image of attachment: existence emerges from something that takes hold of or depends on another.",
+      "status": "exploratory",
+      "focus_anchor": {"quote_ar": "مِنْ عَلَقٍ", "role": "The source phrase can retain the attaching image within its ordinary generative sense."},
+      "activation_trace": [
+        {"source_ref": "96:2", "root": "ع ل ق", "source_word_indices": ["4"], "mapped_root_id": "root_001039", "branch_id": "B001", "variant_id": "V001", "role": "Clinging or hanging on another provides the relational image."},
+        {"source_ref": "96:2", "root": "ع ل ق", "source_word_indices": ["4"], "mapped_root_id": "root_001039", "branch_id": "B009", "variant_id": "V001", "role": "Conception taking hold connects physical attachment to the creation construction."}
+      ],
+      "structural_cues": [],
+      "mechanism": "The ordinary material origin also has a relational contour: what begins by taking hold is not pictured as independently established.",
+      "changed_reading": null,
+      "reader_inference": "Attachment and conception are supplied scopes; interpreting attachment as dependence is my abstraction. A purely material reading remains sufficient, and the focus alone does not make an explicit moral argument.",
+      "containment": "Describe a possible image of dependence, not a replacement translation of ʿalaq as relationships or a claim that every inventory sense operates here."
+    }
+  ],
+  "context_deltas": [
+    {
+      "model_id": "D1",
+      "reading": "Human generation specifies the creative work of the addressed person's Lord, making this origin personally relevant to the command to read.",
+      "status": "supported",
+      "focus_anchor": {"quote_ar": "خَلَقَ ٱلْإِنسَٰنَ", "role": "The repeated creation verb supplies a particular object for the preceding creative description."},
+      "activation_trace": [
+        {"source_ref": "96:1", "root": "ر ب ب", "source_word_indices": ["3"], "mapped_root_id": "root_000532", "branch_id": "B001", "variant_id": "V001", "role": "Lordship identifies the authority to which creation belongs."},
+        {"source_ref": "96:1", "root": "ر ب ب", "source_word_indices": ["3"], "mapped_root_id": "root_000532", "branch_id": "B002", "variant_id": "V001", "role": "Nurture and completion stage by stage permit a caring, developmental resonance alongside authority."}
+      ],
+      "structural_cues": [
+        {"source_ref": "96:1", "quote_ar": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ", "role": "Reading is commanded in the name of your Lord, characterized by creation."},
+        {"source_ref": "96:2", "quote_ar": "خَلَقَ ٱلْإِنسَٰنَ", "role": "Immediate verbal repetition identifies the creator and specifies humanity."}
+      ],
+      "mechanism": "Adjacent repetition resolves the implicit subject and moves from creation without an expressed object to human creation; the possessive address connects that general human origin to the reader.",
+      "changed_reading": {"before": "An unnamed subject brings the human into being from ʿalaq.", "after": "The creator is your Lord, whose human-making work grounds the surrounding summons to read and may resonate with nurture."},
+      "reader_inference": "The subject link and personal address follow directly from syntax. Treating creation as grounding the command is a discourse inference; nurture is a compatible supplied resonance, not the only meaning of rabb.",
+      "containment": "Do not derive a full developmental timetable or identify the addressee through external biography."
+    },
+    {
+      "model_id": "D2",
+      "reading": "The human formed from ʿalaq is also the recipient of knowledge: bodily creation begins a trajectory of bestowed capacity rather than fixing humanity at its initial material condition.",
+      "status": "supported",
+      "focus_anchor": {"quote_ar": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ", "role": "The created human is repeated as the taught human."},
+      "activation_trace": [],
+      "structural_cues": [
+        {"source_ref": "96:2", "quote_ar": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ", "role": "Creation gives humanity a received bodily beginning."},
+        {"source_ref": "96:3", "quote_ar": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ", "role": "The repeated command and superlative generosity frame what follows as bestowal."},
+        {"source_ref": "96:4", "quote_ar": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ", "role": "The Lord's teaching includes the pen as a medium."},
+        {"source_ref": "96:5", "quote_ar": "عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ", "role": "The repeated direct object links the human made to the human taught, explicitly contrasting prior not-knowing."}
+      ],
+      "mechanism": "Parallel transitive clauses assign the same human object to creation and teaching. Initial material and initial ignorance become two conditions from which the Lord enables a new capacity.",
+      "changed_reading": {"before": "The focus tells where human bodily existence begins.", "after": "That origin is the first part of a creation-and-teaching account in which the human becomes capable of receiving and transmitting knowledge."},
+      "reader_inference": "The repeated object and teaching by the pen are textual. The trajectory and extension to transmission are my synthesis of their sequence and the pen; the verses need not narrate a precise chronological course for an individual.",
+      "containment": "Preserve both modest origin and subsequent endowment. Avoid treating the origin as proof of intrinsic worthlessness or equating biological formation with literacy."
+    },
+    {
+      "model_id": "D3",
+      "reading": "Origin from ʿalaq becomes a corrective to the human's view of himself as self-sufficient, while return to the Lord prevents that dependence from being confined to the past.",
+      "status": "supported",
+      "focus_anchor": {"quote_ar": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ", "role": "Received existence and material origin stand against the later assessment of independence."},
+      "activation_trace": [
+        {"source_ref": "96:7", "root": "غ ن ي", "source_word_indices": ["3"], "mapped_root_id": "root_001110", "branch_id": "B001", "variant_id": "V001", "role": "Wealth and lack of need are both within scope; the contrast need not reduce self-sufficiency to money alone."}
+      ],
+      "structural_cues": [
+        {"source_ref": "96:2", "quote_ar": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ", "role": "The generic human is created from a prior material condition."},
+        {"source_ref": "96:6", "quote_ar": "كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ", "role": "The same human designation recurs with emphatic transgression."},
+        {"source_ref": "96:7", "quote_ar": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ", "role": "The transgression is connected to a self-assessment of sufficiency."},
+        {"source_ref": "96:8", "quote_ar": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ", "role": "Return to the Lord supplies a destination that the claimed independence cannot annul."}
+      ],
+      "mechanism": "Repetition of humanity across creation, teaching, and transgression turns the origin into counterevidence to self-sufficiency. Origin and return frame the intervening self-assessment within an enduring relation to the Lord.",
+      "changed_reading": {"before": "Humanity has a materially dependent beginning, possibly evoking attachment.", "after": "That beginning participates in a sustained rebuttal of imagined independence, extending from received existence to unavoidable return."},
+      "reader_inference": "The cause-like connection in 96:7 and return in 96:8 are supplied text. Reading 96:2 as their retrospective corrective is a discourse inference. Material wealth remains a live narrower sense of sufficiency; no attachment branch is required for the basic contrast.",
+      "containment": "Do not say material generation causes transgression, or that the generic declaration condemns every human action."
+    },
+    {
+      "model_id": "D4",
+      "reading": "The common created human condition limits a person's claim to control another person's worship; the assembled supporters later invoked cannot confer the Creator's authority.",
+      "status": "exploratory",
+      "focus_anchor": {"quote_ar": "ٱلْإِنسَٰنَ", "role": "Generic humanity can encompass both the prohibiting person and the worshipping servant."},
+      "activation_trace": [],
+      "structural_cues": [
+        {"source_ref": "96:2", "quote_ar": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ", "role": "The human category shares a created origin."},
+        {"source_ref": "96:9", "quote_ar": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ", "role": "A person exercises prohibiting power."},
+        {"source_ref": "96:10", "quote_ar": "عَبْدًا إِذَا صَلَّىٰٓ", "role": "The prohibition targets a servant at prayer."},
+        {"source_ref": "96:17", "quote_ar": "فَلْيَدْعُ نَادِيَهُۥ", "role": "The opponent's claimed strength is socially supported by his assembly."},
+        {"source_ref": "96:18", "quote_ar": "سَنَدْعُ ٱلزَّبَانِيَةَ", "role": "The answering summons exposes a superior counterforce."},
+        {"source_ref": "96:19", "quote_ar": "لَا تُطِعْهُ", "role": "The addressee is explicitly released from obedience to the prohibitor."}
+      ],
+      "mechanism": "The generic created human becomes a shared category across a conflict between humans. The later refusal of obedience prevents created dependence from licensing submission to every human claimant of power.",
+      "changed_reading": {"before": "The focus describes humanity's common origin without an explicit interpersonal consequence.", "after": "In the worship conflict, that common origin can undercut the prohibitor's presumption of supreme authority and his reliance on a social following."},
+      "reader_inference": "The conflict, assembly, and refusal are textual. Their grounding in common creation is my relational inference; the passage can oppose this particular prohibition without announcing a general theory of social equality.",
+      "containment": "Present a local challenge to arrogated authority, not a comprehensive political doctrine or an identification of historical actors."
+    },
+    {
+      "model_id": "D5",
+      "reading": "The body originating from ʿalaq remains subject to the Lord: the later contrast between a seized forelock and voluntary prostration offers two ways that embodied dependence becomes manifest.",
+      "status": "exploratory",
+      "focus_anchor": {"quote_ar": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ", "role": "Bodily creation provides the embodied human whose head is later seized or lowered."},
+      "activation_trace": [
+        {"source_ref": "96:15", "root": "س ف ع", "source_word_indices": ["5"], "mapped_root_id": "root_000713", "branch_id": "B001", "variant_id": "V001", "role": "Taking the forelock includes coercive humiliation."},
+        {"source_ref": "96:19", "root": "س ج د", "source_word_indices": ["4"], "mapped_root_id": "root_000675", "branch_id": "B001", "variant_id": "V001", "role": "Humble prostration includes putting the forehead on the ground, supplying a bodily contrast to seizure."}
+      ],
+      "structural_cues": [
+        {"source_ref": "96:2", "quote_ar": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ", "role": "Human bodily origin anchors the comparison."},
+        {"source_ref": "96:15", "quote_ar": "لَنَسْفَعًۢا بِٱلنَّاصِيَةِ", "role": "The warning places the bodily person under coercive control."},
+        {"source_ref": "96:16", "quote_ar": "نَاصِيَةٍۢ كَٰذِبَةٍ خَاطِئَةٍۢ", "role": "Moral attributes are attached metonymically to the bodily forelock."},
+        {"source_ref": "96:19", "quote_ar": "وَٱسْجُدْ وَٱقْتَرِب", "role": "The concluding command joins voluntary bodily lowering to nearness."}
+      ],
+      "mechanism": "The material human of the focus becomes the morally acting, bodily vulnerable human of the conclusion. Forced seizure and chosen lowering give opposing enactments of creaturely dependence.",
+      "changed_reading": {"before": "The body's dependence belongs to its origin.", "after": "The created body remains the site of accountability and can enact acknowledged dependence through prostration and approach."},
+      "reader_inference": "The forelock warning and prostration command are supplied; their pairing as two enactments of created dependence is my synthesis. They concern distinct discourse roles, not a claim that one individual performs both actions.",
+      "containment": "Do not infer neuroscience from the forelock's moral adjectives or treat prostration as a biological consequence of embryonic attachment."
+    }
+  ],
+  "surprising_valid_outliers": [
+    {
+      "model_id": "O1",
+      "reading": "The command to read can carry a faint generative echo around creation from ʿalaq: the read-root's womb-enclosing image makes receiving and bringing forth a secondary analogy for learning.",
+      "status": "exploratory",
+      "focus_anchor": {"quote_ar": "مِنْ عَلَقٍ", "role": "The ordinary generative source provides the bodily pole of the analogy."},
+      "activation_trace": [
+        {"source_ref": "96:1", "root": "ق ر ء", "source_word_indices": ["1"], "mapped_root_id": "root_001210", "branch_id": "B004", "variant_id": "V001", "role": "The supplied womb-enclosing placenta, fetus, or pregnancy scope, especially in camel expressions, resonates with the focus's generation image."},
+        {"source_ref": "96:2", "root": "ع ل ق", "source_word_indices": ["4"], "mapped_root_id": "root_001039", "branch_id": "B009", "variant_id": "V001", "role": "Conception taking hold is the focus-side lexical bridge."}
+      ],
+      "structural_cues": [
+        {"source_ref": "96:1", "quote_ar": "ٱقْرَأْ", "role": "The reading imperative immediately precedes the creation statement."},
+        {"source_ref": "96:2", "quote_ar": "مِنْ عَلَقٍ", "role": "Generation intervenes between repeated commands to read."},
+        {"source_ref": "96:3", "quote_ar": "ٱقْرَأْ", "role": "The repeated imperative brackets the generative statement."},
+        {"source_ref": "96:5", "quote_ar": "عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ", "role": "Teaching supplies the cognitive counterpart to bodily coming-into-being."}
+      ],
+      "mechanism": "A branch-distant reproductive image in the surrounding reading root meets an explicit reproductive origin in the focus, permitting an analogy between generation and the emergence of knowledge.",
+      "changed_reading": {"before": "Generation and reading are linked by adjacent creation and teaching statements.", "after": "They may also resonate through an inventory-supplied image of enclosing pregnancy, making bodily generation a possible analogue for intellectual emergence."},
+      "reader_inference": "Both lexical scopes and the bracketed sequence are supplied. Their cross-domain connection and the receiving/bringing-forth analogy are mine. Ordinary recitation fully accounts for the imperative; the womb scope belongs to other attested constructions and does not establish deliberate wordplay here.",
+      "containment": "Surprising because a reproductive animal usage echoes a reading command; anchored by the intervening ʿalaq origin and teaching sequence. Retain only as a speculative resonance, never translate iqraʾ as conceive or assert a reproductive hidden meaning."
+    },
+    {
+      "model_id": "O2",
+      "reading": "Alongside modest material origin, ʿalaq can acquire a countervailing resonance of something precious and cherished under the next verse's declaration of the Lord's generosity.",
+      "status": "exploratory",
+      "focus_anchor": {"quote_ar": "عَلَقٍ", "role": "The inventory includes a precious-object branch alongside the ordinary blood and attachment scopes."},
+      "activation_trace": [
+        {"source_ref": "96:2", "root": "ع ل ق", "source_word_indices": ["4"], "mapped_root_id": "root_001039", "branch_id": "B007", "variant_id": "V001", "role": "A closely guarded precious object supplies value rather than mere smallness or low origin."},
+        {"source_ref": "96:3", "root": "ك ر م", "source_word_indices": ["3"], "mapped_root_id": "root_001294", "branch_id": "B001", "variant_id": "V001", "role": "Nobility, generosity, and honoring make the value resonance locally available."}
+      ],
+      "structural_cues": [
+        {"source_ref": "96:2", "quote_ar": "مِنْ عَلَقٍ", "role": "The material origin remains the primary construction."},
+        {"source_ref": "96:3", "quote_ar": "وَرَبُّكَ ٱلْأَكْرَمُ", "role": "The creator is immediately characterized by supreme generosity."}
+      ],
+      "mechanism": "Contextual generosity activates the cherished-object side of attachment as a possible evaluative undertone, resisting an inference that a modest biological origin makes its product worthless.",
+      "changed_reading": {"before": "ʿAlaq foregrounds material smallness or dependence.", "after": "Its inventory also permits an exploratory resonance of preciousness under generous creation, coexisting with dependence."},
+      "reader_inference": "The two lexical scopes are supplied. Applying cherishedness to the created human is my inference; akram predicates the Lord, not explicitly the human, and the precious-object noun sense is not established by this vocalized construction.",
+      "containment": "Surprising because it reverses the valuation often attached to a lowly origin. Keep it a secondary resonance, not a translation from precious objects or proof that this particular branch is intended."
+    },
+    {
+      "model_id": "O3",
+      "reading": "The later transgression image may cast the human from thick blood as a being whose self-inflation resembles blood or water exceeding its bounds.",
+      "status": "exploratory",
+      "focus_anchor": {"quote_ar": "مِنْ عَلَقٍ", "role": "The ordinary blood-material reading provides a physical image that later excess can transform."},
+      "activation_trace": [
+        {"source_ref": "96:2", "root": "ع ل ق", "source_word_indices": ["4"], "mapped_root_id": "root_001039", "branch_id": "B003", "variant_id": "V001", "role": "Thick or congealed blood supplies the material starting image."},
+        {"source_ref": "96:6", "root": "ط غ ي", "source_word_indices": ["4"], "mapped_root_id": "root_000937", "branch_id": "B002", "variant_id": "V001", "role": "Overflowing water and blood, as forces exceeding measure, offer a physical analogue for transgression."}
+      ],
+      "structural_cues": [
+        {"source_ref": "96:2", "quote_ar": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ", "role": "The human category begins with a bodily material."},
+        {"source_ref": "96:6", "quote_ar": "إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ", "role": "The repeated human category carries the excess verb."},
+        {"source_ref": "96:7", "quote_ar": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ", "role": "Self-assessed sufficiency supplies the stated behavioral connection, limiting the physical analogy."}
+      ],
+      "mechanism": "Repetition of the human subject connects an early compact blood image to a later lexical image of material exceeding bounds, giving the moral reversal a possible physical texture.",
+      "changed_reading": {"before": "Blood names the human's material beginning.", "after": "That material image can also make later overstepping imaginable as a bounded beginning becoming excessive."},
+      "reader_inference": "The blood scopes are supplied on both roots. Their transformation into a compact-to-overflow analogy is mine; the text attributes transgression to self-perceived sufficiency, not to blood or bodily maturation.",
+      "containment": "Surprising because it crosses biological origin with moral excess, but anchored by the repeated human and the specific shared blood imagery. Do not present a physiological cause, a literal flood, or a second lexical translation of the verse."
+    }
+  ],
+  "summary": {
+    "ordinary_reading": "The Lord created humanity from ʿalaq, understood primarily as clotted or adhering generative material. The surrounding verses identify that creator with the Lord who commands reading and teaches humanity.",
+    "coexisting_readings": [
+      "An exploratory attachment image gives the material origin a relational contour of dependence.",
+      "Creation and teaching present received bodily and cognitive capacities; later self-sufficiency and return make the origin a corrective to human presumption.",
+      "The worship conflict allows a more exploratory reading in which common created status undercuts the prohibitor's authority, and bodily seizure versus prostration enacts opposing responses to dependence.",
+      "Secondary exploratory resonances include a reproductive echo around reading, preciousness alongside modest origin, and a blood-to-overflow analogy for later transgression."
+    ],
+    "unresolved_limits": [
+      "The packet records no source gaps and supplies all nineteen ayat in the window. Available inventories are possibilities, not evidence that every branch is intended at its occurrence.",
+      "The focus does not specify modern anatomical stages, an external historical identity, or a causal biology of transgression.",
+      "Material or collective blood, attachment, and conception overlap without resolving every lexical nuance of ʿalaq. The ordinary generative reading remains sufficient.",
+      "The social, embodied, and branch-distant readings depend on stated reader analogies. In particular, preciousness and reproductive recitation imagery cannot replace the actual constructions or be promoted to certain wordplay."
+    ]
+  }
+}

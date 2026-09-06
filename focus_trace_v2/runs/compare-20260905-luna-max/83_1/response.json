@@ -1,0 +1,522 @@
+{
+  "focus_ref": "83:1",
+  "trace_kind": "reconstructed",
+  "baseline_models": [
+    {
+      "model_id": "baseline_ordinary_warning",
+      "reading": "Woe is directed at those who give less than is due—those who shortchange in measure.",
+      "status": "supported",
+      "focus_anchor": {
+        "quote_ar": "وَيْلٌۭ لِّلْمُطَفِّفِينَ",
+        "role": "The focus itself supplies the warning and names its addressees."
+      },
+      "activation_trace": [],
+      "structural_cues": [],
+      "mechanism": "The warning particle and the plural agent noun establish a direct condemnation of the people characterized by diminution; the focus alone does not require a broader narrative mechanism.",
+      "changed_reading": null,
+      "reader_inference": "The packet supplies the focus wording but no mapped Furuq target for ط ف ف. The short-measure paraphrase uses ordinary Arabic morphology rather than a packet branch, and no additional causal assumption is needed.",
+      "containment": "Keep this as the ordinary lexical warning about short measure. Do not infer the later accounting, inward effects, or social analogies from the focus alone."
+    }
+  ],
+  "context_deltas": [
+    {
+      "model_id": "delta_reciprocal_measurement",
+      "reading": "The woe specifically targets a reciprocal commercial asymmetry: the addressees secure the full amount for themselves while reducing what they hand to others.",
+      "status": "supported",
+      "focus_anchor": {
+        "quote_ar": "وَيْلٌۭ لِّلْمُطَفِّفِينَ",
+        "role": "The named short-measurers are the focus category made concrete by the paired transaction clauses."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "83:2",
+          "root": "ك ي ل",
+          "source_word_indices": ["3"],
+          "mapped_root_id": "root_001335",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The food-measure image grounds the focus in a measured-goods transaction."
+        },
+        {
+          "source_ref": "83:2",
+          "root": "و ف ي",
+          "source_word_indices": ["6"],
+          "mapped_root_id": "root_001669",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The completion-without-shortfall image supports their taking the whole due."
+        },
+        {
+          "source_ref": "83:3",
+          "root": "ك ي ل",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_001335",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The same measure image now governs what they dispense to the other party."
+        },
+        {
+          "source_ref": "83:3",
+          "root": "و ز ن",
+          "source_word_indices": ["4"],
+          "mapped_root_id": "root_001645",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The balance-and-equity image places the weighing in a fairness and accounting frame."
+        },
+        {
+          "source_ref": "83:3",
+          "root": "خ س ر",
+          "source_word_indices": ["5"],
+          "mapped_root_id": "root_000409",
+          "branch_id": "B003",
+          "variant_id": "V001",
+          "role": "The shorting-measure image explicitly marks the outgoing deficit."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "83:2",
+          "quote_ar": "إِذَا ٱكْتَالُوا۟ عَلَى ٱلنَّاسِ يَسْتَوْفُونَ",
+          "role": "The first conditional clause says that, when taking from people, they take the full amount."
+        },
+        {
+          "source_ref": "83:3",
+          "quote_ar": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
+          "role": "The matched conditional reverses the direction and explicitly says that they make the other side deficient."
+        }
+      ],
+      "mechanism": "The mirrored إذا clauses, full-completion image, weighing-for-equity image, and explicit shorting image turn the generic warning into a precise one-way exchange: full entitlement for self and deficiency for the counterpart.",
+      "changed_reading": {
+        "before": "A general warning against people who diminish what is due.",
+        "after": "A warning against the trader who takes the full due from others but gives them less in measure or weight."
+      },
+      "reader_inference": "The packet supplies the measure, completion, balance, and shortfall images and the two opposed clauses. I infer the transactional asymmetry from their direction and syntax. The balance branch can also support a wider justice reading, but the immediate context keeps this model commercial.",
+      "containment": "Restrict the claim to the explicit measure-and-weight exchange in 83:2-3. Do not treat every mapped meaning of the roots as active, and do not claim that the focus root itself has a supplied branch."
+    },
+    {
+      "model_id": "delta_resurrection_accountability",
+      "reading": "The warning acquires an accountability horizon: the short-measurers are challenged as people who will be raised and stand before the Lord on a great day.",
+      "status": "supported",
+      "focus_anchor": {
+        "quote_ar": "وَيْلٌۭ لِّلْمُطَفِّفِينَ",
+        "role": "The focus warning is given its final-account setting by the following resurrection sequence."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "83:4",
+          "root": "ب ع ث",
+          "source_word_indices": ["5"],
+          "mapped_root_id": "root_000129",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The rousing-from-stillness image supports the passive raising of the addressees."
+        },
+        {
+          "source_ref": "83:5",
+          "root": "ي و م",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_001700",
+          "branch_id": "B003",
+          "variant_id": "V001",
+          "role": "The event-day image makes the day a decisive, severe occasion."
+        },
+        {
+          "source_ref": "83:5",
+          "root": "ع ظ م",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_001029",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The greatness image supplies the scale of that day."
+        },
+        {
+          "source_ref": "83:6",
+          "root": "ق و م",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_001273",
+          "branch_id": "B013",
+          "variant_id": "V001",
+          "role": "The resurrection-and-standing image directly activates the scene of people rising before judgment."
+        },
+        {
+          "source_ref": "83:6",
+          "root": "ر ب ب",
+          "source_word_indices": ["4"],
+          "mapped_root_id": "root_000532",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The lordship and authority image identifies the one before whom they stand."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "83:4",
+          "quote_ar": "أَلَا يَظُنُّ أُو۟لَٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ",
+          "role": "The rhetorical question challenges the addressees' anticipation of being raised."
+        },
+        {
+          "source_ref": "83:5",
+          "quote_ar": "لِيَوْمٍ عَظِيمٍ",
+          "role": "The next phrase names the great day toward which the raising points."
+        },
+        {
+          "source_ref": "83:6",
+          "quote_ar": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ",
+          "role": "The sequence culminates in people standing before the Lord of the worlds."
+        }
+      ],
+      "mechanism": "The passage moves directly from the warning's addressees to being raised and standing before divine authority, supplying the horizon that makes a seemingly ordinary commercial deficit answerable beyond the transaction.",
+      "changed_reading": {
+        "before": "The focus warns against short measure as an immediate moral wrong.",
+        "after": "The warning also confronts short measurers with the great day on which their conduct is answerable before the Lord."
+      },
+      "reader_inference": "The packet supplies the raising, great-day, resurrection-standing, and lordship images, while the text supplies the ordered sequence. I infer the accountability relation from that sequence. Whether يَظُنُّ is heard as expectation, supposition, or certainty remains a live grammatical alternative; the model does not depend on choosing among those nuances.",
+      "containment": "Claim only the accountability horizon explicitly formed by 83:4-6. Do not infer details of the resurrection scene or use this context as a lexical definition of ط ف ف."
+    },
+    {
+      "model_id": "delta_marked_record_and_inner_accumulation",
+      "reading": "The warning participates in a record-and-character arc: transgression is associated with a marked record and with acquired acts settling over the heart.",
+      "status": "supported",
+      "focus_anchor": {
+        "quote_ar": "وَيْلٌۭ لِّلْمُطَفِّفِينَ",
+        "role": "The focus category is placed within the later description of recorded and inwardly consequential wrongdoing."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "83:7",
+          "root": "ك ت ب",
+          "source_word_indices": ["3"],
+          "mapped_root_id": "root_001283",
+          "branch_id": "B003",
+          "variant_id": "V001",
+          "role": "The binding-record image gives the book a judgment-bearing force."
+        },
+        {
+          "source_ref": "83:7",
+          "root": "ف ج ر",
+          "source_word_indices": ["4"],
+          "mapped_root_id": "root_001132",
+          "branch_id": "B004",
+          "variant_id": "V001",
+          "role": "The departure-from-right image characterizes the group whose record is being described."
+        },
+        {
+          "source_ref": "83:7",
+          "root": "س ج ن",
+          "source_word_indices": ["6"],
+          "mapped_root_id": "root_000678",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The confinement image limits the record's named setting without requiring a larger cosmological claim."
+        },
+        {
+          "source_ref": "83:9",
+          "root": "ك ت ب",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_001283",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The writing-and-book image supports a preserved written record."
+        },
+        {
+          "source_ref": "83:9",
+          "root": "ر ق م",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_000587",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The marked-writing image makes the record specified and traceable."
+        },
+        {
+          "source_ref": "83:12",
+          "root": "ع د و",
+          "source_word_indices": ["6"],
+          "mapped_root_id": "root_000993",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The transgression image connects the focus's unfair act with overstepping a right."
+        },
+        {
+          "source_ref": "83:12",
+          "root": "ء ث م",
+          "source_word_indices": ["7"],
+          "mapped_root_id": "root_000013",
+          "branch_id": "B004",
+          "variant_id": "V001",
+          "role": "The loading-sin image marks the actor as carrying a charge, not merely making an isolated mistake."
+        },
+        {
+          "source_ref": "83:14",
+          "root": "ر ي ن",
+          "source_word_indices": ["3"],
+          "mapped_root_id": "root_000619",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The no-escape image gives the heart-covering consequence an entrapping direction."
+        },
+        {
+          "source_ref": "83:14",
+          "root": "ق ل ب",
+          "source_word_indices": ["5"],
+          "mapped_root_id": "root_001248",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The inward-heart image locates the consequence in the person's inner faculty."
+        },
+        {
+          "source_ref": "83:14",
+          "root": "ك س ب",
+          "source_word_indices": ["8"],
+          "mapped_root_id": "root_001296",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The acquired-gain image keeps the consequence tied to what the actors themselves have earned or acquired."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "83:7",
+          "quote_ar": "إِنَّ كِتَٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍۢ",
+          "role": "The text introduces a named record for the transgressing group."
+        },
+        {
+          "source_ref": "83:9",
+          "quote_ar": "كِتَٰبٌۭ مَّرْقُومٌۭ",
+          "role": "The short nominal sentence characterizes that record as marked or specified."
+        },
+        {
+          "source_ref": "83:12",
+          "quote_ar": "إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
+          "role": "The passage names the relevant actor as one who transgresses and bears sin."
+        },
+        {
+          "source_ref": "83:14",
+          "quote_ar": "رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ",
+          "role": "The closing clause links the heart-covering condition to what they have been acquiring or doing."
+        }
+      ],
+      "mechanism": "The window extends the focus from a single shortfall to a durable pattern: the wrongdoers have a marked record, their transgression carries a charge, and their acquired acts settle over the inward heart.",
+      "changed_reading": {
+        "before": "The focus condemns a short measure at the point of exchange.",
+        "after": "The warning also points to short measure as part of an accumulated, recorded pattern that can harden the actor inwardly."
+      },
+      "reader_inference": "The packet supplies the record, marking, transgression, sin-loading, heart, entrapment, and acquisition images; the text supplies their sequence. I infer that the focus's addressees are being read within this wider fujjar pattern, not that ط ف ف etymologically means record or heart-covering. Sijjin and رَانَ retain broader lexical possibilities, so the model stays at the level of the contextual arc.",
+      "containment": "Do not claim a specific metaphysical definition of Sijjin, a single mechanism for رَانَ, or that every short measure is individually described by these verses. The supported claim is the window's record-and-inner-consequence framing."
+    },
+    {
+      "model_id": "delta_righteous_counter_ledger",
+      "reading": "The focus warning is contrasted with a positive counter-ledger: the righteous have an elevated marked record, are witnessed by the near ones, and direct competition toward pure sealed provision.",
+      "status": "supported",
+      "focus_anchor": {
+        "quote_ar": "وَيْلٌۭ لِّلْمُطَفِّفِينَ",
+        "role": "The focus warning gains a contrasting moral destination from the paired account of the righteous."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "83:18",
+          "root": "ك ت ب",
+          "source_word_indices": ["3"],
+          "mapped_root_id": "root_001283",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The written-book image establishes the righteous counterpart to the earlier record."
+        },
+        {
+          "source_ref": "83:18",
+          "root": "ب ر ر",
+          "source_word_indices": ["4"],
+          "mapped_root_id": "root_000104",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The broad-righteousness image identifies the positive group."
+        },
+        {
+          "source_ref": "83:18",
+          "root": "ع ل و",
+          "source_word_indices": ["6"],
+          "mapped_root_id": "root_001042",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The rising-and-elevation image supports the high counterpart to the earlier setting."
+        },
+        {
+          "source_ref": "83:20",
+          "root": "ك ت ب",
+          "source_word_indices": ["1"],
+          "mapped_root_id": "root_001283",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The repeated book image keeps the two ledgers structurally parallel."
+        },
+        {
+          "source_ref": "83:20",
+          "root": "ر ق م",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_000587",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The marked-record image gives the righteous ledger the same determinacy of inscription."
+        },
+        {
+          "source_ref": "83:21",
+          "root": "ق ر ب",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_001212",
+          "branch_id": "B004",
+          "variant_id": "V001",
+          "role": "The privileged-nearness image explains who can witness the elevated record."
+        },
+        {
+          "source_ref": "83:25",
+          "root": "ر ح ق",
+          "source_word_indices": ["3"],
+          "mapped_root_id": "root_000550",
+          "branch_id": "B001",
+          "variant_id": "V001",
+          "role": "The pure-choice provision image gives the positive reward a quality of unadulterated value."
+        },
+        {
+          "source_ref": "83:25",
+          "root": "خ ت م",
+          "source_word_indices": ["4"],
+          "mapped_root_id": "root_000393",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The sealing image presents the provision as secured and intact."
+        },
+        {
+          "source_ref": "83:26",
+          "root": "ن ف س",
+          "source_word_indices": ["5", "6"],
+          "mapped_root_id": "root_001533",
+          "branch_id": "B010",
+          "variant_id": "V001",
+          "role": "The precious-value and rivalry image redirects competition toward what is genuinely valued."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "83:18",
+          "quote_ar": "إِنَّ كِتَٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
+          "role": "The text explicitly introduces the elevated righteous counterpart to the earlier record."
+        },
+        {
+          "source_ref": "83:20",
+          "quote_ar": "كِتَٰبٌۭ مَّرْقُومٌۭ",
+          "role": "The repeated marked-record wording makes the two sides structurally comparable."
+        },
+        {
+          "source_ref": "83:21",
+          "quote_ar": "يَشْهَدُهُ ٱلْمُقَرَّبُونَ",
+          "role": "The righteous record is publicly witnessed by those brought near."
+        },
+        {
+          "source_ref": "83:26",
+          "quote_ar": "فَلْيَتَنَافَسِ ٱلْمُتَنَٰفِسُونَ",
+          "role": "The imperative redirects rivalry toward the described provision."
+        }
+      ],
+      "mechanism": "The window reverses the low, confined record of the fujjar with an elevated, marked, witnessed record for the abrar, then gives competition a positive object; this supplies a counter-model to the focus's deficit and self-serving exchange.",
+      "changed_reading": {
+        "before": "The focus condemns a deficient exchange without specifying a positive alternative.",
+        "after": "The warning marks a fork between deficient self-serving conduct and an elevated, intact moral ledger whose proper competition is for pure reward."
+      },
+      "reader_inference": "The packet supplies the paired record, righteousness, elevation, nearness, purity, sealing, and rivalry images, and the text supplies the reversal and imperative. I infer that the positive section functions as a counter-ledger for the focus warning; it remains possible to read the reward passage as self-contained description rather than an extension of the focus.",
+      "containment": "This is a contextual contrast, not a claim that ط ف ف lexically means the opposite of ب ر ر or that the reward images describe commerce. Keep the contrast tied to the parallel records and explicit competition in 83:18-26."
+    }
+  ],
+  "surprising_valid_outliers": [
+    {
+      "model_id": "outlier_social_diminishment_by_mockery",
+      "reading": "As a branch-distant social analogy, the focus's language of making another lesser can echo public belittling: the wrongdoers laugh and gesture at believers, and the scene later reverses with recompense.",
+      "status": "exploratory",
+      "focus_anchor": {
+        "quote_ar": "وَيْلٌۭ لِّلْمُطَفِّفِينَ",
+        "role": "The proposed analogy returns to the focus's named agents of diminution rather than treating the social scene as an independent theme."
+      },
+      "activation_trace": [
+        {
+          "source_ref": "83:29",
+          "root": "ج ر م",
+          "source_word_indices": ["3"],
+          "mapped_root_id": "root_000239",
+          "branch_id": "B004",
+          "variant_id": "V001",
+          "role": "The guilt-and-offense image identifies the laughing actors as wrongdoers."
+        },
+        {
+          "source_ref": "83:29",
+          "root": "ض ح ك",
+          "source_word_indices": ["8"],
+          "mapped_root_id": "root_000903",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The mockery image makes the laughter a social act directed at another group."
+        },
+        {
+          "source_ref": "83:34",
+          "root": "ض ح ك",
+          "source_word_indices": ["6"],
+          "mapped_root_id": "root_000903",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The same mockery image is reversed onto the disbelievers."
+        },
+        {
+          "source_ref": "83:36",
+          "root": "ث و ب",
+          "source_word_indices": ["2"],
+          "mapped_root_id": "root_000209",
+          "branch_id": "B002",
+          "variant_id": "V001",
+          "role": "The returning-recompense image supplies the explicit reversal back to the doers."
+        }
+      ],
+      "structural_cues": [
+        {
+          "source_ref": "83:29",
+          "quote_ar": "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ ءَامَنُوا۟ يَضْحَكُونَ",
+          "role": "The text sets wrongdoers' laughter against believers as a relation between groups."
+        },
+        {
+          "source_ref": "83:30",
+          "quote_ar": "وَإِذَا مَرُّوا۟ بِهِمْ يَتَغَامَزُونَ",
+          "role": "The gesture of mutual winking makes the belittling public and embodied; غ م ز is a packet source gap."
+        },
+        {
+          "source_ref": "83:34",
+          "quote_ar": "فَٱلْيَوْمَ ٱلَّذِينَ ءَامَنُوا۟ مِنَ ٱلْكُفَّارِ يَضْحَكُونَ",
+          "role": "The temporal pivot reverses who laughs at whom."
+        },
+        {
+          "source_ref": "83:36",
+          "quote_ar": "هَلْ ثُوِّبَ ٱلْكُفَّارُ مَا كَانُوا۟ يَفْعَلُونَ",
+          "role": "The closing question frames the reversal as recompense for what they used to do."
+        }
+      ],
+      "mechanism": "Mockery diminishes another party socially rather than by weight, while the sequence's laughter reversal and recompense create a relational mirror; that mirror is analogous to taking full value for oneself and reducing the other's share.",
+      "changed_reading": {
+        "before": "The focus refers to material short measure.",
+        "after": "Exploratorily, it can echo a wider practice of making others lesser through ridicule, with status and laughter returned in judgment."
+      },
+      "reader_inference": "The packet supplies the mockery branch for ض ح ك and the returning-recompense branch for ث و ب; the structural text supplies the gestures and reversal. I infer the analogy from relational diminishment, not from a lexical identity between ط ف ف and mockery. The focus root and غ م ز both lack mapped branches, and the live alternative is that 83:29-36 concerns only social ridicule within its own subject.",
+      "containment": "Keep this exploratory and explicitly analogical. Downstream prose must not define mutaffifin as mockers; it may say only that the later social reversal echoes the focus's diminishment relation."
+    }
+  ],
+  "summary": {
+    "ordinary_reading": "The focus gives a direct warning of woe to those who shortchange others, ordinarily in measure.",
+    "coexisting_readings": [
+      "83:2-3 specifies the warning as a one-way commercial asymmetry: full measure when taking, short measure when giving.",
+      "83:4-6 places that conduct under resurrection accountability before the Lord.",
+      "83:7-14 presents wrongdoing as a marked record and as acquired acts settling over the heart.",
+      "83:18-26 supplies an elevated, witnessed counter-ledger for the righteous and redirects competition toward intact, pure reward.",
+      "Exploratory only: 83:29-36 supports a branch-distant analogy to social belittling and its reversed recompense."
+    ],
+    "unresolved_limits": [
+      "The packet lists no mapped Furuq targets for the focus root ط ف ف, so the baseline and every return to the focus anchor must remain grounded in the focus wording and ordinary morphology.",
+      "The root غ م ز in the social scene also has no mapped branch; that outlier relies on its exact structural text plus the available ض ح ك and ث و ب branches.",
+      "The readings do not settle the full lexical or metaphysical range of Sijjin, رَانَ, the resurrection scene, or the reward imagery; the exploratory social analogy must not be promoted to a lexical definition."
+    ]
+  }
+}

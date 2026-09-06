@@ -1,0 +1,136 @@
+{
+  "recorded_at": "2026-09-06T13:47:33.609892+00:00",
+  "note": "Local runtime counters, not an independent billing receipt. No service-tier override, fallback, retry, output repair, or semantic promotion. Raw reader outputs preserved.",
+  "jobs": [
+    {
+      "profile": "sol-max",
+      "job_dir": "focus_trace_v2/runs/rerun-20260906-v1-sol-max/29_38",
+      "session_id": "01a076e8-936f-72c2-a1e9-72a509682212",
+      "requested_profile": {
+        "model": "gpt-5.6-sol",
+        "reasoning_effort": "max"
+      },
+      "observed_profiles": [
+        [
+          "gpt-5.6-sol",
+          "max"
+        ]
+      ],
+      "local_runtime_profile_matches": true,
+      "input_identity": {
+        "packet_sha256": "5f3ec134b87401b0f7e03d31789c7f70bd0fe555579437ce59c199dad8adf619",
+        "prompt_sha256": "373a2c464d427490761438917b4de9e9fc44933dee9c204f6b44dbfba6c10107",
+        "schema_sha256": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "response_sha256": "e34e1c4054501afa1bca263a2b637521e16e63186cc505b2b33057f8f15f53fb",
+      "runtime_log_sha256": "7a6ec1d24eb8086580969b90b71da8a4b35f15484f85394728c3627cbacdbc6d",
+      "usage": {
+        "total_token_usage": {
+          "input_tokens": 222212,
+          "cached_input_tokens": 222080,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 31979,
+          "reasoning_output_tokens": 19874,
+          "total_tokens": 254191
+        },
+        "last_token_usage": {
+          "input_tokens": 222212,
+          "cached_input_tokens": 222080,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 31979,
+          "reasoning_output_tokens": 19874,
+          "total_tokens": 254191
+        },
+        "model_context_window": 258400
+      },
+      "token_usage_events": 1,
+      "context_compactions": 0,
+      "completed_turns": 1,
+      "active_duration_ms": 661590,
+      "validation": "passed",
+      "validation_error": null,
+      "evidence_exported": true,
+      "finding_counts": {
+        "baseline_models": 3,
+        "context_deltas": 10,
+        "surprising_valid_outliers": 4
+      },
+      "citation_count": 111,
+      "citation_errors": [],
+      "diagnostic": null
+    },
+    {
+      "profile": "luna-max",
+      "job_dir": "focus_trace_v2/runs/rerun-20260906-v1-luna-max/29_38",
+      "session_id": "01a076e8-9386-7572-92e6-ec0262286c01",
+      "requested_profile": {
+        "model": "gpt-5.6-luna",
+        "reasoning_effort": "max"
+      },
+      "observed_profiles": [
+        [
+          "gpt-5.6-luna",
+          "max"
+        ]
+      ],
+      "local_runtime_profile_matches": true,
+      "input_identity": {
+        "packet_sha256": "5f3ec134b87401b0f7e03d31789c7f70bd0fe555579437ce59c199dad8adf619",
+        "prompt_sha256": "dbd8f99976504e8db0d68d01c38b8cc24142fa271ba5d3d6ef0ddacb7b327129",
+        "schema_sha256": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "response_sha256": "711a8b1a40b0f86b782b3579324a71e3ae259eb83def6684c4ced4a2864b1afd",
+      "runtime_log_sha256": "9c5cc20be1e869103b998f7c111263031717997889cbc732f54ac820437476ff",
+      "usage": {
+        "total_token_usage": {
+          "input_tokens": 229504,
+          "cached_input_tokens": 219904,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 41727,
+          "reasoning_output_tokens": 27952,
+          "total_tokens": 271231
+        },
+        "last_token_usage": {
+          "input_tokens": 229504,
+          "cached_input_tokens": 219904,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 41727,
+          "reasoning_output_tokens": 27952,
+          "total_tokens": 271231
+        },
+        "model_context_window": 258400
+      },
+      "token_usage_events": 1,
+      "context_compactions": 0,
+      "completed_turns": 1,
+      "active_duration_ms": 929038,
+      "validation": "failed",
+      "validation_error": "root does not occur at 29:38: ت ب ي ن",
+      "evidence_exported": false,
+      "finding_counts": {
+        "baseline_models": 3,
+        "context_deltas": 16,
+        "surprising_valid_outliers": 3
+      },
+      "citation_count": 191,
+      "citation_errors": [
+        {
+          "path": "context_deltas[5].activation_trace[0]",
+          "finding_id": "delta_settlement_flood",
+          "error": "root does not occur at 29:38: ت ب ي ن",
+          "citation": {
+            "source_ref": "29:38",
+            "root": "ت ب ي ن",
+            "source_word_indices": [
+              "4"
+            ],
+            "mapped_root_id": "root_000170",
+            "branch_id": "B004",
+            "role": "Clarity supplies the later reading of material survival."
+          }
+        }
+      ],
+      "diagnostic": "Replacing only this root label in a disposable in-memory copy passes all response checks. No output file was modified or accepted, and no evidence export was made."
+    }
+  ]
+}

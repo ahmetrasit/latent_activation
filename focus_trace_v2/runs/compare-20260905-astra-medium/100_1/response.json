@@ -1,0 +1,182 @@
+{
+  "focus_ref": "100:1",
+  "trace_kind": "reconstructed",
+  "baseline_models": [
+    {
+      "model_id": "B1",
+      "reading": "An oath by running creatures, most naturally horses, whose exertion is audible as panting or breath-sound.",
+      "status": "supported",
+      "focus_anchor": {"quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا", "role": "The oath particle introduces the feminine plural runners; the accusative specifies their audible manner of running."},
+      "activation_trace": [
+        {"source_ref": "100:1", "root": "ع د و", "source_word_indices": ["1"], "mapped_root_id": "root_000993", "branch_id": "B002", "variant_id": "V001", "role": "Running/hastening includes horses and people on foot; it establishes motion without itself naming a species."},
+        {"source_ref": "100:1", "root": "ض ب ح", "source_word_indices": ["2"], "mapped_root_id": "root_000901", "branch_id": "B001", "variant_id": "V001", "role": "The cry/breath-sound scope specifically includes horses' breathing while running, making that combination especially natural."}
+      ],
+      "structural_cues": [],
+      "mechanism": "Running and its simultaneous sound form one bodily event: the second word lets the oath's motion be heard.",
+      "changed_reading": null,
+      "reader_inference": "The branches supply running and equine breath-sound. Identifying the unnamed runners as horses is a strong lexical inference, not an explicit animal noun. The oath construction requires no additional narrative assumption.",
+      "containment": "Preserve panting runners as the ordinary sense; the focus alone supplies no riders, destination, enemy, motive, or moral verdict. The sound need not imply illness or exhaustion to collapse."
+    },
+    {
+      "model_id": "B2",
+      "reading": "Alongside the auditory reading, the oath can foreground the runners' extended forelegs and manner of stride.",
+      "status": "exploratory",
+      "focus_anchor": {"quote_ar": "ضَبْحًۭا", "role": "The accusative can specify the running action through a supplied locomotor sense rather than sound alone."},
+      "activation_trace": [
+        {"source_ref": "100:1", "root": "ع د و", "source_word_indices": ["1"], "mapped_root_id": "root_000993", "branch_id": "B002", "variant_id": "V001", "role": "Provides running as the governing action."},
+        {"source_ref": "100:1", "root": "ض ب ح", "source_word_indices": ["2"], "mapped_root_id": "root_000901", "branch_id": "B002", "variant_id": "V001", "role": "Its scope includes horse or camel running with stretched forelegs and light running; the image adds bodily extension."}
+      ],
+      "structural_cues": [],
+      "mechanism": "Two motion words reinforce and particularize each other, turning generic running into an observable gait.",
+      "changed_reading": null,
+      "reader_inference": "The alternative comes from the supplied image and scope. Applying it here remains a lexical choice; the breath-sound reading is still stronger and may coexist as sensory resonance.",
+      "containment": "Present as a possible locomotor emphasis, not proof of a specific gait or proof that the creatures are camels."
+    }
+  ],
+  "context_deltas": [
+    {
+      "model_id": "D1",
+      "reading": "The panting runners become the opening phase of a rapid dawn incursion: striking sparks, raising dust, and reaching the midst of an assembled body.",
+      "status": "supported",
+      "focus_anchor": {"quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا", "role": "The initially unspecified motion becomes purposeful advance through the subsequent actions."},
+      "activation_trace": [
+        {"source_ref": "100:2", "root": "ق د ح", "source_word_indices": ["2"], "mapped_root_id": "root_001203", "branch_id": "B001", "variant_id": "V001", "role": "Striking fire from stone or an implement makes sparks a material accompaniment to the movement."},
+        {"source_ref": "100:3", "root": "ص ب ح", "source_word_indices": ["2"], "mapped_root_id": "root_000839", "branch_id": "B004", "variant_id": "V001", "role": "The morning raid/alarm scope reinforces the explicit dawn-incursion construction."},
+        {"source_ref": "100:4", "root": "ن ق ع", "source_word_indices": ["3"], "mapped_root_id": "root_001544", "branch_id": "B004", "variant_id": "V001", "role": "Raised dust supplies a visible consequence of the runners' impact."},
+        {"source_ref": "100:5", "root": "و س ط", "source_word_indices": ["1"], "mapped_root_id": "root_001646", "branch_id": "B003", "variant_id": "V001", "role": "Entering the middle of a group supplies the trajectory's culmination."},
+        {"source_ref": "100:5", "root": "ج م ع", "source_word_indices": ["3"], "mapped_root_id": "root_000259", "branch_id": "B002", "variant_id": "V001", "role": "The assembled-body scope includes an army, making a collective encounter available without requiring its exact identity."}
+      ],
+      "structural_cues": [
+        {"source_ref": "100:1", "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا", "role": "Feminine plural runners begin the linked sequence."},
+        {"source_ref": "100:2", "quote_ar": "فَٱلْمُورِيَٰتِ قَدْحًۭا", "role": "The following fa and matching participial construction connect spark-striking to the opening movement."},
+        {"source_ref": "100:3", "quote_ar": "فَٱلْمُغِيرَٰتِ صُبْحًۭا", "role": "The surface construction supplies raiding at dawn even though the mapped gh-y-r inventory does not list a corresponding raid branch."},
+        {"source_ref": "100:4", "quote_ar": "فَأَثَرْنَ بِهِۦ نَقْعًۭا", "role": "The feminine plural verb continues with dust as an effected result."},
+        {"source_ref": "100:5", "quote_ar": "فَوَسَطْنَ بِهِۦ جَمْعًا", "role": "The next feminine plural verb takes the movement into a gathering."}
+      ],
+      "mechanism": "Successive fa links and stable feminine plural reference turn the focus's bodily motion into a compact event sequence with sensory effects and a destination.",
+      "changed_reading": {"before": "Unlocated, audible running.", "after": "Audible running as the start of a dawn charge into a collective, accompanied by sparks and dust."},
+      "reader_inference": "The text supplies the linked actions. Taking them as stages performed by the same creatures is the natural continuity inference; coordinated oath groups remain grammatically possible. Hooves striking ground are a plausible equine explanation of the sparks, not an expressly named mechanism. The referent of bihi is not resolved here.",
+      "containment": "A raid scene does not identify a historical battle, name combatants, establish booty, or pronounce the charge righteous or unjust."
+    },
+    {
+      "model_id": "D2",
+      "reading": "The oath's vigorous runners can contrast with the human being who fails in gratitude toward his Lord: strenuous performance throws withheld response into relief.",
+      "status": "exploratory",
+      "focus_anchor": {"quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا", "role": "The exertion summoned by the oath supplies the positive bodily term of the proposed contrast."},
+      "activation_trace": [
+        {"source_ref": "100:6", "root": "ر ب ب", "source_word_indices": ["3"], "mapped_root_id": "root_000532", "branch_id": "B001", "variant_id": "V001", "role": "Lordship includes an obeyed master and an animal's owner, permitting a relational comparison while retaining the divine referent here."},
+        {"source_ref": "100:6", "root": "ك ن د", "source_word_indices": ["4"], "mapped_root_id": "root_001321", "branch_id": "B002", "variant_id": "V001", "role": "Ingratitude toward favor and withholding support specify what human response lacks."}
+      ],
+      "structural_cues": [
+        {"source_ref": "100:1", "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا", "role": "Oath opening places strenuous runners before the human claim."},
+        {"source_ref": "100:6", "quote_ar": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ", "role": "The emphatic clause supplies the oath's human proposition and directs the deficiency toward the Lord."}
+      ],
+      "mechanism": "The oath-to-proposition transition invites comparison of energetic action with deficient reciprocal response; the shared relation of creature to master makes that comparison intelligible.",
+      "changed_reading": {"before": "The runners display exertion without a stated ethical function.", "after": "Their exertion can expose the inadequacy of human gratitude by contrast."},
+      "reader_inference": "The supplied text gives exertion, lordship, and ingratitude. Treating the runners as loyally serving a human master is reader-supplied: neither rider nor obedience is stated. The charge may instead mirror human aggression or acquisitive intensity.",
+      "containment": "Use 'can contrast' and avoid asserting that the animals are morally grateful or that the raid is endorsed. The grammatical oath relation is firmer than this particular explanation of it."
+    },
+    {
+      "model_id": "D3",
+      "reading": "The runners can also mirror human intensity in pursuing desired good or possessions; their charge may acquire an undertone of overstepping rather than exemplary service.",
+      "status": "exploratory",
+      "focus_anchor": {"quote_ar": "ٱلْعَٰدِيَٰتِ", "role": "The running root admits a separate overstepping/aggression image that the raid and human attachment can reactivate."},
+      "activation_trace": [
+        {"source_ref": "100:1", "root": "ع د و", "source_word_indices": ["1"], "mapped_root_id": "root_000993", "branch_id": "B001", "variant_id": "V001", "role": "Its scope includes raiding only when it crosses right; this offers a conditional moral undertone, not an automatic verdict on running."},
+        {"source_ref": "100:8", "root": "ح ب ب", "source_word_indices": ["2"], "mapped_root_id": "root_000286", "branch_id": "B002", "variant_id": "V001", "role": "Clinging attachment and preference provide a human counterpart to directed pursuit."},
+        {"source_ref": "100:8", "root": "خ ي ر", "source_word_indices": ["3"], "mapped_root_id": "root_000452", "branch_id": "B001", "variant_id": "V001", "role": "Desired beneficial good identifies the attraction without requiring the inventory to contain a dedicated wealth branch."},
+        {"source_ref": "100:8", "root": "ش د د", "source_word_indices": ["4"], "mapped_root_id": "root_000782", "branch_id": "B002", "variant_id": "V001", "role": "Intensity and exertion articulate the human force of attachment."},
+        {"source_ref": "100:8", "root": "ش د د", "source_word_indices": ["4"], "mapped_root_id": "root_000782", "branch_id": "B003", "variant_id": "V001", "role": "The distinct charge/running scope makes a specific lexical bridge back to the focus's motion."}
+      ],
+      "structural_cues": [
+        {"source_ref": "100:1", "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا", "role": "Panting supplies embodied intensity."},
+        {"source_ref": "100:3", "quote_ar": "فَٱلْمُغِيرَٰتِ صُبْحًۭا", "role": "The charge makes the aggression branch relevant rather than an unprompted synonym."},
+        {"source_ref": "100:6", "quote_ar": "لِرَبِّهِۦ لَكَنُودٌۭ", "role": "Human ingratitude gives the later intensity an ethically troubled setting."},
+        {"source_ref": "100:8", "quote_ar": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ", "role": "The human attachment is explicitly intense."}
+      ],
+      "mechanism": "A common pattern of forceful pursuit links the bodily charge to the human attachment. The aggression branch then makes excess a possible secondary coloring of the runners.",
+      "changed_reading": {"before": "Energetic motion may appear admirable or morally neutral.", "after": "It can picture the driving intensity of human desire, with a conditional resonance of transgression."},
+      "reader_inference": "The packet supplies the image bridges; interpreting the scene as an enactment of acquisitive desire supplies the causal direction. Wealth is a plausible contextual construal of khayr, but generic desired good remains live. Nothing states that these runners seek plunder or commit injustice.",
+      "containment": "Keep this distinct from the service contrast. Do not translate the focus simply as 'the unjust aggressors' or turn the contextual analogy into a motive attributed to the animals."
+    },
+    {
+      "model_id": "D4",
+      "reading": "The running and panting become outward signs in a passage concerned with testimony and finally with exposure of what is inside: impressive visible exertion cannot settle the human interior.",
+      "status": "exploratory",
+      "focus_anchor": {"quote_ar": "ضَبْحًۭا", "role": "Audible breath is a perceivable manifestation of bodily activity, allowing comparison with the later problem of evidence and inward knowledge."},
+      "activation_trace": [
+        {"source_ref": "100:7", "root": "ش ه د", "source_word_indices": ["4"], "mapped_root_id": "root_000822", "branch_id": "B008", "variant_id": "V001", "role": "The witnessing-sign scope specifically includes a horse's visible run, linking the witness vocabulary to the opening scene."},
+        {"source_ref": "100:10", "root": "ح ص ل", "source_word_indices": ["1"], "mapped_root_id": "root_000330", "branch_id": "B001", "variant_id": "V001", "role": "Revealing the contents of breasts gives the final move from visible effects to a disclosed interior."},
+        {"source_ref": "100:11", "root": "خ ب ر", "source_word_indices": ["5"], "mapped_root_id": "root_000387", "branch_id": "B001", "variant_id": "V001", "role": "Knowledge of inward character rather than appearance completes the distinction."}
+      ],
+      "structural_cues": [
+        {"source_ref": "100:1", "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا", "role": "The opening gives outwardly perceptible exertion."},
+        {"source_ref": "100:7", "quote_ar": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ", "role": "Testimony is expressly directed toward the preceding human condition."},
+        {"source_ref": "100:10", "quote_ar": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ", "role": "Interior contents are brought to disclosure."},
+        {"source_ref": "100:11", "quote_ar": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ", "role": "The Lord's knowledge culminates the sequence."}
+      ],
+      "mechanism": "The opening's bodily signs are retrospectively placed within an evidential arc from witnessing to knowledge of the interior. This keeps the focus vivid while limiting conclusions drawn from its visible force alone.",
+      "changed_reading": {"before": "Panting is sensory detail in an action scene.", "after": "Panting is also an outward manifestation against which the later disclosure of human inward reality can be read."},
+      "reader_inference": "The horse-run example is packet-supplied, but extending it into a compositional analogy is the reader's inference. The pronoun in 100:7 may identify the human as witness or point to the Lord; the analogy does not resolve it and does not make the horses the grammatical witnesses.",
+      "containment": "Treat as an evidential resonance, not a claim that the oath animals testify against humans or that breath discloses human motives."
+    }
+  ],
+  "surprising_valid_outliers": [
+    {
+      "model_id": "O1",
+      "reading": "The next ayah's sparks can lend the focus's panting a secondary scorching resonance, placing breath and heat in the same compact image of exertion.",
+      "status": "exploratory",
+      "focus_anchor": {"quote_ar": "ضَبْحًۭا", "role": "The supplied root has a separate fire-contact image that the immediate context can awaken."},
+      "activation_trace": [
+        {"source_ref": "100:1", "root": "ض ب ح", "source_word_indices": ["2"], "mapped_root_id": "root_000901", "branch_id": "B003", "variant_id": "V001", "role": "Scorching wood, fire-striker stones, and things touched by fire supplies the branch-distant thermal image."},
+        {"source_ref": "100:2", "root": "و ر ي", "source_word_indices": ["1"], "mapped_root_id": "root_001642", "branch_id": "B002", "variant_id": "V001", "role": "Hidden fire emerging through kindling provides an adjacent actual fire trigger."},
+        {"source_ref": "100:2", "root": "ق د ح", "source_word_indices": ["2"], "mapped_root_id": "root_001203", "branch_id": "B001", "variant_id": "V001", "role": "Fire-striking overlaps the focus branch's explicit fire-striker scope."}
+      ],
+      "structural_cues": [
+        {"source_ref": "100:1", "quote_ar": "ضَبْحًۭا", "role": "The ordinary breath-sound remains the primary meaning."},
+        {"source_ref": "100:2", "quote_ar": "فَٱلْمُورِيَٰتِ قَدْحًۭا", "role": "Immediate parallel construction juxtaposes the two action specifications."}
+      ],
+      "mechanism": "Adjacent panting and fire-striking activate a shared lexical fire-contact possibility without requiring the runners themselves to become fire or scorched objects.",
+      "changed_reading": {"before": "The focus evokes motion and breath-sound.", "after": "Motion and breath-sound can acquire a secondary heat/scorching color from the immediately following sparks."},
+      "reader_inference": "The separate scorching branch and fire-striking overlap are supplied. Their simultaneous poetic activation is an inference; actual bodily burning, hot breath, or a fire-spreading agent is not stated.",
+      "containment": "Surprising because it crosses from animal breath to material scorching, yet anchored by the exact focus root and adjacent fire-striking. Retain as resonance, not an alternative literal translation or a narrative of burned horses."
+    },
+    {
+      "model_id": "O2",
+      "reading": "The charging runners can anticipate a reversal of agency: those who now disturb earth and penetrate a gathering face a future in which buried contents and human interiors are themselves forcibly opened.",
+      "status": "exploratory",
+      "focus_anchor": {"quote_ar": "ٱلْعَٰدِيَٰتِ", "role": "The active runners initiate the movement whose earth-disturbing consequences provide the first half of the reversal."},
+      "activation_trace": [
+        {"source_ref": "100:4", "root": "ث و ر", "source_word_indices": ["1"], "mapped_root_id": "root_000210", "branch_id": "B002", "variant_id": "V001", "role": "Stirring dust and earth from a settled state supplies the physical action caused by the runners."},
+        {"source_ref": "100:9", "root": "ب ع ث ر", "source_word_indices": ["4"], "mapped_root_id": "root_000130", "branch_id": "B001", "variant_id": "V001", "role": "Overturning earth and bringing buried contents out repeats disturbance on a different scale and with passive subjects."},
+        {"source_ref": "100:10", "root": "ح ص ل", "source_word_indices": ["1"], "mapped_root_id": "root_000330", "branch_id": "B002", "variant_id": "V001", "role": "Extraction from a covering supplies the interior counterpart to the opening of earth."}
+      ],
+      "structural_cues": [
+        {"source_ref": "100:1", "quote_ar": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا", "role": "Active bodily motion initiates the opening sequence."},
+        {"source_ref": "100:4", "quote_ar": "فَأَثَرْنَ بِهِۦ نَقْعًۭا", "role": "The runners actively stir material outward."},
+        {"source_ref": "100:5", "quote_ar": "فَوَسَطْنَ بِهِۦ جَمْعًا", "role": "The motion penetrates to a collective's middle."},
+        {"source_ref": "100:9", "quote_ar": "إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ", "role": "Passive upturning exposes what graves contain."},
+        {"source_ref": "100:10", "quote_ar": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ", "role": "A parallel passive opens the human interior."}
+      ],
+      "mechanism": "The sequence moves from agents causing outward disturbance and entry to contents subjected to disturbance and extraction. The focus's energetic agency thus becomes an embodied foil for the later loss of concealment and control.",
+      "changed_reading": {"before": "The runners' force culminates in penetration of a gathering.", "after": "That force can prefigure an eventual reversal in which the human world is itself opened and examined."},
+      "reader_inference": "The active/passive contrast and earth/interior imagery are textual. Treating them as deliberate anticipatory reversal is a reader inference. The focus animals are not identified with the buried humans; the analogy shifts domains rather than tracking identical individuals.",
+      "containment": "Surprising because a charge becomes a model for future disclosure, but grounded in the linked earth-disturbance and entry images. Do not claim the opening is literally a resurrection scene or that every runner is later exhumed."
+    }
+  ],
+  "summary": {
+    "ordinary_reading": "An oath by panting runners, naturally horses; the following linked actions situate them in a spark-striking, dust-raising dawn incursion that reaches a gathering.",
+    "coexisting_readings": [
+      "A secondary focus-only gait reading foregrounds stretched forelegs rather than breath alone.",
+      "The charge can contrast with deficient human gratitude through strenuous service, or instead mirror intense human attachment and potentially excessive pursuit; neither inferred moral alignment cancels the other.",
+      "The bodily display can function as outward evidence within the later movement toward testimony and disclosure of interiors.",
+      "Exploratory outliers retain scorching resonance from the adjacent sparks and an agency reversal from disturbing earth to being exposed."
+    ],
+    "unresolved_limits": [
+      "The packet reports no source gaps. Inventory availability nevertheless does not guarantee a matching sense for every surface use: the gh-y-r targets do not explicitly give the raid sense, and the kh-y-r inventory has no dedicated wealth branch. Surface grammar and contextual reasoning remain available.",
+      "Horses are strongly suggested, not explicitly named; riders, owners, historical identities, booty, and the raid's moral status are unstated.",
+      "The mapped alternate roots for adw do not by themselves authorize translating the runners as returners, counted objects, or wood. No such substitution is needed for the retained readings.",
+      "The pronoun of 100:7 and the bihi references in the action sequence remain unresolved. Contextual moral analogies and the outliers are exploratory, not replacement translations."
+    ]
+  }
+}
