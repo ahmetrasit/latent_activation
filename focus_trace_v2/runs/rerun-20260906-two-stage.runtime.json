@@ -1,0 +1,870 @@
+{
+  "protocol": "hft-two-stage-rerun-audit-v1",
+  "recorded_at": "2026-09-06T15:09:52.398433+00:00",
+  "focus_ref": "29:38",
+  "workflow_commit": "7612cccc",
+  "comparison_hints_sent": false,
+  "semantic_repairs": false,
+  "automatic_retries": false,
+  "runs": [
+    {
+      "job_dir": "focus_trace_v2/runs/rerun-20260906-two-stage-sol-max/29_38",
+      "profile": {
+        "model": "gpt-5.6-sol",
+        "reasoning_effort": "max"
+      },
+      "thread_id": "01a07728-691a-7d42-949f-3795acae5fbf",
+      "runtime": {
+        "observed_profile": {
+          "model": "gpt-5.6-sol",
+          "reasoning_effort": "max"
+        },
+        "completed_turns": 2,
+        "context_compactions": 0
+      },
+      "input_identity": {
+        "packet_sha256": "5f3ec134b87401b0f7e03d31789c7f70bd0fe555579437ce59c199dad8adf619",
+        "prompt_sha256": "373a2c464d427490761438917b4de9e9fc44933dee9c204f6b44dbfba6c10107",
+        "schema_sha256": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "two_stage_inputs": {
+        "discovery.prompt.md": "e236d07a5803cb5978132899f04a351cbb037debfe7d4617392976bee0d192e3",
+        "ledger.prompt.md": "376ecfd736ea6864f9067fe9889a539a631e7201d3c2e13b27dd9ab01b76df19"
+      },
+      "discovery_sha256": "5d737c1462281fcb427d97a83c8e7853489dd3f2b4df687139a65d2ecdd11c96",
+      "response_sha256": "ff92528a3732806a6751b79954c4b8b6c4990baa1fc9dbbcdcf8b29f46444b03",
+      "schema_valid": true,
+      "all_discovery_ids_accounted_for": true,
+      "semantic_equivalence_of_each_id_mechanically_proven": false,
+      "notes_counts": {
+        "baseline_models": 8,
+        "context_deltas": 29,
+        "surprising_valid_outliers": 9
+      },
+      "final_counts": {
+        "baseline_models": 8,
+        "context_deltas": 29,
+        "surprising_valid_outliers": 9
+      },
+      "withdrawals": [],
+      "citations_checked": 245,
+      "error_counts": {
+        "trigger_roots_mismatch": 3
+      },
+      "errors": [
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_clarity_creates_liability",
+          "extra": [
+            "ب ي ن"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_distributed_evidence_media",
+          "extra": [
+            "ع ل م"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_crisis_clarity_and_relapse",
+          "extra": [
+            "ع ل م"
+          ],
+          "missing": []
+        }
+      ],
+      "exported": false,
+      "stages": [
+        {
+          "stage": "discovery",
+          "started_at": "2026-09-06T14:38:52.094927+00:00",
+          "finished_at": "2026-09-06T14:52:50.031321+00:00",
+          "generation_completed": true,
+          "coordinator_exit_code": 0,
+          "usage": {
+            "input_tokens": 220782,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 41343,
+            "reasoning_output_tokens": 32585
+          },
+          "stdin_sha256": "8c559a860806a2e73963d2f0c6bc378873709178671d1ae5ddff9a07e4d6ede0",
+          "service_tier_argument_present": false
+        },
+        {
+          "stage": "ledger",
+          "started_at": "2026-09-06T14:53:45.845221+00:00",
+          "finished_at": "2026-09-06T15:04:31.621855+00:00",
+          "generation_completed": true,
+          "coordinator_exit_code": 1,
+          "usage": {
+            "input_tokens": 264805,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 35485,
+            "reasoning_output_tokens": 8126
+          },
+          "stdin_sha256": "d9d21c98ae765ed18423e2425aea84eb7938d880e18192076283e00e491288f2",
+          "service_tier_argument_present": false
+        }
+      ]
+    },
+    {
+      "job_dir": "focus_trace_v2/runs/rerun-20260906-two-stage-luna-max/29_38",
+      "profile": {
+        "model": "gpt-5.6-luna",
+        "reasoning_effort": "max"
+      },
+      "thread_id": "01a07728-6dbf-7462-bc84-2b684b9bf7e4",
+      "runtime": {
+        "observed_profile": {
+          "model": "gpt-5.6-luna",
+          "reasoning_effort": "max"
+        },
+        "completed_turns": 2,
+        "context_compactions": 0
+      },
+      "input_identity": {
+        "packet_sha256": "5f3ec134b87401b0f7e03d31789c7f70bd0fe555579437ce59c199dad8adf619",
+        "prompt_sha256": "dbd8f99976504e8db0d68d01c38b8cc24142fa271ba5d3d6ef0ddacb7b327129",
+        "schema_sha256": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "two_stage_inputs": {
+        "discovery.prompt.md": "8221753696571119cd8027a1ced0116a3f8731c2ca56f58f6596008ac3ab076f",
+        "ledger.prompt.md": "376ecfd736ea6864f9067fe9889a539a631e7201d3c2e13b27dd9ab01b76df19"
+      },
+      "discovery_sha256": "7d2703590cb8792519454e3579f077b837f6ffdce34f2c81ba2f8dac33455db0",
+      "response_sha256": "ec745d1ca586160a8da06a97e08a07364102a18831242b1735c9cf34fb9d0ee4",
+      "schema_valid": true,
+      "all_discovery_ids_accounted_for": true,
+      "semantic_equivalence_of_each_id_mechanically_proven": false,
+      "notes_counts": {
+        "baseline_models": 7,
+        "context_deltas": 41,
+        "surprising_valid_outliers": 10
+      },
+      "final_counts": {
+        "baseline_models": 7,
+        "context_deltas": 41,
+        "surprising_valid_outliers": 10
+      },
+      "withdrawals": [],
+      "citations_checked": 279,
+      "error_counts": {
+        "trigger_roots_mismatch": 36,
+        "incomplete_occurrence_indices": 16,
+        "nonoccurring_root": 1
+      },
+      "errors": [
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_02_03_trial",
+          "extra": [
+            "ت ر ك"
+          ],
+          "missing": [
+            "ع ل م"
+          ]
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_05_deadline",
+          "extra": [
+            "ك و ن"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_06_self_work",
+          "extra": [
+            "غ ن ي"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_07_counter_evaluation",
+          "extra": [
+            "ح س ن"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_08_household_pressure",
+          "extra": [
+            "و ص ي"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_10_11_inner_hypocrisy",
+          "extra": [
+            "ج ع ل",
+            "ع ل م"
+          ],
+          "missing": []
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "context_deltas[7].activation_trace[3]",
+          "id": "delta_29_12_counterfeit_path",
+          "error": "incorrect source_word_indices at 29:12: ح م ل",
+          "citation": {
+            "source_ref": "29:12",
+            "root": "ح م ل",
+            "source_word_indices": [
+              "8"
+            ],
+            "mapped_root_id": "root_000357",
+            "branch_id": "B003",
+            "role": "Context trigger: bearing assigned moral burden."
+          },
+          "expected_source_word_indices": [
+            "8",
+            "12"
+          ]
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_12_counterfeit_path",
+          "extra": [
+            "خ ط ء",
+            "ق و ل"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_13_accumulated_burden",
+          "extra": [
+            "س ء ل"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_14_15_flood_vessel",
+          "extra": [
+            "ل ب ث"
+          ],
+          "missing": []
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "context_deltas[10].activation_trace[4]",
+          "id": "delta_29_16_18_fabricated_source",
+          "error": "incorrect source_word_indices at 29:17: ر ز ق",
+          "citation": {
+            "source_ref": "29:17",
+            "root": "ر ز ق",
+            "source_word_indices": [
+              "18"
+            ],
+            "mapped_root_id": "root_000560",
+            "branch_id": "B001",
+            "role": "Context trigger: provision as allotted gift."
+          },
+          "expected_source_word_indices": [
+            "18",
+            "22"
+          ]
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "context_deltas[10].activation_trace[5]",
+          "id": "delta_29_16_18_fabricated_source",
+          "error": "incorrect source_word_indices at 29:18: ك ذ ب",
+          "citation": {
+            "source_ref": "29:18",
+            "root": "ك ذ ب",
+            "source_word_indices": [
+              "2"
+            ],
+            "mapped_root_id": "root_001290",
+            "branch_id": "B002",
+            "role": "Context trigger: declaring a message false."
+          },
+          "expected_source_word_indices": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_16_18_fabricated_source",
+          "extra": [
+            "ر ج ع",
+            "ع ب د"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_19_20_observational_route",
+          "extra": [
+            "ع و د"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_21_23_reversal_refuge",
+          "extra": [
+            "ن ص ر",
+            "و ل ي"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_24_fire_sign",
+          "extra": [
+            "ن و ر"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_25_social_shelter",
+          "extra": [
+            "ب ي ن",
+            "ل ع ن"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_27_transmitted_house",
+          "extra": [
+            "ص ل ح"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_28_30_public_path",
+          "extra": [
+            "ف ح ش",
+            "ف س د"
+          ],
+          "missing": []
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "context_deltas[18].activation_trace[2]",
+          "id": "delta_29_31_35_forensic_household",
+          "error": "incorrect source_word_indices at 29:31: ء ه ل",
+          "citation": {
+            "source_ref": "29:31",
+            "root": "ء ه ل",
+            "source_word_indices": [
+              "9"
+            ],
+            "mapped_root_id": "root_000064",
+            "branch_id": "B001",
+            "role": "Context trigger: people bound by household belonging."
+          },
+          "expected_source_word_indices": [
+            "9",
+            "13"
+          ]
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_31_35_forensic_household",
+          "extra": [
+            "ب ش ر",
+            "ج ي ء",
+            "ر س ل",
+            "غ ب ر",
+            "ه ل ك"
+          ],
+          "missing": [
+            "ب ي ن"
+          ]
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_36_37_stilled_dwellings",
+          "extra": [
+            "ر ج و",
+            "ع ب د",
+            "ك ذ ب"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_39_status_race",
+          "extra": [
+            "ك و ن"
+          ],
+          "missing": []
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "context_deltas[21].activation_trace[2]",
+          "id": "delta_29_40_differentiated_seizure",
+          "error": "incorrect source_word_indices at 29:40: ء خ ذ",
+          "citation": {
+            "source_ref": "29:40",
+            "root": "ء خ ذ",
+            "source_word_indices": [
+              "2"
+            ],
+            "mapped_root_id": "root_000018",
+            "branch_id": "B001",
+            "role": "Context trigger: taking possession or seizing."
+          },
+          "expected_source_word_indices": [
+            "2",
+            "11"
+          ]
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_40_differentiated_seizure",
+          "extra": [
+            "ح ص ب",
+            "ذ ن ب",
+            "ص ي ح"
+          ],
+          "missing": []
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "context_deltas[22].activation_trace[2]",
+          "id": "delta_29_41_42_weak_house",
+          "error": "incorrect source_word_indices at 29:41: ع ن ك ب",
+          "citation": {
+            "source_ref": "29:41",
+            "root": "ع ن ك ب",
+            "source_word_indices": [
+              "9"
+            ],
+            "mapped_root_id": "root_001054",
+            "branch_id": "B001",
+            "role": "Context trigger: the spider and its flimsy web."
+          },
+          "expected_source_word_indices": [
+            "9",
+            "16"
+          ]
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "context_deltas[22].activation_trace[3]",
+          "id": "delta_29_41_42_weak_house",
+          "error": "incorrect source_word_indices at 29:41: ب ي ت",
+          "citation": {
+            "source_ref": "29:41",
+            "root": "ب ي ت",
+            "source_word_indices": [
+              "11"
+            ],
+            "mapped_root_id": "root_000166",
+            "branch_id": "B001",
+            "role": "Context trigger: shelter and dwelling."
+          },
+          "expected_source_word_indices": [
+            "11",
+            "14",
+            "15"
+          ]
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_41_42_weak_house",
+          "extra": [
+            "ء خ ذ",
+            "د و ن",
+            "م ث ل",
+            "و ل ي"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_43_parable_sight",
+          "extra": [
+            "ض ر ب"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_44_cosmic_scale",
+          "extra": [
+            "ء م ن"
+          ],
+          "missing": []
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "context_deltas[25].activation_trace[2]",
+          "id": "delta_29_45_counter_practice",
+          "error": "incorrect source_word_indices at 29:45: ص ل و",
+          "citation": {
+            "source_ref": "29:45",
+            "root": "ص ل و",
+            "source_word_indices": [
+              "8"
+            ],
+            "mapped_root_id": "root_000879",
+            "branch_id": "B003",
+            "role": "Context trigger: prescribed ritual prayer."
+          },
+          "expected_source_word_indices": [
+            "8",
+            "10"
+          ]
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_45_counter_practice",
+          "extra": [
+            "ذ ك ر",
+            "ف ح ش"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_46_dialogic_route",
+          "extra": [
+            "ق و ل",
+            "و ح د"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_47_52_internal_witness",
+          "extra": [
+            "ت ل و",
+            "ك ت ب",
+            "ن ز ل"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_53_54_enclosing_deadline",
+          "extra": [
+            "ع ج ل",
+            "ع ذ ب",
+            "ك ف ر"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_55_vertical_outcome",
+          "extra": [
+            "ع م ل",
+            "غ ش و"
+          ],
+          "missing": []
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "context_deltas[30].activation_trace[4]",
+          "id": "delta_29_56_wide_earth",
+          "error": "incorrect source_word_indices at 29:56: ع ب د",
+          "citation": {
+            "source_ref": "29:56",
+            "root": "ع ب د",
+            "source_word_indices": [
+              "8"
+            ],
+            "mapped_root_id": "root_000973",
+            "branch_id": "B003",
+            "role": "Context trigger: worship and submissive obedience."
+          },
+          "expected_source_word_indices": [
+            "1",
+            "8"
+          ]
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_57_universal_return",
+          "extra": [
+            "ذ و ق"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_58_59_good_dwellings",
+          "extra": [
+            "ء ج ر",
+            "ت ح ت",
+            "ج ر ي",
+            "ج ن ن",
+            "خ ل د"
+          ],
+          "missing": []
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "context_deltas[33].activation_trace[4]",
+          "id": "delta_29_60_dependence",
+          "error": "incorrect source_word_indices at 29:60: ر ز ق",
+          "citation": {
+            "source_ref": "29:60",
+            "root": "ر ز ق",
+            "source_word_indices": [
+              "6"
+            ],
+            "mapped_root_id": "root_000560",
+            "branch_id": "B001",
+            "role": "Context trigger: provision as allotted gift."
+          },
+          "expected_source_word_indices": [
+            "6",
+            "8"
+          ]
+        },
+        {
+          "category": "nonoccurring_root",
+          "path": "context_deltas[34].activation_trace[2]",
+          "id": "delta_29_61_creator_acknowledged",
+          "error": "root does not occur at 29:61: ر ء ي",
+          "citation": {
+            "source_ref": "29:61",
+            "root": "ر ء ي",
+            "source_word_indices": [
+              "2"
+            ],
+            "mapped_root_id": "root_000531",
+            "branch_id": "B001",
+            "role": "Context trigger: seeing or perceiving."
+          },
+          "expected_source_word_indices": null
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_62_63_ecological_sign",
+          "extra": [
+            "ب س ط",
+            "ح ي ي",
+            "ن ز ل"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_64_temporary_life",
+          "extra": [
+            "ح ي ي",
+            "د ن و",
+            "د و ر"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_65_sea_land_switch",
+          "extra": [
+            "ب ر ر",
+            "د ع و",
+            "د ي ن",
+            "ن ج و"
+          ],
+          "missing": []
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "context_deltas[38].activation_trace[4]",
+          "id": "delta_29_67_protected_enclave",
+          "error": "incorrect source_word_indices at 29:67: ء م ن",
+          "citation": {
+            "source_ref": "29:67",
+            "root": "ء م ن",
+            "source_word_indices": [
+              "6"
+            ],
+            "mapped_root_id": "root_000054",
+            "branch_id": "B001",
+            "role": "Context trigger: security against fear."
+          },
+          "expected_source_word_indices": [
+            "6",
+            "12"
+          ]
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_67_protected_enclave",
+          "extra": [
+            "ب ط ل",
+            "ح و ل",
+            "ن ع م",
+            "ن و س"
+          ],
+          "missing": []
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "context_deltas[39].activation_trace[3]",
+          "id": "delta_29_68_fabricated_truth",
+          "error": "incorrect source_word_indices at 29:68: ك ذ ب",
+          "citation": {
+            "source_ref": "29:68",
+            "root": "ك ذ ب",
+            "source_word_indices": [
+              "7"
+            ],
+            "mapped_root_id": "root_001290",
+            "branch_id": "B001",
+            "role": "Context trigger: falsehood in speech or action."
+          },
+          "expected_source_word_indices": [
+            "7",
+            "9"
+          ]
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_68_fabricated_truth",
+          "extra": [
+            "ج ي ء",
+            "ك ف ر"
+          ],
+          "missing": []
+        },
+        {
+          "category": "trigger_roots_mismatch",
+          "id": "delta_29_69_guided_paths",
+          "extra": [
+            "س ب ل"
+          ],
+          "missing": []
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "surprising_valid_outliers[1].activation_trace[3]",
+          "id": "outlier_rope_tether_path",
+          "error": "incorrect source_word_indices at 29:12: ح م ل",
+          "citation": {
+            "source_ref": "29:12",
+            "root": "ح م ل",
+            "source_word_indices": [
+              "8"
+            ],
+            "mapped_root_id": "root_000357",
+            "branch_id": "B003",
+            "role": "Context trigger: bearing an assigned burden."
+          },
+          "expected_source_word_indices": [
+            "8",
+            "12"
+          ]
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "surprising_valid_outliers[6].activation_trace[3]",
+          "id": "outlier_work_wage_transaction",
+          "error": "incorrect source_word_indices at 29:12: ح م ل",
+          "citation": {
+            "source_ref": "29:12",
+            "root": "ح م ل",
+            "source_word_indices": [
+              "8"
+            ],
+            "mapped_root_id": "root_000357",
+            "branch_id": "B003",
+            "role": "Context trigger: transferred moral responsibility."
+          },
+          "expected_source_word_indices": [
+            "8",
+            "12"
+          ]
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "surprising_valid_outliers[8].activation_trace[3]",
+          "id": "outlier_gambling_path",
+          "error": "incorrect source_word_indices at 29:12: ح م ل",
+          "citation": {
+            "source_ref": "29:12",
+            "root": "ح م ل",
+            "source_word_indices": [
+              "8"
+            ],
+            "mapped_root_id": "root_000357",
+            "branch_id": "B003",
+            "role": "Context trigger: bearing or transferring a moral load."
+          },
+          "expected_source_word_indices": [
+            "8",
+            "12"
+          ]
+        },
+        {
+          "category": "incomplete_occurrence_indices",
+          "path": "surprising_valid_outliers[9].activation_trace[3]",
+          "id": "outlier_sakan_knife_stilling",
+          "error": "incorrect source_word_indices at 29:40: ء خ ذ",
+          "citation": {
+            "source_ref": "29:40",
+            "root": "ء خ ذ",
+            "source_word_indices": [
+              "2"
+            ],
+            "mapped_root_id": "root_000018",
+            "branch_id": "B001",
+            "role": "Context trigger: seizure or taking."
+          },
+          "expected_source_word_indices": [
+            "2",
+            "11"
+          ]
+        }
+      ],
+      "exported": false,
+      "stages": [
+        {
+          "stage": "discovery",
+          "started_at": "2026-09-06T14:38:53.283562+00:00",
+          "finished_at": "2026-09-06T14:54:22.608294+00:00",
+          "generation_completed": true,
+          "coordinator_exit_code": 0,
+          "usage": {
+            "input_tokens": 219270,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 51320,
+            "reasoning_output_tokens": 41128
+          },
+          "stdin_sha256": "8c559a860806a2e73963d2f0c6bc378873709178671d1ae5ddff9a07e4d6ede0",
+          "service_tier_argument_present": false
+        },
+        {
+          "stage": "ledger",
+          "started_at": "2026-09-06T14:55:13.949069+00:00",
+          "finished_at": "2026-09-06T15:05:50.453979+00:00",
+          "generation_completed": true,
+          "coordinator_exit_code": 1,
+          "usage": {
+            "input_tokens": 273268,
+            "cached_input_tokens": 218880,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 35109,
+            "reasoning_output_tokens": 12328
+          },
+          "stdin_sha256": "d9d21c98ae765ed18423e2425aea84eb7938d880e18192076283e00e491288f2",
+          "service_tier_argument_present": false
+        }
+      ]
+    }
+  ]
+}
