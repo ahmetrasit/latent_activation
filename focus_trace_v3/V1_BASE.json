@@ -1,0 +1,35 @@
+{
+  "base_commit": "c114490f",
+  "base_workflow": "focus_trace",
+  "includes_uncommitted_v1_alignment_repair": true,
+  "copied_files": {
+    "scripts/build_focus_trace_packet.py": {
+      "source": "focus_trace/scripts/build_focus_trace_packet.py",
+      "sha256": "5791d244873a546e89d90bad49fb0e90222940c557f87321c4577bfe48558cab"
+    },
+    "scripts/build_pericope_focus_trace_packet.py": {
+      "source": "focus_trace/scripts/build_pericope_focus_trace_packet.py",
+      "sha256": "47661be12ec8a788187411750582c02a2deb1807a37e19db5d1578647ea852fe"
+    },
+    "scripts/validate_focus_trace.py": {
+      "source": "focus_trace/scripts/validate_focus_trace.py",
+      "sha256": "8a50768e3bcd0bab102910049df612f3e485f569184703ed21df80259f441329"
+    },
+    "data/root_mapping_repairs.json": {
+      "source": "focus_trace/data/root_mapping_repairs.json",
+      "sha256": "eb5ba55171fcccf5236710f4eda4ef2c8caba0111a79b8ee06035ae9939580be"
+    },
+    "schemas/focus-trace-response.schema.json": {
+      "source": "focus_trace/schemas/focus-trace-response.schema.json",
+      "sha256": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+    },
+    "prompts/focus_trace_hermetic.md": {
+      "source": "focus_trace/prompts/focus_trace_hermetic.md",
+      "sha256": "373a2c464d427490761438917b4de9e9fc44933dee9c204f6b44dbfba6c10107"
+    },
+    "scripts/build_alignment_repairs.py": {
+      "source": "focus_trace/scripts/build_alignment_repairs.py",
+      "sha256": "6b39adcb06c7ab781c8b508836d948a462d810ad071f32855eb6699bbe9e97d6"
+    }
+  }
+}

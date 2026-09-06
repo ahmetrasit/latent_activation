@@ -55,6 +55,11 @@ generation reports:
 
 ## Building Packets
 
+The 83:1 ط ف ف mapping is supplied by a scoped correction derived from quran-data's
+accepted QAC/MASAQ bridge. Both packet builders apply it automatically. The saved
+83:1 input is repaired, with its original input archived for the historical reader.
+See [the repair record](repairs/83_1/README.md).
+
 Build a lean packet for a fixed pericope/window:
 
 ```bash

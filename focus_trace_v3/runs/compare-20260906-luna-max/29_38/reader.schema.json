@@ -1,0 +1,315 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://latent-activation.local/focus-trace-v3-reader.schema.json",
+  "title": "HFT v3 reader response with resolvable evidence handles",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "protocol",
+    "reader_id",
+    "focus_ref",
+    "trace_kind",
+    "baseline_models",
+    "context_deltas",
+    "surprising_valid_outliers",
+    "summary"
+  ],
+  "properties": {
+    "protocol": {
+      "const": "focus-trace-v3-reader-response-v1"
+    },
+    "reader_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "focus_ref": {
+      "type": "string",
+      "pattern": "^[0-9]+:[0-9]+$"
+    },
+    "trace_kind": {
+      "const": "reconstructed"
+    },
+    "baseline_models": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/baseline_model"
+      },
+      "minItems": 1
+    },
+    "context_deltas": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/context_delta"
+      }
+    },
+    "surprising_valid_outliers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/surprising_valid_outlier"
+      }
+    },
+    "discarded_or_unchanged": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "strongest_changes",
+        "what_was_special",
+        "remaining_uncertainties"
+      ],
+      "properties": {
+        "strongest_changes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "what_was_special": {
+          "type": "string",
+          "minLength": 1
+        },
+        "remaining_uncertainties": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "rootless_focus": {
+      "const": true
+    }
+  },
+  "$defs": {
+    "baseline_model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_id",
+        "confidence",
+        "focus_anchor",
+        "mechanism",
+        "activation_trace",
+        "changed_reading"
+      ],
+      "properties": {
+        "model_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "confidence": {
+          "enum": [
+            "strong",
+            "medium",
+            "exploratory"
+          ]
+        },
+        "focus_anchor": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mechanism": {
+          "type": "string",
+          "minLength": 1
+        },
+        "activation_trace": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/trace_entry"
+          }
+        },
+        "changed_reading": {
+          "$ref": "#/$defs/changed_reading"
+        }
+      }
+    },
+    "context_delta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_id",
+        "status",
+        "confidence",
+        "mechanism",
+        "activation_trace",
+        "structural_cues",
+        "reader_inference",
+        "changed_reading"
+      ],
+      "properties": {
+        "model_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "new",
+            "strengthened",
+            "weakened",
+            "revised",
+            "discarded"
+          ]
+        },
+        "confidence": {
+          "enum": [
+            "strong",
+            "medium",
+            "exploratory"
+          ]
+        },
+        "mechanism": {
+          "type": "string",
+          "minLength": 1
+        },
+        "activation_trace": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/trace_entry"
+          },
+          "minItems": 1
+        },
+        "structural_cues": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "reader_inference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "changed_reading": {
+          "$ref": "#/$defs/changed_reading"
+        },
+        "minimal_triggers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "ablation": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "surprising_valid_outlier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "outlier_id",
+        "confidence",
+        "containment",
+        "focus_anchor",
+        "activation_trace",
+        "changed_reading"
+      ],
+      "properties": {
+        "outlier_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "confidence": {
+          "enum": [
+            "medium",
+            "exploratory"
+          ]
+        },
+        "containment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "focus_anchor": {
+          "type": "string",
+          "minLength": 1
+        },
+        "activation_trace": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/trace_entry"
+          },
+          "minItems": 1
+        },
+        "changed_reading": {
+          "$ref": "#/$defs/changed_reading"
+        }
+      }
+    },
+    "trace_entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "occurrence_id",
+        "branch_key",
+        "role"
+      ],
+      "properties": {
+        "occurrence_id": {
+          "type": "string",
+          "pattern": "^[1-9][0-9]*:[0-9]+/r[0-9]{2,}$"
+        },
+        "branch_key": {
+          "type": "string",
+          "pattern": "^root_[0-9]{6}/B[0-9]{3}$"
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "changed_reading": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "before",
+        "after"
+      ],
+      "properties": {
+        "before": {
+          "type": "string",
+          "minLength": 1
+        },
+        "after": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "not": {
+          "required": [
+            "rootless_focus"
+          ]
+        }
+      },
+      "then": {
+        "properties": {
+          "baseline_models": {
+            "items": {
+              "properties": {
+                "activation_trace": {
+                  "minItems": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

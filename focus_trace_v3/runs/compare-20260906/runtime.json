@@ -1,0 +1,348 @@
+{
+  "sol": {
+    "thread_id": "01a07784-04c9-71c3-b26a-b60abef953f2",
+    "launch": {
+      "started_at": "2026-09-06T16:18:55.726232+00:00",
+      "argv": [
+        "codex",
+        "-a",
+        "never",
+        "exec",
+        "--ignore-user-config",
+        "--strict-config",
+        "--skip-git-repo-check",
+        "-s",
+        "read-only",
+        "-C",
+        "/var/folders/rg/bw13sfkn0fdb6zxbhx0sbt9m0000gn/T/hft-v3-29-38-sol-bw7xoi5g",
+        "-m",
+        "gpt-5.6-sol",
+        "-c",
+        "model_reasoning_effort=\"max\"",
+        "-c",
+        "model_instructions_file=\"/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/compare-20260906-sol-max/29_38/prompt.md\"",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "web_search=\"disabled\"",
+        "--enable",
+        "skip_host_skill_discovery",
+        "--disable",
+        "apps",
+        "--disable",
+        "plugins",
+        "--disable",
+        "shell_tool",
+        "--disable",
+        "multi_agent",
+        "--disable",
+        "multi_agent_v2",
+        "--disable",
+        "browser_use",
+        "--disable",
+        "computer_use",
+        "--disable",
+        "image_generation",
+        "--disable",
+        "view_image",
+        "--disable",
+        "memories",
+        "--disable",
+        "hooks",
+        "--disable",
+        "skill_search",
+        "--disable",
+        "code_mode_host",
+        "--disable",
+        "sleep_tool",
+        "--disable",
+        "goals",
+        "--disable",
+        "shell_snapshot",
+        "--disable",
+        "unbounded_connection_retries",
+        "--json",
+        "--color",
+        "never",
+        "-o",
+        "/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/compare-20260906-sol-max/29_38/reader.response.json",
+        "-"
+      ],
+      "stdin_sha256": "9ba4b5fa2aa690a302d545644c85deb36326adc62ca96ca5b069df8bebbda2a9",
+      "stdin_bytes": 722073,
+      "profile": {
+        "model": "gpt-5.6-sol",
+        "reasoning_effort": "max"
+      },
+      "service_tier_override": null,
+      "fresh_session": true,
+      "inputs": {
+        "source.json": "95cd70020d03649dbc28444a5fb545185a739c460e6db81b72e0ac74915b3833",
+        "packet.json": "929049fd7778b466886bef88033d176d7499f5243e35e44058ea2be6514abac1",
+        "prompt.md": "103d1871b6a83104bde25cf4e7a0e0e7257c4dd830a6be647c216cec49d7226d",
+        "reader.schema.json": "77f3048c82443bb23ee872c4640665381468d17f524d8fc87b0fe984ae147596",
+        "ledger.schema.json": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "state": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 802.5745210989844,
+      "finished_at": "2026-09-06T16:32:18.328063+00:00"
+    },
+    "turn_contexts": [
+      {
+        "model": "gpt-5.6-sol",
+        "effort": "max",
+        "cwd": "/var/folders/rg/bw13sfkn0fdb6zxbhx0sbt9m0000gn/T/hft-v3-29-38-sol-bw7xoi5g",
+        "approval_policy": "never",
+        "sandbox_policy": {
+          "type": "read-only"
+        }
+      }
+    ],
+    "profile_matches": true,
+    "base_prompt_matches": true,
+    "base_prompt_normalization": "CLI strips the terminal newline; all other prompt text is identical",
+    "inline_inputs": [
+      {
+        "sha256": "9ba4b5fa2aa690a302d545644c85deb36326adc62ca96ca5b069df8bebbda2a9",
+        "bytes": 722073
+      }
+    ],
+    "complete_inline_delivery": true,
+    "ambient_developer_messages": [
+      {
+        "prefix": "<skills_instructions>\n## Skills\nA skill is a set of local instructions to follow that is s",
+        "sha256": "7a7ada2f11038eae8658f680a030768382832bf688472baf00a05e8a74346c40",
+        "characters": 2487
+      },
+      {
+        "prefix": "<permissions instructions>\nFilesystem sandboxing defines which files can be read or writte",
+        "sha256": "29dad5ed6993c5e717376e0a1c84d54ab60ee593510916ac6cee4295e803315d",
+        "characters": 341
+      },
+      {
+        "prefix": "You are `/root`, the primary agent in a team of agents collaborating to fulfill the user's",
+        "sha256": "af60719c7b64906bd05733aec72a96726712fe25d382a7bc9e05a6733cfd67dc",
+        "characters": 2264
+      },
+      {
+        "prefix": "<multi_agent_mode>Any earlier instruction enabling proactive multi-agent delegation no lon",
+        "sha256": "6ded806e3cdbb35599ecaf8742574bc5274908472b1729090010c404c2151e8e",
+        "characters": 271
+      }
+    ],
+    "tool_calls": [],
+    "event_counts": {
+      "task_started": 1,
+      "item_completed": 54,
+      "token_count": 1,
+      "task_complete": 1
+    },
+    "completed_turns": 1,
+    "usage": {
+      "total_token_usage": {
+        "input_tokens": 185362,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 37921,
+        "reasoning_output_tokens": 26459,
+        "total_tokens": 223283
+      },
+      "last_token_usage": {
+        "input_tokens": 185362,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 37921,
+        "reasoning_output_tokens": 26459,
+        "total_tokens": 223283
+      },
+      "model_context_window": 258400
+    },
+    "cli_completed_events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 185362,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 37921,
+          "reasoning_output_tokens": 26459
+        }
+      }
+    ],
+    "startup_warnings": [
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/ahmetrasit/.codex/config.toml.",
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+    ],
+    "raw_final_matches_event": true,
+    "raw_sha256": "2f113d8d53ff6cf16e813b4265863c41293cd7c5de0e3f640777614bc1e7e628"
+  },
+  "luna": {
+    "thread_id": "01a07784-04c9-72a1-819e-412e20317ced",
+    "launch": {
+      "started_at": "2026-09-06T16:18:55.726771+00:00",
+      "argv": [
+        "codex",
+        "-a",
+        "never",
+        "exec",
+        "--ignore-user-config",
+        "--strict-config",
+        "--skip-git-repo-check",
+        "-s",
+        "read-only",
+        "-C",
+        "/var/folders/rg/bw13sfkn0fdb6zxbhx0sbt9m0000gn/T/hft-v3-29-38-luna-o5ot683l",
+        "-m",
+        "gpt-5.6-luna",
+        "-c",
+        "model_reasoning_effort=\"max\"",
+        "-c",
+        "model_instructions_file=\"/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/compare-20260906-luna-max/29_38/prompt.md\"",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "web_search=\"disabled\"",
+        "--enable",
+        "skip_host_skill_discovery",
+        "--disable",
+        "apps",
+        "--disable",
+        "plugins",
+        "--disable",
+        "shell_tool",
+        "--disable",
+        "multi_agent",
+        "--disable",
+        "multi_agent_v2",
+        "--disable",
+        "browser_use",
+        "--disable",
+        "computer_use",
+        "--disable",
+        "image_generation",
+        "--disable",
+        "view_image",
+        "--disable",
+        "memories",
+        "--disable",
+        "hooks",
+        "--disable",
+        "skill_search",
+        "--disable",
+        "code_mode_host",
+        "--disable",
+        "sleep_tool",
+        "--disable",
+        "goals",
+        "--disable",
+        "shell_snapshot",
+        "--disable",
+        "unbounded_connection_retries",
+        "--json",
+        "--color",
+        "never",
+        "-o",
+        "/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/compare-20260906-luna-max/29_38/reader.response.json",
+        "-"
+      ],
+      "stdin_sha256": "2592cc15d7ce64bc9a99788c4dd407fb41412307a87b554984676a7a67875fb3",
+      "stdin_bytes": 722074,
+      "profile": {
+        "model": "gpt-5.6-luna",
+        "reasoning_effort": "max"
+      },
+      "service_tier_override": null,
+      "fresh_session": true,
+      "inputs": {
+        "source.json": "95cd70020d03649dbc28444a5fb545185a739c460e6db81b72e0ac74915b3833",
+        "packet.json": "929049fd7778b466886bef88033d176d7499f5243e35e44058ea2be6514abac1",
+        "prompt.md": "644f6ca1b3c1560a9061c68d962edacf652b7e8349b8ea0c416f22bc2b6cd8a5",
+        "reader.schema.json": "77f3048c82443bb23ee872c4640665381468d17f524d8fc87b0fe984ae147596",
+        "ledger.schema.json": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "state": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 892.5953691139584,
+      "finished_at": "2026-09-06T16:33:48.275283+00:00"
+    },
+    "turn_contexts": [
+      {
+        "model": "gpt-5.6-luna",
+        "effort": "max",
+        "cwd": "/var/folders/rg/bw13sfkn0fdb6zxbhx0sbt9m0000gn/T/hft-v3-29-38-luna-o5ot683l",
+        "approval_policy": "never",
+        "sandbox_policy": {
+          "type": "read-only"
+        }
+      }
+    ],
+    "profile_matches": true,
+    "base_prompt_matches": true,
+    "base_prompt_normalization": "CLI strips the terminal newline; all other prompt text is identical",
+    "inline_inputs": [
+      {
+        "sha256": "2592cc15d7ce64bc9a99788c4dd407fb41412307a87b554984676a7a67875fb3",
+        "bytes": 722074
+      }
+    ],
+    "complete_inline_delivery": true,
+    "ambient_developer_messages": [
+      {
+        "prefix": "<skills_instructions>\n## Skills\nA skill is a set of local instructions to follow that is s",
+        "sha256": "7a7ada2f11038eae8658f680a030768382832bf688472baf00a05e8a74346c40",
+        "characters": 2487
+      },
+      {
+        "prefix": "<permissions instructions>\nFilesystem sandboxing defines which files can be read or writte",
+        "sha256": "29dad5ed6993c5e717376e0a1c84d54ab60ee593510916ac6cee4295e803315d",
+        "characters": 341
+      }
+    ],
+    "tool_calls": [],
+    "event_counts": {
+      "task_started": 1,
+      "item_completed": 72,
+      "token_count": 1,
+      "task_complete": 1
+    },
+    "completed_turns": 1,
+    "usage": {
+      "total_token_usage": {
+        "input_tokens": 183847,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 49346,
+        "reasoning_output_tokens": 35991,
+        "total_tokens": 233193
+      },
+      "last_token_usage": {
+        "input_tokens": 183847,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 49346,
+        "reasoning_output_tokens": 35991,
+        "total_tokens": 233193
+      },
+      "model_context_window": 258400
+    },
+    "cli_completed_events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 183847,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 49346,
+          "reasoning_output_tokens": 35991
+        }
+      }
+    ],
+    "startup_warnings": [
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/ahmetrasit/.codex/config.toml.",
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+    ],
+    "raw_final_matches_event": true,
+    "raw_sha256": "6610d7f07e8a4d9a3cf4e6d20ebcf016b0d761ef105ce4e2fcd83b02d39fb64e"
+  }
+}
