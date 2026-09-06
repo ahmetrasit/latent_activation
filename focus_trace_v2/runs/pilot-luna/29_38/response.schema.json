@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HFT v2 reconstructed discovery response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["protocol", "reader_id", "focus_ref", "trace_kind", "input_identity", "baseline_models", "context_deltas", "surprising_valid_outliers", "summary"],
+  "properties": {
+    "protocol": {"const": "hft-v2-response-v1"},
+    "reader_id": {"$ref": "#/$defs/text"},
+    "focus_ref": {"$ref": "#/$defs/ref"},
+    "trace_kind": {"const": "reconstructed"},
+    "input_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["packet_sha256", "prompt_sha256", "schema_sha256"],
+      "properties": {
+        "packet_sha256": {"$ref": "#/$defs/hash"},
+        "prompt_sha256": {"$ref": "#/$defs/hash"},
+        "schema_sha256": {"$ref": "#/$defs/hash"}
+      }
+    },
+    "baseline_models": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/finding"}},
+    "context_deltas": {"type": "array", "items": {"$ref": "#/$defs/finding"}},
+    "surprising_valid_outliers": {"type": "array", "items": {"$ref": "#/$defs/finding"}},
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ordinary_reading", "coexisting_readings", "unresolved_limits"],
+      "properties": {
+        "ordinary_reading": {"$ref": "#/$defs/text"},
+        "coexisting_readings": {"type": "array", "items": {"$ref": "#/$defs/text"}},
+        "unresolved_limits": {"type": "array", "items": {"$ref": "#/$defs/text"}}
+      }
+    }
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "ref": {"type": "string", "pattern": "^[1-9][0-9]*:[0-9]+$"},
+    "hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "anchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quote_ar", "role"],
+      "properties": {
+        "quote_ar": {"$ref": "#/$defs/text"},
+        "role": {"$ref": "#/$defs/text"}
+      }
+    },
+    "text_citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_ref", "quote_ar", "role"],
+      "properties": {
+        "source_ref": {"$ref": "#/$defs/ref"},
+        "quote_ar": {"$ref": "#/$defs/text"},
+        "role": {"$ref": "#/$defs/text"}
+      }
+    },
+    "branch_citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_ref", "root", "source_word_indices", "mapped_root_id", "branch_id", "variant_id", "role"],
+      "properties": {
+        "source_ref": {"$ref": "#/$defs/ref"},
+        "root": {"$ref": "#/$defs/text"},
+        "source_word_indices": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^[1-9][0-9]*$"}},
+        "mapped_root_id": {"$ref": "#/$defs/text"},
+        "branch_id": {"$ref": "#/$defs/text"},
+        "variant_id": {"type": "string", "pattern": "^V[0-9]{3,}$"},
+        "role": {"$ref": "#/$defs/text"}
+      }
+    },
+    "change": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["before", "after"],
+      "properties": {
+        "before": {"$ref": "#/$defs/text"},
+        "after": {"$ref": "#/$defs/text"}
+      }
+    },
+    "finding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model_id", "reading", "status", "focus_anchor", "activation_trace", "structural_cues", "mechanism", "changed_reading", "reader_inference", "containment"],
+      "properties": {
+        "model_id": {"$ref": "#/$defs/text"},
+        "reading": {"$ref": "#/$defs/text"},
+        "status": {"type": "string", "enum": ["supported", "exploratory"]},
+        "focus_anchor": {"$ref": "#/$defs/anchor"},
+        "activation_trace": {"type": "array", "items": {"$ref": "#/$defs/branch_citation"}},
+        "structural_cues": {"type": "array", "items": {"$ref": "#/$defs/text_citation"}},
+        "mechanism": {"$ref": "#/$defs/text"},
+        "changed_reading": {"$ref": "#/$defs/change"},
+        "reader_inference": {"$ref": "#/$defs/text"},
+        "containment": {"$ref": "#/$defs/text"}
+      }
+    }
+  }
+}
