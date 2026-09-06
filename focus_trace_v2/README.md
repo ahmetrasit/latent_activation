@@ -2,7 +2,9 @@
 
 An isolated workflow under `focus_trace_v2/`; the original `focus_trace/` and
 prose_generation V5 are unchanged. The workflow remains **one packet → one reader
-→ one response**. Preparation, validation, and export are offline. They never
+→ one final response**. The default is one pass; an optional two-pass mode separates
+discovery notes from the final ledger in the same conversation. Preparation,
+validation, and export are offline. They never
 launch a model, retry a reader, or automatically promote results.
 
 ## Restored v1 reader contract
@@ -91,6 +93,75 @@ focus_trace/schemas/focus-trace-response.schema.json
 The coordinator-only files are `job.json` and `source.packet.json`. The output
 is `response.json`. The coordinator supplies the assigned `reader_id` from the
 job when launching a reader.
+
+## Optional two-pass mode
+
+Prepare a new job with `--two-stage`; existing jobs and the one-pass default are
+unchanged:
+
+```bash
+python3 focus_trace_v2/workflow.py prepare --ayah 29:38 --run two-pass-pilot --two-stage --model gpt-5.6-sol --reasoning-effort max
+python3 focus_trace_v2/run_inline_reader.py focus_trace_v2/runs/two-pass-pilot/29_38 --stage discovery --inspect
+```
+
+This is an implementation option, not approval to generate. The mode freezes two
+additional prompts outside the linguistic packet:
+
+- `discovery.prompt.md` comes from `prompts/discovery_two_stage.md`. It preserves
+  v1's heading order, introduction/profile, **Reader Posture**, and **Core Task**;
+  its outlier/discovery-goal paragraphs in **Output** also remain verbatim.
+  Preparation verifies this protected text byte-for-byte. Source/stage and
+  reporting/output instructions are the only adaptations. The complete packet
+  and v1's evidence boundaries remain; the final ledger schema is not delivered
+  during discovery.
+- `ledger.prompt.md` combines `prompts/ledger_followup.md` with v1's **Required
+  Evidence Discipline** and **Output** sections verbatim. It is a neutral reporting
+  follow-up, not new evidence, a gold answer, or an evaluation of the notes.
+
+Discovery writes `discovery.json`: the three v1 finding arrays, each entry with
+only `id`, `discovery`, and `cues` strings. These are explicit lightweight notes,
+not a full ledger or unrecorded reasoning. The final pass writes the unchanged
+v1 `response.json` contract. It keeps the candidate IDs and meanings; a candidate
+that fails anchoring/change requirements must be accounted for explicitly as
+`ID: specific reason` in v1's existing `discarded_or_unchanged` array.
+
+After generation is explicitly approved, run each stage separately:
+
+```bash
+python3 focus_trace_v2/run_inline_reader.py focus_trace_v2/runs/two-pass-pilot/29_38 --stage discovery
+# Wait for successful completion before requesting the ledger.
+python3 focus_trace_v2/run_inline_reader.py focus_trace_v2/runs/two-pass-pilot/29_38 --stage ledger --inspect
+python3 focus_trace_v2/run_inline_reader.py focus_trace_v2/runs/two-pass-pilot/29_38 --stage ledger
+python3 focus_trace_v2/workflow.py validate focus_trace_v2/runs/two-pass-pilot/29_38
+python3 focus_trace_v2/workflow.py export focus_trace_v2/runs/two-pass-pilot/29_38
+```
+
+Each launch makes **one call only**. Discovery never starts the ledger
+automatically. Ledger continuation uses `codex exec resume` with the exact session
+UUID recorded by the successful discovery call—not `--last`, a fork, or a fresh
+reader. Both calls pin the same model and effort, use the same discovery base
+instructions, and omit service-tier overrides. The full packet remains in that
+conversation; the follow-up sends only reporting instructions and the schema.
+Both stage requests explicitly prohibit reading or using outputs from earlier
+runs or other agents; only that reader's own discovery notes from this run are
+permitted as prior output. No comparison hints are supplied.
+
+The coordinator checks local runtime metadata for the requested profile, the
+expected one or two completed turns, and no context compaction. Missing runtime
+records, intervening turns, altered notes/inputs, unsuccessful handoffs, and wrong
+session completions stop the run. Final validation requires every discovery ID exactly once,
+retained or explicitly withdrawn, in addition to v1's normal schema/citation
+checks. This catches silent ID loss or replacement; it **cannot mechanically
+prove semantic preservation** under an unchanged ID. Exports preserve both the
+notes and the complete ledger. Invalid model outputs remain unmodified apart
+from formatting-only final JSON compaction; no semantic repair or paid retry is
+automatic. Execution receipts and hashes stay outside the linguistic packet.
+
+Preflight must allow for the complete packet, discovery notes, follow-up, schema,
+and final output together. A second turn is not automatically cheaper, and this
+implementation does not establish a quality or cost improvement. The stage and
+failure-path tests mock all model calls; a live two-pass pilot needs separate
+approval. No input is pruned, and the known 83:1 upstream bridge gap is unchanged.
 
 ## Run only with explicit generation approval
 

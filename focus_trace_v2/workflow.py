@@ -32,6 +32,7 @@ EVIDENCE_PROTOCOL = "hft-v2-evidence-v1"
 MODELS = ("gpt-5.6-luna", "gpt-5.6-terra", "gpt-5.6-sol", "gpt-6-astra")
 REASONING_EFFORTS = ("medium", "max")
 SECTIONS = ("baseline_models", "context_deltas", "surprising_valid_outliers")
+TWO_STAGE_PROMPTS = ("discovery.prompt.md", "ledger.prompt.md")
 VARIANT_FIELDS = ("root_id", "source_path", "image_ar", "image_en", "scope_ar", "scope_en")
 LINGUISTIC_VARIANT_FIELDS = ("image_ar", "image_en", "scope_ar", "scope_en")
 SCHEMA_KEYWORDS = {"$schema", "$id", "$defs", "$ref", "title", "description", "type", "const", "enum",
@@ -611,9 +612,74 @@ def profile_prompt(prompt: bytes, model: str, reasoning_effort: str) -> bytes:
     return prompt.replace(original, requested, 1)
 
 
+def prompt_sections(prompt: bytes) -> dict[str | bytes, bytes]:
+    parts = re.split(rb"(?m)^(## [^\n]+\n)", prompt)
+    headings = parts[1::2]
+    require(len(headings) == len(set(headings)), "duplicate prompt heading")
+    return {"intro": parts[0], **dict(zip(headings, parts[2::2]))}
+
+
+def two_stage_prompts(prompt: bytes, model: str, effort: str) -> dict[str, bytes]:
+    discovery = profile_prompt((WORKFLOW_ROOT / "prompts/discovery_two_stage.md").read_bytes(), model, effort)
+    original, staged = prompt_sections(prompt), prompt_sections(discovery)
+    require(list(original) == list(staged), "two-stage prompt must preserve v1 heading order")
+    for section in ("intro", b"## Reader Posture\n", b"## Core Task\n"):
+        require(staged[section] == original[section], f"two-stage changed protected v1 section: {section}")
+    discovery_goal = prompt.split(b"For `surprising_valid_outliers`, record readings", 1)[1].split(b"\nAfter writing valid JSON", 1)[0]
+    require(b"For `surprising_valid_outliers`, record readings" + discovery_goal in discovery,
+            "two-stage changed v1's discovery goal in Output")
+    reporting = b"## Required Evidence Discipline\n" + prompt.split(b"## Required Evidence Discipline\n", 1)[1]
+    followup = (WORKFLOW_ROOT / "prompts/ledger_followup.md").read_bytes() + b"\n" + reporting
+    return dict(zip(TWO_STAGE_PROMPTS, (discovery, followup)))
+
+
+def validate_discovery(notes: dict) -> set[str]:
+    """Check lightweight handoff structure, not interpretation or discovery quality."""
+    require(isinstance(notes, dict) and set(notes) == set(SECTIONS), "discovery needs the three v1 finding arrays")
+    identifiers = set()
+    for section in SECTIONS:
+        require(isinstance(notes[section], list), f"discovery {section} must be an array")
+        for item in notes[section]:
+            require(isinstance(item, dict) and set(item) == {"id", "discovery", "cues"}, "discovery entry needs id, discovery, cues only")
+            require(all(isinstance(value, str) and value.strip() for value in item.values()), "empty discovery note")
+            require(re.fullmatch(r"[A-Za-z0-9_-]+", item["id"]) is not None, "unsafe discovery ID")
+            require(item["id"] not in identifiers, "duplicate discovery ID")
+            identifiers.add(item["id"])
+    require(notes["baseline_models"], "discovery needs a focus-only baseline")
+    return identifiers
+
+
+def completed_discovery(job_dir: Path, job: dict) -> tuple[dict, dict]:
+    notes = read_json(job_dir / "discovery.json")
+    validate_discovery(notes)
+    receipt = read_json(job_dir / "discovery.result.json")
+    require(receipt["exit_code"] == 0, "discovery did not complete successfully")
+    require(receipt["discovery_sha256"] == digest((job_dir / "discovery.json").read_bytes()), "discovery notes changed after completion")
+    require(receipt["input_identity"] == job["input_identity"] and receipt["two_stage_inputs"] == job["two_stage_inputs"],
+            "discovery receipt belongs to different inputs")
+    require(receipt["requested_profile"] == job["requested_profile"], "discovery profile mismatch")
+    require(re.fullmatch(r"[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}", receipt["thread_id"]) is not None,
+            "discovery needs an explicit session UUID")
+    return notes, receipt
+
+
+def validate_candidate_coverage(notes: dict, response: dict) -> None:
+    expected = validate_discovery(notes)
+    accounted = []
+    for section in SECTIONS:
+        accounted.extend(item["outlier_id" if section == "surprising_valid_outliers" else "model_id"] for item in response[section])
+    for note in response.get("discarded_or_unchanged", []):
+        match = re.fullmatch(r"([A-Za-z0-9_-]+):\s*(\S[\s\S]*)", note)
+        require(match is not None, "two-stage withdrawal needs ID: specific reason")
+        accounted.append(match[1])
+    require(len(accounted) == len(set(accounted)), "candidate retained or withdrawn more than once")
+    require(set(accounted) == expected,
+            f"candidate coverage mismatch; missing={sorted(expected - set(accounted))}, extra={sorted(set(accounted) - expected)}")
+
+
 def write_job(job_dir: Path, packet: dict, source_files: list, *, model: str = "gpt-5.6-sol",
               reasoning_effort: str = "max", reader_id: str = "reader_hft_a",
-              selection: dict | None = None) -> dict:
+              selection: dict | None = None, two_stage: bool = False) -> dict:
     """Freeze a NEW job. Refuse every overwrite, including partial prior preparation."""
     require(model in MODELS, "unsupported model profile")
     require(reasoning_effort in REASONING_EFFORTS, "unsupported reasoning effort")
@@ -646,6 +712,10 @@ def write_job(job_dir: Path, packet: dict, source_files: list, *, model: str = "
         "builder_files": snapshot([Path(__file__), SOURCE_LOADER, REPO_ROOT / "v12/scripts/build_packets.py"]),
         "selection": selection or {"mode": "explicit_window"},
     }
+    if two_stage:
+        extra = two_stage_prompts(prompt, model, reasoning_effort)
+        frozen.update(extra)
+        job["two_stage_inputs"] = {name: digest(data) for name, data in extra.items()}
     frozen["job.json"] = json_bytes(job)
     job_dir.mkdir(parents=True, exist_ok=False)
     for name, data in frozen.items():
@@ -656,13 +726,20 @@ def write_job(job_dir: Path, packet: dict, source_files: list, *, model: str = "
     return job
 
 
-def load_job(job_dir: Path, *, require_response: bool = True) -> tuple[dict, dict, dict | None]:
+def load_job(job_dir: Path, *, require_response: bool = True,
+             require_ledger_completion: bool = True) -> tuple[dict, dict, dict | None]:
     job = read_json(job_dir / "job.json")
     require(job["protocol"] in {JOB_PROTOCOL, PREVIOUS_JOB_PROTOCOL, LEGACY_JOB_PROTOCOL}, "not an HFT v2 job")
     require(set(job["input_identity"]) == {"packet_sha256", "prompt_sha256", "schema_sha256"}, "incomplete input identity")
     packet_name, schema_name = reader_filenames(job)
     for filename, key in ((packet_name, "packet_sha256"), ("prompt.md", "prompt_sha256"), (schema_name, "schema_sha256")):
         require(digest((job_dir / filename).read_bytes()) == job["input_identity"][key], f"frozen input changed: {filename}")
+    if "two_stage_inputs" in job:
+        require(job["protocol"] == JOB_PROTOCOL and set(job["two_stage_inputs"]) == set(TWO_STAGE_PROMPTS), "invalid two-stage job")
+        for filename, expected in job["two_stage_inputs"].items():
+            require(digest((job_dir / filename).read_bytes()) == expected, f"frozen input changed: {filename}")
+        if (job_dir / "discovery.json").exists():
+            validate_discovery(read_json(job_dir / "discovery.json"))
     packet = read_json(job_dir / packet_name)
     if job["protocol"] == LEGACY_JOB_PROTOCOL:
         assignment = read_json(job_dir / "assignment.json")
@@ -691,6 +768,14 @@ def load_job(job_dir: Path, *, require_response: bool = True) -> tuple[dict, dic
     if require_response or response_path.exists():
         response = read_json(response_path)
         validate_response(response, packet, job, read_json(job_dir / schema_name))
+        if "two_stage_inputs" in job:
+            notes, discovery = completed_discovery(job_dir, job)
+            validate_candidate_coverage(notes, response)
+            if require_ledger_completion:
+                receipt = read_json(job_dir / "ledger.result.json")
+                require(receipt["exit_code"] == 0 and receipt.get("response_valid") is True, "ledger did not complete successfully")
+                require(receipt["thread_id"] == discovery["thread_id"], "ledger session differs from discovery")
+                require(receipt["response_sha256"] == digest(response_path.read_bytes()), "ledger changed after completion")
     return job, packet, response
 
 
@@ -731,6 +816,9 @@ def export_job(job_dir: Path) -> Path:
     if job["protocol"] != LEGACY_JOB_PROTOCOL:
         evidence.update(reader_id=job["reader_id"], response_protocol=job["response_protocol"],
                         source_packet_sha256=job["source_packet_sha256"], binding="coordinator_job_directory")
+    if "two_stage_inputs" in job:
+        notes, _ = completed_discovery(job_dir, job)
+        evidence.update(discovery_notes=notes, two_stage_inputs=copy.deepcopy(job["two_stage_inputs"]))
     data = json_bytes(evidence)
     if output.exists():
         require(output.read_bytes() == data, "evidence.json already exists with different content; use a new job")
@@ -752,6 +840,7 @@ def main() -> None:
     prepare.add_argument("--model", choices=MODELS, default="gpt-5.6-sol")
     prepare.add_argument("--reasoning-effort", choices=REASONING_EFFORTS, default="max")
     prepare.add_argument("--reader-id", default="reader_hft_a")
+    prepare.add_argument("--two-stage", action="store_true", help="opt in to discovery notes, then same-session v1 ledger; no generation")
     validate = commands.add_parser("validate", help="validate frozen inputs AND response")
     validate.add_argument("job_dir", type=Path)
     validate.add_argument("--inputs-only", action="store_true", help="allow no response; still check it if one exists")
@@ -781,7 +870,8 @@ def main() -> None:
                 selection = {"mode": "legacy_window_only", "path": str(old_path.resolve()), "sha256": digest(old_data)}
             packet, source_files = build_packet(focus, window, remote_orientation=remote)
             job = write_job(job_dir, packet, source_files, model=args.model,
-                            reasoning_effort=args.reasoning_effort, reader_id=args.reader_id, selection=selection)
+                            reasoning_effort=args.reasoning_effort, reader_id=args.reader_id, selection=selection,
+                            two_stage=args.two_stage)
             load_job(job_dir, require_response=False)
             print(json.dumps({"prepared": str(job_dir), "profile": job["requested_profile"],
                               "packet_bytes": (job_dir / reader_filenames(job)[0]).stat().st_size,
