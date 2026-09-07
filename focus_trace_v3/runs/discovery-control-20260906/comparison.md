@@ -1,5 +1,9 @@
 # Repeated 29:38 comparison: fresh v1, compact v3, revised v3
 
+**Subsequent project decision: HFT v2 and v3 failed and are retired; continue
+with v1.** See [HFT status](../../../focus_trace/STATUS.md). The findings below
+are retained as experimental evidence; proposed follow-ups are historical.
+
 The revision recovered the non-dominant counting reading, but did not establish
 an overall quality improvement. Fresh v1 also failed to reproduce several of its
 historical findings. The evidence now supports a narrower diagnosis: retention
@@ -167,10 +171,10 @@ an independent general JSON Schema engine did not.
    used here, yet fresh v1 lost findings that inline v3 retained. This weakens any
    blanket claim that inline delivery inherently impoverishes discovery.
 
-Keep the frozen-input and citation-compilation machinery. The current revised
-default restores the split-root sentence and makes integration opt-in, as agreed;
-it remains a candidate configuration with mixed results, not a quality promotion.
-The former behavior is reproducible with `--prompt-revision initial --integration`.
-Before calling any setting better overall or testing Luna parity, isolate the
-sentence with integration on and then check a small unseen set of ayat. No further
-model calls were launched beyond this experiment and its documented host recovery.
+At experiment close, the revised v3 default restored the split-root sentence and
+made integration opt-in. The former behavior remains reproducible with
+`--prompt-revision initial --integration`. Isolating the sentence with integration
+on and testing unseen ayat were proposed follow-ups, but the subsequent decision
+retired v3 and continued HFT with v1. V3's machinery remains an experimental
+record. No further model calls were launched beyond this experiment and its
+documented host recovery.

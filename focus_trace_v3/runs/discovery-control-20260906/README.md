@@ -1,5 +1,10 @@
 # Repeated 29:38 discovery comparison
 
+**Archived experiment: HFT v3 failed and is retired.** New HFT work continues
+with [v1](../../../focus_trace/README.md). The
+[HFT decision](../../../focus_trace/STATUS.md) supersedes further v3 test plans;
+the following record preserves the completed experiment.
+
 Prepared after the user accepted a fresh-v1 control and a v3 recovery candidate.
 Two fresh Sol/max reader sessions per condition; six sessions total. No Luna
 runs in this experiment. All use the same 69-ayah window, Arabic-only evidence,

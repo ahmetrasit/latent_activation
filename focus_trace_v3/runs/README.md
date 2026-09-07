@@ -1,3 +1,15 @@
+# Archived HFT v3 experiments
+
+**HFT v3 failed and is retired. Continue with [v1](../../focus_trace/README.md).**
+See the [HFT status decision](../../focus_trace/STATUS.md). Prepared, unrun jobs
+are archived preparations, not pending work; the reports preserve historical
+results and hypotheses.
+
+The final [repeated 29:38 comparison](discovery-control-20260906/comparison.md)
+contains two fresh Sol/max samples each for v1, compact v3, and revised v3.
+All six usable outputs passed validation, but the revision traded recoveries for
+other omissions and did not establish an overall improvement. HFT continues with v1.
+
 The two `pilot-20260906-*-max/83_1` directories are prepared, unrun jobs for
 Sol/max and Luna/max. Both use all 36 ayat of S83, identical Arabic packets with
 full available scopes and paired variants, the same reader schema, and integration

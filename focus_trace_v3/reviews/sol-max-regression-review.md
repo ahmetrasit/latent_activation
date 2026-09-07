@@ -4,6 +4,10 @@ This review concerns the initial v3 prompts and precedes the repeated fresh-v1
 control experiment. See the [subsequent results](../runs/discovery-control-20260906/comparison.md)
 for evidence that tests and narrows these hypotheses.
 
+HFT v2 and v3 were subsequently retired as failed experiments. Continue HFT with
+[v1](../../focus_trace/README.md); the [status decision](../../focus_trace/STATUS.md)
+supersedes the follow-up proposals in this historical review.
+
 - Review profile: `gpt-5.6-sol`, reasoning effort `max`
 - Reviewed commit: `da7789b0`
 - Focus case: `29:38`, whole-surah 69-ayah window

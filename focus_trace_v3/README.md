@@ -1,4 +1,11 @@
-Hermetic Focus Trace v3
+# Hermetic Focus Trace v3
+
+**Status: failed experiment; retired (2026-09-06).** Continue HFT with
+[v1 in `focus_trace/`](../focus_trace/README.md), using Sol/max. Neither v2 nor v3
+established the improvement or near-v1 Luna quality needed to replace v1.
+See the [HFT decision](../focus_trace/STATUS.md). The implementation and results
+below are retained for historical review and reproduction; proposed follow-up
+experiments and prepared, unrun jobs are archived.
 
 V3 starts from v1 (`focus_trace/`), with the accepted-alignment 83:1 input repair.
 The copied files and their hashes are recorded in [V1_BASE.json](V1_BASE.json).
@@ -6,7 +13,7 @@ There are no imports, copied implementations, or runtime inputs from HFT v2.
 V1's existing shared `v12/scripts/build_packets.py` utility and canonical resources
 remain dependencies; v3 does not import the live `focus_trace/` implementation.
 
-The default remains one sealed packet, one fresh reader, one response. Preparation,
+The archived implementation uses one sealed packet, one fresh reader, one response. Preparation,
 rendering, compilation, validation, and export are offline. They launch no models.
 No fallback, automatic retry, semantic repair, or production promotion is built in.
 
@@ -18,7 +25,7 @@ No fallback, automatic retry, semantic repair, or production promotion is built 
 - V1's explicit instruction not to collapse split roots to the dominant target
   is restored. The extra [integration instruction](prompts/integration.md) is now
   opt-in with `--integration`; the default follows v1's discovery task more closely.
-  This is a candidate improvement under evaluation, not established quality parity.
+  This was the last tested candidate; its mixed results did not justify adoption.
   `--prompt-revision initial --integration` reproduces the prior v3 prompt.
   Existing jobs without a prompt revision still validate against archived initial
   templates; their frozen inputs and outputs are unchanged.
@@ -44,11 +51,11 @@ The input repair derives ط ف ف → root_000940 from quran-data's
 The generator verifies the bridge checksum, schema version, accepted audit, release
 metadata, and released QAC input. Its generated correction is pinned in
 [data/root_mapping_repairs.json](data/root_mapping_repairs.json). Existing mapped
-or split roots are never replaced by this scoped correction. To refresh it from
-the authoritative bridge, run `python3 -B focus_trace_v3/scripts/build_alignment_repairs.py`
-before preparing new jobs; already prepared inputs remain frozen.
+or split roots are never replaced by this scoped correction. For historical
+reproduction, `python3 -B focus_trace_v3/scripts/build_alignment_repairs.py`
+refreshes the archived generator's correction; already prepared inputs remain frozen.
 
-**Prepare a fresh reader job**
+**Historical preparation commands**
 
 ```sh
 python3 -B focus_trace_v3/workflow.py prepare \
@@ -71,7 +78,7 @@ The prepared files are:
 | `source.json` | Complete source snapshot for projection checks; coordinator-only. |
 | `ledger.schema.json` | Frozen downstream v1 output contract; coordinator-only. |
 
-**Generate with one isolated reader**
+**Historical reader execution**
 
 ```sh
 python3 -B focus_trace_v3/workflow.py render \
@@ -107,7 +114,7 @@ the packet and the compiled ledger. This view is only for validation; the reader
 sees the selected compact or scope-rich input. Resolution proves citation identity and artifact
 consistency, not interpretive adequacy, model execution, or quality parity.
 
-**Verification and first experiment**
+**Offline verification and experiment record**
 
 ```sh
 python3 -B -m unittest discover -s focus_trace/tests -v
@@ -121,11 +128,10 @@ and preservation of the v1 semantic instructions and ledger schema. A separate
 offline check converted the original v1 29:38 ledger to handles and back without
 changing its content; only trigger-root list order was normalized.
 
-Start by comparing Sol/max and Luna/max on identical full-surah 83:1 inputs, then
-test integration on/off while holding language and evidence fixed. Use unseen
-ayat and repeated samples before making a model-quality claim. Evaluate distinct
-grounded mechanisms, integration, alternatives, unusual discoveries, containment,
-artifact acceptance, and cost. Candidate count alone is not a quality metric.
+The prepared full-surah 83:1 Sol/Luna jobs remain unrun and archived. Further
+v3 ablations are not an active plan. The completed comparisons evaluated grounded
+mechanisms, integration, alternatives, unusual discoveries, containment, artifact
+acceptance, and execution cost; candidate count alone was not a quality metric.
 The first scope-rich 29:38 Sol/Luna outputs and their comparison are recorded in
 [runs/compare-20260906/comparison.md](runs/compare-20260906/comparison.md).
 The compact-context rerun is tracked under `runs/rerun-20260906-compact/`.

@@ -1,5 +1,11 @@
 # Hermetic Focus Trace v2
 
+**Status: failed experiment; retired (2026-09-06).** Continue HFT with
+[v1 in `focus_trace/`](../focus_trace/README.md), using Sol/max. V2 and v3 failed
+to establish the improvement or near-v1 Luna quality needed to replace v1.
+See the [HFT decision](../focus_trace/STATUS.md). The implementation, commands,
+and results below are retained for historical review and reproduction.
+
 An isolated workflow under `focus_trace_v2/`; the original `focus_trace/` and
 prose_generation V5 are unchanged. The workflow remains **one packet → one reader
 → one final response**. The default is one pass; an optional two-pass mode separates
@@ -64,8 +70,10 @@ inventing a branch, borrowing context into the baseline, or calling the focus
 rootless. **83:1 currently hits this limit because ط ف ف has no mapped target.**
 Furuq already contains its ten non-contaminated branches (`root_000940`), but the
 upstream bridge misses the QAC/frozen-corpus surface match. This is disconnected
-existing evidence, not an absent lexical entry. Repairing the upstream bridge
-needs a separate decision; the completed 83:1 comparison artifacts are unchanged.
+existing evidence, not an absent lexical entry. This remains a limitation of
+the archived v2 implementation. Active v1 now includes the accepted
+[83:1 input repair](../focus_trace/repairs/83_1/README.md); the historical v2
+comparison artifacts retain their original inputs.
 
 ## Prepare a new job — offline
 
@@ -211,8 +219,8 @@ their evidence exports remain unchanged. Their findings describe the earlier
 v2 prompt, **not** the restored v1 prompt.
 
 The original v1 files, production runs, and V5 loader/defaults are untouched.
-The new evidence export is still an opt-in future integration boundary; it is not
-automatically consumed by prose_generation V5.
+The v2 evidence export remains a historical experimental artifact.
+Current HFT generation and downstream integration continue with v1.
 
 ## Offline verification
 

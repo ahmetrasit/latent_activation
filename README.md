@@ -16,10 +16,16 @@ synthesis work. Later synthesis experiments should consider using them to
 compose a higher-level prose layer from `v11` and `v12` outputs, rather than
 treating those newer outputs as the final publication form by themselves.
 
-`focus_trace/` is the standalone Hermetic Focus Trace workflow. It was added to
-recover the surprising, changed-reading effect of the old staged focus runs and
-the S100 `reader_m` walk at lower whole-Quran cost. See
-[`focus_trace/INTEGRATION.md`](focus_trace/INTEGRATION.md).
+For **Hermetic Focus Trace (HFT), continue with v1 in [`focus_trace/`](focus_trace/README.md)**,
+using `gpt-5.6-sol` at `max` effort. **HFT v2 and v3 failed and are retired**:
+neither established the improvement over v1 or near-v1 Luna quality needed to
+replace it. `focus_trace_v2/` and `focus_trace_v3/` retain their implementations
+and results as historical experiments; new HFT work uses v1. The accepted 83:1
+input repair remains in v1. See the [HFT status and decision](focus_trace/STATUS.md).
+
+HFT recovers the surprising, changed-reading effect of the old staged focus runs
+and the S100 `reader_m` walk at lower whole-Quran cost. See
+[`focus_trace/INTEGRATION.md`](focus_trace/INTEGRATION.md) for downstream use.
 
 ## Hermetic Focus Trace Input Bundles (S2-S79)
 

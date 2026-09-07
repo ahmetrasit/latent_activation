@@ -1,5 +1,9 @@
 # Hermetic Focus Trace Integration
 
+**Current HFT integration uses v1 (`focus_trace/`) with Sol/max.** HFT v2 and v3
+are failed, retired experiments; continue generation and downstream integration
+from v1. The accepted 83:1 input repair remains in place. See [STATUS.md](STATUS.md).
+
 ## Why This Workflow Exists
 
 `reader_m_ayah_walk.md` for S100 showed the strongest version of the v12 reader

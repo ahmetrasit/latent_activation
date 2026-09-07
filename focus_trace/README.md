@@ -2,6 +2,11 @@
 
 Workflow name: **Hermetic Focus Trace**.
 
+**Active HFT workflow: v1 (`focus_trace/`).** HFT v2 and v3 failed to establish
+the improvement or near-v1 Luna quality needed to replace v1 and are retired.
+Continue new HFT work here with **`gpt-5.6-sol` / `max`**. The accepted 83:1 input
+repair remains part of v1. See [STATUS.md](STATUS.md) for the decision and evidence.
+
 This is a standalone one-call focus workflow. It reconstructs the useful part
 of the old staged focus runs without putting new prompt, schema, or script
 files under `v12/`.
