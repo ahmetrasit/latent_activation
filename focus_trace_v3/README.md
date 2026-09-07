@@ -131,6 +131,10 @@ The first scope-rich 29:38 Sol/Luna outputs and their comparison are recorded in
 The compact-context rerun is tracked under `runs/rerun-20260906-compact/`.
 The repeated fresh-v1/current-v3/revised-v3 comparison is tracked under
 [runs/discovery-control-20260906/](runs/discovery-control-20260906/README.md).
+All six usable Sol/max outputs passed. Both revised samples recovered counting,
+but lost the developed crisis/relapse mechanism retained by both current samples.
+Fresh v1 also varied. The [comparison](runs/discovery-control-20260906/comparison.md)
+does not establish overall superiority or Luna parity.
 
 In compact context cues, the reader forms `branch_key` from the supplied target
 `mapped_root_id` and local `branch_id`, separated by `/`. Focus branches retain

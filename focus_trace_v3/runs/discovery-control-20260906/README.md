@@ -48,7 +48,11 @@ python3 -B focus_trace_v3/runs/discovery-control-20260906/launch.py --check
 python3 -B focus_trace_v3/runs/discovery-control-20260906/launch.py
 ```
 
-Outputs, runtime receipts, validation, and the comparison will be retained here.
+All six usable reader outputs completed and passed validation without coordinator
+repair. See the [comparison](comparison.md), [manual assessment](assessment.json),
+[runtime audit](runtime.json), and [validation](validation.json). The revision
+recovered counting but did not establish an overall quality improvement; fresh
+v1 also failed to reproduce several of its historical findings.
 
 ## Execution-host correction
 

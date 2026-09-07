@@ -1,5 +1,9 @@
 # Independent review: possible HFT v3 discovery regression
 
+This review concerns the initial v3 prompts and precedes the repeated fresh-v1
+control experiment. See the [subsequent results](../runs/discovery-control-20260906/comparison.md)
+for evidence that tests and narrows these hypotheses.
+
 - Review profile: `gpt-5.6-sol`, reasoning effort `max`
 - Reviewed commit: `da7789b0`
 - Focus case: `29:38`, whole-surah 69-ayah window

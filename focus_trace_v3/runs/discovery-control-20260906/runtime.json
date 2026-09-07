@@ -1,0 +1,1609 @@
+{
+  "v1-1": {
+    "thread_id": "01a07998-ccf9-77f2-9035-55da90baeaba",
+    "launch": {
+      "started_at": "2026-09-07T02:00:52.127666+00:00",
+      "argv": [
+        "codex",
+        "-a",
+        "never",
+        "exec",
+        "--ignore-user-config",
+        "--strict-config",
+        "--skip-git-repo-check",
+        "-s",
+        "workspace-write",
+        "-C",
+        "/private/tmp/hft-discovery-v1-1-_jiv9cyq",
+        "-m",
+        "gpt-5.6-sol",
+        "-c",
+        "model_reasoning_effort=\"max\"",
+        "-c",
+        "model_instructions_file=\"/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v1-1/29_38/prompt.md\"",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "web_search=\"disabled\"",
+        "--enable",
+        "skip_host_skill_discovery",
+        "--disable",
+        "apps",
+        "--disable",
+        "plugins",
+        "--disable",
+        "multi_agent",
+        "--disable",
+        "multi_agent_v2",
+        "--disable",
+        "browser_use",
+        "--disable",
+        "computer_use",
+        "--disable",
+        "image_generation",
+        "--disable",
+        "view_image",
+        "--disable",
+        "memories",
+        "--disable",
+        "hooks",
+        "--disable",
+        "skill_search",
+        "--disable",
+        "code_mode_host",
+        "--disable",
+        "sleep_tool",
+        "--disable",
+        "goals",
+        "--disable",
+        "shell_snapshot",
+        "--disable",
+        "unbounded_connection_retries",
+        "--enable",
+        "shell_tool",
+        "--json",
+        "--color",
+        "never",
+        "-o",
+        "/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v1-1/29_38/reader.final.txt",
+        "-"
+      ],
+      "stdin_sha256": "ad15fddb9a02df4b392c3ef17e5e7b031ed3ea3a31bb382152dbff215fc18387",
+      "stdin_bytes": 434,
+      "profile": {
+        "model": "gpt-5.6-sol",
+        "reasoning_effort": "max"
+      },
+      "condition": "v1-1",
+      "delivery": "assigned-files",
+      "service_tier_override": null,
+      "fresh_session": true,
+      "git_head_before_launch": "589e85e480b451fd9b77ff4794775e8867a08a26",
+      "git_status_before_launch": "",
+      "inputs": {
+        "prompt.md": "373a2c464d427490761438917b4de9e9fc44933dee9c204f6b44dbfba6c10107",
+        "packet.json": "4437251913616cb13b426cf24225814912abcc0c88b664a2eb3ef47fec8cee99",
+        "reader.schema.json": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "state": "completed",
+      "exit_code": 0,
+      "assigned_files_unchanged": true,
+      "assigned_output_exists": false,
+      "elapsed_seconds": 99.1140043400228,
+      "finished_at": "2026-09-07T02:02:31.239381+00:00"
+    },
+    "turn_contexts": [
+      {
+        "model": "gpt-5.6-sol",
+        "effort": "max",
+        "cwd": "/private/tmp/hft-discovery-v1-1-_jiv9cyq",
+        "approval_policy": "never",
+        "sandbox_policy": {
+          "type": "workspace-write",
+          "network_access": false,
+          "exclude_tmpdir_env_var": false,
+          "exclude_slash_tmp": false
+        }
+      }
+    ],
+    "profile_matches": true,
+    "base_prompt_matches": true,
+    "assignment_matches": true,
+    "input_messages": [
+      {
+        "sha256": "ad15fddb9a02df4b392c3ef17e5e7b031ed3ea3a31bb382152dbff215fc18387",
+        "bytes": 434
+      }
+    ],
+    "ambient_developer_metadata": [
+      {
+        "sha256": "7a7ada2f11038eae8658f680a030768382832bf688472baf00a05e8a74346c40",
+        "bytes": 2491
+      },
+      {
+        "sha256": "3a0db0dd8a08b7ef703632e577363c89f5aed44c61d0ee519ade99ab4cfc2285",
+        "bytes": 589
+      },
+      {
+        "sha256": "af60719c7b64906bd05733aec72a96726712fe25d382a7bc9e05a6733cfd67dc",
+        "bytes": 2264
+      },
+      {
+        "sha256": "6ded806e3cdbb35599ecaf8742574bc5274908472b1729090010c404c2151e8e",
+        "bytes": 271
+      }
+    ],
+    "tool_call_counts": {
+      "exec": 8,
+      "wait": 1
+    },
+    "completed_commands": [],
+    "event_counts": {
+      "task_started": 1,
+      "token_count": 10,
+      "task_complete": 1
+    },
+    "completed_turns": 1,
+    "usage": {
+      "total_token_usage": {
+        "input_tokens": 81264,
+        "cached_input_tokens": 52864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2902,
+        "reasoning_output_tokens": 2325,
+        "total_tokens": 84166
+      },
+      "last_token_usage": {
+        "input_tokens": 9621,
+        "cached_input_tokens": 8832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 172,
+        "reasoning_output_tokens": 142,
+        "total_tokens": 9793
+      },
+      "model_context_window": 258400
+    },
+    "cli_completed_events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 81264,
+          "cached_input_tokens": 52864,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2902,
+          "reasoning_output_tokens": 2325
+        }
+      }
+    ],
+    "startup_warnings": [
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/ahmetrasit/.codex/config.toml.",
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+    ],
+    "final_message_matches_event": true,
+    "raw_output_sha256": null
+  },
+  "v1-2": {
+    "thread_id": "01a07998-ccfe-77a0-98a6-8d77c2ef5a19",
+    "launch": {
+      "started_at": "2026-09-07T02:00:52.129300+00:00",
+      "argv": [
+        "codex",
+        "-a",
+        "never",
+        "exec",
+        "--ignore-user-config",
+        "--strict-config",
+        "--skip-git-repo-check",
+        "-s",
+        "workspace-write",
+        "-C",
+        "/private/tmp/hft-discovery-v1-2-3fcbujq3",
+        "-m",
+        "gpt-5.6-sol",
+        "-c",
+        "model_reasoning_effort=\"max\"",
+        "-c",
+        "model_instructions_file=\"/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v1-2/29_38/prompt.md\"",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "web_search=\"disabled\"",
+        "--enable",
+        "skip_host_skill_discovery",
+        "--disable",
+        "apps",
+        "--disable",
+        "plugins",
+        "--disable",
+        "multi_agent",
+        "--disable",
+        "multi_agent_v2",
+        "--disable",
+        "browser_use",
+        "--disable",
+        "computer_use",
+        "--disable",
+        "image_generation",
+        "--disable",
+        "view_image",
+        "--disable",
+        "memories",
+        "--disable",
+        "hooks",
+        "--disable",
+        "skill_search",
+        "--disable",
+        "code_mode_host",
+        "--disable",
+        "sleep_tool",
+        "--disable",
+        "goals",
+        "--disable",
+        "shell_snapshot",
+        "--disable",
+        "unbounded_connection_retries",
+        "--enable",
+        "shell_tool",
+        "--json",
+        "--color",
+        "never",
+        "-o",
+        "/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v1-2/29_38/reader.final.txt",
+        "-"
+      ],
+      "stdin_sha256": "ad15fddb9a02df4b392c3ef17e5e7b031ed3ea3a31bb382152dbff215fc18387",
+      "stdin_bytes": 434,
+      "profile": {
+        "model": "gpt-5.6-sol",
+        "reasoning_effort": "max"
+      },
+      "condition": "v1-2",
+      "delivery": "assigned-files",
+      "service_tier_override": null,
+      "fresh_session": true,
+      "git_head_before_launch": "589e85e480b451fd9b77ff4794775e8867a08a26",
+      "git_status_before_launch": "",
+      "inputs": {
+        "prompt.md": "373a2c464d427490761438917b4de9e9fc44933dee9c204f6b44dbfba6c10107",
+        "packet.json": "4437251913616cb13b426cf24225814912abcc0c88b664a2eb3ef47fec8cee99",
+        "reader.schema.json": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "state": "completed",
+      "exit_code": 0,
+      "assigned_files_unchanged": true,
+      "assigned_output_exists": false,
+      "elapsed_seconds": 76.46897956496105,
+      "finished_at": "2026-09-07T02:02:08.595900+00:00"
+    },
+    "turn_contexts": [
+      {
+        "model": "gpt-5.6-sol",
+        "effort": "max",
+        "cwd": "/private/tmp/hft-discovery-v1-2-3fcbujq3",
+        "approval_policy": "never",
+        "sandbox_policy": {
+          "type": "workspace-write",
+          "network_access": false,
+          "exclude_tmpdir_env_var": false,
+          "exclude_slash_tmp": false
+        }
+      }
+    ],
+    "profile_matches": true,
+    "base_prompt_matches": true,
+    "assignment_matches": true,
+    "input_messages": [
+      {
+        "sha256": "ad15fddb9a02df4b392c3ef17e5e7b031ed3ea3a31bb382152dbff215fc18387",
+        "bytes": 434
+      }
+    ],
+    "ambient_developer_metadata": [
+      {
+        "sha256": "7a7ada2f11038eae8658f680a030768382832bf688472baf00a05e8a74346c40",
+        "bytes": 2491
+      },
+      {
+        "sha256": "baae673bae2060948c159287054cc4f70d22b1d74587d1477836210f0acfcb10",
+        "bytes": 589
+      },
+      {
+        "sha256": "af60719c7b64906bd05733aec72a96726712fe25d382a7bc9e05a6733cfd67dc",
+        "bytes": 2264
+      },
+      {
+        "sha256": "6ded806e3cdbb35599ecaf8742574bc5274908472b1729090010c404c2151e8e",
+        "bytes": 271
+      }
+    ],
+    "tool_call_counts": {
+      "exec": 8
+    },
+    "completed_commands": [],
+    "event_counts": {
+      "task_started": 1,
+      "token_count": 9,
+      "task_complete": 1
+    },
+    "completed_turns": 1,
+    "usage": {
+      "total_token_usage": {
+        "input_tokens": 69007,
+        "cached_input_tokens": 44032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2243,
+        "reasoning_output_tokens": 1719,
+        "total_tokens": 71250
+      },
+      "last_token_usage": {
+        "input_tokens": 8883,
+        "cached_input_tokens": 8320,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 243,
+        "reasoning_output_tokens": 205,
+        "total_tokens": 9126
+      },
+      "model_context_window": 258400
+    },
+    "cli_completed_events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 69007,
+          "cached_input_tokens": 44032,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2243,
+          "reasoning_output_tokens": 1719
+        }
+      }
+    ],
+    "startup_warnings": [
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/ahmetrasit/.codex/config.toml.",
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+    ],
+    "final_message_matches_event": true,
+    "raw_output_sha256": null
+  },
+  "v1-host-1": {
+    "thread_id": "01a0799d-001b-7ec0-b21f-9d65eff8fd64",
+    "launch": {
+      "started_at": "2026-09-07T02:05:27.364129+00:00",
+      "argv": [
+        "codex",
+        "-a",
+        "never",
+        "exec",
+        "--ignore-user-config",
+        "--strict-config",
+        "--skip-git-repo-check",
+        "-s",
+        "workspace-write",
+        "-C",
+        "/private/tmp/hft-discovery-v1-host-1-1c04giw7",
+        "-m",
+        "gpt-5.6-sol",
+        "-c",
+        "model_reasoning_effort=\"max\"",
+        "-c",
+        "model_instructions_file=\"/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v1-host-1/29_38/prompt.md\"",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "web_search=\"disabled\"",
+        "--enable",
+        "skip_host_skill_discovery",
+        "--disable",
+        "apps",
+        "--disable",
+        "plugins",
+        "--disable",
+        "multi_agent",
+        "--disable",
+        "multi_agent_v2",
+        "--disable",
+        "browser_use",
+        "--disable",
+        "computer_use",
+        "--disable",
+        "image_generation",
+        "--disable",
+        "view_image",
+        "--disable",
+        "memories",
+        "--disable",
+        "hooks",
+        "--disable",
+        "skill_search",
+        "--disable",
+        "sleep_tool",
+        "--disable",
+        "goals",
+        "--disable",
+        "shell_snapshot",
+        "--disable",
+        "unbounded_connection_retries",
+        "--enable",
+        "shell_tool",
+        "--enable",
+        "code_mode_host",
+        "--json",
+        "--color",
+        "never",
+        "-o",
+        "/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v1-host-1/29_38/reader.final.txt",
+        "-"
+      ],
+      "stdin_sha256": "ad15fddb9a02df4b392c3ef17e5e7b031ed3ea3a31bb382152dbff215fc18387",
+      "stdin_bytes": 434,
+      "profile": {
+        "model": "gpt-5.6-sol",
+        "reasoning_effort": "max"
+      },
+      "condition": "v1-host-1",
+      "delivery": "assigned-files",
+      "execution_host_enabled": true,
+      "service_tier_override": null,
+      "fresh_session": true,
+      "git_head_before_launch": "e2c8898970ed638a26c462c3a6cbade9b765a0e1",
+      "git_status_before_launch": "?? focus_trace_v3/runs/discovery-control-20260906/v3-current-1/29_38/events.jsonl\n?? focus_trace_v3/runs/discovery-control-20260906/v3-current-1/29_38/launch.json\n?? focus_trace_v3/runs/discovery-control-20260906/v3-current-1/29_38/stderr.log\n?? focus_trace_v3/runs/discovery-control-20260906/v3-current-2/29_38/events.jsonl\n?? focus_trace_v3/runs/discovery-control-20260906/v3-current-2/29_38/launch.json\n?? focus_trace_v3/runs/discovery-control-20260906/v3-current-2/29_38/stderr.log\n?? focus_trace_v3/runs/discovery-control-20260906/v3-revised-1/29_38/events.jsonl\n?? focus_trace_v3/runs/discovery-control-20260906/v3-revised-1/29_38/launch.json\n?? focus_trace_v3/runs/discovery-control-20260906/v3-revised-1/29_38/stderr.log\n?? focus_trace_v3/runs/discovery-control-20260906/v3-revised-2/29_38/events.jsonl\n?? focus_trace_v3/runs/discovery-control-20260906/v3-revised-2/29_38/launch.json\n?? focus_trace_v3/runs/discovery-control-20260906/v3-revised-2/29_38/stderr.log\n",
+      "inputs": {
+        "prompt.md": "373a2c464d427490761438917b4de9e9fc44933dee9c204f6b44dbfba6c10107",
+        "packet.json": "4437251913616cb13b426cf24225814912abcc0c88b664a2eb3ef47fec8cee99",
+        "reader.schema.json": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "state": "completed",
+      "exit_code": 0,
+      "assigned_files_unchanged": true,
+      "assigned_output_exists": true,
+      "elapsed_seconds": 869.07495225803,
+      "finished_at": "2026-09-07T02:19:56.375315+00:00"
+    },
+    "turn_contexts": [
+      {
+        "model": "gpt-5.6-sol",
+        "effort": "max",
+        "cwd": "/private/tmp/hft-discovery-v1-host-1-1c04giw7",
+        "approval_policy": "never",
+        "sandbox_policy": {
+          "type": "workspace-write",
+          "network_access": false,
+          "exclude_tmpdir_env_var": false,
+          "exclude_slash_tmp": false
+        }
+      }
+    ],
+    "profile_matches": true,
+    "base_prompt_matches": true,
+    "assignment_matches": true,
+    "input_messages": [
+      {
+        "sha256": "ad15fddb9a02df4b392c3ef17e5e7b031ed3ea3a31bb382152dbff215fc18387",
+        "bytes": 434
+      }
+    ],
+    "ambient_developer_metadata": [
+      {
+        "sha256": "7a7ada2f11038eae8658f680a030768382832bf688472baf00a05e8a74346c40",
+        "bytes": 2491
+      },
+      {
+        "sha256": "6f27cd37c8b3d2c0d7d328cea5815e1b874e98f7676f37db16704e8f05b705db",
+        "bytes": 594
+      },
+      {
+        "sha256": "af60719c7b64906bd05733aec72a96726712fe25d382a7bc9e05a6733cfd67dc",
+        "bytes": 2264
+      },
+      {
+        "sha256": "6ded806e3cdbb35599ecaf8742574bc5274908472b1729090010c404c2151e8e",
+        "bytes": 271
+      }
+    ],
+    "tool_call_counts": {
+      "exec": 15
+    },
+    "completed_commands": [
+      {
+        "id": "item_1",
+        "command": "/bin/zsh -lc \"cat focus_trace_packet.json && printf '\\\\n---SCHEMA---\\\\n' && cat focus_trace/schemas/focus-trace-response.schema.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_2",
+        "command": "/bin/zsh -lc \"jq '{keys:(keys), focus_branch_inventories_count:(.focus_branch_inventories|length), context_root_cues_count:(.context_root_cues|length), context_ayat_count:(.context_ayat|length)}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_3",
+        "command": "/bin/zsh -lc \"jq '.focus_branch_inventories, .context_root_cues[0:12]' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_4",
+        "command": "/bin/zsh -lc \"jq -c '.focus_branch_inventories[] | {root,targets:[.targets[]|{mapped_root_id,mapped_root_norm,branches:[.branches[]|{branch_id,branch_image_ar}]}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_5",
+        "command": "/bin/zsh -lc \"jq -c '.context_root_cues | to_entries | .[12:62][] | {i:.key,root:.value.root,targets:[.value.targets[]|{mapped_root_id,mapped_root_norm,branches:[.branches[]|[.branch_id,.branch_image_ar]]}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_6",
+        "command": "/bin/zsh -lc \"jq -c '.context_root_cues | to_entries | .[62:112][] | {i:.key,root:.value.root,targets:[.value.targets[]|{mapped_root_id,mapped_root_norm,branches:[.branches[]|[.branch_id,.branch_image_ar]]}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_7",
+        "command": "/bin/zsh -lc \"jq -c '.context_root_cues | to_entries | .[112:162][] | {i:.key,root:.value.root,targets:[.value.targets[]|{mapped_root_id,mapped_root_norm,branches:[.branches[]|[.branch_id,.branch_image_ar]]}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_8",
+        "command": "/bin/zsh -lc \"jq -c '.context_root_cues | to_entries | .[162:210][] | {i:.key,root:.value.root,targets:[.value.targets[]|{mapped_root_id,mapped_root_norm,branches:[.branches[]|[.branch_id,.branch_image_ar]]}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_9",
+        "command": "/bin/zsh -lc \"jq -c '.context_root_cues | to_entries | .[0:12][] | {i:.key,root:.value.root,targets:[.value.targets[]|{mapped_root_id,mapped_root_norm,branches:[.branches[]|[.branch_id,.branch_image_ar]]}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_10",
+        "command": "/bin/zsh -lc \"jq -c '.context_ayat[0:24][] | {ref,text_ar,roots:[.root_occurrences[]|{root,word_indices}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_11",
+        "command": "/bin/zsh -lc \"jq -c '.context_ayat[24:48][] | {ref,text_ar,roots:[.root_occurrences[]|{root,word_indices}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_12",
+        "command": "/bin/zsh -lc \"jq -c '.context_ayat[48:68][] | {ref,text_ar,roots:[.root_occurrences[]|{root,word_indices}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_14",
+        "command": "/bin/zsh -lc \"jq -c . response.json > /tmp/reader_29_38_sol.response.compact && mv /tmp/reader_29_38_sol.response.compact response.json && jq -e 'type == \\\"object\\\" and .protocol == \\\"focus-trace-hermetic-response-v4\\\" and .reader_id == \\\"reader_29_38_sol\\\" and .focus_ref == \\\"29:38\\\" and .trace_kind == \\\"reconstructed\\\"' response.json >/dev/null && wc -c response.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      }
+    ],
+    "event_counts": {
+      "task_started": 1,
+      "token_count": 17,
+      "task_complete": 1
+    },
+    "completed_turns": 1,
+    "usage": {
+      "total_token_usage": {
+        "input_tokens": 879912,
+        "cached_input_tokens": 773120,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 18693,
+        "reasoning_output_tokens": 1679,
+        "total_tokens": 898605
+      },
+      "last_token_usage": {
+        "input_tokens": 108004,
+        "cached_input_tokens": 107520,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 697,
+        "reasoning_output_tokens": 673,
+        "total_tokens": 108701
+      },
+      "model_context_window": 258400
+    },
+    "cli_completed_events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 879912,
+          "cached_input_tokens": 773120,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 18693,
+          "reasoning_output_tokens": 1679
+        }
+      }
+    ],
+    "startup_warnings": [
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/ahmetrasit/.codex/config.toml."
+    ],
+    "final_message_matches_event": true,
+    "raw_output_sha256": "3d78dc8453917d6dd94e079b83c59d30e5a97615b161f78604251998572e481e"
+  },
+  "v1-host-2": {
+    "thread_id": "01a0799d-001b-7c43-bc9a-962a129fd983",
+    "launch": {
+      "started_at": "2026-09-07T02:05:27.364826+00:00",
+      "argv": [
+        "codex",
+        "-a",
+        "never",
+        "exec",
+        "--ignore-user-config",
+        "--strict-config",
+        "--skip-git-repo-check",
+        "-s",
+        "workspace-write",
+        "-C",
+        "/private/tmp/hft-discovery-v1-host-2-q2s05ef_",
+        "-m",
+        "gpt-5.6-sol",
+        "-c",
+        "model_reasoning_effort=\"max\"",
+        "-c",
+        "model_instructions_file=\"/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v1-host-2/29_38/prompt.md\"",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "web_search=\"disabled\"",
+        "--enable",
+        "skip_host_skill_discovery",
+        "--disable",
+        "apps",
+        "--disable",
+        "plugins",
+        "--disable",
+        "multi_agent",
+        "--disable",
+        "multi_agent_v2",
+        "--disable",
+        "browser_use",
+        "--disable",
+        "computer_use",
+        "--disable",
+        "image_generation",
+        "--disable",
+        "view_image",
+        "--disable",
+        "memories",
+        "--disable",
+        "hooks",
+        "--disable",
+        "skill_search",
+        "--disable",
+        "sleep_tool",
+        "--disable",
+        "goals",
+        "--disable",
+        "shell_snapshot",
+        "--disable",
+        "unbounded_connection_retries",
+        "--enable",
+        "shell_tool",
+        "--enable",
+        "code_mode_host",
+        "--json",
+        "--color",
+        "never",
+        "-o",
+        "/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v1-host-2/29_38/reader.final.txt",
+        "-"
+      ],
+      "stdin_sha256": "ad15fddb9a02df4b392c3ef17e5e7b031ed3ea3a31bb382152dbff215fc18387",
+      "stdin_bytes": 434,
+      "profile": {
+        "model": "gpt-5.6-sol",
+        "reasoning_effort": "max"
+      },
+      "condition": "v1-host-2",
+      "delivery": "assigned-files",
+      "execution_host_enabled": true,
+      "service_tier_override": null,
+      "fresh_session": true,
+      "git_head_before_launch": "e2c8898970ed638a26c462c3a6cbade9b765a0e1",
+      "git_status_before_launch": "?? focus_trace_v3/runs/discovery-control-20260906/v3-current-1/29_38/events.jsonl\n?? focus_trace_v3/runs/discovery-control-20260906/v3-current-1/29_38/launch.json\n?? focus_trace_v3/runs/discovery-control-20260906/v3-current-1/29_38/stderr.log\n?? focus_trace_v3/runs/discovery-control-20260906/v3-current-2/29_38/events.jsonl\n?? focus_trace_v3/runs/discovery-control-20260906/v3-current-2/29_38/launch.json\n?? focus_trace_v3/runs/discovery-control-20260906/v3-current-2/29_38/stderr.log\n?? focus_trace_v3/runs/discovery-control-20260906/v3-revised-1/29_38/events.jsonl\n?? focus_trace_v3/runs/discovery-control-20260906/v3-revised-1/29_38/launch.json\n?? focus_trace_v3/runs/discovery-control-20260906/v3-revised-1/29_38/stderr.log\n?? focus_trace_v3/runs/discovery-control-20260906/v3-revised-2/29_38/events.jsonl\n?? focus_trace_v3/runs/discovery-control-20260906/v3-revised-2/29_38/launch.json\n?? focus_trace_v3/runs/discovery-control-20260906/v3-revised-2/29_38/stderr.log\n",
+      "inputs": {
+        "prompt.md": "373a2c464d427490761438917b4de9e9fc44933dee9c204f6b44dbfba6c10107",
+        "packet.json": "4437251913616cb13b426cf24225814912abcc0c88b664a2eb3ef47fec8cee99",
+        "reader.schema.json": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "state": "completed",
+      "exit_code": 0,
+      "assigned_files_unchanged": true,
+      "assigned_output_exists": true,
+      "elapsed_seconds": 658.3687793479767,
+      "finished_at": "2026-09-07T02:16:25.680098+00:00"
+    },
+    "turn_contexts": [
+      {
+        "model": "gpt-5.6-sol",
+        "effort": "max",
+        "cwd": "/private/tmp/hft-discovery-v1-host-2-q2s05ef_",
+        "approval_policy": "never",
+        "sandbox_policy": {
+          "type": "workspace-write",
+          "network_access": false,
+          "exclude_tmpdir_env_var": false,
+          "exclude_slash_tmp": false
+        }
+      }
+    ],
+    "profile_matches": true,
+    "base_prompt_matches": true,
+    "assignment_matches": true,
+    "input_messages": [
+      {
+        "sha256": "ad15fddb9a02df4b392c3ef17e5e7b031ed3ea3a31bb382152dbff215fc18387",
+        "bytes": 434
+      }
+    ],
+    "ambient_developer_metadata": [
+      {
+        "sha256": "7a7ada2f11038eae8658f680a030768382832bf688472baf00a05e8a74346c40",
+        "bytes": 2491
+      },
+      {
+        "sha256": "051071ed9b1bde8d08aa571976b6b3cac1b6217f23e54ac6a339a5b84726bae8",
+        "bytes": 594
+      },
+      {
+        "sha256": "af60719c7b64906bd05733aec72a96726712fe25d382a7bc9e05a6733cfd67dc",
+        "bytes": 2264
+      },
+      {
+        "sha256": "6ded806e3cdbb35599ecaf8742574bc5274908472b1729090010c404c2151e8e",
+        "bytes": 271
+      }
+    ],
+    "tool_call_counts": {
+      "exec": 16
+    },
+    "completed_commands": [
+      {
+        "id": "item_1",
+        "command": "/bin/zsh -lc \"cat focus_trace_packet.json && printf '\\\\n---SCHEMA---\\\\n' && cat focus_trace/schemas/focus-trace-response.schema.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_2",
+        "command": "/bin/zsh -lc \"jq 'keys' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_3",
+        "command": "/bin/zsh -lc \"jq '.focus_branch_inventories' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_4",
+        "command": "/bin/zsh -lc \"jq '.context_root_cues | length, (.[0] | keys)' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_5",
+        "command": "/bin/zsh -lc \"jq -c '.context_root_cues[0:35][] | {root,targets:[.targets[]|{mapped_root_id,mapped_root_norm,branches:[.branches[]|{branch_id,branch_image_ar,variants}]}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_6",
+        "command": "/bin/zsh -lc \"jq -c '.context_root_cues[35:70][] | {root,targets:[.targets[]|{mapped_root_id,mapped_root_norm,branches:[.branches[]|{branch_id,branch_image_ar,variants}]}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_7",
+        "command": "/bin/zsh -lc \"jq -c '.context_root_cues[70:105][] | {root,targets:[.targets[]|{mapped_root_id,mapped_root_norm,branches:[.branches[]|{branch_id,branch_image_ar,variants}]}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_8",
+        "command": "/bin/zsh -lc \"jq -c '.context_root_cues[105:140][] | {root,targets:[.targets[]|{mapped_root_id,mapped_root_norm,branches:[.branches[]|{branch_id,branch_image_ar,variants}]}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_9",
+        "command": "/bin/zsh -lc \"jq -c '.context_root_cues[140:175][] | {root,targets:[.targets[]|{mapped_root_id,mapped_root_norm,branches:[.branches[]|{branch_id,branch_image_ar,variants}]}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_10",
+        "command": "/bin/zsh -lc \"jq -c '.context_root_cues[175:210][] | {root,targets:[.targets[]|{mapped_root_id,mapped_root_norm,branches:[.branches[]|{branch_id,branch_image_ar,variants}]}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_11",
+        "command": "/bin/zsh -lc \"jq -c '.context_ayat[0:20][] | {ref,text_ar,occ:[.root_occurrences[]|{root,word_indices}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_12",
+        "command": "/bin/zsh -lc \"jq -c '.context_ayat[20:40][] | {ref,text_ar,occ:[.root_occurrences[]|{root,word_indices}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_13",
+        "command": "/bin/zsh -lc \"jq -c '.context_ayat[40:60][] | {ref,text_ar,occ:[.root_occurrences[]|{root,word_indices}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_14",
+        "command": "/bin/zsh -lc \"jq -c '.context_ayat[60:][] | {ref,text_ar,occ:[.root_occurrences[]|{root,word_indices}]}' focus_trace_packet.json\"",
+        "exit_code": 0,
+        "status": "completed"
+      },
+      {
+        "id": "item_16",
+        "command": "/bin/zsh -lc 'compact=$(jq -c . response.json) && printf '\"'%s\\\\n' \\\"\"'$compact\" > response.json && jq -e -c . response.json >/dev/null'",
+        "exit_code": 0,
+        "status": "completed"
+      }
+    ],
+    "event_counts": {
+      "task_started": 1,
+      "token_count": 17,
+      "task_complete": 1
+    },
+    "completed_turns": 1,
+    "usage": {
+      "total_token_usage": {
+        "input_tokens": 1008903,
+        "cached_input_tokens": 881664,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 30289,
+        "reasoning_output_tokens": 16132,
+        "total_tokens": 1039192
+      },
+      "last_token_usage": {
+        "input_tokens": 117729,
+        "cached_input_tokens": 117248,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1111,
+        "reasoning_output_tokens": 1090,
+        "total_tokens": 118840
+      },
+      "model_context_window": 258400
+    },
+    "cli_completed_events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 1008903,
+          "cached_input_tokens": 881664,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 30289,
+          "reasoning_output_tokens": 16132
+        }
+      }
+    ],
+    "startup_warnings": [
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/ahmetrasit/.codex/config.toml."
+    ],
+    "final_message_matches_event": true,
+    "raw_output_sha256": "48226d65c0df65115a1d4c013e46302c515f4b73f96ea447dca68f501de3bee7"
+  },
+  "v3-current-1": {
+    "thread_id": "01a07998-cced-7110-ba8b-76758c6966f6",
+    "launch": {
+      "started_at": "2026-09-07T02:00:52.109878+00:00",
+      "argv": [
+        "codex",
+        "-a",
+        "never",
+        "exec",
+        "--ignore-user-config",
+        "--strict-config",
+        "--skip-git-repo-check",
+        "-s",
+        "read-only",
+        "-C",
+        "/private/tmp/hft-discovery-v3-current-1-7_g0e07k",
+        "-m",
+        "gpt-5.6-sol",
+        "-c",
+        "model_reasoning_effort=\"max\"",
+        "-c",
+        "model_instructions_file=\"/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v3-current-1/29_38/prompt.md\"",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "web_search=\"disabled\"",
+        "--enable",
+        "skip_host_skill_discovery",
+        "--disable",
+        "apps",
+        "--disable",
+        "plugins",
+        "--disable",
+        "multi_agent",
+        "--disable",
+        "multi_agent_v2",
+        "--disable",
+        "browser_use",
+        "--disable",
+        "computer_use",
+        "--disable",
+        "image_generation",
+        "--disable",
+        "view_image",
+        "--disable",
+        "memories",
+        "--disable",
+        "hooks",
+        "--disable",
+        "skill_search",
+        "--disable",
+        "code_mode_host",
+        "--disable",
+        "sleep_tool",
+        "--disable",
+        "goals",
+        "--disable",
+        "shell_snapshot",
+        "--disable",
+        "unbounded_connection_retries",
+        "--disable",
+        "shell_tool",
+        "--json",
+        "--color",
+        "never",
+        "-o",
+        "/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v3-current-1/29_38/reader.response.json",
+        "-"
+      ],
+      "stdin_sha256": "3357175ac85f57591c8c8508ab6f9f78d63039539e8d421c44af481b8498ea8f",
+      "stdin_bytes": 352978,
+      "profile": {
+        "model": "gpt-5.6-sol",
+        "reasoning_effort": "max"
+      },
+      "condition": "v3-current-1",
+      "delivery": "complete-inline",
+      "service_tier_override": null,
+      "fresh_session": true,
+      "git_head_before_launch": "589e85e480b451fd9b77ff4794775e8867a08a26",
+      "git_status_before_launch": "",
+      "inputs": {
+        "source.json": "95cd70020d03649dbc28444a5fb545185a739c460e6db81b72e0ac74915b3833",
+        "packet.json": "d7974f426012ce0238994a47030e7de4be2245e6b7cc57e65b3d95cdfe84bdbb",
+        "prompt.md": "eb98e5d5d05ad605dc5b0a26e618b3f640afe022a661bd8461576a22fd22d052",
+        "reader.schema.json": "77f3048c82443bb23ee872c4640665381468d17f524d8fc87b0fe984ae147596",
+        "ledger.schema.json": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "state": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 528.3093763020588,
+      "finished_at": "2026-09-07T02:09:40.404126+00:00"
+    },
+    "turn_contexts": [
+      {
+        "model": "gpt-5.6-sol",
+        "effort": "max",
+        "cwd": "/private/tmp/hft-discovery-v3-current-1-7_g0e07k",
+        "approval_policy": "never",
+        "sandbox_policy": {
+          "type": "read-only"
+        }
+      }
+    ],
+    "profile_matches": true,
+    "base_prompt_matches": true,
+    "assignment_matches": true,
+    "input_messages": [
+      {
+        "sha256": "3357175ac85f57591c8c8508ab6f9f78d63039539e8d421c44af481b8498ea8f",
+        "bytes": 352978
+      }
+    ],
+    "ambient_developer_metadata": [
+      {
+        "sha256": "7a7ada2f11038eae8658f680a030768382832bf688472baf00a05e8a74346c40",
+        "bytes": 2491
+      },
+      {
+        "sha256": "29dad5ed6993c5e717376e0a1c84d54ab60ee593510916ac6cee4295e803315d",
+        "bytes": 341
+      },
+      {
+        "sha256": "af60719c7b64906bd05733aec72a96726712fe25d382a7bc9e05a6733cfd67dc",
+        "bytes": 2264
+      },
+      {
+        "sha256": "6ded806e3cdbb35599ecaf8742574bc5274908472b1729090010c404c2151e8e",
+        "bytes": 271
+      }
+    ],
+    "tool_call_counts": {},
+    "completed_commands": [],
+    "event_counts": {
+      "task_started": 1,
+      "token_count": 1,
+      "task_complete": 1
+    },
+    "completed_turns": 1,
+    "usage": {
+      "total_token_usage": {
+        "input_tokens": 105730,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 28978,
+        "reasoning_output_tokens": 20215,
+        "total_tokens": 134708
+      },
+      "last_token_usage": {
+        "input_tokens": 105730,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 28978,
+        "reasoning_output_tokens": 20215,
+        "total_tokens": 134708
+      },
+      "model_context_window": 258400
+    },
+    "cli_completed_events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 105730,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 28978,
+          "reasoning_output_tokens": 20215
+        }
+      }
+    ],
+    "startup_warnings": [
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/ahmetrasit/.codex/config.toml.",
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+    ],
+    "final_message_matches_event": true,
+    "raw_output_sha256": "5314e6c8ff918ca2eab497b22abee8b1b1fa613b9afd41de90c53eee1926cccc"
+  },
+  "v3-current-2": {
+    "thread_id": "01a07998-ccf9-7a03-bb10-d3ea80d99b01",
+    "launch": {
+      "started_at": "2026-09-07T02:00:52.116086+00:00",
+      "argv": [
+        "codex",
+        "-a",
+        "never",
+        "exec",
+        "--ignore-user-config",
+        "--strict-config",
+        "--skip-git-repo-check",
+        "-s",
+        "read-only",
+        "-C",
+        "/private/tmp/hft-discovery-v3-current-2-ftuzv7jg",
+        "-m",
+        "gpt-5.6-sol",
+        "-c",
+        "model_reasoning_effort=\"max\"",
+        "-c",
+        "model_instructions_file=\"/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v3-current-2/29_38/prompt.md\"",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "web_search=\"disabled\"",
+        "--enable",
+        "skip_host_skill_discovery",
+        "--disable",
+        "apps",
+        "--disable",
+        "plugins",
+        "--disable",
+        "multi_agent",
+        "--disable",
+        "multi_agent_v2",
+        "--disable",
+        "browser_use",
+        "--disable",
+        "computer_use",
+        "--disable",
+        "image_generation",
+        "--disable",
+        "view_image",
+        "--disable",
+        "memories",
+        "--disable",
+        "hooks",
+        "--disable",
+        "skill_search",
+        "--disable",
+        "code_mode_host",
+        "--disable",
+        "sleep_tool",
+        "--disable",
+        "goals",
+        "--disable",
+        "shell_snapshot",
+        "--disable",
+        "unbounded_connection_retries",
+        "--disable",
+        "shell_tool",
+        "--json",
+        "--color",
+        "never",
+        "-o",
+        "/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v3-current-2/29_38/reader.response.json",
+        "-"
+      ],
+      "stdin_sha256": "3357175ac85f57591c8c8508ab6f9f78d63039539e8d421c44af481b8498ea8f",
+      "stdin_bytes": 352978,
+      "profile": {
+        "model": "gpt-5.6-sol",
+        "reasoning_effort": "max"
+      },
+      "condition": "v3-current-2",
+      "delivery": "complete-inline",
+      "service_tier_override": null,
+      "fresh_session": true,
+      "git_head_before_launch": "589e85e480b451fd9b77ff4794775e8867a08a26",
+      "git_status_before_launch": "",
+      "inputs": {
+        "source.json": "95cd70020d03649dbc28444a5fb545185a739c460e6db81b72e0ac74915b3833",
+        "packet.json": "d7974f426012ce0238994a47030e7de4be2245e6b7cc57e65b3d95cdfe84bdbb",
+        "prompt.md": "eb98e5d5d05ad605dc5b0a26e618b3f640afe022a661bd8461576a22fd22d052",
+        "reader.schema.json": "77f3048c82443bb23ee872c4640665381468d17f524d8fc87b0fe984ae147596",
+        "ledger.schema.json": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "state": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 749.4940661140718,
+      "finished_at": "2026-09-07T02:13:21.591368+00:00"
+    },
+    "turn_contexts": [
+      {
+        "model": "gpt-5.6-sol",
+        "effort": "max",
+        "cwd": "/private/tmp/hft-discovery-v3-current-2-ftuzv7jg",
+        "approval_policy": "never",
+        "sandbox_policy": {
+          "type": "read-only"
+        }
+      }
+    ],
+    "profile_matches": true,
+    "base_prompt_matches": true,
+    "assignment_matches": true,
+    "input_messages": [
+      {
+        "sha256": "3357175ac85f57591c8c8508ab6f9f78d63039539e8d421c44af481b8498ea8f",
+        "bytes": 352978
+      }
+    ],
+    "ambient_developer_metadata": [
+      {
+        "sha256": "7a7ada2f11038eae8658f680a030768382832bf688472baf00a05e8a74346c40",
+        "bytes": 2491
+      },
+      {
+        "sha256": "29dad5ed6993c5e717376e0a1c84d54ab60ee593510916ac6cee4295e803315d",
+        "bytes": 341
+      },
+      {
+        "sha256": "af60719c7b64906bd05733aec72a96726712fe25d382a7bc9e05a6733cfd67dc",
+        "bytes": 2264
+      },
+      {
+        "sha256": "6ded806e3cdbb35599ecaf8742574bc5274908472b1729090010c404c2151e8e",
+        "bytes": 271
+      }
+    ],
+    "tool_call_counts": {},
+    "completed_commands": [],
+    "event_counts": {
+      "task_started": 1,
+      "token_count": 1,
+      "task_complete": 1
+    },
+    "completed_turns": 1,
+    "usage": {
+      "total_token_usage": {
+        "input_tokens": 105726,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 35907,
+        "reasoning_output_tokens": 26874,
+        "total_tokens": 141633
+      },
+      "last_token_usage": {
+        "input_tokens": 105726,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 35907,
+        "reasoning_output_tokens": 26874,
+        "total_tokens": 141633
+      },
+      "model_context_window": 258400
+    },
+    "cli_completed_events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 105726,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 35907,
+          "reasoning_output_tokens": 26874
+        }
+      }
+    ],
+    "startup_warnings": [
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/ahmetrasit/.codex/config.toml.",
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+    ],
+    "final_message_matches_event": true,
+    "raw_output_sha256": "298d713a3fb36b1d500e6ba5180f50ba92a85a283e8fdb47e8622e49f07e76dc"
+  },
+  "v3-revised-1": {
+    "thread_id": "01a07998-ccef-7841-946b-71aaa376f266",
+    "launch": {
+      "started_at": "2026-09-07T02:00:52.112989+00:00",
+      "argv": [
+        "codex",
+        "-a",
+        "never",
+        "exec",
+        "--ignore-user-config",
+        "--strict-config",
+        "--skip-git-repo-check",
+        "-s",
+        "read-only",
+        "-C",
+        "/private/tmp/hft-discovery-v3-revised-1-wxdviw36",
+        "-m",
+        "gpt-5.6-sol",
+        "-c",
+        "model_reasoning_effort=\"max\"",
+        "-c",
+        "model_instructions_file=\"/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v3-revised-1/29_38/prompt.md\"",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "web_search=\"disabled\"",
+        "--enable",
+        "skip_host_skill_discovery",
+        "--disable",
+        "apps",
+        "--disable",
+        "plugins",
+        "--disable",
+        "multi_agent",
+        "--disable",
+        "multi_agent_v2",
+        "--disable",
+        "browser_use",
+        "--disable",
+        "computer_use",
+        "--disable",
+        "image_generation",
+        "--disable",
+        "view_image",
+        "--disable",
+        "memories",
+        "--disable",
+        "hooks",
+        "--disable",
+        "skill_search",
+        "--disable",
+        "code_mode_host",
+        "--disable",
+        "sleep_tool",
+        "--disable",
+        "goals",
+        "--disable",
+        "shell_snapshot",
+        "--disable",
+        "unbounded_connection_retries",
+        "--disable",
+        "shell_tool",
+        "--json",
+        "--color",
+        "never",
+        "-o",
+        "/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v3-revised-1/29_38/reader.response.json",
+        "-"
+      ],
+      "stdin_sha256": "3357175ac85f57591c8c8508ab6f9f78d63039539e8d421c44af481b8498ea8f",
+      "stdin_bytes": 352978,
+      "profile": {
+        "model": "gpt-5.6-sol",
+        "reasoning_effort": "max"
+      },
+      "condition": "v3-revised-1",
+      "delivery": "complete-inline",
+      "service_tier_override": null,
+      "fresh_session": true,
+      "git_head_before_launch": "589e85e480b451fd9b77ff4794775e8867a08a26",
+      "git_status_before_launch": "",
+      "inputs": {
+        "source.json": "95cd70020d03649dbc28444a5fb545185a739c460e6db81b72e0ac74915b3833",
+        "packet.json": "d7974f426012ce0238994a47030e7de4be2245e6b7cc57e65b3d95cdfe84bdbb",
+        "prompt.md": "b1f658022fd19367cdd7838596c4be6d86fe191cacd3f6574398c37edee24390",
+        "reader.schema.json": "77f3048c82443bb23ee872c4640665381468d17f524d8fc87b0fe984ae147596",
+        "ledger.schema.json": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "state": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 593.970275692991,
+      "finished_at": "2026-09-07T02:10:46.065653+00:00"
+    },
+    "turn_contexts": [
+      {
+        "model": "gpt-5.6-sol",
+        "effort": "max",
+        "cwd": "/private/tmp/hft-discovery-v3-revised-1-wxdviw36",
+        "approval_policy": "never",
+        "sandbox_policy": {
+          "type": "read-only"
+        }
+      }
+    ],
+    "profile_matches": true,
+    "base_prompt_matches": true,
+    "assignment_matches": true,
+    "input_messages": [
+      {
+        "sha256": "3357175ac85f57591c8c8508ab6f9f78d63039539e8d421c44af481b8498ea8f",
+        "bytes": 352978
+      }
+    ],
+    "ambient_developer_metadata": [
+      {
+        "sha256": "7a7ada2f11038eae8658f680a030768382832bf688472baf00a05e8a74346c40",
+        "bytes": 2491
+      },
+      {
+        "sha256": "29dad5ed6993c5e717376e0a1c84d54ab60ee593510916ac6cee4295e803315d",
+        "bytes": 341
+      },
+      {
+        "sha256": "af60719c7b64906bd05733aec72a96726712fe25d382a7bc9e05a6733cfd67dc",
+        "bytes": 2264
+      },
+      {
+        "sha256": "6ded806e3cdbb35599ecaf8742574bc5274908472b1729090010c404c2151e8e",
+        "bytes": 271
+      }
+    ],
+    "tool_call_counts": {},
+    "completed_commands": [],
+    "event_counts": {
+      "task_started": 1,
+      "token_count": 1,
+      "task_complete": 1
+    },
+    "completed_turns": 1,
+    "usage": {
+      "total_token_usage": {
+        "input_tokens": 105630,
+        "cached_input_tokens": 105472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 27841,
+        "reasoning_output_tokens": 19460,
+        "total_tokens": 133471
+      },
+      "last_token_usage": {
+        "input_tokens": 105630,
+        "cached_input_tokens": 105472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 27841,
+        "reasoning_output_tokens": 19460,
+        "total_tokens": 133471
+      },
+      "model_context_window": 258400
+    },
+    "cli_completed_events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 105630,
+          "cached_input_tokens": 105472,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 27841,
+          "reasoning_output_tokens": 19460
+        }
+      }
+    ],
+    "startup_warnings": [
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/ahmetrasit/.codex/config.toml.",
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+    ],
+    "final_message_matches_event": true,
+    "raw_output_sha256": "7cb3f02bfa947ace4e104ccff36680b0b73fe3f64f4492af08578900e35450db"
+  },
+  "v3-revised-2": {
+    "thread_id": "01a07998-ccec-7a43-8528-6c407dfaafb7",
+    "launch": {
+      "started_at": "2026-09-07T02:00:52.105598+00:00",
+      "argv": [
+        "codex",
+        "-a",
+        "never",
+        "exec",
+        "--ignore-user-config",
+        "--strict-config",
+        "--skip-git-repo-check",
+        "-s",
+        "read-only",
+        "-C",
+        "/private/tmp/hft-discovery-v3-revised-2-y8jop4yl",
+        "-m",
+        "gpt-5.6-sol",
+        "-c",
+        "model_reasoning_effort=\"max\"",
+        "-c",
+        "model_instructions_file=\"/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v3-revised-2/29_38/prompt.md\"",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "web_search=\"disabled\"",
+        "--enable",
+        "skip_host_skill_discovery",
+        "--disable",
+        "apps",
+        "--disable",
+        "plugins",
+        "--disable",
+        "multi_agent",
+        "--disable",
+        "multi_agent_v2",
+        "--disable",
+        "browser_use",
+        "--disable",
+        "computer_use",
+        "--disable",
+        "image_generation",
+        "--disable",
+        "view_image",
+        "--disable",
+        "memories",
+        "--disable",
+        "hooks",
+        "--disable",
+        "skill_search",
+        "--disable",
+        "code_mode_host",
+        "--disable",
+        "sleep_tool",
+        "--disable",
+        "goals",
+        "--disable",
+        "shell_snapshot",
+        "--disable",
+        "unbounded_connection_retries",
+        "--disable",
+        "shell_tool",
+        "--json",
+        "--color",
+        "never",
+        "-o",
+        "/Users/ahmetrasit/projects/latent_activation/focus_trace_v3/runs/discovery-control-20260906/v3-revised-2/29_38/reader.response.json",
+        "-"
+      ],
+      "stdin_sha256": "3357175ac85f57591c8c8508ab6f9f78d63039539e8d421c44af481b8498ea8f",
+      "stdin_bytes": 352978,
+      "profile": {
+        "model": "gpt-5.6-sol",
+        "reasoning_effort": "max"
+      },
+      "condition": "v3-revised-2",
+      "delivery": "complete-inline",
+      "service_tier_override": null,
+      "fresh_session": true,
+      "git_head_before_launch": "589e85e480b451fd9b77ff4794775e8867a08a26",
+      "git_status_before_launch": "",
+      "inputs": {
+        "source.json": "95cd70020d03649dbc28444a5fb545185a739c460e6db81b72e0ac74915b3833",
+        "packet.json": "d7974f426012ce0238994a47030e7de4be2245e6b7cc57e65b3d95cdfe84bdbb",
+        "prompt.md": "b1f658022fd19367cdd7838596c4be6d86fe191cacd3f6574398c37edee24390",
+        "reader.schema.json": "77f3048c82443bb23ee872c4640665381468d17f524d8fc87b0fe984ae147596",
+        "ledger.schema.json": "9d5765d756a916a82ae925fcf6eebb49b2faebad9f0bd7a0907ae8cab50bfefa"
+      },
+      "state": "completed",
+      "exit_code": 0,
+      "elapsed_seconds": 653.9975726950215,
+      "finished_at": "2026-09-07T02:11:46.084031+00:00"
+    },
+    "turn_contexts": [
+      {
+        "model": "gpt-5.6-sol",
+        "effort": "max",
+        "cwd": "/private/tmp/hft-discovery-v3-revised-2-y8jop4yl",
+        "approval_policy": "never",
+        "sandbox_policy": {
+          "type": "read-only"
+        }
+      }
+    ],
+    "profile_matches": true,
+    "base_prompt_matches": true,
+    "assignment_matches": true,
+    "input_messages": [
+      {
+        "sha256": "3357175ac85f57591c8c8508ab6f9f78d63039539e8d421c44af481b8498ea8f",
+        "bytes": 352978
+      }
+    ],
+    "ambient_developer_metadata": [
+      {
+        "sha256": "7a7ada2f11038eae8658f680a030768382832bf688472baf00a05e8a74346c40",
+        "bytes": 2491
+      },
+      {
+        "sha256": "29dad5ed6993c5e717376e0a1c84d54ab60ee593510916ac6cee4295e803315d",
+        "bytes": 341
+      },
+      {
+        "sha256": "af60719c7b64906bd05733aec72a96726712fe25d382a7bc9e05a6733cfd67dc",
+        "bytes": 2264
+      },
+      {
+        "sha256": "6ded806e3cdbb35599ecaf8742574bc5274908472b1729090010c404c2151e8e",
+        "bytes": 271
+      }
+    ],
+    "tool_call_counts": {},
+    "completed_commands": [],
+    "event_counts": {
+      "task_started": 1,
+      "token_count": 1,
+      "task_complete": 1
+    },
+    "completed_turns": 1,
+    "usage": {
+      "total_token_usage": {
+        "input_tokens": 105632,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 31700,
+        "reasoning_output_tokens": 22121,
+        "total_tokens": 137332
+      },
+      "last_token_usage": {
+        "input_tokens": 105632,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 31700,
+        "reasoning_output_tokens": 22121,
+        "total_tokens": 137332
+      },
+      "model_context_window": 258400
+    },
+    "cli_completed_events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 105632,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 31700,
+          "reasoning_output_tokens": 22121
+        }
+      }
+    ],
+    "startup_warnings": [
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/ahmetrasit/.codex/config.toml.",
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+    ],
+    "final_message_matches_event": true,
+    "raw_output_sha256": "8aea2e4fd035b4dda366dcb9e6373bd2bd25a53c831e7a321e249f33883626f7"
+  }
+}
