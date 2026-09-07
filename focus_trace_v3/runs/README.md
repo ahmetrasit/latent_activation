@@ -17,6 +17,8 @@ The `rerun-20260906-compact-*-max/29_38` jobs are the user-requested compact
 rerun. Their context inventory is byte-identical to legacy v1 (171,474 bytes),
 and their complete packets are 346,065 bytes. Focus scopes, 69-ayah window,
 branch identities, model/effort, and integration-on setting are preserved.
-The implementation and prepared jobs must be committed before launching them.
+The implementation and prepared jobs were committed as `4648eb29` before launch.
+Both readers completed and passed without repair; see the
+[compact rerun comparison](rerun-20260906-compact/comparison.md).
 Earlier jobs without a `context_scopes` option retain their frozen scope-rich
 behavior and continue to validate.

@@ -22,5 +22,6 @@ Prepared jobs:
 - [Sol](../rerun-20260906-compact-sol-max/29_38/job.json)
 - [Luna](../rerun-20260906-compact-luna-max/29_38/job.json)
 
-Status at preparation: not launched. Runtime and comparison records will be
-added after the committed jobs run.
+Both readers completed and passed without repair. See the
+[comparison](comparison.md), [runtime audit](runtime.json),
+[input audit](input-audit.json), and [validation](validation.json).
