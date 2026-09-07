@@ -1,0 +1,14 @@
+{
+  "reason": "The initial v1 launch enabled shell_tool but disabled code_mode_host; both sessions could not access assigned inputs and produced no response JSON.",
+  "failed_attempts": [
+    "v1-1",
+    "v1-2"
+  ],
+  "replacement_controls": [
+    "v1-host-1",
+    "v1-host-2"
+  ],
+  "change": "Enable code_mode_host for v1 assigned-file controls only. No changes to prompt, packet, schema, model, effort, or four ongoing v3 runs.",
+  "selection_basis": "Infrastructure failure before input access, not semantic output quality.",
+  "commit_policy": "Correction, failed attempts, and replacement inputs committed before launch. Only ongoing v3 runtime files may remain untracked."
+}

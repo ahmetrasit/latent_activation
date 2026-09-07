@@ -49,3 +49,19 @@ python3 -B focus_trace_v3/runs/discovery-control-20260906/launch.py
 ```
 
 Outputs, runtime receipts, validation, and the comparison will be retained here.
+
+## Execution-host correction
+
+The first two v1 sessions could not read any input: shell access was enabled but
+the execution host was disabled. Both returned a failure note and no response
+JSON. Their artifacts remain under `v1-1` and `v1-2`; they are infrastructure
+failures, not semantic samples. [host-recovery.json](host-recovery.json) records
+the diagnosis and the two replacements, `v1-host-1` and `v1-host-2`.
+
+The replacement launcher enables the installed execution host and uses exactly
+the same frozen v1 prompt, packet, schema, model, and effort. The correction and
+replacement inputs are committed before launch. Because the original four v3
+readers are already running, their untracked runtime files are the only permitted
+working-tree changes at replacement launch; code and inputs must be committed.
+This explicit infrastructure correction does not retry or replace a semantic
+output. Run it with `launch.py --recover-v1-host`.

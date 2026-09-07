@@ -20,10 +20,10 @@ NAMES = [f"{condition}-{replicate}" for replicate in (1, 2)
          for condition in ("v1", "v3-current", "v3-revised")]
 
 
-def preflight():
+def preflight(names=NAMES):
     jobs = {}
     old = ROOT / "focus_trace_v3/runs/rerun-20260906-compact-sol-max/29_38"
-    for name in NAMES:
+    for name in names:
         directory = HERE / name / "29_38"
         job = w.read(directory / "job.json")
         w.require(not (directory / "launch.json").exists(), f"already launched: {name}")
@@ -54,7 +54,7 @@ def preflight():
     return jobs
 
 
-def run(name, job, git_head, git_status):
+def run(name, job, git_head, git_status, *, file_host_enabled=False):
     directory = HERE / name / "29_38"
     is_v1 = name.startswith("v1-")
     isolated = Path(tempfile.mkdtemp(prefix=f"hft-discovery-{name}-", dir="/private/tmp"))
@@ -86,15 +86,17 @@ def run(name, job, git_head, git_status):
             "--enable", "skip_host_skill_discovery"]
     for feature in ["apps", "plugins", "multi_agent", "multi_agent_v2", "browser_use",
                     "computer_use", "image_generation", "view_image", "memories", "hooks",
-                    "skill_search", "code_mode_host", "sleep_tool", "goals", "shell_snapshot",
+                    "skill_search", "sleep_tool", "goals", "shell_snapshot",
                     "unbounded_connection_retries"]:
         args += ["--disable", feature]
     args += ["--enable" if is_v1 else "--disable", "shell_tool"]
+    args += ["--enable" if file_host_enabled else "--disable", "code_mode_host"]
     args += ["--json", "--color", "never", "-o", str(final_path), "-"]
     record = {"started_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
               "argv": args, "stdin_sha256": hashlib.sha256(payload).hexdigest(),
               "stdin_bytes": len(payload), "profile": job["profile"], "condition": name,
               "delivery": "assigned-files" if is_v1 else "complete-inline",
+              "execution_host_enabled": file_host_enabled,
               "service_tier_override": None, "fresh_session": True,
               "git_head_before_launch": git_head, "git_status_before_launch": git_status,
               "inputs": job["inputs"], "state": "running"}
@@ -125,14 +127,34 @@ def run(name, job, git_head, git_status):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true")
+    parser.add_argument("--recover-v1-host", action="store_true",
+                        help="replace only the two proven no-input execution-host failures")
     args = parser.parse_args()
-    jobs = preflight()
+    names = ["v1-host-1", "v1-host-2"] if args.recover_v1_host else NAMES
+    if args.recover_v1_host:
+        w.require(shutil.which("codex-code-mode-host") is not None, "execution host binary missing")
+        for replicate in (1, 2):
+            failed = HERE / f"v1-{replicate}" / "29_38"
+            w.require(w.read(failed / "launch.json")["state"] != "running", "original v1 still running")
+            w.require(not (failed / "reader.response.json").exists(), "cannot replace a reader output")
+            w.require("host" in (failed / "reader.final.txt").read_text() and
+                      "disabled" in (failed / "reader.final.txt").read_text(), "not the known host failure")
+    jobs = preflight(names)
     if args.check:
-        print("Six frozen jobs checked; evidence and intended prompt differences verified. No models launched.")
+        print(f"{len(names)} frozen jobs checked; evidence and intended prompt differences verified. No models launched.")
         sys.exit(0)
     head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
-    status = subprocess.check_output(["git", "status", "--short"], cwd=ROOT, text=True)
-    w.require(not status, "commit the prepared experiment before launching")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
-        results = list(pool.map(lambda name: run(name, jobs[name], head, status), NAMES))
+    status = subprocess.check_output(["git", "status", "--short", "--untracked-files=all"], cwd=ROOT, text=True)
+    if args.recover_v1_host:
+        # The four already-running v3 readers may be writing their runtime files.
+        # Code and all new inputs must still be committed before replacement calls.
+        allowed = {f"?? {str((HERE / name / '29_38' / filename).relative_to(ROOT))}"
+                   for name in NAMES if name.startswith("v3-")
+                   for filename in ("launch.json", "events.jsonl", "stderr.log", "reader.response.json")}
+        w.require(all(line in allowed for line in status.splitlines()), "uncommitted changes beyond active v3 runtime files")
+    else:
+        w.require(not status, "commit the prepared experiment before launching")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(names)) as pool:
+        results = list(pool.map(lambda name: run(name, jobs[name], head, status,
+                                                file_host_enabled=args.recover_v1_host), names))
     sys.exit(int(any(results)))
