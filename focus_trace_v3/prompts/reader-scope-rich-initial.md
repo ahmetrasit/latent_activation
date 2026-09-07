@@ -100,8 +100,7 @@ an inventory for a missing root.
 For every activation_trace entry, return only:
 
 - `occurrence_id`: the exact ID on the relevant focus/context root occurrence;
-- `branch_key`: a branch belonging to that occurrence's root, written as
-  `mapped_root_id/branch_id` using its target ID and branch ID;
+- `branch_key`: the exact key of a branch belonging to that occurrence's root;
 - `role`: a concise sentence combining the branch image's literal contribution
   and its functional contribution to your mechanism.
 
@@ -111,21 +110,15 @@ trigger_roots, or trigger_refs in the response. Do not repeat the branch text.
 You select the evidence and explain its role; the coordinator expands the IDs.
 An identifier that does not resolve is an error, not permission to guess a source.
 
-Root inventories are grouped under `targets`. Focus branches supply branch_key
-directly. Compact context branches supply branch_id under their target; join
-the target's mapped_root_id, a slash, and that branch_id to form the same key.
-All mapped targets are legitimate
-activation material, including non-dominant split-root targets.
-Do not collapse a split root to the dominant target only. Branch IDs are
-root-local; use the complete combined branch_key. A context occurrence of a focus
+Root inventories are grouped under `targets`. All mapped targets are legitimate
+activation material, including non-dominant split-root targets. Branch IDs are
+root-local; use the complete supplied branch_key. A context occurrence of a focus
 root uses its focus inventory even though it is omitted from context_root_cues.
 
-Focus branches retain their Arabic images and scopes. Context cues use v1's
-compact branch images. Read scopes where supplied; do not assume omitted scope
-detail. If a branch has `variants`, inspect the supplied images and any paired
-scopes and make clear which does the work. The shared branch_key represents
-these rows; do not silently combine incompatible scopes. English glosses, when
-supplied, accompany the same Arabic source rows.
+Read each Arabic image with its scope. If a branch has `variants`, inspect all
+paired source rows and make clear which image/scope does the work. The shared
+branch_key represents all these rows; do not silently combine incompatible scopes.
+English glosses, when supplied, accompany the same Arabic source rows.
 
 The full-surah text can orient a reading, but only focus_ayah and context_ayat
 supply citable occurrences. Evidence outside the selected window is not a context

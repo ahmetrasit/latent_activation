@@ -21,6 +21,7 @@ PACKET_PROTOCOL = "focus-trace-v3-packet-v1"
 READER_PROTOCOL = "focus-trace-v3-reader-response-v1"
 SECTIONS = ("baseline_models", "context_deltas", "surprising_valid_outliers")
 MODELS = ("gpt-5.6-sol", "gpt-5.6-luna")
+PROMPT_REVISIONS = ("initial", "v1-discovery")
 
 
 def read(path: Path) -> dict:
@@ -210,9 +211,13 @@ def compile_response(draft: dict, packet: dict, reader_id: str) -> dict:
     return result
 
 
-def render_prompt(model: str, effort: str, integration: bool, *, context_scopes: bool = False) -> str:
+def render_prompt(model: str, effort: str, integration: bool, *, context_scopes: bool = False,
+                  prompt_revision: str = "v1-discovery") -> str:
     require(model in MODELS and effort in ("medium", "high", "xhigh", "max"), "unsupported explicit model profile")
-    prompt = (ROOT / "prompts" / ("reader-scope-rich.md" if context_scopes else "reader.md")).read_text()
+    require(prompt_revision in PROMPT_REVISIONS, "unsupported prompt revision")
+    stem = "reader-scope-rich" if context_scopes else "reader"
+    suffix = "-initial" if prompt_revision == "initial" else ""
+    prompt = (ROOT / "prompts" / f"{stem}{suffix}.md").read_text()
     require(prompt.count("model: gpt-5.6-sol\nreasoning_effort: max") == 1, "profile template drift")
     prompt = prompt.replace("model: gpt-5.6-sol\nreasoning_effort: max", f"model: {model}\nreasoning_effort: {effort}")
     require(prompt.count("{{INTEGRATION}}") == 1, "integration template drift")
@@ -220,7 +225,8 @@ def render_prompt(model: str, effort: str, integration: bool, *, context_scopes:
 
 
 def prepare(job_dir: Path, focus: str, window: list[str], *, model: str = "gpt-5.6-sol", effort: str = "max",
-            english: bool = False, integration: bool = True, context_scopes: bool = False) -> dict:
+            english: bool = False, integration: bool = False, context_scopes: bool = False,
+            prompt_revision: str = "v1-discovery") -> dict:
     require(not job_dir.exists(), "job directory already exists; choose a new job")
     require(job_dir.resolve().is_relative_to(ROOT.resolve()) or job_dir.resolve().is_relative_to(Path('/private/tmp')), "prepare jobs under focus_trace_v3 or /private/tmp")
     source = build_source(focus, window)
@@ -228,13 +234,15 @@ def prepare(job_dir: Path, focus: str, window: list[str], *, model: str = "gpt-5
     reader_id = f"reader_{focus.replace(':', '_')}_{model.removeprefix('gpt-5.6-')}"
     payloads = {
         "source.json": encode(source), "packet.json": encode(packet),
-        "prompt.md": render_prompt(model, effort, integration, context_scopes=context_scopes).encode(),
+        "prompt.md": render_prompt(model, effort, integration, context_scopes=context_scopes,
+                                   prompt_revision=prompt_revision).encode(),
         "reader.schema.json": (ROOT / "schemas/reader-response.schema.json").read_bytes(),
         "ledger.schema.json": (ROOT / "schemas/focus-trace-response.schema.json").read_bytes(),
     }
     job = {"protocol": "focus-trace-v3-job-v1", "focus_ref": focus, "reader_id": reader_id,
            "profile": {"model": model, "reasoning_effort": effort},
-           "options": {"english": english, "integration": integration, "context_scopes": context_scopes},
+           "options": {"english": english, "integration": integration, "context_scopes": context_scopes,
+                       "prompt_revision": prompt_revision},
            "inputs": {name: digest(data) for name, data in payloads.items()},
            "implementation_sha256": implementation_hashes(),
            "generation_state": "prepared"}
@@ -246,7 +254,7 @@ def prepare(job_dir: Path, focus: str, window: list[str], *, model: str = "gpt-5
 
 
 def implementation_hashes() -> dict:
-    paths = [ROOT / "workflow.py", ROOT / "prompts/reader.md", ROOT / "prompts/reader-scope-rich.md", ROOT / "prompts/integration.md",
+    paths = [ROOT / "workflow.py", *sorted((ROOT / "prompts").glob("reader*.md")), ROOT / "prompts/integration.md",
              *sorted((ROOT / "scripts").glob("*.py"))]
     return {str(path.relative_to(ROOT)): digest(path.read_bytes()) for path in paths}
 
@@ -261,7 +269,10 @@ def load_job(job_dir: Path) -> tuple[dict, dict]:
     context_scopes = job["options"].get("context_scopes", True)
     require(packet == project_packet(source, english=job["options"]["english"], context_scopes=context_scopes), "packet differs from full source projection")
     require(job["focus_ref"] == packet["focus_ref"], "job/packet focus mismatch")
-    require((job_dir / "prompt.md").read_text() == render_prompt(job["profile"]["model"], job["profile"]["reasoning_effort"], job["options"]["integration"], context_scopes=context_scopes), "job/prompt configuration mismatch")
+    require((job_dir / "prompt.md").read_text() == render_prompt(
+        job["profile"]["model"], job["profile"]["reasoning_effort"], job["options"]["integration"],
+        context_scopes=context_scopes, prompt_revision=job["options"].get("prompt_revision", "initial")),
+        "job/prompt configuration mismatch")
     require((job_dir / "reader.schema.json").read_bytes() == (ROOT / "schemas/reader-response.schema.json").read_bytes(), "unsupported frozen reader schema")
     require((job_dir / "ledger.schema.json").read_bytes() == (ROOT / "schemas/focus-trace-response.schema.json").read_bytes(), "unsupported frozen ledger schema")
     return job, packet
@@ -328,7 +339,13 @@ def main() -> None:
     p.add_argument("--model", choices=MODELS, default=MODELS[0])
     p.add_argument("--effort", choices=("medium", "high", "xhigh", "max"), default="max")
     p.add_argument("--english", action="store_true", help="include paired English glosses as an explicit ablation")
-    p.add_argument("--no-integration", action="store_true")
+    integration_group = p.add_mutually_exclusive_group()
+    integration_group.add_argument("--integration", dest="integration", action="store_true",
+                                   help="opt into the additional peripheral-branch integration instruction")
+    integration_group.add_argument("--no-integration", dest="integration", action="store_false")
+    p.set_defaults(integration=False)
+    p.add_argument("--prompt-revision", choices=PROMPT_REVISIONS, default="v1-discovery",
+                   help="use initial to reproduce the original v3 split-root wording")
     p.add_argument("--context-scopes", action="store_true", help="restore the larger context-scope input as an explicit ablation")
     for name in ("render", "compile", "validate"):
         command = sub.add_parser(name)
@@ -338,7 +355,8 @@ def main() -> None:
         if args.command == "prepare":
             window = args.window or base.window_for_surah(base.DEFAULT_QURAN_DIR, args.focus, False)
             job = prepare(args.job, args.focus, window, model=args.model, effort=args.effort,
-                          english=args.english, integration=not args.no_integration, context_scopes=args.context_scopes)
+                          english=args.english, integration=args.integration, context_scopes=args.context_scopes,
+                          prompt_revision=args.prompt_revision)
             print(json.dumps({"job": str(args.job), "reader_id": job["reader_id"], "state": "prepared"}))
         elif args.command == "compile":
             print(json.dumps(compile_job(args.job)))

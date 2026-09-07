@@ -86,7 +86,7 @@ When two readings compete, keep both if each has a traceable mechanism. When a
 reading is form-distant, weird, or surprising, say what makes it exploratory and
 what makes it still worth carrying.
 
-{{INTEGRATION}}
+
 
 ## Required Evidence Discipline
 

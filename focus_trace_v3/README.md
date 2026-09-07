@@ -15,9 +15,13 @@ No fallback, automatic retry, semantic repair, or production promotion is built 
 - V1's Reader Posture and Core Task are preserved verbatim: discovery first,
   focus-only baseline, competing mechanisms, unusual grounded readings, and
   reconstructed focus traces.
-- A short [integration instruction](prompts/integration.md) revisits peripheral
-  branches and relationships before discovery finishes. `--no-integration` removes
-  just this addition for a controlled comparison. There are no target readings.
+- V1's explicit instruction not to collapse split roots to the dominant target
+  is restored. The extra [integration instruction](prompts/integration.md) is now
+  opt-in with `--integration`; the default follows v1's discovery task more closely.
+  This is a candidate improvement under evaluation, not established quality parity.
+  `--prompt-revision initial --integration` reproduces the prior v3 prompt.
+  Existing jobs without a prompt revision still validate against archived initial
+  templates; their frozen inputs and outputs are unchanged.
 - The reader selects `occurrence_id`, `branch_key`, and `role`. The compiler
   expands exact v1 citations and derives `trigger_roots`. It never chooses another
   source, adds a citation, changes a reading, or corrects a semantic error.
@@ -125,6 +129,8 @@ artifact acceptance, and cost. Candidate count alone is not a quality metric.
 The first scope-rich 29:38 Sol/Luna outputs and their comparison are recorded in
 [runs/compare-20260906/comparison.md](runs/compare-20260906/comparison.md).
 The compact-context rerun is tracked under `runs/rerun-20260906-compact/`.
+The repeated fresh-v1/current-v3/revised-v3 comparison is tracked under
+[runs/discovery-control-20260906/](runs/discovery-control-20260906/README.md).
 
 In compact context cues, the reader forms `branch_key` from the supplied target
 `mapped_root_id` and local `branch_id`, separated by `/`. Focus branches retain

@@ -111,7 +111,8 @@ You select the evidence and explain its role; the coordinator expands the IDs.
 An identifier that does not resolve is an error, not permission to guess a source.
 
 Root inventories are grouped under `targets`. All mapped targets are legitimate
-activation material, including non-dominant split-root targets. Branch IDs are
+activation material, including non-dominant split-root targets.
+Do not collapse a split root to the dominant target only. Branch IDs are
 root-local; use the complete supplied branch_key. A context occurrence of a focus
 root uses its focus inventory even though it is omitted from context_root_cues.
 

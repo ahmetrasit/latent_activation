@@ -1,4 +1,4 @@
-# Hermetic Focus Trace v3 Reader Protocol
+# Hermetic Focus Trace Reader Protocol
 
 Workflow name: **Hermetic Focus Trace**.
 
@@ -20,8 +20,8 @@ model or lower reasoning setting.
 Read only:
 
 - this prompt;
-- the assigned `packet.json`;
-- `reader.schema.json`.
+- the assigned `focus_trace_packet.json`;
+- `focus_trace/schemas/focus-trace-response.schema.json`.
 
 Do not inspect gold readings, previous project outputs, older version
 directories, staged reader outputs, full-context reader outputs, tafsir, online
@@ -86,51 +86,59 @@ When two readings compete, keep both if each has a traceable mechanism. When a
 reading is form-distant, weird, or surprising, say what makes it exploratory and
 what makes it still worth carrying.
 
-{{INTEGRATION}}
-
 ## Required Evidence Discipline
 
-Keep v1's evidence boundary: every baseline uses only focus evidence; every
-retained context delta has a branch-backed context trigger. Structural cues may
-support a delta but cannot supply its only trigger. For a focus with no QAC-rooted
-morphemes, set `rootless_focus: true`; its baseline trace may be empty. An annotation
-gap is not a claim that the Arabic word has no morphological root. Do not invent
-an inventory for a missing root.
+For every `activation_trace` entry, whether baseline, context delta, or outlier,
+use exactly this compact resolvable citation shape:
 
-For every activation_trace entry, return only:
+- `source_ref`;
+- `root`;
+- `source_word_indices`;
+- `mapped_root_id`;
+- `branch_id`;
+- `role`.
 
-- `occurrence_id`: the exact ID on the relevant focus/context root occurrence;
-- `branch_key`: a branch belonging to that occurrence's root, written as
-  `mapped_root_id/branch_id` using its target ID and branch ID;
-- `role`: a concise sentence combining the branch image's literal contribution
-  and its functional contribution to your mechanism.
+For context-triggered deltas, every non-focus citation must include the compact
+resolvable citation key:
 
-The coordinator resolves these two identifiers to the original v1 citation fields.
-Do not write source_ref, root, source_word_indices, mapped_root_id, branch_id,
-trigger_roots, or trigger_refs in the response. Do not repeat the branch text.
-You select the evidence and explain its role; the coordinator expands the IDs.
-An identifier that does not resolve is an error, not permission to guess a source.
+- `source_ref`;
+- `root`;
+- `source_word_indices`;
+- `mapped_root_id`;
+- `branch_id`;
+- `role`, a concise sentence explaining the cited branch image's contribution
+  to the mechanism.
 
-Root inventories are grouped under `targets`. Focus branches supply branch_key
-directly. Compact context branches supply branch_id under their target; join
-the target's mapped_root_id, a slash, and that branch_id to form the same key.
-All mapped targets are legitimate
-activation material, including non-dominant split-root targets.
-Do not collapse a split root to the dominant target only. Branch IDs are
-root-local; use the complete combined branch_key. A context occurrence of a focus
-root uses its focus inventory even though it is omitted from context_root_cues.
+Do not repeat `source_phrase_ar`, `branch_image_ar`, or `mapped_root_norm` in
+the response. The validator and downstream loader resolve those from the packet
+using `source_ref`, `root`, `source_word_indices`, `mapped_root_id`, and
+`branch_id`. Use the exact `source_word_indices` supplied by the packet. If a
+context root has no branch inventory, cite it only as a `structural_cues` item
+rather than inventing a branch ID. In v4, a retained `context_delta` must still
+include at least one branch-backed context citation in `activation_trace`;
+branchless structural cues may support that delta but may not be its only
+trigger.
 
-Focus branches retain their Arabic images and scopes. Context cues use v1's
-compact branch images. Read scopes where supplied; do not assume omitted scope
-detail. If a branch has `variants`, inspect the supplied images and any paired
-scopes and make clear which does the work. The shared branch_key represents
-these rows; do not silently combine incompatible scopes. English glosses, when
-supplied, accompany the same Arabic source rows.
+QAC roots are resolved to Furuq root IDs before you receive the packet. If a QAC
+root maps to multiple Furuq roots, all mapped roots and all non-contaminated
+branch inventories are present. Branch IDs are local to a
+Furuq root, so cite `mapped_root_id` with every `branch_id`. Do not collapse a
+split root to the dominant target only. Non-dominant mapped roots are legitimate
+activation material when they visibly change the focus reading.
 
-The full-surah text can orient a reading, but only focus_ayah and context_ayat
-supply citable occurrences. Evidence outside the selected window is not a context
-trigger. `source_gaps` reports missing inventories and targets; those roots may
-inform structural cues without fabricated branch citations.
+If the packet protocol is `focus-trace-pericope-lean-v1`, branch inventories are
+grouped under `targets` instead of repeating mapped identity on every branch.
+Resolve each branch citation from `root -> targets[].mapped_root_id ->
+branches[].branch_id`. In this lean schema, `context_ayat.root_occurrences` is
+the authoritative source-occurrence record. A context occurrence whose root is
+already present in `focus_branch_inventories` may use that focus inventory for
+branch resolution even when that root is omitted from `context_root_cues`.
+`remote_orientation` is not branch-citable when it says `citable: false`; use it
+only to orient candidate readings, never as a citation source.
+
+If a branch entry contains `variants`, the same packet branch ID represents
+multiple non-contaminated source rows. You may cite the shared branch ID, but be clear
+which image or scope is doing the work.
 
 Whenever you infer that one element causes, enables, blocks, reveals, preserves,
 or reverses another, distinguish the elements supplied by the packet from the
@@ -144,13 +152,13 @@ arrow, and any materially live alternative.
 Write one JSON object conforming to:
 
 ```text
-reader.schema.json
+focus_trace/schemas/focus-trace-response.schema.json
 ```
 
 The top-level `protocol` must be:
 
 ```text
-focus-trace-v3-reader-response-v1
+focus-trace-hermetic-response-v4
 ```
 
 Use this order:
@@ -165,15 +173,15 @@ Use this order:
 8. optional `discarded_or_unchanged`
 9. `summary`
 
-For the compact reader output:
+For v4 compact output:
 
 - omit baseline `status`; membership in `baseline_models` implies it;
 - use one trace `role` field instead of separate `literal_contribution` and
   `assigned_role`; this must combine the branch image's literal contribution
   and its functional role in the mechanism;
 - use one `reader_inference` string instead of `abductive_moves`;
-- omit `trigger_roots` and `trigger_refs`; the coordinator derives these lists
-  from the selected non-focus evidence;
+- omit `trigger_refs` by default; if included, they must exactly match the
+  non-focus citations in `activation_trace`;
 - omit `minimal_triggers`, `ablation`, and `discarded_or_unchanged` unless a
   debug note materially changes confidence or status;
 - for outliers, use one `containment` field instead of separate
@@ -195,5 +203,6 @@ Keep fields concise and diagnostic. The goal is not a catalog of every branch;
 the goal is to recover the surprising changed-reading trace that whole-surah
 reader prose tends to collapse.
 
-Return only the reader response JSON. Formatting, citation expansion, validation,
-and evidence export are coordinator operations. Do not call tools or manage files.
+After writing valid JSON, compact the stored output with `jq -c` before final
+validation. The compaction is formatting-only: it must not change any field or
+value. If compacting fails, fix the JSON and compact again before validating.

@@ -86,7 +86,16 @@ When two readings compete, keep both if each has a traceable mechanism. When a
 reading is form-distant, weird, or surprising, say what makes it exploratory and
 what makes it still worth carrying.
 
-{{INTEGRATION}}
+## Revisit and integrate before finalizing discovery
+
+Revisit the focus's peripheral branches against the context and your current
+discoveries. Where separate observations support an additional causal chain,
+reversal, or material relationship, retain that integrated mechanism with its
+evidence. State the new change to the focus reading and which links you infer.
+Preserve distinct component discoveries and competing alternatives. Do not force
+connections, substitute a consensus summary, or create a finding for every ayah
+or branch. This revisit is part of discovery within the same response.
+
 
 ## Required Evidence Discipline
 
@@ -115,8 +124,7 @@ Root inventories are grouped under `targets`. Focus branches supply branch_key
 directly. Compact context branches supply branch_id under their target; join
 the target's mapped_root_id, a slash, and that branch_id to form the same key.
 All mapped targets are legitimate
-activation material, including non-dominant split-root targets.
-Do not collapse a split root to the dominant target only. Branch IDs are
+activation material, including non-dominant split-root targets. Branch IDs are
 root-local; use the complete combined branch_key. A context occurrence of a focus
 root uses its focus inventory even though it is omitted from context_root_cues.
 

@@ -175,6 +175,8 @@ class WorkflowTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(dir="/private/tmp") as temporary:
             job_dir = Path(temporary) / "job"
             job = w.prepare(job_dir, "83:1", ["83:1", "83:2", "83:3"], model="gpt-5.6-luna")
+            self.assertFalse(job["options"]["integration"])
+            self.assertEqual(job["options"]["prompt_revision"], "v1-discovery")
             _, packet = w.load_job(job_dir)
             (job_dir / "reader.response.json").write_bytes(w.encode(sample_draft(packet, job["reader_id"])))
             receipt = w.compile_job(job_dir)
@@ -194,6 +196,17 @@ class WorkflowTests(unittest.TestCase):
             (job_dir / "packet.json").write_bytes(w.encode(packet))
             with self.assertRaisesRegex(ValueError, "frozen input changed"):
                 w.load_job(job_dir)
+
+    def test_initial_jobs_remain_valid_and_prompt_change_is_scoped(self):
+        for scope in (False, True):
+            old = w.render_prompt("gpt-5.6-sol", "max", True, context_scopes=scope,
+                                  prompt_revision="initial")
+            new = w.render_prompt("gpt-5.6-sol", "max", True, context_scopes=scope)
+            sentence = "\nDo not collapse a split root to the dominant target only."
+            self.assertEqual(new.replace(sentence, ""), old)
+        for run in ("compare-20260906-sol-max", "rerun-20260906-compact-sol-max"):
+            job_dir = ROOT / "runs" / run / "29_38"
+            w.validate_job(job_dir)
 
     def test_source_projection_detects_pruning_even_with_updated_packet_hash(self):
         with tempfile.TemporaryDirectory(dir="/private/tmp") as temporary:

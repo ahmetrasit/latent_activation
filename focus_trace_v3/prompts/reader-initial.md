@@ -115,8 +115,7 @@ Root inventories are grouped under `targets`. Focus branches supply branch_key
 directly. Compact context branches supply branch_id under their target; join
 the target's mapped_root_id, a slash, and that branch_id to form the same key.
 All mapped targets are legitimate
-activation material, including non-dominant split-root targets.
-Do not collapse a split root to the dominant target only. Branch IDs are
+activation material, including non-dominant split-root targets. Branch IDs are
 root-local; use the complete combined branch_key. A context occurrence of a focus
 root uses its focus inventory even though it is omitted from context_root_cues.
 
